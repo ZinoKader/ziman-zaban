@@ -39,6 +39,18 @@ npm run dev          # http://localhost:41731
 
 Progress, settings and reviews are stored in the browser's localStorage. There is no backend and no account. Progress can be exported and imported from Settings.
 
+## Deploying
+
+Every push to `main` deploys to GitHub Pages at <https://zinokader.github.io/ziman-zaban/> through `.github/workflows/deploy.yml`. The workflow runs `content:check`, the tests, typecheck and lint, then `npm run build:pages` with `BASE_PATH=/ziman-zaban/`. It can also be started by hand from the Actions tab. The repository's Pages source must be set to "GitHub Actions".
+
+`build:pages` copies `index.html` to `404.html` so that deep links and refreshes load the app instead of the Pages 404. Builds without `BASE_PATH` (`npm run dev`, `npm run build`) serve from `/`. To try the Pages build locally:
+
+```bash
+BASE_PATH=/ziman-zaban/ npm run build:pages
+```
+
+Then serve `dist/` under `/ziman-zaban/`.
+
 ## How accuracy works
 
 Course content is JSON under `src/content/data/`. Nothing reaches the learner without passing `npm run content:check`, which:
