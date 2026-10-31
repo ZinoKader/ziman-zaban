@@ -109,15 +109,16 @@ function UnitRow({ p }: { p: UnitProgress }) {
   const s = progressStrings.use()
   const l = useLocalize()
   const { unit, words, sentences, questions, state } = p
+  const count = s.unitWords(words.learned, words.total, words.learning)
   return (
     <li className={cn('flex items-start gap-3 rounded-2xl border bg-card p-4', state === 'upcoming' && 'bg-card/60')}>
       <span className="text-3xl leading-none" aria-hidden>{unit.emoji}</span>
       <div className="min-w-0 flex-1 space-y-2">
         <div className="flex items-baseline justify-between gap-2">
           <h3 className="truncate font-medium">{l(unit.title)}</h3>
-          <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{s.unitWords(words.learned, words.total)}</span>
+          <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{count}</span>
         </div>
-        <Meter learned={words.learned} learning={words.learning} total={words.total} size="xs" label={`${l(unit.title)}: ${s.unitWords(words.learned, words.total)}`} />
+        <Meter learned={words.learned} learning={words.learning} total={words.total} size="xs" label={`${l(unit.title)}: ${count}`} />
         <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted-foreground">
           <span className={cn('font-medium', state === 'done' && 'text-success', state === 'active' && 'text-foreground')}>
             {state === 'done' && <CircleCheck className="me-1 inline size-3.5 align-[-2px]" />}

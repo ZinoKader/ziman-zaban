@@ -66,7 +66,7 @@ export function ModuleBars({ modules, linked = true }: { modules: ModuleProgress
                 <span className="truncate">{c.nav[skill]}</span>
               </span>
               <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
-                {status.learned}/{status.total}
+                {s.counts(status.learned, status.started - status.learned, status.total)}
               </span>
             </div>
             <Meter

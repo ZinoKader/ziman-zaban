@@ -6,7 +6,7 @@ import type { Skill } from '@/content/types'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
 import { Meter } from '@/features/progress/meter'
-import { pct, sessionGain } from '@/features/progress/progress-data'
+import { sessionGain } from '@/features/progress/progress-data'
 import { progressStrings } from '@/features/progress/strings'
 import { cardsBefore, lastRecordedAt, useProgress } from '@/store/progress'
 import { useSaveStatus } from '@/store/save-status'
@@ -110,7 +110,7 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
             <div className="flex items-baseline justify-between gap-2">
               <span className="font-medium">{p.wordsLearned}</span>
               <span className="text-sm tabular-nums text-muted-foreground">
-                {p.beforeAfter(course.before.learned, course.after.learned)} / {course.after.total} · {pct(course.after.learned, course.after.total)}%
+                {p.counts(course.after.learned, course.after.learning, course.after.total)}
               </span>
             </div>
             <Meter
@@ -134,14 +134,14 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
                 </ul>
               </div>
             ) : (
-              stats.newItems > 0 && <p className="text-xs text-muted-foreground">{p.learnedLater}</p>
+              course.after.learning > 0 && <p className="text-xs text-muted-foreground">{p.learnedLater}</p>
             )}
           </div>
           <div className="space-y-2">
             <div className="flex items-baseline justify-between gap-2 text-sm">
               <span className="font-medium">{s.modules[skill].title}</span>
               <span className="tabular-nums text-muted-foreground">
-                {p.beforeAfter(module.before.learned, module.after.learned)} / {module.after.total}
+                {p.counts(module.after.learned, module.after.started - module.after.learned, module.after.total)}
               </span>
             </div>
             <Meter

@@ -35,6 +35,9 @@ export const progressStrings = defineStrings({
     streak: (n: number) => (n ? `${n}-day streak` : 'No streak yet'),
     seeAll: 'See all progress',
     moduleLabel: (name: string, a: number, b: number) => `${name}: ${a} of ${b} learned`,
+    /** Text beside a two-segment bar: the solid part out of the total, then the lighter part. */
+    counts: (learned: number, learning: number, total: number) =>
+      `${learned}/${total}${learning ? ` · ${learning} in progress` : ''}`,
 
     title: 'Your progress',
     intro: 'Everything is saved on this device after every answer.',
@@ -43,10 +46,10 @@ export const progressStrings = defineStrings({
     current: 'Current',
     modules: 'Modules',
     units: 'Units',
-    unitWords: (a: number, b: number) => `${a}/${b} words`,
+    unitWords: (a: number, b: number, learning = 0) => `${a}/${b} words${learning ? ` · ${learning} in progress` : ''}`,
     unitSentences: (a: number, b: number) => `${a}/${b} sentences unlocked`,
     unitQuestions: (a: number, b: number) => `${a}/${b} questions unlocked`,
-    unitState: { upcoming: 'Not started', active: 'In progress', done: 'Complete' },
+    unitState: { upcoming: 'Not started', active: 'Started', done: 'Complete' },
     activity: 'Last 14 days',
     activityTotal: (n: number) => `${n} review${n === 1 ? '' : 's'}`,
     activityBar: (day: string, n: number) => `${day}: ${n} review${n === 1 ? '' : 's'}`,
@@ -72,7 +75,6 @@ export const progressStrings = defineStrings({
     saving: 'Saving…',
     saveFailed: "Couldn't save on this device. Export a backup in Settings.",
     wordsLearned: 'Words learned',
-    beforeAfter: (a: number, b: number) => `${a} → ${b}`,
     newlyLearned: (n: number) => `+${n} word${n === 1 ? '' : 's'} learned`,
     learnedLater:
       'New words count as learned once they come back in a later review and you still know them.',
@@ -111,6 +113,8 @@ export const progressStrings = defineStrings({
     streak: (n: number) => (n ? `${n} ${n === 1 ? 'dag' : 'dagar'} i rad` : 'Ingen svit än'),
     seeAll: 'Se alla framsteg',
     moduleLabel: (name: string, a: number, b: number) => `${name}: ${a} av ${b} inlärda`,
+    counts: (learned: number, learning: number, total: number) =>
+      `${learned}/${total}${learning ? ` · ${learning} under inlärning` : ''}`,
 
     title: 'Dina framsteg',
     intro: 'Allt sparas på den här enheten efter varje svar.',
@@ -119,10 +123,10 @@ export const progressStrings = defineStrings({
     current: 'Aktuell',
     modules: 'Moduler',
     units: 'Enheter',
-    unitWords: (a: number, b: number) => `${a}/${b} ord`,
+    unitWords: (a: number, b: number, learning = 0) => `${a}/${b} ord${learning ? ` · ${learning} under inlärning` : ''}`,
     unitSentences: (a: number, b: number) => `${a}/${b} meningar upplåsta`,
     unitQuestions: (a: number, b: number) => `${a}/${b} frågor upplåsta`,
-    unitState: { upcoming: 'Inte påbörjad', active: 'Pågår', done: 'Klar' },
+    unitState: { upcoming: 'Inte påbörjad', active: 'Påbörjad', done: 'Klar' },
     activity: 'Senaste 14 dagarna',
     activityTotal: (n: number) => `${n} ${n === 1 ? 'repetition' : 'repetitioner'}`,
     activityBar: (day: string, n: number) => `${day}: ${n} ${n === 1 ? 'repetition' : 'repetitioner'}`,
@@ -148,7 +152,6 @@ export const progressStrings = defineStrings({
     saving: 'Sparar…',
     saveFailed: 'Kunde inte spara på enheten. Exportera en säkerhetskopia under Inställningar.',
     wordsLearned: 'Inlärda ord',
-    beforeAfter: (a: number, b: number) => `${a} → ${b}`,
     newlyLearned: (n: number) => `+${n} ${n === 1 ? 'inlärt ord' : 'inlärda ord'}`,
     learnedLater:
       'Nya ord räknas som inlärda när de kommer tillbaka vid en senare repetition och du fortfarande kan dem.',

@@ -1,7 +1,8 @@
 import { act, fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter, Route, Routes } from 'react-router'
 import { TooltipProvider } from '@/components/ui/tooltip'
-import { conceptsFor } from '@/content'
+import { conceptsFor, units } from '@/content'
+import { moduleStatus } from '@/lib/curriculum'
 import { cardKey, Rating, reviewCard } from '@/lib/srs'
 import { HomePage } from '@/features/home/home-page'
 import { SessionSummary } from '@/features/session/session-summary'
@@ -68,6 +69,7 @@ describe('HomePage', () => {
     const course = screen.getByRole('progressbar', { name: `You know 3 of ${total} words` })
     expect(course).toHaveAttribute('aria-valuenow', '3')
     expect(screen.getByRole('progressbar', { name: `Recognition: 3 of ${total} learned` })).toBeInTheDocument()
+    expect(screen.getByText(`3/${total} · 2 in progress`)).toBeInTheDocument()
     expect(screen.getAllByRole('progressbar', { name: /: 0 of \d+ learned/ })).toHaveLength(3)
     expect(screen.getByText('8 reviews done')).toBeInTheDocument()
     expect(screen.getByText('2-day streak')).toBeInTheDocument()
@@ -91,6 +93,9 @@ describe('ProgressPage', () => {
     expect(screen.getByText(`You know 3 of ${total} words`)).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'Units' })).toBeInTheDocument()
     expect(screen.getAllByText(/\/\d+ words$/).length).toBeGreaterThan(1)
+    const unit = units.find((u) => u.id === words[0].unit)!
+    const unitTotal = words.filter((w) => w.unit === unit.id).length
+    expect(screen.getByRole('progressbar', { name: `${unit.title.en}: 3/${unitTotal} words · 2 in progress` })).toBeInTheDocument()
 
     const chart = screen.getByRole('list', { name: 'Last 14 days' })
     expect(within(chart).getAllByRole('listitem')).toHaveLength(14)
@@ -121,6 +126,9 @@ describe('ProgressPage', () => {
 })
 
 describe('SessionSummary', () => {
+  /** The label row above a bar: its title followed by the counts. */
+  const summaryRow = (title: string) => screen.getByText(title, { selector: 'span.font-medium' }).parentElement!
+
   it('confirms the save and shows newly learned words growing the course bar', () => {
     vi.useFakeTimers()
     const startMs = 60_000
@@ -133,6 +141,9 @@ describe('SessionSummary', () => {
       <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 0, ms: startMs }} empty={false} onRestart={() => {}} onExit={() => {}} />,
     )
     expect(screen.getByRole('status')).toHaveTextContent('Progress saved')
+    expect(summaryRow('Words learned')).toHaveTextContent(`1/${total}`)
+    expect(summaryRow('Recognition')).toHaveTextContent(/^Recognition1\/\d+$/)
+    expect(screen.queryByText(/→/)).not.toBeInTheDocument()
     expect(screen.getByText('+1 word learned')).toBeInTheDocument()
     expect(screen.getByText(word.ckb!.primary.latin)).toBeInTheDocument()
     const bar = screen.getByRole('progressbar', { name: `You know 1 of ${total} words` })
@@ -142,6 +153,39 @@ describe('SessionSummary', () => {
     expect(solid.style.width).not.toBe('0%')
     expect(screen.getByText('100%')).toBeInTheDocument()
     vi.useRealTimers()
+  })
+
+  it('counts words still in progress after a first session, and updates live', () => {
+    const recognition = moduleStatus('recognition', 'ckb', {}).total
+    const { record } = useProgress.getState()
+    record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
+    record(cardKey('ckb', 'recognition', words[1].id), Rating.Good, { ms: 1, kind: 'mc' })
+    renderAt(
+      '/',
+      <SessionSummary skill="recognition" stats={{ reviewed: 2, correctFirstTry: 2, newItems: 2, ms: 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
+    )
+    expect(summaryRow('Words learned')).toHaveTextContent(`0/${total} · 2 in progress`)
+    expect(summaryRow('Recognition')).toHaveTextContent(`0/${recognition} · 2 in progress`)
+    expect(screen.getByText(/count as learned once they come back/)).toBeInTheDocument()
+    expect(screen.queryByText(/→/)).not.toBeInTheDocument()
+
+    act(() => {
+      const key = cardKey('ckb', 'recognition', words[2].id)
+      useProgress.setState((s) => ({ cards: { ...s.cards, [key]: reviewCard(undefined, Rating.Easy, new Date()) } }))
+    })
+    expect(summaryRow('Words learned')).toHaveTextContent(`1/${total} · 2 in progress`)
+    expect(summaryRow('Recognition')).toHaveTextContent(`1/${recognition} · 2 in progress`)
+  })
+
+  it('labels words in progress in Swedish', () => {
+    useSettings.setState({ baseLang: 'sv' })
+    useProgress.getState().record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
+    renderAt(
+      '/',
+      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
+    )
+    expect(summaryRow('Inlärda ord')).toHaveTextContent(`0/${total} · 1 under inlärning`)
+    expect(summaryRow('Igenkänning')).toHaveTextContent(/· 1 under inlärning$/)
   })
 
   it('warns when saving failed', () => {

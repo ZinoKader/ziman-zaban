@@ -75,6 +75,19 @@ describe('moduleProgress', () => {
     expect(m[0].status).toEqual(moduleStatus('recognition', 'ckb', cards, now))
     expect(m[0].status.learned).toBe(1)
   })
+
+  it('splits started module items into learned and in progress, matching the course bar', () => {
+    const cards: Cards = {
+      [cardKey('ckb', 'recognition', words[0].id)]: learned(),
+      [cardKey('ckb', 'recognition', words[1].id)]: learning(),
+      [cardKey('ckb', 'recognition', words[2].id)]: learning(),
+      [cardKey('ckb', 'recall', words[3].id)]: learning(),
+    }
+    const [recognition, recall] = moduleProgress('ckb', cards, now).map((m) => m.status)
+    expect(recognition).toMatchObject({ learned: 1, started: 3 })
+    expect(recall).toMatchObject({ learned: 0, started: 1 })
+    expect(courseProgress('ckb', cards)).toEqual({ learned: 1, learning: 3, total: words.length })
+  })
 })
 
 describe('unitProgress', () => {
