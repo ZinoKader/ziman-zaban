@@ -116,11 +116,15 @@ function lintForm(where: string, form: { script?: string; text?: string; latin: 
   for (const i of lintLatin(form.latin, lang)) issues.push({ ...i, where, message: i.message })
 }
 
+const withoutSlots = (s: string) => s.replace(/\{\w+\}/g, ' ').replace(/\s+/g, ' ').trim()
+
 function checkTokens(where: string, tokens: Token[], text: string, latin: string, lang: TargetLang) {
   for (const t of tokens) {
-    lintForm(`${where} token "${t.text}"`, t, lang)
     if (t.concept && !conceptIds.has(t.concept)) error(where, `token "${t.text}" refers to unknown concept "${t.concept}"`)
-    const rom = checkRomanization(t.text, t.latin, lang)
+    const plain = { text: withoutSlots(t.text), latin: withoutSlots(t.latin) }
+    if (!plain.text) continue
+    lintForm(`${where} token "${t.text}"`, plain, lang)
+    const rom = checkRomanization(plain.text, plain.latin, lang)
     if (!rom.ok) warn(where, `token "${t.text}" / "${t.latin}" romanization may not match script (${rom.script} vs ${rom.latin})`)
   }
   const joined = foldForMatch(tokens.map((t) => t.text).join(' '), lang)
@@ -245,14 +249,15 @@ for (const { file, q } of qaEntries) {
     lintForm(`${where} ${lang} question`, form.question, lang)
     if (form.question.tokens) checkTokens(`${where} ${lang} question`, form.question.tokens, form.question.text, form.question.latin, lang)
     for (const a of form.answers) {
-      const plain = { ...a, text: a.text.replace(/\{\w+\}/g, '').trim(), latin: a.latin.replace(/\{\w+\}/g, '').trim() }
-      lintForm(`${where} ${lang} answer`, plain, lang)
+      lintForm(`${where} ${lang} answer`, { text: withoutSlots(a.text), latin: withoutSlots(a.latin) }, lang)
       for (const slot of a.text.match(/\{(\w+)\}/g) ?? []) {
         const name = slot.slice(1, -1)
         if (!form.slots?.[name]) error(where, `answer uses ${slot} but no slot values are defined`)
       }
       if (a.tokens) checkTokens(`${where} ${lang} answer`, a.tokens, a.text, a.latin, lang)
     }
+    for (const [name, values] of Object.entries(form.slots ?? {}))
+      for (const v of values) lintForm(`${where} ${lang} slot {${name}}`, v, lang)
     const qe = sentenceEvidence({ ...form.question, tokens: form.question.tokens ?? [], sources: form.sources }, lang)
     evidence[`qa:${lang}:${q.id}`] = applyReview(`qa:${lang}:${q.id}`, form.question.tokens ? qe : { level: 'none', checks: [] })
   }

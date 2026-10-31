@@ -1,8 +1,100 @@
 {
+ "concept:ckb:a-little": {
+  "level": "attested",
+  "checks": [
+   "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:age": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:and-you": {
   "level": "attested",
   "checks": [
    "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:baby": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:brother": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "/bəɾaː/"
+ },
+ "concept:ckb:child": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:city": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "/ʃaːɾ/"
+ },
+ "concept:ckb:country": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:daughter": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:english": {
+  "level": "attested",
+  "checks": [
+   "Used in 25 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:family": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:father": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/baːu̯k/"
+ },
+ "concept:ckb:friend": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:from": {
+  "level": "attested",
+  "checks": [
+   "Used in 1983 Tatoeba sentences"
   ]
  },
  "concept:ckb:good": {
@@ -35,6 +127,31 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:grandfather": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/baːpiːɾ/"
+ },
+ "concept:ckb:grandmother": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/daːpiːɾ/"
+ },
+ "concept:ckb:he-she": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 723 Tatoeba sentences"
+  ],
+  "ipa": "/æw/"
+ },
  "concept:ckb:hello": {
   "level": "good",
   "checks": [
@@ -42,6 +159,14 @@
    "Used in 15 Tatoeba sentences"
   ],
   "ipa": "/səɫaːw/"
+ },
+ "concept:ckb:here": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 50 Tatoeba sentences"
+  ]
  },
  "concept:ckb:how-are-you": {
   "level": "strong",
@@ -52,11 +177,113 @@
   ],
   "ipa": "/t͡ʃoːni/"
  },
+ "concept:ckb:how-many": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 211 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:husband": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/me̞ːɾd/"
+ },
+ "concept:ckb:i": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 541 Tatoeba sentences"
+  ],
+  "ipa": "/mɪn/"
+ },
  "concept:ckb:i-am-fine": {
   "level": "attested",
   "checks": [
    "Used in 9 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:kurdish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:language": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "/zmaːn/"
+ },
+ "concept:ckb:man": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:married": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:maternal-aunt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/puːɾ/"
+ },
+ "concept:ckb:maternal-uncle": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/xaːɫ/"
+ },
+ "concept:ckb:mother": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 43 Tatoeba sentences"
+  ],
+  "ipa": "/daːi̯k/"
+ },
+ "concept:ckb:name": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "/naːu̯/"
+ },
+ "concept:ckb:native-of": {
+  "level": "attested",
+  "checks": [
+   "Used in 43 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:nice-to-meet-you": {
+  "level": "none",
+  "checks": []
  },
  "concept:ckb:no": {
   "level": "attested",
@@ -70,10 +297,63 @@
    "Used in 80 Tatoeba sentences"
   ]
  },
+ "concept:ckb:older": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:only": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 57 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:paternal-aunt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/puːɾ/"
+ },
+ "concept:ckb:paternal-uncle": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/maːm/"
+ },
+ "concept:ckb:persian": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
  "concept:ckb:please": {
   "level": "attested",
   "checks": [
    "Used in 128 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sister": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:son": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
   ]
  },
  "concept:ckb:sorry": {
@@ -81,6 +361,19 @@
   "checks": [
    "Wiktionary translation table",
    "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sweden": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:swedish": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
   ]
  },
  "concept:ckb:thank-you": {
@@ -98,11 +391,124 @@
    "Used in 21 Tatoeba sentences"
   ]
  },
+ "concept:ckb:that": {
+  "level": "attested",
+  "checks": [
+   "Used in 474 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:there": {
+  "level": "attested",
+  "checks": [
+   "Used in 30 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:they": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 101 Tatoeba sentences"
+  ],
+  "ipa": "[aˈwaːn]"
+ },
+ "concept:ckb:this": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 261 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-be": {
+  "level": "attested",
+  "checks": [
+   "Used in 75 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-have": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-live": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "ipa": "/ʒjaːn/"
+ },
+ "concept:ckb:to-speak": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:we": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 189 Tatoeba sentences"
+  ],
+  "ipa": "/eːmæ/"
+ },
  "concept:ckb:welcome": {
   "level": "attested",
   "checks": [
    "Used in 1 Tatoeba sentence"
   ]
+ },
+ "concept:ckb:what": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 224 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:where": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 35 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:who": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 97 Tatoeba sentences"
+  ],
+  "ipa": "/ce̞ː/"
+ },
+ "concept:ckb:wife": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/ʒən/"
+ },
+ "concept:ckb:woman": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/ʒən/"
+ },
+ "concept:ckb:year": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 59 Tatoeba sentences"
+  ],
+  "ipa": "/saːɫ/"
  },
  "concept:ckb:yes": {
   "level": "strong",
@@ -111,17 +517,161 @@
    "Used in 8 Tatoeba sentences"
   ]
  },
+ "concept:ckb:you": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 305 Tatoeba sentences"
+  ],
+  "ipa": "/toː/"
+ },
+ "concept:ckb:you-plural": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 162 Tatoeba sentences"
+  ],
+  "ipa": "/eːwæ/"
+ },
+ "concept:ckb:younger": {
+  "level": "none",
+  "checks": []
+ },
  "concept:ckb:youre-welcome": {
   "level": "attested",
   "checks": [
    "Used in 9 Tatoeba sentences"
   ]
  },
+ "concept:fa:a-little": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 130 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲæ.míː]"
+ },
+ "concept:fa:age": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 48 Tatoeba sentences"
+  ],
+  "ipa": "[sen(ː)]"
+ },
  "concept:fa:and-you": {
   "level": "attested",
   "checks": [
    "Used in 97 Tatoeba sentences"
   ]
+ },
+ "concept:fa:baby": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[now.zɒːd̪̥]"
+ },
+ "concept:fa:brother": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 62 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Fa-%D8%A8%D8%B1%D8%A7%D8%AF%D8%B1.ogg/Fa-%D8%A8%D8%B1%D8%A7%D8%AF%D8%B1.ogg.mp3",
+  "ipa": "[bæ.ɹɒː.d̪ǽɹ]"
+ },
+ "concept:fa:child": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 191 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DA%86%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DA%86%D9%87.wav.mp3",
+  "ipa": "[bæ.t͡ʃʰe]"
+ },
+ "concept:fa:city": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 149 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%87%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%87%D8%B1.wav.mp3",
+  "ipa": "[ʃæɦɹ]"
+ },
+ "concept:fa:country": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 105 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%B4%D9%88%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%B4%D9%88%D8%B1.wav.mp3",
+  "ipa": "[kʰʲeʃ.vǽɹ]"
+ },
+ "concept:fa:daughter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 87 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%AE%D8%AA%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%AE%D8%AA%D8%B1.wav.mp3",
+  "ipa": "[d̪ox.t̪ʰæɹ]"
+ },
+ "concept:fa:english": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 100 Tatoeba sentences"
+  ],
+  "ipa": "[ʔeŋɡʲ.liː.síː]"
+ },
+ "concept:fa:family": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 63 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%D9%87.wav.mp3",
+  "ipa": "[xɒː.ne.vɒː.d̪é]"
+ },
+ "concept:fa:father": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 106 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Fa-%D9%BE%D8%AF%D8%B1.ogg/Fa-%D9%BE%D8%AF%D8%B1.ogg.mp3",
+  "ipa": "[pʰe.d̪ǽɹ]"
+ },
+ "concept:fa:friend": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 782 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Fa-%D8%AF%D9%88%D8%B3%D8%AA.ogg/Fa-%D8%AF%D9%88%D8%B3%D8%AA.ogg.mp3",
+  "ipa": "[d̪uːst̪ʰ]"
+ },
+ "concept:fa:from": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4536 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D8%B2.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D8%B2.wav.mp3",
+  "ipa": "[ʔæz]"
  },
  "concept:fa:good": {
   "level": "strong",
@@ -157,6 +707,33 @@
   ],
   "ipa": "[xo.d̪ɒ́ː hɒː.féz]"
  },
+ "concept:fa:grandfather": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/LL-Q9168_%28fas%29-Darafsh-%D9%BE%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D9%BE%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav.mp3",
+  "ipa": "[pʰæ.d̪æɹ.bo.zoɹɡʲ̥]"
+ },
+ "concept:fa:grandmother": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav.mp3",
+  "ipa": "[mɒː.d̪æɹ bo.zoɹɡʲ̥]"
+ },
+ "concept:fa:he-she": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4144 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Fa-%D8%A7%D9%88.ogg/Fa-%D8%A7%D9%88.ogg.mp3",
+  "ipa": "[ʔuː]"
+ },
  "concept:fa:hello": {
   "level": "strong",
   "checks": [
@@ -167,17 +744,148 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Fa-%D8%B3%D9%84%D8%A7%D9%85.ogg/Fa-%D8%B3%D9%84%D8%A7%D9%85.ogg.mp3",
   "ipa": "[sæ.lɒ́ːm]"
  },
+ "concept:fa:here": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 256 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/LL-Q9168_%28fas%29-Afsham23-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7.wav.mp3",
+  "ipa": "[ʔiːn.d͡ʒɒː]"
+ },
  "concept:fa:how-are-you": {
   "level": "attested",
   "checks": [
    "Used in 14 Tatoeba sentences"
   ]
  },
+ "concept:fa:how-many": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 162 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰæn̪d̪̥]"
+ },
+ "concept:fa:husband": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%88%D9%87%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%88%D9%87%D8%B1.wav.mp3",
+  "ipa": "[ʃow.hǽɹ]"
+ },
+ "concept:fa:i": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 4314 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Fa-%D9%85%D9%86.ogg/Fa-%D9%85%D9%86.ogg.mp3",
+  "ipa": "[mæn]"
+ },
  "concept:fa:i-am-fine": {
   "level": "attested",
   "checks": [
    "Used in 14 Tatoeba sentences"
   ]
+ },
+ "concept:fa:kurdish": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 52 Tatoeba sentences"
+  ],
+  "ipa": "[kʰoɹ.d̪íː]"
+ },
+ "concept:fa:language": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 271 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Fa-%D8%B2%D8%A8%D8%A7%D9%86.ogg/Fa-%D8%B2%D8%A8%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[zæ.bɒ́ːn]"
+ },
+ "concept:fa:man": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 213 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Fa-%D9%85%D8%B1%D8%AF.ogg/Fa-%D9%85%D8%B1%D8%AF.ogg.mp3",
+  "ipa": "[mæɹd̪̥]"
+ },
+ "concept:fa:married": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[mo.t̪ʰæ.ʔæɦ.hel̥]"
+ },
+ "concept:fa:maternal-aunt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D8%A7%D9%84%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D8%A7%D9%84%D9%87.wav.mp3",
+  "ipa": "[xɒː.le]"
+ },
+ "concept:fa:maternal-uncle": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%A7%DB%8C%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%A7%DB%8C%DB%8C.wav.mp3",
+  "ipa": "[d̪ɒː.jíː]"
+ },
+ "concept:fa:mother": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 87 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Fa-%D9%85%D8%A7%D8%AF%D8%B1.ogg/Fa-%D9%85%D8%A7%D8%AF%D8%B1.ogg.mp3",
+  "ipa": "[mɒː.d̪ǽɹ]"
+ },
+ "concept:fa:name": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 45 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Fa-%D8%A7%D8%B3%D9%85.ogg/Fa-%D8%A7%D8%B3%D9%85.ogg.mp3",
+  "ipa": "[ʔesm]"
+ },
+ "concept:fa:native-of": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%87%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%87%D9%84.wav.mp3",
+  "ipa": "[ʔæɦl̥]"
+ },
+ "concept:fa:nice-to-meet-you": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "[xoʃ.væx.t̪ʰǽm]"
  },
  "concept:fa:no": {
   "level": "strong",
@@ -197,6 +905,53 @@
   ],
   "ipa": "[bɒː.ʃe]"
  },
+ "concept:fa:older": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 243 Tatoeba sentences"
+  ],
+  "ipa": "[bo.zoɹɡʲ.t̪ʰǽɹ]"
+ },
+ "concept:fa:only": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 417 Tatoeba sentences"
+  ],
+  "ipa": "[fæ.ʁæt̪ʰ]"
+ },
+ "concept:fa:paternal-aunt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæm.mé]"
+ },
+ "concept:fa:paternal-uncle": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Fa-%D8%B9%D9%85%D9%88.ogg/Fa-%D8%B9%D9%85%D9%88.ogg.mp3",
+  "ipa": "[ʔæ.muː]"
+ },
+ "concept:fa:persian": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C.wav.mp3",
+  "ipa": "[fɒːɹ.síː]"
+ },
  "concept:fa:please": {
   "level": "good",
   "checks": [
@@ -204,6 +959,26 @@
    "Used in 317 Tatoeba sentences"
   ],
   "ipa": "[lót̪ʰ.fæn]"
+ },
+ "concept:fa:sister": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 44 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/Fa-%D8%AE%D9%88%D8%A7%D9%87%D8%B1.ogg/Fa-%D8%AE%D9%88%D8%A7%D9%87%D8%B1.ogg.mp3",
+  "ipa": "[xɒː.ɦæɹ]"
+ },
+ "concept:fa:son": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 99 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Fa-%D9%BE%D8%B3%D8%B1.ogg/Fa-%D9%BE%D8%B3%D8%B1.ogg.mp3",
+  "ipa": "[pʰe.sæɹ]"
  },
  "concept:fa:sorry": {
   "level": "strong",
@@ -213,6 +988,21 @@
    "Used in 52 Tatoeba sentences"
   ],
   "ipa": "[bé.bæx.ʃiːd̪̥]"
+ },
+ "concept:fa:sweden": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[suː.ʔéd̪̥]"
+ },
+ "concept:fa:swedish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
  },
  "concept:fa:thank-you": {
   "level": "strong",
@@ -230,6 +1020,93 @@
    "Used in 29 Tatoeba sentences"
   ]
  },
+ "concept:fa:that": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2435 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/Fa-%D8%A2%D9%86.ogg/Fa-%D8%A2%D9%86.ogg.mp3",
+  "ipa": "[ʔɒːn]"
+ },
+ "concept:fa:there": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 156 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%86%D8%AC%D8%A7.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%86%D8%AC%D8%A7.wav.mp3",
+  "ipa": "[ʔɒːn.d͡ʒɒ́ː]"
+ },
+ "concept:fa:they": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1010 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%86%E2%80%8C%D9%87%D8%A7.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%86%E2%80%8C%D9%87%D8%A7.wav.mp3",
+  "ipa": "[ʔɒːn.hɒ́ː]"
+ },
+ "concept:fa:this": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2384 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Fa-%D8%A7%DB%8C%D9%86.ogg/Fa-%D8%A7%DB%8C%D9%86.ogg.mp3",
+  "ipa": "[ʔiːn]"
+ },
+ "concept:fa:to-be": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 149 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Fa-%D8%A8%D9%88%D8%AF%D9%86.ogg/Fa-%D8%A8%D9%88%D8%AF%D9%86.ogg.mp3",
+  "ipa": "[buː.d̪ǽn]"
+ },
+ "concept:fa:to-have": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 84 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Fa-%D8%AF%D8%A7%D8%B4%D8%AA%D9%86.ogg/Fa-%D8%AF%D8%A7%D8%B4%D8%AA%D9%86.ogg.mp3",
+  "ipa": "[d̪ɒːʃ.t̪ʰǽn]"
+ },
+ "concept:fa:to-live": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 573 Tatoeba sentences"
+  ],
+  "ipa": "[zæn̪.d̪e.ɡʲiː kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-speak": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 293 Tatoeba sentences"
+  ],
+  "ipa": "[soɦ.bæt̪ʰ kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:we": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 1233 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Fa-%D9%85%D8%A7.ogg/Fa-%D9%85%D8%A7.ogg.mp3",
+  "ipa": "[mɒ́ːʔ]"
+ },
  "concept:fa:welcome": {
   "level": "strong",
   "checks": [
@@ -238,6 +1115,61 @@
    "Used in 21 Tatoeba sentences"
   ],
   "ipa": "[xoʃ ʔɒː.mǽ.d̪iːd̪̥]"
+ },
+ "concept:fa:what": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 859 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰe]"
+ },
+ "concept:fa:where": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 135 Tatoeba sentences"
+  ],
+  "ipa": "[kʰo.d͡ʒɒ́ː]"
+ },
+ "concept:fa:who": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 128 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲej]"
+ },
+ "concept:fa:wife": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 124 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%B2%D9%86.ogg/Fa-%D8%B2%D9%86.ogg.mp3",
+  "ipa": "[zæn]"
+ },
+ "concept:fa:woman": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 124 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%B2%D9%86.ogg/Fa-%D8%B2%D9%86.ogg.mp3",
+  "ipa": "[zæn]"
+ },
+ "concept:fa:year": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 277 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/LL-Q9168_%28fas%29-Afsham23-%D8%B3%D8%A7%D9%84.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B3%D8%A7%D9%84.wav.mp3",
+  "ipa": "[sɒːl̥]"
  },
  "concept:fa:yes": {
   "level": "strong",
@@ -249,6 +1181,32 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/Fa-%D8%A8%D9%84%D9%87.ogg/Fa-%D8%A8%D9%84%D9%87.ogg.mp3",
   "ipa": "[bǽ.le]"
  },
+ "concept:fa:you": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 880 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Fa-%D8%AA%D9%88.ogg/Fa-%D8%AA%D9%88.ogg.mp3",
+  "ipa": "[t̪ʰo]"
+ },
+ "concept:fa:you-plural": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1247 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Fa-%D8%B4%D9%85%D8%A7.ogg/Fa-%D8%B4%D9%85%D8%A7.ogg.mp3",
+  "ipa": "[ʃo.mɒ́ː]"
+ },
+ "concept:fa:younger": {
+  "level": "attested",
+  "checks": [
+   "Used in 140 Tatoeba sentences"
+  ]
+ },
  "concept:fa:youre-welcome": {
   "level": "good",
   "checks": [
@@ -256,5 +1214,614 @@
    "Used in 51 Tatoeba sentences"
   ],
   "ipa": "[xɒː.ɦéʃ míː.kʰo.næm]"
+ },
+ "qa:ckb:are-you-married": {
+  "level": "none",
+  "checks": [
+   "0/1 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-have-brothers-and-sisters": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10489967",
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-have-children": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-speak-kurdish": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10620524",
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-speak-persian": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:ckb:how-many-brothers": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-many-sisters": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-old-are-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:is-he-your-brother": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:nice-to-meet-you-reply": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-is-your-mothers-name": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-is-your-name": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:what-language-do-you-speak": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10310841",
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:ckb:where-are-you-from": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10537944",
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:where-do-you-live": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:where-does-your-family-live": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10538823",
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:ckb:where-is-he-from": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:who-is-he": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:are-you-married": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-have-brothers-and-sisters": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-have-children": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-speak-kurdish": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-speak-persian": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #13347343",
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:how-many-brothers": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:how-many-sisters": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:how-old-are-you": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:is-he-your-brother": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:nice-to-meet-you-reply": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:what-is-your-mothers-name": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:what-is-your-name": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #624613",
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:what-language-do-you-speak": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:fa:where-are-you-from": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:where-do-you-live": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:where-does-your-family-live": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:where-is-he-from": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:who-is-he": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:do-you-speak-english": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:hello-nice-to-meet-you": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-am-from-sweden": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-am-sara": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-dont-have-a-sister": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-have-a-brother": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-live-in-sweden": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-speak-a-little-persian": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-aunt-is-from-tehran": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-brother-is-younger-than-me": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-father-is-from-erbil": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-grandmother-only-speaks-kurdish": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-language-is-kurdish": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10620531",
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-name-is-sara": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-older-brother-lives-in-sweden": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-parents-live-in-sulaymaniyah": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-sister-is-older-than-me": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-uncle-lives-there": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-wife-is-swedish": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:that-woman-is-from-sulaymaniyah": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-children-are-here": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:they-live-there": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:this-is-my-family": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:this-is-my-friend": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:this-is-my-mother": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:we-are-friends": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:we-have-a-son": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:what-is-this": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:whats-your-friends-name": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:where-are-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:where-is-your-daughter": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:who-is-that-man": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:do-you-speak-english": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:hello-nice-to-meet-you": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #11114438",
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:fa:i-am-from-sweden": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-am-sara": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-dont-have-a-sister": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-have-a-brother": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-live-in-sweden": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-speak-a-little-persian": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:my-aunt-is-from-tehran": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:fa:my-brother-is-younger-than-me": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:my-father-is-from-erbil": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:my-grandmother-only-speaks-kurdish": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:my-language-is-kurdish": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:my-name-is-sara": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:my-older-brother-lives-in-sweden": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:fa:my-parents-live-in-sulaymaniyah": {
+  "level": "good",
+  "checks": [
+   "7/7 words attested in references"
+  ]
+ },
+ "sentence:fa:my-sister-is-older-than-me": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:my-uncle-lives-there": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:my-wife-is-swedish": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:that-woman-is-from-sulaymaniyah": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:the-children-are-here": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:they-live-there": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:this-is-my-family": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:fa:this-is-my-friend": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:this-is-my-mother": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:we-are-friends": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:we-have-a-son": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:what-is-this": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:whats-your-friends-name": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:where-are-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:where-is-your-daughter": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:who-is-that-man": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
  }
 }

@@ -1,0 +1,672 @@
+{
+  "concepts": [
+    {
+      "id": "family",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👨‍👩‍👧‍👦",
+      "gloss": { "en": "family", "sv": "familj" },
+      "ckb": {
+        "primary": { "script": "خێزان", "latin": "xêzan" },
+        "notes": {
+          "en": "خێزان is also a polite word for \"wife\", so خێزانەکەم can mean \"my family\" or \"my wife\".",
+          "sv": "خێزان är också ett artigt ord för \"fru\", så خێزانەکەم kan betyda \"min familj\" eller \"min fru\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "family" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خانواده", "latin": "khânevâde" },
+        "variants": [
+          {
+            "script": "فامیل",
+            "latin": "fâmil",
+            "register": "colloquial",
+            "note": { "en": "relatives, the wider family", "sv": "släkt, den utökade familjen" }
+          }
+        ],
+        "notes": {
+          "en": "Built on خانه (khâne) \"house\". فامیل (fâmil), from French, means the wider family, your relatives.",
+          "sv": "Bildat av خانه (khâne) \"hus\". فامیل (fâmil), från franskan, betyder den utökade familjen, släkten."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "family" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "mother",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👩",
+      "gloss": { "en": "mother", "sv": "mamma", "enAlt": ["mum", "mom"], "svAlt": ["mor", "moder"] },
+      "ckb": {
+        "primary": { "script": "دایک", "latin": "dayk" },
+        "variants": [{ "script": "دایە", "latin": "daye", "register": "colloquial" }],
+        "notes": {
+          "en": "Names, parents and close family take \"my\" directly: دایکم (daykim) \"my mother\", not دایکەکەم.",
+          "sv": "Namn, föräldrar och nära släkt får \"min\" direkt: دایکم (daykim) \"min mamma\", inte دایکەکەم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mother" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Possessives: exceptions" }]
+      },
+      "fa": {
+        "primary": { "script": "مادر", "latin": "mâdar" },
+        "variants": [{ "script": "مامان", "latin": "mâmân", "register": "colloquial" }],
+        "notes": {
+          "en": "مادر and پدر are related to English \"mother, father\" and Swedish \"moder, fader\". At home, people say مامان (mâmân).",
+          "sv": "مادر och پدر är släkt med svenskans \"moder, fader\" och engelskans \"mother, father\". Hemma säger man مامان (mâmân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mother" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "father",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👨",
+      "gloss": { "en": "father", "sv": "pappa", "enAlt": ["dad"], "svAlt": ["far", "fader"] },
+      "ckb": {
+        "primary": { "script": "باوک", "latin": "bawk" },
+        "variants": [{ "script": "بابە", "latin": "babe", "register": "colloquial" }],
+        "notes": {
+          "en": "\"My father\" is باوکم (bawkim). \"Mother and father\" is دایک و باوک: Kurdish puts the mother first.",
+          "sv": "\"Min pappa\" heter باوکم (bawkim). \"Mamma och pappa\" heter دایک و باوک: kurdiskan sätter mamman först."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "father" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پدر", "latin": "pedar" },
+        "variants": [{ "script": "بابا", "latin": "bâbâ", "register": "colloquial" }],
+        "notes": {
+          "en": "\"Parents\" is پدر و مادر (pedar-o mâdar): Persian puts the father first, Kurdish the mother.",
+          "sv": "\"Föräldrar\" heter پدر و مادر (pedar-o mâdar): persiskan sätter pappan först, kurdiskan mamman."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "father" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "brother",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👦",
+      "gloss": { "en": "brother", "sv": "bror", "svAlt": ["broder", "brorsa"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "برا", "latin": "bira" },
+        "notes": {
+          "en": "The i in bira is not written. \"My brother\" is برام (biram). Related to Persian برادر, English \"brother\" and Swedish \"bror\".",
+          "sv": "I:et i bira skrivs inte. \"Min bror\" heter برام (biram). Släkt med persiskans برادر, engelskans \"brother\" och svenskans \"bror\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "brother" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "primary": { "script": "برادر", "latin": "barâdar" },
+        "variants": [{ "script": "داداش", "latin": "dâdâsh", "register": "colloquial" }],
+        "notes": {
+          "en": "داداش (dâdâsh) is the warm everyday word, also used to friends: \"bro\".",
+          "sv": "داداش (dâdâsh) är det varma vardagsordet, som också används till kompisar: \"brorsan\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "brother" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sister",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👧",
+      "gloss": { "en": "sister", "sv": "syster", "svAlt": ["syrra"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خوشک", "latin": "xuşk" },
+        "notes": {
+          "en": "Also a friendly way to address any woman: خوشکە! (xuşke) \"sister!\". \"My sister\" is خوشکم (xuşkim).",
+          "sv": "Används också vänligt till vilken kvinna som helst: خوشکە! (xuşke) \"syster!\". \"Min syster\" heter خوشکم (xuşkim)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sister" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خواهر", "latin": "khâhar" },
+        "notes": {
+          "en": "The و is silent: khâhar. Related to Sorani خوشک, English \"sister\" and Swedish \"syster\".",
+          "sv": "و är stumt: khâhar. Släkt med soranins خوشک, engelskans \"sister\" och svenskans \"syster\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sister" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "son",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "son", "sv": "son" },
+      "ckb": {
+        "primary": { "script": "کوڕ", "latin": "kuř" },
+        "notes": {
+          "en": "Also \"boy\". For your own son use the definite form, کوڕەکەم (kuřekem) \"my son\"; کوڕم sounds like \"sonny\".",
+          "sv": "Betyder också \"pojke\". Om sin egen son säger man کوڕەکەم (kuřekem) \"min son\"; کوڕم låter som \"min gosse\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "son" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "primary": { "script": "پسر", "latin": "pesar" },
+        "notes": {
+          "en": "Also \"boy\". The formal word for \"child\" (son or daughter) is فرزند (farzand).",
+          "sv": "Betyder också \"pojke\". Det formella ordet för \"barn\" (son eller dotter) är فرزند (farzand)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "son" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "daughter",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "daughter", "sv": "dotter" },
+      "ckb": {
+        "primary": { "script": "کچ", "latin": "kiç" },
+        "notes": {
+          "en": "Also \"girl\". \"My daughter\" is کچەکەم (kiçekem).",
+          "sv": "Betyder också \"flicka\". \"Min dotter\" heter کچەکەم (kiçekem)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کچ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دختر", "latin": "dokhtar" },
+        "notes": {
+          "en": "Also \"girl\". Related to English \"daughter\" and Swedish \"dotter\".",
+          "sv": "Betyder också \"flicka\". Släkt med svenskans \"dotter\" och engelskans \"daughter\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "daughter" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "child",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🧒",
+      "gloss": { "en": "child", "sv": "barn", "enAlt": ["kid"], "svAlt": ["unge"] },
+      "ckb": {
+        "primary": { "script": "منداڵ", "latin": "mindał" },
+        "variants": [{ "script": "مناڵ", "latin": "mnał", "register": "colloquial" }],
+        "plural": { "script": "منداڵان", "latin": "mindałan" },
+        "notes": {
+          "en": "\"The children\" is منداڵەکان (mindałekan).",
+          "sv": "\"Barnen\" heter منداڵەکان (mindałekan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "child" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بچه", "latin": "bachche" },
+        "variants": [{ "script": "کودک", "latin": "kudak", "register": "formal" }],
+        "plural": { "script": "بچه‌ها", "latin": "bachche-hâ" },
+        "notes": {
+          "en": "بچه is the everyday word; کودک is formal and written. \"Do you have children?\" is just بچه دارید؟",
+          "sv": "بچه är vardagsordet; کودک är formellt och skriftligt. \"Har du barn?\" heter helt enkelt بچه دارید؟"
+        },
+        "sources": [{ "source": "wiktionary", "ref": "child" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "grandmother",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👵",
+      "gloss": { "en": "grandmother", "sv": "farmor / mormor", "enAlt": ["grandma"], "svAlt": ["farmor", "mormor"] },
+      "ckb": {
+        "primary": { "script": "داپیر", "latin": "dapîr" },
+        "variants": [
+          { "script": "داپیرە", "latin": "dapîre" },
+          { "script": "نەنک", "latin": "nenk", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Literally \"old mother\": دا (mother, as in دایە) + پیر (old). One word for both sides of the family, unlike Swedish farmor and mormor.",
+          "sv": "Ordagrant \"gammal mor\": دا (mor, som i دایە) + پیر (gammal). Ett ord för båda sidor av släkten, till skillnad från svenskans farmor och mormor."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "grandmother" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مادربزرگ", "latin": "mâdarbozorg" },
+        "variants": [{ "script": "مامان‌بزرگ", "latin": "mâmânbozorg", "register": "colloquial" }],
+        "notes": {
+          "en": "Literally \"big mother\". One word for both sides of the family.",
+          "sv": "Ordagrant \"stor mor\". Ett ord för båda sidor av släkten."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مادربزرگ" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "grandfather",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👴",
+      "gloss": { "en": "grandfather", "sv": "farfar / morfar", "enAlt": ["grandpa"], "svAlt": ["farfar", "morfar"] },
+      "ckb": {
+        "primary": { "script": "باپیر", "latin": "bapîr" },
+        "variants": [{ "script": "باپیرە", "latin": "bapîre" }],
+        "notes": {
+          "en": "Literally \"old father\": با (father, as in بابە) + پیر (old), the partner word of داپیر.",
+          "sv": "Ordagrant \"gammal far\": با (far, som i بابە) + پیر (gammal), motsvarigheten till داپیر."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "grandfather" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پدربزرگ", "latin": "pedarbozorg" },
+        "variants": [{ "script": "بابابزرگ", "latin": "bâbâbozorg", "register": "colloquial" }],
+        "notes": {
+          "en": "Literally \"big father\". At home: بابابزرگ (bâbâbozorg).",
+          "sv": "Ordagrant \"stor far\". Hemma: بابابزرگ (bâbâbozorg)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پدربزرگ" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "husband",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🤵",
+      "gloss": { "en": "husband", "sv": "man", "svAlt": ["make"] },
+      "ckb": {
+        "primary": { "script": "مێرد", "latin": "mêrd" },
+        "notes": {
+          "en": "\"My husband\" is مێردەکەم (mêrdekem). مێرد is the same word as Persian مرد (mard) \"man\".",
+          "sv": "\"Min man\" heter مێردەکەم (mêrdekem). مێرد är samma ord som persiskans مرد (mard) \"man\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "husband" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شوهر", "latin": "shohar" },
+        "variants": [
+          {
+            "script": "همسر",
+            "latin": "hamsar",
+            "register": "formal",
+            "note": { "en": "\"spouse\", polite for husband or wife", "sv": "\"make/maka\", artigt för man eller fru" }
+          }
+        ],
+        "notes": {
+          "en": "Here the ه is a real h: shohar. همسر (hamsar) \"spouse\" is the polite word.",
+          "sv": "Här är ه ett riktigt h: shohar. همسر (hamsar) \"make, maka\" är det artiga ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "husband" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "wife",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👰",
+      "gloss": { "en": "wife", "sv": "fru", "svAlt": ["hustru", "maka"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ژن", "latin": "jin" },
+        "variants": [
+          {
+            "script": "خێزان",
+            "latin": "xêzan",
+            "note": { "en": "polite, also means \"family\"", "sv": "artigt, betyder också \"familj\"" }
+          }
+        ],
+        "notes": {
+          "en": "ژن means both \"woman\" and \"wife\": ژنەکەم \"my wife\". خێزانەکەم is the more polite way to say it.",
+          "sv": "ژن betyder både \"kvinna\" och \"fru\": ژنەکەم \"min fru\". خێزانەکەم är ett artigare sätt att säga det."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wife" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زن", "latin": "zan" },
+        "variants": [{ "script": "همسر", "latin": "hamsar", "register": "formal" }],
+        "notes": {
+          "en": "زن means both \"woman\" and \"wife\": زنم \"my wife\". همسرم (hamsaram) \"my spouse\" is more polite.",
+          "sv": "زن betyder både \"kvinna\" och \"fru\": زنم \"min fru\". همسرم (hamsaram) \"min maka\" är artigare."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "زن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "paternal-uncle",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "uncle", "sv": "farbror", "enAlt": ["paternal uncle"] },
+      "senseNote": { "en": "father's brother", "sv": "pappas bror" },
+      "ckb": {
+        "primary": { "script": "مام", "latin": "mam" },
+        "notes": {
+          "en": "Like Swedish, Kurdish keeps the two uncles apart: مام is farbror, خاڵ is morbror. مامە! is also a respectful way to address an older man.",
+          "sv": "Precis som svenskan skiljer kurdiskan på de två: مام är farbror, خاڵ är morbror. مامە! är också ett respektfullt tilltal till en äldre man."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "paternal uncle" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عمو", "latin": "amu" },
+        "notes": {
+          "en": "عمو is farbror, دایی is morbror. Children also call any friendly older man عمو.",
+          "sv": "عمو är farbror, دایی är morbror. Barn kallar också vilken vänlig äldre man som helst för عمو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "paternal uncle" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "maternal-uncle",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "uncle", "sv": "morbror", "enAlt": ["maternal uncle"] },
+      "senseNote": { "en": "mother's brother", "sv": "mammas bror" },
+      "ckb": {
+        "primary": { "script": "خاڵ", "latin": "xał" },
+        "notes": {
+          "en": "خاڵ also means \"dot, point\"; in a family the meaning is clear. \"My uncle\" is خاڵم (xałim).",
+          "sv": "خاڵ betyder också \"prick, punkt\"; i familjesammanhang är betydelsen tydlig. \"Min morbror\" heter خاڵم (xałim)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "maternal uncle" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دایی", "latin": "dâyi" },
+        "notes": {
+          "en": "Mother's brother, exactly Swedish morbror. \"My uncle\" is دایی‌ام (dâyi-am), in speech داییم (dâyim).",
+          "sv": "Mammas bror, precis som svenskans morbror. \"Min morbror\" heter دایی‌ام (dâyi-am), i tal داییم (dâyim)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "maternal uncle" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "paternal-aunt",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "aunt", "sv": "faster", "enAlt": ["paternal aunt"] },
+      "senseNote": { "en": "father's sister", "sv": "pappas syster" },
+      "ckb": {
+        "primary": { "script": "پوور", "latin": "pûr" },
+        "variants": [
+          {
+            "script": "خوشکی باوک",
+            "latin": "xuşkî bawk",
+            "note": { "en": "literally \"father's sister\", to be precise", "sv": "ordagrant \"pappas syster\", för att vara tydlig" }
+          }
+        ],
+        "notes": {
+          "en": "Unlike the uncles, Sorani پوور covers both aunts. To be precise, say خوشکی باوکم \"my father's sister\".",
+          "sv": "Till skillnad från farbror och morbror täcker soranins پوور båda mostrar och fastrar. Vill man vara tydlig säger man خوشکی باوکم \"min pappas syster\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "paternal aunt" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عمه", "latin": "amme" },
+        "notes": {
+          "en": "Father's sister, the partner word of عمو. Persian has four separate words, just like Swedish farbror, morbror, faster, moster.",
+          "sv": "Pappas syster, motsvarigheten till عمو. Persiskan har fyra olika ord, precis som svenskans farbror, morbror, faster och moster."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "paternal aunt" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "maternal-aunt",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "aunt", "sv": "moster", "enAlt": ["maternal aunt"] },
+      "senseNote": { "en": "mother's sister", "sv": "mammas syster" },
+      "ckb": {
+        "primary": { "script": "پوور", "latin": "pûr" },
+        "variants": [
+          {
+            "script": "خوشکی دایک",
+            "latin": "xuşkî dayk",
+            "note": { "en": "literally \"mother's sister\", to be precise", "sv": "ordagrant \"mammas syster\", för att vara tydlig" }
+          }
+        ],
+        "notes": {
+          "en": "The same word as for father's sister. To be precise, say خوشکی دایکم \"my mother's sister\".",
+          "sv": "Samma ord som för pappas syster. Vill man vara tydlig säger man خوشکی دایکم \"min mammas syster\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "maternal aunt" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خاله", "latin": "khâle" },
+        "notes": {
+          "en": "Mother's sister. Children also call any friendly older woman خاله. \"My aunt\" is خاله‌ام (khâle-am).",
+          "sv": "Mammas syster. Barn kallar också vilken vänlig äldre kvinna som helst för خاله. \"Min moster\" heter خاله‌ام (khâle-am)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "maternal aunt" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "baby",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👶",
+      "gloss": { "en": "baby", "sv": "bebis", "svAlt": ["bäbis", "spädbarn"] },
+      "ckb": {
+        "primary": { "script": "کۆرپە", "latin": "korpe" },
+        "notes": {
+          "en": "\"The baby\" is کۆرپەکە (korpeke). منداڵ (child) is also used for a baby.",
+          "sv": "\"Bebisen\" heter کۆرپەکە (korpeke). منداڵ (barn) används också om en bebis."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "نوزاد", "latin": "nowzâd" },
+        "variants": [{ "script": "نی‌نی", "latin": "nini", "register": "colloquial" }],
+        "notes": {
+          "en": "Literally \"new-born\": نو (new) + زاد (born). Families say نی‌نی (nini), and بچه (child) is also used for a baby.",
+          "sv": "Ordagrant \"nyfödd\": نو (ny) + زاد (född). I familjen säger man نی‌نی (nini), och بچه (barn) används också om en bebis."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "نوزاد" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-have",
+      "unit": "family",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🤲",
+      "gloss": { "en": "to have", "sv": "att ha", "svAlt": ["ha"] },
+      "ckb": {
+        "primary": { "script": "هەبوون", "latin": "hebûn" },
+        "pastStem": { "script": "هەبوو", "latin": "hebû" },
+        "notes": {
+          "en": "Kurdish has no real \"have\": you say \"my brother exists\", برام هەیە (biram heye) \"I have a brother\". \"Don't have\" is نییە: برام نییە.",
+          "sv": "Kurdiskan har inget riktigt \"ha\": man säger \"min bror finns\", برام هەیە (biram heye) \"jag har en bror\". \"Har inte\" heter نییە: برام نییە."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§16" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "داشتن", "latin": "dâshtan" },
+        "presentStem": { "script": "دار", "latin": "dâr" },
+        "pastStem": { "script": "داشت", "latin": "dâsht" },
+        "notes": {
+          "en": "Works like English \"have\", but the present takes no می: دارم \"I have\", ندارم \"I don't have\". In speech دارد becomes داره (dâre).",
+          "sv": "Fungerar som svenskans \"ha\", men presens får inget می: دارم \"jag har\", ندارم \"jag har inte\". I tal blir دارد داره (dâre)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "have" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "how-many",
+      "unit": "family",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "🔢",
+      "gloss": { "en": "how many", "sv": "hur många", "enAlt": ["how much"], "svAlt": ["hur mycket"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چەند", "latin": "çend" },
+        "notes": {
+          "en": "The noun after it stays singular: چەند برات هەیە؟ \"how many brothers do you have?\" (literally \"how many brother\").",
+          "sv": "Substantivet efter står i singular: چەند برات هەیە؟ \"hur många bröder har du?\" (ordagrant \"hur många bror\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "چەند" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "primary": { "script": "چند", "latin": "chand" },
+        "variants": [{ "script": "چند تا", "latin": "chand tâ", "register": "colloquial" }],
+        "notes": {
+          "en": "Singular noun after it, as in Sorani: چند برادر؟ In speech people add تا: چند تا خواهر داری؟ The same word as Sorani چەند.",
+          "sv": "Substantiv i singular efter, som i soranin: چند برادر؟ I tal lägger man till تا: چند تا خواهر داری؟ Samma ord som soranins چەند."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "how many" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "married",
+      "unit": "family",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "💍",
+      "gloss": { "en": "married", "sv": "gift" },
+      "ckb": {
+        "primary": { "script": "خێزاندار", "latin": "xêzandar" },
+        "notes": {
+          "en": "Literally \"family-having\": خێزان (family) + دار (having). خێزانداریت؟ \"are you married?\"",
+          "sv": "Ordagrant \"familjehavande\": خێزان (familj) + دار (som har). خێزانداریت؟ \"är du gift?\""
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "متأهل", "latin": "mote'ahhel" },
+        "variants": [{ "script": "ازدواج کرده", "latin": "ezdevâj karde" }],
+        "notes": {
+          "en": "متأهل (from Arabic) is used in forms and polite questions: متأهل هستید؟ In speech people ask ازدواج کردی؟ \"have you married?\". \"Single\" is مجرد (mojarrad).",
+          "sv": "متأهل (från arabiskan) används i blanketter och artiga frågor: متأهل هستید؟ I tal frågar man ازدواج کردی؟ \"har du gift dig?\". \"Ogift\" heter مجرد (mojarrad)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "متأهل" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "year",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "📅",
+      "gloss": { "en": "year", "sv": "år" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ساڵ", "latin": "sał" },
+        "notes": {
+          "en": "Age is counted in years: چەند ساڵیت؟ \"how old are you?\" (literally \"how many years are you?\").",
+          "sv": "Ålder räknas i år: چەند ساڵیت؟ \"hur gammal är du?\" (ordagrant \"hur många år är du?\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "year" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سال", "latin": "sâl" },
+        "notes": {
+          "en": "The same word as Sorani ساڵ. \"How old are you?\" is چند سال دارید؟ (literally \"how many years do you have?\").",
+          "sv": "Samma ord som soranins ساڵ. \"Hur gammal är du?\" heter چند سال دارید؟ (ordagrant \"hur många år har du?\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "year" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "age",
+      "unit": "family",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🎂",
+      "gloss": { "en": "age", "sv": "ålder" },
+      "ckb": {
+        "primary": { "script": "تەمەن", "latin": "temen" },
+        "notes": {
+          "en": "تەمەنت چەندە؟ \"what is your age?\" (literally \"your age is how much?\").",
+          "sv": "تەمەنت چەندە؟ \"hur gammal är du?\" (ordagrant \"din ålder är hur mycket?\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "age" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سن", "latin": "sen" },
+        "notes": {
+          "en": "From Arabic. In conversation people rarely use it; they ask چند سالته؟ (chand sâlete?) \"how old are you?\".",
+          "sv": "Från arabiskan. I samtal används det sällan; man frågar چند سالته؟ (chand sâlete?) \"hur gammal är du?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "older",
+      "unit": "family",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "older", "sv": "äldre", "enAlt": ["elder"] },
+      "ckb": {
+        "primary": { "script": "گەورەتر", "latin": "gewretir" },
+        "notes": {
+          "en": "Literally \"bigger\": گەورە (big) + تر (-er). \"My older brother\" is برا گەورەکەم (bira gewrekem), literally \"my big brother\".",
+          "sv": "Ordagrant \"större\": گەورە (stor) + تر (-are). \"Min storebror\" heter برا گەورەکەم (bira gewrekem), ordagrant \"min stora bror\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§13" }]
+      },
+      "fa": {
+        "primary": { "script": "بزرگ‌تر", "latin": "bozorgtar" },
+        "variants": [{ "script": "بزرگتر", "latin": "bozorgtar" }],
+        "notes": {
+          "en": "Literally \"bigger\": بزرگ (big) + تر (-er). \"My older sister\" is خواهر بزرگم (khâhar-e bozorgam), literally \"my big sister\".",
+          "sv": "Ordagrant \"större\": بزرگ (stor) + تر (-are). \"Min storasyster\" heter خواهر بزرگم (khâhar-e bozorgam), ordagrant \"min stora syster\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "بزرگ‌تر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "younger",
+      "unit": "family",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "younger", "sv": "yngre" },
+      "ckb": {
+        "primary": { "script": "بچووکتر", "latin": "biçûktir" },
+        "notes": {
+          "en": "Literally \"smaller\": بچووک (small) + تر (-er). \"My younger brother\" is برا بچووکەکەم (bira biçûkekem).",
+          "sv": "Ordagrant \"mindre\": بچووک (liten) + تر (-are). \"Min lillebror\" heter برا بچووکەکەم (bira biçûkekem)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§13" }]
+      },
+      "fa": {
+        "primary": { "script": "کوچک‌تر", "latin": "kuchektar" },
+        "variants": [
+          { "script": "کوچکتر", "latin": "kuchektar" },
+          { "script": "کوچیک‌تر", "latin": "kuchiktar", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Literally \"smaller\". \"My younger brother\" is برادر کوچکم (barâdar-e kuchakam); in speech کوچیک (kuchik).",
+          "sv": "Ordagrant \"mindre\". \"Min lillebror\" heter برادر کوچکم (barâdar-e kuchakam); i tal کوچیک (kuchik)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "only",
+      "unit": "family",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "☝️",
+      "gloss": { "en": "only", "sv": "bara", "enAlt": ["just"], "svAlt": ["endast", "enbart"] },
+      "ckb": {
+        "primary": { "script": "تەنها", "latin": "tenha" },
+        "variants": [{ "script": "تەنیا", "latin": "tenya" }],
+        "notes": {
+          "en": "Also \"alone\". \"An only child\" has its own word: تاقانە (taqane).",
+          "sv": "Betyder också \"ensam\". \"Enda barnet\" har ett eget ord: تاقانە (taqane)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "only" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فقط", "latin": "faghat" },
+        "variants": [{ "script": "تنها", "latin": "tanhâ" }],
+        "notes": {
+          "en": "تنها (tanhâ) also means \"only\" and \"alone\", the same word as Sorani تەنها. \"An only child\" is تک‌فرزند (tak-farzand).",
+          "sv": "تنها (tanhâ) betyder också \"bara\" och \"ensam\", samma ord som soranins تەنها. \"Enda barnet\" heter تک‌فرزند (tak-farzand)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "only" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

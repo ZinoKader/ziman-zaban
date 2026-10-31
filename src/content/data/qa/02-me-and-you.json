@@ -1,0 +1,854 @@
+{
+  "items": [
+    {
+      "id": "what-is-your-name",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "What is your name?", "sv": "Vad heter du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "ناوت چییە؟",
+          "latin": "nawit çîye?",
+          "tokens": [
+            { "text": "ناوت", "latin": "nawit", "gloss": { "en": "your name", "sv": "ditt namn" }, "concept": "name", "morph": "name-2SG" },
+            { "text": "چییە؟", "latin": "çîye?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ناوم ئاراسە.",
+            "latin": "nawim Arase.",
+            "tokens": [
+              { "text": "ناوم", "latin": "nawim", "gloss": { "en": "my name", "sv": "mitt namn" }, "concept": "name", "morph": "name-1SG" },
+              { "text": "ئاراسە.", "latin": "Arase.", "gloss": { "en": "is Aras", "sv": "är Aras" }, "concept": "to-be", "morph": "Aras-COP.3SG" }
+            ],
+            "translation": { "en": "My name is Aras.", "sv": "Jag heter Aras." }
+          },
+          { "text": "ناوم {name}ە.", "latin": "nawim {name}e.", "translation": { "en": "My name is {name}.", "sv": "Jag heter {name}." } },
+          { "text": "من {name}م.", "latin": "min {name}im.", "translation": { "en": "I'm {name}.", "sv": "Jag är {name}." } }
+        ],
+        "slots": {
+          "name": [
+            { "text": "ئاراس", "latin": "Aras", "translation": { "en": "Aras", "sv": "Aras" } },
+            { "text": "شیلان", "latin": "Şîlan", "translation": { "en": "Shilan", "sv": "Shilan" } },
+            { "text": "دیلان", "latin": "Dîlan", "translation": { "en": "Dilan", "sv": "Dilan" } },
+            { "text": "ئێریک", "latin": "Êrîk", "translation": { "en": "Erik", "sv": "Erik" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§10.1, §15" }]
+      },
+      "fa": {
+        "question": {
+          "text": "اسم شما چیست؟",
+          "latin": "esm-e shomâ chist?",
+          "tokens": [
+            { "text": "اسم", "latin": "esm-e", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+            { "text": "شما", "latin": "shomâ", "gloss": { "en": "your", "sv": "ert" }, "concept": "you-plural" },
+            { "text": "چیست؟", "latin": "chist?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "اسم من آرش است.",
+            "latin": "esm-e man Arash ast.",
+            "tokens": [
+              { "text": "اسم", "latin": "esm-e", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+              { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "mitt" }, "concept": "i" },
+              { "text": "آرش", "latin": "Arash", "gloss": { "en": "Arash", "sv": "Arash" } },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "My name is Arash.", "sv": "Jag heter Arash." }
+          },
+          { "text": "{name} هستم.", "latin": "{name} hastam.", "translation": { "en": "I'm {name}.", "sv": "Jag är {name}." } },
+          { "text": "اسمم {name}ه.", "latin": "esmam {name}e.", "translation": { "en": "My name is {name}.", "sv": "Jag heter {name}." } }
+        ],
+        "slots": {
+          "name": [
+            { "text": "آرش", "latin": "Arash", "translation": { "en": "Arash", "sv": "Arash" } },
+            { "text": "مریم", "latin": "Maryam", "translation": { "en": "Maryam", "sv": "Maryam" } },
+            { "text": "نیلوفر", "latin": "Nilufar", "translation": { "en": "Nilufar", "sv": "Nilufar" } },
+            { "text": "اریک", "latin": "Erik", "translation": { "en": "Erik", "sv": "Erik" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "where-are-you-from",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Where are you from?", "sv": "Var kommer du ifrån?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "خەڵکی کوێیت؟",
+          "latin": "xełkî kwêyt?",
+          "tokens": [
+            {
+              "text": "خەڵکی",
+              "latin": "xełkî",
+              "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+              "concept": "native-of",
+              "morph": "people-EZ"
+            },
+            {
+              "text": "کوێیت؟",
+              "latin": "kwêyt?",
+              "gloss": { "en": "where are you", "sv": "var är du" },
+              "concept": "where",
+              "morph": "where-COP.2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "خەڵکی سویدم.",
+            "latin": "xełkî Swîdim.",
+            "tokens": [
+              {
+                "text": "خەڵکی",
+                "latin": "xełkî",
+                "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+                "concept": "native-of",
+                "morph": "people-EZ"
+              },
+              {
+                "text": "سویدم.",
+                "latin": "Swîdim.",
+                "gloss": { "en": "Sweden, I am", "sv": "Sverige, jag är" },
+                "concept": "sweden",
+                "morph": "Sweden-COP.1SG"
+              }
+            ],
+            "translation": { "en": "I'm from Sweden.", "sv": "Jag kommer från Sverige." }
+          },
+          { "text": "خەڵکی {place}م.", "latin": "xełkî {place}im.", "translation": { "en": "I'm from {place}.", "sv": "Jag kommer från {place}." } },
+          {
+            "text": "من خەڵکی {place}م.",
+            "latin": "min xełkî {place}im.",
+            "translation": { "en": "I'm from {place}.", "sv": "Jag kommer från {place}." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سوید", "latin": "Swîd", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "هەولێر", "latin": "Hewlêr", "translation": { "en": "Erbil", "sv": "Erbil" } },
+            { "text": "کەرکووک", "latin": "Kerkûk", "translation": { "en": "Kirkuk", "sv": "Kirkuk" } },
+            { "text": "ئێران", "latin": "Êran", "translation": { "en": "Iran", "sv": "Iran" } },
+            { "text": "لەندەن", "latin": "Lenden", "translation": { "en": "London", "sv": "London" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§15" }]
+      },
+      "fa": {
+        "question": {
+          "text": "اهل کجا هستید؟",
+          "latin": "ahl-e kojâ hastid?",
+          "tokens": [
+            {
+              "text": "اهل",
+              "latin": "ahl-e",
+              "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+              "concept": "native-of",
+              "morph": "native-EZ"
+            },
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "هستید؟", "latin": "hastid?", "gloss": { "en": "are you", "sv": "är ni" }, "concept": "to-be", "morph": "be.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "اهل سوئد هستم.",
+            "latin": "ahl-e Su'ed hastam.",
+            "tokens": [
+              {
+                "text": "اهل",
+                "latin": "ahl-e",
+                "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+                "concept": "native-of",
+                "morph": "native-EZ"
+              },
+              { "text": "سوئد", "latin": "Su'ed", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+              { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
+            ],
+            "translation": { "en": "I'm from Sweden.", "sv": "Jag kommer från Sverige." }
+          },
+          { "text": "اهل {place}م.", "latin": "ahl-e {place}am.", "translation": { "en": "I'm from {place}.", "sv": "Jag kommer från {place}." } },
+          {
+            "text": "من اهل {place}م.",
+            "latin": "man ahl-e {place}am.",
+            "translation": { "en": "I'm from {place}.", "sv": "Jag kommer från {place}." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سوئد", "latin": "Su'ed", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "تهران", "latin": "Tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } },
+            { "text": "اصفهان", "latin": "Esfahân", "translation": { "en": "Isfahan", "sv": "Isfahan" } },
+            { "text": "شیراز", "latin": "Shirâz", "translation": { "en": "Shiraz", "sv": "Shiraz" } },
+            { "text": "اربیل", "latin": "Arbil", "translation": { "en": "Erbil", "sv": "Erbil" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "where-do-you-live",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Where do you live?", "sv": "Var bor du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "لە کوێ دەژیت؟",
+          "latin": "le kwê dejît?",
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "کوێ", "latin": "kwê", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            {
+              "text": "دەژیت؟",
+              "latin": "dejît?",
+              "gloss": { "en": "do you live", "sv": "bor du" },
+              "concept": "to-live",
+              "morph": "DUR-live.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "لە سوید دەژیم.",
+            "latin": "le Swîd dejîm.",
+            "tokens": [
+              { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+              { "text": "سوید", "latin": "Swîd", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+              { "text": "دەژیم.", "latin": "dejîm.", "gloss": { "en": "I live", "sv": "jag bor" }, "concept": "to-live", "morph": "DUR-live.PRS-1SG" }
+            ],
+            "translation": { "en": "I live in Sweden.", "sv": "Jag bor i Sverige." }
+          },
+          { "text": "لە {place}.", "latin": "le {place}.", "translation": { "en": "In {place}.", "sv": "I {place}." } },
+          { "text": "لێرە دەژیم.", "latin": "lêre dejîm.", "translation": { "en": "I live here.", "sv": "Jag bor här." } }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سوید", "latin": "Swîd", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "سلێمانی", "latin": "Silêmanî", "translation": { "en": "Sulaymaniyah", "sv": "Sulaymaniyya" } },
+            { "text": "هەولێر", "latin": "Hewlêr", "translation": { "en": "Erbil", "sv": "Erbil" } },
+            { "text": "لەندەن", "latin": "Lenden", "translation": { "en": "London", "sv": "London" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کجا زندگی می‌کنید؟",
+          "latin": "kojâ zendegi mikonid?",
+          "tokens": [
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+            {
+              "text": "می‌کنید؟",
+              "latin": "mikonid?",
+              "gloss": { "en": "do you do (= do you live)", "sv": "gör ni (= bor ni)" },
+              "concept": "to-live",
+              "morph": "DUR-do.PRS-2PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "در سوئد زندگی می‌کنم.",
+            "latin": "dar Su'ed zendegi mikonam.",
+            "tokens": [
+              { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" } },
+              { "text": "سوئد", "latin": "Su'ed", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+              { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+              {
+                "text": "می‌کنم.",
+                "latin": "mikonam.",
+                "gloss": { "en": "I do (= I live)", "sv": "jag gör (= jag bor)" },
+                "concept": "to-live",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "I live in Sweden.", "sv": "Jag bor i Sverige." }
+          },
+          { "text": "در {place}.", "latin": "dar {place}.", "translation": { "en": "In {place}.", "sv": "I {place}." } },
+          { "text": "تو {place}.", "latin": "tu {place}.", "translation": { "en": "In {place}.", "sv": "I {place}." } },
+          { "text": "اینجا زندگی می‌کنم.", "latin": "injâ zendegi mikonam.", "translation": { "en": "I live here.", "sv": "Jag bor här." } }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سوئد", "latin": "Su'ed", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "استکهلم", "latin": "Estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } },
+            { "text": "تهران", "latin": "Tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } },
+            { "text": "لندن", "latin": "Landan", "translation": { "en": "London", "sv": "London" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "do-you-speak-kurdish",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Do you speak Kurdish?", "sv": "Pratar du kurdiska?" },
+      "ckb": {
+        "question": {
+          "text": "بە کوردی قسە دەکەیت؟",
+          "latin": "be kurdî qise dekeyt?",
+          "tokens": [
+            { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+            {
+              "text": "دەکەیت؟",
+              "latin": "dekeyt?",
+              "gloss": { "en": "do you do (= do you speak)", "sv": "gör du (= pratar du)" },
+              "concept": "to-speak",
+              "morph": "DUR-do.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، کەمێک بە کوردی قسە دەکەم.",
+            "latin": "bełê, kemêk be kurdî qise dekem.",
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "کەمێک", "latin": "kemêk", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little", "morph": "little-INDF" },
+              { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+              { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+              { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+              {
+                "text": "دەکەم.",
+                "latin": "dekem.",
+                "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag pratar)" },
+                "concept": "to-speak",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "Yes, I speak a little Kurdish.", "sv": "Ja, jag pratar lite kurdiska." }
+          },
+          {
+            "text": "نەخێر، بە کوردی قسە ناکەم.",
+            "latin": "nexêr, be kurdî qise nakem.",
+            "translation": { "en": "No, I don't speak Kurdish.", "sv": "Nej, jag pratar inte kurdiska." }
+          },
+          { "text": "کەمێک.", "latin": "kemêk.", "translation": { "en": "A little.", "sv": "Lite." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کردی صحبت می‌کنید؟",
+          "latin": "kordi sohbat mikonid?",
+          "tokens": [
+            { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+            {
+              "text": "می‌کنید؟",
+              "latin": "mikonid?",
+              "gloss": { "en": "do you do (= do you speak)", "sv": "gör ni (= pratar ni)" },
+              "concept": "to-speak",
+              "morph": "DUR-do.PRS-2PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، کمی کردی صحبت می‌کنم.",
+            "latin": "bale, kami kordi sohbat mikonam.",
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "کمی", "latin": "kami", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+              { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+              { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+              {
+                "text": "می‌کنم.",
+                "latin": "mikonam.",
+                "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag pratar)" },
+                "concept": "to-speak",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "Yes, I speak a little Kurdish.", "sv": "Ja, jag pratar lite kurdiska." }
+          },
+          {
+            "text": "نه، کردی صحبت نمی‌کنم.",
+            "latin": "na, kordi sohbat nemikonam.",
+            "translation": { "en": "No, I don't speak Kurdish.", "sv": "Nej, jag pratar inte kurdiska." }
+          },
+          { "text": "یه کم.", "latin": "ye kam.", "translation": { "en": "A little.", "sv": "Lite." } }
+        ],
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "do-you-speak-persian",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Do you speak Persian?", "sv": "Pratar du persiska?" },
+      "ckb": {
+        "question": {
+          "text": "بە فارسی قسە دەکەیت؟",
+          "latin": "be farsî qise dekeyt?",
+          "tokens": [
+            { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+            { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+            {
+              "text": "دەکەیت؟",
+              "latin": "dekeyt?",
+              "gloss": { "en": "do you do (= do you speak)", "sv": "gör du (= pratar du)" },
+              "concept": "to-speak",
+              "morph": "DUR-do.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، بە فارسی قسە دەکەم.",
+            "latin": "bełê, be farsî qise dekem.",
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+              { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+              {
+                "text": "دەکەم.",
+                "latin": "dekem.",
+                "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag pratar)" },
+                "concept": "to-speak",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "Yes, I speak Persian.", "sv": "Ja, jag pratar persiska." }
+          },
+          {
+            "text": "نەخێر، بە فارسی قسە ناکەم.",
+            "latin": "nexêr, be farsî qise nakem.",
+            "translation": { "en": "No, I don't speak Persian.", "sv": "Nej, jag pratar inte persiska." }
+          },
+          {
+            "text": "کەمێک بە فارسی قسە دەکەم.",
+            "latin": "kemêk be farsî qise dekem.",
+            "translation": { "en": "I speak a little Persian.", "sv": "Jag pratar lite persiska." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "فارسی صحبت می‌کنید؟",
+          "latin": "fârsi sohbat mikonid?",
+          "tokens": [
+            { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+            {
+              "text": "می‌کنید؟",
+              "latin": "mikonid?",
+              "gloss": { "en": "do you do (= do you speak)", "sv": "gör ni (= pratar ni)" },
+              "concept": "to-speak",
+              "morph": "DUR-do.PRS-2PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، فارسی صحبت می‌کنم.",
+            "latin": "bale, fârsi sohbat mikonam.",
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+              {
+                "text": "می‌کنم.",
+                "latin": "mikonam.",
+                "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag pratar)" },
+                "concept": "to-speak",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "Yes, I speak Persian.", "sv": "Ja, jag pratar persiska." }
+          },
+          {
+            "text": "نه، فارسی بلد نیستم.",
+            "latin": "na, fârsi balad nistam.",
+            "translation": { "en": "No, I don't know Persian.", "sv": "Nej, jag kan inte persiska." }
+          },
+          {
+            "text": "کمی فارسی صحبت می‌کنم.",
+            "latin": "kami fârsi sohbat mikonam.",
+            "translation": { "en": "I speak a little Persian.", "sv": "Jag pratar lite persiska." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "what-language-do-you-speak",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "What language do you speak?", "sv": "Vilket språk pratar du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "بە چ زمانێک قسە دەکەیت؟",
+          "latin": "be çi zimanêk qise dekeyt?",
+          "tokens": [
+            { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+            { "text": "چ", "latin": "çi", "gloss": { "en": "what, which", "sv": "vilket" }, "concept": "what" },
+            { "text": "زمانێک", "latin": "zimanêk", "gloss": { "en": "language", "sv": "språk" }, "concept": "language", "morph": "language-INDF" },
+            { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+            {
+              "text": "دەکەیت؟",
+              "latin": "dekeyt?",
+              "gloss": { "en": "do you do (= do you speak)", "sv": "gör du (= pratar du)" },
+              "concept": "to-speak",
+              "morph": "DUR-do.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بە سویدی قسە دەکەم.",
+            "latin": "be swîdî qise dekem.",
+            "tokens": [
+              { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+              { "text": "سویدی", "latin": "swîdî", "gloss": { "en": "Swedish", "sv": "svenska" }, "concept": "swedish" },
+              { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+              {
+                "text": "دەکەم.",
+                "latin": "dekem.",
+                "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag pratar)" },
+                "concept": "to-speak",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "I speak Swedish.", "sv": "Jag pratar svenska." }
+          },
+          { "text": "بە {language}.", "latin": "be {language}.", "translation": { "en": "In {language}.", "sv": "På {language}." } },
+          { "text": "{language} دەزانم.", "latin": "{language} dezanim.", "translation": { "en": "I know {language}.", "sv": "Jag kan {language}." } }
+        ],
+        "slots": {
+          "language": [
+            { "text": "سویدی", "latin": "swîdî", "translation": { "en": "Swedish", "sv": "svenska" } },
+            { "text": "ئینگلیزی", "latin": "înglîzî", "translation": { "en": "English", "sv": "engelska" } },
+            { "text": "کوردی", "latin": "kurdî", "translation": { "en": "Kurdish", "sv": "kurdiska" } },
+            { "text": "فارسی", "latin": "farsî", "translation": { "en": "Persian", "sv": "persiska" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "به چه زبانی صحبت می‌کنید؟",
+          "latin": "be che zabâni sohbat mikonid?",
+          "tokens": [
+            { "text": "به", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+            { "text": "چه", "latin": "che", "gloss": { "en": "what, which", "sv": "vilket" }, "concept": "what" },
+            { "text": "زبانی", "latin": "zabâni", "gloss": { "en": "language", "sv": "språk" }, "concept": "language", "morph": "language-INDF" },
+            { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+            {
+              "text": "می‌کنید؟",
+              "latin": "mikonid?",
+              "gloss": { "en": "do you do (= do you speak)", "sv": "gör ni (= pratar ni)" },
+              "concept": "to-speak",
+              "morph": "DUR-do.PRS-2PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "سوئدی صحبت می‌کنم.",
+            "latin": "su'edi sohbat mikonam.",
+            "tokens": [
+              { "text": "سوئدی", "latin": "su'edi", "gloss": { "en": "Swedish", "sv": "svenska" }, "concept": "swedish" },
+              { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+              {
+                "text": "می‌کنم.",
+                "latin": "mikonam.",
+                "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag pratar)" },
+                "concept": "to-speak",
+                "morph": "DUR-do.PRS-1SG"
+              }
+            ],
+            "translation": { "en": "I speak Swedish.", "sv": "Jag pratar svenska." }
+          },
+          {
+            "text": "{language} صحبت می‌کنم.",
+            "latin": "{language} sohbat mikonam.",
+            "translation": { "en": "I speak {language}.", "sv": "Jag pratar {language}." }
+          },
+          {
+            "text": "{language} و انگلیسی صحبت می‌کنم.",
+            "latin": "{language} o englisi sohbat mikonam.",
+            "translation": { "en": "I speak {language} and English.", "sv": "Jag pratar {language} och engelska." }
+          },
+          {
+            "text": "{language} حرف می‌زنم.",
+            "latin": "{language} harf mizanam.",
+            "translation": { "en": "I speak {language}.", "sv": "Jag pratar {language}." }
+          }
+        ],
+        "slots": {
+          "language": [
+            { "text": "سوئدی", "latin": "su'edi", "translation": { "en": "Swedish", "sv": "svenska" } },
+            { "text": "انگلیسی", "latin": "englisi", "translation": { "en": "English", "sv": "engelska" } },
+            { "text": "کردی", "latin": "kordi", "translation": { "en": "Kurdish", "sv": "kurdiska" } },
+            { "text": "فارسی", "latin": "fârsi", "translation": { "en": "Persian", "sv": "persiska" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "who-is-he",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Who is he?", "sv": "Vem är han?" },
+      "ckb": {
+        "question": {
+          "text": "ئەو کێیە؟",
+          "latin": "ew kêye?",
+          "tokens": [
+            { "text": "ئەو", "latin": "ew", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+            { "text": "کێیە؟", "latin": "kêye?", "gloss": { "en": "who is", "sv": "vem är" }, "concept": "who", "morph": "who-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ئەو هاوڕێمە.",
+            "latin": "ew hawřême.",
+            "tokens": [
+              { "text": "ئەو", "latin": "ew", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+              {
+                "text": "هاوڕێمە.",
+                "latin": "hawřême.",
+                "gloss": { "en": "is my friend", "sv": "är min vän" },
+                "concept": "friend",
+                "morph": "friend-1SG-COP.3SG"
+              }
+            ],
+            "translation": { "en": "He's my friend.", "sv": "Han är min vän." }
+          },
+          { "text": "ناوی ئاراسە.", "latin": "nawî Arase.", "translation": { "en": "His name is Aras.", "sv": "Han heter Aras." } },
+          { "text": "هاوڕێمە.", "latin": "hawřême.", "translation": { "en": "He's my friend.", "sv": "Han är min vän." } }
+        ],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§10.1, §15" }]
+      },
+      "fa": {
+        "question": {
+          "text": "او کیست؟",
+          "latin": "u kist?",
+          "tokens": [
+            { "text": "او", "latin": "u", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+            { "text": "کیست؟", "latin": "kist?", "gloss": { "en": "who is", "sv": "vem är" }, "concept": "who", "morph": "who-be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "او دوست من است.",
+            "latin": "u dust-e man ast.",
+            "tokens": [
+              { "text": "او", "latin": "u", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+              { "text": "دوست", "latin": "dust-e", "gloss": { "en": "friend (of)", "sv": "vän (till)" }, "concept": "friend", "morph": "friend-EZ" },
+              { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "min" }, "concept": "i" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "He's my friend.", "sv": "Han är min vän." }
+          },
+          { "text": "اسمش آرش است.", "latin": "esmash Arash ast.", "translation": { "en": "His name is Arash.", "sv": "Han heter Arash." } },
+          { "text": "دوستمه.", "latin": "dustame.", "translation": { "en": "He's my friend.", "sv": "Han är min vän." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-is-he-from",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Where is he from?", "sv": "Var kommer han ifrån?" },
+      "ckb": {
+        "question": {
+          "text": "ئەو خەڵکی کوێیە؟",
+          "latin": "ew xełkî kwêye?",
+          "tokens": [
+            { "text": "ئەو", "latin": "ew", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+            {
+              "text": "خەڵکی",
+              "latin": "xełkî",
+              "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+              "concept": "native-of",
+              "morph": "people-EZ"
+            },
+            { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ئەو خەڵکی هەولێرە.",
+            "latin": "ew xełkî Hewlêre.",
+            "tokens": [
+              { "text": "ئەو", "latin": "ew", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+              {
+                "text": "خەڵکی",
+                "latin": "xełkî",
+                "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+                "concept": "native-of",
+                "morph": "people-EZ"
+              },
+              {
+                "text": "هەولێرە.",
+                "latin": "Hewlêre.",
+                "gloss": { "en": "Erbil, is", "sv": "Erbil, är" },
+                "concept": "to-be",
+                "morph": "Erbil-COP.3SG"
+              }
+            ],
+            "translation": { "en": "He's from Erbil.", "sv": "Han kommer från Erbil." }
+          },
+          {
+            "text": "خەڵکی سلێمانییە.",
+            "latin": "xełkî Silêmanîye.",
+            "translation": { "en": "He's from Sulaymaniyah.", "sv": "Han kommer från Sulaymaniyya." }
+          },
+          { "text": "خەڵکی ئێرانە.", "latin": "xełkî Êrane.", "translation": { "en": "He's from Iran.", "sv": "Han kommer från Iran." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "او اهل کجاست؟",
+          "latin": "u ahl-e kojâst?",
+          "tokens": [
+            { "text": "او", "latin": "u", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+            {
+              "text": "اهل",
+              "latin": "ahl-e",
+              "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+              "concept": "native-of",
+              "morph": "native-EZ"
+            },
+            { "text": "کجاست؟", "latin": "kojâst?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "او اهل اربیل است.",
+            "latin": "u ahl-e Arbil ast.",
+            "tokens": [
+              { "text": "او", "latin": "u", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+              {
+                "text": "اهل",
+                "latin": "ahl-e",
+                "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+                "concept": "native-of",
+                "morph": "native-EZ"
+              },
+              { "text": "اربیل", "latin": "Arbil", "gloss": { "en": "Erbil", "sv": "Erbil" } },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "He's from Erbil.", "sv": "Han kommer från Erbil." }
+          },
+          { "text": "اهل تهران است.", "latin": "ahl-e Tehrân ast.", "translation": { "en": "He's from Tehran.", "sv": "Han kommer från Teheran." } },
+          { "text": "اهل تهرانه.", "latin": "ahl-e Tehrâne.", "translation": { "en": "He's from Tehran.", "sv": "Han kommer från Teheran." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "nice-to-meet-you-reply",
+      "unit": "me-and-you",
+      "level": "A1",
+      "question": { "en": "Nice to meet you.", "sv": "Trevligt att träffas." },
+      "ckb": {
+        "question": {
+          "text": "خۆشحاڵم بە ناسینت.",
+          "latin": "xoşḧałim be nasînit.",
+          "tokens": [
+            {
+              "text": "خۆشحاڵم",
+              "latin": "xoşḧałim",
+              "gloss": { "en": "I'm glad", "sv": "jag är glad" },
+              "concept": "nice-to-meet-you",
+              "morph": "glad-COP.1SG"
+            },
+            { "text": "بە", "latin": "be", "gloss": { "en": "at", "sv": "över" } },
+            {
+              "text": "ناسینت.",
+              "latin": "nasînit.",
+              "gloss": { "en": "getting to know you", "sv": "att lära känna dig" },
+              "concept": "nice-to-meet-you",
+              "morph": "know.INF-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "منیش خۆشحاڵم بە ناسینت.",
+            "latin": "minîş xoşḧałim be nasînit.",
+            "tokens": [
+              { "text": "منیش", "latin": "minîş", "gloss": { "en": "me too", "sv": "jag också" }, "concept": "i", "morph": "I-too" },
+              {
+                "text": "خۆشحاڵم",
+                "latin": "xoşḧałim",
+                "gloss": { "en": "I'm glad", "sv": "jag är glad" },
+                "concept": "nice-to-meet-you",
+                "morph": "glad-COP.1SG"
+              },
+              { "text": "بە", "latin": "be", "gloss": { "en": "at", "sv": "över" } },
+              {
+                "text": "ناسینت.",
+                "latin": "nasînit.",
+                "gloss": { "en": "getting to know you", "sv": "att lära känna dig" },
+                "concept": "nice-to-meet-you",
+                "morph": "know.INF-2SG"
+              }
+            ],
+            "translation": { "en": "Nice to meet you too.", "sv": "Detsamma, trevligt att träffas." }
+          },
+          { "text": "سوپاس، منیش.", "latin": "supas, minîş.", "translation": { "en": "Thanks, me too.", "sv": "Tack, detsamma." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خوشوقتم.",
+          "latin": "khoshvaghtam.",
+          "tokens": [
+            {
+              "text": "خوشوقتم.",
+              "latin": "khoshvaghtam.",
+              "gloss": { "en": "nice to meet you", "sv": "trevligt att träffas" },
+              "concept": "nice-to-meet-you",
+              "morph": "pleased-COP.1SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "من هم خوشوقتم.",
+            "latin": "man ham khoshvaghtam.",
+            "tokens": [
+              { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+              { "text": "هم", "latin": "ham", "gloss": { "en": "too", "sv": "också" } },
+              {
+                "text": "خوشوقتم.",
+                "latin": "khoshvaghtam.",
+                "gloss": { "en": "nice to meet you", "sv": "trevligt att träffas" },
+                "concept": "nice-to-meet-you",
+                "morph": "pleased-COP.1SG"
+              }
+            ],
+            "translation": { "en": "Nice to meet you too.", "sv": "Detsamma, trevligt att träffas." }
+          },
+          { "text": "همچنین.", "latin": "hamchenin.", "translation": { "en": "Likewise.", "sv": "Detsamma." } },
+          { "text": "من هم همین‌طور.", "latin": "man ham hamintor.", "translation": { "en": "Me too.", "sv": "Jag också." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    }
+  ]
+}

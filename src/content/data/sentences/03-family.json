@@ -1,0 +1,832 @@
+{
+  "sentences": [
+    {
+      "id": "this-is-my-family",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "This is my family.", "sv": "Det här är min familj." },
+      "ckb": {
+        "text": "ئەمە خێزانەکەمە.",
+        "latin": "eme xêzanekeme.",
+        "tokens": [
+          { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          {
+            "text": "خێزانەکەمە.",
+            "latin": "xêzanekeme.",
+            "gloss": { "en": "is my family", "sv": "är min familj" },
+            "concept": "family",
+            "morph": "family-DEF-1SG-COP.3SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "خێزانەکەتە.",
+            "latin": "xêzanekete.",
+            "gloss": { "en": "is your family", "sv": "är din familj" },
+            "morph": "family-DEF-2SG-COP.3SG"
+          },
+          { "text": "ئەوە", "latin": "ewe", "gloss": { "en": "that", "sv": "det där" } }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§3, §10.1" }]
+      },
+      "fa": {
+        "text": "این خانواده‌ی من است.",
+        "latin": "in khânevâde-ye man ast.",
+        "tokens": [
+          { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          {
+            "text": "خانواده‌ی",
+            "latin": "khânevâde-ye",
+            "gloss": { "en": "family (of)", "sv": "familj(en hos)" },
+            "concept": "family",
+            "morph": "family-EZ"
+          },
+          { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "min" }, "concept": "i" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "alternatives": [{ "text": "این خانواده‌ام است.", "latin": "in khânevâde-am ast." }],
+        "colloquial": { "text": "این خانواده‌مه.", "latin": "in khânevâdame." },
+        "distractors": [
+          { "text": "خانواده‌ات", "latin": "khânevâde-at", "gloss": { "en": "your family", "sv": "din familj" }, "morph": "family-2SG" },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "this-is-my-mother",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "This is my mother.", "sv": "Det här är min mamma." },
+      "ckb": {
+        "text": "ئەمە دایکمە.",
+        "latin": "eme daykime.",
+        "tokens": [
+          { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          {
+            "text": "دایکمە.",
+            "latin": "daykime.",
+            "gloss": { "en": "is my mother", "sv": "är min mamma" },
+            "concept": "mother",
+            "morph": "mother-1SG-COP.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "دایکتە.", "latin": "daykite.", "gloss": { "en": "is your mother", "sv": "är din mamma" }, "morph": "mother-2SG-COP.3SG" },
+          { "text": "باوکمە.", "latin": "bawkime.", "gloss": { "en": "is my father", "sv": "är min pappa" }, "morph": "father-1SG-COP.3SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "text": "این مادر من است.",
+        "latin": "in mâdar-e man ast.",
+        "tokens": [
+          { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          { "text": "مادر", "latin": "mâdar-e", "gloss": { "en": "mother (of)", "sv": "mamma (till)" }, "concept": "mother", "morph": "mother-EZ" },
+          { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "min" }, "concept": "i" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "alternatives": [{ "text": "این مادرم است.", "latin": "in mâdaram ast." }],
+        "colloquial": { "text": "این مامانمه.", "latin": "in mâmâname." },
+        "distractors": [
+          { "text": "پدر", "latin": "pedar-e", "gloss": { "en": "father (of)", "sv": "pappa (till)" }, "morph": "father-EZ" },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-father-is-from-erbil",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "My father is from Erbil.", "sv": "Min pappa kommer från Erbil." },
+      "ckb": {
+        "text": "باوکم خەڵکی هەولێرە.",
+        "latin": "bawkim xełkî Hewlêre.",
+        "tokens": [
+          { "text": "باوکم", "latin": "bawkim", "gloss": { "en": "my father", "sv": "min pappa" }, "concept": "father", "morph": "father-1SG" },
+          {
+            "text": "خەڵکی",
+            "latin": "xełkî",
+            "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+            "concept": "native-of",
+            "morph": "people-EZ"
+          },
+          { "text": "هەولێرە.", "latin": "Hewlêre.", "gloss": { "en": "Erbil, is", "sv": "Erbil, är" }, "concept": "to-be", "morph": "Erbil-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "باوکت", "latin": "bawkit", "gloss": { "en": "your father", "sv": "din pappa" }, "morph": "father-2SG" },
+          { "text": "هەولێرم.", "latin": "Hewlêrim.", "gloss": { "en": "Erbil, I am", "sv": "Erbil, jag är" }, "morph": "Erbil-COP.1SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-copula", "ckb-ezafe"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§10.1, §15" }]
+      },
+      "fa": {
+        "text": "پدرم اهل اربیل است.",
+        "latin": "pedaram ahl-e Arbil ast.",
+        "tokens": [
+          { "text": "پدرم", "latin": "pedaram", "gloss": { "en": "my father", "sv": "min pappa" }, "concept": "father", "morph": "father-1SG" },
+          {
+            "text": "اهل",
+            "latin": "ahl-e",
+            "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+            "concept": "native-of",
+            "morph": "native-EZ"
+          },
+          { "text": "اربیل", "latin": "Arbil", "gloss": { "en": "Erbil", "sv": "Erbil" } },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "بابام اهل اربیله.", "latin": "bâbâm ahl-e Arbile." },
+        "distractors": [
+          { "text": "پدرت", "latin": "pedarat", "gloss": { "en": "your father", "sv": "din pappa" }, "morph": "father-2SG" },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-have-a-brother",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "I have a brother.", "sv": "Jag har en bror." },
+      "ckb": {
+        "text": "برایەکم هەیە.",
+        "latin": "birayekim heye.",
+        "tokens": [
+          {
+            "text": "برایەکم",
+            "latin": "birayekim",
+            "gloss": { "en": "a brother of mine", "sv": "en bror till mig" },
+            "concept": "brother",
+            "morph": "brother-INDF-1SG"
+          },
+          {
+            "text": "هەیە.",
+            "latin": "heye.",
+            "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+            "concept": "to-have",
+            "morph": "exist.PRS.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "برام هەیە.", "latin": "biram heye." }],
+        "distractors": [
+          { "text": "نییە.", "latin": "nîye.", "gloss": { "en": "there is not", "sv": "det finns inte" }, "morph": "NEG.exist.PRS.3SG" },
+          { "text": "برایەکت", "latin": "birayekit", "gloss": { "en": "a brother of yours", "sv": "en bror till dig" }, "morph": "brother-INDF-2SG" }
+        ],
+        "grammar": ["ckb-to-have", "ckb-possessive-clitics"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "text": "یک برادر دارم.",
+        "latin": "yek barâdar dâram.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en (ett)" } },
+          { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+        ],
+        "colloquial": { "text": "یه برادر دارم.", "latin": "ye barâdar dâram." },
+        "distractors": [
+          { "text": "داری.", "latin": "dâri.", "gloss": { "en": "you have", "sv": "du har" }, "morph": "have.PRS-2SG" },
+          {
+            "text": "می‌دارم.",
+            "latin": "midâram.",
+            "gloss": { "en": "(wrong: no mi- with \"have\")", "sv": "(fel: inget mi- med \"ha\")" },
+            "morph": "DUR-have.PRS-1SG"
+          }
+        ],
+        "grammar": ["fa-to-have", "fa-indefinite-i"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-dont-have-a-sister",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "I don't have a sister.", "sv": "Jag har ingen syster." },
+      "ckb": {
+        "text": "خوشکم نییە.",
+        "latin": "xuşkim nîye.",
+        "tokens": [
+          { "text": "خوشکم", "latin": "xuşkim", "gloss": { "en": "my sister", "sv": "min syster" }, "concept": "sister", "morph": "sister-1SG" },
+          {
+            "text": "نییە.",
+            "latin": "nîye.",
+            "gloss": { "en": "there is not (= I have no)", "sv": "det finns inte (= jag har ingen)" },
+            "concept": "to-have",
+            "morph": "NEG.exist.PRS.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "هەیە.", "latin": "heye.", "gloss": { "en": "there is", "sv": "det finns" }, "morph": "exist.PRS.3SG" },
+          { "text": "خوشکت", "latin": "xuşkit", "gloss": { "en": "your sister", "sv": "din syster" }, "morph": "sister-2SG" }
+        ],
+        "grammar": ["ckb-to-have", "ckb-possessive-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "text": "خواهر ندارم.",
+        "latin": "khâhar nadâram.",
+        "tokens": [
+          { "text": "خواهر", "latin": "khâhar", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+          {
+            "text": "ندارم.",
+            "latin": "nadâram.",
+            "gloss": { "en": "I don't have", "sv": "jag har inte" },
+            "concept": "to-have",
+            "morph": "NEG-have.PRS-1SG"
+          }
+        ],
+        "alternatives": [{ "text": "من خواهر ندارم.", "latin": "man khâhar nadâram." }],
+        "distractors": [
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "morph": "have.PRS-1SG" },
+          { "text": "نداری.", "latin": "nadâri.", "gloss": { "en": "you don't have", "sv": "du har inte" }, "morph": "NEG-have.PRS-2SG" }
+        ],
+        "grammar": ["fa-to-have"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "we-have-a-son",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "We have a son.", "sv": "Vi har en son." },
+      "ckb": {
+        "text": "کوڕێکمان هەیە.",
+        "latin": "kuřêkman heye.",
+        "tokens": [
+          {
+            "text": "کوڕێکمان",
+            "latin": "kuřêkman",
+            "gloss": { "en": "a son of ours", "sv": "en son till oss" },
+            "concept": "son",
+            "morph": "son-INDF-1PL"
+          },
+          {
+            "text": "هەیە.",
+            "latin": "heye.",
+            "gloss": { "en": "there is (= we have)", "sv": "det finns (= vi har)" },
+            "concept": "to-have",
+            "morph": "exist.PRS.3SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "کچێکمان",
+            "latin": "kiçêkman",
+            "gloss": { "en": "a daughter of ours", "sv": "en dotter till oss" },
+            "morph": "daughter-INDF-1PL"
+          },
+          { "text": "کوڕێکم", "latin": "kuřêkim", "gloss": { "en": "a son of mine", "sv": "en son till mig" }, "morph": "son-INDF-1SG" }
+        ],
+        "grammar": ["ckb-to-have", "ckb-possessive-clitics"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "text": "یک پسر داریم.",
+        "latin": "yek pesar dârim.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en (ett)" } },
+          { "text": "پسر", "latin": "pesar", "gloss": { "en": "son", "sv": "son" }, "concept": "son" },
+          { "text": "داریم.", "latin": "dârim.", "gloss": { "en": "we have", "sv": "vi har" }, "concept": "to-have", "morph": "have.PRS-1PL" }
+        ],
+        "colloquial": { "text": "یه پسر داریم.", "latin": "ye pesar dârim." },
+        "distractors": [
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "morph": "have.PRS-1SG" },
+          { "text": "دختر", "latin": "dokhtar", "gloss": { "en": "daughter", "sv": "dotter" } }
+        ],
+        "grammar": ["fa-to-have", "fa-indefinite-i"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-children-are-here",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "The children are here.", "sv": "Barnen är här." },
+      "ckb": {
+        "text": "منداڵەکان لێرەن.",
+        "latin": "mindałekan lêren.",
+        "tokens": [
+          {
+            "text": "منداڵەکان",
+            "latin": "mindałekan",
+            "gloss": { "en": "the children", "sv": "barnen" },
+            "concept": "child",
+            "morph": "child-DEF.PL"
+          },
+          { "text": "لێرەن.", "latin": "lêren.", "gloss": { "en": "are here", "sv": "är här" }, "concept": "here", "morph": "in.here-COP.3PL" }
+        ],
+        "distractors": [
+          { "text": "منداڵەکە", "latin": "mindałeke", "gloss": { "en": "the child", "sv": "barnet" }, "morph": "child-DEF" },
+          { "text": "لێرەیە.", "latin": "lêreye.", "gloss": { "en": "is here", "sv": "är här" }, "morph": "in.here-COP.3SG" }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-plural", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§3, §15" }]
+      },
+      "fa": {
+        "text": "بچه‌ها اینجا هستند.",
+        "latin": "bachche-hâ injâ hastand.",
+        "tokens": [
+          { "text": "بچه‌ها", "latin": "bachche-hâ", "gloss": { "en": "the children", "sv": "barnen" }, "concept": "child", "morph": "child-PL" },
+          { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
+          { "text": "هستند.", "latin": "hastand.", "gloss": { "en": "are", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-3PL" }
+        ],
+        "colloquial": { "text": "بچه‌ها اینجان.", "latin": "bachche-hâ injân." },
+        "distractors": [
+          { "text": "بچه", "latin": "bachche", "gloss": { "en": "child", "sv": "barn" } },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "morph": "be.PRS.3SG" }
+        ],
+        "grammar": ["fa-plural", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-is-your-daughter",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "Where is your daughter?", "sv": "Var är din dotter?" },
+      "ckb": {
+        "text": "کچەکەت لە کوێیە؟",
+        "latin": "kiçeket le kwêye?",
+        "tokens": [
+          {
+            "text": "کچەکەت",
+            "latin": "kiçeket",
+            "gloss": { "en": "your daughter", "sv": "din dotter" },
+            "concept": "daughter",
+            "morph": "daughter-DEF-2SG"
+          },
+          { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+          { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "کچەکەت لەکوێیە؟", "latin": "kiçeket lekwêye?" }],
+        "distractors": [
+          { "text": "کچەکەم", "latin": "kiçekem", "gloss": { "en": "my daughter", "sv": "min dotter" }, "morph": "daughter-DEF-1SG" },
+          { "text": "کوێیت؟", "latin": "kwêyt?", "gloss": { "en": "where are you", "sv": "var är du" }, "morph": "where-COP.2SG" }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "text": "دخترت کجاست؟",
+        "latin": "dokhtarat kojâst?",
+        "tokens": [
+          {
+            "text": "دخترت",
+            "latin": "dokhtarat",
+            "gloss": { "en": "your daughter", "sv": "din dotter" },
+            "concept": "daughter",
+            "morph": "daughter-2SG"
+          },
+          { "text": "کجاست؟", "latin": "kojâst?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-be.PRS.3SG" }
+        ],
+        "alternatives": [{ "text": "دختر شما کجاست؟", "latin": "dokhtar-e shomâ kojâst?" }],
+        "distractors": [
+          { "text": "دخترم", "latin": "dokhtaram", "gloss": { "en": "my daughter", "sv": "min dotter" }, "morph": "daughter-1SG" },
+          { "text": "کجایی؟", "latin": "kojâyi?", "gloss": { "en": "where are you", "sv": "var är du" }, "morph": "where-be.2SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-older-brother-lives-in-sweden",
+      "unit": "family",
+      "level": "A2",
+      "translation": { "en": "My older brother lives in Sweden.", "sv": "Min storebror bor i Sverige." },
+      "ckb": {
+        "text": "برا گەورەکەم لە سوید دەژی.",
+        "latin": "bira gewrekem le Swîd dejî.",
+        "tokens": [
+          { "text": "برا", "latin": "bira", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+          { "text": "گەورەکەم", "latin": "gewrekem", "gloss": { "en": "my big (= older)", "sv": "min stora (= äldre)" }, "morph": "big-DEF-1SG" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+          { "text": "سوید", "latin": "Swîd", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+          { "text": "دەژی.", "latin": "dejî.", "gloss": { "en": "lives", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3SG" }
+        ],
+        "distractors": [
+          { "text": "دەژین.", "latin": "dejîn.", "gloss": { "en": "they live", "sv": "de bor" }, "morph": "DUR-live.PRS-3PL" },
+          { "text": "خوشکە", "latin": "xuşke", "gloss": { "en": "sister", "sv": "syster" }, "morph": "sister-EZ" }
+        ],
+        "grammar": ["ckb-ezafe", "ckb-definite-ekan", "ckb-possessive-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§7, §10.1" }]
+      },
+      "fa": {
+        "text": "برادر بزرگم در سوئد زندگی می‌کند.",
+        "latin": "barâdar-e bozorgam dar Su'ed zendegi mikonad.",
+        "tokens": [
+          { "text": "برادر", "latin": "barâdar-e", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother", "morph": "brother-EZ" },
+          { "text": "بزرگم", "latin": "bozorgam", "gloss": { "en": "my big (= older)", "sv": "min stora (= äldre)" }, "morph": "big-1SG" },
+          { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" } },
+          { "text": "سوئد", "latin": "Su'ed", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+          { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+          {
+            "text": "می‌کند.",
+            "latin": "mikonad.",
+            "gloss": { "en": "does (= lives)", "sv": "gör (= bor)" },
+            "concept": "to-live",
+            "morph": "DUR-do.PRS-3SG"
+          }
+        ],
+        "colloquial": { "text": "داداش بزرگم تو سوئد زندگی می‌کنه.", "latin": "dâdâsh bozorgam tu Su'ed zendegi mikone." },
+        "distractors": [
+          { "text": "می‌کنند.", "latin": "mikonand.", "gloss": { "en": "they do", "sv": "de gör" }, "morph": "DUR-do.PRS-3PL" },
+          { "text": "کوچکم", "latin": "kuchekam", "gloss": { "en": "my little", "sv": "min lilla" }, "morph": "small-1SG" }
+        ],
+        "grammar": ["fa-ezafe", "fa-possessive-suffixes"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "my-sister-is-older-than-me",
+      "unit": "family",
+      "level": "A2",
+      "translation": { "en": "My sister is older than me.", "sv": "Min syster är äldre än jag." },
+      "ckb": {
+        "text": "خوشکم لە من گەورەترە.",
+        "latin": "xuşkim le min gewretire.",
+        "tokens": [
+          { "text": "خوشکم", "latin": "xuşkim", "gloss": { "en": "my sister", "sv": "min syster" }, "concept": "sister", "morph": "sister-1SG" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "than", "sv": "än" } },
+          { "text": "من", "latin": "min", "gloss": { "en": "me", "sv": "jag" }, "concept": "i" },
+          {
+            "text": "گەورەترە.",
+            "latin": "gewretire.",
+            "gloss": { "en": "is older", "sv": "är äldre" },
+            "concept": "older",
+            "morph": "big-CMPR-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "خوشکەکەم لە من گەورەترە.", "latin": "xuşkekem le min gewretire." }],
+        "distractors": [
+          { "text": "بچووکترە.", "latin": "biçûktire.", "gloss": { "en": "is younger", "sv": "är yngre" }, "morph": "small-CMPR-COP.3SG" },
+          { "text": "بە", "latin": "be", "gloss": { "en": "with", "sv": "med" } }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§13" }]
+      },
+      "fa": {
+        "text": "خواهرم از من بزرگ‌تر است.",
+        "latin": "khâharam az man bozorgtar ast.",
+        "tokens": [
+          { "text": "خواهرم", "latin": "khâharam", "gloss": { "en": "my sister", "sv": "min syster" }, "concept": "sister", "morph": "sister-1SG" },
+          { "text": "از", "latin": "az", "gloss": { "en": "than", "sv": "än" } },
+          { "text": "من", "latin": "man", "gloss": { "en": "me", "sv": "jag" }, "concept": "i" },
+          { "text": "بزرگ‌تر", "latin": "bozorgtar", "gloss": { "en": "older", "sv": "äldre" }, "concept": "older", "morph": "big-CMPR" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "خواهرم از من بزرگ‌تره.", "latin": "khâharam az man bozorgtare." },
+        "distractors": [
+          { "text": "کوچک‌تر", "latin": "kuchektar", "gloss": { "en": "younger", "sv": "yngre" }, "morph": "small-CMPR" },
+          { "text": "با", "latin": "bâ", "gloss": { "en": "with", "sv": "med" } }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "my-brother-is-younger-than-me",
+      "unit": "family",
+      "level": "A2",
+      "translation": { "en": "My brother is younger than me.", "sv": "Min bror är yngre än jag." },
+      "ckb": {
+        "text": "برام لە من بچووکترە.",
+        "latin": "biram le min biçûktire.",
+        "tokens": [
+          { "text": "برام", "latin": "biram", "gloss": { "en": "my brother", "sv": "min bror" }, "concept": "brother", "morph": "brother-1SG" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "than", "sv": "än" } },
+          { "text": "من", "latin": "min", "gloss": { "en": "me", "sv": "jag" }, "concept": "i" },
+          {
+            "text": "بچووکترە.",
+            "latin": "biçûktire.",
+            "gloss": { "en": "is younger", "sv": "är yngre" },
+            "concept": "younger",
+            "morph": "small-CMPR-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "براکەم لە من بچووکترە.", "latin": "birakem le min biçûktire." }],
+        "distractors": [
+          { "text": "گەورەترە.", "latin": "gewretire.", "gloss": { "en": "is older", "sv": "är äldre" }, "morph": "big-CMPR-COP.3SG" },
+          { "text": "برات", "latin": "birat", "gloss": { "en": "your brother", "sv": "din bror" }, "morph": "brother-2SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§13" }]
+      },
+      "fa": {
+        "text": "برادرم از من کوچک‌تر است.",
+        "latin": "barâdaram az man kuchektar ast.",
+        "tokens": [
+          { "text": "برادرم", "latin": "barâdaram", "gloss": { "en": "my brother", "sv": "min bror" }, "concept": "brother", "morph": "brother-1SG" },
+          { "text": "از", "latin": "az", "gloss": { "en": "than", "sv": "än" } },
+          { "text": "من", "latin": "man", "gloss": { "en": "me", "sv": "jag" }, "concept": "i" },
+          { "text": "کوچک‌تر", "latin": "kuchektar", "gloss": { "en": "younger", "sv": "yngre" }, "concept": "younger", "morph": "small-CMPR" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "داداشم از من کوچیک‌تره.", "latin": "dâdâsham az man kuchiktare." },
+        "distractors": [
+          { "text": "بزرگ‌تر", "latin": "bozorgtar", "gloss": { "en": "older", "sv": "äldre" }, "morph": "big-CMPR" },
+          { "text": "برادرت", "latin": "barâdarat", "gloss": { "en": "your brother", "sv": "din bror" }, "morph": "brother-2SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "my-grandmother-only-speaks-kurdish",
+      "unit": "family",
+      "level": "A2",
+      "translation": { "en": "My grandmother only speaks Kurdish.", "sv": "Min mormor pratar bara kurdiska." },
+      "ckb": {
+        "text": "داپیرم تەنها بە کوردی قسە دەکات.",
+        "latin": "dapîrim tenha be kurdî qise dekat.",
+        "tokens": [
+          {
+            "text": "داپیرم",
+            "latin": "dapîrim",
+            "gloss": { "en": "my grandmother", "sv": "min mormor / farmor" },
+            "concept": "grandmother",
+            "morph": "grandmother-1SG"
+          },
+          { "text": "تەنها", "latin": "tenha", "gloss": { "en": "only", "sv": "bara" }, "concept": "only" },
+          { "text": "بە", "latin": "be", "gloss": { "en": "in", "sv": "på" } },
+          { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+          { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+          {
+            "text": "دەکات.",
+            "latin": "dekat.",
+            "gloss": { "en": "does (= speaks)", "sv": "gör (= pratar)" },
+            "concept": "to-speak",
+            "morph": "DUR-do.PRS-3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do", "sv": "jag gör" }, "morph": "DUR-do.PRS-1SG" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "from", "sv": "från" } }
+        ],
+        "grammar": ["ckb-possessive-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "مادربزرگم فقط کردی صحبت می‌کند.",
+        "latin": "mâdarbozorgam faghat kordi sohbat mikonad.",
+        "tokens": [
+          {
+            "text": "مادربزرگم",
+            "latin": "mâdarbozorgam",
+            "gloss": { "en": "my grandmother", "sv": "min mormor / farmor" },
+            "concept": "grandmother",
+            "morph": "grandmother-1SG"
+          },
+          { "text": "فقط", "latin": "faghat", "gloss": { "en": "only", "sv": "bara" }, "concept": "only" },
+          { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+          { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+          {
+            "text": "می‌کند.",
+            "latin": "mikonad.",
+            "gloss": { "en": "does (= speaks)", "sv": "gör (= pratar)" },
+            "concept": "to-speak",
+            "morph": "DUR-do.PRS-3SG"
+          }
+        ],
+        "alternatives": [{ "text": "مادربزرگم فقط به کردی صحبت می‌کند.", "latin": "mâdarbozorgam faghat be kordi sohbat mikonad." }],
+        "colloquial": { "text": "مادربزرگم فقط کردی حرف می‌زنه.", "latin": "mâdarbozorgam faghat kordi harf mizane." },
+        "distractors": [
+          { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "morph": "DUR-do.PRS-1SG" },
+          { "text": "از", "latin": "az", "gloss": { "en": "from", "sv": "från" } }
+        ],
+        "grammar": ["fa-possessive-suffixes"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-uncle-lives-there",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "My uncle (my father’s brother) lives there.", "sv": "Min farbror bor där.", "enAlt": ["My uncle lives there."] },
+      "ckb": {
+        "text": "مامم لەوێ دەژی.",
+        "latin": "mamim lewê dejî.",
+        "tokens": [
+          {
+            "text": "مامم",
+            "latin": "mamim",
+            "gloss": { "en": "my uncle (father's brother)", "sv": "min farbror" },
+            "concept": "paternal-uncle",
+            "morph": "uncle-1SG"
+          },
+          { "text": "لەوێ", "latin": "lewê", "gloss": { "en": "there", "sv": "där" }, "concept": "there", "morph": "in-there" },
+          { "text": "دەژی.", "latin": "dejî.", "gloss": { "en": "lives", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3SG" }
+        ],
+        "distractors": [
+          { "text": "خاڵم", "latin": "xałim", "gloss": { "en": "my uncle (mother's brother)", "sv": "min morbror" }, "morph": "uncle-1SG" },
+          { "text": "دەژین.", "latin": "dejîn.", "gloss": { "en": "they live", "sv": "de bor" }, "morph": "DUR-live.PRS-3PL" }
+        ],
+        "grammar": ["ckb-possessive-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "عمویم آنجا زندگی می‌کند.",
+        "latin": "amuyam ânjâ zendegi mikonad.",
+        "tokens": [
+          {
+            "text": "عمویم",
+            "latin": "amuyam",
+            "gloss": { "en": "my uncle (father's brother)", "sv": "min farbror" },
+            "concept": "paternal-uncle",
+            "morph": "uncle-1SG"
+          },
+          { "text": "آنجا", "latin": "ânjâ", "gloss": { "en": "there", "sv": "där" }, "concept": "there" },
+          { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+          {
+            "text": "می‌کند.",
+            "latin": "mikonad.",
+            "gloss": { "en": "does (= lives)", "sv": "gör (= bor)" },
+            "concept": "to-live",
+            "morph": "DUR-do.PRS-3SG"
+          }
+        ],
+        "colloquial": { "text": "عموم اونجا زندگی می‌کنه.", "latin": "amum unjâ zendegi mikone." },
+        "distractors": [
+          { "text": "دایی‌ام", "latin": "dâyi-am", "gloss": { "en": "my uncle (mother's brother)", "sv": "min morbror" }, "morph": "uncle-1SG" },
+          { "text": "می‌کنند.", "latin": "mikonand.", "gloss": { "en": "they do", "sv": "de gör" }, "morph": "DUR-do.PRS-3PL" }
+        ],
+        "grammar": ["fa-possessive-suffixes"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "my-aunt-is-from-tehran",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "My aunt (my mother’s sister) is from Tehran.", "sv": "Min moster kommer från Teheran.", "enAlt": ["My aunt is from Tehran."] },
+      "ckb": {
+        "text": "پوورم خەڵکی تارانە.",
+        "latin": "pûrim xełkî Tarane.",
+        "tokens": [
+          {
+            "text": "پوورم",
+            "latin": "pûrim",
+            "gloss": { "en": "my aunt", "sv": "min moster / faster" },
+            "concept": "maternal-aunt",
+            "morph": "aunt-1SG"
+          },
+          {
+            "text": "خەڵکی",
+            "latin": "xełkî",
+            "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+            "concept": "native-of",
+            "morph": "people-EZ"
+          },
+          {
+            "text": "تارانە.",
+            "latin": "Tarane.",
+            "gloss": { "en": "Tehran, is", "sv": "Teheran, är" },
+            "concept": "to-be",
+            "morph": "Tehran-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "خوشکی دایکم خەڵکی تارانە.", "latin": "xuşkî daykim xełkî Tarane." }],
+        "distractors": [
+          { "text": "خاڵم", "latin": "xałim", "gloss": { "en": "my uncle (mother's brother)", "sv": "min morbror" }, "morph": "uncle-1SG" },
+          { "text": "تارانم.", "latin": "Taranim.", "gloss": { "en": "Tehran, I am", "sv": "Teheran, jag är" }, "morph": "Tehran-COP.1SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-ezafe", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "خاله‌ام اهل تهران است.",
+        "latin": "khâle-am ahl-e Tehrân ast.",
+        "tokens": [
+          {
+            "text": "خاله‌ام",
+            "latin": "khâle-am",
+            "gloss": { "en": "my aunt (mother's sister)", "sv": "min moster" },
+            "concept": "maternal-aunt",
+            "morph": "aunt-1SG"
+          },
+          {
+            "text": "اهل",
+            "latin": "ahl-e",
+            "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+            "concept": "native-of",
+            "morph": "native-EZ"
+          },
+          { "text": "تهران", "latin": "Tehrân", "gloss": { "en": "Tehran", "sv": "Teheran" } },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "خاله‌ام اهل تهرانه.", "latin": "khâlam ahl-e Tehrâne." },
+        "distractors": [
+          { "text": "عمه‌ام", "latin": "amme-am", "gloss": { "en": "my aunt (father's sister)", "sv": "min faster" }, "morph": "aunt-1SG" },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-parents-live-in-sulaymaniyah",
+      "unit": "family",
+      "level": "A2",
+      "translation": { "en": "My parents live in Sulaymaniyah.", "sv": "Mina föräldrar bor i Sulaymaniyya." },
+      "ckb": {
+        "text": "دایک و باوکم لە سلێمانی دەژین.",
+        "latin": "dayk û bawkim le Silêmanî dejîn.",
+        "tokens": [
+          { "text": "دایک", "latin": "dayk", "gloss": { "en": "mother", "sv": "mamma" }, "concept": "mother" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "باوکم", "latin": "bawkim", "gloss": { "en": "my father", "sv": "min pappa" }, "concept": "father", "morph": "father-1SG" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+          { "text": "سلێمانی", "latin": "Silêmanî", "gloss": { "en": "Sulaymaniyah", "sv": "Sulaymaniyya" } },
+          { "text": "دەژین.", "latin": "dejîn.", "gloss": { "en": "live", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3PL" }
+        ],
+        "distractors": [
+          { "text": "دەژی.", "latin": "dejî.", "gloss": { "en": "lives", "sv": "bor" }, "morph": "DUR-live.PRS-3SG" },
+          { "text": "دایکم", "latin": "daykim", "gloss": { "en": "my mother", "sv": "min mamma" }, "morph": "mother-1SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "پدر و مادرم در سلیمانیه زندگی می‌کنند.",
+        "latin": "pedar o mâdaram dar Soleymâniye zendegi mikonand.",
+        "tokens": [
+          { "text": "پدر", "latin": "pedar", "gloss": { "en": "father", "sv": "pappa" }, "concept": "father" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "مادرم", "latin": "mâdaram", "gloss": { "en": "my mother", "sv": "min mamma" }, "concept": "mother", "morph": "mother-1SG" },
+          { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" } },
+          { "text": "سلیمانیه", "latin": "Soleymâniye", "gloss": { "en": "Sulaymaniyah", "sv": "Sulaymaniyya" } },
+          { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+          {
+            "text": "می‌کنند.",
+            "latin": "mikonand.",
+            "gloss": { "en": "do (= live)", "sv": "gör (= bor)" },
+            "concept": "to-live",
+            "morph": "DUR-do.PRS-3PL"
+          }
+        ],
+        "colloquial": { "text": "بابا و مامانم تو سلیمانیه زندگی می‌کنن.", "latin": "bâbâ o mâmânam tu Soleymâniye zendegi mikonan." },
+        "distractors": [
+          { "text": "می‌کند.", "latin": "mikonad.", "gloss": { "en": "does", "sv": "gör" }, "morph": "DUR-do.PRS-3SG" },
+          { "text": "مادرت", "latin": "mâdarat", "gloss": { "en": "your mother", "sv": "din mamma" }, "morph": "mother-2SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-wife-is-swedish",
+      "unit": "family",
+      "level": "A1",
+      "translation": { "en": "My wife is Swedish.", "sv": "Min fru är svensk." },
+      "ckb": {
+        "text": "ژنەکەم سویدییە.",
+        "latin": "jinekem swîdîye.",
+        "tokens": [
+          { "text": "ژنەکەم", "latin": "jinekem", "gloss": { "en": "my wife", "sv": "min fru" }, "concept": "wife", "morph": "woman-DEF-1SG" },
+          {
+            "text": "سویدییە.",
+            "latin": "swîdîye.",
+            "gloss": { "en": "is Swedish", "sv": "är svensk" },
+            "concept": "swedish",
+            "morph": "Swedish-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "ژنم سویدییە.", "latin": "jinim swîdîye." }, { "text": "خێزانم سویدییە.", "latin": "xêzanim swîdîye." }],
+        "distractors": [
+          { "text": "ژنەکەت", "latin": "jineket", "gloss": { "en": "your wife", "sv": "din fru" }, "morph": "woman-DEF-2SG" },
+          { "text": "سویدیم.", "latin": "swîdîm.", "gloss": { "en": "I am Swedish", "sv": "jag är svensk" }, "morph": "Swedish-COP.1SG" }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Possessives" }]
+      },
+      "fa": {
+        "text": "همسرم سوئدی است.",
+        "latin": "hamsaram su'edi ast.",
+        "tokens": [
+          {
+            "text": "همسرم",
+            "latin": "hamsaram",
+            "gloss": { "en": "my wife (spouse)", "sv": "min fru (make)" },
+            "concept": "wife",
+            "morph": "spouse-1SG"
+          },
+          { "text": "سوئدی", "latin": "su'edi", "gloss": { "en": "Swedish", "sv": "svensk" }, "concept": "swedish" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "alternatives": [{ "text": "زنم سوئدی است.", "latin": "zanam su'edi ast." }],
+        "colloquial": { "text": "زنم سوئدیه.", "latin": "zanam su'ediye." },
+        "distractors": [
+          { "text": "همسرت", "latin": "hamsarat", "gloss": { "en": "your spouse", "sv": "din make" }, "morph": "spouse-2SG" },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "concepts": [
+    {
+      "id": "i",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "emoji": "🙋",
+      "gloss": { "en": "I", "sv": "jag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "من", "latin": "min" },
+        "notes": {
+          "en": "Also \"me\" and \"my\". Often left out, because the ending already says who: باشم (başim) \"I'm fine\".",
+          "sv": "Betyder också \"mig\" och \"min\". Utelämnas ofta, eftersom ändelsen redan visar vem: باشم (başim) \"jag mår bra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "I" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§10" }]
+      },
+      "fa": {
+        "primary": { "script": "من", "latin": "man" },
+        "notes": {
+          "en": "Same word as Sorani من (min), and related to English \"me\" and Swedish \"mig\".",
+          "sv": "Samma ord som soranins من (min), och släkt med engelskans \"me\" och svenskans \"mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "من" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "you",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "emoji": "🫵",
+      "gloss": { "en": "you", "sv": "du" },
+      "senseNote": { "en": "one person", "sv": "en person" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تۆ", "latin": "to" },
+        "notes": {
+          "en": "Kurds say تۆ to almost everyone, strangers included. It shares its root with Swedish \"du\".",
+          "sv": "Kurder säger تۆ till nästan alla, även till främlingar. Ordet har samma rot som svenskans \"du\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تۆ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تو", "latin": "to" },
+        "notes": {
+          "en": "Only for friends, family and children. To a stranger or an older person, say شما (shomâ), even to one person.",
+          "sv": "Bara till vänner, familj och barn. Till en främling eller en äldre person säger man شما (shomâ), även till en person."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "you" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "he-she",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "emoji": "🧑",
+      "gloss": { "en": "he / she", "sv": "han / hon", "enAlt": ["he", "she"], "svAlt": ["han", "hon", "hen"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئەو", "latin": "ew" },
+        "notes": {
+          "en": "No gender: ئەو is both \"he\" and \"she\". It also means \"that\": ئەو پیاوە \"that man\".",
+          "sv": "Inget genus: ئەو är både \"han\" och \"hon\". Det betyder också \"den där\": ئەو پیاوە \"den där mannen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ئەو" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "او", "latin": "u" },
+        "variants": [
+          { "script": "اون", "latin": "un", "register": "colloquial" },
+          {
+            "script": "ایشان",
+            "latin": "ishân",
+            "register": "formal",
+            "note": { "en": "respectful, about someone you honour", "sv": "artigt, om någon man vill visa respekt" }
+          }
+        ],
+        "notes": {
+          "en": "No gender here either: او is both \"he\" and \"she\". In Tehran speech you mostly hear اون (un).",
+          "sv": "Inget genus här heller: او är både \"han\" och \"hon\". I Teheran-tal hör man oftast اون (un)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "او" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "we",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "emoji": "👫",
+      "gloss": { "en": "we", "sv": "vi" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئێمە", "latin": "ême" },
+        "notes": {
+          "en": "Also \"us\" and \"our\". Like every word that starts with a vowel, it is written with a silent ئ first.",
+          "sv": "Betyder också \"oss\" och \"vår\". Som alla ord som börjar på vokal skrivs det med ett stumt ئ först."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ئێمە" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ما", "latin": "mâ" },
+        "notes": {
+          "en": "Also \"us\" and \"our\": اسم ما (esm-e mâ) \"our name\".",
+          "sv": "Betyder också \"oss\" och \"vår\": اسم ما (esm-e mâ) \"vårt namn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "we" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "you-plural",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "gloss": { "en": "you", "sv": "ni" },
+      "senseNote": { "en": "several people, or polite", "sv": "flera personer, eller artigt" },
+      "ckb": {
+        "primary": { "script": "ئێوە", "latin": "êwe" },
+        "notes": {
+          "en": "For two or more people. You can also use it to one person to show extra respect, but Sorani needs it far less often than Persian needs شما.",
+          "sv": "Till två eller fler personer. Det kan också användas till en person för att visa extra respekt, men soranin behöver det mycket mer sällan än persiskan behöver شما."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ئێوە" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شما", "latin": "shomâ" },
+        "notes": {
+          "en": "Both plural \"you\" and the polite \"you\" to one person, for strangers, elders and shop staff. The verb is plural too: شما کجا زندگی می‌کنید؟",
+          "sv": "Både \"ni\" i plural och det artiga tilltalet till en person, till främlingar, äldre och personal i affärer. Verbet står också i plural: شما کجا زندگی می‌کنید؟"
+        },
+        "sources": [{ "source": "wiktionary", "ref": "you" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "they",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "emoji": "👥",
+      "gloss": { "en": "they", "sv": "de", "svAlt": ["dom"] },
+      "ckb": {
+        "primary": { "script": "ئەوان", "latin": "ewan" },
+        "notes": {
+          "en": "Literally \"those\": ئەو (he, she, that) + the plural ending ان (-an).",
+          "sv": "Ordagrant \"de där\": ئەو (han, hon, den där) + pluraländelsen ان (-an)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ئەوان" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آن‌ها", "latin": "ânhâ" },
+        "variants": [
+          { "script": "آنها", "latin": "ânhâ" },
+          { "script": "اونا", "latin": "unâ", "register": "colloquial" },
+          { "script": "ایشان", "latin": "ishân", "register": "formal" }
+        ],
+        "notes": {
+          "en": "Literally \"those\": آن (that) + the plural ending ها (-hâ). In speech it is اونا (unâ).",
+          "sv": "Ordagrant \"de där\": آن (den där) + pluraländelsen ها (-hâ). I tal blir det اونا (unâ)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "they" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "name",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "📛",
+      "gloss": { "en": "name", "sv": "namn" },
+      "ckb": {
+        "primary": { "script": "ناو", "latin": "naw" },
+        "notes": {
+          "en": "\"My name\" is ناوم (nawim), with the ending added straight on. ناو is related to Persian نام, English \"name\" and Swedish \"namn\".",
+          "sv": "\"Mitt namn\" är ناوم (nawim), med ändelsen direkt på ordet. ناو är släkt med persiskans نام, engelskans \"name\" och svenskans \"namn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "name" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "primary": { "script": "اسم", "latin": "esm" },
+        "variants": [{ "script": "نام", "latin": "nâm", "register": "formal" }],
+        "notes": {
+          "en": "In speech the everyday word is اسم, from Arabic. نام is formal and written, and it shares its origin with Sorani ناو, English \"name\" and Swedish \"namn\".",
+          "sv": "I tal är اسم, från arabiskan, det vardagliga ordet. نام är formellt och skriftligt, och har samma ursprung som soranins ناو, engelskans \"name\" och svenskans \"namn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "name" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "what",
+      "unit": "me-and-you",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "❓",
+      "gloss": { "en": "what", "sv": "vad" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چی", "latin": "çî" },
+        "variants": [
+          {
+            "script": "چ",
+            "latin": "çi",
+            "note": { "en": "before a noun: چ زمانێک؟ \"what language?\"", "sv": "före ett substantiv: چ زمانێک؟ \"vilket språk?\"" }
+          }
+        ],
+        "notes": {
+          "en": "\"What is it?\" is چییە؟ (çîye?): چی + the ending یە \"is\".",
+          "sv": "\"Vad är det?\" heter چییە؟ (çîye?): چی + ändelsen یە \"är\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "what" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چه", "latin": "che" },
+        "variants": [{ "script": "چی", "latin": "chi", "register": "colloquial" }],
+        "notes": {
+          "en": "Written چه (che), but in speech mostly چی (chi): اسمت چیه؟ (esmet chiye?) \"what's your name?\". Same origin as Sorani چی.",
+          "sv": "Skrivs چه (che), men i tal oftast چی (chi): اسمت چیه؟ (esmet chiye?) \"vad heter du?\". Samma ursprung som soranins چی."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "what" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "who",
+      "unit": "me-and-you",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "🕵️",
+      "gloss": { "en": "who", "sv": "vem" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کێ", "latin": "kê" },
+        "notes": {
+          "en": "\"Who is it?\" is کێیە؟ (kêye?).",
+          "sv": "\"Vem är det?\" heter کێیە؟ (kêye?)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "who" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کی", "latin": "ki" },
+        "notes": {
+          "en": "Spelled like کی (key) \"when?\"; you tell them apart by the sound and the context. \"Who is it?\" is کیست؟ (kist?), in speech کیه؟ (kiye?).",
+          "sv": "Stavas som کی (key) \"när?\"; man skiljer dem åt på uttalet och sammanhanget. \"Vem är det?\" heter کیست؟ (kist?), i tal کیه؟ (kiye?)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "who" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "where",
+      "unit": "me-and-you",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "📍",
+      "gloss": { "en": "where", "sv": "var", "svAlt": ["vart"] },
+      "ckb": {
+        "primary": { "script": "کوێ", "latin": "kwê" },
+        "notes": {
+          "en": "Usually with لە \"in, at\": لە کوێ دەژیت؟ \"where do you live?\". With \"you are\" it becomes لە کوێیت؟ (le kwêyt?) \"where are you?\".",
+          "sv": "Oftast med لە \"i, på\": لە کوێ دەژیت؟ \"var bor du?\". Med \"du är\" blir det لە کوێیت؟ (le kwêyt?) \"var är du?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "where" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کجا", "latin": "kojâ" },
+        "notes": {
+          "en": "\"Where is …?\" is … کجاست؟ (kojâst?): after the vowel â, است (ast) shrinks to ـست.",
+          "sv": "\"Var är …?\" heter … کجاست؟ (kojâst?): efter vokalen â krymper است (ast) till ـست."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "where" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "from",
+      "unit": "me-and-you",
+      "pos": "preposition",
+      "level": "A1",
+      "gloss": { "en": "from", "sv": "från", "svAlt": ["ifrån"] },
+      "ckb": {
+        "primary": { "script": "لە", "latin": "le" },
+        "notes": {
+          "en": "\"From\" wraps around the noun: لە سویدەوە (le swîdewe) \"from Sweden\". On its own لە also means \"in, at\". To say where you are from, Kurds use خەڵکی: خەڵکی سویدم.",
+          "sv": "\"Från\" läggs runt substantivet: لە سویدەوە (le swîdewe) \"från Sverige\". Ensamt betyder لە också \"i, på\". För att säga var man kommer ifrån använder kurder خەڵکی: خەڵکی سویدم."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§14" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "از", "latin": "az" },
+        "notes": {
+          "en": "\"I'm from Sweden\" can be از سوئد هستم, but Iranians usually say اهل سوئد هستم (ahl-e su'ed hastam), with اهل \"native of\".",
+          "sv": "\"Jag kommer från Sverige\" kan vara از سوئد هستم, men iranier säger oftast اهل سوئد هستم (ahl-e su'ed hastam), med اهل \"hemma från\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "from" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "native-of",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏡",
+      "gloss": { "en": "from (a place)", "sv": "från (en plats)", "enAlt": ["native of", "people of", "from"], "svAlt": ["från", "hemma från"] },
+      "senseNote": { "en": "literally \"people of\", to say where someone is from", "sv": "ordagrant \"folk från\", för att säga var någon kommer ifrån" },
+      "ckb": {
+        "primary": { "script": "خەڵکی", "latin": "xełkî" },
+        "notes": {
+          "en": "خەڵک means \"people\"; with the linking ی it becomes \"people of\": خەڵکی هەولێرم \"I'm from Erbil\", خەڵکی کوێیت؟ \"where are you from?\".",
+          "sv": "خەڵک betyder \"folk\"; med det länkande ی blir det \"folk från\": خەڵکی هەولێرم \"jag kommer från Erbil\", خەڵکی کوێیت؟ \"var kommer du ifrån?\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "خەڵک" }]
+      },
+      "fa": {
+        "primary": { "script": "اهل", "latin": "ahl" },
+        "notes": {
+          "en": "Arabic for \"people (of)\", always followed by the linking -e: اهل کجا هستید؟ (ahl-e kojâ hastid?) \"where are you from?\". Same idea as Sorani خەڵکی.",
+          "sv": "Arabiska för \"folk (från)\", alltid följt av det länkande -e: اهل کجا هستید؟ (ahl-e kojâ hastid?) \"var kommer du ifrån?\". Samma tanke som soranins خەڵکی."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اهل" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-be",
+      "unit": "me-and-you",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🟰",
+      "gloss": { "en": "to be", "sv": "att vara", "svAlt": ["vara"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بوون", "latin": "bûn" },
+        "presentStem": { "script": "ب", "latin": "b" },
+        "pastStem": { "script": "بوو", "latin": "bû" },
+        "notes": {
+          "en": "In the present, \"am, is, are\" is just an ending on the word before: باشم \"I am fine\", کوێیە؟ \"where is it?\". بوون itself means \"to become\" and gives the past: بووم \"I was\".",
+          "sv": "I presens är \"är\" bara en ändelse på ordet före: باشم \"jag mår bra\", کوێیە؟ \"var är det?\". بوون i sig betyder \"att bli\" och ger preteritum: بووم \"jag var\"."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§15, §24" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بودن", "latin": "budan" },
+        "presentStem": { "script": "باش", "latin": "bâsh" },
+        "pastStem": { "script": "بود", "latin": "bud" },
+        "notes": {
+          "en": "\"Am, are, is\" are هستم، هستی، است… or the short endings ـم، ـی… (خوبم \"I'm fine\"). بودن shares its root with Sorani بوون and English \"be\".",
+          "sv": "\"Är\" heter هستم، هستی، است… eller de korta ändelserna ـم، ـی… (خوبم \"jag mår bra\"). بودن har samma rot som soranins بوون och engelskans \"be\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "بودن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "country",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🗺️",
+      "gloss": { "en": "country", "sv": "land" },
+      "ckb": {
+        "primary": { "script": "وڵات", "latin": "wiłat" },
+        "sources": [{ "source": "wiktionary", "ref": "country" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کشور", "latin": "keshvar" },
+        "sources": [{ "source": "wiktionary", "ref": "country" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "city",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏙️",
+      "gloss": { "en": "city", "sv": "stad" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شار", "latin": "şar" },
+        "notes": {
+          "en": "The same word as Persian شهر (shahr).",
+          "sv": "Samma ord som persiskans شهر (shahr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "city" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شهر", "latin": "shahr" },
+        "notes": {
+          "en": "Here the final ه is a real h: shahr. The same word as Sorani شار (şar).",
+          "sv": "Här är det sista ه ett riktigt h: shahr. Samma ord som soranins شار (şar)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "شهر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "language",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🗣️",
+      "gloss": { "en": "language", "sv": "språk" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "زمان", "latin": "ziman" },
+        "notes": {
+          "en": "Also \"tongue\". Kurdish زمان and Persian زبان are the same word: the Ziman and Zabân in this app's name.",
+          "sv": "Betyder också \"tunga\". Kurdiskans زمان och persiskans زبان är samma ord: Ziman och Zabân i appens namn."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "language" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زبان", "latin": "zabân" },
+        "variants": [{ "script": "زبون", "latin": "zabun", "register": "colloquial" }],
+        "notes": {
+          "en": "Also \"tongue\". \"The Persian language\" is زبان فارسی (zabân-e fârsi). In Tehran speech â before n often becomes u: zabun.",
+          "sv": "Betyder också \"tunga\". \"Persiska språket\" heter زبان فارسی (zabân-e fârsi). I Teheran-tal blir â före n ofta u: zabun."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "language" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "kurdish",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Kurdish", "sv": "kurdiska" },
+      "senseNote": { "en": "the language", "sv": "språket" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کوردی", "latin": "kurdî" },
+        "notes": {
+          "en": "کورد (kurd) \"a Kurd\" + ی (-î) makes the language. Sorani (سۆرانی) is the Central Kurdish variety taught here.",
+          "sv": "کورد (kurd) \"en kurd\" + ی (-î) ger språket. Sorani (سۆرانی) är den centralkurdiska varieteten som lärs ut här."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Kurdish" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کردی", "latin": "kordi" },
+        "notes": {
+          "en": "Persian writes it without the long vowel and says o: کرد (kord) \"a Kurd\", کردی (kordi) \"Kurdish\".",
+          "sv": "Persiskan skriver det utan den långa vokalen och säger o: کرد (kord) \"en kurd\", کردی (kordi) \"kurdiska\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کردی" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "persian",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Persian", "sv": "persiska", "enAlt": ["Farsi"], "svAlt": ["farsi"] },
+      "senseNote": { "en": "the language", "sv": "språket" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "فارسی", "latin": "farsî" },
+        "sources": [{ "source": "wiktionary", "ref": "Persian" }]
+      },
+      "fa": {
+        "primary": { "script": "فارسی", "latin": "fârsi" },
+        "notes": {
+          "en": "Named after the province of Fars (فارس) in southern Iran. Poetic پارسی (pârsi) is the older form of the same word.",
+          "sv": "Uppkallat efter provinsen Fars (فارس) i södra Iran. Det poetiska پارسی (pârsi) är en äldre form av samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Persian" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "swedish",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Swedish", "sv": "svenska" },
+      "senseNote": { "en": "the language", "sv": "språket" },
+      "ckb": {
+        "primary": { "script": "سویدی", "latin": "swîdî" },
+        "notes": {
+          "en": "سوید (Sweden) + ی (-î), like کورد → کوردی. The same word means \"Swedish\" and \"a Swede\".",
+          "sv": "سوید (Sverige) + ی (-î), som کورد → کوردی. Samma ord betyder \"svenska\", \"svensk\" och \"en svensk\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Swedish" }]
+      },
+      "fa": {
+        "primary": { "script": "سوئدی", "latin": "su'edi" },
+        "notes": {
+          "en": "سوئد (Sweden) + ی (-i). The same word means \"Swedish\" and \"a Swede\".",
+          "sv": "سوئد (Sverige) + ی (-i). Samma ord betyder \"svenska\", \"svensk\" och \"en svensk\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Swedish" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "english",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "English", "sv": "engelska" },
+      "senseNote": { "en": "the language", "sv": "språket" },
+      "ckb": {
+        "primary": { "script": "ئینگلیزی", "latin": "înglîzî" },
+        "notes": {
+          "en": "Sorani has z where Persian has s: ئینگلیزی / انگلیسی.",
+          "sv": "Soranin har z där persiskan har s: ئینگلیزی / انگلیسی."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "English" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "انگلیسی", "latin": "englisi" },
+        "sources": [{ "source": "wiktionary", "ref": "English" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sweden",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🇸🇪",
+      "gloss": { "en": "Sweden", "sv": "Sverige" },
+      "ckb": {
+        "primary": { "script": "سوید", "latin": "Swîd" },
+        "notes": {
+          "en": "Sweden is home to one of the largest Kurdish communities in Europe.",
+          "sv": "Sverige har en av de största kurdiska grupperna i Europa."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Sweden" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سوئد", "latin": "Su'ed" },
+        "notes": {
+          "en": "Pronounced in two syllables: su-ed. The ئ marks the break between the vowels.",
+          "sv": "Uttalas med två stavelser: su-ed. ئ markerar gränsen mellan vokalerna."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سوئد" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-speak",
+      "unit": "me-and-you",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "💬",
+      "gloss": { "en": "to speak", "sv": "att prata", "enAlt": ["to talk"], "svAlt": ["prata", "tala", "att tala"] },
+      "ckb": {
+        "primary": { "script": "قسە کردن", "latin": "qise kirdin" },
+        "presentStem": { "script": "قسە کە", "latin": "qise ke" },
+        "pastStem": { "script": "قسە کرد", "latin": "qise kird" },
+        "notes": {
+          "en": "قسە (talk, words) + کردن (to do); only کردن changes: قسە دەکەم \"I speak\". \"In Kurdish\" is بە کوردی: بە کوردی قسە دەکەم.",
+          "sv": "قسە (prat, ord) + کردن (att göra); bara کردن böjs: قسە دەکەم \"jag pratar\". \"På kurdiska\" heter بە کوردی: بە کوردی قسە دەکەم."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "verb tables: qsa kirdin" }]
+      },
+      "fa": {
+        "primary": { "script": "صحبت کردن", "latin": "sohbat kardan" },
+        "presentStem": { "script": "صحبت کن", "latin": "sohbat kon" },
+        "pastStem": { "script": "صحبت کرد", "latin": "sohbat kard" },
+        "variants": [
+          {
+            "script": "حرف زدن",
+            "latin": "harf zadan",
+            "note": { "en": "just as common in speech: فارسی حرف می‌زنی؟", "sv": "lika vanligt i tal: فارسی حرف می‌زنی؟" }
+          }
+        ],
+        "notes": {
+          "en": "صحبت (conversation) + کردن (to do), built like Sorani قسە کردن: فارسی صحبت می‌کنم \"I speak Persian\".",
+          "sv": "صحبت (samtal) + کردن (att göra), byggt som soranins قسە کردن: فارسی صحبت می‌کنم \"jag pratar persiska\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "speak" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "a-little",
+      "unit": "me-and-you",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "🤏",
+      "gloss": { "en": "a little", "sv": "lite", "enAlt": ["a bit"], "svAlt": ["lite grann", "lite granna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کەمێک", "latin": "kemêk" },
+        "variants": [{ "script": "تۆزێک", "latin": "tozêk", "register": "colloquial" }],
+        "notes": {
+          "en": "کەم (little) + ێک (a): literally \"a little\". کەم is the same word as Persian کم (kam).",
+          "sv": "کەم (lite) + ێک (en): ordagrant \"en liten mängd\". کەم är samma ord som persiskans کم (kam)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "little" }]
+      },
+      "fa": {
+        "primary": { "script": "کمی", "latin": "kami" },
+        "variants": [
+          { "script": "یه کم", "latin": "ye kam", "register": "colloquial" },
+          { "script": "یه کمی", "latin": "ye kami", "register": "colloquial" },
+          { "script": "یک کم", "latin": "yek kam" }
+        ],
+        "notes": {
+          "en": "کم (little) + ی (a). In speech people say یه کم (ye kam).",
+          "sv": "کم (lite) + ی (en). I tal säger man یه کم (ye kam)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "a little" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-live",
+      "unit": "me-and-you",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🏠",
+      "gloss": { "en": "to live", "sv": "att bo", "svAlt": ["bo", "leva", "att leva"] },
+      "senseNote": { "en": "to have your home somewhere", "sv": "ha sitt hem någonstans" },
+      "ckb": {
+        "primary": { "script": "ژیان", "latin": "jiyan" },
+        "presentStem": { "script": "ژی", "latin": "jî" },
+        "pastStem": { "script": "ژیا", "latin": "jiya" },
+        "notes": {
+          "en": "Both \"to live somewhere\" and \"to be alive\"; ژیان is also the noun \"life\". لە کوێ دەژیت؟ \"where do you live?\"",
+          "sv": "Både \"bo någonstans\" och \"leva\"; ژیان är också substantivet \"liv\". لە کوێ دەژیت؟ \"var bor du?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ژیان" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زندگی کردن", "latin": "zendegi kardan" },
+        "presentStem": { "script": "زندگی کن", "latin": "zendegi kon" },
+        "pastStem": { "script": "زندگی کرد", "latin": "zendegi kard" },
+        "notes": {
+          "en": "زندگی (life) + کردن (to do): literally \"to do life\". کجا زندگی می‌کنید؟ \"where do you live?\"",
+          "sv": "زندگی (liv) + کردن (att göra): ordagrant \"att göra liv\". کجا زندگی می‌کنید؟ \"var bor du?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "live" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "here",
+      "unit": "me-and-you",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "👇",
+      "gloss": { "en": "here", "sv": "här", "svAlt": ["hit"] },
+      "ckb": {
+        "primary": { "script": "ئێرە", "latin": "êre" },
+        "variants": [
+          {
+            "script": "لێرە",
+            "latin": "lêre",
+            "note": { "en": "\"(at) here\": لە + ئێرە", "sv": "\"(på) här\": لە + ئێرە" }
+          }
+        ],
+        "notes": {
+          "en": "ئێرە is \"this place\". To say where something is, use لێرە: لێرە دەژیم \"I live here\", لێرەم \"I'm here\".",
+          "sv": "ئێرە är \"den här platsen\". För att säga var något är använder man لێرە: لێرە دەژیم \"jag bor här\", لێرەم \"jag är här\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "here" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اینجا", "latin": "injâ" },
+        "notes": {
+          "en": "این (this) + جا (place).",
+          "sv": "این (den här) + جا (plats)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "here" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "there",
+      "unit": "me-and-you",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "👉",
+      "gloss": { "en": "there", "sv": "där", "svAlt": ["dit"] },
+      "ckb": {
+        "primary": { "script": "ئەوێ", "latin": "ewê" },
+        "variants": [
+          {
+            "script": "لەوێ",
+            "latin": "lewê",
+            "note": { "en": "\"(at) there\": لە + ئەوێ", "sv": "\"(på) där\": لە + ئەوێ" }
+          }
+        ],
+        "notes": {
+          "en": "Like ئێرە / لێرە: to say where something is, use لەوێ: لەوێ دەژین \"they live there\".",
+          "sv": "Som ئێرە / لێرە: för att säga var något är använder man لەوێ: لەوێ دەژین \"de bor där\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "آنجا", "latin": "ânjâ" },
+        "variants": [{ "script": "اونجا", "latin": "unjâ", "register": "colloquial" }],
+        "notes": {
+          "en": "آن (that) + جا (place). In speech: اونجا (unjâ).",
+          "sv": "آن (den där) + جا (plats). I tal: اونجا (unjâ)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "there" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "this",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "gloss": { "en": "this", "sv": "det här", "svAlt": ["den här", "detta", "denna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئەمە", "latin": "eme" },
+        "variants": [
+          {
+            "script": "ئەم",
+            "latin": "em",
+            "note": { "en": "before a noun: ئەم شارە \"this city\"", "sv": "före ett substantiv: ئەم شارە \"den här staden\"" }
+          }
+        ],
+        "notes": {
+          "en": "On its own: ئەمە چییە؟ \"what is this?\". Before a noun it wraps around it, ئەم … ە: ئەم پیاوە \"this man\".",
+          "sv": "Ensamt: ئەمە چییە؟ \"vad är det här?\". Före ett substantiv läggs det runt ordet, ئەم … ە: ئەم پیاوە \"den här mannen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "this" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§4" }]
+      },
+      "fa": {
+        "primary": { "script": "این", "latin": "in" },
+        "notes": {
+          "en": "The same word before a noun and on its own: این مرد \"this man\", این چیست؟ \"what is this?\".",
+          "sv": "Samma ord före ett substantiv och ensamt: این مرد \"den här mannen\", این چیست؟ \"vad är det här?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "this" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "that",
+      "unit": "me-and-you",
+      "pos": "pronoun",
+      "level": "A1",
+      "gloss": { "en": "that", "sv": "det där", "svAlt": ["den där"] },
+      "ckb": {
+        "primary": { "script": "ئەوە", "latin": "ewe" },
+        "variants": [
+          {
+            "script": "ئەو",
+            "latin": "ew",
+            "note": { "en": "before a noun: ئەو پیاوە \"that man\"", "sv": "före ett substantiv: ئەو پیاوە \"den där mannen\"" }
+          }
+        ],
+        "notes": {
+          "en": "Works like ئەمە \"this\": ئەوە کێیە؟ \"who is that?\", ئەو ژنە \"that woman\".",
+          "sv": "Fungerar som ئەمە \"det här\": ئەوە کێیە؟ \"vem är det där?\", ئەو ژنە \"den där kvinnan\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§4" }]
+      },
+      "fa": {
+        "primary": { "script": "آن", "latin": "ân" },
+        "variants": [{ "script": "اون", "latin": "un", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech it is almost always اون (un), which also means \"he, she\".",
+          "sv": "I tal är det nästan alltid اون (un), som också betyder \"han, hon\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "that" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "man",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👨",
+      "gloss": { "en": "man", "sv": "man" },
+      "ckb": {
+        "primary": { "script": "پیاو", "latin": "pyaw" },
+        "notes": {
+          "en": "Sorani has another word, مێرد (mêrd), for \"husband\". It is the same word as Persian مرد \"man\".",
+          "sv": "Soranin har ett annat ord, مێرد (mêrd), för \"make\". Det är samma ord som persiskans مرد \"man\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "man" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مرد", "latin": "mard" },
+        "notes": {
+          "en": "Polite word for a man you don't know: آقا (âghâ) \"sir, Mr\".",
+          "sv": "Artigt ord för en man man inte känner: آقا (âghâ) \"herrn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "man" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "woman",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👩",
+      "gloss": { "en": "woman", "sv": "kvinna" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ژن", "latin": "jin" },
+        "variants": [{ "script": "ئافرەت", "latin": "afret" }],
+        "notes": {
+          "en": "ژن also means \"wife\". ئافرەت means only \"woman\" and sounds a little more formal.",
+          "sv": "ژن betyder också \"fru\". ئافرەت betyder bara \"kvinna\" och låter lite mer formellt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "woman" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زن", "latin": "zan" },
+        "notes": {
+          "en": "زن also means \"wife\". It shares its root with Sorani ژن, Swedish \"kvinna\" and English \"queen\". Polite: خانم (khânom) \"madam, Mrs\".",
+          "sv": "زن betyder också \"fru\". Det har samma rot som soranins ژن, svenskans \"kvinna\" och engelskans \"queen\". Artigt: خانم (khânom) \"frun\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "زن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "friend",
+      "unit": "me-and-you",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🧑‍🤝‍🧑",
+      "gloss": { "en": "friend", "sv": "vän", "svAlt": ["kompis", "kamrat"] },
+      "ckb": {
+        "primary": { "script": "هاوڕێ", "latin": "hawřê" },
+        "notes": {
+          "en": "Literally \"fellow traveller\": هاو (fellow) + ڕێ (road). \"My friend\" is هاوڕێکەم (hawřêkem).",
+          "sv": "Ordagrant \"reskamrat\": هاو (med-) + ڕێ (väg). \"Min vän\" heter هاوڕێکەم (hawřêkem)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "friend" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دوست", "latin": "dust" },
+        "variants": [{ "script": "رفیق", "latin": "rafigh", "register": "colloquial" }],
+        "notes": {
+          "en": "Here و is a long u: dust. رفیق (rafigh) is a casual \"mate, buddy\". Sorani has دۆست (dost) too, but there the everyday word is هاوڕێ.",
+          "sv": "Här är و ett långt u: dust. رفیق (rafigh) är ett vardagligt \"kompis\". Soranin har också دۆست (dost), men där är هاوڕێ det vardagliga ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "friend" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "nice-to-meet-you",
+      "unit": "me-and-you",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🤝",
+      "gloss": { "en": "nice to meet you", "sv": "trevligt att träffas", "enAlt": ["pleased to meet you"], "svAlt": ["angenämt", "kul att träffas"] },
+      "ckb": {
+        "primary": { "script": "خۆشحاڵم بە ناسینت", "latin": "xoşḧałim be nasînit" },
+        "variants": [
+          { "script": "خۆشحاڵم بە بینینت", "latin": "xoşḧałim be bînînit" },
+          { "script": "بە ناسینت خۆشحاڵم", "latin": "be nasînit xoşḧałim" },
+          {
+            "script": "خۆشحاڵم بە ناسینتان",
+            "latin": "xoşḧałim be nasînitan",
+            "note": { "en": "to several people", "sv": "till flera personer" }
+          }
+        ],
+        "notes": {
+          "en": "Literally \"I'm happy at knowing you\": خۆشحاڵ (happy) + م (I am) + بە (at) + ناسینت (knowing you). Reply: منیش (minîş) \"me too\".",
+          "sv": "Ordagrant \"jag är glad över att känna dig\": خۆشحاڵ (glad) + م (jag är) + بە (över) + ناسینت (att känna dig). Svar: منیش (minîş) \"jag också\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pleased to meet you" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خوشوقتم", "latin": "khoshvaghtam" },
+        "variants": [
+          { "script": "خوشبختم", "latin": "khoshbakhtam" },
+          { "script": "از آشنایی با شما خوشوقتم", "latin": "az âshnâyi bâ shomâ khoshvaghtam", "register": "formal" },
+          { "script": "از آشنایی‌تون خوشبختم", "latin": "az âshnâyitun khoshbakhtam", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Literally \"I'm glad\". خوشبختم (literally \"I'm lucky\") is just as common. Reply: من هم (man ham) \"me too\".",
+          "sv": "Ordagrant \"jag är glad\". خوشبختم (ordagrant \"jag har tur\") är lika vanligt. Svar: من هم (man ham) \"jag också\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خوشوقتم" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

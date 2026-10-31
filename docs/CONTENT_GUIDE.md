@@ -166,7 +166,7 @@ Never `x`, `q`, or `c` without `h`.
 
 - The question must be answerable with words from the same or earlier units.
 - `answers[0]` is the model answer and must have `tokens` (they drive unlocking and the word-bank mode). Give two to four answers that show natural variety: short, full sentence, negative.
-- `personal: true` with `{slot}` placeholders for answers about the learner. Provide three to five example values per slot. Slot tokens use `"text": "{name}"` in the tokens array.
+- `personal: true` for answers about the learner. Make `answers[0]` a concrete example with tokens (ناوم ئاراسە *nawim Arase*), then add a template answer with a `{slot}` placeholder (ناوم {name}ە). Provide three to five example values per slot in `slots`. Typed answers accept any text in the slot position. A slot may stand alone or carry a suffix (`{name}ە`, `{place}م`).
 - Questions should feel like real conversation, not a grammar drill.
 
 ## Grammar points

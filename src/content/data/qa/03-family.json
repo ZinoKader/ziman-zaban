@@ -1,0 +1,880 @@
+{
+  "items": [
+    {
+      "id": "do-you-have-brothers-and-sisters",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "Do you have brothers and sisters?", "sv": "Har du syskon?" },
+      "ckb": {
+        "question": {
+          "text": "خوشک و برات هەیە؟",
+          "latin": "xuşk û birat heye?",
+          "tokens": [
+            { "text": "خوشک", "latin": "xuşk", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+            { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+            {
+              "text": "برات",
+              "latin": "birat",
+              "gloss": { "en": "brother of yours", "sv": "bror till dig" },
+              "concept": "brother",
+              "morph": "brother-2SG"
+            },
+            {
+              "text": "هەیە؟",
+              "latin": "heye?",
+              "gloss": { "en": "is there (= do you have)", "sv": "finns det (= har du)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، خوشکێکم هەیە.",
+            "latin": "bełê, xuşkêkim heye.",
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              {
+                "text": "خوشکێکم",
+                "latin": "xuşkêkim",
+                "gloss": { "en": "a sister of mine", "sv": "en syster till mig" },
+                "concept": "sister",
+                "morph": "sister-INDF-1SG"
+              },
+              {
+                "text": "هەیە.",
+                "latin": "heye.",
+                "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+                "concept": "to-have",
+                "morph": "exist.PRS.3SG"
+              }
+            ],
+            "translation": { "en": "Yes, I have a sister.", "sv": "Ja, jag har en syster." }
+          },
+          {
+            "text": "برام نییە، بەڵام دوو خوشکم هەیە.",
+            "latin": "biram nîye, bełam dû xuşkim heye.",
+            "translation": { "en": "I don't have a brother, but I have two sisters.", "sv": "Jag har ingen bror, men jag har två systrar." }
+          },
+          {
+            "text": "نەخێر، خوشک و برام نییە.",
+            "latin": "nexêr, xuşk û biram nîye.",
+            "translation": { "en": "No, I don't have any brothers or sisters.", "sv": "Nej, jag har inga syskon." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خواهر و برادر دارید؟",
+          "latin": "khâhar o barâdar dârid?",
+          "tokens": [
+            { "text": "خواهر", "latin": "khâhar", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+            { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، یک خواهر دارم.",
+            "latin": "bale, yek khâhar dâram.",
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en" } },
+              { "text": "خواهر", "latin": "khâhar", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+            ],
+            "translation": { "en": "Yes, I have a sister.", "sv": "Ja, jag har en syster." }
+          },
+          {
+            "text": "برادر ندارم، ولی دو خواهر دارم.",
+            "latin": "barâdar nadâram, vali do khâhar dâram.",
+            "translation": { "en": "I don't have a brother, but I have two sisters.", "sv": "Jag har ingen bror, men jag har två systrar." }
+          },
+          {
+            "text": "نه، تک‌فرزندم.",
+            "latin": "na, tak-farzandam.",
+            "translation": { "en": "No, I'm an only child.", "sv": "Nej, jag är enda barnet." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-many-brothers",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "How many brothers do you have?", "sv": "Hur många bröder har du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چەند برات هەیە؟",
+          "latin": "çend birat heye?",
+          "tokens": [
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            {
+              "text": "برات",
+              "latin": "birat",
+              "gloss": { "en": "brother of yours", "sv": "bror till dig" },
+              "concept": "brother",
+              "morph": "brother-2SG"
+            },
+            {
+              "text": "هەیە؟",
+              "latin": "heye?",
+              "gloss": { "en": "is there (= do you have)", "sv": "finns det (= har du)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "برایەکم هەیە.",
+            "latin": "birayekim heye.",
+            "tokens": [
+              {
+                "text": "برایەکم",
+                "latin": "birayekim",
+                "gloss": { "en": "a brother of mine", "sv": "en bror till mig" },
+                "concept": "brother",
+                "morph": "brother-INDF-1SG"
+              },
+              {
+                "text": "هەیە.",
+                "latin": "heye.",
+                "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+                "concept": "to-have",
+                "morph": "exist.PRS.3SG"
+              }
+            ],
+            "translation": { "en": "I have one brother.", "sv": "Jag har en bror." }
+          },
+          {
+            "text": "{count} برام هەیە.",
+            "latin": "{count} biram heye.",
+            "translation": { "en": "I have {count} brothers.", "sv": "Jag har {count} bröder." }
+          },
+          { "text": "برام نییە.", "latin": "biram nîye.", "translation": { "en": "I don't have any brothers.", "sv": "Jag har inga bröder." } }
+        ],
+        "slots": {
+          "count": [
+            { "text": "دوو", "latin": "dû", "translation": { "en": "two", "sv": "två" } },
+            { "text": "سێ", "latin": "sê", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چوار", "latin": "çwar", "translation": { "en": "four", "sv": "fyra" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "question": {
+          "text": "چند برادر دارید؟",
+          "latin": "chand barâdar dârid?",
+          "tokens": [
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "یک برادر دارم.",
+            "latin": "yek barâdar dâram.",
+            "tokens": [
+              { "text": "یک", "latin": "yek", "gloss": { "en": "one", "sv": "en" } },
+              { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+            ],
+            "translation": { "en": "I have one brother.", "sv": "Jag har en bror." }
+          },
+          {
+            "text": "{count} برادر دارم.",
+            "latin": "{count} barâdar dâram.",
+            "translation": { "en": "I have {count} brothers.", "sv": "Jag har {count} bröder." }
+          },
+          {
+            "text": "{count} تا برادر دارم.",
+            "latin": "{count} tâ barâdar dâram.",
+            "translation": { "en": "I have {count} brothers.", "sv": "Jag har {count} bröder." }
+          },
+          { "text": "برادر ندارم.", "latin": "barâdar nadâram.", "translation": { "en": "I don't have any brothers.", "sv": "Jag har inga bröder." } }
+        ],
+        "slots": {
+          "count": [
+            { "text": "دو", "latin": "do", "translation": { "en": "two", "sv": "två" } },
+            { "text": "سه", "latin": "se", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چهار", "latin": "chahâr", "translation": { "en": "four", "sv": "fyra" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-many-sisters",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "How many sisters do you have?", "sv": "Hur många systrar har du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چەند خوشکت هەیە؟",
+          "latin": "çend xuşkit heye?",
+          "tokens": [
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            {
+              "text": "خوشکت",
+              "latin": "xuşkit",
+              "gloss": { "en": "sister of yours", "sv": "syster till dig" },
+              "concept": "sister",
+              "morph": "sister-2SG"
+            },
+            {
+              "text": "هەیە؟",
+              "latin": "heye?",
+              "gloss": { "en": "is there (= do you have)", "sv": "finns det (= har du)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "خوشکێکم هەیە.",
+            "latin": "xuşkêkim heye.",
+            "tokens": [
+              {
+                "text": "خوشکێکم",
+                "latin": "xuşkêkim",
+                "gloss": { "en": "a sister of mine", "sv": "en syster till mig" },
+                "concept": "sister",
+                "morph": "sister-INDF-1SG"
+              },
+              {
+                "text": "هەیە.",
+                "latin": "heye.",
+                "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+                "concept": "to-have",
+                "morph": "exist.PRS.3SG"
+              }
+            ],
+            "translation": { "en": "I have one sister.", "sv": "Jag har en syster." }
+          },
+          {
+            "text": "{count} خوشکم هەیە.",
+            "latin": "{count} xuşkim heye.",
+            "translation": { "en": "I have {count} sisters.", "sv": "Jag har {count} systrar." }
+          },
+          { "text": "خوشکم نییە.", "latin": "xuşkim nîye.", "translation": { "en": "I don't have any sisters.", "sv": "Jag har inga systrar." } }
+        ],
+        "slots": {
+          "count": [
+            { "text": "دوو", "latin": "dû", "translation": { "en": "two", "sv": "två" } },
+            { "text": "سێ", "latin": "sê", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چوار", "latin": "çwar", "translation": { "en": "four", "sv": "fyra" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "question": {
+          "text": "چند خواهر دارید؟",
+          "latin": "chand khâhar dârid?",
+          "tokens": [
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "خواهر", "latin": "khâhar", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "یک خواهر دارم.",
+            "latin": "yek khâhar dâram.",
+            "tokens": [
+              { "text": "یک", "latin": "yek", "gloss": { "en": "one", "sv": "en" } },
+              { "text": "خواهر", "latin": "khâhar", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+            ],
+            "translation": { "en": "I have one sister.", "sv": "Jag har en syster." }
+          },
+          {
+            "text": "{count} خواهر دارم.",
+            "latin": "{count} khâhar dâram.",
+            "translation": { "en": "I have {count} sisters.", "sv": "Jag har {count} systrar." }
+          },
+          {
+            "text": "{count} تا خواهر دارم.",
+            "latin": "{count} tâ khâhar dâram.",
+            "translation": { "en": "I have {count} sisters.", "sv": "Jag har {count} systrar." }
+          },
+          { "text": "خواهر ندارم.", "latin": "khâhar nadâram.", "translation": { "en": "I don't have any sisters.", "sv": "Jag har inga systrar." } }
+        ],
+        "slots": {
+          "count": [
+            { "text": "دو", "latin": "do", "translation": { "en": "two", "sv": "två" } },
+            { "text": "سه", "latin": "se", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چهار", "latin": "chahâr", "translation": { "en": "four", "sv": "fyra" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-old-are-you",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "How old are you?", "sv": "Hur gammal är du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چەند ساڵیت؟",
+          "latin": "çend sałît?",
+          "tokens": [
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "ساڵیت؟", "latin": "sałît?", "gloss": { "en": "years are you", "sv": "år är du" }, "concept": "year", "morph": "year-COP.2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بیست ساڵم.",
+            "latin": "bîst sałim.",
+            "tokens": [
+              { "text": "بیست", "latin": "bîst", "gloss": { "en": "twenty", "sv": "tjugo" } },
+              { "text": "ساڵم.", "latin": "sałim.", "gloss": { "en": "years I am", "sv": "år är jag" }, "concept": "year", "morph": "year-COP.1SG" }
+            ],
+            "translation": { "en": "I'm twenty.", "sv": "Jag är tjugo." }
+          },
+          { "text": "{age} ساڵم.", "latin": "{age} sałim.", "translation": { "en": "I'm {age}.", "sv": "Jag är {age}." } }
+        ],
+        "slots": {
+          "age": [
+            { "text": "بیست", "latin": "bîst", "translation": { "en": "twenty", "sv": "tjugo" } },
+            { "text": "سی", "latin": "sî", "translation": { "en": "thirty", "sv": "trettio" } },
+            { "text": "چل", "latin": "çil", "translation": { "en": "forty", "sv": "fyrtio" } },
+            { "text": "پەنجا", "latin": "penca", "translation": { "en": "fifty", "sv": "femtio" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "چند سال دارید؟",
+          "latin": "chand sâl dârid?",
+          "tokens": [
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "سال", "latin": "sâl", "gloss": { "en": "years", "sv": "år" }, "concept": "year" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بیست سال دارم.",
+            "latin": "bist sâl dâram.",
+            "tokens": [
+              { "text": "بیست", "latin": "bist", "gloss": { "en": "twenty", "sv": "tjugo" } },
+              { "text": "سال", "latin": "sâl", "gloss": { "en": "years", "sv": "år" }, "concept": "year" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+            ],
+            "translation": { "en": "I'm twenty.", "sv": "Jag är tjugo." }
+          },
+          { "text": "{age} سال دارم.", "latin": "{age} sâl dâram.", "translation": { "en": "I'm {age}.", "sv": "Jag är {age}." } },
+          { "text": "{age} سالمه.", "latin": "{age} sâlame.", "translation": { "en": "I'm {age}.", "sv": "Jag är {age}." } }
+        ],
+        "slots": {
+          "age": [
+            { "text": "بیست", "latin": "bist", "translation": { "en": "twenty", "sv": "tjugo" } },
+            { "text": "سی", "latin": "si", "translation": { "en": "thirty", "sv": "trettio" } },
+            { "text": "چهل", "latin": "chehel", "translation": { "en": "forty", "sv": "fyrtio" } },
+            { "text": "پنجاه", "latin": "panjâh", "translation": { "en": "fifty", "sv": "femtio" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "are-you-married",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "Are you married?", "sv": "Är du gift?" },
+      "ckb": {
+        "question": {
+          "text": "خێزانداریت؟",
+          "latin": "xêzandarît?",
+          "tokens": [
+            {
+              "text": "خێزانداریت؟",
+              "latin": "xêzandarît?",
+              "gloss": { "en": "are you married", "sv": "är du gift" },
+              "concept": "married",
+              "morph": "married-COP.2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، خێزاندارم.",
+            "latin": "bełê, xêzandarim.",
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              {
+                "text": "خێزاندارم.",
+                "latin": "xêzandarim.",
+                "gloss": { "en": "I'm married", "sv": "jag är gift" },
+                "concept": "married",
+                "morph": "married-COP.1SG"
+              }
+            ],
+            "translation": { "en": "Yes, I'm married.", "sv": "Ja, jag är gift." }
+          },
+          {
+            "text": "نەخێر، خێزاندار نیم.",
+            "latin": "nexêr, xêzandar nîm.",
+            "translation": { "en": "No, I'm not married.", "sv": "Nej, jag är inte gift." }
+          },
+          {
+            "text": "بەڵێ، هاوسەرگیریم کردووە.",
+            "latin": "bełê, hawsergîrîm kirdûwe.",
+            "translation": { "en": "Yes, I've got married.", "sv": "Ja, jag har gift mig." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "متأهل هستید؟",
+          "latin": "mote'ahhel hastid?",
+          "tokens": [
+            { "text": "متأهل", "latin": "mote'ahhel", "gloss": { "en": "married", "sv": "gift" }, "concept": "married" },
+            { "text": "هستید؟", "latin": "hastid?", "gloss": { "en": "are you", "sv": "är ni" }, "concept": "to-be", "morph": "be.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، متأهل هستم.",
+            "latin": "bale, mote'ahhel hastam.",
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "متأهل", "latin": "mote'ahhel", "gloss": { "en": "married", "sv": "gift" }, "concept": "married" },
+              { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
+            ],
+            "translation": { "en": "Yes, I'm married.", "sv": "Ja, jag är gift." }
+          },
+          { "text": "نه، مجرد هستم.", "latin": "na, mojarrad hastam.", "translation": { "en": "No, I'm single.", "sv": "Nej, jag är singel." } },
+          {
+            "text": "بله، ازدواج کرده‌ام.",
+            "latin": "bale, ezdevâj karde-am.",
+            "translation": { "en": "Yes, I've got married.", "sv": "Ja, jag har gift mig." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-have-children",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "Do you have children?", "sv": "Har du barn?" },
+      "ckb": {
+        "question": {
+          "text": "منداڵت هەیە؟",
+          "latin": "mindałit heye?",
+          "tokens": [
+            {
+              "text": "منداڵت",
+              "latin": "mindałit",
+              "gloss": { "en": "child of yours", "sv": "barn till dig" },
+              "concept": "child",
+              "morph": "child-2SG"
+            },
+            {
+              "text": "هەیە؟",
+              "latin": "heye?",
+              "gloss": { "en": "is there (= do you have)", "sv": "finns det (= har du)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، کوڕێکم هەیە.",
+            "latin": "bełê, kuřêkim heye.",
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              {
+                "text": "کوڕێکم",
+                "latin": "kuřêkim",
+                "gloss": { "en": "a son of mine", "sv": "en son till mig" },
+                "concept": "son",
+                "morph": "son-INDF-1SG"
+              },
+              {
+                "text": "هەیە.",
+                "latin": "heye.",
+                "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+                "concept": "to-have",
+                "morph": "exist.PRS.3SG"
+              }
+            ],
+            "translation": { "en": "Yes, I have a son.", "sv": "Ja, jag har en son." }
+          },
+          {
+            "text": "نەخێر، منداڵم نییە.",
+            "latin": "nexêr, mindałim nîye.",
+            "translation": { "en": "No, I don't have children.", "sv": "Nej, jag har inga barn." }
+          },
+          {
+            "text": "بەڵێ، دوو منداڵم هەیە.",
+            "latin": "bełê, dû mindałim heye.",
+            "translation": { "en": "Yes, I have two children.", "sv": "Ja, jag har två barn." }
+          }
+        ],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "question": {
+          "text": "بچه دارید؟",
+          "latin": "bachche dârid?",
+          "tokens": [
+            { "text": "بچه", "latin": "bachche", "gloss": { "en": "children", "sv": "barn" }, "concept": "child" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، یک پسر دارم.",
+            "latin": "bale, yek pesar dâram.",
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en" } },
+              { "text": "پسر", "latin": "pesar", "gloss": { "en": "son", "sv": "son" }, "concept": "son" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+            ],
+            "translation": { "en": "Yes, I have a son.", "sv": "Ja, jag har en son." }
+          },
+          {
+            "text": "نه، بچه ندارم.",
+            "latin": "na, bachche nadâram.",
+            "translation": { "en": "No, I don't have children.", "sv": "Nej, jag har inga barn." }
+          },
+          {
+            "text": "بله، دو تا بچه دارم.",
+            "latin": "bale, do tâ bachche dâram.",
+            "translation": { "en": "Yes, I have two children.", "sv": "Ja, jag har två barn." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-does-your-family-live",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "Where does your family live?", "sv": "Var bor din familj?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "خێزانەکەت لە کوێ دەژی؟",
+          "latin": "xêzaneket le kwê dejî?",
+          "tokens": [
+            {
+              "text": "خێزانەکەت",
+              "latin": "xêzaneket",
+              "gloss": { "en": "your family", "sv": "din familj" },
+              "concept": "family",
+              "morph": "family-DEF-2SG"
+            },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "کوێ", "latin": "kwê", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "دەژی؟", "latin": "dejî?", "gloss": { "en": "lives", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "خێزانەکەم لە سلێمانی دەژی.",
+            "latin": "xêzanekem le Silêmanî dejî.",
+            "tokens": [
+              {
+                "text": "خێزانەکەم",
+                "latin": "xêzanekem",
+                "gloss": { "en": "my family", "sv": "min familj" },
+                "concept": "family",
+                "morph": "family-DEF-1SG"
+              },
+              { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+              { "text": "سلێمانی", "latin": "Silêmanî", "gloss": { "en": "Sulaymaniyah", "sv": "Sulaymaniyya" } },
+              { "text": "دەژی.", "latin": "dejî.", "gloss": { "en": "lives", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3SG" }
+            ],
+            "translation": { "en": "My family lives in Sulaymaniyah.", "sv": "Min familj bor i Sulaymaniyya." }
+          },
+          { "text": "لە {place}.", "latin": "le {place}.", "translation": { "en": "In {place}.", "sv": "I {place}." } },
+          {
+            "text": "دایک و باوکم لێرە دەژین.",
+            "latin": "dayk û bawkim lêre dejîn.",
+            "translation": { "en": "My parents live here.", "sv": "Mina föräldrar bor här." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سوید", "latin": "Swîd", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "سلێمانی", "latin": "Silêmanî", "translation": { "en": "Sulaymaniyah", "sv": "Sulaymaniyya" } },
+            { "text": "هەولێر", "latin": "Hewlêr", "translation": { "en": "Erbil", "sv": "Erbil" } },
+            { "text": "لەندەن", "latin": "Lenden", "translation": { "en": "London", "sv": "London" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خانواده‌تان کجا زندگی می‌کنند؟",
+          "latin": "khânevâde-tân kojâ zendegi mikonand?",
+          "tokens": [
+            {
+              "text": "خانواده‌تان",
+              "latin": "khânevâde-tân",
+              "gloss": { "en": "your family", "sv": "er familj" },
+              "concept": "family",
+              "morph": "family-2PL"
+            },
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+            {
+              "text": "می‌کنند؟",
+              "latin": "mikonand?",
+              "gloss": { "en": "do (= live)", "sv": "gör (= bor)" },
+              "concept": "to-live",
+              "morph": "DUR-do.PRS-3PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "خانواده‌ام در تهران زندگی می‌کنند.",
+            "latin": "khânevâde-am dar Tehrân zendegi mikonand.",
+            "tokens": [
+              {
+                "text": "خانواده‌ام",
+                "latin": "khânevâde-am",
+                "gloss": { "en": "my family", "sv": "min familj" },
+                "concept": "family",
+                "morph": "family-1SG"
+              },
+              { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" } },
+              { "text": "تهران", "latin": "Tehrân", "gloss": { "en": "Tehran", "sv": "Teheran" } },
+              { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+              {
+                "text": "می‌کنند.",
+                "latin": "mikonand.",
+                "gloss": { "en": "do (= live)", "sv": "gör (= bor)" },
+                "concept": "to-live",
+                "morph": "DUR-do.PRS-3PL"
+              }
+            ],
+            "translation": { "en": "My family lives in Tehran.", "sv": "Min familj bor i Teheran." }
+          },
+          { "text": "در {place}.", "latin": "dar {place}.", "translation": { "en": "In {place}.", "sv": "I {place}." } },
+          { "text": "تو {place}.", "latin": "tu {place}.", "translation": { "en": "In {place}.", "sv": "I {place}." } },
+          {
+            "text": "پدر و مادرم اینجا زندگی می‌کنند.",
+            "latin": "pedar o mâdaram injâ zendegi mikonand.",
+            "translation": { "en": "My parents live here.", "sv": "Mina föräldrar bor här." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سوئد", "latin": "Su'ed", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "استکهلم", "latin": "Estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } },
+            { "text": "تهران", "latin": "Tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } },
+            { "text": "لندن", "latin": "Landan", "translation": { "en": "London", "sv": "London" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-is-your-mothers-name",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "What is your mother's name?", "sv": "Vad heter din mamma?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "ناوی دایکت چییە؟",
+          "latin": "nawî daykit çîye?",
+          "tokens": [
+            { "text": "ناوی", "latin": "nawî", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+            { "text": "دایکت", "latin": "daykit", "gloss": { "en": "your mother", "sv": "din mamma" }, "concept": "mother", "morph": "mother-2SG" },
+            { "text": "چییە؟", "latin": "çîye?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ناوی دایکم شیلانە.",
+            "latin": "nawî daykim Şîlane.",
+            "tokens": [
+              { "text": "ناوی", "latin": "nawî", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+              { "text": "دایکم", "latin": "daykim", "gloss": { "en": "my mother", "sv": "min mamma" }, "concept": "mother", "morph": "mother-1SG" },
+              {
+                "text": "شیلانە.",
+                "latin": "Şîlane.",
+                "gloss": { "en": "is Shilan", "sv": "är Shilan" },
+                "concept": "to-be",
+                "morph": "Shilan-COP.3SG"
+              }
+            ],
+            "translation": { "en": "My mother's name is Shilan.", "sv": "Min mamma heter Shilan." }
+          },
+          {
+            "text": "ناوی دایکم {name}ە.",
+            "latin": "nawî daykim {name}e.",
+            "translation": { "en": "My mother's name is {name}.", "sv": "Min mamma heter {name}." }
+          }
+        ],
+        "slots": {
+          "name": [
+            { "text": "شیلان", "latin": "Şîlan", "translation": { "en": "Shilan", "sv": "Shilan" } },
+            { "text": "نەسرین", "latin": "Nesrîn", "translation": { "en": "Nasrin", "sv": "Nasrin" } },
+            { "text": "ڕۆژان", "latin": "Řojan", "translation": { "en": "Rojan", "sv": "Rojan" } },
+            { "text": "کاژاڵ", "latin": "Kajał", "translation": { "en": "Kazhal", "sv": "Kazhal" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "question": {
+          "text": "اسم مادرتان چیست؟",
+          "latin": "esm-e mâdaretân chist?",
+          "tokens": [
+            { "text": "اسم", "latin": "esm-e", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+            {
+              "text": "مادرتان",
+              "latin": "mâdaretân",
+              "gloss": { "en": "your mother", "sv": "er mamma" },
+              "concept": "mother",
+              "morph": "mother-2PL"
+            },
+            { "text": "چیست؟", "latin": "chist?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "اسم مادرم مریم است.",
+            "latin": "esm-e mâdaram Maryam ast.",
+            "tokens": [
+              { "text": "اسم", "latin": "esm-e", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+              { "text": "مادرم", "latin": "mâdaram", "gloss": { "en": "my mother", "sv": "min mamma" }, "concept": "mother", "morph": "mother-1SG" },
+              { "text": "مریم", "latin": "Maryam", "gloss": { "en": "Maryam", "sv": "Maryam" } },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "My mother's name is Maryam.", "sv": "Min mamma heter Maryam." }
+          },
+          { "text": "{name}.", "latin": "{name}.", "translation": { "en": "{name}.", "sv": "{name}." } },
+          {
+            "text": "اسم مامانم {name}ه.",
+            "latin": "esm-e mâmânam {name}e.",
+            "translation": { "en": "My mom's name is {name}.", "sv": "Min mamma heter {name}." }
+          }
+        ],
+        "slots": {
+          "name": [
+            { "text": "مریم", "latin": "Maryam", "translation": { "en": "Maryam", "sv": "Maryam" } },
+            { "text": "نسرین", "latin": "Nasrin", "translation": { "en": "Nasrin", "sv": "Nasrin" } },
+            { "text": "شیرین", "latin": "Shirin", "translation": { "en": "Shirin", "sv": "Shirin" } },
+            { "text": "پروین", "latin": "Parvin", "translation": { "en": "Parvin", "sv": "Parvin" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-he-your-brother",
+      "unit": "family",
+      "level": "A1",
+      "question": { "en": "Is he your brother?", "sv": "Är han din bror?" },
+      "ckb": {
+        "question": {
+          "text": "ئەو براتە؟",
+          "latin": "ew birate?",
+          "tokens": [
+            { "text": "ئەو", "latin": "ew", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+            {
+              "text": "براتە؟",
+              "latin": "birate?",
+              "gloss": { "en": "is your brother", "sv": "är din bror" },
+              "concept": "brother",
+              "morph": "brother-2SG-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، برامە.",
+            "latin": "bełê, birame.",
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              {
+                "text": "برامە.",
+                "latin": "birame.",
+                "gloss": { "en": "is my brother", "sv": "är min bror" },
+                "concept": "brother",
+                "morph": "brother-1SG-COP.3SG"
+              }
+            ],
+            "translation": { "en": "Yes, he's my brother.", "sv": "Ja, han är min bror." }
+          },
+          { "text": "نەخێر، هاوڕێمە.", "latin": "nexêr, hawřême.", "translation": { "en": "No, he's my friend.", "sv": "Nej, han är min vän." } },
+          {
+            "text": "نەخێر، ماممە.",
+            "latin": "nexêr, mamime.",
+            "translation": { "en": "No, he's my uncle (my father's brother).", "sv": "Nej, han är min farbror." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "او برادر شماست؟",
+          "latin": "u barâdar-e shomâst?",
+          "tokens": [
+            { "text": "او", "latin": "u", "gloss": { "en": "he / she", "sv": "han / hon" }, "concept": "he-she" },
+            {
+              "text": "برادر",
+              "latin": "barâdar-e",
+              "gloss": { "en": "brother (of)", "sv": "bror (till)" },
+              "concept": "brother",
+              "morph": "brother-EZ"
+            },
+            {
+              "text": "شماست؟",
+              "latin": "shomâst?",
+              "gloss": { "en": "yours is", "sv": "er är" },
+              "concept": "you-plural",
+              "morph": "you.PL-be.PRS.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، برادرم است.",
+            "latin": "bale, barâdaram ast.",
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              {
+                "text": "برادرم",
+                "latin": "barâdaram",
+                "gloss": { "en": "my brother", "sv": "min bror" },
+                "concept": "brother",
+                "morph": "brother-1SG"
+              },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "Yes, he's my brother.", "sv": "Ja, han är min bror." }
+          },
+          { "text": "نه، دوستم است.", "latin": "na, dustam ast.", "translation": { "en": "No, he's my friend.", "sv": "Nej, han är min vän." } },
+          { "text": "بله، داداشمه.", "latin": "bale, dâdâshame.", "translation": { "en": "Yes, he's my brother.", "sv": "Ja, han är min bror." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

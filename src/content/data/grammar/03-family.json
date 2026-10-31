@@ -1,0 +1,392 @@
+{
+  "points": [
+    {
+      "id": "ckb-definite-ekan",
+      "unit": "family",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "The definite ending -eke / -ekan", "sv": "Bestämd form -eke / -ekan" },
+      "explanation": {
+        "en": "Sorani has a definite ending, like Swedish **-en/-et**: `-eke`, or `-ke` after a vowel. `منداڵ` 'child', `منداڵەکە` mindałeke 'the child', `هاوڕێکە` hawřêke 'the friend'. The definite plural is `-ekan` (`-kan` after a vowel): `منداڵەکان` 'the children'. A possessive clitic comes after it: `کچەکەم` 'my daughter', `زمانەکەم` 'my language'. Mother, father, brother and sister usually skip `-eke` before a clitic: `دایکم`, not دایکەکەم. The indefinite 'a' is also an ending: `-êk`, or `-yek` after a vowel (`کوڕێک` 'a son', `برایەک` 'a brother').",
+        "sv": "Sorani har en bestämd ändelse, som svenskans **-en/-et**: `-eke`, eller `-ke` efter vokal. `منداڵ` 'barn', `منداڵەکە` mindałeke 'barnet', `هاوڕێکە` hawřêke 'vännen'. Bestämd plural är `-ekan` (`-kan` efter vokal): `منداڵەکان` 'barnen'. En possessiv klitika kommer efter: `کچەکەم` 'min dotter', `زمانەکەم` 'mitt språk'. Mamma, pappa, bror och syster hoppar oftast över `-eke` före klitikan: `دایکم`, inte دایکەکەم. Obestämd form 'en/ett' är också en ändelse: `-êk`, eller `-yek` efter vokal (`کوڕێک` 'en son', `برایەک` 'en bror')."
+      },
+      "examples": [
+        {
+          "text": "منداڵەکان لێرەن.",
+          "latin": "mindałekan lêren.",
+          "translation": { "en": "The children are here.", "sv": "Barnen är här." },
+          "tokens": [
+            {
+              "text": "منداڵەکان",
+              "latin": "mindałekan",
+              "gloss": { "en": "the children", "sv": "barnen" },
+              "concept": "child",
+              "morph": "child-DEF.PL"
+            },
+            { "text": "لێرەن.", "latin": "lêren.", "gloss": { "en": "are here", "sv": "är här" }, "concept": "here", "morph": "in.here-COP.3PL" }
+          ]
+        },
+        {
+          "text": "کچەکەت لە کوێیە؟",
+          "latin": "kiçeket le kwêye?",
+          "translation": { "en": "Where is your daughter?", "sv": "Var är din dotter?" },
+          "tokens": [
+            {
+              "text": "کچەکەت",
+              "latin": "kiçeket",
+              "gloss": { "en": "your daughter", "sv": "din dotter" },
+              "concept": "daughter",
+              "morph": "daughter-DEF-2SG"
+            },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        {
+          "text": "ئەمە خێزانەکەمە.",
+          "latin": "eme xêzanekeme.",
+          "translation": { "en": "This is my family.", "sv": "Det här är min familj." },
+          "tokens": [
+            { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            {
+              "text": "خێزانەکەمە.",
+              "latin": "xêzanekeme.",
+              "gloss": { "en": "is my family", "sv": "är min familj" },
+              "concept": "family",
+              "morph": "family-DEF-1SG-COP.3SG"
+            }
+          ]
+        },
+        {
+          "text": "منداڵەکە لێرەیە.",
+          "latin": "mindałeke lêreye.",
+          "tokens": [
+            { "text": "منداڵەکە", "latin": "mindałeke", "gloss": { "en": "the child", "sv": "barnet" }, "concept": "child", "morph": "child-DEF" },
+            { "text": "لێرەیە.", "latin": "lêreye.", "gloss": { "en": "is here", "sv": "är här" }, "concept": "here", "morph": "in.here-COP.3SG" }
+          ],
+          "translation": { "en": "The child is here.", "sv": "Barnet är här." }
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§2–3" }, { "source": "kim-kurdish-grammar", "ref": "Possessives" }]
+    },
+    {
+      "id": "ckb-plural",
+      "unit": "family",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Plural", "sv": "Plural" },
+      "explanation": {
+        "en": "The plain plural ending is `-an` (`-yan` after a vowel): `منداڵان` 'children'. In everyday Sorani you mostly hear the **definite** plural `-ekan`: `منداڵەکان` 'the children', `منداڵەکانم` 'my children'. After a number or `چەند` 'how many' the noun stays **singular**, unlike Swedish and English: `چەند برات هەیە؟` 'how many brothers do you have?' (lit. 'how many brother'). A plural subject takes a plural ending on the verb or copula: `منداڵەکان لێرەن` 'the children are here', `دەژین` 'they live'.",
+        "sv": "Den enkla pluraländelsen är `-an` (`-yan` efter vokal): `منداڵان` 'barn'. I vardaglig sorani hör man mest den **bestämda** pluralen `-ekan`: `منداڵەکان` 'barnen', `منداڵەکانم` 'mina barn'. Efter ett räkneord eller `چەند` 'hur många' står substantivet i **singular**, till skillnad från svenskan: `چەند برات هەیە؟` 'hur många bröder har du?' (ordagrant 'hur många bror'). Ett subjekt i plural tar pluraländelse på verbet eller kopulan: `منداڵەکان لێرەن` 'barnen är här', `دەژین` 'de bor'."
+      },
+      "examples": [
+        {
+          "text": "منداڵەکان لێرەن.",
+          "latin": "mindałekan lêren.",
+          "translation": { "en": "The children are here.", "sv": "Barnen är här." },
+          "tokens": [
+            {
+              "text": "منداڵەکان",
+              "latin": "mindałekan",
+              "gloss": { "en": "the children", "sv": "barnen" },
+              "concept": "child",
+              "morph": "child-DEF.PL"
+            },
+            { "text": "لێرەن.", "latin": "lêren.", "gloss": { "en": "are here", "sv": "är här" }, "concept": "here", "morph": "in.here-COP.3PL" }
+          ]
+        },
+        {
+          "text": "منداڵەکانم لە سوید دەژین.",
+          "latin": "mindałekanim le Swîd dejîn.",
+          "tokens": [
+            {
+              "text": "منداڵەکانم",
+              "latin": "mindałekanim",
+              "gloss": { "en": "my children", "sv": "mina barn" },
+              "concept": "child",
+              "morph": "child-DEF.PL-1SG"
+            },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "سوید", "latin": "Swîd", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+            { "text": "دەژین.", "latin": "dejîn.", "gloss": { "en": "live", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3PL" }
+          ],
+          "translation": { "en": "My children live in Sweden.", "sv": "Mina barn bor i Sverige." }
+        },
+        {
+          "text": "چەند برات هەیە؟",
+          "latin": "çend birat heye?",
+          "tokens": [
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            {
+              "text": "برات",
+              "latin": "birat",
+              "gloss": { "en": "brother of yours", "sv": "bror till dig" },
+              "concept": "brother",
+              "morph": "brother-2SG"
+            },
+            {
+              "text": "هەیە؟",
+              "latin": "heye?",
+              "gloss": { "en": "there is (= do you have)", "sv": "det finns (= har du)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ],
+          "translation": { "en": "How many brothers do you have?", "sv": "Hur många bröder har du?" }
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§2" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "ckb-to-have",
+      "unit": "family",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "To have: هەیە / نییە", "sv": "Att ha: هەیە / نییە" },
+      "explanation": {
+        "en": "Sorani has no verb like **have**. It says 'my X **exists**': the thing you have takes a possessive clitic and is followed by `هەیە` heye 'there is' or `نییە` nîye 'there isn't'. `برام هەیە` 'I have a brother' (lit. 'my brother exists'), `خوشکم نییە` 'I don't have a sister', `کوڕێکمان هەیە` 'we have a son'. The noun is bare or indefinite with `-êk`, not definite with `-eke`. `هەیە` itself never changes; the clitic shows who has: `-m, -t, -y, -man, -tan, -yan`. A question just uses question intonation: `منداڵت هەیە؟` 'do you have children?'. The past is `هەبوو` hebû.",
+        "sv": "Sorani har inget verb som **ha**. Man säger 'min X **finns**': det man har får en possessiv klitika och följs av `هەیە` heye 'det finns' eller `نییە` nîye 'det finns inte'. `برام هەیە` 'jag har en bror' (ordagrant 'min bror finns'), `خوشکم نییە` 'jag har ingen syster', `کوڕێکمان هەیە` 'vi har en son'. Substantivet står i grundform eller obestämd form med `-êk`, inte i bestämd form med `-eke`. `هەیە` ändras aldrig; klitikan visar vem som har: `-m, -t, -y, -man, -tan, -yan`. En fråga markeras bara med frågeintonation: `منداڵت هەیە؟` 'har du barn?'. Preteritum är `هەبوو` hebû."
+      },
+      "examples": [
+        {
+          "text": "برایەکم هەیە.",
+          "latin": "birayekim heye.",
+          "translation": { "en": "I have a brother.", "sv": "Jag har en bror." },
+          "tokens": [
+            {
+              "text": "برایەکم",
+              "latin": "birayekim",
+              "gloss": { "en": "a brother of mine", "sv": "en bror till mig" },
+              "concept": "brother",
+              "morph": "brother-INDF-1SG"
+            },
+            {
+              "text": "هەیە.",
+              "latin": "heye.",
+              "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        {
+          "text": "خوشکم نییە.",
+          "latin": "xuşkim nîye.",
+          "translation": { "en": "I don't have a sister.", "sv": "Jag har ingen syster." },
+          "tokens": [
+            { "text": "خوشکم", "latin": "xuşkim", "gloss": { "en": "my sister", "sv": "min syster" }, "concept": "sister", "morph": "sister-1SG" },
+            {
+              "text": "نییە.",
+              "latin": "nîye.",
+              "gloss": { "en": "there is not (= I have no)", "sv": "det finns inte (= jag har ingen)" },
+              "concept": "to-have",
+              "morph": "NEG.exist.PRS.3SG"
+            }
+          ]
+        },
+        {
+          "text": "کوڕێکمان هەیە.",
+          "latin": "kuřêkman heye.",
+          "translation": { "en": "We have a son.", "sv": "Vi har en son." },
+          "tokens": [
+            {
+              "text": "کوڕێکمان",
+              "latin": "kuřêkman",
+              "gloss": { "en": "a son of ours", "sv": "en son till oss" },
+              "concept": "son",
+              "morph": "son-INDF-1PL"
+            },
+            {
+              "text": "هەیە.",
+              "latin": "heye.",
+              "gloss": { "en": "there is (= we have)", "sv": "det finns (= vi har)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        {
+          "text": "منداڵت هەیە؟",
+          "latin": "mindałit heye?",
+          "tokens": [
+            {
+              "text": "منداڵت",
+              "latin": "mindałit",
+              "gloss": { "en": "child of yours", "sv": "barn till dig" },
+              "concept": "child",
+              "morph": "child-2SG"
+            },
+            {
+              "text": "هەیە؟",
+              "latin": "heye?",
+              "gloss": { "en": "is there (= do you have)", "sv": "finns det (= har du)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ],
+          "translation": { "en": "Do you have children?", "sv": "Har du barn?" }
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§16" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-plural",
+      "unit": "family",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Plural", "sv": "Plural" },
+      "explanation": {
+        "en": "The everyday plural ending is `-hâ`, joined with a ZWNJ: `بچه‌ها` bachche-hâ 'children', `دوست‌ها` dust-hâ 'friends'. `-ân` is more formal and mostly used for people: `دوستان` dustân. In Tehran speech `-hâ` usually becomes `-â`: `دوستا` dustâ. Persian has no 'the' ending, so a bare noun is often definite: `بچه کجاست؟` 'where is the child?'. As in Sorani, the noun stays **singular** after numbers and `چند` 'how many': `چند برادر دارید؟` 'how many brothers do you have?'. A plural subject takes a plural verb: `بچه‌ها اینجا هستند`.",
+        "sv": "Den vardagliga pluraländelsen är `-hâ`, som fogas på med ZWNJ: `بچه‌ها` bachche-hâ 'barn', `دوست‌ها` dust-hâ 'vänner'. `-ân` är mer formell och används mest om människor: `دوستان` dustân. I teheranskt tal blir `-hâ` oftast `-â`: `دوستا` dustâ. Persiskan har ingen bestämd ändelse, så ett substantiv i grundform är ofta bestämt: `بچه کجاست؟` 'var är barnet?'. Precis som i sorani står substantivet i **singular** efter räkneord och `چند` 'hur många': `چند برادر دارید؟` 'hur många bröder har ni?'. Ett subjekt i plural tar verb i plural: `بچه‌ها اینجا هستند`."
+      },
+      "examples": [
+        {
+          "text": "بچه‌ها اینجا هستند.",
+          "latin": "bachche-hâ injâ hastand.",
+          "translation": { "en": "The children are here.", "sv": "Barnen är här." },
+          "tokens": [
+            { "text": "بچه‌ها", "latin": "bachche-hâ", "gloss": { "en": "the children", "sv": "barnen" }, "concept": "child", "morph": "child-PL" },
+            { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
+            { "text": "هستند.", "latin": "hastand.", "gloss": { "en": "are", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-3PL" }
+          ]
+        },
+        {
+          "text": "دوست‌های من اینجا هستند.",
+          "latin": "dust-hâ-ye man injâ hastand.",
+          "tokens": [
+            {
+              "text": "دوست‌های",
+              "latin": "dust-hâ-ye",
+              "gloss": { "en": "friends (of)", "sv": "vänner (till)" },
+              "concept": "friend",
+              "morph": "friend-PL-EZ"
+            },
+            { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "mina" }, "concept": "i" },
+            { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
+            { "text": "هستند.", "latin": "hastand.", "gloss": { "en": "are", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-3PL" }
+          ],
+          "translation": { "en": "My friends are here.", "sv": "Mina vänner är här." }
+        },
+        {
+          "text": "چند برادر دارید؟",
+          "latin": "chand barâdar dârid?",
+          "tokens": [
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ],
+          "translation": { "en": "How many brothers do you have?", "sv": "Hur många bröder har ni?" }
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-to-have",
+      "unit": "family",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "To have: داشتن", "sv": "Att ha: داشتن" },
+      "explanation": {
+        "en": "'To have' is `داشتن` dâshtan, present stem `دار`. Unlike almost every other verb it takes **no** `می‌` in the present: `دارم، داری، دارد، داریم، دارید، دارند` 'I have, you have…'. The negative adds `ن`: `ندارم` 'I don't have'. The thing you have is often bare: `خواهر ندارم` 'I don't have a sister', `بچه دارید؟` 'do you have children?'. In Tehran speech 3SG is `داره` dâre and the plurals are `دارین، دارن`. Age is something you 'have': `بیست سال دارم` 'I'm twenty' (lit. 'I have twenty years').",
+        "sv": "'Att ha' är `داشتن` dâshtan, presensstam `دار`. Till skillnad från nästan alla andra verb tar det **inget** `می‌` i presens: `دارم، داری، دارد، داریم، دارید، دارند` 'jag har, du har…'. Nekande form får `ن`: `ندارم` 'jag har inte'. Det man har står ofta i grundform: `خواهر ندارم` 'jag har ingen syster', `بچه دارید؟` 'har ni barn?'. I teheranskt tal är 3SG `داره` dâre och pluralformerna `دارین، دارن`. Ålder är något man 'har': `بیست سال دارم` 'jag är tjugo' (ordagrant 'jag har tjugo år')."
+      },
+      "examples": [
+        {
+          "text": "یک برادر دارم.",
+          "latin": "yek barâdar dâram.",
+          "translation": { "en": "I have a brother.", "sv": "Jag har en bror." },
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en (ett)" } },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "خواهر ندارم.",
+          "latin": "khâhar nadâram.",
+          "translation": { "en": "I don't have a sister.", "sv": "Jag har ingen syster." },
+          "tokens": [
+            { "text": "خواهر", "latin": "khâhar", "gloss": { "en": "sister", "sv": "syster" }, "concept": "sister" },
+            {
+              "text": "ندارم.",
+              "latin": "nadâram.",
+              "gloss": { "en": "I don't have", "sv": "jag har inte" },
+              "concept": "to-have",
+              "morph": "NEG-have.PRS-1SG"
+            }
+          ]
+        },
+        {
+          "text": "یک پسر داریم.",
+          "latin": "yek pesar dârim.",
+          "translation": { "en": "We have a son.", "sv": "Vi har en son." },
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en (ett)" } },
+            { "text": "پسر", "latin": "pesar", "gloss": { "en": "son", "sv": "son" }, "concept": "son" },
+            { "text": "داریم.", "latin": "dârim.", "gloss": { "en": "we have", "sv": "vi har" }, "concept": "to-have", "morph": "have.PRS-1PL" }
+          ]
+        },
+        {
+          "text": "بچه دارید؟",
+          "latin": "bachche dârid?",
+          "tokens": [
+            { "text": "بچه", "latin": "bachche", "gloss": { "en": "children", "sv": "barn" }, "concept": "child" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ],
+          "translation": { "en": "Do you have children?", "sv": "Har ni barn?" }
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-indefinite-i",
+      "unit": "family",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "A / an: یک and -i", "sv": "En / ett: یک och -i" },
+      "explanation": {
+        "en": "'A/an' in Persian is either `یک` yek 'one' before the noun (spoken `یه` ye) or the unstressed ending `-i`: `یک برادر` or `برادری` 'a brother'. In speech `یه` is by far the most common. After a silent ه the ending is written `‌ای`: `بچه‌ای` bachche-i 'a child'. With a negative, `هیچ` + noun + `-i` means 'not any': `هیچ برادری ندارم` 'I don't have any brothers'. There is no ending for 'the': a noun without `-i` or `یک` is usually understood as definite, as in `بچه کجاست؟` 'where is the child?'.",
+        "sv": "'En/ett' på persiska är antingen `یک` yek 'ett' före substantivet (i tal `یه` ye) eller den obetonade ändelsen `-i`: `یک برادر` eller `برادری` 'en bror'. I tal är `یه` överlägset vanligast. Efter stumt ه skrivs ändelsen `‌ای`: `بچه‌ای` bachche-i 'ett barn'. Med nekande verb betyder `هیچ` + substantiv + `-i` 'inte någon alls': `هیچ برادری ندارم` 'jag har inga bröder alls'. Det finns ingen ändelse för bestämd form: ett substantiv utan `-i` eller `یک` uppfattas oftast som bestämt, som i `بچه کجاست؟` 'var är barnet?'."
+      },
+      "examples": [
+        {
+          "text": "یک برادر دارم.",
+          "latin": "yek barâdar dâram.",
+          "translation": { "en": "I have a brother.", "sv": "Jag har en bror." },
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en (ett)" } },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "هیچ برادری ندارم.",
+          "latin": "hich barâdari nadâram.",
+          "tokens": [
+            { "text": "هیچ", "latin": "hich", "gloss": { "en": "no (any)", "sv": "ingen (någon)" } },
+            { "text": "برادری", "latin": "barâdari", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother", "morph": "brother-INDF" },
+            {
+              "text": "ندارم.",
+              "latin": "nadâram.",
+              "gloss": { "en": "I don't have", "sv": "jag har inte" },
+              "concept": "to-have",
+              "morph": "NEG-have.PRS-1SG"
+            }
+          ],
+          "translation": { "en": "I don't have any brothers.", "sv": "Jag har inga bröder alls." }
+        },
+        {
+          "text": "یک بچه دارم.",
+          "latin": "yek bachche dâram.",
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "ett" } },
+            { "text": "بچه", "latin": "bachche", "gloss": { "en": "child", "sv": "barn" }, "concept": "child" },
+            { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+          ],
+          "translation": { "en": "I have a child.", "sv": "Jag har ett barn." }
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    }
+  ]
+}

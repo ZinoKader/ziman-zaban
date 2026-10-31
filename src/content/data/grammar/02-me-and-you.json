@@ -1,0 +1,473 @@
+{
+  "points": [
+    {
+      "id": "ckb-pronouns",
+      "unit": "me-and-you",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Personal pronouns", "sv": "Personliga pronomen" },
+      "explanation": {
+        "en": "Sorani has six personal pronouns: **من** `min` I, **تۆ** `to` you, **ئەو** `ew` he/she, **ئێمە** `ême` we, **ئێوە** `êwe` you (plural, also polite), **ئەوان** `ewan` they. There is no gender: ئەو means both he and she, like Swedish **hen**, and it also means **that**. The ending on the verb already shows the person, so the pronoun is often left out: `باشم` 'I'm fine'. Say it when you want emphasis or contrast: `من سویدیم، ئەو کوردە` 'I'm Swedish, he is Kurdish'.",
+        "sv": "Sorani har sex personliga pronomen: **من** `min` jag, **تۆ** `to` du, **ئەو** `ew` han/hon, **ئێمە** `ême` vi, **ئێوە** `êwe` ni (också artigt), **ئەوان** `ewan` de. Det finns inget genus: ئەو betyder både han och hon, precis som **hen**, och det betyder också **den där**. Verbets ändelse visar redan vem det gäller, så pronomenet utelämnas ofta: `باشم` 'jag mår bra'. Säg det när du vill betona eller kontrastera: `من سویدیم، ئەو کوردە` 'jag är svensk, han är kurd'."
+      },
+      "examples": [
+        {
+          "text": "من سارام.",
+          "latin": "min Saram.",
+          "translation": { "en": "I'm Sara.", "sv": "Jag är Sara." },
+          "tokens": [
+            { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "سارام.", "latin": "Saram.", "gloss": { "en": "am Sara", "sv": "är Sara" }, "concept": "to-be", "morph": "Sara-COP.1SG" }
+          ]
+        },
+        {
+          "text": "ئێمە هاوڕێین.",
+          "latin": "ême hawřêyn.",
+          "translation": { "en": "We are friends.", "sv": "Vi är vänner." },
+          "tokens": [
+            { "text": "ئێمە", "latin": "ême", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+            {
+              "text": "هاوڕێین.",
+              "latin": "hawřêyn.",
+              "gloss": { "en": "are friends", "sv": "är vänner" },
+              "concept": "friend",
+              "morph": "friend-COP.1PL"
+            }
+          ]
+        },
+        {
+          "text": "ئەوان لەوێ دەژین.",
+          "latin": "ewan lewê dejîn.",
+          "translation": { "en": "They live there.", "sv": "De bor där." },
+          "tokens": [
+            { "text": "ئەوان", "latin": "ewan", "gloss": { "en": "they", "sv": "de" }, "concept": "they" },
+            { "text": "لەوێ", "latin": "lewê", "gloss": { "en": "there", "sv": "där" }, "concept": "there", "morph": "in-there" },
+            { "text": "دەژین.", "latin": "dejîn.", "gloss": { "en": "they live", "sv": "de bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3PL" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§10" }, { "source": "author" }]
+    },
+    {
+      "id": "ckb-copula",
+      "unit": "me-and-you",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "To be: the copula endings", "sv": "Att vara: kopulaändelserna" },
+      "explanation": {
+        "en": "'To be' in the present is not a separate word like **är**. It is an **ending** on the word before it, and it changes with the person. After a consonant: `-im, -ît, -e, -în, -in, -in` (`باشم` başim 'I'm well', `باشە` başe 'it's good'). After a vowel the ending shrinks: `-m, -yt, -ye, -yn, -n, -n` (`سارام` 'I'm Sara', `کوێیت؟` 'where are you?', `لێرەن` 'they are here'). In everyday speech 2SG `-ît` is often just `-î`. The negative is a separate word: `نیم، نیت، نییە، نین، نین، نین` (`کورد نیم` 'I'm not Kurdish').",
+        "sv": "'Att vara' i presens är inget eget ord som **är**. Det är en **ändelse** på ordet före, och den ändras efter person. Efter konsonant: `-im, -ît, -e, -în, -in, -in` (`باشم` başim 'jag mår bra', `باشە` başe 'det är bra'). Efter vokal blir ändelsen kortare: `-m, -yt, -ye, -yn, -n, -n` (`سارام` 'jag är Sara', `کوێیت؟` 'var är du?', `لێرەن` 'de är här'). I vardagligt tal blir 2SG `-ît` ofta bara `-î`. Nekande form är ett eget ord: `نیم، نیت، نییە، نین، نین، نین` (`کورد نیم` 'jag är inte kurd')."
+      },
+      "examples": [
+        {
+          "text": "من سارام.",
+          "latin": "min Saram.",
+          "translation": { "en": "I'm Sara.", "sv": "Jag är Sara." },
+          "tokens": [
+            { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "سارام.", "latin": "Saram.", "gloss": { "en": "am Sara", "sv": "är Sara" }, "concept": "to-be", "morph": "Sara-COP.1SG" }
+          ]
+        },
+        {
+          "text": "ئێمە هاوڕێین.",
+          "latin": "ême hawřêyn.",
+          "translation": { "en": "We are friends.", "sv": "Vi är vänner." },
+          "tokens": [
+            { "text": "ئێمە", "latin": "ême", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+            {
+              "text": "هاوڕێین.",
+              "latin": "hawřêyn.",
+              "gloss": { "en": "are friends", "sv": "är vänner" },
+              "concept": "friend",
+              "morph": "friend-COP.1PL"
+            }
+          ]
+        },
+        {
+          "text": "لە کوێیت؟",
+          "latin": "le kwêyt?",
+          "translation": { "en": "Where are you?", "sv": "Var är du?" },
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "in, at", "sv": "i, på" } },
+            {
+              "text": "کوێیت؟",
+              "latin": "kwêyt?",
+              "gloss": { "en": "where are you", "sv": "var är du" },
+              "concept": "where",
+              "morph": "where-COP.2SG"
+            }
+          ]
+        },
+        {
+          "text": "من کورد نیم.",
+          "latin": "min kurd nîm.",
+          "tokens": [
+            { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "کورد", "latin": "kurd", "gloss": { "en": "Kurd", "sv": "kurd" } },
+            { "text": "نیم.", "latin": "nîm.", "gloss": { "en": "am not", "sv": "är inte" }, "concept": "to-be", "morph": "NEG.COP-1SG" }
+          ],
+          "translation": { "en": "I'm not Kurdish.", "sv": "Jag är inte kurd." }
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§15" }, { "source": "kim-kurdish-grammar", "ref": "Linking verbs" }]
+    },
+    {
+      "id": "ckb-possessive-clitics",
+      "unit": "me-and-you",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "My, your, his: possessive clitics", "sv": "Min, din, hans: possessiva klitiker" },
+      "explanation": {
+        "en": "'My, your, his…' are **clitics**: short endings glued to the noun, not separate words like **min, din**. After a consonant: `-im, -it, -î, -man, -tan, -yan` (`ناوم` nawim 'my name', `ناوت` nawit 'your name', `ناوی` nawî 'his/her name'). After a vowel: `-m, -t, -y, -man, -tan, -yan` (`برام` biram 'my brother', `هاوڕێمان` hawřêman 'our friend'). The clitic goes on the **last word** of the phrase: `ناوی هاوڕێکەت` 'your friend's name'. Close family (mother, father, brother, sister) take it on the bare noun: `دایکم` 'my mother'. Most other nouns take it after the definite `-eke`: `زمانەکەم` 'my language'.",
+        "sv": "'Min, din, hans…' är **klitiker**: korta ändelser som sitter fast på substantivet, inte egna ord som **min, din**. Efter konsonant: `-im, -it, -î, -man, -tan, -yan` (`ناوم` nawim 'mitt namn', `ناوت` nawit 'ditt namn', `ناوی` nawî 'hans/hennes namn'). Efter vokal: `-m, -t, -y, -man, -tan, -yan` (`برام` biram 'min bror', `هاوڕێمان` hawřêman 'vår vän'). Klitikan hamnar på frasens **sista ord**: `ناوی هاوڕێکەت` 'din väns namn'. Nära familj (mamma, pappa, bror, syster) tar den direkt på grundformen: `دایکم` 'min mamma'. De flesta andra substantiv tar den efter bestämda `-eke`: `زمانەکەم` 'mitt språk'."
+      },
+      "examples": [
+        {
+          "text": "ناوم سارایە.",
+          "latin": "nawim Saraye.",
+          "translation": { "en": "My name is Sara.", "sv": "Jag heter Sara." },
+          "tokens": [
+            { "text": "ناوم", "latin": "nawim", "gloss": { "en": "my name", "sv": "mitt namn" }, "concept": "name", "morph": "name-1SG" },
+            { "text": "سارایە.", "latin": "Saraye.", "gloss": { "en": "is Sara", "sv": "är Sara" }, "concept": "to-be", "morph": "Sara-COP.3SG" }
+          ]
+        },
+        {
+          "text": "ئەمە هاوڕێمە.",
+          "latin": "eme hawřême.",
+          "translation": { "en": "This is my friend.", "sv": "Det här är min vän." },
+          "tokens": [
+            { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            {
+              "text": "هاوڕێمە.",
+              "latin": "hawřême.",
+              "gloss": { "en": "is my friend", "sv": "är min vän" },
+              "concept": "friend",
+              "morph": "friend-1SG-COP.3SG"
+            }
+          ]
+        },
+        {
+          "text": "ناوی هاوڕێکەت چییە؟",
+          "latin": "nawî hawřêket çîye?",
+          "translation": { "en": "What is your friend's name?", "sv": "Vad heter din vän?" },
+          "tokens": [
+            { "text": "ناوی", "latin": "nawî", "gloss": { "en": "the name of", "sv": "namnet på" }, "concept": "name", "morph": "name-EZ" },
+            {
+              "text": "هاوڕێکەت",
+              "latin": "hawřêket",
+              "gloss": { "en": "your friend", "sv": "din vän" },
+              "concept": "friend",
+              "morph": "friend-DEF-2SG"
+            },
+            { "text": "چییە؟", "latin": "çîye?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-COP.3SG" }
+          ]
+        },
+        {
+          "text": "زمانەکەم کوردییە.",
+          "latin": "zimanekem kurdîye.",
+          "translation": { "en": "My language is Kurdish.", "sv": "Mitt språk är kurdiska." },
+          "tokens": [
+            {
+              "text": "زمانەکەم",
+              "latin": "zimanekem",
+              "gloss": { "en": "my language", "sv": "mitt språk" },
+              "concept": "language",
+              "morph": "language-DEF-1SG"
+            },
+            {
+              "text": "کوردییە.",
+              "latin": "kurdîye.",
+              "gloss": { "en": "is Kurdish", "sv": "är kurdiska" },
+              "concept": "kurdish",
+              "morph": "Kurdish-COP.3SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§10.1" }, { "source": "kim-kurdish-grammar", "ref": "Possessives" }]
+    },
+    {
+      "id": "ckb-ezafe",
+      "unit": "me-and-you",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "The ezafe: linking words with -î", "sv": "Ezafe: att länka ord med -î" },
+      "explanation": {
+        "en": "To link a noun to a following noun or adjective, Sorani uses the **ezafe** ending `-î` (written ی), roughly 'of': `ناوی هاوڕێکەت` nawî hawřêket 'the name of your friend'. `خەڵکی سلێمانی` 'people of Sulaymaniyah' is how you say 'from Sulaymaniyah'. After a vowel it is `-y`: `هاوڕێی من` hawřêy min 'my friend'. The order is the reverse of Swedish: the noun comes first and the describing word after, as in `زمانی کوردی` 'the Kurdish language'. When the phrase is definite with `-eke`, the link is `-e` instead: `خوشکە گەورەکەم` 'my older sister'.",
+        "sv": "För att länka ett substantiv till ett efterföljande substantiv eller adjektiv använder sorani **ezafe**-ändelsen `-î` (skrivs ی), ungefär 'av': `ناوی هاوڕێکەت` nawî hawřêket 'din väns namn'. `خەڵکی سلێمانی` 'folk från Sulaymaniyya' är hur man säger 'från Sulaymaniyya'. Efter vokal blir den `-y`: `هاوڕێی من` hawřêy min 'min vän'. Ordföljden är omvänd mot svenskan: substantivet kommer först och det beskrivande ordet efter, som i `زمانی کوردی` 'det kurdiska språket'. När frasen är bestämd med `-eke` blir länken `-e` i stället: `خوشکە گەورەکەم` 'min storasyster'."
+      },
+      "examples": [
+        {
+          "text": "من خەڵکی سویدم.",
+          "latin": "min xełkî Swîdim.",
+          "translation": { "en": "I'm from Sweden.", "sv": "Jag kommer från Sverige." },
+          "tokens": [
+            { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            {
+              "text": "خەڵکی",
+              "latin": "xełkî",
+              "gloss": { "en": "from (people of)", "sv": "från (folk från)" },
+              "concept": "native-of",
+              "morph": "people-EZ"
+            },
+            {
+              "text": "سویدم.",
+              "latin": "Swîdim.",
+              "gloss": { "en": "Sweden, I am", "sv": "Sverige, jag är" },
+              "concept": "sweden",
+              "morph": "Sweden-COP.1SG"
+            }
+          ]
+        },
+        {
+          "text": "ناوی هاوڕێکەت چییە؟",
+          "latin": "nawî hawřêket çîye?",
+          "translation": { "en": "What is your friend's name?", "sv": "Vad heter din vän?" },
+          "tokens": [
+            { "text": "ناوی", "latin": "nawî", "gloss": { "en": "the name of", "sv": "namnet på" }, "concept": "name", "morph": "name-EZ" },
+            {
+              "text": "هاوڕێکەت",
+              "latin": "hawřêket",
+              "gloss": { "en": "your friend", "sv": "din vän" },
+              "concept": "friend",
+              "morph": "friend-DEF-2SG"
+            },
+            { "text": "چییە؟", "latin": "çîye?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-COP.3SG" }
+          ]
+        },
+        {
+          "text": "زمانی کوردی",
+          "latin": "zimanî kurdî",
+          "tokens": [
+            {
+              "text": "زمانی",
+              "latin": "zimanî",
+              "gloss": { "en": "language (of)", "sv": "språk(et)" },
+              "concept": "language",
+              "morph": "language-EZ"
+            },
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" }
+          ],
+          "translation": { "en": "the Kurdish language", "sv": "det kurdiska språket" }
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§5–7" }, { "source": "kim-kurdish-grammar", "ref": "Izafe" }]
+    },
+    {
+      "id": "fa-pronouns",
+      "unit": "me-and-you",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Personal pronouns", "sv": "Personliga pronomen" },
+      "explanation": {
+        "en": "Persian personal pronouns: **من** `man` I, **تو** `to` you, **او** `u` he/she, **ما** `mâ` we, **شما** `shomâ` you (plural and polite), **آن‌ها** `ânhâ` they. There is no gender: او is both he and she, like Swedish **hen**. Use **شما** with strangers and older people, much more than Swedish **ni** is used today; تو is for friends and family. The verb ending shows the person, so pronouns are often dropped: `خوبم` 'I'm fine'. In speech او is `اون` un and آن‌ها is `اونا` unâ.",
+        "sv": "Persiska personliga pronomen: **من** `man` jag, **تو** `to` du, **او** `u` han/hon, **ما** `mâ` vi, **شما** `shomâ` ni (plural och artigt), **آن‌ها** `ânhâ` de. Det finns inget genus: او är både han och hon, precis som **hen**. Använd **شما** till främlingar och äldre, betydligt oftare än svenskans **ni** används i dag; تو är för vänner och familj. Verbets ändelse visar personen, så pronomenet utelämnas ofta: `خوبم` 'jag mår bra'. I tal blir او `اون` un och آن‌ها `اونا` unâ."
+      },
+      "examples": [
+        {
+          "text": "من سارا هستم.",
+          "latin": "man Sârâ hastam.",
+          "translation": { "en": "I'm Sara.", "sv": "Jag är Sara." },
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+            { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "ما دوست هستیم.",
+          "latin": "mâ dust hastim.",
+          "translation": { "en": "We are friends.", "sv": "Vi är vänner." },
+          "tokens": [
+            { "text": "ما", "latin": "mâ", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+            { "text": "دوست", "latin": "dust", "gloss": { "en": "friend(s)", "sv": "vän(ner)" }, "concept": "friend" },
+            { "text": "هستیم.", "latin": "hastim.", "gloss": { "en": "are", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-1PL" }
+          ]
+        },
+        {
+          "text": "آن‌ها آنجا زندگی می‌کنند.",
+          "latin": "ânhâ ânjâ zendegi mikonand.",
+          "translation": { "en": "They live there.", "sv": "De bor där." },
+          "tokens": [
+            { "text": "آن‌ها", "latin": "ânhâ", "gloss": { "en": "they", "sv": "de" }, "concept": "they" },
+            { "text": "آنجا", "latin": "ânjâ", "gloss": { "en": "there", "sv": "där" }, "concept": "there" },
+            { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+            {
+              "text": "می‌کنند.",
+              "latin": "mikonand.",
+              "gloss": { "en": "they do (= they live)", "sv": "de gör (= de bor)" },
+              "concept": "to-live",
+              "morph": "DUR-do.PRS-3PL"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }]
+    },
+    {
+      "id": "fa-copula",
+      "unit": "me-and-you",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "To be: full and short forms", "sv": "Att vara: hela och korta former" },
+      "explanation": {
+        "en": "'To be' has two present forms. The **full** form is a word of its own: `هستم، هستی، است، هستیم، هستید، هستند`. The **short** form is an ending: `-am, -i, -im, -id, -and` (`خوبم` 'I'm fine', `خوبی؟` 'are you fine?'). 3SG is `است` ast, which shrinks to `-st` after a vowel: `کجاست؟` 'where is…?'. After a vowel-final name, writing prefers the full form: `من سارا هستم`. In Tehran speech 3SG is just `-e` (`این چیه؟` 'what's this?') and 3PL is `-an` (`اینجان` 'they're here'). The negative is always a full word: `نیستم، نیستی، نیست…`.",
+        "sv": "'Att vara' har två presensformer. Den **hela** formen är ett eget ord: `هستم، هستی، است، هستیم، هستید، هستند`. Den **korta** formen är en ändelse: `-am, -i, -im, -id, -and` (`خوبم` 'jag mår bra', `خوبی؟` 'mår du bra?'). 3SG är `است` ast, som krymper till `-st` efter vokal: `کجاست؟` 'var är…?'. Efter ett namn som slutar på vokal föredrar skriftspråket den hela formen: `من سارا هستم`. I teheranskt tal är 3SG bara `-e` (`این چیه؟` 'vad är det här?') och 3PL `-an` (`اینجان` 'de är här'). Nekande form är alltid ett helt ord: `نیستم، نیستی، نیست…`."
+      },
+      "examples": [
+        {
+          "text": "من سارا هستم.",
+          "latin": "man Sârâ hastam.",
+          "translation": { "en": "I'm Sara.", "sv": "Jag är Sara." },
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+            { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "کجا هستی؟",
+          "latin": "kojâ hasti?",
+          "translation": { "en": "Where are you?", "sv": "Var är du?" },
+          "tokens": [
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "هستی؟", "latin": "hasti?", "gloss": { "en": "are you", "sv": "är du" }, "concept": "to-be", "morph": "be.PRS-2SG" }
+          ]
+        },
+        {
+          "text": "این چیست؟",
+          "latin": "in chist?",
+          "translation": { "en": "What is this?", "sv": "Vad är det här?" },
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            { "text": "چیست؟", "latin": "chist?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "من کرد نیستم.",
+          "latin": "man kord nistam.",
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "کرد", "latin": "kord", "gloss": { "en": "Kurd", "sv": "kurd" } },
+            { "text": "نیستم.", "latin": "nistam.", "gloss": { "en": "am not", "sv": "är inte" }, "concept": "to-be", "morph": "NEG.be.PRS-1SG" }
+          ],
+          "translation": { "en": "I'm not Kurdish.", "sv": "Jag är inte kurd." }
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-possessive-suffixes",
+      "unit": "me-and-you",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "My, your, his: possessive suffixes", "sv": "Min, din, hans: possessiva suffix" },
+      "explanation": {
+        "en": "'My, your…' can be said two ways. With the ezafe and a pronoun: `اسم من` esm-e man 'my name'. Or with a **suffix**: `-am, -at, -ash, -emân, -etân, -eshân` (`اسمم` esmam 'my name', `اسمت` esmat 'your name', `اسمش` esmash 'his/her name'). After a silent final ه the suffix is written apart: `خانه‌ام` khâne-am 'my home'. After â or u a ی is added: `عمویم` amuyam 'my uncle'. In Tehran speech the vowels change: `-et, -esh, -emun, -etun, -eshun` (`اسمت` esmet). Unlike Swedish **min**, the possessor always comes **after** the noun.",
+        "sv": "'Min, din…' kan sägas på två sätt. Med ezafe och ett pronomen: `اسم من` esm-e man 'mitt namn'. Eller med ett **suffix**: `-am, -at, -ash, -emân, -etân, -eshân` (`اسمم` esmam 'mitt namn', `اسمت` esmat 'ditt namn', `اسمش` esmash 'hans/hennes namn'). Efter stumt slut-ه skrivs suffixet isär: `خانه‌ام` khâne-am 'mitt hem'. Efter â eller u läggs ett ی till: `عمویم` amuyam 'min farbror'. I teheranskt tal ändras vokalerna: `-et, -esh, -emun, -etun, -eshun` (`اسمت` esmet). Till skillnad från svenskans **min** kommer ägaren alltid **efter** substantivet."
+      },
+      "examples": [
+        {
+          "text": "اسمم سارا است.",
+          "latin": "esmam Sârâ ast.",
+          "tokens": [
+            { "text": "اسمم", "latin": "esmam", "gloss": { "en": "my name", "sv": "mitt namn" }, "concept": "name", "morph": "name-1SG" },
+            { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ],
+          "translation": { "en": "My name is Sara.", "sv": "Jag heter Sara." }
+        },
+        {
+          "text": "اسم دوستت چیست؟",
+          "latin": "esm-e dustat chist?",
+          "translation": { "en": "What is your friend's name?", "sv": "Vad heter din vän?" },
+          "tokens": [
+            { "text": "اسم", "latin": "esm-e", "gloss": { "en": "the name of", "sv": "namnet på" }, "concept": "name", "morph": "name-EZ" },
+            { "text": "دوستت", "latin": "dustat", "gloss": { "en": "your friend", "sv": "din vän" }, "concept": "friend", "morph": "friend-2SG" },
+            { "text": "چیست؟", "latin": "chist?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "دوستم اینجاست.",
+          "latin": "dustam injâst.",
+          "tokens": [
+            { "text": "دوستم", "latin": "dustam", "gloss": { "en": "my friend", "sv": "min vän" }, "concept": "friend", "morph": "friend-1SG" },
+            { "text": "اینجاست.", "latin": "injâst.", "gloss": { "en": "is here", "sv": "är här" }, "concept": "here", "morph": "here-be.PRS.3SG" }
+          ],
+          "translation": { "en": "My friend is here.", "sv": "Min vän är här." }
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-ezafe",
+      "unit": "me-and-you",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "The ezafe: the hidden -e", "sv": "Ezafe: det dolda -e" },
+      "explanation": {
+        "en": "The **ezafe** is an unwritten `-e` that links a noun to what follows: an adjective, another noun or a pronoun. `اسم من` is said **esm-e man** 'my name', `زبان کردی` **zabân-e kordi** 'the Kurdish language', `اهل سوئد` **ahl-e Su'ed** 'from Sweden'. After a vowel it becomes `-ye`, written ی after â and u (`بابای من` bâbâ-ye man 'my dad') and ‌ی after a silent ه (`خانواده‌ی من` 'my family'). The order is the reverse of Swedish **min bror**: Persian says 'brother-of me'. Since the `-e` is not written, you have to know it is there.",
+        "sv": "**Ezafe** är ett oskrivet `-e` som länkar ett substantiv till det som följer: ett adjektiv, ett annat substantiv eller ett pronomen. `اسم من` uttalas **esm-e man** 'mitt namn', `زبان کردی` **zabân-e kordi** 'det kurdiska språket', `اهل سوئد` **ahl-e Su'ed** 'från Sverige'. Efter vokal blir det `-ye`, som skrivs ی efter â och u (`بابای من` bâbâ-ye man 'min pappa') och ‌ی efter stumt ه (`خانواده‌ی من` 'min familj'). Ordföljden är omvänd mot svenskans **min bror**: persiskan säger 'bror-till mig'. Eftersom `-e` inte skrivs måste man veta att det finns där."
+      },
+      "examples": [
+        {
+          "text": "اسم من سارا است.",
+          "latin": "esm-e man Sârâ ast.",
+          "translation": { "en": "My name is Sara.", "sv": "Jag heter Sara." },
+          "tokens": [
+            { "text": "اسم", "latin": "esm-e", "gloss": { "en": "name (of)", "sv": "namn(et på)" }, "concept": "name", "morph": "name-EZ" },
+            { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "mitt" }, "concept": "i" },
+            { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "من اهل سوئد هستم.",
+          "latin": "man ahl-e Su'ed hastam.",
+          "translation": { "en": "I'm from Sweden.", "sv": "Jag kommer från Sverige." },
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            {
+              "text": "اهل",
+              "latin": "ahl-e",
+              "gloss": { "en": "from (native of)", "sv": "från (hemma i)" },
+              "concept": "native-of",
+              "morph": "native-EZ"
+            },
+            { "text": "سوئد", "latin": "Su'ed", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+            { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "زبان من کردی است.",
+          "latin": "zabân-e man kordi ast.",
+          "translation": { "en": "My language is Kurdish.", "sv": "Mitt språk är kurdiska." },
+          "tokens": [
+            {
+              "text": "زبان",
+              "latin": "zabân-e",
+              "gloss": { "en": "language (of)", "sv": "språk(et hos)" },
+              "concept": "language",
+              "morph": "language-EZ"
+            },
+            { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "mitt" }, "concept": "i" },
+            { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "این دوست من است.",
+          "latin": "in dust-e man ast.",
+          "translation": { "en": "This is my friend.", "sv": "Det här är min vän." },
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            { "text": "دوست", "latin": "dust-e", "gloss": { "en": "friend (of)", "sv": "vän (till)" }, "concept": "friend", "morph": "friend-EZ" },
+            { "text": "من", "latin": "man", "gloss": { "en": "my", "sv": "min" }, "concept": "i" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }]
+    }
+  ]
+}
