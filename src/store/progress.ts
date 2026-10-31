@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 import type { TargetLang } from '@/content/types'
 import { parseCardKey, reviewCard, type CardKey, type Grade, type StoredCard } from '@/lib/srs'
+import { deviceStorage } from './device-storage'
 
 export interface ReviewEntry {
   key: CardKey
@@ -46,6 +47,37 @@ export function dayKey(d: Date): string {
   return `${y}-${m}-${day}`
 }
 
+interface JournalEntry {
+  key: CardKey
+  /** The card before this review; undefined for a brand-new item. */
+  prev: StoredCard | undefined
+  at: number
+}
+
+const MAX_JOURNAL = 1000
+const journal: JournalEntry[] = []
+
+/**
+ * Cards as they were before any review recorded at or after `since` (ms) in this visit.
+ * Lets a session summary compare before and after without the session runner keeping a snapshot.
+ */
+export function cardsBefore(since: number, cards: Partial<Record<CardKey, StoredCard>>): Partial<Record<CardKey, StoredCard>> {
+  const before = { ...cards }
+  const seen = new Set<CardKey>()
+  for (const e of journal) {
+    if (e.at < since || seen.has(e.key)) continue
+    seen.add(e.key)
+    if (e.prev) before[e.key] = e.prev
+    else delete before[e.key]
+  }
+  return before
+}
+
+/** Time (ms) of the most recent review recorded in this visit, or null. */
+export function lastRecordedAt(): number | null {
+  return journal.at(-1)?.at ?? null
+}
+
 export const useProgress = create<ProgressState>()(
   persist(
     (set, get) => ({
@@ -57,6 +89,8 @@ export const useProgress = create<ProgressState>()(
         const prev = get().cards[key]
         const card = reviewCard(prev, grade, now)
         const day = dayKey(now)
+        journal.push({ key, prev, at: now.getTime() })
+        if (journal.length > MAX_JOURNAL) journal.splice(0, journal.length - MAX_JOURNAL)
         set((s) => {
           const d = s.days[day] ?? { reviews: 0, correct: 0, newItems: 0, ms: 0 }
           return {
@@ -89,7 +123,7 @@ export const useProgress = create<ProgressState>()(
     {
       name: 'zz-progress',
       version: 1,
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => deviceStorage),
     },
   ),
 )

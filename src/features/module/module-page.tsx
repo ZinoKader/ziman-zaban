@@ -3,7 +3,6 @@ import { useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { Progress } from '@/components/ui/progress'
 import { units } from '@/content'
 import { defineStrings, useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
@@ -11,6 +10,7 @@ import { moduleItems, moduleStatus } from '@/lib/curriculum'
 import { cardKey, isLearned } from '@/lib/srs'
 import { cn } from '@/lib/utils'
 import { moduleBySlug, moduleWhy } from '@/features/modules'
+import { Meter } from '@/features/progress/meter'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 
@@ -68,8 +68,9 @@ export function ModulePage() {
     return units.map((u) => {
       const inUnit = items.filter((it) => it.unit === u.id)
       const learned = inUnit.filter((it) => isLearned(cards[cardKey(lang, meta.skill, it.id)])).length
+      const started = inUnit.filter((it) => cards[cardKey(lang, meta.skill, it.id)]).length
       const unlocked = inUnit.filter((it) => it.unlock.unlocked || cards[cardKey(lang, meta.skill, it.id)]).length
-      return { unit: u, total: inUnit.length, learned, unlocked }
+      return { unit: u, total: inUnit.length, learned, started, unlocked }
     })
   }, [meta, lang, cards])
 
@@ -102,6 +103,15 @@ export function ModulePage() {
             </div>
           ))}
         </div>
+        <Meter
+          learned={status.learned}
+          learning={status.started - status.learned}
+          total={status.total}
+          tone={meta.skill}
+          size="sm"
+          label={`${s.learned}: ${status.learned}/${status.total}`}
+          className="mt-4 bg-card/80"
+        />
         <div className="mt-6">
           {canStart ? (
             <Button asChild size="xl" className={cn('w-full text-white sm:w-auto', meta.bg)}>
@@ -129,7 +139,7 @@ export function ModulePage() {
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">{s.byUnit}</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          {perUnit.map(({ unit, total, learned, unlocked }) => (
+          {perUnit.map(({ unit, total, learned, started, unlocked }) => (
             <Card key={unit.id} className="py-4">
               <CardContent className="flex items-center gap-3 px-4">
                 <span className="text-2xl" aria-hidden>{unit.emoji}</span>
@@ -140,7 +150,14 @@ export function ModulePage() {
                       {total ? `${learned}/${total}` : s.noContent}
                     </span>
                   </div>
-                  <Progress value={total ? (learned / total) * 100 : 0} className="h-1.5" />
+                  <Meter
+                    learned={learned}
+                    learning={started - learned}
+                    total={total}
+                    tone={meta.skill}
+                    size="xs"
+                    label={`${l(unit.title)}: ${learned}/${total}`}
+                  />
                 </div>
                 <Button asChild variant="ghost" size="icon" disabled={!unlocked} aria-label={c.actions.practice}>
                   {unlocked ? (

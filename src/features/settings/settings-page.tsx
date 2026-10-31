@@ -1,5 +1,6 @@
-import { Download, Trash2, Upload } from 'lucide-react'
-import { useRef } from 'react'
+import { Download, Info, ShieldCheck, Trash2, Upload } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { useLocation } from 'react-router'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -7,71 +8,15 @@ import { Label } from '@/components/ui/label'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Switch } from '@/components/ui/switch'
 import type { TargetLang } from '@/content/types'
-import { defineStrings } from '@/i18n'
 import { common } from '@/i18n/common'
+import { cn } from '@/lib/utils'
+import { formatBytes, formatWhen } from '@/features/progress/format'
+import { progressStrings } from '@/features/progress/strings'
+import { deviceStorage, requestPersistence } from '@/store/device-storage'
 import { useProgress } from '@/store/progress'
+import { useSaveStatus } from '@/store/save-status'
 import { useSettings, type Settings } from '@/store/settings'
-
-const strings = defineStrings({
-  en: {
-    title: 'Settings',
-    language: 'Languages',
-    base: 'Explanations and translations in',
-    target: 'Learning',
-    display: 'Reading and writing',
-    romanization: 'Latin letters (romanization)',
-    romanizationOptions: { always: 'Always show', tap: 'Tap to show', never: 'Never show' },
-    romanizationHint: 'Hiding romanization once you know the letters makes reading practice more effective.',
-    answerScript: 'Default answer keyboard',
-    answerScriptOptions: { latin: 'Latin letters', arabic: 'Arabic script (on-screen keyboard)' },
-    compare: 'Show the other language on word cards',
-    compareHint: 'Sorani and Persian share many words. Seeing both helps you learn two languages at once.',
-    audio: 'Play audio automatically',
-    practice: 'Practice',
-    newPerSession: 'New items per session',
-    sessionSize: 'Session length',
-    theme: 'Appearance',
-    themeOptions: { system: 'Match device', light: 'Light', dark: 'Dark' },
-    data: 'Your data',
-    dataHint: 'Progress is stored only in this browser. Export it to move to another device.',
-    export: 'Export progress',
-    import: 'Import progress',
-    exportReports: (n: number) => `Export ${n} problem report${n === 1 ? '' : 's'}`,
-    reset: (l: string) => `Reset ${l} progress`,
-    resetConfirm: 'This deletes all your progress for this language. Continue?',
-    imported: 'Progress imported',
-    importFailed: 'That file could not be read',
-  },
-  sv: {
-    title: 'Inställningar',
-    language: 'Språk',
-    base: 'Förklaringar och översättningar på',
-    target: 'Jag lär mig',
-    display: 'Läsa och skriva',
-    romanization: 'Latinska bokstäver (transkription)',
-    romanizationOptions: { always: 'Visa alltid', tap: 'Tryck för att visa', never: 'Visa aldrig' },
-    romanizationHint: 'Att dölja transkriptionen när du kan bokstäverna gör läsövningen effektivare.',
-    answerScript: 'Standardtangentbord för svar',
-    answerScriptOptions: { latin: 'Latinska bokstäver', arabic: 'Arabisk skrift (tangentbord på skärmen)' },
-    compare: 'Visa det andra språket på ordkort',
-    compareHint: 'Sorani och persiska delar många ord. Att se båda hjälper dig att lära dig två språk samtidigt.',
-    audio: 'Spela upp ljud automatiskt',
-    practice: 'Övning',
-    newPerSession: 'Nya per pass',
-    sessionSize: 'Passets längd',
-    theme: 'Utseende',
-    themeOptions: { system: 'Som enheten', light: 'Ljust', dark: 'Mörkt' },
-    data: 'Dina data',
-    dataHint: 'Framstegen sparas bara i den här webbläsaren. Exportera dem för att flytta till en annan enhet.',
-    export: 'Exportera framsteg',
-    import: 'Importera framsteg',
-    exportReports: (n: number) => `Exportera ${n} felrapport${n === 1 ? '' : 'er'}`,
-    reset: (l: string) => `Nollställ framsteg i ${l}`,
-    resetConfirm: 'Detta raderar alla dina framsteg för språket. Fortsätta?',
-    imported: 'Framstegen importerades',
-    importFailed: 'Filen kunde inte läsas',
-  },
-})
+import { settingsStrings as strings } from './strings'
 
 function download(name: string, data: unknown) {
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
@@ -116,7 +61,74 @@ function Choice<K extends keyof Settings>({ k, options }: { k: K; options: Recor
   )
 }
 
+function Fact({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div className="grid gap-0.5 py-2.5 sm:grid-cols-[9rem_1fr] sm:gap-4">
+      <dt className="text-sm font-medium">{label}</dt>
+      <dd className="text-sm text-muted-foreground">{children}</dd>
+    </div>
+  )
+}
+
+function DataFacts() {
+  const s = strings.use()
+  const p = progressStrings.use()
+  const baseLang = useSettings((st) => st.baseLang)
+  const { medium, persistent, persistSupported, lastSavedAt } = useSaveStatus()
+  const cards = useProgress((st) => st.cards)
+  const log = useProgress((st) => st.log)
+  const days = useProgress((st) => st.days)
+  const [asked, setAsked] = useState<boolean | null>(null)
+  const size = useMemo(() => new Blob([JSON.stringify({ cards, log, days })]).size, [cards, log, days])
+  const protection = !persistSupported || persistent === null ? 'unknown' : persistent ? 'granted' : 'denied'
+  const practised = Object.values(days).filter((d) => d.reviews > 0).length
+
+  return (
+    <div className="space-y-4">
+      <dl className="divide-y">
+        <Fact label={s.where}>{p.medium[medium]}</Fact>
+        {medium !== 'memory' && (
+          <Fact label={s.protection}>
+            <span className="flex flex-col items-start gap-2">
+              <span className={cn(protection === 'granted' && 'text-success')}>
+                {protection === 'granted' && <ShieldCheck className="me-1 inline size-4 align-[-3px]" />}
+                {p.protection[protection]}
+              </span>
+              {protection === 'denied' && (
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={async () => setAsked(await requestPersistence(deviceStorage, { force: true }))}
+                >
+                  <ShieldCheck /> {s.protect}
+                </Button>
+              )}
+              {asked === false && <span className="text-xs">{s.protectDenied}</span>}
+            </span>
+          </Fact>
+        )}
+        <Fact label={s.lastSaved}>{lastSavedAt ? formatWhen(lastSavedAt, baseLang, p.justNow) : s.never}</Fact>
+        <Fact label={s.contents}>
+          {s.contentsValue(Object.keys(cards).length, log.length, practised)} · {s.size(formatBytes(size, baseLang))}
+        </Fact>
+      </dl>
+      <p className="flex gap-2 rounded-xl bg-muted/60 p-3 text-sm text-muted-foreground">
+        <Info className="mt-0.5 size-4 shrink-0" />
+        {s.reminder}
+      </p>
+    </div>
+  )
+}
+
+function useScrollToHash() {
+  const { hash } = useLocation()
+  useEffect(() => {
+    if (hash) document.getElementById(hash.slice(1))?.scrollIntoView({ block: 'start' })
+  }, [hash])
+}
+
 export function SettingsPage() {
+  useScrollToHash()
   const s = strings.use()
   const c = common.use()
   const settings = useSettings()
@@ -179,12 +191,15 @@ export function SettingsPage() {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card id="data" className="scroll-mt-20">
         <CardHeader>
           <CardTitle>{s.data}</CardTitle>
           <CardDescription>{s.dataHint}</CardDescription>
         </CardHeader>
-        <CardContent className="flex flex-wrap gap-2">
+        <CardContent>
+          <DataFacts />
+        </CardContent>
+        <CardContent className="flex flex-wrap gap-2 border-t pt-4">
           <Button variant="outline" onClick={() => download('ziman-zaban-progress.json', { cards: progress.cards, log: progress.log, days: progress.days })}>
             <Download /> {s.export}
           </Button>

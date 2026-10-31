@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 import type { BaseLang, TargetLang } from '@/content/types'
+import { deviceStorage } from './device-storage'
 
 /**
  * How romanization is shown next to Arabic script.
@@ -49,7 +50,7 @@ export const useSettings = create<SettingsState>()(
     {
       name: 'zz-settings',
       version: 1,
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => deviceStorage),
       partialize: ({ set: _set, ...rest }) => rest,
     },
   ),

@@ -4,6 +4,7 @@ import { AlphabetPage } from '@/features/alphabet/alphabet-page'
 import { GrammarPage } from '@/features/grammar/grammar-page'
 import { HomePage } from '@/features/home/home-page'
 import { ModulePage } from '@/features/module/module-page'
+import { ProgressPage } from '@/features/progress/progress-page'
 import { ReviewPage } from '@/features/review/review-page'
 import { SessionPage } from '@/features/session/session-page'
 import { SettingsPage } from '@/features/settings/settings-page'
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: 'learn/:module', element: <ModulePage /> },
       { path: 'learn/:module/session', element: <SessionPage /> },
+      { path: 'progress', element: <ProgressPage /> },
       { path: 'words', element: <WordsPage /> },
       { path: 'words/:conceptId', element: <WordsPage /> },
       { path: 'grammar', element: <GrammarPage /> },

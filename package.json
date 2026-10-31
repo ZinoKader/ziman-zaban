@@ -13,13 +13,17 @@
     "content:check": "tsx scripts/validate-content.ts",
     "ref": "tsx scripts/ref.ts",
     "reference:build": "tsx scripts/build-reference.ts",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "audio:collect": "tsx scripts/audio/collect-texts.ts",
+    "audio:build": "npm run audio:collect && python3 scripts/audio/generate.py",
+    "audio:verify": "python3 scripts/audio/verify.py"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
     "@fontsource-variable/vazirmatn": "^5.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "idb-keyval": "^6.3.0",
     "lucide-react": "^1.66.0",
     "radix-ui": "^1.8.1",
     "react": "^19.3.1",

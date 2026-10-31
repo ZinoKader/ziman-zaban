@@ -1,4 +1,4 @@
-import { BookA, GraduationCap, Home, Info, Languages, Menu, Settings as SettingsIcon, ShieldCheck, SpellCheck } from 'lucide-react'
+import { BookA, ChartNoAxesColumn, GraduationCap, Home, Info, Languages, Menu, Settings as SettingsIcon, ShieldCheck, SpellCheck } from 'lucide-react'
 import { useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router'
 import { Button } from '@/components/ui/button'
@@ -15,6 +15,8 @@ import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
 import { MODULES } from '@/features/modules'
+import { SaveIndicator } from '@/features/progress/save-indicator'
+import { progressStrings } from '@/features/progress/strings'
 import { useSettings } from '@/store/settings'
 
 function useTheme() {
@@ -90,6 +92,7 @@ export function AppLayout() {
   useTheme()
   useDocumentLang()
   const s = common.use()
+  const p = progressStrings.use()
   const location = useLocation()
   const inSession = /\/session/.test(location.pathname)
 
@@ -121,8 +124,21 @@ export function AppLayout() {
                     {s.nav[m.skill]}
                   </NavLink>
                 ))}
+                <NavLink
+                  to="/progress"
+                  className={({ isActive }) =>
+                    cn(
+                      'flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground',
+                      isActive && 'bg-muted text-foreground',
+                    )
+                  }
+                >
+                  <ChartNoAxesColumn className="size-4" />
+                  {p.nav}
+                </NavLink>
               </nav>
-              <div className="ms-auto flex items-center gap-1.5">
+              <div className="ms-auto flex items-center gap-1 sm:gap-1.5">
+                <SaveIndicator />
                 <LanguageSwitch />
                 <BaseLangSwitch />
                 <DropdownMenu>
@@ -132,6 +148,11 @@ export function AppLayout() {
                     </Button>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end" className="w-52">
+                    <DropdownMenuItem asChild>
+                      <NavLink to="/progress">
+                        <ChartNoAxesColumn /> {p.nav}
+                      </NavLink>
+                    </DropdownMenuItem>
                     {MORE.slice(0, 3).map((m) => (
                       <DropdownMenuItem key={m.to} asChild>
                         <NavLink to={m.to}>
