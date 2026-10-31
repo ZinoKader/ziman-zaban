@@ -1,29 +1,17 @@
-import { Brain } from 'lucide-react'
-import { Badge } from '@/components/ui/badge'
 import type { Concept } from '@/content/types'
 import { useLocalize } from '@/i18n'
-import { common } from '@/i18n/common'
 import { useSettings } from '@/store/settings'
 import { recallStrings } from '../strings'
 
 /** The meaning to recall, in the learner's language. Never shows the target word. */
 export function RecallPrompt({ concept }: { concept: Concept }) {
   const s = recallStrings.use()
-  const c = common.use()
   const l = useLocalize()
   const baseLang = useSettings((st) => st.baseLang)
-  const alt = (baseLang === 'sv' ? concept.gloss.svAlt : concept.gloss.enAlt)?.slice(0, 2)
+  // A sense note says best which meaning is meant; a synonym is only a fallback hint.
+  const alt = concept.senseNote ? undefined : (baseLang === 'sv' ? concept.gloss.svAlt : concept.gloss.enAlt)?.[0]
   return (
-    <div className="relative flex min-h-40 flex-col items-center justify-center gap-2 rounded-3xl border bg-card px-4 pb-6 pt-9 text-center shadow-sm">
-      <div className="absolute inset-x-3 top-3 flex items-center justify-between">
-        <Badge variant="secondary" className="bg-mod-recall/15 text-foreground">
-          <Brain className="text-mod-recall" />
-          {c.nav.recall}
-        </Badge>
-        <Badge variant="outline" className="font-normal text-muted-foreground">
-          {s.pos[concept.pos]}
-        </Badge>
-      </div>
+    <div className="flex min-h-40 flex-col items-center justify-center gap-2 rounded-3xl border bg-card px-4 py-7 text-center shadow-sm">
       {concept.emoji && (
         <div className="text-5xl" aria-hidden>
           {concept.emoji}
@@ -32,12 +20,23 @@ export function RecallPrompt({ concept }: { concept: Concept }) {
       <p className="text-3xl font-semibold text-balance sm:text-4xl" data-testid="recall-gloss">
         {l(concept.gloss)}
       </p>
-      {concept.senseNote && <p className="text-sm text-muted-foreground">{l(concept.senseNote)}</p>}
-      {alt && alt.length > 0 && (
-        <p className="text-sm text-muted-foreground">
-          {s.alsoGloss} {alt.join(', ')}
-        </p>
-      )}
+      <p className="flex flex-wrap items-baseline justify-center gap-x-1.5 text-xs text-muted-foreground">
+        <span>{s.pos[concept.pos]}</span>
+        {concept.senseNote && (
+          <>
+            <span aria-hidden>·</span>
+            <span className="text-sm">{l(concept.senseNote)}</span>
+          </>
+        )}
+        {alt && (
+          <>
+            <span aria-hidden>·</span>
+            <span>
+              {s.alsoGloss} {alt}
+            </span>
+          </>
+        )}
+      </p>
     </div>
   )
 }

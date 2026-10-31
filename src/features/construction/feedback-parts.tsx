@@ -24,7 +24,7 @@ export function PlacedReview({
   const used = new Set(statuses)
   return (
     <div className="space-y-2">
-      <div dir="rtl" className="flex flex-wrap justify-center gap-2">
+      <div dir={showLatin ? 'ltr' : 'rtl'} className="flex flex-wrap justify-center gap-2">
         {tiles.map((t, i) => (
           <WordTile key={i} lang={lang} text={t.text} latin={t.latin} showLatin={showLatin} state={statuses[i]} />
         ))}

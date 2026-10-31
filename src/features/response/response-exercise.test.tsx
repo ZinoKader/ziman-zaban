@@ -62,8 +62,9 @@ afterEach(() => {
 describe('ResponseExercise: choosing (new items)', () => {
   it('renders a real Sorani item as a chat question with options, text shown when there is no voice', async () => {
     renderExercise('ckb', candidate('ckb', ckbName.id))
-    expect(await screen.findByRole('button', { name: 'ناوت' })).toBeInTheDocument()
-    expect(screen.getByText('nawit çîye?')).toBeInTheDocument()
+    const word = await screen.findByRole('button', { name: 'nawit' })
+    expect(word.closest('p')).toHaveTextContent('nawit çîye?')
+    expect(screen.getByText('ناوت چییە؟')).toHaveAttribute('dir', 'rtl')
     expect(screen.getByText('Shilan asks')).toBeInTheDocument()
     expect(screen.getByText(/no voice for this language/)).toBeInTheDocument()
     expect(screen.queryByText('What is your name?')).not.toBeInTheDocument()
@@ -73,11 +74,13 @@ describe('ResponseExercise: choosing (new items)', () => {
 
   it('grades a correct choice Good at most', async () => {
     const onDone = renderExercise('ckb', candidate('ckb', ckbName.id))
-    await screen.findByRole('button', { name: 'ناوت' })
+    await screen.findByRole('button', { name: 'nawit' })
     const answers = ckbName.ckb!.answers.filter((a) => !isTemplate(a)).map((a) => a.text)
     fireEvent.click(optionButtons()[correctIndex(answers)])
     expect(screen.getByText('Correct!')).toBeInTheDocument()
     expect(screen.getByText('What is your name?')).toBeInTheDocument()
+    expect(screen.queryByText('Ways to answer')).not.toBeInTheDocument()
+    fireEvent.click(button(/More ways to answer/))
     expect(screen.getByText('Ways to answer')).toBeInTheDocument()
     fireEvent.click(button('Continue'))
     expect(onDone).toHaveBeenCalledOnce()
@@ -86,7 +89,7 @@ describe('ResponseExercise: choosing (new items)', () => {
 
   it('answers with number keys; a wrong choice is Again', async () => {
     const onDone = renderExercise('fa', candidate('fa', faName.id))
-    await screen.findByRole('button', { name: 'اسم' })
+    await screen.findByRole('button', { name: 'esm-e' })
     const answers = faName.fa!.answers.filter((a) => !isTemplate(a)).map((a) => a.text)
     const wrong = optionButtons().findIndex((_, i) => i !== correctIndex(answers))
     fireEvent.keyDown(window, { key: String(wrong + 1) })
@@ -97,7 +100,7 @@ describe('ResponseExercise: choosing (new items)', () => {
 
   it('caps the grade at Hard when the translation was shown', async () => {
     const onDone = renderExercise('ckb', candidate('ckb', ckbName.id))
-    await screen.findByRole('button', { name: 'ناوت' })
+    await screen.findByRole('button', { name: 'nawit' })
     fireEvent.click(button('Show translation'))
     expect(screen.getByText('What is your name?')).toBeInTheDocument()
     const answers = ckbName.ckb!.answers.filter((a) => !isTemplate(a)).map((a) => a.text)
@@ -108,7 +111,7 @@ describe('ResponseExercise: choosing (new items)', () => {
 
   it('shows the gloss of a tapped word', async () => {
     renderExercise('ckb', candidate('ckb', ckbName.id))
-    fireEvent.click(await screen.findByRole('button', { name: 'ناوت' }))
+    fireEvent.click(await screen.findByRole('button', { name: 'nawit' }))
     expect(await screen.findByText('your name')).toBeInTheDocument()
     expect(screen.getByText('name-2SG')).toBeInTheDocument()
   })
@@ -119,10 +122,10 @@ describe('ResponseExercise: audio first', () => {
     vi.mocked(useVoice).mockReturnValue({ lang: 'fa-IR', name: 'Dariush' } as SpeechSynthesisVoice)
     renderExercise('fa', candidate('fa', faName.id, FREE))
     expect(speak).toHaveBeenCalledWith(expect.objectContaining({ lang: 'fa', text: faName.fa!.question.text }))
-    expect(screen.queryByRole('button', { name: 'اسم' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: 'esm-e' })).not.toBeInTheDocument()
     expect(button('Play the question')).toBeInTheDocument()
     fireEvent.click(button('Show text'))
-    expect(screen.getByRole('button', { name: 'اسم' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'esm-e' })).toBeInTheDocument()
   })
 
   it('fades the text in after listening when choosing', async () => {
@@ -130,9 +133,9 @@ describe('ResponseExercise: audio first', () => {
     try {
       vi.mocked(useVoice).mockReturnValue({ lang: 'fa-IR', name: 'Dariush' } as SpeechSynthesisVoice)
       renderExercise('fa', candidate('fa', faName.id))
-      expect(screen.queryByRole('button', { name: 'اسم' })).not.toBeInTheDocument()
+      expect(screen.queryByRole('button', { name: 'esm-e' })).not.toBeInTheDocument()
       act(() => vi.advanceTimersByTime(1300))
-      expect(screen.getByRole('button', { name: 'اسم' })).toBeInTheDocument()
+      expect(screen.getByRole('button', { name: 'esm-e' })).toBeInTheDocument()
     } finally {
       vi.useRealTimers()
     }
@@ -175,6 +178,7 @@ describe('ResponseExercise: free answer', () => {
     fireEvent.change(input, { target: { value: 'اسمم نیلوفره' } })
     fireEvent.keyDown(input, { key: 'Enter' })
     expect(screen.getByText('Correct!')).toBeInTheDocument()
+    fireEvent.click(button('More ways to answer, or make it yours'))
     expect(screen.getByText('Matches your answer')).toBeInTheDocument()
 
     expect(screen.getByText('Make it yours')).toBeInTheDocument()

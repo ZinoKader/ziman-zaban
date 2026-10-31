@@ -24,21 +24,27 @@ export function MorphGloss({ morph }: { morph: string }) {
   )
 }
 
-/** Each word of a sentence stacked as script / romanization / meaning / morphology, read right to left. */
+/** Each word of a sentence stacked as romanization / script / meaning / morphology, in the reading order of the leading line. */
 export function Interlinear({ tokens, lang }: { tokens: Token[]; lang: TargetLang }) {
   const l = useLocalize()
   const romanization = useSettings((st) => st.romanization)
   return (
-    <ol dir="rtl" className="flex flex-wrap justify-end gap-x-5 gap-y-3">
+    <ol dir={romanization === 'never' ? 'rtl' : 'ltr'} className="flex flex-wrap justify-start gap-x-5 gap-y-3">
       {tokens.map((t, i) => (
         <li key={i} className="flex flex-col items-center text-center">
-          <span lang={lang} className="font-script text-lg leading-[1.6]">
-            {t.text}
-          </span>
-          {romanization !== 'never' && (
-            <span dir="ltr" lang={`${lang}-Latn`} className="text-xs tracking-wide text-muted-foreground">
-              {t.latin}
+          {romanization === 'never' ? (
+            <span lang={lang} className="font-script text-lg leading-[1.6]">
+              {t.text}
             </span>
+          ) : (
+            <>
+              <span dir="ltr" lang={`${lang}-Latn`} className="text-sm font-semibold">
+                {t.latin}
+              </span>
+              <span lang={lang} className="font-script text-sm leading-[1.6] text-foreground/75">
+                {t.text}
+              </span>
+            </>
           )}
           <span dir="ltr" className="text-xs font-medium">
             {l(t.gloss)}

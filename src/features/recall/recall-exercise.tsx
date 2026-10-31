@@ -1,6 +1,7 @@
 import { Lightbulb, Mic } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { AnswerInput, type AnswerInputHandle } from '@/components/answer-input'
+import { Disclosure } from '@/components/disclosure'
 import { FeedbackPanel } from '@/components/feedback-panel'
 import { TargetText } from '@/components/target-text'
 import { Button } from '@/components/ui/button'
@@ -16,7 +17,7 @@ import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { SelfGrade } from '../session/self-grade'
 import type { ExerciseProps } from '../session/types'
-import { AnswerDetails } from './components/answer-details'
+import { AnswerDetails, AnswerExtras, hasAnswerExtras } from './components/answer-details'
 import { AnswerDiff } from './components/answer-diff'
 import { HintMask } from './components/hint-mask'
 import { RecallPrompt } from './components/recall-prompt'
@@ -35,11 +36,6 @@ import { recallStrings } from './strings'
 /** Bottom-anchored on phones so the main action stays in reach of the thumb. */
 const MOBILE_DOCK = 'max-sm:sticky max-sm:bottom-0 max-sm:z-10 max-sm:-mx-4 max-sm:bg-background/95 max-sm:px-4 max-sm:pb-safe max-sm:pt-2 max-sm:backdrop-blur'
 const MOBILE_DOCK_IN_CARD = cn(MOBILE_DOCK, 'max-sm:bg-card/95')
-const DOCK_FEEDBACK_BUTTON =
-  'max-sm:[&>[role=status]>button]:sticky max-sm:[&>[role=status]>button]:bottom-3 max-sm:[&>[role=status]>button]:z-10 max-sm:[&>[role=status]>button]:shadow-lg'
-/** The destructive button is translucent; docked over content it has to be solid. */
-const DOCK_SOLID_DESTRUCTIVE =
-  'max-sm:[&>[role=status]>button]:bg-destructive max-sm:[&>[role=status]>button]:text-white'
 
 export function RecallExercise({ item, lang, attempt, onDone }: ExerciseProps) {
   const concept = conceptById.get(item.itemId)
@@ -53,6 +49,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   const s = recallStrings.use()
   const c = common.use()
   const answerScript = useSettings((st) => st.answerScript)
+  const compare = useSettings((st) => st.compare)
   const report = useProgress((st) => st.report)
   const entry = concept[lang]!
   const forms = useMemo(() => acceptedForms(entry), [entry])
@@ -180,8 +177,13 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
             </div>
           </>
         ) : (
-          <div className="animate-pop-in space-y-4 rounded-2xl border-2 bg-card p-4 sm:p-5">
+          <div className="animate-pop-in space-y-4 rounded-2xl border bg-card p-4 sm:p-5">
             <AnswerDetails concept={concept} lang={lang} shown={entry.primary} autoPlay />
+            {hasAnswerExtras(concept, lang, entry.primary, compare) && (
+              <Disclosure label={c.feedback.more.word} className="border-t pt-2">
+                <AnswerExtras concept={concept} lang={lang} shown={entry.primary} />
+              </Disclosure>
+            )}
             <p className="text-center text-sm font-medium text-muted-foreground">{s.howDidItGo}</p>
             <div className={MOBILE_DOCK_IN_CARD}>
               <SelfGrade onGrade={completeSpoken} />
@@ -193,6 +195,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   }
 
   const wrong = result?.grade === 'wrong' && !overridden
+  const featured = wrong || !result ? entry.primary : result.expected
   const shownGrade = overridden ? 'exact' : (result?.grade ?? 'wrong')
   const inputState =
     phase === 'question' ? 'idle' : wrong ? 'wrong' : result?.grade === 'typo' ? 'close' : 'correct'
@@ -243,36 +246,43 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
       )}
 
       {phase === 'feedback' && result && (
-        <div className={cn(DOCK_FEEDBACK_BUTTON, shownGrade === 'wrong' && DOCK_SOLID_DESTRUCTIVE)}>
-          <FeedbackPanel
-            key={overridden ? 'overridden' : 'judged'}
-            grade={shownGrade}
-            onContinue={wrong ? () => setPhase('copy') : completeTyped}
-            continueLabel={wrong ? s.copyCta : undefined}
-          >
-            {typed && result.grade !== 'exact' && !overridden && (
-              <Labeled label={c.feedback.yourAnswer}>
-                <AnswerDiff input={typed} form={wrong ? closestForm(typed, forms, lang) : result.expected} lang={lang} />
-              </Labeled>
-            )}
-            {overridden && <p className="text-sm text-success">{s.overridden}</p>}
-            <AnswerDetails
-              concept={concept}
-              lang={lang}
-              shown={wrong ? entry.primary : result.expected}
-              caption={result.grade === 'exact' || overridden ? undefined : wrong ? c.feedback.expected : s.exactSpelling}
-              autoPlay
-            />
-            {wrong && typed && (
-              <div className="flex flex-col items-center gap-1 border-t pt-3 text-center">
-                <p className="text-xs text-muted-foreground">{s.iWasRightHelp}</p>
-                <Button variant="outline" size="sm" onClick={claimRight}>
-                  {s.iWasRight}
-                </Button>
-              </div>
-            )}
-          </FeedbackPanel>
-        </div>
+        <FeedbackPanel
+          key={overridden ? 'overridden' : 'judged'}
+          grade={shownGrade}
+          onContinue={wrong ? () => setPhase('copy') : completeTyped}
+          continueLabel={wrong ? s.copyCta : undefined}
+          details={
+            hasAnswerExtras(concept, lang, featured, compare) ? (
+              <AnswerExtras concept={concept} lang={lang} shown={featured} />
+            ) : undefined
+          }
+        >
+          {typed && result.grade !== 'exact' && !overridden && (
+            <Labeled label={c.feedback.yourAnswer}>
+              <AnswerDiff input={typed} form={wrong ? closestForm(typed, forms, lang) : result.expected} lang={lang} />
+            </Labeled>
+          )}
+          {overridden && <p className="text-center text-sm text-success">{s.overridden}</p>}
+          <AnswerDetails
+            concept={concept}
+            lang={lang}
+            shown={featured}
+            caption={result.grade === 'exact' || overridden ? undefined : wrong ? c.feedback.expected : s.exactSpelling}
+            autoPlay
+          />
+          {wrong && typed && (
+            <p className="text-center">
+              <button
+                type="button"
+                onClick={claimRight}
+                title={s.iWasRightHelp}
+                className="rounded text-xs text-muted-foreground underline decoration-muted-foreground/40 underline-offset-4 transition hover:text-foreground focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/40"
+              >
+                {s.iWasRight}
+              </button>
+            </p>
+          )}
+        </FeedbackPanel>
       )}
 
       {phase === 'copy' && <CopyPractice concept={concept} lang={lang} onDone={completeTyped} />}
@@ -283,7 +293,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
 function Labeled({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div className="space-y-1">
-      <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{label}</p>
+      <p className="text-xs font-medium text-muted-foreground">{label}</p>
       {children}
     </div>
   )
@@ -307,7 +317,7 @@ function CopyPractice({ concept, lang, onDone }: { concept: Concept; lang: Exerc
   }
 
   return (
-    <div className="animate-pop-in space-y-4 rounded-2xl border-2 bg-card p-4 sm:p-5">
+    <div className="animate-pop-in space-y-4 rounded-2xl border bg-card p-4 sm:p-5">
       <div className="space-y-1 text-center">
         <p className="text-lg font-semibold">{s.copyTitle}</p>
         <p className="text-sm text-muted-foreground">{s.copyHelp}</p>

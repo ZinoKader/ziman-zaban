@@ -49,7 +49,7 @@ export function ModelAnswers({ form, lang, matchedIndex, own }: ModelAnswersProp
   let templates = 0
   return (
     <div className="space-y-2">
-      <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.answersTitle}</p>
+      <p className="text-xs font-medium text-muted-foreground">{s.answersTitle}</p>
       <ul className="space-y-2">
         {form.answers.map((answer, i) => {
           const template = isTemplate(answer)
@@ -59,8 +59,8 @@ export function ModelAnswers({ form, lang, matchedIndex, own }: ModelAnswersProp
             <li
               key={i}
               className={cn(
-                'relative flex flex-col items-center gap-1 rounded-xl border bg-card/80 px-3 py-3 text-center',
-                matched && 'border-success/60 ring-2 ring-success/20',
+                'relative flex flex-col items-center gap-1 rounded-xl bg-background/70 px-3 py-3 text-center',
+                matched && 'ring-2 ring-success/30',
               )}
             >
               {matched && (

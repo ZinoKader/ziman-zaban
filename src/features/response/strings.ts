@@ -52,8 +52,9 @@ export const responseStrings = defineStrings({
     change: 'Change',
     yourVersion: 'Your version',
     shadowTitle: 'Now say it aloud',
-    shadowHint: 'Listen, then repeat it, copying the rhythm and melody.',
     noRecorder: 'Say your answer aloud',
+    moreAnswers: 'More ways to answer',
+    moreAnswersPersonal: 'More ways to answer, or make it yours',
   },
   sv: {
     asks: (name: string) => `${name} frågar`,
@@ -106,7 +107,8 @@ export const responseStrings = defineStrings({
     change: 'Ändra',
     yourVersion: 'Din version',
     shadowTitle: 'Säg det nu högt',
-    shadowHint: 'Lyssna och upprepa sedan, med samma rytm och melodi.',
     noRecorder: 'Säg ditt svar högt',
+    moreAnswers: 'Fler sätt att svara',
+    moreAnswersPersonal: 'Fler sätt att svara, eller gör svaret till ditt eget',
   },
 })

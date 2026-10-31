@@ -99,6 +99,7 @@ export function LetterDetail({ letter, lang, example, className }: LetterDetailP
               audio
               audioUrl={example.audioUrl}
               romanization="always"
+              lead="script"
             />
             <p className="text-sm text-muted-foreground">{l(example.concept.gloss)}</p>
             <Button asChild variant="ghost" size="sm">

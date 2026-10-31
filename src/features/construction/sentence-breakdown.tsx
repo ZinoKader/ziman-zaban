@@ -56,7 +56,7 @@ export function SentenceBreakdown({ lang, tokens, highlight = [], romanization, 
 
   return (
     <div className={cn('space-y-2', className)}>
-      <ol dir="rtl" className="flex flex-wrap justify-center gap-1.5" aria-label={s.wordByWord}>
+      <ol dir={showLatin ? 'ltr' : 'rtl'} className="flex flex-wrap justify-center gap-1.5" aria-label={s.wordByWord}>
         {tokens.map((t, i) => (
           <li
             key={i}
@@ -65,12 +65,18 @@ export function SentenceBreakdown({ lang, tokens, highlight = [], romanization, 
               highlight.includes(i) && 'border-primary/60 bg-primary/5 ring-2 ring-primary/20',
             )}
           >
-            <span dir="rtl" lang={lang} className="text-xl font-medium">
-              {stripPunct(t.text)}
-            </span>
-            {showLatin && (
-              <span dir="ltr" lang={`${lang}-Latn`} className="text-xs font-medium tracking-wide text-muted-foreground">
-                {stripPunct(t.latin)}
+            {showLatin ? (
+              <>
+                <span dir="ltr" lang={`${lang}-Latn`} className="text-base font-semibold">
+                  {stripPunct(t.latin)}
+                </span>
+                <span dir="rtl" lang={lang} className="font-script text-base leading-snug text-foreground/75">
+                  {stripPunct(t.text)}
+                </span>
+              </>
+            ) : (
+              <span dir="rtl" lang={lang} className="font-script text-xl font-medium">
+                {stripPunct(t.text)}
               </span>
             )}
             <span dir="ltr" className="text-sm leading-tight">

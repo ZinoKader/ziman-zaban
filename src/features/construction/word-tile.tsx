@@ -62,16 +62,20 @@ export function WordTile({ lang, text, latin, showLatin, state, shortcut, label,
         className,
       )}
     >
-      <span className={cn('flex flex-col items-center', state === 'used' && 'invisible')}>
-        <span dir="rtl" lang={lang} className="text-xl font-medium leading-snug sm:text-2xl">
-          {stripPunct(text)}
-        </span>
-        {showLatin && latin && (
-          <span dir="ltr" lang={`${lang}-Latn`} className="text-[0.7rem] font-medium tracking-wide text-muted-foreground">
+      {showLatin && latin ? (
+        <span className={cn('flex flex-col items-center', state === 'used' && 'invisible')}>
+          <span dir="ltr" lang={`${lang}-Latn`} className="text-lg font-semibold leading-snug sm:text-xl">
             {stripPunct(latin)}
           </span>
-        )}
-      </span>
+          <span dir="rtl" lang={lang} className="font-script text-sm leading-snug text-foreground/70">
+            {stripPunct(text)}
+          </span>
+        </span>
+      ) : (
+        <span dir="rtl" lang={lang} className={cn('font-script text-xl font-medium leading-snug sm:text-2xl', state === 'used' && 'invisible')}>
+          {stripPunct(text)}
+        </span>
+      )}
       {shortcut !== undefined && state !== 'used' && (
         <kbd className="absolute -top-2 -start-2 hidden size-5 items-center justify-center rounded-md border bg-muted font-sans text-[0.65rem] text-muted-foreground shadow-xs sm:flex">
           {shortcut}

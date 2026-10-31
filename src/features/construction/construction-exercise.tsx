@@ -1,18 +1,18 @@
-import { ChevronDown, Eye, EyeOff, RotateCcw } from 'lucide-react'
+import { Eye, EyeOff, RotateCcw } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnswerInput } from '@/components/answer-input'
+import { AudioButton } from '@/components/audio-button'
 import { FeedbackPanel } from '@/components/feedback-panel'
 import { TargetText } from '@/components/target-text'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Kbd } from '@/components/ui/kbd'
-import { ReportButton } from '@/components/word-card'
 import { evidenceFor, sentenceById, sentencesFor } from '@/content'
 import type { Sentence, SentenceForm, TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { seededRandom } from '@/lib/distractors'
 import { matchTargetAnswer, type MatchGrade } from '@/lib/script/match'
+import { isArabicScript } from '@/lib/script/normalize'
 import { gradeOutcome, Rating } from '@/lib/srs'
 import { cn } from '@/lib/utils'
 import { useSettings } from '@/store/settings'
@@ -78,7 +78,6 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
   const [typed, setTyped] = useState('')
   const [showLatin, setShowLatin] = useState(romanization === 'always')
   const [result, setResult] = useState<Result | null>(null)
-  const [breakdownOpen, setBreakdownOpen] = useState(false)
   const shownAt = useRef(Date.now())
 
   const tiles = useMemo(
@@ -97,7 +96,6 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
 
   const finish = (r: Omit<Result, 'ms'>) => {
     setResult({ ...r, ms: Date.now() - shownAt.current })
-    setBreakdownOpen(r.grade === 'wrong')
     setPhase('feedback')
   }
 
@@ -173,14 +171,16 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
   if (phase === 'intro') {
     return (
       <div className="flex flex-col gap-5 animate-pop-in">
-        <Badge className="self-center bg-mod-construction">{s.newSentence}</Badge>
+        <p className="text-center text-xs font-semibold uppercase tracking-wider text-mod-construction">{s.newSentence}</p>
         <div className="space-y-5 rounded-3xl border bg-card px-4 py-6 shadow-sm sm:px-6">
           <p className="text-center text-xl font-semibold text-balance">{l(sentence.translation)}</p>
-          <TargetText lang={lang} text={form.text} latin={form.latin} size="xl" audio audioUrl={audioUrl} autoPlay />
+          <div className="space-y-2">
+            <TargetText lang={lang} text={form.text} latin={form.latin} size="lg" audio audioUrl={audioUrl} autoPlay />
+            {form.colloquial && <SpokenLine lang={lang} colloquial={form.colloquial} />}
+          </div>
           <SentenceBreakdown lang={lang} tokens={form.tokens} />
-          <GrammarChips ids={form.grammar} />
+          {!!form.grammar?.length && <GrammarChips ids={form.grammar} />}
         </div>
-        {form.colloquial && <SpokenVersion lang={lang} colloquial={form.colloquial} />}
         <p className="text-center text-sm text-muted-foreground">{s.study}</p>
         <Button size="xl" onClick={() => setPhase('question')} autoFocus>
           {s.buildIt}
@@ -196,6 +196,8 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
     </Button>
   )
   const latinVisible = romanization !== 'never' && (showLatin || phase === 'feedback')
+  // Tiles follow the reading direction of their leading line.
+  const flow = latinVisible ? 'ltr' : 'rtl'
 
   return (
     <div className="flex flex-col gap-5">
@@ -209,12 +211,12 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
               lang={lang}
               form={form}
               index={clozeIndex}
-              fill={phase === 'feedback' ? stripPunct(form.tokens[clozeIndex].text) : typed}
+              typed={typed}
               revealed={phase === 'feedback'}
               showLatin={latinVisible}
             />
-            <p className="rounded-full bg-muted px-3 py-1 text-sm">
-              <span className="text-muted-foreground">{s.meaningHint}:</span> {l(form.tokens[clozeIndex].gloss)}
+            <p className="text-sm text-muted-foreground">
+              {s.meaningHint}: <span className="font-medium text-foreground">{l(form.tokens[clozeIndex].gloss)}</span>
             </p>
           </>
         ) : (
@@ -235,7 +237,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
         ) : (
           <>
             <div
-              dir="rtl"
+              dir={flow}
               role="list"
               aria-label={s.answerLine}
               className={cn(
@@ -266,7 +268,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
               })}
             </div>
 
-            <div dir="rtl" role="group" aria-label={s.wordBank} className="flex flex-wrap justify-center gap-2.5 sm:gap-3">
+            <div dir={flow} role="group" aria-label={s.wordBank} className="flex flex-wrap justify-center gap-2.5 sm:gap-3">
               {tiles.map((t, i) => (
                 <WordTile
                   key={t.id}
@@ -328,19 +330,40 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
       )}
 
       {phase === 'feedback' && result && (
-        <FeedbackPanel grade={result.grade} onContinue={complete}>
+        <FeedbackPanel
+          grade={result.grade}
+          onContinue={complete}
+          detailsLabel={c.feedback.more.sentence}
+          details={
+            <>
+              {!!form.alternatives?.length && (
+                <div className="space-y-0.5">
+                  {form.alternatives.map((a) => (
+                    <AsideLine key={a.text} label={s.alsoCorrect} lang={lang} text={a.text} latin={a.latin} />
+                  ))}
+                </div>
+              )}
+              <div className="space-y-1.5">
+                <p className="text-xs font-medium text-muted-foreground">{s.wordByWord}</p>
+                <SentenceBreakdown lang={lang} tokens={form.tokens} highlight={mode === 'cloze' ? [clozeIndex] : []} />
+              </div>
+              <GrammarChips ids={form.grammar} />
+              {result.grade !== 'wrong' && <Shadowing lang={lang} text={form.text} url={audioUrl} />}
+            </>
+          }
+        >
           {result.oneOff && <p className="font-medium">{s.oneOff}</p>}
           {mode === 'cloze' && typed && result.grade !== 'exact' && (
-            <p className="text-sm">
+            <p className="text-sm text-muted-foreground">
               {c.feedback.yourAnswer}:{' '}
-              <span dir="auto" lang={lang} className="font-medium">
+              <span dir="auto" lang={lang} className="font-medium text-foreground">
                 {typed}
               </span>
             </p>
           )}
           {mode === 'typed' && result.typed && typed && (result.grade === 'wrong' || result.grade === 'typo') && (
             <div className="space-y-1.5">
-              <p className="text-sm">{c.feedback.yourAnswer}:</p>
+              <p className="text-sm text-muted-foreground">{c.feedback.yourAnswer}:</p>
               <TokenDiff lang={lang} ops={result.typed.diff} script={result.typed.inputScript} />
             </div>
           )}
@@ -348,49 +371,11 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
             <p className="text-sm">{result.usedVersion === 'colloquial' ? s.youUsedSpoken : s.yourVersion}</p>
           )}
 
-          <div className="space-y-1 rounded-xl bg-background/70 p-3">
-            <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{c.feedback.expected}</p>
-            <TargetText lang={lang} text={form.text} latin={form.latin} size="lg" audio audioUrl={audioUrl} autoPlay romanization="always" />
+          <div className="space-y-2 pt-1">
+            {result.grade !== 'exact' && <p className="text-center text-xs font-medium text-muted-foreground">{c.feedback.expected}</p>}
+            <TargetText lang={lang} text={form.text} latin={form.latin} size="md" audio audioUrl={audioUrl} autoPlay romanization="always" />
             <p className="text-center text-muted-foreground">{l(sentence.translation)}</p>
-          </div>
-
-          {form.colloquial && <SpokenVersion lang={lang} colloquial={form.colloquial} />}
-
-          {!!form.alternatives?.length && (
-            <div className="space-y-1">
-              <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.alsoCorrect}</p>
-              {form.alternatives.map((a) => (
-                <TargetText key={a.text} lang={lang} text={a.text} latin={a.latin} size="sm" audio romanization="always" />
-              ))}
-            </div>
-          )}
-
-          <div className="rounded-xl bg-background/70">
-            <button
-              type="button"
-              onClick={() => setBreakdownOpen((o) => !o)}
-              aria-expanded={breakdownOpen}
-              className="flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm font-medium transition hover:bg-muted/60"
-            >
-              {s.wordByWord}
-              <ChevronDown className={cn('size-4 motion-safe:transition-transform', breakdownOpen && 'rotate-180')} />
-            </button>
-            {breakdownOpen && (
-              <SentenceBreakdown
-                lang={lang}
-                tokens={form.tokens}
-                highlight={mode === 'cloze' ? [clozeIndex] : []}
-                className="px-2 pb-3 animate-pop-in"
-              />
-            )}
-          </div>
-
-          <GrammarChips ids={form.grammar} />
-
-          {result.grade !== 'wrong' && <Shadowing lang={lang} text={form.text} url={audioUrl} />}
-
-          <div className="flex justify-end">
-            <ReportButton itemKey={`sentence:${lang}:${sentence.id}`} />
+            {form.colloquial && <SpokenLine lang={lang} colloquial={form.colloquial} />}
           </div>
         </FeedbackPanel>
       )}
@@ -398,66 +383,112 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
   )
 }
 
-function SpokenVersion({ lang, colloquial }: { lang: TargetLang; colloquial: NonNullable<SentenceForm['colloquial']> }) {
-  const s = constructionStrings.use()
+/** A spoken form or another accepted version, as a small aside that never competes with the sentence itself. */
+function AsideLine({ label, title, lang, text, latin }: { label: string; title?: string; lang: TargetLang; text: string; latin: string }) {
+  const romanization = useSettings((st) => st.romanization)
   return (
-    <div className="flex flex-col items-center gap-1 rounded-xl border border-dashed bg-background/60 p-3">
-      <div className="flex items-center gap-2">
-        <Badge variant="outline">{s.spoken}</Badge>
-        <span className="text-xs text-muted-foreground">{s.spokenNote}</span>
-      </div>
-      <TargetText lang={lang} text={colloquial.text} latin={colloquial.latin} size="md" audio romanization="always" />
-    </div>
+    <p className="flex flex-wrap items-center justify-center gap-x-1.5 text-sm text-muted-foreground" title={title}>
+      <span>{label}</span>
+      <span aria-hidden>·</span>
+      {romanization !== 'never' && (
+        <span lang={`${lang}-Latn`} className="font-medium text-foreground/80">
+          {latin}
+        </span>
+      )}
+      <span dir="rtl" lang={lang} className="font-script">
+        {text}
+      </span>
+      <AudioButton lang={lang} text={text} className="size-7 [&_svg]:size-3.5" />
+    </p>
   )
 }
 
+function SpokenLine({ lang, colloquial }: { lang: TargetLang; colloquial: NonNullable<SentenceForm['colloquial']> }) {
+  const s = constructionStrings.use()
+  return <AsideLine label={s.spoken} title={s.spokenNote} lang={lang} text={colloquial.text} latin={colloquial.latin} />
+}
+
+function Blank({ fill, revealed }: { fill: string; revealed: boolean }) {
+  const s = constructionStrings.use()
+  return (
+    <span
+      aria-label={s.blank}
+      dir="auto"
+      className={cn(
+        'inline-flex min-w-16 justify-center border-b-[3px] px-2 motion-safe:transition-colors',
+        revealed ? 'border-success text-success animate-pop-in' : 'border-primary text-primary',
+      )}
+    >
+      {fill || '\u00A0'}
+    </span>
+  )
+}
+
+/** The sentence with one word blanked out; the learner's answer fills the line in the script they type in. */
 function ClozeSentence({
   lang,
   form,
   index,
-  fill,
+  typed,
   revealed,
   showLatin,
 }: {
   lang: TargetLang
   form: SentenceForm
   index: number
-  fill: string
+  typed: string
   /** After checking the blank shows the correct word. */
   revealed: boolean
   showLatin: boolean
 }) {
-  const s = constructionStrings.use()
-  const blankToken = form.tokens[index]
   const tail = (t: string) => TRAILING_PUNCT.exec(t)?.[0] ?? ''
+  const typedArabic = isArabicScript(typed)
+  const token = form.tokens[index]
+  const scriptFill = revealed ? stripPunct(token.text) : typedArabic || !showLatin ? typed : ''
+  const latinFill = revealed ? stripPunct(token.latin) : typedArabic ? '' : typed
+
+  const scriptLine = (primary: boolean) => (
+    <p
+      dir="rtl"
+      lang={lang}
+      className={cn(
+        'flex flex-wrap items-baseline justify-center gap-x-2.5 gap-y-2 font-script',
+        primary ? 'text-3xl font-medium leading-[1.8] sm:text-4xl' : 'text-xl leading-[1.8] text-foreground/75 sm:text-2xl',
+      )}
+    >
+      {form.tokens.map((t, i) =>
+        i === index ? (
+          <span key={i} className="inline-flex items-baseline">
+            <Blank fill={scriptFill} revealed={revealed} />
+            {tail(t.text)}
+          </span>
+        ) : (
+          <span key={i}>{t.text}</span>
+        ),
+      )}
+    </p>
+  )
+
+  if (!showLatin) return <div className="flex flex-col items-center gap-1">{scriptLine(true)}</div>
   return (
     <div className="flex flex-col items-center gap-1">
-      <p dir="rtl" lang={lang} className="flex flex-wrap items-baseline justify-center gap-x-2.5 gap-y-2 text-3xl font-medium leading-[1.8] sm:text-4xl">
+      <p
+        dir="ltr"
+        lang={`${lang}-Latn`}
+        className="flex flex-wrap items-baseline justify-center gap-x-2 gap-y-2 text-2xl font-bold leading-snug sm:text-3xl"
+      >
         {form.tokens.map((t, i) =>
           i === index ? (
             <span key={i} className="inline-flex items-baseline">
-              <span
-                aria-label={s.blank}
-                dir="auto"
-                className={cn(
-                  'inline-flex min-w-20 justify-center border-b-[3px] px-2 motion-safe:transition-colors',
-                  revealed ? 'border-success text-success animate-pop-in' : 'border-primary text-primary',
-                )}
-              >
-                {fill || '\u00A0'}
-              </span>
-              {tail(t.text)}
+              <Blank fill={latinFill} revealed={revealed} />
+              {tail(t.latin)}
             </span>
           ) : (
-            <span key={i}>{t.text}</span>
+            <span key={i}>{t.latin}</span>
           ),
         )}
       </p>
-      {showLatin && (
-        <p dir="ltr" lang={`${lang}-Latn`} className="text-center text-base font-medium tracking-wide text-muted-foreground">
-          {form.tokens.map((t, i) => (i === index && !revealed ? `____${tail(blankToken.latin)}` : t.latin)).join(' ')}
-        </p>
-      )}
+      {scriptLine(false)}
     </div>
   )
 }

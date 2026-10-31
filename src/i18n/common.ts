@@ -55,7 +55,6 @@ export const common = defineStrings({
       tryAgain: 'Try again',
       practice: 'Practice',
       done: 'Done',
-      report: 'Report a problem',
     },
     feedback: {
       correct: 'Correct!',
@@ -64,6 +63,7 @@ export const common = defineStrings({
       wrong: 'Not quite',
       expected: 'Correct answer',
       yourAnswer: 'Your answer',
+      more: { word: 'More about this word', sentence: 'More about this sentence', answer: 'More about the answers' },
     },
     grades: { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' },
     session: {
@@ -152,7 +152,6 @@ export const common = defineStrings({
       tryAgain: 'Försök igen',
       practice: 'Öva',
       done: 'Klar',
-      report: 'Rapportera ett fel',
     },
     feedback: {
       correct: 'Rätt!',
@@ -161,6 +160,7 @@ export const common = defineStrings({
       wrong: 'Inte riktigt',
       expected: 'Rätt svar',
       yourAnswer: 'Ditt svar',
+      more: { word: 'Mer om ordet', sentence: 'Mer om meningen', answer: 'Mer om svaren' },
     },
     grades: { again: 'Igen', hard: 'Svårt', good: 'Bra', easy: 'Lätt' },
     session: {

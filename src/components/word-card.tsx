@@ -1,105 +1,120 @@
-import { Flag, Link2 } from 'lucide-react'
-import { useState } from 'react'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from '@/components/ui/dialog'
-import { Textarea } from '@/components/ui/textarea'
+import { Link2 } from 'lucide-react'
+import { Fragment } from 'react'
 import { evidenceFor } from '@/content'
 import type { Concept, Form, TargetLang } from '@/content/types'
 import { defineStrings, useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
-import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { EvidenceBadge } from './evidence-badge'
 import { TargetText } from './target-text'
 
 const strings = defineStrings({
   en: {
-    alsoSaid: 'Also said',
+    also: 'Also:',
     plural: 'Plural',
     inOther: { ckb: 'In Sorani', fa: 'In Persian' },
     cognate: 'Related words',
-    reportTitle: 'Report a problem with this item',
-    reportBody: 'Describe what looks wrong (spelling, meaning, pronunciation...). Reports are saved on this device and can be exported for the content team from Settings.',
-    send: 'Save report',
-    thanks: 'Thanks, saved.',
   },
   sv: {
-    alsoSaid: 'Sägs också',
+    also: 'Även:',
     plural: 'Plural',
     inOther: { ckb: 'På sorani', fa: 'På persiska' },
     cognate: 'Besläktade ord',
-    reportTitle: 'Rapportera ett fel i det här ordet',
-    reportBody: 'Beskriv vad som ser fel ut (stavning, betydelse, uttal...). Rapporter sparas på enheten och kan exporteras till innehållsteamet från Inställningar.',
-    send: 'Spara rapport',
-    thanks: 'Tack, sparat.',
   },
 })
 
-function RegisterBadge({ form }: { form: Form }) {
-  const s = common.use()
-  if (!form.register || form.register === 'neutral') return null
+/** Other accepted forms on one small, muted line: "Also: mersi مرسی spoken · mamnunam ممنونم". */
+export function AlsoLine({ forms, lang, className }: { forms: Form[]; lang: TargetLang; className?: string }) {
+  const s = strings.use()
+  const c = common.use()
+  const romanization = useSettings((st) => st.romanization)
+  if (!forms.length) return null
+  const latin = romanization === 'always'
   return (
-    <Badge variant="outline" className="text-[0.7rem] font-normal">
-      {s.register[form.register]}
-    </Badge>
+    <p className={cn('text-sm leading-relaxed text-muted-foreground text-balance', className)}>
+      <span className="me-1">{s.also}</span>
+      {forms.map((f, i) => (
+        <Fragment key={f.script}>
+          {i > 0 && <span aria-hidden> · </span>}
+          <span className="inline-flex items-baseline gap-1">
+            {latin && (
+              <span lang={`${lang}-Latn`} className="font-medium text-foreground/80">
+                {f.latin}
+              </span>
+            )}
+            <span dir="rtl" lang={lang} className={cn('font-script', !latin && 'text-foreground/80')}>
+              {f.script}
+            </span>
+            {f.register && f.register !== 'neutral' && <span className="text-xs italic">{c.register[f.register]}</span>}
+          </span>
+        </Fragment>
+      ))}
+    </p>
   )
 }
 
-export function ReportButton({ itemKey, className }: { itemKey: string; className?: string }) {
+/** Whether `WordExtras` has anything to show. */
+export function hasWordExtras(concept: Concept, lang: TargetLang, compare: boolean): boolean {
+  const entry = concept[lang]
+  if (!entry) return false
+  const other: TargetLang = lang === 'ckb' ? 'fa' : 'ckb'
+  return !!entry.notes || !!entry.plural || !!entry.variants?.some((v) => v.note) || (compare && !!concept[other])
+}
+
+/** The secondary facts about a word: notes, plural, variant notes and the word in the other language. */
+export function WordExtras({ concept, lang, className }: { concept: Concept; lang: TargetLang; className?: string }) {
   const s = strings.use()
-  const c = common.use()
-  const report = useProgress((st) => st.report)
-  const [open, setOpen] = useState(false)
-  const [text, setText] = useState('')
-  const [sent, setSent] = useState(false)
+  const l = useLocalize()
+  const compare = useSettings((st) => st.compare)
+  const entry = concept[lang]
+  if (!entry || !hasWordExtras(concept, lang, compare)) return null
+  const other: TargetLang = lang === 'ckb' ? 'fa' : 'ckb'
+  const otherEntry = compare ? concept[other] : undefined
+  const notedVariants = (entry.variants ?? []).filter((v) => v.note)
+
   return (
-    <>
-      <Button variant="ghost" size="xs" className={cn('text-muted-foreground', className)} onClick={() => setOpen(true)}>
-        <Flag /> {c.actions.report}
-      </Button>
-      <Dialog
-        open={open}
-        onOpenChange={(o) => {
-          setOpen(o)
-          if (!o) setSent(false)
-        }}
-      >
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>{s.reportTitle}</DialogTitle>
-            <DialogDescription>{s.reportBody}</DialogDescription>
-          </DialogHeader>
-          {sent ? (
-            <p className="text-success">{s.thanks}</p>
-          ) : (
-            <Textarea value={text} onChange={(e) => setText(e.target.value)} rows={4} autoFocus />
-          )}
-          <DialogFooter>
-            {!sent && (
-              <Button
-                disabled={!text.trim()}
-                onClick={() => {
-                  report(itemKey, text.trim())
-                  setText('')
-                  setSent(true)
-                }}
-              >
-                {s.send}
-              </Button>
-            )}
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
-    </>
+    <div className={cn('flex w-full flex-col gap-3 text-start', className)}>
+      {entry.notes && <p className="text-sm leading-relaxed">{l(entry.notes)}</p>}
+      {notedVariants.length > 0 && (
+        <ul className="space-y-1 text-sm text-muted-foreground">
+          {notedVariants.map((v) => (
+            <li key={v.script}>
+              <span lang={`${lang}-Latn`} className="font-medium text-foreground/80">
+                {v.latin}
+              </span>{' '}
+              <span dir="rtl" lang={lang} className="font-script">
+                {v.script}
+              </span>
+              : {l(v.note!)}
+            </li>
+          ))}
+        </ul>
+      )}
+      {entry.plural && (
+        <div className="flex items-center justify-between gap-3">
+          <span className="text-xs text-muted-foreground">{s.plural}</span>
+          <TargetText lang={lang} text={entry.plural.script} latin={entry.plural.latin} size="sm" align="start" className="items-end" />
+        </div>
+      )}
+      {otherEntry && (
+        <div className="flex items-center justify-between gap-3">
+          <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
+            {concept.cognate && <Link2 className="size-3.5" aria-label={s.cognate} />}
+            {s.inOther[other]}
+          </span>
+          <TargetText
+            lang={other}
+            text={otherEntry.primary.script}
+            latin={otherEntry.primary.latin}
+            size="sm"
+            align="start"
+            className="items-end"
+            audio
+          />
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -110,89 +125,61 @@ interface WordCardProps {
   showMeaning?: boolean
   autoPlay?: boolean
   size?: 'md' | 'lg'
+  /** Show notes, plural and the other language under the word instead of leaving them to the caller. */
+  extras?: boolean
+  /** Show how the word was verified. Only on reference pages, never during practice. */
+  evidence?: boolean
   className?: string
 }
 
-/** Everything worth knowing about a word: form, pronunciation, meaning, notes, related forms, sources. */
-export function WordCard({ concept, lang, showMeaning = true, autoPlay = false, size = 'lg', className }: WordCardProps) {
-  const s = strings.use()
+/** A word at a glance: its form and pronunciation, its meaning and, quietly, the other ways to say it. */
+export function WordCard({
+  concept,
+  lang,
+  showMeaning = true,
+  autoPlay = false,
+  size = 'lg',
+  extras = false,
+  evidence = false,
+  className,
+}: WordCardProps) {
   const l = useLocalize()
-  const compare = useSettings((st) => st.compare)
+  const c = common.use()
   const entry = concept[lang]
   if (!entry) return null
-  const other: TargetLang = lang === 'ckb' ? 'fa' : 'ckb'
-  const otherEntry = concept[other]
-  const ev = evidenceFor('concept', lang, concept.id)
-  const audioUrl = entry.audio?.[0]?.url ?? ev.audio
+  const audioUrl = entry.audio?.[0]?.url ?? evidenceFor('concept', lang, concept.id).audio
 
   return (
-    <div className={cn('flex flex-col items-center gap-4 text-center', className)}>
-      {concept.emoji && <div className={cn(size === 'lg' ? 'text-5xl' : 'text-3xl')} aria-hidden>{concept.emoji}</div>}
-      <div className="flex flex-col items-center gap-1">
-        <TargetText
-          lang={lang}
-          text={entry.primary.script}
-          latin={entry.primary.latin}
-          size={size === 'lg' ? '2xl' : 'xl'}
-          audio
-          audioUrl={audioUrl}
-          autoPlay={autoPlay}
-        />
-        <div className="flex items-center gap-1">
-          <RegisterBadge form={entry.primary} />
-          <EvidenceBadge kind="concept" lang={lang} id={concept.id} showLabel />
+    <div className={cn('flex flex-col items-center gap-3 text-center', className)}>
+      {concept.emoji && (
+        <div className={cn(size === 'lg' ? 'text-5xl' : 'text-3xl')} aria-hidden>
+          {concept.emoji}
         </div>
-      </div>
+      )}
+      <TargetText
+        lang={lang}
+        text={entry.primary.script}
+        latin={entry.primary.latin}
+        size={size === 'lg' ? '2xl' : 'xl'}
+        audio
+        audioUrl={audioUrl}
+        autoPlay={autoPlay}
+      />
+      {entry.primary.register && entry.primary.register !== 'neutral' && (
+        <span className="-mt-2 text-xs italic text-muted-foreground">{c.register[entry.primary.register]}</span>
+      )}
+      {evidence && <EvidenceBadge kind="concept" lang={lang} id={concept.id} showLabel className="-mt-1 opacity-80" />}
 
       {showMeaning && (
         <div className="space-y-1">
-          <p className="text-2xl font-semibold">{l(concept.gloss)}</p>
+          <p className={cn('font-semibold text-balance', size === 'lg' ? 'text-2xl' : 'text-xl')}>{l(concept.gloss)}</p>
           {concept.senseNote && <p className="text-sm text-muted-foreground">{l(concept.senseNote)}</p>}
         </div>
       )}
 
-      {showMeaning && entry.notes && (
-        <p className="max-w-prose rounded-xl bg-muted/70 px-4 py-3 text-start text-sm leading-relaxed">{l(entry.notes)}</p>
-      )}
+      {showMeaning && <AlsoLine forms={entry.variants ?? []} lang={lang} className="max-w-md" />}
 
-      {showMeaning && (entry.variants?.length || entry.plural) && (
-        <div className="w-full max-w-md space-y-2 text-start">
-          {entry.variants?.length ? (
-            <div>
-              <p className="mb-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.alsoSaid}</p>
-              <ul className="space-y-1">
-                {entry.variants.map((v) => (
-                  <li key={v.script} className="flex items-center justify-between gap-3 rounded-lg border px-3 py-1.5">
-                    <span className="flex items-center gap-2">
-                      <RegisterBadge form={v} />
-                      {v.note && <span className="text-xs text-muted-foreground">{l(v.note)}</span>}
-                    </span>
-                    <TargetText lang={lang} text={v.script} latin={v.latin} size="sm" align="start" className="items-end" />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
-          {entry.plural && (
-            <div className="flex items-center justify-between rounded-lg border px-3 py-1.5">
-              <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.plural}</span>
-              <TargetText lang={lang} text={entry.plural.script} latin={entry.plural.latin} size="sm" />
-            </div>
-          )}
-        </div>
-      )}
-
-      {showMeaning && compare && otherEntry && (
-        <div className="flex w-full max-w-md items-center justify-between gap-3 rounded-xl border border-dashed px-4 py-2">
-          <span className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
-            {concept.cognate && <Link2 className="size-3.5" aria-label={s.cognate} />}
-            {s.inOther[other]}
-          </span>
-          <TargetText lang={other} text={otherEntry.primary.script} latin={otherEntry.primary.latin} size="sm" audio />
-        </div>
-      )}
-
-      {showMeaning && <ReportButton itemKey={`concept:${lang}:${concept.id}`} />}
+      {showMeaning && extras && <WordExtras concept={concept} lang={lang} className="mt-2 max-w-md rounded-2xl bg-muted/50 p-4" />}
     </div>
   )
 }

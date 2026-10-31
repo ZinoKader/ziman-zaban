@@ -4,9 +4,9 @@ import { AnswerInput } from '@/components/answer-input'
 import { useCanSpeak } from '@/components/audio-button'
 import { FeedbackPanel } from '@/components/feedback-panel'
 import { TargetText } from '@/components/target-text'
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { WordCard } from '@/components/word-card'
+import { Disclosure } from '@/components/disclosure'
+import { AlsoLine, hasWordExtras, WordCard, WordExtras } from '@/components/word-card'
 import { conceptById, evidenceFor, sentencesFor } from '@/content'
 import type { Concept } from '@/content/types'
 import { useLocalize } from '@/i18n'
@@ -50,6 +50,7 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   const l = useLocalize()
   const baseLang = useSettings((st) => st.baseLang)
   const cards = useProgress((st) => st.cards)
+  const compare = useSettings((st) => st.compare)
   const entry = concept[lang]!
   const audioUrl = entry.audio?.[0]?.url ?? evidenceFor('concept', lang, concept.id).audio
   const canSpeak = useCanSpeak(lang, audioUrl)
@@ -129,14 +130,19 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   if (phase === 'intro') {
     return (
       <div className="flex flex-col gap-6 animate-pop-in">
-        <Badge className="self-center bg-mod-recognition">{s.newWord}</Badge>
+        <p className="text-center text-xs font-semibold uppercase tracking-wider text-mod-recognition">{s.newWord}</p>
         <WordCard concept={concept} lang={lang} autoPlay />
         {example?.[lang] && (
-          <div className="rounded-2xl border bg-card p-4">
-            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.example}</p>
-            <TargetText lang={lang} text={example[lang]!.text} latin={example[lang]!.latin} size="md" audio />
-            <p className="mt-1 text-center text-muted-foreground">{l(example.translation)}</p>
+          <div className="rounded-2xl bg-muted/50 px-4 py-4">
+            <p className="mb-2 text-center text-xs font-medium text-muted-foreground">{s.example}</p>
+            <TargetText lang={lang} text={example[lang]!.text} latin={example[lang]!.latin} size="sm" audio />
+            <p className="mt-1 text-center text-sm text-muted-foreground">{l(example.translation)}</p>
           </div>
+        )}
+        {hasWordExtras(concept, lang, compare) && (
+          <Disclosure label={c.feedback.more.word} className="mx-auto w-full max-w-md">
+            <WordExtras concept={concept} lang={lang} />
+          </Disclosure>
         )}
         <Button size="xl" onClick={() => setPhase('question')} autoFocus>
           {s.gotIt}
@@ -222,13 +228,21 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
       )}
 
       {phase === 'feedback' && (
-        <FeedbackPanel grade={grade} onContinue={complete}>
+        <FeedbackPanel
+          grade={grade}
+          onContinue={complete}
+          details={hasWordExtras(concept, lang, compare) ? <WordExtras concept={concept} lang={lang} /> : undefined}
+        >
           {mode === 'typed' && typed && grade !== 'exact' && (
-            <p className="text-sm">
-              {c.feedback.yourAnswer}: <span className="font-medium">{typed}</span>
+            <p className="text-sm text-muted-foreground">
+              {c.feedback.yourAnswer}: <span className="font-medium text-foreground">{typed}</span>
             </p>
           )}
-          <WordCard concept={concept} lang={lang} size="md" />
+          <div className="space-y-1 text-center">
+            <p className="text-2xl font-semibold text-balance">{l(concept.gloss)}</p>
+            {concept.senseNote && <p className="text-sm text-muted-foreground">{l(concept.senseNote)}</p>}
+          </div>
+          <AlsoLine forms={entry.variants ?? []} lang={lang} className="text-center" />
         </FeedbackPanel>
       )}
     </div>

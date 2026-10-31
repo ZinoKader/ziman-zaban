@@ -2,6 +2,7 @@ import { AudioLines, Eye, Keyboard, Languages, Mic, Square, Volume2 } from 'luci
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnswerInput } from '@/components/answer-input'
 import { useCanSpeak } from '@/components/audio-button'
+import { Disclosure } from '@/components/disclosure'
 import { FeedbackPanel } from '@/components/feedback-panel'
 import { TargetText } from '@/components/target-text'
 import { Button } from '@/components/ui/button'
@@ -16,6 +17,7 @@ import { cn } from '@/lib/utils'
 import { useSettings } from '@/store/settings'
 import { SelfGrade } from '../session/self-grade'
 import type { ExerciseProps } from '../session/types'
+import { AnswerLine } from './components/answer-line'
 import { LearnerBubble, SpeakerBubble } from './components/chat-bubble'
 import { MakeItYours } from './components/make-it-yours'
 import { ModelAnswers } from './components/model-answers'
@@ -195,20 +197,21 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
       ? fillAnswer(template, own)
       : fillAnswer(matchedAnswer && !isTemplate(matchedAnswer) ? matchedAnswer : form.answers[0], displayValues(form, own))
 
-  const feedbackBody = (
-    <>
-      <ModelAnswers form={form} lang={lang} matchedIndex={result.index} own={own} />
-      {template && <MakeItYours item={qa} form={form} lang={lang} template={template} prefill={prefill} />}
-      <div className="flex flex-col items-center gap-1 rounded-xl border border-dashed bg-background/60 p-3 text-center">
-        <p className="flex items-center gap-1.5 text-sm font-semibold">
-          <Mic className="size-4 text-mod-response" />
-          {s.shadowTitle}
-        </p>
-        <p className="text-xs text-muted-foreground">{s.shadowHint}</p>
-        <TargetText lang={lang} text={shadow.text} latin={shadow.latin} size="md" audio romanization="always" />
-      </div>
-    </>
+  const modelAnswer = (caption: string) => (
+    <div className="flex flex-col items-center gap-1 text-center">
+      <p className="text-xs font-medium text-muted-foreground">{caption}</p>
+      <TargetText lang={lang} text={shadow.text} latin={shadow.latin} size="md" audio romanization="always" />
+      <p className="text-sm text-muted-foreground">{l(shadow.translation)}</p>
+    </div>
   )
+  const moreAnswers = form.answers.length > 1 || !!template
+  const details = moreAnswers ? (
+    <>
+      {template && <MakeItYours item={qa} form={form} lang={lang} template={template} prefill={prefill} />}
+      <ModelAnswers form={form} lang={lang} matchedIndex={result.index} own={own} />
+    </>
+  ) : undefined
+  const detailsLabel = template ? s.moreAnswersPersonal : s.moreAnswers
 
   const prompt = mode === 'choose' ? s.promptChoose : mode === 'build' ? s.promptBuild : s.answerIn[lang]
   const chosenOption = options.find((o) => o.id === chosen)
@@ -288,16 +291,7 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
                   <kbd className="hidden size-6 shrink-0 items-center justify-center rounded-md border bg-muted text-xs text-muted-foreground sm:flex">
                     {i + 1}
                   </kbd>
-                  <span className="flex flex-1 flex-col items-end gap-0.5">
-                    <span dir="rtl" lang={lang} className="font-script text-xl leading-relaxed">
-                      {o.text}
-                    </span>
-                    {romanization === 'always' && (
-                      <span lang={`${lang}-Latn`} className="text-sm text-muted-foreground">
-                        {o.latin}
-                      </span>
-                    )}
-                  </span>
+                  <AnswerLine lang={lang} text={o.text} latin={o.latin} showLatin={romanization === 'always'} className="flex-1" />
                 </button>
               ))}
             </div>
@@ -401,19 +395,17 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
           <LearnerBubble label={s.you} tone={learnerTone}>
             {kind === 'choose' && chosenOption && (
               <div className="flex flex-col items-start gap-0.5">
-                <span dir="rtl" lang={lang} className="font-script text-xl leading-relaxed">
-                  {chosenOption.text}
-                </span>
-                <span lang={`${lang}-Latn`} className="text-sm text-muted-foreground">
-                  {chosenOption.latin}
-                </span>
+                <AnswerLine lang={lang} text={chosenOption.text} latin={chosenOption.latin} showLatin={romanization !== 'never'} />
                 {!chosenOption.correct && <span className="text-sm italic text-muted-foreground">“{l(chosenOption.translation)}”</span>}
               </div>
             )}
             {kind === 'build' && (
-              <span dir="rtl" lang={lang} className="font-script text-xl leading-relaxed">
-                {selectedTiles.map((t) => t.text).join(' ')}
-              </span>
+              <AnswerLine
+                lang={lang}
+                text={selectedTiles.map((t) => t.text).join(' ')}
+                latin={selectedTiles.map((t) => t.latin).join(' ')}
+                showLatin={romanization !== 'never'}
+              />
             )}
             {kind === 'typed' &&
               (typed.trim() ? (
@@ -432,37 +424,36 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
           </LearnerBubble>
 
           {kind === 'spoken' || kind === 'said' ? (
-            <div className="animate-pop-in space-y-4 rounded-2xl border-2 border-mod-response/30 bg-mod-response/5 p-4 sm:p-5" role="status" aria-live="polite">
+            <div className="animate-pop-in space-y-4 rounded-2xl border bg-card p-4 sm:p-5" role="status" aria-live="polite">
               <p className="flex items-center gap-2 text-lg font-semibold">
                 <AudioLines className="size-6 text-mod-response" />
                 {s.compareTitle}
               </p>
               {kind === 'spoken' && recorder.url && (
-                <div className="grid gap-3 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5 rounded-xl border bg-card p-3">
-                    <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.yourRecording}</span>
-                    <audio controls src={recorder.url} className="h-10 w-full" />
-                  </div>
-                  <div className="flex flex-col gap-1.5 rounded-xl border bg-card p-3">
-                    <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.modelAnswer}</span>
-                    <TargetText lang={lang} text={shadow.text} latin={shadow.latin} size="sm" audio romanization="always" />
-                  </div>
+                <div className="flex flex-col gap-1.5">
+                  <span className="text-xs font-medium text-muted-foreground">{s.yourRecording}</span>
+                  <audio controls src={recorder.url} className="h-10 w-full" />
                 </div>
               )}
-              {feedbackBody}
+              {modelAnswer(s.modelAnswer)}
+              {details && (
+                <Disclosure label={detailsLabel} className="border-t pt-2">
+                  {details}
+                </Disclosure>
+              )}
               <div className="space-y-2">
                 <p className="text-center text-sm font-medium">{s.howClose}</p>
                 <SelfGrade onGrade={complete} />
               </div>
             </div>
           ) : (
-            <FeedbackPanel grade={result.grade} onContinue={() => complete()}>
+            <FeedbackPanel grade={result.grade} onContinue={() => complete()} details={details} detailsLabel={detailsLabel}>
               {kind === 'typed' && typed.trim() && result.grade !== 'exact' && (
-                <p className="text-sm">
-                  {c.feedback.yourAnswer}: <span dir="auto" className="font-medium">{typed}</span>
+                <p className="text-sm text-muted-foreground">
+                  {c.feedback.yourAnswer}: <span dir="auto" className="font-medium text-foreground">{typed}</span>
                 </p>
               )}
-              {feedbackBody}
+              {modelAnswer(result.grade === 'wrong' ? c.feedback.expected : s.shadowTitle)}
             </FeedbackPanel>
           )}
         </>

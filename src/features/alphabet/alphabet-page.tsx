@@ -142,7 +142,7 @@ function Anatomy({ lang, onPick }: { lang: TargetLang; onPick: (l: Letter) => vo
         <h2 className="text-lg font-semibold">{s.anatomy}</h2>
         <p className="text-sm text-muted-foreground">{s.anatomyBody}</p>
       </div>
-      <TargetText lang={lang} text={form.script} latin={form.latin} size="xl" audio romanization="always" />
+      <TargetText lang={lang} text={form.script} latin={form.latin} size="xl" audio romanization="always" lead="script" />
       <ArrowLeft className="hidden size-5 text-muted-foreground sm:block rtl:rotate-180" aria-hidden />
       <ol dir="rtl" className="flex flex-wrap items-center justify-center gap-1.5">
         {parts.map((p, i) => (

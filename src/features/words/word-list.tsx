@@ -1,7 +1,6 @@
 import { memo } from 'react'
 import { Link } from 'react-router'
 import { AudioButton } from '@/components/audio-button'
-import { TargetText } from '@/components/target-text'
 import { evidenceFor, unitById } from '@/content'
 import type { BaseLang, Concept, TargetLang } from '@/content/types'
 import { cn } from '@/lib/utils'
@@ -42,11 +41,19 @@ const WordRow = memo(function WordRow({ concept, lang, baseLang, compare, romani
           {concept.emoji}
         </span>
         <span className="flex w-28 shrink-0 flex-col items-start sm:w-36">
-          <TargetText lang={lang} text={entry.primary.script} size="sm" romanization="never" align="start" />
-          {romanization !== 'never' && (
-            <span lang={`${lang}-Latn`} className="-mt-1 truncate text-xs tracking-wide text-muted-foreground">
-              {entry.primary.latin}
+          {romanization === 'never' ? (
+            <span dir="rtl" lang={lang} className="font-script text-lg font-medium leading-[1.6]">
+              {entry.primary.script}
             </span>
+          ) : (
+            <>
+              <span lang={`${lang}-Latn`} className="max-w-full truncate text-base font-semibold leading-snug">
+                {entry.primary.latin}
+              </span>
+              <span dir="rtl" lang={lang} className="font-script text-sm leading-normal text-foreground/70">
+                {entry.primary.script}
+              </span>
+            </>
           )}
         </span>
         <span className="flex min-w-0 flex-1 flex-col">
@@ -58,10 +65,10 @@ const WordRow = memo(function WordRow({ concept, lang, baseLang, compare, romani
           </span>
           {otherEntry && (
             <span className="flex items-baseline gap-1.5 truncate text-xs text-muted-foreground">
+              {romanization !== 'never' && <span lang={`${other}-Latn`}>{otherEntry.primary.latin}</span>}
               <span lang={other} dir="rtl" className="font-script text-sm text-foreground/80">
                 {otherEntry.primary.script}
               </span>
-              {romanization !== 'never' && <span lang={`${other}-Latn`}>{otherEntry.primary.latin}</span>}
             </span>
           )}
         </span>

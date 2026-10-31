@@ -35,26 +35,33 @@ function TileButton({ tile, lang, showLatin, onClick, disabled, label, className
         className,
       )}
     >
-      <span dir="rtl" lang={lang} className="font-script text-xl leading-snug">
-        {tile.text}
-      </span>
-      {showLatin && (
-        <span lang={`${lang}-Latn`} className="text-[11px] leading-tight text-muted-foreground">
-          {tile.latin}
+      {showLatin ? (
+        <>
+          <span lang={`${lang}-Latn`} className="text-lg font-semibold leading-snug">
+            {tile.latin}
+          </span>
+          <span dir="rtl" lang={lang} className="font-script text-sm leading-snug text-foreground/70">
+            {tile.text}
+          </span>
+        </>
+      ) : (
+        <span dir="rtl" lang={lang} className="font-script text-xl leading-snug">
+          {tile.text}
         </span>
       )}
     </button>
   )
 }
 
-/** Builds an answer by tapping word tiles; the answer line reads right to left. */
+/** Builds an answer by tapping word tiles; the answer line follows the reading direction of the leading line. */
 export function TileBuilder({ lang, bank, chosen, onChange, disabled, state = 'idle', showLatin }: TileBuilderProps) {
   const s = responseStrings.use()
   const byId = new Map(bank.map((t) => [t.id, t]))
+  const flow = showLatin ? 'ltr' : 'rtl'
   return (
     <div className="flex flex-col gap-4">
       <div
-        dir="rtl"
+        dir={flow}
         aria-live="polite"
         className={cn(
           'flex min-h-20 flex-wrap content-start items-center gap-2 rounded-2xl border-2 border-dashed p-3 transition',
@@ -84,7 +91,7 @@ export function TileBuilder({ lang, bank, chosen, onChange, disabled, state = 'i
           )
         })}
       </div>
-      <div dir="rtl" className="flex flex-wrap justify-center gap-2" role="group">
+      <div dir={flow} className="flex flex-wrap justify-center gap-2" role="group">
         {bank.map((tile) => {
           const used = chosen.includes(tile.id)
           return (

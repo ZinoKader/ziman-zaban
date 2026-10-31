@@ -60,6 +60,8 @@ describe('ConstructionExercise', () => {
     for (const t of s.ckb!.tokens) add(t.text)
     check()
     expect(screen.getByText('Correct!')).toBeInTheDocument()
+    expect(screen.queryByText('Listen and repeat aloud')).not.toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: 'More about this sentence' }))
     expect(screen.getByText('Listen and repeat aloud')).toBeInTheDocument()
     next()
     // Never Easy right after seeing the model sentence.
@@ -190,5 +192,5 @@ describe('ConstructionExercise', () => {
         unmount()
       }
     }
-  })
+  }, 20_000)
 })

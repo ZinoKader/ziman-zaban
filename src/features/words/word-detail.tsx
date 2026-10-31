@@ -47,29 +47,45 @@ function UsageSentence({
     return <TargetText lang={lang} text={form.text} latin={form.latin} size={size} align="start" audio />
   }
   const hit = (id?: string) => id === conceptId
+  const script = (
+    <p
+      dir="rtl"
+      lang={lang}
+      className={cn(
+        'font-script leading-[1.7]',
+        romanization === 'never' ? (size === 'md' ? 'text-xl' : 'text-base') : cn('text-foreground/75', size === 'md' ? 'text-base' : 'text-sm'),
+      )}
+    >
+      {form.tokens.map((t, i) => (
+        <span key={i}>
+          {i > 0 && ' '}
+          <span className={cn(hit(t.concept) && 'rounded-md bg-primary/12 px-0.5 font-semibold text-primary')}>{t.text}</span>
+        </span>
+      ))}
+    </p>
+  )
+  if (romanization === 'never') {
+    return (
+      <div className="flex items-center gap-1.5">
+        {script}
+        <AudioButton lang={lang} text={form.text} />
+      </div>
+    )
+  }
   return (
     <div className="flex flex-col items-start gap-0.5">
       <div className="flex items-center gap-1.5">
-        <p dir="rtl" lang={lang} className={cn('font-script leading-[1.7]', size === 'md' ? 'text-xl' : 'text-base')}>
+        <p lang={`${lang}-Latn`} className={cn('font-semibold leading-snug', size === 'md' ? 'text-lg' : 'text-base')}>
           {form.tokens.map((t, i) => (
             <span key={i}>
               {i > 0 && ' '}
-              <span className={cn(hit(t.concept) && 'rounded-md bg-primary/12 px-0.5 font-semibold text-primary')}>{t.text}</span>
+              <span className={cn(hit(t.concept) && 'rounded-md bg-primary/12 px-0.5 text-primary')}>{t.latin}</span>
             </span>
           ))}
         </p>
         <AudioButton lang={lang} text={form.text} />
       </div>
-      {romanization !== 'never' && (
-        <p lang={`${lang}-Latn`} className="text-sm tracking-wide text-muted-foreground">
-          {form.tokens.map((t, i) => (
-            <span key={i}>
-              {i > 0 && ' '}
-              <span className={cn(hit(t.concept) && 'font-semibold text-foreground')}>{t.latin}</span>
-            </span>
-          ))}
-        </p>
-      )}
+      {script}
     </div>
   )
 }
@@ -130,7 +146,7 @@ export function WordDetail({ concept, lang }: { concept: Concept; lang: TargetLa
 
   return (
     <article className="flex flex-col gap-8" aria-label={l(concept.gloss)}>
-      <WordCard key={`${lang}:${concept.id}`} concept={concept} lang={lang} className="pt-2" />
+      <WordCard key={`${lang}:${concept.id}`} concept={concept} lang={lang} extras evidence className="pt-2" />
 
       <section>
         <SectionTitle>{s.yourStats}</SectionTitle>

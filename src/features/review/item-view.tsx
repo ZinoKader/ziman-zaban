@@ -78,7 +78,7 @@ function FormRow({ lang, form, label }: { lang: TargetLang; form: Form; label?: 
         {form.note && <span className="text-xs text-muted-foreground">{l(form.note)}</span>}
         {form.ipa && <span className="font-mono text-xs text-muted-foreground">/{form.ipa}/</span>}
       </div>
-      <TargetText lang={lang} text={form.script} latin={form.latin} size="sm" audio romanization="always" align="start" className="shrink-0 items-end" />
+      <TargetText lang={lang} text={form.script} latin={form.latin} size="sm" audio romanization="always" lead="script" align="start" className="shrink-0 items-end" />
     </li>
   )
 }
@@ -87,7 +87,7 @@ function Plain({ lang, text, latin, translation }: { lang: TargetLang; text: str
   const l = useLocalize()
   return (
     <div className="rounded-xl border bg-background/60 px-3 py-2">
-      <TargetText lang={lang} text={text} latin={latin} size="md" audio romanization="always" align="start" className="items-end" />
+      <TargetText lang={lang} text={text} latin={latin} size="md" audio romanization="always" lead="script" align="start" className="items-end" />
       {translation && <p className="mt-1 text-sm text-muted-foreground">{l(translation)}</p>}
     </div>
   )
@@ -241,7 +241,7 @@ function ConceptView({ item, lang, reports }: ItemViewProps) {
             {concept.emoji}
           </span>
         )}
-        <TargetText lang={lang} text={entry.primary.script} latin={entry.primary.latin} size="2xl" audio audioUrl={audioUrl} romanization="always" />
+        <TargetText lang={lang} text={entry.primary.script} latin={entry.primary.latin} size="2xl" audio audioUrl={audioUrl} romanization="always" lead="script" />
         <div className="flex flex-wrap items-center justify-center gap-1.5">
           <FormTags form={entry.primary} />
           {ipa && <span className="font-mono text-xs text-muted-foreground">/{ipa}/</span>}
@@ -287,7 +287,7 @@ function SentenceView({ item, lang, reports }: ItemViewProps) {
       <Header item={item} reported={reports.length > 0} />
       {reports.length > 0 && <ReportedBanner reports={reports} />}
       <div className="py-2">
-        <TargetText lang={lang} text={form.text} latin={form.latin} size="xl" audio romanization="always" />
+        <TargetText lang={lang} text={form.text} latin={form.latin} size="xl" audio romanization="always" lead="script" />
       </div>
       <Section title={s.meaning}>
         <Meaning value={sentence.translation} />
@@ -337,7 +337,7 @@ function QAView({ item, lang, reports }: ItemViewProps) {
       {reports.length > 0 && <ReportedBanner reports={reports} />}
       <Section title={s.question}>
         <div className="py-1">
-          <TargetText lang={lang} text={form.question.text} latin={form.question.latin} size="xl" audio romanization="always" />
+          <TargetText lang={lang} text={form.question.text} latin={form.question.latin} size="xl" audio romanization="always" lead="script" />
         </div>
         <Meaning value={qa.question} />
         {form.question.tokens && <TokenBreakdown lang={lang} tokens={form.question.tokens} />}
@@ -348,7 +348,7 @@ function QAView({ item, lang, reports }: ItemViewProps) {
             <li key={a.text} className="space-y-2 rounded-xl border bg-background/60 px-3 py-2.5">
               <div className="flex items-start justify-between gap-3">
                 <span className="pt-1 text-xs text-muted-foreground">{i === 0 ? s.canonical : `${i + 1}`}</span>
-                <TargetText lang={lang} text={a.text} latin={a.latin} size="md" audio romanization="always" align="start" className="items-end" />
+                <TargetText lang={lang} text={a.text} latin={a.latin} size="md" audio romanization="always" lead="script" align="start" className="items-end" />
               </div>
               <p className="text-sm">
                 <span lang="en">{a.translation.en}</span>
