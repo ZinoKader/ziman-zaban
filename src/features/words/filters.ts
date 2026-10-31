@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router'
 import { evidenceFor, type EvidenceLevel } from '@/content'
 import type { Concept, PartOfSpeech, TargetLang } from '@/content/types'
@@ -39,22 +39,48 @@ export function applyFilters(
     )
 }
 
-/** Filter state mirrored into the URL, so it survives opening a word and sharing a link. */
+function fromParams(params: URLSearchParams): WordFilters {
+  const f = { ...EMPTY_FILTERS }
+  for (const k of KEYS) (f as Record<string, string>)[k] = params.get(k) ?? ''
+  return f
+}
+
+function toParams(f: WordFilters): URLSearchParams {
+  const next = new URLSearchParams()
+  for (const k of KEYS) if (f[k]) next.set(k, f[k])
+  return next
+}
+
+/**
+ * Filter state mirrored into the URL, so it survives opening a word and sharing a link.
+ * Filters live in local state so typing stays instant (URL updates land in a transition);
+ * a URL change that didn't come from here (Back, the Words link in the menu) replaces them.
+ */
 export function useWordFilters() {
   const [params, setParams] = useSearchParams()
-  const [filters, setFilters] = useState<WordFilters>(() => {
-    const f = { ...EMPTY_FILTERS }
-    for (const k of KEYS) (f as Record<string, string>)[k] = params.get(k) ?? ''
-    return f
-  })
+  const [filters, setFilters] = useState<WordFilters>(() => fromParams(params))
+  /** Searches written by `apply` that the router hasn't reported back yet, oldest first. */
+  const written = useRef<string[]>([params.toString()])
+  const search = params.toString()
 
   useEffect(() => {
-    const next = new URLSearchParams()
-    for (const k of KEYS) if (filters[k]) next.set(k, filters[k])
-    if (next.toString() !== params.toString()) setParams(next, { replace: true })
-  }, [filters, params, setParams])
+    const i = written.current.indexOf(search)
+    if (i >= 0) {
+      written.current = written.current.slice(i + 1)
+      return
+    }
+    written.current = []
+    setFilters(fromParams(new URLSearchParams(search)))
+  }, [search])
 
-  const update = (patch: Partial<WordFilters>) => setFilters((f) => ({ ...f, ...patch }))
-  const clear = () => setFilters((f) => ({ ...EMPTY_FILTERS, q: f.q }))
-  return { filters, update, clear, search: params.toString() ? `?${params}` : '' }
+  const apply = (next: WordFilters) => {
+    setFilters(next)
+    const nextSearch = toParams(next).toString()
+    if (nextSearch === (written.current.at(-1) ?? search)) return
+    written.current.push(nextSearch)
+    setParams(toParams(next), { replace: true })
+  }
+  const update = (patch: Partial<WordFilters>) => apply({ ...filters, ...patch })
+  const clear = () => apply({ ...EMPTY_FILTERS, q: filters.q })
+  return { filters, update, clear, search: search ? `?${search}` : '' }
 }

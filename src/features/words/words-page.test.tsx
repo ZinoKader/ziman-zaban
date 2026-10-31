@@ -1,5 +1,5 @@
-import { fireEvent, render, screen, within } from '@testing-library/react'
-import { MemoryRouter, Route, Routes } from 'react-router'
+import { act, fireEvent, render, screen, within } from '@testing-library/react'
+import { Link, MemoryRouter, Route, Routes, useLocation } from 'react-router'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { TooltipProvider } from '@/components/ui/tooltip'
 import { cardKey, Rating, reviewCard } from '@/lib/srs'
@@ -7,10 +7,16 @@ import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { WordsPage } from './words-page'
 
+function CurrentSearch() {
+  return <output aria-label="search params">{useLocation().search}</output>
+}
+
 function renderAt(path: string) {
   return render(
     <MemoryRouter initialEntries={[path]}>
       <TooltipProvider>
+        <Link to="/words">All words</Link>
+        <CurrentSearch />
         <Routes>
           <Route path="/words" element={<WordsPage />} />
           <Route path="/words/:conceptId" element={<WordsPage />} />
@@ -77,6 +83,23 @@ describe('WordsPage', () => {
     const now = new Date()
     useProgress.setState({ cards: { [cardKey('ckb', 'recognition', 'hello')]: reviewCard(undefined, Rating.Good, now) } })
     renderAt('/words?q=hello')
+    expect(screen.getByRole('img', { name: 'Recognition: Learning, Recall: New' })).toBeInTheDocument()
+  })
+
+  it('mirrors filters into the URL and follows URL changes made elsewhere', () => {
+    renderAt('/words?unit=family')
+    fireEvent.change(search(), { target: { value: 'sister' } })
+    expect(screen.getByRole('status', { name: 'search params' })).toHaveTextContent('?q=sister&unit=family')
+    fireEvent.click(screen.getByRole('link', { name: 'All words' }))
+    expect(screen.getByRole('status', { name: 'search params' })).toHaveTextContent(/^$/)
+    expect(search()).toHaveValue('')
+    expect(screen.getByRole('region', { name: /Greetings/ })).toBeInTheDocument()
+  })
+
+  it('updates strength dots as progress changes', () => {
+    renderAt('/words?q=hello')
+    expect(screen.getByRole('img', { name: 'Recognition: New, Recall: New' })).toBeInTheDocument()
+    act(() => useProgress.getState().record(cardKey('ckb', 'recognition', 'hello'), Rating.Good, { ms: 1, kind: 'mc' }))
     expect(screen.getByRole('img', { name: 'Recognition: Learning, Recall: New' })).toBeInTheDocument()
   })
 
