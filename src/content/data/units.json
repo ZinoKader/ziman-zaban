@@ -1,0 +1,144 @@
+{
+  "units": [
+    {
+      "id": "greetings",
+      "order": 1,
+      "emoji": "👋",
+      "title": { "en": "Greetings & courtesy", "sv": "Hälsningar & artighet" },
+      "description": {
+        "en": "Hello, goodbye, thank you, please, yes and no: the words you use in every conversation.",
+        "sv": "Hej, hej då, tack, snälla, ja och nej: orden du använder i varje samtal."
+      },
+      "canDo": {
+        "en": "Greet someone, ask how they are, and thank them.",
+        "sv": "Hälsa på någon, fråga hur de mår och tacka dem."
+      }
+    },
+    {
+      "id": "me-and-you",
+      "order": 2,
+      "emoji": "🙋",
+      "title": { "en": "Me and you", "sv": "Jag och du" },
+      "description": {
+        "en": "Pronouns, names, where you are from, and the verb \"to be\".",
+        "sv": "Pronomen, namn, var du kommer ifrån och verbet \"att vara\"."
+      },
+      "canDo": {
+        "en": "Introduce yourself and ask someone their name and where they are from.",
+        "sv": "Presentera dig och fråga någon vad de heter och var de kommer ifrån."
+      }
+    },
+    {
+      "id": "family",
+      "order": 3,
+      "emoji": "👨‍👩‍👧",
+      "title": { "en": "Family", "sv": "Familj" },
+      "description": {
+        "en": "Parents, siblings, children, and how to say what you have.",
+        "sv": "Föräldrar, syskon, barn och hur du säger vad du har."
+      },
+      "canDo": {
+        "en": "Talk about your family and ask about someone else's.",
+        "sv": "Prata om din familj och fråga om någon annans."
+      }
+    },
+    {
+      "id": "numbers-time",
+      "order": 4,
+      "emoji": "🔢",
+      "title": { "en": "Numbers & time", "sv": "Siffror & tid" },
+      "description": {
+        "en": "Counting, age, days, and talking about today, tomorrow and yesterday.",
+        "sv": "Räkna, ålder, dagar och att prata om idag, imorgon och igår."
+      },
+      "canDo": {
+        "en": "Say your age, count things, and say when something happens.",
+        "sv": "Säga din ålder, räkna saker och säga när något händer."
+      }
+    },
+    {
+      "id": "food-drink",
+      "order": 5,
+      "emoji": "🍞",
+      "title": { "en": "Food & drink", "sv": "Mat & dryck" },
+      "description": {
+        "en": "Everyday food, tea, hunger and thirst, and saying what you want.",
+        "sv": "Vardagsmat, te, hunger och törst och att säga vad du vill ha."
+      },
+      "canDo": {
+        "en": "Say what you want to eat or drink and whether you like it.",
+        "sv": "Säga vad du vill äta eller dricka och om du tycker om det."
+      }
+    },
+    {
+      "id": "home-daily",
+      "order": 6,
+      "emoji": "🏠",
+      "title": { "en": "Home & daily life", "sv": "Hem & vardag" },
+      "description": {
+        "en": "Your home, your day, going and coming, sleeping and working.",
+        "sv": "Ditt hem, din dag, att gå och komma, sova och arbeta."
+      },
+      "canDo": {
+        "en": "Describe your day and where you live.",
+        "sv": "Beskriva din dag och var du bor."
+      }
+    },
+    {
+      "id": "places-travel",
+      "order": 7,
+      "emoji": "🗺️",
+      "title": { "en": "Places & getting around", "sv": "Platser & att ta sig runt" },
+      "description": {
+        "en": "The city, shops, school, directions, near and far.",
+        "sv": "Staden, affärer, skolan, vägbeskrivningar, nära och långt."
+      },
+      "canDo": {
+        "en": "Ask where something is and say where you are going.",
+        "sv": "Fråga var något är och säga vart du är på väg."
+      }
+    },
+    {
+      "id": "describing",
+      "order": 8,
+      "emoji": "🎨",
+      "title": { "en": "Describing things & feelings", "sv": "Beskriva saker & känslor" },
+      "description": {
+        "en": "Big and small, hot and cold, colours, and how you feel.",
+        "sv": "Stor och liten, varm och kall, färger och hur du känner dig."
+      },
+      "canDo": {
+        "en": "Describe people, things and how you feel.",
+        "sv": "Beskriva människor, saker och hur du känner dig."
+      }
+    },
+    {
+      "id": "actions",
+      "order": 9,
+      "emoji": "🏃",
+      "title": { "en": "Everyday actions", "sv": "Vardagliga handlingar" },
+      "description": {
+        "en": "Speaking, understanding, knowing, seeing, giving and taking.",
+        "sv": "Tala, förstå, veta, se, ge och ta."
+      },
+      "canDo": {
+        "en": "Say what you can and can't do, and that you do or don't understand.",
+        "sv": "Säga vad du kan och inte kan göra, och att du förstår eller inte förstår."
+      }
+    },
+    {
+      "id": "conversation",
+      "order": 10,
+      "emoji": "💬",
+      "title": { "en": "Keeping a conversation going", "sv": "Hålla igång ett samtal" },
+      "description": {
+        "en": "Question words, and, but, because, very, maybe: the glue of real conversation.",
+        "sv": "Frågeord, och, men, eftersom, mycket, kanske: limmet i riktiga samtal."
+      },
+      "canDo": {
+        "en": "Ask follow-up questions and give reasons.",
+        "sv": "Ställa följdfrågor och ge skäl."
+      }
+    }
+  ]
+}

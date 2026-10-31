@@ -1,0 +1,419 @@
+{
+  "concepts": [
+    {
+      "id": "hello",
+      "unit": "greetings",
+      "pos": "interjection",
+      "level": "A1",
+      "emoji": "👋",
+      "gloss": { "en": "hello", "sv": "hej", "enAlt": ["hi"], "svAlt": ["hallå", "hejsan"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سڵاو", "latin": "sław", "ipa": "/sɪɫaːw/" },
+        "notes": {
+          "en": "ڵ (ł) is a \"dark\" l, pronounced with the back of the tongue raised, like the l in English \"full\". Kurdish writes it with its own letter.",
+          "sv": "ڵ (ł) är ett \"tjockt\" l som uttalas med tungryggen höjd, ungefär som l i engelska \"full\". Kurdiskan har en egen bokstav för det."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سڵاو" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سلام", "latin": "salâm" },
+        "notes": {
+          "en": "Used at any time of day, formal or informal. Sorani سڵاو and Persian سلام both come from Arabic salām \"peace\".",
+          "sv": "Används när som helst på dagen, formellt eller informellt. Soranins سڵاو och persiskans سلام kommer båda från arabiskans salām \"fred\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hello" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "goodbye",
+      "unit": "greetings",
+      "pos": "interjection",
+      "level": "A1",
+      "emoji": "🚶",
+      "gloss": { "en": "goodbye", "sv": "hej då", "enAlt": ["bye"], "svAlt": ["adjö"] },
+      "ckb": {
+        "primary": { "script": "خوات لەگەڵ", "latin": "xwat legeł" },
+        "variants": [{ "script": "خوا حافیز", "latin": "xwa ḧafîz" }],
+        "notes": {
+          "en": "Literally \"God (be) with you\": خوا (God) + ت (your) + لەگەڵ (with). خوا حافیز is also common.",
+          "sv": "Ordagrant \"Gud (vare) med dig\": خوا (Gud) + ت (din) + لەگەڵ (med). خوا حافیز är också vanligt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "goodbye" }]
+      },
+      "fa": {
+        "primary": { "script": "خداحافظ", "latin": "khodâhâfez" },
+        "variants": [{ "script": "خدانگهدار", "latin": "khodânegahdâr", "register": "formal" }],
+        "notes": {
+          "en": "Literally \"God (is your) protector\". Sorani خوا حافیز is the same phrase.",
+          "sv": "Ordagrant \"Gud (är ditt) beskydd\". Soranins خوا حافیز är samma uttryck."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خداحافظ" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thank-you",
+      "unit": "greetings",
+      "pos": "interjection",
+      "level": "A1",
+      "emoji": "🙏",
+      "gloss": { "en": "thank you", "sv": "tack", "enAlt": ["thanks"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سوپاس", "latin": "supas" },
+        "sources": [{ "source": "wiktionary", "ref": "thank you" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ممنون", "latin": "mamnun" },
+        "variants": [
+          { "script": "مرسی", "latin": "mersi", "register": "colloquial" },
+          { "script": "ممنونم", "latin": "mamnunam" },
+          { "script": "متشکرم", "latin": "moteshakkeram", "register": "formal" },
+          { "script": "سپاس", "latin": "sepâs", "register": "formal" }
+        ],
+        "notes": {
+          "en": "In everyday Tehran speech ممنون and مرسی are the most common. Formal سپاس is the same word as Sorani سوپاس.",
+          "sv": "I vardagligt Teheran-tal är ممنون och مرسی vanligast. Det formella سپاس är samma ord som soranins سوپاس."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thank you" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thanks-a-lot",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "💐",
+      "gloss": { "en": "thank you very much", "sv": "tack så mycket", "enAlt": ["thanks a lot", "many thanks"], "svAlt": ["stort tack"] },
+      "ckb": {
+        "primary": { "script": "زۆر سوپاس", "latin": "zor supas" },
+        "notes": {
+          "en": "زۆر means \"very, a lot\" and comes before what it intensifies.",
+          "sv": "زۆر betyder \"mycket\" och står före det som förstärks."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خیلی ممنون", "latin": "kheyli mamnun" },
+        "variants": [{ "script": "خیلی مرسی", "latin": "kheyli mersi", "register": "colloquial" }],
+        "notes": {
+          "en": "خیلی means \"very, a lot\".",
+          "sv": "خیلی betyder \"mycket\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thank you very much" }]
+      }
+    },
+    {
+      "id": "please",
+      "unit": "greetings",
+      "pos": "interjection",
+      "level": "A1",
+      "emoji": "🤲",
+      "gloss": { "en": "please", "sv": "snälla", "svAlt": ["vänligen"] },
+      "ckb": {
+        "primary": { "script": "تکایە", "latin": "tikaye" },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "لطفاً", "latin": "lotfan" },
+        "notes": {
+          "en": "The small mark ً over the alef is written in careful spelling; everyday typing often leaves it out (لطفا).",
+          "sv": "Det lilla tecknet ً över alef skrivs i noggrann stavning; i vardagligt skrivande utelämnas det ofta (لطفا)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "لطفا" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "yes",
+      "unit": "greetings",
+      "pos": "particle",
+      "level": "A1",
+      "emoji": "✅",
+      "gloss": { "en": "yes", "sv": "ja" },
+      "ckb": {
+        "primary": { "script": "بەڵێ", "latin": "bełê" },
+        "variants": [{ "script": "ئەرێ", "latin": "erê", "register": "colloquial" }],
+        "notes": {
+          "en": "ئەرێ is a casual \"yeah\" among friends and family.",
+          "sv": "ئەرێ är ett vardagligt \"japp\" bland vänner och familj."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "yes" }]
+      },
+      "fa": {
+        "primary": { "script": "بله", "latin": "bale" },
+        "variants": [{ "script": "آره", "latin": "âre", "register": "colloquial" }],
+        "notes": {
+          "en": "آره is the casual \"yeah\". Use بله with strangers and elders.",
+          "sv": "آره är ett vardagligt \"japp\". Använd بله med främlingar och äldre."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "yes" }]
+      }
+    },
+    {
+      "id": "no",
+      "unit": "greetings",
+      "pos": "particle",
+      "level": "A1",
+      "emoji": "❌",
+      "gloss": { "en": "no", "sv": "nej" },
+      "ckb": {
+        "primary": { "script": "نەخێر", "latin": "nexêr" },
+        "variants": [{ "script": "نا", "latin": "na", "register": "colloquial" }],
+        "sources": [{ "source": "wiktionary", "ref": "not at all" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نه", "latin": "na" },
+        "variants": [{ "script": "نخیر", "latin": "nakheyr", "register": "formal" }],
+        "notes": {
+          "en": "The final ه here is not pronounced as h; it marks the vowel: na.",
+          "sv": "Det sista ه uttalas inte som h här; det markerar vokalen: na."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "no" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "how-are-you",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🙂",
+      "gloss": { "en": "how are you?", "sv": "hur mår du?", "enAlt": ["how are you doing?"], "svAlt": ["hur är det?"] },
+      "ckb": {
+        "primary": { "script": "چۆنی؟", "latin": "çonî?" },
+        "variants": [{ "script": "چۆنیت؟", "latin": "çonît?" }],
+        "notes": {
+          "en": "چۆن means \"how\" and ی / یت is \"you are\". To several people: چۆنن؟ (çonin?).",
+          "sv": "چۆن betyder \"hur\" och ی / یت är \"du är\". Till flera personer: چۆنن؟ (çonin?)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "how are you" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چطوری؟", "latin": "chetori?", "register": "colloquial" },
+        "variants": [
+          { "script": "حالت چطوره؟", "latin": "hâlet chetore?", "register": "colloquial" },
+          { "script": "حال شما چطور است؟", "latin": "hâl-e shomâ chetor ast?", "register": "formal" }
+        ],
+        "notes": {
+          "en": "چطوری is casual (to a friend). With elders or strangers say حالتون چطوره؟ (hâletun chetore?).",
+          "sv": "چطوری är vardagligt (till en vän). Till äldre eller främlingar säger man حالتون چطوره؟ (hâletun chetore?)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "good",
+      "unit": "greetings",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "👍",
+      "gloss": { "en": "good", "sv": "bra", "enAlt": ["fine", "well"], "svAlt": ["god"] },
+      "ckb": {
+        "primary": { "script": "باش", "latin": "baş" },
+        "sources": [{ "source": "wiktionary", "ref": "good" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خوب", "latin": "khub" },
+        "notes": {
+          "en": "Here و is the long vowel u. Persian باش (bâsh) also exists, but it means \"be!\", not \"good\".",
+          "sv": "Här är و den långa vokalen u. Persiskans باش (bâsh) finns också, men betyder \"var!\", inte \"bra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "good" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "i-am-fine",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "😊",
+      "gloss": { "en": "I'm fine", "sv": "jag mår bra", "enAlt": ["I am fine", "I'm good", "I am well"], "svAlt": ["bra"] },
+      "ckb": {
+        "primary": { "script": "باشم", "latin": "başim" },
+        "notes": {
+          "en": "باش (good) + م (I am). The i in başim is heard but not written: Sorani script leaves out this short vowel.",
+          "sv": "باش (bra) + م (jag är). I:et i başim hörs men skrivs inte: soranisk skrift utelämnar den korta vokalen."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§15 copula" }]
+      },
+      "fa": {
+        "primary": { "script": "خوبم", "latin": "khubam" },
+        "notes": {
+          "en": "خوب (good) + م (I am). Same pattern as Sorani باشم.",
+          "sv": "خوب (bra) + م (jag är). Samma mönster som soranins باشم."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "and-you",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🫵",
+      "gloss": { "en": "and you?", "sv": "och du?", "enAlt": ["what about you?"], "svAlt": ["själv då?"] },
+      "ckb": {
+        "primary": { "script": "ئەی تۆ؟", "latin": "ey to?" },
+        "sources": [{ "source": "wiktionary", "ref": "ئەی" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تو چطور؟", "latin": "to chetor?", "register": "colloquial" },
+        "variants": [
+          { "script": "شما چطور؟", "latin": "shomâ chetor?" },
+          { "script": "تو چی؟", "latin": "to chi?", "register": "colloquial" }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "welcome",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🤗",
+      "gloss": { "en": "welcome", "sv": "välkommen" },
+      "ckb": {
+        "primary": { "script": "بەخێربێیت", "latin": "bexêrbêyt" },
+        "variants": [
+          { "script": "بەخێربێی", "latin": "bexêrbêy" },
+          { "script": "بەخێربێن", "latin": "bexêrbên", "note": { "en": "to several people", "sv": "till flera personer" } }
+        ],
+        "notes": {
+          "en": "Literally \"may you come with goodness\": بە (with) + خێر (goodness) + بێیت (you come).",
+          "sv": "Ordagrant \"må du komma med det goda\": بە (med) + خێر (det goda) + بێیت (du kommer)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "welcome" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خوش آمدید", "latin": "khosh âmadid" },
+        "variants": [
+          { "script": "خوش اومدی", "latin": "khosh umadi", "register": "colloquial" },
+          { "script": "خوش اومدین", "latin": "khosh umadin", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Literally \"you came happily\". In speech, آمد (âmad) usually becomes اومد (umad).",
+          "sv": "Ordagrant \"du kom lyckligt\". I tal blir آمد (âmad) oftast اومد (umad)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "welcome" }]
+      }
+    },
+    {
+      "id": "good-morning",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🌅",
+      "gloss": { "en": "good morning", "sv": "god morgon" },
+      "ckb": {
+        "primary": { "script": "بەیانیت باش", "latin": "beyanît baş" },
+        "notes": {
+          "en": "Literally \"your morning (is) good\": بەیانی (morning) + ت (your) + باش (good).",
+          "sv": "Ordagrant \"din morgon (är) bra\": بەیانی (morgon) + ت (din) + باش (bra)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "good morning" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "صبح بخیر", "latin": "sobh bekheyr" },
+        "notes": {
+          "en": "Literally \"morning with goodness\". بخیر contains خیر (kheyr), the same word as Sorani خێر in بەخێربێیت.",
+          "sv": "Ordagrant \"morgon med det goda\". بخیر innehåller خیر (kheyr), samma ord som soranins خێر i بەخێربێیت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "صبح بخیر" }]
+      }
+    },
+    {
+      "id": "good-night",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🌙",
+      "gloss": { "en": "good night", "sv": "god natt" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شەو باش", "latin": "şew baş" },
+        "notes": {
+          "en": "شەو (night) is the same word as Persian شب (shab).",
+          "sv": "شەو (natt) är samma ord som persiskans شب (shab)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "good night" }]
+      },
+      "fa": {
+        "primary": { "script": "شب بخیر", "latin": "shab bekheyr" },
+        "sources": [{ "source": "wiktionary", "ref": "شب بخیر" }]
+      }
+    },
+    {
+      "id": "sorry",
+      "unit": "greetings",
+      "pos": "interjection",
+      "level": "A1",
+      "emoji": "🙇",
+      "gloss": { "en": "sorry", "sv": "förlåt", "enAlt": ["excuse me", "pardon"], "svAlt": ["ursäkta"] },
+      "ckb": {
+        "primary": { "script": "ببوورە", "latin": "bibûre" },
+        "variants": [{ "script": "ببورە", "latin": "bibure" }],
+        "notes": {
+          "en": "Used both to apologise and to get someone's attention. Both spellings are in use.",
+          "sv": "Används både för att be om ursäkt och för att få någons uppmärksamhet. Båda stavningarna förekommer."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "excuse me" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ببخشید", "latin": "bebakhshid" },
+        "notes": {
+          "en": "Used both to apologise and to get someone's attention, like \"excuse me\".",
+          "sv": "Används både för att be om ursäkt och för att få någons uppmärksamhet, som \"ursäkta\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ببخشید" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "youre-welcome",
+      "unit": "greetings",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "😌",
+      "gloss": { "en": "you're welcome", "sv": "varsågod", "enAlt": ["you are welcome", "no problem"], "svAlt": ["ingen orsak"] },
+      "ckb": {
+        "primary": { "script": "شایەنی نییە", "latin": "şayenî nîye" },
+        "variants": [{ "script": "شایانی نییە", "latin": "şayanî nîye" }],
+        "notes": {
+          "en": "Literally \"it is not worthy (of thanks)\". نییە (nîye) means \"is not\".",
+          "sv": "Ordagrant \"det är inte värt (något tack)\". نییە (nîye) betyder \"är inte\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "you're welcome" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خواهش می‌کنم", "latin": "khâhesh mikonam" },
+        "notes": {
+          "en": "Literally \"I request (it)\". The و in خواهش is silent: khâhesh. The verb prefix می is joined with a half-space (ZWNJ): می‌کنم.",
+          "sv": "Ordagrant \"jag ber (om det)\". و i خواهش är stumt: khâhesh. Verbprefixet می sätts ihop med ett halvt mellanslag (ZWNJ): می‌کنم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خواهش" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "okay",
+      "unit": "greetings",
+      "pos": "interjection",
+      "level": "A1",
+      "emoji": "👌",
+      "gloss": { "en": "okay", "sv": "okej", "enAlt": ["OK", "alright", "fine"], "svAlt": ["ok", "visst"] },
+      "ckb": {
+        "primary": { "script": "باشە", "latin": "başe" },
+        "notes": {
+          "en": "باش (good) + ە (it is): \"it's good\". It looks just like Persian باشه, but that one is built differently (\"let it be\").",
+          "sv": "باش (bra) + ە (det är): \"det är bra\". Det ser ut precis som persiskans باشه, men det är uppbyggt annorlunda (\"må det vara\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "great" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "باشه", "latin": "bâshe", "register": "colloquial" },
+        "notes": {
+          "en": "Spoken form of باشد (bâshad) \"let it be\", from بودن (to be).",
+          "sv": "Talspråksform av باشد (bâshad) \"må det vara\", från بودن (att vara)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "باشه" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

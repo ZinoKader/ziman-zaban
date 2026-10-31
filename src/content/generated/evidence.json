@@ -1,0 +1,260 @@
+{
+ "concept:ckb:and-you": {
+  "level": "attested",
+  "checks": [
+   "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:good": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 130 Tatoeba sentences"
+  ],
+  "ipa": "/baːʃ/"
+ },
+ "concept:ckb:good-morning": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:good-night": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 49 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:goodbye": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:hello": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "/səɫaːw/"
+ },
+ "concept:ckb:how-are-you": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/t͡ʃoːni/"
+ },
+ "concept:ckb:i-am-fine": {
+  "level": "attested",
+  "checks": [
+   "Used in 9 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:no": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:okay": {
+  "level": "attested",
+  "checks": [
+   "Used in 80 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:please": {
+  "level": "attested",
+  "checks": [
+   "Used in 128 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sorry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:thank-you": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 21 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:thanks-a-lot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 21 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:welcome": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:yes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:youre-welcome": {
+  "level": "attested",
+  "checks": [
+   "Used in 9 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:and-you": {
+  "level": "attested",
+  "checks": [
+   "Used in 97 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:good": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 495 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/Fa-%D8%AE%D9%88%D8%A8.ogg/Fa-%D8%AE%D9%88%D8%A8.ogg.mp3",
+  "ipa": "[xuːb̥]"
+ },
+ "concept:fa:good-morning": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "[sobʰ be.xéjɹ]"
+ },
+ "concept:fa:good-night": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "[ʃæb̥ be.xéjɹ]"
+ },
+ "concept:fa:goodbye": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 17 Tatoeba sentences"
+  ],
+  "ipa": "[xo.d̪ɒ́ː hɒː.féz]"
+ },
+ "concept:fa:hello": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 63 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Fa-%D8%B3%D9%84%D8%A7%D9%85.ogg/Fa-%D8%B3%D9%84%D8%A7%D9%85.ogg.mp3",
+  "ipa": "[sæ.lɒ́ːm]"
+ },
+ "concept:fa:how-are-you": {
+  "level": "attested",
+  "checks": [
+   "Used in 14 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:i-am-fine": {
+  "level": "attested",
+  "checks": [
+   "Used in 14 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:no": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 441 Tatoeba sentences"
+  ],
+  "ipa": "[næ]"
+ },
+ "concept:fa:okay": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 17 Tatoeba sentences"
+  ],
+  "ipa": "[bɒː.ʃe]"
+ },
+ "concept:fa:please": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 317 Tatoeba sentences"
+  ],
+  "ipa": "[lót̪ʰ.fæn]"
+ },
+ "concept:fa:sorry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 52 Tatoeba sentences"
+  ],
+  "ipa": "[bé.bæx.ʃiːd̪̥]"
+ },
+ "concept:fa:thank-you": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "[mæm.núːn]"
+ },
+ "concept:fa:thanks-a-lot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:welcome": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 21 Tatoeba sentences"
+  ],
+  "ipa": "[xoʃ ʔɒː.mǽ.d̪iːd̪̥]"
+ },
+ "concept:fa:yes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/Fa-%D8%A8%D9%84%D9%87.ogg/Fa-%D8%A8%D9%84%D9%87.ogg.mp3",
+  "ipa": "[bǽ.le]"
+ },
+ "concept:fa:youre-welcome": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 51 Tatoeba sentences"
+  ],
+  "ipa": "[xɒː.ɦéʃ míː.kʰo.næm]"
+ }
+}
