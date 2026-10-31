@@ -8,9 +8,11 @@ import { defineStrings, useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { moduleItems, moduleStatus } from '@/lib/curriculum'
 import { cardKey, isLearned } from '@/lib/srs'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { moduleBySlug, moduleWhy } from '@/features/modules'
 import { Meter } from '@/features/progress/meter'
+import { progressStrings } from '@/features/progress/strings'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 
@@ -27,7 +29,7 @@ const strings = defineStrings({
     lockedHint: {
       recognition: '',
       recall: 'Words arrive here once you recognise them reliably (after a few correct answers in Recognition).',
-      construction: 'Sentences unlock once you have learned all the words they use in Recognition.',
+      construction: 'Sentences unlock once you have met all the words they use in Recognition.',
       response: 'Questions unlock once you can recall most of the words they use.',
     },
     noContent: 'No content in this unit yet',
@@ -44,7 +46,7 @@ const strings = defineStrings({
     lockedHint: {
       recognition: '',
       recall: 'Ord kommer hit när du känner igen dem säkert (efter några rätta svar i Igenkänning).',
-      construction: 'Meningar låses upp när du har lärt dig alla ord de använder i Igenkänning.',
+      construction: 'Meningar låses upp när du har mött alla ord de använder i Igenkänning.',
       response: 'Frågor låses upp när du kan plocka fram de flesta orden de använder.',
     },
     noContent: 'Inget innehåll i den här enheten än',
@@ -57,11 +59,13 @@ export function ModulePage() {
   const c = common.use()
   const s = strings.use()
   const why = moduleWhy.use()
+  const p = progressStrings.use()
   const l = useLocalize()
   const lang = useSettings((st) => st.targetLang)
   const cards = useProgress((st) => st.cards)
 
-  const status = useMemo(() => (meta ? moduleStatus(meta.skill, lang, cards) : null), [meta, lang, cards])
+  const now = useNow()
+  const status = useMemo(() => (meta ? moduleStatus(meta.skill, lang, cards, now) : null), [meta, lang, cards, now])
   const perUnit = useMemo(() => {
     if (!meta) return []
     const items = moduleItems(meta.skill, lang, cards)
@@ -147,7 +151,7 @@ export function ModulePage() {
                   <div className="flex items-baseline justify-between gap-2">
                     <h3 className="truncate font-medium">{l(unit.title)}</h3>
                     <span className="text-xs tabular-nums text-muted-foreground">
-                      {total ? `${learned}/${total}` : s.noContent}
+                      {total ? p.counts(learned, started - learned, total) : s.noContent}
                     </span>
                   </div>
                   <Meter

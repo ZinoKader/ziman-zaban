@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Switch } from '@/components/ui/switch'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { formatBytes, formatWhen } from '@/features/progress/format'
 import { progressStrings } from '@/features/progress/strings'
@@ -75,6 +76,7 @@ function DataFacts() {
   const p = progressStrings.use()
   const baseLang = useSettings((st) => st.baseLang)
   const { medium, persistent, persistSupported, lastSavedAt } = useSaveStatus()
+  const now = useNow()
   const cards = useProgress((st) => st.cards)
   const log = useProgress((st) => st.log)
   const days = useProgress((st) => st.days)
@@ -107,7 +109,7 @@ function DataFacts() {
             </span>
           </Fact>
         )}
-        <Fact label={s.lastSaved}>{lastSavedAt ? formatWhen(lastSavedAt, baseLang, p.justNow) : s.never}</Fact>
+        <Fact label={s.lastSaved}>{lastSavedAt ? formatWhen(lastSavedAt, baseLang, p.justNow, now) : s.never}</Fact>
         <Fact label={s.contents}>
           {s.contentsValue(Object.keys(cards).length, log.length, practised)} · {s.size(formatBytes(size, baseLang))}
         </Fact>

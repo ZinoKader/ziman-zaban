@@ -1,8 +1,9 @@
 import { CalendarCheck, ChartNoAxesColumn, Flame } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link } from 'react-router'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { moduleBySkill } from '@/features/modules'
 import { dayKey, streak, useProgress } from '@/store/progress'
@@ -107,7 +108,7 @@ export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
   const c = common.use()
   const cards = useProgress((st) => st.cards)
   const days = useProgress((st) => st.days)
-  const [now] = useState(() => new Date())
+  const now = useNow()
   const course = useMemo(() => courseProgress(lang, cards), [lang, cards])
   const modules = useMemo(() => moduleProgress(lang, cards, now), [lang, cards, now])
   const due = modules.reduce((n, m) => n + m.status.due, 0)

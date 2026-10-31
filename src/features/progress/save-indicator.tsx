@@ -2,6 +2,7 @@ import { CircleCheck, Database, ShieldCheck, ShieldQuestion, TriangleAlert } fro
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { useSaveStatus } from '@/store/save-status'
 import { useSettings } from '@/store/settings'
@@ -25,13 +26,14 @@ export function SaveDetails() {
   const s = progressStrings.use()
   const baseLang = useSettings((st) => st.baseLang)
   const { medium, persistent, persistSupported, lastSavedAt, failed } = useSaveStatus()
+  const now = useNow()
   const protection = !persistSupported || persistent === null ? 'unknown' : persistent ? 'granted' : 'denied'
   const ProtectionIcon = protection === 'granted' ? ShieldCheck : ShieldQuestion
   return (
     <ul className="space-y-2 text-sm">
       <li className="flex gap-2">
         <CircleCheck className="mt-0.5 size-4 shrink-0 text-success" />
-        <span>{lastSavedAt ? s.lastSaved(formatWhen(lastSavedAt, baseLang, s.justNow)) : s.neverSaved}</span>
+        <span>{lastSavedAt ? s.lastSaved(formatWhen(lastSavedAt, baseLang, s.justNow, now)) : s.neverSaved}</span>
       </li>
       <li className="flex gap-2">
         <Database className="mt-0.5 size-4 shrink-0 text-muted-foreground" />

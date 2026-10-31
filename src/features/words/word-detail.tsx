@@ -9,6 +9,7 @@ import { grammarById, qaFor, sentencesFor, unitById } from '@/content'
 import type { Concept, SentenceForm, TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { retrievability, strength, type StoredCard } from '@/lib/srs'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
@@ -94,7 +95,7 @@ function SkillStats({ label, card }: { label: string; card: StoredCard | undefin
   const s = wordsStrings.use()
   const baseLang = useSettings((st) => st.baseLang)
   const level = strength(card)
-  const [now] = useState(() => new Date())
+  const now = useNow()
   const due = card ? new Date(card.due) : null
   const started = !!card && level !== 'new'
   return (

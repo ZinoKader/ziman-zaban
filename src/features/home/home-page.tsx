@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { common } from '@/i18n/common'
 import { moduleStatus, type ModuleStatus } from '@/lib/curriculum'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { MODULES, type ModuleMeta } from '@/features/modules'
 import { ProgressCard } from '@/features/progress/progress-card'
@@ -55,8 +56,9 @@ export function HomePage() {
   const lang = useSettings((st) => st.targetLang)
   const onboarded = useSettings((st) => st.onboarded)
   const cards = useProgress((st) => st.cards)
+  const now = useNow()
 
-  const statuses = useMemo(() => MODULES.map((m) => moduleStatus(m.skill, lang, cards)), [lang, cards])
+  const statuses = useMemo(() => MODULES.map((m) => moduleStatus(m.skill, lang, cards, now)), [lang, cards, now])
   const next = MODULES.find((_, i) => statuses[i].due > 0) ?? MODULES.find((_, i) => statuses[i].available > 0)
   const fresh = statuses.every((st) => st.started === 0)
 

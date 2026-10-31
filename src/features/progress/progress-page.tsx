@@ -1,11 +1,12 @@
 import { ArrowRight, CircleCheck, Flame, Lock } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import type { TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
+import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { dayKey, streak, useProgress } from '@/store/progress'
 import { useSaveStatus } from '@/store/save-status'
@@ -35,7 +36,8 @@ function LanguageCourse({ lang, current }: { lang: TargetLang; current: boolean 
   const set = useSettings((st) => st.set)
   const cards = useProgress((st) => st.cards)
   const course = useMemo(() => courseProgress(lang, cards), [lang, cards])
-  const modules = useMemo(() => moduleProgress(lang, cards), [lang, cards])
+  const now = useNow()
+  const modules = useMemo(() => moduleProgress(lang, cards, now), [lang, cards, now])
   return (
     <Card className={cn(current && 'ring-2 ring-primary/30')}>
       <CardHeader>
@@ -151,7 +153,7 @@ export function ProgressPage() {
   const days = useProgress((st) => st.days)
   const lastSavedAt = useSaveStatus((st) => st.lastSavedAt)
 
-  const [now] = useState(() => new Date())
+  const now = useNow()
   const today = dayKey(now)
   const langs = useMemo(() => {
     const started = startedLanguages(cards)
@@ -174,7 +176,7 @@ export function ProgressPage() {
         <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
           <CircleCheck className="size-4 text-success" />
           {s.intro}
-          {lastSavedAt && <span className="hidden sm:inline"> · {s.lastSaved(formatWhen(lastSavedAt, baseLang, s.justNow))}</span>}
+          {lastSavedAt && <span className="hidden sm:inline"> · {s.lastSaved(formatWhen(lastSavedAt, baseLang, s.justNow, now))}</span>}
         </p>
       </header>
 

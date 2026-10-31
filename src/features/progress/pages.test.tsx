@@ -76,6 +76,21 @@ describe('HomePage', () => {
     expect(screen.getByRole('link', { name: /See all progress/ })).toHaveAttribute('href', '/progress')
   })
 
+  it('counts a word as due once its time comes, without leaving the page', () => {
+    vi.useFakeTimers()
+    try {
+      const key = cardKey('ckb', 'recognition', words[0].id)
+      useProgress.getState().record(key, Rating.Good, { ms: 1, kind: 'mc' })
+      renderAt('/', <HomePage />)
+      expect(screen.getByText('Nothing due')).toBeInTheDocument()
+      act(() => void vi.advanceTimersByTime(11 * 60_000))
+      expect(screen.getByText('1 due now')).toBeInTheDocument()
+      expect(screen.getByText('1 due')).toBeInTheDocument()
+    } finally {
+      vi.useRealTimers()
+    }
+  })
+
   it('invites a new learner to start, in Swedish', () => {
     useSettings.setState({ baseLang: 'sv' })
     renderAt('/', <HomePage />)
