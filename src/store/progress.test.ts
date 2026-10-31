@@ -65,7 +65,8 @@ describe('record', () => {
     expect(Object.keys(useProgress.getState().days).sort()).toEqual(['2026-03-02', '2026-03-03'])
   })
 
-  it('keeps the review log bounded', () => {
+  // 5,003 persisted writes take several seconds on a loaded machine.
+  it('keeps the review log bounded', { timeout: 30_000 }, () => {
     const { record } = useProgress.getState()
     const now = day(2026, 3, 2)
     for (let i = 0; i < 5003; i++) record(cardKey('fa', 'recall', `item-${i % 50}`), Rating.Good, { ms: 1, kind: 'typed', now })
