@@ -86,6 +86,7 @@ function foldBase(s: string): string {
     .normalize('NFC')
     .toLowerCase()
     .replace(/\(.*?\)/g, ' ')
+    .trim()
     .replace(/^(to|att|a|an|the|en|ett)\s+/, '')
     .replace(/[.,!?;:"'’]/g, '')
     .replace(/\s+/g, ' ')

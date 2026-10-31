@@ -53,7 +53,10 @@ const PERSIAN_SCRIPT: Record<string, string> = {
 }
 
 export function persianScriptSkeleton(script: string): string {
-  const t = canonicalize(script, 'fa').replace(/\u200C/g, '')
+  // ه before a ZWNJ ends a morpheme (آهسته‌تر, خانه‌ها), so it is the silent final heh.
+  const t = canonicalize(script, 'fa')
+    .replace(/(?<=\S)ه\u200C/g, '\u200C')
+    .replace(/\u200C/g, '')
   return words(t)
     .map((w) => {
       const chars = [...w]
@@ -76,7 +79,7 @@ export function persianLatinSkeleton(latin: string): string {
         .replace(/sh|š/g, 'S')
         .replace(/ch|č/g, 'C')
         .replace(/zh|ž/g, 'Z')
-        .replace(/gh|q|ğ/g, 'G')
+        .replace(/gh|q|ğ|ġ/g, 'G')
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .replace(/[aeiouyvw'ʼ’`-]/g, '')

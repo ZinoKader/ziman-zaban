@@ -27,3 +27,4 @@ dist-ssr
 agent-tools
 /raw
 .content-cache
+.playwright-mcp
