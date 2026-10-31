@@ -1,0 +1,302 @@
+{
+  "points": [
+    {
+      "id": "ckb-past-tense-ergativity",
+      "unit": "actions",
+      "lang": "ckb",
+      "level": "A2",
+      "title": { "en": "The past tense: two kinds of verbs", "sv": "Preteritum: två sorters verb" },
+      "explanation": {
+        "en": "The past is built on the **past stem** (`چوو` çû 'went', `خوارد` xward 'ate'). Verbs without an object (**intransitive**) take normal endings: `چووم` çûm 'I went', `چووین` çûyn 'we went'; 'he/she' has no ending: `چوو`. Verbs with an object (**transitive**) work differently: the person who acts is shown by a small clitic (`-m` I, `-t` you, `-î` he/she, `-man`, `-tan`, `-yan`) placed on the **first word before the verb**, usually the object: `نانم خوارد` nanim xward 'I ate bread', `چیت گوت؟` 'what did you say?'. Alone, it goes on the verb: `خواردم` 'I ate (it)'. The negative `نە-` can host it too: `نەمخوارد` 'I didn't eat'. It never goes on the subject or on a time word: `دوێنێ کارم کرد`.",
+        "sv": "Preteritum bygger på **preteritumstammen** (`چوو` çû 'gick', `خوارد` xward 'åt'). Verb utan objekt (**intransitiva**) får vanliga ändelser: `چووم` çûm 'jag gick', `چووین` çûyn 'vi gick'; 'han/hon' har ingen ändelse: `چوو`. Verb med objekt (**transitiva**) fungerar annorlunda: den som handlar visas med ett litet klitikon (`-m` jag, `-t` du, `-î` han/hon, `-man`, `-tan`, `-yan`) på **första ordet före verbet**, oftast objektet: `نانم خوارد` nanim xward 'jag åt bröd', `چیت گوت؟` 'vad sa du?'. Står inget före verbet hamnar det på verbet: `خواردم` 'jag åt (det)'. Negationen `نە-` kan också bära det: `نەمخوارد` 'jag åt inte'. Det hamnar aldrig på subjektet eller på ett tidsord: `دوێنێ کارم کرد`."
+      },
+      "examples": [
+        {
+          "text": "دوێنێ چوومە بازاڕ.",
+          "latin": "dwênê çûme bazař.",
+          "translation": { "en": "Yesterday I went to the market.", "sv": "I går gick jag till marknaden." },
+          "tokens": [
+            { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+            {
+              "text": "چوومە",
+              "latin": "çûme",
+              "gloss": { "en": "I went to", "sv": "jag gick till" },
+              "concept": "to-go",
+              "morph": "go.PST-1SG-to"
+            },
+            { "text": "بازاڕ.", "latin": "bazař.", "gloss": { "en": "market", "sv": "marknaden" }, "concept": "market" }
+          ]
+        },
+        {
+          "text": "نانم خوارد.",
+          "latin": "nanim xward.",
+          "translation": { "en": "I ate bread.", "sv": "Jag åt bröd." },
+          "tokens": [
+            {
+              "text": "نانم",
+              "latin": "nanim",
+              "gloss": { "en": "bread + I (did it)", "sv": "bröd + jag (gjorde det)" },
+              "concept": "bread",
+              "morph": "bread-1SG.AGT"
+            },
+            { "text": "خوارد.", "latin": "xward.", "gloss": { "en": "ate", "sv": "åt" }, "concept": "to-eat", "morph": "eat.PST" }
+          ]
+        },
+        {
+          "text": "سارا دەرگاکەی داخست.",
+          "latin": "Sara dergakey daxist.",
+          "translation": { "en": "Sara closed the door.", "sv": "Sara stängde dörren." },
+          "tokens": [
+            { "text": "سارا", "latin": "Sara", "gloss": { "en": "Sara", "sv": "Sara" } },
+            {
+              "text": "دەرگاکەی",
+              "latin": "dergakey",
+              "gloss": { "en": "the door + she (did it)", "sv": "dörren + hon (gjorde det)" },
+              "concept": "door",
+              "morph": "door-DEF-3SG.AGT"
+            },
+            {
+              "text": "داخست.",
+              "latin": "daxist.",
+              "gloss": { "en": "closed", "sv": "stängde" },
+              "concept": "to-close",
+              "morph": "close.PST"
+            }
+          ]
+        },
+        {
+          "text": "نەمخوارد.",
+          "latin": "nemxward.",
+          "translation": { "en": "I didn't eat (it).", "sv": "Jag åt inte (det)." },
+          "tokens": [
+            {
+              "text": "نەمخوارد.",
+              "latin": "nemxward.",
+              "gloss": { "en": "I didn't eat (it)", "sv": "jag åt inte (det)" },
+              "concept": "to-eat",
+              "morph": "NEG-1SG.AGT-eat.PST"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§25, §27" }, { "source": "kim-kurdish-grammar", "ref": "Past tense" }]
+    },
+    {
+      "id": "ckb-modal-can",
+      "unit": "actions",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "'Can': دەتوانم + subjunctive", "sv": "'Kan': دەتوانم + konjunktiv" },
+      "explanation": {
+        "en": "'Can' is `توانین` twanîn: `دەتوانم` detwanim 'I can', `دەتوانیت` 'you can', `ناتوانم` natwanim 'I can't'. Unlike Swedish 'kan gå', the next verb is not an infinitive: it takes the **subjunctive** with `بـ` bi- and its own person ending: `دەتوانم بچم` 'I can go' (literally 'I can that I go'). In compound verbs the `بـ` goes on the verb part: `قسە بکەم` 'speak', `چاوەڕێ بکەم` 'wait'. A common mistake is to keep `دە-`: say `دەتوانم بێم`, not *`دەتوانم دێم`. In the past `توانین` is transitive, so it takes the agent clitic: `نەمتوانی بخەوم` 'I couldn't sleep'.",
+        "sv": "'Kan' heter `توانین` twanîn: `دەتوانم` detwanim 'jag kan', `دەتوانیت` 'du kan', `ناتوانم` natwanim 'jag kan inte'. Till skillnad från svenskans 'kan gå' står nästa verb inte i infinitiv: det får **konjunktiv** med `بـ` bi- och egen personändelse: `دەتوانم بچم` 'jag kan gå' (ordagrant 'jag kan att jag går'). I sammansatta verb sitter `بـ` på verbdelen: `قسە بکەم` 'prata', `چاوەڕێ بکەم` 'vänta'. Ett vanligt fel är att behålla `دە-`: säg `دەتوانم بێم`, inte *`دەتوانم دێم`. I preteritum är `توانین` transitivt och får agensklitikon: `نەمتوانی بخەوم` 'jag kunde inte sova'."
+      },
+      "examples": [
+        {
+          "text": "دەتوانیت یارمەتیم بدەیت؟",
+          "latin": "detwanît yarmetîm bideyt?",
+          "translation": { "en": "Can you help me?", "sv": "Kan du hjälpa mig?" },
+          "tokens": [
+            {
+              "text": "دەتوانیت",
+              "latin": "detwanît",
+              "gloss": { "en": "can you", "sv": "kan du" },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2SG"
+            },
+            {
+              "text": "یارمەتیم",
+              "latin": "yarmetîm",
+              "gloss": { "en": "help + me", "sv": "hjälp + mig" },
+              "concept": "to-help",
+              "morph": "help-1SG"
+            },
+            {
+              "text": "بدەیت؟",
+              "latin": "bideyt?",
+              "gloss": { "en": "give", "sv": "ge" },
+              "concept": "to-help",
+              "morph": "SBJV-give.PRS-2SG"
+            }
+          ]
+        },
+        {
+          "text": "سبەی ناتوانم بێم.",
+          "latin": "sibey natwanim bêm.",
+          "translation": { "en": "I can't come tomorrow.", "sv": "Jag kan inte komma i morgon." },
+          "tokens": [
+            { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+            {
+              "text": "ناتوانم",
+              "latin": "natwanim",
+              "gloss": { "en": "I can't", "sv": "jag kan inte" },
+              "concept": "can",
+              "morph": "NEG-can.PRS-1SG"
+            },
+            { "text": "بێم.", "latin": "bêm.", "gloss": { "en": "come", "sv": "komma" }, "concept": "to-come", "morph": "come.SBJV-1SG" }
+          ]
+        },
+        {
+          "text": "نەمتوانی بخەوم.",
+          "latin": "nemtwanî bixewim.",
+          "translation": { "en": "I couldn't sleep.", "sv": "Jag kunde inte sova." },
+          "tokens": [
+            {
+              "text": "نەمتوانی",
+              "latin": "nemtwanî",
+              "gloss": { "en": "I couldn't", "sv": "jag kunde inte" },
+              "concept": "can",
+              "morph": "NEG-1SG.AGT-can.PST"
+            },
+            {
+              "text": "بخەوم.",
+              "latin": "bixewim.",
+              "gloss": { "en": "sleep", "sv": "sova" },
+              "concept": "to-sleep",
+              "morph": "SBJV-sleep.PRS-1SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§21" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-past-tense",
+      "unit": "actions",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "The simple past", "sv": "Enkel preteritum" },
+      "explanation": {
+        "en": "Drop `-an` from the infinitive to get the **past stem**: `خوردن` khordan 'to eat' → `خورد` khord. Add the endings `-am`, `-i`, (none), `-im`, `-id`, `-and`: `خوردم` khordam 'I ate', `خوردی` 'you ate', `خورد` 'he/she ate'. Unlike Sorani, every verb works the same way, with or without an object. There is no `می‌` in the simple past. The negative is `نـ` na- in front: `نخوردم` nakhordam 'I didn't eat'. Compound verbs change only the verb part: `کار کردم` 'I worked'. Some past stems differ a lot from the present stem, so learn both: `دیدم` 'I saw', but `می‌بینم` 'I see'. In speech `را` often becomes `رو` ro or `و` o.",
+        "sv": "Ta bort `-an` från infinitiven så får du **preteritumstammen**: `خوردن` khordan 'äta' → `خورد` khord. Lägg till ändelserna `-am`, `-i`, (ingen), `-im`, `-id`, `-and`: `خوردم` khordam 'jag åt', `خوردی` 'du åt', `خورد` 'han/hon åt'. Till skillnad från sorani fungerar alla verb likadant, med eller utan objekt. Enkel preteritum har inget `می‌`. Negationen är `نـ` na- först: `نخوردم` nakhordam 'jag åt inte'. I sammansatta verb böjs bara verbdelen: `کار کردم` 'jag jobbade'. Vissa preteritumstammar skiljer sig mycket från presensstammen, så lär dig båda: `دیدم` 'jag såg', men `می‌بینم` 'jag ser'. I tal blir `را` ofta `رو` ro eller `و` o."
+      },
+      "examples": [
+        {
+          "text": "دیروز به بازار رفتم.",
+          "latin": "diruz be bâzâr raftam.",
+          "translation": { "en": "Yesterday I went to the market.", "sv": "I går gick jag till marknaden." },
+          "tokens": [
+            { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+            { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+            { "text": "بازار", "latin": "bâzâr", "gloss": { "en": "market", "sv": "marknaden" }, "concept": "market" },
+            {
+              "text": "رفتم.",
+              "latin": "raftam.",
+              "gloss": { "en": "I went", "sv": "jag gick" },
+              "concept": "to-go",
+              "morph": "go.PST-1SG"
+            }
+          ]
+        },
+        {
+          "text": "سارا در را بست.",
+          "latin": "Sârâ dar râ bast.",
+          "translation": { "en": "Sara closed the door.", "sv": "Sara stängde dörren." },
+          "tokens": [
+            { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+            { "text": "در", "latin": "dar", "gloss": { "en": "the door", "sv": "dörren" }, "concept": "door" },
+            { "text": "را", "latin": "râ", "gloss": { "en": "(marks the object)", "sv": "(markerar objektet)" }, "morph": "OBJ" },
+            {
+              "text": "بست.",
+              "latin": "bast.",
+              "gloss": { "en": "closed", "sv": "stängde" },
+              "concept": "to-close",
+              "morph": "close.PST.3SG"
+            }
+          ]
+        },
+        {
+          "text": "چیزی نخوردم.",
+          "latin": "chizi nakhordam.",
+          "translation": { "en": "I didn't eat anything.", "sv": "Jag åt ingenting." },
+          "tokens": [
+            { "text": "چیزی", "latin": "chizi", "gloss": { "en": "anything", "sv": "någonting" }, "morph": "thing-INDF" },
+            {
+              "text": "نخوردم.",
+              "latin": "nakhordam.",
+              "gloss": { "en": "I didn't eat", "sv": "jag åt inte" },
+              "concept": "to-eat",
+              "morph": "NEG-eat.PST-1SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-modal-can",
+      "unit": "actions",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "'Can': می‌توانم + subjunctive", "sv": "'Kan': می‌توانم + konjunktiv" },
+      "explanation": {
+        "en": "'Can' is `توانستن` tavânestan: `می‌توانم` mitavânam 'I can', `نمی‌توانم` 'I can't'. As in Sorani, the next verb takes the **subjunctive** with `بـ` be- and its own ending, not an infinitive: `می‌توانم بروم` 'I can go' (literally 'I can that I go'). Compound verbs usually drop the `بـ`: `کمک کنم` 'help', `صبر کنم` 'wait'. Do not keep `می‌` on the second verb: *`می‌توانم می‌روم` is wrong. In everyday speech `توان` shrinks to `تون`: `می‌تونم برم` mitunam beram. The past is `نتوانستم` 'I couldn't', followed by the same subjunctive: `نتوانستم بخوابم` 'I couldn't sleep'.",
+        "sv": "'Kan' heter `توانستن` tavânestan: `می‌توانم` mitavânam 'jag kan', `نمی‌توانم` 'jag kan inte'. Som i sorani får nästa verb **konjunktiv** med `بـ` be- och egen ändelse, inte infinitiv: `می‌توانم بروم` 'jag kan gå' (ordagrant 'jag kan att jag går'). Sammansatta verb tappar oftast `بـ`: `کمک کنم` 'hjälpa', `صبر کنم` 'vänta'. Behåll inte `می‌` på andra verbet: *`می‌توانم می‌روم` är fel. I vardagstal krymper `توان` till `تون`: `می‌تونم برم` mitunam beram. Preteritum är `نتوانستم` 'jag kunde inte', följt av samma konjunktiv: `نتوانستم بخوابم` 'jag kunde inte sova'."
+      },
+      "examples": [
+        {
+          "text": "می‌توانید به من کمک کنید؟",
+          "latin": "mitavânid be man komak konid?",
+          "translation": { "en": "Can you help me?", "sv": "Kan ni hjälpa mig?" },
+          "tokens": [
+            {
+              "text": "می‌توانید",
+              "latin": "mitavânid",
+              "gloss": { "en": "can you (polite)", "sv": "kan ni (artigt)" },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2PL"
+            },
+            { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+            { "text": "من", "latin": "man", "gloss": { "en": "me", "sv": "mig" }, "concept": "i" },
+            { "text": "کمک", "latin": "komak", "gloss": { "en": "help", "sv": "hjälp" }, "concept": "to-help" },
+            { "text": "کنید؟", "latin": "konid?", "gloss": { "en": "do", "sv": "göra" }, "concept": "to-help", "morph": "do.SBJV-2PL" }
+          ]
+        },
+        {
+          "text": "فردا نمی‌توانم بیایم.",
+          "latin": "fardâ nemitavânam biyâyam.",
+          "translation": { "en": "I can't come tomorrow.", "sv": "Jag kan inte komma i morgon." },
+          "tokens": [
+            { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+            {
+              "text": "نمی‌توانم",
+              "latin": "nemitavânam",
+              "gloss": { "en": "I can't", "sv": "jag kan inte" },
+              "concept": "can",
+              "morph": "NEG-DUR-can.PRS-1SG"
+            },
+            {
+              "text": "بیایم.",
+              "latin": "biyâyam.",
+              "gloss": { "en": "come", "sv": "komma" },
+              "concept": "to-come",
+              "morph": "SBJV-come-1SG"
+            }
+          ]
+        },
+        {
+          "text": "می‌تونم برم.",
+          "latin": "mitunam beram.",
+          "translation": { "en": "I can go. (spoken)", "sv": "Jag kan gå. (talspråk)" },
+          "tokens": [
+            {
+              "text": "می‌تونم",
+              "latin": "mitunam",
+              "gloss": { "en": "I can (spoken)", "sv": "jag kan (talspråk)" },
+              "concept": "can",
+              "morph": "DUR-can.PRS-1SG"
+            },
+            {
+              "text": "برم.",
+              "latin": "beram.",
+              "gloss": { "en": "go (spoken)", "sv": "gå (talspråk)" },
+              "concept": "to-go",
+              "morph": "SBJV-go-1SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    }
+  ]
+}

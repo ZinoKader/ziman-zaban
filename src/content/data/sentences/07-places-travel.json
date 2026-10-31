@@ -1,0 +1,2466 @@
+{
+  "sentences": [
+    {
+      "id": "where-is-the-hospital",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "Where is the hospital?",
+        "sv": "Var ligger sjukhuset?",
+        "svAlt": [
+          "Var är sjukhuset?"
+        ]
+      },
+      "ckb": {
+        "text": "نەخۆشخانەکە لە کوێیە؟",
+        "latin": "nexoşxaneke le kwêye?",
+        "tokens": [
+          {
+            "text": "نەخۆشخانەکە",
+            "latin": "nexoşxaneke",
+            "gloss": {
+              "en": "the hospital",
+              "sv": "sjukhuset"
+            },
+            "concept": "hospital",
+            "morph": "hospital-DEF"
+          },
+          {
+            "text": "لە",
+            "latin": "le",
+            "gloss": {
+              "en": "in",
+              "sv": "i"
+            },
+            "concept": "in"
+          },
+          {
+            "text": "کوێیە؟",
+            "latin": "kwêye?",
+            "gloss": {
+              "en": "where is",
+              "sv": "var är"
+            },
+            "concept": "where",
+            "morph": "where-COP.3SG"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "نەخۆشخانە لە کوێیە؟",
+            "latin": "nexoşxane le kwêye?"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "نەخۆشخانەیەک",
+            "latin": "nexoşxaneyek",
+            "gloss": {
+              "en": "a hospital",
+              "sv": "ett sjukhus"
+            },
+            "morph": "hospital-INDF"
+          },
+          {
+            "text": "لێرەیە؟",
+            "latin": "lêreye?",
+            "gloss": {
+              "en": "is it here",
+              "sv": "är det här"
+            },
+            "morph": "in.here-COP.3SG"
+          }
+        ],
+        "grammar": [
+          "ckb-definite-ekan",
+          "ckb-copula"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "بیمارستان کجاست؟",
+        "latin": "bimârestân kojâst?",
+        "tokens": [
+          {
+            "text": "بیمارستان",
+            "latin": "bimârestân",
+            "gloss": {
+              "en": "the hospital",
+              "sv": "sjukhuset"
+            },
+            "concept": "hospital"
+          },
+          {
+            "text": "کجاست؟",
+            "latin": "kojâst?",
+            "gloss": {
+              "en": "where is",
+              "sv": "var är"
+            },
+            "concept": "where",
+            "morph": "where-COP.3SG"
+          }
+        ],
+        "colloquial": {
+          "text": "بیمارستون کجاست؟",
+          "latin": "bimârestun kojâst?"
+        },
+        "distractors": [
+          {
+            "text": "چیست؟",
+            "latin": "chist?",
+            "gloss": {
+              "en": "what is",
+              "sv": "vad är"
+            },
+            "morph": "what-COP.3SG"
+          },
+          {
+            "text": "اینجاست؟",
+            "latin": "injâst?",
+            "gloss": {
+              "en": "is it here",
+              "sv": "är det här"
+            },
+            "morph": "here-COP.3SG"
+          }
+        ],
+        "grammar": [
+          "fa-copula"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-airport-is-far",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "The airport is far away.",
+        "sv": "Flygplatsen ligger långt bort.",
+        "enAlt": [
+          "The airport is far."
+        ],
+        "svAlt": [
+          "Flygplatsen är långt borta."
+        ]
+      },
+      "ckb": {
+        "text": "فڕۆکەخانەکە دوورە.",
+        "latin": "fřokexaneke dûre.",
+        "tokens": [
+          {
+            "text": "فڕۆکەخانەکە",
+            "latin": "fřokexaneke",
+            "gloss": {
+              "en": "the airport",
+              "sv": "flygplatsen"
+            },
+            "concept": "airport",
+            "morph": "airport-DEF"
+          },
+          {
+            "text": "دوورە.",
+            "latin": "dûre.",
+            "gloss": {
+              "en": "is far",
+              "sv": "är långt bort"
+            },
+            "concept": "far",
+            "morph": "far-COP.3SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "نزیکە.",
+            "latin": "nizîke.",
+            "gloss": {
+              "en": "is near",
+              "sv": "är nära"
+            },
+            "morph": "near-COP.3SG"
+          },
+          {
+            "text": "دوورن.",
+            "latin": "dûrin.",
+            "gloss": {
+              "en": "are far",
+              "sv": "är långt bort (plural)"
+            },
+            "morph": "far-COP.3PL"
+          }
+        ],
+        "grammar": [
+          "ckb-definite-ekan",
+          "ckb-copula"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "فرودگاه دور است.",
+        "latin": "forudgâh dur ast.",
+        "tokens": [
+          {
+            "text": "فرودگاه",
+            "latin": "forudgâh",
+            "gloss": {
+              "en": "the airport",
+              "sv": "flygplatsen"
+            },
+            "concept": "airport"
+          },
+          {
+            "text": "دور",
+            "latin": "dur",
+            "gloss": {
+              "en": "far",
+              "sv": "långt bort"
+            },
+            "concept": "far"
+          },
+          {
+            "text": "است.",
+            "latin": "ast.",
+            "gloss": {
+              "en": "is",
+              "sv": "är"
+            },
+            "concept": "to-be",
+            "morph": "be.PRS.3SG"
+          }
+        ],
+        "colloquial": {
+          "text": "فرودگاه دوره.",
+          "latin": "forudgâh dure."
+        },
+        "distractors": [
+          {
+            "text": "نزدیک",
+            "latin": "nazdik",
+            "gloss": {
+              "en": "near",
+              "sv": "nära"
+            }
+          },
+          {
+            "text": "هستم.",
+            "latin": "hastam.",
+            "gloss": {
+              "en": "I am",
+              "sv": "jag är"
+            },
+            "morph": "be.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "fa-copula"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "go-straight-ahead",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "Go straight ahead.",
+        "sv": "Gå rakt fram.",
+        "enAlt": [
+          "Go straight on."
+        ],
+        "svAlt": [
+          "Kör rakt fram."
+        ]
+      },
+      "ckb": {
+        "text": "ڕاستەوخۆ بڕۆ.",
+        "latin": "řastewxo biřo.",
+        "tokens": [
+          {
+            "text": "ڕاستەوخۆ",
+            "latin": "řastewxo",
+            "gloss": {
+              "en": "straight ahead",
+              "sv": "rakt fram"
+            },
+            "concept": "straight-ahead"
+          },
+          {
+            "text": "بڕۆ.",
+            "latin": "biřo.",
+            "gloss": {
+              "en": "go!",
+              "sv": "gå!"
+            },
+            "concept": "to-go",
+            "morph": "IMP-go.PRS.2SG"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "ڕێک بڕۆ.",
+            "latin": "řêk biřo."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "دەڕۆم.",
+            "latin": "deřom.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag går"
+            },
+            "morph": "DUR-go.PRS-1SG"
+          },
+          {
+            "text": "مەڕۆ.",
+            "latin": "meřo.",
+            "gloss": {
+              "en": "don't go!",
+              "sv": "gå inte!"
+            },
+            "morph": "PROH-go.PRS.2SG"
+          }
+        ],
+        "grammar": [
+          "ckb-imperative"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§24"
+          }
+        ]
+      },
+      "fa": {
+        "text": "مستقیم بروید.",
+        "latin": "mostaghim beravid.",
+        "tokens": [
+          {
+            "text": "مستقیم",
+            "latin": "mostaghim",
+            "gloss": {
+              "en": "straight ahead",
+              "sv": "rakt fram"
+            },
+            "concept": "straight-ahead"
+          },
+          {
+            "text": "بروید.",
+            "latin": "beravid.",
+            "gloss": {
+              "en": "go! (polite)",
+              "sv": "gå! (artigt)"
+            },
+            "concept": "to-go",
+            "morph": "IMP-go.PRS-2PL"
+          }
+        ],
+        "colloquial": {
+          "text": "مستقیم برید.",
+          "latin": "mostaghim berid."
+        },
+        "alternatives": [
+          {
+            "text": "مستقیم برو.",
+            "latin": "mostaghim boro."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "می‌روید.",
+            "latin": "miravid.",
+            "gloss": {
+              "en": "you go",
+              "sv": "ni går"
+            },
+            "morph": "DUR-go.PRS-2PL"
+          },
+          {
+            "text": "نروید.",
+            "latin": "naravid.",
+            "gloss": {
+              "en": "don't go!",
+              "sv": "gå inte!"
+            },
+            "morph": "NEG-go.PRS-2PL"
+          }
+        ],
+        "grammar": [
+          "fa-imperative"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "go-right",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "Go to the right.",
+        "sv": "Gå åt höger.",
+        "enAlt": [
+          "Go right."
+        ]
+      },
+      "ckb": {
+        "text": "بڕۆ بۆ لای ڕاست.",
+        "latin": "biřo bo lay řast.",
+        "tokens": [
+          {
+            "text": "بڕۆ",
+            "latin": "biřo",
+            "gloss": {
+              "en": "go!",
+              "sv": "gå!"
+            },
+            "concept": "to-go",
+            "morph": "IMP-go.PRS.2SG"
+          },
+          {
+            "text": "بۆ",
+            "latin": "bo",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            },
+            "concept": "to"
+          },
+          {
+            "text": "لای",
+            "latin": "lay",
+            "gloss": {
+              "en": "the side of",
+              "sv": "sidan av"
+            },
+            "morph": "side-EZ"
+          },
+          {
+            "text": "ڕاست.",
+            "latin": "řast.",
+            "gloss": {
+              "en": "right",
+              "sv": "höger"
+            },
+            "concept": "right"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "چەپ.",
+            "latin": "çep.",
+            "gloss": {
+              "en": "left",
+              "sv": "vänster"
+            }
+          },
+          {
+            "text": "لە",
+            "latin": "le",
+            "gloss": {
+              "en": "in, from",
+              "sv": "i, från"
+            }
+          }
+        ],
+        "grammar": [
+          "ckb-imperative",
+          "ckb-prepositions-circumpositions"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          },
+          {
+            "source": "tatoeba"
+          }
+        ]
+      },
+      "fa": {
+        "text": "به سمت راست بروید.",
+        "latin": "be samt-e râst beravid.",
+        "tokens": [
+          {
+            "text": "به",
+            "latin": "be",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            },
+            "concept": "to"
+          },
+          {
+            "text": "سمت",
+            "latin": "samt-e",
+            "gloss": {
+              "en": "the side of",
+              "sv": "sidan av"
+            },
+            "morph": "side-EZ"
+          },
+          {
+            "text": "راست",
+            "latin": "râst",
+            "gloss": {
+              "en": "right",
+              "sv": "höger"
+            },
+            "concept": "right"
+          },
+          {
+            "text": "بروید.",
+            "latin": "beravid.",
+            "gloss": {
+              "en": "go! (polite)",
+              "sv": "gå! (artigt)"
+            },
+            "concept": "to-go",
+            "morph": "IMP-go.PRS-2PL"
+          }
+        ],
+        "colloquial": {
+          "text": "برید سمت راست.",
+          "latin": "berid samt-e râst."
+        },
+        "distractors": [
+          {
+            "text": "چپ",
+            "latin": "chap",
+            "gloss": {
+              "en": "left",
+              "sv": "vänster"
+            }
+          },
+          {
+            "text": "از",
+            "latin": "az",
+            "gloss": {
+              "en": "from",
+              "sv": "från"
+            }
+          }
+        ],
+        "grammar": [
+          "fa-imperative",
+          "fa-prepositions",
+          "fa-ezafe"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          },
+          {
+            "source": "tatoeba"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-shop-is-on-the-left",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "The shop is on the left.",
+        "sv": "Affären ligger till vänster."
+      },
+      "ckb": {
+        "text": "دوکانەکە لە لای چەپە.",
+        "latin": "dukaneke le lay çepe.",
+        "tokens": [
+          {
+            "text": "دوکانەکە",
+            "latin": "dukaneke",
+            "gloss": {
+              "en": "the shop",
+              "sv": "affären"
+            },
+            "concept": "shop",
+            "morph": "shop-DEF"
+          },
+          {
+            "text": "لە",
+            "latin": "le",
+            "gloss": {
+              "en": "on, at",
+              "sv": "på"
+            },
+            "concept": "in"
+          },
+          {
+            "text": "لای",
+            "latin": "lay",
+            "gloss": {
+              "en": "the side of",
+              "sv": "sidan av"
+            },
+            "morph": "side-EZ"
+          },
+          {
+            "text": "چەپە.",
+            "latin": "çepe.",
+            "gloss": {
+              "en": "left, is",
+              "sv": "vänster, är"
+            },
+            "concept": "left",
+            "morph": "left-COP.3SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "ڕاستە.",
+            "latin": "řaste.",
+            "gloss": {
+              "en": "right, is",
+              "sv": "höger, är"
+            },
+            "morph": "right-COP.3SG"
+          },
+          {
+            "text": "بۆ",
+            "latin": "bo",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            }
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions",
+          "ckb-copula"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "مغازه سمت چپ است.",
+        "latin": "maghâze samt-e chap ast.",
+        "tokens": [
+          {
+            "text": "مغازه",
+            "latin": "maghâze",
+            "gloss": {
+              "en": "the shop",
+              "sv": "affären"
+            },
+            "concept": "shop"
+          },
+          {
+            "text": "سمت",
+            "latin": "samt-e",
+            "gloss": {
+              "en": "the side of",
+              "sv": "sidan av"
+            },
+            "morph": "side-EZ"
+          },
+          {
+            "text": "چپ",
+            "latin": "chap",
+            "gloss": {
+              "en": "left",
+              "sv": "vänster"
+            },
+            "concept": "left"
+          },
+          {
+            "text": "است.",
+            "latin": "ast.",
+            "gloss": {
+              "en": "is",
+              "sv": "är"
+            },
+            "concept": "to-be",
+            "morph": "be.PRS.3SG"
+          }
+        ],
+        "colloquial": {
+          "text": "مغازه سمت چپه.",
+          "latin": "maghâze samt-e chape."
+        },
+        "distractors": [
+          {
+            "text": "راست",
+            "latin": "râst",
+            "gloss": {
+              "en": "right",
+              "sv": "höger"
+            }
+          },
+          {
+            "text": "با",
+            "latin": "bâ",
+            "gloss": {
+              "en": "with",
+              "sv": "med"
+            }
+          }
+        ],
+        "grammar": [
+          "fa-ezafe",
+          "fa-copula"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "come-here",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "Come here!",
+        "sv": "Kom hit!"
+      },
+      "ckb": {
+        "text": "وەرە ئێرە!",
+        "latin": "were êre!",
+        "tokens": [
+          {
+            "text": "وەرە",
+            "latin": "were",
+            "gloss": {
+              "en": "come!",
+              "sv": "kom!"
+            },
+            "concept": "to-come",
+            "morph": "come.IMP.2SG"
+          },
+          {
+            "text": "ئێرە!",
+            "latin": "êre!",
+            "gloss": {
+              "en": "(to) here",
+              "sv": "hit"
+            },
+            "concept": "here"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "وەرن ئێرە!",
+            "latin": "werin êre!"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "لێرە!",
+            "latin": "lêre!",
+            "gloss": {
+              "en": "at this place (not \"to here\")",
+              "sv": "på den här platsen (inte \"hit\")"
+            }
+          },
+          {
+            "text": "دێم",
+            "latin": "dêm",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "morph": "come.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "ckb-imperative"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "kim-kurdish-grammar",
+            "ref": "Imperatives"
+          }
+        ]
+      },
+      "fa": {
+        "text": "بیا اینجا!",
+        "latin": "biyâ injâ!",
+        "tokens": [
+          {
+            "text": "بیا",
+            "latin": "biyâ",
+            "gloss": {
+              "en": "come!",
+              "sv": "kom!"
+            },
+            "concept": "to-come",
+            "morph": "IMP-come.PRS.2SG"
+          },
+          {
+            "text": "اینجا!",
+            "latin": "injâ!",
+            "gloss": {
+              "en": "here",
+              "sv": "hit"
+            },
+            "concept": "here"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "بیایید اینجا!",
+            "latin": "biyâyid injâ!"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "آنجا!",
+            "latin": "ânjâ!",
+            "gloss": {
+              "en": "there",
+              "sv": "dit"
+            }
+          },
+          {
+            "text": "می‌آیم",
+            "latin": "miâyam",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "morph": "DUR-come.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "fa-imperative"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-am-going-to-the-market",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "I'm going to the market.",
+        "sv": "Jag går till marknaden.",
+        "enAlt": [
+          "I go to the market."
+        ]
+      },
+      "ckb": {
+        "text": "دەچمە بازاڕ.",
+        "latin": "deçime bazař.",
+        "tokens": [
+          {
+            "text": "دەچمە",
+            "latin": "deçime",
+            "gloss": {
+              "en": "I go to",
+              "sv": "jag går till"
+            },
+            "concept": "to-go",
+            "morph": "DUR-go.PRS-1SG-GOAL"
+          },
+          {
+            "text": "بازاڕ.",
+            "latin": "bazař.",
+            "gloss": {
+              "en": "the market",
+              "sv": "marknaden"
+            },
+            "concept": "market"
+          }
+        ],
+        "colloquial": {
+          "text": "ئەچمە بازاڕ.",
+          "latin": "eçime bazař."
+        },
+        "alternatives": [
+          {
+            "text": "دەچم بۆ بازاڕ.",
+            "latin": "deçim bo bazař."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "دەچیتە",
+            "latin": "deçîte",
+            "gloss": {
+              "en": "you go to",
+              "sv": "du går till"
+            },
+            "morph": "DUR-go.PRS-2SG-GOAL"
+          },
+          {
+            "text": "دێمە",
+            "latin": "dême",
+            "gloss": {
+              "en": "I come to",
+              "sv": "jag kommer till"
+            },
+            "morph": "come.PRS-1SG-GOAL"
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§35"
+          }
+        ]
+      },
+      "fa": {
+        "text": "به بازار می‌روم.",
+        "latin": "be bâzâr miravam.",
+        "tokens": [
+          {
+            "text": "به",
+            "latin": "be",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            },
+            "concept": "to"
+          },
+          {
+            "text": "بازار",
+            "latin": "bâzâr",
+            "gloss": {
+              "en": "the market",
+              "sv": "marknaden"
+            },
+            "concept": "market"
+          },
+          {
+            "text": "می‌روم.",
+            "latin": "miravam.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag går"
+            },
+            "concept": "to-go",
+            "morph": "DUR-go.PRS-1SG"
+          }
+        ],
+        "colloquial": {
+          "text": "می‌رم بازار.",
+          "latin": "miram bâzâr."
+        },
+        "distractors": [
+          {
+            "text": "از",
+            "latin": "az",
+            "gloss": {
+              "en": "from",
+              "sv": "från"
+            }
+          },
+          {
+            "text": "می‌آیم.",
+            "latin": "miâyam.",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "morph": "DUR-come.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "fa-prepositions"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-go-to-work-by-bus",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "I go to work by bus.",
+        "sv": "Jag åker buss till jobbet.",
+        "svAlt": [
+          "Jag åker till jobbet med buss."
+        ]
+      },
+      "ckb": {
+        "text": "بە پاس دەچمە سەر کار.",
+        "latin": "be pas deçime ser kar.",
+        "tokens": [
+          {
+            "text": "بە",
+            "latin": "be",
+            "gloss": {
+              "en": "by",
+              "sv": "med"
+            }
+          },
+          {
+            "text": "پاس",
+            "latin": "pas",
+            "gloss": {
+              "en": "bus",
+              "sv": "buss"
+            },
+            "concept": "bus"
+          },
+          {
+            "text": "دەچمە",
+            "latin": "deçime",
+            "gloss": {
+              "en": "I go to",
+              "sv": "jag åker till"
+            },
+            "concept": "to-go",
+            "morph": "DUR-go.PRS-1SG-GOAL"
+          },
+          {
+            "text": "سەر",
+            "latin": "ser",
+            "gloss": {
+              "en": "(on)to",
+              "sv": "(upp)på"
+            }
+          },
+          {
+            "text": "کار.",
+            "latin": "kar.",
+            "gloss": {
+              "en": "work",
+              "sv": "arbete"
+            },
+            "concept": "work"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "بە پاس دەچم بۆ سەر کار.",
+            "latin": "be pas deçim bo ser kar."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "لەگەڵ",
+            "latin": "legeł",
+            "gloss": {
+              "en": "with (a person)",
+              "sv": "med (en person)"
+            }
+          },
+          {
+            "text": "پاسێک",
+            "latin": "pasêk",
+            "gloss": {
+              "en": "a bus",
+              "sv": "en buss"
+            },
+            "morph": "bus-INDF"
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "kim-kurdish-grammar",
+            "ref": "Ch. 7 Prepositions"
+          }
+        ]
+      },
+      "fa": {
+        "text": "با اتوبوس سر کار می‌روم.",
+        "latin": "bâ otobus sar-e kâr miravam.",
+        "tokens": [
+          {
+            "text": "با",
+            "latin": "bâ",
+            "gloss": {
+              "en": "by, with",
+              "sv": "med"
+            },
+            "concept": "with"
+          },
+          {
+            "text": "اتوبوس",
+            "latin": "otobus",
+            "gloss": {
+              "en": "bus",
+              "sv": "buss"
+            },
+            "concept": "bus"
+          },
+          {
+            "text": "سر",
+            "latin": "sar-e",
+            "gloss": {
+              "en": "to (lit. head of)",
+              "sv": "till (ordagrant huvudet på)"
+            },
+            "morph": "head-EZ"
+          },
+          {
+            "text": "کار",
+            "latin": "kâr",
+            "gloss": {
+              "en": "work",
+              "sv": "arbete"
+            },
+            "concept": "work"
+          },
+          {
+            "text": "می‌روم.",
+            "latin": "miravam.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag åker"
+            },
+            "concept": "to-go",
+            "morph": "DUR-go.PRS-1SG"
+          }
+        ],
+        "colloquial": {
+          "text": "با اتوبوس می‌رم سر کار.",
+          "latin": "bâ otobus miram sar-e kâr."
+        },
+        "distractors": [
+          {
+            "text": "به",
+            "latin": "be",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            }
+          },
+          {
+            "text": "از",
+            "latin": "az",
+            "gloss": {
+              "en": "from",
+              "sv": "från"
+            }
+          }
+        ],
+        "grammar": [
+          "fa-prepositions"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-doctor-is-in-the-hospital",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "The doctor is in the hospital.",
+        "sv": "Läkaren är på sjukhuset."
+      },
+      "ckb": {
+        "text": "دکتۆرەکە لە نەخۆشخانەدایە.",
+        "latin": "diktoreke le nexoşxanedaye.",
+        "tokens": [
+          {
+            "text": "دکتۆرەکە",
+            "latin": "diktoreke",
+            "gloss": {
+              "en": "the doctor",
+              "sv": "läkaren"
+            },
+            "concept": "doctor",
+            "morph": "doctor-DEF"
+          },
+          {
+            "text": "لە",
+            "latin": "le",
+            "gloss": {
+              "en": "in",
+              "sv": "i"
+            },
+            "concept": "in"
+          },
+          {
+            "text": "نەخۆشخانەدایە.",
+            "latin": "nexoşxanedaye.",
+            "gloss": {
+              "en": "the hospital, is in",
+              "sv": "sjukhuset, är i"
+            },
+            "concept": "hospital",
+            "morph": "hospital-POSTP-COP.3SG"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "دکتۆرەکە لە نەخۆشخانەیە.",
+            "latin": "diktoreke le nexoşxaneye."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "بۆ",
+            "latin": "bo",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            }
+          },
+          {
+            "text": "نەخۆشخانەوە",
+            "latin": "nexoşxanewe",
+            "gloss": {
+              "en": "(from) the hospital",
+              "sv": "(från) sjukhuset"
+            },
+            "morph": "hospital-POSTP"
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions",
+          "ckb-definite-ekan"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§14"
+          }
+        ]
+      },
+      "fa": {
+        "text": "دکتر در بیمارستان است.",
+        "latin": "doktor dar bimârestân ast.",
+        "tokens": [
+          {
+            "text": "دکتر",
+            "latin": "doktor",
+            "gloss": {
+              "en": "the doctor",
+              "sv": "läkaren"
+            },
+            "concept": "doctor"
+          },
+          {
+            "text": "در",
+            "latin": "dar",
+            "gloss": {
+              "en": "in",
+              "sv": "i"
+            },
+            "concept": "in"
+          },
+          {
+            "text": "بیمارستان",
+            "latin": "bimârestân",
+            "gloss": {
+              "en": "the hospital",
+              "sv": "sjukhuset"
+            },
+            "concept": "hospital"
+          },
+          {
+            "text": "است.",
+            "latin": "ast.",
+            "gloss": {
+              "en": "is",
+              "sv": "är"
+            },
+            "concept": "to-be",
+            "morph": "be.PRS.3SG"
+          }
+        ],
+        "colloquial": {
+          "text": "دکتر تو بیمارستانه.",
+          "latin": "doktor tu bimârestâne."
+        },
+        "distractors": [
+          {
+            "text": "از",
+            "latin": "az",
+            "gloss": {
+              "en": "from",
+              "sv": "från"
+            }
+          },
+          {
+            "text": "به",
+            "latin": "be",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            }
+          }
+        ],
+        "grammar": [
+          "fa-prepositions",
+          "fa-copula"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "how-much-is-this",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "How much is this?",
+        "sv": "Vad kostar det här?",
+        "enAlt": [
+          "How much does this cost?"
+        ]
+      },
+      "ckb": {
+        "text": "ئەمە بە چەندە؟",
+        "latin": "eme be çende?",
+        "tokens": [
+          {
+            "text": "ئەمە",
+            "latin": "eme",
+            "gloss": {
+              "en": "this",
+              "sv": "det här"
+            },
+            "concept": "this"
+          },
+          {
+            "text": "بە",
+            "latin": "be",
+            "gloss": {
+              "en": "for",
+              "sv": "för"
+            },
+            "concept": "how-much"
+          },
+          {
+            "text": "چەندە؟",
+            "latin": "çende?",
+            "gloss": {
+              "en": "how much is",
+              "sv": "hur mycket är"
+            },
+            "concept": "how-much",
+            "morph": "how.many-COP.3SG"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "نرخی ئەمە چەندە؟",
+            "latin": "nirxî eme çende?"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "چییە؟",
+            "latin": "çîye?",
+            "gloss": {
+              "en": "what is",
+              "sv": "vad är"
+            },
+            "morph": "what-COP.3SG"
+          },
+          {
+            "text": "کوێیە؟",
+            "latin": "kwêye?",
+            "gloss": {
+              "en": "where is",
+              "sv": "var är"
+            },
+            "morph": "where-COP.3SG"
+          }
+        ],
+        "grammar": [
+          "ckb-copula"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "این چند است؟",
+        "latin": "in chand ast?",
+        "tokens": [
+          {
+            "text": "این",
+            "latin": "in",
+            "gloss": {
+              "en": "this",
+              "sv": "det här"
+            },
+            "concept": "this"
+          },
+          {
+            "text": "چند",
+            "latin": "chand",
+            "gloss": {
+              "en": "how much",
+              "sv": "hur mycket"
+            },
+            "concept": "how-much"
+          },
+          {
+            "text": "است؟",
+            "latin": "ast?",
+            "gloss": {
+              "en": "is",
+              "sv": "är"
+            },
+            "concept": "to-be",
+            "morph": "be.PRS.3SG"
+          }
+        ],
+        "colloquial": {
+          "text": "این چنده؟",
+          "latin": "in chande?"
+        },
+        "alternatives": [
+          {
+            "text": "قیمت این چند است؟",
+            "latin": "gheymat-e in chand ast?"
+          },
+          {
+            "text": "این چقدر است؟",
+            "latin": "in cheghadr ast?"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "کجاست؟",
+            "latin": "kojâst?",
+            "gloss": {
+              "en": "where is",
+              "sv": "var är"
+            },
+            "morph": "where-COP.3SG"
+          },
+          {
+            "text": "چیست؟",
+            "latin": "chist?",
+            "gloss": {
+              "en": "what is",
+              "sv": "vad är"
+            },
+            "morph": "what-COP.3SG"
+          }
+        ],
+        "grammar": [
+          "fa-copula"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-dont-have-money",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "I don't have any money.",
+        "sv": "Jag har inga pengar.",
+        "enAlt": [
+          "I have no money."
+        ]
+      },
+      "ckb": {
+        "text": "پارەم نییە.",
+        "latin": "parem nîye.",
+        "tokens": [
+          {
+            "text": "پارەم",
+            "latin": "parem",
+            "gloss": {
+              "en": "money of mine",
+              "sv": "pengar till mig"
+            },
+            "concept": "money",
+            "morph": "money-1SG"
+          },
+          {
+            "text": "نییە.",
+            "latin": "nîye.",
+            "gloss": {
+              "en": "there is not (= I don't have)",
+              "sv": "det finns inte (= jag har inte)"
+            },
+            "concept": "to-have",
+            "morph": "NEG.exist.PRS.3SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "هەیە.",
+            "latin": "heye.",
+            "gloss": {
+              "en": "there is (= I have)",
+              "sv": "det finns (= jag har)"
+            },
+            "morph": "exist.PRS.3SG"
+          },
+          {
+            "text": "پارەت",
+            "latin": "paret",
+            "gloss": {
+              "en": "money of yours",
+              "sv": "pengar till dig"
+            },
+            "morph": "money-2SG"
+          }
+        ],
+        "grammar": [
+          "ckb-to-have",
+          "ckb-possessive-clitics"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§16"
+          }
+        ]
+      },
+      "fa": {
+        "text": "پول ندارم.",
+        "latin": "pul nadâram.",
+        "tokens": [
+          {
+            "text": "پول",
+            "latin": "pul",
+            "gloss": {
+              "en": "money",
+              "sv": "pengar"
+            },
+            "concept": "money"
+          },
+          {
+            "text": "ندارم.",
+            "latin": "nadâram.",
+            "gloss": {
+              "en": "I don't have",
+              "sv": "jag har inte"
+            },
+            "concept": "to-have",
+            "morph": "NEG-have.PRS-1SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "دارم.",
+            "latin": "dâram.",
+            "gloss": {
+              "en": "I have",
+              "sv": "jag har"
+            },
+            "morph": "have.PRS-1SG"
+          },
+          {
+            "text": "نداری.",
+            "latin": "nadâri.",
+            "gloss": {
+              "en": "you don't have",
+              "sv": "du har inte"
+            },
+            "morph": "NEG-have.PRS-2SG"
+          }
+        ],
+        "grammar": [
+          "fa-to-have"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a-ticket-please",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "I'd like a ticket, please.",
+        "sv": "Jag skulle vilja ha en biljett, tack.",
+        "enAlt": [
+          "A ticket, please.",
+          "I want a ticket, please."
+        ],
+        "svAlt": [
+          "En biljett, tack."
+        ]
+      },
+      "ckb": {
+        "text": "بلیتێکم دەوێت، تکایە.",
+        "latin": "bilîtêkim dewêt, tikaye.",
+        "tokens": [
+          {
+            "text": "بلیتێکم",
+            "latin": "bilîtêkim",
+            "gloss": {
+              "en": "a ticket (to me)",
+              "sv": "en biljett (för mig)"
+            },
+            "concept": "ticket",
+            "morph": "ticket-INDF-1SG"
+          },
+          {
+            "text": "دەوێت،",
+            "latin": "dewêt,",
+            "gloss": {
+              "en": "is wanted",
+              "sv": "önskas"
+            },
+            "concept": "to-want",
+            "morph": "DUR-want.PRS-3SG"
+          },
+          {
+            "text": "تکایە.",
+            "latin": "tikaye.",
+            "gloss": {
+              "en": "please",
+              "sv": "tack, snälla"
+            },
+            "concept": "please"
+          }
+        ],
+        "colloquial": {
+          "text": "بلیتێکم ئەوێ، تکایە.",
+          "latin": "bilîtêkim ewê, tikaye."
+        },
+        "distractors": [
+          {
+            "text": "بلیتەکان",
+            "latin": "bilîtekan",
+            "gloss": {
+              "en": "the tickets",
+              "sv": "biljetterna"
+            },
+            "morph": "ticket-DEF.PL"
+          },
+          {
+            "text": "سوپاس.",
+            "latin": "supas.",
+            "gloss": {
+              "en": "thank you",
+              "sv": "tack"
+            }
+          }
+        ],
+        "grammar": [
+          "ckb-definite-ekan",
+          "ckb-possessive-clitics"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "یک بلیت می‌خواهم، لطفاً.",
+        "latin": "yek belit mikhâham, lotfan.",
+        "tokens": [
+          {
+            "text": "یک",
+            "latin": "yek",
+            "gloss": {
+              "en": "a, one",
+              "sv": "en, ett"
+            },
+            "concept": "one"
+          },
+          {
+            "text": "بلیت",
+            "latin": "belit",
+            "gloss": {
+              "en": "ticket",
+              "sv": "biljett"
+            },
+            "concept": "ticket"
+          },
+          {
+            "text": "می‌خواهم،",
+            "latin": "mikhâham,",
+            "gloss": {
+              "en": "I want",
+              "sv": "jag vill ha"
+            },
+            "concept": "to-want",
+            "morph": "DUR-want.PRS-1SG"
+          },
+          {
+            "text": "لطفاً.",
+            "latin": "lotfan.",
+            "gloss": {
+              "en": "please",
+              "sv": "tack, snälla"
+            },
+            "concept": "please"
+          }
+        ],
+        "colloquial": {
+          "text": "یه بلیت می‌خوام، لطفاً.",
+          "latin": "ye belit mikhâm, lotfan."
+        },
+        "distractors": [
+          {
+            "text": "را",
+            "latin": "râ",
+            "gloss": {
+              "en": "(definite object marker; wrong with \"a\")",
+              "sv": "(bestämt objekt; fel med \"en\")"
+            },
+            "morph": "OBJ"
+          },
+          {
+            "text": "بلیت‌ها",
+            "latin": "belit-hâ",
+            "gloss": {
+              "en": "tickets",
+              "sv": "biljetter"
+            },
+            "morph": "ticket-PL"
+          }
+        ],
+        "grammar": [
+          "fa-object-ra"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-come-with-my-friend",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "I'm coming with my friend.",
+        "sv": "Jag kommer med min vän.",
+        "enAlt": [
+          "I'll come with my friend."
+        ]
+      },
+      "ckb": {
+        "text": "لەگەڵ هاوڕێکەم دێم.",
+        "latin": "legeł hawřêkem dêm.",
+        "tokens": [
+          {
+            "text": "لەگەڵ",
+            "latin": "legeł",
+            "gloss": {
+              "en": "with",
+              "sv": "med"
+            },
+            "concept": "with"
+          },
+          {
+            "text": "هاوڕێکەم",
+            "latin": "hawřêkem",
+            "gloss": {
+              "en": "my friend",
+              "sv": "min vän"
+            },
+            "concept": "friend",
+            "morph": "friend-DEF-1SG"
+          },
+          {
+            "text": "دێم.",
+            "latin": "dêm.",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "concept": "to-come",
+            "morph": "come.PRS-1SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "بە",
+            "latin": "be",
+            "gloss": {
+              "en": "by (a vehicle)",
+              "sv": "med (ett fordon)"
+            }
+          },
+          {
+            "text": "دەچم.",
+            "latin": "deçim.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag går"
+            },
+            "morph": "DUR-go.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions",
+          "ckb-definite-ekan"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§17"
+          }
+        ]
+      },
+      "fa": {
+        "text": "با دوستم می‌آیم.",
+        "latin": "bâ dustam miâyam.",
+        "tokens": [
+          {
+            "text": "با",
+            "latin": "bâ",
+            "gloss": {
+              "en": "with",
+              "sv": "med"
+            },
+            "concept": "with"
+          },
+          {
+            "text": "دوستم",
+            "latin": "dustam",
+            "gloss": {
+              "en": "my friend",
+              "sv": "min vän"
+            },
+            "concept": "friend",
+            "morph": "friend-1SG"
+          },
+          {
+            "text": "می‌آیم.",
+            "latin": "miâyam.",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "concept": "to-come",
+            "morph": "DUR-come.PRS-1SG"
+          }
+        ],
+        "colloquial": {
+          "text": "با دوستم میام.",
+          "latin": "bâ dustam miyâm."
+        },
+        "distractors": [
+          {
+            "text": "به",
+            "latin": "be",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            }
+          },
+          {
+            "text": "می‌روم.",
+            "latin": "miravam.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag går"
+            },
+            "morph": "DUR-go.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "fa-prepositions",
+          "fa-possessive-suffixes"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-am-coming-from-sulaymani",
+      "unit": "places-travel",
+      "level": "A2",
+      "translation": {
+        "en": "I'm coming from Sulaymani.",
+        "sv": "Jag kommer från Sulaymaniyya."
+      },
+      "ckb": {
+        "text": "لە سلێمانییەوە دێم.",
+        "latin": "le slêmanîyewe dêm.",
+        "tokens": [
+          {
+            "text": "لە",
+            "latin": "le",
+            "gloss": {
+              "en": "from",
+              "sv": "från"
+            },
+            "concept": "from"
+          },
+          {
+            "text": "سلێمانییەوە",
+            "latin": "slêmanîyewe",
+            "gloss": {
+              "en": "Sulaymani (from)",
+              "sv": "Sulaymaniyya (från)"
+            },
+            "morph": "Sulaymani-POSTP"
+          },
+          {
+            "text": "دێم.",
+            "latin": "dêm.",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "concept": "to-come",
+            "morph": "come.PRS-1SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "سلێمانیدا",
+            "latin": "slêmanîda",
+            "gloss": {
+              "en": "Sulaymani (in)",
+              "sv": "Sulaymaniyya (i)"
+            },
+            "morph": "Sulaymani-POSTP"
+          },
+          {
+            "text": "دەچم.",
+            "latin": "deçim.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag går"
+            },
+            "morph": "DUR-go.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions"
+        ],
+        "sources": [
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§14"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "از سلیمانیه می‌آیم.",
+        "latin": "az soleymâniye miâyam.",
+        "tokens": [
+          {
+            "text": "از",
+            "latin": "az",
+            "gloss": {
+              "en": "from",
+              "sv": "från"
+            },
+            "concept": "from"
+          },
+          {
+            "text": "سلیمانیه",
+            "latin": "soleymâniye",
+            "gloss": {
+              "en": "Sulaymani",
+              "sv": "Sulaymaniyya"
+            }
+          },
+          {
+            "text": "می‌آیم.",
+            "latin": "miâyam.",
+            "gloss": {
+              "en": "I come",
+              "sv": "jag kommer"
+            },
+            "concept": "to-come",
+            "morph": "DUR-come.PRS-1SG"
+          }
+        ],
+        "colloquial": {
+          "text": "از سلیمانیه میام.",
+          "latin": "az soleymâniye miyâm."
+        },
+        "distractors": [
+          {
+            "text": "در",
+            "latin": "dar",
+            "gloss": {
+              "en": "in",
+              "sv": "i"
+            }
+          },
+          {
+            "text": "می‌روم.",
+            "latin": "miravam.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag går"
+            },
+            "morph": "DUR-go.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "fa-prepositions"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "my-mother-lives-in-a-village",
+      "unit": "places-travel",
+      "level": "A1",
+      "translation": {
+        "en": "My mother lives in a village.",
+        "sv": "Min mamma bor i en by."
+      },
+      "ckb": {
+        "text": "دایکم لە گوندێکدا دەژیت.",
+        "latin": "daykim le gundêkda dejît.",
+        "tokens": [
+          {
+            "text": "دایکم",
+            "latin": "daykim",
+            "gloss": {
+              "en": "my mother",
+              "sv": "min mamma"
+            },
+            "concept": "mother",
+            "morph": "mother-1SG"
+          },
+          {
+            "text": "لە",
+            "latin": "le",
+            "gloss": {
+              "en": "in",
+              "sv": "i"
+            },
+            "concept": "in"
+          },
+          {
+            "text": "گوندێکدا",
+            "latin": "gundêkda",
+            "gloss": {
+              "en": "a village (in)",
+              "sv": "en by (i)"
+            },
+            "concept": "village",
+            "morph": "village-INDF-POSTP"
+          },
+          {
+            "text": "دەژیت.",
+            "latin": "dejît.",
+            "gloss": {
+              "en": "lives",
+              "sv": "bor"
+            },
+            "concept": "to-live",
+            "morph": "DUR-live.PRS-3SG"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "دایکم لە گوندێک دەژی.",
+            "latin": "daykim le gundêk dejî."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "شارێکدا",
+            "latin": "şarêkda",
+            "gloss": {
+              "en": "a city (in)",
+              "sv": "en stad (i)"
+            },
+            "morph": "city-INDF-POSTP"
+          },
+          {
+            "text": "دەژیم.",
+            "latin": "dejîm.",
+            "gloss": {
+              "en": "I live",
+              "sv": "jag bor"
+            },
+            "morph": "DUR-live.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions",
+          "ckb-possessive-clitics"
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§14"
+          }
+        ]
+      },
+      "fa": {
+        "text": "مادرم در یک روستا زندگی می‌کند.",
+        "latin": "mâdaram dar yek rustâ zendegi mikonad.",
+        "tokens": [
+          {
+            "text": "مادرم",
+            "latin": "mâdaram",
+            "gloss": {
+              "en": "my mother",
+              "sv": "min mamma"
+            },
+            "concept": "mother",
+            "morph": "mother-1SG"
+          },
+          {
+            "text": "در",
+            "latin": "dar",
+            "gloss": {
+              "en": "in",
+              "sv": "i"
+            },
+            "concept": "in"
+          },
+          {
+            "text": "یک",
+            "latin": "yek",
+            "gloss": {
+              "en": "a, one",
+              "sv": "en, ett"
+            },
+            "concept": "one"
+          },
+          {
+            "text": "روستا",
+            "latin": "rustâ",
+            "gloss": {
+              "en": "village",
+              "sv": "by"
+            },
+            "concept": "village"
+          },
+          {
+            "text": "زندگی",
+            "latin": "zendegi",
+            "gloss": {
+              "en": "life",
+              "sv": "liv"
+            },
+            "concept": "to-live"
+          },
+          {
+            "text": "می‌کند.",
+            "latin": "mikonad.",
+            "gloss": {
+              "en": "does",
+              "sv": "gör"
+            },
+            "concept": "to-live",
+            "morph": "DUR-do.PRS-3SG"
+          }
+        ],
+        "colloquial": {
+          "text": "مامانم تو یه روستا زندگی می‌کنه.",
+          "latin": "mâmânam tu ye rustâ zendegi mikone."
+        },
+        "distractors": [
+          {
+            "text": "شهر",
+            "latin": "shahr",
+            "gloss": {
+              "en": "city",
+              "sv": "stad"
+            }
+          },
+          {
+            "text": "می‌کنم.",
+            "latin": "mikonam.",
+            "gloss": {
+              "en": "I do",
+              "sv": "jag gör"
+            },
+            "morph": "DUR-do.PRS-1SG"
+          }
+        ],
+        "grammar": [
+          "fa-prepositions",
+          "fa-possessive-suffixes"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "on-fridays-we-go-to-the-mountains",
+      "unit": "places-travel",
+      "level": "A2",
+      "translation": {
+        "en": "Every Friday we go to the mountains.",
+        "sv": "Varje fredag åker vi till bergen.",
+        "enAlt": [
+          "On Fridays we go to the mountains."
+        ],
+        "svAlt": [
+          "På fredagarna åker vi till bergen."
+        ]
+      },
+      "ckb": {
+        "text": "هەموو هەینییەک دەچینە چیا.",
+        "latin": "hemû heynîyek deçîne çiya.",
+        "tokens": [
+          {
+            "text": "هەموو",
+            "latin": "hemû",
+            "gloss": {
+              "en": "every",
+              "sv": "varje"
+            },
+            "concept": "every-day"
+          },
+          {
+            "text": "هەینییەک",
+            "latin": "heynîyek",
+            "gloss": {
+              "en": "a Friday",
+              "sv": "en fredag"
+            },
+            "concept": "friday",
+            "morph": "Friday-INDF"
+          },
+          {
+            "text": "دەچینە",
+            "latin": "deçîne",
+            "gloss": {
+              "en": "we go to",
+              "sv": "vi åker till"
+            },
+            "concept": "to-go",
+            "morph": "DUR-go.PRS-1PL-GOAL"
+          },
+          {
+            "text": "چیا.",
+            "latin": "çiya.",
+            "gloss": {
+              "en": "the mountains",
+              "sv": "bergen"
+            },
+            "concept": "mountain"
+          }
+        ],
+        "alternatives": [
+          {
+            "text": "هەموو هەینییەک دەچینە شاخ.",
+            "latin": "hemû heynîyek deçîne şax."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "دەچمە",
+            "latin": "deçime",
+            "gloss": {
+              "en": "I go to",
+              "sv": "jag åker till"
+            },
+            "morph": "DUR-go.PRS-1SG-GOAL"
+          },
+          {
+            "text": "گوند.",
+            "latin": "gund.",
+            "gloss": {
+              "en": "village",
+              "sv": "by"
+            }
+          }
+        ],
+        "grammar": [
+          "ckb-prepositions-circumpositions",
+          "ckb-habits-frequency"
+        ],
+        "sources": [
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§35"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "text": "جمعه‌ها به کوه می‌رویم.",
+        "latin": "jom'e-hâ be kuh miravim.",
+        "tokens": [
+          {
+            "text": "جمعه‌ها",
+            "latin": "jom'e-hâ",
+            "gloss": {
+              "en": "on Fridays",
+              "sv": "på fredagarna"
+            },
+            "concept": "friday",
+            "morph": "Friday-PL"
+          },
+          {
+            "text": "به",
+            "latin": "be",
+            "gloss": {
+              "en": "to",
+              "sv": "till"
+            },
+            "concept": "to"
+          },
+          {
+            "text": "کوه",
+            "latin": "kuh",
+            "gloss": {
+              "en": "the mountains",
+              "sv": "bergen"
+            },
+            "concept": "mountain"
+          },
+          {
+            "text": "می‌رویم.",
+            "latin": "miravim.",
+            "gloss": {
+              "en": "we go",
+              "sv": "vi åker"
+            },
+            "concept": "to-go",
+            "morph": "DUR-go.PRS-1PL"
+          }
+        ],
+        "colloquial": {
+          "text": "جمعه‌ها می‌ریم کوه.",
+          "latin": "jom'e-hâ mirim kuh."
+        },
+        "alternatives": [
+          {
+            "text": "هر جمعه به کوه می‌رویم.",
+            "latin": "har jom'e be kuh miravim."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "می‌روم.",
+            "latin": "miravam.",
+            "gloss": {
+              "en": "I go",
+              "sv": "jag åker"
+            },
+            "morph": "DUR-go.PRS-1SG"
+          },
+          {
+            "text": "روستا",
+            "latin": "rustâ",
+            "gloss": {
+              "en": "village",
+              "sv": "by"
+            }
+          }
+        ],
+        "grammar": [
+          "fa-prepositions",
+          "fa-habits-frequency"
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    }
+  ]
+}

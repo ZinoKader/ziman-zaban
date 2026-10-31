@@ -1,0 +1,899 @@
+{
+  "items": [
+    {
+      "id": "are-you-tired",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "Are you tired?", "sv": "Är du trött?" },
+      "ckb": {
+        "question": {
+          "text": "ماندوویت؟",
+          "latin": "mandûyt?",
+          "tokens": [
+            {
+              "text": "ماندوویت؟",
+              "latin": "mandûyt?",
+              "gloss": { "en": "are you tired", "sv": "är du trött" },
+              "concept": "tired",
+              "morph": "tired-COP.2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، زۆر ماندووم.",
+            "latin": "bełê, zor mandûm.",
+            "translation": { "en": "Yes, I'm very tired.", "sv": "Ja, jag är väldigt trött." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              {
+                "text": "ماندووم.",
+                "latin": "mandûm.",
+                "gloss": { "en": "I am tired", "sv": "jag är trött" },
+                "concept": "tired",
+                "morph": "tired-COP.1SG"
+              }
+            ]
+          },
+          { "text": "کەمێک ماندووم.", "latin": "kemêk mandûm.", "translation": { "en": "I'm a little tired.", "sv": "Jag är lite trött." } },
+          {
+            "text": "نەخێر، ماندوو نیم.",
+            "latin": "nexêr, mandû nîm.",
+            "translation": { "en": "No, I'm not tired.", "sv": "Nej, jag är inte trött." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خسته‌ای؟",
+          "latin": "khaste-i?",
+          "tokens": [
+            {
+              "text": "خسته‌ای؟",
+              "latin": "khaste-i?",
+              "gloss": { "en": "are you tired", "sv": "är du trött" },
+              "concept": "tired",
+              "morph": "tired-COP.2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، خیلی خسته‌ام.",
+            "latin": "bale, kheyli khaste-am.",
+            "translation": { "en": "Yes, I'm very tired.", "sv": "Ja, jag är väldigt trött." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              {
+                "text": "خسته‌ام.",
+                "latin": "khaste-am.",
+                "gloss": { "en": "I am tired", "sv": "jag är trött" },
+                "concept": "tired",
+                "morph": "tired-COP.1SG"
+              }
+            ]
+          },
+          { "text": "کمی خسته‌ام.", "latin": "kami khaste-am.", "translation": { "en": "I'm a little tired.", "sv": "Jag är lite trött." } },
+          {
+            "text": "نه، خسته نیستم.",
+            "latin": "na, khaste nistam.",
+            "translation": { "en": "No, I'm not tired.", "sv": "Nej, jag är inte trött." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "how-are-you-today",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "How are you today?", "sv": "Hur mår du i dag?" },
+      "ckb": {
+        "question": {
+          "text": "ئەمڕۆ چۆنی؟",
+          "latin": "emřo çonî?",
+          "tokens": [
+            { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+            { "text": "چۆنی؟", "latin": "çonî?", "gloss": { "en": "how are you", "sv": "hur mår du" }, "concept": "how-are-you" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "باشم، بەڵام کەمێک ماندووم.",
+            "latin": "başim, bełam kemêk mandûm.",
+            "translation": { "en": "I'm fine, but a little tired.", "sv": "Jag mår bra, men jag är lite trött." },
+            "tokens": [
+              {
+                "text": "باشم،",
+                "latin": "başim,",
+                "gloss": { "en": "I am fine", "sv": "jag mår bra" },
+                "concept": "i-am-fine",
+                "morph": "good-COP.1SG"
+              },
+              { "text": "بەڵام", "latin": "bełam", "gloss": { "en": "but", "sv": "men" } },
+              { "text": "کەمێک", "latin": "kemêk", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+              {
+                "text": "ماندووم.",
+                "latin": "mandûm.",
+                "gloss": { "en": "I am tired", "sv": "jag är trött" },
+                "concept": "tired",
+                "morph": "tired-COP.1SG"
+              }
+            ]
+          },
+          { "text": "زۆر دڵخۆشم!", "latin": "zor diłxoşim!", "translation": { "en": "I'm very happy!", "sv": "Jag är jätteglad!" } },
+          {
+            "text": "باش نیم، نەخۆشم.",
+            "latin": "baş nîm, nexoşim.",
+            "translation": { "en": "I'm not well, I'm sick.", "sv": "Jag mår inte bra, jag är sjuk." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "امروز چطوری؟",
+          "latin": "emruz chetori?",
+          "tokens": [
+            { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+            { "text": "چطوری؟", "latin": "chetori?", "gloss": { "en": "how are you", "sv": "hur mår du" }, "concept": "how-are-you" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "خوبم، ولی کمی خسته‌ام.",
+            "latin": "khubam, vali kami khaste-am.",
+            "translation": { "en": "I'm fine, but a little tired.", "sv": "Jag mår bra, men jag är lite trött." },
+            "tokens": [
+              {
+                "text": "خوبم،",
+                "latin": "khubam,",
+                "gloss": { "en": "I am fine", "sv": "jag mår bra" },
+                "concept": "i-am-fine",
+                "morph": "good-COP.1SG"
+              },
+              { "text": "ولی", "latin": "vali", "gloss": { "en": "but", "sv": "men" } },
+              { "text": "کمی", "latin": "kami", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+              {
+                "text": "خسته‌ام.",
+                "latin": "khaste-am.",
+                "gloss": { "en": "I am tired", "sv": "jag är trött" },
+                "concept": "tired",
+                "morph": "tired-COP.1SG"
+              }
+            ]
+          },
+          { "text": "خیلی خوشحالم!", "latin": "kheyli khoshhâlam!", "translation": { "en": "I'm very happy!", "sv": "Jag är jätteglad!" } },
+          {
+            "text": "خوب نیستم، مریضم.",
+            "latin": "khub nistam, marizam.",
+            "translation": { "en": "I'm not well, I'm sick.", "sv": "Jag mår inte bra, jag är sjuk." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "are-you-sick",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "Are you sick?", "sv": "Är du sjuk?" },
+      "ckb": {
+        "question": {
+          "text": "نەخۆشیت؟",
+          "latin": "nexoşît?",
+          "tokens": [
+            {
+              "text": "نەخۆشیت؟",
+              "latin": "nexoşît?",
+              "gloss": { "en": "are you sick", "sv": "är du sjuk" },
+              "concept": "sick",
+              "morph": "sick-COP.2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نەخێر، باشم.",
+            "latin": "nexêr, başim.",
+            "translation": { "en": "No, I'm fine.", "sv": "Nej, jag mår bra." },
+            "tokens": [
+              { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              {
+                "text": "باشم.",
+                "latin": "başim.",
+                "gloss": { "en": "I am fine", "sv": "jag mår bra" },
+                "concept": "i-am-fine",
+                "morph": "good-COP.1SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، کەمێک نەخۆشم.",
+            "latin": "bełê, kemêk nexoşim.",
+            "translation": { "en": "Yes, I'm a little sick.", "sv": "Ja, jag är lite sjuk." }
+          },
+          {
+            "text": "نەخێر، تەنها ماندووم.",
+            "latin": "nexêr, tenha mandûm.",
+            "translation": { "en": "No, I'm just tired.", "sv": "Nej, jag är bara trött." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "مریض هستید؟",
+          "latin": "mariz hastid?",
+          "tokens": [
+            { "text": "مریض", "latin": "mariz", "gloss": { "en": "sick", "sv": "sjuk" }, "concept": "sick" },
+            { "text": "هستید؟", "latin": "hastid?", "gloss": { "en": "are you", "sv": "är ni" }, "concept": "to-be", "morph": "be.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نه، خوبم.",
+            "latin": "na, khubam.",
+            "translation": { "en": "No, I'm fine.", "sv": "Nej, jag mår bra." },
+            "tokens": [
+              { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              {
+                "text": "خوبم.",
+                "latin": "khubam.",
+                "gloss": { "en": "I am fine", "sv": "jag mår bra" },
+                "concept": "i-am-fine",
+                "morph": "good-COP.1SG"
+              }
+            ]
+          },
+          {
+            "text": "بله، کمی مریضم.",
+            "latin": "bale, kami marizam.",
+            "translation": { "en": "Yes, I'm a little sick.", "sv": "Ja, jag är lite sjuk." }
+          },
+          {
+            "text": "نه، فقط خسته‌ام.",
+            "latin": "na, faghat khaste-am.",
+            "translation": { "en": "No, I'm just tired.", "sv": "Nej, jag är bara trött." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-color-is-this",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "What color is this?", "sv": "Vilken färg är det här?" },
+      "ckb": {
+        "question": {
+          "text": "ئەمە چ ڕەنگێکە؟",
+          "latin": "eme çi řengêke?",
+          "tokens": [
+            { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            { "text": "چ", "latin": "çi", "gloss": { "en": "what", "sv": "vilken" }, "concept": "what" },
+            {
+              "text": "ڕەنگێکە؟",
+              "latin": "řengêke?",
+              "gloss": { "en": "a color is", "sv": "en färg är" },
+              "concept": "color",
+              "morph": "color-INDF-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "سوورە.",
+            "latin": "sûre.",
+            "translation": { "en": "It's red.", "sv": "Den är röd." },
+            "tokens": [
+              {
+                "text": "سوورە.",
+                "latin": "sûre.",
+                "gloss": { "en": "it is red", "sv": "den är röd" },
+                "concept": "red",
+                "morph": "red-COP.3SG"
+              }
+            ]
+          },
+          { "text": "ئەمە شینە.", "latin": "eme şîne.", "translation": { "en": "This is blue.", "sv": "Den här är blå." } },
+          { "text": "سەوزە.", "latin": "sewze.", "translation": { "en": "It's green.", "sv": "Den är grön." } },
+          { "text": "سپییە.", "latin": "spîye.", "translation": { "en": "It's white.", "sv": "Den är vit." } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "این چه رنگی است؟",
+          "latin": "in che rangi ast?",
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vilken" }, "concept": "what" },
+            { "text": "رنگی", "latin": "rangi", "gloss": { "en": "a color", "sv": "en färg" }, "concept": "color", "morph": "color-INDF" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "قرمز است.",
+            "latin": "ghermez ast.",
+            "translation": { "en": "It's red.", "sv": "Den är röd." },
+            "tokens": [
+              { "text": "قرمز", "latin": "ghermez", "gloss": { "en": "red", "sv": "röd" }, "concept": "red" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          { "text": "این آبی است.", "latin": "in âbi ast.", "translation": { "en": "This is blue.", "sv": "Den här är blå." } },
+          { "text": "سبز است.", "latin": "sabz ast.", "translation": { "en": "It's green.", "sv": "Den är grön." } },
+          { "text": "سفید است.", "latin": "sefid ast.", "translation": { "en": "It's white.", "sv": "Den är vit." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-color-is-your-car",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "What color is your car?", "sv": "Vilken färg har din bil?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "ئۆتۆمبێلەکەت چ ڕەنگێکە؟",
+          "latin": "otombêleket çi řengêke?",
+          "tokens": [
+            {
+              "text": "ئۆتۆمبێلەکەت",
+              "latin": "otombêleket",
+              "gloss": { "en": "your car", "sv": "din bil" },
+              "concept": "car",
+              "morph": "car-DEF-2SG"
+            },
+            { "text": "چ", "latin": "çi", "gloss": { "en": "what", "sv": "vilken" }, "concept": "what" },
+            {
+              "text": "ڕەنگێکە؟",
+              "latin": "řengêke?",
+              "gloss": { "en": "a color is", "sv": "en färg är" },
+              "concept": "color",
+              "morph": "color-INDF-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ئۆتۆمبێلەکەم ڕەشە.",
+            "latin": "otombêlekem řeşe.",
+            "translation": { "en": "My car is black.", "sv": "Min bil är svart." },
+            "tokens": [
+              {
+                "text": "ئۆتۆمبێلەکەم",
+                "latin": "otombêlekem",
+                "gloss": { "en": "my car", "sv": "min bil" },
+                "concept": "car",
+                "morph": "car-DEF-1SG"
+              },
+              {
+                "text": "ڕەشە.",
+                "latin": "řeşe.",
+                "gloss": { "en": "is black", "sv": "är svart" },
+                "concept": "black",
+                "morph": "black-COP.3SG"
+              }
+            ]
+          },
+          {
+            "text": "ئۆتۆمبێلەکەم {color}ە.",
+            "latin": "otombêlekem {color}e.",
+            "translation": { "en": "My car is {color}.", "sv": "Min bil är {color}." }
+          },
+          { "text": "{color}ە.", "latin": "{color}e.", "translation": { "en": "It's {color}.", "sv": "Den är {color}." } },
+          {
+            "text": "ئۆتۆمبێلم نییە.",
+            "latin": "otombêlim nîye.",
+            "translation": { "en": "I don't have a car.", "sv": "Jag har ingen bil." }
+          }
+        ],
+        "slots": {
+          "color": [
+            { "text": "ڕەش", "latin": "řeş", "translation": { "en": "black", "sv": "svart" } },
+            { "text": "سوور", "latin": "sûr", "translation": { "en": "red", "sv": "röd" } },
+            { "text": "شین", "latin": "şîn", "translation": { "en": "blue", "sv": "blå" } },
+            { "text": "سەوز", "latin": "sewz", "translation": { "en": "green", "sv": "grön" } },
+            { "text": "زەرد", "latin": "zerd", "translation": { "en": "yellow", "sv": "gul" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ماشینت چه رنگی است؟",
+          "latin": "mâshinat che rangi ast?",
+          "tokens": [
+            { "text": "ماشینت", "latin": "mâshinat", "gloss": { "en": "your car", "sv": "din bil" }, "concept": "car", "morph": "car-2SG" },
+            { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vilken" }, "concept": "what" },
+            { "text": "رنگی", "latin": "rangi", "gloss": { "en": "a color", "sv": "en färg" }, "concept": "color", "morph": "color-INDF" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ماشینم سفید است.",
+            "latin": "mâshinam sefid ast.",
+            "translation": { "en": "My car is white.", "sv": "Min bil är vit." },
+            "tokens": [
+              { "text": "ماشینم", "latin": "mâshinam", "gloss": { "en": "my car", "sv": "min bil" }, "concept": "car", "morph": "car-1SG" },
+              { "text": "سفید", "latin": "sefid", "gloss": { "en": "white", "sv": "vit" }, "concept": "white" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "ماشینم {color} است.",
+            "latin": "mâshinam {color} ast.",
+            "translation": { "en": "My car is {color}.", "sv": "Min bil är {color}." }
+          },
+          { "text": "{color} است.", "latin": "{color} ast.", "translation": { "en": "It's {color}.", "sv": "Den är {color}." } },
+          { "text": "ماشین ندارم.", "latin": "mâshin nadâram.", "translation": { "en": "I don't have a car.", "sv": "Jag har ingen bil." } }
+        ],
+        "slots": {
+          "color": [
+            { "text": "سفید", "latin": "sefid", "translation": { "en": "white", "sv": "vit" } },
+            { "text": "مشکی", "latin": "meshki", "translation": { "en": "black", "sv": "svart" } },
+            { "text": "قرمز", "latin": "ghermez", "translation": { "en": "red", "sv": "röd" } },
+            { "text": "آبی", "latin": "âbi", "translation": { "en": "blue", "sv": "blå" } },
+            { "text": "سبز", "latin": "sabz", "translation": { "en": "green", "sv": "grön" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-it-expensive",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "Is it expensive?", "sv": "Är den dyr?" },
+      "ckb": {
+        "question": {
+          "text": "گرانە؟",
+          "latin": "girane?",
+          "tokens": [
+            {
+              "text": "گرانە؟",
+              "latin": "girane?",
+              "gloss": { "en": "is it expensive", "sv": "är den dyr" },
+              "concept": "expensive",
+              "morph": "expensive-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، زۆر گرانە.",
+            "latin": "bełê, zor girane.",
+            "translation": { "en": "Yes, it's very expensive.", "sv": "Ja, den är väldigt dyr." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              {
+                "text": "گرانە.",
+                "latin": "girane.",
+                "gloss": { "en": "is expensive", "sv": "är dyr" },
+                "concept": "expensive",
+                "morph": "expensive-COP.3SG"
+              }
+            ]
+          },
+          { "text": "نەخێر، هەرزانە.", "latin": "nexêr, herzane.", "translation": { "en": "No, it's cheap.", "sv": "Nej, den är billig." } },
+          {
+            "text": "نەخێر، زۆر گران نییە.",
+            "latin": "nexêr, zor giran nîye.",
+            "translation": { "en": "No, it's not very expensive.", "sv": "Nej, den är inte så dyr." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "گران است؟",
+          "latin": "gerân ast?",
+          "tokens": [
+            { "text": "گران", "latin": "gerân", "gloss": { "en": "expensive", "sv": "dyr" }, "concept": "expensive" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، خیلی گران است.",
+            "latin": "bale, kheyli gerân ast.",
+            "translation": { "en": "Yes, it's very expensive.", "sv": "Ja, den är väldigt dyr." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              { "text": "گران", "latin": "gerân", "gloss": { "en": "expensive", "sv": "dyr" }, "concept": "expensive" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "بله، خیلی گرونه.",
+            "latin": "bale, kheyli gerune.",
+            "translation": { "en": "Yes, it's very expensive.", "sv": "Ja, den är väldigt dyr." }
+          },
+          { "text": "نه، ارزان است.", "latin": "na, arzân ast.", "translation": { "en": "No, it's cheap.", "sv": "Nej, den är billig." } },
+          {
+            "text": "نه، خیلی گران نیست.",
+            "latin": "na, kheyli gerân nist.",
+            "translation": { "en": "No, it's not very expensive.", "sv": "Nej, den är inte så dyr." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "how-is-the-weather",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "How's the weather?", "sv": "Hur är vädret?" },
+      "ckb": {
+        "question": {
+          "text": "هەوا چۆنە؟",
+          "latin": "hewa çone?",
+          "tokens": [
+            { "text": "هەوا", "latin": "hewa", "gloss": { "en": "the weather", "sv": "vädret" }, "concept": "weather" },
+            { "text": "چۆنە؟", "latin": "çone?", "gloss": { "en": "how is", "sv": "hur är" } }
+          ]
+        },
+        "answers": [
+          {
+            "text": "هەوا گەرمە.",
+            "latin": "hewa germe.",
+            "translation": { "en": "It's hot.", "sv": "Det är varmt." },
+            "tokens": [
+              { "text": "هەوا", "latin": "hewa", "gloss": { "en": "the weather", "sv": "vädret" }, "concept": "weather" },
+              {
+                "text": "گەرمە.",
+                "latin": "germe.",
+                "gloss": { "en": "is hot", "sv": "är varmt" },
+                "concept": "hot",
+                "morph": "hot-COP.3SG"
+              }
+            ]
+          },
+          { "text": "زۆر ساردە.", "latin": "zor sarde.", "translation": { "en": "It's very cold.", "sv": "Det är väldigt kallt." } },
+          {
+            "text": "ئەمڕۆ هەوا خۆشە.",
+            "latin": "emřo hewa xoşe.",
+            "translation": { "en": "The weather is nice today.", "sv": "Det är fint väder i dag." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "هوا چطور است؟",
+          "latin": "havâ chetor ast?",
+          "tokens": [
+            { "text": "هوا", "latin": "havâ", "gloss": { "en": "the weather", "sv": "vädret" }, "concept": "weather" },
+            { "text": "چطور", "latin": "chetor", "gloss": { "en": "how", "sv": "hur" } },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "هوا گرم است.",
+            "latin": "havâ garm ast.",
+            "translation": { "en": "It's hot.", "sv": "Det är varmt." },
+            "tokens": [
+              { "text": "هوا", "latin": "havâ", "gloss": { "en": "the weather", "sv": "vädret" }, "concept": "weather" },
+              { "text": "گرم", "latin": "garm", "gloss": { "en": "hot", "sv": "varmt" }, "concept": "hot" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "خیلی سرد است.",
+            "latin": "kheyli sard ast.",
+            "translation": { "en": "It's very cold.", "sv": "Det är väldigt kallt." }
+          },
+          {
+            "text": "امروز هوا خوب است.",
+            "latin": "emruz havâ khub ast.",
+            "translation": { "en": "The weather is nice today.", "sv": "Det är fint väder i dag." }
+          },
+          { "text": "هوا سرده.", "latin": "havâ sarde.", "translation": { "en": "It's cold.", "sv": "Det är kallt." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-kurdish-difficult",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "Is Kurdish difficult?", "sv": "Är kurdiska svårt?" },
+      "ckb": {
+        "question": {
+          "text": "کوردی سەختە؟",
+          "latin": "kurdî sexte?",
+          "tokens": [
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            {
+              "text": "سەختە؟",
+              "latin": "sexte?",
+              "gloss": { "en": "is difficult", "sv": "är svårt" },
+              "concept": "difficult",
+              "morph": "difficult-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نەخێر، زۆر سەخت نییە.",
+            "latin": "nexêr, zor sext nîye.",
+            "translation": { "en": "No, it's not very difficult.", "sv": "Nej, det är inte så svårt." },
+            "tokens": [
+              { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              { "text": "سەخت", "latin": "sext", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+              {
+                "text": "نییە.",
+                "latin": "nîye.",
+                "gloss": { "en": "is not", "sv": "är inte" },
+                "concept": "to-be",
+                "morph": "NEG.COP.3SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، کەمێک سەختە.",
+            "latin": "bełê, kemêk sexte.",
+            "translation": { "en": "Yes, it's a little difficult.", "sv": "Ja, det är lite svårt." }
+          },
+          { "text": "نەخێر، ئاسانە.", "latin": "nexêr, asane.", "translation": { "en": "No, it's easy.", "sv": "Nej, det är lätt." } },
+          {
+            "text": "بەڵێ، زۆر زەحمەتە.",
+            "latin": "bełê, zor zeḧmete.",
+            "translation": { "en": "Yes, it's very difficult.", "sv": "Ja, det är väldigt svårt." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کردی سخت است؟",
+          "latin": "kordi sakht ast?",
+          "tokens": [
+            { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "سخت", "latin": "sakht", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نه، خیلی سخت نیست.",
+            "latin": "na, kheyli sakht nist.",
+            "translation": { "en": "No, it's not very difficult.", "sv": "Nej, det är inte så svårt." },
+            "tokens": [
+              { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              { "text": "سخت", "latin": "sakht", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+              {
+                "text": "نیست.",
+                "latin": "nist.",
+                "gloss": { "en": "is not", "sv": "är inte" },
+                "concept": "to-be",
+                "morph": "NEG.be.PRS.3SG"
+              }
+            ]
+          },
+          {
+            "text": "بله، کمی سخت است.",
+            "latin": "bale, kami sakht ast.",
+            "translation": { "en": "Yes, it's a little difficult.", "sv": "Ja, det är lite svårt." }
+          },
+          { "text": "نه، آسان است.", "latin": "na, âsân ast.", "translation": { "en": "No, it's easy.", "sv": "Nej, det är lätt." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-persian-difficult",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "Is Persian difficult?", "sv": "Är persiska svårt?" },
+      "ckb": {
+        "question": {
+          "text": "فارسی سەختە؟",
+          "latin": "farsî sexte?",
+          "tokens": [
+            { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            {
+              "text": "سەختە؟",
+              "latin": "sexte?",
+              "gloss": { "en": "is difficult", "sv": "är svårt" },
+              "concept": "difficult",
+              "morph": "difficult-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نەخێر، فارسی لە کوردی ئاسانترە.",
+            "latin": "nexêr, farsî le kurdî asantire.",
+            "translation": { "en": "No, Persian is easier than Kurdish.", "sv": "Nej, persiska är lättare än kurdiska." },
+            "tokens": [
+              { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "لە", "latin": "le", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+              { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+              {
+                "text": "ئاسانترە.",
+                "latin": "asantire.",
+                "gloss": { "en": "is easier", "sv": "är lättare" },
+                "concept": "easy",
+                "morph": "easy-CMPR-COP.3SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، کەمێک سەختە.",
+            "latin": "bełê, kemêk sexte.",
+            "translation": { "en": "Yes, it's a little difficult.", "sv": "Ja, det är lite svårt." }
+          },
+          {
+            "text": "نەخێر، زۆر سەخت نییە.",
+            "latin": "nexêr, zor sext nîye.",
+            "translation": { "en": "No, it's not very difficult.", "sv": "Nej, det är inte så svårt." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "فارسی سخت است؟",
+          "latin": "fârsi sakht ast?",
+          "tokens": [
+            { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "سخت", "latin": "sakht", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نه، خیلی سخت نیست.",
+            "latin": "na, kheyli sakht nist.",
+            "translation": { "en": "No, it's not very difficult.", "sv": "Nej, det är inte så svårt." },
+            "tokens": [
+              { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              { "text": "سخت", "latin": "sakht", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+              {
+                "text": "نیست.",
+                "latin": "nist.",
+                "gloss": { "en": "is not", "sv": "är inte" },
+                "concept": "to-be",
+                "morph": "NEG.be.PRS.3SG"
+              }
+            ]
+          },
+          {
+            "text": "بله، کمی سخت است.",
+            "latin": "bale, kami sakht ast.",
+            "translation": { "en": "Yes, it's a little difficult.", "sv": "Ja, det är lite svårt." }
+          },
+          {
+            "text": "نه، فارسی از کردی آسان‌تر است.",
+            "latin": "na, fârsi az kordi âsântar ast.",
+            "translation": { "en": "No, Persian is easier than Kurdish.", "sv": "Nej, persiska är lättare än kurdiska." }
+          },
+          {
+            "text": "نه، سخت نیست.",
+            "latin": "na, sakht nist.",
+            "translation": { "en": "No, it's not difficult.", "sv": "Nej, det är inte svårt." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-your-house-big",
+      "unit": "describing",
+      "level": "A1",
+      "question": { "en": "Is your house big?", "sv": "Är ditt hus stort?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "خانووەکەت گەورەیە؟",
+          "latin": "xanûeket gewreye?",
+          "tokens": [
+            {
+              "text": "خانووەکەت",
+              "latin": "xanûeket",
+              "gloss": { "en": "your house", "sv": "ditt hus" },
+              "concept": "house",
+              "morph": "house-DEF-2SG"
+            },
+            {
+              "text": "گەورەیە؟",
+              "latin": "gewreye?",
+              "gloss": { "en": "is big", "sv": "är stort" },
+              "concept": "big",
+              "morph": "big-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، گەورەیە.",
+            "latin": "bełê, gewreye.",
+            "translation": { "en": "Yes, it's big.", "sv": "Ja, det är stort." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              {
+                "text": "گەورەیە.",
+                "latin": "gewreye.",
+                "gloss": { "en": "it is big", "sv": "det är stort" },
+                "concept": "big",
+                "morph": "big-COP.3SG"
+              }
+            ]
+          },
+          {
+            "text": "نەخێر، بچووکە، بەڵام جوانە.",
+            "latin": "nexêr, biçûke, bełam ciwane.",
+            "translation": { "en": "No, it's small, but it's beautiful.", "sv": "Nej, det är litet, men det är fint." }
+          },
+          {
+            "text": "زۆر گەورە نییە.",
+            "latin": "zor gewre nîye.",
+            "translation": { "en": "It's not very big.", "sv": "Det är inte så stort." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خانه‌تان بزرگ است؟",
+          "latin": "khâne-tân bozorg ast?",
+          "tokens": [
+            {
+              "text": "خانه‌تان",
+              "latin": "khâne-tân",
+              "gloss": { "en": "your house", "sv": "ert hus" },
+              "concept": "house",
+              "morph": "house-2PL"
+            },
+            { "text": "بزرگ", "latin": "bozorg", "gloss": { "en": "big", "sv": "stort" }, "concept": "big" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، بزرگ است.",
+            "latin": "bale, bozorg ast.",
+            "translation": { "en": "Yes, it's big.", "sv": "Ja, det är stort." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "بزرگ", "latin": "bozorg", "gloss": { "en": "big", "sv": "stort" }, "concept": "big" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "نه، کوچک است، ولی قشنگ است.",
+            "latin": "na, kuchak ast, vali ghashang ast.",
+            "translation": { "en": "No, it's small, but it's beautiful.", "sv": "Nej, det är litet, men det är fint." }
+          },
+          {
+            "text": "خیلی بزرگ نیست.",
+            "latin": "kheyli bozorg nist.",
+            "translation": { "en": "It's not very big.", "sv": "Det är inte så stort." }
+          },
+          {
+            "text": "نه، خونه‌مون کوچیکه.",
+            "latin": "na, khune-mun kuchike.",
+            "translation": { "en": "No, our house is small.", "sv": "Nej, vårt hus är litet." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

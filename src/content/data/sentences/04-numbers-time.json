@@ -1,0 +1,660 @@
+{
+  "sentences": [
+    {
+      "id": "one-two-three",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "One, two, three.", "sv": "Ett, två, tre." },
+      "ckb": {
+        "text": "یەک، دوو، سێ.",
+        "latin": "yek, dû, sê.",
+        "tokens": [
+          { "text": "یەک،", "latin": "yek,", "gloss": { "en": "one", "sv": "ett" }, "concept": "one" },
+          { "text": "دوو،", "latin": "dû,", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "سێ.", "latin": "sê.", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" }
+        ],
+        "distractors": [
+          { "text": "سی.", "latin": "sî.", "gloss": { "en": "thirty", "sv": "trettio" } },
+          { "text": "دە،", "latin": "de,", "gloss": { "en": "ten", "sv": "tio" } }
+        ],
+        "grammar": ["ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "text": "یک، دو، سه.",
+        "latin": "yek, do, se.",
+        "tokens": [
+          { "text": "یک،", "latin": "yek,", "gloss": { "en": "one", "sv": "ett" }, "concept": "one" },
+          { "text": "دو،", "latin": "do,", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "سه.", "latin": "se.", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" }
+        ],
+        "distractors": [
+          { "text": "سی.", "latin": "si.", "gloss": { "en": "thirty", "sv": "trettio" } },
+          { "text": "ده،", "latin": "dah,", "gloss": { "en": "ten", "sv": "tio" } }
+        ],
+        "grammar": ["fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "today-is-saturday",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "Today is Saturday.", "sv": "Idag är det lördag.", "svAlt": ["I dag är det lördag."] },
+      "ckb": {
+        "text": "ئەمڕۆ شەممەیە.",
+        "latin": "emřo şemmeye.",
+        "tokens": [
+          { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+          { "text": "شەممەیە.", "latin": "şemmeye.", "gloss": { "en": "is Saturday", "sv": "är lördag" }, "concept": "saturday", "morph": "Saturday-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" } },
+          { "text": "یەکشەممەیە.", "latin": "yekşemmeye.", "gloss": { "en": "is Sunday", "sv": "är söndag" }, "morph": "Sunday-COP.3SG" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "امروز شنبه است.",
+        "latin": "emruz shanbe ast.",
+        "tokens": [
+          { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+          { "text": "شنبه", "latin": "shanbe", "gloss": { "en": "Saturday", "sv": "lördag" }, "concept": "saturday" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "امروز شنبه‌ست.", "latin": "emruz shanbe-st." },
+        "distractors": [
+          { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" } },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "tomorrow-is-friday",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "Tomorrow is Friday.", "sv": "Imorgon är det fredag.", "svAlt": ["I morgon är det fredag."] },
+      "ckb": {
+        "text": "سبەی هەینییە.",
+        "latin": "sibey heynîye.",
+        "tokens": [
+          { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+          { "text": "هەینییە.", "latin": "heynîye.", "gloss": { "en": "is Friday", "sv": "är fredag" }, "concept": "friday", "morph": "Friday-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" } },
+          { "text": "پێنجشەممەیە.", "latin": "pêncşemmeye.", "gloss": { "en": "is Thursday", "sv": "är torsdag" }, "morph": "Thursday-COP.3SG" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "فردا جمعه است.",
+        "latin": "fardâ jom'e ast.",
+        "tokens": [
+          { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+          { "text": "جمعه", "latin": "jom'e", "gloss": { "en": "Friday", "sv": "fredag" }, "concept": "friday" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "فردا جمعه‌ست.", "latin": "fardâ jom'e-st." },
+        "distractors": [
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" } },
+          { "text": "بود.", "latin": "bud.", "gloss": { "en": "was", "sv": "var" }, "morph": "be.PST.3SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "it-is-six-oclock",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "It's six o'clock.", "sv": "Klockan är sex." },
+      "ckb": {
+        "text": "کاتژمێر شەشە.",
+        "latin": "katjimêr şeşe.",
+        "tokens": [
+          { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "شەشە.", "latin": "şeşe.", "gloss": { "en": "is six", "sv": "är sex" }, "concept": "six", "morph": "six-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "سەعات شەشە.", "latin": "se'at şeşe." }],
+        "distractors": [
+          { "text": "شەستە.", "latin": "şeste.", "gloss": { "en": "is sixty", "sv": "är sextio" }, "morph": "sixty-COP.3SG" },
+          { "text": "خولەک", "latin": "xulek", "gloss": { "en": "minute", "sv": "minut" } }
+        ],
+        "grammar": ["ckb-telling-time"],
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Question words" }]
+      },
+      "fa": {
+        "text": "ساعت شش است.",
+        "latin": "sâ'at shesh ast.",
+        "tokens": [
+          { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "شش", "latin": "shesh", "gloss": { "en": "six", "sv": "sex" }, "concept": "six" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "ساعت شیشه.", "latin": "sâ'at shishe." },
+        "distractors": [
+          { "text": "شصت", "latin": "shast", "gloss": { "en": "sixty", "sv": "sextio" } },
+          { "text": "دقیقه", "latin": "daghighe", "gloss": { "en": "minute", "sv": "minut" } }
+        ],
+        "grammar": ["fa-telling-time"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "it-is-half-past-two",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "It's half past two.", "sv": "Klockan är halv tre." },
+      "ckb": {
+        "text": "کاتژمێر دوو و نیوە.",
+        "latin": "katjimêr dû û nîwe.",
+        "tokens": [
+          { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "دوو", "latin": "dû", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "نیوە.", "latin": "nîwe.", "gloss": { "en": "half, is", "sv": "halv, är" }, "concept": "half", "morph": "half-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "سەعات دوو و نیوە.", "latin": "se'at dû û nîwe." }],
+        "distractors": [
+          { "text": "سێ", "latin": "sê", "gloss": { "en": "three", "sv": "tre" } },
+          { "text": "خولەکە.", "latin": "xuleke.", "gloss": { "en": "minutes, is", "sv": "minuter, är" }, "morph": "minute-COP.3SG" }
+        ],
+        "grammar": ["ckb-telling-time"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "ساعت دو و نیم است.",
+        "latin": "sâ'at do o nim ast.",
+        "tokens": [
+          { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "دو", "latin": "do", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "نیم", "latin": "nim", "gloss": { "en": "half", "sv": "halv" }, "concept": "half" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "ساعت دو و نیمه.", "latin": "sâ'at do o nime." },
+        "distractors": [
+          { "text": "سه", "latin": "se", "gloss": { "en": "three", "sv": "tre" } },
+          { "text": "ربع", "latin": "rob'", "gloss": { "en": "quarter", "sv": "kvart" } }
+        ],
+        "grammar": ["fa-telling-time"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-time-is-it-now",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "What time is it now?", "sv": "Vad är klockan nu?", "enAlt": ["What time is it?"], "svAlt": ["Hur mycket är klockan nu?"] },
+      "ckb": {
+        "text": "ئێستا کاتژمێر چەندە؟",
+        "latin": "êsta katjimêr çende?",
+        "tokens": [
+          { "text": "ئێستا", "latin": "êsta", "gloss": { "en": "now", "sv": "nu" }, "concept": "now" },
+          { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "چەندە؟", "latin": "çende?", "gloss": { "en": "how much is", "sv": "hur mycket är" }, "concept": "how-many", "morph": "how.many-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "ئێستا سەعات چەندە؟", "latin": "êsta se'at çende?" }, { "text": "کاتژمێر چەندە؟", "latin": "katjimêr çende?" }],
+        "distractors": [
+          { "text": "چییە؟", "latin": "çîye?", "gloss": { "en": "what is", "sv": "vad är" }, "morph": "what-COP.3SG" },
+          { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "morph": "where-COP.3SG" }
+        ],
+        "grammar": ["ckb-telling-time"],
+        "sources": [{ "source": "author" }, { "source": "kim-kurdish-grammar", "ref": "Question words" }]
+      },
+      "fa": {
+        "text": "الان ساعت چند است؟",
+        "latin": "alân sâ'at chand ast?",
+        "tokens": [
+          { "text": "الان", "latin": "alân", "gloss": { "en": "now", "sv": "nu" }, "concept": "now" },
+          { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+          { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "الان ساعت چنده؟", "latin": "alân sâ'at chande?" },
+        "alternatives": [{ "text": "ساعت چند است؟", "latin": "sâ'at chand ast?" }],
+        "distractors": [
+          { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vad" } },
+          { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" } }
+        ],
+        "grammar": ["fa-telling-time"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "a-week-is-seven-days",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": {
+        "en": "A week is seven days.",
+        "sv": "En vecka är sju dagar.",
+        "enAlt": ["A week has seven days."],
+        "svAlt": ["En vecka har sju dagar."]
+      },
+      "ckb": {
+        "text": "هەفتەیەک حەوت ڕۆژە.",
+        "latin": "hefteyek ḧewt řoje.",
+        "tokens": [
+          { "text": "هەفتەیەک", "latin": "hefteyek", "gloss": { "en": "a week", "sv": "en vecka" }, "concept": "week", "morph": "week-INDF" },
+          { "text": "حەوت", "latin": "ḧewt", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+          { "text": "ڕۆژە.", "latin": "řoje.", "gloss": { "en": "days, is", "sv": "dagar, är" }, "concept": "day", "morph": "day-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "ڕۆژەکان", "latin": "řojekan", "gloss": { "en": "the days", "sv": "dagarna" }, "morph": "day-DEF.PL" },
+          { "text": "هەشت", "latin": "heşt", "gloss": { "en": "eight", "sv": "åtta" } }
+        ],
+        "grammar": ["ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "text": "یک هفته هفت روز است.",
+        "latin": "yek hafte haft ruz ast.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en" }, "concept": "one" },
+          { "text": "هفته", "latin": "hafte", "gloss": { "en": "week", "sv": "vecka" }, "concept": "week" },
+          { "text": "هفت", "latin": "haft", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+          { "text": "روز", "latin": "ruz", "gloss": { "en": "days", "sv": "dagar" }, "concept": "day" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "یه هفته هفت روزه.", "latin": "ye hafte haft ruze." },
+        "distractors": [
+          { "text": "روزها", "latin": "ruzhâ", "gloss": { "en": "days (plural)", "sv": "dagar (plural)" }, "morph": "day-PL" },
+          { "text": "هشت", "latin": "hasht", "gloss": { "en": "eight", "sv": "åtta" } }
+        ],
+        "grammar": ["fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-have-three-brothers",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "I have three brothers.", "sv": "Jag har tre bröder." },
+      "ckb": {
+        "text": "سێ برام هەیە.",
+        "latin": "sê biram heye.",
+        "tokens": [
+          { "text": "سێ", "latin": "sê", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+          { "text": "برام", "latin": "biram", "gloss": { "en": "brother of mine", "sv": "bror till mig" }, "concept": "brother", "morph": "brother-1SG" },
+          {
+            "text": "هەیە.",
+            "latin": "heye.",
+            "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+            "concept": "to-have",
+            "morph": "exist.PRS.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "براکانم", "latin": "birakanim", "gloss": { "en": "my brothers", "sv": "mina bröder" }, "morph": "brother-DEF.PL-1SG" },
+          { "text": "سی", "latin": "sî", "gloss": { "en": "thirty", "sv": "trettio" } }
+        ],
+        "grammar": ["ckb-numbers-counting", "ckb-to-have"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12, §16" }]
+      },
+      "fa": {
+        "text": "سه برادر دارم.",
+        "latin": "se barâdar dâram.",
+        "tokens": [
+          { "text": "سه", "latin": "se", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+          { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+        ],
+        "colloquial": { "text": "سه تا داداش دارم.", "latin": "se tâ dâdâsh dâram." },
+        "alternatives": [{ "text": "سه تا برادر دارم.", "latin": "se tâ barâdar dâram." }],
+        "distractors": [
+          { "text": "برادرها", "latin": "barâdarhâ", "gloss": { "en": "brothers (plural)", "sv": "bröder (plural)" }, "morph": "brother-PL" },
+          { "text": "سی", "latin": "si", "gloss": { "en": "thirty", "sv": "trettio" } }
+        ],
+        "grammar": ["fa-numbers-counting", "fa-to-have"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-father-is-fifty",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": {
+        "en": "My father is fifty.",
+        "sv": "Min pappa är femtio.",
+        "enAlt": ["My father is fifty years old."],
+        "svAlt": ["Min pappa är femtio år."]
+      },
+      "ckb": {
+        "text": "باوکم پەنجا ساڵە.",
+        "latin": "bawkim penca sałe.",
+        "tokens": [
+          { "text": "باوکم", "latin": "bawkim", "gloss": { "en": "my father", "sv": "min pappa" }, "concept": "father", "morph": "father-1SG" },
+          { "text": "پەنجا", "latin": "penca", "gloss": { "en": "fifty", "sv": "femtio" }, "concept": "fifty" },
+          { "text": "ساڵە.", "latin": "sałe.", "gloss": { "en": "years, is", "sv": "år, är" }, "concept": "year", "morph": "year-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "ساڵم.", "latin": "sałim.", "gloss": { "en": "years, I am", "sv": "år, jag är" }, "morph": "year-COP.1SG" },
+          { "text": "پێنج", "latin": "pênc", "gloss": { "en": "five", "sv": "fem" } }
+        ],
+        "grammar": ["ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "text": "پدرم پنجاه سال دارد.",
+        "latin": "pedaram panjâh sâl dârad.",
+        "tokens": [
+          { "text": "پدرم", "latin": "pedaram", "gloss": { "en": "my father", "sv": "min pappa" }, "concept": "father", "morph": "father-1SG" },
+          { "text": "پنجاه", "latin": "panjâh", "gloss": { "en": "fifty", "sv": "femtio" }, "concept": "fifty" },
+          { "text": "سال", "latin": "sâl", "gloss": { "en": "years", "sv": "år" }, "concept": "year" },
+          { "text": "دارد.", "latin": "dârad.", "gloss": { "en": "has", "sv": "har" }, "concept": "to-have", "morph": "have.PRS-3SG" }
+        ],
+        "colloquial": { "text": "بابام پنجاه سالشه.", "latin": "bâbâm panjâh sâleshe." },
+        "distractors": [
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "morph": "have.PRS-1SG" },
+          { "text": "پنج", "latin": "panj", "gloss": { "en": "five", "sv": "fem" } }
+        ],
+        "grammar": ["fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "tonight-we-are-here",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "Tonight we are here.", "sv": "I kväll är vi här.", "enAlt": ["We're here tonight."], "svAlt": ["Vi är här i kväll."] },
+      "ckb": {
+        "text": "ئەمشەو لێرەین.",
+        "latin": "emşew lêreyn.",
+        "tokens": [
+          { "text": "ئەمشەو", "latin": "emşew", "gloss": { "en": "tonight", "sv": "i kväll" }, "concept": "night", "morph": "this-night" },
+          { "text": "لێرەین.", "latin": "lêreyn.", "gloss": { "en": "we are here", "sv": "vi är här" }, "concept": "here", "morph": "in.here-COP.1PL" }
+        ],
+        "distractors": [
+          { "text": "لێرەن.", "latin": "lêren.", "gloss": { "en": "they are here", "sv": "de är här" }, "morph": "in.here-COP.3PL" },
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" } }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "امشب اینجا هستیم.",
+        "latin": "emshab injâ hastim.",
+        "tokens": [
+          { "text": "امشب", "latin": "emshab", "gloss": { "en": "tonight", "sv": "i kväll" }, "concept": "night", "morph": "this-night" },
+          { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
+          { "text": "هستیم.", "latin": "hastim.", "gloss": { "en": "we are", "sv": "vi är" }, "concept": "to-be", "morph": "be.PRS-1PL" }
+        ],
+        "colloquial": { "text": "امشب اینجاییم.", "latin": "emshab injâyim." },
+        "distractors": [
+          { "text": "هستند.", "latin": "hastand.", "gloss": { "en": "they are", "sv": "de är" }, "morph": "be.PRS-3PL" },
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" } }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "it-is-ten-past-five",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": { "en": "It's ten past five.", "sv": "Klockan är tio över fem." },
+      "ckb": {
+        "text": "کاتژمێر پێنج و دە خولەکە.",
+        "latin": "katjimêr pênc û de xuleke.",
+        "tokens": [
+          { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "پێنج", "latin": "pênc", "gloss": { "en": "five", "sv": "fem" }, "concept": "five" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "دە", "latin": "de", "gloss": { "en": "ten", "sv": "tio" }, "concept": "ten" },
+          { "text": "خولەکە.", "latin": "xuleke.", "gloss": { "en": "minutes, is", "sv": "minuter, är" }, "concept": "minute", "morph": "minute-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "خولەکن.", "latin": "xulekin.", "gloss": { "en": "minutes, are", "sv": "minuter, är (plural)" }, "morph": "minute-COP.3PL" },
+          { "text": "نیوە.", "latin": "nîwe.", "gloss": { "en": "half, is", "sv": "halv, är" }, "morph": "half-COP.3SG" }
+        ],
+        "grammar": ["ckb-telling-time"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "ساعت پنج و ده دقیقه است.",
+        "latin": "sâ'at panj o dah daghighe ast.",
+        "tokens": [
+          { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "پنج", "latin": "panj", "gloss": { "en": "five", "sv": "fem" }, "concept": "five" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "ده", "latin": "dah", "gloss": { "en": "ten", "sv": "tio" }, "concept": "ten" },
+          { "text": "دقیقه", "latin": "daghighe", "gloss": { "en": "minutes", "sv": "minuter" }, "concept": "minute" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "ساعت پنج و ده دقیقه‌ست.", "latin": "sâ'at panj o dah daghighe-st." },
+        "distractors": [
+          { "text": "دقیقه‌ها", "latin": "daghighe-hâ", "gloss": { "en": "minutes (plural)", "sv": "minuter (plural)" }, "morph": "minute-PL" },
+          { "text": "نیم", "latin": "nim", "gloss": { "en": "half", "sv": "halv" } }
+        ],
+        "grammar": ["fa-telling-time"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "a-year-is-twelve-months",
+      "unit": "numbers-time",
+      "level": "A1",
+      "translation": {
+        "en": "A year is twelve months.",
+        "sv": "Ett år är tolv månader.",
+        "enAlt": ["A year has twelve months."],
+        "svAlt": ["Ett år har tolv månader."]
+      },
+      "ckb": {
+        "text": "ساڵێک دوانزە مانگە.",
+        "latin": "sałêk dwanze mange.",
+        "tokens": [
+          { "text": "ساڵێک", "latin": "sałêk", "gloss": { "en": "a year", "sv": "ett år" }, "concept": "year", "morph": "year-INDF" },
+          { "text": "دوانزە", "latin": "dwanze", "gloss": { "en": "twelve", "sv": "tolv" }, "concept": "twelve" },
+          { "text": "مانگە.", "latin": "mange.", "gloss": { "en": "months, is", "sv": "månader, är" }, "concept": "month", "morph": "month-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "ساڵێک دوازدە مانگە.", "latin": "sałêk dwazde mange." }],
+        "distractors": [
+          { "text": "مانگەکان", "latin": "mangekan", "gloss": { "en": "the months", "sv": "månaderna" }, "morph": "month-DEF.PL" },
+          { "text": "دە", "latin": "de", "gloss": { "en": "ten", "sv": "tio" } }
+        ],
+        "grammar": ["ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "text": "یک سال دوازده ماه است.",
+        "latin": "yek sâl davâzdah mâh ast.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "ett" }, "concept": "one" },
+          { "text": "سال", "latin": "sâl", "gloss": { "en": "year", "sv": "år" }, "concept": "year" },
+          { "text": "دوازده", "latin": "davâzdah", "gloss": { "en": "twelve", "sv": "tolv" }, "concept": "twelve" },
+          { "text": "ماه", "latin": "mâh", "gloss": { "en": "months", "sv": "månader" }, "concept": "month" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "یه سال دوازده ماهه.", "latin": "ye sâl davâzdah mâhe." },
+        "distractors": [
+          { "text": "ماه‌ها", "latin": "mâh-hâ", "gloss": { "en": "months (plural)", "sv": "månader (plural)" }, "morph": "month-PL" },
+          { "text": "ده", "latin": "dah", "gloss": { "en": "ten", "sv": "tio" } }
+        ],
+        "grammar": ["fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "a-day-is-twenty-four-hours",
+      "unit": "numbers-time",
+      "level": "A2",
+      "translation": {
+        "en": "A day is twenty-four hours.",
+        "sv": "Ett dygn är tjugofyra timmar.",
+        "enAlt": ["A day has twenty-four hours."],
+        "svAlt": ["En dag är tjugofyra timmar.", "Ett dygn har tjugofyra timmar."]
+      },
+      "ckb": {
+        "text": "ڕۆژێک بیست و چوار کاتژمێرە.",
+        "latin": "řojêk bîst û çwar katjimêre.",
+        "tokens": [
+          { "text": "ڕۆژێک", "latin": "řojêk", "gloss": { "en": "a day", "sv": "en dag" }, "concept": "day", "morph": "day-INDF" },
+          { "text": "بیست", "latin": "bîst", "gloss": { "en": "twenty", "sv": "tjugo" }, "concept": "twenty" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "چوار", "latin": "çwar", "gloss": { "en": "four", "sv": "fyra" }, "concept": "four" },
+          { "text": "کاتژمێرە.", "latin": "katjimêre.", "gloss": { "en": "hours, is", "sv": "timmar, är" }, "concept": "hour", "morph": "hour-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "ڕۆژێک بیست و چوار سەعاتە.", "latin": "řojêk bîst û çwar se'ate." }],
+        "distractors": [
+          { "text": "کاتژمێرەکان", "latin": "katjimêrekan", "gloss": { "en": "the hours", "sv": "timmarna" }, "morph": "hour-DEF.PL" },
+          { "text": "چل", "latin": "çil", "gloss": { "en": "forty", "sv": "fyrtio" } }
+        ],
+        "grammar": ["ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "text": "یک روز بیست و چهار ساعت است.",
+        "latin": "yek ruz bist o chahâr sâ'at ast.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en" }, "concept": "one" },
+          { "text": "روز", "latin": "ruz", "gloss": { "en": "day", "sv": "dag" }, "concept": "day" },
+          { "text": "بیست", "latin": "bist", "gloss": { "en": "twenty", "sv": "tjugo" }, "concept": "twenty" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "چهار", "latin": "chahâr", "gloss": { "en": "four", "sv": "fyra" }, "concept": "four" },
+          { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hours", "sv": "timmar" }, "concept": "hour" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "یه روز بیست و چهار ساعته.", "latin": "ye ruz bist o chahâr sâ'ate." },
+        "distractors": [
+          { "text": "ساعت‌ها", "latin": "sâ'at-hâ", "gloss": { "en": "hours (plural)", "sv": "timmar (plural)" }, "morph": "hour-PL" },
+          { "text": "چهل", "latin": "chehel", "gloss": { "en": "forty", "sv": "fyrtio" } }
+        ],
+        "grammar": ["fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-brother-is-twenty-one",
+      "unit": "numbers-time",
+      "level": "A2",
+      "translation": {
+        "en": "My brother is twenty-one.",
+        "sv": "Min bror är tjugoett.",
+        "enAlt": ["My brother is twenty-one years old."],
+        "svAlt": ["Min bror är tjugoett år.", "Min bror är tjugoen."]
+      },
+      "ckb": {
+        "text": "برام بیست و یەک ساڵە.",
+        "latin": "biram bîst û yek sałe.",
+        "tokens": [
+          { "text": "برام", "latin": "biram", "gloss": { "en": "my brother", "sv": "min bror" }, "concept": "brother", "morph": "brother-1SG" },
+          { "text": "بیست", "latin": "bîst", "gloss": { "en": "twenty", "sv": "tjugo" }, "concept": "twenty" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "یەک", "latin": "yek", "gloss": { "en": "one", "sv": "ett" }, "concept": "one" },
+          { "text": "ساڵە.", "latin": "sałe.", "gloss": { "en": "years, is", "sv": "år, är" }, "concept": "year", "morph": "year-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "ساڵم.", "latin": "sałim.", "gloss": { "en": "years, I am", "sv": "år, jag är" }, "morph": "year-COP.1SG" },
+          { "text": "یەکەم", "latin": "yekem", "gloss": { "en": "first", "sv": "första" } }
+        ],
+        "grammar": ["ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "text": "برادرم بیست و یک سال دارد.",
+        "latin": "barâdaram bist o yek sâl dârad.",
+        "tokens": [
+          { "text": "برادرم", "latin": "barâdaram", "gloss": { "en": "my brother", "sv": "min bror" }, "concept": "brother", "morph": "brother-1SG" },
+          { "text": "بیست", "latin": "bist", "gloss": { "en": "twenty", "sv": "tjugo" }, "concept": "twenty" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "یک", "latin": "yek", "gloss": { "en": "one", "sv": "ett" }, "concept": "one" },
+          { "text": "سال", "latin": "sâl", "gloss": { "en": "years", "sv": "år" }, "concept": "year" },
+          { "text": "دارد.", "latin": "dârad.", "gloss": { "en": "has", "sv": "har" }, "concept": "to-have", "morph": "have.PRS-3SG" }
+        ],
+        "colloquial": { "text": "داداشم بیست و یک سالشه.", "latin": "dâdâsham bist o yek sâleshe." },
+        "distractors": [
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "morph": "have.PRS-1SG" },
+          { "text": "یکم", "latin": "yekom", "gloss": { "en": "first", "sv": "första" } }
+        ],
+        "grammar": ["fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "yesterday-was-monday",
+      "unit": "numbers-time",
+      "level": "A2",
+      "translation": { "en": "Yesterday was Monday.", "sv": "Igår var det måndag.", "svAlt": ["I går var det måndag."] },
+      "ckb": {
+        "text": "دوێنێ دووشەممە بوو.",
+        "latin": "dwênê dûşemme bû.",
+        "tokens": [
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          { "text": "دووشەممە", "latin": "dûşemme", "gloss": { "en": "Monday", "sv": "måndag" }, "concept": "monday" },
+          { "text": "بوو.", "latin": "bû.", "gloss": { "en": "was", "sv": "var" }, "concept": "to-be", "morph": "be.PST.3SG" }
+        ],
+        "distractors": [
+          { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" } },
+          { "text": "بووم.", "latin": "bûm.", "gloss": { "en": "I was", "sv": "jag var" }, "morph": "be.PST-1SG" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "دیروز دوشنبه بود.",
+        "latin": "diruz doshanbe bud.",
+        "tokens": [
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          { "text": "دوشنبه", "latin": "doshanbe", "gloss": { "en": "Monday", "sv": "måndag" }, "concept": "monday" },
+          { "text": "بود.", "latin": "bud.", "gloss": { "en": "was", "sv": "var" }, "concept": "to-be", "morph": "be.PST.3SG" }
+        ],
+        "distractors": [
+          { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" } },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-are-you-tomorrow-evening",
+      "unit": "numbers-time",
+      "level": "A2",
+      "translation": {
+        "en": "Where are you tomorrow evening?",
+        "sv": "Var är du imorgon kväll?",
+        "enAlt": ["Where will you be tomorrow evening?"],
+        "svAlt": ["Var är du i morgon kväll?"]
+      },
+      "ckb": {
+        "text": "سبەی ئێوارە لە کوێیت؟",
+        "latin": "sibey êware le kwêyt?",
+        "tokens": [
+          { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+          { "text": "ئێوارە", "latin": "êware", "gloss": { "en": "evening", "sv": "kväll" }, "concept": "evening" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+          { "text": "کوێیت؟", "latin": "kwêyt?", "gloss": { "en": "where are you", "sv": "var är du" }, "concept": "where", "morph": "where-COP.2SG" }
+        ],
+        "distractors": [
+          { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "morph": "where-COP.3SG" },
+          { "text": "بەیانی", "latin": "beyanî", "gloss": { "en": "morning", "sv": "morgon" } }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "فردا عصر کجا هستید؟",
+        "latin": "fardâ asr kojâ hastid?",
+        "tokens": [
+          { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+          { "text": "عصر", "latin": "asr", "gloss": { "en": "evening", "sv": "kväll" }, "concept": "evening" },
+          { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+          { "text": "هستید؟", "latin": "hastid?", "gloss": { "en": "are you", "sv": "är ni" }, "concept": "to-be", "morph": "be.PRS-2PL" }
+        ],
+        "colloquial": { "text": "فردا عصر کجایی؟", "latin": "fardâ asr kojâyi?" },
+        "distractors": [
+          { "text": "هستم؟", "latin": "hastam?", "gloss": { "en": "am I", "sv": "är jag" }, "morph": "be.PRS-1SG" },
+          { "text": "صبح", "latin": "sobh", "gloss": { "en": "morning", "sv": "morgon" } }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

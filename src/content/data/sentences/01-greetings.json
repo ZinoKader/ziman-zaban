@@ -1,0 +1,401 @@
+{
+  "sentences": [
+    {
+      "id": "hello-how-are-you",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Hello, how are you?", "sv": "Hej, hur mår du?", "enAlt": ["Hi, how are you?"], "svAlt": ["Hej, hur är det?"] },
+      "ckb": {
+        "text": "سڵاو، چۆنی؟",
+        "latin": "sław, çonî?",
+        "tokens": [
+          { "text": "سڵاو،", "latin": "sław,", "gloss": { "en": "hello", "sv": "hej" }, "concept": "hello" },
+          { "text": "چۆنی؟", "latin": "çonî?", "gloss": { "en": "how are you", "sv": "hur mår du" }, "concept": "how-are-you", "morph": "how-COP.2SG" }
+        ],
+        "alternatives": [{ "text": "سڵاو، چۆنیت؟", "latin": "sław, çonît?" }],
+        "distractors": [
+          { "text": "باشم؟", "latin": "başim?", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "morph": "good-COP.1SG" },
+          { "text": "سوپاس،", "latin": "supas,", "gloss": { "en": "thanks", "sv": "tack" } }
+        ],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "سلام، چطوری؟",
+        "latin": "salâm, chetori?",
+        "tokens": [
+          { "text": "سلام،", "latin": "salâm,", "gloss": { "en": "hello", "sv": "hej" }, "concept": "hello" },
+          { "text": "چطوری؟", "latin": "chetori?", "gloss": { "en": "how are you", "sv": "hur mår du" }, "concept": "how-are-you", "morph": "how-COP.2SG" }
+        ],
+        "alternatives": [{ "text": "سلام، حالت چطوره؟", "latin": "salâm, hâlet chetore?" }],
+        "distractors": [
+          { "text": "خوبم؟", "latin": "khubam?", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "morph": "good-COP.1SG" },
+          { "text": "ممنون،", "latin": "mamnun,", "gloss": { "en": "thanks", "sv": "tack" } }
+        ],
+        "grammar": ["fa-formal-colloquial"],
+        "sources": [{ "source": "tatoeba", "ref": "#505651" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "good-morning-how-are-you-polite",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Good morning, how are you?", "sv": "God morgon, hur mår ni?" },
+      "ckb": {
+        "text": "بەیانیتان باش، چۆنن؟",
+        "latin": "beyanîtan baş, çonin?",
+        "tokens": [
+          { "text": "بەیانیتان", "latin": "beyanîtan", "gloss": { "en": "your morning", "sv": "er morgon" }, "concept": "good-morning", "morph": "morning-2PL" },
+          { "text": "باش،", "latin": "baş,", "gloss": { "en": "good", "sv": "god" }, "concept": "good-morning" },
+          { "text": "چۆنن؟", "latin": "çonin?", "gloss": { "en": "how are you (polite)", "sv": "hur mår ni" }, "concept": "how-are-you", "morph": "how-COP.2PL" }
+        ],
+        "distractors": [
+          { "text": "بەیانیت", "latin": "beyanît", "gloss": { "en": "your morning (to one friend)", "sv": "din morgon" }, "morph": "morning-2SG" },
+          { "text": "چۆنی؟", "latin": "çonî?", "gloss": { "en": "how are you (to one friend)", "sv": "hur mår du" }, "morph": "how-COP.2SG" }
+        ],
+        "grammar": ["ckb-politeness"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "صبح بخیر، حال شما چطور است؟",
+        "latin": "sobh bekheyr, hâl-e shomâ chetor ast?",
+        "tokens": [
+          { "text": "صبح", "latin": "sobh", "gloss": { "en": "morning", "sv": "morgon" }, "concept": "good-morning" },
+          { "text": "بخیر،", "latin": "bekheyr,", "gloss": { "en": "with goodness", "sv": "med det goda" }, "concept": "good-morning" },
+          { "text": "حال", "latin": "hâl-e", "gloss": { "en": "state (of)", "sv": "tillstånd(et för)" }, "concept": "how-are-you", "morph": "state-EZ" },
+          { "text": "شما", "latin": "shomâ", "gloss": { "en": "you (polite)", "sv": "ni" }, "concept": "how-are-you" },
+          { "text": "چطور", "latin": "chetor", "gloss": { "en": "how", "sv": "hur" }, "concept": "how-are-you" },
+          { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "how-are-you", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "صبح بخیر، حالتون چطوره؟", "latin": "sobh bekheyr, hâletun chetore?" },
+        "distractors": [
+          { "text": "تو", "latin": "to", "gloss": { "en": "you (to a friend)", "sv": "du" } },
+          { "text": "شب", "latin": "shab", "gloss": { "en": "night", "sv": "natt" } }
+        ],
+        "grammar": ["fa-formal-colloquial"],
+        "sources": [{ "source": "tatoeba", "ref": "#1903702" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "im-fine-thanks-and-you",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": {
+        "en": "I'm fine, thanks. And you?",
+        "sv": "Jag mår bra, tack. Och du?",
+        "enAlt": ["I'm fine, thank you. And you?", "I'm good, thanks. And you?"],
+        "svAlt": ["Bra, tack. Och du?", "Jag mår bra, tack. Själv då?"]
+      },
+      "ckb": {
+        "text": "باشم، سوپاس. ئەی تۆ؟",
+        "latin": "başim, supas. ey to?",
+        "tokens": [
+          { "text": "باشم،", "latin": "başim,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+          { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" },
+          { "text": "ئەی", "latin": "ey", "gloss": { "en": "and what about", "sv": "och hur är det med" }, "concept": "and-you" },
+          { "text": "تۆ؟", "latin": "to?", "gloss": { "en": "you", "sv": "du" }, "concept": "and-you" }
+        ],
+        "distractors": [
+          { "text": "باشە،", "latin": "başe,", "gloss": { "en": "okay", "sv": "okej" } },
+          { "text": "ببوورە.", "latin": "bibûre.", "gloss": { "en": "sorry", "sv": "förlåt" } }
+        ],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "tatoeba", "ref": "#10521776" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "خوبم، ممنون. تو چطور؟",
+        "latin": "khubam, mamnun. to chetor?",
+        "tokens": [
+          { "text": "خوبم،", "latin": "khubam,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+          { "text": "ممنون.", "latin": "mamnun.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" },
+          { "text": "تو", "latin": "to", "gloss": { "en": "you", "sv": "du" }, "concept": "and-you" },
+          { "text": "چطور؟", "latin": "chetor?", "gloss": { "en": "how", "sv": "hur" }, "concept": "and-you" }
+        ],
+        "alternatives": [
+          { "text": "خوبم، مرسی. تو چطور؟", "latin": "khubam, mersi. to chetor?" },
+          { "text": "خوبم، ممنون. تو چی؟", "latin": "khubam, mamnun. to chi?" }
+        ],
+        "distractors": [
+          { "text": "باشه،", "latin": "bâshe,", "gloss": { "en": "okay", "sv": "okej" } },
+          { "text": "ببخشید.", "latin": "bebakhshid.", "gloss": { "en": "sorry", "sv": "förlåt" } }
+        ],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "tatoeba", "ref": "#11115341" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "yes-im-fine",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Yes, I'm fine.", "sv": "Ja, jag mår bra.", "enAlt": ["Yes, I am fine.", "Yes, I'm good."] },
+      "ckb": {
+        "text": "بەڵێ، باشم.",
+        "latin": "bełê, başim.",
+        "tokens": [
+          { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+          { "text": "باشم.", "latin": "başim.", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" }
+        ],
+        "alternatives": [{ "text": "ئەرێ، باشم.", "latin": "erê, başim." }],
+        "distractors": [
+          { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" } },
+          { "text": "باشە.", "latin": "başe.", "gloss": { "en": "okay", "sv": "okej" } }
+        ],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "بله، خوبم.",
+        "latin": "bale, khubam.",
+        "tokens": [
+          { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+          { "text": "خوبم.", "latin": "khubam.", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" }
+        ],
+        "colloquial": { "text": "آره، خوبم.", "latin": "âre, khubam." },
+        "distractors": [
+          { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" } },
+          { "text": "خوب.", "latin": "khub.", "gloss": { "en": "good", "sv": "bra" } }
+        ],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "hello-welcome",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Hello, welcome!", "sv": "Hej, välkommen!", "enAlt": ["Hi, welcome!"] },
+      "ckb": {
+        "text": "سڵاو، بەخێربێیت!",
+        "latin": "sław, bexêrbêyt!",
+        "tokens": [
+          { "text": "سڵاو،", "latin": "sław,", "gloss": { "en": "hello", "sv": "hej" }, "concept": "hello" },
+          { "text": "بەخێربێیت!", "latin": "bexêrbêyt!", "gloss": { "en": "welcome", "sv": "välkommen" }, "concept": "welcome", "morph": "with-good-come.SBJV-2SG" }
+        ],
+        "alternatives": [
+          { "text": "سڵاو، بەخێربێی!", "latin": "sław, bexêrbêy!" },
+          { "text": "سڵاو، بەخێربێن!", "latin": "sław, bexêrbên!" }
+        ],
+        "distractors": [{ "text": "خوات لەگەڵ!", "latin": "xwat legeł!", "gloss": { "en": "goodbye", "sv": "hej då" } }],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "سلام، خوش آمدید!",
+        "latin": "salâm, khosh âmadid!",
+        "tokens": [
+          { "text": "سلام،", "latin": "salâm,", "gloss": { "en": "hello", "sv": "hej" }, "concept": "hello" },
+          { "text": "خوش", "latin": "khosh", "gloss": { "en": "happily", "sv": "glatt" }, "concept": "welcome" },
+          { "text": "آمدید!", "latin": "âmadid!", "gloss": { "en": "you came", "sv": "ni kom" }, "concept": "welcome", "morph": "come.PST-2PL" }
+        ],
+        "colloquial": { "text": "سلام، خوش اومدین!", "latin": "salâm, khosh umadin!" },
+        "alternatives": [{ "text": "سلام، خوش اومدی!", "latin": "salâm, khosh umadi!" }],
+        "distractors": [{ "text": "خداحافظ!", "latin": "khodâhâfez!", "gloss": { "en": "goodbye", "sv": "hej då" } }],
+        "grammar": ["fa-alphabet-vowels", "fa-formal-colloquial"],
+        "sources": [{ "source": "tatoeba", "ref": "#523321" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "okay-thanks",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Okay, thanks.", "sv": "Okej, tack.", "enAlt": ["OK, thanks.", "Okay, thank you."] },
+      "ckb": {
+        "text": "باشە، سوپاس.",
+        "latin": "başe, supas.",
+        "tokens": [
+          { "text": "باشە،", "latin": "başe,", "gloss": { "en": "okay", "sv": "okej" }, "concept": "okay", "morph": "good-COP.3SG" },
+          { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" }
+        ],
+        "distractors": [
+          { "text": "باشم،", "latin": "başim,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "morph": "good-COP.1SG" },
+          { "text": "تکایە.", "latin": "tikaye.", "gloss": { "en": "please", "sv": "snälla" } }
+        ],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "باشه، ممنون.",
+        "latin": "bâshe, mamnun.",
+        "tokens": [
+          { "text": "باشه،", "latin": "bâshe,", "gloss": { "en": "okay", "sv": "okej" }, "concept": "okay" },
+          { "text": "ممنون.", "latin": "mamnun.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" }
+        ],
+        "alternatives": [{ "text": "باشه، مرسی.", "latin": "bâshe, mersi." }],
+        "distractors": [
+          { "text": "خوبم،", "latin": "khubam,", "gloss": { "en": "I am fine", "sv": "jag mår bra" } },
+          { "text": "لطفاً.", "latin": "lotfan.", "gloss": { "en": "please", "sv": "snälla" } }
+        ],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "no-thank-you",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "No, thank you.", "sv": "Nej tack.", "enAlt": ["No, thanks."], "svAlt": ["Nej, tack."] },
+      "ckb": {
+        "text": "نەخێر، سوپاس.",
+        "latin": "nexêr, supas.",
+        "tokens": [
+          { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+          { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you" }
+        ],
+        "alternatives": [{ "text": "نا، سوپاس.", "latin": "na, supas." }],
+        "distractors": [
+          { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" } },
+          { "text": "تکایە.", "latin": "tikaye.", "gloss": { "en": "please", "sv": "snälla" } }
+        ],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "نه، ممنون.",
+        "latin": "na, mamnun.",
+        "tokens": [
+          { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+          { "text": "ممنون.", "latin": "mamnun.", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you" }
+        ],
+        "alternatives": [{ "text": "نه، ممنونم.", "latin": "na, mamnunam." }],
+        "colloquial": { "text": "نه، مرسی.", "latin": "na, mersi." },
+        "distractors": [
+          { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" } },
+          { "text": "لطفاً.", "latin": "lotfan.", "gloss": { "en": "please", "sv": "snälla" } }
+        ],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "tatoeba", "ref": "#652657" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "no-sorry",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "No, sorry.", "sv": "Nej, förlåt.", "svAlt": ["Nej, tyvärr."] },
+      "ckb": {
+        "text": "نەخێر، ببوورە.",
+        "latin": "nexêr, bibûre.",
+        "tokens": [
+          { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+          { "text": "ببوورە.", "latin": "bibûre.", "gloss": { "en": "sorry (forgive me)", "sv": "förlåt" }, "concept": "sorry", "morph": "SBJV-forgive.PRS-IMP.2SG" }
+        ],
+        "alternatives": [{ "text": "نەخێر، ببورە.", "latin": "nexêr, bibure." }],
+        "distractors": [
+          { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" } },
+          { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" } }
+        ],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "نه، ببخشید.",
+        "latin": "na, bebakhshid.",
+        "tokens": [
+          { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+          { "text": "ببخشید.", "latin": "bebakhshid.", "gloss": { "en": "sorry (forgive)", "sv": "förlåt" }, "concept": "sorry", "morph": "SBJV-forgive.PRS-2PL" }
+        ],
+        "distractors": [
+          { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" } },
+          { "text": "ممنون.", "latin": "mamnun.", "gloss": { "en": "thanks", "sv": "tack" } }
+        ],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "thanks-a-lot-goodbye",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Thanks a lot, goodbye!", "sv": "Tack så mycket, hej då!", "enAlt": ["Thank you very much, goodbye!", "Thanks a lot, bye!"] },
+      "ckb": {
+        "text": "زۆر سوپاس، خوات لەگەڵ!",
+        "latin": "zor supas, xwat legeł!",
+        "tokens": [
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "mycket" }, "concept": "thanks-a-lot" },
+          { "text": "سوپاس،", "latin": "supas,", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thanks-a-lot" },
+          { "text": "خوات", "latin": "xwat", "gloss": { "en": "your God", "sv": "din Gud" }, "concept": "goodbye", "morph": "God-2SG" },
+          { "text": "لەگەڵ!", "latin": "legeł!", "gloss": { "en": "with", "sv": "med" }, "concept": "goodbye" }
+        ],
+        "alternatives": [{ "text": "زۆر سوپاس، خوا حافیز!", "latin": "zor supas, xwa ḧafîz!" }],
+        "distractors": [{ "text": "سڵاو!", "latin": "sław!", "gloss": { "en": "hello", "sv": "hej" } }],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "tatoeba", "ref": "#10504786" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "خیلی ممنون، خداحافظ!",
+        "latin": "kheyli mamnun, khodâhâfez!",
+        "tokens": [
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "mycket" }, "concept": "thanks-a-lot" },
+          { "text": "ممنون،", "latin": "mamnun,", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thanks-a-lot" },
+          { "text": "خداحافظ!", "latin": "khodâhâfez!", "gloss": { "en": "goodbye", "sv": "hej då" }, "concept": "goodbye" }
+        ],
+        "alternatives": [{ "text": "خیلی مرسی، خداحافظ!", "latin": "kheyli mersi, khodâhâfez!" }],
+        "distractors": [{ "text": "سلام!", "latin": "salâm!", "gloss": { "en": "hello", "sv": "hej" } }],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "okay-good-night",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Okay, good night!", "sv": "Okej, god natt!", "enAlt": ["OK, good night!"] },
+      "ckb": {
+        "text": "باشە، شەو باش!",
+        "latin": "başe, şew baş!",
+        "tokens": [
+          { "text": "باشە،", "latin": "başe,", "gloss": { "en": "okay", "sv": "okej" }, "concept": "okay", "morph": "good-COP.3SG" },
+          { "text": "شەو", "latin": "şew", "gloss": { "en": "night", "sv": "natt" }, "concept": "good-night" },
+          { "text": "باش!", "latin": "baş!", "gloss": { "en": "good", "sv": "god" }, "concept": "good-night" }
+        ],
+        "distractors": [{ "text": "بەیانیت", "latin": "beyanît", "gloss": { "en": "your morning", "sv": "din morgon" } }],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "باشه، شب بخیر!",
+        "latin": "bâshe, shab bekheyr!",
+        "tokens": [
+          { "text": "باشه،", "latin": "bâshe,", "gloss": { "en": "okay", "sv": "okej" }, "concept": "okay" },
+          { "text": "شب", "latin": "shab", "gloss": { "en": "night", "sv": "natt" }, "concept": "good-night" },
+          { "text": "بخیر!", "latin": "bekheyr!", "gloss": { "en": "with goodness", "sv": "med det goda" }, "concept": "good-night" }
+        ],
+        "distractors": [{ "text": "صبح", "latin": "sobh", "gloss": { "en": "morning", "sv": "morgon" } }],
+        "grammar": ["fa-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "good-morning-welcome",
+      "unit": "greetings",
+      "level": "A1",
+      "translation": { "en": "Good morning, welcome!", "sv": "God morgon, välkommen!" },
+      "ckb": {
+        "text": "بەیانیت باش، بەخێربێیت!",
+        "latin": "beyanît baş, bexêrbêyt!",
+        "tokens": [
+          { "text": "بەیانیت", "latin": "beyanît", "gloss": { "en": "your morning", "sv": "din morgon" }, "concept": "good-morning", "morph": "morning-2SG" },
+          { "text": "باش،", "latin": "baş,", "gloss": { "en": "good", "sv": "god" }, "concept": "good-morning" },
+          { "text": "بەخێربێیت!", "latin": "bexêrbêyt!", "gloss": { "en": "welcome", "sv": "välkommen" }, "concept": "welcome", "morph": "with-good-come.SBJV-2SG" }
+        ],
+        "alternatives": [{ "text": "بەیانیتان باش، بەخێربێن!", "latin": "beyanîtan baş, bexêrbên!" }],
+        "distractors": [{ "text": "شەو", "latin": "şew", "gloss": { "en": "night", "sv": "natt" } }],
+        "grammar": ["ckb-alphabet-vowels"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "صبح بخیر، خوش آمدید!",
+        "latin": "sobh bekheyr, khosh âmadid!",
+        "tokens": [
+          { "text": "صبح", "latin": "sobh", "gloss": { "en": "morning", "sv": "morgon" }, "concept": "good-morning" },
+          { "text": "بخیر،", "latin": "bekheyr,", "gloss": { "en": "with goodness", "sv": "med det goda" }, "concept": "good-morning" },
+          { "text": "خوش", "latin": "khosh", "gloss": { "en": "happily", "sv": "glatt" }, "concept": "welcome" },
+          { "text": "آمدید!", "latin": "âmadid!", "gloss": { "en": "you came", "sv": "ni kom" }, "concept": "welcome", "morph": "come.PST-2PL" }
+        ],
+        "colloquial": { "text": "صبح بخیر، خوش اومدین!", "latin": "sobh bekheyr, khosh umadin!" },
+        "distractors": [{ "text": "شب", "latin": "shab", "gloss": { "en": "night", "sv": "natt" } }],
+        "grammar": ["fa-alphabet-vowels", "fa-formal-colloquial"],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

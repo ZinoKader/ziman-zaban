@@ -1,0 +1,728 @@
+{
+  "sentences": [
+    {
+      "id": "i-want-water",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "I want water.", "sv": "Jag vill ha vatten.", "enAlt": ["I'd like water."] },
+      "ckb": {
+        "text": "ئاوم دەوێت.",
+        "latin": "awim dewêt.",
+        "tokens": [
+          { "text": "ئاوم", "latin": "awim", "gloss": { "en": "water-my", "sv": "vatten-mitt" }, "concept": "water", "morph": "water-1SG" },
+          { "text": "دەوێت.", "latin": "dewêt.", "gloss": { "en": "is wanted", "sv": "önskas" }, "concept": "to-want", "morph": "DUR-want.PRS-3SG" }
+        ],
+        "alternatives": [{ "text": "ئاوم دەوێ.", "latin": "awim dewê." }],
+        "distractors": [
+          { "text": "ئاوت", "latin": "awit", "gloss": { "en": "water-your", "sv": "vatten-ditt" }, "morph": "water-2SG" },
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "grammar": ["ckb-wanting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§20" }]
+      },
+      "fa": {
+        "text": "آب می‌خواهم.",
+        "latin": "âb mikhâham.",
+        "tokens": [
+          { "text": "آب", "latin": "âb", "gloss": { "en": "water", "sv": "vatten" }, "concept": "water" },
+          { "text": "می‌خواهم.", "latin": "mikhâham.", "gloss": { "en": "I want", "sv": "jag vill ha" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" }
+        ],
+        "colloquial": { "text": "آب می‌خوام.", "latin": "âb mikhâm." },
+        "distractors": [
+          { "text": "می‌خواهی.", "latin": "mikhâhi.", "gloss": { "en": "you want", "sv": "du vill ha" }, "morph": "DUR-want.PRS-2SG" },
+          { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "grammar": ["fa-wanting-subjunctive", "fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-am-very-hungry",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": {
+        "en": "I'm very hungry.",
+        "sv": "Jag är jättehungrig.",
+        "enAlt": ["I'm really hungry."],
+        "svAlt": ["Jag är väldigt hungrig.", "Jag är mycket hungrig."]
+      },
+      "ckb": {
+        "text": "زۆر برسیمە.",
+        "latin": "zor birsîme.",
+        "tokens": [
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "mycket" } },
+          {
+            "text": "برسیمە.",
+            "latin": "birsîme.",
+            "gloss": { "en": "I'm hungry", "sv": "jag är hungrig" },
+            "concept": "hungry",
+            "morph": "hungry-1SG-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "زۆر برسیم.", "latin": "zor birsîm." }],
+        "distractors": [
+          { "text": "برسیتە.", "latin": "birsîte.", "gloss": { "en": "you're hungry", "sv": "du är hungrig" }, "morph": "hungry-2SG-COP.3SG" },
+          { "text": "تینوومە.", "latin": "tînûme.", "gloss": { "en": "I'm thirsty", "sv": "jag är törstig" }, "morph": "thirsty-1SG-COP.3SG" }
+        ],
+        "grammar": ["ckb-to-have"],
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Irregular verbs like هەبوون" }]
+      },
+      "fa": {
+        "text": "خیلی گرسنه‌ام.",
+        "latin": "kheyli gorosne-am.",
+        "tokens": [
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "mycket" } },
+          {
+            "text": "گرسنه‌ام.",
+            "latin": "gorosne-am.",
+            "gloss": { "en": "I'm hungry", "sv": "jag är hungrig" },
+            "concept": "hungry",
+            "morph": "hungry-COP.1SG"
+          }
+        ],
+        "colloquial": { "text": "خیلی گشنمه.", "latin": "kheyli goshname." },
+        "distractors": [
+          { "text": "گرسنه‌ای.", "latin": "gorosne-i.", "gloss": { "en": "you're hungry", "sv": "du är hungrig" }, "morph": "hungry-COP.2SG" },
+          { "text": "تشنه‌ام.", "latin": "teshne-am.", "gloss": { "en": "I'm thirsty", "sv": "jag är törstig" }, "morph": "thirsty-COP.1SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "im-thirsty-is-there-water",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "I'm thirsty. Is there any water?", "sv": "Jag är törstig. Finns det vatten?", "enAlt": ["I'm thirsty, is there water?"] },
+      "ckb": {
+        "text": "تینوومە، ئاو هەیە؟",
+        "latin": "tînûme, aw heye?",
+        "tokens": [
+          {
+            "text": "تینوومە،",
+            "latin": "tînûme,",
+            "gloss": { "en": "I'm thirsty", "sv": "jag är törstig" },
+            "concept": "thirsty",
+            "morph": "thirsty-1SG-COP.3SG"
+          },
+          { "text": "ئاو", "latin": "aw", "gloss": { "en": "water", "sv": "vatten" }, "concept": "water" },
+          { "text": "هەیە؟", "latin": "heye?", "gloss": { "en": "is there", "sv": "finns det" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+        ],
+        "distractors": [
+          { "text": "برسیمە،", "latin": "birsîme,", "gloss": { "en": "I'm hungry", "sv": "jag är hungrig" }, "morph": "hungry-1SG-COP.3SG" },
+          { "text": "نییە؟", "latin": "nîye?", "gloss": { "en": "isn't there", "sv": "finns det inte" }, "morph": "NEG.exist.PRS.3SG" }
+        ],
+        "grammar": ["ckb-to-have"],
+        "sources": [{ "source": "author" }, { "source": "kim-kurdish-grammar", "ref": "Irregular verbs like هەبوون" }]
+      },
+      "fa": {
+        "text": "تشنه‌ام، آب هست؟",
+        "latin": "teshne-am, âb hast?",
+        "tokens": [
+          {
+            "text": "تشنه‌ام،",
+            "latin": "teshne-am,",
+            "gloss": { "en": "I'm thirsty", "sv": "jag är törstig" },
+            "concept": "thirsty",
+            "morph": "thirsty-COP.1SG"
+          },
+          { "text": "آب", "latin": "âb", "gloss": { "en": "water", "sv": "vatten" }, "concept": "water" },
+          { "text": "هست؟", "latin": "hast?", "gloss": { "en": "is there", "sv": "finns det" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "تشنمه، آب هست؟", "latin": "teshname, âb hast?" },
+        "distractors": [
+          { "text": "گرسنه‌ام،", "latin": "gorosne-am,", "gloss": { "en": "I'm hungry", "sv": "jag är hungrig" }, "morph": "hungry-COP.1SG" },
+          { "text": "دارم؟", "latin": "dâram?", "gloss": { "en": "do I have", "sv": "har jag" }, "morph": "have.PRS-1SG" }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-drink-tea",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "Do you drink tea?", "sv": "Dricker du te?", "enAlt": ["Would you like tea?", "Will you have tea?"], "svAlt": ["Vill du ha te?"] },
+      "ckb": {
+        "text": "چا دەخۆیتەوە؟",
+        "latin": "ça dexoytewe?",
+        "tokens": [
+          { "text": "چا", "latin": "ça", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          {
+            "text": "دەخۆیتەوە؟",
+            "latin": "dexoytewe?",
+            "gloss": { "en": "do you drink", "sv": "dricker du" },
+            "concept": "to-drink",
+            "morph": "DUR-drink.PRS-2SG-ewe"
+          }
+        ],
+        "alternatives": [{ "text": "چای دەخۆیتەوە؟", "latin": "çay dexoytewe?" }],
+        "distractors": [
+          { "text": "دەخۆیت؟", "latin": "dexoyt?", "gloss": { "en": "do you eat", "sv": "äter du" }, "morph": "DUR-eat.PRS-2SG" },
+          { "text": "دەخۆمەوە؟", "latin": "dexomewe?", "gloss": { "en": "do I drink", "sv": "dricker jag" }, "morph": "DUR-drink.PRS-1SG-ewe" }
+        ],
+        "grammar": ["ckb-present-tense"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§17–18" }]
+      },
+      "fa": {
+        "text": "چای می‌خوری؟",
+        "latin": "chây mikhori?",
+        "tokens": [
+          { "text": "چای", "latin": "chây", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          {
+            "text": "می‌خوری؟",
+            "latin": "mikhori?",
+            "gloss": { "en": "do you drink (eat)", "sv": "dricker (äter) du" },
+            "concept": "to-eat",
+            "morph": "DUR-eat.PRS-2SG"
+          }
+        ],
+        "colloquial": { "text": "چایی می‌خوری؟", "latin": "châyi mikhori?" },
+        "alternatives": [{ "text": "چای می‌نوشی؟", "latin": "chây minushi?" }],
+        "distractors": [
+          { "text": "می‌خورم؟", "latin": "mikhoram?", "gloss": { "en": "do I drink", "sv": "dricker jag" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "بخوری؟", "latin": "bekhori?", "gloss": { "en": "(that) you drink", "sv": "(att) du dricker" }, "morph": "SBJV-eat.PRS-2SG" }
+        ],
+        "grammar": ["fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-dont-drink-coffee",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "I don't drink coffee.", "sv": "Jag dricker inte kaffe." },
+      "ckb": {
+        "text": "من قاوە ناخۆمەوە.",
+        "latin": "min qawe naxomewe.",
+        "tokens": [
+          { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+          { "text": "قاوە", "latin": "qawe", "gloss": { "en": "coffee", "sv": "kaffe" }, "concept": "coffee" },
+          {
+            "text": "ناخۆمەوە.",
+            "latin": "naxomewe.",
+            "gloss": { "en": "don't drink", "sv": "dricker inte" },
+            "concept": "to-drink",
+            "morph": "NEG-drink.PRS-1SG-ewe"
+          }
+        ],
+        "alternatives": [{ "text": "قاوە ناخۆمەوە.", "latin": "qawe naxomewe." }],
+        "distractors": [
+          { "text": "دەخۆمەوە.", "latin": "dexomewe.", "gloss": { "en": "drink", "sv": "dricker" }, "morph": "DUR-drink.PRS-1SG-ewe" },
+          {
+            "text": "نەخۆمەوە.",
+            "latin": "nexomewe.",
+            "gloss": { "en": "(wrong prefix in the present)", "sv": "(fel prefix i presens)" },
+            "morph": "NEG-drink.PRS-1SG-ewe"
+          }
+        ],
+        "grammar": ["ckb-negation", "ckb-present-tense"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§17–18" }]
+      },
+      "fa": {
+        "text": "من قهوه نمی‌خورم.",
+        "latin": "man ghahve nemikhoram.",
+        "tokens": [
+          { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+          { "text": "قهوه", "latin": "ghahve", "gloss": { "en": "coffee", "sv": "kaffe" }, "concept": "coffee" },
+          {
+            "text": "نمی‌خورم.",
+            "latin": "nemikhoram.",
+            "gloss": { "en": "don't drink (eat)", "sv": "dricker (äter) inte" },
+            "concept": "to-eat",
+            "morph": "NEG-DUR-eat.PRS-1SG"
+          }
+        ],
+        "alternatives": [{ "text": "قهوه نمی‌خورم.", "latin": "ghahve nemikhoram." }, { "text": "من قهوه نمی‌نوشم.", "latin": "man ghahve neminusham." }],
+        "distractors": [
+          { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "drink (eat)", "sv": "dricker (äter)" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "نخورم.", "latin": "nakhoram.", "gloss": { "en": "(that) I don't drink", "sv": "(att) jag inte dricker" }, "morph": "NEG-eat.PRS-1SG" }
+        ],
+        "grammar": ["fa-negation", "fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-dont-eat-meat",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "I don't eat meat.", "sv": "Jag äter inte kött." },
+      "ckb": {
+        "text": "گۆشت ناخۆم.",
+        "latin": "goşt naxom.",
+        "tokens": [
+          { "text": "گۆشت", "latin": "goşt", "gloss": { "en": "meat", "sv": "kött" }, "concept": "meat" },
+          { "text": "ناخۆم.", "latin": "naxom.", "gloss": { "en": "I don't eat", "sv": "jag äter inte" }, "concept": "to-eat", "morph": "NEG-eat.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "ناخۆمەوە.", "latin": "naxomewe.", "gloss": { "en": "I don't drink", "sv": "jag dricker inte" }, "morph": "NEG-drink.PRS-1SG-ewe" },
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "grammar": ["ckb-negation", "ckb-present-tense"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "text": "گوشت نمی‌خورم.",
+        "latin": "gusht nemikhoram.",
+        "tokens": [
+          { "text": "گوشت", "latin": "gusht", "gloss": { "en": "meat", "sv": "kött" }, "concept": "meat" },
+          {
+            "text": "نمی‌خورم.",
+            "latin": "nemikhoram.",
+            "gloss": { "en": "I don't eat", "sv": "jag äter inte" },
+            "concept": "to-eat",
+            "morph": "NEG-DUR-eat.PRS-1SG"
+          }
+        ],
+        "distractors": [
+          { "text": "نمی‌خوری.", "latin": "nemikhori.", "gloss": { "en": "you don't eat", "sv": "du äter inte" }, "morph": "NEG-DUR-eat.PRS-2SG" },
+          { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "grammar": ["fa-negation", "fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-want-to-eat-bread",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "I want to eat bread.", "sv": "Jag vill äta bröd." },
+      "ckb": {
+        "text": "دەمەوێت نان بخۆم.",
+        "latin": "demewêt nan bixom.",
+        "tokens": [
+          { "text": "دەمەوێت", "latin": "demewêt", "gloss": { "en": "I want", "sv": "jag vill" }, "concept": "to-want", "morph": "DUR-1SG-want.PRS-3SG" },
+          { "text": "نان", "latin": "nan", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+          { "text": "بخۆم.", "latin": "bixom.", "gloss": { "en": "(that) I eat", "sv": "(att) jag äter" }, "concept": "to-eat", "morph": "SBJV-eat.PRS-1SG" }
+        ],
+        "alternatives": [{ "text": "دەمەوێ نان بخۆم.", "latin": "demewê nan bixom." }],
+        "distractors": [
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat (not subjunctive)", "sv": "jag äter (inte konjunktiv)" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "دەتەوێت", "latin": "detewêt", "gloss": { "en": "you want", "sv": "du vill" }, "morph": "DUR-2SG-want.PRS-3SG" }
+        ],
+        "grammar": ["ckb-wanting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§19–20" }]
+      },
+      "fa": {
+        "text": "می‌خواهم نان بخورم.",
+        "latin": "mikhâham nân bekhoram.",
+        "tokens": [
+          { "text": "می‌خواهم", "latin": "mikhâham", "gloss": { "en": "I want", "sv": "jag vill" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" },
+          { "text": "نان", "latin": "nân", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+          {
+            "text": "بخورم.",
+            "latin": "bekhoram.",
+            "gloss": { "en": "(that) I eat", "sv": "(att) jag äter" },
+            "concept": "to-eat",
+            "morph": "SBJV-eat.PRS-1SG"
+          }
+        ],
+        "colloquial": { "text": "می‌خوام نون بخورم.", "latin": "mikhâm nun bokhoram." },
+        "distractors": [
+          {
+            "text": "می‌خورم.",
+            "latin": "mikhoram.",
+            "gloss": { "en": "I eat (not subjunctive)", "sv": "jag äter (inte konjunktiv)" },
+            "morph": "DUR-eat.PRS-1SG"
+          },
+          { "text": "بخوری.", "latin": "bekhori.", "gloss": { "en": "(that) you eat", "sv": "(att) du äter" }, "morph": "SBJV-eat.PRS-2SG" }
+        ],
+        "grammar": ["fa-wanting-subjunctive"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-do-you-want",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "What do you want?", "sv": "Vad vill du ha?", "enAlt": ["What would you like?"] },
+      "ckb": {
+        "text": "چیت دەوێت؟",
+        "latin": "çît dewêt?",
+        "tokens": [
+          { "text": "چیت", "latin": "çît", "gloss": { "en": "what-your", "sv": "vad-ditt" }, "concept": "what", "morph": "what-2SG" },
+          { "text": "دەوێت؟", "latin": "dewêt?", "gloss": { "en": "is wanted", "sv": "önskas" }, "concept": "to-want", "morph": "DUR-want.PRS-3SG" }
+        ],
+        "alternatives": [{ "text": "چیت دەوێ؟", "latin": "çît dewê?" }],
+        "distractors": [
+          { "text": "چیم", "latin": "çîm", "gloss": { "en": "what-my", "sv": "vad-mitt" }, "morph": "what-1SG" },
+          { "text": "دەخۆیت؟", "latin": "dexoyt?", "gloss": { "en": "do you eat", "sv": "äter du" }, "morph": "DUR-eat.PRS-2SG" }
+        ],
+        "grammar": ["ckb-wanting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§20" }]
+      },
+      "fa": {
+        "text": "چه می‌خواهید؟",
+        "latin": "che mikhâhid?",
+        "tokens": [
+          { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vad" }, "concept": "what" },
+          {
+            "text": "می‌خواهید؟",
+            "latin": "mikhâhid?",
+            "gloss": { "en": "do you want", "sv": "vill ni ha" },
+            "concept": "to-want",
+            "morph": "DUR-want.PRS-2PL"
+          }
+        ],
+        "colloquial": { "text": "چی می‌خواین؟", "latin": "chi mikhâyn?" },
+        "alternatives": [{ "text": "چه می‌خواهی؟", "latin": "che mikhâhi?" }],
+        "distractors": [
+          { "text": "می‌خواهم؟", "latin": "mikhâham?", "gloss": { "en": "do I want", "sv": "vill jag ha" }, "morph": "DUR-want.PRS-1SG" },
+          { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" } }
+        ],
+        "grammar": ["fa-wanting-subjunctive", "fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "a-glass-of-water-please",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "A glass of water, please.", "sv": "Ett glas vatten, tack." },
+      "ckb": {
+        "text": "پەرداخێک ئاو، تکایە.",
+        "latin": "perdaxêk aw, tikaye.",
+        "tokens": [
+          { "text": "پەرداخێک", "latin": "perdaxêk", "gloss": { "en": "a glass", "sv": "ett glas" }, "concept": "glass", "morph": "glass-INDF" },
+          { "text": "ئاو،", "latin": "aw,", "gloss": { "en": "water", "sv": "vatten" }, "concept": "water" },
+          { "text": "تکایە.", "latin": "tikaye.", "gloss": { "en": "please", "sv": "tack (snälla)" }, "concept": "please" }
+        ],
+        "distractors": [
+          { "text": "پەرداخی", "latin": "perdaxî", "gloss": { "en": "glass of (ezafe)", "sv": "glas av (ezafe)" }, "morph": "glass-EZ" },
+          { "text": "چا،", "latin": "ça,", "gloss": { "en": "tea", "sv": "te" } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "یک لیوان آب، لطفاً.",
+        "latin": "yek livân âb, lotfan.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "ett" }, "concept": "one" },
+          { "text": "لیوان", "latin": "livân", "gloss": { "en": "glass", "sv": "glas" }, "concept": "glass" },
+          { "text": "آب،", "latin": "âb,", "gloss": { "en": "water", "sv": "vatten" }, "concept": "water" },
+          { "text": "لطفاً.", "latin": "lotfan.", "gloss": { "en": "please", "sv": "tack (snälla)" }, "concept": "please" }
+        ],
+        "colloquial": { "text": "یه لیوان آب، لطفاً.", "latin": "ye livân âb, lotfan." },
+        "distractors": [
+          { "text": "لیوان‌ها", "latin": "livân-hâ", "gloss": { "en": "glasses", "sv": "glas (plural)" }, "morph": "glass-PL" },
+          { "text": "چای،", "latin": "chây,", "gloss": { "en": "tea", "sv": "te" } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-want-two-eggs",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "I want two eggs.", "sv": "Jag vill ha två ägg.", "enAlt": ["I'd like two eggs."] },
+      "ckb": {
+        "text": "دوو هێلکەم دەوێت.",
+        "latin": "dû hêlkem dewêt.",
+        "tokens": [
+          { "text": "دوو", "latin": "dû", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "هێلکەم", "latin": "hêlkem", "gloss": { "en": "egg-my", "sv": "ägg-mitt" }, "concept": "egg", "morph": "egg-1SG" },
+          { "text": "دەوێت.", "latin": "dewêt.", "gloss": { "en": "is wanted", "sv": "önskas" }, "concept": "to-want", "morph": "DUR-want.PRS-3SG" }
+        ],
+        "alternatives": [{ "text": "دوو دانە هێلکەم دەوێت.", "latin": "dû dane hêlkem dewêt." }, { "text": "دوو هێلکەم دەوێ.", "latin": "dû hêlkem dewê." }],
+        "distractors": [
+          { "text": "هێلکەکانم", "latin": "hêlkekanim", "gloss": { "en": "my eggs", "sv": "mina ägg" }, "morph": "egg-DEF.PL-1SG" },
+          { "text": "سێ", "latin": "sê", "gloss": { "en": "three", "sv": "tre" } }
+        ],
+        "grammar": ["ckb-wanting", "ckb-numbers-counting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12, §20" }]
+      },
+      "fa": {
+        "text": "دو تا تخم‌مرغ می‌خواهم.",
+        "latin": "do tâ tokhm-e-morgh mikhâham.",
+        "tokens": [
+          { "text": "دو", "latin": "do", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "تا", "latin": "tâ", "gloss": { "en": "(counter)", "sv": "(räknare)" } },
+          { "text": "تخم‌مرغ", "latin": "tokhm-e-morgh", "gloss": { "en": "egg", "sv": "ägg" }, "concept": "egg" },
+          { "text": "می‌خواهم.", "latin": "mikhâham.", "gloss": { "en": "I want", "sv": "jag vill ha" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" }
+        ],
+        "colloquial": { "text": "دو تا تخم‌مرغ می‌خوام.", "latin": "do tâ tokhm-e-morgh mikhâm." },
+        "alternatives": [{ "text": "دو تخم‌مرغ می‌خواهم.", "latin": "do tokhm-e-morgh mikhâham." }],
+        "distractors": [
+          { "text": "تخم‌مرغ‌ها", "latin": "tokhm-e-morgh-hâ", "gloss": { "en": "eggs (plural)", "sv": "ägg (plural)" }, "morph": "egg-PL" },
+          { "text": "سه", "latin": "se", "gloss": { "en": "three", "sv": "tre" } }
+        ],
+        "grammar": ["fa-wanting-subjunctive", "fa-numbers-counting"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-food-is-very-delicious",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": {
+        "en": "The food is very tasty.",
+        "sv": "Maten är jättegod.",
+        "enAlt": ["The food is very delicious."],
+        "svAlt": ["Maten är mycket god.", "Maten är väldigt god."]
+      },
+      "ckb": {
+        "text": "خواردنەکە زۆر بەتامە.",
+        "latin": "xwardineke zor betame.",
+        "tokens": [
+          { "text": "خواردنەکە", "latin": "xwardineke", "gloss": { "en": "the food", "sv": "maten" }, "concept": "food", "morph": "food-DEF" },
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "mycket" } },
+          { "text": "بەتامە.", "latin": "betame.", "gloss": { "en": "is tasty", "sv": "är god" }, "concept": "delicious", "morph": "tasty-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "بەتامن.", "latin": "betamin.", "gloss": { "en": "are tasty", "sv": "är goda" }, "morph": "tasty-COP.3PL" },
+          { "text": "خواردن", "latin": "xwardin", "gloss": { "en": "food (no \"the\")", "sv": "mat (obestämd)" } }
+        ],
+        "grammar": ["ckb-copula", "ckb-definite-ekan"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "غذا خیلی خوشمزه است.",
+        "latin": "ghazâ kheyli khoshmaze ast.",
+        "tokens": [
+          { "text": "غذا", "latin": "ghazâ", "gloss": { "en": "the food", "sv": "maten" }, "concept": "food" },
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "mycket" } },
+          { "text": "خوشمزه", "latin": "khoshmaze", "gloss": { "en": "tasty", "sv": "god" }, "concept": "delicious" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "غذا خیلی خوشمزه‌ست.", "latin": "ghazâ kheyli khoshmaze-st." },
+        "distractors": [
+          { "text": "هستند.", "latin": "hastand.", "gloss": { "en": "are", "sv": "är (plural)" }, "morph": "be.PRS-3PL" },
+          { "text": "نیست.", "latin": "nist.", "gloss": { "en": "is not", "sv": "är inte" }, "morph": "NEG.be.PRS.3SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "thats-enough-thanks",
+      "unit": "food-drink",
+      "level": "A1",
+      "translation": { "en": "That's enough, thank you.", "sv": "Det räcker, tack.", "enAlt": ["That's enough, thanks."] },
+      "ckb": {
+        "text": "بەسە، سوپاس.",
+        "latin": "bese, supas.",
+        "tokens": [
+          { "text": "بەسە،", "latin": "bese,", "gloss": { "en": "it's enough", "sv": "det räcker" }, "concept": "enough", "morph": "enough-COP.3SG" },
+          { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" }
+        ],
+        "distractors": [
+          { "text": "زیاتر", "latin": "zyatir", "gloss": { "en": "more", "sv": "mer" } },
+          { "text": "تکایە.", "latin": "tikaye.", "gloss": { "en": "please", "sv": "tack (snälla)" }, "concept": "please" }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "بس است، ممنون.",
+        "latin": "bas ast, mamnun.",
+        "tokens": [
+          { "text": "بس", "latin": "bas", "gloss": { "en": "enough", "sv": "nog" }, "concept": "enough" },
+          { "text": "است،", "latin": "ast,", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" },
+          { "text": "ممنون.", "latin": "mamnun.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" }
+        ],
+        "colloquial": { "text": "بسه، مرسی.", "latin": "basse, mersi." },
+        "alternatives": [{ "text": "کافی است، ممنون.", "latin": "kâfi ast, mamnun." }],
+        "distractors": [
+          { "text": "بیشتر", "latin": "bishtar", "gloss": { "en": "more", "sv": "mer" } },
+          { "text": "لطفاً.", "latin": "lotfan.", "gloss": { "en": "please", "sv": "tack (snälla)" }, "concept": "please" }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-drink-tea-without-sugar",
+      "unit": "food-drink",
+      "level": "A2",
+      "translation": { "en": "I drink tea without sugar.", "sv": "Jag dricker te utan socker." },
+      "ckb": {
+        "text": "چا بێ شەکر دەخۆمەوە.",
+        "latin": "ça bê şekir dexomewe.",
+        "tokens": [
+          { "text": "چا", "latin": "ça", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          { "text": "بێ", "latin": "bê", "gloss": { "en": "without", "sv": "utan" } },
+          { "text": "شەکر", "latin": "şekir", "gloss": { "en": "sugar", "sv": "socker" }, "concept": "sugar" },
+          {
+            "text": "دەخۆمەوە.",
+            "latin": "dexomewe.",
+            "gloss": { "en": "I drink", "sv": "jag dricker" },
+            "concept": "to-drink",
+            "morph": "DUR-drink.PRS-1SG-ewe"
+          }
+        ],
+        "distractors": [
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "خوێ", "latin": "xwê", "gloss": { "en": "salt", "sv": "salt" } }
+        ],
+        "grammar": ["ckb-present-tense"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "چای بدون شکر می‌خورم.",
+        "latin": "chây bedun shekar mikhoram.",
+        "tokens": [
+          { "text": "چای", "latin": "chây", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          { "text": "بدون", "latin": "bedun", "gloss": { "en": "without", "sv": "utan" } },
+          { "text": "شکر", "latin": "shekar", "gloss": { "en": "sugar", "sv": "socker" }, "concept": "sugar" },
+          {
+            "text": "می‌خورم.",
+            "latin": "mikhoram.",
+            "gloss": { "en": "I drink (eat)", "sv": "jag dricker (äter)" },
+            "concept": "to-eat",
+            "morph": "DUR-eat.PRS-1SG"
+          }
+        ],
+        "colloquial": { "text": "چایی بدون قند می‌خورم.", "latin": "châyi bedun ghand mikhoram." },
+        "alternatives": [{ "text": "چای بدون شکر می‌نوشم.", "latin": "chây bedun shekar minusham." }],
+        "distractors": [
+          { "text": "نمک", "latin": "namak", "gloss": { "en": "salt", "sv": "salt" } },
+          { "text": "می‌خوری.", "latin": "mikhori.", "gloss": { "en": "you drink", "sv": "du dricker" }, "morph": "DUR-eat.PRS-2SG" }
+        ],
+        "grammar": ["fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "for-breakfast-we-eat-bread-and-cheese",
+      "unit": "food-drink",
+      "level": "A2",
+      "translation": { "en": "For breakfast we eat bread and cheese.", "sv": "Till frukost äter vi bröd och ost." },
+      "ckb": {
+        "text": "بۆ نانی بەیانی نان و پەنیر دەخۆین.",
+        "latin": "bo nanî beyanî nan û penîr dexoyn.",
+        "tokens": [
+          { "text": "بۆ", "latin": "bo", "gloss": { "en": "for", "sv": "till" } },
+          { "text": "نانی", "latin": "nanî", "gloss": { "en": "bread of (meal)", "sv": "bröd (måltid)" }, "concept": "breakfast", "morph": "bread-EZ" },
+          { "text": "بەیانی", "latin": "beyanî", "gloss": { "en": "morning", "sv": "morgon" }, "concept": "breakfast" },
+          { "text": "نان", "latin": "nan", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "پەنیر", "latin": "penîr", "gloss": { "en": "cheese", "sv": "ost" }, "concept": "cheese" },
+          { "text": "دەخۆین.", "latin": "dexoyn.", "gloss": { "en": "we eat", "sv": "vi äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1PL" }
+        ],
+        "alternatives": [{ "text": "بۆ نانی بەیانی نان و پەنێر دەخۆین.", "latin": "bo nanî beyanî nan û penêr dexoyn." }],
+        "distractors": [
+          { "text": "دەخۆن.", "latin": "dexon.", "gloss": { "en": "they eat", "sv": "de äter" }, "morph": "DUR-eat.PRS-3PL" },
+          { "text": "ئێوارە", "latin": "êware", "gloss": { "en": "evening", "sv": "kväll" } }
+        ],
+        "grammar": ["ckb-present-tense"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "صبحانه نان و پنیر می‌خوریم.",
+        "latin": "sobhâne nân o panir mikhorim.",
+        "tokens": [
+          { "text": "صبحانه", "latin": "sobhâne", "gloss": { "en": "breakfast", "sv": "frukost" }, "concept": "breakfast" },
+          { "text": "نان", "latin": "nân", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "پنیر", "latin": "panir", "gloss": { "en": "cheese", "sv": "ost" }, "concept": "cheese" },
+          { "text": "می‌خوریم.", "latin": "mikhorim.", "gloss": { "en": "we eat", "sv": "vi äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1PL" }
+        ],
+        "colloquial": { "text": "صبحونه نون و پنیر می‌خوریم.", "latin": "sobhune nun o panir mikhorim." },
+        "distractors": [
+          { "text": "می‌خورند.", "latin": "mikhorand.", "gloss": { "en": "they eat", "sv": "de äter" }, "morph": "DUR-eat.PRS-3PL" },
+          { "text": "شام", "latin": "shâm", "gloss": { "en": "dinner", "sv": "middag" } }
+        ],
+        "grammar": ["fa-present-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "we-eat-dinner-at-seven",
+      "unit": "food-drink",
+      "level": "A2",
+      "translation": { "en": "We eat dinner at seven.", "sv": "Vi äter middag klockan sju.", "enAlt": ["We have dinner at seven."] },
+      "ckb": {
+        "text": "کاتژمێر حەوت نانی ئێوارە دەخۆین.",
+        "latin": "katjimêr ḧewt nanî êware dexoyn.",
+        "tokens": [
+          { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "حەوت", "latin": "ḧewt", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+          { "text": "نانی", "latin": "nanî", "gloss": { "en": "bread of (meal)", "sv": "bröd (måltid)" }, "concept": "dinner", "morph": "bread-EZ" },
+          { "text": "ئێوارە", "latin": "êware", "gloss": { "en": "evening", "sv": "kväll" }, "concept": "dinner" },
+          { "text": "دەخۆین.", "latin": "dexoyn.", "gloss": { "en": "we eat", "sv": "vi äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1PL" }
+        ],
+        "alternatives": [{ "text": "سەعات حەوت نانی ئێوارە دەخۆین.", "latin": "se'at ḧewt nanî êware dexoyn." }],
+        "distractors": [
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "بەیانی", "latin": "beyanî", "gloss": { "en": "morning", "sv": "morgon" } }
+        ],
+        "grammar": ["ckb-present-tense", "ckb-telling-time"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "ساعت هفت شام می‌خوریم.",
+        "latin": "sâ'at haft shâm mikhorim.",
+        "tokens": [
+          { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "هفت", "latin": "haft", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+          { "text": "شام", "latin": "shâm", "gloss": { "en": "dinner", "sv": "middag" }, "concept": "dinner" },
+          { "text": "می‌خوریم.", "latin": "mikhorim.", "gloss": { "en": "we eat", "sv": "vi äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1PL" }
+        ],
+        "distractors": [
+          { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "صبحانه", "latin": "sobhâne", "gloss": { "en": "breakfast", "sv": "frukost" } }
+        ],
+        "grammar": ["fa-present-tense", "fa-telling-time"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-want-to-drink-tea",
+      "unit": "food-drink",
+      "level": "A2",
+      "translation": { "en": "Do you want to drink tea?", "sv": "Vill du dricka te?", "enAlt": ["Would you like some tea?"], "svAlt": ["Vill du ha te?"] },
+      "ckb": {
+        "text": "دەتەوێت چا بخۆیتەوە؟",
+        "latin": "detewêt ça bixoytewe?",
+        "tokens": [
+          { "text": "دەتەوێت", "latin": "detewêt", "gloss": { "en": "you want", "sv": "du vill" }, "concept": "to-want", "morph": "DUR-2SG-want.PRS-3SG" },
+          { "text": "چا", "latin": "ça", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          {
+            "text": "بخۆیتەوە؟",
+            "latin": "bixoytewe?",
+            "gloss": { "en": "(that) you drink", "sv": "(att) du dricker" },
+            "concept": "to-drink",
+            "morph": "SBJV-drink.PRS-2SG-ewe"
+          }
+        ],
+        "alternatives": [{ "text": "دەتەوێ چا بخۆیتەوە؟", "latin": "detewê ça bixoytewe?" }, { "text": "چات دەوێت؟", "latin": "çat dewêt?" }],
+        "distractors": [
+          {
+            "text": "دەخۆیتەوە؟",
+            "latin": "dexoytewe?",
+            "gloss": { "en": "you drink (not subjunctive)", "sv": "du dricker (inte konjunktiv)" },
+            "morph": "DUR-drink.PRS-2SG-ewe"
+          },
+          { "text": "دەمەوێت", "latin": "demewêt", "gloss": { "en": "I want", "sv": "jag vill" }, "morph": "DUR-1SG-want.PRS-3SG" }
+        ],
+        "grammar": ["ckb-wanting"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§19–20" }]
+      },
+      "fa": {
+        "text": "می‌خواهید چای بنوشید؟",
+        "latin": "mikhâhid chây benushid?",
+        "tokens": [
+          { "text": "می‌خواهید", "latin": "mikhâhid", "gloss": { "en": "do you want", "sv": "vill ni" }, "concept": "to-want", "morph": "DUR-want.PRS-2PL" },
+          { "text": "چای", "latin": "chây", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          {
+            "text": "بنوشید؟",
+            "latin": "benushid?",
+            "gloss": { "en": "(that) you drink", "sv": "(att) ni dricker" },
+            "concept": "to-drink",
+            "morph": "SBJV-drink.PRS-2PL"
+          }
+        ],
+        "colloquial": { "text": "می‌خواین چایی بخورین؟", "latin": "mikhâyn châyi bokhorin?" },
+        "alternatives": [{ "text": "می‌خواهید چای بخورید؟", "latin": "mikhâhid chây bekhorid?" }],
+        "distractors": [
+          {
+            "text": "می‌نوشید؟",
+            "latin": "minushid?",
+            "gloss": { "en": "you drink (not subjunctive)", "sv": "ni dricker (inte konjunktiv)" },
+            "morph": "DUR-drink.PRS-2PL"
+          },
+          { "text": "می‌خواهم", "latin": "mikhâham", "gloss": { "en": "I want", "sv": "jag vill" }, "morph": "DUR-want.PRS-1SG" }
+        ],
+        "grammar": ["fa-wanting-subjunctive"],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

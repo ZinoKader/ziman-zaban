@@ -1,0 +1,764 @@
+{
+  "concepts": [
+    {
+      "id": "big",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🐘",
+      "gloss": { "en": "big", "sv": "stor", "enAlt": ["large"], "svAlt": ["stort", "stora"] },
+      "ckb": {
+        "primary": { "script": "گەورە", "latin": "gewre" },
+        "notes": {
+          "en": "Also \"grown-up, great\": گەورە بوون is \"to grow up\". You met it in برا گەورەکەم \"my older brother\", literally \"my big brother\".",
+          "sv": "Betyder också \"vuxen, stor\": گەورە بوون är \"att växa upp\". Du har sett det i برا گەورەکەم \"min storebror\", ordagrant \"min stora bror\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "big" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§5, §7" }]
+      },
+      "fa": {
+        "primary": { "script": "بزرگ", "latin": "bozorg" },
+        "variants": [
+          {
+            "script": "گنده",
+            "latin": "gonde",
+            "register": "colloquial",
+            "note": { "en": "huge, big (casual)", "sv": "jättestor, stor (vardagligt)" }
+          }
+        ],
+        "notes": {
+          "en": "Also \"great\" and \"grown-up\": بزرگ شدم \"I grew up\". Casual speech also has گنده (gonde) \"huge\".",
+          "sv": "Betyder också \"stor, vuxen\": بزرگ شدم \"jag växte upp\". I vardagligt tal finns också گنده (gonde) \"jättestor\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "big" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "small",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🐭",
+      "gloss": { "en": "small", "sv": "liten", "enAlt": ["little"], "svAlt": ["litet", "små"] },
+      "ckb": {
+        "primary": { "script": "بچووک", "latin": "biçûk" },
+        "notes": {
+          "en": "Also \"young\": برا بچووکەکەم \"my little brother\". The comparative بچووکتر is how you say \"younger\".",
+          "sv": "Betyder också \"ung\": برا بچووکەکەم \"min lillebror\". Komparativen بچووکتر är hur man säger \"yngre\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "small" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کوچک", "latin": "kuchak" },
+        "variants": [{ "script": "کوچیک", "latin": "kuchik", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech it is کوچیک (kuchik). Also \"young\": برادر کوچکم \"my little brother\".",
+          "sv": "I tal heter det کوچیک (kuchik). Betyder också \"ung\": برادر کوچکم \"min lillebror\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "small" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bad",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "👎",
+      "gloss": { "en": "bad", "sv": "dålig", "svAlt": ["dåligt", "dåliga"] },
+      "ckb": {
+        "primary": { "script": "خراپ", "latin": "xirap" },
+        "variants": [{ "script": "خەراپ", "latin": "xerap" }],
+        "notes": {
+          "en": "The opposite of باش \"good\". خراپ نییە \"it's not bad\" is a common modest answer.",
+          "sv": "Motsatsen till باش \"bra\". خراپ نییە \"det är inte dåligt\" är ett vanligt blygsamt svar."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bad" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بد", "latin": "bad" },
+        "notes": {
+          "en": "Sounds and means exactly like English \"bad\", but the two are not related: a famous coincidence. \"Not bad\" is بد نیست (bad nist).",
+          "sv": "Låter och betyder precis som engelskans \"bad\", men orden är inte släkt: en berömd slump. \"Inte illa\" heter بد نیست (bad nist)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bad" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "beautiful",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🌸",
+      "gloss": { "en": "beautiful", "sv": "vacker", "enAlt": ["pretty", "nice", "handsome"], "svAlt": ["fin", "snygg", "söt"] },
+      "ckb": {
+        "primary": { "script": "جوان", "latin": "ciwan" },
+        "notes": {
+          "en": "Used for anything nice: a person, a place, a thing. It also means \"young\", and it is the same word as Persian جوان (javân), which only means \"young\".",
+          "sv": "Används om allt fint: en person, en plats, en sak. Det betyder också \"ung\" och är samma ord som persiskans جوان (javân), som bara betyder \"ung\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "beautiful" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قشنگ", "latin": "ghashang" },
+        "variants": [
+          {
+            "script": "زیبا",
+            "latin": "zibâ",
+            "register": "formal",
+            "note": { "en": "beautiful (written, poetic)", "sv": "vacker (skrift, poesi)" }
+          },
+          { "script": "خوشگل", "latin": "khoshgel", "register": "colloquial", "note": { "en": "good-looking, cute", "sv": "snygg, söt" } }
+        ],
+        "notes": {
+          "en": "قشنگ is the everyday word: خیلی قشنگه! \"it's so beautiful!\". زیبا (zibâ) is the written and poetic word. Careful: Persian جوان means \"young\", not \"beautiful\" as in Sorani.",
+          "sv": "قشنگ är vardagsordet: خیلی قشنگه! \"vad vackert!\". زیبا (zibâ) är skriftspråkets och poesins ord. Se upp: persiskans جوان betyder \"ung\", inte \"vacker\" som i soranin."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pretty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "new",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🆕",
+      "gloss": { "en": "new", "sv": "ny", "svAlt": ["nytt", "nya"] },
+      "ckb": {
+        "primary": { "script": "نوێ", "latin": "nwê" },
+        "variants": [{ "script": "تازە", "latin": "taze", "note": { "en": "fresh, brand-new", "sv": "färsk, splitter ny" } }],
+        "notes": {
+          "en": "Related to Persian نو (now), English \"new\" and Swedish \"ny\". تازە (taze) is \"fresh, brand-new\".",
+          "sv": "Släkt med persiskans نو (now), engelskans \"new\" och svenskans \"ny\". تازە (taze) är \"färsk, splitter ny\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "new" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جدید", "latin": "jadid" },
+        "variants": [
+          { "script": "نو", "latin": "now", "note": { "en": "new, unused (of things)", "sv": "ny, oanvänd (om saker)" } },
+          { "script": "تازه", "latin": "tâze", "note": { "en": "fresh", "sv": "färsk" } }
+        ],
+        "notes": {
+          "en": "جدید (from Arabic) is the general word. نو (now) \"brand-new\" is related to Sorani نوێ, English \"new\" and Swedish \"ny\".",
+          "sv": "جدید (från arabiskan) är det allmänna ordet. نو (now) \"splitter ny\" är släkt med soranins نوێ, engelskans \"new\" och svenskans \"ny\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "new" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "old",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🏚️",
+      "gloss": { "en": "old", "sv": "gammal", "svAlt": ["gammalt", "gamla"] },
+      "senseNote": { "en": "of things", "sv": "om saker" },
+      "ckb": {
+        "primary": { "script": "کۆن", "latin": "kon" },
+        "notes": {
+          "en": "Only for things. An old person is پیر (pîr), as in داپیر \"grandmother\".",
+          "sv": "Bara om saker. En gammal människa är پیر (pîr), som i داپیر \"farmor, mormor\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "old" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قدیمی", "latin": "ghadimi" },
+        "variants": [{ "script": "کهنه", "latin": "kohne", "note": { "en": "old, worn, used", "sv": "gammal, sliten, använd" } }],
+        "notes": {
+          "en": "For things. کهنه (kohne) is \"worn, used\", as in لباس کهنه \"old clothes\"; it is related to Sorani کۆن. An old person is پیر (pir), as in Sorani.",
+          "sv": "Om saker. کهنه (kohne) är \"sliten, använd\", som i لباس کهنه \"gamla kläder\"; det är släkt med soranins کۆن. En gammal människa är پیر (pir), som i soranin."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "old" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hot",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🔥",
+      "gloss": { "en": "hot", "sv": "varm", "enAlt": ["warm"], "svAlt": ["het", "varmt"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گەرم", "latin": "germ" },
+        "notes": {
+          "en": "Also \"warm\", for weather, food and drinks: چاکە گەرمە \"the tea is hot\". Related to Persian گرم and English \"warm\".",
+          "sv": "Betyder också \"varm\", om väder, mat och dryck: چاکە گەرمە \"teet är varmt\". Släkt med persiskans گرم och engelskans \"warm\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hot" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گرم", "latin": "garm" },
+        "variants": [{ "script": "داغ", "latin": "dâgh", "note": { "en": "very hot, burning (tea, food)", "sv": "het, skållhet (te, mat)" } }],
+        "notes": {
+          "en": "For very hot things like tea use داغ (dâgh). \"I'm hot\" is گرمم است, in speech گرممه (garmame), literally \"heat is to me\".",
+          "sv": "För riktigt heta saker som te säger man داغ (dâgh). \"Jag är varm\" heter گرمم است, i tal گرممه (garmame), ordagrant \"värme är för mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hot" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cold",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🥶",
+      "gloss": { "en": "cold", "sv": "kall", "svAlt": ["kallt", "kalla"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سارد", "latin": "sard" },
+        "notes": {
+          "en": "For things and weather: هەوا ساردە \"the weather is cold\". To say you feel cold, Kurds use the noun سەرما \"cold\": سەرمامە (sermame) \"I'm cold\", like Swedish \"jag fryser\".",
+          "sv": "Om saker och väder: هەوا ساردە \"det är kallt ute\". För att säga att man fryser använder man substantivet سەرما \"kyla\": سەرمامە (sermame) \"jag fryser\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cold" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سرد", "latin": "sard" },
+        "notes": {
+          "en": "The same word as Sorani سارد. \"I'm cold\" is سردم است (sardam ast), in speech سردمه (sardame), literally \"cold is to me\". سرما خوردم \"I caught a cold\" is literally \"I ate cold\".",
+          "sv": "Samma ord som soranins سارد. \"Jag fryser\" heter سردم است (sardam ast), i tal سردمه (sardame), ordagrant \"kyla är för mig\". سرما خوردم \"jag blev förkyld\" är ordagrant \"jag åt kyla\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cold" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "happy",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "😊",
+      "gloss": { "en": "happy", "sv": "glad", "enAlt": ["glad", "pleased"], "svAlt": ["lycklig", "nöjd"] },
+      "ckb": {
+        "primary": { "script": "دڵخۆش", "latin": "diłxoş" },
+        "variants": [{ "script": "خۆشحاڵ", "latin": "xoşḧał", "note": { "en": "glad, pleased", "sv": "glad, nöjd" } }],
+        "notes": {
+          "en": "Literally \"heart-pleasant\": دڵ (heart) + خۆش (nice). خۆشحاڵ, as in خۆشحاڵم بە ناسینت \"nice to meet you\", also means \"glad\".",
+          "sv": "Ordagrant \"hjärtat-trevligt\": دڵ (hjärta) + خۆش (trevlig). خۆشحاڵ, som i خۆشحاڵم بە ناسینت \"trevligt att träffas\", betyder också \"glad\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "happy" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خوشحال", "latin": "khoshhâl" },
+        "variants": [
+          {
+            "script": "شاد",
+            "latin": "shâd",
+            "register": "formal",
+            "note": { "en": "joyful (written, poetic)", "sv": "glad, lycklig (skrift, poesi)" }
+          }
+        ],
+        "notes": {
+          "en": "Literally \"pleasant state\": خوش (nice) + حال (state), as in حالت چطوره؟ \"how are you?\". Sorani has the same word, خۆشحاڵ.",
+          "sv": "Ordagrant \"trevligt tillstånd\": خوش (trevlig) + حال (tillstånd), som i حالت چطوره؟ \"hur mår du?\". Soranin har samma ord, خۆشحاڵ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "happy" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sad",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "😢",
+      "gloss": { "en": "sad", "sv": "ledsen", "enAlt": ["upset", "unhappy"], "svAlt": ["sorgsen", "upprörd"] },
+      "ckb": {
+        "primary": { "script": "خەمبار", "latin": "xembar" },
+        "variants": [
+          {
+            "script": "دڵتەنگ",
+            "latin": "diłteng",
+            "note": { "en": "sad, low; also \"missing someone\"", "sv": "ledsen, nere; också \"sakna någon\"" }
+          }
+        ],
+        "notes": {
+          "en": "Built on خەم (xem) \"sorrow\", the same word as Persian غم (gham). دڵتەنگ, literally \"tight-hearted\", is just as common in speech.",
+          "sv": "Bildat av خەم (xem) \"sorg\", samma ord som persiskans غم (gham). دڵتەنگ, ordagrant \"trånghjärtad\", är lika vanligt i tal."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "ناراحت", "latin": "nârâhat" },
+        "variants": [
+          {
+            "script": "غمگین",
+            "latin": "ghamgin",
+            "register": "formal",
+            "note": { "en": "sad, sorrowful (more literary)", "sv": "sorgsen (mer litterärt)" }
+          }
+        ],
+        "notes": {
+          "en": "Literally \"uncomfortable\" (نا + راحت), and the everyday word for \"sad, upset\": ناراحتم \"I'm upset\". غمگین (ghamgin) is a deeper, more literary \"sad\".",
+          "sv": "Ordagrant \"obekväm\" (نا + راحت), och vardagsordet för \"ledsen, upprörd\": ناراحتم \"jag är ledsen\". غمگین (ghamgin) är ett djupare, mer litterärt \"sorgsen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ناراحت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tired",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🥱",
+      "gloss": { "en": "tired", "sv": "trött" },
+      "ckb": {
+        "primary": { "script": "ماندوو", "latin": "mandû" },
+        "notes": {
+          "en": "\"I'm tired\" is ماندووم (mandûm). ماندوو نەبیت! (mandû nebît) \"may you not be tired\" is what you say to someone who has been working or travelling.",
+          "sv": "\"Jag är trött\" heter ماندووم (mandûm). ماندوو نەبیت! (mandû nebît) \"må du inte vara trött\" säger man till någon som har arbetat eller rest."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tired" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خسته", "latin": "khaste" },
+        "notes": {
+          "en": "\"I'm tired\" is خسته‌ام (khaste-am). خسته نباشید! (khaste nabâshid) \"may you not be tired\" is said to anyone who has been working: a shopkeeper, a teacher, a colleague.",
+          "sv": "\"Jag är trött\" heter خسته‌ام (khaste-am). خسته نباشید! (khaste nabâshid) \"må ni inte vara trötta\" säger man till alla som har arbetat: en handlare, en lärare, en kollega."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خسته" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sick",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🤒",
+      "gloss": { "en": "sick", "sv": "sjuk", "enAlt": ["ill"], "svAlt": ["krasslig"] },
+      "ckb": {
+        "primary": { "script": "نەخۆش", "latin": "nexoş" },
+        "notes": {
+          "en": "Literally \"not well\": نە (not) + خۆش (nice, well). A patient is also نەخۆش, and a hospital is نەخۆشخانە, a \"sick-house\".",
+          "sv": "Ordagrant \"inte bra\": نە (inte) + خۆش (trevlig, bra). En patient heter också نەخۆش, och ett sjukhus är نەخۆشخانە, ett \"sjukhus\" precis som på svenska."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sick" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مریض", "latin": "mariz" },
+        "variants": [{ "script": "بیمار", "latin": "bimâr", "register": "formal" }],
+        "notes": {
+          "en": "مریض (from Arabic) is the everyday word: مریضم \"I'm sick\". بیمار (bimâr) is formal and gives بیمارستان (bimârestân) \"hospital\".",
+          "sv": "مریض (från arabiskan) är vardagsordet: مریضم \"jag är sjuk\". بیمار (bimâr) är formellt och ger بیمارستان (bimârestân) \"sjukhus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ill" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "very",
+      "unit": "describing",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "very", "sv": "mycket", "enAlt": ["a lot", "much", "really"], "svAlt": ["väldigt", "jätte"] },
+      "ckb": {
+        "primary": { "script": "زۆر", "latin": "zor" },
+        "notes": {
+          "en": "Also \"much, many, a lot\": زۆر سوپاس \"thanks a lot\". It comes before the adjective, as in Swedish: زۆر باشە \"very good\".",
+          "sv": "Betyder också \"mycket, många\": زۆر سوپاس \"tack så mycket\". Det står före adjektivet, som på svenska: زۆر باشە \"mycket bra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "very" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خیلی", "latin": "kheyli" },
+        "variants": [{ "script": "بسیار", "latin": "besyâr", "register": "formal" }],
+        "notes": {
+          "en": "Also \"a lot\": خیلی ممنون \"thanks a lot\". It comes before the adjective: خیلی خوب \"very good\". بسیار (besyâr) is the formal, written word.",
+          "sv": "Betyder också \"mycket, många\": خیلی ممنون \"tack så mycket\". Det står före adjektivet: خیلی خوب \"mycket bra\". بسیار (besyâr) är det formella, skriftliga ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "very" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "red",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🔴",
+      "gloss": { "en": "red", "sv": "röd", "svAlt": ["rött", "röda"] },
+      "ckb": {
+        "primary": { "script": "سوور", "latin": "sûr" },
+        "notes": {
+          "en": "Colors follow the noun with the ezafe: گوڵی سوور (guł-î sûr) \"a red flower\", which is also the word for \"rose\".",
+          "sv": "Färger står efter substantivet med ezafe: گوڵی سوور (guł-î sûr) \"en röd blomma\", som också är ordet för \"ros\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "red" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§8" }]
+      },
+      "fa": {
+        "primary": { "script": "قرمز", "latin": "ghermez" },
+        "variants": [
+          {
+            "script": "سرخ",
+            "latin": "sorkh",
+            "register": "formal",
+            "note": { "en": "red (poetic, fixed phrases)", "sv": "röd (poesi, fasta uttryck)" }
+          }
+        ],
+        "notes": {
+          "en": "سرخ (sorkh), related to Sorani سوور, lives on in poetry and fixed phrases like گل سرخ \"rose\". In everyday Persian red is قرمز.",
+          "sv": "سرخ (sorkh), släkt med soranins سوور, lever kvar i poesi och fasta uttryck som گل سرخ \"ros\". I vardagspersiska heter röd قرمز."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "red" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "blue",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🔵",
+      "gloss": { "en": "blue", "sv": "blå", "svAlt": ["blått", "blåa"] },
+      "ckb": {
+        "primary": { "script": "شین", "latin": "şîn" },
+        "notes": {
+          "en": "ئاسمان شینە \"the sky is blue\". The same word also means \"mourning\", but context keeps them apart.",
+          "sv": "ئاسمان شینە \"himlen är blå\". Samma ord betyder också \"sorg, klagan\", men sammanhanget håller isär dem."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "blue" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آبی", "latin": "âbi" },
+        "notes": {
+          "en": "Literally \"watery\": آب (âb) \"water\" + -i. Dark blue, navy, has its own word: سرمه‌ای (sorme-i).",
+          "sv": "Ordagrant \"vattnig\": آب (âb) \"vatten\" + -i. Mörkblått, marinblått, har ett eget ord: سرمه‌ای (sorme-i)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "blue" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "green",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🟢",
+      "gloss": { "en": "green", "sv": "grön", "svAlt": ["grönt", "gröna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سەوز", "latin": "sewz" },
+        "notes": { "en": "The same word as Persian سبز (sabz).", "sv": "Samma ord som persiskans سبز (sabz)." },
+        "sources": [{ "source": "wiktionary", "ref": "green" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سبز", "latin": "sabz" },
+        "notes": {
+          "en": "سبزی (sabzi) means \"herbs, greens\", as in the famous stew قورمه‌سبزی (ghorme sabzi).",
+          "sv": "سبزی (sabzi) betyder \"örter, grönsaker\", som i den berömda grytan قورمه‌سبزی (ghorme sabzi)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "green" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "white",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "⚪",
+      "gloss": { "en": "white", "sv": "vit", "svAlt": ["vitt", "vita"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سپی", "latin": "spî" },
+        "notes": {
+          "en": "Starts with a cluster: spî, with no vowel before the s. \"It's white\" is سپییە (spîye).",
+          "sv": "Börjar med en konsonantgrupp: spî, utan vokal före s. \"Den är vit\" heter سپییە (spîye)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "white" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سفید", "latin": "sefid" },
+        "notes": {
+          "en": "The poetic form سپید (sepid) shows the link to Sorani سپی (spî).",
+          "sv": "Den poetiska formen سپید (sepid) visar släktskapen med soranins سپی (spî)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "white" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "black",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "⚫",
+      "gloss": { "en": "black", "sv": "svart", "svAlt": ["svarta"] },
+      "ckb": {
+        "primary": { "script": "ڕەش", "latin": "řeş" },
+        "notes": {
+          "en": "Starts with the rolled ڕ, like every Sorani word that begins with r. \"It's black\" is ڕەشە (řeşe).",
+          "sv": "Börjar med det rullade ڕ, som alla soraniord som börjar på r. \"Den är svart\" heter ڕەشە (řeşe)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "black" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سیاه", "latin": "siyâh" },
+        "variants": [
+          {
+            "script": "مشکی",
+            "latin": "meshki",
+            "note": { "en": "black, for things: cars, clothes, hair", "sv": "svart, om saker: bilar, kläder, hår" }
+          }
+        ],
+        "notes": {
+          "en": "For the color of things like cars, clothes or hair, people usually say مشکی (meshki): ماشین مشکی \"a black car\". سیاه is the general word.",
+          "sv": "Om färgen på saker som bilar, kläder eller hår säger man oftast مشکی (meshki): ماشین مشکی \"en svart bil\". سیاه är det allmänna ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "black" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "yellow",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🟡",
+      "gloss": { "en": "yellow", "sv": "gul", "svAlt": ["gult", "gula"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "زەرد", "latin": "zerd" },
+        "notes": { "en": "The same word as Persian زرد (zard).", "sv": "Samma ord som persiskans زرد (zard)." },
+        "sources": [{ "source": "wiktionary", "ref": "yellow" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زرد", "latin": "zard" },
+        "notes": {
+          "en": "زردچوبه (zardchube) \"turmeric\" is literally \"yellow wood\".",
+          "sv": "زردچوبه (zardchube) \"gurkmeja\" är ordagrant \"gult trä\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "yellow" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "easy",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "👌",
+      "gloss": { "en": "easy", "sv": "lätt", "enAlt": ["simple"], "svAlt": ["enkel", "enkelt"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئاسان", "latin": "asan" },
+        "notes": {
+          "en": "The same word as Persian آسان (âsân). \"Easier\" is ئاسانتر (asantir).",
+          "sv": "Samma ord som persiskans آسان (âsân). \"Lättare\" heter ئاسانتر (asantir)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ئاسان" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آسان", "latin": "âsân" },
+        "variants": [
+          { "script": "آسون", "latin": "âsun", "register": "colloquial" },
+          { "script": "راحت", "latin": "râhat", "register": "colloquial", "note": { "en": "easy, comfortable", "sv": "lätt, bekväm" } }
+        ],
+        "notes": {
+          "en": "In Tehran speech ân often becomes un: آسون (âsun). People also say راحت (râhat) \"comfortable, easy\".",
+          "sv": "I Teherans talspråk blir ân ofta un: آسون (âsun). Man säger också راحت (râhat) \"bekväm, lätt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "easy" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "difficult",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🧗",
+      "gloss": { "en": "difficult", "sv": "svår", "enAlt": ["hard"], "svAlt": ["svårt", "svåra"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سەخت", "latin": "sext" },
+        "variants": [{ "script": "زەحمەت", "latin": "zeḧmet", "note": { "en": "difficult; also \"trouble\"", "sv": "svår; också \"besvär\"" } }],
+        "notes": {
+          "en": "The same word as Persian سخت (sakht). زەحمەت (zeḧmet) is just as common in speech, and also means \"trouble\": زەحمەت نەبێت \"if it's no trouble\".",
+          "sv": "Samma ord som persiskans سخت (sakht). زەحمەت (zeḧmet) är lika vanligt i tal och betyder också \"besvär\": زەحمەت نەبێت \"om det inte är besvärligt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "difficult" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§5, §7" }]
+      },
+      "fa": {
+        "primary": { "script": "سخت", "latin": "sakht" },
+        "variants": [
+          {
+            "script": "مشکل",
+            "latin": "moshkel",
+            "note": { "en": "difficult; as a noun \"problem\"", "sv": "svår; som substantiv \"problem\"" }
+          }
+        ],
+        "notes": {
+          "en": "Also \"hard\" (of things). مشکل (moshkel) also means \"difficult\", and as a noun \"problem\": مشکلی نیست \"no problem\".",
+          "sv": "Betyder också \"hård\" (om saker). مشکل (moshkel) betyder också \"svår\", och som substantiv \"problem\": مشکلی نیست \"inga problem\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "difficult" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cheap",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🏷️",
+      "gloss": { "en": "cheap", "sv": "billig", "enAlt": ["inexpensive"], "svAlt": ["billigt", "billiga"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەرزان", "latin": "herzan" },
+        "notes": {
+          "en": "The same word as Persian ارزان (arzân). At the bazaar: هەرزانترت نییە؟ \"don't you have anything cheaper?\".",
+          "sv": "Samma ord som persiskans ارزان (arzân). På basaren: هەرزانترت نییە؟ \"har du inget billigare?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cheap" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ارزان", "latin": "arzân" },
+        "variants": [{ "script": "ارزون", "latin": "arzun", "register": "colloquial" }],
+        "notes": {
+          "en": "In Tehran speech ân often becomes un: ارزون (arzun), گرون (gerun).",
+          "sv": "I Teherans talspråk blir ân ofta un: ارزون (arzun), گرون (gerun)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cheap" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "expensive",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "💰",
+      "gloss": { "en": "expensive", "sv": "dyr", "svAlt": ["dyrt", "dyra"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گران", "latin": "giran" },
+        "notes": {
+          "en": "Also \"heavy\" and \"difficult\", in Sorani and in Persian. گرانە! \"it's expensive!\" is a phrase you will need at the bazaar.",
+          "sv": "Betyder också \"tung\" och \"svår\", både på sorani och persiska. گرانە! \"det är dyrt!\" är en fras du behöver på basaren."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "expensive" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گران", "latin": "gerân" },
+        "variants": [{ "script": "گرون", "latin": "gerun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech گرون (gerun): خیلی گرونه! \"it's so expensive!\". Also \"heavy\", the same word as Sorani گران.",
+          "sv": "I tal گرون (gerun): خیلی گرونه! \"vad dyrt!\". Betyder också \"tung\", samma ord som soranins گران."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گران" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "clean",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🧼",
+      "gloss": { "en": "clean", "sv": "ren", "svAlt": ["rent", "rena"] },
+      "ckb": {
+        "primary": { "script": "خاوێن", "latin": "xawên" },
+        "variants": [{ "script": "پاک", "latin": "pak", "note": { "en": "clean, pure", "sv": "ren, renlig" } }],
+        "notes": {
+          "en": "پاک (pak) \"clean, pure\" is also common, and پاک کردنەوە is \"to clean\".",
+          "sv": "پاک (pak) \"ren\" är också vanligt, och پاک کردنەوە betyder \"att städa, göra ren\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clean" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تمیز", "latin": "tamiz" },
+        "variants": [{ "script": "پاک", "latin": "pâk", "note": { "en": "clean, pure", "sv": "ren" } }],
+        "notes": {
+          "en": "تمیز (from Arabic) is the everyday word. پاک (pâk) \"pure\" is the same word as Sorani پاک and is in پاکستان \"land of the pure\".",
+          "sv": "تمیز (från arabiskan) är vardagsordet. پاک (pâk) \"ren\" är samma ord som soranins پاک och finns i پاکستان \"de renas land\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clean" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dirty",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "gloss": { "en": "dirty", "sv": "smutsig", "svAlt": ["smutsigt", "skitig"] },
+      "ckb": {
+        "primary": { "script": "پیس", "latin": "pîs" },
+        "variants": [{ "script": "چڵکن", "latin": "çiłkin", "note": { "en": "grimy, filthy", "sv": "skitig, sotig" } }],
+        "notes": {
+          "en": "The opposite of خاوێن: ژوورەکەی پیسە \"his room is dirty\".",
+          "sv": "Motsatsen till خاوێن: ژوورەکەی پیسە \"hans rum är smutsigt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dirty" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کثیف", "latin": "kasif" },
+        "notes": {
+          "en": "From Arabic; the ث is pronounced s. The opposite of تمیز (tamiz).",
+          "sv": "Från arabiskan; ث uttalas s. Motsatsen till تمیز (tamiz)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dirty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "color",
+      "unit": "describing",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🎨",
+      "gloss": { "en": "color", "sv": "färg", "enAlt": ["colour"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ڕەنگ", "latin": "řeng" },
+        "notes": {
+          "en": "\"What color is it?\" is چ ڕەنگێکە؟ (çi řengêke?), literally \"it is what color?\". The same word as Persian رنگ.",
+          "sv": "\"Vilken färg är det?\" heter چ ڕەنگێکە؟ (çi řengêke?), ordagrant \"det är vilken färg?\". Samma ord som persiskans رنگ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "color" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "رنگ", "latin": "rang" },
+        "notes": {
+          "en": "\"What color is it?\" is چه رنگی است؟ (che rangi ast?), in speech چه رنگیه؟. رنگ also means \"paint\".",
+          "sv": "\"Vilken färg är det?\" heter چه رنگی است؟ (che rangi ast?), i tal چه رنگیه؟. رنگ betyder också \"målarfärg\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "color" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "weather",
+      "unit": "describing",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🌤️",
+      "gloss": { "en": "weather", "sv": "väder", "svAlt": ["vädret"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەوا", "latin": "hewa" },
+        "notes": {
+          "en": "Also \"air\". Where Swedish says \"det är kallt\", Kurdish says \"the weather is cold\": هەوا ساردە.",
+          "sv": "Betyder också \"luft\". Där svenskan säger \"det är kallt\" säger kurdiskan \"vädret är kallt\": هەوا ساردە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "هەوا" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هوا", "latin": "havâ" },
+        "notes": {
+          "en": "Also \"air\", the same word as Sorani هەوا. \"It's hot\" is هوا گرم است, literally \"the weather is hot\".",
+          "sv": "Betyder också \"luft\", samma ord som soranins هەوا. \"Det är varmt\" heter هوا گرم است, ordagrant \"vädret är varmt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "weather" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "better",
+      "unit": "describing",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "📈",
+      "gloss": { "en": "better", "sv": "bättre" },
+      "ckb": {
+        "primary": { "script": "باشتر", "latin": "baştir" },
+        "notes": {
+          "en": "Regular: باش (good) + تر (-er). \"The best\" is باشترین (baştirîn).",
+          "sv": "Regelbundet: باش (bra) + تر (-are). \"Bäst\" heter باشترین (baştirîn)."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§13" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بهتر", "latin": "behtar" },
+        "notes": {
+          "en": "Irregular! The comparative of خوب (khub) \"good\" is بهتر (behtar), not خوب‌تر. \"The best\" is بهترین (behtarin).",
+          "sv": "Oregelbundet! Komparativen av خوب (khub) \"bra\" är بهتر (behtar), inte خوب‌تر. \"Bäst\" heter بهترین (behtarin)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "better" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

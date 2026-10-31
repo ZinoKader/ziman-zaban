@@ -1,0 +1,318 @@
+{
+  "points": [
+    {
+      "id": "ckb-adjectives",
+      "unit": "describing",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Adjectives come after the noun", "sv": "Adjektivet står efter substantivet" },
+      "explanation": {
+        "en": "Adjectives follow the noun, linked by the ezafe `-î` (`-y` after a vowel): `کتێبی باش` kitêbî baş 'a good book (in general)'. With 'a', the ezafe comes after `-êk`: `کتێبێکی باش` kitêbêkî baş 'a good book'. With 'the', the link changes to `-e` and `-eke` moves to the **end** of the whole phrase: `کتێبە باشەکە` kitêbe başeke 'the good book'. The same happens with 'this': `ئەم کتێبە باشە` 'this good book'. Without an ezafe the adjective is a statement and takes the copula: `کتێبەکە باشە` 'the book is good'. Adjectives never take a plural ending, and `زۆر` 'very' goes before them, as in Swedish: `زۆر گەورە` 'very big'.",
+        "sv": "Adjektivet står efter substantivet och kopplas med ezafe `-î` (`-y` efter vokal): `کتێبی باش` kitêbî baş 'en bra bok (i allmänhet)'. Med 'en/ett' kommer ezafe efter `-êk`: `کتێبێکی باش` kitêbêkî baş 'en bra bok'. Med bestämd form blir länken `-e` och `-eke` flyttar till **slutet** av hela frasen: `کتێبە باشەکە` kitêbe başeke 'den bra boken'. Likadant med 'den här': `ئەم کتێبە باشە` 'den här bra boken'. Utan ezafe är adjektivet ett påstående och får kopula: `کتێبەکە باشە` 'boken är bra'. Adjektivet böjs aldrig i plural, och `زۆر` 'mycket' står före, som på svenska: `زۆر گەورە` 'mycket stor'."
+      },
+      "examples": [
+        {
+          "text": "کتێبێکی باش",
+          "latin": "kitêbêkî baş",
+          "translation": { "en": "a good book", "sv": "en bra bok" },
+          "tokens": [
+            {
+              "text": "کتێبێکی",
+              "latin": "kitêbêkî",
+              "gloss": { "en": "a book (that is)", "sv": "en bok (som är)" },
+              "concept": "book",
+              "morph": "book-INDF-EZ"
+            },
+            { "text": "باش", "latin": "baş", "gloss": { "en": "good", "sv": "bra" }, "concept": "good" }
+          ]
+        },
+        {
+          "text": "خانووە کۆنەکە زۆر جوانە.",
+          "latin": "xanûe koneke zor ciwane.",
+          "translation": { "en": "The old house is very beautiful.", "sv": "Det gamla huset är väldigt vackert." },
+          "tokens": [
+            {
+              "text": "خانووە",
+              "latin": "xanûe",
+              "gloss": { "en": "house (the … one)", "sv": "hus (det … )" },
+              "concept": "house",
+              "morph": "house-LNK"
+            },
+            { "text": "کۆنەکە", "latin": "koneke", "gloss": { "en": "old, the", "sv": "gamla, det" }, "concept": "old", "morph": "old-DEF" },
+            { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+            {
+              "text": "جوانە.",
+              "latin": "ciwane.",
+              "gloss": { "en": "is beautiful", "sv": "är vackert" },
+              "concept": "beautiful",
+              "morph": "beautiful-COP.3SG"
+            }
+          ]
+        },
+        {
+          "text": "ئۆتۆمبێلێکی سوورم هەیە.",
+          "latin": "otombêlêkî sûrim heye.",
+          "translation": { "en": "I have a red car.", "sv": "Jag har en röd bil." },
+          "tokens": [
+            {
+              "text": "ئۆتۆمبێلێکی",
+              "latin": "otombêlêkî",
+              "gloss": { "en": "a car (that is)", "sv": "en bil (som är)" },
+              "concept": "car",
+              "morph": "car-INDF-EZ"
+            },
+            { "text": "سوورم", "latin": "sûrim", "gloss": { "en": "red, of mine", "sv": "röd, min" }, "concept": "red", "morph": "red-1SG" },
+            {
+              "text": "هەیە.",
+              "latin": "heye.",
+              "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        {
+          "text": "خانووەکە گەورەیە.",
+          "latin": "xanûeke gewreye.",
+          "translation": { "en": "The house is big.", "sv": "Huset är stort." },
+          "tokens": [
+            {
+              "text": "خانووەکە",
+              "latin": "xanûeke",
+              "gloss": { "en": "the house", "sv": "huset" },
+              "concept": "house",
+              "morph": "house-DEF"
+            },
+            {
+              "text": "گەورەیە.",
+              "latin": "gewreye.",
+              "gloss": { "en": "is big", "sv": "är stort" },
+              "concept": "big",
+              "morph": "big-COP.3SG"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§5, §7, §8" },
+        { "source": "kim-kurdish-grammar", "ref": "Izafe: with attributive adjectives" }
+      ]
+    },
+    {
+      "id": "ckb-comparative",
+      "unit": "describing",
+      "lang": "ckb",
+      "level": "A2",
+      "title": { "en": "Bigger, biggest: -tir and -tirîn", "sv": "Större, störst: -tir och -tirîn" },
+      "explanation": {
+        "en": "Add `-tir` for '-er, more': `گەورە` 'big' → `گەورەتر` gewretir 'bigger', `باش` 'good' → `باشتر` baştir 'better'. There are no irregular forms. 'Than' is `لە`, the word for 'from', placed before what you compare with, and the copula comes last: `ئەمڕۆ لە دوێنێ ساردترە` 'today is colder than yesterday' (literally 'today from yesterday colder-is'). `لە` + `ئەو` 'that' shrinks to `لەو`. The superlative adds `-tirîn` and, unlike other adjectives, comes **before** the noun with no ezafe: `گەورەترین شار` 'the biggest city'.",
+        "sv": "Lägg till `-tir` för '-are, mer': `گەورە` 'stor' → `گەورەتر` gewretir 'större', `باش` 'bra' → `باشتر` baştir 'bättre'. Det finns inga oregelbundna former. 'Än' heter `لە`, samma ord som 'från', och står före det man jämför med; kopulan kommer sist: `ئەمڕۆ لە دوێنێ ساردترە` 'i dag är det kallare än i går' (ordagrant 'i dag från i går kallare-är'). `لە` + `ئەو` 'den där' krymper till `لەو`. Superlativen får `-tirîn` och står, till skillnad från andra adjektiv, **före** substantivet utan ezafe: `گەورەترین شار` 'den största staden'."
+      },
+      "examples": [
+        {
+          "text": "ئەمڕۆ لە دوێنێ ساردترە.",
+          "latin": "emřo le dwênê sardtire.",
+          "translation": { "en": "Today is colder than yesterday.", "sv": "I dag är det kallare än i går." },
+          "tokens": [
+            { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+            { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+            {
+              "text": "ساردترە.",
+              "latin": "sardtire.",
+              "gloss": { "en": "is colder", "sv": "är kallare" },
+              "concept": "cold",
+              "morph": "cold-CMPR-COP.3SG"
+            }
+          ]
+        },
+        {
+          "text": "خوشکم لە من گەورەترە.",
+          "latin": "xuşkim le min gewretire.",
+          "translation": { "en": "My sister is older than me.", "sv": "Min syster är äldre än jag." },
+          "tokens": [
+            {
+              "text": "خوشکم",
+              "latin": "xuşkim",
+              "gloss": { "en": "my sister", "sv": "min syster" },
+              "concept": "sister",
+              "morph": "sister-1SG"
+            },
+            { "text": "لە", "latin": "le", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+            { "text": "من", "latin": "min", "gloss": { "en": "me", "sv": "mig" }, "concept": "i" },
+            {
+              "text": "گەورەترە.",
+              "latin": "gewretire.",
+              "gloss": { "en": "is older (bigger)", "sv": "är äldre (större)" },
+              "concept": "older",
+              "morph": "big-CMPR-COP.3SG"
+            }
+          ]
+        },
+        {
+          "text": "تاران گەورەترین شاری ئێرانە.",
+          "latin": "Taran gewretirîn şarî Êrane.",
+          "translation": { "en": "Tehran is the biggest city in Iran.", "sv": "Teheran är den största staden i Iran." },
+          "tokens": [
+            { "text": "تاران", "latin": "Taran", "gloss": { "en": "Tehran", "sv": "Teheran" } },
+            {
+              "text": "گەورەترین",
+              "latin": "gewretirîn",
+              "gloss": { "en": "biggest", "sv": "största" },
+              "concept": "big",
+              "morph": "big-SUPL"
+            },
+            { "text": "شاری", "latin": "şarî", "gloss": { "en": "city (of)", "sv": "staden (i)" }, "concept": "city", "morph": "city-EZ" },
+            {
+              "text": "ئێرانە.",
+              "latin": "Êrane.",
+              "gloss": { "en": "Iran, is", "sv": "Iran, är" },
+              "concept": "to-be",
+              "morph": "Iran-COP.3SG"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§13" },
+        { "source": "kim-kurdish-grammar", "ref": "Comparative and superlative adjectives" }
+      ]
+    },
+    {
+      "id": "fa-adjectives-ezafe",
+      "unit": "describing",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Adjectives and the ezafe", "sv": "Adjektiv och ezafe" },
+      "explanation": {
+        "en": "Adjectives follow the noun, linked by the ezafe `-e`: `کتاب خوب` ketâb-e khub 'a/the good book'. After a vowel it is `-ye`, written ‌ی after a silent ه: `خانه‌ی بزرگ` khâne-ye bozorg 'the big house' (also written `خانهٔ بزرگ`). Persian has no 'the', so that can mean 'the big house'. For 'a', use `یک` before the noun or `-i` on the **adjective**: `کتاب خوبی` ketâb-e khubi 'a good book'. **Without** the ezafe the adjective is a statement: `کتاب خوب است` 'the book is good'. So the little `-e` is all that separates 'the good book' from 'the book is good'. Adjectives never take a plural: `بچه‌های کوچک` 'small children'. `خیلی` 'very' goes before the adjective.",
+        "sv": "Adjektivet står efter substantivet och kopplas med ezafe `-e`: `کتاب خوب` ketâb-e khub 'en/den bra boken'. Efter vokal blir det `-ye`, skrivet ‌ی efter ett stumt ه: `خانه‌ی بزرگ` khâne-ye bozorg 'det stora huset' (skrivs också `خانهٔ بزرگ`). Persiskan saknar bestämd form, så det kan betyda 'det stora huset'. För 'en/ett' sätter man `یک` före substantivet eller `-i` på **adjektivet**: `کتاب خوبی` ketâb-e khubi 'en bra bok'. **Utan** ezafe är adjektivet ett påstående: `کتاب خوب است` 'boken är bra'. Det lilla `-e` är alltså allt som skiljer 'den bra boken' från 'boken är bra'. Adjektivet böjs aldrig i plural: `بچه‌های کوچک` 'små barn'. `خیلی` 'mycket' står före adjektivet."
+      },
+      "examples": [
+        {
+          "text": "خانه‌ی بزرگ",
+          "latin": "khâne-ye bozorg",
+          "translation": { "en": "the big house", "sv": "det stora huset" },
+          "tokens": [
+            {
+              "text": "خانه‌ی",
+              "latin": "khâne-ye",
+              "gloss": { "en": "house (that is)", "sv": "hus (som är)" },
+              "concept": "house",
+              "morph": "house-EZ"
+            },
+            { "text": "بزرگ", "latin": "bozorg", "gloss": { "en": "big", "sv": "stort" }, "concept": "big" }
+          ]
+        },
+        {
+          "text": "خانه بزرگ است.",
+          "latin": "khâne bozorg ast.",
+          "translation": { "en": "The house is big.", "sv": "Huset är stort." },
+          "tokens": [
+            { "text": "خانه", "latin": "khâne", "gloss": { "en": "the house", "sv": "huset" }, "concept": "house" },
+            { "text": "بزرگ", "latin": "bozorg", "gloss": { "en": "big", "sv": "stort" }, "concept": "big" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "این کتاب خوبی است.",
+          "latin": "in ketâb-e khubi ast.",
+          "translation": { "en": "This is a good book.", "sv": "Det här är en bra bok." },
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            {
+              "text": "کتاب",
+              "latin": "ketâb-e",
+              "gloss": { "en": "book (that is)", "sv": "bok (som är)" },
+              "concept": "book",
+              "morph": "book-EZ"
+            },
+            { "text": "خوبی", "latin": "khubi", "gloss": { "en": "a good one", "sv": "en bra" }, "concept": "good", "morph": "good-INDF" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "یک ماشین قرمز دارم.",
+          "latin": "yek mâshin-e ghermez dâram.",
+          "translation": { "en": "I have a red car.", "sv": "Jag har en röd bil." },
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en" } },
+            {
+              "text": "ماشین",
+              "latin": "mâshin-e",
+              "gloss": { "en": "car (that is)", "sv": "bil (som är)" },
+              "concept": "car",
+              "morph": "car-EZ"
+            },
+            { "text": "قرمز", "latin": "ghermez", "gloss": { "en": "red", "sv": "röd" }, "concept": "red" },
+            {
+              "text": "دارم.",
+              "latin": "dâram.",
+              "gloss": { "en": "I have", "sv": "jag har" },
+              "concept": "to-have",
+              "morph": "have.PRS-1SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }]
+    },
+    {
+      "id": "fa-comparative",
+      "unit": "describing",
+      "lang": "fa",
+      "level": "A2",
+      "title": { "en": "Bigger, biggest: -tar and -tarin", "sv": "Större, störst: -tar och -tarin" },
+      "explanation": {
+        "en": "Add `-tar` for '-er, more': `بزرگ` 'big' → `بزرگ‌تر` bozorgtar 'bigger' (written with or without a ZWNJ). 'Than' is `از`, the word for 'from', placed before what you compare with: `امروز از دیروز سردتر است` 'today is colder than yesterday'. One important exception: `خوب` 'good' → `بهتر` behtar 'better', never خوب‌تر. The superlative `-tarin` comes **before** the noun with no ezafe: `بزرگ‌ترین شهر` 'the biggest city', `بهترین دوست` 'best friend'. Sorani works the same way, with `-tir`, `-tirîn` and `لە`.",
+        "sv": "Lägg till `-tar` för '-are, mer': `بزرگ` 'stor' → `بزرگ‌تر` bozorgtar 'större' (skrivs med eller utan ZWNJ). 'Än' heter `از`, samma ord som 'från', och står före det man jämför med: `امروز از دیروز سردتر است` 'i dag är det kallare än i går'. Ett viktigt undantag: `خوب` 'bra' → `بهتر` behtar 'bättre', aldrig خوب‌تر. Superlativen `-tarin` står **före** substantivet utan ezafe: `بزرگ‌ترین شهر` 'den största staden', `بهترین دوست` 'bästa vän'. Soranin fungerar likadant, med `-tir`, `-tirîn` och `لە`."
+      },
+      "examples": [
+        {
+          "text": "امروز از دیروز سردتر است.",
+          "latin": "emruz az diruz sardtar ast.",
+          "translation": { "en": "Today is colder than yesterday.", "sv": "I dag är det kallare än i går." },
+          "tokens": [
+            { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+            { "text": "از", "latin": "az", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+            { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+            { "text": "سردتر", "latin": "sardtar", "gloss": { "en": "colder", "sv": "kallare" }, "concept": "cold", "morph": "cold-CMPR" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "این کتاب از آن بهتر است.",
+          "latin": "in ketâb az ân behtar ast.",
+          "translation": { "en": "This book is better than that.", "sv": "Den här boken är bättre än den där." },
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "den här" }, "concept": "this" },
+            { "text": "کتاب", "latin": "ketâb", "gloss": { "en": "book", "sv": "bok" }, "concept": "book" },
+            { "text": "از", "latin": "az", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+            { "text": "آن", "latin": "ân", "gloss": { "en": "that", "sv": "den där" }, "concept": "that" },
+            { "text": "بهتر", "latin": "behtar", "gloss": { "en": "better", "sv": "bättre" }, "concept": "better", "morph": "good.CMPR" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "تهران بزرگ‌ترین شهر ایران است.",
+          "latin": "Tehrân bozorgtarin shahr-e Irân ast.",
+          "translation": { "en": "Tehran is the biggest city in Iran.", "sv": "Teheran är den största staden i Iran." },
+          "tokens": [
+            { "text": "تهران", "latin": "Tehrân", "gloss": { "en": "Tehran", "sv": "Teheran" } },
+            {
+              "text": "بزرگ‌ترین",
+              "latin": "bozorgtarin",
+              "gloss": { "en": "biggest", "sv": "största" },
+              "concept": "big",
+              "morph": "big-SUPL"
+            },
+            { "text": "شهر", "latin": "shahr-e", "gloss": { "en": "city (of)", "sv": "staden (i)" }, "concept": "city", "morph": "city-EZ" },
+            { "text": "ایران", "latin": "Irân", "gloss": { "en": "Iran", "sv": "Iran" } },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    }
+  ]
+}

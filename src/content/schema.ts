@@ -122,7 +122,13 @@ export const qaAnswerSchema = z
 export const qaFormSchema = z
   .object({
     question: z
-      .object({ text: nonEmpty, latin: nonEmpty, tokens: z.array(tokenSchema).optional() })
+      .object({
+        text: nonEmpty,
+        latin: nonEmpty,
+        tokens: z.array(tokenSchema).optional(),
+        colloquial: textLatin.optional(),
+        alternatives: z.array(textLatin).optional(),
+      })
       .strict(),
     answers: z.array(qaAnswerSchema).min(1),
     slots: z

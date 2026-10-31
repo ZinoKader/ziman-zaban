@@ -5,6 +5,12 @@
    "Used in 29 Tatoeba sentences"
   ]
  },
+ "concept:ckb:again": {
+  "level": "attested",
+  "checks": [
+   "Used in 28 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:age": {
   "level": "strong",
   "checks": [
@@ -13,15 +19,146 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:airport": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "/fro̞ːkaxaːna/"
+ },
+ "concept:ckb:also": {
+  "level": "attested",
+  "checks": [
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:always": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 89 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:and": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 552 Tatoeba sentences"
+  ],
+  "ipa": "[waw]"
+ },
  "concept:ckb:and-you": {
   "level": "attested",
   "checks": [
    "Used in 12 Tatoeba sentences"
   ]
  },
+ "concept:ckb:apartment": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ʃuqa/"
+ },
+ "concept:ckb:apple": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
  "concept:ckb:baby": {
   "level": "none",
   "checks": []
+ },
+ "concept:ckb:bad": {
+  "level": "attested",
+  "checks": [
+   "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:beautiful": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "/d͡ʒəwaːn/"
+ },
+ "concept:ckb:because": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 23 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:bed": {
+  "level": "attested",
+  "checks": [
+   "Used in 10 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:better": {
+  "level": "attested",
+  "checks": [
+   "Used in 45 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:big": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 27 Tatoeba sentences"
+  ],
+  "ipa": "/ɡewre/"
+ },
+ "concept:ckb:black": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/raʃ/"
+ },
+ "concept:ckb:blue": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/ʃiːn/"
+ },
+ "concept:ckb:book": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "/kəte̞ːb/"
+ },
+ "concept:ckb:bread": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "ipa": "/naːn/"
+ },
+ "concept:ckb:breakfast": {
+  "level": "attested",
+  "checks": [
+   "Used in 18 Tatoeba sentences"
+  ]
  },
  "concept:ckb:brother": {
   "level": "strong",
@@ -31,6 +168,70 @@
    "Used in 9 Tatoeba sentences"
   ],
   "ipa": "/bəɾaː/"
+ },
+ "concept:ckb:bus": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:but": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 79 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:can": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/twaːniːn/"
+ },
+ "concept:ckb:car": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/oːtoːmˈbiːl/"
+ },
+ "concept:ckb:chair": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:cheap": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/haɾzaːn/"
+ },
+ "concept:ckb:cheese": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/paniːɾ/"
+ },
+ "concept:ckb:chicken": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/məɾiːʃk/"
  },
  "concept:ckb:child": {
   "level": "strong",
@@ -49,6 +250,49 @@
   ],
   "ipa": "/ʃaːɾ/"
  },
+ "concept:ckb:clean": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/xaːwe̞ːn/"
+ },
+ "concept:ckb:clothes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:coffee": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/qaːwa/"
+ },
+ "concept:ckb:cold": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "/saːɾd/"
+ },
+ "concept:ckb:color": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/raŋɡ/"
+ },
  "concept:ckb:country": {
   "level": "strong",
   "checks": [
@@ -63,17 +307,162 @@
    "Used in 2 Tatoeba sentences"
   ]
  },
+ "concept:ckb:day": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 50 Tatoeba sentences"
+  ],
+  "ipa": "/ro̞ːʒ/"
+ },
+ "concept:ckb:delicious": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:difficult": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:dinner": {
+  "level": "attested",
+  "checks": [
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:dirty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/piːs/"
+ },
+ "concept:ckb:doctor": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 11 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:door": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/darɡaː/"
+ },
+ "concept:ckb:early": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 61 Tatoeba sentences"
+  ],
+  "ipa": "/zuː/"
+ },
+ "concept:ckb:easy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "/ʔaːsaːn/"
+ },
+ "concept:ckb:egg": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/he̞ːlka/"
+ },
+ "concept:ckb:eight": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/haʃt/"
+ },
+ "concept:ckb:eleven": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/jaːnza/"
+ },
  "concept:ckb:english": {
   "level": "attested",
   "checks": [
    "Used in 25 Tatoeba sentences"
   ]
  },
+ "concept:ckb:enough": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:evening": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "/ˈewaːræ/"
+ },
+ "concept:ckb:every-day": {
+  "level": "attested",
+  "checks": [
+   "Used in 34 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:excuse-me": {
+  "level": "attested",
+  "checks": [
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:expensive": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/ɡɾaːn/"
+ },
  "concept:ckb:family": {
   "level": "good",
   "checks": [
    "Wiktionary translation table"
   ]
+ },
+ "concept:ckb:far": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
+  ],
+  "ipa": "/duːɾ/"
  },
  "concept:ckb:father": {
   "level": "strong",
@@ -83,6 +472,53 @@
    "Used in 8 Tatoeba sentences"
   ],
   "ipa": "/baːu̯k/"
+ },
+ "concept:ckb:fifteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/paːnza/"
+ },
+ "concept:ckb:fifty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:five": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 31 Tatoeba sentences"
+  ],
+  "ipa": "/peːnd͡ʒ/"
+ },
+ "concept:ckb:food": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:four": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "/t͡ʃ(ə)waːr/"
+ },
+ "concept:ckb:friday": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
  },
  "concept:ckb:friend": {
   "level": "strong",
@@ -95,6 +531,22 @@
   "level": "attested",
   "checks": [
    "Used in 1983 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:fruit": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/miːwæ/"
+ },
+ "concept:ckb:glass": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:good": {
@@ -144,6 +596,31 @@
   ],
   "ipa": "/daːpiːɾ/"
  },
+ "concept:ckb:green": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/sau̯z/"
+ },
+ "concept:ckb:half": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "/niːu̯/"
+ },
+ "concept:ckb:happy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 26 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:he-she": {
   "level": "good",
   "checks": [
@@ -168,6 +645,51 @@
    "Used in 50 Tatoeba sentences"
   ]
  },
+ "concept:ckb:hospital": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "/naxo̞ːʃxaːna/"
+ },
+ "concept:ckb:hot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "/ɡaɾm/"
+ },
+ "concept:ckb:hour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 31 Tatoeba sentences"
+  ],
+  "ipa": "/kaːtʒəme̞ːɾ/"
+ },
+ "concept:ckb:house": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
+  ],
+  "ipa": "/maːɫ/"
+ },
+ "concept:ckb:how": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 137 Tatoeba sentences"
+  ],
+  "ipa": "/t͡ʃoːn/"
+ },
  "concept:ckb:how-are-you": {
   "level": "strong",
   "checks": [
@@ -177,12 +699,42 @@
   ],
   "ipa": "/t͡ʃoːni/"
  },
+ "concept:ckb:how-do-you-say": {
+  "level": "attested",
+  "checks": [
+   "Used in 20 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:how-many": {
   "level": "good",
   "checks": [
    "Wiktionary dictionary entry",
    "Used in 211 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:how-much": {
+  "level": "attested",
+  "checks": [
+   "Used in 211 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:hundred": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/sad/"
+ },
+ "concept:ckb:hungry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "/bɪɾˈsiː/"
  },
  "concept:ckb:husband": {
   "level": "strong",
@@ -208,6 +760,45 @@
    "Used in 9 Tatoeba sentences"
   ]
  },
+ "concept:ckb:i-dont-know": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 74 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:i-dont-understand": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 22 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:in": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 165 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:key": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/kliːl/"
+ },
+ "concept:ckb:kitchen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "/matbax/"
+ },
  "concept:ckb:kurdish": {
   "level": "strong",
   "checks": [
@@ -225,6 +816,36 @@
   ],
   "ipa": "/zmaːn/"
  },
+ "concept:ckb:late": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/dəɾaŋɡ/"
+ },
+ "concept:ckb:left": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:lets-go": {
+  "level": "attested",
+  "checks": [
+   "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:lunch": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:man": {
   "level": "strong",
   "checks": [
@@ -232,6 +853,14 @@
    "Wiktionary dictionary entry",
    "Used in 4 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:market": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "/baːzaːr/"
  },
  "concept:ckb:married": {
   "level": "attested",
@@ -257,6 +886,75 @@
   ],
   "ipa": "/xaːɫ/"
  },
+ "concept:ckb:maybe": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 34 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:meat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "/ɡo̞ːʃt/"
+ },
+ "concept:ckb:milk": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/ʃiːɾ/"
+ },
+ "concept:ckb:minute": {
+  "level": "attested",
+  "checks": [
+   "Used in 9 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:monday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/du(ː).ʃæmˈmæ/"
+ },
+ "concept:ckb:money": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 36 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:month": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "/maːŋɡ/"
+ },
+ "concept:ckb:more": {
+  "level": "attested",
+  "checks": [
+   "Used in 75 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:morning": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 18 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:mother": {
   "level": "strong",
   "checks": [
@@ -265,6 +963,15 @@
    "Used in 43 Tatoeba sentences"
   ],
   "ipa": "/daːi̯k/"
+ },
+ "concept:ckb:mountain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/t͡ʃəjaː/"
  },
  "concept:ckb:name": {
   "level": "strong",
@@ -281,14 +988,70 @@
    "Used in 43 Tatoeba sentences"
   ]
  },
+ "concept:ckb:near": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:never": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 101 Tatoeba sentences"
+  ],
+  "ipa": "/hærɡiːz/"
+ },
+ "concept:ckb:new": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:nice-to-meet-you": {
   "level": "none",
   "checks": []
+ },
+ "concept:ckb:night": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 49 Tatoeba sentences"
+  ],
+  "ipa": "/ʃau̯/"
+ },
+ "concept:ckb:nine": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/noː/"
  },
  "concept:ckb:no": {
   "level": "attested",
   "checks": [
    "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:now": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 207 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:of-course": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
   ]
  },
  "concept:ckb:okay": {
@@ -297,17 +1060,42 @@
    "Used in 80 Tatoeba sentences"
   ]
  },
+ "concept:ckb:old": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/ko̞ːn/"
+ },
  "concept:ckb:older": {
   "level": "attested",
   "checks": [
    "Used in 3 Tatoeba sentences"
   ]
  },
+ "concept:ckb:one": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 57 Tatoeba sentences"
+  ],
+  "ipa": "/jɛk/"
+ },
  "concept:ckb:only": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 57 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:or": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 63 Tatoeba sentences"
   ]
  },
  "concept:ckb:paternal-aunt": {
@@ -334,11 +1122,119 @@
    "Wiktionary translation table"
   ]
  },
+ "concept:ckb:phone": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
  "concept:ckb:please": {
   "level": "attested",
   "checks": [
    "Used in 128 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:please-repeat": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:really": {
+  "level": "attested",
+  "checks": [
+   "Used in 56 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:red": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "/suːɾ/"
+ },
+ "concept:ckb:rice": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:right": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 36 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:room": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sad": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:salt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:saturday": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ʃamma/"
+ },
+ "concept:ckb:school": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 31 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:see-you-later": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:seven": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/ħawt/"
+ },
+ "concept:ckb:shop": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:sick": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/naxo̞ːʃ/"
  },
  "concept:ckb:sister": {
   "level": "strong",
@@ -346,6 +1242,34 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:six": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "/ʃaʃ/"
+ },
+ "concept:ckb:slowly": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:small": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sometimes": {
+  "level": "attested",
+  "checks": [
+   "Used in 81 Tatoeba sentences"
   ]
  },
  "concept:ckb:son": {
@@ -363,6 +1287,34 @@
    "Used in 13 Tatoeba sentences"
   ]
  },
+ "concept:ckb:straight-ahead": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:street": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:sugar": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "/ʃakəɾ/"
+ },
+ "concept:ckb:sunday": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:sweden": {
   "level": "strong",
   "checks": [
@@ -375,6 +1327,36 @@
   "checks": [
    "Wiktionary translation table"
   ]
+ },
+ "concept:ckb:table": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:taxi": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:tea": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/t͡ʃɑː/"
+ },
+ "concept:ckb:ten": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "/da/"
  },
  "concept:ckb:thank-you": {
   "level": "strong",
@@ -411,11 +1393,74 @@
   ],
   "ipa": "[aˈwaːn]"
  },
+ "concept:ckb:thirsty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/tiːnuː/"
+ },
+ "concept:ckb:thirty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 31 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:this": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 261 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:thousand": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/hazaːɾ/"
+ },
+ "concept:ckb:three": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 113 Tatoeba sentences"
+  ],
+  "ipa": "/seː/"
+ },
+ "concept:ckb:thursday": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:ticket": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:tired": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "/maːnduː/"
+ },
+ "concept:ckb:to": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 936 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-be": {
@@ -424,10 +1469,128 @@
    "Used in 75 Tatoeba sentences"
   ]
  },
+ "concept:ckb:to-buy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/kəriːn/"
+ },
+ "concept:ckb:to-call": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-close": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/daːxɪstɪn/"
+ },
+ "concept:ckb:to-come": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/haːtən/"
+ },
+ "concept:ckb:to-cook": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-do": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-drink": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-eat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-give": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "/daːn/"
+ },
+ "concept:ckb:to-go": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "/t͡ʃuːn/"
+ },
  "concept:ckb:to-have": {
   "level": "attested",
   "checks": [
    "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-hear": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/biːstən/"
+ },
+ "concept:ckb:to-help": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-know": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/zaːniːn/"
+ },
+ "concept:ckb:to-learn": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-like": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-live": {
@@ -439,10 +1602,194 @@
   ],
   "ipa": "/ʒjaːn/"
  },
+ "concept:ckb:to-open": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-play": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-read": {
+  "level": "attested",
+  "checks": [
+   "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-say": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/wɪtɪn/"
+ },
+ "concept:ckb:to-see": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:to-sit": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-sleep": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/xau̯tən/"
+ },
  "concept:ckb:to-speak": {
   "level": "attested",
   "checks": [
    "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-study": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "/xwe̞ːndən/"
+ },
+ "concept:ckb:to-take": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:to-understand": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:to-wait": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-wake-up": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-want": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:to-wash": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-work": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-write": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/nuːsiːn/"
+ },
+ "concept:ckb:today": {
+  "level": "attested",
+  "checks": [
+   "Used in 87 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:tomorrow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 55 Tatoeba sentences"
+  ],
+  "ipa": "/sbɛi̯/"
+ },
+ "concept:ckb:tuesday": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:twelve": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/d(ə)waːnza/"
+ },
+ "concept:ckb:twenty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/biːst/"
+ },
+ "concept:ckb:two": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 78 Tatoeba sentences"
+  ],
+  "ipa": "/duː/"
+ },
+ "concept:ckb:usually": {
+  "level": "attested",
+  "checks": [
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:very": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 772 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:village": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/ɡʊnd/"
+ },
+ "concept:ckb:water": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
   ]
  },
  "concept:ckb:we": {
@@ -452,6 +1799,26 @@
    "Used in 189 Tatoeba sentences"
   ],
   "ipa": "/eːmæ/"
+ },
+ "concept:ckb:weather": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/hawaː/"
+ },
+ "concept:ckb:wednesday": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:week": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
  },
  "concept:ckb:welcome": {
   "level": "attested",
@@ -467,12 +1834,41 @@
    "Used in 224 Tatoeba sentences"
   ]
  },
+ "concept:ckb:what-does-it-mean": {
+  "level": "attested",
+  "checks": [
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:when": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 50 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:where": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 35 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:which": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 45 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:white": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/spiː/"
  },
  "concept:ckb:who": {
   "level": "strong",
@@ -483,6 +1879,14 @@
   ],
   "ipa": "/ce̞ː/"
  },
+ "concept:ckb:why": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 180 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:wife": {
   "level": "strong",
   "checks": [
@@ -491,6 +1895,22 @@
    "Used in 6 Tatoeba sentences"
   ],
   "ipa": "/ʒən/"
+ },
+ "concept:ckb:window": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/pand͡ʒaɾa/"
+ },
+ "concept:ckb:with": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 311 Tatoeba sentences"
+  ]
  },
  "concept:ckb:woman": {
   "level": "strong",
@@ -501,6 +1921,13 @@
   ],
   "ipa": "/ʒən/"
  },
+ "concept:ckb:work": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 102 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:year": {
   "level": "strong",
   "checks": [
@@ -510,11 +1937,34 @@
   ],
   "ipa": "/saːɫ/"
  },
+ "concept:ckb:yellow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/zaɾd/"
+ },
  "concept:ckb:yes": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:yesterday": {
+  "level": "attested",
+  "checks": [
+   "Used in 89 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:yogurt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:you": {
@@ -544,6 +1994,12 @@
    "Used in 9 Tatoeba sentences"
   ]
  },
+ "concept:ckb:zero": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
  "concept:fa:a-little": {
   "level": "strong",
   "checks": [
@@ -553,6 +2009,15 @@
   ],
   "ipa": "[kʰʲæ.míː]"
  },
+ "concept:fa:again": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 91 Tatoeba sentences"
+  ],
+  "ipa": "[d̪o.bɒː.ɹé]"
+ },
  "concept:fa:age": {
   "level": "good",
   "checks": [
@@ -561,11 +2026,66 @@
   ],
   "ipa": "[sen(ː)]"
  },
+ "concept:fa:airport": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D9%88%D8%AF%DA%AF%D8%A7%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D9%88%D8%AF%DA%AF%D8%A7%D9%87.wav.mp3",
+  "ipa": "[fo.ɹuːd̪.ɡɒ́ːʰ]"
+ },
+ "concept:fa:also": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 572 Tatoeba sentences"
+  ],
+  "ipa": "[hæm]"
+ },
+ "concept:fa:always": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 382 Tatoeba sentences"
+  ],
+  "ipa": "[hæ.miː.ʃé]"
+ },
+ "concept:fa:and": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 2289 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Fa-%D9%88.ogg/Fa-%D9%88.ogg.mp3",
+  "ipa": "/vɑːv/"
+ },
  "concept:fa:and-you": {
   "level": "attested",
   "checks": [
    "Used in 97 Tatoeba sentences"
   ]
+ },
+ "concept:fa:apartment": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86.wav.mp3",
+  "ipa": "[ʔɒː.pʰɒːɹ.t̪ʰe.mɒ́ːn]"
+ },
+ "concept:fa:apple": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 69 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Fa-%D8%B3%DB%8C%D8%A8.ogg/Fa-%D8%B3%DB%8C%D8%A8.ogg.mp3",
+  "ipa": "[siːb̥]"
  },
  "concept:fa:baby": {
   "level": "attested",
@@ -574,6 +2094,108 @@
    "Used in 10 Tatoeba sentences"
   ],
   "ipa": "[now.zɒːd̪̥]"
+ },
+ "concept:fa:bad": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 147 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Fa-%D8%A8%D8%AF.ogg/Fa-%D8%A8%D8%AF.ogg.mp3",
+  "ipa": "[bæd̪̥]"
+ },
+ "concept:fa:beautiful": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[qæ.ʃǽɲɡʲ̥]"
+ },
+ "concept:fa:because": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 117 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰon]"
+ },
+ "concept:fa:bed": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 45 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰǽxt̪ʰ]"
+ },
+ "concept:fa:better": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 236 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:big": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 243 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Fa-%D8%A8%D8%B2%D8%B1%DA%AF.ogg/Fa-%D8%A8%D8%B2%D8%B1%DA%AF.ogg.mp3",
+  "ipa": "[bo.zóɹɡʲ̥]"
+ },
+ "concept:fa:black": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 60 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/LL-Q9168_%28fas%29-Afsham23-%D8%B3%DB%8C%D8%A7%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B3%DB%8C%D8%A7%D9%87.wav.mp3",
+  "ipa": "[si.jɒːʱ]"
+ },
+ "concept:fa:blue": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Fa-%D8%A2%D8%A8%DB%8C.ogg/Fa-%D8%A2%D8%A8%DB%8C.ogg.mp3",
+  "ipa": "[ʔɒː.bíː]"
+ },
+ "concept:fa:book": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 351 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Fa-%D9%83%D8%AA%D8%A7%D8%A8.ogg/Fa-%D9%83%D8%AA%D8%A7%D8%A8.ogg.mp3",
+  "ipa": "[kʰʲe.t̪ʰɒ́ːb̥]"
+ },
+ "concept:fa:bread": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 78 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Fa-%D9%86%D8%A7%D9%86.ogg/Fa-%D9%86%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[nɒːn]"
+ },
+ "concept:fa:breakfast": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 37 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD%D8%A7%D9%86%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD%D8%A7%D9%86%D9%87.wav.mp3",
+  "ipa": "[sob.hɒː.ne]"
  },
  "concept:fa:brother": {
   "level": "strong",
@@ -584,6 +2206,81 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Fa-%D8%A8%D8%B1%D8%A7%D8%AF%D8%B1.ogg/Fa-%D8%A8%D8%B1%D8%A7%D8%AF%D8%B1.ogg.mp3",
   "ipa": "[bæ.ɹɒː.d̪ǽɹ]"
+ },
+ "concept:fa:bus": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 83 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AA%D9%88%D8%A8%D9%88%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AA%D9%88%D8%A8%D9%88%D8%B3.wav.mp3",
+  "ipa": "[ʔo.t̪ʰo.buːs]"
+ },
+ "concept:fa:but": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 146 Tatoeba sentences"
+  ],
+  "ipa": "[vǽ.liː]"
+ },
+ "concept:fa:can": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæ.vɒː.nes.t̪ʰǽn]"
+ },
+ "concept:fa:car": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 102 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%B4%DB%8C%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%B4%DB%8C%D9%86.wav.mp3",
+  "ipa": "[mɒː.ʃíːn]"
+ },
+ "concept:fa:chair": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 40 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D9%86%D8%AF%D9%84%DB%8C.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D9%86%D8%AF%D9%84%DB%8C.wav.mp3",
+  "ipa": "[sæn̪.d̪æ.líː]"
+ },
+ "concept:fa:cheap": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D8%B1%D8%B2%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D8%B1%D8%B2%D8%A7%D9%86.wav.mp3",
+  "ipa": "[ʔæɹ.zɒ́ːn]"
+ },
+ "concept:fa:cheese": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 21 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæ.níːɹ]"
+ },
+ "concept:fa:chicken": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 58 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/LL-Q9168_%28fas%29-Mazanin_%28%D9%85%D8%A7%D8%B2%D9%86%DB%8C%D9%86%29-%D9%85%D8%B1%D8%BA.wav/LL-Q9168_%28fas%29-Mazanin_%28%D9%85%D8%A7%D8%B2%D9%86%DB%8C%D9%86%29-%D9%85%D8%B1%D8%BA.wav.mp3",
+  "ipa": "[moɹɢ̥]"
  },
  "concept:fa:child": {
   "level": "strong",
@@ -603,6 +2300,53 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%87%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%87%D8%B1.wav.mp3",
   "ipa": "[ʃæɦɹ]"
+ },
+ "concept:fa:clean": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 46 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæ.míːz]"
+ },
+ "concept:fa:clothes": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 55 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/LL-Q9168_%28fas%29-Darafsh-%D9%84%D8%A8%D8%A7%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D9%84%D8%A8%D8%A7%D8%B3.wav.mp3",
+  "ipa": "[le.bɒːs]"
+ },
+ "concept:fa:coffee": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 129 Tatoeba sentences"
+  ],
+  "ipa": "[qæɦ.vé]"
+ },
+ "concept:fa:cold": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 62 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Fa-%D8%B3%D8%B1%D8%AF.ogg/Fa-%D8%B3%D8%B1%D8%AF.ogg.mp3",
+  "ipa": "[sǽɹd̪̥]"
+ },
+ "concept:fa:color": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 76 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D9%86%DA%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D9%86%DA%AF.wav.mp3",
+  "ipa": "[ɹæŋɡʲ̥]"
  },
  "concept:fa:country": {
   "level": "strong",
@@ -624,6 +2368,117 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%AE%D8%AA%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%AE%D8%AA%D8%B1.wav.mp3",
   "ipa": "[d̪ox.t̪ʰæɹ]"
  },
+ "concept:fa:day": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 314 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Fa-%D8%B1%D9%88%D8%B2.ogg/Fa-%D8%B1%D9%88%D8%B2.ogg.mp3",
+  "ipa": "[ɹuːz]"
+ },
+ "concept:fa:delicious": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[xoʃ.mæ.zé]"
+ },
+ "concept:fa:difficult": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 137 Tatoeba sentences"
+  ],
+  "ipa": "[sæxt̪ʰ]"
+ },
+ "concept:fa:dinner": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 20 Tatoeba sentences"
+  ],
+  "ipa": "[ʃɒːm]"
+ },
+ "concept:fa:dirty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 17 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲæ.siːf]"
+ },
+ "concept:fa:doctor": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/LL-Q9168_%28fas%29-Darafsh-%D8%AF%DA%A9%D8%AA%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%DA%A9%D8%AA%D8%B1.wav.mp3",
+  "ipa": "[d̪okʰʲ.t̪ʰóɹ]"
+ },
+ "concept:fa:door": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3954 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Fa-%D8%AF%D8%B1.ogg/Fa-%D8%AF%D8%B1.ogg.mp3",
+  "ipa": "[d̪æɹ]"
+ },
+ "concept:fa:early": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 107 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/LL-Q9168_%28fas%29-Afsham23-%D8%B2%D9%88%D8%AF.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B2%D9%88%D8%AF.wav.mp3",
+  "ipa": "[zuːd̪̥]"
+ },
+ "concept:fa:easy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 76 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D8%B3%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D8%B3%D8%A7%D9%86.wav.mp3",
+  "ipa": "[ʔɒː.sɒ́ːn]"
+ },
+ "concept:fa:egg": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 38 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰox.me moɹɢ̥]"
+ },
+ "concept:fa:eight": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[hǽʃt̪ʰ]"
+ },
+ "concept:fa:eleven": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "[jɒːz.d̪ǽʱ]"
+ },
  "concept:fa:english": {
   "level": "strong",
   "checks": [
@@ -632,6 +2487,37 @@
    "Used in 100 Tatoeba sentences"
   ],
   "ipa": "[ʔeŋɡʲ.liː.síː]"
+ },
+ "concept:fa:enough": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "[bæs]"
+ },
+ "concept:fa:evening": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 58 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Fa-%D8%B9%D8%B5%D8%B1.ogg/Fa-%D8%B9%D8%B5%D8%B1.ogg.mp3",
+  "ipa": "[ʔæsɹ]"
+ },
+ "concept:fa:every-day": {
+  "level": "attested",
+  "checks": [
+   "Used in 314 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:expensive": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 44 Tatoeba sentences"
+  ],
+  "ipa": "[ɡʲe.ɹɒːn]"
  },
  "concept:fa:family": {
   "level": "strong",
@@ -643,6 +2529,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%D9%87.wav.mp3",
   "ipa": "[xɒː.ne.vɒː.d̪é]"
  },
+ "concept:fa:far": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 125 Tatoeba sentences"
+  ],
+  "ipa": "[d̪uːɹ]"
+ },
  "concept:fa:father": {
   "level": "strong",
   "checks": [
@@ -652,6 +2547,61 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Fa-%D9%BE%D8%AF%D8%B1.ogg/Fa-%D9%BE%D8%AF%D8%B1.ogg.mp3",
   "ipa": "[pʰe.d̪ǽɹ]"
+ },
+ "concept:fa:fifteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "[pʰɒːnz.d̪æʱ]"
+ },
+ "concept:fa:fifty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæn.d͡ʒɒ́ːʰ]"
+ },
+ "concept:fa:five": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 78 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Fa-%D9%BE%D9%86%D8%AC.ogg/Fa-%D9%BE%D9%86%D8%AC.ogg.mp3",
+  "ipa": "[pʰænd͡ʒ̥]"
+ },
+ "concept:fa:food": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 97 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Fa-%D8%BA%D8%B0%D8%A7.ogg/Fa-%D8%BA%D8%B0%D8%A7.ogg.mp3",
+  "ipa": "[qe.zɒ́ː]"
+ },
+ "concept:fa:four": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 47 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰæ.ɦɒ́ːɹ]"
+ },
+ "concept:fa:friday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒom.ʔé]"
  },
  "concept:fa:friend": {
   "level": "strong",
@@ -672,6 +2622,26 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D8%B2.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D8%B2.wav.mp3",
   "ipa": "[ʔæz]"
+ },
+ "concept:fa:fruit": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 47 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/LL-Q9168_%28fas%29-Afsham23-%D9%85%DB%8C%D9%88%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%D9%85%DB%8C%D9%88%D9%87.wav.mp3",
+  "ipa": "[miː.vé]"
+ },
+ "concept:fa:glass": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/LL-Q9168_%28fas%29-Afsham23-%D9%84%DB%8C%D9%88%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D9%84%DB%8C%D9%88%D8%A7%D9%86.wav.mp3",
+  "ipa": "[liː.vɒ́ːn]"
  },
  "concept:fa:good": {
   "level": "strong",
@@ -725,6 +2695,33 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav.mp3",
   "ipa": "[mɒː.d̪æɹ bo.zoɹɡʲ̥]"
  },
+ "concept:fa:green": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "ipa": "[sæbz]"
+ },
+ "concept:fa:half": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "[niːm]"
+ },
+ "concept:fa:happy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 37 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%B4%D8%AD%D8%A7%D9%84.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%B4%D8%AD%D8%A7%D9%84.wav.mp3",
+  "ipa": "[xoʃ.hɒ́ːl̥]"
+ },
  "concept:fa:he-she": {
   "level": "good",
   "checks": [
@@ -754,10 +2751,65 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/LL-Q9168_%28fas%29-Afsham23-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7.wav.mp3",
   "ipa": "[ʔiːn.d͡ʒɒː]"
  },
+ "concept:fa:hospital": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DB%8C%D9%85%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DB%8C%D9%85%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.wav.mp3",
+  "ipa": "[biː.mɒː.ɹes.t̪ʰɒ́ːn]"
+ },
+ "concept:fa:hot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 76 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Fa-%DA%AF%D8%B1%D9%85.ogg/Fa-%DA%AF%D8%B1%D9%85.ogg.mp3",
+  "ipa": "[ɡʲæɹm]"
+ },
+ "concept:fa:hour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 267 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D8%A7%D8%B9%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D8%A7%D8%B9%D8%AA.wav.mp3",
+  "ipa": "[sɒː.ʔæt̪ʰ]"
+ },
+ "concept:fa:house": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 373 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Fa-%D8%AE%D8%A7%D9%86%D9%87.ogg/Fa-%D8%AE%D8%A7%D9%86%D9%87.ogg.mp3",
+  "ipa": "[xɒː.né]"
+ },
+ "concept:fa:how": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 97 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰe.t̪ʰowɹ]"
+ },
  "concept:fa:how-are-you": {
   "level": "attested",
   "checks": [
    "Used in 14 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:how-do-you-say": {
+  "level": "attested",
+  "checks": [
+   "Used in 51 Tatoeba sentences"
   ]
  },
  "concept:fa:how-many": {
@@ -768,6 +2820,34 @@
    "Used in 162 Tatoeba sentences"
   ],
   "ipa": "[t͡ʃʰæn̪d̪̥]"
+ },
+ "concept:fa:how-much": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 162 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰæn̪d̪̥]"
+ },
+ "concept:fa:hundred": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 37 Tatoeba sentences"
+  ],
+  "ipa": "[sæd̪̥]"
+ },
+ "concept:fa:hungry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D8%B3%D9%86%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D8%B3%D9%86%D9%87.wav.mp3",
+  "ipa": "[ɡ̥o.ɹos.né]"
  },
  "concept:fa:husband": {
   "level": "strong",
@@ -794,6 +2874,49 @@
    "Used in 14 Tatoeba sentences"
   ]
  },
+ "concept:fa:i-dont-know": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 140 Tatoeba sentences"
+  ],
+  "ipa": "[ne.miː.d̪ɒː.næm]"
+ },
+ "concept:fa:i-dont-understand": {
+  "level": "attested",
+  "checks": [
+   "Used in 35 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:in": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 3954 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Fa-%D8%AF%D8%B1.ogg/Fa-%D8%AF%D8%B1.ogg.mp3",
+  "ipa": "[d̪æɹ]"
+ },
+ "concept:fa:key": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 38 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D9%84%DB%8C%D8%AF.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D9%84%DB%8C%D8%AF.wav.mp3",
+  "ipa": "[kʰʲæ.liːd̪̥]"
+ },
+ "concept:fa:kitchen": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D8%B4%D9%BE%D8%B2%D8%AE%D8%A7%D9%86%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D8%B4%D9%BE%D8%B2%D8%AE%D8%A7%D9%86%D9%87.wav.mp3",
+  "ipa": "[ʔɒːʃ.pʰæz.xɒː.né]"
+ },
  "concept:fa:kurdish": {
   "level": "good",
   "checks": [
@@ -812,6 +2935,39 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Fa-%D8%B2%D8%A8%D8%A7%D9%86.ogg/Fa-%D8%B2%D8%A8%D8%A7%D9%86.ogg.mp3",
   "ipa": "[zæ.bɒ́ːn]"
  },
+ "concept:fa:late": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 98 Tatoeba sentences"
+  ],
+  "ipa": "[d̪iːɹ]"
+ },
+ "concept:fa:left": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰæpʰ]"
+ },
+ "concept:fa:lets-go": {
+  "level": "attested",
+  "checks": [
+   "Used in 30 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:lunch": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/LL-Q9168_%28fas%29-Afsham23-%D9%86%D8%A7%D9%87%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Afsham23-%D9%86%D8%A7%D9%87%D8%A7%D8%B1.wav.mp3",
+  "ipa": "[nɒː.ɦɒ́ːɹ]"
+ },
  "concept:fa:man": {
   "level": "strong",
   "checks": [
@@ -821,6 +2977,16 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Fa-%D9%85%D8%B1%D8%AF.ogg/Fa-%D9%85%D8%B1%D8%AF.ogg.mp3",
   "ipa": "[mæɹd̪̥]"
+ },
+ "concept:fa:market": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 20 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/Fa-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1.ogg/Fa-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1.ogg.mp3",
+  "ipa": "[bɒː.zɒ́ːɹ]"
  },
  "concept:fa:married": {
   "level": "good",
@@ -850,6 +3016,89 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%A7%DB%8C%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%A7%DB%8C%DB%8C.wav.mp3",
   "ipa": "[d̪ɒː.jíː]"
  },
+ "concept:fa:maybe": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 69 Tatoeba sentences"
+  ],
+  "ipa": "[ʃɒ́ː.jæd̪̥]"
+ },
+ "concept:fa:meat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 39 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/LL-Q9168_%28fas%29-Afsham23-%DA%AF%D9%88%D8%B4%D8%AA.wav/LL-Q9168_%28fas%29-Afsham23-%DA%AF%D9%88%D8%B4%D8%AA.wav.mp3",
+  "ipa": "[ɡ̥uːʃt̪ʰ]"
+ },
+ "concept:fa:milk": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 99 Tatoeba sentences"
+  ],
+  "ipa": "[ʃiːɹ]"
+ },
+ "concept:fa:minute": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 84 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%82%DB%8C%D9%82%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%82%DB%8C%D9%82%D9%87.wav.mp3",
+  "ipa": "[d̪æ.ʁiː.ʁé]"
+ },
+ "concept:fa:monday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "[d̪o.ʃæm.bé]"
+ },
+ "concept:fa:money": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 279 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Fa-%D9%BE%D9%88%D9%84.ogg/Fa-%D9%BE%D9%88%D9%84.ogg.mp3",
+  "ipa": "[pʰuːl̥]"
+ },
+ "concept:fa:month": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 116 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Fa-%D9%85%D8%A7%D9%87.ogg/Fa-%D9%85%D8%A7%D9%87.ogg.mp3",
+  "ipa": "[mɒːʱ]"
+ },
+ "concept:fa:more": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 318 Tatoeba sentences"
+  ],
+  "ipa": "[biːʃ.t̪ʰæɹ]"
+ },
+ "concept:fa:morning": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 116 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD.wav.mp3",
+  "ipa": "[sobʰ]"
+ },
  "concept:fa:mother": {
   "level": "strong",
   "checks": [
@@ -859,6 +3108,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Fa-%D9%85%D8%A7%D8%AF%D8%B1.ogg/Fa-%D9%85%D8%A7%D8%AF%D8%B1.ogg.mp3",
   "ipa": "[mɒː.d̪ǽɹ]"
+ },
+ "concept:fa:mountain": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 55 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D9%88%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D9%88%D9%87.wav.mp3",
+  "ipa": "[kʰuːʱ]"
  },
  "concept:fa:name": {
   "level": "strong",
@@ -879,6 +3137,33 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%87%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%87%D9%84.wav.mp3",
   "ipa": "[ʔæɦl̥]"
  },
+ "concept:fa:near": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 91 Tatoeba sentences"
+  ],
+  "ipa": "[næz.d̪iːkʰʲ]"
+ },
+ "concept:fa:never": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 210 Tatoeba sentences"
+  ],
+  "ipa": "[hiːt͡ʃʰ.væxt̪ʰ]"
+ },
+ "concept:fa:new": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 113 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒæ.d̪íːd̪̥]"
+ },
  "concept:fa:nice-to-meet-you": {
   "level": "good",
   "checks": [
@@ -886,6 +3171,25 @@
    "Used in 7 Tatoeba sentences"
   ],
   "ipa": "[xoʃ.væx.t̪ʰǽm]"
+ },
+ "concept:fa:night": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 160 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Fa-%D8%B4%D8%A8.ogg/Fa-%D8%B4%D8%A8.ogg.mp3",
+  "ipa": "[ʃæb̥]"
+ },
+ "concept:fa:nine": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 441 Tatoeba sentences"
+  ],
+  "ipa": "[næ]"
  },
  "concept:fa:no": {
   "level": "strong",
@@ -896,6 +3200,23 @@
   ],
   "ipa": "[næ]"
  },
+ "concept:fa:now": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 46 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæ.lɒːn]"
+ },
+ "concept:fa:of-course": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæl.bæt̪ʰ.t̪ʰé]"
+ },
  "concept:fa:okay": {
   "level": "strong",
   "checks": [
@@ -904,6 +3225,15 @@
    "Used in 17 Tatoeba sentences"
   ],
   "ipa": "[bɒː.ʃe]"
+ },
+ "concept:fa:old": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 69 Tatoeba sentences"
+  ],
+  "ipa": "[qæ.d̪iː.míː]"
  },
  "concept:fa:older": {
   "level": "strong",
@@ -914,6 +3244,16 @@
   ],
   "ipa": "[bo.zoɹɡʲ.t̪ʰǽɹ]"
  },
+ "concept:fa:one": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 3642 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Yek-audio-ir.ogg/Yek-audio-ir.ogg.mp3",
+  "ipa": "[jekʰʲ]"
+ },
  "concept:fa:only": {
   "level": "strong",
   "checks": [
@@ -922,6 +3262,15 @@
    "Used in 417 Tatoeba sentences"
   ],
   "ipa": "[fæ.ʁæt̪ʰ]"
+ },
+ "concept:fa:or": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 288 Tatoeba sentences"
+  ],
+  "ipa": "[jɒː]"
  },
  "concept:fa:paternal-aunt": {
   "level": "strong",
@@ -952,6 +3301,14 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C.wav.mp3",
   "ipa": "[fɒːɹ.síː]"
  },
+ "concept:fa:phone": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥uː.ʃíː]"
+ },
  "concept:fa:please": {
   "level": "good",
   "checks": [
@@ -959,6 +3316,133 @@
    "Used in 317 Tatoeba sentences"
   ],
   "ipa": "[lót̪ʰ.fæn]"
+ },
+ "concept:fa:please-repeat": {
+  "level": "attested",
+  "checks": [
+   "Used in 41 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:really": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 145 Tatoeba sentences"
+  ],
+  "ipa": "[vɒː.ʁe.ʔǽn]"
+ },
+ "concept:fa:red": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 43 Tatoeba sentences"
+  ],
+  "ipa": "[qeɹ.mez]"
+ },
+ "concept:fa:rice": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Fa-%D8%A8%D8%B1%D9%86%D8%AC.ogg/Fa-%D8%A8%D8%B1%D9%86%D8%AC.ogg.mp3",
+  "ipa": "[be.ɹénd͡ʒ̥]"
+ },
+ "concept:fa:right": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 43 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/LL-Q9168_%28fas%29-Afsham23-%D8%B1%D8%A7%D8%B3%D8%AA.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B1%D8%A7%D8%B3%D8%AA.wav.mp3",
+  "ipa": "[ɹɒːst̪ʰ]"
+ },
+ "concept:fa:room": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 121 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Fa-%D8%A7%D8%AA%D8%A7%D9%82.ogg/Fa-%D8%A7%D8%AA%D8%A7%D9%82.ogg.mp3",
+  "ipa": "[ʔo.t̪ʰɒ́ːɢ̥]"
+ },
+ "concept:fa:sad": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
+  ],
+  "ipa": "[nɒː.ɹɒː.ɦǽt̪ʰ]"
+ },
+ "concept:fa:salt": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 48 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Fa-%D9%86%D9%85%D9%83.ogg/Fa-%D9%86%D9%85%D9%83.ogg.mp3",
+  "ipa": "[næ.mǽkʰʲ]"
+ },
+ "concept:fa:saturday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 41 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Fa-%D8%B4%D9%86%D8%A8%D9%87.ogg/Fa-%D8%B4%D9%86%D8%A8%D9%87.ogg.mp3",
+  "ipa": "[ʃæm.bé]"
+ },
+ "concept:fa:school": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 157 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Fa-%D9%85%D8%AF%D8%B1%D8%B3%D9%87.ogg/Fa-%D9%85%D8%AF%D8%B1%D8%B3%D9%87.ogg.mp3",
+  "ipa": "[mæd̪.ɹe.sé]"
+ },
+ "concept:fa:see-you-later": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:seven": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 38 Tatoeba sentences"
+  ],
+  "ipa": "[hǽft̪ʰ]"
+ },
+ "concept:fa:shop": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 21 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%BA%D8%A7%D8%B2%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%BA%D8%A7%D8%B2%D9%87.wav.mp3",
+  "ipa": "[mæ.ɢɒː.ze]"
+ },
+ "concept:fa:sick": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 14 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%B1%DB%8C%D8%B6.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%B1%DB%8C%D8%B6.wav.mp3",
+  "ipa": "[mæ.ɹíːz]"
  },
  "concept:fa:sister": {
   "level": "strong",
@@ -969,6 +3453,44 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/Fa-%D8%AE%D9%88%D8%A7%D9%87%D8%B1.ogg/Fa-%D8%AE%D9%88%D8%A7%D9%87%D8%B1.ogg.mp3",
   "ipa": "[xɒː.ɦæɹ]"
+ },
+ "concept:fa:six": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 61 Tatoeba sentences"
+  ],
+  "ipa": "[ʃeʃ]"
+ },
+ "concept:fa:slowly": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 27 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D9%87%D8%B3%D8%AA%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D9%87%D8%B3%D8%AA%D9%87.wav.mp3",
+  "ipa": "[ʔɒː.ɦes.t̪ʰé]"
+ },
+ "concept:fa:small": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 140 Tatoeba sentences"
+  ],
+  "ipa": "[kʰuː.t͡ʃʰǽkʰʲ]"
+ },
+ "concept:fa:sometimes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 95 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/LL-Q9168_%28fas%29-Afsham23-%DA%AF%D8%A7%D9%87%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%DA%AF%D8%A7%D9%87%DB%8C.wav.mp3",
+  "ipa": "[ɡ̥ɒː.ɦíː]"
  },
  "concept:fa:son": {
   "level": "strong",
@@ -989,6 +3511,41 @@
   ],
   "ipa": "[bé.bæx.ʃiːd̪̥]"
  },
+ "concept:fa:straight-ahead": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "[mos.t̪ʰæ.ʁíːm]"
+ },
+ "concept:fa:street": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 62 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/LL-Q9168_%28fas%29-Afsham23-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86.wav.mp3",
+  "ipa": "[xi.jɒː.bɒ́ːn]"
+ },
+ "concept:fa:sugar": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 46 Tatoeba sentences"
+  ],
+  "ipa": "[ʃækʰʲ.kʰʲǽɹ]"
+ },
+ "concept:fa:sunday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[jekʰʲ.ʃæm.bé]"
+ },
  "concept:fa:sweden": {
   "level": "good",
   "checks": [
@@ -1003,6 +3560,43 @@
    "Wiktionary translation table",
    "Used in 3 Tatoeba sentences"
   ]
+ },
+ "concept:fa:table": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 104 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Fa-%D9%85%D9%8A%D8%B2.ogg/Fa-%D9%85%D9%8A%D8%B2.ogg.mp3",
+  "ipa": "[miːz]"
+ },
+ "concept:fa:taxi": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 24 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/LL-Q9168_%28fas%29-Afsham23-%D8%AA%D8%A7%DA%A9%D8%B3%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AA%D8%A7%DA%A9%D8%B3%DB%8C.wav.mp3",
+  "ipa": "[t̪ʰɒːkʰʲ.siː]"
+ },
+ "concept:fa:tea": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 70 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/LL-Q9168_%28fas%29-Afsham23-%DA%86%D8%A7%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%DA%86%D8%A7%DB%8C.wav.mp3",
+  "ipa": "[t͡ʃʰɒːj]"
+ },
+ "concept:fa:ten": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 112 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æʱ]"
  },
  "concept:fa:thank-you": {
   "level": "strong",
@@ -1050,6 +3644,24 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%86%E2%80%8C%D9%87%D8%A7.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%86%E2%80%8C%D9%87%D8%A7.wav.mp3",
   "ipa": "[ʔɒːn.hɒ́ː]"
  },
+ "concept:fa:thirsty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰeʃ.né]"
+ },
+ "concept:fa:thirty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "[siː]"
+ },
  "concept:fa:this": {
   "level": "strong",
   "checks": [
@@ -1060,6 +3672,58 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Fa-%D8%A7%DB%8C%D9%86.ogg/Fa-%D8%A7%DB%8C%D9%86.ogg.mp3",
   "ipa": "[ʔiːn]"
  },
+ "concept:fa:thousand": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "ipa": "[hæ.zɒ́ːɹ]"
+ },
+ "concept:fa:three": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 162 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Fa-%D8%B3%D9%87.ogg/Fa-%D8%B3%D9%87.ogg.mp3",
+  "ipa": "[se]"
+ },
+ "concept:fa:thursday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "[pʰænd͡ʒ.ʃæm.bé]"
+ },
+ "concept:fa:ticket": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[be.liːt̪ʰ]"
+ },
+ "concept:fa:tired": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 74 Tatoeba sentences"
+  ],
+  "ipa": "[xæs.t̪ʰé]"
+ },
+ "concept:fa:to": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 6257 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Fa-%D8%A8%D9%87.ogg/Fa-%D8%A8%D9%87.ogg.mp3",
+  "ipa": "[be]"
+ },
  "concept:fa:to-be": {
   "level": "attested",
   "checks": [
@@ -1068,6 +3732,97 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Fa-%D8%A8%D9%88%D8%AF%D9%86.ogg/Fa-%D8%A8%D9%88%D8%AF%D9%86.ogg.mp3",
   "ipa": "[buː.d̪ǽn]"
+ },
+ "concept:fa:to-buy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[xæ.ɹiː.d̪æn]"
+ },
+ "concept:fa:to-call": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 44 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:to-close": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/LL-Q9168_%28fas%29-Darafsh-%D8%A8%D8%B3%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A8%D8%B3%D8%AA%D9%86.wav.mp3",
+  "ipa": "[bæs.t̪ʰǽn]"
+ },
+ "concept:fa:to-come": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Fa-%D8%A2%D9%85%D8%AF%D9%86.ogg/Fa-%D8%A2%D9%85%D8%AF%D9%86.ogg.mp3",
+  "ipa": "[ʔɒː.mæ.d̪ǽn]"
+ },
+ "concept:fa:to-cook": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[ʔɒːʃ.pʰæ.zíː kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-do": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 573 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%B1%D8%AF%D9%86.wav.mp3",
+  "ipa": "[kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-drink": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[nuː.ʃiː.d̪ǽn]"
+ },
+ "concept:fa:to-eat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 59 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D8%B1%D8%AF%D9%86.wav.mp3",
+  "ipa": "[xoɹ.d̪ǽn]"
+ },
+ "concept:fa:to-give": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 145 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Fa-%D8%AF%D8%A7%D8%AF%D9%86.ogg/Fa-%D8%AF%D8%A7%D8%AF%D9%86.ogg.mp3",
+  "ipa": "[d̪ɒː.d̪ǽn]"
+ },
+ "concept:fa:to-go": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 95 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Fa-%D8%B1%D9%81%D8%AA%D9%86.ogg/Fa-%D8%B1%D9%81%D8%AA%D9%86.ogg.mp3",
+  "ipa": "[ɹæf.t̪ʰǽn]"
  },
  "concept:fa:to-have": {
   "level": "strong",
@@ -1079,6 +3834,54 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Fa-%D8%AF%D8%A7%D8%B4%D8%AA%D9%86.ogg/Fa-%D8%AF%D8%A7%D8%B4%D8%AA%D9%86.ogg.mp3",
   "ipa": "[d̪ɒːʃ.t̪ʰǽn]"
  },
+ "concept:fa:to-hear": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%86%DB%8C%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%86%DB%8C%D8%AF%D9%86.wav.mp3",
+  "ipa": "[ʃe.niː.d̪ǽn]"
+ },
+ "concept:fa:to-help": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 231 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Fa-%DA%A9%D9%85%DA%A9_%DA%A9%D8%B1%D8%AF%D9%86.ogg/Fa-%DA%A9%D9%85%DA%A9_%DA%A9%D8%B1%D8%AF%D9%86.ogg.mp3",
+  "ipa": "[kʰo.mǽkʰʲ kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-know": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Danestan.ogg/Danestan.ogg.mp3",
+  "ipa": "[d̪ɒː.nes.t̪ʰǽn]"
+ },
+ "concept:fa:to-learn": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 63 Tatoeba sentences"
+  ],
+  "ipa": "[jɒːd̪̥ ɡʲe.ɹef.t̪ʰæn]"
+ },
+ "concept:fa:to-like": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 84 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D9%88%D8%B3%D8%AA_%D8%AF%D8%A7%D8%B4%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D9%88%D8%B3%D8%AA_%D8%AF%D8%A7%D8%B4%D8%AA%D9%86.wav.mp3",
+  "ipa": "[d̪úːst̪ʰ d̪ɒːʃ.t̪ʰæn]"
+ },
  "concept:fa:to-live": {
   "level": "strong",
   "checks": [
@@ -1087,6 +3890,75 @@
    "Used in 573 Tatoeba sentences"
   ],
   "ipa": "[zæn̪.d̪e.ɡʲiː kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-open": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 197 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2_%DA%A9%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2_%DA%A9%D8%B1%D8%AF%D9%86.wav.mp3",
+  "ipa": "[ˌbɒːzkʲæɾˈd̪æn]"
+ },
+ "concept:fa:to-play": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 211 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2%DB%8C_%DA%A9%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2%DB%8C_%DA%A9%D8%B1%D8%AF%D9%86.wav.mp3",
+  "ipa": "[bɒː.ziː kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:to-read": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 85 Tatoeba sentences"
+  ],
+  "ipa": "[xɒːn̪.d̪æn]"
+ },
+ "concept:fa:to-say": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 64 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Fa-%DA%AF%D9%81%D8%AA%D9%86.ogg/Fa-%DA%AF%D9%81%D8%AA%D9%86.ogg.mp3",
+  "ipa": "[ɡ̥of.t̪ʰǽn]"
+ },
+ "concept:fa:to-see": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 86 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/LL-Q9168_%28fas%29-Afsham23-%D8%AF%DB%8C%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%DB%8C%D8%AF%D9%86.wav.mp3",
+  "ipa": "[d̪iː.d̪ǽn]"
+ },
+ "concept:fa:to-sit": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/LL-Q9168_%28fas%29-Darafsh-%D9%86%D8%B4%D8%B3%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%86%D8%B4%D8%B3%D8%AA%D9%86.wav.mp3",
+  "ipa": "[ne.ʃæs.t̪ʰǽn]"
+ },
+ "concept:fa:to-sleep": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%A7%D8%A8%DB%8C%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%A7%D8%A8%DB%8C%D8%AF%D9%86.wav.mp3",
+  "ipa": "[xɒː.biː.d̪æn]"
  },
  "concept:fa:to-speak": {
   "level": "strong",
@@ -1097,6 +3969,180 @@
   ],
   "ipa": "[soɦ.bæt̪ʰ kʰʲæɹ.d̪æn]"
  },
+ "concept:fa:to-study": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 77 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%B1%D8%B3_%D8%AE%D9%88%D8%A7%D9%86%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%B1%D8%B3_%D8%AE%D9%88%D8%A7%D9%86%D8%AF%D9%86.wav.mp3",
+  "ipa": "[d̪æɹs xɒːn̪.d̪æn]"
+ },
+ "concept:fa:to-take": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 63 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D9%81%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D9%81%D8%AA%D9%86.wav.mp3",
+  "ipa": "[ɡʲe.ɹef.t̪ʰǽn]"
+ },
+ "concept:fa:to-understand": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "[fæɦ.miː.d̪ǽn]"
+ },
+ "concept:fa:to-wait": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 80 Tatoeba sentences"
+  ],
+  "ipa": "[sæbɹ kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:to-wake-up": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 69 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DB%8C%D8%AF%D8%A7%D8%B1_%D8%B4%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DB%8C%D8%AF%D8%A7%D8%B1_%D8%B4%D8%AF%D9%86.wav.mp3",
+  "ipa": "[biː.d̪ɒ́ːɹ ʃo.d̪ǽn]"
+ },
+ "concept:fa:to-want": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D9%86.wav.mp3",
+  "ipa": "[xɒːs.t̪ʰǽn]"
+ },
+ "concept:fa:to-wash": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[ʃos.t̪ʰǽn]"
+ },
+ "concept:fa:to-work": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 573 Tatoeba sentences"
+  ],
+  "ipa": "[kʰɒːɹ kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-write": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 21 Tatoeba sentences"
+  ],
+  "ipa": "[ne.veʃ.t̪ʰǽn]"
+ },
+ "concept:fa:today": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 298 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Fa-%D8%A7%D9%85%D8%B1%D9%88%D8%B2.ogg/Fa-%D8%A7%D9%85%D8%B1%D9%88%D8%B2.ogg.mp3",
+  "ipa": "[ʔem.ɹúːz]"
+ },
+ "concept:fa:tomorrow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 179 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Fa-%D9%81%D8%B1%D8%AF%D8%A7.ogg/Fa-%D9%81%D8%B1%D8%AF%D8%A7.ogg.mp3",
+  "ipa": "[fæɹ.d̪ɒ́ː]"
+ },
+ "concept:fa:tuesday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 41 Tatoeba sentences"
+  ],
+  "ipa": "[se.ʃæm.bé]"
+ },
+ "concept:fa:twelve": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æ.vɒːz.d̪æʱ]"
+ },
+ "concept:fa:twenty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 27 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/LL-Q9168_%28fas%29-Afsham23-%D8%A8%DB%8C%D8%B3%D8%AA.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%DB%8C%D8%B3%D8%AA.wav.mp3",
+  "ipa": "[biːst̪ʰ]"
+ },
+ "concept:fa:two": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 425 Tatoeba sentences"
+  ],
+  "ipa": "[d̪o]"
+ },
+ "concept:fa:usually": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 51 Tatoeba sentences"
+  ],
+  "ipa": "[mæʔ.muː.læn]"
+ },
+ "concept:fa:very": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 555 Tatoeba sentences"
+  ],
+  "ipa": "[xéj.liː]"
+ },
+ "concept:fa:village": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[ɹuːs.t̪ʰɒː]"
+ },
+ "concept:fa:water": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 341 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Fa-%D8%A2%D8%A8.ogg/Fa-%D8%A2%D8%A8.ogg.mp3",
+  "ipa": "[ʔɒːb̥]"
+ },
  "concept:fa:we": {
   "level": "strong",
   "checks": [
@@ -1106,6 +4152,34 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Fa-%D9%85%D8%A7.ogg/Fa-%D9%85%D8%A7.ogg.mp3",
   "ipa": "[mɒ́ːʔ]"
+ },
+ "concept:fa:weather": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 119 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Fa-%D9%87%D9%88%D8%A7.ogg/Fa-%D9%87%D9%88%D8%A7.ogg.mp3",
+  "ipa": "[hæ.vɒː]"
+ },
+ "concept:fa:wednesday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/LL-Q9168_%28fas%29-Darafsh-%DA%86%D9%87%D8%A7%D8%B1%D8%B4%D9%86%D8%A8%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%DA%86%D9%87%D8%A7%D8%B1%D8%B4%D9%86%D8%A8%D9%87.wav.mp3",
+  "ipa": "[t͡ʃʰæ.ɦɒːɹ.ʃæm.bé]"
+ },
+ "concept:fa:week": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 90 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%81%D8%AA%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%81%D8%AA%D9%87.wav.mp3",
+  "ipa": "[hæf.t̪ʰé]"
  },
  "concept:fa:welcome": {
   "level": "strong",
@@ -1125,6 +4199,21 @@
   ],
   "ipa": "[t͡ʃʰe]"
  },
+ "concept:fa:what-does-it-mean": {
+  "level": "attested",
+  "checks": [
+   "Used in 69 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:when": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 128 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲej]"
+ },
  "concept:fa:where": {
   "level": "strong",
   "checks": [
@@ -1133,6 +4222,25 @@
    "Used in 135 Tatoeba sentences"
   ],
   "ipa": "[kʰo.d͡ʒɒ́ː]"
+ },
+ "concept:fa:which": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 77 Tatoeba sentences"
+  ],
+  "ipa": "[kʰo.d̪ɒ́ːm]"
+ },
+ "concept:fa:white": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 67 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D9%81%DB%8C%D8%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D9%81%DB%8C%D8%AF.wav.mp3",
+  "ipa": "[se.fiːd̪̥]"
  },
  "concept:fa:who": {
   "level": "strong",
@@ -1143,6 +4251,15 @@
   ],
   "ipa": "[kʰʲej]"
  },
+ "concept:fa:why": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 233 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰé.ɹɒː]"
+ },
  "concept:fa:wife": {
   "level": "good",
   "checks": [
@@ -1152,6 +4269,25 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%B2%D9%86.ogg/Fa-%D8%B2%D9%86.ogg.mp3",
   "ipa": "[zæn]"
  },
+ "concept:fa:window": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 49 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæn.d͡ʒæ.ɹe]"
+ },
+ "concept:fa:with": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 1938 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Fa-%D8%A8%D8%A7.ogg/Fa-%D8%A8%D8%A7.ogg.mp3",
+  "ipa": "[bɒː]"
+ },
  "concept:fa:woman": {
   "level": "good",
   "checks": [
@@ -1160,6 +4296,16 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%B2%D9%86.ogg/Fa-%D8%B2%D9%86.ogg.mp3",
   "ipa": "[zæn]"
+ },
+ "concept:fa:work": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 671 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D8%A7%D8%B1.wav.mp3",
+  "ipa": "[kʰɒːɹ]"
  },
  "concept:fa:year": {
   "level": "strong",
@@ -1171,6 +4317,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/LL-Q9168_%28fas%29-Afsham23-%D8%B3%D8%A7%D9%84.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B3%D8%A7%D9%84.wav.mp3",
   "ipa": "[sɒːl̥]"
  },
+ "concept:fa:yellow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "[zæɹd̪̥]"
+ },
  "concept:fa:yes": {
   "level": "strong",
   "checks": [
@@ -1180,6 +4335,24 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/Fa-%D8%A8%D9%84%D9%87.ogg/Fa-%D8%A8%D9%84%D9%87.ogg.mp3",
   "ipa": "[bǽ.le]"
+ },
+ "concept:fa:yesterday": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 147 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/LL-Q9168_%28fas%29-Afsham23-%D8%AF%DB%8C%D8%B1%D9%88%D8%B2.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%DB%8C%D8%B1%D9%88%D8%B2.wav.mp3",
+  "ipa": "[d̪iː.ɹúːz]"
+ },
+ "concept:fa:yogurt": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 59 Tatoeba sentences"
+  ],
+  "ipa": "[mɒ́ːst̪ʰ]"
  },
  "concept:fa:you": {
   "level": "strong",
@@ -1215,10 +4388,101 @@
   ],
   "ipa": "[xɒː.ɦéʃ míː.kʰo.næm]"
  },
+ "concept:fa:zero": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/LL-Q9168_%28fas%29-Darafsh-sifr.wav/LL-Q9168_%28fas%29-Darafsh-sifr.wav.mp3",
+  "ipa": "[sæ.fǽɹ]"
+ },
+ "qa:ckb:are-you-hungry": {
+  "level": "none",
+  "checks": [
+   "0/1 words attested in references"
+  ]
+ },
  "qa:ckb:are-you-married": {
   "level": "none",
   "checks": [
    "0/1 words attested in references"
+  ]
+ },
+ "qa:ckb:are-you-sick": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:are-you-thirsty": {
+  "level": "none",
+  "checks": [
+   "0/1 words attested in references"
+  ]
+ },
+ "qa:ckb:are-you-tired": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:can-you-help-me": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10538035",
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:can-you-speak-kurdish": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10620532",
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:ckb:can-you-speak-more-slowly": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10347995",
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:ckb:can-you-speak-persian": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "qa:ckb:city-or-village": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "qa:ckb:did-you-sleep-well": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-drink-tea-or-coffee": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-get-up-early": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-have-a-car": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
   ]
  },
  "qa:ckb:do-you-have-brothers-and-sisters": {
@@ -1234,6 +4498,18 @@
    "2/2 words attested in references"
   ]
  },
+ "qa:ckb:do-you-know-where-he-is": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-like-tea": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "qa:ckb:do-you-speak-kurdish": {
   "level": "strong",
   "checks": [
@@ -1247,16 +4523,125 @@
    "3/4 words attested in references"
   ]
  },
+ "qa:ckb:do-you-understand": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-want-more": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:do-you-work-or-study": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:ckb:good-morning": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:good-night": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #9143628",
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:goodbye": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:house-or-apartment": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "qa:ckb:how-are-you": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:how-are-you-polite": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:how-are-you-today": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:how-do-you-go-to-work": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:ckb:how-is-the-weather": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
  "qa:ckb:how-many-brothers": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
   ]
  },
+ "qa:ckb:how-many-days-in-a-week": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-many-eggs-do-you-want": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-many-months-in-a-year": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-many-people-in-your-family": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-many-rooms": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
  "qa:ckb:how-many-sisters": {
   "level": "attested",
   "checks": [
    "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:how-much-is-this": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
   ]
  },
  "qa:ckb:how-old-are-you": {
@@ -1271,10 +4656,147 @@
    "2/2 words attested in references"
   ]
  },
+ "qa:ckb:is-it-expensive": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:is-kurdish-difficult": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:is-persian-difficult": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "qa:ckb:is-the-airport-far": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:is-the-food-tasty": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:is-there-a-shop-nearby": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:ckb:is-today-friday": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10311281",
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:is-your-house-big": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
  "qa:ckb:nice-to-meet-you-reply": {
   "level": "attested",
   "checks": [
    "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:shall-we-go": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:sorry": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10555375",
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:thank-you": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #9138680",
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:welcome": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:ckb:what-color-is-this": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-color-is-your-car": {
+  "level": "none",
+  "checks": [
+   "1/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-day-is-it-today": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #11821256",
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-did-you-buy": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:what-did-you-do-yesterday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-did-you-eat": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:what-do-you-eat-for-breakfast": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:ckb:what-do-you-like-to-do": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10537980",
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:ckb:what-do-you-want-to-drink": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-do-you-want-to-eat": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
   ]
  },
  "qa:ckb:what-is-your-mothers-name": {
@@ -1289,11 +4811,47 @@
    "2/2 words attested in references"
   ]
  },
+ "qa:ckb:what-language-are-you-learning": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
  "qa:ckb:what-language-do-you-speak": {
   "level": "strong",
   "checks": [
    "Tatoeba sentence #10310841",
    "5/5 words attested in references"
+  ]
+ },
+ "qa:ckb:what-time-do-you-eat-breakfast": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:ckb:what-time-do-you-get-up": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-time-do-you-go-to-bed": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:what-time-is-it": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:ckb:when-do-you-study-kurdish": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
   ]
  },
  "qa:ckb:where-are-you-from": {
@@ -1303,10 +4861,34 @@
    "2/2 words attested in references"
   ]
  },
+ "qa:ckb:where-are-you-going": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:where-are-you-tomorrow": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:where-did-you-go-yesterday": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
  "qa:ckb:where-do-you-live": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:where-do-you-work": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
   ]
  },
  "qa:ckb:where-does-your-family-live": {
@@ -1322,13 +4904,115 @@
    "3/3 words attested in references"
   ]
  },
+ "qa:ckb:where-is-the-hospital": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:ckb:where-is-the-key": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:ckb:which-is-easier-kurdish-or-persian": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
  "qa:ckb:who-is-he": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
   ]
  },
+ "qa:ckb:why-are-you-learning-kurdish": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:are-you-hungry": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
  "qa:fa:are-you-married": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:are-you-sick": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:are-you-thirsty": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:are-you-tired": {
+  "level": "none",
+  "checks": [
+   "0/1 words attested in references"
+  ]
+ },
+ "qa:fa:can-you-help-me": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:fa:can-you-speak-kurdish": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:can-you-speak-more-slowly": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "qa:fa:can-you-speak-persian": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:city-or-village": {
+  "level": "good",
+  "checks": [
+   "7/7 words attested in references"
+  ]
+ },
+ "qa:fa:did-you-sleep-well": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-drink-tea-or-coffee": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-get-up-early": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-have-a-car": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
@@ -1346,6 +5030,18 @@
    "2/2 words attested in references"
   ]
  },
+ "qa:fa:do-you-know-where-he-is": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-like-tea": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "qa:fa:do-you-speak-kurdish": {
   "level": "good",
   "checks": [
@@ -1359,13 +5055,124 @@
    "3/3 words attested in references"
   ]
  },
+ "qa:fa:do-you-understand": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-want-more": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "qa:fa:do-you-work-or-study": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "qa:fa:good-morning": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:good-night": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #13496449",
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:goodbye": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #11115336",
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:house-or-apartment": {
+  "level": "attested",
+  "checks": [
+   "6/7 words attested in references"
+  ]
+ },
+ "qa:fa:how-are-you": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:how-are-you-polite": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:how-are-you-today": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:how-do-you-go-to-work": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:how-is-the-weather": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #791528",
+   "3/3 words attested in references"
+  ]
+ },
  "qa:fa:how-many-brothers": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
   ]
  },
+ "qa:fa:how-many-days-in-a-week": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:fa:how-many-eggs-do-you-want": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:how-many-months-in-a-year": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:fa:how-many-people-in-your-family": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:how-many-rooms": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
  "qa:fa:how-many-sisters": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:how-much-is-this": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
@@ -1383,10 +5190,144 @@
    "3/3 words attested in references"
   ]
  },
+ "qa:fa:is-it-expensive": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:is-kurdish-difficult": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:is-persian-difficult": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:is-the-airport-far": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:is-the-food-tasty": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:is-there-a-shop-nearby": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:is-today-friday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:is-your-house-big": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
  "qa:fa:nice-to-meet-you-reply": {
   "level": "good",
   "checks": [
    "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:shall-we-go": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:sorry": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #11120064",
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:thank-you": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "qa:fa:welcome": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #828096",
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:what-color-is-this": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:what-color-is-your-car": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:what-day-is-it-today": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:what-did-you-buy": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:what-did-you-do-yesterday": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:what-did-you-eat": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:what-do-you-eat-for-breakfast": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:what-do-you-like-to-do": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "qa:fa:what-do-you-want-to-drink": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:fa:what-do-you-want-to-eat": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
   ]
  },
  "qa:fa:what-is-your-mothers-name": {
@@ -1402,10 +5343,47 @@
    "3/3 words attested in references"
   ]
  },
+ "qa:fa:what-language-are-you-learning": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
  "qa:fa:what-language-do-you-speak": {
   "level": "good",
   "checks": [
    "5/5 words attested in references"
+  ]
+ },
+ "qa:fa:what-time-do-you-eat-breakfast": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "qa:fa:what-time-do-you-get-up": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "qa:fa:what-time-do-you-go-to-bed": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "qa:fa:what-time-is-it": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #1479387",
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:when-do-you-study-kurdish": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
   ]
  },
  "qa:fa:where-are-you-from": {
@@ -1414,7 +5392,31 @@
    "3/3 words attested in references"
   ]
  },
+ "qa:fa:where-are-you-going": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "qa:fa:where-are-you-tomorrow": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:where-did-you-go-yesterday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "qa:fa:where-do-you-live": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "qa:fa:where-do-you-work": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
@@ -1432,10 +5434,95 @@
    "3/3 words attested in references"
   ]
  },
+ "qa:fa:where-is-the-hospital": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:where-is-the-key": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:which-is-easier-kurdish-or-persian": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
  "qa:fa:who-is-he": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
+  ]
+ },
+ "qa:fa:why-are-you-learning-persian": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:a-day-is-twenty-four-hours": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:a-glass-of-water-please": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:a-ticket-please": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:a-week-is-seven-days": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:a-year-is-twelve-months": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:are-you-sick": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:can-you-help-me": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10538035",
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:come-here": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:did-you-understand": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "sentence:ckb:do-you-drink-tea": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
   ]
  },
  "sentence:ckb:do-you-speak-english": {
@@ -1444,10 +5531,100 @@
    "4/4 words attested in references"
   ]
  },
+ "sentence:ckb:do-you-want-tea-or-coffee": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:do-you-want-to-drink-tea": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:excuse-me-do-you-speak-english": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:for-breakfast-we-eat-bread-and-cheese": {
+  "level": "good",
+  "checks": [
+   "7/7 words attested in references"
+  ]
+ },
+ "sentence:ckb:go-right": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:go-straight-ahead": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:good-morning-how-are-you-polite": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:good-morning-welcome": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:hello-how-are-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
  "sentence:ckb:hello-nice-to-meet-you": {
   "level": "attested",
   "checks": [
    "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:hello-welcome": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:how-do-you-say-this": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:how-much-is-this": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-always-get-up-early": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-always-wash-them": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-am-coming-from-sulaymani": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
   ]
  },
  "sentence:ckb:i-am-from-sweden": {
@@ -1456,10 +5633,96 @@
    "2/3 words attested in references"
   ]
  },
+ "sentence:ckb:i-am-going-to-the-market": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-am-learning-kurdish-and-persian": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
  "sentence:ckb:i-am-sara": {
   "level": "none",
   "checks": [
    "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-am-very-hungry": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10473764",
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-am-very-tired": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-ate-bread": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-bought-a-new-book": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-can-speak-a-little-kurdish": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-can-wait": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10542902",
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-cant-come-tomorrow": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-come-with-my-friend": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-couldnt-sleep": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-didnt-eat-anything": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-dont-drink-coffee": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-dont-eat-meat": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
   ]
  },
  "sentence:ckb:i-dont-have-a-sister": {
@@ -1468,10 +5731,64 @@
    "2/2 words attested in references"
   ]
  },
+ "sentence:ckb:i-dont-have-money": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-dont-know-where-he-is": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-drink-tea-in-the-mornings": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-drink-tea-without-sugar": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-get-up-at-seven-every-day": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-go-to-work-by-bus": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
  "sentence:ckb:i-have-a-brother": {
   "level": "none",
   "checks": [
    "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-have-a-red-car": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-have-three-brothers": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-learn-persian-because-my-friend-is-from-tehran": {
+  "level": "attested",
+  "checks": [
+   "5/7 words attested in references"
   ]
  },
  "sentence:ckb:i-live-in-sweden": {
@@ -1480,10 +5797,125 @@
    "3/3 words attested in references"
   ]
  },
+ "sentence:ckb:i-never-get-up-late": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-opened-the-window": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-saw-sara-yesterday": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
  "sentence:ckb:i-speak-a-little-persian": {
   "level": "attested",
   "checks": [
    "4/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-usually-go-to-bed-late": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-want-the-key": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-want-to-eat-bread": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-want-two-eggs": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-want-water": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-wash-the-clothes": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-work-every-day": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:i-worked-yesterday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:im-fine-thanks-and-you": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:im-thirsty-is-there-water": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:it-is-half-past-two": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:it-is-six-oclock": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10321700",
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:it-is-ten-past-five": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:kurdish-is-not-difficult": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:maybe-tomorrow-i-dont-know": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:me-too-i-am-fine": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
   ]
  },
  "sentence:ckb:my-aunt-is-from-tehran": {
@@ -1492,10 +5924,22 @@
    "2/3 words attested in references"
   ]
  },
+ "sentence:ckb:my-brother-is-twenty-one": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
  "sentence:ckb:my-brother-is-younger-than-me": {
   "level": "good",
   "checks": [
    "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-father-is-fifty": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
   ]
  },
  "sentence:ckb:my-father-is-from-erbil": {
@@ -1517,6 +5961,18 @@
    "2/2 words attested in references"
   ]
  },
+ "sentence:ckb:my-mother-is-sad": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-mother-lives-in-a-village": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
  "sentence:ckb:my-name-is-sara": {
   "level": "none",
   "checks": [
@@ -1533,6 +5989,12 @@
   "level": "good",
   "checks": [
    "6/6 words attested in references"
+  ]
+ },
+ "sentence:ckb:my-room-has-two-windows": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
   ]
  },
  "sentence:ckb:my-sister-is-older-than-me": {
@@ -1553,10 +6015,112 @@
    "1/2 words attested in references"
   ]
  },
+ "sentence:ckb:no-sorry": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:no-thank-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:okay-good-night": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:okay-see-you-later": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:okay-thanks": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:on-fridays-we-go-to-the-mountains": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:one-two-three": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:persian-is-beautiful-but-difficult": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:please-say-it-again": {
+  "level": "none",
+  "checks": [
+   "1/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:please-speak-more-slowly": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:sara-closed-the-door": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:sometimes-i-work-at-home": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:ckb:sorry-i-dont-understand": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:tehran-is-the-biggest-city-in-iran": {
+  "level": "none",
+  "checks": [
+   "2/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:thanks-a-lot-goodbye": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
  "sentence:ckb:that-woman-is-from-sulaymaniyah": {
   "level": "attested",
   "checks": [
    "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:thats-enough-thanks": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-airport-is-far": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
   ]
  },
  "sentence:ckb:the-children-are-here": {
@@ -1565,10 +6129,94 @@
    "2/2 words attested in references"
   ]
  },
+ "sentence:ckb:the-children-study-at-school": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-doctor-is-in-the-hospital": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-food-is-very-delicious": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-house-is-big": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-key-is-on-the-table": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-kitchen-is-here": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-old-house-is-very-beautiful": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-room-is-clean-and-big": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-shop-is-on-the-left": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-tea-is-very-hot": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:the-weather-is-cold-today": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "sentence:ckb:they-live-there": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:this-book-is-better-than-that-one": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:ckb:this-is-a-good-book": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:this-is-cheap-that-is-expensive": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
   ]
  },
  "sentence:ckb:this-is-my-family": {
@@ -1589,10 +6237,52 @@
    "2/2 words attested in references"
   ]
  },
+ "sentence:ckb:this-is-our-home": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:today-is-colder-than-yesterday": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:today-is-saturday": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:tomorrow-is-friday": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:tonight-we-are-here": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
  "sentence:ckb:we-are-friends": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:we-are-very-happy": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:we-eat-dinner-at-seven": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
   ]
  },
  "sentence:ckb:we-have-a-son": {
@@ -1601,10 +6291,40 @@
    "1/2 words attested in references"
   ]
  },
+ "sentence:ckb:we-sat-in-the-room": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:what-did-you-say": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:what-do-you-want": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:what-does-this-mean": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "sentence:ckb:what-is-this": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:what-time-is-it-now": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
   ]
  },
  "sentence:ckb:whats-your-friends-name": {
@@ -1613,10 +6333,34 @@
    "3/3 words attested in references"
   ]
  },
+ "sentence:ckb:when-are-you-coming": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
  "sentence:ckb:where-are-you": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:where-are-you-tomorrow-evening": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:ckb:where-is-my-phone": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:where-is-the-hospital": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
   ]
  },
  "sentence:ckb:where-is-your-daughter": {
@@ -1625,16 +6369,155 @@
    "3/3 words attested in references"
   ]
  },
+ "sentence:ckb:which-one-is-better": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
  "sentence:ckb:who-is-that-man": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
   ]
  },
+ "sentence:ckb:yes-im-fine": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:ckb:yesterday-i-went-to-the-market": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #10887506",
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:ckb:yesterday-was-monday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:a-day-is-twenty-four-hours": {
+  "level": "good",
+  "checks": [
+   "7/7 words attested in references"
+  ]
+ },
+ "sentence:fa:a-glass-of-water-please": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:a-ticket-please": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:a-week-is-seven-days": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:a-year-is-twelve-months": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:are-you-sick": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:can-you-help-me": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:come-here": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:did-you-understand": {
+  "level": "good",
+  "checks": [
+   "1/1 words attested in references"
+  ]
+ },
+ "sentence:fa:do-you-drink-tea": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
  "sentence:fa:do-you-speak-english": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:do-you-want-tea-or-coffee": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:do-you-want-to-drink-tea": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:excuse-me-do-you-speak-english": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:for-breakfast-we-eat-bread-and-cheese": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "sentence:fa:go-right": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:go-straight-ahead": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:good-morning-how-are-you-polite": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:fa:good-morning-welcome": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:hello-how-are-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
   ]
  },
  "sentence:fa:hello-nice-to-meet-you": {
@@ -1644,10 +6527,58 @@
    "6/6 words attested in references"
   ]
  },
+ "sentence:fa:hello-welcome": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:how-do-you-say-this": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:fa:how-much-is-this": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-always-get-up-early": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-always-wash-them": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-am-coming-from-sulaymani": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
  "sentence:fa:i-am-from-sweden": {
   "level": "good",
   "checks": [
    "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-am-going-to-the-market": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-am-learning-kurdish-and-persian": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
   ]
  },
  "sentence:fa:i-am-sara": {
@@ -1656,10 +6587,118 @@
    "3/3 words attested in references"
   ]
  },
+ "sentence:fa:i-am-very-hungry": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-am-very-tired": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-ate-bread": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-bought-a-new-book": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-can-speak-a-little-kurdish": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:i-can-wait": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-cant-come-tomorrow": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-come-with-my-friend": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-couldnt-sleep": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-didnt-eat-anything": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-dont-drink-coffee": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-dont-eat-meat": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
  "sentence:fa:i-dont-have-a-sister": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-dont-have-money": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-dont-know-where-he-is": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-drink-tea-in-the-mornings": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-drink-tea-without-sugar": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-get-up-at-seven-every-day": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:fa:i-go-to-work-by-bus": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
   ]
  },
  "sentence:fa:i-have-a-brother": {
@@ -1668,7 +6707,43 @@
    "3/3 words attested in references"
   ]
  },
+ "sentence:fa:i-have-a-red-car": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-have-three-brothers": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-learn-persian-because-my-friend-is-from-tehran": {
+  "level": "attested",
+  "checks": [
+   "7/8 words attested in references"
+  ]
+ },
  "sentence:fa:i-live-in-sweden": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-never-get-up-late": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-opened-the-window": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-saw-sara-yesterday": {
   "level": "good",
   "checks": [
    "4/4 words attested in references"
@@ -1680,16 +6755,125 @@
    "4/4 words attested in references"
   ]
  },
+ "sentence:fa:i-usually-go-to-bed-late": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-want-the-key": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-want-to-eat-bread": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-want-two-eggs": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-want-water": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:i-wash-the-clothes": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:i-work-every-day": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:i-worked-yesterday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:im-fine-thanks-and-you": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:im-thirsty-is-there-water": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:it-is-half-past-two": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:it-is-six-oclock": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:it-is-ten-past-five": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
+ "sentence:fa:kurdish-is-not-difficult": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:maybe-tomorrow-i-dont-know": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:me-too-i-am-fine": {
+  "level": "strong",
+  "checks": [
+   "Tatoeba sentence #11115344",
+   "3/3 words attested in references"
+  ]
+ },
  "sentence:fa:my-aunt-is-from-tehran": {
   "level": "attested",
   "checks": [
    "3/4 words attested in references"
   ]
  },
+ "sentence:fa:my-brother-is-twenty-one": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
  "sentence:fa:my-brother-is-younger-than-me": {
   "level": "good",
   "checks": [
    "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:my-father-is-fifty": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
   ]
  },
  "sentence:fa:my-father-is-from-erbil": {
@@ -1710,6 +6894,18 @@
    "4/4 words attested in references"
   ]
  },
+ "sentence:fa:my-mother-is-sad": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:my-mother-lives-in-a-village": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
+  ]
+ },
  "sentence:fa:my-name-is-sara": {
   "level": "good",
   "checks": [
@@ -1726,6 +6922,12 @@
   "level": "good",
   "checks": [
    "7/7 words attested in references"
+  ]
+ },
+ "sentence:fa:my-room-has-two-windows": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
   ]
  },
  "sentence:fa:my-sister-is-older-than-me": {
@@ -1746,10 +6948,112 @@
    "3/3 words attested in references"
   ]
  },
+ "sentence:fa:no-sorry": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:no-thank-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:okay-good-night": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:okay-see-you-later": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:okay-thanks": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:on-fridays-we-go-to-the-mountains": {
+  "level": "none",
+  "checks": [
+   "2/4 words attested in references"
+  ]
+ },
+ "sentence:fa:one-two-three": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:persian-is-beautiful-but-difficult": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:please-say-it-again": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:please-speak-more-slowly": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
+ "sentence:fa:sara-closed-the-door": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:sometimes-i-work-at-home": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:sorry-i-dont-understand": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:tehran-is-the-biggest-city-in-iran": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:thanks-a-lot-goodbye": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "sentence:fa:that-woman-is-from-sulaymaniyah": {
   "level": "good",
   "checks": [
    "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:thats-enough-thanks": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:the-airport-is-far": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
   ]
  },
  "sentence:fa:the-children-are-here": {
@@ -1758,10 +7062,94 @@
    "2/3 words attested in references"
   ]
  },
+ "sentence:fa:the-children-study-at-school": {
+  "level": "attested",
+  "checks": [
+   "4/5 words attested in references"
+  ]
+ },
+ "sentence:fa:the-doctor-is-in-the-hospital": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:the-food-is-very-delicious": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:the-house-is-big": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:the-key-is-on-the-table": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:the-kitchen-is-here": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:the-old-house-is-very-beautiful": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:the-room-is-clean-and-big": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:the-shop-is-on-the-left": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:the-tea-is-very-hot": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:the-weather-is-cold-today": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
  "sentence:fa:they-live-there": {
   "level": "good",
   "checks": [
    "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:this-book-is-better-than-that-one": {
+  "level": "good",
+  "checks": [
+   "7/7 words attested in references"
+  ]
+ },
+ "sentence:fa:this-is-a-good-book": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:this-is-cheap-that-is-expensive": {
+  "level": "good",
+  "checks": [
+   "6/6 words attested in references"
   ]
  },
  "sentence:fa:this-is-my-family": {
@@ -1782,13 +7170,79 @@
    "4/4 words attested in references"
   ]
  },
+ "sentence:fa:this-is-our-home": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:today-is-colder-than-yesterday": {
+  "level": "good",
+  "checks": [
+   "5/5 words attested in references"
+  ]
+ },
+ "sentence:fa:today-is-saturday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:tomorrow-is-friday": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:tonight-we-are-here": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "sentence:fa:we-are-friends": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
   ]
  },
+ "sentence:fa:we-are-very-happy": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:we-eat-dinner-at-seven": {
+  "level": "attested",
+  "checks": [
+   "3/4 words attested in references"
+  ]
+ },
  "sentence:fa:we-have-a-son": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:we-sat-in-the-room": {
+  "level": "attested",
+  "checks": [
+   "2/3 words attested in references"
+  ]
+ },
+ "sentence:fa:what-did-you-say": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:what-do-you-want": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:what-does-this-mean": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
@@ -1800,13 +7254,43 @@
    "2/2 words attested in references"
   ]
  },
+ "sentence:fa:what-time-is-it-now": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
  "sentence:fa:whats-your-friends-name": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"
   ]
  },
+ "sentence:fa:when-are-you-coming": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
  "sentence:fa:where-are-you": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:where-are-you-tomorrow-evening": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:where-is-my-phone": {
+  "level": "none",
+  "checks": [
+   "1/2 words attested in references"
+  ]
+ },
+ "sentence:fa:where-is-the-hospital": {
   "level": "good",
   "checks": [
    "2/2 words attested in references"
@@ -1818,7 +7302,31 @@
    "1/2 words attested in references"
   ]
  },
+ "sentence:fa:which-one-is-better": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
  "sentence:fa:who-is-that-man": {
+  "level": "good",
+  "checks": [
+   "3/3 words attested in references"
+  ]
+ },
+ "sentence:fa:yes-im-fine": {
+  "level": "good",
+  "checks": [
+   "2/2 words attested in references"
+  ]
+ },
+ "sentence:fa:yesterday-i-went-to-the-market": {
+  "level": "good",
+  "checks": [
+   "4/4 words attested in references"
+  ]
+ },
+ "sentence:fa:yesterday-was-monday": {
   "level": "good",
   "checks": [
    "3/3 words attested in references"

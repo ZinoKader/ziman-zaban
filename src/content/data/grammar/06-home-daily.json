@@ -1,0 +1,222 @@
+{
+  "points": [
+    {
+      "id": "ckb-habits-frequency",
+      "unit": "home-daily",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Habits and how often", "sv": "Vanor och hur ofta" },
+      "explanation": {
+        "en": "Habits use the ordinary **present tense**: `دە-` + present stem + ending, e.g. `کار دەکەم` 'I work'. A preverb comes before `دە-`: `هەڵدەستم` 'I get up'. The negative swaps `دە-` for `نا-`: `هەڵناستم`. In Sulaymani speech you hear `ئە-` for `دە-` (`ئەخەوم`). Frequency words go **before the verb**, usually first: `هەمیشە` 'always', `بەزۆری` 'usually', `هەندێک جار` 'sometimes', `هەموو ڕۆژێک` 'every day'. `هەرگیز` 'never' needs a **negative verb**. Time words with plural `-an` mean 'in the …s': `بەیانیان` 'in the mornings', `ئێواران` 'in the evenings', `شەوان` 'at night'. Swedish **brukar** is just the present tense here.",
+        "sv": "Vanor uttrycks med vanligt **presens**: `دە-` + presensstam + ändelse, t.ex. `کار دەکەم` 'jag arbetar'. Ett verbprefix står före `دە-`: `هەڵدەستم` 'jag går upp'. Nekande byter `دە-` mot `نا-`: `هەڵناستم`. I Sulaymani-tal hör man `ئە-` i stället för `دە-` (`ئەخەوم`). Frekvensord står **före verbet**, oftast först: `هەمیشە` 'alltid', `بەزۆری` 'oftast', `هەندێک جار` 'ibland', `هەموو ڕۆژێک` 'varje dag'. `هەرگیز` 'aldrig' kräver **nekat verb**. Tidsord med plural `-an` betyder 'på …arna': `بەیانیان` 'på morgnarna', `ئێواران` 'på kvällarna', `شەوان` 'på nätterna'. Svenskans **brukar** blir bara presens."
+      },
+      "examples": [
+        {
+          "text": "هەمیشە زوو هەڵدەستم.",
+          "latin": "hemîşe zû hełdestim.",
+          "translation": { "en": "I always get up early.", "sv": "Jag går alltid upp tidigt." },
+          "tokens": [
+            { "text": "هەمیشە", "latin": "hemîşe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+            { "text": "زوو", "latin": "zû", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+            { "text": "هەڵدەستم.", "latin": "hełdestim.", "gloss": { "en": "I get up", "sv": "jag går upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "هەرگیز درەنگ هەڵناستم.",
+          "latin": "hergîz direng hełnastim.",
+          "translation": { "en": "I never get up late.", "sv": "Jag går aldrig upp sent." },
+          "tokens": [
+            { "text": "هەرگیز", "latin": "hergîz", "gloss": { "en": "never", "sv": "aldrig" }, "concept": "never" },
+            { "text": "درەنگ", "latin": "direng", "gloss": { "en": "late", "sv": "sent" }, "concept": "late" },
+            { "text": "هەڵناستم.", "latin": "hełnastim.", "gloss": { "en": "I don't get up", "sv": "jag går inte upp" }, "concept": "to-wake-up", "morph": "up-NEG-rise.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "بەیانیان چا دەخۆمەوە.",
+          "latin": "beyanîyan ça dexomewe.",
+          "translation": { "en": "In the mornings I drink tea.", "sv": "På morgnarna dricker jag te." },
+          "tokens": [
+            { "text": "بەیانیان", "latin": "beyanîyan", "gloss": { "en": "in the mornings", "sv": "på morgnarna" }, "concept": "morning", "morph": "morning-PL" },
+            { "text": "چا", "latin": "ça", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+            { "text": "دەخۆمەوە.", "latin": "dexomewe.", "gloss": { "en": "I drink", "sv": "jag dricker" }, "concept": "to-drink", "morph": "DUR-eat.PRS-1SG-PV" }
+          ]
+        },
+        {
+          "text": "هەندێک جار لە ماڵەوە کار دەکەم.",
+          "latin": "hendêk car le małewe kar dekem.",
+          "translation": { "en": "Sometimes I work at home.", "sv": "Ibland arbetar jag hemma." },
+          "tokens": [
+            { "text": "هەندێک", "latin": "hendêk", "gloss": { "en": "some", "sv": "några" }, "concept": "sometimes" },
+            { "text": "جار", "latin": "car", "gloss": { "en": "time(s)", "sv": "gång(er)" }, "concept": "sometimes" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "at", "sv": "i" }, "concept": "in" },
+            { "text": "ماڵەوە", "latin": "małewe", "gloss": { "en": "home", "sv": "hemma" }, "concept": "house", "morph": "home-POSTP" },
+            { "text": "کار", "latin": "kar", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+            { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§17" },
+        { "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "ckb-object-clitics",
+      "unit": "home-daily",
+      "lang": "ckb",
+      "level": "A2",
+      "title": { "en": "'it', 'them': object clitics in the present", "sv": "'den', 'dem': objektsklitika i presens" },
+      "explanation": {
+        "en": "In the present tense a **pronoun object** ('me', 'you', 'it', 'them') is a small clitic from the same set as the possessives: `-m`, `-t`, `-y`, `-man`, `-tan`, `-yan`. It sits **right after the prefix** `دە-` or `نا-`, before the stem: `دەشۆم` 'I wash' → `دەیشۆم` 'I wash it', `دەیانشۆم` 'I wash them', `نایخۆم` 'I don't eat it'. With a compound verb it goes on the first part instead: `هەڵیدەگرم` 'I pick it up'. A noun object is a separate word and needs no clitic: `جلەکان دەشۆم` 'I wash the clothes'. In Sulaymani speech: `ئەیشۆم`. The past tense works differently (unit 9).",
+        "sv": "I presens blir ett **pronomenobjekt** ('mig', 'dig', 'den', 'dem') en liten klitika ur samma uppsättning som possessiven: `-m`, `-t`, `-y`, `-man`, `-tan`, `-yan`. Den står **direkt efter prefixet** `دە-` eller `نا-`, före stammen: `دەشۆم` 'jag tvättar' → `دەیشۆم` 'jag tvättar den', `دەیانشۆم` 'jag tvättar dem', `نایخۆم` 'jag äter den inte'. Vid sammansatta verb fäster den på första delen: `هەڵیدەگرم` 'jag tar upp den'. Ett substantivobjekt är ett eget ord och behöver ingen klitika: `جلەکان دەشۆم` 'jag tvättar kläderna'. I Sulaymani-tal: `ئەیشۆم`. Preteritum fungerar annorlunda (enhet 9)."
+      },
+      "examples": [
+        {
+          "text": "جلەکان دەشۆم.",
+          "latin": "cilekan deşom.",
+          "translation": { "en": "I wash the clothes.", "sv": "Jag tvättar kläderna." },
+          "tokens": [
+            { "text": "جلەکان", "latin": "cilekan", "gloss": { "en": "the clothes", "sv": "kläderna" }, "concept": "clothes", "morph": "clothes-DEF.PL" },
+            { "text": "دەشۆم.", "latin": "deşom.", "gloss": { "en": "I wash", "sv": "jag tvättar" }, "concept": "to-wash", "morph": "DUR-wash.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "هەمیشە دەیانشۆم.",
+          "latin": "hemîşe deyanşom.",
+          "translation": { "en": "I always wash them.", "sv": "Jag tvättar dem alltid." },
+          "tokens": [
+            { "text": "هەمیشە", "latin": "hemîşe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+            { "text": "دەیانشۆم.", "latin": "deyanşom.", "gloss": { "en": "I wash them", "sv": "jag tvättar dem" }, "concept": "to-wash", "morph": "DUR-3PL-wash.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "دەیخۆم.",
+          "latin": "deyxom.",
+          "translation": { "en": "I eat it.", "sv": "Jag äter den." },
+          "tokens": [
+            { "text": "دەیخۆم.", "latin": "deyxom.", "gloss": { "en": "I eat it", "sv": "jag äter den" }, "concept": "to-eat", "morph": "DUR-3SG-eat.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "نایخۆم.",
+          "latin": "nayxom.",
+          "translation": { "en": "I don't eat it.", "sv": "Jag äter den inte." },
+          "tokens": [
+            { "text": "نایخۆم.", "latin": "nayxom.", "gloss": { "en": "I don't eat it", "sv": "jag äter den inte" }, "concept": "to-eat", "morph": "NEG-3SG-eat.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§23" },
+        { "source": "kim-kurdish-grammar", "ref": "Bound Pronoun" }
+      ]
+    },
+    {
+      "id": "fa-habits-frequency",
+      "unit": "home-daily",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Habits and how often", "sv": "Vanor och hur ofta" },
+      "explanation": {
+        "en": "Habits use the **present tense**: `می-` + present stem + ending, e.g. `کار می‌کنم` 'I work', `می‌خوابم` 'I sleep'. Frequency words come first or right before the verb: `همیشه` 'always', `معمولاً` 'usually', `گاهی` 'sometimes', `هر روز` 'every day'. `هیچ‌وقت` 'never' needs a **negative verb** with `نمی-`: `هیچ‌وقت دیر بیدار نمی‌شوم`. Add `-ها` to a time word for 'in the …s': `صبح‌ها` 'in the mornings', `شب‌ها` 'at night', `جمعه‌ها` 'on Fridays'. Speech shortens many verbs: `می‌شوم` → `می‌شم`, `می‌خواهم` → `می‌خوام`. Swedish **brukar** is just the present tense here.",
+        "sv": "Vanor uttrycks med **presens**: `می-` + presensstam + ändelse, t.ex. `کار می‌کنم` 'jag arbetar', `می‌خوابم` 'jag sover'. Frekvensord står först eller direkt före verbet: `همیشه` 'alltid', `معمولاً` 'oftast', `گاهی` 'ibland', `هر روز` 'varje dag'. `هیچ‌وقت` 'aldrig' kräver **nekat verb** med `نمی-`: `هیچ‌وقت دیر بیدار نمی‌شوم`. Lägg `-ها` på ett tidsord för 'på …arna': `صبح‌ها` 'på morgnarna', `شب‌ها` 'på nätterna', `جمعه‌ها` 'på fredagarna'. Talspråket kortar många verb: `می‌شوم` → `می‌شم`, `می‌خواهم` → `می‌خوام`. Svenskans **brukar** blir bara presens."
+      },
+      "examples": [
+        {
+          "text": "همیشه زود بیدار می‌شوم.",
+          "latin": "hamishe zud bidâr mishavam.",
+          "translation": { "en": "I always get up early.", "sv": "Jag går alltid upp tidigt." },
+          "tokens": [
+            { "text": "همیشه", "latin": "hamishe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+            { "text": "زود", "latin": "zud", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+            { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+            { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become", "sv": "jag blir" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "هیچ‌وقت دیر بیدار نمی‌شوم.",
+          "latin": "hichvaght dir bidâr nemishavam.",
+          "translation": { "en": "I never get up late.", "sv": "Jag går aldrig upp sent." },
+          "tokens": [
+            { "text": "هیچ‌وقت", "latin": "hichvaght", "gloss": { "en": "never", "sv": "aldrig" }, "concept": "never" },
+            { "text": "دیر", "latin": "dir", "gloss": { "en": "late", "sv": "sent" }, "concept": "late" },
+            { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+            { "text": "نمی‌شوم.", "latin": "nemishavam.", "gloss": { "en": "I don't become", "sv": "jag blir inte" }, "concept": "to-wake-up", "morph": "NEG-DUR-become.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "صبح‌ها چای می‌خورم.",
+          "latin": "sobh-hâ chây mikhoram.",
+          "translation": { "en": "In the mornings I drink tea.", "sv": "På morgnarna dricker jag te." },
+          "tokens": [
+            { "text": "صبح‌ها", "latin": "sobh-hâ", "gloss": { "en": "in the mornings", "sv": "på morgnarna" }, "concept": "morning", "morph": "morning-PL" },
+            { "text": "چای", "latin": "chây", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+            { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "I drink (lit. eat)", "sv": "jag dricker (ordagrant äter)" }, "concept": "to-drink", "morph": "DUR-eat.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "author" },
+        { "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "fa-object-ra",
+      "unit": "home-daily",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "را for a definite object", "sv": "را för ett bestämt objekt" },
+      "explanation": {
+        "en": "A **definite** direct object (the key, this book, them) is followed by `را` râ: `کلید را می‌خواهم` 'I want the key'. An indefinite or general object has **no** `را`: `یک کلید می‌خواهم` 'I want a key', `چای می‌خورم` 'I drink tea'. Pronoun objects always take it: `آن‌ها را می‌شویم` 'I wash them', and `من` + `را` merges into `مرا` 'me'. In speech `را` becomes `-o` after a consonant and `ro` after a vowel: `کلیدو می‌خوام`, `لباسا رو می‌شورم`, `منو` 'me'. Order: subject, object + `را`, verb last.",
+        "sv": "Ett **bestämt** direkt objekt (nyckeln, den här boken, dem) följs av `را` râ: `کلید را می‌خواهم` 'jag vill ha nyckeln'. Ett obestämt eller allmänt objekt får **inget** `را`: `یک کلید می‌خواهم` 'jag vill ha en nyckel', `چای می‌خورم` 'jag dricker te'. Pronomen som objekt får det alltid: `آن‌ها را می‌شویم` 'jag tvättar dem', och `من` + `را` smälter ihop till `مرا` 'mig'. I tal blir `را` `-o` efter konsonant och `ro` efter vokal: `کلیدو می‌خوام`, `لباسا رو می‌شورم`, `منو` 'mig'. Ordföljd: subjekt, objekt + `را`, verbet sist."
+      },
+      "examples": [
+        {
+          "text": "کلید را می‌خواهم.",
+          "latin": "kelid râ mikhâham.",
+          "translation": { "en": "I want the key.", "sv": "Jag vill ha nyckeln." },
+          "tokens": [
+            { "text": "کلید", "latin": "kelid", "gloss": { "en": "the key", "sv": "nyckeln" }, "concept": "key" },
+            { "text": "را", "latin": "râ", "gloss": { "en": "(marks the definite object)", "sv": "(markerar bestämt objekt)" }, "morph": "OBJ" },
+            { "text": "می‌خواهم.", "latin": "mikhâham.", "gloss": { "en": "I want", "sv": "jag vill ha" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "یک کلید می‌خواهم.",
+          "latin": "yek kelid mikhâham.",
+          "translation": { "en": "I want a key.", "sv": "Jag vill ha en nyckel." },
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en, ett" }, "concept": "one" },
+            { "text": "کلید", "latin": "kelid", "gloss": { "en": "key", "sv": "nyckel" }, "concept": "key" },
+            { "text": "می‌خواهم.", "latin": "mikhâham.", "gloss": { "en": "I want", "sv": "jag vill ha" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "لباس‌ها را می‌شویم.",
+          "latin": "lebâs-hâ râ mishuyam.",
+          "translation": { "en": "I wash the clothes.", "sv": "Jag tvättar kläderna." },
+          "tokens": [
+            { "text": "لباس‌ها", "latin": "lebâs-hâ", "gloss": { "en": "the clothes", "sv": "kläderna" }, "concept": "clothes", "morph": "clothes-PL" },
+            { "text": "را", "latin": "râ", "gloss": { "en": "(marks the definite object)", "sv": "(markerar bestämt objekt)" }, "morph": "OBJ" },
+            { "text": "می‌شویم.", "latin": "mishuyam.", "gloss": { "en": "I wash", "sv": "jag tvättar" }, "concept": "to-wash", "morph": "DUR-wash.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "همیشه آن‌ها را می‌شویم.",
+          "latin": "hamishe ân-hâ râ mishuyam.",
+          "translation": { "en": "I always wash them.", "sv": "Jag tvättar dem alltid." },
+          "tokens": [
+            { "text": "همیشه", "latin": "hamishe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+            { "text": "آن‌ها", "latin": "ân-hâ", "gloss": { "en": "them", "sv": "dem" }, "concept": "they" },
+            { "text": "را", "latin": "râ", "gloss": { "en": "(marks the definite object)", "sv": "(markerar bestämt objekt)" }, "morph": "OBJ" },
+            { "text": "می‌شویم.", "latin": "mishuyam.", "gloss": { "en": "I wash", "sv": "jag tvättar" }, "concept": "to-wash", "morph": "DUR-wash.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "author" },
+        { "source": "tatoeba" }
+      ]
+    }
+  ]
+}

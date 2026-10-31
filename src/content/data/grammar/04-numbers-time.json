@@ -1,0 +1,207 @@
+{
+  "points": [
+    {
+      "id": "ckb-numbers-counting",
+      "unit": "numbers-time",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Numbers and counting", "sv": "Räkneord och att räkna" },
+      "explanation": {
+        "en": "A number comes **before** the noun, and the noun stays **singular**: `سێ برا` 'three brothers' (lit. 'three brother'), `دوو ساڵ` 'two years'. Time words like `ڕۆژ`, `هەفتە`, `مانگ`, `ساڵ` always follow the number directly. For things you may add the counter `دانە` 'piece': `دوو دانە هێلکە` or just `دوو هێلکە` 'two eggs'. People are often counted with `کەس` 'person': `پێنج کەس` 'five people'.\n\nCompound numbers are joined with `و` (û) 'and', biggest first: `بیست و یەک` '21', `سەد و پەنجا` '150'. Sorani writes the digits `٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩`, left to right even inside a line of Kurdish: `٢٥` is 25.",
+        "sv": "Räkneordet står **före** substantivet, och substantivet står i **singular**: `سێ برا` 'tre bröder' (ordagrant 'tre bror'), `دوو ساڵ` 'två år'. Tidsord som `ڕۆژ`, `هەفتە`, `مانگ`, `ساڵ` följer alltid direkt efter räkneordet. För saker kan man lägga till räknaren `دانە` 'styck': `دوو دانە هێلکە` eller bara `دوو هێلکە` 'två ägg'. Människor räknas ofta med `کەس` 'person': `پێنج کەس` 'fem personer'.\n\nSammansatta tal binds ihop med `و` (û) 'och', det största först: `بیست و یەک` '21', `سەد و پەنجا` '150'. Soranin skriver siffrorna `٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩`, från vänster till höger även mitt i en kurdisk rad: `٢٥` är 25."
+      },
+      "examples": [
+        {
+          "text": "سێ برام هەیە.",
+          "latin": "sê biram heye.",
+          "translation": { "en": "I have three brothers.", "sv": "Jag har tre bröder." },
+          "tokens": [
+            { "text": "سێ", "latin": "sê", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+            { "text": "برام", "latin": "biram", "gloss": { "en": "brother of mine", "sv": "bror till mig" }, "concept": "brother", "morph": "brother-1SG" },
+            {
+              "text": "هەیە.",
+              "latin": "heye.",
+              "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+              "concept": "to-have",
+              "morph": "exist.PRS.3SG"
+            }
+          ]
+        },
+        {
+          "text": "هەفتەیەک حەوت ڕۆژە.",
+          "latin": "hefteyek ḧewt řoje.",
+          "translation": { "en": "A week is seven days.", "sv": "En vecka är sju dagar." },
+          "tokens": [
+            { "text": "هەفتەیەک", "latin": "hefteyek", "gloss": { "en": "a week", "sv": "en vecka" }, "concept": "week", "morph": "week-INDF" },
+            { "text": "حەوت", "latin": "ḧewt", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+            { "text": "ڕۆژە.", "latin": "řoje.", "gloss": { "en": "days, is", "sv": "dagar, är" }, "concept": "day", "morph": "day-COP.3SG" }
+          ]
+        },
+        {
+          "text": "برام بیست و یەک ساڵە.",
+          "latin": "biram bîst û yek sałe.",
+          "translation": { "en": "My brother is twenty-one.", "sv": "Min bror är tjugoett." },
+          "tokens": [
+            { "text": "برام", "latin": "biram", "gloss": { "en": "my brother", "sv": "min bror" }, "concept": "brother", "morph": "brother-1SG" },
+            { "text": "بیست", "latin": "bîst", "gloss": { "en": "twenty", "sv": "tjugo" }, "concept": "twenty" },
+            { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+            { "text": "یەک", "latin": "yek", "gloss": { "en": "one", "sv": "ett" }, "concept": "one" },
+            { "text": "ساڵە.", "latin": "sałe.", "gloss": { "en": "years, is", "sv": "år, är" }, "concept": "year", "morph": "year-COP.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§12" }, { "source": "kim-kurdish-grammar", "ref": "Cardinal numbers" }]
+    },
+    {
+      "id": "ckb-telling-time",
+      "unit": "numbers-time",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Telling the time and the days", "sv": "Klockan och veckodagarna" },
+      "explanation": {
+        "en": "Ask `کاتژمێر چەندە؟` 'what time is it?' (lit. 'the hour is how much?'); in speech also `سەعات چەندە؟`. Answer with the hour + the copula: `کاتژمێر شەشە` 'it's six'. Add the rest with `و` 'and': `شەش و نیو` 'half past six', `شەش و دە خولەک` 'ten past six'. Watch the word order: `کاتژمێر دوو` 'two o'clock', but `دوو کاتژمێر` 'two hours'.\n\nThe days count from Saturday, `شەممە`: `یەکشەممە` 'Sunday' is 'one (after) Saturday', up to `پێنجشەممە` 'Thursday'; Friday is `هەینی`. Say what day it is with the copula: `ئەمڕۆ شەممەیە` 'today is Saturday'.",
+        "sv": "Fråga `کاتژمێر چەندە؟` 'vad är klockan?' (ordagrant 'timmen är hur mycket?'); i tal också `سەعات چەندە؟`. Svara med timmen + kopulan: `کاتژمێر شەشە` 'klockan är sex'. Resten läggs till med `و` 'och': `شەش و نیو` 'halv sju' (ordagrant 'sex och en halv'), `شەش و دە خولەک` 'tio över sex'. Se upp med ordföljden: `کاتژمێر دوو` 'klockan två', men `دوو کاتژمێر` 'två timmar'.\n\nDagarna räknas från lördag, `شەممە`: `یەکشەممە` 'söndag' är 'ett (efter) lördag', fram till `پێنجشەممە` 'torsdag'; fredag heter `هەینی`. Vilken dag det är säger man med kopulan: `ئەمڕۆ شەممەیە` 'idag är det lördag'."
+      },
+      "examples": [
+        {
+          "text": "ئێستا کاتژمێر چەندە؟",
+          "latin": "êsta katjimêr çende?",
+          "translation": { "en": "What time is it now?", "sv": "Vad är klockan nu?" },
+          "tokens": [
+            { "text": "ئێستا", "latin": "êsta", "gloss": { "en": "now", "sv": "nu" }, "concept": "now" },
+            { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "چەندە؟", "latin": "çende?", "gloss": { "en": "how much is", "sv": "hur mycket är" }, "concept": "how-many", "morph": "how.many-COP.3SG" }
+          ]
+        },
+        {
+          "text": "کاتژمێر شەشە.",
+          "latin": "katjimêr şeşe.",
+          "translation": { "en": "It's six o'clock.", "sv": "Klockan är sex." },
+          "tokens": [
+            { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "شەشە.", "latin": "şeşe.", "gloss": { "en": "is six", "sv": "är sex" }, "concept": "six", "morph": "six-COP.3SG" }
+          ]
+        },
+        {
+          "text": "کاتژمێر دوو و نیوە.",
+          "latin": "katjimêr dû û nîwe.",
+          "translation": { "en": "It's half past two.", "sv": "Klockan är halv tre." },
+          "tokens": [
+            { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "دوو", "latin": "dû", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+            { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+            { "text": "نیوە.", "latin": "nîwe.", "gloss": { "en": "half, is", "sv": "halv, är" }, "concept": "half", "morph": "half-COP.3SG" }
+          ]
+        },
+        {
+          "text": "ئەمڕۆ شەممەیە.",
+          "latin": "emřo şemmeye.",
+          "translation": { "en": "Today is Saturday.", "sv": "Idag är det lördag." },
+          "tokens": [
+            { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+            { "text": "شەممەیە.", "latin": "şemmeye.", "gloss": { "en": "is Saturday", "sv": "är lördag" }, "concept": "saturday", "morph": "Saturday-COP.3SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§12.2" },
+        { "source": "kim-kurdish-grammar", "ref": "Question words" },
+        { "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "fa-numbers-counting",
+      "unit": "numbers-time",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Numbers and counting", "sv": "Räkneord och att räkna" },
+      "explanation": {
+        "en": "A number comes **before** a **singular** noun: `سه برادر` 'three brothers', `دو سال` 'two years'. In speech most counted things take the counter `تا` (tâ): `سه تا برادر`, `دو تا چای` 'two teas'; people are counted with `نفر`: `پنج نفر` 'five people'. Time words like `روز` and `سال` usually go without `تا`.\n\nCompound numbers use `و`, said -o: `بیست و یک` (bist-o yek) '21'. Tehran speech shortens some: `یه` (ye) 'a, one', `چار` (châr), `شیش` (shish), `پونزده` (punzdah). Persian digits are `۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`, written left to right: `۲۵` is 25. Careful: `۰` is a dot and `۵` (5) looks like a zero.",
+        "sv": "Räkneordet står **före** ett substantiv i **singular**: `سه برادر` 'tre bröder', `دو سال` 'två år'. I tal får det mesta man räknar räknaren `تا` (tâ): `سه تا برادر`, `دو تا چای` 'två te'; människor räknas med `نفر`: `پنج نفر` 'fem personer'. Tidsord som `روز` och `سال` står oftast utan `تا`.\n\nSammansatta tal binds med `و`, uttalat -o: `بیست و یک` (bist-o yek) '21'. Teherantal kortar en del: `یه` (ye) 'en, ett', `چار` (châr), `شیش` (shish), `پونزده` (punzdah). Persiska siffror är `۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`, skrivna från vänster till höger: `۲۵` är 25. Se upp: `۰` är en punkt och `۵` (5) ser ut som en nolla."
+      },
+      "examples": [
+        {
+          "text": "سه برادر دارم.",
+          "latin": "se barâdar dâram.",
+          "translation": { "en": "I have three brothers.", "sv": "Jag har tre bröder." },
+          "tokens": [
+            { "text": "سه", "latin": "se", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "سه تا برادر دارم.",
+          "latin": "se tâ barâdar dâram.",
+          "translation": { "en": "I have three brothers. (spoken)", "sv": "Jag har tre bröder. (talspråk)" },
+          "tokens": [
+            { "text": "سه", "latin": "se", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+            { "text": "تا", "latin": "tâ", "gloss": { "en": "(counter)", "sv": "(räknare)" } },
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "یک هفته هفت روز است.",
+          "latin": "yek hafte haft ruz ast.",
+          "translation": { "en": "A week is seven days.", "sv": "En vecka är sju dagar." },
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en" }, "concept": "one" },
+            { "text": "هفته", "latin": "hafte", "gloss": { "en": "week", "sv": "vecka" }, "concept": "week" },
+            { "text": "هفت", "latin": "haft", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+            { "text": "روز", "latin": "ruz", "gloss": { "en": "days", "sv": "dagar" }, "concept": "day" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-telling-time",
+      "unit": "numbers-time",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Telling the time and the days", "sv": "Klockan och veckodagarna" },
+      "explanation": {
+        "en": "Ask `ساعت چند است؟`, in speech `ساعت چنده؟` (sâ'at chande?). Answer `ساعت شش است` 'it's six', or just `ساعت شش`. Add the rest with `و`: `شش و نیم` (shesh-o nim) 'half past six', `شش و ربع` 'quarter past six', `شش و ده دقیقه` 'ten past six'; 'quarter to six' is `یه ربع به شش`. Word order matters: `ساعت دو` 'two o'clock', `دو ساعت` 'two hours'.\n\nThe week starts on `شنبه` (shanbe) 'Saturday', and the next days count from it: `یکشنبه` 'Sunday' (one-shanbe) up to `پنجشنبه` 'Thursday'. Friday, the day off, is `جمعه`. 'What day is it?' is `امروز چندشنبه است؟`, literally 'today is how-many-shanbe?'.",
+        "sv": "Fråga `ساعت چند است؟`, i tal `ساعت چنده؟` (sâ'at chande?). Svara `ساعت شش است` 'klockan är sex', eller bara `ساعت شش`. Resten läggs till med `و`: `شش و نیم` (shesh-o nim) 'halv sju', `شش و ربع` 'kvart över sex', `شش و ده دقیقه` 'tio över sex'; 'kvart i sex' heter `یه ربع به شش`. Ordföljden avgör: `ساعت دو` 'klockan två', `دو ساعت` 'två timmar'.\n\nVeckan börjar på `شنبه` (shanbe) 'lördag', och de följande dagarna räknas därifrån: `یکشنبه` 'söndag' (ett-shanbe) fram till `پنجشنبه` 'torsdag'. Fredag, vilodagen, heter `جمعه`. 'Vilken dag är det?' heter `امروز چندشنبه است؟`, ordagrant 'idag är det hur-många-shanbe?'."
+      },
+      "examples": [
+        {
+          "text": "الان ساعت چند است؟",
+          "latin": "alân sâ'at chand ast?",
+          "translation": { "en": "What time is it now?", "sv": "Vad är klockan nu?" },
+          "tokens": [
+            { "text": "الان", "latin": "alân", "gloss": { "en": "now", "sv": "nu" }, "concept": "now" },
+            { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "ساعت دو و نیم است.",
+          "latin": "sâ'at do o nim ast.",
+          "translation": { "en": "It's half past two.", "sv": "Klockan är halv tre." },
+          "tokens": [
+            { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "دو", "latin": "do", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+            { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+            { "text": "نیم", "latin": "nim", "gloss": { "en": "half", "sv": "halv" }, "concept": "half" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "امروز شنبه است.",
+          "latin": "emruz shanbe ast.",
+          "translation": { "en": "Today is Saturday.", "sv": "Idag är det lördag." },
+          "tokens": [
+            { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+            { "text": "شنبه", "latin": "shanbe", "gloss": { "en": "Saturday", "sv": "lördag" }, "concept": "saturday" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    }
+  ]
+}

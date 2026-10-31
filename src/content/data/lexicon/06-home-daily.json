@@ -1,0 +1,770 @@
+{
+  "concepts": [
+    {
+      "id": "house",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏠",
+      "gloss": { "en": "house", "sv": "hus", "enAlt": ["home"], "svAlt": ["hem"] },
+      "ckb": {
+        "primary": { "script": "ماڵ", "latin": "mał" },
+        "variants": [
+          {
+            "script": "خانوو",
+            "latin": "xanû",
+            "note": { "en": "the building, a house (not a flat)", "sv": "byggnaden, ett hus (inte en lägenhet)" }
+          }
+        ],
+        "notes": {
+          "en": "ماڵ is home and household; خانوو is the building. \"At home\" is لە ماڵەوە (le małewe): ماڵ takes -ewe here instead of -da.",
+          "sv": "ماڵ är hem och hushåll; خانوو är själva byggnaden. \"Hemma\" heter لە ماڵەوە (le małewe): ماڵ tar -ewe här i stället för -da."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "home" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خانه", "latin": "khâne" },
+        "variants": [{ "script": "خونه", "latin": "khune", "register": "colloquial" }],
+        "notes": {
+          "en": "In Tehran speech â before n often becomes u: خانه → خونه (khune), like نان → نون. Sorani خانوو is the same word.",
+          "sv": "I Teherantal blir â före n ofta u: خانه → خونه (khune), som نان → نون. Soranins خانوو är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "house" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "room",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🚪",
+      "gloss": { "en": "room", "sv": "rum" },
+      "ckb": {
+        "primary": { "script": "ژوور", "latin": "jûr" },
+        "notes": {
+          "en": "\"Bedroom\" is ژووری نووستن (jûrî nûstin), \"room of sleeping\". ژوورەوە means \"inside\": وەرە ژوورەوە! \"come in!\"",
+          "sv": "\"Sovrum\" heter ژووری نووستن (jûrî nûstin), \"sovandets rum\". ژوورەوە betyder \"inne, in\": وەرە ژوورەوە! \"kom in!\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "room" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اتاق", "latin": "otâgh" },
+        "notes": {
+          "en": "A Turkic loanword, like Sorani هۆدە (hode). \"Bedroom\" is اتاق خواب (otâgh-e khâb), \"room of sleep\".",
+          "sv": "Ett turkiskt lånord, som soranins هۆدە (hode). \"Sovrum\" heter اتاق خواب (otâgh-e khâb), \"sömnens rum\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اتاق" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "door",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🚪",
+      "gloss": { "en": "door", "sv": "dörr" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دەرگا", "latin": "derga" },
+        "notes": {
+          "en": "Same root as Persian در (dar), English \"door\" and Swedish \"dörr\".",
+          "sv": "Samma rot som persiskans در (dar), engelskans \"door\" och svenskans \"dörr\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "door" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "در", "latin": "dar" },
+        "notes": {
+          "en": "Spelled exactly like در (dar) \"in\"; context tells them apart. Related to Swedish \"dörr\" and English \"door\".",
+          "sv": "Stavas precis som در (dar) \"i\"; sammanhanget skiljer dem åt. Släkt med svenskans \"dörr\" och engelskans \"door\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "door" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "window",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🪟",
+      "gloss": { "en": "window", "sv": "fönster" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پەنجەرە", "latin": "pencere" },
+        "notes": {
+          "en": "The same word as Persian پنجره (panjare).",
+          "sv": "Samma ord som persiskans پنجره (panjare)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "window" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پنجره", "latin": "panjare" },
+        "notes": {
+          "en": "The same word as Sorani پەنجەرە (pencere).",
+          "sv": "Samma ord som soranins پەنجەرە (pencere)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "window" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "kitchen",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍳",
+      "gloss": { "en": "kitchen", "sv": "kök" },
+      "ckb": {
+        "primary": { "script": "مەتبەخ", "latin": "metbex" },
+        "variants": [
+          {
+            "script": "چێشتخانە",
+            "latin": "çêştxane",
+            "register": "formal",
+            "note": { "en": "\"cooked-food house\", preferred in writing", "sv": "\"matlagningshus\", föredras i skrift" }
+          },
+          { "script": "ئاشپەزخانە", "latin": "aşpezxane", "register": "formal" }
+        ],
+        "notes": {
+          "en": "مەتبەخ (from Arabic) is what you hear at home. In writing you also see چێشتخانە, from چێشت \"cooked food\" + خانە \"house\".",
+          "sv": "مەتبەخ (från arabiskan) är det man hör hemma. I skrift ser man också چێشتخانە, av چێشت \"lagad mat\" + خانە \"hus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "kitchen" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آشپزخانه", "latin": "âshpazkhâne" },
+        "variants": [{ "script": "آشپزخونه", "latin": "âshpazkhune", "register": "colloquial" }],
+        "notes": {
+          "en": "آشپز \"cook\" + خانه \"house\". In speech: آشپزخونه (âshpazkhune).",
+          "sv": "آشپز \"kock\" + خانه \"hus\". I tal: آشپزخونه (âshpazkhune)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "kitchen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bed",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🛏️",
+      "gloss": { "en": "bed", "sv": "säng" },
+      "ckb": {
+        "primary": { "script": "جێگا", "latin": "cêga" },
+        "variants": [{ "script": "جێگە", "latin": "cêge" }],
+        "notes": {
+          "en": "Literally \"place\": the place where you sleep. \"I go to bed\" is دەچمە سەر جێگا, \"I go onto the bed\".",
+          "sv": "Ordagrant \"plats\": platsen där man sover. \"Jag går och lägger mig\" heter دەچمە سەر جێگا, \"jag går upp på sängen\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "تخت", "latin": "takht" },
+        "variants": [{ "script": "تختخواب", "latin": "takhtekhâb" }],
+        "notes": {
+          "en": "تخت also means \"throne\", as in تخت جمشید (Takht-e Jamshid, Persepolis). The full word is تختخواب, \"bed of sleep\".",
+          "sv": "تخت betyder också \"tron\", som i تخت جمشید (Takht-e Jamshid, Persepolis). Det fullständiga ordet är تختخواب, \"sömnens bädd\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bed" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "table",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "table", "sv": "bord", "enAlt": ["desk"], "svAlt": ["skrivbord"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "مێز", "latin": "mêz" },
+        "notes": {
+          "en": "Also \"desk\". Sorani keeps the old ê sound that Tehran Persian has turned into i: مێز mêz, میز miz.",
+          "sv": "Betyder också \"skrivbord\". Sorani har kvar det gamla ê-ljudet som teheranpersiskan gjort till i: مێز mêz, میز miz."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "table" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "میز", "latin": "miz" },
+        "notes": {
+          "en": "Also \"desk\". The same word as Sorani مێز (mêz).",
+          "sv": "Betyder också \"skrivbord\". Samma ord som soranins مێز (mêz)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "table" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "chair",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🪑",
+      "gloss": { "en": "chair", "sv": "stol" },
+      "ckb": {
+        "primary": { "script": "کورسی", "latin": "kursî" },
+        "notes": {
+          "en": "From Arabic kursî. Careful in Iran: Persian کرسی (korsi) is a low heated table covered with a quilt, not a chair.",
+          "sv": "Från arabiskans kursî. Se upp i Iran: persiskans کرسی (korsi) är ett lågt uppvärmt bord täckt med ett täcke, inte en stol."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "chair" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "صندلی", "latin": "sandali" },
+        "notes": {
+          "en": "صندلی is the only everyday word for \"chair\". کرسی (korsi), the Sorani word, means a traditional heated table in Persian.",
+          "sv": "صندلی är det enda vardagsordet för \"stol\". کرسی (korsi), soranins ord, är i persiskan ett traditionellt uppvärmt bord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "chair" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "book",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "📖",
+      "gloss": { "en": "book", "sv": "bok" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کتێب", "latin": "kitêb" },
+        "variants": [
+          {
+            "script": "پەرتووک",
+            "latin": "pertûk",
+            "register": "formal",
+            "note": { "en": "a purist Kurdish word", "sv": "ett puristiskt kurdiskt ord" }
+          }
+        ],
+        "notes": {
+          "en": "From Arabic kitâb, like Persian کتاب. \"The book\" is کتێبەکە (kitêbeke).",
+          "sv": "Från arabiskans kitâb, som persiskans کتاب. \"Boken\" heter کتێبەکە (kitêbeke)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "book" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کتاب", "latin": "ketâb" },
+        "plural": { "script": "کتاب‌ها", "latin": "ketâb-hâ" },
+        "notes": {
+          "en": "\"Library\" is کتابخانه (ketâbkhâne), \"book house\". Sorani کتێب is the same word.",
+          "sv": "\"Bibliotek\" heter کتابخانه (ketâbkhâne), \"bokhus\". Soranins کتێب är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "book" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "phone",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "📱",
+      "gloss": { "en": "phone", "sv": "telefon", "enAlt": ["mobile phone", "mobile", "cell phone", "telephone"], "svAlt": ["mobil", "mobiltelefon"] },
+      "ckb": {
+        "primary": { "script": "مۆبایل", "latin": "mobayl" },
+        "variants": [
+          {
+            "script": "تەلەفۆن",
+            "latin": "telefon",
+            "note": { "en": "the phone in general, a phone call", "sv": "telefon i allmänhet, ett samtal" }
+          }
+        ],
+        "notes": {
+          "en": "مۆبایل is your mobile: مۆبایلەکەم \"my phone\". تەلەفۆن is the phone in general and also \"a call\".",
+          "sv": "مۆبایل är din mobil: مۆبایلەکەم \"min telefon\". تەلەفۆن är telefon i allmänhet och också \"ett samtal\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mobile phone" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گوشی", "latin": "gushi" },
+        "variants": [
+          { "script": "موبایل", "latin": "mobâyl" },
+          {
+            "script": "تلفن",
+            "latin": "telefon",
+            "note": { "en": "the phone in general, a landline", "sv": "telefon i allmänhet, fast telefon" }
+          }
+        ],
+        "notes": {
+          "en": "گوشی, from گوش \"ear\", was the handset; now it is what everyone calls their mobile: گوشی‌ام \"my phone\".",
+          "sv": "گوشی, av گوش \"öra\", var telefonluren; nu kallar alla sin mobil så: گوشی‌ام \"min telefon\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گوشی" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "key",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🔑",
+      "gloss": { "en": "key", "sv": "nyckel" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کلیل", "latin": "kilîl" },
+        "notes": {
+          "en": "The i in kilîl is not written. Related to Persian کلید (kelid).",
+          "sv": "I:et i kilîl skrivs inte. Släkt med persiskans کلید (kelid)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "key" }]
+      },
+      "fa": {
+        "primary": { "script": "کلید", "latin": "kelid" },
+        "notes": {
+          "en": "Also a light switch or a key on a keyboard. An old loan from Greek, like Sorani کلیل.",
+          "sv": "Också strömbrytare eller tangent. Ett gammalt lån från grekiskan, som soranins کلیل."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "key" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "clothes",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "👕",
+      "gloss": { "en": "clothes", "sv": "kläder", "enAlt": ["clothing"] },
+      "ckb": {
+        "primary": { "script": "جل", "latin": "cil" },
+        "variants": [{ "script": "جلوبەرگ", "latin": "cilûberg" }],
+        "notes": {
+          "en": "\"My clothes\" is جلەکانم (cilekanim). جلوبەرگ (\"clothes and garments\") is the fuller word for \"clothing\".",
+          "sv": "\"Mina kläder\" heter جلەکانم (cilekanim). جلوبەرگ (\"kläder och plagg\") är det fylligare ordet för \"klädsel\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clothes" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "لباس", "latin": "lebâs" },
+        "plural": { "script": "لباس‌ها", "latin": "lebâs-hâ" },
+        "notes": {
+          "en": "Both \"a garment\" and \"clothes\". \"My clothes\" is لباس‌هایم (lebâs-hâyam), spoken لباسام (lebâsâm).",
+          "sv": "Både \"ett plagg\" och \"kläder\". \"Mina kläder\" heter لباس‌هایم (lebâs-hâyam), i tal لباسام (lebâsâm)."
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "work",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "💼",
+      "gloss": { "en": "work", "sv": "arbete", "enAlt": ["job"], "svAlt": ["jobb"] },
+      "senseNote": { "en": "the noun: a job, a task", "sv": "substantivet: ett jobb, en uppgift" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کار", "latin": "kar" },
+        "variants": [{ "script": "ئیش", "latin": "îş", "register": "colloquial" }],
+        "notes": {
+          "en": "\"I go to work\" is دەچمە سەر کار, literally \"I go onto work\". Persian says it the same way: سر کار.",
+          "sv": "\"Jag går till jobbet\" heter دەچمە سەر کار, ordagrant \"jag går upp på arbetet\". Persiskan säger likadant: سر کار."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "work" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کار", "latin": "kâr" },
+        "notes": {
+          "en": "\"At work\" is سر کار (sar-e kâr), \"on the head of work\": سر کار هستم \"I'm at work\". Same word as Sorani کار.",
+          "sv": "\"På jobbet\" heter سر کار (sar-e kâr), \"på arbetets huvud\": سر کار هستم \"jag är på jobbet\". Samma ord som soranins کار."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "work" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "school",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏫",
+      "gloss": { "en": "school", "sv": "skola" },
+      "ckb": {
+        "primary": { "script": "قوتابخانە", "latin": "qutabxane" },
+        "notes": {
+          "en": "قوتابی \"pupil\" + خانە \"house\": \"house of pupils\". University is زانکۆ (zanko).",
+          "sv": "قوتابی \"elev\" + خانە \"hus\": \"elevernas hus\". Universitet heter زانکۆ (zanko)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "school" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مدرسه", "latin": "madrese" },
+        "notes": {
+          "en": "From Arabic madrasa. University is دانشگاه (dâneshgâh), \"place of knowledge\".",
+          "sv": "Från arabiskans madrasa. Universitet heter دانشگاه (dâneshgâh), \"kunskapens plats\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "school" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "apartment",
+      "unit": "home-daily",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏢",
+      "gloss": { "en": "apartment", "sv": "lägenhet", "enAlt": ["flat"] },
+      "ckb": {
+        "primary": { "script": "شوقە", "latin": "şuqe" },
+        "variants": [{ "script": "ئاپارتمان", "latin": "apartman" }],
+        "notes": {
+          "en": "شوقە (from Arabic shuqqa) is the everyday word in Iraqi Kurdistan. A house of your own is خانوو (xanû).",
+          "sv": "شوقە (från arabiskans shuqqa) är vardagsordet i irakiska Kurdistan. Ett eget hus heter خانوو (xanû)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "apartment" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آپارتمان", "latin": "âpârtemân" },
+        "notes": {
+          "en": "From French appartement. A house with its own yard is خانه‌ی ویلایی (khâne-ye vilâyi).",
+          "sv": "Från franskans appartement. Ett hus med egen gård heter خانه‌ی ویلایی (khâne-ye vilâyi)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "to-sleep",
+      "unit": "home-daily",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "😴",
+      "gloss": { "en": "to sleep", "sv": "att sova", "svAlt": ["sova"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خەوتن", "latin": "xewtin" },
+        "presentStem": { "script": "خەو", "latin": "xew" },
+        "pastStem": { "script": "خەوت", "latin": "xewt" },
+        "variants": [{ "script": "نووستن", "latin": "nûstin" }],
+        "notes": {
+          "en": "دەخەوم (dexewim) \"I sleep\". خەو is also the noun \"sleep, dream\". Same ancient root as Persian خواب and Swedish \"sova\".",
+          "sv": "دەخەوم (dexewim) \"jag sover\". خەو är också substantivet \"sömn, dröm\". Samma uråldriga rot som persiskans خواب och svenskans \"sova\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sleep" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خوابیدن", "latin": "khâbidan" },
+        "presentStem": { "script": "خواب", "latin": "khâb" },
+        "pastStem": { "script": "خوابید", "latin": "khâbid" },
+        "notes": {
+          "en": "می‌خوابم (mikhâbam) \"I sleep, I go to bed\". The و is silent. خواب is \"sleep\" and \"dream\": خوابم می‌آید \"I'm sleepy\".",
+          "sv": "می‌خوابم (mikhâbam) \"jag sover, jag går och lägger mig\". و är stumt. خواب är \"sömn\" och \"dröm\": خوابم می‌آید \"jag är sömnig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sleep" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-wake-up",
+      "unit": "home-daily",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "⏰",
+      "gloss": { "en": "to wake up", "sv": "att vakna", "enAlt": ["to get up", "wake up", "get up"], "svAlt": ["vakna", "gå upp", "att gå upp", "stiga upp"] },
+      "ckb": {
+        "primary": { "script": "هەڵسان", "latin": "hełsan" },
+        "presentStem": { "script": "هەڵست", "latin": "hełst" },
+        "pastStem": { "script": "هەڵسا", "latin": "hełsa" },
+        "variants": [
+          {
+            "script": "لە خەو هەڵسان",
+            "latin": "le xew hełsan",
+            "note": { "en": "\"to rise from sleep\", clearly \"wake up\"", "sv": "\"att resa sig ur sömnen\", tydligt \"vakna\"" }
+          }
+        ],
+        "notes": {
+          "en": "Literally \"to get up\". دە goes inside: هەڵدەستم (hełdestim) \"I get up\", negative هەڵناستم. Add لە خەو \"from sleep\" to mean waking.",
+          "sv": "Ordagrant \"att stiga upp\". دە hamnar inuti: هەڵدەستم (hełdestim) \"jag går upp\", nekande هەڵناستم. Lägg till لە خەو \"ur sömnen\" för att säga vakna."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wake up" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17, §23" }]
+      },
+      "fa": {
+        "primary": { "script": "بیدار شدن", "latin": "bidâr shodan" },
+        "presentStem": { "script": "بیدار شو", "latin": "bidâr shav" },
+        "pastStem": { "script": "بیدار شد", "latin": "bidâr shod" },
+        "notes": {
+          "en": "بیدار \"awake\" + شدن \"to become\". Written بیدار می‌شوم (bidâr mishavam), spoken بیدار می‌شم (bidâr misham).",
+          "sv": "بیدار \"vaken\" + شدن \"att bli\". Skrivet بیدار می‌شوم (bidâr mishavam), i tal بیدار می‌شم (bidâr misham)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wake up" }]
+      }
+    },
+    {
+      "id": "to-work",
+      "unit": "home-daily",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "👷",
+      "gloss": { "en": "to work", "sv": "att arbeta", "svAlt": ["arbeta", "jobba", "att jobba"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کار کردن", "latin": "kar kirdin" },
+        "presentStem": { "script": "کار کە", "latin": "kar ke" },
+        "pastStem": { "script": "کار کرد", "latin": "kar kird" },
+        "notes": {
+          "en": "کار \"work\" + کردن \"to do\": کار دەکەم \"I work\". \"He works\" is irregular: کار دەکات (dekat).",
+          "sv": "کار \"arbete\" + کردن \"att göra\": کار دەکەم \"jag arbetar\". \"Han arbetar\" är oregelbundet: کار دەکات (dekat)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "work" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "primary": { "script": "کار کردن", "latin": "kâr kardan" },
+        "presentStem": { "script": "کار کن", "latin": "kâr kon" },
+        "pastStem": { "script": "کار کرد", "latin": "kâr kard" },
+        "notes": {
+          "en": "Built exactly like Sorani کار کردن. کجا کار می‌کنید؟ \"Where do you work?\"",
+          "sv": "Byggt precis som soranins کار کردن. کجا کار می‌کنید؟ \"Var arbetar du?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "work" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-study",
+      "unit": "home-daily",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "📚",
+      "gloss": { "en": "to study", "sv": "att studera", "svAlt": ["studera", "plugga", "att plugga"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خوێندن", "latin": "xwêndin" },
+        "presentStem": { "script": "خوێن", "latin": "xwên" },
+        "pastStem": { "script": "خوێند", "latin": "xwênd" },
+        "notes": {
+          "en": "Also \"to read\" and \"to sing\": لە زانکۆ دەخوێنم \"I study at university\". Same verb as Persian خواندن.",
+          "sv": "Betyder också \"läsa\" och \"sjunga\": لە زانکۆ دەخوێنم \"jag studerar på universitetet\". Samma verb som persiskans خواندن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "study" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "درس خواندن", "latin": "dars khândan" },
+        "presentStem": { "script": "درس خوان", "latin": "dars khân" },
+        "pastStem": { "script": "درس خواند", "latin": "dars khând" },
+        "variants": [{ "script": "درس خوندن", "latin": "dars khundan", "register": "colloquial" }],
+        "notes": {
+          "en": "درس \"lesson\" + خواندن \"to read\". The و is silent. Spoken: درس می‌خونم (dars mikhunam) \"I study\".",
+          "sv": "درس \"läxa, lektion\" + خواندن \"att läsa\". و är stumt. I tal: درس می‌خونم (dars mikhunam) \"jag pluggar\"."
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-wash",
+      "unit": "home-daily",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🧼",
+      "gloss": { "en": "to wash", "sv": "att tvätta", "svAlt": ["tvätta", "diska", "att diska"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شوشتن", "latin": "şuştin" },
+        "presentStem": { "script": "شۆ", "latin": "şo" },
+        "pastStem": { "script": "شوشت", "latin": "şuşt" },
+        "notes": {
+          "en": "دەشۆم (deşom) \"I wash\", but \"he washes\" is دەشوات (deşwat), like دەخوات. \"Do the dishes\" is قاپەکان دەشۆم.",
+          "sv": "دەشۆم (deşom) \"jag tvättar\", men \"han tvättar\" heter دەشوات (deşwat), som دەخوات. \"Diska\" heter قاپەکان دەشۆم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wash" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "primary": { "script": "شستن", "latin": "shostan" },
+        "presentStem": { "script": "شو", "latin": "shu" },
+        "pastStem": { "script": "شست", "latin": "shost" },
+        "notes": {
+          "en": "Written می‌شویم (mishuyam), but in Tehran everyone says می‌شورم (mishuram). Same root as Sorani شوشتن.",
+          "sv": "Skrivet می‌شویم (mishuyam), men i Teheran säger alla می‌شورم (mishuram). Samma rot som soranins شوشتن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wash" }]
+      }
+    },
+    {
+      "id": "every-day",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "📅",
+      "gloss": { "en": "every day", "sv": "varje dag", "enAlt": ["daily"], "svAlt": ["dagligen"] },
+      "ckb": {
+        "primary": { "script": "هەموو ڕۆژێک", "latin": "hemû řojêk" },
+        "variants": [
+          {
+            "script": "ڕۆژانە",
+            "latin": "řojane",
+            "note": { "en": "\"daily\"", "sv": "\"dagligen\"" }
+          }
+        ],
+        "notes": {
+          "en": "هەموو \"all, every\" + ڕۆژێک \"a day\". ڕۆژ \"day\" is the same word as Persian روز (ruz).",
+          "sv": "هەموو \"all, varje\" + ڕۆژێک \"en dag\". ڕۆژ \"dag\" är samma ord som persiskans روز (ruz)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "daily" }]
+      },
+      "fa": {
+        "primary": { "script": "هر روز", "latin": "har ruz" },
+        "variants": [
+          {
+            "script": "روزانه",
+            "latin": "ruzâne",
+            "note": { "en": "\"daily\"", "sv": "\"dagligen\"" }
+          }
+        ],
+        "notes": {
+          "en": "هر \"every\" + روز \"day\". After هر the noun stays singular, as in English: هر روز, هر شب \"every night\".",
+          "sv": "هر \"varje\" + روز \"dag\". Efter هر står substantivet i singular, som i svenskan: هر روز, هر شب \"varje natt\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "daily" }]
+      }
+    },
+    {
+      "id": "always",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "♾️",
+      "gloss": { "en": "always", "sv": "alltid" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەمیشە", "latin": "hemîşe" },
+        "notes": {
+          "en": "The same word as Persian همیشه. Frequency words come before the verb: هەمیشە زوو هەڵدەستم \"I always get up early\".",
+          "sv": "Samma ord som persiskans همیشه. Frekvensord står före verbet: هەمیشە زوو هەڵدەستم \"jag går alltid upp tidigt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "always" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "همیشه", "latin": "hamishe" },
+        "notes": {
+          "en": "The same word as Sorani هەمیشە. It goes before the verb, often first: همیشه زود بیدار می‌شوم.",
+          "sv": "Samma ord som soranins هەمیشە. Det står före verbet, ofta först: همیشه زود بیدار می‌شوم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "always" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sometimes",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "sometimes", "sv": "ibland", "svAlt": ["då och då"] },
+      "ckb": {
+        "primary": { "script": "هەندێک جار", "latin": "hendêk car" },
+        "variants": [
+          { "script": "جاروبار", "latin": "carubar" },
+          { "script": "هەندێ جار", "latin": "hendê car", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Literally \"some times\": هەندێک \"some\" + جار \"time, occasion\". جار also gives یەک جار \"once\" and دوو جار \"twice\".",
+          "sv": "Ordagrant \"några gånger\": هەندێک \"några\" + جار \"gång\". جار ger också یەک جار \"en gång\" och دوو جار \"två gånger\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "sometimes" }]
+      },
+      "fa": {
+        "primary": { "script": "گاهی", "latin": "gâhi" },
+        "variants": [
+          { "script": "بعضی وقت‌ها", "latin": "ba'zi vaght-hâ" },
+          { "script": "بعضی وقتا", "latin": "ba'zi vaghtâ", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "گاه \"time\" + ی. In conversation you also hear بعضی وقتا (ba'zi vaghtâ), \"some times\".",
+          "sv": "گاه \"tid\" + ی. I samtal hör man också بعضی وقتا (ba'zi vaghtâ), \"vissa gånger\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sometimes" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "never",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "🚫",
+      "gloss": { "en": "never", "sv": "aldrig" },
+      "ckb": {
+        "primary": { "script": "هەرگیز", "latin": "hergîz" },
+        "notes": {
+          "en": "Needs a negative verb, unlike English: هەرگیز درەنگ هەڵناستم \"I never get up late\" (literally \"never I don't get up late\").",
+          "sv": "Kräver ett nekat verb, till skillnad från svenskan: هەرگیز درەنگ هەڵناستم \"jag går aldrig upp sent\" (ordagrant \"aldrig går jag inte upp sent\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "never" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هیچ‌وقت", "latin": "hichvaght" },
+        "variants": [
+          {
+            "script": "هرگز",
+            "latin": "hargez",
+            "register": "formal",
+            "note": { "en": "the twin of Sorani هەرگیز", "sv": "tvillingen till soranins هەرگیز" }
+          }
+        ],
+        "notes": {
+          "en": "هیچ \"no, any\" + وقت \"time\". Like Sorani it needs a negative verb: هیچ‌وقت دیر نمی‌خوابم \"I never go to bed late\".",
+          "sv": "هیچ \"ingen\" + وقت \"tid\". Som i sorani krävs ett nekat verb: هیچ‌وقت دیر نمی‌خوابم \"jag lägger mig aldrig sent\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "never" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "usually",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "usually", "sv": "vanligtvis", "enAlt": ["normally", "mostly"], "svAlt": ["oftast", "vanligen", "för det mesta"] },
+      "ckb": {
+        "primary": { "script": "بەزۆری", "latin": "bezorî" },
+        "variants": [{ "script": "زۆربەی جار", "latin": "zorbey car" }],
+        "notes": {
+          "en": "بە \"with\" + زۆر \"much\": \"mostly\". زۆربەی جار is \"most times\". Swedish often says \"brukar\" here: بەزۆری درەنگ دەخەوم \"I usually go to bed late\".",
+          "sv": "بە \"med\" + زۆر \"mycket\": \"för det mesta\". زۆربەی جار är \"de flesta gånger\". Svenskan säger ofta \"brukar\": بەزۆری درەنگ دەخەوم \"jag brukar lägga mig sent\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "معمولاً", "latin": "ma'mulan" },
+        "notes": {
+          "en": "From Arabic; the ending ـاً is said -an, as in لطفاً \"please\". Often written without the mark: معمولا.",
+          "sv": "Från arabiskan; ändelsen ـاً uttalas -an, som i لطفاً \"snälla\". Skrivs ofta utan tecknet: معمولا."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "usually" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "early",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "🌅",
+      "gloss": { "en": "early", "sv": "tidigt", "svAlt": ["tidig"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "زوو", "latin": "zû" },
+        "notes": {
+          "en": "Also \"soon, quickly\": زوو وەرە \"come soon\". The same word as Persian زود.",
+          "sv": "Betyder också \"snart, fort\": زوو وەرە \"kom snart\". Samma ord som persiskans زود."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "early" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زود", "latin": "zud" },
+        "notes": {
+          "en": "Also \"soon, fast\": زود باش! \"hurry up!\". The same word as Sorani زوو.",
+          "sv": "Betyder också \"snart, fort\": زود باش! \"skynda dig!\". Samma ord som soranins زوو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "early" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "late",
+      "unit": "home-daily",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "🌙",
+      "gloss": { "en": "late", "sv": "sent", "svAlt": ["sen", "för sent"] },
+      "ckb": {
+        "primary": { "script": "درەنگ", "latin": "direng" },
+        "notes": {
+          "en": "The i after د is not written: direng. درەنگە \"it's late\". Related to Persian درنگ \"delay\".",
+          "sv": "I:et efter د skrivs inte: direng. درەنگە \"det är sent\". Släkt med persiskans درنگ \"dröjsmål\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "late" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دیر", "latin": "dir" },
+        "notes": {
+          "en": "\"I'm late\" is دیرم شده (diram shode), \"it has become late for me\". Don't mix it up with دیروز \"yesterday\".",
+          "sv": "\"Jag är sen\" heter دیرم شده (diram shode), \"det har blivit sent för mig\". Blanda inte ihop med دیروز \"igår\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "late" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

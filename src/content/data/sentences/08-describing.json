@@ -1,0 +1,839 @@
+{
+  "sentences": [
+    {
+      "id": "the-house-is-big",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "The house is big.", "sv": "Huset är stort." },
+      "ckb": {
+        "text": "خانووەکە گەورەیە.",
+        "latin": "xanûeke gewreye.",
+        "tokens": [
+          {
+            "text": "خانووەکە",
+            "latin": "xanûeke",
+            "gloss": { "en": "the house", "sv": "huset" },
+            "concept": "house",
+            "morph": "house-DEF"
+          },
+          {
+            "text": "گەورەیە.",
+            "latin": "gewreye.",
+            "gloss": { "en": "is big", "sv": "är stort" },
+            "concept": "big",
+            "morph": "big-COP.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "خانوویەک", "latin": "xanûyek", "gloss": { "en": "a house", "sv": "ett hus" }, "morph": "house-INDF" },
+          { "text": "بچووکە.", "latin": "biçûke.", "gloss": { "en": "is small", "sv": "är litet" }, "morph": "small-COP.3SG" }
+        ],
+        "grammar": ["ckb-adjectives", "ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§5, §7" }]
+      },
+      "fa": {
+        "text": "خانه بزرگ است.",
+        "latin": "khâne bozorg ast.",
+        "tokens": [
+          { "text": "خانه", "latin": "khâne", "gloss": { "en": "the house", "sv": "huset" }, "concept": "house" },
+          { "text": "بزرگ", "latin": "bozorg", "gloss": { "en": "big", "sv": "stort" }, "concept": "big" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "خونه بزرگه.", "latin": "khune bozorge." },
+        "distractors": [
+          { "text": "کوچک", "latin": "kuchak", "gloss": { "en": "small", "sv": "litet" } },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-adjectives-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-am-very-tired",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "I'm very tired.", "sv": "Jag är väldigt trött." },
+      "ckb": {
+        "text": "زۆر ماندووم.",
+        "latin": "zor mandûm.",
+        "tokens": [
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          {
+            "text": "ماندووم.",
+            "latin": "mandûm.",
+            "gloss": { "en": "I am tired", "sv": "jag är trött" },
+            "concept": "tired",
+            "morph": "tired-COP.1SG"
+          }
+        ],
+        "alternatives": [{ "text": "من زۆر ماندووم.", "latin": "min zor mandûm." }],
+        "distractors": [
+          { "text": "ماندوویت.", "latin": "mandûyt.", "gloss": { "en": "you are tired", "sv": "du är trött" }, "morph": "tired-COP.2SG" },
+          { "text": "ماندوون.", "latin": "mandûn.", "gloss": { "en": "they are tired", "sv": "de är trötta" }, "morph": "tired-COP.3PL" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "خیلی خسته‌ام.",
+        "latin": "kheyli khaste-am.",
+        "tokens": [
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          {
+            "text": "خسته‌ام.",
+            "latin": "khaste-am.",
+            "gloss": { "en": "I am tired", "sv": "jag är trött" },
+            "concept": "tired",
+            "morph": "tired-COP.1SG"
+          }
+        ],
+        "alternatives": [{ "text": "خیلی خسته هستم.", "latin": "kheyli khaste hastam." }, { "text": "من خیلی خسته‌ام.", "latin": "man kheyli khaste-am." }],
+        "distractors": [
+          { "text": "خسته‌ای.", "latin": "khaste-i.", "gloss": { "en": "you are tired", "sv": "du är trött" }, "morph": "tired-COP.2SG" },
+          { "text": "خسته‌ایم.", "latin": "khaste-im.", "gloss": { "en": "we are tired", "sv": "vi är trötta" }, "morph": "tired-COP.1PL" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "are-you-sick",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "Are you sick?", "sv": "Är du sjuk?" },
+      "ckb": {
+        "text": "تۆ نەخۆشیت؟",
+        "latin": "to nexoşît?",
+        "tokens": [
+          { "text": "تۆ", "latin": "to", "gloss": { "en": "you", "sv": "du" }, "concept": "you" },
+          {
+            "text": "نەخۆشیت؟",
+            "latin": "nexoşît?",
+            "gloss": { "en": "are sick", "sv": "är sjuk" },
+            "concept": "sick",
+            "morph": "sick-COP.2SG"
+          }
+        ],
+        "alternatives": [{ "text": "نەخۆشیت؟", "latin": "nexoşît?" }, { "text": "نەخۆشی؟", "latin": "nexoşî?" }],
+        "distractors": [
+          { "text": "نەخۆشم؟", "latin": "nexoşim?", "gloss": { "en": "am I sick", "sv": "är jag sjuk" }, "morph": "sick-COP.1SG" },
+          { "text": "ماندوویت؟", "latin": "mandûyt?", "gloss": { "en": "are you tired", "sv": "är du trött" }, "morph": "tired-COP.2SG" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "مریض هستی؟",
+        "latin": "mariz hasti?",
+        "tokens": [
+          { "text": "مریض", "latin": "mariz", "gloss": { "en": "sick", "sv": "sjuk" }, "concept": "sick" },
+          { "text": "هستی؟", "latin": "hasti?", "gloss": { "en": "are you", "sv": "är du" }, "concept": "to-be", "morph": "be.PRS-2SG" }
+        ],
+        "colloquial": { "text": "مریضی؟", "latin": "marizi?" },
+        "alternatives": [{ "text": "مریضی؟", "latin": "marizi?" }, { "text": "تو مریض هستی؟", "latin": "to mariz hasti?" }],
+        "distractors": [
+          { "text": "هستم؟", "latin": "hastam?", "gloss": { "en": "am I", "sv": "är jag" }, "morph": "be.PRS-1SG" },
+          { "text": "خسته", "latin": "khaste", "gloss": { "en": "tired", "sv": "trött" } }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "this-is-a-good-book",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "This is a good book.", "sv": "Det här är en bra bok." },
+      "ckb": {
+        "text": "ئەمە کتێبێکی باشە.",
+        "latin": "eme kitêbêkî başe.",
+        "tokens": [
+          { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          {
+            "text": "کتێبێکی",
+            "latin": "kitêbêkî",
+            "gloss": { "en": "a book (that is)", "sv": "en bok (som är)" },
+            "concept": "book",
+            "morph": "book-INDF-EZ"
+          },
+          { "text": "باشە.", "latin": "başe.", "gloss": { "en": "good, is", "sv": "bra, är" }, "concept": "good", "morph": "good-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "کتێبەکە", "latin": "kitêbeke", "gloss": { "en": "the book", "sv": "boken" }, "morph": "book-DEF" },
+          {
+            "text": "کتێبێک",
+            "latin": "kitêbêk",
+            "gloss": { "en": "a book (no ezafe)", "sv": "en bok (utan ezafe)" },
+            "morph": "book-INDF"
+          }
+        ],
+        "grammar": ["ckb-adjectives", "ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§5, §7" }]
+      },
+      "fa": {
+        "text": "این کتاب خوبی است.",
+        "latin": "in ketâb-e khubi ast.",
+        "tokens": [
+          { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          {
+            "text": "کتاب",
+            "latin": "ketâb-e",
+            "gloss": { "en": "book (that is)", "sv": "bok (som är)" },
+            "concept": "book",
+            "morph": "book-EZ"
+          },
+          { "text": "خوبی", "latin": "khubi", "gloss": { "en": "a good one", "sv": "en bra" }, "concept": "good", "morph": "good-INDF" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "این کتاب خوبیه.", "latin": "in ketâb-e khubiye." },
+        "alternatives": [{ "text": "این یک کتاب خوب است.", "latin": "in yek ketâb-e khub ast." }],
+        "distractors": [
+          { "text": "کتاب‌ها", "latin": "ketâb-hâ", "gloss": { "en": "books", "sv": "böcker" }, "morph": "book-PL" },
+          { "text": "بد", "latin": "bad", "gloss": { "en": "bad", "sv": "dålig" } }
+        ],
+        "grammar": ["fa-adjectives-ezafe", "fa-indefinite-i"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-tea-is-very-hot",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "The tea is very hot.", "sv": "Teet är väldigt varmt." },
+      "ckb": {
+        "text": "چاکە زۆر گەرمە.",
+        "latin": "çake zor germe.",
+        "tokens": [
+          { "text": "چاکە", "latin": "çake", "gloss": { "en": "the tea", "sv": "teet" }, "concept": "tea", "morph": "tea-DEF" },
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          { "text": "گەرمە.", "latin": "germe.", "gloss": { "en": "is hot", "sv": "är varmt" }, "concept": "hot", "morph": "hot-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "ساردە.", "latin": "sarde.", "gloss": { "en": "is cold", "sv": "är kallt" }, "morph": "cold-COP.3SG" },
+          { "text": "چایەک", "latin": "çayek", "gloss": { "en": "a tea", "sv": "ett te" }, "morph": "tea-INDF" }
+        ],
+        "grammar": ["ckb-adjectives", "ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "چای خیلی داغ است.",
+        "latin": "chây kheyli dâgh ast.",
+        "tokens": [
+          { "text": "چای", "latin": "chây", "gloss": { "en": "the tea", "sv": "teet" }, "concept": "tea" },
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          { "text": "داغ", "latin": "dâgh", "gloss": { "en": "hot", "sv": "hett" }, "concept": "hot" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "چایی خیلی داغه.", "latin": "châyi kheyli dâghe." },
+        "alternatives": [{ "text": "چای خیلی گرم است.", "latin": "chây kheyli garm ast." }],
+        "distractors": [
+          { "text": "سرد", "latin": "sard", "gloss": { "en": "cold", "sv": "kallt" } },
+          { "text": "هستی.", "latin": "hasti.", "gloss": { "en": "you are", "sv": "du är" }, "morph": "be.PRS-2SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-weather-is-cold-today",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "The weather is cold today.", "sv": "Det är kallt ute i dag." },
+      "ckb": {
+        "text": "ئەمڕۆ هەوا ساردە.",
+        "latin": "emřo hewa sarde.",
+        "tokens": [
+          { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+          { "text": "هەوا", "latin": "hewa", "gloss": { "en": "the weather", "sv": "vädret" }, "concept": "weather" },
+          {
+            "text": "ساردە.",
+            "latin": "sarde.",
+            "gloss": { "en": "is cold", "sv": "är kallt" },
+            "concept": "cold",
+            "morph": "cold-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "هەوا ئەمڕۆ ساردە.", "latin": "hewa emřo sarde." }],
+        "distractors": [
+          { "text": "گەرمە.", "latin": "germe.", "gloss": { "en": "is hot", "sv": "är varmt" }, "morph": "hot-COP.3SG" },
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" } }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "text": "امروز هوا سرد است.",
+        "latin": "emruz havâ sard ast.",
+        "tokens": [
+          { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+          { "text": "هوا", "latin": "havâ", "gloss": { "en": "the weather", "sv": "vädret" }, "concept": "weather" },
+          { "text": "سرد", "latin": "sard", "gloss": { "en": "cold", "sv": "kallt" }, "concept": "cold" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "امروز هوا سرده.", "latin": "emruz havâ sarde." },
+        "alternatives": [{ "text": "هوا امروز سرد است.", "latin": "havâ emruz sard ast." }],
+        "distractors": [
+          { "text": "گرم", "latin": "garm", "gloss": { "en": "hot", "sv": "varmt" } },
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" } }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "we-are-very-happy",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "We're very happy.", "sv": "Vi är väldigt glada." },
+      "ckb": {
+        "text": "زۆر دڵخۆشین.",
+        "latin": "zor diłxoşîn.",
+        "tokens": [
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          {
+            "text": "دڵخۆشین.",
+            "latin": "diłxoşîn.",
+            "gloss": { "en": "we are happy", "sv": "vi är glada" },
+            "concept": "happy",
+            "morph": "happy-COP.1PL"
+          }
+        ],
+        "alternatives": [{ "text": "ئێمە زۆر دڵخۆشین.", "latin": "ême zor diłxoşîn." }],
+        "distractors": [
+          { "text": "دڵخۆشم.", "latin": "diłxoşim.", "gloss": { "en": "I am happy", "sv": "jag är glad" }, "morph": "happy-COP.1SG" },
+          { "text": "دڵخۆشن.", "latin": "diłxoşin.", "gloss": { "en": "they are happy", "sv": "de är glada" }, "morph": "happy-COP.3PL" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "text": "خیلی خوشحالیم.",
+        "latin": "kheyli khoshhâlim.",
+        "tokens": [
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          {
+            "text": "خوشحالیم.",
+            "latin": "khoshhâlim.",
+            "gloss": { "en": "we are happy", "sv": "vi är glada" },
+            "concept": "happy",
+            "morph": "happy-COP.1PL"
+          }
+        ],
+        "alternatives": [
+          { "text": "ما خیلی خوشحال هستیم.", "latin": "mâ kheyli khoshhâl hastim." },
+          { "text": "ما خیلی خوشحالیم.", "latin": "mâ kheyli khoshhâlim." }
+        ],
+        "distractors": [
+          { "text": "خوشحالم.", "latin": "khoshhâlam.", "gloss": { "en": "I am happy", "sv": "jag är glad" }, "morph": "happy-COP.1SG" },
+          {
+            "text": "خوشحالند.",
+            "latin": "khoshhâland.",
+            "gloss": { "en": "they are happy", "sv": "de är glada" },
+            "morph": "happy-COP.3PL"
+          }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-mother-is-sad",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "My mother is sad.", "sv": "Min mamma är ledsen." },
+      "ckb": {
+        "text": "دایکم خەمبارە.",
+        "latin": "daykim xembare.",
+        "tokens": [
+          {
+            "text": "دایکم",
+            "latin": "daykim",
+            "gloss": { "en": "my mother", "sv": "min mamma" },
+            "concept": "mother",
+            "morph": "mother-1SG"
+          },
+          {
+            "text": "خەمبارە.",
+            "latin": "xembare.",
+            "gloss": { "en": "is sad", "sv": "är ledsen" },
+            "concept": "sad",
+            "morph": "sad-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "دایکم دڵتەنگە.", "latin": "daykim diłtenge." }],
+        "distractors": [
+          { "text": "دایکت", "latin": "daykit", "gloss": { "en": "your mother", "sv": "din mamma" }, "morph": "mother-2SG" },
+          { "text": "دڵخۆشە.", "latin": "diłxoşe.", "gloss": { "en": "is happy", "sv": "är glad" }, "morph": "happy-COP.3SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "مادرم ناراحت است.",
+        "latin": "mâdaram nârâhat ast.",
+        "tokens": [
+          {
+            "text": "مادرم",
+            "latin": "mâdaram",
+            "gloss": { "en": "my mother", "sv": "min mamma" },
+            "concept": "mother",
+            "morph": "mother-1SG"
+          },
+          { "text": "ناراحت", "latin": "nârâhat", "gloss": { "en": "sad, upset", "sv": "ledsen" }, "concept": "sad" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "مامانم ناراحته.", "latin": "mâmânam nârâhate." },
+        "alternatives": [{ "text": "مادرم غمگین است.", "latin": "mâdaram ghamgin ast." }],
+        "distractors": [
+          { "text": "مادرت", "latin": "mâdarat", "gloss": { "en": "your mother", "sv": "din mamma" }, "morph": "mother-2SG" },
+          { "text": "خوشحال", "latin": "khoshhâl", "gloss": { "en": "happy", "sv": "glad" } }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-have-a-red-car",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "I have a red car.", "sv": "Jag har en röd bil." },
+      "ckb": {
+        "text": "ئۆتۆمبێلێکی سوورم هەیە.",
+        "latin": "otombêlêkî sûrim heye.",
+        "tokens": [
+          {
+            "text": "ئۆتۆمبێلێکی",
+            "latin": "otombêlêkî",
+            "gloss": { "en": "a car (that is)", "sv": "en bil (som är)" },
+            "concept": "car",
+            "morph": "car-INDF-EZ"
+          },
+          { "text": "سوورم", "latin": "sûrim", "gloss": { "en": "red, of mine", "sv": "röd, min" }, "concept": "red", "morph": "red-1SG" },
+          {
+            "text": "هەیە.",
+            "latin": "heye.",
+            "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" },
+            "concept": "to-have",
+            "morph": "exist.PRS.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "سوورت", "latin": "sûrit", "gloss": { "en": "red, of yours", "sv": "röd, din" }, "morph": "red-2SG" },
+          {
+            "text": "ئۆتۆمبێلێک",
+            "latin": "otombêlêk",
+            "gloss": { "en": "a car (no ezafe)", "sv": "en bil (utan ezafe)" },
+            "morph": "car-INDF"
+          }
+        ],
+        "grammar": ["ckb-adjectives", "ckb-to-have"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§5, §7" }]
+      },
+      "fa": {
+        "text": "یک ماشین قرمز دارم.",
+        "latin": "yek mâshin-e ghermez dâram.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en" } },
+          {
+            "text": "ماشین",
+            "latin": "mâshin-e",
+            "gloss": { "en": "car (that is)", "sv": "bil (som är)" },
+            "concept": "car",
+            "morph": "car-EZ"
+          },
+          { "text": "قرمز", "latin": "ghermez", "gloss": { "en": "red", "sv": "röd" }, "concept": "red" },
+          {
+            "text": "دارم.",
+            "latin": "dâram.",
+            "gloss": { "en": "I have", "sv": "jag har" },
+            "concept": "to-have",
+            "morph": "have.PRS-1SG"
+          }
+        ],
+        "colloquial": { "text": "یه ماشین قرمز دارم.", "latin": "ye mâshin-e ghermez dâram." },
+        "alternatives": [{ "text": "ماشین قرمزی دارم.", "latin": "mâshin-e ghermezi dâram." }],
+        "distractors": [
+          { "text": "داری.", "latin": "dâri.", "gloss": { "en": "you have", "sv": "du har" }, "morph": "have.PRS-2SG" },
+          { "text": "قرمزتر", "latin": "ghermeztar", "gloss": { "en": "redder", "sv": "rödare" }, "morph": "red-CMPR" }
+        ],
+        "grammar": ["fa-adjectives-ezafe", "fa-to-have"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-old-house-is-very-beautiful",
+      "unit": "describing",
+      "level": "A2",
+      "translation": { "en": "The old house is very beautiful.", "sv": "Det gamla huset är väldigt vackert." },
+      "ckb": {
+        "text": "خانووە کۆنەکە زۆر جوانە.",
+        "latin": "xanûe koneke zor ciwane.",
+        "tokens": [
+          {
+            "text": "خانووە",
+            "latin": "xanûe",
+            "gloss": { "en": "house (the … one)", "sv": "hus (det … )" },
+            "concept": "house",
+            "morph": "house-LNK"
+          },
+          { "text": "کۆنەکە", "latin": "koneke", "gloss": { "en": "old, the", "sv": "gamla, det" }, "concept": "old", "morph": "old-DEF" },
+          { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          {
+            "text": "جوانە.",
+            "latin": "ciwane.",
+            "gloss": { "en": "is beautiful", "sv": "är vackert" },
+            "concept": "beautiful",
+            "morph": "beautiful-COP.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "خانووەکە", "latin": "xanûeke", "gloss": { "en": "the house", "sv": "huset" }, "morph": "house-DEF" },
+          { "text": "کۆنە", "latin": "kone", "gloss": { "en": "is old", "sv": "är gammalt" }, "morph": "old-COP.3SG" }
+        ],
+        "grammar": ["ckb-adjectives"],
+        "sources": [
+          { "source": "author" },
+          { "source": "thackston-sorani-grammar", "ref": "§5, §7" },
+          { "source": "kim-kurdish-grammar", "ref": "Izafe" }
+        ]
+      },
+      "fa": {
+        "text": "خانه‌ی قدیمی خیلی قشنگ است.",
+        "latin": "khâne-ye ghadimi kheyli ghashang ast.",
+        "tokens": [
+          {
+            "text": "خانه‌ی",
+            "latin": "khâne-ye",
+            "gloss": { "en": "house (that is)", "sv": "hus (som är)" },
+            "concept": "house",
+            "morph": "house-EZ"
+          },
+          { "text": "قدیمی", "latin": "ghadimi", "gloss": { "en": "old", "sv": "gamla" }, "concept": "old" },
+          { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+          { "text": "قشنگ", "latin": "ghashang", "gloss": { "en": "beautiful", "sv": "vackert" }, "concept": "beautiful" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "خونه‌ی قدیمی خیلی قشنگه.", "latin": "khune-ye ghadimi kheyli ghashange." },
+        "alternatives": [{ "text": "خانه‌ی قدیمی خیلی زیبا است.", "latin": "khâne-ye ghadimi kheyli zibâ ast." }],
+        "distractors": [
+          { "text": "خانه", "latin": "khâne", "gloss": { "en": "house (no ezafe)", "sv": "hus (utan ezafe)" }, "morph": "house" },
+          { "text": "قدیمی‌تر", "latin": "ghadimitar", "gloss": { "en": "older", "sv": "äldre" }, "morph": "old-CMPR" }
+        ],
+        "grammar": ["fa-adjectives-ezafe"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "this-is-cheap-that-is-expensive",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "This is cheap, that is expensive.", "sv": "Den här är billig, den där är dyr." },
+      "ckb": {
+        "text": "ئەمە هەرزانە، ئەوە گرانە.",
+        "latin": "eme herzane, ewe girane.",
+        "tokens": [
+          { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "den här" }, "concept": "this" },
+          {
+            "text": "هەرزانە،",
+            "latin": "herzane,",
+            "gloss": { "en": "is cheap", "sv": "är billig" },
+            "concept": "cheap",
+            "morph": "cheap-COP.3SG"
+          },
+          { "text": "ئەوە", "latin": "ewe", "gloss": { "en": "that", "sv": "den där" }, "concept": "that" },
+          {
+            "text": "گرانە.",
+            "latin": "girane.",
+            "gloss": { "en": "is expensive", "sv": "är dyr" },
+            "concept": "expensive",
+            "morph": "expensive-COP.3SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "هەرزانترە،",
+            "latin": "herzantire,",
+            "gloss": { "en": "is cheaper", "sv": "är billigare" },
+            "morph": "cheap-CMPR-COP.3SG"
+          },
+          { "text": "گرانم.", "latin": "giranim.", "gloss": { "en": "I am expensive", "sv": "jag är dyr" }, "morph": "expensive-COP.1SG" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "text": "این ارزان است، آن گران است.",
+        "latin": "in arzân ast, ân gerân ast.",
+        "tokens": [
+          { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "den här" }, "concept": "this" },
+          { "text": "ارزان", "latin": "arzân", "gloss": { "en": "cheap", "sv": "billig" }, "concept": "cheap" },
+          { "text": "است،", "latin": "ast,", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" },
+          { "text": "آن", "latin": "ân", "gloss": { "en": "that", "sv": "den där" }, "concept": "that" },
+          { "text": "گران", "latin": "gerân", "gloss": { "en": "expensive", "sv": "dyr" }, "concept": "expensive" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "این ارزونه، اون گرونه.", "latin": "in arzune, un gerune." },
+        "distractors": [
+          { "text": "ارزان‌تر", "latin": "arzântar", "gloss": { "en": "cheaper", "sv": "billigare" }, "morph": "cheap-CMPR" },
+          { "text": "هستند.", "latin": "hastand.", "gloss": { "en": "they are", "sv": "de är" }, "morph": "be.PRS-3PL" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "kurdish-is-not-difficult",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "Kurdish is not difficult.", "sv": "Kurdiska är inte svårt." },
+      "ckb": {
+        "text": "کوردی سەخت نییە.",
+        "latin": "kurdî sext nîye.",
+        "tokens": [
+          { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+          { "text": "سەخت", "latin": "sext", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+          { "text": "نییە.", "latin": "nîye.", "gloss": { "en": "is not", "sv": "är inte" }, "concept": "to-be", "morph": "NEG.COP.3SG" }
+        ],
+        "alternatives": [{ "text": "کوردی زەحمەت نییە.", "latin": "kurdî zeḧmet nîye." }],
+        "distractors": [
+          { "text": "سەختە.", "latin": "sexte.", "gloss": { "en": "is difficult", "sv": "är svårt" }, "morph": "difficult-COP.3SG" },
+          { "text": "نیم.", "latin": "nîm.", "gloss": { "en": "I am not", "sv": "jag är inte" }, "morph": "NEG.COP.1SG" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "کردی سخت نیست.",
+        "latin": "kordi sakht nist.",
+        "tokens": [
+          { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+          { "text": "سخت", "latin": "sakht", "gloss": { "en": "difficult", "sv": "svårt" }, "concept": "difficult" },
+          { "text": "نیست.", "latin": "nist.", "gloss": { "en": "is not", "sv": "är inte" }, "concept": "to-be", "morph": "NEG.be.PRS.3SG" }
+        ],
+        "alternatives": [{ "text": "کردی مشکل نیست.", "latin": "kordi moshkel nist." }],
+        "distractors": [
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "morph": "be.PRS.3SG" },
+          { "text": "نیستم.", "latin": "nistam.", "gloss": { "en": "I am not", "sv": "jag är inte" }, "morph": "NEG.be.PRS-1SG" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "today-is-colder-than-yesterday",
+      "unit": "describing",
+      "level": "A2",
+      "translation": { "en": "Today is colder than yesterday.", "sv": "I dag är det kallare än i går." },
+      "ckb": {
+        "text": "ئەمڕۆ لە دوێنێ ساردترە.",
+        "latin": "emřo le dwênê sardtire.",
+        "tokens": [
+          { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          {
+            "text": "ساردترە.",
+            "latin": "sardtire.",
+            "gloss": { "en": "is colder", "sv": "är kallare" },
+            "concept": "cold",
+            "morph": "cold-CMPR-COP.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "ساردترین", "latin": "sardtirîn", "gloss": { "en": "coldest", "sv": "kallast" }, "morph": "cold-SUPL" },
+          { "text": "بە", "latin": "be", "gloss": { "en": "with, by", "sv": "med" } }
+        ],
+        "grammar": ["ckb-comparative"],
+        "sources": [
+          { "source": "thackston-sorani-grammar", "ref": "§13" },
+          { "source": "kim-kurdish-grammar", "ref": "Comparative and superlative adjectives" }
+        ]
+      },
+      "fa": {
+        "text": "امروز از دیروز سردتر است.",
+        "latin": "emruz az diruz sardtar ast.",
+        "tokens": [
+          { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "i dag" }, "concept": "today" },
+          { "text": "از", "latin": "az", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          { "text": "سردتر", "latin": "sardtar", "gloss": { "en": "colder", "sv": "kallare" }, "concept": "cold", "morph": "cold-CMPR" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "امروز از دیروز سردتره.", "latin": "emruz az diruz sardtare." },
+        "distractors": [
+          { "text": "سردترین", "latin": "sardtarin", "gloss": { "en": "coldest", "sv": "kallast" }, "morph": "cold-SUPL" },
+          { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" } }
+        ],
+        "grammar": ["fa-comparative"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "this-book-is-better-than-that-one",
+      "unit": "describing",
+      "level": "A2",
+      "translation": { "en": "This book is better than that one.", "sv": "Den här boken är bättre än den där." },
+      "ckb": {
+        "text": "ئەم کتێبە لەو کتێبە باشترە.",
+        "latin": "em kitêbe lew kitêbe baştire.",
+        "tokens": [
+          { "text": "ئەم", "latin": "em", "gloss": { "en": "this", "sv": "den här" }, "concept": "this" },
+          { "text": "کتێبە", "latin": "kitêbe", "gloss": { "en": "book", "sv": "boken" }, "concept": "book", "morph": "book-DEM" },
+          {
+            "text": "لەو",
+            "latin": "lew",
+            "gloss": { "en": "than that (from that)", "sv": "än den där (från den där)" },
+            "concept": "from",
+            "morph": "from.that"
+          },
+          { "text": "کتێبە", "latin": "kitêbe", "gloss": { "en": "book", "sv": "boken" }, "concept": "book", "morph": "book-DEM" },
+          {
+            "text": "باشترە.",
+            "latin": "baştire.",
+            "gloss": { "en": "is better", "sv": "är bättre" },
+            "concept": "better",
+            "morph": "good-CMPR-COP.3SG"
+          }
+        ],
+        "alternatives": [{ "text": "ئەم کتێبە لەوە باشترە.", "latin": "em kitêbe lewe baştire." }],
+        "distractors": [
+          { "text": "باشترین", "latin": "baştirîn", "gloss": { "en": "best", "sv": "bäst" }, "morph": "good-SUPL" },
+          { "text": "لەم", "latin": "lem", "gloss": { "en": "than this", "sv": "än den här" }, "morph": "from.this" }
+        ],
+        "grammar": ["ckb-comparative"],
+        "sources": [
+          { "source": "thackston-sorani-grammar", "ref": "§13" },
+          { "source": "kim-kurdish-grammar", "ref": "Comparative and superlative adjectives" }
+        ]
+      },
+      "fa": {
+        "text": "این کتاب از آن کتاب بهتر است.",
+        "latin": "in ketâb az ân ketâb behtar ast.",
+        "tokens": [
+          { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "den här" }, "concept": "this" },
+          { "text": "کتاب", "latin": "ketâb", "gloss": { "en": "book", "sv": "bok" }, "concept": "book" },
+          { "text": "از", "latin": "az", "gloss": { "en": "than (from)", "sv": "än (från)" }, "concept": "from" },
+          { "text": "آن", "latin": "ân", "gloss": { "en": "that", "sv": "den där" }, "concept": "that" },
+          { "text": "کتاب", "latin": "ketâb", "gloss": { "en": "book", "sv": "bok" }, "concept": "book" },
+          { "text": "بهتر", "latin": "behtar", "gloss": { "en": "better", "sv": "bättre" }, "concept": "better", "morph": "good.CMPR" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "این کتاب از اون کتاب بهتره.", "latin": "in ketâb az un ketâb behtare." },
+        "alternatives": [{ "text": "این کتاب از آن بهتر است.", "latin": "in ketâb az ân behtar ast." }],
+        "distractors": [
+          { "text": "خوب‌تر", "latin": "khubtar", "gloss": { "en": "(wrong: use بهتر)", "sv": "(fel: säg بهتر)" }, "morph": "good-CMPR" },
+          { "text": "بهترین", "latin": "behtarin", "gloss": { "en": "best", "sv": "bäst" }, "morph": "good.SUPL" }
+        ],
+        "grammar": ["fa-comparative"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "tehran-is-the-biggest-city-in-iran",
+      "unit": "describing",
+      "level": "A2",
+      "translation": { "en": "Tehran is the biggest city in Iran.", "sv": "Teheran är den största staden i Iran." },
+      "ckb": {
+        "text": "تاران گەورەترین شاری ئێرانە.",
+        "latin": "Taran gewretirîn şarî Êrane.",
+        "tokens": [
+          { "text": "تاران", "latin": "Taran", "gloss": { "en": "Tehran", "sv": "Teheran" } },
+          {
+            "text": "گەورەترین",
+            "latin": "gewretirîn",
+            "gloss": { "en": "biggest", "sv": "största" },
+            "concept": "big",
+            "morph": "big-SUPL"
+          },
+          { "text": "شاری", "latin": "şarî", "gloss": { "en": "city (of)", "sv": "staden (i)" }, "concept": "city", "morph": "city-EZ" },
+          {
+            "text": "ئێرانە.",
+            "latin": "Êrane.",
+            "gloss": { "en": "Iran, is", "sv": "Iran, är" },
+            "concept": "to-be",
+            "morph": "Iran-COP.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "گەورەتر", "latin": "gewretir", "gloss": { "en": "bigger", "sv": "större" }, "morph": "big-CMPR" },
+          { "text": "شار", "latin": "şar", "gloss": { "en": "city (no ezafe)", "sv": "stad (utan ezafe)" } }
+        ],
+        "grammar": ["ckb-comparative", "ckb-ezafe"],
+        "sources": [
+          { "source": "thackston-sorani-grammar", "ref": "§13" },
+          { "source": "kim-kurdish-grammar", "ref": "Comparative and superlative adjectives" }
+        ]
+      },
+      "fa": {
+        "text": "تهران بزرگ‌ترین شهر ایران است.",
+        "latin": "Tehrân bozorgtarin shahr-e Irân ast.",
+        "tokens": [
+          { "text": "تهران", "latin": "Tehrân", "gloss": { "en": "Tehran", "sv": "Teheran" } },
+          {
+            "text": "بزرگ‌ترین",
+            "latin": "bozorgtarin",
+            "gloss": { "en": "biggest", "sv": "största" },
+            "concept": "big",
+            "morph": "big-SUPL"
+          },
+          { "text": "شهر", "latin": "shahr-e", "gloss": { "en": "city (of)", "sv": "staden (i)" }, "concept": "city", "morph": "city-EZ" },
+          { "text": "ایران", "latin": "Irân", "gloss": { "en": "Iran", "sv": "Iran" } },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "تهران بزرگ‌ترین شهر ایرانه.", "latin": "Tehrân bozorgtarin shahr-e Irâne." },
+        "distractors": [
+          { "text": "بزرگ‌تر", "latin": "bozorgtar", "gloss": { "en": "bigger", "sv": "större" }, "morph": "big-CMPR" },
+          { "text": "شهرها", "latin": "shahrhâ", "gloss": { "en": "cities", "sv": "städer" }, "morph": "city-PL" }
+        ],
+        "grammar": ["fa-comparative", "fa-ezafe"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-room-is-clean-and-big",
+      "unit": "describing",
+      "level": "A1",
+      "translation": { "en": "The room is clean and big.", "sv": "Rummet är rent och stort." },
+      "ckb": {
+        "text": "ژوورەکە خاوێن و گەورەیە.",
+        "latin": "jûreke xawên û gewreye.",
+        "tokens": [
+          { "text": "ژوورەکە", "latin": "jûreke", "gloss": { "en": "the room", "sv": "rummet" }, "concept": "room", "morph": "room-DEF" },
+          { "text": "خاوێن", "latin": "xawên", "gloss": { "en": "clean", "sv": "rent" }, "concept": "clean" },
+          { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" } },
+          {
+            "text": "گەورەیە.",
+            "latin": "gewreye.",
+            "gloss": { "en": "big, is", "sv": "stort, är" },
+            "concept": "big",
+            "morph": "big-COP.3SG"
+          }
+        ],
+        "distractors": [
+          { "text": "پیس", "latin": "pîs", "gloss": { "en": "dirty", "sv": "smutsigt" } },
+          { "text": "ژوورێک", "latin": "jûrêk", "gloss": { "en": "a room", "sv": "ett rum" }, "morph": "room-INDF" }
+        ],
+        "grammar": ["ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "اتاق تمیز و بزرگ است.",
+        "latin": "otâgh tamiz o bozorg ast.",
+        "tokens": [
+          { "text": "اتاق", "latin": "otâgh", "gloss": { "en": "the room", "sv": "rummet" }, "concept": "room" },
+          { "text": "تمیز", "latin": "tamiz", "gloss": { "en": "clean", "sv": "rent" }, "concept": "clean" },
+          { "text": "و", "latin": "o", "gloss": { "en": "and", "sv": "och" } },
+          { "text": "بزرگ", "latin": "bozorg", "gloss": { "en": "big", "sv": "stort" }, "concept": "big" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "اتاق تمیز و بزرگه.", "latin": "otâgh tamiz o bozorge." },
+        "distractors": [
+          { "text": "کثیف", "latin": "kasif", "gloss": { "en": "dirty", "sv": "smutsigt" } },
+          { "text": "هستیم.", "latin": "hastim.", "gloss": { "en": "we are", "sv": "vi är" }, "morph": "be.PRS-1PL" }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

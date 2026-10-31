@@ -1,0 +1,709 @@
+{
+  "items": [
+    {
+      "id": "where-is-the-hospital",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "Where is the hospital?", "sv": "Var ligger sjukhuset?" },
+      "ckb": {
+        "question": {
+          "text": "نەخۆشخانەکە لە کوێیە؟",
+          "latin": "nexoşxaneke le kwêye?",
+          "tokens": [
+            { "text": "نەخۆشخانەکە", "latin": "nexoşxaneke", "gloss": { "en": "the hospital", "sv": "sjukhuset" }, "concept": "hospital", "morph": "hospital-DEF" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نزیکە، ڕاستەوخۆ بڕۆ.",
+            "latin": "nizîke, řastewxo biřo.",
+            "translation": { "en": "It's close, go straight ahead.", "sv": "Det är nära, gå rakt fram." },
+            "tokens": [
+              { "text": "نزیکە،", "latin": "nizîke,", "gloss": { "en": "is near", "sv": "är nära" }, "concept": "near", "morph": "near-COP.3SG" },
+              { "text": "ڕاستەوخۆ", "latin": "řastewxo", "gloss": { "en": "straight ahead", "sv": "rakt fram" }, "concept": "straight-ahead" },
+              { "text": "بڕۆ.", "latin": "biřo.", "gloss": { "en": "go!", "sv": "gå!" }, "concept": "to-go", "morph": "IMP-go.PRS.2SG" }
+            ]
+          },
+          {
+            "text": "لە لای ڕاستە.",
+            "latin": "le lay řaste.",
+            "translation": { "en": "It's on the right.", "sv": "Det ligger till höger." }
+          },
+          {
+            "text": "دوورە، بە تەکسی بڕۆ.",
+            "latin": "dûre, be teksî biřo.",
+            "translation": { "en": "It's far, take a taxi.", "sv": "Det är långt, ta en taxi." }
+          },
+          {
+            "text": "لەو شەقامەدایە.",
+            "latin": "lew şeqamedaye.",
+            "translation": { "en": "It's on that street.", "sv": "Det ligger på den gatan." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§14, §24" }]
+      },
+      "fa": {
+        "question": {
+          "text": "بیمارستان کجاست؟",
+          "latin": "bimârestân kojâst?",
+          "tokens": [
+            { "text": "بیمارستان", "latin": "bimârestân", "gloss": { "en": "the hospital", "sv": "sjukhuset" }, "concept": "hospital" },
+            { "text": "کجاست؟", "latin": "kojâst?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نزدیک است، مستقیم بروید.",
+            "latin": "nazdik ast, mostaghim beravid.",
+            "translation": { "en": "It's close, go straight ahead.", "sv": "Det är nära, gå rakt fram." },
+            "tokens": [
+              { "text": "نزدیک", "latin": "nazdik", "gloss": { "en": "near", "sv": "nära" }, "concept": "near" },
+              { "text": "است،", "latin": "ast,", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" },
+              { "text": "مستقیم", "latin": "mostaghim", "gloss": { "en": "straight ahead", "sv": "rakt fram" }, "concept": "straight-ahead" },
+              { "text": "بروید.", "latin": "beravid.", "gloss": { "en": "go! (polite)", "sv": "gå! (artigt)" }, "concept": "to-go", "morph": "IMP-go.PRS-2PL" }
+            ]
+          },
+          {
+            "text": "نزدیکه، مستقیم برید.",
+            "latin": "nazdike, mostaghim berid.",
+            "translation": { "en": "It's close, go straight ahead. (spoken)", "sv": "Det är nära, gå rakt fram. (talspråk)" }
+          },
+          {
+            "text": "سمت راست است.",
+            "latin": "samt-e râst ast.",
+            "translation": { "en": "It's on the right.", "sv": "Det ligger till höger." }
+          },
+          {
+            "text": "دور است، با تاکسی بروید.",
+            "latin": "dur ast, bâ tâksi beravid.",
+            "translation": { "en": "It's far, take a taxi.", "sv": "Det är långt, ta en taxi." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-much-is-this",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "How much is this?", "sv": "Vad kostar det här?" },
+      "ckb": {
+        "question": {
+          "text": "ئەمە بە چەندە؟",
+          "latin": "eme be çende?",
+          "tokens": [
+            { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            { "text": "بە", "latin": "be", "gloss": { "en": "for", "sv": "för" }, "concept": "how-much" },
+            { "text": "چەندە؟", "latin": "çende?", "gloss": { "en": "how much is", "sv": "hur mycket är" }, "concept": "how-much", "morph": "how.many-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "دە هەزار دینارە.",
+            "latin": "de hezar dînare.",
+            "translation": { "en": "It's ten thousand dinars.", "sv": "Den kostar tiotusen dinar." },
+            "tokens": [
+              { "text": "دە", "latin": "de", "gloss": { "en": "ten", "sv": "tio" }, "concept": "ten" },
+              { "text": "هەزار", "latin": "hezar", "gloss": { "en": "thousand", "sv": "tusen" }, "concept": "thousand" },
+              { "text": "دینارە.", "latin": "dînare.", "gloss": { "en": "dinars, is", "sv": "dinar, är" }, "morph": "dinar-COP.3SG" }
+            ]
+          },
+          {
+            "text": "پێنج هەزار.",
+            "latin": "pênc hezar.",
+            "translation": { "en": "Five thousand.", "sv": "Femtusen." }
+          },
+          {
+            "text": "نرخی دوو هەزار دینارە.",
+            "latin": "nirxî dû hezar dînare.",
+            "translation": { "en": "Its price is two thousand dinars.", "sv": "Priset är tvåtusen dinar." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "این چند است؟",
+          "latin": "in chand ast?",
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how much", "sv": "hur mycket" }, "concept": "how-much" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ده هزار تومان است.",
+            "latin": "dah hezâr tomân ast.",
+            "translation": { "en": "It's ten thousand toman.", "sv": "Den kostar tiotusen toman." },
+            "tokens": [
+              { "text": "ده", "latin": "dah", "gloss": { "en": "ten", "sv": "tio" }, "concept": "ten" },
+              { "text": "هزار", "latin": "hezâr", "gloss": { "en": "thousand", "sv": "tusen" }, "concept": "thousand" },
+              { "text": "تومان", "latin": "tomân", "gloss": { "en": "toman", "sv": "toman" } },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "ده تومن.",
+            "latin": "dah toman.",
+            "translation": { "en": "Ten (thousand) toman. (spoken)", "sv": "Tio (tusen) toman. (talspråk)" }
+          },
+          {
+            "text": "قیمتش پنج هزار تومان است.",
+            "latin": "gheymatesh panj hezâr tomân ast.",
+            "translation": { "en": "Its price is five thousand toman.", "sv": "Priset är femtusen toman." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-do-you-go-to-work",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "How do you get to work?", "sv": "Hur tar du dig till jobbet?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چۆن دەچیتە سەر کار؟",
+          "latin": "çon deçîte ser kar?",
+          "tokens": [
+            { "text": "چۆن", "latin": "çon", "gloss": { "en": "how", "sv": "hur" }, "concept": "how" },
+            { "text": "دەچیتە", "latin": "deçîte", "gloss": { "en": "do you go to", "sv": "åker du till" }, "concept": "to-go", "morph": "DUR-go.PRS-2SG-GOAL" },
+            { "text": "سەر", "latin": "ser", "gloss": { "en": "(on)to", "sv": "(upp)på" } },
+            { "text": "کار؟", "latin": "kar?", "gloss": { "en": "work", "sv": "arbete" }, "concept": "work" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بە پاس دەچمە سەر کار.",
+            "latin": "be pas deçime ser kar.",
+            "translation": { "en": "I go to work by bus.", "sv": "Jag åker buss till jobbet." },
+            "tokens": [
+              { "text": "بە", "latin": "be", "gloss": { "en": "by", "sv": "med" } },
+              { "text": "پاس", "latin": "pas", "gloss": { "en": "bus", "sv": "buss" }, "concept": "bus" },
+              { "text": "دەچمە", "latin": "deçime", "gloss": { "en": "I go to", "sv": "jag åker till" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG-GOAL" },
+              { "text": "سەر", "latin": "ser", "gloss": { "en": "(on)to", "sv": "(upp)på" } },
+              { "text": "کار.", "latin": "kar.", "gloss": { "en": "work", "sv": "arbete" }, "concept": "work" }
+            ]
+          },
+          {
+            "text": "بە {vehicle} دەچمە سەر کار.",
+            "latin": "be {vehicle} deçime ser kar.",
+            "translation": { "en": "I go to work by {vehicle}.", "sv": "Jag åker {vehicle} till jobbet." }
+          },
+          {
+            "text": "بە پێ دەچم.",
+            "latin": "be pê deçim.",
+            "translation": { "en": "I walk.", "sv": "Jag går." }
+          },
+          {
+            "text": "لە ماڵەوە کار دەکەم.",
+            "latin": "le małewe kar dekem.",
+            "translation": { "en": "I work from home.", "sv": "Jag arbetar hemifrån." }
+          }
+        ],
+        "slots": {
+          "vehicle": [
+            { "text": "پاس", "latin": "pas", "translation": { "en": "bus", "sv": "buss" } },
+            { "text": "ئۆتۆمۆبیل", "latin": "otomobîl", "translation": { "en": "car", "sv": "bil" } },
+            { "text": "تەکسی", "latin": "teksî", "translation": { "en": "taxi", "sv": "taxi" } },
+            { "text": "پایسکل", "latin": "payskil", "translation": { "en": "bike", "sv": "cykel" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Ch. 7 Prepositions" }]
+      },
+      "fa": {
+        "question": {
+          "text": "چطور سر کار می‌روید؟",
+          "latin": "chetor sar-e kâr miravid?",
+          "tokens": [
+            { "text": "چطور", "latin": "chetor", "gloss": { "en": "how", "sv": "hur" }, "concept": "how" },
+            { "text": "سر", "latin": "sar-e", "gloss": { "en": "to (lit. head of)", "sv": "till (ordagrant huvudet på)" }, "morph": "head-EZ" },
+            { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "work" },
+            { "text": "می‌روید؟", "latin": "miravid?", "gloss": { "en": "do you go", "sv": "åker ni" }, "concept": "to-go", "morph": "DUR-go.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "با اتوبوس سر کار می‌روم.",
+            "latin": "bâ otobus sar-e kâr miravam.",
+            "translation": { "en": "I go to work by bus.", "sv": "Jag åker buss till jobbet." },
+            "tokens": [
+              { "text": "با", "latin": "bâ", "gloss": { "en": "by, with", "sv": "med" }, "concept": "with" },
+              { "text": "اتوبوس", "latin": "otobus", "gloss": { "en": "bus", "sv": "buss" }, "concept": "bus" },
+              { "text": "سر", "latin": "sar-e", "gloss": { "en": "to (lit. head of)", "sv": "till (ordagrant huvudet på)" }, "morph": "head-EZ" },
+              { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "work" },
+              { "text": "می‌روم.", "latin": "miravam.", "gloss": { "en": "I go", "sv": "jag åker" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "با {vehicle} سر کار می‌روم.",
+            "latin": "bâ {vehicle} sar-e kâr miravam.",
+            "translation": { "en": "I go to work by {vehicle}.", "sv": "Jag åker {vehicle} till jobbet." }
+          },
+          {
+            "text": "با {vehicle} می‌رم سر کار.",
+            "latin": "bâ {vehicle} miram sar-e kâr.",
+            "translation": { "en": "I go to work by {vehicle}. (spoken)", "sv": "Jag åker {vehicle} till jobbet. (talspråk)" }
+          },
+          {
+            "text": "پیاده می‌روم.",
+            "latin": "piyâde miravam.",
+            "translation": { "en": "I walk.", "sv": "Jag går." }
+          }
+        ],
+        "slots": {
+          "vehicle": [
+            { "text": "اتوبوس", "latin": "otobus", "translation": { "en": "bus", "sv": "buss" } },
+            { "text": "ماشین", "latin": "mâshin", "translation": { "en": "car", "sv": "bil" } },
+            { "text": "تاکسی", "latin": "tâksi", "translation": { "en": "taxi", "sv": "taxi" } },
+            { "text": "مترو", "latin": "metro", "translation": { "en": "metro", "sv": "tunnelbana" } },
+            { "text": "دوچرخه", "latin": "docharkhe", "translation": { "en": "bike", "sv": "cykel" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "is-the-airport-far",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "Is the airport far?", "sv": "Ligger flygplatsen långt bort?" },
+      "ckb": {
+        "question": {
+          "text": "فڕۆکەخانەکە دوورە؟",
+          "latin": "fřokexaneke dûre?",
+          "tokens": [
+            { "text": "فڕۆکەخانەکە", "latin": "fřokexaneke", "gloss": { "en": "the airport", "sv": "flygplatsen" }, "concept": "airport", "morph": "airport-DEF" },
+            { "text": "دوورە؟", "latin": "dûre?", "gloss": { "en": "is far", "sv": "är långt bort" }, "concept": "far", "morph": "far-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، زۆر دوورە.",
+            "latin": "bełê, zor dûre.",
+            "translation": { "en": "Yes, it's very far.", "sv": "Ja, den ligger väldigt långt bort." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              { "text": "دوورە.", "latin": "dûre.", "gloss": { "en": "is far", "sv": "är långt bort" }, "concept": "far", "morph": "far-COP.3SG" }
+            ]
+          },
+          {
+            "text": "نەخێر، نزیکە.",
+            "latin": "nexêr, nizîke.",
+            "translation": { "en": "No, it's close.", "sv": "Nej, den ligger nära." }
+          },
+          {
+            "text": "نەخێر، زۆر دوور نییە.",
+            "latin": "nexêr, zor dûr nîye.",
+            "translation": { "en": "No, it's not very far.", "sv": "Nej, den ligger inte så långt bort." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "فرودگاه دور است؟",
+          "latin": "forudgâh dur ast?",
+          "tokens": [
+            { "text": "فرودگاه", "latin": "forudgâh", "gloss": { "en": "the airport", "sv": "flygplatsen" }, "concept": "airport" },
+            { "text": "دور", "latin": "dur", "gloss": { "en": "far", "sv": "långt bort" }, "concept": "far" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، خیلی دور است.",
+            "latin": "bale, kheyli dur ast.",
+            "translation": { "en": "Yes, it's very far.", "sv": "Ja, den ligger väldigt långt bort." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
+              { "text": "دور", "latin": "dur", "gloss": { "en": "far", "sv": "långt bort" }, "concept": "far" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "نه، نزدیک است.",
+            "latin": "na, nazdik ast.",
+            "translation": { "en": "No, it's close.", "sv": "Nej, den ligger nära." }
+          },
+          {
+            "text": "نه، خیلی دور نیست.",
+            "latin": "na, kheyli dur nist.",
+            "translation": { "en": "No, it's not very far.", "sv": "Nej, den ligger inte så långt bort." }
+          },
+          {
+            "text": "آره، خیلی دوره.",
+            "latin": "âre, kheyli dure.",
+            "translation": { "en": "Yeah, it's really far. (spoken)", "sv": "Ja, den ligger jättelångt bort. (talspråk)" }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-are-you-going",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "Where are you going?", "sv": "Vart ska du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "بۆ کوێ دەچیت؟",
+          "latin": "bo kwê deçît?",
+          "tokens": [
+            { "text": "بۆ", "latin": "bo", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+            { "text": "کوێ", "latin": "kwê", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "دەچیت؟", "latin": "deçît?", "gloss": { "en": "are you going", "sv": "går du" }, "concept": "to-go", "morph": "DUR-go.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "دەچمە بازاڕ.",
+            "latin": "deçime bazař.",
+            "translation": { "en": "I'm going to the market.", "sv": "Jag går till marknaden." },
+            "tokens": [
+              { "text": "دەچمە", "latin": "deçime", "gloss": { "en": "I go to", "sv": "jag går till" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG-GOAL" },
+              { "text": "بازاڕ.", "latin": "bazař.", "gloss": { "en": "the market", "sv": "marknaden" }, "concept": "market" }
+            ]
+          },
+          {
+            "text": "دەچمە {place}.",
+            "latin": "deçime {place}.",
+            "translation": { "en": "I'm going to {place}.", "sv": "Jag ska till {place}." }
+          },
+          {
+            "text": "دەچم بۆ {place}.",
+            "latin": "deçim bo {place}.",
+            "translation": { "en": "I'm going to {place}.", "sv": "Jag ska till {place}." }
+          },
+          {
+            "text": "دەچمەوە ماڵەوە.",
+            "latin": "deçimewe małewe.",
+            "translation": { "en": "I'm going home.", "sv": "Jag går hem." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "قوتابخانە", "latin": "qutabxane", "translation": { "en": "school", "sv": "skolan" } },
+            { "text": "نەخۆشخانە", "latin": "nexoşxane", "translation": { "en": "the hospital", "sv": "sjukhuset" } },
+            { "text": "فڕۆکەخانە", "latin": "fřokexane", "translation": { "en": "the airport", "sv": "flygplatsen" } },
+            { "text": "هەولێر", "latin": "hewlêr", "translation": { "en": "Erbil", "sv": "Erbil" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§35" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کجا می‌روید؟",
+          "latin": "kojâ miravid?",
+          "tokens": [
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "می‌روید؟", "latin": "miravid?", "gloss": { "en": "are you going", "sv": "går ni" }, "concept": "to-go", "morph": "DUR-go.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "به بازار می‌روم.",
+            "latin": "be bâzâr miravam.",
+            "translation": { "en": "I'm going to the market.", "sv": "Jag går till marknaden." },
+            "tokens": [
+              { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+              { "text": "بازار", "latin": "bâzâr", "gloss": { "en": "the market", "sv": "marknaden" }, "concept": "market" },
+              { "text": "می‌روم.", "latin": "miravam.", "gloss": { "en": "I go", "sv": "jag går" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "به {place} می‌روم.",
+            "latin": "be {place} miravam.",
+            "translation": { "en": "I'm going to {place}.", "sv": "Jag ska till {place}." }
+          },
+          {
+            "text": "می‌رم {place}.",
+            "latin": "miram {place}.",
+            "translation": { "en": "I'm going to {place}. (spoken)", "sv": "Jag ska till {place}. (talspråk)" }
+          },
+          {
+            "text": "به خانه می‌روم.",
+            "latin": "be khâne miravam.",
+            "translation": { "en": "I'm going home.", "sv": "Jag går hem." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "مدرسه", "latin": "madrese", "translation": { "en": "school", "sv": "skolan" } },
+            { "text": "بیمارستان", "latin": "bimârestân", "translation": { "en": "the hospital", "sv": "sjukhuset" } },
+            { "text": "فرودگاه", "latin": "forudgâh", "translation": { "en": "the airport", "sv": "flygplatsen" } },
+            { "text": "تهران", "latin": "tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-have-a-car",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "Do you have a car?", "sv": "Har du bil?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "ئۆتۆمۆبیلت هەیە؟",
+          "latin": "otomobîlit heye?",
+          "tokens": [
+            { "text": "ئۆتۆمۆبیلت", "latin": "otomobîlit", "gloss": { "en": "car of yours", "sv": "bil till dig" }, "concept": "car", "morph": "car-2SG" },
+            { "text": "هەیە؟", "latin": "heye?", "gloss": { "en": "is there (= do you have)", "sv": "finns det (= har du)" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، ئۆتۆمۆبیلێکم هەیە.",
+            "latin": "bełê, otomobîlêkim heye.",
+            "translation": { "en": "Yes, I have a car.", "sv": "Ja, jag har en bil." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "ئۆتۆمۆبیلێکم", "latin": "otomobîlêkim", "gloss": { "en": "a car of mine", "sv": "en bil till mig" }, "concept": "car", "morph": "car-INDF-1SG" },
+              { "text": "هەیە.", "latin": "heye.", "gloss": { "en": "there is (= I have)", "sv": "det finns (= jag har)" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "نەخێر، ئۆتۆمۆبیلم نییە.",
+            "latin": "nexêr, otomobîlim nîye.",
+            "translation": { "en": "No, I don't have a car.", "sv": "Nej, jag har ingen bil." }
+          },
+          {
+            "text": "نەخێر، بە پاس دەڕۆم.",
+            "latin": "nexêr, be pas deřom.",
+            "translation": { "en": "No, I take the bus.", "sv": "Nej, jag åker buss." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ماشین دارید؟",
+          "latin": "mâshin dârid?",
+          "tokens": [
+            { "text": "ماشین", "latin": "mâshin", "gloss": { "en": "car", "sv": "bil" }, "concept": "car" },
+            { "text": "دارید؟", "latin": "dârid?", "gloss": { "en": "do you have", "sv": "har ni" }, "concept": "to-have", "morph": "have.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، یک ماشین دارم.",
+            "latin": "bale, yek mâshin dâram.",
+            "translation": { "en": "Yes, I have a car.", "sv": "Ja, jag har en bil." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en, ett" }, "concept": "one" },
+              { "text": "ماشین", "latin": "mâshin", "gloss": { "en": "car", "sv": "bil" }, "concept": "car" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "concept": "to-have", "morph": "have.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "نه، ماشین ندارم.",
+            "latin": "na, mâshin nadâram.",
+            "translation": { "en": "No, I don't have a car.", "sv": "Nej, jag har ingen bil." }
+          },
+          {
+            "text": "نه، با اتوبوس می‌روم.",
+            "latin": "na, bâ otobus miravam.",
+            "translation": { "en": "No, I take the bus.", "sv": "Nej, jag åker buss." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-there-a-shop-nearby",
+      "unit": "places-travel",
+      "level": "A2",
+      "question": { "en": "Is there a shop nearby?", "sv": "Finns det en affär i närheten?" },
+      "ckb": {
+        "question": {
+          "text": "لەم نزیکانە دوکان هەیە؟",
+          "latin": "lem nizîkane dukan heye?",
+          "tokens": [
+            { "text": "لەم", "latin": "lem", "gloss": { "en": "in this", "sv": "i denna" }, "concept": "this", "morph": "in-this" },
+            { "text": "نزیکانە", "latin": "nizîkane", "gloss": { "en": "nearby (area)", "sv": "närhet" }, "concept": "near", "morph": "near-PL-POSTP" },
+            { "text": "دوکان", "latin": "dukan", "gloss": { "en": "shop", "sv": "affär" }, "concept": "shop" },
+            { "text": "هەیە؟", "latin": "heye?", "gloss": { "en": "is there", "sv": "finns det" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، لەو شەقامەدا دوکانێک هەیە.",
+            "latin": "bełê, lew şeqameda dukanêk heye.",
+            "translation": { "en": "Yes, there's a shop on that street.", "sv": "Ja, det finns en affär på den gatan." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "لەو", "latin": "lew", "gloss": { "en": "in that", "sv": "i den" }, "concept": "that", "morph": "in-that" },
+              { "text": "شەقامەدا", "latin": "şeqameda", "gloss": { "en": "street (in)", "sv": "gata (på)" }, "concept": "street", "morph": "street-DEM-POSTP" },
+              { "text": "دوکانێک", "latin": "dukanêk", "gloss": { "en": "a shop", "sv": "en affär" }, "concept": "shop", "morph": "shop-INDF" },
+              { "text": "هەیە.", "latin": "heye.", "gloss": { "en": "there is", "sv": "det finns" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "بەڵێ، لە لای چەپ.",
+            "latin": "bełê, le lay çep.",
+            "translation": { "en": "Yes, on the left.", "sv": "Ja, till vänster." }
+          },
+          {
+            "text": "نەخێر، بازاڕەکە دوورە.",
+            "latin": "nexêr, bazařeke dûre.",
+            "translation": { "en": "No, the market is far away.", "sv": "Nej, marknaden ligger långt bort." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§14" }]
+      },
+      "fa": {
+        "question": {
+          "text": "این نزدیکی‌ها مغازه هست؟",
+          "latin": "in nazdiki-hâ maghâze hast?",
+          "tokens": [
+            { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "denna" }, "concept": "this" },
+            { "text": "نزدیکی‌ها", "latin": "nazdiki-hâ", "gloss": { "en": "vicinity, around", "sv": "närhet, omkring" }, "concept": "near", "morph": "near-NMLZ-PL" },
+            { "text": "مغازه", "latin": "maghâze", "gloss": { "en": "shop", "sv": "affär" }, "concept": "shop" },
+            { "text": "هست؟", "latin": "hast?", "gloss": { "en": "is there", "sv": "finns det" }, "concept": "to-be", "morph": "exist.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، در آن خیابان یک مغازه هست.",
+            "latin": "bale, dar ân khiyâbân yek maghâze hast.",
+            "translation": { "en": "Yes, there's a shop on that street.", "sv": "Ja, det finns en affär på den gatan." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "در", "latin": "dar", "gloss": { "en": "in, on", "sv": "i, på" }, "concept": "in" },
+              { "text": "آن", "latin": "ân", "gloss": { "en": "that", "sv": "den" }, "concept": "that" },
+              { "text": "خیابان", "latin": "khiyâbân", "gloss": { "en": "street", "sv": "gata" }, "concept": "street" },
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en, ett" }, "concept": "one" },
+              { "text": "مغازه", "latin": "maghâze", "gloss": { "en": "shop", "sv": "affär" }, "concept": "shop" },
+              { "text": "هست.", "latin": "hast.", "gloss": { "en": "there is", "sv": "det finns" }, "concept": "to-be", "morph": "exist.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "آره، تو اون خیابون یه مغازه هست.",
+            "latin": "âre, tu un khiyâbun ye maghâze hast.",
+            "translation": { "en": "Yeah, there's a shop on that street. (spoken)", "sv": "Ja, det finns en affär på den gatan. (talspråk)" }
+          },
+          {
+            "text": "بله، سمت چپ.",
+            "latin": "bale, samt-e chap.",
+            "translation": { "en": "Yes, on the left.", "sv": "Ja, till vänster." }
+          },
+          {
+            "text": "نه، بازار دور است.",
+            "latin": "na, bâzâr dur ast.",
+            "translation": { "en": "No, the market is far away.", "sv": "Nej, marknaden ligger långt bort." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "city-or-village",
+      "unit": "places-travel",
+      "level": "A1",
+      "question": { "en": "Do you live in a city or a village?", "sv": "Bor du i en stad eller en by?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "لە شار دەژیت یان لە گوند؟",
+          "latin": "le şar dejît yan le gund?",
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "شار", "latin": "şar", "gloss": { "en": "city", "sv": "stad" }, "concept": "city" },
+            { "text": "دەژیت", "latin": "dejît", "gloss": { "en": "you live", "sv": "du bor" }, "concept": "to-live", "morph": "DUR-live.PRS-2SG" },
+            { "text": "یان", "latin": "yan", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "گوند؟", "latin": "gund?", "gloss": { "en": "village", "sv": "by" }, "concept": "village" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "لە شار دەژیم.",
+            "latin": "le şar dejîm.",
+            "translation": { "en": "I live in a city.", "sv": "Jag bor i en stad." },
+            "tokens": [
+              { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+              { "text": "شار", "latin": "şar", "gloss": { "en": "city", "sv": "stad" }, "concept": "city" },
+              { "text": "دەژیم.", "latin": "dejîm.", "gloss": { "en": "I live", "sv": "jag bor" }, "concept": "to-live", "morph": "DUR-live.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "لە {place} دەژیم.",
+            "latin": "le {place} dejîm.",
+            "translation": { "en": "I live in {place}.", "sv": "Jag bor i {place}." }
+          },
+          {
+            "text": "لە گوندێکی نزیک شار دەژیم.",
+            "latin": "le gundêkî nizîk şar dejîm.",
+            "translation": { "en": "I live in a village near the city.", "sv": "Jag bor i en by nära staden." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سلێمانی", "latin": "slêmanî", "translation": { "en": "Sulaymani", "sv": "Sulaymaniyya" } },
+            { "text": "هەولێر", "latin": "hewlêr", "translation": { "en": "Erbil", "sv": "Erbil" } },
+            { "text": "گوندێک", "latin": "gundêk", "translation": { "en": "a village", "sv": "en by" } },
+            { "text": "شارێکی گەورە", "latin": "şarêkî gewre", "translation": { "en": "a big city", "sv": "en storstad" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "در شهر زندگی می‌کنید یا در روستا؟",
+          "latin": "dar shahr zendegi mikonid yâ dar rustâ?",
+          "tokens": [
+            { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "شهر", "latin": "shahr", "gloss": { "en": "city", "sv": "stad" }, "concept": "city" },
+            { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+            { "text": "می‌کنید", "latin": "mikonid", "gloss": { "en": "you do", "sv": "ni gör" }, "concept": "to-live", "morph": "DUR-do.PRS-2PL" },
+            { "text": "یا", "latin": "yâ", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "روستا؟", "latin": "rustâ?", "gloss": { "en": "village", "sv": "by" }, "concept": "village" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "در شهر زندگی می‌کنم.",
+            "latin": "dar shahr zendegi mikonam.",
+            "translation": { "en": "I live in a city.", "sv": "Jag bor i en stad." },
+            "tokens": [
+              { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+              { "text": "شهر", "latin": "shahr", "gloss": { "en": "city", "sv": "stad" }, "concept": "city" },
+              { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+              { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-live", "morph": "DUR-do.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "در {place} زندگی می‌کنم.",
+            "latin": "dar {place} zendegi mikonam.",
+            "translation": { "en": "I live in {place}.", "sv": "Jag bor i {place}." }
+          },
+          {
+            "text": "تو {place} زندگی می‌کنم.",
+            "latin": "tu {place} zendegi mikonam.",
+            "translation": { "en": "I live in {place}. (spoken)", "sv": "Jag bor i {place}. (talspråk)" }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "تهران", "latin": "tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } },
+            { "text": "سنندج", "latin": "sanandaj", "translation": { "en": "Sanandaj", "sv": "Sanandaj" } },
+            { "text": "یک روستا", "latin": "yek rustâ", "translation": { "en": "a village", "sv": "en by" } },
+            { "text": "یک شهر بزرگ", "latin": "yek shahr-e bozorg", "translation": { "en": "a big city", "sv": "en storstad" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+  "items": [
+    {
+      "id": "where-do-you-work",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "Where do you work?", "sv": "Var arbetar du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "لە کوێ کار دەکەیت؟",
+          "latin": "le kwê kar dekeyt?",
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "in, at", "sv": "i, på" }, "concept": "in" },
+            { "text": "کوێ", "latin": "kwê", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "کار", "latin": "kar", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+            { "text": "دەکەیت؟", "latin": "dekeyt?", "gloss": { "en": "do you do", "sv": "gör du" }, "concept": "to-work", "morph": "DUR-do.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "لە قوتابخانە کار دەکەم.",
+            "latin": "le qutabxane kar dekem.",
+            "translation": { "en": "I work at a school.", "sv": "Jag arbetar på en skola." },
+            "tokens": [
+              { "text": "لە", "latin": "le", "gloss": { "en": "at", "sv": "på" }, "concept": "in" },
+              { "text": "قوتابخانە", "latin": "qutabxane", "gloss": { "en": "school", "sv": "skola" }, "concept": "school" },
+              { "text": "کار", "latin": "kar", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+              { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "لە {place} کار دەکەم.",
+            "latin": "le {place} kar dekem.",
+            "translation": { "en": "I work at {place}.", "sv": "Jag arbetar på {place}." }
+          },
+          {
+            "text": "لە ماڵەوە کار دەکەم.",
+            "latin": "le małewe kar dekem.",
+            "translation": { "en": "I work from home.", "sv": "Jag arbetar hemifrån." }
+          },
+          {
+            "text": "کار ناکەم.",
+            "latin": "kar nakem.",
+            "translation": { "en": "I don't work.", "sv": "Jag arbetar inte." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "نەخۆشخانە", "latin": "nexoşxane", "translation": { "en": "the hospital", "sv": "sjukhuset" } },
+            { "text": "بازاڕ", "latin": "bazař", "translation": { "en": "the market", "sv": "marknaden" } },
+            { "text": "فڕۆکەخانە", "latin": "fřokexane", "translation": { "en": "the airport", "sv": "flygplatsen" } },
+            { "text": "دوکانێک", "latin": "dukanêk", "translation": { "en": "a shop", "sv": "en affär" } },
+            { "text": "سلێمانی", "latin": "slêmanî", "translation": { "en": "Sulaymani", "sv": "Sulaymaniyya" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کجا کار می‌کنید؟",
+          "latin": "kojâ kâr mikonid?",
+          "tokens": [
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+            { "text": "می‌کنید؟", "latin": "mikonid?", "gloss": { "en": "do you do", "sv": "gör ni" }, "concept": "to-work", "morph": "DUR-do.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "در مدرسه کار می‌کنم.",
+            "latin": "dar madrese kâr mikonam.",
+            "translation": { "en": "I work at a school.", "sv": "Jag arbetar på en skola." },
+            "tokens": [
+              { "text": "در", "latin": "dar", "gloss": { "en": "in, at", "sv": "i, på" }, "concept": "in" },
+              { "text": "مدرسه", "latin": "madrese", "gloss": { "en": "school", "sv": "skola" }, "concept": "school" },
+              { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+              { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "در {place} کار می‌کنم.",
+            "latin": "dar {place} kâr mikonam.",
+            "translation": { "en": "I work at {place}.", "sv": "Jag arbetar på {place}." }
+          },
+          {
+            "text": "تو خونه کار می‌کنم.",
+            "latin": "tu khune kâr mikonam.",
+            "translation": { "en": "I work from home. (spoken)", "sv": "Jag arbetar hemifrån. (talspråk)" }
+          },
+          {
+            "text": "کار نمی‌کنم.",
+            "latin": "kâr nemikonam.",
+            "translation": { "en": "I don't work.", "sv": "Jag arbetar inte." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "بیمارستان", "latin": "bimârestân", "translation": { "en": "the hospital", "sv": "sjukhuset" } },
+            { "text": "بازار", "latin": "bâzâr", "translation": { "en": "the market", "sv": "marknaden" } },
+            { "text": "فرودگاه", "latin": "forudgâh", "translation": { "en": "the airport", "sv": "flygplatsen" } },
+            { "text": "یک مغازه", "latin": "yek maghâze", "translation": { "en": "a shop", "sv": "en affär" } },
+            { "text": "استکهلم", "latin": "estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "what-time-do-you-get-up",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "What time do you get up?", "sv": "Hur dags går du upp?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "کاتژمێر چەند هەڵدەستیت؟",
+          "latin": "katjimêr çend hełdestît?",
+          "tokens": [
+            { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "هەڵدەستیت؟", "latin": "hełdestît?", "gloss": { "en": "do you get up", "sv": "går du upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "کاتژمێر حەوت هەڵدەستم.",
+            "latin": "katjimêr ḧewt hełdestim.",
+            "translation": { "en": "I get up at seven.", "sv": "Jag går upp klockan sju." },
+            "tokens": [
+              { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour" },
+              { "text": "حەوت", "latin": "ḧewt", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+              { "text": "هەڵدەستم.", "latin": "hełdestim.", "gloss": { "en": "I get up", "sv": "jag går upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "کاتژمێر {time} هەڵدەستم.",
+            "latin": "katjimêr {time} hełdestim.",
+            "translation": { "en": "I get up at {time}.", "sv": "Jag går upp klockan {time}." }
+          },
+          {
+            "text": "سەعات {time} هەڵدەستم.",
+            "latin": "se'at {time} hełdestim.",
+            "translation": { "en": "I get up at {time}.", "sv": "Jag går upp klockan {time}." }
+          }
+        ],
+        "slots": {
+          "time": [
+            { "text": "شەش", "latin": "şeş", "translation": { "en": "six", "sv": "sex" } },
+            { "text": "حەوت", "latin": "ḧewt", "translation": { "en": "seven", "sv": "sju" } },
+            { "text": "هەشت", "latin": "heşt", "translation": { "en": "eight", "sv": "åtta" } },
+            { "text": "نۆ", "latin": "no", "translation": { "en": "nine", "sv": "nio" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ساعت چند بیدار می‌شوید؟",
+          "latin": "sâ'at-e chand bidâr mishavid?",
+          "tokens": [
+            { "text": "ساعت", "latin": "sâ'at-e", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour", "morph": "hour-EZ" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+            { "text": "می‌شوید؟", "latin": "mishavid?", "gloss": { "en": "do you become", "sv": "blir ni" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ساعت هفت بیدار می‌شوم.",
+            "latin": "sâ'at-e haft bidâr mishavam.",
+            "translation": { "en": "I get up at seven.", "sv": "Jag går upp klockan sju." },
+            "tokens": [
+              { "text": "ساعت", "latin": "sâ'at-e", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour", "morph": "hour-EZ" },
+              { "text": "هفت", "latin": "haft", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+              { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+              { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become", "sv": "jag blir" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "ساعت {time} بیدار می‌شوم.",
+            "latin": "sâ'at-e {time} bidâr mishavam.",
+            "translation": { "en": "I get up at {time}.", "sv": "Jag går upp klockan {time}." }
+          },
+          {
+            "text": "ساعت {time} بیدار می‌شم.",
+            "latin": "sâ'at-e {time} bidâr misham.",
+            "translation": { "en": "I get up at {time}. (spoken)", "sv": "Jag går upp klockan {time}. (talspråk)" }
+          }
+        ],
+        "slots": {
+          "time": [
+            { "text": "شش", "latin": "shesh", "translation": { "en": "six", "sv": "sex" } },
+            { "text": "هفت", "latin": "haft", "translation": { "en": "seven", "sv": "sju" } },
+            { "text": "هشت", "latin": "hasht", "translation": { "en": "eight", "sv": "åtta" } },
+            { "text": "نه", "latin": "noh", "translation": { "en": "nine", "sv": "nio" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-get-up-early",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "Do you get up early?", "sv": "Går du upp tidigt?" },
+      "ckb": {
+        "question": {
+          "text": "زوو هەڵدەستیت؟",
+          "latin": "zû hełdestît?",
+          "tokens": [
+            { "text": "زوو", "latin": "zû", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+            { "text": "هەڵدەستیت؟", "latin": "hełdestît?", "gloss": { "en": "do you get up", "sv": "går du upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، هەمیشە زوو هەڵدەستم.",
+            "latin": "bełê, hemîşe zû hełdestim.",
+            "translation": { "en": "Yes, I always get up early.", "sv": "Ja, jag går alltid upp tidigt." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "هەمیشە", "latin": "hemîşe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+              { "text": "زوو", "latin": "zû", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+              { "text": "هەڵدەستم.", "latin": "hełdestim.", "gloss": { "en": "I get up", "sv": "jag går upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "نەخێر، بەزۆری درەنگ هەڵدەستم.",
+            "latin": "nexêr, bezorî direng hełdestim.",
+            "translation": { "en": "No, I usually get up late.", "sv": "Nej, jag går oftast upp sent." }
+          },
+          {
+            "text": "هەندێک جار.",
+            "latin": "hendêk car.",
+            "translation": { "en": "Sometimes.", "sv": "Ibland." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "زود بیدار می‌شوید؟",
+          "latin": "zud bidâr mishavid?",
+          "tokens": [
+            { "text": "زود", "latin": "zud", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+            { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+            { "text": "می‌شوید؟", "latin": "mishavid?", "gloss": { "en": "do you become", "sv": "blir ni" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، همیشه زود بیدار می‌شوم.",
+            "latin": "bale, hamishe zud bidâr mishavam.",
+            "translation": { "en": "Yes, I always get up early.", "sv": "Ja, jag går alltid upp tidigt." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "همیشه", "latin": "hamishe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+              { "text": "زود", "latin": "zud", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+              { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+              { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become", "sv": "jag blir" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "نه، معمولاً دیر بیدار می‌شوم.",
+            "latin": "na, ma'mulan dir bidâr mishavam.",
+            "translation": { "en": "No, I usually get up late.", "sv": "Nej, jag går oftast upp sent." }
+          },
+          {
+            "text": "گاهی.",
+            "latin": "gâhi.",
+            "translation": { "en": "Sometimes.", "sv": "Ibland." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "house-or-apartment",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "Do you live in a house or an apartment?", "sv": "Bor du i hus eller lägenhet?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "لە خانوو دەژیت یان لە شوقە؟",
+          "latin": "le xanû dejît yan le şuqe?",
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "خانوو", "latin": "xanû", "gloss": { "en": "house", "sv": "hus" }, "concept": "house" },
+            { "text": "دەژیت", "latin": "dejît", "gloss": { "en": "you live", "sv": "du bor" }, "concept": "to-live", "morph": "DUR-live.PRS-2SG" },
+            { "text": "یان", "latin": "yan", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "شوقە؟", "latin": "şuqe?", "gloss": { "en": "apartment", "sv": "lägenhet" }, "concept": "apartment" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "لە شوقەیەک دەژیم.",
+            "latin": "le şuqeyek dejîm.",
+            "translation": { "en": "I live in an apartment.", "sv": "Jag bor i en lägenhet." },
+            "tokens": [
+              { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+              { "text": "شوقەیەک", "latin": "şuqeyek", "gloss": { "en": "an apartment", "sv": "en lägenhet" }, "concept": "apartment", "morph": "apartment-INDF" },
+              { "text": "دەژیم.", "latin": "dejîm.", "gloss": { "en": "I live", "sv": "jag bor" }, "concept": "to-live", "morph": "DUR-live.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "لە {home} دەژیم.",
+            "latin": "le {home} dejîm.",
+            "translation": { "en": "I live in {home}.", "sv": "Jag bor i {home}." }
+          },
+          {
+            "text": "لە شوقە.",
+            "latin": "le şuqe.",
+            "translation": { "en": "In an apartment.", "sv": "I lägenhet." }
+          }
+        ],
+        "slots": {
+          "home": [
+            { "text": "خانوویەک", "latin": "xanûyek", "translation": { "en": "a house", "sv": "ett hus" } },
+            { "text": "شوقەیەکی بچووک", "latin": "şuqeyekî biçûk", "translation": { "en": "a small apartment", "sv": "en liten lägenhet" } },
+            { "text": "گوندێک", "latin": "gundêk", "translation": { "en": "a village", "sv": "en by" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "question": {
+          "text": "در آپارتمان زندگی می‌کنید یا خانه‌ی ویلایی؟",
+          "latin": "dar âpârtemân zendegi mikonid yâ khâne-ye vilâyi?",
+          "tokens": [
+            { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "آپارتمان", "latin": "âpârtemân", "gloss": { "en": "apartment", "sv": "lägenhet" }, "concept": "apartment" },
+            { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+            { "text": "می‌کنید", "latin": "mikonid", "gloss": { "en": "you do", "sv": "ni gör" }, "concept": "to-live", "morph": "DUR-do.PRS-2PL" },
+            { "text": "یا", "latin": "yâ", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "خانه‌ی", "latin": "khâne-ye", "gloss": { "en": "house (of)", "sv": "hus (av)" }, "concept": "house", "morph": "house-EZ" },
+            { "text": "ویلایی؟", "latin": "vilâyi?", "gloss": { "en": "villa-type, detached", "sv": "villa-, fristående" } }
+          ]
+        },
+        "answers": [
+          {
+            "text": "در یک آپارتمان زندگی می‌کنم.",
+            "latin": "dar yek âpârtemân zendegi mikonam.",
+            "translation": { "en": "I live in an apartment.", "sv": "Jag bor i en lägenhet." },
+            "tokens": [
+              { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en, ett" }, "concept": "one" },
+              { "text": "آپارتمان", "latin": "âpârtemân", "gloss": { "en": "apartment", "sv": "lägenhet" }, "concept": "apartment" },
+              { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+              { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-live", "morph": "DUR-do.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "در {home} زندگی می‌کنم.",
+            "latin": "dar {home} zendegi mikonam.",
+            "translation": { "en": "I live in {home}.", "sv": "Jag bor i {home}." }
+          },
+          {
+            "text": "تو آپارتمان زندگی می‌کنم.",
+            "latin": "tu âpârtemân zendegi mikonam.",
+            "translation": { "en": "I live in an apartment. (spoken)", "sv": "Jag bor i lägenhet. (talspråk)" }
+          }
+        ],
+        "slots": {
+          "home": [
+            { "text": "یک خانه‌ی ویلایی", "latin": "yek khâne-ye vilâyi", "translation": { "en": "a house", "sv": "ett hus" } },
+            { "text": "یک آپارتمان کوچک", "latin": "yek âpârtemân-e kuchek", "translation": { "en": "a small apartment", "sv": "en liten lägenhet" } },
+            { "text": "یک روستا", "latin": "yek rustâ", "translation": { "en": "a village", "sv": "en by" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "how-many-rooms",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "How many rooms does your home have?", "sv": "Hur många rum har ditt hem?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "ماڵەکەت چەند ژووری هەیە؟",
+          "latin": "małeket çend jûrî heye?",
+          "tokens": [
+            { "text": "ماڵەکەت", "latin": "małeket", "gloss": { "en": "your home", "sv": "ditt hem" }, "concept": "house", "morph": "home-DEF-2SG" },
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "ژووری", "latin": "jûrî", "gloss": { "en": "room (of it)", "sv": "rum (till det)" }, "concept": "room", "morph": "room-3SG" },
+            { "text": "هەیە؟", "latin": "heye?", "gloss": { "en": "is there (= does it have)", "sv": "finns det (= har det)" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "سێ ژووری هەیە.",
+            "latin": "sê jûrî heye.",
+            "translation": { "en": "It has three rooms.", "sv": "Det har tre rum." },
+            "tokens": [
+              { "text": "سێ", "latin": "sê", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+              { "text": "ژووری", "latin": "jûrî", "gloss": { "en": "room (of it)", "sv": "rum (till det)" }, "concept": "room", "morph": "room-3SG" },
+              { "text": "هەیە.", "latin": "heye.", "gloss": { "en": "there is (= it has)", "sv": "det finns (= det har)" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "{count} ژووری هەیە.",
+            "latin": "{count} jûrî heye.",
+            "translation": { "en": "It has {count} rooms.", "sv": "Det har {count} rum." }
+          },
+          {
+            "text": "تەنها یەک ژووری هەیە.",
+            "latin": "tenha yek jûrî heye.",
+            "translation": { "en": "It only has one room.", "sv": "Det har bara ett rum." }
+          }
+        ],
+        "slots": {
+          "count": [
+            { "text": "دوو", "latin": "dû", "translation": { "en": "two", "sv": "två" } },
+            { "text": "سێ", "latin": "sê", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چوار", "latin": "çwar", "translation": { "en": "four", "sv": "fyra" } },
+            { "text": "پێنج", "latin": "pênc", "translation": { "en": "five", "sv": "fem" } }
+          ]
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§16" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خانه‌تان چند اتاق دارد؟",
+          "latin": "khâne-tân chand otâgh dârad?",
+          "tokens": [
+            { "text": "خانه‌تان", "latin": "khâne-tân", "gloss": { "en": "your home", "sv": "ert hem" }, "concept": "house", "morph": "home-2PL" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "اتاق", "latin": "otâgh", "gloss": { "en": "room", "sv": "rum" }, "concept": "room" },
+            { "text": "دارد؟", "latin": "dârad?", "gloss": { "en": "does it have", "sv": "har det" }, "concept": "to-have", "morph": "have.PRS-3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "سه اتاق دارد.",
+            "latin": "se otâgh dârad.",
+            "translation": { "en": "It has three rooms.", "sv": "Det har tre rum." },
+            "tokens": [
+              { "text": "سه", "latin": "se", "gloss": { "en": "three", "sv": "tre" }, "concept": "three" },
+              { "text": "اتاق", "latin": "otâgh", "gloss": { "en": "room", "sv": "rum" }, "concept": "room" },
+              { "text": "دارد.", "latin": "dârad.", "gloss": { "en": "it has", "sv": "det har" }, "concept": "to-have", "morph": "have.PRS-3SG" }
+            ]
+          },
+          {
+            "text": "{count} اتاق دارد.",
+            "latin": "{count} otâgh dârad.",
+            "translation": { "en": "It has {count} rooms.", "sv": "Det har {count} rum." }
+          },
+          {
+            "text": "{count} تا اتاق داره.",
+            "latin": "{count} tâ otâgh dâre.",
+            "translation": { "en": "It has {count} rooms. (spoken)", "sv": "Det har {count} rum. (talspråk)" }
+          },
+          {
+            "text": "فقط یک اتاق دارد.",
+            "latin": "faghat yek otâgh dârad.",
+            "translation": { "en": "It only has one room.", "sv": "Det har bara ett rum." }
+          }
+        ],
+        "slots": {
+          "count": [
+            { "text": "دو", "latin": "do", "translation": { "en": "two", "sv": "två" } },
+            { "text": "سه", "latin": "se", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چهار", "latin": "chahâr", "translation": { "en": "four", "sv": "fyra" } },
+            { "text": "پنج", "latin": "panj", "translation": { "en": "five", "sv": "fem" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-is-the-key",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "Where is the key?", "sv": "Var är nyckeln?" },
+      "ckb": {
+        "question": {
+          "text": "کلیلەکە لە کوێیە؟",
+          "latin": "kilîleke le kwêye?",
+          "tokens": [
+            { "text": "کلیلەکە", "latin": "kilîleke", "gloss": { "en": "the key", "sv": "nyckeln" }, "concept": "key", "morph": "key-DEF" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "لەسەر مێزەکەیە.",
+            "latin": "leser mêzekeye.",
+            "translation": { "en": "It's on the table.", "sv": "Den ligger på bordet." },
+            "tokens": [
+              { "text": "لەسەر", "latin": "leser", "gloss": { "en": "on", "sv": "på" } },
+              { "text": "مێزەکەیە.", "latin": "mêzekeye.", "gloss": { "en": "the table, is", "sv": "bordet, är" }, "concept": "table", "morph": "table-DEF-COP.3SG" }
+            ]
+          },
+          {
+            "text": "لە مەتبەخەکەدایە.",
+            "latin": "le metbexekedaye.",
+            "translation": { "en": "It's in the kitchen.", "sv": "Den är i köket." }
+          },
+          {
+            "text": "نازانم.",
+            "latin": "nazanim.",
+            "translation": { "en": "I don't know.", "sv": "Jag vet inte." }
+          }
+        ],
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§14" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کلید کجاست؟",
+          "latin": "kelid kojâst?",
+          "tokens": [
+            { "text": "کلید", "latin": "kelid", "gloss": { "en": "the key", "sv": "nyckeln" }, "concept": "key" },
+            { "text": "کجاست؟", "latin": "kojâst?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "روی میز است.",
+            "latin": "ru-ye miz ast.",
+            "translation": { "en": "It's on the table.", "sv": "Den ligger på bordet." },
+            "tokens": [
+              { "text": "روی", "latin": "ru-ye", "gloss": { "en": "on (top of)", "sv": "på (ovanpå)" }, "morph": "face-EZ" },
+              { "text": "میز", "latin": "miz", "gloss": { "en": "table", "sv": "bord" }, "concept": "table" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          {
+            "text": "رو میزه.",
+            "latin": "ru mize.",
+            "translation": { "en": "It's on the table. (spoken)", "sv": "Den ligger på bordet. (talspråk)" }
+          },
+          {
+            "text": "در آشپزخانه است.",
+            "latin": "dar âshpazkhâne ast.",
+            "translation": { "en": "It's in the kitchen.", "sv": "Den är i köket." }
+          },
+          {
+            "text": "نمی‌دانم.",
+            "latin": "nemidânam.",
+            "translation": { "en": "I don't know.", "sv": "Jag vet inte." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-work-or-study",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "Do you work or study?", "sv": "Arbetar eller studerar du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "کار دەکەیت یان دەخوێنیت؟",
+          "latin": "kar dekeyt yan dexwênît?",
+          "tokens": [
+            { "text": "کار", "latin": "kar", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+            { "text": "دەکەیت", "latin": "dekeyt", "gloss": { "en": "you do", "sv": "du gör" }, "concept": "to-work", "morph": "DUR-do.PRS-2SG" },
+            { "text": "یان", "latin": "yan", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "دەخوێنیت؟", "latin": "dexwênît?", "gloss": { "en": "do you study", "sv": "studerar du" }, "concept": "to-study", "morph": "DUR-study.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "دەخوێنم.",
+            "latin": "dexwênim.",
+            "translation": { "en": "I study.", "sv": "Jag studerar." },
+            "tokens": [
+              { "text": "دەخوێنم.", "latin": "dexwênim.", "gloss": { "en": "I study", "sv": "jag studerar" }, "concept": "to-study", "morph": "DUR-study.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "لە {place} کار دەکەم.",
+            "latin": "le {place} kar dekem.",
+            "translation": { "en": "I work at {place}.", "sv": "Jag arbetar på {place}." }
+          },
+          {
+            "text": "دەخوێنم و کاریش دەکەم.",
+            "latin": "dexwênim û karîş dekem.",
+            "translation": { "en": "I study, and I work too.", "sv": "Jag studerar, och jag arbetar också." }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "قوتابخانە", "latin": "qutabxane", "translation": { "en": "a school", "sv": "en skola" } },
+            { "text": "نەخۆشخانە", "latin": "nexoşxane", "translation": { "en": "a hospital", "sv": "ett sjukhus" } },
+            { "text": "دوکانێک", "latin": "dukanêk", "translation": { "en": "a shop", "sv": "en affär" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کار می‌کنید یا درس می‌خوانید؟",
+          "latin": "kâr mikonid yâ dars mikhânid?",
+          "tokens": [
+            { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+            { "text": "می‌کنید", "latin": "mikonid", "gloss": { "en": "you do", "sv": "ni gör" }, "concept": "to-work", "morph": "DUR-do.PRS-2PL" },
+            { "text": "یا", "latin": "yâ", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "درس", "latin": "dars", "gloss": { "en": "lesson", "sv": "lektion" }, "concept": "to-study" },
+            { "text": "می‌خوانید؟", "latin": "mikhânid?", "gloss": { "en": "do you read", "sv": "läser ni" }, "concept": "to-study", "morph": "DUR-read.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "درس می‌خوانم.",
+            "latin": "dars mikhânam.",
+            "translation": { "en": "I study.", "sv": "Jag studerar." },
+            "tokens": [
+              { "text": "درس", "latin": "dars", "gloss": { "en": "lesson", "sv": "lektion" }, "concept": "to-study" },
+              { "text": "می‌خوانم.", "latin": "mikhânam.", "gloss": { "en": "I read", "sv": "jag läser" }, "concept": "to-study", "morph": "DUR-read.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "در {place} کار می‌کنم.",
+            "latin": "dar {place} kâr mikonam.",
+            "translation": { "en": "I work at {place}.", "sv": "Jag arbetar på {place}." }
+          },
+          {
+            "text": "هم کار می‌کنم، هم درس می‌خوانم.",
+            "latin": "ham kâr mikonam, ham dars mikhânam.",
+            "translation": { "en": "I both work and study.", "sv": "Jag både arbetar och studerar." }
+          },
+          {
+            "text": "درس می‌خونم.",
+            "latin": "dars mikhunam.",
+            "translation": { "en": "I study. (spoken)", "sv": "Jag studerar. (talspråk)" }
+          }
+        ],
+        "slots": {
+          "place": [
+            { "text": "مدرسه", "latin": "madrese", "translation": { "en": "a school", "sv": "en skola" } },
+            { "text": "بیمارستان", "latin": "bimârestân", "translation": { "en": "a hospital", "sv": "ett sjukhus" } },
+            { "text": "یک مغازه", "latin": "yek maghâze", "translation": { "en": "a shop", "sv": "en affär" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-time-do-you-go-to-bed",
+      "unit": "home-daily",
+      "level": "A1",
+      "question": { "en": "What time do you go to bed?", "sv": "Hur dags lägger du dig?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "کاتژمێر چەند دەخەویت؟",
+          "latin": "katjimêr çend dexewît?",
+          "tokens": [
+            { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "دەخەویت؟", "latin": "dexewît?", "gloss": { "en": "do you sleep", "sv": "sover du" }, "concept": "to-sleep", "morph": "DUR-sleep.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "کاتژمێر یانزە دەخەوم.",
+            "latin": "katjimêr yanze dexewim.",
+            "translation": { "en": "I go to bed at eleven.", "sv": "Jag lägger mig klockan elva." },
+            "tokens": [
+              { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour" },
+              { "text": "یانزە", "latin": "yanze", "gloss": { "en": "eleven", "sv": "elva" }, "concept": "eleven" },
+              { "text": "دەخەوم.", "latin": "dexewim.", "gloss": { "en": "I sleep", "sv": "jag sover" }, "concept": "to-sleep", "morph": "DUR-sleep.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "کاتژمێر {time} دەخەوم.",
+            "latin": "katjimêr {time} dexewim.",
+            "translation": { "en": "I go to bed at {time}.", "sv": "Jag lägger mig klockan {time}." }
+          },
+          {
+            "text": "بەزۆری درەنگ دەخەوم.",
+            "latin": "bezorî direng dexewim.",
+            "translation": { "en": "I usually go to bed late.", "sv": "Jag lägger mig oftast sent." }
+          }
+        ],
+        "slots": {
+          "time": [
+            { "text": "نۆ", "latin": "no", "translation": { "en": "nine", "sv": "nio" } },
+            { "text": "دە", "latin": "de", "translation": { "en": "ten", "sv": "tio" } },
+            { "text": "یانزە", "latin": "yanze", "translation": { "en": "eleven", "sv": "elva" } },
+            { "text": "دوانزە", "latin": "dwanze", "translation": { "en": "twelve", "sv": "tolv" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ساعت چند می‌خوابید؟",
+          "latin": "sâ'at-e chand mikhâbid?",
+          "tokens": [
+            { "text": "ساعت", "latin": "sâ'at-e", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour", "morph": "hour-EZ" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "می‌خوابید؟", "latin": "mikhâbid?", "gloss": { "en": "do you sleep", "sv": "sover ni" }, "concept": "to-sleep", "morph": "DUR-sleep.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ساعت یازده می‌خوابم.",
+            "latin": "sâ'at-e yâzdah mikhâbam.",
+            "translation": { "en": "I go to bed at eleven.", "sv": "Jag lägger mig klockan elva." },
+            "tokens": [
+              { "text": "ساعت", "latin": "sâ'at-e", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour", "morph": "hour-EZ" },
+              { "text": "یازده", "latin": "yâzdah", "gloss": { "en": "eleven", "sv": "elva" }, "concept": "eleven" },
+              { "text": "می‌خوابم.", "latin": "mikhâbam.", "gloss": { "en": "I sleep", "sv": "jag sover" }, "concept": "to-sleep", "morph": "DUR-sleep.PRS-1SG" }
+            ]
+          },
+          {
+            "text": "ساعت {time} می‌خوابم.",
+            "latin": "sâ'at-e {time} mikhâbam.",
+            "translation": { "en": "I go to bed at {time}.", "sv": "Jag lägger mig klockan {time}." }
+          },
+          {
+            "text": "معمولاً دیر می‌خوابم.",
+            "latin": "ma'mulan dir mikhâbam.",
+            "translation": { "en": "I usually go to bed late.", "sv": "Jag lägger mig oftast sent." }
+          }
+        ],
+        "slots": {
+          "time": [
+            { "text": "نه", "latin": "noh", "translation": { "en": "nine", "sv": "nio" } },
+            { "text": "ده", "latin": "dah", "translation": { "en": "ten", "sv": "tio" } },
+            { "text": "یازده", "latin": "yâzdah", "translation": { "en": "eleven", "sv": "elva" } },
+            { "text": "دوازده", "latin": "davâzdah", "translation": { "en": "twelve", "sv": "tolv" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

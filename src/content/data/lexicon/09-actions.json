@@ -1,0 +1,672 @@
+{
+  "concepts": [
+    {
+      "id": "to-do",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🛠️",
+      "gloss": { "en": "to do", "sv": "att göra", "enAlt": ["to make", "do", "make"], "svAlt": ["göra"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کردن", "latin": "kirdin" },
+        "presentStem": { "script": "کە", "latin": "ke" },
+        "pastStem": { "script": "کرد", "latin": "kird" },
+        "notes": {
+          "en": "The busiest verb in Kurdish: it builds compounds like قسە کردن \"to speak\" and یاری کردن \"to play\". It is transitive, so the past is ergative: چیت کرد؟ \"what did you do?\".",
+          "sv": "Kurdiskans flitigaste verb: det bygger sammansättningar som قسە کردن \"att prata\" och یاری کردن \"att leka\". Det är transitivt, så preteritum är ergativt: چیت کرد؟ \"vad gjorde du?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to do" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "primary": { "script": "کردن", "latin": "kardan" },
+        "presentStem": { "script": "کن", "latin": "kon" },
+        "pastStem": { "script": "کرد", "latin": "kard" },
+        "notes": {
+          "en": "Builds hundreds of compound verbs: صحبت کردن \"to speak\", کمک کردن \"to help\". \"What are you doing?\" is چه کار می‌کنی؟, in speech چی کار می‌کنی؟ (chi kâr mikoni?).",
+          "sv": "Bygger hundratals sammansatta verb: صحبت کردن \"att prata\", کمک کردن \"att hjälpa\". \"Vad gör du?\" heter چه کار می‌کنی؟, i tal چی کار می‌کنی؟ (chi kâr mikoni?)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-see",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "👀",
+      "gloss": { "en": "to see", "sv": "att se", "enAlt": ["see"], "svAlt": ["se"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بینین", "latin": "bînîn" },
+        "variants": [
+          {
+            "script": "دیتن",
+            "latin": "dîtin",
+            "note": { "en": "also used, especially outside Sulaymaniyah", "sv": "används också, särskilt utanför Sulaymaniyya" }
+          }
+        ],
+        "presentStem": { "script": "بین", "latin": "bîn" },
+        "pastStem": { "script": "بینی", "latin": "bînî" },
+        "notes": {
+          "en": "دەبینم (debînim) \"I see\". Transitive, so the past is ergative: تۆم بینی (tom bînî) \"I saw you\", with the \"I\" glued to تۆ.",
+          "sv": "دەبینم (debînim) \"jag ser\". Transitivt, så preteritum är ergativt: تۆم بینی (tom bînî) \"jag såg dig\", med \"jag\" fastsatt på تۆ."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§27.2 (dîtin, present stem bîn)" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دیدن", "latin": "didan" },
+        "presentStem": { "script": "بین", "latin": "bin" },
+        "pastStem": { "script": "دید", "latin": "did" },
+        "notes": {
+          "en": "The present stem looks nothing like the infinitive, so learn both: می‌بینم (mibinam) \"I see\", دیدم (didam) \"I saw\". Sorani uses the same stem: دەبینم.",
+          "sv": "Presensstammen liknar inte infinitiven alls, så lär dig båda: می‌بینم (mibinam) \"jag ser\", دیدم (didam) \"jag såg\". Soranin har samma stam: دەبینم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to see" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-hear",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "👂",
+      "gloss": { "en": "to hear", "sv": "att höra", "enAlt": ["hear"], "svAlt": ["höra"] },
+      "ckb": {
+        "primary": { "script": "بیستن", "latin": "bîstin" },
+        "presentStem": { "script": "بیست", "latin": "bîst" },
+        "pastStem": { "script": "بیست", "latin": "bîst" },
+        "notes": {
+          "en": "In speech \"I heard\" is usually گوێم لێ بوو (gwêm lê bû), literally \"my ear was on it\". \"To listen\" is گوێ لێ گرتن (gwê lê girtin), \"to hold the ear to\".",
+          "sv": "I tal heter \"jag hörde\" oftast گوێم لێ بوو (gwêm lê bû), ordagrant \"mitt öra var på det\". \"Att lyssna\" heter گوێ لێ گرتن (gwê lê girtin), \"att hålla örat mot\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to hear" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شنیدن", "latin": "shenidan" },
+        "presentStem": { "script": "شنو", "latin": "shenav" },
+        "pastStem": { "script": "شنید", "latin": "shenid" },
+        "notes": {
+          "en": "می‌شنوم (mishenavam) \"I hear\", شنیدم (shenidam) \"I heard\". \"To listen\" is گوش دادن (gush dâdan), literally \"to give ear\".",
+          "sv": "می‌شنوم (mishenavam) \"jag hör\", شنیدم (shenidam) \"jag hörde\". \"Att lyssna\" heter گوش دادن (gush dâdan), ordagrant \"att ge öra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "شنیدن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-know",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🧠",
+      "gloss": { "en": "to know", "sv": "att veta", "enAlt": ["know"], "svAlt": ["veta", "kunna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "زانین", "latin": "zanîn" },
+        "presentStem": { "script": "زان", "latin": "zan" },
+        "pastStem": { "script": "زانی", "latin": "zanî" },
+        "notes": {
+          "en": "Like Swedish \"veta\": facts and skills. For knowing a person, Swedish \"känna\", use ناسین (nasîn): دەیناسم \"I know him\". نازانم (nazanim) \"I don't know\" is one of the most useful words there is.",
+          "sv": "Som svenskans \"veta\": fakta och färdigheter. För att känna en person används ناسین (nasîn): دەیناسم \"jag känner honom\". نازانم (nazanim) \"jag vet inte\" är ett av de nyttigaste orden som finns."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to know" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دانستن", "latin": "dânestan" },
+        "presentStem": { "script": "دان", "latin": "dân" },
+        "pastStem": { "script": "دانست", "latin": "dânest" },
+        "notes": {
+          "en": "Like Swedish \"veta\". For people, Swedish \"känna\", use شناختن (shenâkhtan): او را می‌شناسم \"I know him\". In speech می‌دانم becomes می‌دونم (midunam), and \"I don't know\" is نمی‌دونم (nemidunam).",
+          "sv": "Som svenskans \"veta\". För personer, \"känna\", används شناختن (shenâkhtan): او را می‌شناسم \"jag känner honom\". I tal blir می‌دانم می‌دونم (midunam), och \"jag vet inte\" heter نمی‌دونم (nemidunam)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to know" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-understand",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "💡",
+      "gloss": { "en": "to understand", "sv": "att förstå", "enAlt": ["understand"], "svAlt": ["förstå"] },
+      "ckb": {
+        "primary": { "script": "تێگەیشتن", "latin": "têgeyştin" },
+        "presentStem": { "script": "تێگە", "latin": "têge" },
+        "pastStem": { "script": "تێگەیشت", "latin": "têgeyşt" },
+        "notes": {
+          "en": "The prefix تێ- splits off: تێدەگەم (têdegem) \"I understand\", تێناگەم (tênagem) \"I don't understand\". It is intransitive (literally \"to reach into\"), so the past has normal endings: تێگەیشتم \"I understood\".",
+          "sv": "Förstavelsen تێ- delas av: تێدەگەم (têdegem) \"jag förstår\", تێناگەم (tênagem) \"jag förstår inte\". Verbet är intransitivt (ordagrant \"att nå in i\"), så preteritum får vanliga ändelser: تێگەیشتم \"jag förstod\"."
+        },
+        "sources": [
+          { "source": "wiktionary", "ref": "to understand" },
+          { "source": "tatoeba" },
+          { "source": "kim-kurdish-grammar", "ref": "Past tense: intransitive verbs" }
+        ]
+      },
+      "fa": {
+        "primary": { "script": "فهمیدن", "latin": "fahmidan" },
+        "presentStem": { "script": "فهم", "latin": "fahm" },
+        "pastStem": { "script": "فهمید", "latin": "fahmid" },
+        "notes": {
+          "en": "فهمیدم! (fahmidam) \"got it!\". نمی‌فهمم can sound blunt; متوجه نمی‌شوم (motavajjeh nemishavam) \"I don't follow\" is more polite.",
+          "sv": "فهمیدم! (fahmidam) \"jag fattar!\". نمی‌فهمم kan låta burdust; متوجه نمی‌شوم (motavajjeh nemishavam) \"jag hänger inte med\" är artigare."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "فهمیدن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-say",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "💬",
+      "gloss": { "en": "to say", "sv": "att säga", "enAlt": ["to tell", "say", "tell"], "svAlt": ["säga"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "وتن", "latin": "witin" },
+        "variants": [{ "script": "گوتن", "latin": "gutin" }],
+        "presentStem": { "script": "ڵێ", "latin": "łê" },
+        "pastStem": { "script": "وت", "latin": "wit" },
+        "notes": {
+          "en": "The present stem is completely different: دەڵێم (dełêm) \"I say\", بڵێ (biłê) \"say!\". The past is ergative: وتم (witim) \"I said\". گوتن (gutin) is the same verb and just as standard.",
+          "sv": "Presensstammen är helt annorlunda: دەڵێم (dełêm) \"jag säger\", بڵێ (biłê) \"säg!\". Preteritum är ergativt: وتم (witim) \"jag sa\". گوتن (gutin) är samma verb och lika korrekt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to say" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گفتن", "latin": "goftan" },
+        "presentStem": { "script": "گو", "latin": "gu" },
+        "pastStem": { "script": "گفت", "latin": "goft" },
+        "notes": {
+          "en": "می‌گویم (miguyam) \"I say\" is می‌گم (migam) in speech. گفتم (goftam) \"I said\". The same verb as Sorani گوتن.",
+          "sv": "می‌گویم (miguyam) \"jag säger\" blir می‌گم (migam) i tal. گفتم (goftam) \"jag sa\". Samma verb som soranins گوتن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to say" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-read",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "📖",
+      "gloss": { "en": "to read", "sv": "att läsa", "enAlt": ["read"], "svAlt": ["läsa"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خوێندنەوە", "latin": "xwêndinewe" },
+        "presentStem": { "script": "خوێن", "latin": "xwên" },
+        "pastStem": { "script": "خوێند", "latin": "xwênd" },
+        "notes": {
+          "en": "Reading a text takes the ending -ewe: کتێب دەخوێنمەوە (kitêb dexwênimewe) \"I read a book\". Plain خوێندن (xwêndin) means \"to study\" or \"to recite, sing\".",
+          "sv": "Att läsa en text får ändelsen -ewe: کتێب دەخوێنمەوە (kitêb dexwênimewe) \"jag läser en bok\". Enbart خوێندن (xwêndin) betyder \"att studera\" eller \"att recitera, sjunga\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to read" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خواندن", "latin": "khândan" },
+        "presentStem": { "script": "خوان", "latin": "khân" },
+        "pastStem": { "script": "خواند", "latin": "khând" },
+        "notes": {
+          "en": "The و is silent: khândan. Also \"to study\" (درس خواندن) and \"to sing\". In speech می‌خوانم becomes می‌خونم (mikhunam). The same verb as Sorani خوێندن.",
+          "sv": "و är stumt: khândan. Betyder också \"att plugga\" (درس خواندن) och \"att sjunga\". I tal blir می‌خوانم می‌خونم (mikhunam). Samma verb som soranins خوێندن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to read" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-write",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "✍️",
+      "gloss": { "en": "to write", "sv": "att skriva", "enAlt": ["write"], "svAlt": ["skriva"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نووسین", "latin": "nûsîn" },
+        "presentStem": { "script": "نووس", "latin": "nûs" },
+        "pastStem": { "script": "نووسی", "latin": "nûsî" },
+        "notes": {
+          "en": "دەنووسم (denûsim) \"I write\". Ergative in the past: ناوم نووسی \"I wrote my name\". A writer is نووسەر (nûser).",
+          "sv": "دەنووسم (denûsim) \"jag skriver\". Ergativt i preteritum: ناوم نووسی \"jag skrev mitt namn\". En författare är نووسەر (nûser)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to write" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نوشتن", "latin": "neveshtan" },
+        "presentStem": { "script": "نویس", "latin": "nevis" },
+        "pastStem": { "script": "نوشت", "latin": "nevesht" },
+        "notes": {
+          "en": "Present stem نویس: می‌نویسم (minevisam) \"I write\", نوشتم (neveshtam) \"I wrote\". The same verb as Sorani نووسین.",
+          "sv": "Presensstam نویس: می‌نویسم (minevisam) \"jag skriver\", نوشتم (neveshtam) \"jag skrev\". Samma verb som soranins نووسین."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to write" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-buy",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🛒",
+      "gloss": { "en": "to buy", "sv": "att köpa", "enAlt": ["buy"], "svAlt": ["köpa"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کڕین", "latin": "kiřîn" },
+        "presentStem": { "script": "کڕ", "latin": "kiř" },
+        "pastStem": { "script": "کڕی", "latin": "kiřî" },
+        "notes": {
+          "en": "دەکڕم (dekiřim) \"I buy\", دەیکڕم \"I'll buy it\". The past is ergative: ئەمەم کڕی (ememim kiřî) \"I bought this\".",
+          "sv": "دەکڕم (dekiřim) \"jag köper\", دەیکڕم \"jag köper den\". Preteritum är ergativt: ئەمەم کڕی (ememim kiřî) \"jag köpte den här\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to buy" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خریدن", "latin": "kharidan" },
+        "presentStem": { "script": "خر", "latin": "khar" },
+        "pastStem": { "script": "خرید", "latin": "kharid" },
+        "notes": {
+          "en": "می‌خرم (mikharam) \"I buy\", خریدم (kharidam) \"I bought\". خرید (kharid) is also a noun, \"shopping\": خرید می‌کنم \"I'm shopping\".",
+          "sv": "می‌خرم (mikharam) \"jag köper\", خریدم (kharidam) \"jag köpte\". خرید (kharid) är också ett substantiv, \"shopping\": خرید می‌کنم \"jag handlar\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خریدن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-give",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🎁",
+      "gloss": { "en": "to give", "sv": "att ge", "enAlt": ["give"], "svAlt": ["ge", "giva"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دان", "latin": "dan" },
+        "presentStem": { "script": "دە", "latin": "de" },
+        "pastStem": { "script": "دا", "latin": "da" },
+        "notes": {
+          "en": "دەدەم (dedem) \"I give\", پێم بدە (pêm bide) \"give me\". It builds compounds: یارمەتی دان \"to help\" is literally \"to give help\".",
+          "sv": "دەدەم (dedem) \"jag ger\", پێم بدە (pêm bide) \"ge mig\". Verbet bygger sammansättningar: یارمەتی دان \"att hjälpa\" är ordagrant \"att ge hjälp\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to give" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دادن", "latin": "dâdan" },
+        "presentStem": { "script": "ده", "latin": "deh" },
+        "pastStem": { "script": "داد", "latin": "dâd" },
+        "notes": {
+          "en": "Present stem ده: می‌دهم (midaham) \"I give\", in speech می‌دم (midam). It builds compounds like گوش دادن \"to listen\", literally \"to give ear\".",
+          "sv": "Presensstam ده: می‌دهم (midaham) \"jag ger\", i tal می‌دم (midam). Verbet bygger sammansättningar som گوش دادن \"att lyssna\", ordagrant \"att ge öra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to give" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-take",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "✋",
+      "gloss": { "en": "to take", "sv": "att ta", "enAlt": ["take", "to get"], "svAlt": ["ta", "få tag i"] },
+      "senseNote": { "en": "take hold of, get", "sv": "ta, få tag i" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گرتن", "latin": "girtin" },
+        "presentStem": { "script": "گر", "latin": "gir" },
+        "pastStem": { "script": "گرت", "latin": "girt" },
+        "notes": {
+          "en": "Also \"to hold, to catch\": بیگرە! (bîgre) \"take it!\". To take something somewhere is بردن (birdin), the same word as in Persian.",
+          "sv": "Betyder också \"att hålla, att fånga\": بیگرە! (bîgre) \"ta den!\". Att ta något någonstans heter بردن (birdin), samma ord som på persiska."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گرتن" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گرفتن", "latin": "gereftan" },
+        "presentStem": { "script": "گیر", "latin": "gir" },
+        "pastStem": { "script": "گرفت", "latin": "gereft" },
+        "notes": {
+          "en": "Present stem گیر: بگیر! (begir) \"take it!\". Also \"to get, to catch\": تاکسی می‌گیرم \"I'll take a taxi\". To take somewhere is بردن (bordan).",
+          "sv": "Presensstam گیر: بگیر! (begir) \"ta den!\". Betyder också \"att få, att fånga\": تاکسی می‌گیرم \"jag tar en taxi\". Att ta någonstans heter بردن (bordan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گرفتن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-open",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🔓",
+      "gloss": { "en": "to open", "sv": "att öppna", "enAlt": ["open"], "svAlt": ["öppna"] },
+      "ckb": {
+        "primary": { "script": "کردنەوە", "latin": "kirdinewe" },
+        "presentStem": { "script": "کە", "latin": "ke" },
+        "pastStem": { "script": "کرد", "latin": "kird" },
+        "notes": {
+          "en": "کردن \"to do\" + -ewe \"back, open\": دەرگاکە دەکەمەوە \"I open the door\", دەرگاکەم کردەوە \"I opened the door\". \"Don't open!\" is مەکەرەوە.",
+          "sv": "کردن \"att göra\" + -ewe \"tillbaka, upp\": دەرگاکە دەکەمەوە \"jag öppnar dörren\", دەرگاکەم کردەوە \"jag öppnade dörren\". \"Öppna inte!\" heter مەکەرەوە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to open" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "باز کردن", "latin": "bâz kardan" },
+        "presentStem": { "script": "باز کن", "latin": "bâz kon" },
+        "pastStem": { "script": "باز کرد", "latin": "bâz kard" },
+        "notes": {
+          "en": "Literally \"to make open\": باز (open) + کردن. \"Open the door, please\" is لطفاً در را باز کنید, in speech درو باز کن (daro bâz kon).",
+          "sv": "Ordagrant \"att göra öppen\": باز (öppen) + کردن. \"Öppna dörren, tack\" heter لطفاً در را باز کنید, i tal درو باز کن (daro bâz kon)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "باز کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-close",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🔒",
+      "gloss": { "en": "to close", "sv": "att stänga", "enAlt": ["to shut", "close", "shut"], "svAlt": ["stänga"] },
+      "ckb": {
+        "primary": { "script": "داخستن", "latin": "daxistin" },
+        "presentStem": { "script": "داخە", "latin": "daxe" },
+        "pastStem": { "script": "داخست", "latin": "daxist" },
+        "notes": {
+          "en": "The prefix دا- splits off: دادەخەم (dadexem) \"I close\", دابخە! (dabixe) \"close it!\". Past: پەنجەرەکەم داخست \"I closed the window\".",
+          "sv": "Förstavelsen دا- delas av: دادەخەم (dadexem) \"jag stänger\", دابخە! (dabixe) \"stäng!\". Preteritum: پەنجەرەکەم داخست \"jag stängde fönstret\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to close" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بستن", "latin": "bastan" },
+        "presentStem": { "script": "بند", "latin": "band" },
+        "pastStem": { "script": "بست", "latin": "bast" },
+        "notes": {
+          "en": "Present stem بند: ببند! (beband) \"close it!\". Also \"to tie\". A closed shop is بسته (baste).",
+          "sv": "Presensstam بند: ببند! (beband) \"stäng!\". Betyder också \"att knyta\". En stängd affär är بسته (baste)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to close" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-sit",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🪑",
+      "gloss": { "en": "to sit", "sv": "att sitta", "enAlt": ["to sit down", "sit"], "svAlt": ["sätta sig", "sitta"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دانیشتن", "latin": "danîştin" },
+        "presentStem": { "script": "دانیش", "latin": "danîş" },
+        "pastStem": { "script": "دانیشت", "latin": "danîşt" },
+        "notes": {
+          "en": "Intransitive, so the past has normal endings: دانیشتم \"I sat down\". To a guest you say فەرموو دانیشە (fermû danîşe) \"please, sit down\".",
+          "sv": "Intransitivt, så preteritum får vanliga ändelser: دانیشتم \"jag satte mig\". Till en gäst säger man فەرموو دانیشە (fermû danîşe) \"var så god och sitt\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Past tense: intransitive verbs" }]
+      },
+      "fa": {
+        "primary": { "script": "نشستن", "latin": "neshastan" },
+        "presentStem": { "script": "نشین", "latin": "neshin" },
+        "pastStem": { "script": "نشست", "latin": "neshast" },
+        "notes": {
+          "en": "The polite invitation is بفرمایید بنشینید (befarmâyid beneshinid), in speech بفرما بشین (befarmâ beshin). Related to Sorani دانیشتن.",
+          "sv": "Den artiga inbjudan är بفرمایید بنشینید (befarmâyid beneshinid), i tal بفرما بشین (befarmâ beshin). Släkt med soranins دانیشتن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "نشستن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-wait",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "⏳",
+      "gloss": { "en": "to wait", "sv": "att vänta", "enAlt": ["wait"], "svAlt": ["vänta"] },
+      "ckb": {
+        "primary": { "script": "چاوەڕێ کردن", "latin": "çaweřê kirdin" },
+        "presentStem": { "script": "چاوەڕێ کە", "latin": "çaweřê ke" },
+        "pastStem": { "script": "چاوەڕێ کرد", "latin": "çaweřê kird" },
+        "notes": {
+          "en": "Built on چاو \"eye\" and ڕێ \"road\": eyes on the road. \"Wait!\" is چاوەڕێ بکە! or چاوەڕێ بە!, and \"I'm waiting for you\" is چاوەڕێت دەکەم.",
+          "sv": "Bildat av چاو \"öga\" och ڕێ \"väg\": blicken mot vägen. \"Vänta!\" heter چاوەڕێ بکە! eller چاوەڕێ بە!, och \"jag väntar på dig\" heter چاوەڕێت دەکەم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to wait" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "صبر کردن", "latin": "sabr kardan" },
+        "presentStem": { "script": "صبر کن", "latin": "sabr kon" },
+        "pastStem": { "script": "صبر کرد", "latin": "sabr kard" },
+        "notes": {
+          "en": "صبر means \"patience\": صبر کنید! \"wait!\". \"I'm waiting for you\" uses منتظر (montazer) \"waiting\": منتظرت هستم, in speech منتظرتم (montazeretam).",
+          "sv": "صبر betyder \"tålamod\": صبر کنید! \"vänta!\". \"Jag väntar på dig\" uttrycks med منتظر (montazer) \"väntande\": منتظرت هستم, i tal منتظرتم (montazeretam)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "صبر کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-help",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🤝",
+      "gloss": { "en": "to help", "sv": "att hjälpa", "enAlt": ["help"], "svAlt": ["hjälpa"] },
+      "ckb": {
+        "primary": { "script": "یارمەتی دان", "latin": "yarmetî dan" },
+        "presentStem": { "script": "یارمەتی دە", "latin": "yarmetî de" },
+        "pastStem": { "script": "یارمەتی دا", "latin": "yarmetî da" },
+        "notes": {
+          "en": "Literally \"to give help\". The person helped goes on یارمەتی: یارمەتیم بدە! \"help me!\", یارمەتیت دەدەم \"I'll help you\".",
+          "sv": "Ordagrant \"att ge hjälp\". Den som får hjälp sätts på یارمەتی: یارمەتیم بدە! \"hjälp mig!\", یارمەتیت دەدەم \"jag hjälper dig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to help" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کمک کردن", "latin": "komak kardan" },
+        "presentStem": { "script": "کمک کن", "latin": "komak kon" },
+        "pastStem": { "script": "کمک کرد", "latin": "komak kard" },
+        "notes": {
+          "en": "The person helped takes به: به من کمک کنید \"help me\", in speech کمکم کن (komakam kon). کمک! alone is a cry for help.",
+          "sv": "Den som får hjälp får به: به من کمک کنید \"hjälp mig\", i tal کمکم کن (komakam kon). Bara کمک! är ett rop på hjälp."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to help" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-learn",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🎓",
+      "gloss": { "en": "to learn", "sv": "att lära sig", "enAlt": ["learn"], "svAlt": ["lära sig", "lära"] },
+      "ckb": {
+        "primary": { "script": "فێر بوون", "latin": "fêr bûn" },
+        "variants": [{ "script": "فێربوون", "latin": "fêrbûn" }],
+        "presentStem": { "script": "فێر ب", "latin": "fêr b" },
+        "pastStem": { "script": "فێر بوو", "latin": "fêr bû" },
+        "notes": {
+          "en": "Literally \"to become taught\": فێر + بوون \"to become\". کوردی فێر دەبم \"I'm learning Kurdish\". With کردن it means \"to teach\": کێ ئەمەم فێر دەکات؟ \"who will teach me this?\".",
+          "sv": "Ordagrant \"att bli lärd\": فێر + بوون \"att bli\". کوردی فێر دەبم \"jag lär mig kurdiska\". Med کردن betyder det \"att lära ut\": کێ ئەمەم فێر دەکات؟ \"vem lär mig det här?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to learn" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "یاد گرفتن", "latin": "yâd gereftan" },
+        "presentStem": { "script": "یاد گیر", "latin": "yâd gir" },
+        "pastStem": { "script": "یاد گرفت", "latin": "yâd gereft" },
+        "notes": {
+          "en": "Literally \"to take memory\": فارسی یاد می‌گیرم \"I'm learning Persian\". \"To teach\" is یاد دادن (yâd dâdan), \"to give memory\". Swedish does the same with \"lära sig\" and \"lära ut\".",
+          "sv": "Ordagrant \"att ta minne\": فارسی یاد می‌گیرم \"jag lär mig persiska\". \"Att lära ut\" heter یاد دادن (yâd dâdan), \"att ge minne\". Svenskan gör likadant med \"lära sig\" och \"lära ut\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to learn" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-like",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "❤️",
+      "gloss": { "en": "to like", "sv": "att tycka om", "enAlt": ["to love", "like", "love"], "svAlt": ["tycka om", "gilla", "älska"] },
+      "ckb": {
+        "primary": { "script": "حەز کردن", "latin": "ḧez kirdin" },
+        "presentStem": { "script": "حەز کە", "latin": "ḧez ke" },
+        "pastStem": { "script": "حەز کرد", "latin": "ḧez kird" },
+        "notes": {
+          "en": "What you like follows لە: حەز لە چا دەکەم \"I like tea\". Just as common: حەزم لە چایە (ḧezim le çaye), \"my liking is for tea\". To love a person: خۆشم دەوێیت (xoşim dewêyt) \"I love you\".",
+          "sv": "Det man tycker om kommer efter لە: حەز لە چا دەکەم \"jag tycker om te\". Lika vanligt: حەزم لە چایە (ḧezim le çaye), \"min förtjusning är i te\". Att älska en person: خۆشم دەوێیت (xoşim dewêyt) \"jag älskar dig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to like" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دوست داشتن", "latin": "dust dâshtan" },
+        "presentStem": { "script": "دوست دار", "latin": "dust dâr" },
+        "pastStem": { "script": "دوست داشت", "latin": "dust dâsht" },
+        "notes": {
+          "en": "Literally \"to have as a friend\": دوست (friend) + داشتن (to have). Like داشتن it takes no می‌: چای دوست دارم \"I like tea\", دوستت دارم \"I love you\".",
+          "sv": "Ordagrant \"att ha som vän\": دوست (vän) + داشتن (att ha). Precis som داشتن får det inget می‌: چای دوست دارم \"jag tycker om te\", دوستت دارم \"jag älskar dig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to love" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "can",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "💪",
+      "gloss": { "en": "can", "sv": "kunna", "enAlt": ["to be able to", "be able to", "could"], "svAlt": ["att kunna", "kan"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "توانین", "latin": "twanîn" },
+        "presentStem": { "script": "توان", "latin": "twan" },
+        "pastStem": { "script": "توانی", "latin": "twanî" },
+        "notes": {
+          "en": "Followed by a subjunctive verb: دەتوانم بچم (detwanim biçim) \"I can go\". \"I can't\" is ناتوانم (natwanim), and \"I couldn't\" is نەمتوانی (nemtwanî).",
+          "sv": "Följs av ett verb i konjunktiv: دەتوانم بچم (detwanim biçim) \"jag kan gå\". \"Jag kan inte\" heter ناتوانم (natwanim), och \"jag kunde inte\" heter نەمتوانی (nemtwanî)."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§21" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "توانستن", "latin": "tavânestan" },
+        "presentStem": { "script": "توان", "latin": "tavân" },
+        "pastStem": { "script": "توانست", "latin": "tavânest" },
+        "notes": {
+          "en": "Followed by a subjunctive: می‌توانم بروم \"I can go\", in speech می‌تونم برم (mitunam beram). For skills Persians often say بلدم (baladam) \"I know how\": فارسی بلدی؟ \"do you speak Persian?\".",
+          "sv": "Följs av konjunktiv: می‌توانم بروم \"jag kan gå\", i tal می‌تونم برم (mitunam beram). Om färdigheter säger man ofta بلدم (baladam) \"jag kan\": فارسی بلدی؟ \"kan du persiska?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "can" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-call",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "📞",
+      "gloss": { "en": "to call", "sv": "att ringa", "enAlt": ["to phone", "to ring", "call", "phone"], "svAlt": ["ringa", "ringa upp"] },
+      "senseNote": { "en": "on the phone", "sv": "i telefon" },
+      "ckb": {
+        "primary": { "script": "تەلەفۆن کردن", "latin": "telefon kirdin" },
+        "variants": [
+          {
+            "script": "پەیوەندی کردن",
+            "latin": "peywendî kirdin",
+            "register": "formal",
+            "note": { "en": "to contact", "sv": "att kontakta" }
+          }
+        ],
+        "presentStem": { "script": "تەلەفۆن کە", "latin": "telefon ke" },
+        "pastStem": { "script": "تەلەفۆن کرد", "latin": "telefon kird" },
+        "notes": {
+          "en": "The person you call takes بۆ \"for\": سبەی تەلەفۆنت بۆ دەکەم \"I'll call you tomorrow\". پەیوەندی کردن (peywendî kirdin) \"to contact\" is more formal.",
+          "sv": "Den man ringer får بۆ \"för\": سبەی تەلەفۆنت بۆ دەکەم \"jag ringer dig i morgon\". پەیوەندی کردن (peywendî kirdin) \"att kontakta\" är mer formellt."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "زنگ زدن", "latin": "zang zadan" },
+        "variants": [{ "script": "تلفن کردن", "latin": "telefon kardan" }],
+        "presentStem": { "script": "زنگ زن", "latin": "zang zan" },
+        "pastStem": { "script": "زنگ زد", "latin": "zang zad" },
+        "notes": {
+          "en": "Literally \"to strike the bell\". The person takes به: به تو زنگ می‌زنم \"I'll call you\", in speech بهت زنگ می‌زنم (behet zang mizanam).",
+          "sv": "Ordagrant \"att slå på klockan\". Den man ringer får به: به تو زنگ می‌زنم \"jag ringer dig\", i tal بهت زنگ می‌زنم (behet zang mizanam)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to call" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-play",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "⚽",
+      "gloss": { "en": "to play", "sv": "att leka", "enAlt": ["play"], "svAlt": ["leka", "spela"] },
+      "ckb": {
+        "primary": { "script": "یاری کردن", "latin": "yarî kirdin" },
+        "presentStem": { "script": "یاری کە", "latin": "yarî ke" },
+        "pastStem": { "script": "یاری کرد", "latin": "yarî kird" },
+        "notes": {
+          "en": "یاری is \"game, play\": منداڵەکان یاری دەکەن \"the children are playing\". Careful: in Persian یاری کردن means \"to help\".",
+          "sv": "یاری betyder \"lek, spel\": منداڵەکان یاری دەکەن \"barnen leker\". Se upp: på persiska betyder یاری کردن \"att hjälpa\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to play" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بازی کردن", "latin": "bâzi kardan" },
+        "presentStem": { "script": "بازی کن", "latin": "bâzi kon" },
+        "pastStem": { "script": "بازی کرد", "latin": "bâzi kard" },
+        "notes": {
+          "en": "بازی is \"game\": فوتبال بازی می‌کنم \"I play football\". Instruments are \"struck\" with زدن: گیتار می‌زنم \"I play the guitar\".",
+          "sv": "بازی betyder \"lek, spel\": فوتبال بازی می‌کنم \"jag spelar fotboll\". Instrument \"slår\" man med زدن: گیتار می‌زنم \"jag spelar gitarr\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to play" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-cook",
+      "unit": "actions",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🍳",
+      "gloss": { "en": "to cook", "sv": "att laga mat", "enAlt": ["cook"], "svAlt": ["laga mat", "laga"] },
+      "ckb": {
+        "primary": { "script": "چێشت لێنان", "latin": "çêşt lênan" },
+        "variants": [
+          {
+            "script": "خواردن دروست کردن",
+            "latin": "xwardin dirust kirdin",
+            "register": "colloquial",
+            "note": { "en": "to make food", "sv": "att laga mat" }
+          }
+        ],
+        "presentStem": { "script": "چێشت لێنێ", "latin": "çêşt lênê" },
+        "pastStem": { "script": "چێشت لێنا", "latin": "çêşt lêna" },
+        "notes": {
+          "en": "Literally \"to put food on (the fire)\". The prefix لێ- splits off: چێشت لێدەنێم (çêşt lêdenêm) \"I cook\". In speech people also say خواردن دروست دەکەم \"I make food\".",
+          "sv": "Ordagrant \"att sätta mat på (elden)\". Förstavelsen لێ- delas av: چێشت لێدەنێم (çêşt lêdenêm) \"jag lagar mat\". I tal säger man också خواردن دروست دەکەم \"jag lagar mat\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to cook" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آشپزی کردن", "latin": "âshpazi kardan" },
+        "variants": [
+          {
+            "script": "غذا درست کردن",
+            "latin": "ghazâ dorost kardan",
+            "register": "colloquial",
+            "note": { "en": "to make food", "sv": "att laga mat" }
+          },
+          { "script": "پختن", "latin": "pokhtan", "note": { "en": "to cook (a dish)", "sv": "att koka, tillaga (en rätt)" } }
+        ],
+        "presentStem": { "script": "آشپزی کن", "latin": "âshpazi kon" },
+        "pastStem": { "script": "آشپزی کرد", "latin": "âshpazi kard" },
+        "notes": {
+          "en": "From آشپز (âshpaz) \"cook\", literally \"soup-cooker\". For a dish people say غذا درست می‌کنم \"I'm making food\" or برنج می‌پزم \"I'm cooking rice\".",
+          "sv": "Från آشپز (âshpaz) \"kock\", ordagrant \"soppkokare\". Om en rätt säger man غذا درست می‌کنم \"jag lagar mat\" eller برنج می‌پزم \"jag kokar ris\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "آشپزی کردن" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

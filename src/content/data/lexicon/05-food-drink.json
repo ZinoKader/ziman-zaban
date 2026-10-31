@@ -1,0 +1,727 @@
+{
+  "concepts": [
+    {
+      "id": "food",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍲",
+      "gloss": { "en": "food", "sv": "mat", "enAlt": ["meal"], "svAlt": ["måltid"] },
+      "ckb": {
+        "primary": { "script": "خواردن", "latin": "xwardin" },
+        "variants": [
+          { "script": "چێشت", "latin": "çêşt", "note": { "en": "a cooked dish, a meal", "sv": "en lagad rätt, ett mål mat" } },
+          { "script": "خۆراک", "latin": "xorak", "register": "formal" }
+        ],
+        "notes": {
+          "en": "The same word as the verb \"to eat\": food is literally \"eating\". خواردنی کوردی \"Kurdish food\". A cooked dish or stew is چێشت (çêşt).",
+          "sv": "Samma ord som verbet \"att äta\": mat är ordagrant \"ätande\". خواردنی کوردی \"kurdisk mat\". En lagad rätt eller gryta heter چێشت (çêşt)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خواردن" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "غذا", "latin": "ghazâ" },
+        "notes": {
+          "en": "From Arabic; also \"meal\". غذای ایرانی (ghazâ-ye irâni) \"Iranian food\".",
+          "sv": "Från arabiskan; betyder också \"måltid\". غذای ایرانی (ghazâ-ye irâni) \"iransk mat\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "غذا" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "water",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "💧",
+      "gloss": { "en": "water", "sv": "vatten" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئاو", "latin": "aw" },
+        "notes": {
+          "en": "Also \"juice\": ئاوی سێو (awî sêw) \"apple juice\", literally \"apple water\". \"I want water\" is ئاوم دەوێت.",
+          "sv": "Betyder också \"juice\": ئاوی سێو (awî sêw) \"äppeljuice\", ordagrant \"äpplevatten\". \"Jag vill ha vatten\" heter ئاوم دەوێت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "water" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آب", "latin": "âb" },
+        "notes": {
+          "en": "Also \"juice\": آب سیب (âb-e sib) \"apple juice\". The same word as Sorani ئاو.",
+          "sv": "Betyder också \"juice\": آب سیب (âb-e sib) \"äppeljuice\". Samma ord som soranins ئاو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "water" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bread",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍞",
+      "gloss": { "en": "bread", "sv": "bröd" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نان", "latin": "nan" },
+        "notes": {
+          "en": "نان also means \"a meal\": نانی بەیانی \"breakfast\" is literally \"morning bread\", and نان خواردن \"to eat bread\" means to have a meal.",
+          "sv": "نان betyder också \"måltid\": نانی بەیانی \"frukost\" är ordagrant \"morgonbröd\", och نان خواردن \"äta bröd\" betyder att äta."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bread" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نان", "latin": "nân" },
+        "variants": [{ "script": "نون", "latin": "nun", "register": "colloquial" }],
+        "notes": {
+          "en": "In Tehran â turns into u before n: نون (nun). Fresh flatbread like سنگک (sangak) and لواش (lavâsh) comes with every meal.",
+          "sv": "I Teheran blir â till u före n: نون (nun). Färskt tunnbröd som سنگک (sangak) och لواش (lavâsh) hör till varje måltid."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bread" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tea",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍵",
+      "gloss": { "en": "tea", "sv": "te" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چا", "latin": "ça" },
+        "variants": [{ "script": "چای", "latin": "çay" }],
+        "notes": {
+          "en": "Also چای (çay). Strong sweet tea in small glasses goes with every visit. You \"drink\" it with خواردنەوە: چا دەخۆمەوە \"I drink tea\".",
+          "sv": "Också چای (çay). Starkt sött te i små glas hör till varje besök. Man \"dricker\" det med خواردنەوە: چا دەخۆمەوە \"jag dricker te\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tea" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چای", "latin": "chây" },
+        "variants": [{ "script": "چایی", "latin": "châyi", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech often چایی (châyi). Tea comes in small glasses (استکان estekân), often drunk through a sugar cube (قند ghand) held in the mouth.",
+          "sv": "I tal ofta چایی (châyi). Te serveras i små glas (استکان estekân) och dricks ofta genom en sockerbit (قند ghand) som man håller i munnen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tea" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "coffee",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "☕",
+      "gloss": { "en": "coffee", "sv": "kaffe" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "قاوە", "latin": "qawe" },
+        "notes": {
+          "en": "From Arabic qahwa, like Swedish \"kaffe\". قاوەیی (qaweyî) means \"brown\".",
+          "sv": "Från arabiskans qahwa, precis som \"kaffe\". قاوەیی (qaweyî) betyder \"brun\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "coffee" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قهوه", "latin": "ghahve" },
+        "notes": {
+          "en": "From Arabic qahwa, like Swedish \"kaffe\". قهوه‌ای (ghahve'i) means \"brown\", and a traditional قهوه‌خانه \"coffee house\" mostly serves tea!",
+          "sv": "Från arabiskans qahwa, precis som \"kaffe\". قهوه‌ای (ghahve'i) betyder \"brun\", och ett traditionellt قهوه‌خانه \"kaffehus\" serverar mest te!"
+        },
+        "sources": [{ "source": "wiktionary", "ref": "coffee" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "milk",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🥛",
+      "gloss": { "en": "milk", "sv": "mjölk" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شیر", "latin": "şîr" },
+        "notes": {
+          "en": "Don't mix it up with شێر (şêr) \"lion\": Sorani keeps the two apart with ی and ێ.",
+          "sv": "Blanda inte ihop det med شێر (şêr) \"lejon\": soranin skiljer dem åt med ی och ێ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "milk" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شیر", "latin": "shir" },
+        "notes": {
+          "en": "شیر also means \"lion\" and \"tap, faucet\"; the context tells you which.",
+          "sv": "شیر betyder också \"lejon\" och \"kran\"; sammanhanget avgör vilket."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "milk" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "rice",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍚",
+      "gloss": { "en": "rice", "sv": "ris" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "برنج", "latin": "birinc" },
+        "notes": {
+          "en": "Rice with a stew is the classic Kurdish lunch. The i in birinc is not written.",
+          "sv": "Ris med gryta är den klassiska kurdiska lunchen. I:et i birinc skrivs inte."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rice" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "برنج", "latin": "berenj" },
+        "notes": {
+          "en": "Plain cooked rice is چلو (chelow), rice cooked with other things is پلو (polow), and the prized crispy bottom is ته‌دیگ (tahdig).",
+          "sv": "Kokt vitt ris heter چلو (chelow), ris kokt med annat heter پلو (polow), och den älskade krispiga botten heter ته‌دیگ (tahdig)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rice" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "meat",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🥩",
+      "gloss": { "en": "meat", "sv": "kött" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گۆشت", "latin": "goşt" },
+        "notes": {
+          "en": "On its own it usually means lamb or beef; chicken is مریشک.",
+          "sv": "Ensamt betyder det oftast lamm- eller nötkött; kyckling heter مریشک."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "meat" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گوشت", "latin": "gusht" },
+        "notes": {
+          "en": "On its own it usually means red meat; chicken is مرغ. The same word as Sorani گۆشت.",
+          "sv": "Ensamt betyder det oftast rött kött; kyckling heter مرغ. Samma ord som soranins گۆشت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "meat" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "chicken",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍗",
+      "gloss": { "en": "chicken", "sv": "kyckling", "enAlt": ["hen"], "svAlt": ["höna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "مریشک", "latin": "mirîşk" },
+        "notes": {
+          "en": "Both the bird (a hen) and the food. The first i is not written.",
+          "sv": "Både fågeln (en höna) och maten. Det första i:et skrivs inte."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "chicken" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مرغ", "latin": "morgh" },
+        "notes": {
+          "en": "Both \"hen\" and the food; in poetry any \"bird\". Grilled chicken pieces are جوجه‌کباب (juje-kabâb).",
+          "sv": "Både \"höna\" och maten; i poesi vilken \"fågel\" som helst. Grillade kycklingbitar heter جوجه‌کباب (juje-kabâb)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "chicken" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "egg",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🥚",
+      "gloss": { "en": "egg", "sv": "ägg" },
+      "ckb": {
+        "primary": { "script": "هێلکە", "latin": "hêlke" },
+        "notes": {
+          "en": "\"Two eggs\" is دوو هێلکە: the noun stays singular after a number.",
+          "sv": "\"Två ägg\" heter دوو هێلکە: substantivet står i singular efter ett räkneord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "egg" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تخم‌مرغ", "latin": "tokhm-e-morgh" },
+        "variants": [{ "script": "تخم مرغ", "latin": "tokhm-e morgh" }],
+        "notes": {
+          "en": "Literally \"hen's egg\": تخم \"seed, egg\" + مرغ \"hen\". Also written as two words, تخم مرغ.",
+          "sv": "Ordagrant \"hönsägg\": تخم \"frö, ägg\" + مرغ \"höna\". Skrivs också som två ord, تخم مرغ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "egg" }]
+      }
+    },
+    {
+      "id": "fruit",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍎",
+      "gloss": { "en": "fruit", "sv": "frukt" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "میوە", "latin": "mîwe" },
+        "notes": { "en": "A bowl of fruit is set out for every guest, along with tea.", "sv": "En skål frukt ställs fram till varje gäst, tillsammans med te." },
+        "sources": [{ "source": "wiktionary", "ref": "fruit" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "میوه", "latin": "mive" },
+        "notes": {
+          "en": "Guests are always offered fruit. Saying no once is often just ta'arof (politeness), so the host will offer again.",
+          "sv": "Gäster bjuds alltid på frukt. Att tacka nej en gång är ofta bara ta'arof (artighet), så värden bjuder igen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fruit" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "apple",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍏",
+      "gloss": { "en": "apple", "sv": "äpple" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سێو", "latin": "sêw" },
+        "notes": {
+          "en": "The same word as Persian سیب. \"Apple juice\" is ئاوی سێو, literally \"apple water\".",
+          "sv": "Samma ord som persiskans سیب. \"Äppeljuice\" heter ئاوی سێو, ordagrant \"äpplevatten\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "apple" }]
+      },
+      "fa": {
+        "primary": { "script": "سیب", "latin": "sib" },
+        "notes": {
+          "en": "Iranians say سیب! when taking a photo, the way English speakers say \"cheese!\".",
+          "sv": "Iranier säger سیب! när de tar ett foto, som svenskar säger \"omelett!\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "apple" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cheese",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🧀",
+      "gloss": { "en": "cheese", "sv": "ost" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پەنیر", "latin": "penîr" },
+        "variants": [{ "script": "پەنێر", "latin": "penêr" }],
+        "notes": {
+          "en": "White cheese with bread and tea is a classic breakfast. Also written پەنێر (penêr).",
+          "sv": "Vit ost med bröd och te är en klassisk frukost. Skrivs också پەنێر (penêr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پەنیر" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پنیر", "latin": "panir" },
+        "notes": {
+          "en": "نان و پنیر (nân-o panir) \"bread and cheese\", often with walnuts and fresh herbs, is the classic Iranian breakfast.",
+          "sv": "نان و پنیر (nân-o panir) \"bröd och ost\", ofta med valnötter och färska örter, är den klassiska iranska frukosten."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cheese" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "yogurt",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "yogurt", "sv": "yoghurt", "enAlt": ["yoghurt"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ماست", "latin": "mast" },
+        "notes": {
+          "en": "Eaten with almost every meal. The salty yogurt drink is دۆ (do).",
+          "sv": "Äts till nästan varje måltid. Den salta yoghurtdrycken heter دۆ (do)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "yogurt" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ماست", "latin": "mâst" },
+        "notes": {
+          "en": "Eaten with almost every meal. The salty yogurt drink is دوغ (dugh), the same thing as Sorani دۆ.",
+          "sv": "Äts till nästan varje måltid. Den salta yoghurtdrycken heter دوغ (dugh), samma sak som soranins دۆ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ماست" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sugar",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍬",
+      "gloss": { "en": "sugar", "sv": "socker" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شەکر", "latin": "şekir" },
+        "notes": {
+          "en": "English \"sugar\" and Swedish \"socker\" come from the same word, via Arabic sukkar.",
+          "sv": "Svenskans \"socker\" och engelskans \"sugar\" kommer från samma ord, via arabiskans sukkar."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sugar" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شکر", "latin": "shekar" },
+        "variants": [{ "script": "قند", "latin": "ghand", "note": { "en": "sugar cubes, lump sugar", "sv": "sockerbitar" } }],
+        "notes": {
+          "en": "Granulated sugar. The sugar cubes served with tea are قند (ghand). Related to Swedish \"socker\".",
+          "sv": "Strösocker. Sockerbitarna som serveras till te heter قند (ghand). Släkt med svenskans \"socker\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sugar" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "salt",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🧂",
+      "gloss": { "en": "salt", "sv": "salt" },
+      "ckb": {
+        "primary": { "script": "خوێ", "latin": "xwê" },
+        "notes": { "en": "\"Salty\" is سوێر (swêr).", "sv": "\"Salt\" om smak heter سوێر (swêr)." },
+        "sources": [{ "source": "wiktionary", "ref": "salt" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نمک", "latin": "namak" },
+        "notes": {
+          "en": "نمک also means charm: بانمک (bânamak) \"with salt\" means cute or funny. نان و نمک \"bread and salt\" stands for hospitality.",
+          "sv": "نمک betyder också charm: بانمک (bânamak) \"med salt\" betyder söt eller rolig. نان و نمک \"bröd och salt\" står för gästfrihet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "salt" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "breakfast",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍳",
+      "gloss": { "en": "breakfast", "sv": "frukost" },
+      "ckb": {
+        "primary": { "script": "نانی بەیانی", "latin": "nanî beyanî" },
+        "notes": {
+          "en": "Literally \"morning bread\": نان \"bread, meal\" + ی (ezafe) + بەیانی \"morning\".",
+          "sv": "Ordagrant \"morgonbröd\": نان \"bröd, måltid\" + ی (ezafe) + بەیانی \"morgon\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "صبحانه", "latin": "sobhâne" },
+        "variants": [{ "script": "صبحونه", "latin": "sobhune", "register": "colloquial" }],
+        "notes": { "en": "Built on صبح \"morning\". In Tehran speech: صبحونه (sobhune).", "sv": "Bildat av صبح \"morgon\". I Teherantal: صبحونه (sobhune)." },
+        "sources": [{ "source": "wiktionary", "ref": "breakfast" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lunch",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🥗",
+      "gloss": { "en": "lunch", "sv": "lunch" },
+      "ckb": {
+        "primary": { "script": "نانی نیوەڕۆ", "latin": "nanî nîweřo" },
+        "variants": [{ "script": "فراوین", "latin": "firawîn" }],
+        "notes": {
+          "en": "Literally \"noon bread\"; نیوەڕۆ \"noon\" is نیو \"half\" + ڕۆ(ژ) \"day\". فراوین (firawîn) is another word for lunch.",
+          "sv": "Ordagrant \"middagsbröd\"; نیوەڕۆ \"mitt på dagen\" är نیو \"halv\" + ڕۆ(ژ) \"dag\". فراوین (firawîn) är ett annat ord för lunch."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lunch" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ناهار", "latin": "nâhâr" },
+        "variants": [{ "script": "نهار", "latin": "nahâr" }],
+        "notes": {
+          "en": "Lunch, around one or two o'clock, is the main hot meal of the day in Iran. Also written نهار (nahâr).",
+          "sv": "Lunchen, runt ett eller två, är dagens huvudmål med varm mat i Iran. Skrivs också نهار (nahâr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lunch" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dinner",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🍽️",
+      "gloss": { "en": "dinner", "sv": "middag", "enAlt": ["supper"], "svAlt": ["kvällsmat"] },
+      "ckb": {
+        "primary": { "script": "نانی ئێوارە", "latin": "nanî êware" },
+        "variants": [{ "script": "شێو", "latin": "şêw" }],
+        "notes": {
+          "en": "Literally \"evening bread\". شێو (şêw) is a shorter word for the evening meal.",
+          "sv": "Ordagrant \"kvällsbröd\". شێو (şêw) är ett kortare ord för kvällsmaten."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dinner" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شام", "latin": "shâm" },
+        "notes": {
+          "en": "Dinner is often late, around eight or nine. شام also means \"dusk\".",
+          "sv": "Middagen äts ofta sent, runt åtta eller nio. شام betyder också \"skymning\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dinner" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-eat",
+      "unit": "food-drink",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🍴",
+      "gloss": { "en": "to eat", "sv": "att äta", "enAlt": ["eat"], "svAlt": ["äta"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خواردن", "latin": "xwardin" },
+        "presentStem": { "script": "خۆ", "latin": "xo" },
+        "pastStem": { "script": "خوارد", "latin": "xward" },
+        "notes": {
+          "en": "دەخۆم (dexom) \"I eat\", ناخۆم (naxom) \"I don't eat\". Add -ewe and it means \"to drink\": دەخۆمەوە \"I drink\".",
+          "sv": "دەخۆم (dexom) \"jag äter\", ناخۆم (naxom) \"jag äter inte\". Lägg till -ewe så betyder det \"att dricka\": دەخۆمەوە \"jag dricker\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eat" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "primary": { "script": "خوردن", "latin": "khordan" },
+        "presentStem": { "script": "خور", "latin": "khor" },
+        "pastStem": { "script": "خورد", "latin": "khord" },
+        "notes": {
+          "en": "The و is silent: khordan. In everyday Persian it is also \"to drink\": آب می‌خورم \"I drink water\", چای می‌خوری؟ \"will you have tea?\".",
+          "sv": "و är stumt: khordan. I vardaglig persiska betyder det också \"att dricka\": آب می‌خورم \"jag dricker vatten\", چای می‌خوری؟ \"vill du ha te?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eat" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-drink",
+      "unit": "food-drink",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🥤",
+      "gloss": { "en": "to drink", "sv": "att dricka", "enAlt": ["drink"], "svAlt": ["dricka"] },
+      "ckb": {
+        "primary": { "script": "خواردنەوە", "latin": "xwardinewe" },
+        "presentStem": { "script": "خۆ", "latin": "xo" },
+        "pastStem": { "script": "خوارد", "latin": "xward" },
+        "notes": {
+          "en": "\"To eat\" + -ewe. The -ewe goes after the person ending: دەخۆمەوە (dexomewe) \"I drink\", ناخۆمەوە \"I don't drink\".",
+          "sv": "\"Att äta\" + -ewe. -ewe kommer efter personändelsen: دەخۆمەوە (dexomewe) \"jag dricker\", ناخۆمەوە \"jag dricker inte\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "drink" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§18" }]
+      },
+      "fa": {
+        "primary": { "script": "نوشیدن", "latin": "nushidan" },
+        "variants": [
+          {
+            "script": "خوردن",
+            "latin": "khordan",
+            "register": "colloquial",
+            "note": { "en": "everyday: آب می‌خورم \"I drink water\"", "sv": "vardagligt: آب می‌خورم \"jag dricker vatten\"" }
+          }
+        ],
+        "presentStem": { "script": "نوش", "latin": "nush" },
+        "pastStem": { "script": "نوشید", "latin": "nushid" },
+        "notes": {
+          "en": "The written, polite word; نوشیدنی (nushidani) is \"a drink\". In speech people use خوردن \"eat\" for drinks too: آب می‌خورم.",
+          "sv": "Det skriftliga, artiga ordet; نوشیدنی (nushidani) är \"en dryck\". I tal använder man خوردن \"äta\" även om drycker: آب می‌خورم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "drink" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-want",
+      "unit": "food-drink",
+      "pos": "verb",
+      "level": "A1",
+      "gloss": { "en": "to want", "sv": "att vilja", "enAlt": ["want", "would like"], "svAlt": ["vilja", "vilja ha"] },
+      "ckb": {
+        "primary": { "script": "ویستن", "latin": "wîstin" },
+        "presentStem": { "script": "وێ", "latin": "wê" },
+        "pastStem": { "script": "ویست", "latin": "wîst" },
+        "notes": {
+          "en": "Built like \"have\": the person is a clitic on the thing wanted, ئاوم دەوێت (awim dewêt) \"I want water\", literally \"water-my is wanted\". In speech the -t drops: دەوێ.",
+          "sv": "Byggs som \"ha\": personen är en klitika på det man vill ha, ئاوم دەوێت (awim dewêt) \"jag vill ha vatten\", ordagrant \"vatten-mitt önskas\". I tal faller -t bort: دەوێ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "want" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§20" }]
+      },
+      "fa": {
+        "primary": { "script": "خواستن", "latin": "khâstan" },
+        "presentStem": { "script": "خواه", "latin": "khâh" },
+        "pastStem": { "script": "خواست", "latin": "khâst" },
+        "notes": {
+          "en": "The و is silent. می‌خواهم (mikhâham) \"I want\" is می‌خوام (mikhâm) in speech; a following verb goes in the subjunctive: می‌خوام بخورم \"I want to eat\".",
+          "sv": "و är stumt. می‌خواهم (mikhâham) \"jag vill\" blir می‌خوام (mikhâm) i tal; ett verb efter står i konjunktiv: می‌خوام بخورم \"jag vill äta\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "want" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hungry",
+      "unit": "food-drink",
+      "pos": "adjective",
+      "level": "A1",
+      "gloss": { "en": "hungry", "sv": "hungrig" },
+      "ckb": {
+        "primary": { "script": "برسی", "latin": "birsî" },
+        "notes": {
+          "en": "Say it like \"have\", with the \"my\" clitic: برسیمە (birsîme) \"I'm hungry\", برسیتە؟ \"are you hungry?\", برسیم نییە \"I'm not hungry\".",
+          "sv": "Säg det som \"ha\", med klitikan för \"min\": برسیمە (birsîme) \"jag är hungrig\", برسیتە؟ \"är du hungrig?\", برسیم نییە \"jag är inte hungrig\"."
+        },
+        "sources": [
+          { "source": "wiktionary", "ref": "hungry" },
+          { "source": "tatoeba" },
+          { "source": "kim-kurdish-grammar", "ref": "Irregular verbs like هەبوون" }
+        ]
+      },
+      "fa": {
+        "primary": { "script": "گرسنه", "latin": "gorosne" },
+        "variants": [{ "script": "گشنه", "latin": "goshne", "register": "colloquial" }],
+        "notes": {
+          "en": "گرسنه‌ام (gorosne-am) \"I'm hungry\". In speech the word is گشنه (goshne): گشنمه (goshname) \"I'm hungry\".",
+          "sv": "گرسنه‌ام (gorosne-am) \"jag är hungrig\". I tal blir ordet گشنه (goshne): گشنمه (goshname) \"jag är hungrig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hungry" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thirsty",
+      "unit": "food-drink",
+      "pos": "adjective",
+      "level": "A1",
+      "gloss": { "en": "thirsty", "sv": "törstig" },
+      "ckb": {
+        "primary": { "script": "تینوو", "latin": "tînû" },
+        "notes": {
+          "en": "Works like برسی \"hungry\": تینوومە (tînûme) \"I'm thirsty\", تینووتە؟ \"are you thirsty?\".",
+          "sv": "Fungerar som برسی \"hungrig\": تینوومە (tînûme) \"jag är törstig\", تینووتە؟ \"är du törstig?\"."
+        },
+        "sources": [
+          { "source": "wiktionary", "ref": "thirsty" },
+          { "source": "tatoeba" },
+          { "source": "kim-kurdish-grammar", "ref": "Irregular verbs like هەبوون" }
+        ]
+      },
+      "fa": {
+        "primary": { "script": "تشنه", "latin": "teshne" },
+        "notes": {
+          "en": "تشنه‌ام (teshne-am) \"I'm thirsty\", in speech تشنمه (teshname).",
+          "sv": "تشنه‌ام (teshne-am) \"jag är törstig\", i tal تشنمه (teshname)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thirsty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "delicious",
+      "unit": "food-drink",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "😋",
+      "gloss": { "en": "delicious", "sv": "god", "enAlt": ["tasty"], "svAlt": ["gott", "läcker", "smaskig"] },
+      "ckb": {
+        "primary": { "script": "بەتام", "latin": "betam" },
+        "variants": [{ "script": "بەلەزەت", "latin": "belezet" }],
+        "notes": {
+          "en": "Literally \"with taste\": بە \"with\" + تام \"taste\". Thank the cook with دەستت خۆش بێت (destit xoş bêt) \"bless your hand\".",
+          "sv": "Ordagrant \"med smak\": بە \"med\" + تام \"smak\". Tacka den som lagat maten med دەستت خۆش بێت (destit xoş bêt) \"välsignad vare din hand\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "delicious" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خوشمزه", "latin": "khoshmaze" },
+        "variants": [{ "script": "خوش‌مزه", "latin": "khoshmaze" }],
+        "notes": {
+          "en": "Literally \"good-taste\": خوش + مزه \"taste\". Thank the cook with دستت درد نکنه (dastet dard nakone) \"may your hand not hurt\".",
+          "sv": "Ordagrant \"god smak\": خوش + مزه \"smak\". Tacka den som lagat maten med دستت درد نکنه (dastet dard nakone) \"må din hand inte värka\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خوشمزه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "more",
+      "unit": "food-drink",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "➕",
+      "gloss": { "en": "more", "sv": "mer", "svAlt": ["mera"] },
+      "ckb": {
+        "primary": { "script": "زیاتر", "latin": "zyatir" },
+        "notes": {
+          "en": "زیاد \"much\" + تر \"-er\". زیاترت دەوێت؟ \"do you want more?\". \"Another one\" is یەکێکی تر.",
+          "sv": "زیاد \"mycket\" + تر \"-are\". زیاترت دەوێت؟ \"vill du ha mer?\". \"En till\" heter یەکێکی تر."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "بیشتر", "latin": "bishtar" },
+        "notes": {
+          "en": "بیش \"much\" + تر \"-er\". A host offers again and again; refusing once is often just ta'arof, so say no clearly if you mean it.",
+          "sv": "بیش \"mycket\" + تر \"-are\". En värd bjuder om och om igen; att tacka nej en gång är ofta bara ta'arof, så säg nej tydligt om du menar det."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "more" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "enough",
+      "unit": "food-drink",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "✋",
+      "gloss": { "en": "enough", "sv": "nog", "svAlt": ["tillräckligt", "det räcker"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بەس", "latin": "bes" },
+        "notes": {
+          "en": "بەسە (bese) \"that's enough\": بەسە، سوپاس \"that's enough, thanks\". The same word as Persian بس.",
+          "sv": "بەسە (bese) \"det räcker\": بەسە، سوپاس \"det räcker, tack\". Samma ord som persiskans بس."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "enough" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بس", "latin": "bas" },
+        "variants": [
+          { "script": "بسه", "latin": "basse", "register": "colloquial" },
+          { "script": "کافی", "latin": "kâfi", "note": { "en": "\"sufficient\"", "sv": "\"tillräcklig\"" } }
+        ],
+        "notes": {
+          "en": "بس است (bas ast) \"it's enough\", in speech بسه (basse). کافی (kâfi) \"sufficient\" is the neutral word: کافیه، ممنون \"that's enough, thanks\".",
+          "sv": "بس است (bas ast) \"det räcker\", i tal بسه (basse). کافی (kâfi) \"tillräcklig\" är det neutrala ordet: کافیه، ممنون \"det räcker, tack\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "بس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "glass",
+      "unit": "food-drink",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "glass", "sv": "glas" },
+      "senseNote": { "en": "for drinking", "sv": "att dricka ur" },
+      "ckb": {
+        "primary": { "script": "پەرداخ", "latin": "perdax" },
+        "notes": {
+          "en": "\"A glass of water\" is پەرداخێک ئاو (perdaxêk aw): no word for \"of\" is needed.",
+          "sv": "\"Ett glas vatten\" heter پەرداخێک ئاو (perdaxêk aw): inget ord för \"av\" behövs."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "glass" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "لیوان", "latin": "livân" },
+        "notes": {
+          "en": "\"A glass of water\" is یک لیوان آب (yek livân âb). The small glass for tea is استکان (estekân).",
+          "sv": "\"Ett glas vatten\" heter یک لیوان آب (yek livân âb). Det lilla teglaset heter استکان (estekân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "glass" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

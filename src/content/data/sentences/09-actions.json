@@ -1,0 +1,969 @@
+{
+  "sentences": [
+    {
+      "id": "yesterday-i-went-to-the-market",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "Yesterday I went to the market.", "sv": "I går gick jag till marknaden." },
+      "ckb": {
+        "text": "دوێنێ چوومە بازاڕ.",
+        "latin": "dwênê çûme bazař.",
+        "tokens": [
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          {
+            "text": "چوومە",
+            "latin": "çûme",
+            "gloss": { "en": "I went to", "sv": "jag gick till" },
+            "concept": "to-go",
+            "morph": "go.PST-1SG-to"
+          },
+          { "text": "بازاڕ.", "latin": "bazař.", "gloss": { "en": "market", "sv": "marknaden" }, "concept": "market" }
+        ],
+        "alternatives": [{ "text": "دوێنێ چووم بۆ بازاڕ.", "latin": "dwênê çûm bo bazař." }],
+        "distractors": [
+          { "text": "چوویت", "latin": "çûyt", "gloss": { "en": "you went", "sv": "du gick" }, "morph": "go.PST-2SG" },
+          { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" } }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§25" }]
+      },
+      "fa": {
+        "text": "دیروز به بازار رفتم.",
+        "latin": "diruz be bâzâr raftam.",
+        "tokens": [
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+          { "text": "بازار", "latin": "bâzâr", "gloss": { "en": "market", "sv": "marknaden" }, "concept": "market" },
+          { "text": "رفتم.", "latin": "raftam.", "gloss": { "en": "I went", "sv": "jag gick" }, "concept": "to-go", "morph": "go.PST-1SG" }
+        ],
+        "colloquial": { "text": "دیروز رفتم بازار.", "latin": "diruz raftam bâzâr." },
+        "distractors": [
+          { "text": "رفتی.", "latin": "rafti.", "gloss": { "en": "you went", "sv": "du gick" }, "morph": "go.PST-2SG" },
+          { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" } }
+        ],
+        "grammar": ["fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-ate-bread",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I ate bread.", "sv": "Jag åt bröd." },
+      "ckb": {
+        "text": "نانم خوارد.",
+        "latin": "nanim xward.",
+        "tokens": [
+          {
+            "text": "نانم",
+            "latin": "nanim",
+            "gloss": { "en": "bread + I (did it)", "sv": "bröd + jag (gjorde det)" },
+            "concept": "bread",
+            "morph": "bread-1SG.AGT"
+          },
+          { "text": "خوارد.", "latin": "xward.", "gloss": { "en": "ate", "sv": "åt" }, "concept": "to-eat", "morph": "eat.PST" }
+        ],
+        "alternatives": [{ "text": "من نانم خوارد.", "latin": "min nanim xward." }],
+        "distractors": [
+          {
+            "text": "نانت",
+            "latin": "nanit",
+            "gloss": { "en": "bread + you (did it)", "sv": "bröd + du (gjorde det)" },
+            "morph": "bread-2SG.AGT"
+          },
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [
+          { "source": "tatoeba" },
+          { "source": "thackston-sorani-grammar", "ref": "§27" },
+          { "source": "kim-kurdish-grammar", "ref": "Past tense" }
+        ]
+      },
+      "fa": {
+        "text": "نان خوردم.",
+        "latin": "nân khordam.",
+        "tokens": [
+          { "text": "نان", "latin": "nân", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+          { "text": "خوردم.", "latin": "khordam.", "gloss": { "en": "I ate", "sv": "jag åt" }, "concept": "to-eat", "morph": "eat.PST-1SG" }
+        ],
+        "colloquial": { "text": "نون خوردم.", "latin": "nun khordam." },
+        "alternatives": [{ "text": "من نان خوردم.", "latin": "man nân khordam." }],
+        "distractors": [
+          { "text": "خوردی.", "latin": "khordi.", "gloss": { "en": "you ate", "sv": "du åt" }, "morph": "eat.PST-2SG" },
+          { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "I eat", "sv": "jag äter" }, "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "grammar": ["fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-worked-yesterday",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I worked yesterday.", "sv": "Jag jobbade i går." },
+      "ckb": {
+        "text": "دوێنێ کارم کرد.",
+        "latin": "dwênê karim kird.",
+        "tokens": [
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          {
+            "text": "کارم",
+            "latin": "karim",
+            "gloss": { "en": "work + I (did it)", "sv": "arbete + jag (gjorde det)" },
+            "concept": "to-work",
+            "morph": "work-1SG.AGT"
+          },
+          { "text": "کرد.", "latin": "kird.", "gloss": { "en": "did", "sv": "gjorde" }, "concept": "to-work", "morph": "do.PST" }
+        ],
+        "distractors": [
+          {
+            "text": "کارت",
+            "latin": "karit",
+            "gloss": { "en": "work + you (did it)", "sv": "arbete + du (gjorde det)" },
+            "morph": "work-2SG.AGT"
+          },
+          { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do", "sv": "jag gör" }, "morph": "DUR-do.PRS-1SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "دیروز کار کردم.",
+        "latin": "diruz kâr kardam.",
+        "tokens": [
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+          {
+            "text": "کردم.",
+            "latin": "kardam.",
+            "gloss": { "en": "I did", "sv": "jag gjorde" },
+            "concept": "to-work",
+            "morph": "do.PST-1SG"
+          }
+        ],
+        "distractors": [
+          { "text": "کردیم.", "latin": "kardim.", "gloss": { "en": "we did", "sv": "vi gjorde" }, "morph": "do.PST-1PL" },
+          { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "morph": "DUR-do.PRS-1SG" }
+        ],
+        "grammar": ["fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-saw-sara-yesterday",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I saw Sara yesterday.", "sv": "Jag såg Sara i går." },
+      "ckb": {
+        "text": "دوێنێ سارام بینی.",
+        "latin": "dwênê Saram bînî.",
+        "tokens": [
+          { "text": "دوێنێ", "latin": "dwênê", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          {
+            "text": "سارام",
+            "latin": "Saram",
+            "gloss": { "en": "Sara + I (did it)", "sv": "Sara + jag (gjorde det)" },
+            "morph": "Sara-1SG.AGT"
+          },
+          { "text": "بینی.", "latin": "bînî.", "gloss": { "en": "saw", "sv": "såg" }, "concept": "to-see", "morph": "see.PST" }
+        ],
+        "alternatives": [{ "text": "دوێنێ سارام دیت.", "latin": "dwênê Saram dît." }],
+        "distractors": [
+          {
+            "text": "سارات",
+            "latin": "Sarat",
+            "gloss": { "en": "Sara + you (did it)", "sv": "Sara + du (gjorde det)" },
+            "morph": "Sara-2SG.AGT"
+          },
+          { "text": "دەبینم.", "latin": "debînim.", "gloss": { "en": "I see", "sv": "jag ser" }, "morph": "DUR-see.PRS-1SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "دیروز سارا را دیدم.",
+        "latin": "diruz Sârâ râ didam.",
+        "tokens": [
+          { "text": "دیروز", "latin": "diruz", "gloss": { "en": "yesterday", "sv": "i går" }, "concept": "yesterday" },
+          { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+          { "text": "را", "latin": "râ", "gloss": { "en": "(marks the object)", "sv": "(markerar objektet)" }, "morph": "OBJ" },
+          { "text": "دیدم.", "latin": "didam.", "gloss": { "en": "I saw", "sv": "jag såg" }, "concept": "to-see", "morph": "see.PST-1SG" }
+        ],
+        "colloquial": { "text": "دیروز سارا رو دیدم.", "latin": "diruz Sârâ ro didam." },
+        "distractors": [
+          { "text": "دیدی.", "latin": "didi.", "gloss": { "en": "you saw", "sv": "du såg" }, "morph": "see.PST-2SG" },
+          { "text": "می‌بینم.", "latin": "mibinam.", "gloss": { "en": "I see", "sv": "jag ser" }, "morph": "DUR-see.PRS-1SG" }
+        ],
+        "grammar": ["fa-past-tense", "fa-object-ra"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-bought-a-new-book",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I bought a new book.", "sv": "Jag köpte en ny bok." },
+      "ckb": {
+        "text": "کتێبێکی نوێم کڕی.",
+        "latin": "kitêbêkî nwêm kiřî.",
+        "tokens": [
+          {
+            "text": "کتێبێکی",
+            "latin": "kitêbêkî",
+            "gloss": { "en": "a book (that is)", "sv": "en bok (som är)" },
+            "concept": "book",
+            "morph": "book-INDF-EZ"
+          },
+          {
+            "text": "نوێم",
+            "latin": "nwêm",
+            "gloss": { "en": "new + I (did it)", "sv": "ny + jag (gjorde det)" },
+            "concept": "new",
+            "morph": "new-1SG.AGT"
+          },
+          { "text": "کڕی.", "latin": "kiřî.", "gloss": { "en": "bought", "sv": "köpte" }, "concept": "to-buy", "morph": "buy.PST" }
+        ],
+        "distractors": [
+          {
+            "text": "کتێبێک",
+            "latin": "kitêbêk",
+            "gloss": { "en": "a book (no ezafe)", "sv": "en bok (utan ezafe)" },
+            "morph": "book-INDF"
+          },
+          { "text": "دەکڕم.", "latin": "dekiřim.", "gloss": { "en": "I buy", "sv": "jag köper" }, "morph": "DUR-buy.PRS-1SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity", "ckb-adjectives"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "یک کتاب جدید خریدم.",
+        "latin": "yek ketâb-e jadid kharidam.",
+        "tokens": [
+          { "text": "یک", "latin": "yek", "gloss": { "en": "a (one)", "sv": "en" } },
+          {
+            "text": "کتاب",
+            "latin": "ketâb-e",
+            "gloss": { "en": "book (that is)", "sv": "bok (som är)" },
+            "concept": "book",
+            "morph": "book-EZ"
+          },
+          { "text": "جدید", "latin": "jadid", "gloss": { "en": "new", "sv": "ny" }, "concept": "new" },
+          {
+            "text": "خریدم.",
+            "latin": "kharidam.",
+            "gloss": { "en": "I bought", "sv": "jag köpte" },
+            "concept": "to-buy",
+            "morph": "buy.PST-1SG"
+          }
+        ],
+        "colloquial": { "text": "یه کتاب جدید خریدم.", "latin": "ye ketâb-e jadid kharidam." },
+        "alternatives": [{ "text": "کتاب جدیدی خریدم.", "latin": "ketâb-e jadidi kharidam." }],
+        "distractors": [
+          { "text": "خریدی.", "latin": "kharidi.", "gloss": { "en": "you bought", "sv": "du köpte" }, "morph": "buy.PST-2SG" },
+          { "text": "می‌خرم.", "latin": "mikharam.", "gloss": { "en": "I buy", "sv": "jag köper" }, "morph": "DUR-buy.PRS-1SG" }
+        ],
+        "grammar": ["fa-past-tense", "fa-adjectives-ezafe"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-did-you-say",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "What did you say?", "sv": "Vad sa du?" },
+      "ckb": {
+        "text": "چیت گوت؟",
+        "latin": "çît gut?",
+        "tokens": [
+          {
+            "text": "چیت",
+            "latin": "çît",
+            "gloss": { "en": "what + you (did it)", "sv": "vad + du (gjorde det)" },
+            "concept": "what",
+            "morph": "what-2SG.AGT"
+          },
+          { "text": "گوت؟", "latin": "gut?", "gloss": { "en": "said", "sv": "sa" }, "concept": "to-say", "morph": "say.PST" }
+        ],
+        "alternatives": [{ "text": "چیت وت؟", "latin": "çît wit?" }],
+        "distractors": [
+          { "text": "چیم", "latin": "çîm", "gloss": { "en": "what + I (did it)", "sv": "vad + jag (gjorde det)" }, "morph": "what-1SG.AGT" },
+          { "text": "دەڵێیت؟", "latin": "dełêyt?", "gloss": { "en": "do you say", "sv": "säger du" }, "morph": "DUR-say.PRS-2SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity", "ckb-question-words"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "چه گفتی؟",
+        "latin": "che gofti?",
+        "tokens": [
+          { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vad" }, "concept": "what" },
+          {
+            "text": "گفتی؟",
+            "latin": "gofti?",
+            "gloss": { "en": "did you say", "sv": "sa du" },
+            "concept": "to-say",
+            "morph": "say.PST-2SG"
+          }
+        ],
+        "colloquial": { "text": "چی گفتی؟", "latin": "chi gofti?" },
+        "distractors": [
+          { "text": "گفتم؟", "latin": "goftam?", "gloss": { "en": "did I say", "sv": "sa jag" }, "morph": "say.PST-1SG" },
+          { "text": "می‌گویی؟", "latin": "miguyi?", "gloss": { "en": "do you say", "sv": "säger du" }, "morph": "DUR-say.PRS-2SG" }
+        ],
+        "grammar": ["fa-past-tense", "fa-question-words"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-didnt-eat-anything",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I didn't eat anything.", "sv": "Jag åt ingenting." },
+      "ckb": {
+        "text": "هیچم نەخوارد.",
+        "latin": "hîçim nexward.",
+        "tokens": [
+          {
+            "text": "هیچم",
+            "latin": "hîçim",
+            "gloss": { "en": "nothing + I (did it)", "sv": "ingenting + jag (gjorde det)" },
+            "morph": "nothing-1SG.AGT"
+          },
+          {
+            "text": "نەخوارد.",
+            "latin": "nexward.",
+            "gloss": { "en": "didn't eat", "sv": "åt inte" },
+            "concept": "to-eat",
+            "morph": "NEG-eat.PST"
+          }
+        ],
+        "alternatives": [{ "text": "نەمخوارد.", "latin": "nemxward." }],
+        "distractors": [
+          {
+            "text": "هیچت",
+            "latin": "hîçit",
+            "gloss": { "en": "nothing + you (did it)", "sv": "ingenting + du (gjorde det)" },
+            "morph": "nothing-2SG.AGT"
+          },
+          { "text": "خوارد.", "latin": "xward.", "gloss": { "en": "ate", "sv": "åt" }, "morph": "eat.PST" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "چیزی نخوردم.",
+        "latin": "chizi nakhordam.",
+        "tokens": [
+          { "text": "چیزی", "latin": "chizi", "gloss": { "en": "anything", "sv": "någonting" }, "morph": "thing-INDF" },
+          {
+            "text": "نخوردم.",
+            "latin": "nakhordam.",
+            "gloss": { "en": "I didn't eat", "sv": "jag åt inte" },
+            "concept": "to-eat",
+            "morph": "NEG-eat.PST-1SG"
+          }
+        ],
+        "alternatives": [{ "text": "هیچ چیز نخوردم.", "latin": "hich chiz nakhordam." }],
+        "distractors": [
+          { "text": "خوردم.", "latin": "khordam.", "gloss": { "en": "I ate", "sv": "jag åt" }, "morph": "eat.PST-1SG" },
+          {
+            "text": "نمی‌خورم.",
+            "latin": "nemikhoram.",
+            "gloss": { "en": "I don't eat", "sv": "jag äter inte" },
+            "morph": "NEG-DUR-eat.PRS-1SG"
+          }
+        ],
+        "grammar": ["fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "sara-closed-the-door",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "Sara closed the door.", "sv": "Sara stängde dörren." },
+      "ckb": {
+        "text": "سارا دەرگاکەی داخست.",
+        "latin": "Sara dergakey daxist.",
+        "tokens": [
+          { "text": "سارا", "latin": "Sara", "gloss": { "en": "Sara", "sv": "Sara" } },
+          {
+            "text": "دەرگاکەی",
+            "latin": "dergakey",
+            "gloss": { "en": "the door + she (did it)", "sv": "dörren + hon (gjorde det)" },
+            "concept": "door",
+            "morph": "door-DEF-3SG.AGT"
+          },
+          {
+            "text": "داخست.",
+            "latin": "daxist.",
+            "gloss": { "en": "closed", "sv": "stängde" },
+            "concept": "to-close",
+            "morph": "close.PST"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "دەرگاکەم",
+            "latin": "dergakem",
+            "gloss": { "en": "the door + I (did it)", "sv": "dörren + jag (gjorde det)" },
+            "morph": "door-DEF-1SG.AGT"
+          },
+          { "text": "دادەخات.", "latin": "dadexat.", "gloss": { "en": "closes", "sv": "stänger" }, "morph": "PVB-DUR-close.PRS-3SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "سارا در را بست.",
+        "latin": "Sârâ dar râ bast.",
+        "tokens": [
+          { "text": "سارا", "latin": "Sârâ", "gloss": { "en": "Sara", "sv": "Sara" } },
+          { "text": "در", "latin": "dar", "gloss": { "en": "the door", "sv": "dörren" }, "concept": "door" },
+          { "text": "را", "latin": "râ", "gloss": { "en": "(marks the object)", "sv": "(markerar objektet)" }, "morph": "OBJ" },
+          {
+            "text": "بست.",
+            "latin": "bast.",
+            "gloss": { "en": "closed", "sv": "stängde" },
+            "concept": "to-close",
+            "morph": "close.PST.3SG"
+          }
+        ],
+        "colloquial": { "text": "سارا درو بست.", "latin": "Sârâ daro bast." },
+        "distractors": [
+          { "text": "بستم.", "latin": "bastam.", "gloss": { "en": "I closed", "sv": "jag stängde" }, "morph": "close.PST-1SG" },
+          { "text": "می‌بندد.", "latin": "mibandad.", "gloss": { "en": "closes", "sv": "stänger" }, "morph": "DUR-close.PRS-3SG" }
+        ],
+        "grammar": ["fa-past-tense", "fa-object-ra"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-opened-the-window",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I opened the window.", "sv": "Jag öppnade fönstret." },
+      "ckb": {
+        "text": "پەنجەرەکەم کردەوە.",
+        "latin": "pencerekem kirdewe.",
+        "tokens": [
+          {
+            "text": "پەنجەرەکەم",
+            "latin": "pencerekem",
+            "gloss": { "en": "the window + I (did it)", "sv": "fönstret + jag (gjorde det)" },
+            "concept": "window",
+            "morph": "window-DEF-1SG.AGT"
+          },
+          {
+            "text": "کردەوە.",
+            "latin": "kirdewe.",
+            "gloss": { "en": "opened", "sv": "öppnade" },
+            "concept": "to-open",
+            "morph": "do.PST-PVB"
+          }
+        ],
+        "alternatives": [{ "text": "من پەنجەرەکەم کردەوە.", "latin": "min pencerekem kirdewe." }],
+        "distractors": [
+          {
+            "text": "پەنجەرەکەت",
+            "latin": "pencereket",
+            "gloss": { "en": "the window + you (did it)", "sv": "fönstret + du (gjorde det)" },
+            "morph": "window-DEF-2SG.AGT"
+          },
+          { "text": "داخست.", "latin": "daxist.", "gloss": { "en": "closed", "sv": "stängde" }, "morph": "close.PST" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§27" }]
+      },
+      "fa": {
+        "text": "پنجره را باز کردم.",
+        "latin": "panjare râ bâz kardam.",
+        "tokens": [
+          { "text": "پنجره", "latin": "panjare", "gloss": { "en": "the window", "sv": "fönstret" }, "concept": "window" },
+          { "text": "را", "latin": "râ", "gloss": { "en": "(marks the object)", "sv": "(markerar objektet)" }, "morph": "OBJ" },
+          { "text": "باز", "latin": "bâz", "gloss": { "en": "open", "sv": "öppen" }, "concept": "to-open" },
+          {
+            "text": "کردم.",
+            "latin": "kardam.",
+            "gloss": { "en": "I did", "sv": "jag gjorde" },
+            "concept": "to-open",
+            "morph": "do.PST-1SG"
+          }
+        ],
+        "colloquial": { "text": "پنجره رو باز کردم.", "latin": "panjare ro bâz kardam." },
+        "distractors": [
+          { "text": "بستم.", "latin": "bastam.", "gloss": { "en": "I closed", "sv": "jag stängde" }, "morph": "close.PST-1SG" },
+          { "text": "کردی.", "latin": "kardi.", "gloss": { "en": "you did", "sv": "du gjorde" }, "morph": "do.PST-2SG" }
+        ],
+        "grammar": ["fa-past-tense", "fa-object-ra"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "we-sat-in-the-room",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "We sat in the room.", "sv": "Vi satt i rummet." },
+      "ckb": {
+        "text": "لە ژوورەکەدا دانیشتین.",
+        "latin": "le jûrekeda danîştîn.",
+        "tokens": [
+          { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+          {
+            "text": "ژوورەکەدا",
+            "latin": "jûrekeda",
+            "gloss": { "en": "the room (in)", "sv": "rummet (i)" },
+            "concept": "room",
+            "morph": "room-DEF-in"
+          },
+          {
+            "text": "دانیشتین.",
+            "latin": "danîştîn.",
+            "gloss": { "en": "we sat", "sv": "vi satt" },
+            "concept": "to-sit",
+            "morph": "sit.PST-1PL"
+          }
+        ],
+        "alternatives": [{ "text": "لە ژوورەکە دانیشتین.", "latin": "le jûreke danîştîn." }],
+        "distractors": [
+          { "text": "دانیشتم.", "latin": "danîştim.", "gloss": { "en": "I sat", "sv": "jag satt" }, "morph": "sit.PST-1SG" },
+          { "text": "دانیشتیت.", "latin": "danîştît.", "gloss": { "en": "you sat", "sv": "du satt" }, "morph": "sit.PST-2SG" }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§25" }]
+      },
+      "fa": {
+        "text": "در اتاق نشستیم.",
+        "latin": "dar otâgh neshastim.",
+        "tokens": [
+          { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+          { "text": "اتاق", "latin": "otâgh", "gloss": { "en": "the room", "sv": "rummet" }, "concept": "room" },
+          {
+            "text": "نشستیم.",
+            "latin": "neshastim.",
+            "gloss": { "en": "we sat", "sv": "vi satt" },
+            "concept": "to-sit",
+            "morph": "sit.PST-1PL"
+          }
+        ],
+        "colloquial": { "text": "تو اتاق نشستیم.", "latin": "tu otâgh neshastim." },
+        "distractors": [
+          { "text": "نشستم.", "latin": "neshastam.", "gloss": { "en": "I sat", "sv": "jag satt" }, "morph": "sit.PST-1SG" },
+          { "text": "می‌نشینیم.", "latin": "mineshinim.", "gloss": { "en": "we sit", "sv": "vi sitter" }, "morph": "DUR-sit.PRS-1PL" }
+        ],
+        "grammar": ["fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "did-you-understand",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "Did you understand?", "sv": "Förstod du?" },
+      "ckb": {
+        "text": "تێگەیشتی؟",
+        "latin": "têgeyştî?",
+        "tokens": [
+          {
+            "text": "تێگەیشتی؟",
+            "latin": "têgeyştî?",
+            "gloss": { "en": "did you understand", "sv": "förstod du" },
+            "concept": "to-understand",
+            "morph": "PVB-reach.PST-2SG"
+          }
+        ],
+        "alternatives": [{ "text": "تێگەیشتیت؟", "latin": "têgeyştît?" }],
+        "distractors": [
+          {
+            "text": "تێگەیشتم؟",
+            "latin": "têgeyştim?",
+            "gloss": { "en": "did I understand", "sv": "förstod jag" },
+            "morph": "PVB-reach.PST-1SG"
+          },
+          {
+            "text": "تێدەگەیت؟",
+            "latin": "têdegeyt?",
+            "gloss": { "en": "do you understand", "sv": "förstår du" },
+            "morph": "PVB-DUR-reach.PRS-2SG"
+          }
+        ],
+        "grammar": ["ckb-past-tense-ergativity"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§25" }]
+      },
+      "fa": {
+        "text": "فهمیدی؟",
+        "latin": "fahmidi?",
+        "tokens": [
+          {
+            "text": "فهمیدی؟",
+            "latin": "fahmidi?",
+            "gloss": { "en": "did you understand", "sv": "förstod du" },
+            "concept": "to-understand",
+            "morph": "understand.PST-2SG"
+          }
+        ],
+        "alternatives": [{ "text": "فهمیدید؟", "latin": "fahmidid?" }],
+        "distractors": [
+          {
+            "text": "فهمیدم؟",
+            "latin": "fahmidam?",
+            "gloss": { "en": "did I understand", "sv": "förstod jag" },
+            "morph": "understand.PST-1SG"
+          },
+          {
+            "text": "می‌فهمی؟",
+            "latin": "mifahmi?",
+            "gloss": { "en": "do you understand", "sv": "förstår du" },
+            "morph": "DUR-understand.PRS-2SG"
+          }
+        ],
+        "grammar": ["fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "can-you-help-me",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "Can you help me?", "sv": "Kan du hjälpa mig?" },
+      "ckb": {
+        "text": "دەتوانیت یارمەتیم بدەیت؟",
+        "latin": "detwanît yarmetîm bideyt?",
+        "tokens": [
+          {
+            "text": "دەتوانیت",
+            "latin": "detwanît",
+            "gloss": { "en": "can you", "sv": "kan du" },
+            "concept": "can",
+            "morph": "DUR-can.PRS-2SG"
+          },
+          {
+            "text": "یارمەتیم",
+            "latin": "yarmetîm",
+            "gloss": { "en": "help + me", "sv": "hjälp + mig" },
+            "concept": "to-help",
+            "morph": "help-1SG"
+          },
+          {
+            "text": "بدەیت؟",
+            "latin": "bideyt?",
+            "gloss": { "en": "give", "sv": "ge" },
+            "concept": "to-help",
+            "morph": "SBJV-give.PRS-2SG"
+          }
+        ],
+        "alternatives": [{ "text": "دەتوانن یارمەتیم بدەن؟", "latin": "detwanin yarmetîm biden?" }],
+        "distractors": [
+          {
+            "text": "دەدەیت؟",
+            "latin": "dedeyt?",
+            "gloss": { "en": "you give (not after \"can\")", "sv": "du ger (inte efter \"kan\")" },
+            "morph": "DUR-give.PRS-2SG"
+          },
+          { "text": "دەتوانم", "latin": "detwanim", "gloss": { "en": "I can", "sv": "jag kan" }, "morph": "DUR-can.PRS-1SG" }
+        ],
+        "grammar": ["ckb-modal-can", "ckb-object-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§21" }]
+      },
+      "fa": {
+        "text": "می‌توانید به من کمک کنید؟",
+        "latin": "mitavânid be man komak konid?",
+        "tokens": [
+          {
+            "text": "می‌توانید",
+            "latin": "mitavânid",
+            "gloss": { "en": "can you (polite)", "sv": "kan ni (artigt)" },
+            "concept": "can",
+            "morph": "DUR-can.PRS-2PL"
+          },
+          { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+          { "text": "من", "latin": "man", "gloss": { "en": "me", "sv": "mig" }, "concept": "i" },
+          { "text": "کمک", "latin": "komak", "gloss": { "en": "help", "sv": "hjälp" }, "concept": "to-help" },
+          { "text": "کنید؟", "latin": "konid?", "gloss": { "en": "do", "sv": "göra" }, "concept": "to-help", "morph": "do.SBJV-2PL" }
+        ],
+        "colloquial": { "text": "می‌تونی کمکم کنی؟", "latin": "mituni komakam koni?" },
+        "alternatives": [{ "text": "می‌توانی به من کمک کنی؟", "latin": "mitavâni be man komak koni?" }],
+        "distractors": [
+          {
+            "text": "می‌کنید؟",
+            "latin": "mikonid?",
+            "gloss": { "en": "you do (not after \"can\")", "sv": "ni gör (inte efter \"kan\")" },
+            "morph": "DUR-do.PRS-2PL"
+          },
+          { "text": "می‌توانم", "latin": "mitavânam", "gloss": { "en": "I can", "sv": "jag kan" }, "morph": "DUR-can.PRS-1SG" }
+        ],
+        "grammar": ["fa-modal-can"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-cant-come-tomorrow",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I can't come tomorrow.", "sv": "Jag kan inte komma i morgon." },
+      "ckb": {
+        "text": "سبەی ناتوانم بێم.",
+        "latin": "sibey natwanim bêm.",
+        "tokens": [
+          { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+          {
+            "text": "ناتوانم",
+            "latin": "natwanim",
+            "gloss": { "en": "I can't", "sv": "jag kan inte" },
+            "concept": "can",
+            "morph": "NEG-can.PRS-1SG"
+          },
+          { "text": "بێم.", "latin": "bêm.", "gloss": { "en": "come", "sv": "komma" }, "concept": "to-come", "morph": "come.SBJV-1SG" }
+        ],
+        "alternatives": [{ "text": "ناتوانم سبەی بێم.", "latin": "natwanim sibey bêm." }],
+        "distractors": [
+          {
+            "text": "دێم.",
+            "latin": "dêm.",
+            "gloss": { "en": "I come (not after \"can\")", "sv": "jag kommer (inte efter \"kan\")" },
+            "morph": "DUR-come.PRS-1SG"
+          },
+          { "text": "دەتوانم", "latin": "detwanim", "gloss": { "en": "I can", "sv": "jag kan" }, "morph": "DUR-can.PRS-1SG" }
+        ],
+        "grammar": ["ckb-modal-can"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§21" }]
+      },
+      "fa": {
+        "text": "فردا نمی‌توانم بیایم.",
+        "latin": "fardâ nemitavânam biyâyam.",
+        "tokens": [
+          { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+          {
+            "text": "نمی‌توانم",
+            "latin": "nemitavânam",
+            "gloss": { "en": "I can't", "sv": "jag kan inte" },
+            "concept": "can",
+            "morph": "NEG-DUR-can.PRS-1SG"
+          },
+          {
+            "text": "بیایم.",
+            "latin": "biyâyam.",
+            "gloss": { "en": "come", "sv": "komma" },
+            "concept": "to-come",
+            "morph": "SBJV-come-1SG"
+          }
+        ],
+        "colloquial": { "text": "فردا نمی‌تونم بیام.", "latin": "fardâ nemitunam biyâm." },
+        "distractors": [
+          {
+            "text": "می‌آیم.",
+            "latin": "miâyam.",
+            "gloss": { "en": "I come (not after \"can\")", "sv": "jag kommer (inte efter \"kan\")" },
+            "morph": "DUR-come.PRS-1SG"
+          },
+          { "text": "می‌توانم", "latin": "mitavânam", "gloss": { "en": "I can", "sv": "jag kan" }, "morph": "DUR-can.PRS-1SG" }
+        ],
+        "grammar": ["fa-modal-can"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-can-speak-a-little-kurdish",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I can speak a little Kurdish.", "sv": "Jag kan prata lite kurdiska." },
+      "ckb": {
+        "text": "دەتوانم کەمێک بە کوردی قسە بکەم.",
+        "latin": "detwanim kemêk be kurdî qise bikem.",
+        "tokens": [
+          {
+            "text": "دەتوانم",
+            "latin": "detwanim",
+            "gloss": { "en": "I can", "sv": "jag kan" },
+            "concept": "can",
+            "morph": "DUR-can.PRS-1SG"
+          },
+          { "text": "کەمێک", "latin": "kemêk", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+          { "text": "بە", "latin": "be", "gloss": { "en": "in (by)", "sv": "på (med)" }, "morph": "by" },
+          { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+          { "text": "قسە", "latin": "qise", "gloss": { "en": "speech", "sv": "tal" }, "concept": "to-speak" },
+          { "text": "بکەم.", "latin": "bikem.", "gloss": { "en": "do", "sv": "göra" }, "concept": "to-speak", "morph": "SBJV-do.PRS-1SG" }
+        ],
+        "alternatives": [{ "text": "کەمێک کوردی دەزانم.", "latin": "kemêk kurdî dezanim." }],
+        "distractors": [
+          {
+            "text": "دەکەم.",
+            "latin": "dekem.",
+            "gloss": { "en": "I do (not after \"can\")", "sv": "jag gör (inte efter \"kan\")" },
+            "morph": "DUR-do.PRS-1SG"
+          },
+          { "text": "ناتوانم", "latin": "natwanim", "gloss": { "en": "I can't", "sv": "jag kan inte" }, "morph": "NEG-can.PRS-1SG" }
+        ],
+        "grammar": ["ckb-modal-can"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§21" }]
+      },
+      "fa": {
+        "text": "می‌توانم کمی کردی صحبت کنم.",
+        "latin": "mitavânam kami kordi sohbat konam.",
+        "tokens": [
+          {
+            "text": "می‌توانم",
+            "latin": "mitavânam",
+            "gloss": { "en": "I can", "sv": "jag kan" },
+            "concept": "can",
+            "morph": "DUR-can.PRS-1SG"
+          },
+          { "text": "کمی", "latin": "kami", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+          { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+          { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "speech", "sv": "tal" }, "concept": "to-speak" },
+          { "text": "کنم.", "latin": "konam.", "gloss": { "en": "do", "sv": "göra" }, "concept": "to-speak", "morph": "do.SBJV-1SG" }
+        ],
+        "colloquial": { "text": "می‌تونم یه کم کردی حرف بزنم.", "latin": "mitunam ye kam kordi harf bezanam." },
+        "distractors": [
+          {
+            "text": "می‌کنم.",
+            "latin": "mikonam.",
+            "gloss": { "en": "I do (not after \"can\")", "sv": "jag gör (inte efter \"kan\")" },
+            "morph": "DUR-do.PRS-1SG"
+          },
+          {
+            "text": "بکنم.",
+            "latin": "bokonam.",
+            "gloss": { "en": "(wrong: no بـ in compound verbs here)", "sv": "(fel: inget بـ i sammansatta verb här)" },
+            "morph": "SBJV-do-1SG"
+          }
+        ],
+        "grammar": ["fa-modal-can"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-can-wait",
+      "unit": "actions",
+      "level": "A1",
+      "translation": { "en": "I can wait.", "sv": "Jag kan vänta." },
+      "ckb": {
+        "text": "دەتوانم چاوەڕێ بکەم.",
+        "latin": "detwanim çaweřê bikem.",
+        "tokens": [
+          {
+            "text": "دەتوانم",
+            "latin": "detwanim",
+            "gloss": { "en": "I can", "sv": "jag kan" },
+            "concept": "can",
+            "morph": "DUR-can.PRS-1SG"
+          },
+          { "text": "چاوەڕێ", "latin": "çaweřê", "gloss": { "en": "waiting", "sv": "väntan" }, "concept": "to-wait" },
+          { "text": "بکەم.", "latin": "bikem.", "gloss": { "en": "do", "sv": "göra" }, "concept": "to-wait", "morph": "SBJV-do.PRS-1SG" }
+        ],
+        "distractors": [
+          {
+            "text": "دەکەم.",
+            "latin": "dekem.",
+            "gloss": { "en": "I do (not after \"can\")", "sv": "jag gör (inte efter \"kan\")" },
+            "morph": "DUR-do.PRS-1SG"
+          },
+          { "text": "دەتوانیت", "latin": "detwanît", "gloss": { "en": "you can", "sv": "du kan" }, "morph": "DUR-can.PRS-2SG" }
+        ],
+        "grammar": ["ckb-modal-can"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§21" }]
+      },
+      "fa": {
+        "text": "می‌توانم صبر کنم.",
+        "latin": "mitavânam sabr konam.",
+        "tokens": [
+          {
+            "text": "می‌توانم",
+            "latin": "mitavânam",
+            "gloss": { "en": "I can", "sv": "jag kan" },
+            "concept": "can",
+            "morph": "DUR-can.PRS-1SG"
+          },
+          { "text": "صبر", "latin": "sabr", "gloss": { "en": "patience", "sv": "tålamod" }, "concept": "to-wait" },
+          { "text": "کنم.", "latin": "konam.", "gloss": { "en": "do", "sv": "göra" }, "concept": "to-wait", "morph": "do.SBJV-1SG" }
+        ],
+        "colloquial": { "text": "می‌تونم صبر کنم.", "latin": "mitunam sabr konam." },
+        "distractors": [
+          {
+            "text": "می‌کنم.",
+            "latin": "mikonam.",
+            "gloss": { "en": "I do (not after \"can\")", "sv": "jag gör (inte efter \"kan\")" },
+            "morph": "DUR-do.PRS-1SG"
+          },
+          { "text": "می‌توانی", "latin": "mitavâni", "gloss": { "en": "you can", "sv": "du kan" }, "morph": "DUR-can.PRS-2SG" }
+        ],
+        "grammar": ["fa-modal-can"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-couldnt-sleep",
+      "unit": "actions",
+      "level": "A2",
+      "translation": { "en": "I couldn't sleep.", "sv": "Jag kunde inte sova." },
+      "ckb": {
+        "text": "نەمتوانی بخەوم.",
+        "latin": "nemtwanî bixewim.",
+        "tokens": [
+          {
+            "text": "نەمتوانی",
+            "latin": "nemtwanî",
+            "gloss": { "en": "I couldn't", "sv": "jag kunde inte" },
+            "concept": "can",
+            "morph": "NEG-1SG.AGT-can.PST"
+          },
+          {
+            "text": "بخەوم.",
+            "latin": "bixewim.",
+            "gloss": { "en": "sleep", "sv": "sova" },
+            "concept": "to-sleep",
+            "morph": "SBJV-sleep.PRS-1SG"
+          }
+        ],
+        "distractors": [
+          {
+            "text": "نەتوانیم",
+            "latin": "netwanîm",
+            "gloss": { "en": "(wrong: the \"I\" goes after نە)", "sv": "(fel: \"jag\" kommer efter نە)" },
+            "morph": "NEG-can.PST-1SG"
+          },
+          { "text": "خەوتم.", "latin": "xewtim.", "gloss": { "en": "I slept", "sv": "jag sov" }, "morph": "sleep.PST-1SG" }
+        ],
+        "grammar": ["ckb-modal-can", "ckb-past-tense-ergativity"],
+        "sources": [
+          { "source": "tatoeba" },
+          { "source": "thackston-sorani-grammar", "ref": "§21" },
+          { "source": "thackston-sorani-grammar", "ref": "§27" }
+        ]
+      },
+      "fa": {
+        "text": "نتوانستم بخوابم.",
+        "latin": "natavânestam bekhâbam.",
+        "tokens": [
+          {
+            "text": "نتوانستم",
+            "latin": "natavânestam",
+            "gloss": { "en": "I couldn't", "sv": "jag kunde inte" },
+            "concept": "can",
+            "morph": "NEG-can.PST-1SG"
+          },
+          {
+            "text": "بخوابم.",
+            "latin": "bekhâbam.",
+            "gloss": { "en": "sleep", "sv": "sova" },
+            "concept": "to-sleep",
+            "morph": "SBJV-sleep-1SG"
+          }
+        ],
+        "colloquial": { "text": "نتونستم بخوابم.", "latin": "natunestam bekhâbam." },
+        "distractors": [
+          {
+            "text": "نمی‌توانم",
+            "latin": "nemitavânam",
+            "gloss": { "en": "I can't", "sv": "jag kan inte" },
+            "morph": "NEG-DUR-can.PRS-1SG"
+          },
+          { "text": "خوابیدم.", "latin": "khâbidam.", "gloss": { "en": "I slept", "sv": "jag sov" }, "morph": "sleep.PST-1SG" }
+        ],
+        "grammar": ["fa-modal-can", "fa-past-tense"],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

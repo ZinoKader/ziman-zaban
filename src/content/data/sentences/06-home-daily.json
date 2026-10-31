@@ -1,0 +1,618 @@
+{
+  "sentences": [
+    {
+      "id": "this-is-our-home",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "This is our home.", "sv": "Det här är vårt hem." },
+      "ckb": {
+        "text": "ئەمە ماڵمانە.",
+        "latin": "eme małmane.",
+        "tokens": [
+          { "text": "ئەمە", "latin": "eme", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          { "text": "ماڵمانە.", "latin": "małmane.", "gloss": { "en": "is our home", "sv": "är vårt hem" }, "concept": "house", "morph": "home-1PL-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "ماڵتانە.", "latin": "małtane.", "gloss": { "en": "is your home", "sv": "är ert hem" }, "morph": "home-2PL-COP.3SG" },
+          { "text": "ماڵیانە.", "latin": "małyane.", "gloss": { "en": "is their home", "sv": "är deras hem" }, "morph": "home-3PL-COP.3SG" }
+        ],
+        "grammar": ["ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§10.1" }]
+      },
+      "fa": {
+        "text": "این خانه‌ی ماست.",
+        "latin": "in khâne-ye mâst.",
+        "tokens": [
+          { "text": "این", "latin": "in", "gloss": { "en": "this", "sv": "det här" }, "concept": "this" },
+          { "text": "خانه‌ی", "latin": "khâne-ye", "gloss": { "en": "home (of)", "sv": "hem (till)" }, "concept": "house", "morph": "home-EZ" },
+          { "text": "ماست.", "latin": "mâst.", "gloss": { "en": "us, is", "sv": "oss, är" }, "concept": "we", "morph": "we-COP.3SG" }
+        ],
+        "colloquial": { "text": "این خونه‌ی ماست.", "latin": "in khune-ye mâst." },
+        "distractors": [
+          { "text": "شماست.", "latin": "shomâst.", "gloss": { "en": "you (pl), is", "sv": "er, är" }, "morph": "you.PL-COP.3SG" },
+          { "text": "خانه", "latin": "khâne", "gloss": { "en": "home (no ezafe)", "sv": "hem (utan ezafe)" } }
+        ],
+        "grammar": ["fa-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-kitchen-is-here",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "The kitchen is here.", "sv": "Köket är här." },
+      "ckb": {
+        "text": "مەتبەخەکە لێرەیە.",
+        "latin": "metbexeke lêreye.",
+        "tokens": [
+          { "text": "مەتبەخەکە", "latin": "metbexeke", "gloss": { "en": "the kitchen", "sv": "köket" }, "concept": "kitchen", "morph": "kitchen-DEF" },
+          { "text": "لێرەیە.", "latin": "lêreye.", "gloss": { "en": "is here", "sv": "är här" }, "concept": "here", "morph": "in.here-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "چێشتخانەکە لێرەیە.", "latin": "çêştxaneke lêreye." }],
+        "distractors": [
+          { "text": "لەوێیە.", "latin": "lewêye.", "gloss": { "en": "is there", "sv": "är där" }, "morph": "in.there-COP.3SG" },
+          { "text": "ئێرە", "latin": "êre", "gloss": { "en": "this place (no \"at\")", "sv": "den här platsen (utan \"på\")" } }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-copula"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "آشپزخانه اینجاست.",
+        "latin": "âshpazkhâne injâst.",
+        "tokens": [
+          { "text": "آشپزخانه", "latin": "âshpazkhâne", "gloss": { "en": "the kitchen", "sv": "köket" }, "concept": "kitchen" },
+          { "text": "اینجاست.", "latin": "injâst.", "gloss": { "en": "is here", "sv": "är här" }, "concept": "here", "morph": "here-COP.3SG" }
+        ],
+        "colloquial": { "text": "آشپزخونه اینجاست.", "latin": "âshpazkhune injâst." },
+        "distractors": [
+          { "text": "آنجاست.", "latin": "ânjâst.", "gloss": { "en": "is there", "sv": "är där" }, "morph": "there-COP.3SG" },
+          { "text": "اتاق", "latin": "otâgh", "gloss": { "en": "room", "sv": "rum" } }
+        ],
+        "grammar": ["fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "my-room-has-two-windows",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "My room has two windows.", "sv": "Mitt rum har två fönster." },
+      "ckb": {
+        "text": "ژوورەکەم دوو پەنجەرەی هەیە.",
+        "latin": "jûrekem dû pencerey heye.",
+        "tokens": [
+          { "text": "ژوورەکەم", "latin": "jûrekem", "gloss": { "en": "my room", "sv": "mitt rum" }, "concept": "room", "morph": "room-DEF-1SG" },
+          { "text": "دوو", "latin": "dû", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "پەنجەرەی", "latin": "pencerey", "gloss": { "en": "window (of it)", "sv": "fönster (till det)" }, "concept": "window", "morph": "window-3SG" },
+          { "text": "هەیە.", "latin": "heye.", "gloss": { "en": "there is (= it has)", "sv": "det finns (= det har)" }, "concept": "to-have", "morph": "exist.PRS.3SG" }
+        ],
+        "distractors": [
+          { "text": "پەنجەرەم", "latin": "pencerem", "gloss": { "en": "window of mine", "sv": "fönster till mig" }, "morph": "window-1SG" },
+          { "text": "نییە.", "latin": "nîye.", "gloss": { "en": "there is not", "sv": "det finns inte" }, "morph": "NEG.exist.PRS.3SG" }
+        ],
+        "grammar": ["ckb-to-have", "ckb-possessive-clitics"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§16" }]
+      },
+      "fa": {
+        "text": "اتاقم دو پنجره دارد.",
+        "latin": "otâgham do panjare dârad.",
+        "tokens": [
+          { "text": "اتاقم", "latin": "otâgham", "gloss": { "en": "my room", "sv": "mitt rum" }, "concept": "room", "morph": "room-1SG" },
+          { "text": "دو", "latin": "do", "gloss": { "en": "two", "sv": "två" }, "concept": "two" },
+          { "text": "پنجره", "latin": "panjare", "gloss": { "en": "window", "sv": "fönster" }, "concept": "window" },
+          { "text": "دارد.", "latin": "dârad.", "gloss": { "en": "has", "sv": "har" }, "concept": "to-have", "morph": "have.PRS-3SG" }
+        ],
+        "colloquial": { "text": "اتاقم دو تا پنجره داره.", "latin": "otâgham do tâ panjare dâre." },
+        "distractors": [
+          { "text": "پنجره‌ها", "latin": "panjare-hâ", "gloss": { "en": "windows (wrong after a number)", "sv": "fönstren (fel efter ett räkneord)" }, "morph": "window-PL" },
+          { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have", "sv": "jag har" }, "morph": "have.PRS-1SG" }
+        ],
+        "grammar": ["fa-to-have", "fa-possessive-suffixes", "fa-plural"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-key-is-on-the-table",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "The key is on the table.", "sv": "Nyckeln ligger på bordet." },
+      "ckb": {
+        "text": "کلیلەکە لەسەر مێزەکەیە.",
+        "latin": "kilîleke leser mêzekeye.",
+        "tokens": [
+          { "text": "کلیلەکە", "latin": "kilîleke", "gloss": { "en": "the key", "sv": "nyckeln" }, "concept": "key", "morph": "key-DEF" },
+          { "text": "لەسەر", "latin": "leser", "gloss": { "en": "on", "sv": "på" } },
+          { "text": "مێزەکەیە.", "latin": "mêzekeye.", "gloss": { "en": "the table, is", "sv": "bordet, är" }, "concept": "table", "morph": "table-DEF-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "کورسییەکەیە.", "latin": "kursîyekeye.", "gloss": { "en": "the chair, is", "sv": "stolen, är" }, "morph": "chair-DEF-COP.3SG" },
+          { "text": "کلیلێک", "latin": "kilîlêk", "gloss": { "en": "a key", "sv": "en nyckel" }, "morph": "key-INDF" }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-copula"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§14" }]
+      },
+      "fa": {
+        "text": "کلید روی میز است.",
+        "latin": "kelid ru-ye miz ast.",
+        "tokens": [
+          { "text": "کلید", "latin": "kelid", "gloss": { "en": "the key", "sv": "nyckeln" }, "concept": "key" },
+          { "text": "روی", "latin": "ru-ye", "gloss": { "en": "on (top of)", "sv": "på (ovanpå)" }, "morph": "face-EZ" },
+          { "text": "میز", "latin": "miz", "gloss": { "en": "table", "sv": "bord" }, "concept": "table" },
+          { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+        ],
+        "colloquial": { "text": "کلید رو میزه.", "latin": "kelid ru mize." },
+        "distractors": [
+          { "text": "صندلی", "latin": "sandali", "gloss": { "en": "chair", "sv": "stol" } },
+          { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "am", "sv": "är" }, "morph": "be.PRS-1SG" }
+        ],
+        "grammar": ["fa-ezafe", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-is-my-phone",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "Where is my phone?", "sv": "Var är min telefon?", "svAlt": ["Var är min mobil?"] },
+      "ckb": {
+        "text": "مۆبایلەکەم لە کوێیە؟",
+        "latin": "mobaylekem le kwêye?",
+        "tokens": [
+          { "text": "مۆبایلەکەم", "latin": "mobaylekem", "gloss": { "en": "my phone", "sv": "min telefon" }, "concept": "phone", "morph": "phone-DEF-1SG" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "in, at", "sv": "i, på" } },
+          { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+        ],
+        "distractors": [
+          { "text": "مۆبایلەکەت", "latin": "mobayleket", "gloss": { "en": "your phone", "sv": "din telefon" }, "morph": "phone-DEF-2SG" },
+          { "text": "کێیە؟", "latin": "kêye?", "gloss": { "en": "who is", "sv": "vem är" }, "morph": "who-COP.3SG" }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-possessive-clitics", "ckb-copula"],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "text": "گوشی‌ام کجاست؟",
+        "latin": "gushi-am kojâst?",
+        "tokens": [
+          { "text": "گوشی‌ام", "latin": "gushi-am", "gloss": { "en": "my phone", "sv": "min telefon" }, "concept": "phone", "morph": "phone-1SG" },
+          { "text": "کجاست؟", "latin": "kojâst?", "gloss": { "en": "where is", "sv": "var är" }, "concept": "where", "morph": "where-COP.3SG" }
+        ],
+        "alternatives": [{ "text": "موبایلم کجاست؟", "latin": "mobâylam kojâst?" }],
+        "colloquial": { "text": "گوشیم کجاست؟", "latin": "gushim kojâst?" },
+        "distractors": [
+          { "text": "گوشی‌ات", "latin": "gushi-at", "gloss": { "en": "your phone", "sv": "din telefon" }, "morph": "phone-2SG" },
+          { "text": "کیست؟", "latin": "kist?", "gloss": { "en": "who is", "sv": "vem är" }, "morph": "who-COP.3SG" }
+        ],
+        "grammar": ["fa-possessive-suffixes", "fa-copula"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-work-every-day",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I work every day.", "sv": "Jag arbetar varje dag.", "svAlt": ["Jag jobbar varje dag."] },
+      "ckb": {
+        "text": "هەموو ڕۆژێک کار دەکەم.",
+        "latin": "hemû řojêk kar dekem.",
+        "tokens": [
+          { "text": "هەموو", "latin": "hemû", "gloss": { "en": "every", "sv": "varje" }, "concept": "every-day" },
+          { "text": "ڕۆژێک", "latin": "řojêk", "gloss": { "en": "a day", "sv": "en dag" }, "concept": "every-day", "morph": "day-INDF" },
+          { "text": "کار", "latin": "kar", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+          { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+        ],
+        "alternatives": [{ "text": "ڕۆژانە کار دەکەم.", "latin": "řojane kar dekem." }],
+        "distractors": [
+          { "text": "دەکەیت.", "latin": "dekeyt.", "gloss": { "en": "you do", "sv": "du gör" }, "morph": "DUR-do.PRS-2SG" },
+          { "text": "دەکات.", "latin": "dekat.", "gloss": { "en": "he/she does", "sv": "han/hon gör" }, "morph": "DUR-do.PRS-3SG" }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "text": "هر روز کار می‌کنم.",
+        "latin": "har ruz kâr mikonam.",
+        "tokens": [
+          { "text": "هر", "latin": "har", "gloss": { "en": "every", "sv": "varje" }, "concept": "every-day" },
+          { "text": "روز", "latin": "ruz", "gloss": { "en": "day", "sv": "dag" }, "concept": "every-day" },
+          { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+          { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "می‌کنی.", "latin": "mikoni.", "gloss": { "en": "you do", "sv": "du gör" }, "morph": "DUR-do.PRS-2SG" },
+          { "text": "روزها", "latin": "ruz-hâ", "gloss": { "en": "days (wrong after هر)", "sv": "dagar (fel efter هر)" }, "morph": "day-PL" }
+        ],
+        "grammar": ["fa-habits-frequency"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "i-always-get-up-early",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I always get up early.", "sv": "Jag går alltid upp tidigt.", "enAlt": ["I always wake up early."], "svAlt": ["Jag vaknar alltid tidigt."] },
+      "ckb": {
+        "text": "هەمیشە زوو هەڵدەستم.",
+        "latin": "hemîşe zû hełdestim.",
+        "tokens": [
+          { "text": "هەمیشە", "latin": "hemîşe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+          { "text": "زوو", "latin": "zû", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+          { "text": "هەڵدەستم.", "latin": "hełdestim.", "gloss": { "en": "I get up", "sv": "jag går upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-1SG" }
+        ],
+        "alternatives": [{ "text": "هەمیشە زوو لە خەو هەڵدەستم.", "latin": "hemîşe zû le xew hełdestim." }],
+        "distractors": [
+          { "text": "هەڵدەستێت.", "latin": "hełdestêt.", "gloss": { "en": "he/she gets up", "sv": "han/hon går upp" }, "morph": "up-DUR-rise.PRS-3SG" },
+          { "text": "درەنگ", "latin": "direng", "gloss": { "en": "late", "sv": "sent" } }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "text": "همیشه زود بیدار می‌شوم.",
+        "latin": "hamishe zud bidâr mishavam.",
+        "tokens": [
+          { "text": "همیشه", "latin": "hamishe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+          { "text": "زود", "latin": "zud", "gloss": { "en": "early", "sv": "tidigt" }, "concept": "early" },
+          { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+          { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become", "sv": "jag blir" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-1SG" }
+        ],
+        "colloquial": { "text": "همیشه زود بیدار می‌شم.", "latin": "hamishe zud bidâr misham." },
+        "distractors": [
+          { "text": "دیر", "latin": "dir", "gloss": { "en": "late", "sv": "sent" } },
+          { "text": "می‌شود.", "latin": "mishavad.", "gloss": { "en": "he/she becomes", "sv": "han/hon blir" }, "morph": "DUR-become.PRS-3SG" }
+        ],
+        "grammar": ["fa-habits-frequency"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-usually-go-to-bed-late",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I usually go to bed late.", "sv": "Jag brukar lägga mig sent.", "enAlt": ["I usually sleep late."], "svAlt": ["Jag lägger mig oftast sent."] },
+      "ckb": {
+        "text": "بەزۆری درەنگ دەخەوم.",
+        "latin": "bezorî direng dexewim.",
+        "tokens": [
+          { "text": "بەزۆری", "latin": "bezorî", "gloss": { "en": "usually", "sv": "oftast" }, "concept": "usually" },
+          { "text": "درەنگ", "latin": "direng", "gloss": { "en": "late", "sv": "sent" }, "concept": "late" },
+          { "text": "دەخەوم.", "latin": "dexewim.", "gloss": { "en": "I sleep", "sv": "jag sover" }, "concept": "to-sleep", "morph": "DUR-sleep.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "زوو", "latin": "zû", "gloss": { "en": "early", "sv": "tidigt" } },
+          { "text": "دەخەویت.", "latin": "dexewît.", "gloss": { "en": "you sleep", "sv": "du sover" }, "morph": "DUR-sleep.PRS-2SG" }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "معمولاً دیر می‌خوابم.",
+        "latin": "ma'mulan dir mikhâbam.",
+        "tokens": [
+          { "text": "معمولاً", "latin": "ma'mulan", "gloss": { "en": "usually", "sv": "oftast" }, "concept": "usually" },
+          { "text": "دیر", "latin": "dir", "gloss": { "en": "late", "sv": "sent" }, "concept": "late" },
+          { "text": "می‌خوابم.", "latin": "mikhâbam.", "gloss": { "en": "I sleep", "sv": "jag sover" }, "concept": "to-sleep", "morph": "DUR-sleep.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "زود", "latin": "zud", "gloss": { "en": "early", "sv": "tidigt" } },
+          { "text": "می‌خوابی.", "latin": "mikhâbi.", "gloss": { "en": "you sleep", "sv": "du sover" }, "morph": "DUR-sleep.PRS-2SG" }
+        ],
+        "grammar": ["fa-habits-frequency"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "sometimes-i-work-at-home",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "Sometimes I work at home.", "sv": "Ibland jobbar jag hemma.", "svAlt": ["Ibland arbetar jag hemma."] },
+      "ckb": {
+        "text": "هەندێک جار لە ماڵەوە کار دەکەم.",
+        "latin": "hendêk car le małewe kar dekem.",
+        "tokens": [
+          { "text": "هەندێک", "latin": "hendêk", "gloss": { "en": "some", "sv": "några" }, "concept": "sometimes" },
+          { "text": "جار", "latin": "car", "gloss": { "en": "time(s)", "sv": "gång(er)" }, "concept": "sometimes" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "at", "sv": "på" } },
+          { "text": "ماڵەوە", "latin": "małewe", "gloss": { "en": "home", "sv": "hem(ma)" }, "concept": "house", "morph": "home-POSTP" },
+          { "text": "کار", "latin": "kar", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+          { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "ماڵەکە", "latin": "małeke", "gloss": { "en": "the house", "sv": "huset" }, "morph": "home-DEF" },
+          { "text": "دەکەین.", "latin": "dekeyn.", "gloss": { "en": "we do", "sv": "vi gör" }, "morph": "DUR-do.PRS-1PL" }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§14" }]
+      },
+      "fa": {
+        "text": "گاهی در خانه کار می‌کنم.",
+        "latin": "gâhi dar khâne kâr mikonam.",
+        "tokens": [
+          { "text": "گاهی", "latin": "gâhi", "gloss": { "en": "sometimes", "sv": "ibland" }, "concept": "sometimes" },
+          { "text": "در", "latin": "dar", "gloss": { "en": "at, in", "sv": "på, i" } },
+          { "text": "خانه", "latin": "khâne", "gloss": { "en": "home", "sv": "hem(ma)" }, "concept": "house" },
+          { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "to-work" },
+          { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "to-work", "morph": "DUR-do.PRS-1SG" }
+        ],
+        "colloquial": { "text": "گاهی خونه کار می‌کنم.", "latin": "gâhi khune kâr mikonam." },
+        "alternatives": [{ "text": "بعضی وقت‌ها در خانه کار می‌کنم.", "latin": "ba'zi vaght-hâ dar khâne kâr mikonam." }],
+        "distractors": [
+          { "text": "از", "latin": "az", "gloss": { "en": "from", "sv": "från" } },
+          { "text": "می‌کنند.", "latin": "mikonand.", "gloss": { "en": "they do", "sv": "de gör" }, "morph": "DUR-do.PRS-3PL" }
+        ],
+        "grammar": ["fa-habits-frequency"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-never-get-up-late",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I never get up late.", "sv": "Jag går aldrig upp sent." },
+      "ckb": {
+        "text": "هەرگیز درەنگ هەڵناستم.",
+        "latin": "hergîz direng hełnastim.",
+        "tokens": [
+          { "text": "هەرگیز", "latin": "hergîz", "gloss": { "en": "never", "sv": "aldrig" }, "concept": "never" },
+          { "text": "درەنگ", "latin": "direng", "gloss": { "en": "late", "sv": "sent" }, "concept": "late" },
+          { "text": "هەڵناستم.", "latin": "hełnastim.", "gloss": { "en": "I don't get up", "sv": "jag går inte upp" }, "concept": "to-wake-up", "morph": "up-NEG-rise.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "هەڵدەستم.", "latin": "hełdestim.", "gloss": { "en": "I get up (wrong: \"never\" needs a negative verb)", "sv": "jag går upp (fel: \"aldrig\" kräver nekat verb)" }, "morph": "up-DUR-rise.PRS-1SG" },
+          { "text": "هەمیشە", "latin": "hemîşe", "gloss": { "en": "always", "sv": "alltid" } }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "text": "هیچ‌وقت دیر بیدار نمی‌شوم.",
+        "latin": "hichvaght dir bidâr nemishavam.",
+        "tokens": [
+          { "text": "هیچ‌وقت", "latin": "hichvaght", "gloss": { "en": "never", "sv": "aldrig" }, "concept": "never" },
+          { "text": "دیر", "latin": "dir", "gloss": { "en": "late", "sv": "sent" }, "concept": "late" },
+          { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+          { "text": "نمی‌شوم.", "latin": "nemishavam.", "gloss": { "en": "I don't become", "sv": "jag blir inte" }, "concept": "to-wake-up", "morph": "NEG-DUR-become.PRS-1SG" }
+        ],
+        "colloquial": { "text": "هیچ‌وقت دیر بیدار نمی‌شم.", "latin": "hichvaght dir bidâr nemisham." },
+        "distractors": [
+          { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become (wrong: \"never\" needs a negative verb)", "sv": "jag blir (fel: \"aldrig\" kräver nekat verb)" }, "morph": "DUR-become.PRS-1SG" },
+          { "text": "همیشه", "latin": "hamishe", "gloss": { "en": "always", "sv": "alltid" } }
+        ],
+        "grammar": ["fa-habits-frequency"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-wash-the-clothes",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I wash the clothes.", "sv": "Jag tvättar kläderna." },
+      "ckb": {
+        "text": "جلەکان دەشۆم.",
+        "latin": "cilekan deşom.",
+        "tokens": [
+          { "text": "جلەکان", "latin": "cilekan", "gloss": { "en": "the clothes", "sv": "kläderna" }, "concept": "clothes", "morph": "clothes-DEF.PL" },
+          { "text": "دەشۆم.", "latin": "deşom.", "gloss": { "en": "I wash", "sv": "jag tvättar" }, "concept": "to-wash", "morph": "DUR-wash.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "دەشۆیت.", "latin": "deşoyt.", "gloss": { "en": "you wash", "sv": "du tvättar" }, "morph": "DUR-wash.PRS-2SG" },
+          { "text": "دەیانشۆم.", "latin": "deyanşom.", "gloss": { "en": "I wash them (object said twice)", "sv": "jag tvättar dem (objektet två gånger)" }, "morph": "DUR-3PL-wash.PRS-1SG" }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-object-clitics"],
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
+      },
+      "fa": {
+        "text": "لباس‌ها را می‌شویم.",
+        "latin": "lebâs-hâ râ mishuyam.",
+        "tokens": [
+          { "text": "لباس‌ها", "latin": "lebâs-hâ", "gloss": { "en": "the clothes", "sv": "kläderna" }, "concept": "clothes", "morph": "clothes-PL" },
+          { "text": "را", "latin": "râ", "gloss": { "en": "(marks the definite object)", "sv": "(markerar bestämt objekt)" }, "morph": "OBJ" },
+          { "text": "می‌شویم.", "latin": "mishuyam.", "gloss": { "en": "I wash", "sv": "jag tvättar" }, "concept": "to-wash", "morph": "DUR-wash.PRS-1SG" }
+        ],
+        "colloquial": { "text": "لباسا رو می‌شورم.", "latin": "lebâsâ ro mishuram." },
+        "distractors": [
+          { "text": "می‌شویی.", "latin": "mishuyi.", "gloss": { "en": "you wash", "sv": "du tvättar" }, "morph": "DUR-wash.PRS-2SG" },
+          { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" } }
+        ],
+        "grammar": ["fa-object-ra", "fa-plural"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-always-wash-them",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I always wash them.", "sv": "Jag tvättar dem alltid." },
+      "ckb": {
+        "text": "هەمیشە دەیانشۆم.",
+        "latin": "hemîşe deyanşom.",
+        "tokens": [
+          { "text": "هەمیشە", "latin": "hemîşe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+          { "text": "دەیانشۆم.", "latin": "deyanşom.", "gloss": { "en": "I wash them", "sv": "jag tvättar dem" }, "concept": "to-wash", "morph": "DUR-3PL-wash.PRS-1SG" }
+        ],
+        "distractors": [
+          { "text": "دەیشۆم.", "latin": "deyşom.", "gloss": { "en": "I wash it", "sv": "jag tvättar den" }, "morph": "DUR-3SG-wash.PRS-1SG" },
+          { "text": "دەیانشۆیت.", "latin": "deyanşoyt.", "gloss": { "en": "you wash them", "sv": "du tvättar dem" }, "morph": "DUR-3PL-wash.PRS-2SG" }
+        ],
+        "grammar": ["ckb-object-clitics", "ckb-habits-frequency"],
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§23" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "همیشه آن‌ها را می‌شویم.",
+        "latin": "hamishe ân-hâ râ mishuyam.",
+        "tokens": [
+          { "text": "همیشه", "latin": "hamishe", "gloss": { "en": "always", "sv": "alltid" }, "concept": "always" },
+          { "text": "آن‌ها", "latin": "ân-hâ", "gloss": { "en": "them", "sv": "dem" }, "concept": "they" },
+          { "text": "را", "latin": "râ", "gloss": { "en": "(marks the definite object)", "sv": "(markerar bestämt objekt)" }, "morph": "OBJ" },
+          { "text": "می‌شویم.", "latin": "mishuyam.", "gloss": { "en": "I wash", "sv": "jag tvättar" }, "concept": "to-wash", "morph": "DUR-wash.PRS-1SG" }
+        ],
+        "colloquial": { "text": "همیشه اونا رو می‌شورم.", "latin": "hamishe unâ ro mishuram." },
+        "distractors": [
+          { "text": "آن", "latin": "ân", "gloss": { "en": "it, that", "sv": "den, det" } },
+          { "text": "می‌شویند.", "latin": "mishuyand.", "gloss": { "en": "they wash", "sv": "de tvättar" }, "morph": "DUR-wash.PRS-3PL" }
+        ],
+        "grammar": ["fa-object-ra", "fa-habits-frequency"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-want-the-key",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "I want the key.", "sv": "Jag vill ha nyckeln." },
+      "ckb": {
+        "text": "کلیلەکەم دەوێت.",
+        "latin": "kilîlekem dewêt.",
+        "tokens": [
+          { "text": "کلیلەکەم", "latin": "kilîlekem", "gloss": { "en": "the key (to me)", "sv": "nyckeln (för mig)" }, "concept": "key", "morph": "key-DEF-1SG" },
+          { "text": "دەوێت.", "latin": "dewêt.", "gloss": { "en": "is wanted", "sv": "önskas" }, "concept": "to-want", "morph": "DUR-want.PRS-3SG" }
+        ],
+        "distractors": [
+          { "text": "کلیلەکەت", "latin": "kilîleket", "gloss": { "en": "the key (to you)", "sv": "nyckeln (för dig)" }, "morph": "key-DEF-2SG" },
+          { "text": "دەوێم.", "latin": "dewêm.", "gloss": { "en": "(wrong: the ending stays -êt)", "sv": "(fel: ändelsen förblir -êt)" } }
+        ],
+        "grammar": ["ckb-definite-ekan", "ckb-possessive-clitics"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§20" }]
+      },
+      "fa": {
+        "text": "کلید را می‌خواهم.",
+        "latin": "kelid râ mikhâham.",
+        "tokens": [
+          { "text": "کلید", "latin": "kelid", "gloss": { "en": "the key", "sv": "nyckeln" }, "concept": "key" },
+          { "text": "را", "latin": "râ", "gloss": { "en": "(marks the definite object)", "sv": "(markerar bestämt objekt)" }, "morph": "OBJ" },
+          { "text": "می‌خواهم.", "latin": "mikhâham.", "gloss": { "en": "I want", "sv": "jag vill ha" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" }
+        ],
+        "colloquial": { "text": "کلیدو می‌خوام.", "latin": "kelido mikhâm." },
+        "distractors": [
+          { "text": "می‌خواهی.", "latin": "mikhâhi.", "gloss": { "en": "you want", "sv": "du vill ha" }, "morph": "DUR-want.PRS-2SG" },
+          { "text": "از", "latin": "az", "gloss": { "en": "from", "sv": "från" } }
+        ],
+        "grammar": ["fa-object-ra"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "the-children-study-at-school",
+      "unit": "home-daily",
+      "level": "A1",
+      "translation": { "en": "The children study at school.", "sv": "Barnen pluggar i skolan.", "svAlt": ["Barnen studerar i skolan."] },
+      "ckb": {
+        "text": "منداڵەکان لە قوتابخانە دەخوێنن.",
+        "latin": "mindałekan le qutabxane dexwênin.",
+        "tokens": [
+          { "text": "منداڵەکان", "latin": "mindałekan", "gloss": { "en": "the children", "sv": "barnen" }, "concept": "child", "morph": "child-DEF.PL" },
+          { "text": "لە", "latin": "le", "gloss": { "en": "at, in", "sv": "på, i" } },
+          { "text": "قوتابخانە", "latin": "qutabxane", "gloss": { "en": "school", "sv": "skola" }, "concept": "school" },
+          { "text": "دەخوێنن.", "latin": "dexwênin.", "gloss": { "en": "study", "sv": "studerar" }, "concept": "to-study", "morph": "DUR-study.PRS-3PL" }
+        ],
+        "alternatives": [{ "text": "منداڵەکان لە قوتابخانەدا دەخوێنن.", "latin": "mindałekan le qutabxaneda dexwênin." }],
+        "distractors": [
+          { "text": "دەخوێنێت.", "latin": "dexwênêt.", "gloss": { "en": "studies (he/she)", "sv": "studerar (han/hon)" }, "morph": "DUR-study.PRS-3SG" },
+          { "text": "منداڵەکە", "latin": "mindałeke", "gloss": { "en": "the child", "sv": "barnet" }, "morph": "child-DEF" }
+        ],
+        "grammar": ["ckb-plural", "ckb-definite-ekan"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "بچه‌ها در مدرسه درس می‌خوانند.",
+        "latin": "bachche-hâ dar madrese dars mikhânand.",
+        "tokens": [
+          { "text": "بچه‌ها", "latin": "bachche-hâ", "gloss": { "en": "the children", "sv": "barnen" }, "concept": "child", "morph": "child-PL" },
+          { "text": "در", "latin": "dar", "gloss": { "en": "at, in", "sv": "på, i" } },
+          { "text": "مدرسه", "latin": "madrese", "gloss": { "en": "school", "sv": "skola" }, "concept": "school" },
+          { "text": "درس", "latin": "dars", "gloss": { "en": "lesson", "sv": "läxa" }, "concept": "to-study" },
+          { "text": "می‌خوانند.", "latin": "mikhânand.", "gloss": { "en": "they read", "sv": "de läser" }, "concept": "to-study", "morph": "DUR-read.PRS-3PL" }
+        ],
+        "colloquial": { "text": "بچه‌ها تو مدرسه درس می‌خونن.", "latin": "bachche-hâ tu madrese dars mikhunan." },
+        "distractors": [
+          { "text": "می‌خواند.", "latin": "mikhânad.", "gloss": { "en": "he/she reads", "sv": "han/hon läser" }, "morph": "DUR-read.PRS-3SG" },
+          { "text": "بچه", "latin": "bachche", "gloss": { "en": "child", "sv": "barn" } }
+        ],
+        "grammar": ["fa-plural"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-get-up-at-seven-every-day",
+      "unit": "home-daily",
+      "level": "A2",
+      "translation": { "en": "I get up at seven o'clock every day.", "sv": "Jag går upp klockan sju varje dag.", "enAlt": ["Every day I get up at seven."], "svAlt": ["Varje dag går jag upp klockan sju."] },
+      "ckb": {
+        "text": "هەموو ڕۆژێک کاتژمێر حەوت هەڵدەستم.",
+        "latin": "hemû řojêk katjimêr ḧewt hełdestim.",
+        "tokens": [
+          { "text": "هەموو", "latin": "hemû", "gloss": { "en": "every", "sv": "varje" }, "concept": "every-day" },
+          { "text": "ڕۆژێک", "latin": "řojêk", "gloss": { "en": "a day", "sv": "en dag" }, "concept": "every-day", "morph": "day-INDF" },
+          { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour" },
+          { "text": "حەوت", "latin": "ḧewt", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+          { "text": "هەڵدەستم.", "latin": "hełdestim.", "gloss": { "en": "I get up", "sv": "jag går upp" }, "concept": "to-wake-up", "morph": "up-DUR-rise.PRS-1SG" }
+        ],
+        "alternatives": [
+          { "text": "هەموو ڕۆژێک کاتژمێر حەوت لە خەو هەڵدەستم.", "latin": "hemû řojêk katjimêr ḧewt le xew hełdestim." },
+          { "text": "هەموو ڕۆژێک سەعات حەوت هەڵدەستم.", "latin": "hemû řojêk se'at ḧewt hełdestim." }
+        ],
+        "distractors": [
+          { "text": "هەڵدەستین.", "latin": "hełdestîn.", "gloss": { "en": "we get up", "sv": "vi går upp" }, "morph": "up-DUR-rise.PRS-1PL" },
+          { "text": "هەشت", "latin": "heşt", "gloss": { "en": "eight", "sv": "åtta" } }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "text": "هر روز ساعت هفت بیدار می‌شوم.",
+        "latin": "har ruz sâ'at-e haft bidâr mishavam.",
+        "tokens": [
+          { "text": "هر", "latin": "har", "gloss": { "en": "every", "sv": "varje" }, "concept": "every-day" },
+          { "text": "روز", "latin": "ruz", "gloss": { "en": "day", "sv": "dag" }, "concept": "every-day" },
+          { "text": "ساعت", "latin": "sâ'at-e", "gloss": { "en": "o'clock", "sv": "klockan" }, "concept": "hour", "morph": "hour-EZ" },
+          { "text": "هفت", "latin": "haft", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+          { "text": "بیدار", "latin": "bidâr", "gloss": { "en": "awake", "sv": "vaken" }, "concept": "to-wake-up" },
+          { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become", "sv": "jag blir" }, "concept": "to-wake-up", "morph": "DUR-become.PRS-1SG" }
+        ],
+        "colloquial": { "text": "هر روز ساعت هفت بیدار می‌شم.", "latin": "har ruz sâ'at-e haft bidâr misham." },
+        "distractors": [
+          { "text": "می‌شویم.", "latin": "mishavim.", "gloss": { "en": "we become", "sv": "vi blir" }, "morph": "DUR-become.PRS-1PL" },
+          { "text": "هشت", "latin": "hasht", "gloss": { "en": "eight", "sv": "åtta" } }
+        ],
+        "grammar": ["fa-habits-frequency", "fa-ezafe"],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "i-drink-tea-in-the-mornings",
+      "unit": "home-daily",
+      "level": "A2",
+      "translation": { "en": "In the mornings I drink tea.", "sv": "På morgnarna dricker jag te.", "enAlt": ["I drink tea in the morning."], "svAlt": ["Jag dricker te på morgonen."] },
+      "ckb": {
+        "text": "بەیانیان چا دەخۆمەوە.",
+        "latin": "beyanîyan ça dexomewe.",
+        "tokens": [
+          { "text": "بەیانیان", "latin": "beyanîyan", "gloss": { "en": "in the mornings", "sv": "på morgnarna" }, "concept": "morning", "morph": "morning-PL" },
+          { "text": "چا", "latin": "ça", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          { "text": "دەخۆمەوە.", "latin": "dexomewe.", "gloss": { "en": "I drink", "sv": "jag dricker" }, "concept": "to-drink", "morph": "DUR-eat.PRS-1SG-PV" }
+        ],
+        "distractors": [
+          { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "I eat (needs -ewe for drinking)", "sv": "jag äter (dricka kräver -ewe)" }, "morph": "DUR-eat.PRS-1SG" },
+          { "text": "بەیانی", "latin": "beyanî", "gloss": { "en": "morning", "sv": "morgon" } }
+        ],
+        "grammar": ["ckb-habits-frequency"],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§18" }]
+      },
+      "fa": {
+        "text": "صبح‌ها چای می‌خورم.",
+        "latin": "sobh-hâ chây mikhoram.",
+        "tokens": [
+          { "text": "صبح‌ها", "latin": "sobh-hâ", "gloss": { "en": "in the mornings", "sv": "på morgnarna" }, "concept": "morning", "morph": "morning-PL" },
+          { "text": "چای", "latin": "chây", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+          { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "I drink (lit. eat)", "sv": "jag dricker (ordagrant äter)" }, "concept": "to-drink", "morph": "DUR-eat.PRS-1SG" }
+        ],
+        "colloquial": { "text": "صبحا چایی می‌خورم.", "latin": "sobhâ châyi mikhoram." },
+        "distractors": [
+          { "text": "می‌خوری.", "latin": "mikhori.", "gloss": { "en": "you drink", "sv": "du dricker" }, "morph": "DUR-eat.PRS-2SG" },
+          { "text": "صبح", "latin": "sobh", "gloss": { "en": "morning", "sv": "morgon" } }
+        ],
+        "grammar": ["fa-habits-frequency"],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

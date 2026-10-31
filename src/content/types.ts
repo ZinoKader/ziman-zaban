@@ -150,7 +150,15 @@ export interface QAAnswer {
 }
 
 export interface QAForm {
-  question: { text: string; latin: string; tokens?: Token[] }
+  question: {
+    text: string
+    latin: string
+    tokens?: Token[]
+    /** Everyday spoken version of the question (mainly Persian). */
+    colloquial?: { text: string; latin: string }
+    /** Other common ways to ask the same thing. */
+    alternatives?: Array<{ text: string; latin: string }>
+  }
   /** Model answers. The first is the canonical one. Use `{slot}` for personal information. */
   answers: QAAnswer[]
   /** Example values for `{slot}` placeholders, e.g. names or cities. */

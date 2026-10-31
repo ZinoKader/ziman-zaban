@@ -180,10 +180,17 @@
       "gloss": { "en": "how are you?", "sv": "hur mår du?", "enAlt": ["how are you doing?"], "svAlt": ["hur är det?"] },
       "ckb": {
         "primary": { "script": "چۆنی؟", "latin": "çonî?" },
-        "variants": [{ "script": "چۆنیت؟", "latin": "çonît?" }],
+        "variants": [
+          { "script": "چۆنیت؟", "latin": "çonît?" },
+          {
+            "script": "چۆنن؟",
+            "latin": "çonin?",
+            "note": { "en": "to several people, or politely to one", "sv": "till flera personer, eller artigt till en" }
+          }
+        ],
         "notes": {
-          "en": "چۆن means \"how\" and ی / یت is \"you are\". To several people: چۆنن؟ (çonin?).",
-          "sv": "چۆن betyder \"hur\" och ی / یت är \"du är\". Till flera personer: چۆنن؟ (çonin?)."
+          "en": "چۆن means \"how\" and ی / یت is \"you are\". To several people, or politely to an elder: چۆنن؟ (çonin?), with the plural \"you are\" ن.",
+          "sv": "چۆن betyder \"hur\" och ی / یت är \"du är\". Till flera personer, eller artigt till en äldre: چۆنن؟ (çonin?), med plural-\"ni är\" ن."
         },
         "sources": [{ "source": "wiktionary", "ref": "how are you" }, { "source": "tatoeba" }]
       },
@@ -191,6 +198,12 @@
         "primary": { "script": "چطوری؟", "latin": "chetori?", "register": "colloquial" },
         "variants": [
           { "script": "حالت چطوره؟", "latin": "hâlet chetore?", "register": "colloquial" },
+          {
+            "script": "حالتون چطوره؟",
+            "latin": "hâletun chetore?",
+            "register": "colloquial",
+            "note": { "en": "polite, to an elder or a stranger", "sv": "artigt, till en äldre eller en främling" }
+          },
           { "script": "حال شما چطور است؟", "latin": "hâl-e shomâ chetor ast?", "register": "formal" }
         ],
         "notes": {
@@ -253,6 +266,17 @@
       "gloss": { "en": "and you?", "sv": "och du?", "enAlt": ["what about you?"], "svAlt": ["själv då?"] },
       "ckb": {
         "primary": { "script": "ئەی تۆ؟", "latin": "ey to?" },
+        "variants": [
+          {
+            "script": "ئەی ئێوە؟",
+            "latin": "ey êwe?",
+            "note": { "en": "to several people, or politely to one", "sv": "till flera personer, eller artigt till en" }
+          }
+        ],
+        "notes": {
+          "en": "ئەی here is \"and what about…?\", used to bounce a question back.",
+          "sv": "ئەی betyder här \"och hur är det med…?\" och används för att ställa frågan tillbaka."
+        },
         "sources": [{ "source": "wiktionary", "ref": "ئەی" }, { "source": "tatoeba" }]
       },
       "fa": {

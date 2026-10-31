@@ -1,0 +1,236 @@
+{
+  "points": [
+    {
+      "id": "ckb-question-words",
+      "unit": "conversation",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Question words", "sv": "Frågeord" },
+      "explanation": {
+        "en": "The question words are `چی` çî 'what', `کێ` kê 'who', `لە کوێ` le kwê 'where', `کەی` key 'when', `بۆچی` boçî 'why', `چۆن` çon 'how', `کام` kam 'which' (`کامیان` 'which of them') and `چەند` çend 'how many/much'. **The word order does not change**: the question word stands where the answer would be, normally just before the verb. 'Is' joins the question word as an ending: `چییە؟` 'what is…?', `کێیە؟` 'who is…?', `لە کوێیە؟` 'where is…?', `چۆنە؟` 'how is…?'. A yes/no question is just a statement with rising intonation; in writing it may start with `ئایا`.",
+        "sv": "Frågeorden är `چی` çî 'vad', `کێ` kê 'vem', `لە کوێ` le kwê 'var', `کەی` key 'när', `بۆچی` boçî 'varför', `چۆن` çon 'hur', `کام` kam 'vilken' (`کامیان` 'vilken av dem') och `چەند` çend 'hur många/mycket'. **Ordföljden ändras inte**: frågeordet står där svaret skulle stå, oftast precis före verbet. 'Är' fogas till frågeordet som en ändelse: `چییە؟` 'vad är…?', `کێیە؟` 'vem är…?', `لە کوێیە؟` 'var är…?', `چۆنە؟` 'hur är…?'. En ja/nej-fråga är bara ett påstående med stigande intonation; i skrift kan den börja med `ئایا`."
+      },
+      "examples": [
+        {
+          "text": "ناوت چییە؟",
+          "latin": "nawit çîye?",
+          "translation": { "en": "What is your name?", "sv": "Vad heter du?" },
+          "tokens": [
+            { "text": "ناوت", "latin": "nawit", "gloss": { "en": "your name", "sv": "ditt namn" }, "concept": "name", "morph": "name-2SG" },
+            { "text": "چییە؟", "latin": "çîye?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-COP.3SG" }
+          ]
+        },
+        {
+          "text": "ئەوە کێیە؟",
+          "latin": "ewe kêye?",
+          "translation": { "en": "Who is that?", "sv": "Vem är det?" },
+          "tokens": [
+            { "text": "ئەوە", "latin": "ewe", "gloss": { "en": "that", "sv": "det där" }, "concept": "that" },
+            { "text": "کێیە؟", "latin": "kêye?", "gloss": { "en": "who is", "sv": "vem är" }, "concept": "who", "morph": "who-COP.3SG" }
+          ]
+        },
+        {
+          "text": "بۆچی لێرەیت؟",
+          "latin": "boçî lêreyt?",
+          "translation": { "en": "Why are you here?", "sv": "Varför är du här?" },
+          "tokens": [
+            { "text": "بۆچی", "latin": "boçî", "gloss": { "en": "why", "sv": "varför" }, "concept": "why" },
+            { "text": "لێرەیت؟", "latin": "lêreyt?", "gloss": { "en": "are you here", "sv": "är du här" }, "concept": "here", "morph": "in.here-COP.2SG" }
+          ]
+        },
+        {
+          "text": "کامیان باشترە؟",
+          "latin": "kamyan baştire?",
+          "translation": { "en": "Which one is better?", "sv": "Vilken är bättre?" },
+          "tokens": [
+            { "text": "کامیان", "latin": "kamyan", "gloss": { "en": "which of them", "sv": "vilken av dem" }, "concept": "which", "morph": "which-3PL" },
+            { "text": "باشترە؟", "latin": "baştire?", "gloss": { "en": "is better", "sv": "är bättre" }, "concept": "good", "morph": "good-CMPR-COP.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "kim-kurdish-grammar", "ref": "Chapter 5. Questions" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "ckb-conjunctions",
+      "unit": "conversation",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "And, but, or, because, too", "sv": "Och, men, eller, eftersom, också" },
+      "explanation": {
+        "en": "`و` 'and' is pronounced **û** and leans on the word before it: `کوردی و فارسی` kurdî û farsî. `بەڵام` bełam is 'but', `یان` yan 'or' and `چونکە` çunke 'because' (also `لەبەر ئەوەی`). 'Too, also' is usually the ending `ـیش` -îş, just `ـش` after a vowel: `منیش` 'me too', `تۆش` 'you too'. It goes on nouns and pronouns, **never on a finite verb**, and comes before a possessive ending: `باوکیشم` 'my father too'. As a separate word, 'also' is `هەروەها`.",
+        "sv": "`و` 'och' uttalas **û** och lutar sig mot ordet före: `کوردی و فارسی` kurdî û farsî. `بەڵام` bełam är 'men', `یان` yan 'eller' och `چونکە` çunke 'eftersom' (även `لەبەر ئەوەی`). 'Också' är oftast ändelsen `ـیش` -îş, bara `ـش` efter vokal: `منیش` 'jag också', `تۆش` 'du också'. Den sitter på substantiv och pronomen, **aldrig på ett finit verb**, och kommer före en possessiv ändelse: `باوکیشم` 'min pappa också'. Som eget ord heter 'också' `هەروەها`."
+      },
+      "examples": [
+        {
+          "text": "کوردی و فارسی قسە دەکەم.",
+          "latin": "kurdî û farsî qise dekem.",
+          "translation": { "en": "I speak Kurdish and Persian.", "sv": "Jag talar kurdiska och persiska." },
+          "tokens": [
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "و", "latin": "û", "gloss": { "en": "and", "sv": "och" }, "concept": "and" },
+            { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "قسە", "latin": "qise", "gloss": { "en": "speech", "sv": "tal" }, "concept": "to-speak" },
+            { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag talar)" }, "concept": "to-speak", "morph": "DUR-do.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "کەمێک کوردی قسە دەکەم، بەڵام فارسی نازانم.",
+          "latin": "kemêk kurdî qise dekem, bełam farsî nazanim.",
+          "translation": { "en": "I speak a little Kurdish, but I don't know Persian.", "sv": "Jag talar lite kurdiska, men jag kan inte persiska." },
+          "tokens": [
+            { "text": "کەمێک", "latin": "kemêk", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "قسە", "latin": "qise", "gloss": { "en": "speech", "sv": "tal" }, "concept": "to-speak" },
+            { "text": "دەکەم،", "latin": "dekem,", "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag talar)" }, "concept": "to-speak", "morph": "DUR-do.PRS-1SG" },
+            { "text": "بەڵام", "latin": "bełam", "gloss": { "en": "but", "sv": "men" }, "concept": "but" },
+            { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "نازانم.", "latin": "nazanim.", "gloss": { "en": "I don't know", "sv": "jag kan inte" }, "concept": "i-dont-know", "morph": "NEG-know.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "لە سوید دەژیم چونکە خێزانەکەم لێرەیە.",
+          "latin": "le Swîd dejîm çunke xêzanekem lêreye.",
+          "translation": { "en": "I live in Sweden because my family is here.", "sv": "Jag bor i Sverige eftersom min familj är här." },
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "سوید", "latin": "Swîd", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+            { "text": "دەژیم", "latin": "dejîm", "gloss": { "en": "I live", "sv": "jag bor" }, "concept": "to-live", "morph": "DUR-live.PRS-1SG" },
+            { "text": "چونکە", "latin": "çunke", "gloss": { "en": "because", "sv": "eftersom" }, "concept": "because" },
+            { "text": "خێزانەکەم", "latin": "xêzanekem", "gloss": { "en": "my family", "sv": "min familj" }, "concept": "family", "morph": "family-DEF-1SG" },
+            { "text": "لێرەیە.", "latin": "lêreye.", "gloss": { "en": "is here", "sv": "är här" }, "concept": "here", "morph": "in.here-COP.3SG" }
+          ]
+        },
+        {
+          "text": "منیش باشم.",
+          "latin": "minîş başim.",
+          "translation": { "en": "I'm fine too.", "sv": "Jag mår också bra." },
+          "tokens": [
+            { "text": "منیش", "latin": "minîş", "gloss": { "en": "I too", "sv": "jag också" }, "concept": "also", "morph": "I-too" },
+            { "text": "باشم.", "latin": "başim.", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "kim-kurdish-grammar", "ref": "Chapter 14. Conjunctions" },
+        { "source": "thackston-sorani-grammar", "ref": "§11" },
+        { "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "fa-question-words",
+      "unit": "conversation",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Question words", "sv": "Frågeord" },
+      "explanation": {
+        "en": "The question words are `چه` che 'what' (spoken `چی` chi), `کی` ki 'who', `کجا` kojâ 'where', `کی` key 'when' (same spelling as 'who'!), `چرا` cherâ 'why', `چطور` chetor 'how', `کدام` kodâm 'which' (spoken `کدوم`) and `چند` chand 'how many'. As in Sorani, **the word order does not change**: the question word stands where the answer would be. `است` 'is' fuses with it: `چیست؟` 'what is?', `کیست؟` 'who is?', `کجاست؟` 'where is?'. In speech: `چیه؟`, `کیه؟`, `کجاست؟` kojâs. A yes/no question is a statement with rising intonation; formal writing may add `آیا` at the start.",
+        "sv": "Frågeorden är `چه` che 'vad' (i tal `چی` chi), `کی` ki 'vem', `کجا` kojâ 'var', `کی` key 'när' (samma stavning som 'vem'!), `چرا` cherâ 'varför', `چطور` chetor 'hur', `کدام` kodâm 'vilken' (i tal `کدوم`) och `چند` chand 'hur många'. Precis som i sorani **ändras inte ordföljden**: frågeordet står där svaret skulle stå. `است` 'är' smälter ihop med det: `چیست؟` 'vad är?', `کیست؟` 'vem är?', `کجاست؟` 'var är?'. I tal: `چیه؟`, `کیه؟`, `کجاست؟` kojâs. En ja/nej-fråga är ett påstående med stigande intonation; i formell skrift kan `آیا` stå först."
+      },
+      "examples": [
+        {
+          "text": "اسمت چیست؟",
+          "latin": "esmat chist?",
+          "translation": { "en": "What is your name?", "sv": "Vad heter du?" },
+          "tokens": [
+            { "text": "اسمت", "latin": "esmat", "gloss": { "en": "your name", "sv": "ditt namn" }, "concept": "name", "morph": "name-2SG" },
+            { "text": "چیست؟", "latin": "chist?", "gloss": { "en": "what is", "sv": "vad är" }, "concept": "what", "morph": "what-COP.3SG" }
+          ]
+        },
+        {
+          "text": "او کیست؟",
+          "latin": "u kist?",
+          "translation": { "en": "Who is he/she?", "sv": "Vem är han/hon?" },
+          "tokens": [
+            { "text": "او", "latin": "u", "gloss": { "en": "he/she", "sv": "han/hon" }, "concept": "he-she" },
+            { "text": "کیست؟", "latin": "kist?", "gloss": { "en": "who is", "sv": "vem är" }, "concept": "who", "morph": "who-COP.3SG" }
+          ]
+        },
+        {
+          "text": "چرا اینجا هستی؟",
+          "latin": "cherâ injâ hasti?",
+          "translation": { "en": "Why are you here?", "sv": "Varför är du här?" },
+          "tokens": [
+            { "text": "چرا", "latin": "cherâ", "gloss": { "en": "why", "sv": "varför" }, "concept": "why" },
+            { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
+            { "text": "هستی؟", "latin": "hasti?", "gloss": { "en": "are you", "sv": "är du" }, "concept": "to-be", "morph": "be.PRS-2SG" }
+          ]
+        },
+        {
+          "text": "کدام بهتر است؟",
+          "latin": "kodâm behtar ast?",
+          "translation": { "en": "Which one is better?", "sv": "Vilken är bättre?" },
+          "tokens": [
+            { "text": "کدام", "latin": "kodâm", "gloss": { "en": "which", "sv": "vilken" }, "concept": "which" },
+            { "text": "بهتر", "latin": "behtar", "gloss": { "en": "better", "sv": "bättre" }, "concept": "good", "morph": "good.CMPR" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "wiktionary" }, { "source": "tatoeba" }, { "source": "author" }]
+    },
+    {
+      "id": "fa-conjunctions",
+      "unit": "conversation",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "And, but, or, because, too", "sv": "Och, men, eller, eftersom, också" },
+      "explanation": {
+        "en": "`و` 'and' is read **va** in careful speech, but in everyday speech it is usually **o**, joined to the word before: `کردی و فارسی` kordi-o fârsi. 'But' is `ولی` vali (more formal `اما` ammâ), 'or' is `یا` yâ and 'because' is `چون` chon (formal `زیرا`). 'Too, also' is the separate word `هم` ham, placed **after** the word it is about: `من هم` 'me too' (spoken `منم` manam). This is where Sorani uses the ending `ـیش`: `منیش`.",
+        "sv": "`و` 'och' läses **va** i vårdat tal, men i vardagligt tal blir det oftast **o**, som fogas till ordet före: `کردی و فارسی` kordi-o fârsi. 'Men' är `ولی` vali (mer formellt `اما` ammâ), 'eller' är `یا` yâ och 'eftersom' är `چون` chon (formellt `زیرا`). 'Också' är det fristående ordet `هم` ham, som står **efter** ordet det gäller: `من هم` 'jag också' (i tal `منم` manam). Här använder sorani ändelsen `ـیش`: `منیش`."
+      },
+      "examples": [
+        {
+          "text": "کردی و فارسی صحبت می‌کنم.",
+          "latin": "kordi va fârsi sohbat mikonam.",
+          "translation": { "en": "I speak Kurdish and Persian.", "sv": "Jag talar kurdiska och persiska." },
+          "tokens": [
+            { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "و", "latin": "va", "gloss": { "en": "and", "sv": "och" }, "concept": "and" },
+            { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+            { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag talar)" }, "concept": "to-speak", "morph": "DUR-do.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "کمی کردی صحبت می‌کنم، ولی فارسی نمی‌دانم.",
+          "latin": "kami kordi sohbat mikonam, vali fârsi nemidânam.",
+          "translation": { "en": "I speak a little Kurdish, but I don't know Persian.", "sv": "Jag talar lite kurdiska, men jag kan inte persiska." },
+          "tokens": [
+            { "text": "کمی", "latin": "kami", "gloss": { "en": "a little", "sv": "lite" }, "concept": "a-little" },
+            { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+            { "text": "می‌کنم،", "latin": "mikonam,", "gloss": { "en": "I do (= I speak)", "sv": "jag gör (= jag talar)" }, "concept": "to-speak", "morph": "DUR-do.PRS-1SG" },
+            { "text": "ولی", "latin": "vali", "gloss": { "en": "but", "sv": "men" }, "concept": "but" },
+            { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "نمی‌دانم.", "latin": "nemidânam.", "gloss": { "en": "I don't know", "sv": "jag kan inte" }, "concept": "i-dont-know", "morph": "NEG-DUR-know.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "در سوئد زندگی می‌کنم چون خانواده‌ام اینجاست.",
+          "latin": "dar Su'ed zendegi mikonam chon khânevâde-am injâst.",
+          "translation": { "en": "I live in Sweden because my family is here.", "sv": "Jag bor i Sverige eftersom min familj är här." },
+          "tokens": [
+            { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "سوئد", "latin": "Su'ed", "gloss": { "en": "Sweden", "sv": "Sverige" }, "concept": "sweden" },
+            { "text": "زندگی", "latin": "zendegi", "gloss": { "en": "life", "sv": "liv" }, "concept": "to-live" },
+            { "text": "می‌کنم", "latin": "mikonam", "gloss": { "en": "I do (= I live)", "sv": "jag gör (= jag bor)" }, "concept": "to-live", "morph": "DUR-do.PRS-1SG" },
+            { "text": "چون", "latin": "chon", "gloss": { "en": "because", "sv": "eftersom" }, "concept": "because" },
+            { "text": "خانواده‌ام", "latin": "khânevâde-am", "gloss": { "en": "my family", "sv": "min familj" }, "concept": "family", "morph": "family-1SG" },
+            { "text": "اینجاست.", "latin": "injâst.", "gloss": { "en": "is here", "sv": "är här" }, "concept": "here", "morph": "here-COP.3SG" }
+          ]
+        },
+        {
+          "text": "من هم خوبم.",
+          "latin": "man ham khubam.",
+          "translation": { "en": "I'm fine too.", "sv": "Jag mår också bra." },
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "هم", "latin": "ham", "gloss": { "en": "too", "sv": "också" }, "concept": "also" },
+            { "text": "خوبم.", "latin": "khubam.", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "wiktionary" }, { "source": "tatoeba" }, { "source": "author" }]
+    }
+  ]
+}

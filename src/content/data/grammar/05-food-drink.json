@@ -1,0 +1,303 @@
+{
+  "points": [
+    {
+      "id": "ckb-present-tense",
+      "unit": "food-drink",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "The present tense", "sv": "Presens" },
+      "explanation": {
+        "en": "The present tense is `دە-` + the **present stem** + a personal ending. The stem often looks different from the infinitive, so learn it with the verb: `خواردن` 'to eat' → stem `خۆ`. Then: `دەخۆم` 'I eat', `دەخۆیت` 'you eat', `دەخوات` 'he/she eats', `دەخۆین` 'we eat', `دەخۆن` 'you (pl.) / they eat'. The same form also means 'I am eating' and 'I will eat'.\n\nSome verbs end in `-ەوە` (-ewe), which comes **after** the ending: `خواردنەوە` 'to drink' → `دەخۆمەوە` 'I drink', `دەخۆیتەوە` 'you drink'. In Sulaymani speech you will often hear `ئە-` instead of `دە-` (`ئەخۆم`) and a dropped final -t (`دەخوا`).",
+        "sv": "Presens bildas med `دە-` + **presensstammen** + en personändelse. Stammen ser ofta annorlunda ut än infinitiven, så lär dig den tillsammans med verbet: `خواردن` 'äta' → stam `خۆ`. Sedan: `دەخۆم` 'jag äter', `دەخۆیت` 'du äter', `دەخوات` 'han/hon äter', `دەخۆین` 'vi äter', `دەخۆن` 'ni/de äter'. Samma form betyder också 'jag håller på att äta' och 'jag ska äta'.\n\nVissa verb slutar på `-ەوە` (-ewe), som kommer **efter** ändelsen: `خواردنەوە` 'dricka' → `دەخۆمەوە` 'jag dricker', `دەخۆیتەوە` 'du dricker'. I sulaymanidialekten hör man ofta `ئە-` i stället för `دە-` (`ئەخۆم`) och ett bortfallet -t i slutet (`دەخوا`)."
+      },
+      "examples": [
+        {
+          "text": "من نان دەخۆم.",
+          "latin": "min nan dexom.",
+          "translation": { "en": "I eat bread.", "sv": "Jag äter bröd." },
+          "tokens": [
+            { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "نان", "latin": "nan", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+            { "text": "دەخۆم.", "latin": "dexom.", "gloss": { "en": "eat", "sv": "äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "ئێمە برنج دەخۆین.",
+          "latin": "ême birinc dexoyn.",
+          "translation": { "en": "We eat rice.", "sv": "Vi äter ris." },
+          "tokens": [
+            { "text": "ئێمە", "latin": "ême", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+            { "text": "برنج", "latin": "birinc", "gloss": { "en": "rice", "sv": "ris" }, "concept": "rice" },
+            { "text": "دەخۆین.", "latin": "dexoyn.", "gloss": { "en": "eat", "sv": "äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1PL" }
+          ]
+        },
+        {
+          "text": "چا دەخۆیتەوە؟",
+          "latin": "ça dexoytewe?",
+          "translation": { "en": "Do you drink tea?", "sv": "Dricker du te?" },
+          "tokens": [
+            { "text": "چا", "latin": "ça", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+            {
+              "text": "دەخۆیتەوە؟",
+              "latin": "dexoytewe?",
+              "gloss": { "en": "do you drink", "sv": "dricker du" },
+              "concept": "to-drink",
+              "morph": "DUR-drink.PRS-2SG-ewe"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§17" }, { "source": "thackston-sorani-grammar", "ref": "§18" }, { "source": "author" }]
+    },
+    {
+      "id": "ckb-wanting",
+      "unit": "food-drink",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Saying what you want: دەوێت", "sv": "Att säga vad man vill ha: دەوێت" },
+      "explanation": {
+        "en": "'Want' is unusual: `دەوێت` itself does not change, and the **person** is shown by a small pronoun ending. With a thing, the ending goes on the thing: `ئاوم دەوێت` 'I want water' (lit. 'water-my is wanted'), `چیت دەوێت؟` 'what do you want?', `دوو هێلکەم دەوێت` 'I want two eggs'.\n\nWith a verb, the ending goes inside: `دەمەوێت` 'I want', `دەتەوێت` 'you want', `دەیەوێت` 'he/she wants'. The second verb is in the **subjunctive**, with `ب-` instead of `دە-`, and it carries the person too: `دەمەوێت بخۆم` 'I want to eat' (lit. 'I want I eat'), `دەتەوێت چی بخۆیتەوە؟` 'what do you want to drink?'. In speech the -t is often dropped: `دەمەوێ`.",
+        "sv": "'Vilja ha' är speciellt: `دەوێت` ändras inte, och **personen** visas med en liten pronomenändelse. Med en sak sätts ändelsen på saken: `ئاوم دەوێت` 'jag vill ha vatten' (ordagrant 'vatten-mitt önskas'), `چیت دەوێت؟` 'vad vill du ha?', `دوو هێلکەم دەوێت` 'jag vill ha två ägg'.\n\nMed ett verb hamnar ändelsen inuti: `دەمەوێت` 'jag vill', `دەتەوێت` 'du vill', `دەیەوێت` 'han/hon vill'. Det andra verbet står i **konjunktiv**, med `ب-` i stället för `دە-`, och det böjs också efter person: `دەمەوێت بخۆم` 'jag vill äta' (ordagrant 'jag vill jag äter'), `دەتەوێت چی بخۆیتەوە؟` 'vad vill du dricka?'. I tal faller -t ofta bort: `دەمەوێ`."
+      },
+      "examples": [
+        {
+          "text": "ئاوم دەوێت.",
+          "latin": "awim dewêt.",
+          "translation": { "en": "I want water.", "sv": "Jag vill ha vatten." },
+          "tokens": [
+            { "text": "ئاوم", "latin": "awim", "gloss": { "en": "water-my", "sv": "vatten-mitt" }, "concept": "water", "morph": "water-1SG" },
+            { "text": "دەوێت.", "latin": "dewêt.", "gloss": { "en": "is wanted", "sv": "önskas" }, "concept": "to-want", "morph": "DUR-want.PRS-3SG" }
+          ]
+        },
+        {
+          "text": "چیت دەوێت؟",
+          "latin": "çît dewêt?",
+          "translation": { "en": "What do you want?", "sv": "Vad vill du ha?" },
+          "tokens": [
+            { "text": "چیت", "latin": "çît", "gloss": { "en": "what-your", "sv": "vad-ditt" }, "concept": "what", "morph": "what-2SG" },
+            { "text": "دەوێت؟", "latin": "dewêt?", "gloss": { "en": "is wanted", "sv": "önskas" }, "concept": "to-want", "morph": "DUR-want.PRS-3SG" }
+          ]
+        },
+        {
+          "text": "دەمەوێت نان بخۆم.",
+          "latin": "demewêt nan bixom.",
+          "translation": { "en": "I want to eat bread.", "sv": "Jag vill äta bröd." },
+          "tokens": [
+            { "text": "دەمەوێت", "latin": "demewêt", "gloss": { "en": "I want", "sv": "jag vill" }, "concept": "to-want", "morph": "DUR-1SG-want.PRS-3SG" },
+            { "text": "نان", "latin": "nan", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+            { "text": "بخۆم.", "latin": "bixom.", "gloss": { "en": "(that) I eat", "sv": "(att) jag äter" }, "concept": "to-eat", "morph": "SBJV-eat.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§19–20" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "ckb-negation",
+      "unit": "food-drink",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Saying \"not\" in the present", "sv": "Att säga \"inte\" i presens" },
+      "explanation": {
+        "en": "In the present, `نا-` **replaces** `دە-`: `دەخۆم` → `ناخۆم` 'I don't eat', `دەخۆمەوە` → `ناخۆمەوە` 'I don't drink'. 'Want' works the same way: `ئاوم ناوێت` 'I don't want water', `نامەوێت` 'I don't want (to)'.\n\n'Be' and 'have' have their own negative, `نیم` 'I am not' and `نییە` 'is not, there isn't': `برسیم نییە` 'I'm not hungry', `ئاو نییە` 'there is no water'. Don't use `نە-` in the plain present: it belongs to the subjunctive and the past, so `نەخۆم` means '(that) I don't eat'.",
+        "sv": "I presens **ersätter** `نا-` prefixet `دە-`: `دەخۆم` → `ناخۆم` 'jag äter inte', `دەخۆمەوە` → `ناخۆمەوە` 'jag dricker inte'. 'Vilja ha' fungerar likadant: `ئاوم ناوێت` 'jag vill inte ha vatten', `نامەوێت` 'jag vill inte'.\n\n'Vara' och 'ha' har en egen negation, `نیم` 'jag är inte' och `نییە` 'är inte, det finns inte': `برسیم نییە` 'jag är inte hungrig', `ئاو نییە` 'det finns inget vatten'. Använd inte `نە-` i vanlig presens: det hör till konjunktiv och preteritum, så `نەخۆم` betyder '(att) jag inte äter'."
+      },
+      "examples": [
+        {
+          "text": "من گۆشت ناخۆم.",
+          "latin": "min goşt naxom.",
+          "translation": { "en": "I don't eat meat.", "sv": "Jag äter inte kött." },
+          "tokens": [
+            { "text": "من", "latin": "min", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "گۆشت", "latin": "goşt", "gloss": { "en": "meat", "sv": "kött" }, "concept": "meat" },
+            { "text": "ناخۆم.", "latin": "naxom.", "gloss": { "en": "don't eat", "sv": "äter inte" }, "concept": "to-eat", "morph": "NEG-eat.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "قاوە ناخۆمەوە.",
+          "latin": "qawe naxomewe.",
+          "translation": { "en": "I don't drink coffee.", "sv": "Jag dricker inte kaffe." },
+          "tokens": [
+            { "text": "قاوە", "latin": "qawe", "gloss": { "en": "coffee", "sv": "kaffe" }, "concept": "coffee" },
+            {
+              "text": "ناخۆمەوە.",
+              "latin": "naxomewe.",
+              "gloss": { "en": "I don't drink", "sv": "jag dricker inte" },
+              "concept": "to-drink",
+              "morph": "NEG-drink.PRS-1SG-ewe"
+            }
+          ]
+        },
+        {
+          "text": "نەخێر، برسیم نییە.",
+          "latin": "nexêr, birsîm nîye.",
+          "translation": { "en": "No, I'm not hungry.", "sv": "Nej, jag är inte hungrig." },
+          "tokens": [
+            { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+            { "text": "برسیم", "latin": "birsîm", "gloss": { "en": "hungry-my", "sv": "hungrig-min" }, "concept": "hungry", "morph": "hungry-1SG" },
+            { "text": "نییە.", "latin": "nîye.", "gloss": { "en": "is not", "sv": "är inte" }, "morph": "NEG.COP.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "§17, §20" }, { "source": "kim-kurdish-grammar", "ref": "Irregular verbs like هەبوون" }]
+    },
+    {
+      "id": "fa-present-tense",
+      "unit": "food-drink",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "The present tense", "sv": "Presens" },
+      "explanation": {
+        "en": "The present tense is `می‌` (mi-) + the **present stem** + a personal ending. Learn the stem with the verb: `خوردن` 'to eat' → `خور`. Then: `می‌خورم` 'I eat', `می‌خوری` 'you eat', `می‌خورد` 'he/she eats', `می‌خوریم` 'we eat', `می‌خورید` 'you (pl./polite) eat', `می‌خورند` 'they eat'. It also means 'I am eating' and 'I will eat'. `می‌` is joined with a half-space, not a full space.\n\nIn everyday speech `خوردن` is used for drinks too: `چای می‌خورم` 'I drink tea'; `نوشیدن` is more formal. Spoken endings are shorter: `می‌خوره` (mikhore) 'eats', `می‌خورن` (mikhoran) 'they eat'. `دارم` 'I have' and `هستم` 'I am' take no `می‌`.",
+        "sv": "Presens bildas med `می‌` (mi-) + **presensstammen** + en personändelse. Lär dig stammen tillsammans med verbet: `خوردن` 'äta' → `خور`. Sedan: `می‌خورم` 'jag äter', `می‌خوری` 'du äter', `می‌خورد` 'han/hon äter', `می‌خوریم` 'vi äter', `می‌خورید` 'ni äter', `می‌خورند` 'de äter'. Formen betyder också 'jag håller på att äta' och 'jag ska äta'. `می‌` fogas på med ett halvt mellanslag, inte ett helt.\n\nI vardagligt tal används `خوردن` även om drycker: `چای می‌خورم` 'jag dricker te'; `نوشیدن` är mer formellt. Talspråkets ändelser är kortare: `می‌خوره` (mikhore) 'äter', `می‌خورن` (mikhoran) 'de äter'. `دارم` 'jag har' och `هستم` 'jag är' får inget `می‌`."
+      },
+      "examples": [
+        {
+          "text": "من نان می‌خورم.",
+          "latin": "man nân mikhoram.",
+          "translation": { "en": "I eat bread.", "sv": "Jag äter bröd." },
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "نان", "latin": "nân", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+            { "text": "می‌خورم.", "latin": "mikhoram.", "gloss": { "en": "eat", "sv": "äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "ما برنج می‌خوریم.",
+          "latin": "mâ berenj mikhorim.",
+          "translation": { "en": "We eat rice.", "sv": "Vi äter ris." },
+          "tokens": [
+            { "text": "ما", "latin": "mâ", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+            { "text": "برنج", "latin": "berenj", "gloss": { "en": "rice", "sv": "ris" }, "concept": "rice" },
+            { "text": "می‌خوریم.", "latin": "mikhorim.", "gloss": { "en": "eat", "sv": "äter" }, "concept": "to-eat", "morph": "DUR-eat.PRS-1PL" }
+          ]
+        },
+        {
+          "text": "چای می‌خوری؟",
+          "latin": "chây mikhori?",
+          "translation": { "en": "Do you drink tea?", "sv": "Dricker du te?" },
+          "tokens": [
+            { "text": "چای", "latin": "chây", "gloss": { "en": "tea", "sv": "te" }, "concept": "tea" },
+            {
+              "text": "می‌خوری؟",
+              "latin": "mikhori?",
+              "gloss": { "en": "do you drink (eat)", "sv": "dricker (äter) du" },
+              "concept": "to-eat",
+              "morph": "DUR-eat.PRS-2SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-wanting-subjunctive",
+      "unit": "food-drink",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Wanting: خواستن + subjunctive", "sv": "Att vilja: خواستن + konjunktiv" },
+      "explanation": {
+        "en": "`خواستن` 'to want' has the stem `خواه` (khâh; the `و` is silent): `می‌خواهم` 'I want', `می‌خواهی` 'you want', `می‌خواهد` 'he/she wants', `می‌خواهید` 'you (pl./polite) want'. In speech it shrinks to `می‌خوام` (mikhâm), `می‌خوای`, `می‌خواد`, `می‌خواین`. With a thing: `آب می‌خواهم` 'I want water'.\n\nWith a verb there is no word for 'to'. The second verb is in the **subjunctive**: `ب-` (be-, in speech often bo- before an o) + present stem + ending, and **both** verbs carry the person: `می‌خواهم بخورم` (mikhâham bekhoram) 'I want to eat', spoken `می‌خوام بخورم` (mikhâm bokhoram). The negative is `نمی‌خواهم` 'I don't want'.",
+        "sv": "`خواستن` 'vilja' har stammen `خواه` (khâh; `و` uttalas inte): `می‌خواهم` 'jag vill', `می‌خواهی` 'du vill', `می‌خواهد` 'han/hon vill', `می‌خواهید` 'ni vill'. I tal krymper det till `می‌خوام` (mikhâm), `می‌خوای`, `می‌خواد`, `می‌خواین`. Med en sak: `آب می‌خواهم` 'jag vill ha vatten'.\n\nMed ett verb finns inget ord för 'att'. Det andra verbet står i **konjunktiv**: `ب-` (be-, i tal ofta bo- före ett o) + presensstam + ändelse, och **båda** verben böjs efter person: `می‌خواهم بخورم` (mikhâham bekhoram) 'jag vill äta', i tal `می‌خوام بخورم` (mikhâm bokhoram). Negationen är `نمی‌خواهم` 'jag vill inte'."
+      },
+      "examples": [
+        {
+          "text": "آب می‌خواهم.",
+          "latin": "âb mikhâham.",
+          "translation": { "en": "I want water.", "sv": "Jag vill ha vatten." },
+          "tokens": [
+            { "text": "آب", "latin": "âb", "gloss": { "en": "water", "sv": "vatten" }, "concept": "water" },
+            { "text": "می‌خواهم.", "latin": "mikhâham.", "gloss": { "en": "I want", "sv": "jag vill ha" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "می‌خواهم نان بخورم.",
+          "latin": "mikhâham nân bekhoram.",
+          "translation": { "en": "I want to eat bread.", "sv": "Jag vill äta bröd." },
+          "tokens": [
+            { "text": "می‌خواهم", "latin": "mikhâham", "gloss": { "en": "I want", "sv": "jag vill" }, "concept": "to-want", "morph": "DUR-want.PRS-1SG" },
+            { "text": "نان", "latin": "nân", "gloss": { "en": "bread", "sv": "bröd" }, "concept": "bread" },
+            {
+              "text": "بخورم.",
+              "latin": "bekhoram.",
+              "gloss": { "en": "(that) I eat", "sv": "(att) jag äter" },
+              "concept": "to-eat",
+              "morph": "SBJV-eat.PRS-1SG"
+            }
+          ]
+        },
+        {
+          "text": "چه می‌خواهید بنوشید؟",
+          "latin": "che mikhâhid benushid?",
+          "translation": { "en": "What do you want to drink?", "sv": "Vad vill ni dricka?" },
+          "tokens": [
+            { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vad" }, "concept": "what" },
+            { "text": "می‌خواهید", "latin": "mikhâhid", "gloss": { "en": "do you want", "sv": "vill ni" }, "concept": "to-want", "morph": "DUR-want.PRS-2PL" },
+            {
+              "text": "بنوشید؟",
+              "latin": "benushid?",
+              "gloss": { "en": "(that) you drink", "sv": "(att) ni dricker" },
+              "concept": "to-drink",
+              "morph": "SBJV-drink.PRS-2PL"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-negation",
+      "unit": "food-drink",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Saying \"not\" in the present", "sv": "Att säga \"inte\" i presens" },
+      "explanation": {
+        "en": "Put `ن-` (ne-) in front of `می‌`: `می‌خورم` → `نمی‌خورم` (nemikhoram) 'I don't eat', `می‌خواهم` → `نمی‌خواهم` 'I don't want'. A verb without `می‌` takes `ن-` (na-) directly: `دارم` → `ندارم` 'I don't have'. 'Be' has its own negative: `نیستم` 'I am not', `نیست` 'is not': `گرسنه نیستم` 'I'm not hungry'.\n\nWhen offered food, a polite first 'no' is part of `تعارف` (ta'ârof), so a host will often offer again. A friendly `نه، ممنون` 'no, thanks' is always fine.",
+        "sv": "Sätt `ن-` (ne-) framför `می‌`: `می‌خورم` → `نمی‌خورم` (nemikhoram) 'jag äter inte', `می‌خواهم` → `نمی‌خواهم` 'jag vill inte'. Ett verb utan `می‌` får `ن-` (na-) direkt: `دارم` → `ندارم` 'jag har inte'. 'Vara' har en egen negation: `نیستم` 'jag är inte', `نیست` 'är inte': `گرسنه نیستم` 'jag är inte hungrig'.\n\nNär man blir bjuden på mat hör ett artigt första 'nej' till `تعارف` (ta'ârof), så värden erbjuder ofta igen. Ett vänligt `نه، ممنون` 'nej tack' fungerar alltid."
+      },
+      "examples": [
+        {
+          "text": "من قهوه نمی‌خورم.",
+          "latin": "man ghahve nemikhoram.",
+          "translation": { "en": "I don't drink coffee.", "sv": "Jag dricker inte kaffe." },
+          "tokens": [
+            { "text": "من", "latin": "man", "gloss": { "en": "I", "sv": "jag" }, "concept": "i" },
+            { "text": "قهوه", "latin": "ghahve", "gloss": { "en": "coffee", "sv": "kaffe" }, "concept": "coffee" },
+            {
+              "text": "نمی‌خورم.",
+              "latin": "nemikhoram.",
+              "gloss": { "en": "don't drink (eat)", "sv": "dricker (äter) inte" },
+              "concept": "to-eat",
+              "morph": "NEG-DUR-eat.PRS-1SG"
+            }
+          ]
+        },
+        {
+          "text": "نه، گرسنه نیستم.",
+          "latin": "na, gorosne nistam.",
+          "translation": { "en": "No, I'm not hungry.", "sv": "Nej, jag är inte hungrig." },
+          "tokens": [
+            { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+            { "text": "گرسنه", "latin": "gorosne", "gloss": { "en": "hungry", "sv": "hungrig" }, "concept": "hungry" },
+            { "text": "نیستم.", "latin": "nistam.", "gloss": { "en": "I'm not", "sv": "jag är inte" }, "concept": "to-be", "morph": "NEG.be.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "برادر ندارم.",
+          "latin": "barâdar nadâram.",
+          "translation": { "en": "I don't have a brother.", "sv": "Jag har ingen bror." },
+          "tokens": [
+            { "text": "برادر", "latin": "barâdar", "gloss": { "en": "brother", "sv": "bror" }, "concept": "brother" },
+            {
+              "text": "ندارم.",
+              "latin": "nadâram.",
+              "gloss": { "en": "I don't have", "sv": "jag har inte" },
+              "concept": "to-have",
+              "morph": "NEG-have.PRS-1SG"
+            }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    }
+  ]
+}

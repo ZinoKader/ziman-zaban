@@ -1,0 +1,364 @@
+{
+  "items": [
+    {
+      "id": "how-are-you",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "How are you?", "sv": "Hur mår du?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چۆنی؟",
+          "latin": "çonî?",
+          "tokens": [{ "text": "چۆنی؟", "latin": "çonî?", "gloss": { "en": "how are you", "sv": "hur mår du" }, "concept": "how-are-you", "morph": "how-COP.2SG" }]
+        },
+        "answers": [
+          {
+            "text": "باشم، سوپاس. ئەی تۆ؟",
+            "latin": "başim, supas. ey to?",
+            "tokens": [
+              { "text": "باشم،", "latin": "başim,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+              { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" },
+              { "text": "ئەی", "latin": "ey", "gloss": { "en": "and what about", "sv": "och hur är det med" }, "concept": "and-you" },
+              { "text": "تۆ؟", "latin": "to?", "gloss": { "en": "you", "sv": "du" }, "concept": "and-you" }
+            ],
+            "translation": { "en": "I'm fine, thanks. And you?", "sv": "Jag mår bra, tack. Och du?" }
+          },
+          { "text": "باشم، سوپاس.", "latin": "başim, supas.", "translation": { "en": "I'm fine, thanks.", "sv": "Jag mår bra, tack." } },
+          { "text": "زۆر باشم، سوپاس.", "latin": "zor başim, supas.", "translation": { "en": "I'm very well, thanks.", "sv": "Jag mår mycket bra, tack." } }
+        ],
+        "sources": [{ "source": "tatoeba", "ref": "#10521776" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "چطوری؟",
+          "latin": "chetori?",
+          "tokens": [{ "text": "چطوری؟", "latin": "chetori?", "gloss": { "en": "how are you", "sv": "hur mår du" }, "concept": "how-are-you", "morph": "how-COP.2SG" }]
+        },
+        "answers": [
+          {
+            "text": "خوبم، ممنون. تو چطور؟",
+            "latin": "khubam, mamnun. to chetor?",
+            "tokens": [
+              { "text": "خوبم،", "latin": "khubam,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+              { "text": "ممنون.", "latin": "mamnun.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" },
+              { "text": "تو", "latin": "to", "gloss": { "en": "you", "sv": "du" }, "concept": "and-you" },
+              { "text": "چطور؟", "latin": "chetor?", "gloss": { "en": "how", "sv": "hur" }, "concept": "and-you" }
+            ],
+            "translation": { "en": "I'm fine, thanks. And you?", "sv": "Jag mår bra, tack. Och du?" }
+          },
+          { "text": "خوبم، مرسی.", "latin": "khubam, mersi.", "translation": { "en": "I'm fine, thanks.", "sv": "Jag mår bra, tack." } },
+          { "text": "خیلی خوبم، ممنون.", "latin": "kheyli khubam, mamnun.", "translation": { "en": "I'm very well, thanks.", "sv": "Jag mår mycket bra, tack." } }
+        ],
+        "sources": [{ "source": "tatoeba", "ref": "#11115341" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-are-you-polite",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "How are you? (polite)", "sv": "Hur mår ni?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چۆنن؟",
+          "latin": "çonin?",
+          "tokens": [
+            { "text": "چۆنن؟", "latin": "çonin?", "gloss": { "en": "how are you (polite)", "sv": "hur mår ni" }, "concept": "how-are-you", "morph": "how-COP.2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "باشم، سوپاس. ئەی ئێوە؟",
+            "latin": "başim, supas. ey êwe?",
+            "tokens": [
+              { "text": "باشم،", "latin": "başim,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+              { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" },
+              { "text": "ئەی", "latin": "ey", "gloss": { "en": "and what about", "sv": "och hur är det med" }, "concept": "and-you" },
+              { "text": "ئێوە؟", "latin": "êwe?", "gloss": { "en": "you (polite)", "sv": "ni" }, "concept": "and-you" }
+            ],
+            "translation": { "en": "I'm fine, thank you. And you?", "sv": "Jag mår bra, tack. Och ni?" }
+          },
+          { "text": "باشم، زۆر سوپاس.", "latin": "başim, zor supas.", "translation": { "en": "I'm fine, thank you very much.", "sv": "Jag mår bra, tack så mycket." } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "حال شما چطور است؟",
+          "latin": "hâl-e shomâ chetor ast?",
+          "tokens": [
+            { "text": "حال", "latin": "hâl-e", "gloss": { "en": "state (of)", "sv": "tillstånd(et för)" }, "concept": "how-are-you", "morph": "state-EZ" },
+            { "text": "شما", "latin": "shomâ", "gloss": { "en": "you (polite)", "sv": "ni" }, "concept": "how-are-you" },
+            { "text": "چطور", "latin": "chetor", "gloss": { "en": "how", "sv": "hur" }, "concept": "how-are-you" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "how-are-you", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "خوبم، متشکرم. شما چطور؟",
+            "latin": "khubam, moteshakkeram. shomâ chetor?",
+            "tokens": [
+              { "text": "خوبم،", "latin": "khubam,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+              { "text": "متشکرم.", "latin": "moteshakkeram.", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you", "morph": "grateful-COP.1SG" },
+              { "text": "شما", "latin": "shomâ", "gloss": { "en": "you (polite)", "sv": "ni" }, "concept": "and-you" },
+              { "text": "چطور؟", "latin": "chetor?", "gloss": { "en": "how", "sv": "hur" }, "concept": "and-you" }
+            ],
+            "translation": { "en": "I'm fine, thank you. And you?", "sv": "Jag mår bra, tack. Och ni?" }
+          },
+          { "text": "خوبم، خیلی ممنون.", "latin": "khubam, kheyli mamnun.", "translation": { "en": "I'm fine, thank you very much.", "sv": "Jag mår bra, tack så mycket." } }
+        ],
+        "sources": [{ "source": "tatoeba", "ref": "#1903702" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "good-morning",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "Good morning!", "sv": "God morgon!" },
+      "ckb": {
+        "question": {
+          "text": "بەیانیت باش!",
+          "latin": "beyanît baş!",
+          "tokens": [
+            { "text": "بەیانیت", "latin": "beyanît", "gloss": { "en": "your morning", "sv": "din morgon" }, "concept": "good-morning", "morph": "morning-2SG" },
+            { "text": "باش!", "latin": "baş!", "gloss": { "en": "good", "sv": "god" }, "concept": "good-morning" }
+          ]
+        },
+        "answers": [
+          { "text": "بەیانیت باش!", "latin": "beyanît baş!", "translation": { "en": "Good morning!", "sv": "God morgon!" } },
+          { "text": "بەیانیت باش، چۆنی؟", "latin": "beyanît baş, çonî?", "translation": { "en": "Good morning, how are you?", "sv": "God morgon, hur mår du?" } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "صبح بخیر!",
+          "latin": "sobh bekheyr!",
+          "tokens": [
+            { "text": "صبح", "latin": "sobh", "gloss": { "en": "morning", "sv": "morgon" }, "concept": "good-morning" },
+            { "text": "بخیر!", "latin": "bekheyr!", "gloss": { "en": "with goodness", "sv": "med det goda" }, "concept": "good-morning" }
+          ]
+        },
+        "answers": [
+          { "text": "صبح بخیر!", "latin": "sobh bekheyr!", "translation": { "en": "Good morning!", "sv": "God morgon!" } },
+          {
+            "text": "صبح شما هم بخیر!",
+            "latin": "sobh-e shomâ ham bekheyr!",
+            "tokens": [
+              { "text": "صبح", "latin": "sobh-e", "gloss": { "en": "morning (of)", "sv": "morgon(en för)" }, "concept": "good-morning", "morph": "morning-EZ" },
+              { "text": "شما", "latin": "shomâ", "gloss": { "en": "you (polite)", "sv": "er" } },
+              { "text": "هم", "latin": "ham", "gloss": { "en": "too", "sv": "också" } },
+              { "text": "بخیر!", "latin": "bekheyr!", "gloss": { "en": "with goodness", "sv": "med det goda" }, "concept": "good-morning" }
+            ],
+            "translation": { "en": "Good morning to you too!", "sv": "God morgon på er också!" }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "thank-you",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "Thank you!", "sv": "Tack!" },
+      "ckb": {
+        "question": {
+          "text": "سوپاس!",
+          "latin": "supas!",
+          "tokens": [{ "text": "سوپاس!", "latin": "supas!", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you" }]
+        },
+        "answers": [
+          {
+            "text": "شایەنی نییە.",
+            "latin": "şayenî nîye.",
+            "tokens": [
+              { "text": "شایەنی", "latin": "şayenî", "gloss": { "en": "worthy of it", "sv": "värt det" }, "concept": "youre-welcome", "morph": "worthy-3SG" },
+              { "text": "نییە.", "latin": "nîye.", "gloss": { "en": "is not", "sv": "är inte" }, "concept": "youre-welcome", "morph": "NEG.COP.3SG" }
+            ],
+            "translation": { "en": "You're welcome.", "sv": "Varsågod." }
+          },
+          { "text": "شایانی نییە.", "latin": "şayanî nîye.", "translation": { "en": "You're welcome.", "sv": "Varsågod." } }
+        ],
+        "sources": [{ "source": "wiktionary", "ref": "you're welcome" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ممنون!",
+          "latin": "mamnun!",
+          "tokens": [{ "text": "ممنون!", "latin": "mamnun!", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you" }]
+        },
+        "answers": [
+          {
+            "text": "خواهش می‌کنم.",
+            "latin": "khâhesh mikonam.",
+            "tokens": [
+              { "text": "خواهش", "latin": "khâhesh", "gloss": { "en": "request", "sv": "begäran" }, "concept": "youre-welcome" },
+              { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "youre-welcome", "morph": "DUR-do.PRS-1SG" }
+            ],
+            "translation": { "en": "You're welcome.", "sv": "Varsågod." }
+          },
+          { "text": "قابلی نداشت.", "latin": "ghâbeli nadâsht.", "translation": { "en": "It was nothing.", "sv": "Det var ingenting." } }
+        ],
+        "sources": [{ "source": "wiktionary", "ref": "خواهش" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "welcome",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "Welcome!", "sv": "Välkommen!" },
+      "ckb": {
+        "question": {
+          "text": "بەخێربێیت!",
+          "latin": "bexêrbêyt!",
+          "tokens": [
+            { "text": "بەخێربێیت!", "latin": "bexêrbêyt!", "gloss": { "en": "welcome", "sv": "välkommen" }, "concept": "welcome", "morph": "with-good-come.SBJV-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "سوپاس!",
+            "latin": "supas!",
+            "tokens": [{ "text": "سوپاس!", "latin": "supas!", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you" }],
+            "translation": { "en": "Thank you!", "sv": "Tack!" }
+          },
+          { "text": "زۆر سوپاس!", "latin": "zor supas!", "translation": { "en": "Thank you very much!", "sv": "Tack så mycket!" } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خوش آمدید!",
+          "latin": "khosh âmadid!",
+          "tokens": [
+            { "text": "خوش", "latin": "khosh", "gloss": { "en": "happily", "sv": "glatt" }, "concept": "welcome" },
+            { "text": "آمدید!", "latin": "âmadid!", "gloss": { "en": "you came", "sv": "ni kom" }, "concept": "welcome", "morph": "come.PST-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ممنون!",
+            "latin": "mamnun!",
+            "tokens": [{ "text": "ممنون!", "latin": "mamnun!", "gloss": { "en": "thank you", "sv": "tack" }, "concept": "thank-you" }],
+            "translation": { "en": "Thank you!", "sv": "Tack!" }
+          },
+          { "text": "خیلی ممنون!", "latin": "kheyli mamnun!", "translation": { "en": "Thank you very much!", "sv": "Tack så mycket!" } }
+        ],
+        "sources": [{ "source": "tatoeba", "ref": "#523321" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "sorry",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "Sorry!", "sv": "Förlåt!" },
+      "ckb": {
+        "question": {
+          "text": "ببوورە!",
+          "latin": "bibûre!",
+          "tokens": [{ "text": "ببوورە!", "latin": "bibûre!", "gloss": { "en": "sorry (forgive me)", "sv": "förlåt" }, "concept": "sorry", "morph": "SBJV-forgive.PRS-IMP.2SG" }]
+        },
+        "answers": [
+          {
+            "text": "باشە.",
+            "latin": "başe.",
+            "tokens": [{ "text": "باشە.", "latin": "başe.", "gloss": { "en": "okay", "sv": "okej" }, "concept": "okay", "morph": "good-COP.3SG" }],
+            "translation": { "en": "Okay.", "sv": "Okej." }
+          },
+          { "text": "کێشە نییە.", "latin": "kêşe nîye.", "translation": { "en": "No problem.", "sv": "Inga problem." } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ببخشید!",
+          "latin": "bebakhshid!",
+          "tokens": [{ "text": "ببخشید!", "latin": "bebakhshid!", "gloss": { "en": "sorry (forgive)", "sv": "förlåt" }, "concept": "sorry", "morph": "SBJV-forgive.PRS-2PL" }]
+        },
+        "answers": [
+          {
+            "text": "خواهش می‌کنم.",
+            "latin": "khâhesh mikonam.",
+            "tokens": [
+              { "text": "خواهش", "latin": "khâhesh", "gloss": { "en": "request", "sv": "begäran" }, "concept": "youre-welcome" },
+              { "text": "می‌کنم.", "latin": "mikonam.", "gloss": { "en": "I do", "sv": "jag gör" }, "concept": "youre-welcome", "morph": "DUR-do.PRS-1SG" }
+            ],
+            "translation": { "en": "Not at all.", "sv": "Ingen fara." }
+          },
+          { "text": "اشکالی ندارد.", "latin": "eshkâli nadârad.", "translation": { "en": "No problem.", "sv": "Inga problem." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "good-night",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "Good night!", "sv": "God natt!" },
+      "ckb": {
+        "question": {
+          "text": "شەو باش!",
+          "latin": "şew baş!",
+          "tokens": [
+            { "text": "شەو", "latin": "şew", "gloss": { "en": "night", "sv": "natt" }, "concept": "good-night" },
+            { "text": "باش!", "latin": "baş!", "gloss": { "en": "good", "sv": "god" }, "concept": "good-night" }
+          ]
+        },
+        "answers": [
+          { "text": "شەو باش!", "latin": "şew baş!", "translation": { "en": "Good night!", "sv": "God natt!" } },
+          { "text": "شەوت باش!", "latin": "şewit baş!", "translation": { "en": "Good night (to you)!", "sv": "God natt (på dig)!" } }
+        ],
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "شب بخیر!",
+          "latin": "shab bekheyr!",
+          "tokens": [
+            { "text": "شب", "latin": "shab", "gloss": { "en": "night", "sv": "natt" }, "concept": "good-night" },
+            { "text": "بخیر!", "latin": "bekheyr!", "gloss": { "en": "with goodness", "sv": "med det goda" }, "concept": "good-night" }
+          ]
+        },
+        "answers": [
+          { "text": "شب بخیر!", "latin": "shab bekheyr!", "translation": { "en": "Good night!", "sv": "God natt!" } },
+          { "text": "شب شما هم بخیر!", "latin": "shab-e shomâ ham bekheyr!", "translation": { "en": "Good night to you too!", "sv": "God natt på er också!" } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "goodbye",
+      "unit": "greetings",
+      "level": "A1",
+      "question": { "en": "Goodbye!", "sv": "Hej då!" },
+      "ckb": {
+        "question": {
+          "text": "خوات لەگەڵ!",
+          "latin": "xwat legeł!",
+          "tokens": [
+            { "text": "خوات", "latin": "xwat", "gloss": { "en": "your God", "sv": "din Gud" }, "concept": "goodbye", "morph": "God-2SG" },
+            { "text": "لەگەڵ!", "latin": "legeł!", "gloss": { "en": "with", "sv": "med" }, "concept": "goodbye" }
+          ]
+        },
+        "answers": [
+          { "text": "خوات لەگەڵ!", "latin": "xwat legeł!", "translation": { "en": "Goodbye!", "sv": "Hej då!" } },
+          { "text": "خوا حافیز!", "latin": "xwa ḧafîz!", "translation": { "en": "Goodbye!", "sv": "Hej då!" } }
+        ],
+        "sources": [{ "source": "wiktionary", "ref": "goodbye" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خداحافظ!",
+          "latin": "khodâhâfez!",
+          "tokens": [{ "text": "خداحافظ!", "latin": "khodâhâfez!", "gloss": { "en": "goodbye", "sv": "hej då" }, "concept": "goodbye" }]
+        },
+        "answers": [
+          { "text": "خداحافظ!", "latin": "khodâhâfez!", "translation": { "en": "Goodbye!", "sv": "Hej då!" } },
+          { "text": "خدانگهدار!", "latin": "khodânegahdâr!", "translation": { "en": "Goodbye! (formal)", "sv": "Adjö!" } }
+        ],
+        "sources": [{ "source": "wiktionary", "ref": "خداحافظ" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

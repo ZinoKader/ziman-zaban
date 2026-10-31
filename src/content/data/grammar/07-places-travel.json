@@ -1,0 +1,219 @@
+{
+  "points": [
+    {
+      "id": "ckb-imperative",
+      "unit": "places-travel",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Commands: go! come! don't!", "sv": "Uppmaningar: gå! kom! låt bli!" },
+      "explanation": {
+        "en": "The imperative is `ب-` + **present stem**. A consonant stem adds `-e` for one person: `بنووسە` 'write!'. A vowel stem adds nothing: `بکە` 'do!', `بخۆ` 'eat!', `بڕۆ` 'go!'. For several people, or politely, add `-n`: `بڕۆن`, `بکەن`, `بنووسن`. 'Come!' is **irregular**: `وەرە`, plural `وەرن`. 'Go!' is usually `بڕۆ` (from ڕۆیشتن); from چوون you also hear `بچۆ` or `بچە`. The negative swaps `ب-` for `مە-`: `مەڕۆ` 'don't go!', `مەخۆ` 'don't eat!'. An object clitic comes right after `ب-`: `بیخۆ` 'eat it!'. Put `تکایە` 'please' in front to soften it.",
+        "sv": "Imperativ är `ب-` + **presensstam**. En konsonantstam får `-e` till en person: `بنووسە` 'skriv!'. En vokalstam får inget: `بکە` 'gör!', `بخۆ` 'ät!', `بڕۆ` 'gå!'. Till flera personer, eller artigt, lägg till `-n`: `بڕۆن`, `بکەن`, `بنووسن`. 'Kom!' är **oregelbundet**: `وەرە`, plural `وەرن`. 'Gå!' heter oftast `بڕۆ` (av ڕۆیشتن); av چوون hör man också `بچۆ` eller `بچە`. Nekande byter `ب-` mot `مە-`: `مەڕۆ` 'gå inte!', `مەخۆ` 'ät inte!'. En objektsklitika kommer direkt efter `ب-`: `بیخۆ` 'ät den!'. Sätt `تکایە` 'snälla' först för att mjuka upp."
+      },
+      "examples": [
+        {
+          "text": "ڕاستەوخۆ بڕۆ.",
+          "latin": "řastewxo biřo.",
+          "translation": { "en": "Go straight ahead.", "sv": "Gå rakt fram." },
+          "tokens": [
+            { "text": "ڕاستەوخۆ", "latin": "řastewxo", "gloss": { "en": "straight ahead", "sv": "rakt fram" }, "concept": "straight-ahead" },
+            { "text": "بڕۆ.", "latin": "biřo.", "gloss": { "en": "go!", "sv": "gå!" }, "concept": "to-go", "morph": "IMP-go.PRS.2SG" }
+          ]
+        },
+        {
+          "text": "وەرە ئێرە!",
+          "latin": "were êre!",
+          "translation": { "en": "Come here!", "sv": "Kom hit!" },
+          "tokens": [
+            { "text": "وەرە", "latin": "were", "gloss": { "en": "come!", "sv": "kom!" }, "concept": "to-come", "morph": "come.IMP.2SG" },
+            { "text": "ئێرە!", "latin": "êre!", "gloss": { "en": "(to) here", "sv": "hit" }, "concept": "here" }
+          ]
+        },
+        {
+          "text": "مەڕۆ!",
+          "latin": "meřo!",
+          "translation": { "en": "Don't go!", "sv": "Gå inte!" },
+          "tokens": [
+            { "text": "مەڕۆ!", "latin": "meřo!", "gloss": { "en": "don't go!", "sv": "gå inte!" }, "concept": "to-go", "morph": "PROH-go.PRS.2SG" }
+          ]
+        },
+        {
+          "text": "بیخۆ!",
+          "latin": "bîxo!",
+          "translation": { "en": "Eat it!", "sv": "Ät den!" },
+          "tokens": [
+            { "text": "بیخۆ!", "latin": "bîxo!", "gloss": { "en": "eat it!", "sv": "ät den!" }, "concept": "to-eat", "morph": "IMP-3SG-eat.PRS.2SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§24" },
+        { "source": "kim-kurdish-grammar", "ref": "Imperatives" },
+        { "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "ckb-prepositions-circumpositions",
+      "unit": "places-travel",
+      "lang": "ckb",
+      "level": "A2",
+      "title": { "en": "In, from, to: prepositions and circumpositions", "sv": "I, från, till: prepositioner och cirkumpositioner" },
+      "explanation": {
+        "en": "Sorani often wraps a noun in a **preposition + ending**. `لە ... دا` means 'in': `لە گوندێکدا` 'in a village', `لە نەخۆشخانەدایە` 'is in the hospital' (speech often drops `-da`). `لە ... ەوە` means 'from': `لە سلێمانییەوە دێم`. Plain prepositions: `بۆ` 'to, for', `بە` 'by' (`بە پاس` 'by bus'), `لەگەڵ` 'with', `لەسەر` 'on'. After 'go' and 'come' the place can join the verb with `-e`: `دەچمە بازاڕ` = `دەچم بۆ بازاڕ`. With a pronoun clitic `لە` becomes `لێ` and `لە ... دا` becomes `تێ ... دا`: `لێی` 'from it', `تێیدا` 'in it'.",
+        "sv": "Sorani lägger ofta en **preposition + ändelse** runt ordet. `لە ... دا` betyder 'i': `لە گوندێکدا` 'i en by', `لە نەخۆشخانەدایە` 'är på sjukhuset' (i tal faller `-da` ofta bort). `لە ... ەوە` betyder 'från': `لە سلێمانییەوە دێم`. Enkla prepositioner: `بۆ` 'till, för', `بە` 'med' (`بە پاس` 'med buss'), `لەگەڵ` 'med (någon)', `لەسەر` 'på'. Efter 'gå' och 'komma' kan platsen fogas till verbet med `-e`: `دەچمە بازاڕ` = `دەچم بۆ بازاڕ`. Med en pronomenklitika blir `لە` till `لێ` och `لە ... دا` till `تێ ... دا`: `لێی` 'från den', `تێیدا` 'i den'."
+      },
+      "examples": [
+        {
+          "text": "دایکم لە گوندێکدا دەژیت.",
+          "latin": "daykim le gundêkda dejît.",
+          "translation": { "en": "My mother lives in a village.", "sv": "Min mamma bor i en by." },
+          "tokens": [
+            { "text": "دایکم", "latin": "daykim", "gloss": { "en": "my mother", "sv": "min mamma" }, "concept": "mother", "morph": "mother-1SG" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "گوندێکدا", "latin": "gundêkda", "gloss": { "en": "a village (in)", "sv": "en by (i)" }, "concept": "village", "morph": "village-INDF-POSTP" },
+            { "text": "دەژیت.", "latin": "dejît.", "gloss": { "en": "lives", "sv": "bor" }, "concept": "to-live", "morph": "DUR-live.PRS-3SG" }
+          ]
+        },
+        {
+          "text": "لە سلێمانییەوە دێم.",
+          "latin": "le slêmanîyewe dêm.",
+          "translation": { "en": "I'm coming from Sulaymani.", "sv": "Jag kommer från Sulaymaniyya." },
+          "tokens": [
+            { "text": "لە", "latin": "le", "gloss": { "en": "from", "sv": "från" }, "concept": "from" },
+            { "text": "سلێمانییەوە", "latin": "slêmanîyewe", "gloss": { "en": "Sulaymani (from)", "sv": "Sulaymaniyya (från)" }, "morph": "Sulaymani-POSTP" },
+            { "text": "دێم.", "latin": "dêm.", "gloss": { "en": "I come", "sv": "jag kommer" }, "concept": "to-come", "morph": "come.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "بە پاس دەچمە سەر کار.",
+          "latin": "be pas deçime ser kar.",
+          "translation": { "en": "I go to work by bus.", "sv": "Jag åker buss till jobbet." },
+          "tokens": [
+            { "text": "بە", "latin": "be", "gloss": { "en": "by", "sv": "med" } },
+            { "text": "پاس", "latin": "pas", "gloss": { "en": "bus", "sv": "buss" }, "concept": "bus" },
+            { "text": "دەچمە", "latin": "deçime", "gloss": { "en": "I go to", "sv": "jag åker till" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG-GOAL" },
+            { "text": "سەر", "latin": "ser", "gloss": { "en": "(on)to", "sv": "(upp)på" } },
+            { "text": "کار.", "latin": "kar.", "gloss": { "en": "work", "sv": "arbete" }, "concept": "work" }
+          ]
+        },
+        {
+          "text": "لەگەڵ هاوڕێکەم دێم.",
+          "latin": "legeł hawřêkem dêm.",
+          "translation": { "en": "I'm coming with my friend.", "sv": "Jag kommer med min vän." },
+          "tokens": [
+            { "text": "لەگەڵ", "latin": "legeł", "gloss": { "en": "with", "sv": "med" }, "concept": "with" },
+            { "text": "هاوڕێکەم", "latin": "hawřêkem", "gloss": { "en": "my friend", "sv": "min vän" }, "concept": "friend", "morph": "friend-DEF-1SG" },
+            { "text": "دێم.", "latin": "dêm.", "gloss": { "en": "I come", "sv": "jag kommer" }, "concept": "to-come", "morph": "come.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "thackston-sorani-grammar", "ref": "§14, §14.1, §35" },
+        { "source": "kim-kurdish-grammar", "ref": "Ch. 7 Prepositions" }
+      ]
+    },
+    {
+      "id": "fa-imperative",
+      "unit": "places-travel",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Commands: go! come! don't!", "sv": "Uppmaningar: gå! kom! låt bli!" },
+      "explanation": {
+        "en": "The imperative is `ب-` + **present stem**: `برو` boro 'go!', `بخور` bokhor 'eat!', `بنویس` benevis 'write!'. The prefix sounds `bo-` before an o-stem, otherwise `be-`. A stem starting with a vowel takes `بی-`: `آ` → `بیا` biyâ 'come!'. For several people, or to be **polite**, add `-id`: `بروید`, `بیایید`; in speech `برید`, `بیاین`. Many compound verbs drop `ب-`: `صبر کن` 'wait!'. The negative uses `ن-` instead: `نرو` 'don't go!'. `بفرمایید` 'please, go ahead' is the classic polite command.",
+        "sv": "Imperativ är `ب-` + **presensstam**: `برو` boro 'gå!', `بخور` bokhor 'ät!', `بنویس` benevis 'skriv!'. Prefixet uttalas `bo-` före en o-stam, annars `be-`. En stam som börjar på vokal får `بی-`: `آ` → `بیا` biyâ 'kom!'. Till flera personer, eller **artigt**, lägg till `-id`: `بروید`, `بیایید`; i tal `برید`, `بیاین`. Många sammansatta verb tappar `ب-`: `صبر کن` 'vänta!'. Nekande använder `ن-` i stället: `نرو` 'gå inte!'. `بفرمایید` 'varsågod' är den klassiska artiga uppmaningen."
+      },
+      "examples": [
+        {
+          "text": "مستقیم بروید.",
+          "latin": "mostaghim beravid.",
+          "translation": { "en": "Go straight ahead.", "sv": "Gå rakt fram." },
+          "tokens": [
+            { "text": "مستقیم", "latin": "mostaghim", "gloss": { "en": "straight ahead", "sv": "rakt fram" }, "concept": "straight-ahead" },
+            { "text": "بروید.", "latin": "beravid.", "gloss": { "en": "go! (polite)", "sv": "gå! (artigt)" }, "concept": "to-go", "morph": "IMP-go.PRS-2PL" }
+          ]
+        },
+        {
+          "text": "بیا اینجا!",
+          "latin": "biyâ injâ!",
+          "translation": { "en": "Come here!", "sv": "Kom hit!" },
+          "tokens": [
+            { "text": "بیا", "latin": "biyâ", "gloss": { "en": "come!", "sv": "kom!" }, "concept": "to-come", "morph": "IMP-come.PRS.2SG" },
+            { "text": "اینجا!", "latin": "injâ!", "gloss": { "en": "here", "sv": "hit" }, "concept": "here" }
+          ]
+        },
+        {
+          "text": "نرو!",
+          "latin": "naro!",
+          "translation": { "en": "Don't go!", "sv": "Gå inte!" },
+          "tokens": [
+            { "text": "نرو!", "latin": "naro!", "gloss": { "en": "don't go!", "sv": "gå inte!" }, "concept": "to-go", "morph": "NEG-go.PRS.2SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "author" },
+        { "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "fa-prepositions",
+      "unit": "places-travel",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "In, to, from, with", "sv": "I, till, från, med" },
+      "explanation": {
+        "en": "`در` dar 'in, at' is the written form; in speech say `تو` or `توی` tu-ye: `تو بیمارستانه` 'is in the hospital'. `به` be 'to' marks a goal: `به بازار می‌روم`; in speech it usually disappears after 'go' and 'come': `می‌رم بازار`. `از` az means 'from': `از سلیمانیه می‌آیم`. `با` bâ 'with' also means 'by' for vehicles: `با اتوبوس` 'by bus', `با دوستم` 'with my friend'. Several 'prepositions' are really nouns + ezafe: `روی میز` 'on the table', `سمت چپ` 'on the left', `نزدیک خانه` 'near the house'.",
+        "sv": "`در` dar 'i, på' är skriftformen; i tal säger man `تو` eller `توی` tu-ye: `تو بیمارستانه` 'är på sjukhuset'. `به` be 'till' anger mål: `به بازار می‌روم`; i tal försvinner det oftast efter 'gå' och 'komma': `می‌رم بازار`. `از` az betyder 'från': `از سلیمانیه می‌آیم`. `با` bâ 'med' används också om fordon: `با اتوبوس` 'med buss', `با دوستم` 'med min vän'. Flera 'prepositioner' är egentligen substantiv + ezafe: `روی میز` 'på bordet', `سمت چپ` 'till vänster', `نزدیک خانه` 'nära huset'."
+      },
+      "examples": [
+        {
+          "text": "دکتر در بیمارستان است.",
+          "latin": "doktor dar bimârestân ast.",
+          "translation": { "en": "The doctor is in the hospital.", "sv": "Läkaren är på sjukhuset." },
+          "tokens": [
+            { "text": "دکتر", "latin": "doktor", "gloss": { "en": "the doctor", "sv": "läkaren" }, "concept": "doctor" },
+            { "text": "در", "latin": "dar", "gloss": { "en": "in", "sv": "i" }, "concept": "in" },
+            { "text": "بیمارستان", "latin": "bimârestân", "gloss": { "en": "the hospital", "sv": "sjukhuset" }, "concept": "hospital" },
+            { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "به بازار می‌روم.",
+          "latin": "be bâzâr miravam.",
+          "translation": { "en": "I'm going to the market.", "sv": "Jag går till marknaden." },
+          "tokens": [
+            { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
+            { "text": "بازار", "latin": "bâzâr", "gloss": { "en": "the market", "sv": "marknaden" }, "concept": "market" },
+            { "text": "می‌روم.", "latin": "miravam.", "gloss": { "en": "I go", "sv": "jag går" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "از سلیمانیه می‌آیم.",
+          "latin": "az soleymâniye miâyam.",
+          "translation": { "en": "I'm coming from Sulaymani.", "sv": "Jag kommer från Sulaymaniyya." },
+          "tokens": [
+            { "text": "از", "latin": "az", "gloss": { "en": "from", "sv": "från" }, "concept": "from" },
+            { "text": "سلیمانیه", "latin": "soleymâniye", "gloss": { "en": "Sulaymani", "sv": "Sulaymaniyya" } },
+            { "text": "می‌آیم.", "latin": "miâyam.", "gloss": { "en": "I come", "sv": "jag kommer" }, "concept": "to-come", "morph": "DUR-come.PRS-1SG" }
+          ]
+        },
+        {
+          "text": "با اتوبوس سر کار می‌روم.",
+          "latin": "bâ otobus sar-e kâr miravam.",
+          "translation": { "en": "I go to work by bus.", "sv": "Jag åker buss till jobbet." },
+          "tokens": [
+            { "text": "با", "latin": "bâ", "gloss": { "en": "by, with", "sv": "med" }, "concept": "with" },
+            { "text": "اتوبوس", "latin": "otobus", "gloss": { "en": "bus", "sv": "buss" }, "concept": "bus" },
+            { "text": "سر", "latin": "sar-e", "gloss": { "en": "to (lit. head of)", "sv": "till (ordagrant huvudet på)" }, "morph": "head-EZ" },
+            { "text": "کار", "latin": "kâr", "gloss": { "en": "work", "sv": "arbete" }, "concept": "work" },
+            { "text": "می‌روم.", "latin": "miravam.", "gloss": { "en": "I go", "sv": "jag åker" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG" }
+          ]
+        }
+      ],
+      "sources": [
+        { "source": "author" },
+        { "source": "tatoeba" }
+      ]
+    }
+  ]
+}

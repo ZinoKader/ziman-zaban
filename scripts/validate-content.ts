@@ -247,6 +247,8 @@ for (const { file, q } of qaEntries) {
     const form = q[lang]
     if (!form) continue
     lintForm(`${where} ${lang} question`, form.question, lang)
+    for (const v of [form.question.colloquial, ...(form.question.alternatives ?? [])])
+      if (v) lintForm(`${where} ${lang} question variant`, v, lang)
     if (form.question.tokens) checkTokens(`${where} ${lang} question`, form.question.tokens, form.question.text, form.question.latin, lang)
     for (const a of form.answers) {
       lintForm(`${where} ${lang} answer`, { text: withoutSlots(a.text), latin: withoutSlots(a.latin) }, lang)

@@ -1,0 +1,948 @@
+{
+  "concepts": [
+    {
+      "id": "zero",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "0️⃣",
+      "gloss": { "en": "zero", "sv": "noll", "enAlt": ["0", "nought", "nil"], "svAlt": ["0"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سفر", "latin": "sifir" },
+        "notes": {
+          "en": "Written ٠. Sorani spells it with س; Persian writes the same word صفر, with ص.",
+          "sv": "Skrivs ٠. Soranin stavar ordet med س; persiskan skriver samma ord صفر, med ص."
+        },
+        "sources": [{ "source": "kim-kurdish-grammar", "ref": "Cardinal numbers" }, { "source": "wiktionary", "ref": "سفر" }]
+      },
+      "fa": {
+        "primary": { "script": "صفر", "latin": "sefr" },
+        "notes": {
+          "en": "Written ۰, a small dot, while ۵ (5) looks like a ring: don't read ۵ as zero! From Arabic ṣifr, the source of English \"cipher\".",
+          "sv": "Skrivs ۰, en liten punkt, medan ۵ (5) ser ut som en ring: läs inte ۵ som noll! Från arabiskans ṣifr, samma ord som svenskans \"siffra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "zero" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "one",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "1️⃣",
+      "gloss": { "en": "one", "sv": "ett", "enAlt": ["1"], "svAlt": ["en", "1"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "یەک", "latin": "yek" },
+        "notes": {
+          "en": "Written ١. The ending for \"a\" comes from it: ڕۆژێک (řojêk) \"a day\", هەفتەیەک (hefteyek) \"a week\".",
+          "sv": "Skrivs ١. Ändelsen för \"en/ett\" kommer härifrån: ڕۆژێک (řojêk) \"en dag\", هەفتەیەک (hefteyek) \"en vecka\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "one" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "یک", "latin": "yek" },
+        "variants": [
+          {
+            "script": "یه",
+            "latin": "ye",
+            "register": "colloquial",
+            "note": { "en": "\"a, one\" before a noun, in speech", "sv": "\"en, ett\" före ett substantiv, i tal" }
+          }
+        ],
+        "notes": {
+          "en": "Written ۱. In speech \"a, one\" before a noun is یه (ye): یه چای \"a tea\". When counting, say yek.",
+          "sv": "Skrivs ۱. I tal blir \"en, ett\" före ett substantiv یه (ye): یه چای \"ett te\". När man räknar säger man yek."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "one" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "two",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "2️⃣",
+      "gloss": { "en": "two", "sv": "två", "enAlt": ["2"], "svAlt": ["2"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دوو", "latin": "dû" },
+        "notes": {
+          "en": "Written ٢. The same ancient word as English \"two\" and Swedish \"två\".",
+          "sv": "Skrivs ٢. Samma urgamla ord som svenskans \"två\" och engelskans \"two\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "two" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "دو", "latin": "do" },
+        "notes": {
+          "en": "Written ۲. Related to Sorani دوو, English \"two\" and Swedish \"två\".",
+          "sv": "Skrivs ۲. Släkt med soranins دوو, svenskans \"två\" och engelskans \"two\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "two" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "three",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "3️⃣",
+      "gloss": { "en": "three", "sv": "tre", "enAlt": ["3"], "svAlt": ["3"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سێ", "latin": "sê" },
+        "notes": {
+          "en": "Written ٣. Don't mix up سێ (sê) \"three\" and سی (sî) \"thirty\".",
+          "sv": "Skrivs ٣. Blanda inte ihop سێ (sê) \"tre\" och سی (sî) \"trettio\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "three" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "سه", "latin": "se" },
+        "notes": {
+          "en": "Written ۳. Don't mix up سه (se) \"three\" and سی (si) \"thirty\".",
+          "sv": "Skrivs ۳. Blanda inte ihop سه (se) \"tre\" och سی (si) \"trettio\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "three" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "four",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "4️⃣",
+      "gloss": { "en": "four", "sv": "fyra", "enAlt": ["4"], "svAlt": ["4"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چوار", "latin": "çwar" },
+        "notes": {
+          "en": "Written ٤. Persian writes four as ۴: the digits 4, 5 and 6 have different shapes in the Arabic and Persian sets.",
+          "sv": "Skrivs ٤. Persiskan skriver fyra som ۴: siffrorna 4, 5 och 6 ser olika ut i den arabiska och den persiska uppsättningen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "four" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "چهار", "latin": "chahâr" },
+        "variants": [{ "script": "چار", "latin": "châr", "register": "colloquial" }],
+        "notes": {
+          "en": "Written ۴ (Sorani and Arabic texts use ٤). In speech it is usually châr.",
+          "sv": "Skrivs ۴ (soranisk och arabisk text använder ٤). I tal säger man oftast châr."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "four" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "five",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "5️⃣",
+      "gloss": { "en": "five", "sv": "fem", "enAlt": ["5"], "svAlt": ["5"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پێنج", "latin": "pênc" },
+        "notes": {
+          "en": "Written ٥. Related to Persian پنج and Greek \"pente\" (as in pentagon).",
+          "sv": "Skrivs ٥. Släkt med persiskans پنج och grekiskans \"pente\" (som i pentagon)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "five" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "پنج", "latin": "panj" },
+        "notes": {
+          "en": "Written ۵, a little ring that is easy to mistake for a zero. Related to Sorani پێنج and Greek \"pente\".",
+          "sv": "Skrivs ۵, en liten ring som är lätt att ta för en nolla. Släkt med soranins پێنج och grekiskans \"pente\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "five" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "six",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "6️⃣",
+      "gloss": { "en": "six", "sv": "sex", "enAlt": ["6"], "svAlt": ["6"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شەش", "latin": "şeş" },
+        "notes": { "en": "Written ٦. Related to English \"six\" and Swedish \"sex\".", "sv": "Skrivs ٦. Släkt med svenskans \"sex\" och engelskans \"six\"." },
+        "sources": [{ "source": "wiktionary", "ref": "six" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "شش", "latin": "shesh" },
+        "variants": [{ "script": "شیش", "latin": "shish", "register": "colloquial" }],
+        "notes": { "en": "Written ۶ (Arabic ٦). In Tehran people say shish.", "sv": "Skrivs ۶ (arabiska ٦). I Teheran säger man shish." },
+        "sources": [{ "source": "wiktionary", "ref": "six" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "seven",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "7️⃣",
+      "gloss": { "en": "seven", "sv": "sju", "enAlt": ["7"], "svAlt": ["7"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "حەوت", "latin": "ḧewt" },
+        "notes": {
+          "en": "Written ٧. The ح is a breathy h from deep in the throat. هەفتە \"week\" comes from the same root.",
+          "sv": "Skrivs ٧. ح är ett pressat h långt bak i halsen. هەفتە \"vecka\" kommer från samma rot."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "seven" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "هفت", "latin": "haft" },
+        "notes": {
+          "en": "Written ۷. هفته (hafte) \"week\" comes from it: a group of seven days.",
+          "sv": "Skrivs ۷. هفته (hafte) \"vecka\" kommer härifrån: en grupp på sju dagar."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "seven" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "eight",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "8️⃣",
+      "gloss": { "en": "eight", "sv": "åtta", "enAlt": ["8"], "svAlt": ["8"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەشت", "latin": "heşt" },
+        "notes": {
+          "en": "Written ٨, like a little roof; seven ٧ is the same shape upside down.",
+          "sv": "Skrivs ٨, som ett litet tak; sju ٧ är samma form upp och ner."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eight" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "هشت", "latin": "hasht" },
+        "notes": {
+          "en": "Written ۸, like a little roof; seven ۷ is the same shape upside down.",
+          "sv": "Skrivs ۸, som ett litet tak; sju ۷ är samma form upp och ner."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eight" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "nine",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "9️⃣",
+      "gloss": { "en": "nine", "sv": "nio", "enAlt": ["9"], "svAlt": ["9"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نۆ", "latin": "no" },
+        "notes": { "en": "Written ٩. Related to English \"nine\" and Swedish \"nio\".", "sv": "Skrivs ٩. Släkt med svenskans \"nio\" och engelskans \"nine\"." },
+        "sources": [{ "source": "wiktionary", "ref": "nine" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "نه", "latin": "noh" },
+        "notes": {
+          "en": "Written ۹. Spelled exactly like نه (na) \"no\", but said noh.",
+          "sv": "Skrivs ۹. Stavas precis som نه (na) \"nej\", men uttalas noh."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "nine" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "ten",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "🔟",
+      "gloss": { "en": "ten", "sv": "tio", "enAlt": ["10"], "svAlt": ["10"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دە", "latin": "de" },
+        "notes": {
+          "en": "Written ١٠. The teens end in a form of \"ten\": یانزە (11), پانزە (15).",
+          "sv": "Skrivs ١٠. Tonåren slutar på en form av \"tio\": یانزە (11), پانزە (15)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ten" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "ده", "latin": "dah" },
+        "notes": {
+          "en": "Written ۱۰. The teens end in -dah \"ten\": یازده (11), پانزده (15). Related to Latin \"decem\".",
+          "sv": "Skrivs ۱۰. Tonåren slutar på -dah \"tio\": یازده (11), پانزده (15). Släkt med latinets \"decem\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ten" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "eleven",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "eleven", "sv": "elva", "enAlt": ["11"], "svAlt": ["11"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "یانزە", "latin": "yanze" },
+        "variants": [{ "script": "یازدە", "latin": "yazde", "register": "formal" }],
+        "notes": {
+          "en": "Written ١١. Sulaymani speech says yanze; یازدە (yazde) is the bookish form.",
+          "sv": "Skrivs ١١. I Sulaymani säger man yanze; یازدە (yazde) är den skriftspråkliga formen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eleven" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "یازده", "latin": "yâzdah" },
+        "notes": { "en": "Written ۱۱. The final h is often not heard: yâzda.", "sv": "Skrivs ۱۱. Det sista h:et hörs ofta inte: yâzda." },
+        "sources": [{ "source": "wiktionary", "ref": "eleven" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "twelve",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "twelve", "sv": "tolv", "enAlt": ["12"], "svAlt": ["12"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دوانزە", "latin": "dwanze" },
+        "variants": [{ "script": "دوازدە", "latin": "dwazde", "register": "formal" }],
+        "notes": {
+          "en": "Written ١٢. Literally \"two-ten\". The bookish form is دوازدە (dwazde).",
+          "sv": "Skrivs ١٢. Ordagrant \"två-tio\". Den skriftspråkliga formen är دوازدە (dwazde)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "twelve" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "دوازده", "latin": "davâzdah" },
+        "notes": { "en": "Written ۱۲. Literally \"two-ten\", like Sorani دوانزە.", "sv": "Skrivs ۱۲. Ordagrant \"två-tio\", som soranins دوانزە." },
+        "sources": [{ "source": "wiktionary", "ref": "twelve" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fifteen",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "fifteen", "sv": "femton", "enAlt": ["15"], "svAlt": ["15"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پانزە", "latin": "panze" },
+        "variants": [{ "script": "پازدە", "latin": "pazde", "register": "formal" }],
+        "notes": {
+          "en": "Written ١٥. Five + ten, with پێنج shortened to pan-. The bookish form is پازدە (pazde).",
+          "sv": "Skrivs ١٥. Fem + tio, där پێنج har kortats till pan-. Den skriftspråkliga formen är پازدە (pazde)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fifteen" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "پانزده", "latin": "pânzdah" },
+        "variants": [{ "script": "پونزده", "latin": "punzdah", "register": "colloquial" }],
+        "notes": {
+          "en": "Written ۱۵. In Tehran it is punzdah, because â becomes u before n (as in نون nun for نان \"bread\").",
+          "sv": "Skrivs ۱۵. I Teheran blir det punzdah, eftersom â blir u före n (som نون nun för نان \"bröd\")."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fifteen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "twenty",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "twenty", "sv": "tjugo", "enAlt": ["20"], "svAlt": ["20"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بیست", "latin": "bîst" },
+        "notes": {
+          "en": "Written ٢٠. 21 is بیست و یەک (bîst û yek): tens first, joined with و \"and\".",
+          "sv": "Skrivs ٢٠. 21 heter بیست و یەک (bîst û yek): tiotalet först, ihopbundet med و \"och\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "twenty" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "بیست", "latin": "bist" },
+        "notes": {
+          "en": "Written ۲۰. 21 is بیست و یک (bist-o yek), the same pattern as in Sorani.",
+          "sv": "Skrivs ۲۰. 21 heter بیست و یک (bist-o yek), samma mönster som i soranin."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "twenty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thirty",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "thirty", "sv": "trettio", "enAlt": ["30"], "svAlt": ["30"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سی", "latin": "sî" },
+        "notes": { "en": "Written ٣٠. Not to be confused with سێ (sê) \"three\".", "sv": "Skrivs ٣٠. Får inte förväxlas med سێ (sê) \"tre\"." },
+        "sources": [{ "source": "wiktionary", "ref": "thirty" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "سی", "latin": "si" },
+        "notes": { "en": "Written ۳۰. Not to be confused with سه (se) \"three\".", "sv": "Skrivs ۳۰. Får inte förväxlas med سه (se) \"tre\"." },
+        "sources": [{ "source": "wiktionary", "ref": "thirty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fifty",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "fifty", "sv": "femtio", "enAlt": ["50"], "svAlt": ["50"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پەنجا", "latin": "penca" },
+        "notes": {
+          "en": "Written ٥٠. Built on پێنج \"five\", like Swedish fem and femtio.",
+          "sv": "Skrivs ٥٠. Bildat av پێنج \"fem\", precis som fem och femtio."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fifty" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "پنجاه", "latin": "panjâh" },
+        "notes": {
+          "en": "Written ۵۰. Built on پنج \"five\", like Swedish fem and femtio.",
+          "sv": "Skrivs ۵۰. Bildat av پنج \"fem\", precis som fem och femtio."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fifty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hundred",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "emoji": "💯",
+      "gloss": { "en": "hundred", "sv": "hundra", "enAlt": ["one hundred", "a hundred", "100"], "svAlt": ["etthundra", "100"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سەد", "latin": "sed" },
+        "notes": {
+          "en": "Written ١٠٠. The same word as Persian صد. 200 is دوو سەد (dû sed), 150 is سەد و پەنجا (sed û penca).",
+          "sv": "Skrivs ١٠٠. Samma ord som persiskans صد. 200 heter دوو سەد (dû sed), 150 heter سەد و پەنجا (sed û penca)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hundred" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "صد", "latin": "sad" },
+        "notes": {
+          "en": "Written ۱۰۰, spelled with ص. Watch out: 200 is irregular, دویست (devist), and 500 is پانصد (pânsad).",
+          "sv": "Skrivs ۱۰۰, med ص. Se upp: 200 är oregelbundet, دویست (devist), och 500 heter پانصد (pânsad)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hundred" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thousand",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "thousand", "sv": "tusen", "enAlt": ["one thousand", "a thousand", "1000"], "svAlt": ["ettusen", "1000"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەزار", "latin": "hezar" },
+        "notes": {
+          "en": "Written ١٠٠٠. The same word as Persian هزار. The noun after it stays singular: هەزار ساڵ \"a thousand years\".",
+          "sv": "Skrivs ١٠٠٠. Samma ord som persiskans هزار. Substantivet efter står i singular: هەزار ساڵ \"tusen år\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thousand" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "هزار", "latin": "hezâr" },
+        "notes": {
+          "en": "Written ۱۰۰۰. The famous story collection \"A Thousand and One Nights\" is هزار و یک شب (hezâr-o yek shab).",
+          "sv": "Skrivs ۱۰۰۰. Sagosamlingen \"Tusen och en natt\" heter هزار و یک شب (hezâr-o yek shab)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thousand" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "today",
+      "unit": "numbers-time",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "today", "sv": "idag", "svAlt": ["i dag"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئەمڕۆ", "latin": "emřo" },
+        "variants": [{ "script": "ئەمرۆ", "latin": "emro", "note": { "en": "also written this way", "sv": "skrivs också så" } }],
+        "notes": {
+          "en": "ئەم \"this\" + ڕۆژ \"day\": \"this day\", built just like Persian امروز.",
+          "sv": "ئەم \"den här\" + ڕۆژ \"dag\": \"den här dagen\", byggt precis som persiskans امروز."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "today" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "امروز", "latin": "emruz" },
+        "notes": {
+          "en": "ام- \"this\" + روز \"day\". The same pattern gives امشب (emshab) \"tonight\" and امسال (emsâl) \"this year\".",
+          "sv": "ام- \"den här\" + روز \"dag\". Samma mönster ger امشب (emshab) \"i kväll, i natt\" och امسال (emsâl) \"i år\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "today" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tomorrow",
+      "unit": "numbers-time",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "tomorrow", "sv": "imorgon", "svAlt": ["i morgon"] },
+      "ckb": {
+        "primary": { "script": "سبەی", "latin": "sibey" },
+        "variants": [{ "script": "سبەینێ", "latin": "sibeynê" }],
+        "notes": {
+          "en": "سبەینێ (sibeynê) is a longer form of the same word. \"Tomorrow morning\" is سبەی بەیانی.",
+          "sv": "سبەینێ (sibeynê) är en längre form av samma ord. \"I morgon bitti\" heter سبەی بەیانی."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tomorrow" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فردا", "latin": "fardâ" },
+        "notes": {
+          "en": "\"Tomorrow morning\" is فردا صبح (fardâ sobh). پس‌فردا (pas-fardâ) \"the day after tomorrow\" is literally \"after tomorrow\".",
+          "sv": "\"I morgon bitti\" heter فردا صبح (fardâ sobh). پس‌فردا (pas-fardâ) \"i övermorgon\" är ordagrant \"efter i morgon\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tomorrow" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "yesterday",
+      "unit": "numbers-time",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "yesterday", "sv": "igår", "svAlt": ["i går"] },
+      "ckb": {
+        "primary": { "script": "دوێنێ", "latin": "dwênê" },
+        "notes": {
+          "en": "\"Last night\" is دوێنێ شەو (dwênê şew), literally \"yesterday night\".",
+          "sv": "\"I går kväll\" heter دوێنێ شەو (dwênê şew), ordagrant \"i går natt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "yesterday" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دیروز", "latin": "diruz" },
+        "notes": {
+          "en": "دی, an old word for \"yesterday\", + روز \"day\". \"Last night\" is دیشب (dishab).",
+          "sv": "دی, ett gammalt ord för \"i går\", + روز \"dag\". \"I går kväll\" heter دیشب (dishab)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "yesterday" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "now",
+      "unit": "numbers-time",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "now", "sv": "nu", "enAlt": ["right now"] },
+      "ckb": {
+        "primary": { "script": "ئێستا", "latin": "êsta" },
+        "notes": { "en": "\"Right now\" is هەر ئێستا (her êsta).", "sv": "\"Just nu, genast\" heter هەر ئێستا (her êsta)." },
+        "sources": [{ "source": "wiktionary", "ref": "now" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "الان", "latin": "alân" },
+        "variants": [{ "script": "اکنون", "latin": "aknun", "register": "formal" }],
+        "notes": {
+          "en": "The everyday word, from Arabic; also spelled الآن. اکنون (aknun) is the bookish word.",
+          "sv": "Vardagsordet, från arabiskan; stavas också الآن. اکنون (aknun) är det skriftspråkliga ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "right now" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "day",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "☀️",
+      "gloss": { "en": "day", "sv": "dag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ڕۆژ", "latin": "řoj" },
+        "notes": {
+          "en": "ڕۆژ also means \"sun\". After a number it stays singular: سێ ڕۆژ \"three days\".",
+          "sv": "ڕۆژ betyder också \"sol\". Efter ett räkneord står det i singular: سێ ڕۆژ \"tre dagar\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "day" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "روز", "latin": "ruz" },
+        "notes": {
+          "en": "The same word as Sorani ڕۆژ. \"Birthday\" is روز تولد (ruz-e tavallod), literally \"day of birth\".",
+          "sv": "Samma ord som soranins ڕۆژ. \"Födelsedag\" heter روز تولد (ruz-e tavallod), ordagrant \"födelsens dag\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "day" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "week",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🗓️",
+      "gloss": { "en": "week", "sv": "vecka" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەفتە", "latin": "hefte" },
+        "variants": [{ "script": "حەفتە", "latin": "ḧefte" }],
+        "notes": {
+          "en": "From حەوت \"seven\": a group of seven days. Also written حەفتە (ḧefte).",
+          "sv": "Från حەوت \"sju\": en grupp på sju dagar. Skrivs också حەفتە (ḧefte)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "week" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Indefinitive state" }]
+      },
+      "fa": {
+        "primary": { "script": "هفته", "latin": "hafte" },
+        "notes": {
+          "en": "From هفت \"seven\". \"The weekend\" is آخر هفته (âkhar-e hafte), literally \"end of the week\".",
+          "sv": "Från هفت \"sju\". \"Helgen\" heter آخر هفته (âkhar-e hafte), ordagrant \"veckans slut\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "week" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "month",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🌕",
+      "gloss": { "en": "month", "sv": "månad" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "مانگ", "latin": "mang" },
+        "notes": {
+          "en": "Also means \"moon\", just like the Swedish pair måne / månad and English moon / month.",
+          "sv": "Betyder också \"måne\", precis som paret måne / månad."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "month" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "primary": { "script": "ماه", "latin": "mâh" },
+        "notes": {
+          "en": "Also means \"moon\", like Sorani مانگ and the Swedish pair måne / månad.",
+          "sv": "Betyder också \"måne\", som soranins مانگ och paret måne / månad."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "month" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hour",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🕐",
+      "gloss": { "en": "hour", "sv": "timme", "enAlt": ["o'clock", "clock"], "svAlt": ["klockan", "klocka"] },
+      "ckb": {
+        "primary": { "script": "کاتژمێر", "latin": "katjimêr" },
+        "variants": [
+          {
+            "script": "سەعات",
+            "latin": "se'at",
+            "register": "colloquial",
+            "note": { "en": "everyday speech, as in Persian", "sv": "vardagligt tal, som i persiskan" }
+          }
+        ],
+        "notes": {
+          "en": "Literally \"time-counter\": کات \"time\" + ژمێر \"counter\"; it means hour, o'clock and clock. Word order matters: دوو کاتژمێر \"two hours\", کاتژمێر دوو \"two o'clock\".",
+          "sv": "Ordagrant \"tidräknare\": کات \"tid\" + ژمێر \"räknare\"; betyder timme, klockan och klocka. Ordföljden avgör: دوو کاتژمێر \"två timmar\", کاتژمێر دوو \"klockan två\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clock" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ساعت", "latin": "sâ'at" },
+        "notes": {
+          "en": "Hour, o'clock, and also clock or watch. Word order matters: دو ساعت \"two hours\", ساعت دو \"two o'clock\".",
+          "sv": "Timme, klockan, och även klocka eller armbandsur. Ordföljden avgör: دو ساعت \"två timmar\", ساعت دو \"klockan två\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hour" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "minute",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "⏱️",
+      "gloss": { "en": "minute", "sv": "minut" },
+      "ckb": {
+        "primary": { "script": "خولەک", "latin": "xulek" },
+        "variants": [{ "script": "دەقیقە", "latin": "deqîqe", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech you also hear دەقیقە (deqîqe), the word Persian and Arabic use.",
+          "sv": "I tal hör man också دەقیقە (deqîqe), ordet som persiskan och arabiskan använder."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "دقیقه", "latin": "daghighe" },
+        "variants": [{ "script": "دقه", "latin": "daghe", "register": "colloquial" }],
+        "notes": {
+          "en": "From Arabic. In fast speech it is دقه (daghe). یک دقیقه! \"just a minute!\"",
+          "sv": "Från arabiskan. I snabbt tal blir det دقه (daghe). یک دقیقه! \"ett ögonblick!\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "minute" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "half",
+      "unit": "numbers-time",
+      "pos": "numeral",
+      "level": "A1",
+      "gloss": { "en": "half", "sv": "halv", "enAlt": ["a half"], "svAlt": ["hälft", "en halv"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نیو", "latin": "nîw" },
+        "notes": {
+          "en": "\"Half past\" is و نیو \"and a half\": سێ و نیو \"half past three\". نیو کاتژمێر is \"half an hour\".",
+          "sv": "سێ و نیو \"tre och en halv\" betyder halv fyra: kurdiskan räknar från förra timmen, inte mot nästa som svenskan. نیو کاتژمێر är \"en halvtimme\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "half" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نیم", "latin": "nim" },
+        "variants": [
+          {
+            "script": "نصف",
+            "latin": "nesf",
+            "note": { "en": "\"half of\" something: نصف نان \"half the bread\"", "sv": "\"hälften av\" något: نصف نان \"halva brödet\"" }
+          }
+        ],
+        "notes": {
+          "en": "\"Half past\" is و نیم: سه و نیم (se-o nim) \"half past three\". نیم ساعت is \"half an hour\".",
+          "sv": "سه و نیم (se-o nim) \"tre och en halv\" betyder halv fyra: persiskan räknar från förra timmen, inte mot nästa som svenskan. نیم ساعت är \"en halvtimme\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "half" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "morning",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🌅",
+      "gloss": { "en": "morning", "sv": "morgon", "svAlt": ["förmiddag"] },
+      "ckb": {
+        "primary": { "script": "بەیانی", "latin": "beyanî" },
+        "notes": {
+          "en": "As in بەیانیت باش \"good morning\". In Sulaymani speech بەیانی is also used for \"tomorrow\".",
+          "sv": "Som i بەیانیت باش \"god morgon\". I Sulaymani används بەیانی också för \"i morgon\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "morning" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "صبح", "latin": "sobh" },
+        "notes": {
+          "en": "As in صبح بخیر \"good morning\". صبحانه (sobhâne) \"breakfast\" is built on it.",
+          "sv": "Som i صبح بخیر \"god morgon\". صبحانه (sobhâne) \"frukost\" är bildat av det."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "morning" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "evening",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🌇",
+      "gloss": { "en": "evening", "sv": "kväll", "svAlt": ["afton"] },
+      "ckb": {
+        "primary": { "script": "ئێوارە", "latin": "êware" },
+        "notes": {
+          "en": "ئێوارەت باش \"good evening\". \"Dinner\" is نانی ئێوارە (nanî êware), literally \"evening bread\".",
+          "sv": "ئێوارەت باش \"god kväll\". \"Middag\" heter نانی ئێوارە (nanî êware), ordagrant \"kvällsbröd\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "evening" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عصر", "latin": "asr" },
+        "notes": {
+          "en": "عصر runs from late afternoon to dusk; once it is dark, Persian says شب \"night\": ساعت هشت شب \"eight in the evening\".",
+          "sv": "عصر är sen eftermiddag fram till skymningen; när det är mörkt säger persiskan شب \"natt\": ساعت هشت شب \"klockan åtta på kvällen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "عصر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "night",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🌙",
+      "gloss": { "en": "night", "sv": "natt" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شەو", "latin": "şew" },
+        "notes": {
+          "en": "شەو باش \"good night\". ئەمشەو (emşew) \"tonight\" is literally \"this night\".",
+          "sv": "شەو باش \"god natt\". ئەمشەو (emşew) \"i kväll, i natt\" är ordagrant \"den här natten\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "night" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شب", "latin": "shab" },
+        "notes": {
+          "en": "شب بخیر \"good night\". امشب (emshab) \"tonight\", built like Sorani ئەمشەو.",
+          "sv": "شب بخیر \"god natt\". امشب (emshab) \"i kväll, i natt\", byggt som soranins ئەمشەو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "night" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "saturday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Saturday", "sv": "lördag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شەممە", "latin": "şemme" },
+        "notes": {
+          "en": "The week starts on Saturday, and the next days count from it: یەکشەممە \"one (after) Saturday\" is Sunday.",
+          "sv": "Veckan börjar på lördag, och de följande dagarna räknas därifrån: یەکشەممە \"ett (efter) lördag\" är söndag."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Saturday" }, { "source": "thackston-sorani-grammar", "ref": "§12.2" }]
+      },
+      "fa": {
+        "primary": { "script": "شنبه", "latin": "shanbe" },
+        "notes": {
+          "en": "The first day of the week in Iran. Said shambe: n sounds like m before b. The next days count from it.",
+          "sv": "Veckans första dag i Iran. Uttalas shambe: n låter som m före b. De följande dagarna räknas därifrån."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Saturday" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sunday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Sunday", "sv": "söndag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "یەکشەممە", "latin": "yekşemme" },
+        "notes": { "en": "یەک \"one\" + شەممە \"Saturday\": the first day after Saturday.", "sv": "یەک \"ett\" + شەممە \"lördag\": första dagen efter lördag." },
+        "sources": [{ "source": "wiktionary", "ref": "Sunday" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12.2" }]
+      },
+      "fa": {
+        "primary": { "script": "یکشنبه", "latin": "yekshanbe" },
+        "variants": [{ "script": "یک‌شنبه", "latin": "yekshanbe" }],
+        "notes": {
+          "en": "یک \"one\" + شنبه \"Saturday\": the first day after Saturday. A normal working day in Iran.",
+          "sv": "یک \"ett\" + شنبه \"lördag\": första dagen efter lördag. En vanlig arbetsdag i Iran."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Sunday" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "monday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Monday", "sv": "måndag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دووشەممە", "latin": "dûşemme" },
+        "notes": { "en": "دوو \"two\" + شەممە: the second day after Saturday.", "sv": "دوو \"två\" + شەممە: andra dagen efter lördag." },
+        "sources": [{ "source": "wiktionary", "ref": "Monday" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12.2" }]
+      },
+      "fa": {
+        "primary": { "script": "دوشنبه", "latin": "doshanbe" },
+        "notes": { "en": "دو \"two\" + شنبه: the second day after Saturday.", "sv": "دو \"två\" + شنبه: andra dagen efter lördag." },
+        "sources": [{ "source": "wiktionary", "ref": "Monday" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tuesday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Tuesday", "sv": "tisdag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سێشەممە", "latin": "sêşemme" },
+        "notes": { "en": "سێ \"three\" + شەممە.", "sv": "سێ \"tre\" + شەممە." },
+        "sources": [{ "source": "wiktionary", "ref": "Tuesday" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12.2" }]
+      },
+      "fa": {
+        "primary": { "script": "سه‌شنبه", "latin": "seshanbe" },
+        "notes": {
+          "en": "سه \"three\" + شنبه, written with a half-space (ZWNJ) after سه so the letters don't join.",
+          "sv": "سه \"tre\" + شنبه, skrivs med ett halvt mellanslag (ZWNJ) efter سه så att bokstäverna inte binds ihop."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Tuesday" }]
+      }
+    },
+    {
+      "id": "wednesday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Wednesday", "sv": "onsdag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چوارشەممە", "latin": "çwarşemme" },
+        "notes": { "en": "چوار \"four\" + شەممە.", "sv": "چوار \"fyra\" + شەممە." },
+        "sources": [{ "source": "wiktionary", "ref": "Wednesday" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12.2" }]
+      },
+      "fa": {
+        "primary": { "script": "چهارشنبه", "latin": "chahârshanbe" },
+        "notes": {
+          "en": "Said chârshanbe in speech. چهارشنبه‌سوری, the fire festival before Nowruz (the Persian new year), is named after it.",
+          "sv": "Uttalas chârshanbe i tal. چهارشنبه‌سوری, eldfesten före nowruz (det persiska nyåret), har fått sitt namn efter dagen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Wednesday" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thursday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Thursday", "sv": "torsdag" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پێنجشەممە", "latin": "pêncşemme" },
+        "notes": { "en": "پێنج \"five\" + شەممە.", "sv": "پێنج \"fem\" + شەممە." },
+        "sources": [{ "source": "wiktionary", "ref": "Thursday" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12.2" }]
+      },
+      "fa": {
+        "primary": { "script": "پنجشنبه", "latin": "panjshanbe" },
+        "variants": [{ "script": "پنج‌شنبه", "latin": "panjshanbe" }],
+        "notes": {
+          "en": "پنج \"five\" + شنبه. For many Iranians the weekend already starts on Thursday.",
+          "sv": "پنج \"fem\" + شنبه. För många iranier börjar helgen redan på torsdagen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Thursday" }]
+      }
+    },
+    {
+      "id": "friday",
+      "unit": "numbers-time",
+      "pos": "noun",
+      "level": "A1",
+      "gloss": { "en": "Friday", "sv": "fredag" },
+      "ckb": {
+        "primary": { "script": "هەینی", "latin": "heynî" },
+        "variants": [{ "script": "جومعە", "latin": "cum'e", "register": "colloquial" }],
+        "notes": {
+          "en": "The weekly day off. Unlike the other days it is not built on شەممە; in speech you also hear جومعە, from Arabic.",
+          "sv": "Veckans vilodag. Till skillnad från de andra dagarna är det inte bildat av شەممە; i tal hör man också جومعە, från arabiskan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Friday" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جمعه", "latin": "jom'e" },
+        "notes": {
+          "en": "From Arabic \"gathering\", for the Friday prayers. The weekly day off in Iran.",
+          "sv": "Från arabiskans \"samling\", efter fredagsbönen. Veckans vilodag i Iran."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "Friday" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

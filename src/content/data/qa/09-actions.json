@@ -1,0 +1,2565 @@
+{
+  "items": [
+    {
+      "id": "what-did-you-do-yesterday",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "What did you do yesterday?",
+        "sv": "Vad gjorde du i går?"
+      },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "دوێنێ چیت کرد؟",
+          "latin": "dwênê çît kird?",
+          "tokens": [
+            {
+              "text": "دوێنێ",
+              "latin": "dwênê",
+              "gloss": {
+                "en": "yesterday",
+                "sv": "i går"
+              },
+              "concept": "yesterday"
+            },
+            {
+              "text": "چیت",
+              "latin": "çît",
+              "gloss": {
+                "en": "what + you (did it)",
+                "sv": "vad + du (gjorde det)"
+              },
+              "concept": "what",
+              "morph": "what-2SG.AGT"
+            },
+            {
+              "text": "کرد؟",
+              "latin": "kird?",
+              "gloss": {
+                "en": "did",
+                "sv": "gjorde"
+              },
+              "concept": "to-do",
+              "morph": "do.PST"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "دوێنێ کارم کرد.",
+            "latin": "dwênê karim kird.",
+            "translation": {
+              "en": "Yesterday I worked.",
+              "sv": "I går jobbade jag."
+            },
+            "tokens": [
+              {
+                "text": "دوێنێ",
+                "latin": "dwênê",
+                "gloss": {
+                  "en": "yesterday",
+                  "sv": "i går"
+                },
+                "concept": "yesterday"
+              },
+              {
+                "text": "کارم",
+                "latin": "karim",
+                "gloss": {
+                  "en": "work + I (did it)",
+                  "sv": "arbete + jag (gjorde det)"
+                },
+                "concept": "to-work",
+                "morph": "work-1SG.AGT"
+              },
+              {
+                "text": "کرد.",
+                "latin": "kird.",
+                "gloss": {
+                  "en": "did",
+                  "sv": "gjorde"
+                },
+                "concept": "to-work",
+                "morph": "do.PST"
+              }
+            ]
+          },
+          {
+            "text": "دوێنێ {activity}.",
+            "latin": "dwênê {activity}.",
+            "translation": {
+              "en": "Yesterday I {activity}.",
+              "sv": "I går {activity}."
+            }
+          },
+          {
+            "text": "هیچم نەکرد.",
+            "latin": "hîçim nekird.",
+            "translation": {
+              "en": "I didn't do anything.",
+              "sv": "Jag gjorde ingenting."
+            }
+          }
+        ],
+        "slots": {
+          "activity": [
+            {
+              "text": "چوومە بازاڕ",
+              "latin": "çûme bazař",
+              "translation": {
+                "en": "went to the market",
+                "sv": "gick jag till marknaden"
+              }
+            },
+            {
+              "text": "کتێبێکم خوێندەوە",
+              "latin": "kitêbêkim xwêndewe",
+              "translation": {
+                "en": "read a book",
+                "sv": "läste jag en bok"
+              }
+            },
+            {
+              "text": "تەلەفۆنم بۆ دایکم کرد",
+              "latin": "telefonim bo daykim kird",
+              "translation": {
+                "en": "called my mother",
+                "sv": "ringde jag min mamma"
+              }
+            },
+            {
+              "text": "چێشتم لێنا",
+              "latin": "çêştim lêna",
+              "translation": {
+                "en": "cooked",
+                "sv": "lagade jag mat"
+              }
+            },
+            {
+              "text": "کوردیم خوێند",
+              "latin": "kurdîm xwênd",
+              "translation": {
+                "en": "studied Kurdish",
+                "sv": "pluggade jag kurdiska"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§27"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "دیروز چه کار کردی؟",
+          "latin": "diruz che kâr kardi?",
+          "tokens": [
+            {
+              "text": "دیروز",
+              "latin": "diruz",
+              "gloss": {
+                "en": "yesterday",
+                "sv": "i går"
+              },
+              "concept": "yesterday"
+            },
+            {
+              "text": "چه",
+              "latin": "che",
+              "gloss": {
+                "en": "what",
+                "sv": "vad"
+              },
+              "concept": "what"
+            },
+            {
+              "text": "کار",
+              "latin": "kâr",
+              "gloss": {
+                "en": "work, thing",
+                "sv": "arbete, sak"
+              },
+              "concept": "work"
+            },
+            {
+              "text": "کردی؟",
+              "latin": "kardi?",
+              "gloss": {
+                "en": "did you do",
+                "sv": "gjorde du"
+              },
+              "concept": "to-do",
+              "morph": "do.PST-2SG"
+            }
+          ],
+          "colloquial": {
+            "text": "دیروز چی کار کردی؟",
+            "latin": "diruz chi kâr kardi?"
+          }
+        },
+        "answers": [
+          {
+            "text": "دیروز کار کردم.",
+            "latin": "diruz kâr kardam.",
+            "translation": {
+              "en": "Yesterday I worked.",
+              "sv": "I går jobbade jag."
+            },
+            "tokens": [
+              {
+                "text": "دیروز",
+                "latin": "diruz",
+                "gloss": {
+                  "en": "yesterday",
+                  "sv": "i går"
+                },
+                "concept": "yesterday"
+              },
+              {
+                "text": "کار",
+                "latin": "kâr",
+                "gloss": {
+                  "en": "work",
+                  "sv": "arbete"
+                },
+                "concept": "to-work"
+              },
+              {
+                "text": "کردم.",
+                "latin": "kardam.",
+                "gloss": {
+                  "en": "I did",
+                  "sv": "jag gjorde"
+                },
+                "concept": "to-work",
+                "morph": "do.PST-1SG"
+              }
+            ]
+          },
+          {
+            "text": "دیروز {activity}.",
+            "latin": "diruz {activity}.",
+            "translation": {
+              "en": "Yesterday I {activity}.",
+              "sv": "I går {activity}."
+            }
+          },
+          {
+            "text": "هیچ کاری نکردم.",
+            "latin": "hich kâri nakardam.",
+            "translation": {
+              "en": "I didn't do anything.",
+              "sv": "Jag gjorde ingenting."
+            }
+          }
+        ],
+        "slots": {
+          "activity": [
+            {
+              "text": "به بازار رفتم",
+              "latin": "be bâzâr raftam",
+              "translation": {
+                "en": "went to the market",
+                "sv": "gick jag till marknaden"
+              }
+            },
+            {
+              "text": "یک کتاب خواندم",
+              "latin": "yek ketâb khândam",
+              "translation": {
+                "en": "read a book",
+                "sv": "läste jag en bok"
+              }
+            },
+            {
+              "text": "به مادرم زنگ زدم",
+              "latin": "be mâdaram zang zadam",
+              "translation": {
+                "en": "called my mother",
+                "sv": "ringde jag min mamma"
+              }
+            },
+            {
+              "text": "آشپزی کردم",
+              "latin": "âshpazi kardam",
+              "translation": {
+                "en": "cooked",
+                "sv": "lagade jag mat"
+              }
+            },
+            {
+              "text": "کردی خواندم",
+              "latin": "kordi khândam",
+              "translation": {
+                "en": "studied Kurdish",
+                "sv": "pluggade jag kurdiska"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-did-you-eat",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "What did you eat?",
+        "sv": "Vad åt du?"
+      },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چیت خوارد؟",
+          "latin": "çît xward?",
+          "tokens": [
+            {
+              "text": "چیت",
+              "latin": "çît",
+              "gloss": {
+                "en": "what + you (did it)",
+                "sv": "vad + du (gjorde det)"
+              },
+              "concept": "what",
+              "morph": "what-2SG.AGT"
+            },
+            {
+              "text": "خوارد؟",
+              "latin": "xward?",
+              "gloss": {
+                "en": "ate",
+                "sv": "åt"
+              },
+              "concept": "to-eat",
+              "morph": "eat.PST"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نانم خوارد.",
+            "latin": "nanim xward.",
+            "translation": {
+              "en": "I ate bread.",
+              "sv": "Jag åt bröd."
+            },
+            "tokens": [
+              {
+                "text": "نانم",
+                "latin": "nanim",
+                "gloss": {
+                  "en": "bread + I (did it)",
+                  "sv": "bröd + jag (gjorde det)"
+                },
+                "concept": "bread",
+                "morph": "bread-1SG.AGT"
+              },
+              {
+                "text": "خوارد.",
+                "latin": "xward.",
+                "gloss": {
+                  "en": "ate",
+                  "sv": "åt"
+                },
+                "concept": "to-eat",
+                "morph": "eat.PST"
+              }
+            ]
+          },
+          {
+            "text": "{food}م خوارد.",
+            "latin": "{food}im xward.",
+            "translation": {
+              "en": "I ate {food}.",
+              "sv": "Jag åt {food}."
+            }
+          },
+          {
+            "text": "برنج و گۆشتم خوارد.",
+            "latin": "birinc û goştim xward.",
+            "translation": {
+              "en": "I ate rice and meat.",
+              "sv": "Jag åt ris och kött."
+            }
+          },
+          {
+            "text": "هیچم نەخوارد.",
+            "latin": "hîçim nexward.",
+            "translation": {
+              "en": "I didn't eat anything.",
+              "sv": "Jag åt ingenting."
+            }
+          }
+        ],
+        "slots": {
+          "food": [
+            {
+              "text": "نان",
+              "latin": "nan",
+              "translation": {
+                "en": "bread",
+                "sv": "bröd"
+              }
+            },
+            {
+              "text": "برنج",
+              "latin": "birinc",
+              "translation": {
+                "en": "rice",
+                "sv": "ris"
+              }
+            },
+            {
+              "text": "گۆشت",
+              "latin": "goşt",
+              "translation": {
+                "en": "meat",
+                "sv": "kött"
+              }
+            },
+            {
+              "text": "مریشک",
+              "latin": "mirîşk",
+              "translation": {
+                "en": "chicken",
+                "sv": "kyckling"
+              }
+            },
+            {
+              "text": "پەنیر",
+              "latin": "penîr",
+              "translation": {
+                "en": "cheese",
+                "sv": "ost"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§27"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "چه خوردی؟",
+          "latin": "che khordi?",
+          "tokens": [
+            {
+              "text": "چه",
+              "latin": "che",
+              "gloss": {
+                "en": "what",
+                "sv": "vad"
+              },
+              "concept": "what"
+            },
+            {
+              "text": "خوردی؟",
+              "latin": "khordi?",
+              "gloss": {
+                "en": "did you eat",
+                "sv": "åt du"
+              },
+              "concept": "to-eat",
+              "morph": "eat.PST-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نان خوردم.",
+            "latin": "nân khordam.",
+            "translation": {
+              "en": "I ate bread.",
+              "sv": "Jag åt bröd."
+            },
+            "tokens": [
+              {
+                "text": "نان",
+                "latin": "nân",
+                "gloss": {
+                  "en": "bread",
+                  "sv": "bröd"
+                },
+                "concept": "bread"
+              },
+              {
+                "text": "خوردم.",
+                "latin": "khordam.",
+                "gloss": {
+                  "en": "I ate",
+                  "sv": "jag åt"
+                },
+                "concept": "to-eat",
+                "morph": "eat.PST-1SG"
+              }
+            ]
+          },
+          {
+            "text": "{food} خوردم.",
+            "latin": "{food} khordam.",
+            "translation": {
+              "en": "I ate {food}.",
+              "sv": "Jag åt {food}."
+            }
+          },
+          {
+            "text": "برنج و گوشت خوردم.",
+            "latin": "berenj o gusht khordam.",
+            "translation": {
+              "en": "I ate rice and meat.",
+              "sv": "Jag åt ris och kött."
+            }
+          },
+          {
+            "text": "چیزی نخوردم.",
+            "latin": "chizi nakhordam.",
+            "translation": {
+              "en": "I didn't eat anything.",
+              "sv": "Jag åt ingenting."
+            }
+          }
+        ],
+        "slots": {
+          "food": [
+            {
+              "text": "نان",
+              "latin": "nân",
+              "translation": {
+                "en": "bread",
+                "sv": "bröd"
+              }
+            },
+            {
+              "text": "برنج",
+              "latin": "berenj",
+              "translation": {
+                "en": "rice",
+                "sv": "ris"
+              }
+            },
+            {
+              "text": "گوشت",
+              "latin": "gusht",
+              "translation": {
+                "en": "meat",
+                "sv": "kött"
+              }
+            },
+            {
+              "text": "مرغ",
+              "latin": "morgh",
+              "translation": {
+                "en": "chicken",
+                "sv": "kyckling"
+              }
+            },
+            {
+              "text": "پنیر",
+              "latin": "panir",
+              "translation": {
+                "en": "cheese",
+                "sv": "ost"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "where-did-you-go-yesterday",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "Where did you go yesterday?",
+        "sv": "Vart gick du i går?"
+      },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "دوێنێ بۆ کوێ چوویت؟",
+          "latin": "dwênê bo kwê çûyt?",
+          "tokens": [
+            {
+              "text": "دوێنێ",
+              "latin": "dwênê",
+              "gloss": {
+                "en": "yesterday",
+                "sv": "i går"
+              },
+              "concept": "yesterday"
+            },
+            {
+              "text": "بۆ",
+              "latin": "bo",
+              "gloss": {
+                "en": "to",
+                "sv": "till"
+              },
+              "concept": "to"
+            },
+            {
+              "text": "کوێ",
+              "latin": "kwê",
+              "gloss": {
+                "en": "where",
+                "sv": "var"
+              },
+              "concept": "where"
+            },
+            {
+              "text": "چوویت؟",
+              "latin": "çûyt?",
+              "gloss": {
+                "en": "did you go",
+                "sv": "gick du"
+              },
+              "concept": "to-go",
+              "morph": "go.PST-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "چوومە بازاڕ.",
+            "latin": "çûme bazař.",
+            "translation": {
+              "en": "I went to the market.",
+              "sv": "Jag gick till marknaden."
+            },
+            "tokens": [
+              {
+                "text": "چوومە",
+                "latin": "çûme",
+                "gloss": {
+                  "en": "I went to",
+                  "sv": "jag gick till"
+                },
+                "concept": "to-go",
+                "morph": "go.PST-1SG-to"
+              },
+              {
+                "text": "بازاڕ.",
+                "latin": "bazař.",
+                "gloss": {
+                  "en": "market",
+                  "sv": "marknaden"
+                },
+                "concept": "market"
+              }
+            ]
+          },
+          {
+            "text": "چوومە {place}.",
+            "latin": "çûme {place}.",
+            "translation": {
+              "en": "I went to {place}.",
+              "sv": "Jag gick till {place}."
+            }
+          },
+          {
+            "text": "چووم بۆ {place}.",
+            "latin": "çûm bo {place}.",
+            "translation": {
+              "en": "I went to {place}.",
+              "sv": "Jag gick till {place}."
+            }
+          },
+          {
+            "text": "هیچ شوێنێک نەچووم.",
+            "latin": "hîç şwênêk neçûm.",
+            "translation": {
+              "en": "I didn't go anywhere.",
+              "sv": "Jag gick ingenstans."
+            }
+          }
+        ],
+        "slots": {
+          "place": [
+            {
+              "text": "بازاڕ",
+              "latin": "bazař",
+              "translation": {
+                "en": "the market",
+                "sv": "marknaden"
+              }
+            },
+            {
+              "text": "قوتابخانە",
+              "latin": "qutabxane",
+              "translation": {
+                "en": "school",
+                "sv": "skolan"
+              }
+            },
+            {
+              "text": "نەخۆشخانە",
+              "latin": "nexoşxane",
+              "translation": {
+                "en": "the hospital",
+                "sv": "sjukhuset"
+              }
+            },
+            {
+              "text": "فڕۆکەخانە",
+              "latin": "fřokexane",
+              "translation": {
+                "en": "the airport",
+                "sv": "flygplatsen"
+              }
+            },
+            {
+              "text": "گوند",
+              "latin": "gund",
+              "translation": {
+                "en": "the village",
+                "sv": "byn"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§25"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "دیروز کجا رفتی؟",
+          "latin": "diruz kojâ rafti?",
+          "tokens": [
+            {
+              "text": "دیروز",
+              "latin": "diruz",
+              "gloss": {
+                "en": "yesterday",
+                "sv": "i går"
+              },
+              "concept": "yesterday"
+            },
+            {
+              "text": "کجا",
+              "latin": "kojâ",
+              "gloss": {
+                "en": "where",
+                "sv": "vart"
+              },
+              "concept": "where"
+            },
+            {
+              "text": "رفتی؟",
+              "latin": "rafti?",
+              "gloss": {
+                "en": "did you go",
+                "sv": "gick du"
+              },
+              "concept": "to-go",
+              "morph": "go.PST-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "به بازار رفتم.",
+            "latin": "be bâzâr raftam.",
+            "translation": {
+              "en": "I went to the market.",
+              "sv": "Jag gick till marknaden."
+            },
+            "tokens": [
+              {
+                "text": "به",
+                "latin": "be",
+                "gloss": {
+                  "en": "to",
+                  "sv": "till"
+                },
+                "concept": "to"
+              },
+              {
+                "text": "بازار",
+                "latin": "bâzâr",
+                "gloss": {
+                  "en": "market",
+                  "sv": "marknaden"
+                },
+                "concept": "market"
+              },
+              {
+                "text": "رفتم.",
+                "latin": "raftam.",
+                "gloss": {
+                  "en": "I went",
+                  "sv": "jag gick"
+                },
+                "concept": "to-go",
+                "morph": "go.PST-1SG"
+              }
+            ]
+          },
+          {
+            "text": "به {place} رفتم.",
+            "latin": "be {place} raftam.",
+            "translation": {
+              "en": "I went to {place}.",
+              "sv": "Jag gick till {place}."
+            }
+          },
+          {
+            "text": "رفتم {place}.",
+            "latin": "raftam {place}.",
+            "translation": {
+              "en": "I went to {place}. (spoken)",
+              "sv": "Jag gick till {place}. (talspråk)"
+            }
+          },
+          {
+            "text": "هیچ جا نرفتم.",
+            "latin": "hich jâ naraftam.",
+            "translation": {
+              "en": "I didn't go anywhere.",
+              "sv": "Jag gick ingenstans."
+            }
+          }
+        ],
+        "slots": {
+          "place": [
+            {
+              "text": "بازار",
+              "latin": "bâzâr",
+              "translation": {
+                "en": "the market",
+                "sv": "marknaden"
+              }
+            },
+            {
+              "text": "مدرسه",
+              "latin": "madrese",
+              "translation": {
+                "en": "school",
+                "sv": "skolan"
+              }
+            },
+            {
+              "text": "بیمارستان",
+              "latin": "bimârestân",
+              "translation": {
+                "en": "the hospital",
+                "sv": "sjukhuset"
+              }
+            },
+            {
+              "text": "فرودگاه",
+              "latin": "forudgâh",
+              "translation": {
+                "en": "the airport",
+                "sv": "flygplatsen"
+              }
+            },
+            {
+              "text": "روستا",
+              "latin": "rustâ",
+              "translation": {
+                "en": "the village",
+                "sv": "byn"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "can-you-speak-kurdish",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "Can you speak Kurdish?",
+        "sv": "Kan du prata kurdiska?"
+      },
+      "ckb": {
+        "question": {
+          "text": "دەتوانیت بە کوردی قسە بکەیت؟",
+          "latin": "detwanît be kurdî qise bikeyt?",
+          "tokens": [
+            {
+              "text": "دەتوانیت",
+              "latin": "detwanît",
+              "gloss": {
+                "en": "can you",
+                "sv": "kan du"
+              },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2SG"
+            },
+            {
+              "text": "بە",
+              "latin": "be",
+              "gloss": {
+                "en": "in (by)",
+                "sv": "på (med)"
+              },
+              "morph": "by"
+            },
+            {
+              "text": "کوردی",
+              "latin": "kurdî",
+              "gloss": {
+                "en": "Kurdish",
+                "sv": "kurdiska"
+              },
+              "concept": "kurdish"
+            },
+            {
+              "text": "قسە",
+              "latin": "qise",
+              "gloss": {
+                "en": "speech",
+                "sv": "tal"
+              },
+              "concept": "to-speak"
+            },
+            {
+              "text": "بکەیت؟",
+              "latin": "bikeyt?",
+              "gloss": {
+                "en": "do",
+                "sv": "göra"
+              },
+              "concept": "to-speak",
+              "morph": "SBJV-do.PRS-2SG"
+            }
+          ],
+          "alternatives": [
+            {
+              "text": "کوردی دەزانیت؟",
+              "latin": "kurdî dezanît?"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، کەمێک دەتوانم.",
+            "latin": "bełê, kemêk detwanim.",
+            "translation": {
+              "en": "Yes, I can a little.",
+              "sv": "Ja, jag kan lite."
+            },
+            "tokens": [
+              {
+                "text": "بەڵێ،",
+                "latin": "bełê,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "کەمێک",
+                "latin": "kemêk",
+                "gloss": {
+                  "en": "a little",
+                  "sv": "lite"
+                },
+                "concept": "a-little"
+              },
+              {
+                "text": "دەتوانم.",
+                "latin": "detwanim.",
+                "gloss": {
+                  "en": "I can",
+                  "sv": "jag kan"
+                },
+                "concept": "can",
+                "morph": "DUR-can.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، دەتوانم.",
+            "latin": "bełê, detwanim.",
+            "translation": {
+              "en": "Yes, I can.",
+              "sv": "Ja, jag kan."
+            }
+          },
+          {
+            "text": "نەخێر، ناتوانم.",
+            "latin": "nexêr, natwanim.",
+            "translation": {
+              "en": "No, I can't.",
+              "sv": "Nej, jag kan inte."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§21"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "می‌توانید کردی صحبت کنید؟",
+          "latin": "mitavânid kordi sohbat konid?",
+          "tokens": [
+            {
+              "text": "می‌توانید",
+              "latin": "mitavânid",
+              "gloss": {
+                "en": "can you (polite)",
+                "sv": "kan ni (artigt)"
+              },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2PL"
+            },
+            {
+              "text": "کردی",
+              "latin": "kordi",
+              "gloss": {
+                "en": "Kurdish",
+                "sv": "kurdiska"
+              },
+              "concept": "kurdish"
+            },
+            {
+              "text": "صحبت",
+              "latin": "sohbat",
+              "gloss": {
+                "en": "speech",
+                "sv": "tal"
+              },
+              "concept": "to-speak"
+            },
+            {
+              "text": "کنید؟",
+              "latin": "konid?",
+              "gloss": {
+                "en": "do",
+                "sv": "göra"
+              },
+              "concept": "to-speak",
+              "morph": "do.SBJV-2PL"
+            }
+          ],
+          "colloquial": {
+            "text": "می‌تونی کردی حرف بزنی؟",
+            "latin": "mituni kordi harf bezani?"
+          }
+        },
+        "answers": [
+          {
+            "text": "بله، کمی می‌توانم.",
+            "latin": "bale, kami mitavânam.",
+            "translation": {
+              "en": "Yes, I can a little.",
+              "sv": "Ja, jag kan lite."
+            },
+            "tokens": [
+              {
+                "text": "بله،",
+                "latin": "bale,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "کمی",
+                "latin": "kami",
+                "gloss": {
+                  "en": "a little",
+                  "sv": "lite"
+                },
+                "concept": "a-little"
+              },
+              {
+                "text": "می‌توانم.",
+                "latin": "mitavânam.",
+                "gloss": {
+                  "en": "I can",
+                  "sv": "jag kan"
+                },
+                "concept": "can",
+                "morph": "DUR-can.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "آره، یه کم می‌تونم.",
+            "latin": "âre, ye kam mitunam.",
+            "translation": {
+              "en": "Yeah, I can a little. (spoken)",
+              "sv": "Ja, jag kan lite. (talspråk)"
+            }
+          },
+          {
+            "text": "نه، نمی‌توانم.",
+            "latin": "na, nemitavânam.",
+            "translation": {
+              "en": "No, I can't.",
+              "sv": "Nej, jag kan inte."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "can-you-speak-persian",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "Can you speak Persian?",
+        "sv": "Kan du prata persiska?"
+      },
+      "ckb": {
+        "question": {
+          "text": "دەتوانیت بە فارسی قسە بکەیت؟",
+          "latin": "detwanît be farsî qise bikeyt?",
+          "tokens": [
+            {
+              "text": "دەتوانیت",
+              "latin": "detwanît",
+              "gloss": {
+                "en": "can you",
+                "sv": "kan du"
+              },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2SG"
+            },
+            {
+              "text": "بە",
+              "latin": "be",
+              "gloss": {
+                "en": "in (by)",
+                "sv": "på (med)"
+              },
+              "morph": "by"
+            },
+            {
+              "text": "فارسی",
+              "latin": "farsî",
+              "gloss": {
+                "en": "Persian",
+                "sv": "persiska"
+              },
+              "concept": "persian"
+            },
+            {
+              "text": "قسە",
+              "latin": "qise",
+              "gloss": {
+                "en": "speech",
+                "sv": "tal"
+              },
+              "concept": "to-speak"
+            },
+            {
+              "text": "بکەیت؟",
+              "latin": "bikeyt?",
+              "gloss": {
+                "en": "do",
+                "sv": "göra"
+              },
+              "concept": "to-speak",
+              "morph": "SBJV-do.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نەخێر، ناتوانم.",
+            "latin": "nexêr, natwanim.",
+            "translation": {
+              "en": "No, I can't.",
+              "sv": "Nej, jag kan inte."
+            },
+            "tokens": [
+              {
+                "text": "نەخێر،",
+                "latin": "nexêr,",
+                "gloss": {
+                  "en": "no",
+                  "sv": "nej"
+                },
+                "concept": "no"
+              },
+              {
+                "text": "ناتوانم.",
+                "latin": "natwanim.",
+                "gloss": {
+                  "en": "I can't",
+                  "sv": "jag kan inte"
+                },
+                "concept": "can",
+                "morph": "NEG-can.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، کەمێک دەتوانم.",
+            "latin": "bełê, kemêk detwanim.",
+            "translation": {
+              "en": "Yes, I can a little.",
+              "sv": "Ja, jag kan lite."
+            }
+          },
+          {
+            "text": "بەڵێ، باش دەتوانم.",
+            "latin": "bełê, baş detwanim.",
+            "translation": {
+              "en": "Yes, I can speak it well.",
+              "sv": "Ja, jag kan det bra."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§21"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "می‌توانید فارسی صحبت کنید؟",
+          "latin": "mitavânid fârsi sohbat konid?",
+          "tokens": [
+            {
+              "text": "می‌توانید",
+              "latin": "mitavânid",
+              "gloss": {
+                "en": "can you (polite)",
+                "sv": "kan ni (artigt)"
+              },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2PL"
+            },
+            {
+              "text": "فارسی",
+              "latin": "fârsi",
+              "gloss": {
+                "en": "Persian",
+                "sv": "persiska"
+              },
+              "concept": "persian"
+            },
+            {
+              "text": "صحبت",
+              "latin": "sohbat",
+              "gloss": {
+                "en": "speech",
+                "sv": "tal"
+              },
+              "concept": "to-speak"
+            },
+            {
+              "text": "کنید؟",
+              "latin": "konid?",
+              "gloss": {
+                "en": "do",
+                "sv": "göra"
+              },
+              "concept": "to-speak",
+              "morph": "do.SBJV-2PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، کمی می‌توانم.",
+            "latin": "bale, kami mitavânam.",
+            "translation": {
+              "en": "Yes, I can a little.",
+              "sv": "Ja, jag kan lite."
+            },
+            "tokens": [
+              {
+                "text": "بله،",
+                "latin": "bale,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "کمی",
+                "latin": "kami",
+                "gloss": {
+                  "en": "a little",
+                  "sv": "lite"
+                },
+                "concept": "a-little"
+              },
+              {
+                "text": "می‌توانم.",
+                "latin": "mitavânam.",
+                "gloss": {
+                  "en": "I can",
+                  "sv": "jag kan"
+                },
+                "concept": "can",
+                "morph": "DUR-can.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "نه، نمی‌توانم.",
+            "latin": "na, nemitavânam.",
+            "translation": {
+              "en": "No, I can't.",
+              "sv": "Nej, jag kan inte."
+            }
+          },
+          {
+            "text": "بله، خوب می‌توانم.",
+            "latin": "bale, khub mitavânam.",
+            "translation": {
+              "en": "Yes, I can speak it well.",
+              "sv": "Ja, jag kan det bra."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "do-you-like-tea",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "Do you like tea?",
+        "sv": "Tycker du om te?"
+      },
+      "ckb": {
+        "question": {
+          "text": "حەزت لە چایە؟",
+          "latin": "ḧezit le çaye?",
+          "tokens": [
+            {
+              "text": "حەزت",
+              "latin": "ḧezit",
+              "gloss": {
+                "en": "your liking",
+                "sv": "ditt tycke"
+              },
+              "concept": "to-like",
+              "morph": "liking-2SG"
+            },
+            {
+              "text": "لە",
+              "latin": "le",
+              "gloss": {
+                "en": "of (from)",
+                "sv": "om (från)"
+              },
+              "concept": "from"
+            },
+            {
+              "text": "چایە؟",
+              "latin": "çaye?",
+              "gloss": {
+                "en": "tea, is",
+                "sv": "te, är"
+              },
+              "concept": "tea",
+              "morph": "tea-COP.3SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، حەزم لە چایە.",
+            "latin": "bełê, ḧezim le çaye.",
+            "translation": {
+              "en": "Yes, I like tea.",
+              "sv": "Ja, jag tycker om te."
+            },
+            "tokens": [
+              {
+                "text": "بەڵێ،",
+                "latin": "bełê,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "حەزم",
+                "latin": "ḧezim",
+                "gloss": {
+                  "en": "my liking",
+                  "sv": "mitt tycke"
+                },
+                "concept": "to-like",
+                "morph": "liking-1SG"
+              },
+              {
+                "text": "لە",
+                "latin": "le",
+                "gloss": {
+                  "en": "of (from)",
+                  "sv": "om (från)"
+                },
+                "concept": "from"
+              },
+              {
+                "text": "چایە.",
+                "latin": "çaye.",
+                "gloss": {
+                  "en": "tea, is",
+                  "sv": "te, är"
+                },
+                "concept": "tea",
+                "morph": "tea-COP.3SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، زۆر حەز لە چا دەکەم.",
+            "latin": "bełê, zor ḧez le ça dekem.",
+            "translation": {
+              "en": "Yes, I like tea a lot.",
+              "sv": "Ja, jag tycker mycket om te."
+            }
+          },
+          {
+            "text": "نەخێر، حەزم لە قاوەیە.",
+            "latin": "nexêr, ḧezim le qaweye.",
+            "translation": {
+              "en": "No, I like coffee.",
+              "sv": "Nej, jag tycker om kaffe."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "چای دوست دارید؟",
+          "latin": "chây dust dârid?",
+          "tokens": [
+            {
+              "text": "چای",
+              "latin": "chây",
+              "gloss": {
+                "en": "tea",
+                "sv": "te"
+              },
+              "concept": "tea"
+            },
+            {
+              "text": "دوست",
+              "latin": "dust",
+              "gloss": {
+                "en": "friend (= like)",
+                "sv": "vän (= tycka om)"
+              },
+              "concept": "to-like"
+            },
+            {
+              "text": "دارید؟",
+              "latin": "dârid?",
+              "gloss": {
+                "en": "do you have",
+                "sv": "har ni"
+              },
+              "concept": "to-like",
+              "morph": "have.PRS-2PL"
+            }
+          ],
+          "colloquial": {
+            "text": "چایی دوست داری؟",
+            "latin": "châyi dust dâri?"
+          }
+        },
+        "answers": [
+          {
+            "text": "بله، چای دوست دارم.",
+            "latin": "bale, chây dust dâram.",
+            "translation": {
+              "en": "Yes, I like tea.",
+              "sv": "Ja, jag tycker om te."
+            },
+            "tokens": [
+              {
+                "text": "بله،",
+                "latin": "bale,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "چای",
+                "latin": "chây",
+                "gloss": {
+                  "en": "tea",
+                  "sv": "te"
+                },
+                "concept": "tea"
+              },
+              {
+                "text": "دوست",
+                "latin": "dust",
+                "gloss": {
+                  "en": "friend (= like)",
+                  "sv": "vän (= tycka om)"
+                },
+                "concept": "to-like"
+              },
+              {
+                "text": "دارم.",
+                "latin": "dâram.",
+                "gloss": {
+                  "en": "I have",
+                  "sv": "jag har"
+                },
+                "concept": "to-like",
+                "morph": "have.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "آره، خیلی دوست دارم.",
+            "latin": "âre, kheyli dust dâram.",
+            "translation": {
+              "en": "Yeah, I like it a lot. (spoken)",
+              "sv": "Ja, jag tycker mycket om det. (talspråk)"
+            }
+          },
+          {
+            "text": "نه، قهوه دوست دارم.",
+            "latin": "na, ghahve dust dâram.",
+            "translation": {
+              "en": "No, I like coffee.",
+              "sv": "Nej, jag tycker om kaffe."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "can-you-help-me",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "Can you help me?",
+        "sv": "Kan du hjälpa mig?"
+      },
+      "ckb": {
+        "question": {
+          "text": "دەتوانیت یارمەتیم بدەیت؟",
+          "latin": "detwanît yarmetîm bideyt?",
+          "tokens": [
+            {
+              "text": "دەتوانیت",
+              "latin": "detwanît",
+              "gloss": {
+                "en": "can you",
+                "sv": "kan du"
+              },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2SG"
+            },
+            {
+              "text": "یارمەتیم",
+              "latin": "yarmetîm",
+              "gloss": {
+                "en": "help + me",
+                "sv": "hjälp + mig"
+              },
+              "concept": "to-help",
+              "morph": "help-1SG"
+            },
+            {
+              "text": "بدەیت؟",
+              "latin": "bideyt?",
+              "gloss": {
+                "en": "give",
+                "sv": "ge"
+              },
+              "concept": "to-help",
+              "morph": "SBJV-give.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، دەتوانم.",
+            "latin": "bełê, detwanim.",
+            "translation": {
+              "en": "Yes, I can.",
+              "sv": "Ja, det kan jag."
+            },
+            "tokens": [
+              {
+                "text": "بەڵێ،",
+                "latin": "bełê,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "دەتوانم.",
+                "latin": "detwanim.",
+                "gloss": {
+                  "en": "I can",
+                  "sv": "jag kan"
+                },
+                "concept": "can",
+                "morph": "DUR-can.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "بەڵێ، بێگومان.",
+            "latin": "bełê, bêguman.",
+            "translation": {
+              "en": "Yes, of course.",
+              "sv": "Ja, självklart."
+            }
+          },
+          {
+            "text": "ببوورە، ئێستا ناتوانم.",
+            "latin": "bibûre, êsta natwanim.",
+            "translation": {
+              "en": "Sorry, I can't right now.",
+              "sv": "Förlåt, jag kan inte just nu."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§21"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "می‌توانید به من کمک کنید؟",
+          "latin": "mitavânid be man komak konid?",
+          "tokens": [
+            {
+              "text": "می‌توانید",
+              "latin": "mitavânid",
+              "gloss": {
+                "en": "can you (polite)",
+                "sv": "kan ni (artigt)"
+              },
+              "concept": "can",
+              "morph": "DUR-can.PRS-2PL"
+            },
+            {
+              "text": "به",
+              "latin": "be",
+              "gloss": {
+                "en": "to",
+                "sv": "till"
+              },
+              "concept": "to"
+            },
+            {
+              "text": "من",
+              "latin": "man",
+              "gloss": {
+                "en": "me",
+                "sv": "mig"
+              },
+              "concept": "i"
+            },
+            {
+              "text": "کمک",
+              "latin": "komak",
+              "gloss": {
+                "en": "help",
+                "sv": "hjälp"
+              },
+              "concept": "to-help"
+            },
+            {
+              "text": "کنید؟",
+              "latin": "konid?",
+              "gloss": {
+                "en": "do",
+                "sv": "göra"
+              },
+              "concept": "to-help",
+              "morph": "do.SBJV-2PL"
+            }
+          ],
+          "colloquial": {
+            "text": "می‌تونی کمکم کنی؟",
+            "latin": "mituni komakam koni?"
+          }
+        },
+        "answers": [
+          {
+            "text": "بله، می‌توانم.",
+            "latin": "bale, mitavânam.",
+            "translation": {
+              "en": "Yes, I can.",
+              "sv": "Ja, det kan jag."
+            },
+            "tokens": [
+              {
+                "text": "بله،",
+                "latin": "bale,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "می‌توانم.",
+                "latin": "mitavânam.",
+                "gloss": {
+                  "en": "I can",
+                  "sv": "jag kan"
+                },
+                "concept": "can",
+                "morph": "DUR-can.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "بله، حتماً.",
+            "latin": "bale, hatman.",
+            "translation": {
+              "en": "Yes, of course.",
+              "sv": "Ja, självklart."
+            }
+          },
+          {
+            "text": "ببخشید، الان نمی‌توانم.",
+            "latin": "bebakhshid, alân nemitavânam.",
+            "translation": {
+              "en": "Sorry, I can't right now.",
+              "sv": "Förlåt, jag kan inte just nu."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-did-you-buy",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "What did you buy?",
+        "sv": "Vad köpte du?"
+      },
+      "ckb": {
+        "question": {
+          "text": "چیت کڕی؟",
+          "latin": "çît kiřî?",
+          "tokens": [
+            {
+              "text": "چیت",
+              "latin": "çît",
+              "gloss": {
+                "en": "what + you (did it)",
+                "sv": "vad + du (gjorde det)"
+              },
+              "concept": "what",
+              "morph": "what-2SG.AGT"
+            },
+            {
+              "text": "کڕی؟",
+              "latin": "kiřî?",
+              "gloss": {
+                "en": "bought",
+                "sv": "köpte"
+              },
+              "concept": "to-buy",
+              "morph": "buy.PST"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "کتێبێکم کڕی.",
+            "latin": "kitêbêkim kiřî.",
+            "translation": {
+              "en": "I bought a book.",
+              "sv": "Jag köpte en bok."
+            },
+            "tokens": [
+              {
+                "text": "کتێبێکم",
+                "latin": "kitêbêkim",
+                "gloss": {
+                  "en": "a book + I (did it)",
+                  "sv": "en bok + jag (gjorde det)"
+                },
+                "concept": "book",
+                "morph": "book-INDF-1SG.AGT"
+              },
+              {
+                "text": "کڕی.",
+                "latin": "kiřî.",
+                "gloss": {
+                  "en": "bought",
+                  "sv": "köpte"
+                },
+                "concept": "to-buy",
+                "morph": "buy.PST"
+              }
+            ]
+          },
+          {
+            "text": "نان و پەنیرم کڕی.",
+            "latin": "nan û penîrim kiřî.",
+            "translation": {
+              "en": "I bought bread and cheese.",
+              "sv": "Jag köpte bröd och ost."
+            }
+          },
+          {
+            "text": "هیچم نەکڕی.",
+            "latin": "hîçim nekiřî.",
+            "translation": {
+              "en": "I didn't buy anything.",
+              "sv": "Jag köpte ingenting."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§27"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "چه خریدی؟",
+          "latin": "che kharidi?",
+          "tokens": [
+            {
+              "text": "چه",
+              "latin": "che",
+              "gloss": {
+                "en": "what",
+                "sv": "vad"
+              },
+              "concept": "what"
+            },
+            {
+              "text": "خریدی؟",
+              "latin": "kharidi?",
+              "gloss": {
+                "en": "did you buy",
+                "sv": "köpte du"
+              },
+              "concept": "to-buy",
+              "morph": "buy.PST-2SG"
+            }
+          ],
+          "colloquial": {
+            "text": "چی خریدی؟",
+            "latin": "chi kharidi?"
+          }
+        },
+        "answers": [
+          {
+            "text": "یک کتاب خریدم.",
+            "latin": "yek ketâb kharidam.",
+            "translation": {
+              "en": "I bought a book.",
+              "sv": "Jag köpte en bok."
+            },
+            "tokens": [
+              {
+                "text": "یک",
+                "latin": "yek",
+                "gloss": {
+                  "en": "a (one)",
+                  "sv": "en"
+                }
+              },
+              {
+                "text": "کتاب",
+                "latin": "ketâb",
+                "gloss": {
+                  "en": "book",
+                  "sv": "bok"
+                },
+                "concept": "book"
+              },
+              {
+                "text": "خریدم.",
+                "latin": "kharidam.",
+                "gloss": {
+                  "en": "I bought",
+                  "sv": "jag köpte"
+                },
+                "concept": "to-buy",
+                "morph": "buy.PST-1SG"
+              }
+            ]
+          },
+          {
+            "text": "نان و پنیر خریدم.",
+            "latin": "nân o panir kharidam.",
+            "translation": {
+              "en": "I bought bread and cheese.",
+              "sv": "Jag köpte bröd och ost."
+            }
+          },
+          {
+            "text": "چیزی نخریدم.",
+            "latin": "chizi nakharidam.",
+            "translation": {
+              "en": "I didn't buy anything.",
+              "sv": "Jag köpte ingenting."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-language-are-you-learning",
+      "unit": "actions",
+      "level": "A1",
+      "question": {
+        "en": "What language are you learning?",
+        "sv": "Vilket språk lär du dig?"
+      },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "چ زمانێک فێر دەبیت؟",
+          "latin": "çi zimanêk fêr debît?",
+          "tokens": [
+            {
+              "text": "چ",
+              "latin": "çi",
+              "gloss": {
+                "en": "what, which",
+                "sv": "vilket"
+              },
+              "concept": "what"
+            },
+            {
+              "text": "زمانێک",
+              "latin": "zimanêk",
+              "gloss": {
+                "en": "a language",
+                "sv": "ett språk"
+              },
+              "concept": "language",
+              "morph": "language-INDF"
+            },
+            {
+              "text": "فێر",
+              "latin": "fêr",
+              "gloss": {
+                "en": "learned (= learning)",
+                "sv": "lärd (= lära sig)"
+              },
+              "concept": "to-learn"
+            },
+            {
+              "text": "دەبیت؟",
+              "latin": "debît?",
+              "gloss": {
+                "en": "do you become",
+                "sv": "blir du"
+              },
+              "concept": "to-learn",
+              "morph": "DUR-become.PRS-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "کوردی فێر دەبم.",
+            "latin": "kurdî fêr debim.",
+            "translation": {
+              "en": "I'm learning Kurdish.",
+              "sv": "Jag lär mig kurdiska."
+            },
+            "tokens": [
+              {
+                "text": "کوردی",
+                "latin": "kurdî",
+                "gloss": {
+                  "en": "Kurdish",
+                  "sv": "kurdiska"
+                },
+                "concept": "kurdish"
+              },
+              {
+                "text": "فێر",
+                "latin": "fêr",
+                "gloss": {
+                  "en": "learned (= learning)",
+                  "sv": "lärd (= lära sig)"
+                },
+                "concept": "to-learn"
+              },
+              {
+                "text": "دەبم.",
+                "latin": "debim.",
+                "gloss": {
+                  "en": "I become",
+                  "sv": "jag blir"
+                },
+                "concept": "to-learn",
+                "morph": "DUR-become.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "{language} فێر دەبم.",
+            "latin": "{language} fêr debim.",
+            "translation": {
+              "en": "I'm learning {language}.",
+              "sv": "Jag lär mig {language}."
+            }
+          },
+          {
+            "text": "کوردی و فارسی فێر دەبم.",
+            "latin": "kurdî û farsî fêr debim.",
+            "translation": {
+              "en": "I'm learning Kurdish and Persian.",
+              "sv": "Jag lär mig kurdiska och persiska."
+            }
+          }
+        ],
+        "slots": {
+          "language": [
+            {
+              "text": "کوردی",
+              "latin": "kurdî",
+              "translation": {
+                "en": "Kurdish",
+                "sv": "kurdiska"
+              }
+            },
+            {
+              "text": "فارسی",
+              "latin": "farsî",
+              "translation": {
+                "en": "Persian",
+                "sv": "persiska"
+              }
+            },
+            {
+              "text": "ئینگلیزی",
+              "latin": "înglîzî",
+              "translation": {
+                "en": "English",
+                "sv": "engelska"
+              }
+            },
+            {
+              "text": "سویدی",
+              "latin": "swîdî",
+              "translation": {
+                "en": "Swedish",
+                "sv": "svenska"
+              }
+            },
+            {
+              "text": "عەرەبی",
+              "latin": "'erebî",
+              "translation": {
+                "en": "Arabic",
+                "sv": "arabiska"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "چه زبانی یاد می‌گیرید؟",
+          "latin": "che zabâni yâd migirid?",
+          "tokens": [
+            {
+              "text": "چه",
+              "latin": "che",
+              "gloss": {
+                "en": "what, which",
+                "sv": "vilket"
+              },
+              "concept": "what"
+            },
+            {
+              "text": "زبانی",
+              "latin": "zabâni",
+              "gloss": {
+                "en": "a language",
+                "sv": "ett språk"
+              },
+              "concept": "language",
+              "morph": "language-INDF"
+            },
+            {
+              "text": "یاد",
+              "latin": "yâd",
+              "gloss": {
+                "en": "memory (= learn)",
+                "sv": "minne (= lära sig)"
+              },
+              "concept": "to-learn"
+            },
+            {
+              "text": "می‌گیرید؟",
+              "latin": "migirid?",
+              "gloss": {
+                "en": "do you take",
+                "sv": "tar ni"
+              },
+              "concept": "to-learn",
+              "morph": "DUR-take.PRS-2PL"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "کردی یاد می‌گیرم.",
+            "latin": "kordi yâd migiram.",
+            "translation": {
+              "en": "I'm learning Kurdish.",
+              "sv": "Jag lär mig kurdiska."
+            },
+            "tokens": [
+              {
+                "text": "کردی",
+                "latin": "kordi",
+                "gloss": {
+                  "en": "Kurdish",
+                  "sv": "kurdiska"
+                },
+                "concept": "kurdish"
+              },
+              {
+                "text": "یاد",
+                "latin": "yâd",
+                "gloss": {
+                  "en": "memory (= learn)",
+                  "sv": "minne (= lära sig)"
+                },
+                "concept": "to-learn"
+              },
+              {
+                "text": "می‌گیرم.",
+                "latin": "migiram.",
+                "gloss": {
+                  "en": "I take",
+                  "sv": "jag tar"
+                },
+                "concept": "to-learn",
+                "morph": "DUR-take.PRS-1SG"
+              }
+            ]
+          },
+          {
+            "text": "{language} یاد می‌گیرم.",
+            "latin": "{language} yâd migiram.",
+            "translation": {
+              "en": "I'm learning {language}.",
+              "sv": "Jag lär mig {language}."
+            }
+          },
+          {
+            "text": "دارم {language} یاد می‌گیرم.",
+            "latin": "dâram {language} yâd migiram.",
+            "translation": {
+              "en": "I'm learning {language} (right now).",
+              "sv": "Jag håller på att lära mig {language}."
+            }
+          }
+        ],
+        "slots": {
+          "language": [
+            {
+              "text": "کردی",
+              "latin": "kordi",
+              "translation": {
+                "en": "Kurdish",
+                "sv": "kurdiska"
+              }
+            },
+            {
+              "text": "فارسی",
+              "latin": "fârsi",
+              "translation": {
+                "en": "Persian",
+                "sv": "persiska"
+              }
+            },
+            {
+              "text": "انگلیسی",
+              "latin": "englisi",
+              "translation": {
+                "en": "English",
+                "sv": "engelska"
+              }
+            },
+            {
+              "text": "سوئدی",
+              "latin": "su'edi",
+              "translation": {
+                "en": "Swedish",
+                "sv": "svenska"
+              }
+            },
+            {
+              "text": "عربی",
+              "latin": "arabi",
+              "translation": {
+                "en": "Arabic",
+                "sv": "arabiska"
+              }
+            }
+          ]
+        },
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "did-you-sleep-well",
+      "unit": "actions",
+      "level": "A2",
+      "question": {
+        "en": "Did you sleep well?",
+        "sv": "Sov du gott?"
+      },
+      "ckb": {
+        "question": {
+          "text": "باش خەوتیت؟",
+          "latin": "baş xewtît?",
+          "tokens": [
+            {
+              "text": "باش",
+              "latin": "baş",
+              "gloss": {
+                "en": "well",
+                "sv": "bra"
+              },
+              "concept": "good"
+            },
+            {
+              "text": "خەوتیت؟",
+              "latin": "xewtît?",
+              "gloss": {
+                "en": "did you sleep",
+                "sv": "sov du"
+              },
+              "concept": "to-sleep",
+              "morph": "sleep.PST-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، باش خەوتم.",
+            "latin": "bełê, baş xewtim.",
+            "translation": {
+              "en": "Yes, I slept well.",
+              "sv": "Ja, jag sov gott."
+            },
+            "tokens": [
+              {
+                "text": "بەڵێ،",
+                "latin": "bełê,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "باش",
+                "latin": "baş",
+                "gloss": {
+                  "en": "well",
+                  "sv": "bra"
+                },
+                "concept": "good"
+              },
+              {
+                "text": "خەوتم.",
+                "latin": "xewtim.",
+                "gloss": {
+                  "en": "I slept",
+                  "sv": "jag sov"
+                },
+                "concept": "to-sleep",
+                "morph": "sleep.PST-1SG"
+              }
+            ]
+          },
+          {
+            "text": "نەخێر، باش نەخەوتم.",
+            "latin": "nexêr, baş nexewtim.",
+            "translation": {
+              "en": "No, I didn't sleep well.",
+              "sv": "Nej, jag sov inte bra."
+            }
+          },
+          {
+            "text": "نەمتوانی بخەوم.",
+            "latin": "nemtwanî bixewim.",
+            "translation": {
+              "en": "I couldn't sleep.",
+              "sv": "Jag kunde inte sova."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          },
+          {
+            "source": "thackston-sorani-grammar",
+            "ref": "§25"
+          }
+        ]
+      },
+      "fa": {
+        "question": {
+          "text": "خوب خوابیدی؟",
+          "latin": "khub khâbidi?",
+          "tokens": [
+            {
+              "text": "خوب",
+              "latin": "khub",
+              "gloss": {
+                "en": "well",
+                "sv": "bra"
+              },
+              "concept": "good"
+            },
+            {
+              "text": "خوابیدی؟",
+              "latin": "khâbidi?",
+              "gloss": {
+                "en": "did you sleep",
+                "sv": "sov du"
+              },
+              "concept": "to-sleep",
+              "morph": "sleep.PST-2SG"
+            }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، خوب خوابیدم.",
+            "latin": "bale, khub khâbidam.",
+            "translation": {
+              "en": "Yes, I slept well.",
+              "sv": "Ja, jag sov gott."
+            },
+            "tokens": [
+              {
+                "text": "بله،",
+                "latin": "bale,",
+                "gloss": {
+                  "en": "yes",
+                  "sv": "ja"
+                },
+                "concept": "yes"
+              },
+              {
+                "text": "خوب",
+                "latin": "khub",
+                "gloss": {
+                  "en": "well",
+                  "sv": "bra"
+                },
+                "concept": "good"
+              },
+              {
+                "text": "خوابیدم.",
+                "latin": "khâbidam.",
+                "gloss": {
+                  "en": "I slept",
+                  "sv": "jag sov"
+                },
+                "concept": "to-sleep",
+                "morph": "sleep.PST-1SG"
+              }
+            ]
+          },
+          {
+            "text": "نه، خوب نخوابیدم.",
+            "latin": "na, khub nakhâbidam.",
+            "translation": {
+              "en": "No, I didn't sleep well.",
+              "sv": "Nej, jag sov inte bra."
+            }
+          },
+          {
+            "text": "نتوانستم بخوابم.",
+            "latin": "natavânestam bekhâbam.",
+            "translation": {
+              "en": "I couldn't sleep.",
+              "sv": "Jag kunde inte sova."
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "tatoeba"
+          },
+          {
+            "source": "author"
+          }
+        ]
+      }
+    }
+  ]
+}

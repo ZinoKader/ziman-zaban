@@ -1,0 +1,512 @@
+{
+  "items": [
+    {
+      "id": "do-you-understand",
+      "unit": "conversation",
+      "level": "A1",
+      "question": { "en": "Do you understand?", "sv": "Förstår du?" },
+      "ckb": {
+        "question": {
+          "text": "تێدەگەیت؟",
+          "latin": "têdegeyt?",
+          "tokens": [{ "text": "تێدەگەیت؟", "latin": "têdegeyt?", "gloss": { "en": "do you understand", "sv": "förstår du" }, "concept": "to-understand", "morph": "PV-DUR-reach.PRS-2SG" }]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، تێدەگەم.",
+            "latin": "bełê, têdegem.",
+            "translation": { "en": "Yes, I understand.", "sv": "Ja, jag förstår." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "تێدەگەم.", "latin": "têdegem.", "gloss": { "en": "I understand", "sv": "jag förstår" }, "concept": "to-understand", "morph": "PV-DUR-reach.PRS-1SG" }
+            ]
+          },
+          { "text": "نەخێر، تێناگەم.", "latin": "nexêr, tênagem.", "translation": { "en": "No, I don't understand.", "sv": "Nej, jag förstår inte." } },
+          { "text": "کەمێک.", "latin": "kemêk.", "translation": { "en": "A little.", "sv": "Lite." } },
+          { "text": "ببوورە، تێنەگەیشتم.", "latin": "bibûre, tênegeyştim.", "translation": { "en": "Sorry, I didn't understand.", "sv": "Förlåt, jag förstod inte." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "to understand (intransitive)" }]
+      },
+      "fa": {
+        "question": {
+          "text": "متوجه می‌شوید؟",
+          "latin": "motevajjeh mishavid?",
+          "tokens": [
+            { "text": "متوجه", "latin": "motevajjeh", "gloss": { "en": "aware", "sv": "medveten" }, "concept": "to-understand" },
+            { "text": "می‌شوید؟", "latin": "mishavid?", "gloss": { "en": "do you (polite) become", "sv": "blir ni" }, "concept": "to-understand", "morph": "DUR-become.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، متوجه می‌شوم.",
+            "latin": "bale, motevajjeh mishavam.",
+            "translation": { "en": "Yes, I understand.", "sv": "Ja, jag förstår." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "متوجه", "latin": "motevajjeh", "gloss": { "en": "aware", "sv": "medveten" }, "concept": "to-understand" },
+              { "text": "می‌شوم.", "latin": "mishavam.", "gloss": { "en": "I become", "sv": "jag blir" }, "concept": "to-understand", "morph": "DUR-become.PRS-1SG" }
+            ]
+          },
+          { "text": "بله، می‌فهمم.", "latin": "bale, mifahmam.", "translation": { "en": "Yes, I understand.", "sv": "Ja, jag förstår." } },
+          { "text": "نه، نمی‌فهمم.", "latin": "na, nemifahmam.", "translation": { "en": "No, I don't understand.", "sv": "Nej, jag förstår inte." } },
+          { "text": "ببخشید، متوجه نشدم.", "latin": "bebakhshid, motevajjeh nashodam.", "translation": { "en": "Sorry, I didn't catch that.", "sv": "Förlåt, jag uppfattade inte." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "why-are-you-learning-kurdish",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "Why are you learning Kurdish?", "sv": "Varför lär du dig kurdiska?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "بۆچی فێری کوردی دەبیت؟",
+          "latin": "boçî fêrî kurdî debît?",
+          "tokens": [
+            { "text": "بۆچی", "latin": "boçî", "gloss": { "en": "why", "sv": "varför" }, "concept": "why" },
+            { "text": "فێری", "latin": "fêrî", "gloss": { "en": "learned (in)", "sv": "lärd (i)" }, "concept": "to-learn", "morph": "learned-EZ" },
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "دەبیت؟", "latin": "debît?", "gloss": { "en": "do you become (= do you learn)", "sv": "blir du (= lär du dig)" }, "concept": "to-learn", "morph": "DUR-become.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "چونکە حەز لە کوردی دەکەم.",
+            "latin": "çunke ḧez le kurdî dekem.",
+            "translation": { "en": "Because I like Kurdish.", "sv": "Eftersom jag tycker om kurdiska." },
+            "tokens": [
+              { "text": "چونکە", "latin": "çunke", "gloss": { "en": "because", "sv": "eftersom" }, "concept": "because" },
+              { "text": "حەز", "latin": "ḧez", "gloss": { "en": "liking", "sv": "tycke" }, "concept": "to-like" },
+              { "text": "لە", "latin": "le", "gloss": { "en": "of, in", "sv": "om, i" } },
+              { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+              { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do (= I like)", "sv": "jag gör (= jag tycker om)" }, "concept": "to-like", "morph": "DUR-do.PRS-1SG" }
+            ]
+          },
+          { "text": "چونکە دایکم کوردە.", "latin": "çunke daykim kurde.", "translation": { "en": "Because my mother is Kurdish.", "sv": "Eftersom min mamma är kurd." } },
+          { "text": "چونکە هاوڕێکەم خەڵکی سلێمانییە.", "latin": "çunke hawřêkem xełkî Silêmanîye.", "translation": { "en": "Because my friend is from Sulaymaniyah.", "sv": "Eftersom min vän kommer från Sulaymaniyya." } },
+          { "text": "بۆ کارەکەم.", "latin": "bo karekem.", "translation": { "en": "For my work.", "sv": "För mitt jobb." } }
+        ],
+        "sources": [{ "source": "kim-kurdish-grammar", "ref": "ch. 14: فێری زمانی کوردی بوو" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "why-are-you-learning-persian",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "Why are you learning Persian?", "sv": "Varför lär du dig persiska?" },
+      "personal": true,
+      "fa": {
+        "question": {
+          "text": "چرا فارسی یاد می‌گیرید؟",
+          "latin": "cherâ fârsi yâd migirid?",
+          "tokens": [
+            { "text": "چرا", "latin": "cherâ", "gloss": { "en": "why", "sv": "varför" }, "concept": "why" },
+            { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "یاد", "latin": "yâd", "gloss": { "en": "memory", "sv": "minne" }, "concept": "to-learn" },
+            { "text": "می‌گیرید؟", "latin": "migirid?", "gloss": { "en": "do you (polite) take (= learn)", "sv": "tar ni (= lär ni er)" }, "concept": "to-learn", "morph": "DUR-take.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "چون فارسی را دوست دارم.",
+            "latin": "chon fârsi râ dust dâram.",
+            "translation": { "en": "Because I like Persian.", "sv": "Eftersom jag tycker om persiska." },
+            "tokens": [
+              { "text": "چون", "latin": "chon", "gloss": { "en": "because", "sv": "eftersom" }, "concept": "because" },
+              { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "را", "latin": "râ", "gloss": { "en": "(object marker)", "sv": "(objektsmarkör)" } },
+              { "text": "دوست", "latin": "dust", "gloss": { "en": "friend, dear", "sv": "kär" }, "concept": "to-like" },
+              { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have (= I like)", "sv": "jag har (= jag tycker om)" }, "concept": "to-like", "morph": "have.PRS-1SG" }
+            ]
+          },
+          { "text": "چون فارسی رو دوست دارم.", "latin": "chon fârsi ro dust dâram.", "translation": { "en": "Because I like Persian.", "sv": "Eftersom jag tycker om persiska." } },
+          { "text": "چون مادرم ایرانی است.", "latin": "chon mâdaram irâni ast.", "translation": { "en": "Because my mother is Iranian.", "sv": "Eftersom min mamma är iranier." } },
+          { "text": "چون دوستم اهل تهران است.", "latin": "chon dustam ahl-e Tehrân ast.", "translation": { "en": "Because my friend is from Tehran.", "sv": "Eftersom min vän kommer från Teheran." } },
+          { "text": "برای کارم.", "latin": "barâye kâram.", "translation": { "en": "For my work.", "sv": "För mitt jobb." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "which-is-easier-kurdish-or-persian",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "Which is easier, Kurdish or Persian?", "sv": "Vilket är lättast, kurdiska eller persiska?" },
+      "ckb": {
+        "question": {
+          "text": "کامیان ئاسانترە، کوردی یان فارسی؟",
+          "latin": "kamyan asantire, kurdî yan farsî?",
+          "tokens": [
+            { "text": "کامیان", "latin": "kamyan", "gloss": { "en": "which of them", "sv": "vilket av dem" }, "concept": "which", "morph": "which-3PL" },
+            { "text": "ئاسانترە،", "latin": "asantire,", "gloss": { "en": "is easier", "sv": "är lättare" }, "concept": "easy", "morph": "easy-CMPR-COP.3SG" },
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "یان", "latin": "yan", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "فارسی؟", "latin": "farsî?", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "فارسی ئاسانترە.",
+            "latin": "farsî asantire.",
+            "translation": { "en": "Persian is easier.", "sv": "Persiska är lättare." },
+            "tokens": [
+              { "text": "فارسی", "latin": "farsî", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "ئاسانترە.", "latin": "asantire.", "gloss": { "en": "is easier", "sv": "är lättare" }, "concept": "easy", "morph": "easy-CMPR-COP.3SG" }
+            ]
+          },
+          { "text": "کوردی ئاسانترە.", "latin": "kurdî asantire.", "translation": { "en": "Kurdish is easier.", "sv": "Kurdiska är lättare." } },
+          { "text": "بەڕاستی نازانم.", "latin": "beřastî nazanim.", "translation": { "en": "I really don't know.", "sv": "Jag vet verkligen inte." } },
+          { "text": "نازانم، ڕەنگە کوردی.", "latin": "nazanim, řenge kurdî.", "translation": { "en": "I don't know, maybe Kurdish.", "sv": "Jag vet inte, kanske kurdiska." } }
+        ],
+        "sources": [{ "source": "kim-kurdish-grammar", "ref": "ch. 5, ch. 6 Comparative" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کدام آسان‌تر است، کردی یا فارسی؟",
+          "latin": "kodâm âsântar ast, kordi yâ fârsi?",
+          "tokens": [
+            { "text": "کدام", "latin": "kodâm", "gloss": { "en": "which", "sv": "vilket" }, "concept": "which" },
+            { "text": "آسان‌تر", "latin": "âsântar", "gloss": { "en": "easier", "sv": "lättare" }, "concept": "easy", "morph": "easy-CMPR" },
+            { "text": "است،", "latin": "ast,", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" },
+            { "text": "کردی", "latin": "kordi", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "یا", "latin": "yâ", "gloss": { "en": "or", "sv": "eller" }, "concept": "or" },
+            { "text": "فارسی؟", "latin": "fârsi?", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "فارسی آسان‌تر است.",
+            "latin": "fârsi âsântar ast.",
+            "translation": { "en": "Persian is easier.", "sv": "Persiska är lättare." },
+            "tokens": [
+              { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "آسان‌تر", "latin": "âsântar", "gloss": { "en": "easier", "sv": "lättare" }, "concept": "easy", "morph": "easy-CMPR" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ]
+          },
+          { "text": "به نظرم فارسی آسون‌تره.", "latin": "be nazaram fârsi âsuntare.", "translation": { "en": "I think Persian is easier.", "sv": "Jag tycker att persiska är lättare." } },
+          { "text": "کردی آسان‌تر است.", "latin": "kordi âsântar ast.", "translation": { "en": "Kurdish is easier.", "sv": "Kurdiska är lättare." } },
+          { "text": "واقعاً نمی‌دانم.", "latin": "vâghe'an nemidânam.", "translation": { "en": "I really don't know.", "sv": "Jag vet verkligen inte." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-do-you-like-to-do",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "What do you like to do?", "sv": "Vad tycker du om att göra?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "حەز دەکەیت چی بکەیت؟",
+          "latin": "ḧez dekeyt çî bikeyt?",
+          "tokens": [
+            { "text": "حەز", "latin": "ḧez", "gloss": { "en": "liking", "sv": "tycke" }, "concept": "to-like" },
+            { "text": "دەکەیت", "latin": "dekeyt", "gloss": { "en": "you do (= you like)", "sv": "du gör (= du tycker om)" }, "concept": "to-like", "morph": "DUR-do.PRS-2SG" },
+            { "text": "چی", "latin": "çî", "gloss": { "en": "what", "sv": "vad" }, "concept": "what" },
+            { "text": "بکەیت؟", "latin": "bikeyt?", "gloss": { "en": "(that) you do", "sv": "(att) du gör" }, "concept": "to-do", "morph": "SBJV-do.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "حەز دەکەم کتێب بخوێنمەوە.",
+            "latin": "ḧez dekem kitêb bixwênimewe.",
+            "translation": { "en": "I like to read books.", "sv": "Jag tycker om att läsa böcker." },
+            "tokens": [
+              { "text": "حەز", "latin": "ḧez", "gloss": { "en": "liking", "sv": "tycke" }, "concept": "to-like" },
+              { "text": "دەکەم", "latin": "dekem", "gloss": { "en": "I do (= I like)", "sv": "jag gör (= jag tycker om)" }, "concept": "to-like", "morph": "DUR-do.PRS-1SG" },
+              { "text": "کتێب", "latin": "kitêb", "gloss": { "en": "book(s)", "sv": "bok, böcker" }, "concept": "book" },
+              { "text": "بخوێنمەوە.", "latin": "bixwênimewe.", "gloss": { "en": "(that) I read", "sv": "(att) jag läser" }, "concept": "to-read", "morph": "SBJV-read.PRS-1SG-PV" }
+            ]
+          },
+          { "text": "حەز دەکەم لەگەڵ هاوڕێکانم قسە بکەم.", "latin": "ḧez dekem legeł hawřêkanim qise bikem.", "translation": { "en": "I like to talk with my friends.", "sv": "Jag tycker om att prata med mina vänner." } },
+          { "text": "حەز دەکەم بخەوم.", "latin": "ḧez dekem bixewim.", "translation": { "en": "I like to sleep.", "sv": "Jag tycker om att sova." } },
+          { "text": "حەز دەکەم یاری بکەم.", "latin": "ḧez dekem yarî bikem.", "translation": { "en": "I like to play.", "sv": "Jag tycker om att spela." } }
+        ],
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§18, §19" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "دوست داری چه کار کنی؟",
+          "latin": "dust dâri che kâr koni?",
+          "tokens": [
+            { "text": "دوست", "latin": "dust", "gloss": { "en": "friend, dear", "sv": "kär" }, "concept": "to-like" },
+            { "text": "داری", "latin": "dâri", "gloss": { "en": "you have (= you like)", "sv": "du har (= du tycker om)" }, "concept": "to-like", "morph": "have.PRS-2SG" },
+            { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vad" }, "concept": "what" },
+            { "text": "کار", "latin": "kâr", "gloss": { "en": "work, thing", "sv": "sak, arbete" } },
+            { "text": "کنی؟", "latin": "koni?", "gloss": { "en": "(that) you do", "sv": "(att) du gör" }, "concept": "to-do", "morph": "do.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "دوست دارم کتاب بخوانم.",
+            "latin": "dust dâram ketâb bekhânam.",
+            "translation": { "en": "I like to read books.", "sv": "Jag tycker om att läsa böcker." },
+            "tokens": [
+              { "text": "دوست", "latin": "dust", "gloss": { "en": "friend, dear", "sv": "kär" }, "concept": "to-like" },
+              { "text": "دارم", "latin": "dâram", "gloss": { "en": "I have (= I like)", "sv": "jag har (= jag tycker om)" }, "concept": "to-like", "morph": "have.PRS-1SG" },
+              { "text": "کتاب", "latin": "ketâb", "gloss": { "en": "book(s)", "sv": "bok, böcker" }, "concept": "book" },
+              { "text": "بخوانم.", "latin": "bekhânam.", "gloss": { "en": "(that) I read", "sv": "(att) jag läser" }, "concept": "to-read", "morph": "SBJV-read.PRS-1SG" }
+            ]
+          },
+          { "text": "دوست دارم کتاب بخونم.", "latin": "dust dâram ketâb bekhunam.", "translation": { "en": "I like to read books.", "sv": "Jag tycker om att läsa böcker." } },
+          { "text": "دوست دارم با دوستانم صحبت کنم.", "latin": "dust dâram bâ dustânam sohbat konam.", "translation": { "en": "I like to talk with my friends.", "sv": "Jag tycker om att prata med mina vänner." } },
+          { "text": "دوست دارم بخوابم.", "latin": "dust dâram bekhâbam.", "translation": { "en": "I like to sleep.", "sv": "Jag tycker om att sova." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "can-you-speak-more-slowly",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "Can you speak more slowly, please?", "sv": "Kan du prata långsammare, tack?" },
+      "ckb": {
+        "question": {
+          "text": "تکایە دەتوانیت هێواشتر قسە بکەیت؟",
+          "latin": "tikaye detwanît hêwaştir qise bikeyt?",
+          "tokens": [
+            { "text": "تکایە", "latin": "tikaye", "gloss": { "en": "please", "sv": "snälla" }, "concept": "please" },
+            { "text": "دەتوانیت", "latin": "detwanît", "gloss": { "en": "can you", "sv": "kan du" }, "concept": "can", "morph": "DUR-can.PRS-2SG" },
+            { "text": "هێواشتر", "latin": "hêwaştir", "gloss": { "en": "more slowly", "sv": "långsammare" }, "concept": "slowly", "morph": "slow-CMPR" },
+            { "text": "قسە", "latin": "qise", "gloss": { "en": "talk", "sv": "prat" }, "concept": "to-speak" },
+            { "text": "بکەیت؟", "latin": "bikeyt?", "gloss": { "en": "(that) you do (= speak)", "sv": "(att) du gör (= pratar)" }, "concept": "to-speak", "morph": "SBJV-do.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، بێگومان.",
+            "latin": "bełê, bêguman.",
+            "translation": { "en": "Yes, of course.", "sv": "Ja, självklart." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "بێگومان.", "latin": "bêguman.", "gloss": { "en": "of course", "sv": "självklart" }, "concept": "of-course" }
+            ]
+          },
+          { "text": "باشە.", "latin": "başe.", "translation": { "en": "Okay.", "sv": "Okej." } },
+          { "text": "بەڵێ، هەڵبەت.", "latin": "bełê, hełbet.", "translation": { "en": "Yes, of course.", "sv": "Ja, självklart." } },
+          { "text": "ببوورە! باشە، هێواشتر قسە دەکەم.", "latin": "bibûre! başe, hêwaştir qise dekem.", "translation": { "en": "Sorry! Okay, I'll speak more slowly.", "sv": "Förlåt! Okej, jag pratar långsammare." } }
+        ],
+        "sources": [{ "source": "tatoeba", "ref": "10347995" }]
+      },
+      "fa": {
+        "question": {
+          "text": "لطفاً می‌توانید آهسته‌تر صحبت کنید؟",
+          "latin": "lotfan mitavânid âheste-tar sohbat konid?",
+          "tokens": [
+            { "text": "لطفاً", "latin": "lotfan", "gloss": { "en": "please", "sv": "snälla" }, "concept": "please" },
+            { "text": "می‌توانید", "latin": "mitavânid", "gloss": { "en": "can you (polite)", "sv": "kan ni" }, "concept": "can", "morph": "DUR-can.PRS-2PL" },
+            { "text": "آهسته‌تر", "latin": "âheste-tar", "gloss": { "en": "more slowly", "sv": "långsammare" }, "concept": "slowly", "morph": "slow-CMPR" },
+            { "text": "صحبت", "latin": "sohbat", "gloss": { "en": "conversation", "sv": "samtal" }, "concept": "to-speak" },
+            { "text": "کنید؟", "latin": "konid?", "gloss": { "en": "(that) you do (= speak)", "sv": "(att) ni gör (= pratar)" }, "concept": "to-speak", "morph": "do.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "بله، البته.",
+            "latin": "bale, albatte.",
+            "translation": { "en": "Yes, of course.", "sv": "Ja, självklart." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "البته.", "latin": "albatte.", "gloss": { "en": "of course", "sv": "självklart" }, "concept": "of-course" }
+            ]
+          },
+          { "text": "حتماً.", "latin": "hatman.", "translation": { "en": "Sure.", "sv": "Absolut." } },
+          { "text": "باشه.", "latin": "bâshe.", "translation": { "en": "Okay.", "sv": "Okej." } },
+          { "text": "ببخشید! باشه، آهسته‌تر صحبت می‌کنم.", "latin": "bebakhshid! bâshe, âheste-tar sohbat mikonam.", "translation": { "en": "Sorry! Okay, I'll speak more slowly.", "sv": "Förlåt! Okej, jag pratar långsammare." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "shall-we-go",
+      "unit": "conversation",
+      "level": "A1",
+      "question": { "en": "Shall we go?", "sv": "Ska vi gå?" },
+      "ckb": {
+        "question": {
+          "text": "بڕۆین؟",
+          "latin": "biřoyn?",
+          "tokens": [{ "text": "بڕۆین؟", "latin": "biřoyn?", "gloss": { "en": "shall we go", "sv": "ska vi gå" }, "concept": "lets-go", "morph": "SBJV-go.PRS-1PL" }]
+        },
+        "answers": [
+          {
+            "text": "بەڵێ، با بڕۆین.",
+            "latin": "bełê, ba biřoyn.",
+            "translation": { "en": "Yes, let's go.", "sv": "Ja, nu går vi." },
+            "tokens": [
+              { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "با", "latin": "ba", "gloss": { "en": "let", "sv": "låt" }, "concept": "lets-go" },
+              { "text": "بڕۆین.", "latin": "biřoyn.", "gloss": { "en": "us go", "sv": "oss gå" }, "concept": "lets-go", "morph": "SBJV-go.PRS-1PL" }
+            ]
+          },
+          { "text": "باشە، با بڕۆین.", "latin": "başe, ba biřoyn.", "translation": { "en": "Okay, let's go.", "sv": "Okej, nu går vi." } },
+          { "text": "نا، کەمێک چاوەڕێ بکە.", "latin": "na, kemêk çaweřê bike.", "translation": { "en": "No, wait a little.", "sv": "Nej, vänta lite." } },
+          { "text": "ڕەنگە دواتر.", "latin": "řenge dwatir.", "translation": { "en": "Maybe later.", "sv": "Kanske senare." } }
+        ],
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§19" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "question": {
+          "text": "برویم؟",
+          "latin": "beravim?",
+          "tokens": [{ "text": "برویم؟", "latin": "beravim?", "gloss": { "en": "shall we go", "sv": "ska vi gå" }, "concept": "lets-go", "morph": "SBJV-go.PRS-1PL" }]
+        },
+        "answers": [
+          {
+            "text": "بله، برویم.",
+            "latin": "bale, beravim.",
+            "translation": { "en": "Yes, let's go.", "sv": "Ja, nu går vi." },
+            "tokens": [
+              { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+              { "text": "برویم.", "latin": "beravim.", "gloss": { "en": "let's go", "sv": "nu går vi" }, "concept": "lets-go", "morph": "SBJV-go.PRS-1PL" }
+            ]
+          },
+          { "text": "آره، بریم!", "latin": "âre, berim!", "translation": { "en": "Yeah, let's go!", "sv": "Ja, nu kör vi!" } },
+          { "text": "نه، یه کم صبر کن.", "latin": "na, ye kam sabr kon.", "translation": { "en": "No, wait a little.", "sv": "Nej, vänta lite." } },
+          { "text": "شاید بعداً.", "latin": "shâyad ba'dan.", "translation": { "en": "Maybe later.", "sv": "Kanske senare." } }
+        ],
+        "sources": [{ "source": "wiktionary", "ref": "let's go" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "when-do-you-study-kurdish",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "When do you study Kurdish?", "sv": "När pluggar du kurdiska?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "کەی کوردی دەخوێنیت؟",
+          "latin": "key kurdî dexwênît?",
+          "tokens": [
+            { "text": "کەی", "latin": "key", "gloss": { "en": "when", "sv": "när" }, "concept": "when" },
+            { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+            { "text": "دەخوێنیت؟", "latin": "dexwênît?", "gloss": { "en": "do you study", "sv": "pluggar du" }, "concept": "to-study", "morph": "DUR-study.PRS-2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "هەموو ڕۆژێک کوردی دەخوێنم.",
+            "latin": "hemû řojêk kurdî dexwênim.",
+            "translation": { "en": "I study Kurdish every day.", "sv": "Jag pluggar kurdiska varje dag." },
+            "tokens": [
+              { "text": "هەموو", "latin": "hemû", "gloss": { "en": "every", "sv": "varje" }, "concept": "every-day" },
+              { "text": "ڕۆژێک", "latin": "řojêk", "gloss": { "en": "a day", "sv": "en dag" }, "concept": "every-day", "morph": "day-INDF" },
+              { "text": "کوردی", "latin": "kurdî", "gloss": { "en": "Kurdish", "sv": "kurdiska" }, "concept": "kurdish" },
+              { "text": "دەخوێنم.", "latin": "dexwênim.", "gloss": { "en": "I study", "sv": "jag pluggar" }, "concept": "to-study", "morph": "DUR-study.PRS-1SG" }
+            ]
+          },
+          { "text": "هەموو ڕۆژێک.", "latin": "hemû řojêk.", "translation": { "en": "Every day.", "sv": "Varje dag." } },
+          { "text": "ئێواران.", "latin": "êwaran.", "translation": { "en": "In the evenings.", "sv": "På kvällarna." } },
+          { "text": "{day}ان کوردی دەخوێنم.", "latin": "{day}an kurdî dexwênim.", "translation": { "en": "I study Kurdish on {day}s.", "sv": "Jag pluggar kurdiska på {day}arna." } }
+        ],
+        "slots": {
+          "day": [
+            { "text": "شەممە", "latin": "şemme", "translation": { "en": "Saturday", "sv": "lördag" } },
+            { "text": "یەکشەممە", "latin": "yekşemme", "translation": { "en": "Sunday", "sv": "söndag" } },
+            { "text": "دووشەممە", "latin": "dûşemme", "translation": { "en": "Monday", "sv": "måndag" } },
+            { "text": "هەینی", "latin": "heynî", "translation": { "en": "Friday", "sv": "fredag" } }
+          ]
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§12.2 Days of the week" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "کی فارسی می‌خوانید؟",
+          "latin": "key fârsi mikhânid?",
+          "tokens": [
+            { "text": "کی", "latin": "key", "gloss": { "en": "when", "sv": "när" }, "concept": "when" },
+            { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+            { "text": "می‌خوانید؟", "latin": "mikhânid?", "gloss": { "en": "do you (polite) study", "sv": "pluggar ni" }, "concept": "to-study", "morph": "DUR-read.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "هر روز فارسی می‌خوانم.",
+            "latin": "har ruz fârsi mikhânam.",
+            "translation": { "en": "I study Persian every day.", "sv": "Jag pluggar persiska varje dag." },
+            "tokens": [
+              { "text": "هر", "latin": "har", "gloss": { "en": "every", "sv": "varje" }, "concept": "every-day" },
+              { "text": "روز", "latin": "ruz", "gloss": { "en": "day", "sv": "dag" }, "concept": "every-day" },
+              { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
+              { "text": "می‌خوانم.", "latin": "mikhânam.", "gloss": { "en": "I study", "sv": "jag pluggar" }, "concept": "to-study", "morph": "DUR-read.PRS-1SG" }
+            ]
+          },
+          { "text": "هر روز.", "latin": "har ruz.", "translation": { "en": "Every day.", "sv": "Varje dag." } },
+          { "text": "شب‌ها.", "latin": "shab-hâ.", "translation": { "en": "In the evenings.", "sv": "På kvällarna." } },
+          { "text": "{day}ها فارسی می‌خوانم.", "latin": "{day}-hâ fârsi mikhânam.", "translation": { "en": "I study Persian on {day}s.", "sv": "Jag pluggar persiska på {day}arna." } }
+        ],
+        "slots": {
+          "day": [
+            { "text": "شنبه", "latin": "shanbe", "translation": { "en": "Saturday", "sv": "lördag" } },
+            { "text": "یکشنبه", "latin": "yekshanbe", "translation": { "en": "Sunday", "sv": "söndag" } },
+            { "text": "دوشنبه", "latin": "doshanbe", "translation": { "en": "Monday", "sv": "måndag" } },
+            { "text": "جمعه", "latin": "jom'e", "translation": { "en": "Friday", "sv": "fredag" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "do-you-know-where-he-is",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "Do you know where he is?", "sv": "Vet du var han är?" },
+      "ckb": {
+        "question": {
+          "text": "دەزانیت لە کوێیە؟",
+          "latin": "dezanît le kwêye?",
+          "tokens": [
+            { "text": "دەزانیت", "latin": "dezanît", "gloss": { "en": "do you know", "sv": "vet du" }, "concept": "to-know", "morph": "DUR-know.PRS-2SG" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in, at", "sv": "i, på" } },
+            { "text": "کوێیە؟", "latin": "kwêye?", "gloss": { "en": "where he/she is", "sv": "var han/hon är" }, "concept": "where", "morph": "where-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نەخێر، نازانم.",
+            "latin": "nexêr, nazanim.",
+            "translation": { "en": "No, I don't know.", "sv": "Nej, jag vet inte." },
+            "tokens": [
+              { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "نازانم.", "latin": "nazanim.", "gloss": { "en": "I don't know", "sv": "jag vet inte" }, "concept": "i-dont-know", "morph": "NEG-know.PRS-1SG" }
+            ]
+          },
+          { "text": "بەڵێ، لێرەیە.", "latin": "bełê, lêreye.", "translation": { "en": "Yes, he's here.", "sv": "Ja, han är här." } },
+          { "text": "ڕەنگە لە ماڵەوە بێت.", "latin": "řenge le małewe bêt.", "translation": { "en": "Maybe he's at home.", "sv": "Han är kanske hemma." } },
+          { "text": "ببوورە، نازانم.", "latin": "bibûre, nazanim.", "translation": { "en": "Sorry, I don't know.", "sv": "Förlåt, jag vet inte." } }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "می‌دانی کجاست؟",
+          "latin": "midâni kojâst?",
+          "tokens": [
+            { "text": "می‌دانی", "latin": "midâni", "gloss": { "en": "do you know", "sv": "vet du" }, "concept": "to-know", "morph": "DUR-know.PRS-2SG" },
+            { "text": "کجاست؟", "latin": "kojâst?", "gloss": { "en": "where he/she is", "sv": "var han/hon är" }, "concept": "where", "morph": "where-be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نه، نمی‌دانم.",
+            "latin": "na, nemidânam.",
+            "translation": { "en": "No, I don't know.", "sv": "Nej, jag vet inte." },
+            "tokens": [
+              { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "نمی‌دانم.", "latin": "nemidânam.", "gloss": { "en": "I don't know", "sv": "jag vet inte" }, "concept": "i-dont-know", "morph": "NEG-DUR-know.PRS-1SG" }
+            ]
+          },
+          { "text": "نه، نمی‌دونم.", "latin": "na, nemidunam.", "translation": { "en": "No, I don't know.", "sv": "Nej, jag vet inte." } },
+          { "text": "بله، اینجاست.", "latin": "bale, injâst.", "translation": { "en": "Yes, he's here.", "sv": "Ja, han är här." } },
+          { "text": "شاید خانه باشد.", "latin": "shâyad khâne bâshad.", "translation": { "en": "Maybe he's at home.", "sv": "Han är kanske hemma." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

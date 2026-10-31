@@ -1,0 +1,188 @@
+{
+  "points": [
+    {
+      "id": "ckb-alphabet-vowels",
+      "unit": "greetings",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Sorani vowels in writing", "sv": "Soranins vokaler i skrift" },
+      "explanation": {
+        "en": "Sorani writes **every vowel except the short i**: `ا` a, `ە` e, `ێ` ê, `ی` î, `ۆ` o, `و` u, `وو` û. The short i is heard but not written: `باشم` başim, `تکایە` tikaye. Keep `ە` (the vowel e) apart from `ه` (the consonant h): `هەیە` heye. `ی` is î or y and `ێ` is ê, so `شیر` şîr 'milk' and `شێر` şêr 'lion' are different words. `و` is u or w (`خوا` xwa) and doubled `وو` is long û: `ببوورە` bibûre. A word never begins with a bare vowel letter: it starts with the seat `ئ`, as in `ئەی` ey and `ئەرێ` erê.",
+        "sv": "Sorani skriver **alla vokaler utom det korta i**: `ا` a, `ە` e, `ێ` ê, `ی` î, `ۆ` o, `و` u, `وو` û. Det korta i:et hörs men skrivs inte: `باشم` başim, `تکایە` tikaye. Skilj på `ە` (vokalen e) och `ه` (konsonanten h): `هەیە` heye. `ی` är î eller y och `ێ` är ê, så `شیر` şîr 'mjölk' och `شێر` şêr 'lejon' är olika ord. `و` är u eller w (`خوا` xwa) och dubbelt `وو` är långt û: `ببوورە` bibûre. Ett ord börjar aldrig med en ensam vokalbokstav: det börjar med bäraren `ئ`, som i `ئەی` ey och `ئەرێ` erê."
+      },
+      "examples": [
+        {
+          "text": "باشم.",
+          "latin": "başim.",
+          "translation": { "en": "I'm fine.", "sv": "Jag mår bra." },
+          "tokens": [{ "text": "باشم.", "latin": "başim.", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" }]
+        },
+        {
+          "text": "ئەی تۆ؟",
+          "latin": "ey to?",
+          "translation": { "en": "And you?", "sv": "Och du?" },
+          "tokens": [
+            { "text": "ئەی", "latin": "ey", "gloss": { "en": "and what about", "sv": "och hur är det med" }, "concept": "and-you" },
+            { "text": "تۆ؟", "latin": "to?", "gloss": { "en": "you", "sv": "du" }, "concept": "and-you" }
+          ]
+        },
+        {
+          "text": "ببوورە.",
+          "latin": "bibûre.",
+          "translation": { "en": "Sorry.", "sv": "Förlåt." },
+          "tokens": [{ "text": "ببوورە.", "latin": "bibûre.", "gloss": { "en": "sorry (forgive me)", "sv": "förlåt" }, "concept": "sorry", "morph": "SBJV-forgive.PRS-IMP.2SG" }]
+        },
+        {
+          "text": "بەخێربێیت!",
+          "latin": "bexêrbêyt!",
+          "translation": { "en": "Welcome!", "sv": "Välkommen!" },
+          "tokens": [
+            { "text": "بەخێربێیت!", "latin": "bexêrbêyt!", "gloss": { "en": "welcome", "sv": "välkommen" }, "concept": "welcome", "morph": "with-good-come.SBJV-2SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "thackston-sorani-grammar", "ref": "The Writing System" }, { "source": "wiktionary", "ref": "شێر" }]
+    },
+    {
+      "id": "ckb-politeness",
+      "unit": "greetings",
+      "lang": "ckb",
+      "level": "A1",
+      "title": { "en": "Being polite", "sv": "Att vara artig" },
+      "explanation": {
+        "en": "`تکایە` tikaye 'please' usually opens a request. To show respect to an elder, a teacher or a stranger, Sorani uses the **plural you**, `ئێوە` êwe, even to one person, like Swedish *ni* in the past: `چۆنن؟` instead of `چۆنی؟`, `بەخێربێن` instead of `بەخێربێیت`, `-tan` 'your' instead of `-t` (`بەیانیتان باش`). Before a man's first name people say `کاک` kak, and before a woman's `خاتوو` xatû: `کاک ئاراس`. In formal speech and writing `بەڕێز` beřêz 'honourable' is 'Mr/Ms' before a name.",
+        "sv": "`تکایە` tikaye 'snälla, var vänlig' inleder oftast en begäran. För att visa respekt mot en äldre, en lärare eller en främling använder sorani **plural-du**, `ئێوە` êwe, även till en person, som svenskans *ni* förr: `چۆنن؟` i stället för `چۆنی؟`, `بەخێربێن` i stället för `بەخێربێیت`, `-tan` 'er' i stället för `-t` (`بەیانیتان باش`). Före en mans förnamn säger man `کاک` kak och före en kvinnas `خاتوو` xatû: `کاک ئاراس`. I formellt tal och skrift är `بەڕێز` beřêz 'ärade' 'herr/fru' före ett namn."
+      },
+      "examples": [
+        {
+          "text": "بەیانیتان باش، چۆنن؟",
+          "latin": "beyanîtan baş, çonin?",
+          "translation": { "en": "Good morning, how are you? (polite)", "sv": "God morgon, hur mår ni?" },
+          "tokens": [
+            { "text": "بەیانیتان", "latin": "beyanîtan", "gloss": { "en": "your morning", "sv": "er morgon" }, "concept": "good-morning", "morph": "morning-2PL" },
+            { "text": "باش،", "latin": "baş,", "gloss": { "en": "good", "sv": "god" }, "concept": "good-morning" },
+            { "text": "چۆنن؟", "latin": "çonin?", "gloss": { "en": "how are you (polite)", "sv": "hur mår ni" }, "concept": "how-are-you", "morph": "how-COP.2PL" }
+          ]
+        },
+        {
+          "text": "کاک ئاراس، بەخێربێن!",
+          "latin": "kak Aras, bexêrbên!",
+          "translation": { "en": "Welcome, Aras! (respectful)", "sv": "Välkommen, Aras! (artigt)" },
+          "tokens": [
+            { "text": "کاک", "latin": "kak", "gloss": { "en": "Mr (before a first name)", "sv": "herr (före förnamn)" } },
+            { "text": "ئاراس،", "latin": "Aras,", "gloss": { "en": "Aras", "sv": "Aras" } },
+            { "text": "بەخێربێن!", "latin": "bexêrbên!", "gloss": { "en": "welcome (polite)", "sv": "välkomna / välkommen (artigt)" }, "concept": "welcome", "morph": "with-good-come.SBJV-2PL" }
+          ]
+        },
+        {
+          "text": "باشم، سوپاس. ئەی ئێوە؟",
+          "latin": "başim, supas. ey êwe?",
+          "translation": { "en": "I'm fine, thank you. And you? (polite)", "sv": "Jag mår bra, tack. Och ni?" },
+          "tokens": [
+            { "text": "باشم،", "latin": "başim,", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" },
+            { "text": "سوپاس.", "latin": "supas.", "gloss": { "en": "thanks", "sv": "tack" }, "concept": "thank-you" },
+            { "text": "ئەی", "latin": "ey", "gloss": { "en": "and what about", "sv": "och hur är det med" }, "concept": "and-you" },
+            { "text": "ئێوە؟", "latin": "êwe?", "gloss": { "en": "you (polite)", "sv": "ni" }, "concept": "and-you" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+    },
+    {
+      "id": "fa-alphabet-vowels",
+      "unit": "greetings",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Persian vowels in writing", "sv": "Persiskans vokaler i skrift" },
+      "explanation": {
+        "en": "Unlike Sorani, Persian **does not write the short vowels** a, e, o: `سلام` salâm, `شب` shab, `خداحافظ` khodâhâfez. You learn them with the word. The long vowels are written: `ا` â, `و` u, `ی` i, and `و` and `ی` are also the consonants v and y. At the start of a word `آ` is â (`آره` âre) and a bare `ا` carries a short vowel (`است` ast, `اسم` esm). A **silent final ه** only marks the vowel e or a: `بله` bale, `نه` na, `باشه` bâshe. Because ی can be i or ê, one spelling `شیر` covers both 'lion' and 'milk', words Sorani writes apart (`شێر`, `شیر`).",
+        "sv": "Till skillnad från sorani **skriver persiskan inte de korta vokalerna** a, e, o: `سلام` salâm, `شب` shab, `خداحافظ` khodâhâfez. Man lär sig dem med ordet. De långa vokalerna skrivs: `ا` â, `و` u, `ی` i, och `و` och `ی` är också konsonanterna v och y. I början av ett ord är `آ` â (`آره` âre) och ett ensamt `ا` bär en kort vokal (`است` ast, `اسم` esm). Ett **stumt ه i slutet** markerar bara vokalen e eller a: `بله` bale, `نه` na, `باشه` bâshe. Eftersom ی kan vara i eller ê täcker en enda stavning `شیر` både 'lejon' och 'mjölk', ord som sorani skriver olika (`شێر`, `شیر`)."
+      },
+      "examples": [
+        {
+          "text": "سلام!",
+          "latin": "salâm!",
+          "translation": { "en": "Hello!", "sv": "Hej!" },
+          "tokens": [{ "text": "سلام!", "latin": "salâm!", "gloss": { "en": "hello", "sv": "hej" }, "concept": "hello" }]
+        },
+        {
+          "text": "خداحافظ!",
+          "latin": "khodâhâfez!",
+          "translation": { "en": "Goodbye!", "sv": "Hej då!" },
+          "tokens": [{ "text": "خداحافظ!", "latin": "khodâhâfez!", "gloss": { "en": "goodbye", "sv": "hej då" }, "concept": "goodbye" }]
+        },
+        {
+          "text": "آره، خوبم.",
+          "latin": "âre, khubam.",
+          "translation": { "en": "Yeah, I'm fine.", "sv": "Japp, jag mår bra." },
+          "tokens": [
+            { "text": "آره،", "latin": "âre,", "gloss": { "en": "yeah", "sv": "japp" }, "concept": "yes" },
+            { "text": "خوبم.", "latin": "khubam.", "gloss": { "en": "I am fine", "sv": "jag mår bra" }, "concept": "i-am-fine", "morph": "good-COP.1SG" }
+          ]
+        },
+        {
+          "text": "بله، باشه.",
+          "latin": "bale, bâshe.",
+          "translation": { "en": "Yes, okay.", "sv": "Ja, okej." },
+          "tokens": [
+            { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
+            { "text": "باشه.", "latin": "bâshe.", "gloss": { "en": "okay", "sv": "okej" }, "concept": "okay" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "wiktionary", "ref": "شیر" }, { "source": "author" }]
+    },
+    {
+      "id": "fa-formal-colloquial",
+      "unit": "greetings",
+      "lang": "fa",
+      "level": "A1",
+      "title": { "en": "Written and spoken Persian", "sv": "Skriven och talad persiska" },
+      "explanation": {
+        "en": "Written Persian and the spoken Persian of Tehran differ more than Swedish writing and speech do. This app shows the written standard and the spoken form beside it. Common changes: `است` 'is' becomes **-e** (`چطور است` → `چطوره` chetore), `خوب هستم` becomes `خوبم`, `می‌خواهم` 'I want' becomes `می‌خوام` mikhâm, â before m or n often becomes u (`آمدید` → `اومدین` umadin), and the ending -id becomes -in. Use `تو` to for friends, family and children, and `شما` shomâ for strangers and elders. **Ta'arof** is ritual politeness: offers are first refused, and a shopkeeper may say `قابلی ندارد` 'it's not worthy of you' before you pay.",
+        "sv": "Skriven persiska och talad Teheranpersiska skiljer sig mer än svenskans skrift och tal. Appen visar skriftnormen och talformen bredvid. Vanliga ändringar: `است` 'är' blir **-e** (`چطور است` → `چطوره` chetore), `خوب هستم` blir `خوبم`, `می‌خواهم` 'jag vill' blir `می‌خوام` mikhâm, â före m eller n blir ofta u (`آمدید` → `اومدین` umadin), och ändelsen -id blir -in. Säg `تو` to till vänner, familj och barn, och `شما` shomâ till främlingar och äldre. **Ta'arof** är rituell artighet: erbjudanden avböjs först, och en butiksägare kan säga `قابلی ندارد` 'det är inte värdigt dig' innan du betalar."
+      },
+      "examples": [
+        {
+          "text": "حال شما چطور است؟",
+          "latin": "hâl-e shomâ chetor ast?",
+          "translation": { "en": "How are you? (written, polite)", "sv": "Hur mår ni? (skrift, artigt)" },
+          "tokens": [
+            { "text": "حال", "latin": "hâl-e", "gloss": { "en": "state (of)", "sv": "tillstånd(et för)" }, "concept": "how-are-you", "morph": "state-EZ" },
+            { "text": "شما", "latin": "shomâ", "gloss": { "en": "you (polite)", "sv": "ni" }, "concept": "how-are-you" },
+            { "text": "چطور", "latin": "chetor", "gloss": { "en": "how", "sv": "hur" }, "concept": "how-are-you" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "how-are-you", "morph": "be.PRS.3SG" }
+          ]
+        },
+        {
+          "text": "حالتون چطوره؟",
+          "latin": "hâletun chetore?",
+          "translation": { "en": "How are you? (spoken, polite)", "sv": "Hur mår ni? (tal, artigt)" },
+          "tokens": [
+            { "text": "حالتون", "latin": "hâletun", "gloss": { "en": "your state", "sv": "ert tillstånd" }, "concept": "how-are-you", "morph": "state-2PL" },
+            { "text": "چطوره؟", "latin": "chetore?", "gloss": { "en": "how is", "sv": "hur är" }, "concept": "how-are-you", "morph": "how-COP.3SG" }
+          ]
+        },
+        {
+          "text": "خوش اومدین!",
+          "latin": "khosh umadin!",
+          "translation": { "en": "Welcome! (spoken)", "sv": "Välkomna! (tal)" },
+          "tokens": [
+            { "text": "خوش", "latin": "khosh", "gloss": { "en": "happily", "sv": "glatt" }, "concept": "welcome" },
+            { "text": "اومدین!", "latin": "umadin!", "gloss": { "en": "you came", "sv": "ni kom" }, "concept": "welcome", "morph": "come.PST-2PL" }
+          ]
+        },
+        {
+          "text": "قابلی ندارد.",
+          "latin": "ghâbeli nadârad.",
+          "translation": { "en": "It's not worthy of you. (ta'arof)", "sv": "Det är inte värdigt dig. (ta'arof)" },
+          "tokens": [
+            { "text": "قابلی", "latin": "ghâbeli", "gloss": { "en": "any worth", "sv": "något värde" }, "morph": "worthy-INDF" },
+            { "text": "ندارد.", "latin": "nadârad.", "gloss": { "en": "it doesn't have", "sv": "det har inte" }, "morph": "NEG-have.PRS.3SG" }
+          ]
+        }
+      ],
+      "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+    }
+  ]
+}

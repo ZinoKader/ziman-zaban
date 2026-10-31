@@ -1,0 +1,650 @@
+{
+  "concepts": [
+    {
+      "id": "street",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🛣️",
+      "gloss": { "en": "street", "sv": "gata", "enAlt": ["road"], "svAlt": ["väg"] },
+      "ckb": {
+        "primary": { "script": "شەقام", "latin": "şeqam" },
+        "variants": [
+          {
+            "script": "جادە",
+            "latin": "cade",
+            "note": { "en": "a road, also used for a street", "sv": "en väg, används också om en gata" }
+          }
+        ],
+        "notes": {
+          "en": "شەقام is a street or avenue in town; جادە is a road. A narrow lane between houses is کۆڵان (kołan).",
+          "sv": "شەقام är en gata eller aveny i stan; جادە är en väg. En smal gränd mellan husen heter کۆڵان (kołan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "street" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خیابان", "latin": "khiyâbân" },
+        "variants": [{ "script": "خیابون", "latin": "khiyâbun", "register": "colloquial" }],
+        "notes": {
+          "en": "A narrow side street is کوچه (kuche). Tehran addresses name the خیابان first, then the کوچه.",
+          "sv": "En smal sidogata heter کوچه (kuche). Adresser i Teheran anger först خیابان och sedan کوچه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خیابان" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "shop",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏪",
+      "gloss": { "en": "shop", "sv": "affär", "enAlt": ["store"], "svAlt": ["butik"] },
+      "ckb": {
+        "primary": { "script": "دوکان", "latin": "dukan" },
+        "notes": {
+          "en": "\"The shop\" is دوکانەکە (dukaneke). The same word as old-fashioned Persian دکان (dokkân).",
+          "sv": "\"Affären\" heter دوکانەکە (dukaneke). Samma ord som det ålderdomliga persiska دکان (dokkân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "shop" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مغازه", "latin": "maghâze" },
+        "variants": [
+          {
+            "script": "فروشگاه",
+            "latin": "forushgâh",
+            "note": { "en": "a store, a supermarket", "sv": "ett varuhus, en stormarknad" }
+          }
+        ],
+        "notes": {
+          "en": "A cousin of French \"magasin\". دکان (dokkân), the word Sorani uses, sounds old-fashioned in Tehran.",
+          "sv": "En kusin till franskans \"magasin\" (jämför svenskans \"magasin\"). دکان (dokkân), soranins ord, låter ålderdomligt i Teheran."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "shop" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "market",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🛍️",
+      "gloss": { "en": "market", "sv": "marknad", "enAlt": ["bazaar"], "svAlt": ["basar", "torg"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بازاڕ", "latin": "bazař" },
+        "notes": {
+          "en": "The same word as Persian بازار, which English borrowed as \"bazaar\". Sorani writes it with ڕ.",
+          "sv": "Samma ord som persiskans بازار, som svenskan lånat som \"basar\". Sorani skriver det med ڕ."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "بازار", "latin": "bâzâr" },
+        "notes": {
+          "en": "The Grand Bazaar of Tehran is بازار بزرگ. Swedish \"basar\" and English \"bazaar\" come from this word.",
+          "sv": "Teherans stora basar heter بازار بزرگ. Svenskans \"basar\" och engelskans \"bazaar\" kommer från det här ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "بازار" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hospital",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏥",
+      "gloss": { "en": "hospital", "sv": "sjukhus" },
+      "ckb": {
+        "primary": { "script": "نەخۆشخانە", "latin": "nexoşxane" },
+        "notes": {
+          "en": "نەخۆش \"sick\" + خانە \"house\": a \"sick house\", just like Swedish \"sjukhus\".",
+          "sv": "نەخۆش \"sjuk\" + خانە \"hus\": precis som svenskans \"sjukhus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hospital" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بیمارستان", "latin": "bimârestân" },
+        "variants": [{ "script": "بیمارستون", "latin": "bimârestun", "register": "colloquial" }],
+        "notes": {
+          "en": "بیمار \"sick\" + ستان \"place\": the same idea as Sorani نەخۆشخانە and Swedish \"sjukhus\".",
+          "sv": "بیمار \"sjuk\" + ستان \"plats\": samma tanke som soranins نەخۆشخانە och svenskans \"sjukhus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hospital" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "doctor",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🧑‍⚕️",
+      "gloss": { "en": "doctor", "sv": "läkare", "svAlt": ["doktor"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دکتۆر", "latin": "diktor" },
+        "variants": [{ "script": "پزیشک", "latin": "pizîşk", "register": "formal" }],
+        "notes": {
+          "en": "دکتۆر is what you say and how you address a doctor. پزیشک is the formal word, the same as Persian پزشک.",
+          "sv": "دکتۆر är det man säger och hur man tilltalar en läkare. پزیشک är det formella ordet, samma som persiskans پزشک."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "doctor" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دکتر", "latin": "doktor" },
+        "variants": [{ "script": "پزشک", "latin": "pezeshk", "register": "formal" }],
+        "notes": {
+          "en": "Address a doctor as آقای دکتر (âghâ-ye doktor) or خانم دکتر (khânom doktor). پزشک is the formal word.",
+          "sv": "Tilltala en läkare som آقای دکتر (âghâ-ye doktor) eller خانم دکتر (khânom doktor). پزشک är det formella ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "doctor" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bus",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🚌",
+      "gloss": { "en": "bus", "sv": "buss" },
+      "ckb": {
+        "primary": { "script": "پاس", "latin": "pas" },
+        "notes": {
+          "en": "\"By bus\" is بە پاس (be pas). Sorani uses بە for vehicles, where Persian uses با.",
+          "sv": "\"Med buss\" heter بە پاس (be pas). Sorani använder بە för fordon, där persiskan använder با."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bus" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اتوبوس", "latin": "otobus" },
+        "notes": {
+          "en": "From French \"autobus\". \"By bus\" is با اتوبوس (bâ otobus), with با \"with\".",
+          "sv": "Från franskans \"autobus\". \"Med buss\" heter با اتوبوس (bâ otobus), med با \"med\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اتوبوس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "car",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🚗",
+      "gloss": { "en": "car", "sv": "bil" },
+      "ckb": {
+        "primary": { "script": "ئۆتۆمۆبیل", "latin": "otomobîl" },
+        "variants": [
+          { "script": "ئۆتۆمبێل", "latin": "otombêl" },
+          { "script": "سەیارە", "latin": "seyare", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Both spellings, ئۆتۆمۆبیل and ئۆتۆمبێل, are common. Many people simply say سەیارە (from Arabic).",
+          "sv": "Båda stavningarna, ئۆتۆمۆبیل och ئۆتۆمبێل, är vanliga. Många säger helt enkelt سەیارە (från arabiskan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "car" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ماشین", "latin": "mâshin" },
+        "variants": [
+          {
+            "script": "خودرو",
+            "latin": "khodrow",
+            "register": "formal",
+            "note": { "en": "\"self-moving\", in news and on signs", "sv": "\"självgående\", i nyheter och på skyltar" }
+          }
+        ],
+        "notes": {
+          "en": "From French \"machine\", and it still also means \"machine\": ماشین لباسشویی \"washing machine\".",
+          "sv": "Från franskans \"machine\", och betyder fortfarande också \"maskin\": ماشین لباسشویی \"tvättmaskin\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "car" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "taxi",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🚕",
+      "gloss": { "en": "taxi", "sv": "taxi", "enAlt": ["cab"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تەکسی", "latin": "teksî" },
+        "notes": {
+          "en": "\"By taxi\" is بە تەکسی (be teksî). Agree on the price before you get in.",
+          "sv": "\"Med taxi\" heter بە تەکسی (be teksî). Kom överens om priset innan du kliver in."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "تاکسی", "latin": "tâksi" },
+        "notes": {
+          "en": "Shared taxis on fixed routes are very common in Iran: you say where you are going and pay for one seat.",
+          "sv": "Delade taxibilar på fasta sträckor är mycket vanliga i Iran: man säger vart man ska och betalar för en plats."
+        },
+        "sources": [{ "source": "author" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "airport",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "✈️",
+      "gloss": { "en": "airport", "sv": "flygplats" },
+      "ckb": {
+        "primary": { "script": "فڕۆکەخانە", "latin": "fřokexane" },
+        "notes": {
+          "en": "فڕۆکە \"airplane\" (from فڕین \"to fly\") + خانە \"house\".",
+          "sv": "فڕۆکە \"flygplan\" (av فڕین \"att flyga\") + خانە \"hus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "airport" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فرودگاه", "latin": "forudgâh" },
+        "notes": {
+          "en": "فرود \"landing\" + گاه \"place\": \"landing place\".",
+          "sv": "فرود \"landning\" + گاه \"plats\": \"landningsplats\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "فرودگاه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "ticket",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🎫",
+      "gloss": { "en": "ticket", "sv": "biljett" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بلیت", "latin": "bilît" },
+        "notes": {
+          "en": "From French \"billet\", like Swedish \"biljett\" and Persian بلیت. \"A ticket\" is بلیتێک (bilîtêk).",
+          "sv": "Från franskans \"billet\", liksom svenskans \"biljett\" och persiskans بلیت. \"En biljett\" heter بلیتێک (bilîtêk)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "بلیت", "latin": "belit" },
+        "variants": [{ "script": "بلیط", "latin": "belit" }],
+        "notes": {
+          "en": "From French \"billet\", like Swedish \"biljett\". Also spelled بلیط; both spellings are common.",
+          "sv": "Från franskans \"billet\", liksom svenskans \"biljett\". Stavas också بلیط; båda stavningarna är vanliga."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "بلیت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "money",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "💵",
+      "gloss": { "en": "money", "sv": "pengar" },
+      "ckb": {
+        "primary": { "script": "پارە", "latin": "pare" },
+        "notes": {
+          "en": "پارەم نییە \"I have no money\". False friend: Persian پاره (pâre) means \"torn\" or \"a piece\".",
+          "sv": "پارەم نییە \"jag har inga pengar\". Falsk vän: persiskans پاره (pâre) betyder \"sönder\" eller \"en bit\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "money" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پول", "latin": "pul" },
+        "notes": {
+          "en": "Prices are usually given in toman (1 toman = 10 rials), even though the rial is the official currency.",
+          "sv": "Priser anges oftast i toman (1 toman = 10 rial), fast rial är den officiella valutan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "money" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "how-much",
+      "unit": "places-travel",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "🏷️",
+      "gloss": { "en": "how much", "sv": "hur mycket", "svAlt": ["vad kostar"] },
+      "senseNote": { "en": "asking a price", "sv": "fråga om pris" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بە چەند", "latin": "be çend" },
+        "variants": [{ "script": "چەند", "latin": "çend" }],
+        "notes": {
+          "en": "ئەمە بە چەندە؟ \"how much is this?\", literally \"this is for how much?\". Also نرخی چەندە؟ \"what's its price?\".",
+          "sv": "ئەمە بە چەندە؟ \"vad kostar det här?\", ordagrant \"det här är för hur mycket?\". Också نرخی چەندە؟ \"vad är priset?\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "چند", "latin": "chand" },
+        "variants": [{ "script": "چقدر", "latin": "cheghadr" }],
+        "notes": {
+          "en": "این چنده؟ (in chande?) or قیمتش چنده؟ (gheymatesh chande?) \"how much is it?\". In speech \"thousand\" is often dropped: ده تومن usually means 10,000 toman.",
+          "sv": "این چنده؟ (in chande?) eller قیمتش چنده؟ (gheymatesh chande?) \"vad kostar det?\". I tal utelämnas ofta \"tusen\": ده تومن betyder oftast 10 000 toman."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "how much" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "left",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "⬅️",
+      "gloss": { "en": "left", "sv": "vänster" },
+      "senseNote": { "en": "the direction", "sv": "riktningen" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چەپ", "latin": "çep" },
+        "notes": {
+          "en": "\"On the left\" is لە لای چەپ (le lay çep), \"at the left side\". The same word as Persian چپ.",
+          "sv": "\"Till vänster\" heter لە لای چەپ (le lay çep), \"på vänstra sidan\". Samma ord som persiskans چپ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "left" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چپ", "latin": "chap" },
+        "notes": {
+          "en": "\"On the left\" is سمت چپ (samt-e chap), \"the left side\", or in speech دست چپ (dast-e chap), \"left hand\".",
+          "sv": "\"Till vänster\" heter سمت چپ (samt-e chap), \"vänstra sidan\", eller i tal دست چپ (dast-e chap), \"vänster hand\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "left" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "right",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "➡️",
+      "gloss": { "en": "right", "sv": "höger" },
+      "senseNote": { "en": "the direction, not \"correct\"", "sv": "riktningen, inte \"rätt\"" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ڕاست", "latin": "řast" },
+        "notes": {
+          "en": "Also \"true, correct\", as in English: ڕاستە \"that's right\". \"On the right\" is لە لای ڕاست (le lay řast).",
+          "sv": "Betyder också \"sann, rätt\": ڕاستە \"det stämmer\". \"Till höger\" heter لە لای ڕاست (le lay řast)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "right" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "راست", "latin": "râst" },
+        "notes": {
+          "en": "Also \"true\": راست می‌گویی \"you're right\" (literally \"you speak true\"). \"On the right\" is سمت راست (samt-e râst).",
+          "sv": "Betyder också \"sann\": راست می‌گویی \"du har rätt\" (ordagrant \"du talar sant\"). \"Till höger\" heter سمت راست (samt-e râst)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "right" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "straight-ahead",
+      "unit": "places-travel",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "⬆️",
+      "gloss": { "en": "straight ahead", "sv": "rakt fram", "enAlt": ["straight", "straight on"] },
+      "ckb": {
+        "primary": { "script": "ڕاستەوخۆ", "latin": "řastewxo" },
+        "variants": [{ "script": "ڕێک", "latin": "řêk", "note": { "en": "\"straight, exactly\"", "sv": "\"rakt, precis\"" } }],
+        "notes": {
+          "en": "Built on ڕاست \"straight, right\": \"directly\". ڕاستەوخۆ بڕۆ \"go straight ahead\".",
+          "sv": "Bildat av ڕاست \"rak, rätt\": \"direkt\". ڕاستەوخۆ بڕۆ \"gå rakt fram\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "مستقیم", "latin": "mostaghim" },
+        "notes": {
+          "en": "From Arabic, \"straight, direct\". مستقیم بروید \"go straight ahead\".",
+          "sv": "Från arabiskan, \"rak, direkt\". مستقیم بروید \"gå rakt fram\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "straight" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "near",
+      "unit": "places-travel",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "📍",
+      "gloss": { "en": "near", "sv": "nära", "enAlt": ["close"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نزیک", "latin": "nizîk" },
+        "notes": {
+          "en": "نزیکە \"it's near\". The same word as Persian نزدیک, without the د.",
+          "sv": "نزیکە \"det är nära\". Samma ord som persiskans نزدیک, utan د."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "near" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نزدیک", "latin": "nazdik" },
+        "notes": {
+          "en": "\"Near here\" is نزدیک اینجا (nazdik-e injâ). Written نزدیک است, spoken نزدیکه (nazdike).",
+          "sv": "\"Nära här\" heter نزدیک اینجا (nazdik-e injâ). Skrivet نزدیک است, i tal نزدیکه (nazdike)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "near" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "far",
+      "unit": "places-travel",
+      "pos": "adjective",
+      "level": "A1",
+      "emoji": "🔭",
+      "gloss": { "en": "far", "sv": "långt bort", "enAlt": ["far away"], "svAlt": ["långt", "långt borta", "avlägsen"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دوور", "latin": "dûr" },
+        "notes": {
+          "en": "دوورە؟ \"is it far?\". لە دوورەوە \"from far away\". The same word as Persian دور.",
+          "sv": "دوورە؟ \"är det långt?\". لە دوورەوە \"långt bortifrån\". Samma ord som persiskans دور."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "far" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دور", "latin": "dur" },
+        "notes": {
+          "en": "Written دور است؟, spoken دوره؟ (dure?) \"is it far?\". The same word as Sorani دوور.",
+          "sv": "Skrivet دور است؟, i tal دوره؟ (dure?) \"är det långt?\". Samma ord som soranins دوور."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "far" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-go",
+      "unit": "places-travel",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "🚶",
+      "gloss": { "en": "to go", "sv": "att gå", "svAlt": ["gå", "åka", "att åka", "fara"] },
+      "ckb": {
+        "primary": { "script": "چوون", "latin": "çûn" },
+        "presentStem": { "script": "چ", "latin": "ç" },
+        "pastStem": { "script": "چوو", "latin": "çû" },
+        "variants": [
+          {
+            "script": "ڕۆیشتن",
+            "latin": "řoyştin",
+            "note": { "en": "also \"to leave, to walk\"; gives \"go!\" بڕۆ", "sv": "också \"att gå därifrån, att gå till fots\"; ger \"gå!\" بڕۆ" }
+          }
+        ],
+        "notes": {
+          "en": "دەچم \"I go\". The place is often joined to the verb with -e: دەچمە بازاڕ \"I go to the market\". \"Go!\" is usually بڕۆ (biřo).",
+          "sv": "دەچم \"jag går\". Platsen fogas ofta till verbet med -e: دەچمە بازاڕ \"jag går till marknaden\". \"Gå!\" heter oftast بڕۆ (biřo)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "go" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17, §24, §35" }]
+      },
+      "fa": {
+        "primary": { "script": "رفتن", "latin": "raftan" },
+        "presentStem": { "script": "رو", "latin": "rav" },
+        "pastStem": { "script": "رفت", "latin": "raft" },
+        "notes": {
+          "en": "Written می‌روم (miravam), spoken می‌رم (miram). \"Go!\" is برو (boro), politely بروید (beravid).",
+          "sv": "Skrivet می‌روم (miravam), i tal می‌رم (miram). \"Gå!\" heter برو (boro), artigt بروید (beravid)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "رفتن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-come",
+      "unit": "places-travel",
+      "pos": "verb",
+      "level": "A1",
+      "emoji": "👋",
+      "gloss": { "en": "to come", "sv": "att komma", "svAlt": ["komma"] },
+      "ckb": {
+        "primary": { "script": "هاتن", "latin": "hatin" },
+        "presentStem": { "script": "یە", "latin": "ye" },
+        "pastStem": { "script": "هات", "latin": "hat" },
+        "notes": {
+          "en": "Irregular: دێم \"I come\", دێیت \"you come\", دێت \"he/she comes\". \"Come!\" is وەرە (were), to several people وەرن (werin).",
+          "sv": "Oregelbundet: دێم \"jag kommer\", دێیت \"du kommer\", دێت \"han/hon kommer\". \"Kom!\" heter وەرە (were), till flera وەرن (werin)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "come" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17, §24" }]
+      },
+      "fa": {
+        "primary": { "script": "آمدن", "latin": "âmadan" },
+        "presentStem": { "script": "آ", "latin": "â" },
+        "pastStem": { "script": "آمد", "latin": "âmad" },
+        "notes": {
+          "en": "Written می‌آیم (miâyam), spoken میام (miyâm). \"Come!\" is بیا (biyâ), politely بیایید (biyâyid).",
+          "sv": "Skrivet می‌آیم (miâyam), i tal میام (miyâm). \"Kom!\" heter بیا (biyâ), artigt بیایید (biyâyid)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "come" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "village",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "🏘️",
+      "gloss": { "en": "village", "sv": "by" },
+      "ckb": {
+        "primary": { "script": "گوند", "latin": "gund" },
+        "variants": [{ "script": "دێ", "latin": "dê" }],
+        "notes": {
+          "en": "دێ (dê) is the same word as Persian ده (deh). A villager is گوندنشین (gundnişîn), \"village sitter\".",
+          "sv": "دێ (dê) är samma ord som persiskans ده (deh). En bybo heter گوندنشین (gundnişîn), \"en som sitter i byn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "village" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "روستا", "latin": "rustâ" },
+        "variants": [{ "script": "ده", "latin": "deh", "register": "colloquial" }],
+        "notes": {
+          "en": "ده (deh) is the everyday word, the same as Sorani دێ. Don't confuse it with ده (dah) \"ten\".",
+          "sv": "ده (deh) är vardagsordet, samma som soranins دێ. Blanda inte ihop det med ده (dah) \"tio\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "روستا" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "mountain",
+      "unit": "places-travel",
+      "pos": "noun",
+      "level": "A1",
+      "emoji": "⛰️",
+      "gloss": { "en": "mountain", "sv": "berg" },
+      "ckb": {
+        "primary": { "script": "چیا", "latin": "çiya" },
+        "variants": [
+          { "script": "شاخ", "latin": "şax", "register": "colloquial" },
+          { "script": "کێو", "latin": "kêw" }
+        ],
+        "notes": {
+          "en": "In Sulaymani people often say شاخ. کێو is the same word as Persian کوه. A Kurdish saying: \"no friends but the mountains\".",
+          "sv": "I Sulaymaniyya säger man ofta شاخ. کێو är samma ord som persiskans کوه. Ett kurdiskt talesätt: \"inga vänner utom bergen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mountain" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کوه", "latin": "kuh" },
+        "notes": {
+          "en": "Tehran lies under the Alborz mountains, and on Fridays many Tehranis go hiking: می‌ریم کوه \"we're going to the mountain\".",
+          "sv": "Teheran ligger vid foten av Alborzbergen, och på fredagar går många teheranbor i bergen: می‌ریم کوه \"vi går till berget\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کوه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "in",
+      "unit": "places-travel",
+      "pos": "preposition",
+      "level": "A1",
+      "gloss": { "en": "in", "sv": "i", "enAlt": ["at"], "svAlt": ["på"] },
+      "ckb": {
+        "primary": { "script": "لە ... دا", "latin": "le ... da" },
+        "variants": [{ "script": "لە", "latin": "le" }],
+        "notes": {
+          "en": "لە alone can mean \"in, at, from\". Wrapping the noun in لە ... دا makes \"in\" clear: لە ماڵەکەدا \"in the house\". \"In it\" is تێیدا (têyda).",
+          "sv": "لە ensamt kan betyda \"i, på, från\". Lägger man لە ... دا runt ordet blir \"i\" tydligt: لە ماڵەکەدا \"i huset\". \"I det\" heter تێیدا (têyda)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "in" }, { "source": "thackston-sorani-grammar", "ref": "§14, §14.1" }]
+      },
+      "fa": {
+        "primary": { "script": "در", "latin": "dar" },
+        "variants": [
+          { "script": "توی", "latin": "tu-ye", "register": "colloquial" },
+          { "script": "تو", "latin": "tu", "register": "colloquial" }
+        ],
+        "notes": {
+          "en": "Spoken Persian says تو or توی (tu-ye): تو خونه \"at home\". Careful: the same letters تو also spell \"you\" (to).",
+          "sv": "I tal säger man تو eller توی (tu-ye): تو خونه \"hemma\". Se upp: samma bokstäver تو stavar också \"du\" (to)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "in" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to",
+      "unit": "places-travel",
+      "pos": "preposition",
+      "level": "A1",
+      "gloss": { "en": "to", "sv": "till" },
+      "senseNote": { "en": "towards a place", "sv": "mot en plats" },
+      "ckb": {
+        "primary": { "script": "بۆ", "latin": "bo" },
+        "notes": {
+          "en": "Also \"for\": بۆ تۆ \"for you\". With \"go\" and \"come\" the place can instead join the verb with -e: دەچم بۆ بازاڕ = دەچمە بازاڕ.",
+          "sv": "Betyder också \"för\": بۆ تۆ \"för dig\". Med \"gå\" och \"komma\" kan platsen i stället fogas till verbet med -e: دەچم بۆ بازاڕ = دەچمە بازاڕ."
+        },
+        "sources": [{ "source": "kim-kurdish-grammar", "ref": "Ch. 7 Prepositions" }, { "source": "thackston-sorani-grammar", "ref": "§14, §35" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "به", "latin": "be" },
+        "notes": {
+          "en": "In speech به is usually dropped after \"go\" and \"come\": می‌رم خونه \"I'm going home\".",
+          "sv": "I tal faller به oftast bort efter \"gå\" och \"komma\": می‌رم خونه \"jag går hem\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "with",
+      "unit": "places-travel",
+      "pos": "preposition",
+      "level": "A1",
+      "gloss": { "en": "with", "sv": "med" },
+      "ckb": {
+        "primary": { "script": "لەگەڵ", "latin": "legeł" },
+        "notes": {
+          "en": "You know it from خوات لەگەڵ \"goodbye\" (\"God with you\"). \"With me\" is لەگەڵ من or لەگەڵم (legełim).",
+          "sv": "Du känner igen det från خوات لەگەڵ \"hej då\" (\"Gud med dig\"). \"Med mig\" heter لەگەڵ من eller لەگەڵم (legełim)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "with" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "با", "latin": "bâ" },
+        "notes": {
+          "en": "Also \"by\" for vehicles: با اتوبوس \"by bus\", با ماشین \"by car\". با هم (bâ ham) means \"together\".",
+          "sv": "Också \"med\" om fordon: با اتوبوس \"med buss\", با ماشین \"med bil\". با هم (bâ ham) betyder \"tillsammans\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "with" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

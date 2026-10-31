@@ -1,0 +1,614 @@
+{
+  "concepts": [
+    {
+      "id": "why",
+      "unit": "conversation",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "🤔",
+      "gloss": { "en": "why", "sv": "varför" },
+      "ckb": {
+        "primary": { "script": "بۆچی", "latin": "boçî" },
+        "variants": [
+          { "script": "بۆ", "latin": "bo", "register": "colloquial", "note": { "en": "on its own: بۆ؟ \"why?\"", "sv": "ensamt: بۆ؟ \"varför?\"" } },
+          { "script": "لەبەر چی", "latin": "leber çî" }
+        ],
+        "notes": {
+          "en": "بۆ (for) + چی (what): \"what for\", built just like Swedish **varför** (för vad). Older books write it as two words, بۆ چی.",
+          "sv": "بۆ (för) + چی (vad): \"för vad\", byggt precis som svenskans **varför**. Äldre böcker skriver det som två ord, بۆ چی."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "why" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 5 Using question words" }]
+      },
+      "fa": {
+        "primary": { "script": "چرا", "latin": "cherâ" },
+        "variants": [{ "script": "برای چی", "latin": "barâye chi", "register": "colloquial" }],
+        "notes": {
+          "en": "Answering a negative question, چرا means \"yes, it is so\", exactly like Swedish **jo**: نمی‌آیی؟ چرا! \"Aren't you coming? Jo!\"",
+          "sv": "Som svar på en nekande fråga betyder چرا \"jo\", precis som svenskans **jo**: نمی‌آیی؟ چرا! \"Kommer du inte? Jo!\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "why" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "when",
+      "unit": "conversation",
+      "pos": "question-word",
+      "level": "A1",
+      "emoji": "⏰",
+      "gloss": { "en": "when", "sv": "när" },
+      "senseNote": { "en": "in questions", "sv": "i frågor" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کەی", "latin": "key" },
+        "notes": {
+          "en": "Only for questions: کەی دێیت؟ \"when are you coming?\". \"When\" in a statement (\"when I came…\") is کاتێک or کە. The same word as Persian کی (key).",
+          "sv": "Bara i frågor: کەی دێیت؟ \"när kommer du?\". \"När\" i ett påstående (\"när jag kom…\") heter کاتێک eller کە. Samma ord som persiskans کی (key)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "when" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 5 Using question words" }]
+      },
+      "fa": {
+        "primary": { "script": "کی", "latin": "key" },
+        "variants": [{ "script": "چه وقت", "latin": "che vaght", "note": { "en": "literally \"what time\", never ambiguous", "sv": "ordagrant \"vilken tid\", aldrig tvetydigt" } }],
+        "notes": {
+          "en": "Spelled exactly like کی (ki) \"who\". Only the vowel tells them apart: کی آمدی؟ (key âmadi?) \"when did you come?\" but کی آمد؟ (ki âmad?) \"who came?\".",
+          "sv": "Stavas precis som کی (ki) \"vem\". Bara vokalen skiljer dem åt: کی آمدی؟ (key âmadi?) \"när kom du?\" men کی آمد؟ (ki âmad?) \"vem kom?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "when" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "how",
+      "unit": "conversation",
+      "pos": "question-word",
+      "level": "A1",
+      "gloss": { "en": "how", "sv": "hur" },
+      "senseNote": { "en": "in what way", "sv": "på vilket sätt" },
+      "ckb": {
+        "primary": { "script": "چۆن", "latin": "çon" },
+        "notes": {
+          "en": "The same چۆن as in چۆنی؟ \"how are you?\". \"How much / how many\" is a different word: چەند.",
+          "sv": "Samma چۆن som i چۆنی؟ \"hur mår du?\". \"Hur mycket / hur många\" är ett annat ord: چەند."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "how" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 5 Using question words" }]
+      },
+      "fa": {
+        "primary": { "script": "چطور", "latin": "chetor" },
+        "variants": [
+          { "script": "چطوری", "latin": "chetori", "register": "colloquial" },
+          { "script": "چگونه", "latin": "chegune", "register": "formal" }
+        ],
+        "notes": {
+          "en": "The same چطور as in حالت چطوره؟ \"how are you?\". Books and news use چگونه (chegune); in speech it is چطور or چطوری.",
+          "sv": "Samma چطور som i حالت چطوره؟ \"hur mår du?\". Böcker och nyheter använder چگونه (chegune); i tal säger man چطور eller چطوری."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "how" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "which",
+      "unit": "conversation",
+      "pos": "question-word",
+      "level": "A1",
+      "gloss": { "en": "which", "sv": "vilken", "svAlt": ["vilket", "vilka"] },
+      "ckb": {
+        "primary": { "script": "کام", "latin": "kam" },
+        "variants": [{ "script": "کامیان", "latin": "kamyan", "note": { "en": "\"which of them, which one\", used on its own", "sv": "\"vilken av dem\", används ensamt" } }],
+        "notes": {
+          "en": "Before a noun: کام زمان؟ \"which language?\". On its own say کامیان؟ (kamyan?) \"which one?\". Don't mix it up with کەم (kem) \"little\".",
+          "sv": "Före ett substantiv: کام زمان؟ \"vilket språk?\". Ensamt säger man کامیان؟ (kamyan?) \"vilken?\". Blanda inte ihop det med کەم (kem) \"lite\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "which" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 5 Using question words" }]
+      },
+      "fa": {
+        "primary": { "script": "کدام", "latin": "kodâm" },
+        "variants": [
+          { "script": "کدوم", "latin": "kodum", "register": "colloquial" },
+          { "script": "کدام یک", "latin": "kodâm yek", "note": { "en": "\"which one\", on its own", "sv": "\"vilken\", ensamt" } }
+        ],
+        "notes": {
+          "en": "In speech â before m often becomes u: کدوم (kodum). On its own, \"which one?\" is کدوم یکی؟ (kodum yeki?).",
+          "sv": "I tal blir â före m ofta u: کدوم (kodum). Ensamt heter \"vilken?\" کدوم یکی؟ (kodum yeki?)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "which" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "because",
+      "unit": "conversation",
+      "pos": "conjunction",
+      "level": "A1",
+      "gloss": { "en": "because", "sv": "eftersom", "svAlt": ["för att", "därför att"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چونکە", "latin": "çunke" },
+        "variants": [{ "script": "لەبەر ئەوەی", "latin": "leber ewey", "note": { "en": "literally \"because of that which\"", "sv": "ordagrant \"på grund av att\"" } }],
+        "notes": {
+          "en": "چون + کە \"that\": the same word as Persian چون (chon). The answer to بۆچی؟ \"why?\" usually starts with it.",
+          "sv": "چون + کە \"att\": samma ord som persiskans چون (chon). Svaret på بۆچی؟ \"varför?\" börjar oftast med det."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "because" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 14 Subordinate conjunctions" }]
+      },
+      "fa": {
+        "primary": { "script": "چون", "latin": "chon" },
+        "variants": [
+          { "script": "چون که", "latin": "chon ke" },
+          { "script": "برای اینکه", "latin": "barâye inke", "register": "colloquial" },
+          { "script": "زیرا", "latin": "zirâ", "register": "formal" }
+        ],
+        "notes": {
+          "en": "The everyday word. Newspapers prefer زیرا (zirâ). Sorani چونکە is the same word plus کە \"that\".",
+          "sv": "Vardagsordet. Tidningar föredrar زیرا (zirâ). Soranins چونکە är samma ord plus کە \"att\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "چون" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "and",
+      "unit": "conversation",
+      "pos": "conjunction",
+      "level": "A1",
+      "emoji": "➕",
+      "gloss": { "en": "and", "sv": "och" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "و", "latin": "û" },
+        "variants": [{ "script": "وە", "latin": "we", "register": "formal", "note": { "en": "at the start of a sentence, in careful speech", "sv": "i början av en mening, i vårdat tal" } }],
+        "notes": {
+          "en": "Written as a separate letter but said together with the word before: دایک و باوک (dayk û bawk) \"mother and father\". After a vowel it sounds like w.",
+          "sv": "Skrivs som en egen bokstav men uttalas ihop med ordet före: دایک و باوک (dayk û bawk) \"mamma och pappa\". Efter en vokal låter det som w."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "and" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 14 Co-ordinate conjunctions" }]
+      },
+      "fa": {
+        "primary": { "script": "و", "latin": "va" },
+        "variants": [{ "script": "و", "latin": "o", "register": "colloquial", "note": { "en": "after a consonant in speech: پدر و مادر (pedar o mâdar)", "sv": "efter konsonant i tal: پدر و مادر (pedar o mâdar)" } }],
+        "notes": {
+          "en": "One letter, two pronunciations: va when you read carefully, o between words in speech: من و تو (man o to) \"you and me\". Sorani و is the same word.",
+          "sv": "En bokstav, två uttal: va när man läser noga, o mellan ord i tal: من و تو (man o to) \"du och jag\". Soranins و är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "و" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "but",
+      "unit": "conversation",
+      "pos": "conjunction",
+      "level": "A1",
+      "gloss": { "en": "but", "sv": "men" },
+      "ckb": {
+        "primary": { "script": "بەڵام", "latin": "bełam" },
+        "variants": [{ "script": "کەچی", "latin": "keçî", "note": { "en": "\"yet, and still\", for a surprising contrast", "sv": "\"ändå, och ändå\", för en oväntad kontrast" } }],
+        "notes": {
+          "en": "Comes first in its clause, as in English and Swedish: تێدەگەم، بەڵام قسە ناکەم \"I understand, but I don't speak\".",
+          "sv": "Står först i sin sats, som på svenska och engelska: تێدەگەم، بەڵام قسە ناکەم \"jag förstår, men jag pratar inte\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "but" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 14 Co-ordinate conjunctions" }]
+      },
+      "fa": {
+        "primary": { "script": "ولی", "latin": "vali" },
+        "variants": [{ "script": "اما", "latin": "ammâ" }],
+        "notes": {
+          "en": "ولی and اما mean the same and are both everyday words; اما sounds slightly more formal.",
+          "sv": "ولی och اما betyder samma sak och är båda vardagsord; اما låter lite mer formellt."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "or",
+      "unit": "conversation",
+      "pos": "conjunction",
+      "level": "A1",
+      "gloss": { "en": "or", "sv": "eller" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "یان", "latin": "yan" },
+        "variants": [{ "script": "یا", "latin": "ya" }],
+        "notes": {
+          "en": "Also in pairs: یان … یان \"either … or\". یا is the same word as Persian یا (yâ).",
+          "sv": "Också parvis: یان … یان \"antingen … eller\". یا är samma ord som persiskans یا (yâ)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "or" }, { "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "ch. 14 Co-ordinate conjunctions" }]
+      },
+      "fa": {
+        "primary": { "script": "یا", "latin": "yâ" },
+        "notes": {
+          "en": "Also in pairs: یا … یا \"either … or\". A question with یا offers a choice: چای یا قهوه؟ \"tea or coffee?\".",
+          "sv": "Också parvis: یا … یا \"antingen … eller\". En fråga med یا ger ett val: چای یا قهوه؟ \"te eller kaffe?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "or" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "also",
+      "unit": "conversation",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "also", "sv": "också", "enAlt": ["too", "as well"], "svAlt": ["även"] },
+      "ckb": {
+        "primary": { "script": "هەروەها", "latin": "herweha" },
+        "notes": {
+          "en": "In speech \"too\" is usually the ending ـیش (-îş, after a vowel -ş) on the word it adds: منیش (minîş) \"me too\", تۆش (toş) \"you too\". هەروەها starts a sentence: \"also, …\".",
+          "sv": "I tal är \"också\" oftast ändelsen ـیش (-îş, efter vokal -ş) på ordet det gäller: منیش (minîş) \"jag också\", تۆش (toş) \"du också\". هەروەها inleder en mening: \"dessutom …\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§11 Enclitic -îsh" }]
+      },
+      "fa": {
+        "primary": { "script": "هم", "latin": "ham" },
+        "variants": [
+          { "script": "همچنین", "latin": "hamchenin", "register": "formal" },
+          { "script": "نیز", "latin": "niz", "register": "formal" }
+        ],
+        "notes": {
+          "en": "هم comes right after the word it adds: من هم (man ham) \"me too\", in speech منم (manam). Sorani does the same with the ending ـیش: منیش.",
+          "sv": "هم står direkt efter ordet det gäller: من هم (man ham) \"jag också\", i tal منم (manam). Soranin gör likadant med ändelsen ـیش: منیش."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "also" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "maybe",
+      "unit": "conversation",
+      "pos": "adverb",
+      "level": "A1",
+      "gloss": { "en": "maybe", "sv": "kanske", "enAlt": ["perhaps"], "svAlt": ["möjligen"] },
+      "ckb": {
+        "primary": { "script": "ڕەنگە", "latin": "řenge" },
+        "variants": [{ "script": "لەوانەیە", "latin": "lewaneye" }],
+        "notes": {
+          "en": "A verb after it goes into the subjunctive (with بـ): ڕەنگە بێت \"maybe he'll come\". Alone it works as an answer: ڕەنگە. \"Maybe.\"",
+          "sv": "Ett verb efter det står i konjunktiv (med بـ): ڕەنگە بێت \"han kommer kanske\". Ensamt fungerar det som svar: ڕەنگە. \"Kanske.\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "maybe" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شاید", "latin": "shâyad" },
+        "notes": {
+          "en": "Literally \"it may be\". A verb after it goes into the subjunctive: شاید بیاید (shâyad biyâyad) \"maybe he'll come\".",
+          "sv": "Ordagrant \"det må vara\". Ett verb efter det står i konjunktiv: شاید بیاید (shâyad biyâyad) \"han kommer kanske\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "maybe" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "of-course",
+      "unit": "conversation",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "💯",
+      "gloss": { "en": "of course", "sv": "självklart", "enAlt": ["sure", "certainly"], "svAlt": ["naturligtvis", "givetvis", "så klart", "klart"] },
+      "ckb": {
+        "primary": { "script": "بێگومان", "latin": "bêguman" },
+        "variants": [{ "script": "هەڵبەت", "latin": "hełbet" }],
+        "notes": {
+          "en": "بێ (without) + گومان (doubt): \"doubtless\". بێ works like English -less and Swedish -lös.",
+          "sv": "بێ (utan) + گومان (tvivel): \"utan tvivel\". بێ fungerar som svenskans -lös."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "البته", "latin": "albatte" },
+        "variants": [{ "script": "حتماً", "latin": "hatman", "note": { "en": "\"definitely\", the usual reply to a request", "sv": "\"absolut\", det vanliga svaret på en begäran" } }],
+        "notes": {
+          "en": "Inside a sentence البته often means \"admittedly, mind you\": خوب است، البته گران است \"it's good, mind you it's expensive\". Sorani هەڵبەت is the same word.",
+          "sv": "Inne i en mening betyder البته ofta \"visserligen\": خوب است، البته گران است \"den är bra, visserligen dyr\". Soranins هەڵبەت är samma ord."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "again",
+      "unit": "conversation",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "🔁",
+      "gloss": { "en": "again", "sv": "igen", "enAlt": ["once more"], "svAlt": ["en gång till"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دووبارە", "latin": "dûbare" },
+        "variants": [
+          { "script": "دیسان", "latin": "dîsan" },
+          { "script": "جارێکی تر", "latin": "carêkî tir", "note": { "en": "\"one more time\"", "sv": "\"en gång till\"" } }
+        ],
+        "notes": {
+          "en": "دوو (two) + بارە (time): \"a second time\". Persian دوباره (dobâre) is the same word.",
+          "sv": "دوو (två) + بارە (gång): \"en andra gång\". Persiskans دوباره (dobâre) är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "again" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دوباره", "latin": "dobâre" },
+        "variants": [{ "script": "باز", "latin": "bâz", "register": "colloquial" }],
+        "notes": {
+          "en": "دو (two) + باره (time). باز also means \"open\", so in speech it is mostly \"again\" only before a verb: باز آمد \"he came again\".",
+          "sv": "دو (två) + باره (gång). باز betyder också \"öppen\", så i tal betyder det \"igen\" mest före ett verb: باز آمد \"han kom igen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "again" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "slowly",
+      "unit": "conversation",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "🐢",
+      "gloss": { "en": "slowly", "sv": "långsamt", "svAlt": ["sakta"] },
+      "ckb": {
+        "primary": { "script": "هێواش", "latin": "hêwaş" },
+        "variants": [
+          { "script": "بە هێواشی", "latin": "be hêwaşî" },
+          { "script": "لەسەرخۆ", "latin": "leserxo", "note": { "en": "\"calmly, take it easy\"", "sv": "\"lugnt, ta det lugnt\"" } }
+        ],
+        "notes": {
+          "en": "To ask someone to slow down, use the comparative: هێواشتر قسە بکە (hêwaştir qise bike) \"speak more slowly\".",
+          "sv": "För att be någon sakta ner använder man komparativ: هێواشتر قسە بکە (hêwaştir qise bike) \"prata långsammare\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "slowly" }]
+      },
+      "fa": {
+        "primary": { "script": "آهسته", "latin": "âheste" },
+        "variants": [{ "script": "یواش", "latin": "yavâsh", "register": "colloquial" }],
+        "notes": {
+          "en": "Also \"quietly\". To ask for slower speech: آهسته‌تر (âheste-tar), in speech یواش‌تر (yavâsh-tar), \"more slowly\".",
+          "sv": "Betyder också \"tyst, lågt\". För att be om långsammare tal: آهسته‌تر (âheste-tar), i tal یواش‌تر (yavâsh-tar), \"långsammare\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "slowly" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "really",
+      "unit": "conversation",
+      "pos": "adverb",
+      "level": "A1",
+      "emoji": "😮",
+      "gloss": { "en": "really", "sv": "verkligen", "enAlt": ["truly"], "svAlt": ["på riktigt", "jaså"] },
+      "ckb": {
+        "primary": { "script": "بەڕاستی", "latin": "beřastî" },
+        "notes": {
+          "en": "بە (with) + ڕاستی (truth): \"in truth\". On its own, بەڕاستی؟ is \"really?\". ڕاست \"true, right\" is the same word as Persian راست.",
+          "sv": "بە (med) + ڕاستی (sanning): \"i sanning\". Ensamt betyder بەڕاستی؟ \"verkligen?\". ڕاست \"sann, rätt\" är samma ord som persiskans راست."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "واقعاً", "latin": "vâghe'an" },
+        "variants": [{ "script": "جدی", "latin": "jeddi", "register": "colloquial", "note": { "en": "\"seriously?\" in surprise", "sv": "\"seriöst?\" av förvåning" } }],
+        "notes": {
+          "en": "Trap for Sorani speakers: at the start of a sentence, Persian راستی (râsti) usually means \"by the way\", not \"really\": راستی، کجا زندگی می‌کنی؟ \"By the way, where do you live?\"",
+          "sv": "Fälla för den som kan sorani: i början av en mening betyder persiskans راستی (râsti) oftast \"förresten\", inte \"verkligen\": راستی، کجا زندگی می‌کنی؟ \"Förresten, var bor du?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "really" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "i-dont-understand",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "😕",
+      "gloss": { "en": "I don't understand", "sv": "jag förstår inte", "enAlt": ["I do not understand"] },
+      "ckb": {
+        "primary": { "script": "تێناگەم", "latin": "tênagem" },
+        "variants": [
+          { "script": "تێنەگەیشتم", "latin": "tênegeyştim", "note": { "en": "\"I didn't understand (that)\"", "sv": "\"jag förstod inte (det)\"" } },
+          { "script": "لێت تێناگەم", "latin": "lêt tênagem", "note": { "en": "\"I don't understand you\"", "sv": "\"jag förstår dig inte\"" } }
+        ],
+        "notes": {
+          "en": "The negative نا sits inside the verb: تێ + نا + گە + م. \"I understand\" is تێدەگەم (têdegem).",
+          "sv": "Nekande نا sitter inne i verbet: تێ + نا + گە + م. \"Jag förstår\" heter تێدەگەم (têdegem)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "I don't understand" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نمی‌فهمم", "latin": "nemifahmam" },
+        "variants": [
+          { "script": "متوجه نشدم", "latin": "motevajjeh nashodam", "note": { "en": "\"I didn't catch that\", softer and very common", "sv": "\"jag uppfattade inte\", mjukare och mycket vanligt" } },
+          { "script": "نفهمیدم", "latin": "nafahmidam", "note": { "en": "\"I didn't get it\"", "sv": "\"jag fattade inte\"" } }
+        ],
+        "notes": {
+          "en": "When you didn't catch what someone said, Iranians usually say متوجه نشدم (motevajjeh nashodam) \"I didn't catch that\"; it sounds politer than نمی‌فهمم.",
+          "sv": "När man inte uppfattade vad någon sa säger iranier oftast متوجه نشدم (motevajjeh nashodam) \"jag uppfattade inte\"; det låter artigare än نمی‌فهمم."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "i-dont-know",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🤷",
+      "gloss": { "en": "I don't know", "sv": "jag vet inte", "enAlt": ["I do not know"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نازانم", "latin": "nazanim" },
+        "notes": {
+          "en": "نا (not) + زان (know) + م (I). \"I know\" is دەزانم (dezanim). زان and Persian دان are the same ancient root as English **know** and Swedish **känna**.",
+          "sv": "نا (inte) + زان (veta) + م (jag). \"Jag vet\" heter دەزانم (dezanim). زان och persiskans دان är samma urgamla rot som svenskans **känna** och engelskans **know**."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "I don't know" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نمی‌دانم", "latin": "nemidânam" },
+        "variants": [{ "script": "نمی‌دونم", "latin": "nemidunam", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech â before n becomes u: نمی‌دونم (nemidunam). Sorani نازانم is the same verb.",
+          "sv": "I tal blir â före n ett u: نمی‌دونم (nemidunam). Soranins نازانم är samma verb."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "please-repeat",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🗣️",
+      "gloss": { "en": "please say it again", "sv": "kan du säga det igen?", "enAlt": ["please repeat", "say it again"], "svAlt": ["säg det igen", "kan du upprepa?", "upprepa, tack"] },
+      "ckb": {
+        "primary": { "script": "تکایە دووبارەی بکەرەوە", "latin": "tikaye dûbarey bikerewe" },
+        "variants": [
+          { "script": "دووبارەی بکەرەوە", "latin": "dûbarey bikerewe" },
+          { "script": "دەتوانیت دووبارەی بکەیتەوە؟", "latin": "detwanît dûbarey bikeytewe?", "note": { "en": "\"could you repeat it?\"", "sv": "\"kan du upprepa det?\"" } }
+        ],
+        "notes": {
+          "en": "Literally \"please do it again\": دووبارە (again) + ی (it) + بکەرەوە (do again). In fast speech بکەرەوە is often heard as بکەوە.",
+          "sv": "Ordagrant \"var snäll och gör det igen\": دووبارە (igen) + ی (det) + بکەرەوە (gör om). I snabbt tal hörs بکەرەوە ofta som بکەوە."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§18 Verbs in -awa, §24" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "لطفاً دوباره بگویید", "latin": "lotfan dobâre beguyid" },
+        "variants": [
+          { "script": "لطفاً دوباره بگید", "latin": "lotfan dobâre begid", "register": "colloquial" },
+          { "script": "می‌شه تکرار کنید؟", "latin": "mishe tekrâr konid?", "register": "colloquial", "note": { "en": "\"could you repeat (it)?\"", "sv": "\"kan ni upprepa (det)?\"" } }
+        ],
+        "notes": {
+          "en": "Literally \"please say (it) again\", with the polite plural بگویید. In speech بگویید shrinks to بگید (begid).",
+          "sv": "Ordagrant \"säg (det) igen, tack\", med artigt plural بگویید. I tal krymper بگویید till بگید (begid)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "what-does-it-mean",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "📖",
+      "gloss": { "en": "what does it mean?", "sv": "vad betyder det?", "enAlt": ["what does that mean?", "what does this mean?"], "svAlt": ["vad betyder det här?"] },
+      "ckb": {
+        "primary": { "script": "مانای چییە؟", "latin": "manay çîye?" },
+        "variants": [{ "script": "واتای چییە؟", "latin": "watay çîye?", "note": { "en": "واتا is the native Kurdish word for \"meaning\", common in writing", "sv": "واتا är det inhemska kurdiska ordet för \"betydelse\", vanligt i skrift" } }],
+        "notes": {
+          "en": "Literally \"its meaning is what?\": مانا (meaning) + ی (its) + چییە (what is). Put the word first: ئەمە مانای چییە؟ \"what does this mean?\".",
+          "sv": "Ordagrant \"dess betydelse är vad?\": مانا (betydelse) + ی (dess) + چییە (vad är). Sätt ordet först: ئەمە مانای چییە؟ \"vad betyder det här?\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "یعنی چه؟", "latin": "ya'ni che?" },
+        "variants": [
+          { "script": "یعنی چی؟", "latin": "ya'ni chi?", "register": "colloquial" },
+          { "script": "معنی آن چیست؟", "latin": "ma'ni-ye ân chist?", "register": "formal" }
+        ],
+        "notes": {
+          "en": "یعنی (ya'ni) is \"that is, it means\". Put the word first: این یعنی چی؟ \"what does this mean?\". Said with an indignant tone, یعنی چه؟! means \"what's that supposed to mean?!\".",
+          "sv": "یعنی (ya'ni) betyder \"det vill säga, det betyder\". Sätt ordet först: این یعنی چی؟ \"vad betyder det här?\". Sagt med upprörd ton betyder یعنی چه؟! \"vad ska det betyda?!\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "how-do-you-say",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🗨️",
+      "gloss": { "en": "how do you say ...?", "sv": "hur säger man ...?", "enAlt": ["how do you say it?", "how do you say that?"], "svAlt": ["hur säger man det?"] },
+      "ckb": {
+        "primary": { "script": "چۆن دەڵێن؟", "latin": "çon dełên?" },
+        "variants": [
+          { "script": "بە کوردی چۆن دەڵێن؟", "latin": "be kurdî çon dełên?", "note": { "en": "\"how do you say (it) in Kurdish?\"", "sv": "\"hur säger man (det) på kurdiska?\"" } },
+          { "script": "چۆن دەڵێیت؟", "latin": "çon dełêyt?", "note": { "en": "to one person: \"how do you say?\"", "sv": "till en person: \"hur säger du?\"" } }
+        ],
+        "notes": {
+          "en": "Literally \"how do they say?\": چۆن (how) + دەڵێن (they say). The word you ask about goes first: ئەمە چۆن دەڵێن؟ \"how do you say this?\".",
+          "sv": "Ordagrant \"hur säger de?\": چۆن (hur) + دەڵێن (de säger). Ordet man frågar om kommer först: ئەمە چۆن دەڵێن؟ \"hur säger man det här?\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "چطور می‌گویند؟", "latin": "chetor miguyand?" },
+        "variants": [
+          { "script": "چی می‌گن؟", "latin": "chi migan?", "register": "colloquial", "note": { "en": "\"what do they call (it)?\"", "sv": "\"vad kallar man (det)?\"" } },
+          { "script": "به فارسی چی می‌شه؟", "latin": "be fârsi chi mishe?", "register": "colloquial", "note": { "en": "\"what is it in Persian?\", the most common way to ask", "sv": "\"vad blir det på persiska?\", det vanligaste sättet att fråga" } }
+        ],
+        "notes": {
+          "en": "Literally \"how do they say?\". In speech Iranians mostly ask \"what\" instead of \"how\": به فارسی چی می‌گن؟ \"what do you call it in Persian?\".",
+          "sv": "Ordagrant \"hur säger de?\". I tal frågar iranier oftast \"vad\" i stället för \"hur\": به فارسی چی می‌گن؟ \"vad heter det på persiska?\"."
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "excuse-me",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🙋",
+      "gloss": { "en": "excuse me", "sv": "ursäkta mig", "enAlt": ["pardon me"], "svAlt": ["ursäkta"] },
+      "senseNote": { "en": "polite, to get attention", "sv": "artigt, för att få uppmärksamhet" },
+      "ckb": {
+        "primary": { "script": "ببوورن", "latin": "bibûrin" },
+        "variants": [{ "script": "ببورن", "latin": "biburin" }],
+        "notes": {
+          "en": "The plural of ببوورە \"sorry\". Use it to a group, or to a stranger to sound polite: ببوورن، بە ئینگلیزی قسە دەکەن؟ \"Excuse me, do you speak English?\". Persian does the same: its ببخشید is also a plural.",
+          "sv": "Plural av ببوورە \"förlåt\". Används till en grupp, eller till en främling för att låta artig: ببوورن، بە ئینگلیزی قسە دەکەن؟ \"Ursäkta, pratar ni engelska?\". Persiskan gör likadant: dess ببخشید är också plural."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lets-go",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🏃",
+      "gloss": { "en": "let's go", "sv": "nu går vi", "enAlt": ["let us go"], "svAlt": ["vi går", "kom så går vi"] },
+      "ckb": {
+        "primary": { "script": "با بڕۆین", "latin": "ba biřoyn" },
+        "variants": [{ "script": "بڕۆین", "latin": "biřoyn" }],
+        "notes": {
+          "en": "با \"let\" + بڕۆین \"we go\" (subjunctive of ڕۆیشتن). With any verb: با بخۆین \"let's eat\".",
+          "sv": "با \"låt\" + بڕۆین \"vi går\" (konjunktiv av ڕۆیشتن). Med vilket verb som helst: با بخۆین \"nu äter vi\"."
+        },
+        "sources": [{ "source": "thackston-sorani-grammar", "ref": "§19 Present subjunctive (cohortative)" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "برویم", "latin": "beravim" },
+        "variants": [
+          { "script": "بریم", "latin": "berim", "register": "colloquial" },
+          { "script": "بیا بریم", "latin": "biyâ berim", "register": "colloquial", "note": { "en": "\"come on, let's go\"", "sv": "\"kom, nu går vi\"" } }
+        ],
+        "notes": {
+          "en": "No word for \"let\" is needed: the subjunctive برویم alone means \"let's go\". In speech it is بریم (berim).",
+          "sv": "Inget ord för \"låt\" behövs: konjunktiven برویم betyder ensam \"nu går vi\". I tal säger man بریم (berim)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "let's go" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "see-you-later",
+      "unit": "conversation",
+      "pos": "phrase",
+      "level": "A1",
+      "emoji": "🔜",
+      "gloss": { "en": "see you later", "sv": "vi ses", "enAlt": ["see you"], "svAlt": ["vi ses senare", "ses"] },
+      "ckb": {
+        "primary": { "script": "دواتر دەتبینمەوە", "latin": "dwatir detbînimewe" },
+        "variants": [
+          { "script": "دوایی دەتبینمەوە", "latin": "dwayî detbînimewe" },
+          { "script": "دەتبینمەوە", "latin": "detbînimewe" }
+        ],
+        "notes": {
+          "en": "Literally \"later I'll see you again\": دە (present) + ت (you) + بین (see) + م (I) + ەوە (again). The \"you\" sits inside the verb.",
+          "sv": "Ordagrant \"senare ser jag dig igen\": دە (presens) + ت (dig) + بین (se) + م (jag) + ەوە (igen). \"Dig\" sitter inne i verbet."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "بعداً می‌بینمت", "latin": "ba'dan mibinamet" },
+        "variants": [
+          { "script": "فعلاً", "latin": "fe'lan", "register": "colloquial", "note": { "en": "literally \"for now\": the everyday Tehrani \"bye for now\"", "sv": "ordagrant \"för tillfället\": Teherans vardagliga \"hej så länge\"" } },
+          { "script": "به امید دیدار", "latin": "be omid-e didâr", "register": "formal" }
+        ],
+        "notes": {
+          "en": "بعداً (later) + می‌بینمت (I see you): the ت (-et) \"you\" is an ending on the verb, as in Sorani دەتبینمەوە.",
+          "sv": "بعداً (senare) + می‌بینمت (jag ser dig): ت (-et) \"dig\" är en ändelse på verbet, som i soranins دەتبینمەوە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "see you later" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

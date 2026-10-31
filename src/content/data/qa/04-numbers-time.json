@@ -1,0 +1,529 @@
+{
+  "items": [
+    {
+      "id": "what-time-is-it",
+      "unit": "numbers-time",
+      "level": "A1",
+      "question": { "en": "What time is it?", "sv": "Vad är klockan?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "کاتژمێر چەندە؟",
+          "latin": "katjimêr çende?",
+          "tokens": [
+            { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "چەندە؟", "latin": "çende?", "gloss": { "en": "how much is", "sv": "hur mycket är" }, "concept": "how-many", "morph": "how.many-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "کاتژمێر شەشە.",
+            "latin": "katjimêr şeşe.",
+            "tokens": [
+              { "text": "کاتژمێر", "latin": "katjimêr", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+              { "text": "شەشە.", "latin": "şeşe.", "gloss": { "en": "is six", "sv": "är sex" }, "concept": "six", "morph": "six-COP.3SG" }
+            ],
+            "translation": { "en": "It's six o'clock.", "sv": "Klockan är sex." }
+          },
+          { "text": "کاتژمێر {time}.", "latin": "katjimêr {time}.", "translation": { "en": "It's {time}.", "sv": "Klockan är {time}." } },
+          { "text": "سەعات {time}.", "latin": "se'at {time}.", "translation": { "en": "It's {time}.", "sv": "Klockan är {time}." } },
+          { "text": "دوو و نیوە.", "latin": "dû û nîwe.", "translation": { "en": "It's half past two.", "sv": "Den är halv tre." } }
+        ],
+        "slots": {
+          "time": [
+            { "text": "سێ", "latin": "sê", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "هەشت", "latin": "heşt", "translation": { "en": "eight", "sv": "åtta" } },
+            { "text": "دە و نیو", "latin": "de û nîw", "translation": { "en": "half past ten", "sv": "halv elva" } },
+            { "text": "پێنج و دە خولەک", "latin": "pênc û de xulek", "translation": { "en": "ten past five", "sv": "tio över fem" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "kim-kurdish-grammar", "ref": "Question words" }]
+      },
+      "fa": {
+        "question": {
+          "text": "ساعت چند است؟",
+          "latin": "sâ'at chand ast?",
+          "tokens": [
+            { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ساعت شش است.",
+            "latin": "sâ'at shesh ast.",
+            "tokens": [
+              { "text": "ساعت", "latin": "sâ'at", "gloss": { "en": "hour, o'clock", "sv": "klockan" }, "concept": "hour" },
+              { "text": "شش", "latin": "shesh", "gloss": { "en": "six", "sv": "sex" }, "concept": "six" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "It's six o'clock.", "sv": "Klockan är sex." }
+          },
+          { "text": "ساعت {time} است.", "latin": "sâ'at {time} ast.", "translation": { "en": "It's {time}.", "sv": "Klockan är {time}." } },
+          { "text": "ساعت {time}.", "latin": "sâ'at {time}.", "translation": { "en": "It's {time}.", "sv": "Klockan är {time}." } },
+          { "text": "دو و نیمه.", "latin": "do o nime.", "translation": { "en": "It's half past two.", "sv": "Den är halv tre." } }
+        ],
+        "slots": {
+          "time": [
+            { "text": "سه", "latin": "se", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "هشت", "latin": "hasht", "translation": { "en": "eight", "sv": "åtta" } },
+            { "text": "ده و نیم", "latin": "dah o nim", "translation": { "en": "half past ten", "sv": "halv elva" } },
+            { "text": "پنج و ده دقیقه", "latin": "panj o dah daghighe", "translation": { "en": "ten past five", "sv": "tio över fem" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "what-day-is-it-today",
+      "unit": "numbers-time",
+      "level": "A1",
+      "question": { "en": "What day is it today?", "sv": "Vilken dag är det idag?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "ئەمڕۆ چ ڕۆژێکە؟",
+          "latin": "emřo çi řojêke?",
+          "tokens": [
+            { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+            { "text": "چ", "latin": "çi", "gloss": { "en": "what", "sv": "vilken" }, "concept": "what" },
+            { "text": "ڕۆژێکە؟", "latin": "řojêke?", "gloss": { "en": "a day is", "sv": "en dag är" }, "concept": "day", "morph": "day-INDF-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ئەمڕۆ شەممەیە.",
+            "latin": "emřo şemmeye.",
+            "tokens": [
+              { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+              {
+                "text": "شەممەیە.",
+                "latin": "şemmeye.",
+                "gloss": { "en": "is Saturday", "sv": "är lördag" },
+                "concept": "saturday",
+                "morph": "Saturday-COP.3SG"
+              }
+            ],
+            "translation": { "en": "Today is Saturday.", "sv": "Idag är det lördag." }
+          },
+          { "text": "ئەمڕۆ {day}یە.", "latin": "emřo {day}ye.", "translation": { "en": "Today is {day}.", "sv": "Idag är det {day}." } },
+          { "text": "{day}یە.", "latin": "{day}ye.", "translation": { "en": "It's {day}.", "sv": "Det är {day}." } }
+        ],
+        "slots": {
+          "day": [
+            { "text": "یەکشەممە", "latin": "yekşemme", "translation": { "en": "Sunday", "sv": "söndag" } },
+            { "text": "دووشەممە", "latin": "dûşemme", "translation": { "en": "Monday", "sv": "måndag" } },
+            { "text": "چوارشەممە", "latin": "çwarşemme", "translation": { "en": "Wednesday", "sv": "onsdag" } },
+            { "text": "هەینی", "latin": "heynî", "translation": { "en": "Friday", "sv": "fredag" } }
+          ]
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "امروز چه روزی است؟",
+          "latin": "emruz che ruzi ast?",
+          "tokens": [
+            { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+            { "text": "چه", "latin": "che", "gloss": { "en": "what", "sv": "vilken" }, "concept": "what" },
+            { "text": "روزی", "latin": "ruzi", "gloss": { "en": "a day", "sv": "en dag" }, "concept": "day", "morph": "day-INDF" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "امروز شنبه است.",
+            "latin": "emruz shanbe ast.",
+            "tokens": [
+              { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+              { "text": "شنبه", "latin": "shanbe", "gloss": { "en": "Saturday", "sv": "lördag" }, "concept": "saturday" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "Today is Saturday.", "sv": "Idag är det lördag." }
+          },
+          { "text": "امروز {day} است.", "latin": "emruz {day} ast.", "translation": { "en": "Today is {day}.", "sv": "Idag är det {day}." } },
+          { "text": "{day}.", "latin": "{day}.", "translation": { "en": "{day}.", "sv": "{day}." } }
+        ],
+        "slots": {
+          "day": [
+            { "text": "یکشنبه", "latin": "yekshanbe", "translation": { "en": "Sunday", "sv": "söndag" } },
+            { "text": "دوشنبه", "latin": "doshanbe", "translation": { "en": "Monday", "sv": "måndag" } },
+            { "text": "چهارشنبه", "latin": "chahârshanbe", "translation": { "en": "Wednesday", "sv": "onsdag" } },
+            { "text": "جمعه", "latin": "jom'e", "translation": { "en": "Friday", "sv": "fredag" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "is-today-friday",
+      "unit": "numbers-time",
+      "level": "A1",
+      "question": { "en": "Is today Friday?", "sv": "Är det fredag idag?" },
+      "ckb": {
+        "question": {
+          "text": "ئەمڕۆ هەینییە؟",
+          "latin": "emřo heynîye?",
+          "tokens": [
+            { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+            { "text": "هەینییە؟", "latin": "heynîye?", "gloss": { "en": "is Friday", "sv": "är fredag" }, "concept": "friday", "morph": "Friday-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نەخێر، ئەمڕۆ پێنجشەممەیە.",
+            "latin": "nexêr, emřo pêncşemmeye.",
+            "tokens": [
+              { "text": "نەخێر،", "latin": "nexêr,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "ئەمڕۆ", "latin": "emřo", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+              {
+                "text": "پێنجشەممەیە.",
+                "latin": "pêncşemmeye.",
+                "gloss": { "en": "is Thursday", "sv": "är torsdag" },
+                "concept": "thursday",
+                "morph": "Thursday-COP.3SG"
+              }
+            ],
+            "translation": { "en": "No, today is Thursday.", "sv": "Nej, idag är det torsdag." }
+          },
+          { "text": "بەڵێ، ئەمڕۆ هەینییە.", "latin": "bełê, emřo heynîye.", "translation": { "en": "Yes, today is Friday.", "sv": "Ja, idag är det fredag." } },
+          {
+            "text": "نا، سبەی هەینییە.",
+            "latin": "na, sibey heynîye.",
+            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, i morgon är det fredag." }
+          }
+        ],
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "امروز جمعه است؟",
+          "latin": "emruz jom'e ast?",
+          "tokens": [
+            { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+            { "text": "جمعه", "latin": "jom'e", "gloss": { "en": "Friday", "sv": "fredag" }, "concept": "friday" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "نه، امروز پنجشنبه است.",
+            "latin": "na, emruz panjshanbe ast.",
+            "tokens": [
+              { "text": "نه،", "latin": "na,", "gloss": { "en": "no", "sv": "nej" }, "concept": "no" },
+              { "text": "امروز", "latin": "emruz", "gloss": { "en": "today", "sv": "idag" }, "concept": "today" },
+              { "text": "پنجشنبه", "latin": "panjshanbe", "gloss": { "en": "Thursday", "sv": "torsdag" }, "concept": "thursday" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "No, today is Thursday.", "sv": "Nej, idag är det torsdag." }
+          },
+          {
+            "text": "بله، امروز جمعه است.",
+            "latin": "bale, emruz jom'e ast.",
+            "translation": { "en": "Yes, today is Friday.", "sv": "Ja, idag är det fredag." }
+          },
+          {
+            "text": "نه، فردا جمعه است.",
+            "latin": "na, fardâ jom'e ast.",
+            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, i morgon är det fredag." }
+          },
+          {
+            "text": "نه، فردا جمعه‌ست.",
+            "latin": "na, fardâ jom'e-st.",
+            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, i morgon är det fredag." }
+          }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "how-many-days-in-a-week",
+      "unit": "numbers-time",
+      "level": "A1",
+      "question": { "en": "How many days are there in a week?", "sv": "Hur många dagar har en vecka?" },
+      "ckb": {
+        "question": {
+          "text": "هەفتەیەک چەند ڕۆژە؟",
+          "latin": "hefteyek çend řoje?",
+          "tokens": [
+            { "text": "هەفتەیەک", "latin": "hefteyek", "gloss": { "en": "a week", "sv": "en vecka" }, "concept": "week", "morph": "week-INDF" },
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "ڕۆژە؟", "latin": "řoje?", "gloss": { "en": "days is", "sv": "dagar är" }, "concept": "day", "morph": "day-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "هەفتەیەک حەوت ڕۆژە.",
+            "latin": "hefteyek ḧewt řoje.",
+            "tokens": [
+              { "text": "هەفتەیەک", "latin": "hefteyek", "gloss": { "en": "a week", "sv": "en vecka" }, "concept": "week", "morph": "week-INDF" },
+              { "text": "حەوت", "latin": "ḧewt", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+              { "text": "ڕۆژە.", "latin": "řoje.", "gloss": { "en": "days, is", "sv": "dagar, är" }, "concept": "day", "morph": "day-COP.3SG" }
+            ],
+            "translation": { "en": "A week is seven days.", "sv": "En vecka är sju dagar." }
+          },
+          { "text": "حەوت ڕۆژ.", "latin": "ḧewt řoj.", "translation": { "en": "Seven days.", "sv": "Sju dagar." } },
+          { "text": "حەوت.", "latin": "ḧewt.", "translation": { "en": "Seven.", "sv": "Sju." } }
+        ],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "question": {
+          "text": "یک هفته چند روز است؟",
+          "latin": "yek hafte chand ruz ast?",
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en" }, "concept": "one" },
+            { "text": "هفته", "latin": "hafte", "gloss": { "en": "week", "sv": "vecka" }, "concept": "week" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "روز", "latin": "ruz", "gloss": { "en": "days", "sv": "dagar" }, "concept": "day" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "یک هفته هفت روز است.",
+            "latin": "yek hafte haft ruz ast.",
+            "tokens": [
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "en" }, "concept": "one" },
+              { "text": "هفته", "latin": "hafte", "gloss": { "en": "week", "sv": "vecka" }, "concept": "week" },
+              { "text": "هفت", "latin": "haft", "gloss": { "en": "seven", "sv": "sju" }, "concept": "seven" },
+              { "text": "روز", "latin": "ruz", "gloss": { "en": "days", "sv": "dagar" }, "concept": "day" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "A week is seven days.", "sv": "En vecka är sju dagar." }
+          },
+          { "text": "هفت روز.", "latin": "haft ruz.", "translation": { "en": "Seven days.", "sv": "Sju dagar." } },
+          { "text": "هفت تا.", "latin": "haft tâ.", "translation": { "en": "Seven.", "sv": "Sju." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "how-many-months-in-a-year",
+      "unit": "numbers-time",
+      "level": "A1",
+      "question": { "en": "How many months are there in a year?", "sv": "Hur många månader har ett år?" },
+      "ckb": {
+        "question": {
+          "text": "ساڵێک چەند مانگە؟",
+          "latin": "sałêk çend mange?",
+          "tokens": [
+            { "text": "ساڵێک", "latin": "sałêk", "gloss": { "en": "a year", "sv": "ett år" }, "concept": "year", "morph": "year-INDF" },
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "مانگە؟", "latin": "mange?", "gloss": { "en": "months is", "sv": "månader är" }, "concept": "month", "morph": "month-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ساڵێک دوانزە مانگە.",
+            "latin": "sałêk dwanze mange.",
+            "tokens": [
+              { "text": "ساڵێک", "latin": "sałêk", "gloss": { "en": "a year", "sv": "ett år" }, "concept": "year", "morph": "year-INDF" },
+              { "text": "دوانزە", "latin": "dwanze", "gloss": { "en": "twelve", "sv": "tolv" }, "concept": "twelve" },
+              { "text": "مانگە.", "latin": "mange.", "gloss": { "en": "months, is", "sv": "månader, är" }, "concept": "month", "morph": "month-COP.3SG" }
+            ],
+            "translation": { "en": "A year is twelve months.", "sv": "Ett år är tolv månader." }
+          },
+          { "text": "دوانزە مانگ.", "latin": "dwanze mang.", "translation": { "en": "Twelve months.", "sv": "Tolv månader." } },
+          { "text": "دوازدە مانگ.", "latin": "dwazde mang.", "translation": { "en": "Twelve months.", "sv": "Tolv månader." } }
+        ],
+        "sources": [{ "source": "author" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
+      },
+      "fa": {
+        "question": {
+          "text": "یک سال چند ماه است؟",
+          "latin": "yek sâl chand mâh ast?",
+          "tokens": [
+            { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "ett" }, "concept": "one" },
+            { "text": "سال", "latin": "sâl", "gloss": { "en": "year", "sv": "år" }, "concept": "year" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "ماه", "latin": "mâh", "gloss": { "en": "months", "sv": "månader" }, "concept": "month" },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "یک سال دوازده ماه است.",
+            "latin": "yek sâl davâzdah mâh ast.",
+            "tokens": [
+              { "text": "یک", "latin": "yek", "gloss": { "en": "a, one", "sv": "ett" }, "concept": "one" },
+              { "text": "سال", "latin": "sâl", "gloss": { "en": "year", "sv": "år" }, "concept": "year" },
+              { "text": "دوازده", "latin": "davâzdah", "gloss": { "en": "twelve", "sv": "tolv" }, "concept": "twelve" },
+              { "text": "ماه", "latin": "mâh", "gloss": { "en": "months", "sv": "månader" }, "concept": "month" },
+              { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+            ],
+            "translation": { "en": "A year is twelve months.", "sv": "Ett år är tolv månader." }
+          },
+          { "text": "دوازده ماه.", "latin": "davâzdah mâh.", "translation": { "en": "Twelve months.", "sv": "Tolv månader." } }
+        ],
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "how-many-people-in-your-family",
+      "unit": "numbers-time",
+      "level": "A2",
+      "question": { "en": "How many people are there in your family?", "sv": "Hur många är ni i familjen?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "خێزانەکەت چەند کەسە؟",
+          "latin": "xêzaneket çend kese?",
+          "tokens": [
+            { "text": "خێزانەکەت", "latin": "xêzaneket", "gloss": { "en": "your family", "sv": "din familj" }, "concept": "family", "morph": "family-DEF-2SG" },
+            { "text": "چەند", "latin": "çend", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "کەسە؟", "latin": "kese?", "gloss": { "en": "people is", "sv": "personer är" }, "morph": "person-COP.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ئێمە پێنج کەسین.",
+            "latin": "ême pênc kesîn.",
+            "tokens": [
+              { "text": "ئێمە", "latin": "ême", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+              { "text": "پێنج", "latin": "pênc", "gloss": { "en": "five", "sv": "fem" }, "concept": "five" },
+              { "text": "کەسین.", "latin": "kesîn.", "gloss": { "en": "people, we are", "sv": "personer, vi är" }, "morph": "person-COP.1PL" }
+            ],
+            "translation": { "en": "We are five.", "sv": "Vi är fem." }
+          },
+          { "text": "ئێمە {count} کەسین.", "latin": "ême {count} kesîn.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
+          { "text": "{count} کەسین.", "latin": "{count} kesîn.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
+          { "text": "{count} کەس.", "latin": "{count} kes.", "translation": { "en": "{count} people.", "sv": "{count} personer." } }
+        ],
+        "slots": {
+          "count": [
+            { "text": "سێ", "latin": "sê", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چوار", "latin": "çwar", "translation": { "en": "four", "sv": "fyra" } },
+            { "text": "شەش", "latin": "şeş", "translation": { "en": "six", "sv": "sex" } },
+            { "text": "حەوت", "latin": "ḧewt", "translation": { "en": "seven", "sv": "sju" } }
+          ]
+        },
+        "sources": [{ "source": "author" }, { "source": "kim-kurdish-grammar", "ref": "Common classifiers" }]
+      },
+      "fa": {
+        "question": {
+          "text": "خانواده‌تان چند نفر است؟",
+          "latin": "khânevâde-tân chand nafar ast?",
+          "tokens": [
+            { "text": "خانواده‌تان", "latin": "khânevâde-tân", "gloss": { "en": "your family", "sv": "er familj" }, "concept": "family", "morph": "family-2PL" },
+            { "text": "چند", "latin": "chand", "gloss": { "en": "how many", "sv": "hur många" }, "concept": "how-many" },
+            { "text": "نفر", "latin": "nafar", "gloss": { "en": "people", "sv": "personer" } },
+            { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "ما پنج نفریم.",
+            "latin": "mâ panj nafarim.",
+            "tokens": [
+              { "text": "ما", "latin": "mâ", "gloss": { "en": "we", "sv": "vi" }, "concept": "we" },
+              { "text": "پنج", "latin": "panj", "gloss": { "en": "five", "sv": "fem" }, "concept": "five" },
+              { "text": "نفریم.", "latin": "nafarim.", "gloss": { "en": "people, we are", "sv": "personer, vi är" }, "morph": "person-COP.1PL" }
+            ],
+            "translation": { "en": "We are five.", "sv": "Vi är fem." }
+          },
+          { "text": "ما {count} نفریم.", "latin": "mâ {count} nafarim.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
+          { "text": "{count} نفریم.", "latin": "{count} nafarim.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
+          { "text": "{count} نفر.", "latin": "{count} nafar.", "translation": { "en": "{count} people.", "sv": "{count} personer." } }
+        ],
+        "slots": {
+          "count": [
+            { "text": "سه", "latin": "se", "translation": { "en": "three", "sv": "tre" } },
+            { "text": "چهار", "latin": "chahâr", "translation": { "en": "four", "sv": "fyra" } },
+            { "text": "شش", "latin": "shesh", "translation": { "en": "six", "sv": "sex" } },
+            { "text": "هفت", "latin": "haft", "translation": { "en": "seven", "sv": "sju" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "where-are-you-tomorrow",
+      "unit": "numbers-time",
+      "level": "A1",
+      "question": { "en": "Where are you tomorrow?", "sv": "Var är du imorgon?" },
+      "personal": true,
+      "ckb": {
+        "question": {
+          "text": "سبەی لە کوێیت؟",
+          "latin": "sibey le kwêyt?",
+          "tokens": [
+            { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+            { "text": "لە", "latin": "le", "gloss": { "en": "in", "sv": "i" } },
+            { "text": "کوێیت؟", "latin": "kwêyt?", "gloss": { "en": "where are you", "sv": "var är du" }, "concept": "where", "morph": "where-COP.2SG" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "سبەی لێرەم.",
+            "latin": "sibey lêrem.",
+            "tokens": [
+              { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+              { "text": "لێرەم.", "latin": "lêrem.", "gloss": { "en": "I'm here", "sv": "jag är här" }, "concept": "here", "morph": "in.here-COP.1SG" }
+            ],
+            "translation": { "en": "I'm here tomorrow.", "sv": "I morgon är jag här." }
+          },
+          {
+            "text": "سبەی لە {place}م.",
+            "latin": "sibey le {place}im.",
+            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "I morgon är jag i {place}." }
+          },
+          { "text": "لە {place}م.", "latin": "le {place}im.", "translation": { "en": "I'm in {place}.", "sv": "Jag är i {place}." } }
+        ],
+        "slots": {
+          "place": [
+            { "text": "سلێمانی", "latin": "Silêmanî", "translation": { "en": "Sulaymaniyah", "sv": "Sulaymaniyya" } },
+            { "text": "هەولێر", "latin": "Hewlêr", "translation": { "en": "Erbil", "sv": "Erbil" } },
+            { "text": "کەرکووک", "latin": "Kerkûk", "translation": { "en": "Kirkuk", "sv": "Kirkuk" } },
+            { "text": "سوید", "latin": "Swîd", "translation": { "en": "Sweden", "sv": "Sverige" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "question": {
+          "text": "فردا کجا هستید؟",
+          "latin": "fardâ kojâ hastid?",
+          "tokens": [
+            { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+            { "text": "کجا", "latin": "kojâ", "gloss": { "en": "where", "sv": "var" }, "concept": "where" },
+            { "text": "هستید؟", "latin": "hastid?", "gloss": { "en": "are you", "sv": "är ni" }, "concept": "to-be", "morph": "be.PRS-2PL" }
+          ]
+        },
+        "answers": [
+          {
+            "text": "فردا اینجا هستم.",
+            "latin": "fardâ injâ hastam.",
+            "tokens": [
+              { "text": "فردا", "latin": "fardâ", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
+              { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
+              { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "I am", "sv": "jag är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
+            ],
+            "translation": { "en": "I'm here tomorrow.", "sv": "I morgon är jag här." }
+          },
+          {
+            "text": "فردا در {place} هستم.",
+            "latin": "fardâ dar {place} hastam.",
+            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "I morgon är jag i {place}." }
+          },
+          {
+            "text": "فردا {place} هستم.",
+            "latin": "fardâ {place} hastam.",
+            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "I morgon är jag i {place}." }
+          },
+          { "text": "{place}.", "latin": "{place}.", "translation": { "en": "{place}.", "sv": "{place}." } }
+        ],
+        "slots": {
+          "place": [
+            { "text": "تهران", "latin": "Tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } },
+            { "text": "سوئد", "latin": "Su'ed", "translation": { "en": "Sweden", "sv": "Sverige" } },
+            { "text": "استکهلم", "latin": "Estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } },
+            { "text": "خانه", "latin": "khâne", "translation": { "en": "home", "sv": "hemma" } }
+          ]
+        },
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}

@@ -45,6 +45,7 @@ hello, goodbye, thank-you, thanks-a-lot, please, yes, no, how-are-you, good, i-a
 | woman | woman |
 | friend | friend |
 | nice-to-meet-you | nice to meet you |
+| native-of | from (a place), a native of |
 
 ### 3. family
 
@@ -160,6 +161,7 @@ hello, goodbye, thank-you, thanks-a-lot, please, yes, no, how-are-you, good, i-a
 | usually | usually |
 | early | early |
 | late | late |
+| apartment | apartment |
 
 ### 7. places-travel
 
@@ -219,6 +221,9 @@ hello, goodbye, thank-you, thanks-a-lot, please, yes, no, how-are-you, good, i-a
 | expensive | expensive |
 | clean | clean |
 | dirty | dirty |
+| color | color |
+| weather | weather |
+| better | better |
 
 ### 9. actions
 

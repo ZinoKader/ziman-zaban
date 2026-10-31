@@ -156,7 +156,8 @@ Never `x`, `q`, or `c` without `h`.
   "ckb": {
     "question": { "text": "ناوت چییە؟", "latin": "nawit çiye?", "tokens": [...] },
     "answers": [
-      { "text": "ناوم {name}ە.", "latin": "nawim {name}e.", "translation": { "en": "My name is {name}.", "sv": "Jag heter {name}." }, "tokens": [...] }
+      { "text": "ناوم ئاراسە.", "latin": "nawim Arase.", "translation": { "en": "My name is Aras.", "sv": "Jag heter Aras." }, "tokens": [...] },
+      { "text": "ناوم {name}ە.", "latin": "nawim {name}e.", "translation": { "en": "My name is {name}.", "sv": "Jag heter {name}." } }
     ],
     "slots": { "name": [{ "text": "ئاراس", "latin": "Aras", "translation": { "en": "Aras", "sv": "Aras" } }] },
     "sources": [{ "source": "author" }]
