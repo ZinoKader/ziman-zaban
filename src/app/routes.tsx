@@ -11,6 +11,8 @@ import { SettingsPage } from '@/features/settings/settings-page'
 import { WordsPage } from '@/features/words/words-page'
 import { AppLayout } from './layout'
 
+const basename = import.meta.env.BASE_URL.replace(/\/+$/, '') || '/'
+
 export const router = createBrowserRouter([
   {
     element: <AppLayout />,
@@ -30,4 +32,4 @@ export const router = createBrowserRouter([
       { path: '*', element: <HomePage /> },
     ],
   },
-])
+], { basename })
