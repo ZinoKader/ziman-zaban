@@ -2,6 +2,7 @@ import type { TargetLang } from '@/content/types'
 import { cn } from '@/lib/utils'
 import type { Tile } from '../options'
 import { responseStrings } from '../strings'
+import { useShowScript } from '@/components/script-toggle'
 
 interface TileBuilderProps {
   lang: TargetLang
@@ -22,6 +23,7 @@ function TileButton({ tile, lang, showLatin, onClick, disabled, label, className
   label: string
   className?: string
 }) {
+  const showScript = useShowScript()
   return (
     <button
       type="button"
@@ -40,9 +42,11 @@ function TileButton({ tile, lang, showLatin, onClick, disabled, label, className
           <span lang={`${lang}-Latn`} className="text-lg font-semibold leading-snug">
             {tile.latin}
           </span>
-          <span dir="rtl" lang={lang} className="font-script text-sm leading-snug text-foreground/70">
-            {tile.text}
-          </span>
+          {showScript && (
+            <span dir="rtl" lang={lang} className="font-script text-sm leading-snug text-foreground/70">
+              {tile.text}
+            </span>
+          )}
         </>
       ) : (
         <span dir="rtl" lang={lang} className="font-script text-xl leading-snug">

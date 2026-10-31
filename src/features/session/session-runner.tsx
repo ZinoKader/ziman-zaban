@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils'
 import { useProgress } from '@/store/progress'
 import { SessionSummary, type SessionStats } from './session-summary'
 import type { ExerciseProps, ExerciseResult } from './types'
+import { ScriptToggle } from '@/components/script-toggle'
 
 /** A missed item comes back after this many other items (spaced within the session). */
 const RELEARN_GAP = 4
@@ -91,9 +92,10 @@ export function SessionRunner({ skill, lang, queue, Exercise, onExit, onRestart 
           <X />
         </Button>
         <Progress value={(completed / Math.max(uniqueTotal, 1)) * 100} className={cn('h-3 flex-1', MODULE_COLOR[skill])} />
-        <span className="w-16 text-end text-sm tabular-nums text-muted-foreground">
+        <span className="text-end text-sm tabular-nums text-muted-foreground">
           {s.session.progress(completed, uniqueTotal)}
         </span>
+        <ScriptToggle />
       </div>
       <Exercise key={`${turn.item.key}#${index}`} item={turn.item} lang={lang} attempt={turn.attempt} onDone={handleDone} />
     </div>

@@ -1,6 +1,7 @@
 import type { TargetLang } from '@/content/types'
 import { cn } from '@/lib/utils'
 import { stripPunct } from './logic'
+import { useShowScript } from '@/components/script-toggle'
 
 export type TileState = 'idle' | 'placed' | 'used' | 'correct' | 'misplaced' | 'wrong'
 
@@ -44,6 +45,7 @@ interface WordTileProps {
 
 /** A raised, pressable word tile for the word bank and the answer line. */
 export function WordTile({ lang, text, latin, showLatin, state, shortcut, label, onClick, className }: WordTileProps) {
+  const showScript = useShowScript()
   const interactive = !!onClick && (state === 'idle' || state === 'placed')
   return (
     <button
@@ -67,9 +69,11 @@ export function WordTile({ lang, text, latin, showLatin, state, shortcut, label,
           <span dir="ltr" lang={`${lang}-Latn`} className="text-lg font-semibold leading-snug sm:text-xl">
             {stripPunct(latin)}
           </span>
-          <span dir="rtl" lang={lang} className="font-script text-sm leading-snug text-foreground/70">
-            {stripPunct(text)}
-          </span>
+          {showScript && (
+            <span dir="rtl" lang={lang} className="font-script text-sm leading-snug text-foreground/70">
+              {stripPunct(text)}
+            </span>
+          )}
         </span>
       ) : (
         <span dir="rtl" lang={lang} className={cn('font-script text-xl font-medium leading-snug sm:text-2xl', state === 'used' && 'invisible')}>

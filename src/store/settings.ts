@@ -13,6 +13,8 @@ export interface Settings {
   baseLang: BaseLang
   targetLang: TargetLang
   romanization: RomanizationMode
+  /** Show the Arabic script under the romanization. Off by default; learners open it when they want it. */
+  showScript: boolean
   /** Show the same word in the other target language on word cards. */
   compare: boolean
   /** Preferred input for typed answers. Both are always accepted. */
@@ -32,6 +34,7 @@ export const DEFAULT_SETTINGS: Settings = {
   baseLang: 'en',
   targetLang: 'ckb',
   romanization: 'always',
+  showScript: false,
   compare: true,
   answerScript: 'latin',
   newPerSession: 6,

@@ -1,5 +1,5 @@
 import { Link2 } from 'lucide-react'
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { evidenceFor } from '@/content'
 import type { Concept, Form, TargetLang } from '@/content/types'
 import { defineStrings, useLocalize } from '@/i18n'
@@ -7,32 +7,47 @@ import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
 import { useSettings } from '@/store/settings'
 import { EvidenceBadge } from './evidence-badge'
+import { useShowScript } from './script-toggle'
 import { TargetText } from './target-text'
 
 const strings = defineStrings({
   en: {
     also: 'Also:',
+    otherForms: (n: number) => (n === 1 ? '1 other way to say it' : `${n} other ways to say it`),
     plural: 'Plural',
     inOther: { ckb: 'In Sorani', fa: 'In Persian' },
     cognate: 'Related words',
   },
   sv: {
     also: 'Även:',
+    otherForms: (n: number) => (n === 1 ? '1 annat sätt att säga det' : `${n} andra sätt att säga det`),
     plural: 'Plural',
     inOther: { ckb: 'På sorani', fa: 'På persiska' },
     cognate: 'Besläktade ord',
   },
 })
 
-/** Other accepted forms on one small, muted line: "Also: mersi مرسی spoken · mamnunam ممنونم". */
+/** Other accepted forms, folded away behind a small link: "2 other ways to say it". */
 export function AlsoLine({ forms, lang, className }: { forms: Form[]; lang: TargetLang; className?: string }) {
   const s = strings.use()
   const c = common.use()
   const romanization = useSettings((st) => st.romanization)
+  const showScript = useShowScript()
+  const [open, setOpen] = useState(false)
   if (!forms.length) return null
   const latin = romanization === 'always'
+  if (!open)
+    return (
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className={cn('self-center rounded-md px-1.5 py-0.5 text-xs text-muted-foreground/80 transition hover:bg-muted hover:text-foreground', className)}
+      >
+        + {s.otherForms(forms.length)}
+      </button>
+    )
   return (
-    <p className={cn('text-sm leading-relaxed text-muted-foreground text-balance', className)}>
+    <p className={cn('text-xs leading-relaxed text-muted-foreground text-balance', className)}>
       <span className="me-1">{s.also}</span>
       {forms.map((f, i) => (
         <Fragment key={f.script}>
@@ -43,10 +58,12 @@ export function AlsoLine({ forms, lang, className }: { forms: Form[]; lang: Targ
                 {f.latin}
               </span>
             )}
-            <span dir="rtl" lang={lang} className={cn('font-script', !latin && 'text-foreground/80')}>
-              {f.script}
-            </span>
-            {f.register && f.register !== 'neutral' && <span className="text-xs italic">{c.register[f.register]}</span>}
+            {(!latin || showScript) && (
+              <span dir="rtl" lang={lang} className={cn('font-script', !latin && 'text-foreground/80')}>
+                {f.script}
+              </span>
+            )}
+            {f.register && f.register !== 'neutral' && <span className="italic">{c.register[f.register]}</span>}
           </span>
         </Fragment>
       ))}
@@ -67,6 +84,7 @@ export function WordExtras({ concept, lang, className }: { concept: Concept; lan
   const s = strings.use()
   const l = useLocalize()
   const compare = useSettings((st) => st.compare)
+  const showScript = useShowScript()
   const entry = concept[lang]
   if (!entry || !hasWordExtras(concept, lang, compare)) return null
   const other: TargetLang = lang === 'ckb' ? 'fa' : 'ckb'
@@ -83,9 +101,11 @@ export function WordExtras({ concept, lang, className }: { concept: Concept; lan
               <span lang={`${lang}-Latn`} className="font-medium text-foreground/80">
                 {v.latin}
               </span>{' '}
-              <span dir="rtl" lang={lang} className="font-script">
-                {v.script}
-              </span>
+              {showScript && (
+                <span dir="rtl" lang={lang} className="font-script">
+                  {v.script}
+                </span>
+              )}
               : {l(v.note!)}
             </li>
           ))}

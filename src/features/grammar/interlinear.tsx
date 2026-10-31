@@ -4,6 +4,7 @@ import type { Localized, TargetLang, Token } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { useSettings } from '@/store/settings'
 import { grammarStrings } from './strings'
+import { useShowScript } from '@/components/script-toggle'
 
 /** A Leipzig-style gloss such as `DUR-eat.PRS-3PL`, with the grammatical labels explained on hover. */
 export function MorphGloss({ morph }: { morph: string }) {
@@ -28,6 +29,7 @@ export function MorphGloss({ morph }: { morph: string }) {
 export function Interlinear({ tokens, lang }: { tokens: Token[]; lang: TargetLang }) {
   const l = useLocalize()
   const romanization = useSettings((st) => st.romanization)
+  const showScript = useShowScript()
   return (
     <ol dir={romanization === 'never' ? 'rtl' : 'ltr'} className="flex flex-wrap justify-start gap-x-5 gap-y-3">
       {tokens.map((t, i) => (
@@ -41,9 +43,11 @@ export function Interlinear({ tokens, lang }: { tokens: Token[]; lang: TargetLan
               <span dir="ltr" lang={`${lang}-Latn`} className="text-sm font-semibold">
                 {t.latin}
               </span>
-              <span lang={lang} className="font-script text-sm leading-[1.6] text-foreground/75">
-                {t.text}
-              </span>
+              {showScript && (
+                <span lang={lang} className="font-script text-sm leading-[1.6] text-foreground/75">
+                  {t.text}
+                </span>
+              )}
             </>
           )}
           <span dir="ltr" className="text-xs font-medium">

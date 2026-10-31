@@ -1,15 +1,11 @@
 import type { Concept } from '@/content/types'
 import { useLocalize } from '@/i18n'
-import { useSettings } from '@/store/settings'
 import { recallStrings } from '../strings'
 
 /** The meaning to recall, in the learner's language. Never shows the target word. */
 export function RecallPrompt({ concept }: { concept: Concept }) {
   const s = recallStrings.use()
   const l = useLocalize()
-  const baseLang = useSettings((st) => st.baseLang)
-  // A sense note says best which meaning is meant; a synonym is only a fallback hint.
-  const alt = concept.senseNote ? undefined : (baseLang === 'sv' ? concept.gloss.svAlt : concept.gloss.enAlt)?.[0]
   return (
     <div className="flex min-h-40 flex-col items-center justify-center gap-2 rounded-3xl border bg-card px-4 py-7 text-center shadow-sm">
       {concept.emoji && (
@@ -26,14 +22,6 @@ export function RecallPrompt({ concept }: { concept: Concept }) {
           <>
             <span aria-hidden>·</span>
             <span className="text-sm">{l(concept.senseNote)}</span>
-          </>
-        )}
-        {alt && (
-          <>
-            <span aria-hidden>·</span>
-            <span>
-              {s.alsoGloss} {alt}
-            </span>
           </>
         )}
       </p>

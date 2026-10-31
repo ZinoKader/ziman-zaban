@@ -165,6 +165,11 @@ export function SettingsPage() {
           <Row label={s.romanization} hint={s.romanizationHint}>
             <Choice k="romanization" options={s.romanizationOptions} />
           </Row>
+          {settings.romanization === 'always' && (
+            <Row label={s.showScript} hint={s.showScriptHint}>
+              <Switch checked={settings.showScript} onCheckedChange={(v) => settings.set({ showScript: v })} />
+            </Row>
+          )}
           <Row label={s.answerScript}>
             <Choice k="answerScript" options={s.answerScriptOptions} />
           </Row>

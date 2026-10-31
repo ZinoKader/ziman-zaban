@@ -49,7 +49,7 @@ function correctIndex(answers: string[]) {
 }
 
 beforeEach(() => {
-  useSettings.setState({ baseLang: 'en', romanization: 'always', answerScript: 'latin', autoplayAudio: true })
+  useSettings.setState({ baseLang: 'en', romanization: 'always', showScript: true, answerScript: 'latin', autoplayAudio: true })
   usePersonal.setState({ values: {} })
   vi.mocked(speak).mockClear()
   vi.mocked(useVoice).mockReturnValue(undefined)

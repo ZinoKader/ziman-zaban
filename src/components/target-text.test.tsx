@@ -21,10 +21,23 @@ function lines(container: HTMLElement) {
 
 const setMode = (romanization: RomanizationMode) => useSettings.setState({ romanization })
 
-beforeEach(() => setMode('always'))
+beforeEach(() => useSettings.setState({ romanization: 'always', showScript: false }))
 
 describe('TargetText', () => {
-  it('always: the romanization leads and the script sits under it, right to left', () => {
+  it('always: only the romanization by default, with a link to show the script', () => {
+    const { container } = renderText({ size: 'xl' })
+    expect(lines(container)).toEqual(['primary:supas'])
+    fireEvent.click(screen.getByRole('button', { name: 'Show Arabic script' }))
+    expect(lines(container)).toEqual(['primary:supas', 'secondary:سوپاس'])
+  })
+
+  it('small text has no per-item link and follows the setting', () => {
+    renderText({ size: 'sm' })
+    expect(screen.queryByRole('button', { name: 'Show Arabic script' })).not.toBeInTheDocument()
+  })
+
+  it('always, with the script switched on: the romanization leads and the script sits under it, right to left', () => {
+    useSettings.setState({ showScript: true })
     const { container } = renderText()
     expect(lines(container)).toEqual(['primary:supas', 'secondary:سوپاس'])
     const script = screen.getByText('سوپاس')
@@ -35,6 +48,7 @@ describe('TargetText', () => {
   })
 
   it('keeps the audio button on the leading line', () => {
+    useSettings.setState({ showScript: true })
     renderText()
     const line = screen.getByRole('button', { name: /pronunciation|voice/i }).closest('div')
     expect(line).toContainElement(screen.getByText('supas'))

@@ -4,6 +4,7 @@ import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
 import { useSettings, type RomanizationMode } from '@/store/settings'
 import { AudioButton } from './audio-button'
+import { RevealScriptButton, useShowScript } from './script-toggle'
 
 /** The leading line, whichever script it is in. */
 const SIZES = {
@@ -31,6 +32,9 @@ const LATIN_SECONDARY = {
   xl: 'text-lg',
   '2xl': 'text-xl',
 } as const
+
+/** Sizes big enough to carry their own "show script" link; smaller text follows the global setting only. */
+const BIG = new Set<keyof typeof SIZES>(['lg', 'xl', '2xl'])
 
 export type TargetTextLead = 'latin' | 'script'
 
@@ -71,6 +75,8 @@ export function TargetText({
   const setting = useSettings((s) => s.romanization)
   const mode = romanization ?? setting
   const [revealed, setRevealed] = useState(false)
+  const [scriptOpen, setScriptOpen] = useState(false)
+  const showScript = useShowScript()
   const s = common.use()
 
   const latinShown = !!latin && (mode === 'always' || (mode === 'tap' && revealed))
@@ -111,7 +117,11 @@ export function TargetText({
         {latinLeads ? romanized(true) : script(true)}
         {audio && <AudioButton lang={lang} text={text} url={audioUrl} autoPlay={autoPlay} />}
       </div>
-      {latinShown && (latinLeads ? script(false) : romanized(false))}
+      {latinShown && !latinLeads && romanized(false)}
+      {latinLeads && (showScript || scriptOpen) && script(false)}
+      {latinLeads && !showScript && !scriptOpen && BIG.has(size) && (
+        <RevealScriptButton onClick={() => setScriptOpen(true)} />
+      )}
       {latin && mode === 'tap' && !revealed && (
         <button
           type="button"

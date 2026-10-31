@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils'
 import { useSettings, type RomanizationMode } from '@/store/settings'
 import { morphLabels, stripPunct } from './logic'
 import { constructionStrings } from './strings'
+import { useShowScript } from '@/components/script-toggle'
 
 export function expandLabel(label: string, abbr: Record<string, string>): string | undefined {
   const pn = /^([123])(SG|PL)$/.exec(label)
@@ -51,6 +52,7 @@ export function SentenceBreakdown({ lang, tokens, highlight = [], romanization, 
   const l = useLocalize()
   const setting = useSettings((st) => st.romanization)
   const showLatin = (romanization ?? (setting === 'never' ? 'never' : 'always')) !== 'never'
+  const showScript = useShowScript()
   const labels = [...new Set(tokens.flatMap((t) => (t.morph ? morphLabels(t.morph) : [])))]
   const expanded = labels.map((lb) => [lb, expandLabel(lb, s.abbr)] as const).filter(([, e]) => !!e)
 
@@ -70,9 +72,11 @@ export function SentenceBreakdown({ lang, tokens, highlight = [], romanization, 
                 <span dir="ltr" lang={`${lang}-Latn`} className="text-base font-semibold">
                   {stripPunct(t.latin)}
                 </span>
-                <span dir="rtl" lang={lang} className="font-script text-base leading-snug text-foreground/75">
-                  {stripPunct(t.text)}
-                </span>
+                {showScript && (
+                  <span dir="rtl" lang={lang} className="font-script text-base leading-snug text-foreground/75">
+                    {stripPunct(t.text)}
+                  </span>
+                )}
               </>
             ) : (
               <span dir="rtl" lang={lang} className="font-script text-xl font-medium">

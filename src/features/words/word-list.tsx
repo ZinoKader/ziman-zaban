@@ -8,6 +8,7 @@ import type { RomanizationMode } from '@/store/settings'
 import { StrengthDots } from './strength-dots'
 import { wordsStrings } from './strings'
 import type { WordStrength } from './word-progress'
+import { useShowScript } from '@/components/script-toggle'
 
 interface RowProps {
   concept: Concept
@@ -22,6 +23,7 @@ interface RowProps {
 
 const WordRow = memo(function WordRow({ concept, lang, baseLang, compare, romanization, strength, selected, to }: RowProps) {
   const entry = concept[lang]!
+  const showScript = useShowScript()
   const other: TargetLang = lang === 'ckb' ? 'fa' : 'ckb'
   const otherEntry = compare ? concept[other] : undefined
   const audioUrl = entry.audio?.[0]?.url ?? evidenceFor('concept', lang, concept.id).audio
@@ -50,9 +52,11 @@ const WordRow = memo(function WordRow({ concept, lang, baseLang, compare, romani
               <span lang={`${lang}-Latn`} className="max-w-full truncate text-base font-semibold leading-snug">
                 {entry.primary.latin}
               </span>
-              <span dir="rtl" lang={lang} className="font-script text-sm leading-normal text-foreground/70">
-                {entry.primary.script}
-              </span>
+              {showScript && (
+                <span dir="rtl" lang={lang} className="font-script text-sm leading-normal text-foreground/70">
+                  {entry.primary.script}
+                </span>
+              )}
             </>
           )}
         </span>
@@ -66,9 +70,11 @@ const WordRow = memo(function WordRow({ concept, lang, baseLang, compare, romani
           {otherEntry && (
             <span className="flex items-baseline gap-1.5 truncate text-xs text-muted-foreground">
               {romanization !== 'never' && <span lang={`${other}-Latn`}>{otherEntry.primary.latin}</span>}
-              <span lang={other} dir="rtl" className="font-script text-sm text-foreground/80">
-                {otherEntry.primary.script}
-              </span>
+              {(showScript || romanization === 'never') && (
+                <span lang={other} dir="rtl" className="font-script text-sm text-foreground/80">
+                  {otherEntry.primary.script}
+                </span>
+              )}
             </span>
           )}
         </span>

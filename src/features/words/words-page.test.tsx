@@ -29,7 +29,7 @@ globalThis.ResizeObserver ??= class {
 }
 
 beforeEach(() => {
-  useSettings.setState({ baseLang: 'en', targetLang: 'ckb', compare: true, romanization: 'always', autoplayAudio: false })
+  useSettings.setState({ baseLang: 'en', targetLang: 'ckb', compare: true, showScript: true, romanization: 'always', autoplayAudio: false })
   useProgress.setState({ cards: {}, log: [], days: {}, reports: [] })
 })
 

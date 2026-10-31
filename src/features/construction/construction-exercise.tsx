@@ -36,6 +36,7 @@ import {
 import { SentenceBreakdown } from './sentence-breakdown'
 import { constructionStrings } from './strings'
 import { WordTile } from './word-tile'
+import { useShowScript } from '@/components/script-toggle'
 
 interface Result {
   grade: MatchGrade
@@ -176,7 +177,6 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
           <p className="text-center text-xl font-semibold text-balance">{l(sentence.translation)}</p>
           <div className="space-y-2">
             <TargetText lang={lang} text={form.text} latin={form.latin} size="lg" audio audioUrl={audioUrl} autoPlay />
-            {form.colloquial && <SpokenLine lang={lang} colloquial={form.colloquial} />}
           </div>
           <SentenceBreakdown lang={lang} tokens={form.tokens} />
           {!!form.grammar?.length && <GrammarChips ids={form.grammar} />}
@@ -336,6 +336,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
           detailsLabel={c.feedback.more.sentence}
           details={
             <>
+              {form.colloquial && <SpokenLine lang={lang} colloquial={form.colloquial} />}
               {!!form.alternatives?.length && (
                 <div className="space-y-0.5">
                   {form.alternatives.map((a) => (
@@ -375,7 +376,6 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
             {result.grade !== 'exact' && <p className="text-center text-xs font-medium text-muted-foreground">{c.feedback.expected}</p>}
             <TargetText lang={lang} text={form.text} latin={form.latin} size="md" audio audioUrl={audioUrl} autoPlay romanization="always" />
             <p className="text-center text-muted-foreground">{l(sentence.translation)}</p>
-            {form.colloquial && <SpokenLine lang={lang} colloquial={form.colloquial} />}
           </div>
         </FeedbackPanel>
       )}
@@ -386,6 +386,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
 /** A spoken form or another accepted version, as a small aside that never competes with the sentence itself. */
 function AsideLine({ label, title, lang, text, latin }: { label: string; title?: string; lang: TargetLang; text: string; latin: string }) {
   const romanization = useSettings((st) => st.romanization)
+  const showScript = useShowScript()
   return (
     <p className="flex flex-wrap items-center justify-center gap-x-1.5 text-sm text-muted-foreground" title={title}>
       <span>{label}</span>
@@ -395,9 +396,11 @@ function AsideLine({ label, title, lang, text, latin }: { label: string; title?:
           {latin}
         </span>
       )}
-      <span dir="rtl" lang={lang} className="font-script">
-        {text}
-      </span>
+      {showScript && (
+        <span dir="rtl" lang={lang} className="font-script">
+          {text}
+        </span>
+      )}
       <AudioButton lang={lang} text={text} className="size-7 [&_svg]:size-3.5" />
     </p>
   )

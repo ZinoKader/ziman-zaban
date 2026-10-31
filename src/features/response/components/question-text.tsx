@@ -6,6 +6,7 @@ import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
 import { useSettings, type RomanizationMode } from '@/store/settings'
+import { useShowScript } from '@/components/script-toggle'
 
 interface QuestionTextProps {
   lang: TargetLang
@@ -28,6 +29,7 @@ export function QuestionText({ lang, text, latin, tokens, audioUrl, romanization
   const [revealed, setRevealed] = useState(false)
   const c = common.use()
   const latinShown = mode === 'always' || (mode === 'tap' && revealed)
+  const showScript = useShowScript()
   const latinLeads = latinShown && setting !== 'never'
 
   const words = (which: 'latin' | 'script') =>
@@ -80,9 +82,11 @@ export function QuestionText({ lang, text, latin, tokens, audioUrl, romanization
       </div>
       {latinShown &&
         (latinLeads ? (
-          <p dir="rtl" lang={lang} className="font-script text-xl leading-[1.7] text-foreground/75 sm:text-2xl">
-            {text}
-          </p>
+          showScript && (
+            <p dir="rtl" lang={lang} className="font-script text-xl leading-[1.7] text-foreground/75 sm:text-2xl">
+              {text}
+            </p>
+          )
         ) : (
           <span lang={`${lang}-Latn`} className="text-base font-medium tracking-wide text-muted-foreground">
             {latin}
