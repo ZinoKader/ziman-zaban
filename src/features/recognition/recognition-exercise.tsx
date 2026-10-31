@@ -61,6 +61,7 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   const [typed, setTyped] = useState('')
   const [grade, setGrade] = useState<MatchGrade>('wrong')
   const shownAt = useRef(Date.now())
+  const answeredAfter = useRef(0)
 
   const options = useMemo(() => {
     const known = new Set(
@@ -82,6 +83,7 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   }, [phase, mode, lang, entry.primary.script, audioUrl])
 
   const finish = (g: MatchGrade) => {
+    answeredAfter.current = Date.now() - shownAt.current
     setGrade(g)
     setPhase('feedback')
   }
@@ -112,7 +114,7 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   }
 
   const complete = () => {
-    const ms = Date.now() - shownAt.current
+    const ms = answeredAfter.current
     let g = gradeOutcome({ match: grade, hintsUsed: 0, attempts: 1, responseMs: ms, fastMs: mode === 'typed' ? 5000 : 2500 })
     // Picking from options overestimates knowledge, so multiple choice never earns "Easy".
     if (mode === 'mc' && g === Rating.Easy) g = Rating.Good
