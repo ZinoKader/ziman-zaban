@@ -37,7 +37,10 @@ interface SessionRunnerProps {
   lang: TargetLang
   queue: Candidate[]
   Exercise: React.ComponentType<ExerciseProps>
+  /** Ends the session early. */
   onExit: () => void
+  /** The summary's "Back to home". */
+  onHome: () => void
   onRestart: () => void
 }
 
@@ -47,7 +50,7 @@ interface SessionRunnerProps {
  * later, so a word answered correctly twice in a session graduates (counts as learned)
  * the same day instead of waiting for a later session.
  */
-export function SessionRunner({ skill, lang, queue, Exercise, onExit, onRestart }: SessionRunnerProps) {
+export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, onRestart }: SessionRunnerProps) {
   const s = common.use()
   const record = useProgress((st) => st.record)
   const [turns, setTurns] = useState<Turn[]>(() => queue.map((item) => ({ item, attempt: 0, repeat: 0 })))
@@ -105,7 +108,7 @@ export function SessionRunner({ skill, lang, queue, Exercise, onExit, onRestart 
   }
 
   if (stats) {
-    return <SessionSummary skill={skill} stats={stats} empty={queue.length === 0} onRestart={onRestart} onExit={onExit} />
+    return <SessionSummary skill={skill} stats={stats} empty={queue.length === 0} onRestart={onRestart} onExit={onHome} />
   }
 
   const turn = turns[index]

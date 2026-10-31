@@ -28,6 +28,7 @@ function Session({ skill, slug, lang }: { skill: Skill; slug: string; lang: Targ
       queue={queue}
       Exercise={EXERCISES[skill]}
       onExit={() => navigate(`/learn/${slug}`)}
+      onHome={() => navigate('/')}
       onRestart={restart}
     />
   )

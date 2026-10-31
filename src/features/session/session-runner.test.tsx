@@ -38,11 +38,11 @@ function fakeExercise(grade: (itemId: string, showing: number) => Grade, shown: 
   }
 }
 
-function renderRunner(queue: Candidate[], Exercise: React.ComponentType<ExerciseProps>) {
+function renderRunner(queue: Candidate[], Exercise: React.ComponentType<ExerciseProps>, onHome = () => {}) {
   return render(
     <MemoryRouter>
       <TooltipProvider>
-        <SessionRunner skill="recognition" lang="ckb" queue={queue} Exercise={Exercise} onExit={() => {}} onRestart={() => {}} />
+        <SessionRunner skill="recognition" lang="ckb" queue={queue} Exercise={Exercise} onExit={() => {}} onHome={onHome} onRestart={() => {}} />
       </TooltipProvider>
     </MemoryRouter>,
   )
@@ -89,6 +89,14 @@ describe('SessionRunner', () => {
     expect(summaryRow('Words learned')).not.toHaveTextContent('in progress')
     expect(screen.getByText('+6 words learned')).toBeInTheDocument()
     expect(screen.getByText('100%')).toBeInTheDocument()
+  })
+
+  it('goes home from the summary', () => {
+    const onHome = vi.fn()
+    renderRunner(firstSession().slice(0, 1), fakeExercise(() => Rating.Easy, []), onHome)
+    answerAll()
+    fireEvent.click(screen.getByRole('button', { name: 'Back to home' }))
+    expect(onHome).toHaveBeenCalledOnce()
   })
 
   it('shows the same numbers on the home page straight after the session', () => {
