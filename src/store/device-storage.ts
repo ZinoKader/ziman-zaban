@@ -25,7 +25,44 @@ export interface DeviceStorage extends StateStorage {
   ready: Promise<void>
   meta: () => StorageMeta
   updateMeta: (patch: StorageMeta) => Promise<void>
+  /** The stored value, without the first-read migration `getItem` does. */
+  read: (name: string) => Promise<string | null>
+  /** Calls `listener` with the keys of every write that reached the device. */
+  onSaved: (listener: (names: string[]) => void) => () => void
+  /** A write of `name` is queued or in flight. */
+  isWriting: (name: string) => boolean
+  /** Runs `fn` with writes ignored: for applying state that was just read from the device. */
+  quietly: (fn: () => void) => void
 }
+
+/** Shared by the database storage and its localStorage fallback. */
+interface Hooks {
+  saved: Set<(names: string[]) => void>
+  muted: number
+}
+
+function newHooks(): Hooks {
+  return { saved: new Set(), muted: 0 }
+}
+
+function hookApi(hooks: Hooks) {
+  return {
+    onSaved: (listener: (names: string[]) => void) => {
+      hooks.saved.add(listener)
+      return () => void hooks.saved.delete(listener)
+    },
+    quietly: (fn: () => void) => {
+      hooks.muted++
+      try {
+        fn()
+      } finally {
+        hooks.muted--
+      }
+    },
+  }
+}
+
+const emitSaved = (hooks: Hooks, names: string[]) => hooks.saved.forEach((l) => l(names))
 
 export interface DeviceStorageOptions {
   backend: KVBackend | null
@@ -116,7 +153,7 @@ function attempt<T>(fn: () => T): T | null {
  * Synchronous storage over localStorage (or memory). Used when IndexedDB is missing,
  * and as the fallback when it fails. Being synchronous keeps hydration instant there.
  */
-function syncStorage(store: Storage, status: SaveStatusStore, now: () => Date): DeviceStorage {
+function syncStorage(store: Storage, status: SaveStatusStore, now: () => Date, hooks = newHooks()): DeviceStorage {
   let meta = parseMeta(attempt(() => store.getItem(META_KEY)))
   status.setState({ lastSavedAt: meta.lastSavedAt ?? null })
   const writeMeta = (next: StorageMeta) => {
@@ -127,13 +164,18 @@ function syncStorage(store: Storage, status: SaveStatusStore, now: () => Date): 
     ready: Promise.resolve(),
     meta: () => meta,
     updateMeta: async (patch) => void attempt(() => writeMeta({ ...meta, ...patch })),
+    ...hookApi(hooks),
+    read: async (name) => attempt(() => store.getItem(name)),
+    isWriting: () => false,
     getItem: (name) => attempt(() => store.getItem(name)),
     setItem: (name, value) => {
+      if (hooks.muted) return
       try {
         store.setItem(name, value)
         const at = now().toISOString()
         attempt(() => writeMeta({ ...meta, lastSavedAt: at }))
         status.setState((s) => ({ lastSavedAt: at, saves: s.saves + 1, failed: false }))
+        emitSaved(hooks, [name])
       } catch {
         status.setState({ failed: true })
       }
@@ -161,15 +203,16 @@ export function createDeviceStorage({
 }: DeviceStorageOptions): DeviceStorage {
   const fallbackStore = () => legacy ?? memoryStorage()
   const fallbackMedium = legacy ? 'localstorage' : 'memory'
+  const hooks = newHooks()
   if (!backend) {
     status.setState({ medium: fallbackMedium })
-    return syncStorage(fallbackStore(), status, now)
+    return syncStorage(fallbackStore(), status, now, hooks)
   }
 
   let fallback: DeviceStorage | null = null
   const toFallback = (): DeviceStorage => {
     if (!fallback) {
-      fallback = syncStorage(fallbackStore(), status, now)
+      fallback = syncStorage(fallbackStore(), status, now, hooks)
       status.setState({ medium: fallbackMedium })
     }
     return fallback
@@ -190,6 +233,7 @@ export function createDeviceStorage({
 
   const loaded = new Set<string>()
   const pending = new Map<string, string>()
+  const inFlight = new Set<string>()
   let flushing: Promise<void> | null = null
 
   const getItem = async (name: string): Promise<string | null> => {
@@ -227,13 +271,18 @@ export function createDeviceStorage({
       }
       const at = now().toISOString()
       const next = { ...meta, lastSavedAt: at }
+      const names = entries.map(([k]) => k)
+      names.forEach((k) => inFlight.add(k))
       try {
         await backend.setMany([...entries, [META_KEY, JSON.stringify(next)]])
         meta = next
         status.setState((s) => ({ lastSavedAt: at, saves: s.saves + 1, failed: false }))
+        emitSaved(hooks, names)
       } catch {
         const f = toFallback()
         for (const [k, v] of entries) f.setItem(k, v)
+      } finally {
+        names.forEach((k) => inFlight.delete(k))
       }
     }
     flushing = null
@@ -248,9 +297,19 @@ export function createDeviceStorage({
       meta = { ...meta, ...patch }
       await backend.setMany([[META_KEY, JSON.stringify(meta)]]).catch(() => toFallback().updateMeta(patch))
     },
+    ...hookApi(hooks),
+    read: async (name) => {
+      await ready
+      if (fallback) return fallback.read(name)
+      return withTimeout(backend.get(name), timeoutMs).then(
+        (v) => v ?? null,
+        () => null,
+      )
+    },
+    isWriting: (name) => pending.has(name) || inFlight.has(name),
     getItem,
     setItem: (name, value) => {
-      if (!loaded.has(name)) return
+      if (!loaded.has(name) || hooks.muted) return
       pending.set(name, value)
       flushing ??= flush()
       return flushing

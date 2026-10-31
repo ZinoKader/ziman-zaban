@@ -112,6 +112,25 @@ describe('createDeviceStorage: writes', () => {
     expect(status.getState().lastSavedAt).toBe(at)
   })
 
+  it('reports saved keys, knows when a write is pending, and can apply state without writing it', async () => {
+    const { storage, data, calls } = setup()
+    const saved = vi.fn()
+    storage.onSaved(saved)
+    await storage.getItem('zz-progress')
+    const write = storage.setItem('zz-progress', payload({ a: 1 }))
+    expect(storage.isWriting('zz-progress')).toBe(true)
+    expect(storage.isWriting('zz-settings')).toBe(false)
+    await write
+    expect(storage.isWriting('zz-progress')).toBe(false)
+    expect(saved).toHaveBeenCalledWith(['zz-progress'])
+
+    storage.quietly(() => void storage.setItem('zz-progress', payload({ a: 2 })))
+    await Promise.resolve()
+    expect(calls.setMany).toBe(1)
+    expect(await storage.read('zz-progress')).toBe(data.get('zz-progress'))
+    expect(await storage.read('missing')).toBeNull()
+  })
+
   it('falls back to localStorage when a database write fails', async () => {
     const { storage, legacy, fail, status } = setup()
     await storage.getItem('zz-settings')
@@ -145,6 +164,18 @@ describe('createDeviceStorage: unavailable database', () => {
     expect(legacy.getItem('zz-progress')).toBe('v')
     expect(storage.getItem('zz-progress')).toBe('v')
     expect(status.getState()).toMatchObject({ medium: 'localstorage', saves: 1, lastSavedAt: fixedNow().toISOString() })
+  })
+
+  it('reports saves and honours quietly() on localStorage too', () => {
+    const legacy = memoryStorage()
+    const storage = createDeviceStorage({ backend: null, legacy, status: createSaveStatusStore(), now: fixedNow })
+    const saved = vi.fn()
+    storage.onSaved(saved)
+    storage.setItem('zz-progress', 'v')
+    expect(saved).toHaveBeenCalledWith(['zz-progress'])
+    storage.quietly(() => void storage.setItem('zz-progress', 'w'))
+    expect(legacy.getItem('zz-progress')).toBe('v')
+    expect(saved).toHaveBeenCalledTimes(1)
   })
 
   it('keeps working in memory when no storage is available', () => {
