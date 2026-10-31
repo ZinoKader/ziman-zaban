@@ -76,8 +76,7 @@ export const progressStrings = defineStrings({
     saveFailed: "Couldn't save on this device. Export a backup in Settings.",
     wordsLearned: 'Words learned',
     newlyLearned: (n: number) => `+${n} word${n === 1 ? '' : 's'} learned`,
-    learnedLater:
-      'New words count as learned once they come back in a later review and you still know them.',
+    learnedLater: 'A word counts as learned once you get it right twice in a row.',
   },
   sv: {
     nav: 'Framsteg',
@@ -153,7 +152,6 @@ export const progressStrings = defineStrings({
     saveFailed: 'Kunde inte spara på enheten. Exportera en säkerhetskopia under Inställningar.',
     wordsLearned: 'Inlärda ord',
     newlyLearned: (n: number) => `+${n} ${n === 1 ? 'inlärt ord' : 'inlärda ord'}`,
-    learnedLater:
-      'Nya ord räknas som inlärda när de kommer tillbaka vid en senare repetition och du fortfarande kan dem.',
+    learnedLater: 'Ett ord räknas som inlärt när du har svarat rätt två gånger i rad.',
   },
 })

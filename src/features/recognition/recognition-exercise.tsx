@@ -55,7 +55,8 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   const audioUrl = entry.audio?.[0]?.url ?? evidenceFor('concept', lang, concept.id).audio
   const canSpeak = useCanSpeak(lang, audioUrl)
 
-  const random = useMemo(() => seededRandom(`${item.key}:${attempt}`), [item.key, attempt])
+  const seed = `${item.key}:${item.card?.reps ?? 0}:${attempt}`
+  const random = useMemo(() => seededRandom(seed), [seed])
   const [mode] = useState<Mode>(() => chooseMode(item, canSpeak, random))
   const [phase, setPhase] = useState<'intro' | 'question' | 'feedback'>(item.isNew && attempt === 0 ? 'intro' : 'question')
   const [chosen, setChosen] = useState<string | null>(null)

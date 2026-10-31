@@ -5,7 +5,7 @@ import {
   unitById,
 } from '@/content'
 import type { Concept, QAItem, Sentence, Skill, TargetLang, Token } from '@/content/types'
-import { cardKey, isDue, isLearned, retrievability, type CardKey, type StoredCard } from '@/lib/srs'
+import { cardKey, inLearningSteps, isDue, isLearned, retrievability, type CardKey, type StoredCard } from '@/lib/srs'
 
 /*
  * The four modules form a path from understanding to speaking:
@@ -135,6 +135,18 @@ export function moduleStatus(skill: Skill, lang: TargetLang, cards: Cards, now =
   return { total: items.length, unlocked, started, learned, due, available: unlocked - started }
 }
 
+/**
+ * Cards in their short learning steps (due again in minutes) are taken this far ahead
+ * of time, as Anki's default "learn ahead limit" does. Otherwise a word answered once
+ * is skipped by every session started before its step is up, and new words pile up unreviewed.
+ */
+export const LEARN_AHEAD_MS = 20 * 60_000
+
+function dueForSession(card: StoredCard, now: Date): boolean {
+  if (isDue(card, now)) return true
+  return inLearningSteps(card) && new Date(card.due).getTime() - now.getTime() <= LEARN_AHEAD_MS
+}
+
 export interface QueueOptions {
   size: number
   maxNew: number
@@ -160,7 +172,7 @@ export function buildQueue(skill: Skill, lang: TargetLang, cards: Cards, opts: Q
     const key = cardKey(lang, skill, it.id)
     const card = cards[key]
     if (card) {
-      if (isDue(card, now)) due.push({ key, itemId: it.id, isNew: false, order: it.order, card })
+      if (dueForSession(card, now)) due.push({ key, itemId: it.id, isNew: false, order: it.order, card })
     } else if (it.unlock.unlocked) {
       fresh.push({ key, itemId: it.id, isNew: true, order: it.order })
     }

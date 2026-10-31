@@ -3,6 +3,7 @@ import type { QAItem, Sentence, Token } from '@/content/types'
 import {
   buildQueue,
   conceptUnlock,
+  LEARN_AHEAD_MS,
   moduleItems,
   moduleStatus,
   qaConcepts,
@@ -229,6 +230,20 @@ describe('buildQueue', () => {
     ])
     const q = buildQueue('recognition', 'ckb', cards, { ...opts, maxNew: 0 })
     expect(q.map((c) => c.itemId)).toEqual([ids[1]])
+  })
+
+  it('takes words in their short learning steps a little ahead, so a quick second session reviews them', () => {
+    const minutesAgo = (m: number) => new Date(NOW.getTime() - m * 60_000)
+    const justMet = reviewCard(undefined, Rating.Good, minutesAgo(1))
+    expect(justMet.state).toBe(State.Learning)
+    const cards = cardsFor([
+      [['ckb', 'recognition', ids[0]], justMet],
+      [['ckb', 'recognition', ids[1]], { ...justMet, due: new Date(NOW.getTime() + LEARN_AHEAD_MS + 60_000).toISOString() }],
+      [['ckb', 'recognition', ids[2]], { ...graduated(), due: new Date(NOW.getTime() + 5 * 60_000).toISOString() }],
+    ])
+    const q = buildQueue('recognition', 'ckb', cards, { ...opts, maxNew: 1 })
+    expect(q.filter((c) => !c.isNew).map((c) => c.itemId)).toEqual([ids[0]])
+    expect(q.filter((c) => c.isNew).map((c) => c.itemId)).toEqual([ids[3]])
   })
 
   it('orders due reviews weakest first', () => {

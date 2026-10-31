@@ -1,5 +1,5 @@
 import { CircleCheck, LoaderCircle, PartyPopper, RotateCcw, Sprout, TriangleAlert } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import type { Skill } from '@/content/types'
@@ -17,6 +17,8 @@ export interface SessionStats {
   correctFirstTry: number
   newItems: number
   ms: number
+  /** `Date.now()` when the session started; reviews from then on count as this session's. */
+  startedAt: number
 }
 
 interface SessionSummaryProps {
@@ -67,7 +69,7 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
   const p = progressStrings.use()
   const lang = useSettings((st) => st.targetLang)
   const cards = useProgress((st) => st.cards)
-  const [since] = useState(() => Date.now() - stats.ms)
+  const since = stats.startedAt
   const gain = useMemo(() => sessionGain(skill, lang, cardsBefore(since, cards), cards), [skill, lang, since, cards])
 
   if (empty) {

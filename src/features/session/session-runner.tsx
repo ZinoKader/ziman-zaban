@@ -5,17 +5,17 @@ import { Progress } from '@/components/ui/progress'
 import type { Skill, TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
 import type { Candidate } from '@/lib/curriculum'
-import { Rating } from '@/lib/srs'
+import { inLearningSteps, Rating } from '@/lib/srs'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/store/progress'
 import { SessionSummary, type SessionStats } from './session-summary'
 import type { ExerciseProps, ExerciseResult } from './types'
 import { ScriptToggle } from '@/components/script-toggle'
 
-/** A missed item comes back after this many other items (spaced within the session). */
+/** An item still in its learning steps comes back after this many other items (spaced within the session). */
 const RELEARN_GAP = 4
 /** ...but at most this many extra times per session, to avoid frustration loops. */
-const MAX_RETRIES = 2
+const MAX_REPEATS = 2
 
 const MODULE_COLOR: Record<Skill, string> = {
   recognition: '[&_[data-slot=progress-indicator]]:bg-mod-recognition',
@@ -26,7 +26,10 @@ const MODULE_COLOR: Record<Skill, string> = {
 
 interface Turn {
   item: Candidate
+  /** Misses of this item earlier in the session. */
   attempt: number
+  /** Earlier showings of this item in the session. */
+  repeat: number
 }
 
 interface SessionRunnerProps {
@@ -38,14 +41,23 @@ interface SessionRunnerProps {
   onRestart: () => void
 }
 
+/*
+ * Like the learning steps of Anki/FSRS: a new or missed item is not done after one
+ * answer. While its card is still in the short-term steps it comes back a few items
+ * later, so a word answered correctly twice in a session graduates (counts as learned)
+ * the same day instead of waiting for a later session.
+ */
 export function SessionRunner({ skill, lang, queue, Exercise, onExit, onRestart }: SessionRunnerProps) {
   const s = common.use()
   const record = useProgress((st) => st.record)
-  const [turns, setTurns] = useState<Turn[]>(() => queue.map((item) => ({ item, attempt: 0 })))
+  const [turns, setTurns] = useState<Turn[]>(() => queue.map((item) => ({ item, attempt: 0, repeat: 0 })))
   const [index, setIndex] = useState(0)
-  const startedAt = useRef(Date.now())
+  const [startedAt] = useState(() => Date.now())
   const firstTry = useRef(new Map<string, boolean>())
-  const [finished, setFinished] = useState(queue.length === 0)
+  const handled = useRef(-1)
+  const [stats, setStats] = useState<SessionStats | null>(() =>
+    queue.length === 0 ? { reviewed: 0, correctFirstTry: 0, newItems: 0, ms: 0, startedAt } : null,
+  )
 
   const uniqueTotal = queue.length
   const completed = useMemo(() => {
@@ -59,28 +71,40 @@ export function SessionRunner({ skill, lang, queue, Exercise, onExit, onRestart 
   }, [index, turns])
 
   const handleDone = (result: ExerciseResult) => {
+    if (handled.current === index) return
+    handled.current = index
     const turn = turns[index]
-    record(turn.item.key, result.grade, { ms: result.ms, kind: result.kind })
+    const card = record(turn.item.key, result.grade, { ms: result.ms, kind: result.kind })
     if (!firstTry.current.has(turn.item.key)) firstTry.current.set(turn.item.key, result.grade > Rating.Again)
 
     let next = turns
-    if (result.grade === Rating.Again && turn.attempt < MAX_RETRIES) {
+    const missed = result.grade === Rating.Again
+    let at = Math.min(index + 1 + RELEARN_GAP, turns.length)
+    // Pushing the last unseen item to the very end would leave nothing to space its own repeat with.
+    if (at === turns.length - 1 && turns[at].repeat === 0) at++
+    // Seeing it again straight after the feedback only tests working memory.
+    const spaced = missed || at > index + 1
+    if (inLearningSteps(card) && turn.repeat < MAX_REPEATS && spaced) {
       next = [...turns]
-      next.splice(Math.min(index + 1 + RELEARN_GAP, next.length), 0, { item: turn.item, attempt: turn.attempt + 1 })
+      next.splice(at, 0, {
+        item: { ...turn.item, card, isNew: false },
+        attempt: turn.attempt + (missed ? 1 : 0),
+        repeat: turn.repeat + 1,
+      })
       setTurns(next)
     }
-    if (index + 1 >= next.length) setFinished(true)
-    else setIndex(index + 1)
-  }
-
-  if (finished) {
+    if (index + 1 < next.length) return setIndex(index + 1)
     const results = [...firstTry.current.values()]
-    const stats: SessionStats = {
+    setStats({
       reviewed: uniqueTotal,
       correctFirstTry: results.filter(Boolean).length,
       newItems: queue.filter((q) => q.isNew).length,
-      ms: Date.now() - startedAt.current,
-    }
+      ms: Date.now() - startedAt,
+      startedAt,
+    })
+  }
+
+  if (stats) {
     return <SessionSummary skill={skill} stats={stats} empty={queue.length === 0} onRestart={onRestart} onExit={onExit} />
   }
 

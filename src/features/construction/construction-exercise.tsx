@@ -73,6 +73,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
   const audioUrl = evidenceFor('sentence', lang, sentence.id).audio
 
   const firstExposure = !item.card && attempt === 0
+  const seed = `${item.key}:${item.card?.reps ?? 0}:${attempt}`
   const [mode] = useState<Mode>(() => (firstExposure ? 'bank' : chooseMode(item.card, attempt)))
   const [phase, setPhase] = useState<'intro' | 'question' | 'feedback'>(firstExposure ? 'intro' : 'question')
   const [placed, setPlaced] = useState<number[]>([])
@@ -82,13 +83,13 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
   const shownAt = useRef(Date.now())
 
   const tiles = useMemo(
-    () => buildTiles(sentence, lang, seededRandom(`${item.key}:${attempt}:tiles`), sentencesFor(lang)),
-    [sentence, lang, item.key, attempt],
+    () => buildTiles(sentence, lang, seededRandom(`${seed}:tiles`), sentencesFor(lang)),
+    [sentence, lang, seed],
   )
   const tileById = useMemo(() => new Map(tiles.map((t) => [t.id, t])), [tiles])
   const clozeIndex = useMemo(
-    () => pickClozeIndex(form.tokens, seededRandom(`${item.key}:${attempt}:cloze`)),
-    [form.tokens, item.key, attempt],
+    () => pickClozeIndex(form.tokens, seededRandom(`${seed}:cloze`)),
+    [form.tokens, seed],
   )
 
   useEffect(() => {

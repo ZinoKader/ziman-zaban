@@ -62,7 +62,7 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
   const questionAudio = evidenceFor('qa', lang, qa.id).audio
   const canSpeak = useCanSpeak(lang, questionAudio)
 
-  const seed = `${item.key}:${attempt}`
+  const seed = `${item.key}:${item.card?.reps ?? 0}:${attempt}`
   const [mode] = useState(() => chooseMode(item, form, attempt))
   const pool = useMemo(() => qaFor(lang), [lang])
   const options = useMemo(

@@ -89,6 +89,11 @@ export function retrievability(card: StoredCard, now: Date): number {
   return scheduler.get_retrievability(toCard(card), now, false)
 }
 
+/** Still in the short-term (re)learning steps, i.e. due again within minutes. */
+export function inLearningSteps(card: StoredCard | undefined): boolean {
+  return !!card && (card.state === State.Learning || card.state === State.Relearning)
+}
+
 /** A card has "graduated" once it left the short-term learning steps at least once. */
 export function isLearned(card: StoredCard | undefined): boolean {
   return !!card && (card.state === State.Review || (card.state === State.Relearning && card.lapses > 0))

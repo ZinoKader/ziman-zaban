@@ -138,7 +138,7 @@ describe('SessionSummary', () => {
     useProgress.getState().record(key, Rating.Easy, { ms: 1, kind: 'mc' })
     renderAt(
       '/',
-      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 0, ms: startMs }} empty={false} onRestart={() => {}} onExit={() => {}} />,
+      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 0, ms: startMs, startedAt: Date.now() - startMs }} empty={false} onRestart={() => {}} onExit={() => {}} />,
     )
     expect(screen.getByRole('status')).toHaveTextContent('Progress saved')
     expect(summaryRow('Words learned')).toHaveTextContent(`1/${total}`)
@@ -162,11 +162,11 @@ describe('SessionSummary', () => {
     record(cardKey('ckb', 'recognition', words[1].id), Rating.Good, { ms: 1, kind: 'mc' })
     renderAt(
       '/',
-      <SessionSummary skill="recognition" stats={{ reviewed: 2, correctFirstTry: 2, newItems: 2, ms: 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
+      <SessionSummary skill="recognition" stats={{ reviewed: 2, correctFirstTry: 2, newItems: 2, ms: 60_000, startedAt: Date.now() - 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
     )
     expect(summaryRow('Words learned')).toHaveTextContent(`0/${total} · 2 in progress`)
     expect(summaryRow('Recognition')).toHaveTextContent(`0/${recognition} · 2 in progress`)
-    expect(screen.getByText(/count as learned once they come back/)).toBeInTheDocument()
+    expect(screen.getByText(/counts as learned once you get it right twice/)).toBeInTheDocument()
     expect(screen.queryByText(/→/)).not.toBeInTheDocument()
 
     act(() => {
@@ -182,7 +182,7 @@ describe('SessionSummary', () => {
     useProgress.getState().record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
     renderAt(
       '/',
-      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
+      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 60_000, startedAt: Date.now() - 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
     )
     expect(summaryRow('Inlärda ord')).toHaveTextContent(`0/${total} · 1 under inlärning`)
     expect(summaryRow('Igenkänning')).toHaveTextContent(/· 1 under inlärning$/)
@@ -193,10 +193,10 @@ describe('SessionSummary', () => {
     useSaveStatus.setState({ failed: true })
     renderAt(
       '/',
-      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 5000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
+      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 5000, startedAt: Date.now() - 5000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
     )
     expect(screen.getByRole('status')).toHaveTextContent(/Couldn't save/)
-    expect(screen.getByText(/count as learned once they come back/)).toBeInTheDocument()
+    expect(screen.getByText(/counts as learned once you get it right twice/)).toBeInTheDocument()
   })
 })
 
