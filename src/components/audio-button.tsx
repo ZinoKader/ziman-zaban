@@ -4,13 +4,18 @@ import { Button } from '@/components/ui/button'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
-import { speak, useVoice } from '@/lib/audio'
+import { preloadAudio, speak, useHasClip, useVoice } from '@/lib/audio'
 import { cn } from '@/lib/utils'
 import { useSettings } from '@/store/settings'
 
-export function useCanSpeak(lang: TargetLang, url?: string): boolean {
+/**
+ * True when audio can be played for `lang`: a recording, a pre-generated clip or a browser voice.
+ * Pass `text` to check for a clip of that exact text; without it any clip for the language counts.
+ */
+export function useCanSpeak(lang: TargetLang, url?: string, text?: string): boolean {
   const voice = useVoice(lang)
-  return !!url || !!voice
+  const clip = useHasClip(lang, text)
+  return !!url || clip || !!voice
 }
 
 interface AudioButtonProps {
@@ -24,10 +29,15 @@ interface AudioButtonProps {
 
 export function AudioButton({ lang, text, url, autoPlay, size = 'sm', className }: AudioButtonProps) {
   const voice = useVoice(lang)
+  const clip = useHasClip(lang, text)
   const s = common.use()
   const autoplaySetting = useSettings((st) => st.autoplayAudio)
-  const available = !!url || !!voice
+  const available = !!url || clip || !!voice
   const played = useRef<string | null>(null)
+
+  useEffect(() => {
+    if (autoPlay || size === 'lg') preloadAudio(lang, text, url)
+  }, [autoPlay, size, lang, text, url])
 
   useEffect(() => {
     if (!autoPlay || !autoplaySetting || !available || played.current === text) return

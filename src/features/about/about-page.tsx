@@ -65,6 +65,9 @@ const SOURCES = [
   { key: 'kim', license: null, url: null },
   { key: 'vazirmatn', license: 'SIL OFL 1.1', url: 'https://github.com/rastikerdar/vazirmatn' },
   { key: 'fsrs', license: 'MIT', url: 'https://github.com/open-spaced-repetition/ts-fsrs' },
+  { key: 'azureTts', license: 'Azure AI Speech terms', url: 'https://learn.microsoft.com/azure/ai-services/speech-service/' },
+  { key: 'audio8', license: 'CC BY-NC 4.0', url: 'https://huggingface.co/ArminRahimi/Audio8-TTS-Kurdish-Sorani' },
+  { key: 'vekol', license: 'CC BY-NC 4.0', url: 'https://huggingface.co/RevgeAI/vekol-tts-ckb-edge' },
 ] as const
 
 function Section({ id, title, body, children, className }: { id: string; title: string; body?: string; children: React.ReactNode; className?: string }) {
