@@ -80,8 +80,12 @@ function DataFacts() {
   const cards = useProgress((st) => st.cards)
   const log = useProgress((st) => st.log)
   const days = useProgress((st) => st.days)
+  const daysByLang = useProgress((st) => st.daysByLang)
   const [asked, setAsked] = useState<boolean | null>(null)
-  const size = useMemo(() => new Blob([JSON.stringify({ cards, log, days })]).size, [cards, log, days])
+  const size = useMemo(
+    () => new Blob([JSON.stringify({ cards, log, days, daysByLang })]).size,
+    [cards, log, days, daysByLang],
+  )
   const protection = !persistSupported || persistent === null ? 'unknown' : persistent ? 'granted' : 'denied'
   const practised = Object.values(days).filter((d) => d.reviews > 0).length
 
@@ -207,7 +211,17 @@ export function SettingsPage() {
           <DataFacts />
         </CardContent>
         <CardContent className="flex flex-wrap gap-2 border-t pt-4">
-          <Button variant="outline" onClick={() => download('ziman-zaban-progress.json', { cards: progress.cards, log: progress.log, days: progress.days })}>
+          <Button
+            variant="outline"
+            onClick={() =>
+              download('ziman-zaban-progress.json', {
+                cards: progress.cards,
+                log: progress.log,
+                days: progress.days,
+                daysByLang: progress.daysByLang,
+              })
+            }
+          >
             <Download /> {s.export}
           </Button>
           <Button variant="outline" onClick={() => fileInput.current?.click()}>
@@ -224,7 +238,8 @@ export function SettingsPage() {
               try {
                 const data = JSON.parse(await file.text())
                 if (typeof data.cards !== 'object' || !Array.isArray(data.log)) throw new Error('bad file')
-                progress.importState({ cards: data.cards, log: data.log, days: data.days ?? {} })
+                const daysByLang = data.daysByLang && typeof data.daysByLang === 'object' ? data.daysByLang : undefined
+                progress.importState({ cards: data.cards, log: data.log, days: data.days ?? {}, daysByLang })
                 toast.success(s.imported)
               } catch {
                 toast.error(s.importFailed)

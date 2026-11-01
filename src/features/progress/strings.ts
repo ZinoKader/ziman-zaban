@@ -70,6 +70,10 @@ export const progressStrings = defineStrings({
       due: 'Due now',
       days: 'Days practised',
     },
+    scope: {
+      label: 'Show stats for',
+      all: 'Both',
+    },
 
     progressSaved: 'Progress saved',
     saving: 'Saving…',
@@ -145,6 +149,10 @@ export const progressStrings = defineStrings({
       today: 'Repetitioner idag',
       due: 'Att repetera nu',
       days: 'Dagar med övning',
+    },
+    scope: {
+      label: 'Visa statistik för',
+      all: 'Båda',
     },
 
     progressSaved: 'Framstegen är sparade',

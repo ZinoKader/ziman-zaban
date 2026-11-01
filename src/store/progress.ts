@@ -27,18 +27,52 @@ export interface ContentReport {
   message: string
 }
 
+export type DaysByLang = Partial<Record<TargetLang, Record<string, DayStats>>>
+
 interface ProgressState {
   cards: Partial<Record<CardKey, StoredCard>>
   log: ReviewEntry[]
+  /** Both languages together; kept for days older than the review log reaches. */
   days: Record<string, DayStats>
+  daysByLang: DaysByLang
   reports: ContentReport[]
   record: (key: CardKey, grade: Grade, meta: { ms: number; kind: string; now?: Date }) => StoredCard
   report: (key: string, message: string) => void
   resetLanguage: (lang: TargetLang) => void
-  importState: (s: Pick<ProgressState, 'cards' | 'log' | 'days'>) => void
+  importState: (s: Pick<ProgressState, 'cards' | 'log' | 'days'> & { daysByLang?: DaysByLang }) => void
 }
 
 const MAX_LOG = 5000
+const MAX_MS = 120_000
+
+const EMPTY_DAY: DayStats = { reviews: 0, correct: 0, newItems: 0, ms: 0 }
+
+function addReview(d: DayStats | undefined, grade: Grade, ms: number, isNew: boolean): DayStats {
+  const prev = d ?? EMPTY_DAY
+  return {
+    reviews: prev.reviews + 1,
+    correct: prev.correct + (grade > 1 ? 1 : 0),
+    newItems: prev.newItems + (isNew ? 1 : 0),
+    ms: prev.ms + Math.min(ms, MAX_MS),
+  }
+}
+
+/**
+ * Per-language day stats rebuilt from the review log, for progress saved before they were
+ * recorded separately. Days older than the log (it keeps the last 5,000 reviews) are missing.
+ */
+export function daysByLangFromLog(log: ReviewEntry[]): DaysByLang {
+  const out: DaysByLang = {}
+  const seen = new Set<CardKey>()
+  for (const e of log) {
+    const lang = parseCardKey(e.key).lang
+    const day = dayKey(new Date(e.at))
+    const byDay = (out[lang] ??= {})
+    byDay[day] = addReview(byDay[day], e.grade, e.ms, !seen.has(e.key))
+    seen.add(e.key)
+  }
+  return out
+}
 
 export function dayKey(d: Date): string {
   const y = d.getFullYear()
@@ -84,6 +118,7 @@ export const useProgress = create<ProgressState>()(
       cards: {},
       log: [],
       days: {},
+      daysByLang: {},
       reports: [],
       record: (key, grade, { ms, kind, now = new Date() }) => {
         const prev = get().cards[key]
@@ -91,20 +126,14 @@ export const useProgress = create<ProgressState>()(
         const day = dayKey(now)
         journal.push({ key, prev, at: now.getTime() })
         if (journal.length > MAX_JOURNAL) journal.splice(0, journal.length - MAX_JOURNAL)
+        const lang = parseCardKey(key).lang
         set((s) => {
-          const d = s.days[day] ?? { reviews: 0, correct: 0, newItems: 0, ms: 0 }
+          const byDay = s.daysByLang[lang] ?? {}
           return {
             cards: { ...s.cards, [key]: card },
             log: [...s.log, { key, grade, at: now.toISOString(), ms, kind }].slice(-MAX_LOG),
-            days: {
-              ...s.days,
-              [day]: {
-                reviews: d.reviews + 1,
-                correct: d.correct + (grade > 1 ? 1 : 0),
-                newItems: d.newItems + (prev ? 0 : 1),
-                ms: d.ms + Math.min(ms, 120_000),
-              },
-            },
+            days: { ...s.days, [day]: addReview(s.days[day], grade, ms, !prev) },
+            daysByLang: { ...s.daysByLang, [lang]: { ...byDay, [day]: addReview(byDay[day], grade, ms, !prev) } },
           }
         })
         return card
@@ -117,16 +146,31 @@ export const useProgress = create<ProgressState>()(
             Object.entries(s.cards).filter(([k]) => parseCardKey(k as CardKey).lang !== lang),
           ),
           log: s.log.filter((e) => parseCardKey(e.key).lang !== lang),
+          daysByLang: Object.fromEntries(Object.entries(s.daysByLang).filter(([l]) => l !== lang)),
         })),
-      importState: ({ cards, log, days }) => set({ cards, log, days }),
+      importState: ({ cards, log, days, daysByLang }) =>
+        set({ cards, log, days, daysByLang: daysByLang ?? daysByLangFromLog(log) }),
     }),
     {
       name: 'zz-progress',
-      version: 1,
+      version: 2,
       storage: createJSONStorage(() => deviceStorage),
+      migrate: (persisted, version) => {
+        const s = persisted as Partial<ProgressState>
+        if (version < 2 && !s.daysByLang) s.daysByLang = daysByLangFromLog(s.log ?? [])
+        return s as ProgressState
+      },
     },
   ),
 )
+
+export type StatsScope = TargetLang | 'all'
+
+/** Day stats for one language, or for both together. */
+export function scopedDays(s: Pick<ProgressState, 'days' | 'daysByLang'>, scope: StatsScope): Record<string, DayStats> {
+  return scope === 'all' ? s.days : (s.daysByLang[scope] ?? NO_DAYS)
+}
+const NO_DAYS: Record<string, DayStats> = {}
 
 /** Consecutive days (ending today or yesterday) with at least one review. */
 export function streak(days: Record<string, DayStats>, now = new Date()): number {

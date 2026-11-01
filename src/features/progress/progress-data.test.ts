@@ -171,7 +171,7 @@ describe('hardestWords', () => {
 })
 
 describe('sessionGain and cardsBefore', () => {
-  beforeEach(() => useProgress.setState({ cards: {}, log: [], days: {}, reports: [] }))
+  beforeEach(() => useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] }))
 
   it('reconstructs the cards before a session and finds newly learned words', () => {
     const [a, b] = words

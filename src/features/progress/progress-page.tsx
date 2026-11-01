@@ -1,14 +1,15 @@
 import { ArrowRight, CircleCheck, Flame, Lock } from 'lucide-react'
 import { useMemo } from 'react'
-import { Link } from 'react-router'
+import { Link, useSearchParams } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import type { TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
-import { dayKey, streak, useProgress } from '@/store/progress'
+import { dayKey, scopedDays, streak, useProgress, type StatsScope } from '@/store/progress'
 import { useSaveStatus } from '@/store/save-status'
 import { useSettings } from '@/store/settings'
 import { formatWhen, shortDate, weekday } from './format'
@@ -47,7 +48,7 @@ function LanguageCourse({ lang, current }: { lang: TargetLang; current: boolean 
           {current && <span className="ms-auto rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">{s.current}</span>}
         </CardTitle>
       </CardHeader>
-      <CardContent className="space-y-5">
+      <CardContent className="@container space-y-5">
         <CourseSummary lang={lang} course={course} size="md" />
         <ModuleBars modules={modules} linked={current} />
         {!current && (
@@ -144,30 +145,37 @@ function UnitRow({ p }: { p: UnitProgress }) {
   )
 }
 
+function isScope(v: string | null, langs: readonly TargetLang[]): v is StatsScope {
+  return v === 'all' ? langs.length > 1 : langs.includes(v as TargetLang)
+}
+
 export function ProgressPage() {
   const s = progressStrings.use()
-  const l = useLocalize()
+  const c = common.use()
   const lang = useSettings((st) => st.targetLang)
   const baseLang = useSettings((st) => st.baseLang)
   const cards = useProgress((st) => st.cards)
-  const days = useProgress((st) => st.days)
   const lastSavedAt = useSaveStatus((st) => st.lastSavedAt)
+  const [params, setParams] = useSearchParams()
 
   const now = useNow()
-  const today = dayKey(now)
   const langs = useMemo(() => {
     const started = startedLanguages(cards)
     return [lang, ...started.filter((x) => x !== lang)]
   }, [cards, lang])
-  const recent = useMemo(() => activity(days, now, 14), [days, now])
-  const acc = useMemo(() => accuracy(days, now, 7), [days, now])
-  const coming = useMemo(() => forecast(cards, lang, now, 7), [cards, lang, now])
-  const perUnit = useMemo(() => unitProgress(lang, cards), [cards, lang])
-  const hardest = useMemo(() => hardestWords(cards, lang, 8), [cards, lang])
-  const due = useMemo(() => dueNow(lang, cards, now), [cards, lang, now])
-  const daysPractised = Object.values(days).filter((d) => d.reviews > 0).length
-  const recentTotal = recent.reduce((n, d) => n + d.reviews, 0)
-  const comingTotal = coming.reduce((n, d) => n + d.count, 0)
+  const requested = params.get('stats')
+  const scope: StatsScope = isScope(requested, langs) ? requested : lang
+  const scopeLangs = useMemo(() => (scope === 'all' ? langs : [scope]), [scope, langs])
+  const chooseScope = (v: string) =>
+    setParams(
+      (p) => {
+        const next = new URLSearchParams(p)
+        if (v === lang) next.delete('stats')
+        else next.set('stats', v)
+        return next
+      },
+      { replace: true },
+    )
 
   return (
     <div className="mx-auto max-w-4xl space-y-8 px-4 py-6 sm:py-10">
@@ -180,6 +188,53 @@ export function ProgressPage() {
         </p>
       </header>
 
+      {langs.length > 1 ? (
+        <Tabs value={scope} onValueChange={chooseScope} className="gap-6">
+          <TabsList aria-label={s.scope.label} className="w-full sm:w-fit">
+            {langs.map((x) => (
+              <TabsTrigger key={x} value={x} className="px-4">
+                {c.languagesShort[x]}
+              </TabsTrigger>
+            ))}
+            <TabsTrigger value="all" className="px-4">
+              {s.scope.all}
+            </TabsTrigger>
+          </TabsList>
+          <TabsContent value={scope} className="text-base">
+            <ScopedProgress scope={scope} langs={scopeLangs} />
+          </TabsContent>
+        </Tabs>
+      ) : (
+        <ScopedProgress scope={scope} langs={scopeLangs} />
+      )}
+    </div>
+  )
+}
+
+/** Everything on the progress page below the header, for one language or several together. */
+function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang[] }) {
+  const s = progressStrings.use()
+  const c = common.use()
+  const l = useLocalize()
+  const current = useSettings((st) => st.targetLang)
+  const cards = useProgress((st) => st.cards)
+  const days = useProgress((st) => scopedDays(st, scope))
+  const now = useNow()
+  const today = dayKey(now)
+  const single = langs.length === 1 ? langs[0] : null
+
+  const recent = useMemo(() => activity(days, now, 14), [days, now])
+  const acc = useMemo(() => accuracy(days, now, 7), [days, now])
+  const coming = useMemo(() => forecast(cards, langs, now, 7), [cards, langs, now])
+  const perUnit = useMemo(() => (single ? unitProgress(single, cards) : []), [cards, single])
+  const hardest = useMemo(() => hardestWords(cards, langs, 8), [cards, langs])
+  const due = useMemo(() => dueNow(langs, cards, now), [cards, langs, now])
+  const daysPractised = Object.values(days).filter((d) => d.reviews > 0).length
+  const recentTotal = recent.reduce((n, d) => n + d.reviews, 0)
+  const comingTotal = coming.reduce((n, d) => n + d.count, 0)
+
+  return (
+    <div className="space-y-8">
       <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <Stat label={s.stats.streak} value={streak(days, now)} icon={<Flame className="size-5 text-orange-500" />} />
         <Stat label={s.stats.today} value={days[today]?.reviews ?? 0} />
@@ -191,7 +246,7 @@ export function ProgressPage() {
         <h2 className="text-lg font-semibold">{s.courses}</h2>
         <div className={cn('grid gap-4', langs.length > 1 && 'md:grid-cols-2')}>
           {langs.map((x) => (
-            <LanguageCourse key={x} lang={x} current={x === lang} />
+            <LanguageCourse key={x} lang={x} current={x === current} />
           ))}
         </div>
       </section>
@@ -250,14 +305,16 @@ export function ProgressPage() {
         </CardContent>
       </Card>
 
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold">{s.units}</h2>
-        <ul className="grid gap-3 sm:grid-cols-2">
-          {perUnit.map((p) => (
-            <UnitRow key={p.unit.id} p={p} />
-          ))}
-        </ul>
-      </section>
+      {single && (
+        <section className="space-y-3">
+          <h2 className="text-lg font-semibold">{s.units}</h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {perUnit.map((p) => (
+              <UnitRow key={p.unit.id} p={p} />
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="space-y-3">
         <div>
@@ -268,10 +325,10 @@ export function ProgressPage() {
           <p className="rounded-2xl border border-dashed p-4 text-sm text-muted-foreground">{s.hardestNone}</p>
         ) : (
           <ul className="grid gap-2 sm:grid-cols-2">
-            {hardest.map(({ concept, lapses }) => {
+            {hardest.map(({ concept, lang, lapses }) => {
               const form = concept[lang]?.primary
               return (
-                <li key={concept.id}>
+                <li key={`${lang}:${concept.id}`}>
                   <Link
                     to={`/words/${concept.id}`}
                     className="flex items-center gap-3 rounded-2xl border bg-card px-4 py-3 transition hover:bg-muted/60"
@@ -279,7 +336,10 @@ export function ProgressPage() {
                     <span className="text-2xl" aria-hidden>{concept.emoji}</span>
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-lg font-semibold">{form?.latin}</span>
-                      <span className="block truncate text-sm text-muted-foreground">{l(concept.gloss)}</span>
+                      <span className="block truncate text-sm text-muted-foreground">
+                        {!single && <span className="font-medium text-foreground/70">{c.languagesShort[lang]} · </span>}
+                        {l(concept.gloss)}
+                      </span>
                     </span>
                     {form && (
                       <span lang={lang} dir="rtl" className="font-script text-lg text-muted-foreground">{form.script}</span>

@@ -61,7 +61,7 @@ const summaryRow = (title: string) => screen.getByText(title, { selector: 'span.
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', onboarded: true, autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, reports: [] })
+  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
   useSaveStatus.setState({ ...INITIAL_SAVE_STATUS })
 })
 

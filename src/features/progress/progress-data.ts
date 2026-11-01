@@ -122,14 +122,20 @@ export function accuracy(days: Record<string, DayStats>, now = new Date(), n = 7
  * Reviews falling due on each of the next `n` local days, starting today.
  * Today includes everything already overdue.
  */
-export function forecast(cards: Cards, lang: TargetLang, now = new Date(), n = 7): Array<{ day: string; date: Date; count: number }> {
+export function forecast(
+  cards: Cards,
+  lang: TargetLang | readonly TargetLang[],
+  now = new Date(),
+  n = 7,
+): Array<{ day: string; date: Date; count: number }> {
+  const langs = asList(lang)
   const out = Array.from({ length: n }, (_, i) => {
     const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() + i)
     return { day: dayKey(date), date, count: 0 }
   })
   const ends = out.map((d) => new Date(d.date.getFullYear(), d.date.getMonth(), d.date.getDate() + 1).getTime())
   for (const [k, card] of Object.entries(cards)) {
-    if (!card || parseCardKey(k as CardKey).lang !== lang) continue
+    if (!card || !langs.includes(parseCardKey(k as CardKey).lang)) continue
     const due = new Date(card.due).getTime()
     const i = ends.findIndex((end) => due < end)
     if (i >= 0) out[i].count++
@@ -139,33 +145,43 @@ export function forecast(cards: Cards, lang: TargetLang, now = new Date(), n = 7
 
 export interface HardWord {
   concept: Concept
+  lang: TargetLang
   lapses: number
   reps: number
 }
 
 /** Words forgotten most often (lapses over recognition and recall), most lapses first. */
-export function hardestWords(cards: Cards, lang: TargetLang, limit = 8): HardWord[] {
-  const byWord = new Map<string, { lapses: number; reps: number; difficulty: number }>()
+export function hardestWords(cards: Cards, lang: TargetLang | readonly TargetLang[], limit = 8): HardWord[] {
+  const langs = asList(lang)
+  const byWord = new Map<string, { lang: TargetLang; id: string; lapses: number; reps: number; difficulty: number }>()
   for (const [k, card] of Object.entries(cards)) {
     if (!card) continue
     const { lang: l, skill, itemId } = parseCardKey(k as CardKey)
-    if (l !== lang || (skill !== 'recognition' && skill !== 'recall')) continue
-    const w = byWord.get(itemId) ?? { lapses: 0, reps: 0, difficulty: 0 }
+    if (!langs.includes(l) || (skill !== 'recognition' && skill !== 'recall')) continue
+    const key = `${l}:${itemId}`
+    const w = byWord.get(key) ?? { lang: l, id: itemId, lapses: 0, reps: 0, difficulty: 0 }
     w.lapses += card.lapses
     w.reps += card.reps
     w.difficulty = Math.max(w.difficulty, card.difficulty)
-    byWord.set(itemId, w)
+    byWord.set(key, w)
   }
-  return [...byWord.entries()]
-    .filter(([id, w]) => w.lapses > 0 && conceptById.has(id))
-    .sort(([, a], [, b]) => b.lapses - a.lapses || b.difficulty - a.difficulty)
+  return [...byWord.values()]
+    .filter((w) => w.lapses > 0 && conceptById.has(w.id))
+    .sort((a, b) => b.lapses - a.lapses || b.difficulty - a.difficulty)
     .slice(0, limit)
-    .map(([id, w]) => ({ concept: conceptById.get(id)!, lapses: w.lapses, reps: w.reps }))
+    .map((w) => ({ concept: conceptById.get(w.id)!, lang: w.lang, lapses: w.lapses, reps: w.reps }))
 }
 
-/** Cards of a language due now, across all modules. */
-export function dueNow(lang: TargetLang, cards: Cards, now = new Date()): number {
-  return moduleProgress(lang, cards, now).reduce((n, m) => n + m.status.due, 0)
+/** Cards due now across all modules, in one language or several together. */
+export function dueNow(lang: TargetLang | readonly TargetLang[], cards: Cards, now = new Date()): number {
+  return asList(lang).reduce(
+    (total, l) => total + moduleProgress(l, cards, now).reduce((n, m) => n + m.status.due, 0),
+    0,
+  )
+}
+
+function asList(lang: TargetLang | readonly TargetLang[]): readonly TargetLang[] {
+  return typeof lang === 'string' ? [lang] : lang
 }
 
 export interface SessionGain {

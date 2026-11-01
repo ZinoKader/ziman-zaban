@@ -6,7 +6,7 @@ import { common } from '@/i18n/common'
 import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { moduleBySkill } from '@/features/modules'
-import { dayKey, streak, useProgress } from '@/store/progress'
+import { dayKey, scopedDays, streak, useProgress } from '@/store/progress'
 import { Meter } from './meter'
 import { courseProgress, moduleProgress, pct, type Bar, type ModuleProgress } from './progress-data'
 import { progressStrings } from './strings'
@@ -55,7 +55,7 @@ export function ModuleBars({ modules, linked = true }: { modules: ModuleProgress
   const s = progressStrings.use()
   const c = common.use()
   return (
-    <ul className="grid gap-x-6 gap-y-3 sm:grid-cols-2">
+    <ul className="grid gap-x-6 gap-y-3 @md:grid-cols-2">
       {modules.map(({ skill, status }) => {
         const meta = moduleBySkill.get(skill)!
         const Icon = meta.icon
@@ -107,7 +107,7 @@ export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
   const s = progressStrings.use()
   const c = common.use()
   const cards = useProgress((st) => st.cards)
-  const days = useProgress((st) => st.days)
+  const days = useProgress((st) => scopedDays(st, lang))
   const now = useNow()
   const course = useMemo(() => courseProgress(lang, cards), [lang, cards])
   const modules = useMemo(() => moduleProgress(lang, cards, now), [lang, cards, now])
@@ -116,7 +116,7 @@ export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
   const currentStreak = streak(days, now)
 
   return (
-    <section aria-labelledby="course-title" className="animate-pop-in space-y-5 rounded-3xl border bg-card p-5 shadow-xs sm:p-7">
+    <section aria-labelledby="course-title" className="@container animate-pop-in space-y-5 rounded-3xl border bg-card p-5 shadow-xs sm:p-7">
       <div className="flex items-start justify-between gap-3">
         <div>
           {greeting && (

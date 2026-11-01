@@ -1,11 +1,11 @@
 import { cardKey, Rating, reviewCard, State } from '@/lib/srs'
-import { dayKey, streak, useProgress, type DayStats } from './progress'
+import { dayKey, daysByLangFromLog, scopedDays, streak, useProgress, type DayStats } from './progress'
 
 const water = cardKey('ckb', 'recognition', 'water')
 const waterFa = cardKey('fa', 'recognition', 'water')
 const recallName = cardKey('ckb', 'recall', 'name')
 
-const empty = { cards: {}, log: [], days: {}, reports: [] }
+const empty = { cards: {}, log: [], days: {}, daysByLang: {}, reports: [] }
 const day = (y: number, m: number, d: number, h = 12, min = 0) => new Date(y, m - 1, d, h, min)
 
 beforeEach(() => useProgress.setState(empty))
@@ -63,6 +63,27 @@ describe('record', () => {
     record(water, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 2, 23, 59) })
     record(recallName, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 3, 0, 1) })
     expect(Object.keys(useProgress.getState().days).sort()).toEqual(['2026-03-02', '2026-03-03'])
+  })
+
+  it('keeps day stats per language as well as for both together', () => {
+    const { record } = useProgress.getState()
+    const now = day(2026, 3, 2, 9)
+    record(water, Rating.Good, { ms: 1000, kind: 'typed', now })
+    record(recallName, Rating.Again, { ms: 1000, kind: 'typed', now })
+    record(waterFa, Rating.Good, { ms: 500, kind: 'typed', now })
+    const s = useProgress.getState()
+    expect(s.days['2026-03-02']).toEqual({ reviews: 3, correct: 2, newItems: 3, ms: 2500 })
+    expect(s.daysByLang.ckb!['2026-03-02']).toEqual({ reviews: 2, correct: 1, newItems: 2, ms: 2000 })
+    expect(s.daysByLang.fa!['2026-03-02']).toEqual({ reviews: 1, correct: 1, newItems: 1, ms: 500 })
+    expect(scopedDays(s, 'fa')).toBe(s.daysByLang.fa)
+    expect(scopedDays(s, 'all')).toBe(s.days)
+    expect(streak(scopedDays(s, 'fa'), now)).toBe(1)
+  })
+
+  it('has empty stats for a language never practised', () => {
+    const a = scopedDays(useProgress.getState(), 'fa')
+    expect(a).toEqual({})
+    expect(scopedDays(useProgress.getState(), 'fa')).toBe(a)
   })
 
   // 5,003 persisted writes take several seconds on a loaded machine.
@@ -137,6 +158,34 @@ describe('export / import', () => {
     expect(afterImport).toEqual(reviewCard(cards[water], Rating.Good, later))
   })
 
+  it('rebuilds per-language stats from the log when a backup has none', () => {
+    const { record } = useProgress.getState()
+    record(water, Rating.Good, { ms: 1500, kind: 'typed', now: day(2026, 3, 2, 9) })
+    record(waterFa, Rating.Again, { ms: 2500, kind: 'typed', now: day(2026, 3, 3, 9) })
+    record(water, Rating.Good, { ms: 900, kind: 'typed', now: day(2026, 3, 3, 10) })
+    const { cards, log, days, daysByLang } = useProgress.getState()
+    expect(daysByLangFromLog(log)).toEqual(daysByLang)
+
+    useProgress.setState(empty)
+    useProgress.getState().importState({ cards, log, days })
+    expect(useProgress.getState().daysByLang).toEqual(daysByLang)
+  })
+
+  it('splits stats saved before they were kept per language', async () => {
+    const at = day(2026, 3, 2, 9)
+    const log = [
+      { key: water, grade: Rating.Good, at: at.toISOString(), ms: 1000, kind: 'typed' },
+      { key: waterFa, grade: Rating.Good, at: at.toISOString(), ms: 1000, kind: 'typed' },
+    ]
+    const days = { '2026-03-02': { reviews: 2, correct: 2, newItems: 2, ms: 2000 } }
+    localStorage.setItem('zz-progress', JSON.stringify({ state: { cards: {}, log, days, reports: [] }, version: 0 }))
+    await useProgress.persist.rehydrate()
+    const s = useProgress.getState()
+    expect(s.days).toEqual(days)
+    expect(s.daysByLang.ckb).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1000 } })
+    expect(s.daysByLang.fa).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1000 } })
+  })
+
   it('rehydrates the persisted state', async () => {
     useProgress.getState().record(water, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 2) })
     const before = useProgress.getState().cards
@@ -161,6 +210,8 @@ describe('resetLanguage', () => {
     const s = useProgress.getState()
     expect(s.cards).toEqual({ [waterFa]: faCard })
     expect(s.log.map((e) => e.key)).toEqual([waterFa])
+    expect(s.daysByLang.ckb).toBeUndefined()
+    expect(s.daysByLang.fa).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1 } })
   })
 })
 

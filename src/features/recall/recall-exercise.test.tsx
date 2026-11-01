@@ -35,7 +35,7 @@ const button = (name: RegExp | string) => screen.getByRole('button', { name })
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', answerScript: 'latin', compare: true, showScript: true, autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, reports: [] })
+  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
 })
 
 describe('RecallExercise', () => {

@@ -40,21 +40,42 @@ function seed() {
   const learning = reviewCard(undefined, Rating.Good, now)
   const k = (i: number) => cardKey('ckb', 'recognition', words[i].id)
   const yesterday = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1)
+  const days = {
+    [dayKey(now)]: { reviews: 8, correct: 6, newItems: 2, ms: 60_000 },
+    [dayKey(yesterday)]: { reviews: 12, correct: 12, newItems: 3, ms: 90_000 },
+  }
   useProgress.setState({
     cards: { [k(0)]: learned, [k(1)]: learned, [k(2)]: hard, [k(3)]: learning, [k(4)]: learning },
     log: [],
-    days: {
-      [dayKey(now)]: { reviews: 8, correct: 6, newItems: 2, ms: 60_000 },
-      [dayKey(yesterday)]: { reviews: 12, correct: 12, newItems: 3, ms: 90_000 },
-    },
+    days,
+    daysByLang: { ckb: days },
     reports: [],
   })
   return { hardWord: words[2] }
 }
 
+/** Adds a started Persian course with five reviews today, one forgotten word among them. */
+function seedPersian() {
+  const now = new Date()
+  const faWord = conceptsFor('fa')[0]
+  let forgotten = reviewCard(undefined, Rating.Easy, now)
+  forgotten = reviewCard(forgotten, Rating.Again, new Date(forgotten.due))
+  const today = { reviews: 5, correct: 4, newItems: 1, ms: 20_000 }
+  useProgress.setState((s) => {
+    const day = dayKey(now)
+    const both = s.days[day]
+    return {
+      cards: { ...s.cards, [cardKey('fa', 'recognition', faWord.id)]: forgotten },
+      days: { ...s.days, [day]: { reviews: both.reviews + 5, correct: both.correct + 4, newItems: both.newItems + 1, ms: both.ms + 20_000 } },
+      daysByLang: { ...s.daysByLang, fa: { [day]: today } },
+    }
+  })
+  return { faWord }
+}
+
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', onboarded: true, romanization: 'always', autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, reports: [] })
+  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
   useSaveStatus.setState({ ...INITIAL_SAVE_STATUS, lastSavedAt: new Date().toISOString() })
 })
 
@@ -74,6 +95,23 @@ describe('HomePage', () => {
     expect(screen.getByText('8 reviews done')).toBeInTheDocument()
     expect(screen.getByText('2-day streak')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /See all progress/ })).toHaveAttribute('href', '/progress')
+  })
+
+  it("counts only the current language's reviews and streak", () => {
+    seed()
+    seedPersian()
+    renderAt('/', <HomePage />)
+    expect(screen.getByText('8 reviews done')).toBeInTheDocument()
+    expect(screen.getByText('2-day streak')).toBeInTheDocument()
+  })
+
+  it('switches to Persian stats with the course', () => {
+    seed()
+    seedPersian()
+    useSettings.setState({ targetLang: 'fa' })
+    renderAt('/', <HomePage />)
+    expect(screen.getByText('5 reviews done')).toBeInTheDocument()
+    expect(screen.getByText('1-day streak')).toBeInTheDocument()
   })
 
   it('counts a word as due once its time comes, without leaving the page', () => {
@@ -124,13 +162,50 @@ describe('ProgressPage', () => {
     expect(within(link).getByText('forgotten 2×')).toBeInTheDocument()
   })
 
-  it('shows Persian too once it has been started', () => {
-    seed()
-    useProgress.setState((s) => ({ cards: { ...s.cards, [cardKey('fa', 'recognition', conceptsFor('fa')[0].id)]: reviewCard(undefined, Rating.Good, new Date()) } }))
+  it('shows one language at a time once both are started, and both together on their own tab', () => {
+    const { hardWord } = seed()
+    const { faWord } = seedPersian()
     renderAt('/progress', <ProgressPage />)
-    expect(screen.getByText('Persian (Farsi)')).toBeInTheDocument()
+    const tabs = screen.getByRole('tablist', { name: 'Show stats for' })
+    expect(within(tabs).getAllByRole('tab').map((t) => t.textContent)).toEqual(['Sorani', 'Farsi', 'Both'])
+    expect(screen.getByRole('tab', { name: 'Sorani' })).toHaveAttribute('aria-selected', 'true')
+    const stat = (label: string) => screen.getByText(label).previousElementSibling!.textContent
+    expect(stat('Reviews today')).toBe('8')
+    expect(screen.queryByText('Persian (Farsi)')).not.toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Units' })).toBeInTheDocument()
+
+    // Radix tabs switch on mousedown.
+    fireEvent.mouseDown(screen.getByRole('tab', { name: 'Farsi' }), { button: 0 })
+    expect(stat('Reviews today')).toBe('5')
+    expect(stat('Day streak')).toBe('1')
+    expect(screen.getAllByText('Persian (Farsi)').length).toBeGreaterThan(0)
+    expect(screen.queryByText('Sorani Kurdish')).not.toBeInTheDocument()
+    expect(screen.getByRole('link', { name: new RegExp(faWord.fa!.primary.latin) })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: new RegExp(hardWord.ckb!.primary.latin) })).not.toBeInTheDocument()
+
+    fireEvent.mouseDown(screen.getByRole('tab', { name: 'Both' }), { button: 0 })
+    expect(stat('Reviews today')).toBe('13')
+    expect(screen.getAllByText('Persian (Farsi)').length).toBeGreaterThan(0)
+    expect(screen.getAllByText('Sorani Kurdish').length).toBeGreaterThan(0)
+    expect(screen.queryByRole('heading', { name: 'Units' })).not.toBeInTheDocument()
+    expect(screen.getByRole('link', { name: new RegExp(hardWord.ckb!.primary.latin) })).toHaveTextContent('Sorani ·')
+    expect(screen.getByRole('link', { name: new RegExp(faWord.fa!.primary.latin) })).toHaveTextContent('Farsi ·')
+
     fireEvent.click(screen.getByRole('button', { name: /Practise this language/ }))
     expect(useSettings.getState().targetLang).toBe('fa')
+  })
+
+  it('opens on the tab named in the address', () => {
+    seed()
+    seedPersian()
+    renderAt('/progress?stats=all', <ProgressPage />)
+    expect(screen.getByRole('tab', { name: 'Both' })).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('has no tabs while only one language is started', () => {
+    seed()
+    renderAt('/progress', <ProgressPage />)
+    expect(screen.queryByRole('tablist')).not.toBeInTheDocument()
   })
 
   it('is friendly before any practice', () => {
