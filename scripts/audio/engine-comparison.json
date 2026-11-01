@@ -64,5 +64,5 @@
    }
   }
  },
- "note": "43 varied course items (17 single words incl. extras with غ and ڤ, 6 short phrases, 12 sentences, 8 questions), rendered with the production post-processing. Audio8 re-runs with other seeds scored 0.052 and 0.075; its spread comes from occasional babble appended to single words, which audio8.py now detects by length and re-samples. Naturalness proxies (UTMOS22, DNSMOS P.835 overall; human TTS4All recordings score 3.58 and 3.09) put Audio8 at the level of human speech. F5 and VITS-OpenBible were measured in separate environments, not with compare.py. CPU time per clip on 8 cores: Audio8 about 3 s, F5 13-45 s, Piper and VITS under 1 s."
+ "note": "43 varied course items (16 single words incl. two with غ and ڤ, 6 short phrases, 13 sentences, 8 questions), rendered with the production post-processing. Audio8 re-runs with other seeds scored 0.052 and 0.075; its spread comes from occasional babble appended to single words, which audio8.py now detects by length and re-samples. Naturalness proxies (UTMOS22, DNSMOS P.835 overall; human TTS4All recordings score 3.58 and 3.09) put Audio8 at the level of human speech. F5 and VITS-OpenBible were measured in separate environments, not with compare.py. CPU time per clip on 8 cores: Audio8 about 3 s, F5 13-45 s, Piper and VITS under 1 s."
 }
