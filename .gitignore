@@ -28,3 +28,10 @@ agent-tools
 /raw
 .content-cache
 .playwright-mcp
+
+# audio pipeline scratch (scripts/audio)
+scripts/audio/.texts.json
+scripts/audio/.models
+scripts/audio/.compare
+scripts/audio/.baseline
+scripts/audio/__pycache__

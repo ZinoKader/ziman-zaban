@@ -1,0 +1,68 @@
+{
+ "n": 43,
+ "words": 16,
+ "asr": [
+  "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2"
+ ],
+ "engines": {
+  "audio8": "Audio8-TTS-Kurdish-Sorani, default voice (chosen)",
+  "f5-female": "aranemini/central-kurdish-tts F5-TTS, audiobook female (first 30 items)",
+  "vits-openbible": "multilingual-tts VITS-OpenBible-Central-Kurdish (CC BY-SA 4.0)",
+  "vekol-s0": "Vekol-TTS (Piper), speaker Berfin",
+  "vekol-s1": "Vekol-TTS (Piper), second speaker",
+  "mms": "razhan/mms-tts-ckb (MMS VITS)"
+ },
+ "results": {
+  "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": {
+   "audio8": {
+    "n": 43,
+    "mean": 0.101,
+    "words": 0.178,
+    "sentences": 0.055,
+    "utmos": 3.57,
+    "dnsmos": 3.11
+   },
+   "f5-female": {
+    "n": 30,
+    "mean": 0.076,
+    "words": 0.126,
+    "sentences": 0.031,
+    "utmos": 3.01,
+    "dnsmos": 2.94
+   },
+   "vits-openbible": {
+    "n": 43,
+    "mean": 0.226,
+    "words": 0.354,
+    "sentences": 0.149,
+    "utmos": 3.46,
+    "dnsmos": 3.02
+   },
+   "vekol-s0": {
+    "n": 43,
+    "mean": 0.203,
+    "words": 0.345,
+    "sentences": 0.119,
+    "utmos": 3.29,
+    "dnsmos": 2.84
+   },
+   "vekol-s1": {
+    "n": 43,
+    "mean": 0.233,
+    "words": 0.374,
+    "sentences": 0.149,
+    "utmos": 3.13,
+    "dnsmos": 2.79
+   },
+   "mms": {
+    "n": 43,
+    "mean": 0.315,
+    "words": 0.526,
+    "sentences": 0.189,
+    "utmos": 3.3,
+    "dnsmos": 2.92
+   }
+  }
+ },
+ "note": "43 varied course items (17 single words incl. extras with غ and ڤ, 6 short phrases, 12 sentences, 8 questions), rendered with the production post-processing. Audio8 re-runs with other seeds scored 0.052 and 0.075; its spread comes from occasional babble appended to single words, which audio8.py now detects by length and re-samples. Naturalness proxies (UTMOS22, DNSMOS P.835 overall; human TTS4All recordings score 3.58 and 3.09) put Audio8 at the level of human speech. F5 and VITS-OpenBible were measured in separate environments, not with compare.py. CPU time per clip on 8 cores: Audio8 about 3 s, F5 13-45 s, Piper and VITS under 1 s."
+}

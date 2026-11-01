@@ -1,0 +1,17 @@
+# CPU-only torch is enough for everything here:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.5
+# Audio8's model code hangs under transformers 5, so stay on 4.x (the recognisers do not need 5 either).
+transformers>=4.57,<5
+huggingface_hub>=0.34
+numpy>=2.0
+soundfile>=0.12
+
+# Generation (npm run audio:build)
+edge-tts==7.3.1
+piper-tts==1.8.0
+onnxruntime==1.31.1
+
+# Verification (npm run audio:verify)
+faster-whisper==1.2.1
+ctranslate2>=4.6

@@ -36,8 +36,34 @@ npm run dev          # http://localhost:41731
 | `npm run lint` | oxlint |
 | `npm run content:check` | Validate all course content and regenerate the evidence report |
 | `npm run ref -- <word>` | Look a word up in the reference data |
+| `npm run audio:build` | Render missing pronunciation clips into `public/audio/` (Python, see below) |
+| `npm run audio:verify` | Check every clip with speech recognition and retry weak ones |
 
-Progress, settings and reviews are stored in the browser's localStorage. There is no backend and no account. Progress can be exported and imported from Settings.
+## Progress and storage
+
+There is no backend and no account. Progress and settings are saved on the device after every answer, in the browser's IndexedDB (database `ziman-zaban`, through `idb-keyval`; see `src/store/device-storage.ts`). Data from older versions, which used localStorage, is migrated on first load. Where IndexedDB is unavailable or fails (some private browsing modes), the app falls back to localStorage, and to memory if storage is blocked entirely. On the first save the app asks the browser to keep the data persistent, so it is not cleared to free up space. Native-review verdicts and personal answers stay in localStorage.
+
+The Progress page (`/progress`) shows, per language, the words learned and in progress, each module and unit, the last 14 days of activity, accuracy over the last 7 days, the reviews coming up, the streak and the hardest words. It also says where the data is saved, when it was last saved and whether the browser protects it. Progress can be exported and imported from Settings.
+
+## Audio
+
+Every Sorani and Persian text has a pre-generated pronunciation clip in `public/audio/` (mono MP3, 48 kbps), looked up by canonical text in `public/audio/manifest.json`. No speech API is called at runtime. A recording by a native speaker, where one exists (Wikimedia Commons), is played instead, and the browser's speech synthesis is the last resort.
+
+| Language | Voice | License |
+| --- | --- | --- |
+| Sorani | [Audio8-TTS-Kurdish-Sorani](https://huggingface.co/ArminRahimi/Audio8-TTS-Kurdish-Sorani) (default voice), by Armin Rahimi Darehbagh, based on [Audio8 TTS](https://github.com/Edge0-AI/Audio8_TTS) by Edge0-AI; [Vekol-TTS](https://huggingface.co/RevgeAI/vekol-tts-ckb-edge) Berfin as fallback | CC BY-NC 4.0 |
+| Persian | Microsoft neural voices Dilara and Farid (Azure Speech, or Edge read-aloud) | Azure AI Speech terms |
+
+**Both Sorani voices are licensed for non-commercial use only**, so the app may not be used commercially while it ships these clips.
+
+The clips are rebuilt with a Python pipeline in `scripts/audio/` (CPU only, models downloaded on first use; see [`scripts/audio/README.md`](scripts/audio/README.md) for setup). Run it inside the pipeline's virtual environment, because Audio8 needs transformers 4.x:
+
+```bash
+npm run audio:build    # collect texts, render missing clips, update the manifest
+npm run audio:verify   # speech-recognition round trip, retry weak clips, write docs/audio-report.md
+```
+
+Both steps are incremental, so after a content edit only new or changed texts are rendered and checked. `docs/audio-report.md` lists the scores and the clips still flagged for a native listener.
 
 ## Deploying
 
@@ -89,18 +115,20 @@ src/
   store/          persisted progress and settings (zustand)
   i18n/           English and Swedish UI strings
 scripts/          content validator, reference builder, lookup CLI
+scripts/audio/    pronunciation audio pipeline (Python)
+public/audio/     generated clips and manifest
 reference/        reference indices built from Wiktionary and Tatoeba
-docs/             content guide, curriculum, generated content report
+docs/             content guide, curriculum, generated content and audio reports
 ```
 
 Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, zustand, ts-fsrs, zod.
 
 ## Known limitations
 
-- Browsers rarely ship a Sorani text-to-speech voice, so Sorani audio is often unavailable. Persian usually works. Recorded audio from Wikimedia Commons is used where it exists.
+- The audio is synthesized, not recorded by people. Every clip passes an automatic speech-recognition check, but a machine voice can still stress or pronounce a word wrongly; flagged clips are listed in `docs/audio-report.md`.
 - The course teaches Sulaymani Sorani and Tehrani Persian. Written Persian is the main form, with spoken Tehrani forms alongside.
 - This is a first version. Content is checked against references, but native-speaker review is still in progress. Items flagged for review are listed in `docs/content-report.md`.
 
 ## Licenses
 
-Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.
+Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: Microsoft Azure neural voices. The Sorani text normalizer in `scripts/audio/ckb_normalize.py` is from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.
