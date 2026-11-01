@@ -56,7 +56,7 @@ export function LanguageSwitch({ className }: { className?: string }) {
           )}
         >
           <span lang={l} className="font-script me-1.5">{l === 'ckb' ? 'کوردی' : 'فارسی'}</span>
-          <span className="hidden sm:inline">{s.languagesShort[l]}</span>
+          <span className="hidden sm:inline lg:hidden">{s.languagesShort[l]}</span>
         </button>
       ))}
     </div>
@@ -106,9 +106,9 @@ export function AppLayout() {
                 <span className="grid size-8 place-items-center rounded-xl bg-primary text-primary-foreground font-script text-lg" aria-hidden>
                   ز
                 </span>
-                <span className="hidden sm:inline">{s.appName}</span>
+                <span className="hidden sm:inline lg:hidden xl:inline">{s.appName}</span>
               </NavLink>
-              <nav className="ms-4 hidden items-center gap-1 lg:flex">
+              <nav className="ms-2 hidden items-center gap-1 lg:flex xl:ms-4">
                 {MODULES.map((m) => (
                   <NavLink
                     key={m.slug}
