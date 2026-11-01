@@ -127,9 +127,9 @@ export const aboutStrings = defineStrings({
       kim: { name: 'D. H. Kim, A Basic Guide to Kurdish Grammar', what: 'A self-study reference for Sorani grammar and the alphabet.' },
       vazirmatn: { name: 'Vazirmatn font, by Saber Rastikerdar', what: 'The typeface used for all Sorani and Persian text.' },
       fsrs: { name: 'FSRS (ts-fsrs)', what: 'The open-source spaced repetition scheduler.' },
-      azureTts: {
-        name: 'Microsoft Azure neural voices Dilara and Farid',
-        what: 'Persian (fa-IR) text-to-speech. All Persian audio is pre-generated with these two voices, through Microsoft Edge’s read-aloud service (edge-tts): Farid asks the questions, Dilara says everything else.',
+      audio8Fa: {
+        name: 'Audio8-TTS-Persian, by Armin Rahimi Darehbagh',
+        what: 'An open Persian text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the Mana-TTS and GPTInformal-Persian corpora. All Persian audio is pre-generated with its default voice. Non-commercial use only.',
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, by Armin Rahimi Darehbagh',
@@ -156,8 +156,8 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Honest limitations',
     limits: [
-      'The audio is synthesized, not recorded by people: Microsoft’s neural voices read the Persian, the open Audio8 Sorani model reads the Sorani. Every clip is checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker’s recording exists, you hear that instead. If you are a native speaker, telling us about clips that sound wrong helps a lot.',
-      'The Sorani voices (Audio8 Sorani and Vekol-TTS) are licensed CC BY-NC 4.0, so the app may only be used non-commercially while it uses them.',
+      'The audio is synthesized, not recorded by people: the open Audio8 models read both the Persian and the Sorani. The Sorani clips are checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker’s recording exists, you hear that instead. If you are a native speaker, telling us about clips that sound wrong helps a lot.',
+      'The voices (Audio8 Persian, Audio8 Sorani and Vekol-TTS) are licensed CC BY-NC 4.0, so the app may only be used non-commercially while it uses them.',
       'This is a first version. Native review is ongoing, and some items are still marked “Not yet verified”.',
       'The automatic checks confirm that a word exists with a meaning, not that it is the most natural choice in every situation.',
       'The app cannot hear your pronunciation yet. Say your answers out loud before you type or check them.',
@@ -287,9 +287,9 @@ export const aboutStrings = defineStrings({
       kim: { name: 'D. H. Kim, A Basic Guide to Kurdish Grammar', what: 'En självstudiebok om soranins grammatik och alfabet.' },
       vazirmatn: { name: 'Typsnittet Vazirmatn, av Saber Rastikerdar', what: 'Typsnittet för all sorani- och persisk text.' },
       fsrs: { name: 'FSRS (ts-fsrs)', what: 'Schemaläggaren för spridd repetition, med öppen källkod.' },
-      azureTts: {
-        name: 'Microsoft Azures neurala röster Dilara och Farid',
-        what: 'Talsyntes för persiska (fa-IR). Allt persiskt ljud är förgenererat med de här två rösterna, via Microsoft Edges uppläsningstjänst (edge-tts): Farid ställer frågorna och Dilara säger allt annat.',
+      audio8Fa: {
+        name: 'Audio8-TTS-Persian, av Armin Rahimi Darehbagh',
+        what: 'En öppen talsyntesmodell för persiska, baserad på Audio8 TTS från Edge0-AI och tränad på korpusarna Mana-TTS och GPTInformal-Persian. Allt persiskt ljud är förgenererat med dess standardröst. Endast för icke-kommersiellt bruk.',
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, av Armin Rahimi Darehbagh',
@@ -316,8 +316,8 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Ärliga begränsningar',
     limits: [
-      'Ljudet är syntetiskt, inte inläst av människor: Microsofts neurala röster läser persiskan och den öppna modellen Audio8 Sorani läser soranin. Varje klipp kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Finns en inspelning av en modersmålstalare får du höra den i stället. Är du modersmålstalare hjälper det oss mycket om du säger till när ett klipp låter fel.',
-      'Soranirösterna (Audio8 Sorani och Vekol-TTS) har licensen CC BY-NC 4.0, vilket betyder att appen bara får användas icke-kommersiellt så länge den använder dem.',
+      'Ljudet är syntetiskt, inte inläst av människor: de öppna Audio8-modellerna läser både persiskan och soranin. Soraniklippen kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Finns en inspelning av en modersmålstalare får du höra den i stället. Är du modersmålstalare hjälper det oss mycket om du säger till när ett klipp låter fel.',
+      'Rösterna (Audio8 Persian, Audio8 Sorani och Vekol-TTS) har licensen CC BY-NC 4.0, vilket betyder att appen bara får användas icke-kommersiellt så länge den använder dem.',
       'Det här är en första version. Granskningen av modersmålstalare pågår, och en del innehåll är fortfarande markerat ”Ännu inte verifierat”.',
       'De automatiska kontrollerna bekräftar att ett ord finns med en viss betydelse, inte att det är det naturligaste valet i varje situation.',
       'Appen kan inte höra ditt uttal än. Säg svaren högt innan du skriver eller kontrollerar dem.',

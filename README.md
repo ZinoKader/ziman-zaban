@@ -52,7 +52,7 @@ Every Sorani and Persian text has a pre-generated pronunciation clip in `public/
 | Language | Voice | License |
 | --- | --- | --- |
 | Sorani | [Audio8-TTS-Kurdish-Sorani](https://huggingface.co/ArminRahimi/Audio8-TTS-Kurdish-Sorani) (default voice), by Armin Rahimi Darehbagh, based on [Audio8 TTS](https://github.com/Edge0-AI/Audio8_TTS) by Edge0-AI; [Vekol-TTS](https://huggingface.co/RevgeAI/vekol-tts-ckb-edge) Berfin as fallback | CC BY-NC 4.0 |
-| Persian | Microsoft neural voices Dilara and Farid (Azure Speech, or Edge read-aloud) | Azure AI Speech terms |
+| Persian | Audio8-TTS-Persian, default voice (`ArminRahimi/Audio8-TTS-Persian`) | CC BY-NC 4.0, non-commercial |
 
 **Both Sorani voices are licensed for non-commercial use only**, so the app may not be used commercially while it ships these clips.
 
@@ -131,4 +131,4 @@ Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, zus
 
 ## Licenses
 
-Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: Microsoft Azure neural voices. The Sorani text normalizer in `scripts/audio/ckb_normalize.py` is from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.
+Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: Audio8-TTS-Persian (CC BY-NC 4.0, non-commercial). The text normalizers in `scripts/audio/ckb_normalize.py` and `scripts/audio/fa_normalize.py` are from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.

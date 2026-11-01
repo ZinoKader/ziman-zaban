@@ -6,6 +6,8 @@ transformers>=4.57,<5
 huggingface_hub>=0.34
 numpy>=2.0
 soundfile>=0.12
+# Spells out digits for the Audio8 Persian normalizer
+num2fawords>=1.1
 
 # Generation (npm run audio:build)
 edge-tts==7.3.1

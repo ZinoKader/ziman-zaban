@@ -39,11 +39,12 @@ Models are downloaded on first use to `scripts/audio/.models/` (gitignored, abou
 
 | Language | Voice | Engine | License |
 | --- | --- | --- | --- |
-| Persian | Dilara (words, sentences, answers), Farid (questions) | Microsoft neural TTS | Azure AI Speech terms |
+| Persian | Audio8 Persian, default voice | [Audio8-TTS-Persian](https://huggingface.co/ArminRahimi/Audio8-TTS-Persian), the same 0.6B DualAR model, trained on Mana-TTS and GPTInformal-Persian | **CC BY-NC 4.0, non-commercial only** |
+| Persian (fallback) | Dilara, Farid, only where verification picks them | Microsoft neural TTS | Azure AI Speech terms |
 | Sorani | Audio8 Sorani, default voice | [Audio8-TTS-Kurdish-Sorani](https://huggingface.co/ArminRahimi/Audio8-TTS-Kurdish-Sorani), a 0.6B DualAR model by Armin Rahimi Darehbagh, based on [Audio8 TTS](https://github.com/Edge0-AI/Audio8_TTS) by Edge0-AI | **CC BY-NC 4.0, non-commercial only** (trained on [central-kurdish-tts4all](https://huggingface.co/datasets/aranemini/central-kurdish-tts4all), CC BY-NC-ND 4.0) |
 | Sorani (fallback) | Berfin, only where it verifies clearly better | [Vekol-TTS](https://huggingface.co/RevgeAI/vekol-tts-ckb-edge), Piper VITS | CC BY-NC 4.0, non-commercial only |
 
-Because both Sorani voices are licensed for non-commercial use only, the app may not be used
+Because the Audio8 and Vekol voices are licensed for non-commercial use only, the app may not be used
 commercially while it ships these clips.
 
 Audio8 samples its output, so the same text reads slightly differently per take. Now and then a single
@@ -52,10 +53,13 @@ twice what the text needs) and re-samples before writing the clip, and verificat
 It has no speed control: isolated words are read at its natural pace, and a nonzero rate is applied as
 a time-stretch.
 
-Persian uses the official Azure Speech REST API when `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` are
+The Persian fallback voices use the official Azure Speech REST API when `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` are
 set (use this for production), and otherwise Edge's read-aloud service with the same voices. The voice
-id is part of the file name, so switching engine does not invalidate existing clips; delete
-`public/audio/fa` to re-render them.
+id is part of the file name, so switching engine does not invalidate existing clips.
+
+[ParsVoice-XTTS](https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS) (EMNLP 2026, 2,200 h, 1,800+
+speakers) is the strongest published open Persian model, but its weights are gated behind a Hugging Face
+login, so it is not used here yet.
 
 ## Recognisers
 

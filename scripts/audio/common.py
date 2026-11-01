@@ -28,6 +28,16 @@ LANGS = ("ckb", "fa")
 VEKOL_REPO = "https://huggingface.co/RevgeAI/vekol-tts-ckb-edge/resolve/main"
 
 VOICES: dict[str, dict] = {
+    "fa-audio8": {
+        "lang": "fa",
+        "engine": "audio8",
+        "name": "Audio8 Persian",
+        "license": "CC BY-NC 4.0",
+        "credit": "Audio8-TTS-Persian by Armin Rahimi Darehbagh (ArminRahimi/Audio8-TTS-Persian), "
+        "based on Audio8 TTS by Edge0-AI, trained on Mana-TTS and GPTInformal-Persian",
+        "rates": {"*": 0},
+    },
+    # Fallbacks for clips the Audio8 voice does not get right.
     "fa-dilara": {
         "lang": "fa",
         "engine": "azure",
@@ -76,6 +86,7 @@ VOICES: dict[str, dict] = {
 
 # Voices tried, in order, when a clip does not verify well (besides a slower rate of the same voice).
 ALTERNATE_VOICE = {
+    "fa-audio8": "fa-dilara",
     "fa-dilara": "fa-farid",
     "fa-farid": "fa-dilara",
     "ckb-audio8": "ckb-berfin",
@@ -85,7 +96,7 @@ ALTERNATE_VOICE = {
 
 # Which voice reads which kind of text. Questions get a second voice so conversations have two speakers.
 DEFAULT_VOICE = {
-    "fa": {"question": "fa-farid", "*": "fa-dilara"},
+    "fa": {"*": "fa-audio8"},
     "ckb": {"*": "ckb-audio8"},
 }
 # Relative speaking rate in percent. Isolated words come out rushed at the engines' default rate.
@@ -453,7 +464,7 @@ class Renderer:
 
     def __init__(self) -> None:
         self._piper: PiperEngine | None = None
-        self._audio8 = None
+        self._audio8: dict = {}
         self.work = tmpdir()
 
     @property
@@ -462,40 +473,41 @@ class Renderer:
             self._piper = PiperEngine()
         return self._piper
 
-    @property
-    def audio8(self):
-        if self._audio8 is None:
+    def audio8(self, lang: str):
+        if lang not in self._audio8:
             from audio8 import Audio8Engine
 
-            self._audio8 = Audio8Engine(MODELS)
-        return self._audio8
+            self._audio8.clear()  # one 0.6B model in memory at a time
+            self._audio8[lang] = Audio8Engine(MODELS, lang)
+        return self._audio8[lang]
 
     def close(self) -> None:
         shutil.rmtree(self.work, ignore_errors=True)
         self._piper = None
-        self._audio8 = None
+        self._audio8 = {}
 
     def render_audio8(self, items: list[Render], on_done=None) -> None:
         """Batches clips of similar length; each finished clip is on disk at once, so an interrupted run resumes."""
         import time
         from concurrent.futures import ThreadPoolExecutor
 
-        groups: dict[int, list[Render]] = {}
+        groups: dict[tuple[str, int], list[Render]] = {}
         for r in items:
-            groups.setdefault(r.take, []).append(r)
+            groups.setdefault((r.lang, r.take), []).append(r)
         start, batches = time.time(), 0
         with ThreadPoolExecutor(max_workers=2) as pool:
             futures = []
-            for take, group in sorted(groups.items()):
+            for (lang, take), group in sorted(groups.items()):
+                engine = self.audio8(lang)
                 group.sort(key=lambda r: len(r.text))
                 for i in range(0, len(group), self.AUDIO8_BATCH):
                     chunk = group[i : i + self.AUDIO8_BATCH]
-                    wavs = self.audio8.synth_batch([r.text for r in chunk], take)
+                    wavs = engine.synth_batch([r.text for r in chunk], take)
                     batches += 1
                     if batches % 10 == 0:
-                        e = self.audio8
+                        e = engine
                         print(
-                            f"  audio8: {e.clips} clips, {(time.time() - start) / e.clips:.1f} s/clip,"
+                            f"  audio8 {lang}: {e.clips} clips, {(time.time() - start) / e.clips:.1f} s/clip,"
                             f" {e.resampled} re-sampled, {e.implausible} kept despite odd length",
                             flush=True,
                         )
@@ -504,7 +516,7 @@ class Renderer:
                             print(f"  audio8 produced nothing for {r.text!r}", flush=True)
                             continue
                         raw = self.work / (r.file.replace("/", "_") + ".wav")
-                        write_wav(raw, audio, self.audio8.sample_rate, r.rate)
+                        write_wav(raw, audio, engine.sample_rate, r.rate)
 
                         def finish(raw=raw, r=r):
                             postprocess(raw, r.path)
