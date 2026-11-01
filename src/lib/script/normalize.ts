@@ -131,6 +131,29 @@ export function foldLatin(text: string): string {
   return t.replace(/[^a-zA-Z]/g, '')
 }
 
+const LOOSE_FOLD: Array<[RegExp, string]> = [
+  [/e/g, 'a'],
+  [/o/g, 'u'],
+  [/y/g, 'i'],
+  [/[cZ]/g, 'j'],
+  [/q/g, 'G'],
+  [/v/g, 'w'],
+  [/(.)\1+/g, '$1'],
+]
+
+/**
+ * `foldLatin`, plus the distinctions a learner typing on an English or Swedish keyboard
+ * shouldn't be marked down for: vowel quality (a/e, o/u, i/y), c/j/zh, q/gh, v/w,
+ * doubled letters and a silent word-final h ("khaneh").
+ */
+export function foldLatinLoose(text: string): string {
+  let t = text.normalize('NFC').toLowerCase().replace(/ı/g, 'i')
+  t = t.replace(/([aeiouâêîôûāēīōū])h(?=[^a-z]|$)/g, '$1')
+  t = foldLatin(t)
+  for (const [re, rep] of LOOSE_FOLD) t = t.replace(re, rep)
+  return t
+}
+
 const ARABIC_SCRIPT = /[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/
 
 export function isArabicScript(text: string): boolean {

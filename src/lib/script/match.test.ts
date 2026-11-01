@@ -139,6 +139,18 @@ describe('matchTargetAnswer: Latin', () => {
     expect(matchTargetAnswer("mote ahhel", [f('متأهل', "mote'ahhel")], 'fa').grade).toBe('close')
   })
 
+  it('close for vowel quality, keyboard accents and letter variants a learner may use', () => {
+    const yes = [f('بەڵێ', 'bełê')]
+    expect(matchTargetAnswer('bale', yes, 'ckb').grade).toBe('close')
+    expect(matchTargetAnswer('belê', yes, 'ckb').grade).toBe('close')
+    expect(matchTargetAnswer('bälé', yes, 'ckb').grade).toBe('close')
+    expect(matchTargetAnswer('khaneh', [f('خانه', 'khâne')], 'fa').grade).toBe('close')
+    expect(matchTargetAnswer('khoob', [f('خوب', 'khub')], 'fa').grade).toBe('close')
+    expect(matchTargetAnswer('chai', [f('چای', 'chây')], 'fa').grade).toBe('close')
+    expect(matchTargetAnswer('jwan', [f('جوان', 'cwan')], 'ckb').grade).toBe('close')
+    expect(matchTargetAnswer('ghaza', [f('قاز', 'qaz')], 'ckb').grade).not.toBe('exact')
+  })
+
   it('typo for one slip in a 4+ letter word', () => {
     expect(matchTargetAnswer('supaz', [f('سوپاس', 'supas')], 'ckb').grade).toBe('typo')
     expect(matchTargetAnswer('mamnum', THANKS_FA, 'fa')).toMatchObject({ grade: 'typo', expected: { latin: 'mamnun' } })

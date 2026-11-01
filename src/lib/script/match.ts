@@ -1,5 +1,5 @@
 import type { Form, TargetLang } from '@/content/types'
-import { canonicalize, foldForMatch, foldLatin, isArabicScript } from './normalize'
+import { canonicalize, foldForMatch, foldLatinLoose, isArabicScript } from './normalize'
 
 export type MatchGrade =
   /** Exactly the expected spelling. */
@@ -69,8 +69,8 @@ export function matchTargetAnswer(input: string, accepted: Form[], lang: TargetL
       const norm = (s: string) => s.normalize('NFC').toLowerCase().replace(/\s+/g, ' ').trim()
       if (norm(trimmed) === norm(form.latin)) grade = 'exact'
       else {
-        const a = foldLatin(trimmed)
-        const b = foldLatin(form.latin)
+        const a = foldLatinLoose(trimmed)
+        const b = foldLatinLoose(form.latin)
         if (a === b) grade = 'close'
         else if (levenshtein(a, b) <= typoAllowance(b.length)) grade = 'typo'
       }

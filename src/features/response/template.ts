@@ -1,6 +1,6 @@
 import type { BaseLang, Localized, QAAnswer, QAForm, TargetLang } from '@/content/types'
 import { levenshtein, matchTargetAnswer, type MatchGrade } from '@/lib/script/match'
-import { canonicalize, foldForMatch, foldLatin, isArabicScript } from '@/lib/script/normalize'
+import { canonicalize, foldForMatch, foldLatinLoose, isArabicScript } from '@/lib/script/normalize'
 
 /*
  * QA answers may be templates with `{slot}` placeholders for personal information:
@@ -162,8 +162,8 @@ function fuzzyMatch(input: string, parts: string[]): boolean {
 
 const stripEnd = (s: string) => s.replace(TRAILING_PUNCT, '')
 const latinNorm = (s: string) => s.normalize('NFC').toLowerCase().replace(/\s+/g, ' ').trim()
-// foldLatin drops digits, but "20 salim" must still fill the slot with something.
-const foldLatinKeepDigits = (s: string) => foldLatin(s.replace(/[0-9۰-۹٠-٩]/g, 'q'))
+// foldLatinLoose drops digits, but "20 salim" must still fill the slot with something.
+const foldLatinKeepDigits = (s: string) => foldLatinLoose(s.replace(/[0-9۰-۹٠-٩]/g, 'q'))
 
 /** Templates that are only a slot ("{name}.") accept a short answer, not any sentence. */
 const MAX_BARE_SLOT_WORDS = 3
@@ -188,7 +188,7 @@ export function matchTemplate(input: string, template: Pick<QAAnswer, 'text' | '
 
   if (anchoredMatch(latinNorm(trimmed), latinNorm(marked).split(MARK))) return 'exact'
   const folded = foldLatinKeepDigits(trimmed)
-  const foldedParts = parts.map(foldLatin)
+  const foldedParts = parts.map(foldLatinLoose)
   if (anchoredMatch(folded, foldedParts)) return 'close'
   return fuzzyMatch(folded, foldedParts) ? 'typo' : 'wrong'
 }

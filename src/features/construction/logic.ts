@@ -1,7 +1,7 @@
 import type { Form, Localized, Sentence, SentenceForm, TargetLang, Token } from '@/content/types'
 import { shuffle } from '@/lib/distractors'
 import { matchTargetAnswer, type MatchGrade } from '@/lib/script/match'
-import { foldForMatch, foldLatin, isArabicScript } from '@/lib/script/normalize'
+import { foldForMatch, foldLatinLoose, isArabicScript } from '@/lib/script/normalize'
 import { State, type StoredCard } from '@/lib/srs'
 
 export type Mode = 'bank' | 'cloze' | 'typed'
@@ -264,7 +264,7 @@ export function checkTyped(input: string, form: SentenceForm, lang: TargetLang):
   const accepted = versions.map((v) => ({ script: stripPunct(v.text), latin: stripPunct(v.latin) }))
   const r = matchTargetAnswer(stripPunct(input), accepted, lang)
   const inputScript = isArabicScript(input) ? 'arabic' : 'latin'
-  const key = inputScript === 'arabic' ? (w: string) => fold(w, lang) : (w: string) => foldLatin(w)
+  const key = inputScript === 'arabic' ? (w: string) => fold(w, lang) : (w: string) => foldLatinLoose(w)
   const pick = (v: SentenceVersion) => (inputScript === 'arabic' ? v.text : v.latin)
   const words = splitWords(input)
 
