@@ -27,7 +27,33 @@ LANGS = ("ckb", "fa")
 
 VEKOL_REPO = "https://huggingface.co/RevgeAI/vekol-tts-ckb-edge/resolve/main"
 
+PARSVOICE_CREDIT = (
+    "ParsVoice-XTTS by Mohammad Javad Ranjbar Kalahroodi (MohammadJRanjbar/ParsVoice-XTTS), Coqui XTTS-v2 "
+    "fine-tuned on the ParsVoice corpus; voice cloned from a Mozilla Common Voice recording (CC0)"
+)
+
 VOICES: dict[str, dict] = {
+    # Zero-shot clones of two Common Voice speakers, picked by how well speech recognition understood
+    # their renders of course sentences.
+    "fa-parsvoice-a": {
+        "lang": "fa",
+        "engine": "parsvoice",
+        "ref": "refs/parsvoice-a.wav",
+        "name": "ParsVoice A",
+        "license": "Coqui Public Model License (non-commercial)",
+        "credit": PARSVOICE_CREDIT,
+        "rates": {"*": 0},
+    },
+    "fa-parsvoice-b": {
+        "lang": "fa",
+        "engine": "parsvoice",
+        "ref": "refs/parsvoice-b.wav",
+        "name": "ParsVoice B",
+        "license": "Coqui Public Model License (non-commercial)",
+        "credit": PARSVOICE_CREDIT,
+        "rates": {"*": 0},
+    },
+    # Single words, which ParsVoice cannot read, and the fallback for its clips that do not verify.
     "fa-audio8": {
         "lang": "fa",
         "engine": "audio8",
@@ -37,7 +63,7 @@ VOICES: dict[str, dict] = {
         "based on Audio8 TTS by Edge0-AI, trained on Mana-TTS and GPTInformal-Persian",
         "rates": {"*": 0},
     },
-    # Fallbacks for clips the Audio8 voice does not get right.
+    # Fallbacks for words the Audio8 voice does not get right.
     "fa-dilara": {
         "lang": "fa",
         "engine": "azure",
@@ -86,6 +112,8 @@ VOICES: dict[str, dict] = {
 
 # Voices tried, in order, when a clip does not verify well (besides a slower rate of the same voice).
 ALTERNATE_VOICE = {
+    "fa-parsvoice-a": "fa-parsvoice-b",
+    "fa-parsvoice-b": "fa-parsvoice-a",
     "fa-audio8": "fa-dilara",
     "fa-dilara": "fa-farid",
     "fa-farid": "fa-dilara",
@@ -96,7 +124,7 @@ ALTERNATE_VOICE = {
 
 # Which voice reads which kind of text. Questions get a second voice so conversations have two speakers.
 DEFAULT_VOICE = {
-    "fa": {"*": "fa-audio8"},
+    "fa": {"*": "fa-parsvoice-a", "question": "fa-parsvoice-b", "word": "fa-audio8"},
     "ckb": {"*": "ckb-audio8"},
 }
 # Relative speaking rate in percent. Isolated words come out rushed at the engines' default rate.
@@ -562,10 +590,78 @@ class Renderer:
             for f in futures:
                 f.result()
 
+    def render_parsvoice(self, items: list[Render], on_done=None) -> None:
+        """Runs ParsVoice workers in their own virtual environment. A text the worker cannot cut cleanly gets
+        no clip; verification then falls back to another voice for it."""
+        import threading
+        from concurrent.futures import ThreadPoolExecutor
+
+        from audio8 import expected_seconds
+        from parsvoice import ensure_model
+
+        python = os.environ.get("PARSVOICE_PYTHON", str(ROOT / ".venv-parsvoice" / "bin" / "python"))
+        if not Path(python).exists():
+            raise SystemExit(f"ParsVoice needs its own virtual environment at {python} (see scripts/audio/README.md)")
+        model = ensure_model(MODELS)
+        workers = max(1, min(int(os.environ.get("PARSVOICE_WORKERS", "2")), len(items)))
+        threads = max(1, (os.cpu_count() or 4) // workers)
+        renders: dict[str, Render] = {}
+        shards: list[list[dict]] = [[] for _ in range(workers)]
+        for i, r in enumerate(sorted(items, key=lambda r: len(r.text))):
+            raw = self.work / (r.file.replace("/", "_") + ".wav")
+            renders[str(raw)] = r
+            shards[i % workers].append({
+                "text": spell_numbers(r.text, "fa"),
+                "ref": str(HERE / VOICES[r.voice]["ref"]),
+                "out": str(raw),
+                "max_seconds": 1.6 * expected_seconds(r.text, "fa"),
+            })
+
+        failed: list[Render] = []
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            futures = []
+
+            def finish(raw: Path, r: Render) -> None:
+                postprocess(raw, r.path)
+                raw.unlink(missing_ok=True)
+                if on_done:
+                    on_done(r)
+
+            def follow(proc: subprocess.Popen) -> None:
+                for line in proc.stdout:
+                    if not line.startswith("{"):
+                        continue
+                    done = json.loads(line)
+                    r = renders[done["out"]]
+                    if done["ok"]:
+                        futures.append(pool.submit(finish, Path(done["out"]), r))
+                    else:
+                        failed.append(r)
+
+            procs, readers = [], []
+            for n, shard in enumerate(shards):
+                jobs = self.work / f"parsvoice-{n}.json"
+                jobs.write_text(json.dumps({"model": str(model), "threads": threads, "items": shard}, ensure_ascii=False))
+                proc = subprocess.Popen([python, str(HERE / "parsvoice.py"), str(jobs)], stdout=subprocess.PIPE, text=True)
+                procs.append(proc)
+                readers.append(threading.Thread(target=follow, args=(proc,)))
+                readers[-1].start()
+            for proc, reader in zip(procs, readers):
+                reader.join()
+                if proc.wait():
+                    raise RuntimeError(f"ParsVoice worker exited with {proc.returncode}")
+            for f in futures:
+                f.result()
+        for r in failed:
+            print(f"  parsvoice could not cut a clean clip for {r.text!r}", flush=True)
+
     def render(self, items: list[Render], on_done=None) -> None:
         ms = [r for r in items if VOICES[r.voice]["engine"] == "azure"]
         local = [r for r in items if VOICES[r.voice]["engine"] == "piper"]
         audio8 = [r for r in items if VOICES[r.voice]["engine"] == "audio8"]
+        parsvoice = [r for r in items if VOICES[r.voice]["engine"] == "parsvoice"]
+        if parsvoice:
+            self.render_parsvoice(parsvoice, on_done)
         if audio8:
             self.render_audio8(audio8, on_done)
         if local:
@@ -603,6 +699,8 @@ def write_manifest(texts: dict[str, list[dict]], verification: dict) -> dict:
             v["engine"] = "Piper VITS"
         elif v["engine"] == "audio8":
             v["engine"] = "Audio8 TTS (DualAR)"
+        elif v["engine"] == "parsvoice":
+            v["engine"] = "XTTS-v2 (ParsVoice)"
     PUBLIC.mkdir(parents=True, exist_ok=True)
     (PUBLIC / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, separators=(",", ":")) + "\n")
     return manifest

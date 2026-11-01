@@ -127,9 +127,13 @@ export const aboutStrings = defineStrings({
       kim: { name: 'D. H. Kim, A Basic Guide to Kurdish Grammar', what: 'A self-study reference for Sorani grammar and the alphabet.' },
       vazirmatn: { name: 'Vazirmatn font, by Saber Rastikerdar', what: 'The typeface used for all Sorani and Persian text.' },
       fsrs: { name: 'FSRS (ts-fsrs)', what: 'The open-source spaced repetition scheduler.' },
+      parsvoice: {
+        name: 'ParsVoice-XTTS, by Mohammad Javad Ranjbar Kalahroodi',
+        what: 'An open Persian text-to-speech model: Coqui XTTS-v2 fine-tuned on the ParsVoice corpus (2,200 hours, 1,800+ speakers). It reads the Persian sentences, questions and answers in two voices cloned from Mozilla Common Voice recordings (CC0). Non-commercial use only.',
+      },
       audio8Fa: {
         name: 'Audio8-TTS-Persian, by Armin Rahimi Darehbagh',
-        what: 'An open Persian text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the Mana-TTS and GPTInformal-Persian corpora. All Persian audio is pre-generated with its default voice. Non-commercial use only.',
+        what: 'An open Persian text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the Mana-TTS and GPTInformal-Persian corpora. It reads the single Persian words, and the sentences ParsVoice did not get right. Non-commercial use only.',
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, by Armin Rahimi Darehbagh',
@@ -156,8 +160,8 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Honest limitations',
     limits: [
-      'The audio is synthesized, not recorded by people: the open Audio8 models read both the Persian and the Sorani. The Sorani clips are checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker’s recording exists, you hear that instead. If you are a native speaker, telling us about clips that sound wrong helps a lot.',
-      'The voices (Audio8 Persian, Audio8 Sorani and Vekol-TTS) are licensed CC BY-NC 4.0, so the app may only be used non-commercially while it uses them.',
+      'The audio is synthesized, not recorded by people: open models read it, ParsVoice and Audio8 for Persian and Audio8 for Sorani. Every clip is checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker’s recording exists, you hear that instead. If you are a native speaker, telling us about clips that sound wrong helps a lot.',
+      'The voices are licensed for non-commercial use only (ParsVoice under the Coqui Public Model License; Audio8 Persian, Audio8 Sorani and Vekol-TTS under CC BY-NC 4.0), so the app may only be used non-commercially while it uses them.',
       'This is a first version. Native review is ongoing, and some items are still marked “Not yet verified”.',
       'The automatic checks confirm that a word exists with a meaning, not that it is the most natural choice in every situation.',
       'The app cannot hear your pronunciation yet. Say your answers out loud before you type or check them.',
@@ -287,9 +291,13 @@ export const aboutStrings = defineStrings({
       kim: { name: 'D. H. Kim, A Basic Guide to Kurdish Grammar', what: 'En självstudiebok om soranins grammatik och alfabet.' },
       vazirmatn: { name: 'Typsnittet Vazirmatn, av Saber Rastikerdar', what: 'Typsnittet för all sorani- och persisk text.' },
       fsrs: { name: 'FSRS (ts-fsrs)', what: 'Schemaläggaren för spridd repetition, med öppen källkod.' },
+      parsvoice: {
+        name: 'ParsVoice-XTTS, av Mohammad Javad Ranjbar Kalahroodi',
+        what: 'En öppen talsyntesmodell för persiska: Coqui XTTS-v2 vidaretränad på korpusen ParsVoice (2 200 timmar, över 1 800 talare). Den läser de persiska meningarna, frågorna och svaren med två röster klonade från inspelningar i Mozilla Common Voice (CC0). Endast för icke-kommersiellt bruk.',
+      },
       audio8Fa: {
         name: 'Audio8-TTS-Persian, av Armin Rahimi Darehbagh',
-        what: 'En öppen talsyntesmodell för persiska, baserad på Audio8 TTS från Edge0-AI och tränad på korpusarna Mana-TTS och GPTInformal-Persian. Allt persiskt ljud är förgenererat med dess standardröst. Endast för icke-kommersiellt bruk.',
+        what: 'En öppen talsyntesmodell för persiska, baserad på Audio8 TTS från Edge0-AI och tränad på korpusarna Mana-TTS och GPTInformal-Persian. Den läser de enskilda persiska orden, och de meningar som ParsVoice inte fick rätt. Endast för icke-kommersiellt bruk.',
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, av Armin Rahimi Darehbagh',
@@ -316,8 +324,8 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Ärliga begränsningar',
     limits: [
-      'Ljudet är syntetiskt, inte inläst av människor: de öppna Audio8-modellerna läser både persiskan och soranin. Soraniklippen kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Finns en inspelning av en modersmålstalare får du höra den i stället. Är du modersmålstalare hjälper det oss mycket om du säger till när ett klipp låter fel.',
-      'Rösterna (Audio8 Persian, Audio8 Sorani och Vekol-TTS) har licensen CC BY-NC 4.0, vilket betyder att appen bara får användas icke-kommersiellt så länge den använder dem.',
+      'Ljudet är syntetiskt, inte inläst av människor: öppna modeller läser det, ParsVoice och Audio8 för persiskan och Audio8 för soranin. Varje klipp kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Finns en inspelning av en modersmålstalare får du höra den i stället. Är du modersmålstalare hjälper det oss mycket om du säger till när ett klipp låter fel.',
+      'Rösterna får bara användas icke-kommersiellt (ParsVoice under Coqui Public Model License; Audio8 Persian, Audio8 Sorani och Vekol-TTS under CC BY-NC 4.0), så appen får bara användas icke-kommersiellt så länge den använder dem.',
       'Det här är en första version. Granskningen av modersmålstalare pågår, och en del innehåll är fortfarande markerat ”Ännu inte verifierat”.',
       'De automatiska kontrollerna bekräftar att ett ord finns med en viss betydelse, inte att det är det naturligaste valet i varje situation.',
       'Appen kan inte höra ditt uttal än. Säg svaren högt innan du skriver eller kontrollerar dem.',

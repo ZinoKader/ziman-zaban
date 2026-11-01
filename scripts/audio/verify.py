@@ -43,6 +43,7 @@ from common import (
 # Single words give a recogniser no context, so they get a looser threshold.
 THRESHOLD = {"word": 0.5, "*": 0.35}
 SLOWER = -15
+PARSVOICE_FALLBACK = "fa-audio8"
 REPORT = ROOT / "docs" / "audio-report.md"
 COMPARISON = HERE / "engine-comparison.json"
 BASELINE = HERE / "baseline.json"
@@ -93,6 +94,9 @@ def score(text: str, lang: str, hyps: dict[str, str]) -> dict:
 
 def candidates(r: Render, kind: str) -> list[Render]:
     alt = ALTERNATE_VOICE.get(r.voice)
+    if VOICES[r.voice]["engine"] == "parsvoice":
+        # Reads a text the same way every time, so only another speaker or another engine can help.
+        return [Render(r.lang, v, voice_rate(v, kind), r.text) for v in (alt, PARSVOICE_FALLBACK)]
     if VOICES[r.voice]["engine"] == "audio8":
         # A sampling engine misreads differently each time, so new takes come first; slowing it down does not help.
         out = [Render(r.lang, r.voice, r.rate, r.text, take) for take in (1, 2)]
@@ -116,11 +120,11 @@ def verify_lang(lang: str, texts: list[dict], verification: dict, retry: bool, f
 
     if not retry:
         return
+    # A missing clip is one the engine could not produce (ParsVoice found no clean cut).
     weak = [
         t
         for t, r in plan.items()
-        if r.file in clips
-        and clips[r.file]["cer"] > threshold(entries[t]["kind"])
+        if (not r.path.exists() or (r.file in clips and clips[r.file]["cer"] > threshold(entries[t]["kind"])))
         and choice_key(lang, t) not in verification["choices"]
     ]
     if not weak:
@@ -142,6 +146,8 @@ def verify_lang(lang: str, texts: list[dict], verification: dict, retry: bool, f
     save_verification(verification)
     for t, cs in tries.items():
         cs = [c for c in cs if c.file in clips]
+        if not cs:
+            continue
         # Ties keep the earlier (default) render; a retry has to be clearly better to replace it.
         best = cs[0]
         for c in cs[1:]:
@@ -226,8 +232,10 @@ def report(texts: dict[str, list[dict]], verification: dict) -> str:
         "",
         "| Voice | Language | Engine | Used for | License / credit |",
         "| --- | --- | --- | --- | --- |",
-        f"| Dilara (`fa-IR-DilaraNeural`) | Persian | Microsoft neural TTS ({'Azure Speech API' if azure_configured() else 'via Edge read-aloud; set AZURE_SPEECH_KEY for the Azure API'}) | words, sentences, answers | Microsoft Azure AI Speech |",
-        "| Farid (`fa-IR-FaridNeural`) | Persian | Microsoft neural TTS | questions (a second speaker for dialogues) | Microsoft Azure AI Speech |",
+        "| ParsVoice A | Persian | ParsVoice-XTTS, XTTS-v2 fine-tune (`MohammadJRanjbar/ParsVoice-XTTS`), cloned from a Common Voice speaker | sentences, answers, grammar examples | Coqui Public Model License: non-commercial use only |",
+        "| ParsVoice B | Persian | ParsVoice-XTTS, cloned from a second Common Voice speaker | questions (a second speaker for dialogues) | Coqui Public Model License: non-commercial use only |",
+        "| Audio8 Persian | Persian | Audio8 TTS, 0.6B DualAR (`ArminRahimi/Audio8-TTS-Persian`) | single words; fallback for sentences ParsVoice does not get right | CC BY-NC 4.0: non-commercial use only |",
+        f"| Dilara, Farid | Persian | Microsoft neural TTS ({'Azure Speech API' if azure_configured() else 'via Edge read-aloud; set AZURE_SPEECH_KEY for the Azure API'}) | fallback for words, only where they verify clearly better | Microsoft Azure AI Speech |",
         "| Audio8 Sorani (default voice) | Sorani | Audio8 TTS, 0.6B DualAR (`ArminRahimi/Audio8-TTS-Kurdish-Sorani`) | everything | CC BY-NC 4.0, Audio8-TTS-Kurdish-Sorani by Armin Rahimi Darehbagh, base model Audio8 TTS by Edge0-AI (Apache-2.0), trained on central-kurdish-tts4all: non-commercial use only |",
         "| Berfin | Sorani | Vekol-TTS, Piper VITS (`RevgeAI/vekol-tts-ckb-edge`) | fallback, only clips where it verifies clearly better | CC BY-NC 4.0, Vekol-TTS by Darvan Shvan / Revge: non-commercial use only |",
         "",
@@ -302,7 +310,8 @@ def report(texts: dict[str, list[dict]], verification: dict) -> str:
         "## Retries",
         "",
         f"{retried} clips scored above the threshold (CER > {THRESHOLD['*']} for sentences, > {THRESHOLD['word']} for single words) and were re-rendered:",
-        "Sorani as two new Audio8 takes and with Berfin, Persian slower and with the other voice.",
+        "Audio8 clips as two new takes and with the fallback voice (Berfin for Sorani, Dilara for Persian),",
+        "ParsVoice clips with the other ParsVoice speaker and with Audio8.",
         f"{changed} of them now use a different take, voice or rate because it verified clearly better.",
         "",
         f"## Flagged for native review ({len(flagged)})",

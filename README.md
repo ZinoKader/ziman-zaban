@@ -52,11 +52,11 @@ Every Sorani and Persian text has a pre-generated pronunciation clip in `public/
 | Language | Voice | License |
 | --- | --- | --- |
 | Sorani | [Audio8-TTS-Kurdish-Sorani](https://huggingface.co/ArminRahimi/Audio8-TTS-Kurdish-Sorani) (default voice), by Armin Rahimi Darehbagh, based on [Audio8 TTS](https://github.com/Edge0-AI/Audio8_TTS) by Edge0-AI; [Vekol-TTS](https://huggingface.co/RevgeAI/vekol-tts-ckb-edge) Berfin as fallback | CC BY-NC 4.0 |
-| Persian | Audio8-TTS-Persian, default voice (`ArminRahimi/Audio8-TTS-Persian`) | CC BY-NC 4.0, non-commercial |
+| Persian | [ParsVoice-XTTS](https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS) by Mohammad Javad Ranjbar Kalahroodi for sentences, questions and answers, in two voices cloned from Mozilla Common Voice recordings; [Audio8-TTS-Persian](https://huggingface.co/ArminRahimi/Audio8-TTS-Persian) for single words and as the fallback | Coqui Public Model License (ParsVoice), CC BY-NC 4.0 (Audio8): both non-commercial |
 
-**Both Sorani voices are licensed for non-commercial use only**, so the app may not be used commercially while it ships these clips.
+**All the voices are licensed for non-commercial use only**, so the app may not be used commercially while it ships these clips.
 
-The clips are rebuilt with a Python pipeline in `scripts/audio/` (CPU only, models downloaded on first use; see [`scripts/audio/README.md`](scripts/audio/README.md) for setup). Run it inside the pipeline's virtual environment, because Audio8 needs transformers 4.x:
+The clips are rebuilt with a Python pipeline in `scripts/audio/` (CPU only, models downloaded on first use; see [`scripts/audio/README.md`](scripts/audio/README.md) for setup). Run it inside the pipeline's virtual environment, because Audio8 needs transformers 4.x. ParsVoice runs in a second virtual environment of its own and needs a Hugging Face token (`HF_TOKEN`), because its weights are gated:
 
 ```bash
 npm run audio:build    # collect texts, render missing clips, update the manifest
@@ -131,4 +131,4 @@ Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, zus
 
 ## Licenses
 
-Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: Audio8-TTS-Persian (CC BY-NC 4.0, non-commercial). The text normalizers in `scripts/audio/ckb_normalize.py` and `scripts/audio/fa_normalize.py` are from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.
+Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: ParsVoice-XTTS (Coqui Public Model License, non-commercial), with reference voices from Mozilla Common Voice (CC0), and Audio8-TTS-Persian (CC BY-NC 4.0, non-commercial). The text normalizers in `scripts/audio/ckb_normalize.py` and `scripts/audio/fa_normalize.py` are from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.

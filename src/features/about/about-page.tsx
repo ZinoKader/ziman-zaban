@@ -65,6 +65,7 @@ const SOURCES = [
   { key: 'kim', license: null, url: null },
   { key: 'vazirmatn', license: 'SIL OFL 1.1', url: 'https://github.com/rastikerdar/vazirmatn' },
   { key: 'fsrs', license: 'MIT', url: 'https://github.com/open-spaced-repetition/ts-fsrs' },
+  { key: 'parsvoice', license: 'CPML (non-commercial)', url: 'https://huggingface.co/MohammadJRanjbar/ParsVoice-XTTS' },
   { key: 'audio8Fa', license: 'CC BY-NC 4.0', url: 'https://huggingface.co/ArminRahimi/Audio8-TTS-Persian' },
   { key: 'audio8', license: 'CC BY-NC 4.0', url: 'https://huggingface.co/ArminRahimi/Audio8-TTS-Kurdish-Sorani' },
   { key: 'vekol', license: 'CC BY-NC 4.0', url: 'https://huggingface.co/RevgeAI/vekol-tts-ckb-edge' },
