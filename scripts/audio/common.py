@@ -139,9 +139,9 @@ def load_verification() -> dict:
 
 
 def save_verification(data: dict) -> None:
-    data["clips"] = dict(sorted(data["clips"].items()))
-    data["choices"] = dict(sorted(data["choices"].items()))
-    VERIFICATION.write_text(json.dumps(data, ensure_ascii=False, indent=0, sort_keys=False) + "\n")
+    # Writes a sorted copy: callers hold references to data["clips"] across saves.
+    out = {**data, "clips": dict(sorted(data["clips"].items())), "choices": dict(sorted(data["choices"].items()))}
+    VERIFICATION.write_text(json.dumps(out, ensure_ascii=False, indent=0, sort_keys=False) + "\n")
 
 
 def choice_key(lang: str, text: str) -> str:
