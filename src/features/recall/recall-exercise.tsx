@@ -1,4 +1,4 @@
-import { Lightbulb, Mic } from 'lucide-react'
+import { Keyboard, Lightbulb, ListChecks, Mic, Square } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { AnswerInput, type AnswerInputHandle } from '@/components/answer-input'
 import { Disclosure } from '@/components/disclosure'
@@ -9,10 +9,12 @@ import { Kbd } from '@/components/ui/kbd'
 import { acceptedForms, conceptById } from '@/content'
 import type { Concept } from '@/content/types'
 import { common } from '@/i18n/common'
-import { seededRandom } from '@/lib/distractors'
+import { pickConceptDistractors, seededRandom, shuffle } from '@/lib/distractors'
 import type { MatchResult } from '@/lib/script/match'
 import type { Grade } from '@/lib/srs'
 import { cn } from '@/lib/utils'
+import { AnswerLine } from '@/features/response/components/answer-line'
+import { canRecord, useDictation, useRecorder } from '@/features/response/use-recorder'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { SelfGrade } from '../session/self-grade'
@@ -21,16 +23,17 @@ import { AnswerDetails, AnswerExtras, hasAnswerExtras } from './components/answe
 import { AnswerDiff } from './components/answer-diff'
 import { HintMask } from './components/hint-mask'
 import { RecallPrompt } from './components/recall-prompt'
-import { chooseMode, closestForm, fastMsFor, matchRecall, modeSeed, recallGrade, scriptOf } from './grading'
+import { chooseMode, closestForm, fastMsFor, matchRecall, modeSeed, recallGrade, scriptOf, type RecallAnswer, type RecallMode } from './grading'
 import { hintSlots, maxHintLevel } from './hints'
 import { recallStrings } from './strings'
 
 /*
- * Recall: meaning -> Sorani/Persian word, produced from memory.
- *  - The learner types the word (Arabic script or Latin letters); no options to pick from.
- *  - Hints reveal letters one by one but cap the grade at Hard.
- *  - After a miss, the learner types the correct form once before moving on.
- *  - Well-known words are sometimes said aloud and self-graded instead.
+ * Recall: meaning -> Sorani/Persian word.
+ *  - A word fresh from Recognition is first picked among four options (see `chooseMode`).
+ *  - After that it is produced from memory: typed (Arabic script or Latin letters), or said
+ *    aloud and self-graded, whichever the learner prefers.
+ *  - Hints reveal letters one by one; both hints and asking for the options cap the grade at Hard.
+ *  - After a typed miss, the learner types the correct form once before moving on.
  */
 
 /** Bottom-anchored on phones so the main action stays in reach of the thumb. */
@@ -50,19 +53,41 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   const c = common.use()
   const answerScript = useSettings((st) => st.answerScript)
   const compare = useSettings((st) => st.compare)
+  const baseLang = useSettings((st) => st.baseLang)
+  const romanization = useSettings((st) => st.romanization)
+  const recallAnswer = useSettings((st) => st.recallAnswer)
+  const setSettings = useSettings((st) => st.set)
   const report = useProgress((st) => st.report)
   const entry = concept[lang]!
   const forms = useMemo(() => acceptedForms(entry), [entry])
 
-  const [mode] = useState(() => chooseMode(item, attempt, seededRandom(modeSeed(item, attempt))))
+  const seed = modeSeed(item, attempt)
+  const [mode, setMode] = useState<RecallMode>(() => chooseMode(item, attempt, seededRandom(seed), recallAnswer))
+  const [chose, setChose] = useState<'scheduled' | 'asked' | undefined>(mode === 'choose' ? 'scheduled' : undefined)
   const [phase, setPhase] = useState<Phase>('question')
   const [typed, setTyped] = useState('')
   const [hintLevel, setHintLevel] = useState(0)
   const [result, setResult] = useState<MatchResult | null>(null)
   const [overridden, setOverridden] = useState(false)
+  const [chosenId, setChosenId] = useState<string | null>(null)
   const shownAt = useRef(Date.now())
   const answerMs = useRef(0)
   const input = useRef<AnswerInputHandle>(null)
+  const recorder = useRecorder(() => reveal())
+  const [recordingSupported] = useState(canRecord)
+  const dictation = useDictation(lang === 'fa' && mode === 'typed' ? 'fa-IR' : null, setTyped)
+
+  // Options stay fixed for this exercise; words the learner has met in Recognition come first.
+  const options = useMemo(() => {
+    const random = seededRandom(`${seed}:options`)
+    const cards = useProgress.getState().cards
+    const known = new Set(
+      Object.keys(cards)
+        .filter((k) => k.startsWith(`${lang}:recognition:`))
+        .map((k) => k.split(':')[2]),
+    )
+    return shuffle([concept, ...pickConceptDistractors(concept, lang, baseLang, 3, random, known)], random)
+  }, [concept, lang, baseLang, seed])
 
   const hintScript = typed.trim() ? scriptOf(typed) : answerScript
   const canHint = phase === 'question' && hintLevel < maxHintLevel(hintSlots(entry.primary, hintScript))
@@ -88,13 +113,39 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
     setPhase('feedback')
   }
 
-  const reveal = () => {
+  function reveal() {
     if (phase !== 'question') return
     answerMs.current = Date.now() - shownAt.current
     setPhase('feedback')
   }
 
+  const answerChoice = (id: string) => {
+    if (phase !== 'question') return
+    answerMs.current = Date.now() - shownAt.current
+    setChosenId(id)
+    setResult({ grade: id === concept.id ? 'exact' : 'wrong', expected: entry.primary, inputScript: answerScript })
+    setPhase('feedback')
+  }
+
+  const askOptions = () => {
+    if (phase !== 'question' || recorder.state === 'recording') return
+    setChose('asked')
+    setMode('choose')
+  }
+
+  const switchAnswer = (v: RecallAnswer) => {
+    if (phase !== 'question') return
+    setSettings({ recallAnswer: v })
+    setMode(v === 'say' ? 'spoken' : 'typed')
+  }
+
   const finish = (grade: Grade, kind: string) => onDone({ grade, kind, ms: answerMs.current })
+
+  const completeChoice = () => {
+    if (!result) return
+    const grade = recallGrade({ match: result.grade, hintsUsed: hintLevel, responseMs: answerMs.current, fastMs: 0, attempt, chose })
+    finish(grade, chose === 'asked' ? 'recall-options' : 'recall-choose')
+  }
 
   const completeTyped = () => {
     if (!result) return
@@ -125,6 +176,11 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   useEffect(() => {
     if (phase !== 'question') return
     const onKey = (e: KeyboardEvent) => {
+      if (mode === 'choose') {
+        const n = Number(e.key)
+        if (n >= 1 && n <= options.length) answerChoice(options[n - 1].id)
+        return
+      }
       if (e.key === '?' || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'h')) {
         e.preventDefault()
         takeHint()
@@ -155,29 +211,145 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
     </Button>
   )
 
+  const answerBar = phase === 'question' && recorder.state !== 'recording' && (
+    <div className="flex flex-wrap items-center justify-between gap-2">
+      <div role="tablist" aria-label={s.answerBy} className="inline-grid grid-cols-2 gap-1 rounded-xl bg-muted p-1">
+        {(['type', 'say'] as const).map((v) => {
+          const active = (v === 'say') === (mode === 'spoken')
+          const Icon = v === 'type' ? Keyboard : Mic
+          return (
+            <button
+              key={v}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              onClick={() => switchAnswer(v)}
+              className={cn(
+                'flex h-9 items-center justify-center gap-1.5 rounded-lg px-3 text-sm font-medium transition',
+                active ? 'bg-card text-foreground shadow-sm' : 'text-muted-foreground hover:text-foreground',
+              )}
+            >
+              <Icon className="size-4" />
+              {v === 'type' ? s.typeTab : s.sayTab}
+            </button>
+          )
+        })}
+      </div>
+      <Button variant="ghost" size="sm" onClick={askOptions} title={s.optionsCost}>
+        <ListChecks />
+        {s.showOptions}
+      </Button>
+    </div>
+  )
+
+  if (mode === 'choose') {
+    const wrongChoice = result?.grade === 'wrong'
+    return (
+      <div className="flex flex-col gap-6">
+        <p className="text-center text-sm font-medium text-muted-foreground">{s.choosePrompt[lang]}</p>
+        <RecallPrompt concept={concept} />
+        {chose === 'asked' && phase === 'question' && <p className="-mt-3 text-center text-xs text-muted-foreground">{s.optionsCost}</p>}
+        <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2" role="group" aria-label={s.choosePrompt[lang]}>
+          {options.map((o, i) => {
+            const form = o[lang]!.primary
+            const state =
+              phase === 'feedback' ? (o.id === concept.id ? 'right' : o.id === chosenId ? 'wrong' : 'dim') : 'idle'
+            return (
+              <button
+                key={o.id}
+                type="button"
+                disabled={phase !== 'question'}
+                onClick={() => answerChoice(o.id)}
+                className={cn(
+                  'group flex min-h-16 animate-pop-in items-center gap-3 rounded-2xl border-2 bg-card px-4 py-3 shadow-xs transition',
+                  state === 'idle' && 'hover:-translate-y-0.5 hover:border-primary/60 hover:shadow-md active:translate-y-0 motion-reduce:hover:translate-y-0',
+                  state === 'right' && 'border-success bg-success/10',
+                  state === 'wrong' && 'animate-shake border-destructive bg-destructive/10',
+                  state === 'dim' && 'opacity-50',
+                )}
+                style={{ animationDelay: `${i * 40}ms` }}
+              >
+                <kbd className="hidden size-6 shrink-0 items-center justify-center rounded-md border bg-muted text-xs text-muted-foreground sm:flex">
+                  {i + 1}
+                </kbd>
+                <AnswerLine lang={lang} text={form.script} latin={form.latin} showLatin={romanization !== 'never'} className="flex-1" />
+              </button>
+            )
+          })}
+        </div>
+        {phase === 'feedback' && result && (
+          <FeedbackPanel
+            grade={result.grade}
+            onContinue={completeChoice}
+            details={
+              hasAnswerExtras(concept, lang, entry.primary, compare) ? (
+                <AnswerExtras concept={concept} lang={lang} shown={entry.primary} />
+              ) : undefined
+            }
+          >
+            <AnswerDetails concept={concept} lang={lang} shown={entry.primary} caption={wrongChoice ? c.feedback.expected : undefined} autoPlay />
+            {!wrongChoice && <p className="text-center text-sm text-muted-foreground">{s.nextTimeProduce}</p>}
+          </FeedbackPanel>
+        )}
+      </div>
+    )
+  }
+
   if (mode === 'spoken') {
+    const recording = recorder.state === 'recording'
     return (
       <div className="flex flex-col gap-6">
         <p className="text-center text-sm font-medium text-muted-foreground">{s.sayPrompt[lang]}</p>
         <RecallPrompt concept={concept} />
         {phase === 'question' ? (
           <>
+            {answerBar}
             {hintLevel > 0 && <HintMask form={entry.primary} lang={lang} script={answerScript} level={hintLevel} />}
-            <div className="flex items-center justify-center gap-3 text-muted-foreground">
-              <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-mod-recall/15 text-mod-recall">
-                <Mic className="size-6" />
-              </span>
-              <p className="max-w-sm text-sm">{s.sayHelp}</p>
-            </div>
-            <div className={cn('grid grid-cols-[auto_1fr] gap-2', MOBILE_DOCK)}>
-              {hintButton}
-              <Button size="xl" onClick={reveal} autoFocus>
-                {c.actions.showAnswer}
-              </Button>
-            </div>
+            {recordingSupported && recorder.state !== 'denied' ? (
+              <div className="flex flex-col items-center gap-2">
+                <button
+                  type="button"
+                  onClick={recording ? recorder.stop : () => void recorder.start()}
+                  aria-label={recording ? s.stopRecording : s.recordYourself}
+                  className={cn(
+                    'relative flex size-20 items-center justify-center rounded-full text-white shadow-lg transition focus-visible:outline-none focus-visible:ring-4',
+                    recording
+                      ? 'bg-destructive focus-visible:ring-destructive/30'
+                      : 'bg-mod-recall hover:scale-105 focus-visible:ring-mod-recall/30 motion-reduce:hover:scale-100',
+                  )}
+                >
+                  {recording && <span className="absolute inset-0 rounded-full bg-destructive/40 motion-safe:animate-ping" aria-hidden />}
+                  {recording ? <Square className="relative size-7 fill-current" /> : <Mic className="size-9" />}
+                </button>
+                <p className="max-w-sm text-center text-sm text-muted-foreground" aria-live="polite">
+                  {recording ? s.recordingNow : s.recordHelp}
+                </p>
+              </div>
+            ) : (
+              <div className="flex items-center justify-center gap-3 text-muted-foreground">
+                <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-mod-recall/15 text-mod-recall">
+                  <Mic className="size-6" />
+                </span>
+                <p className="max-w-sm text-sm">{s.sayHelp}</p>
+              </div>
+            )}
+            {!recording && (
+              <div className={cn('grid grid-cols-[auto_1fr] gap-2', MOBILE_DOCK)}>
+                {hintButton}
+                <Button size="xl" onClick={reveal} autoFocus>
+                  {c.actions.showAnswer}
+                </Button>
+              </div>
+            )}
           </>
         ) : (
           <div className="animate-pop-in space-y-4 rounded-2xl border bg-card p-4 sm:p-5">
+            {recorder.url && (
+              <div className="flex flex-col gap-1.5">
+                <span className="text-xs font-medium text-muted-foreground">{s.yourRecording}</span>
+                <audio controls src={recorder.url} className="h-10 w-full" />
+              </div>
+            )}
             <AnswerDetails concept={concept} lang={lang} shown={entry.primary} autoPlay />
             {hasAnswerExtras(concept, lang, entry.primary, compare) && (
               <Disclosure label={c.feedback.more.word} className="border-t pt-2">
@@ -205,6 +377,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
       <p className="text-center text-sm font-medium text-muted-foreground">{s.prompt[lang]}</p>
       <RecallPrompt concept={concept} />
 
+      {answerBar}
       {phase !== 'copy' && (phase === 'question' || typed) && (
         <div className="space-y-3">
           {phase === 'question' && hintLevel > 0 && (
@@ -220,6 +393,17 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
             state={inputState}
             placeholder={s.placeholder[answerScript]}
           />
+          {phase === 'question' && dictation.available && (
+            <Button
+              variant="outline"
+              className={cn('w-full', dictation.listening && 'border-mod-recall text-mod-recall')}
+              onClick={dictation.listening ? dictation.stop : dictation.start}
+              aria-pressed={dictation.listening}
+            >
+              <Mic className={cn(dictation.listening && 'motion-safe:animate-pulse')} />
+              {dictation.listening ? s.dictating : s.dictate}
+            </Button>
+          )}
         </div>
       )}
 

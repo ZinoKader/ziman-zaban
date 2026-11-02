@@ -19,6 +19,8 @@ export interface Settings {
   compare: boolean
   /** Preferred input for typed answers. Both are always accepted. */
   answerScript: 'arabic' | 'latin'
+  /** Recall: type the word, or say it aloud and grade yourself. */
+  recallAnswer: 'type' | 'say'
   newPerSession: number
   sessionSize: number
   autoplayAudio: boolean
@@ -37,6 +39,7 @@ export const DEFAULT_SETTINGS: Settings = {
   showScript: false,
   compare: true,
   answerScript: 'latin',
+  recallAnswer: 'type',
   newPerSession: 6,
   sessionSize: 15,
   autoplayAudio: true,

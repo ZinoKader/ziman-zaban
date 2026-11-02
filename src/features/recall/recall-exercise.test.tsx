@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { TooltipProvider } from '@/components/ui/tooltip'
@@ -12,8 +12,10 @@ import { chooseMode, modeSeed } from './grading'
 import { RecallExercise } from './recall-exercise'
 
 const newItem: Candidate = { key: 'ckb:recall:thank-you', itemId: 'thank-you', isNew: true, order: 0 }
+/** Past the options stage and not yet stable enough to be asked aloud: typed. */
+const reviewed: Candidate = { ...newItem, isNew: false, card: { ...newCard(new Date()), reps: 3, stability: 3, state: State.Review } }
 
-function renderExercise(item: Candidate = newItem, attempt = 0) {
+function renderExercise(item: Candidate = reviewed, attempt = 0) {
   const onDone = vi.fn<(r: ExerciseResult) => void>()
   render(
     <MemoryRouter>
@@ -34,7 +36,7 @@ function answer(text: string) {
 const button = (name: RegExp | string) => screen.getByRole('button', { name })
 
 beforeEach(() => {
-  useSettings.setState({ baseLang: 'en', targetLang: 'ckb', answerScript: 'latin', compare: true, showScript: true, autoplayAudio: false })
+  useSettings.setState({ baseLang: 'en', targetLang: 'ckb', answerScript: 'latin', recallAnswer: 'type', romanization: 'always', compare: true, showScript: true, autoplayAudio: false })
   useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
 })
 
@@ -79,7 +81,7 @@ describe('RecallExercise', () => {
   })
 
   it('does not award Easy on a re-ask', () => {
-    const onDone = renderExercise(newItem, 1)
+    const onDone = renderExercise(reviewed, 1)
     answer('supas')
     fireEvent.click(button('Continue'))
     expect(onDone.mock.calls[0][0].grade).toBe(Rating.Good)
@@ -148,7 +150,7 @@ describe('RecallExercise', () => {
     let item: Candidate | undefined
     for (let reps = 1; reps < 50 && !item; reps++) {
       const card = { ...newCard(new Date()), stability: 30, reps, state: State.Review }
-      const candidate: Candidate = { ...newItem, isNew: false, card }
+      const candidate: Candidate = { ...reviewed, card }
       if (chooseMode(candidate, 0, seededRandom(modeSeed(candidate, 0))) === 'spoken') item = candidate
     }
     const onDone = renderExercise(item!)
@@ -158,5 +160,52 @@ describe('RecallExercise', () => {
     expect(screen.getByText('سوپاس')).toBeInTheDocument()
     fireEvent.click(button('Good'))
     expect(onDone.mock.calls[0][0]).toMatchObject({ grade: Rating.Good, kind: 'recall-spoken' })
+  })
+
+  it('lets a new word be picked among four options, never above Good', () => {
+    const onDone = renderExercise(newItem)
+    expect(screen.getByText('Which is the Sorani word?')).toBeInTheDocument()
+    expect(screen.queryByPlaceholderText('Latin or Arabic letters')).not.toBeInTheDocument()
+    const options = within(screen.getByRole('group')).getAllByRole('button')
+    expect(options).toHaveLength(4)
+    fireEvent.click(options.find((o) => o.textContent?.includes('supas'))!)
+    expect(screen.getByText('Correct!')).toBeInTheDocument()
+    fireEvent.click(button('Continue'))
+    expect(onDone.mock.calls[0][0]).toMatchObject({ grade: Rating.Good, kind: 'recall-choose' })
+  })
+
+  it('grades a wrong pick Again and shows the right word', () => {
+    const onDone = renderExercise(newItem)
+    const options = within(screen.getByRole('group')).getAllByRole('button')
+    fireEvent.click(options.find((o) => !o.textContent?.includes('supas'))!)
+    expect(screen.getByText('Not quite')).toBeInTheDocument()
+    fireEvent.click(button('Continue'))
+    expect(onDone.mock.calls[0][0].grade).toBe(Rating.Again)
+  })
+
+  it('offers the four options instead of typing, capped at Hard', () => {
+    const onDone = renderExercise()
+    fireEvent.click(button('Show 4 options'))
+    expect(screen.getByText(/counts like a hint/)).toBeInTheDocument()
+    fireEvent.click(within(screen.getByRole('group')).getAllByRole('button').find((o) => o.textContent?.includes('supas'))!)
+    fireEvent.click(button('Continue'))
+    expect(onDone.mock.calls[0][0]).toMatchObject({ grade: Rating.Hard, kind: 'recall-options' })
+  })
+
+  it('switches to saying the word aloud and remembers the choice', () => {
+    const onDone = renderExercise()
+    fireEvent.click(screen.getByRole('tab', { name: 'Say' }))
+    expect(useSettings.getState().recallAnswer).toBe('say')
+    expect(screen.getByText('Say it out loud in Sorani')).toBeInTheDocument()
+    fireEvent.click(button('Show answer'))
+    fireEvent.click(button('Good'))
+    expect(onDone.mock.calls[0][0]).toMatchObject({ kind: 'recall-spoken' })
+  })
+
+  it('asks aloud straight away for learners who prefer saying', () => {
+    useSettings.setState({ recallAnswer: 'say' })
+    renderExercise()
+    expect(screen.getByText('Say it out loud in Sorani')).toBeInTheDocument()
+    expect(screen.getByRole('tab', { name: 'Say' })).toHaveAttribute('aria-selected', 'true')
   })
 })

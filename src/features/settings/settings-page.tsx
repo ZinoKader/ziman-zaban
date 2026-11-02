@@ -179,6 +179,9 @@ export function SettingsPage() {
           <Row label={s.answerScript}>
             <Choice k="answerScript" options={s.answerScriptOptions} />
           </Row>
+          <Row label={s.recallAnswer} hint={s.recallAnswerHint}>
+            <Choice k="recallAnswer" options={s.recallAnswerOptions} />
+          </Row>
           <Row label={s.audio}>
             <Switch checked={settings.autoplayAudio} onCheckedChange={(v) => settings.set({ autoplayAudio: v })} />
           </Row>

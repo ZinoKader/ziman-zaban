@@ -5,20 +5,28 @@ import { canonicalize, isArabicScript } from '@/lib/script/normalize'
 import { gradeOutcome, Rating, type Grade } from '@/lib/srs'
 import { hintSlots, letterCount, stripEndPunctuation, type AnswerScript } from './hints'
 
-export type RecallMode = 'typed' | 'spoken'
+export type RecallMode = 'choose' | 'typed' | 'spoken'
+/** How the learner prefers to answer once a word is past the options stage. */
+export type RecallAnswer = 'type' | 'say'
 
 /** Stability (days) from which a recall card may be reviewed by saying the word aloud. */
 export const SPOKEN_MIN_STABILITY = 7
 export const SPOKEN_SHARE = 0.3
+/** A word is picked among options until it has been recalled this many times. */
+export const CHOOSE_UNTIL_REPS = 2
 
 /*
- * Typing is the default: it forces an exact, checkable answer, spelling included.
- * Well-known words are sometimes practised out loud instead, since speaking is the
- * goal, but never on a re-ask after a miss, where an objective check matters most.
+ * Scaffolded like Q&A: a word that just arrived from Recognition is first picked among four
+ * options (meaning -> word, the direction speaking needs), then produced from memory.
+ * Producing is typed by default, which checks spelling too; learners who prefer to say the
+ * word aloud get that instead and grade themselves. Typists still say well-known words aloud
+ * now and then, but never on a re-ask after a miss, where an objective check matters most.
  */
-export function chooseMode(item: Candidate, attempt: number, random: () => number): RecallMode {
+export function chooseMode(item: Candidate, attempt: number, random: () => number, prefer: RecallAnswer = 'type'): RecallMode {
   const card = item.card
-  if (attempt > 0 || item.isNew || !card) return 'typed'
+  if (item.isNew || !card || card.reps < CHOOSE_UNTIL_REPS) return 'choose'
+  if (prefer === 'say') return 'spoken'
+  if (attempt > 0) return 'typed'
   return card.stability >= SPOKEN_MIN_STABILITY && random() < SPOKEN_SHARE ? 'spoken' : 'typed'
 }
 
@@ -86,9 +94,16 @@ export interface RecallOutcome {
   attempt: number
   /** The learner said a typed answer judged wrong was right. */
   overridden?: boolean
+  /** Picked among options: by schedule (a new word) or as help asked for instead of producing it. */
+  chose?: 'scheduled' | 'asked'
 }
 
 export function recallGrade(o: RecallOutcome): Grade {
+  if (o.chose) {
+    // Picking overestimates what the learner can produce: never Easy, and asking for options counts like a hint.
+    if (o.match === 'wrong') return Rating.Again
+    return o.chose === 'asked' || o.hintsUsed > 0 ? Rating.Hard : Rating.Good
+  }
   if (o.overridden) return o.hintsUsed > 0 ? Rating.Hard : Rating.Good
   const g = gradeOutcome({
     match: o.match,

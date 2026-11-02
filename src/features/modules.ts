@@ -66,7 +66,7 @@ export const moduleWhy = defineStrings({
     recognition:
       'Retrieving a meaning from memory (rather than re-reading it) is one of the most robust findings in memory research, the "testing effect". Immediate feedback after every answer and reviews spread over days (spaced repetition) make it stick.',
     recall:
-      'You get good at what you practise: going from meaning to word is what speaking needs, and it is harder than recognising. Studies of vocabulary learning find productive recall builds productive knowledge best. No options, no hints, just memory.',
+      'You get good at what you practise: going from meaning to word is what speaking needs, and it is harder than recognising. Studies of vocabulary learning find productive recall builds productive knowledge best. A new word is first picked among four options; after that you type it or say it aloud from memory.',
     construction:
       'Words only become speech when you can put them in order with the right endings. Building sentences from words you already know focuses attention on grammar: word order (verb last), suffixes and agreement.',
     response:
@@ -76,7 +76,7 @@ export const moduleWhy = defineStrings({
     recognition:
       'Att plocka fram en betydelse ur minnet (i stället för att läsa om den) är ett av minnesforskningens mest robusta resultat, "testeffekten". Direkt återkoppling efter varje svar och repetitioner utspridda över dagar (spridd repetition) gör att det fastnar.',
     recall:
-      'Man blir bra på det man övar på: att gå från betydelse till ord är vad talet kräver, och det är svårare än att känna igen. Forskning om ordinlärning visar att produktiv återkallning bygger produktiv kunskap bäst. Inga alternativ, inga ledtrådar, bara minnet.',
+      'Man blir bra på det man övar på: att gå från betydelse till ord är vad talet kräver, och det är svårare än att känna igen. Forskning om ordinlärning visar att produktiv återkallning bygger produktiv kunskap bäst. Ett nytt ord väljer du först bland fyra alternativ; sedan skriver du det eller säger det högt ur minnet.',
     construction:
       'Ord blir tal först när du kan sätta dem i rätt ordning med rätt ändelser. Att bygga meningar av ord du redan kan riktar uppmärksamheten mot grammatiken: ordföljd (verbet sist), suffix och kongruens.',
     response:

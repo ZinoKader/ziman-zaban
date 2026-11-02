@@ -71,14 +71,31 @@ describe('recallGrade', () => {
 describe('chooseMode', () => {
   const always = () => 0
   const never = () => 0.99
-  it('types new, young and re-asked items', () => {
-    expect(chooseMode(candidate(), 0, always)).toBe('typed')
+  it('lets new words and words recalled only once be picked among options', () => {
+    expect(chooseMode(candidate(), 0, always)).toBe('choose')
+    expect(chooseMode({ ...candidate(1), card: { ...candidate(1).card!, reps: 1 } }, 0, always)).toBe('choose')
+    expect(chooseMode(candidate(), 0, always, 'say')).toBe('choose')
+  })
+  it('types young and re-asked items', () => {
     expect(chooseMode(candidate(3), 0, always)).toBe('typed')
     expect(chooseMode(candidate(30), 1, always)).toBe('typed')
   })
   it('sometimes asks for well-known items out loud', () => {
     expect(chooseMode(candidate(30), 0, always)).toBe('spoken')
     expect(chooseMode(candidate(30), 0, never)).toBe('typed')
+  })
+  it('always asks aloud for learners who prefer saying the word', () => {
+    expect(chooseMode(candidate(3), 0, never, 'say')).toBe('spoken')
+    expect(chooseMode(candidate(30), 1, never, 'say')).toBe('spoken')
+  })
+})
+
+describe('recallGrade for picked options', () => {
+  const base = { hintsUsed: 0, responseMs: 1000, fastMs: 0, attempt: 0 }
+  it('gives Good for a scheduled pick, Hard when the learner asked for options, Again when wrong', () => {
+    expect(recallGrade({ ...base, match: 'exact', chose: 'scheduled' })).toBe(Rating.Good)
+    expect(recallGrade({ ...base, match: 'exact', chose: 'asked' })).toBe(Rating.Hard)
+    expect(recallGrade({ ...base, match: 'wrong', chose: 'scheduled' })).toBe(Rating.Again)
   })
 })
 
