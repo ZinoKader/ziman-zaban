@@ -13,3 +13,4 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - Module pages: a new card explains when words come back for review, and shows how many come back later today, tomorrow, this week and later.
 - Module pages: the card also says what happens once you've learned every word.
 - Audio: Persian sentences, questions and answers have a new voice.
+- App: "What's new" in the menu lists changes like these, and the home page tells you when there are new ones.
