@@ -143,6 +143,33 @@ export function forecast(
   return out
 }
 
+export interface ReviewOutlook {
+  laterToday: number
+  tomorrow: number
+  /** The five days after tomorrow. */
+  thisWeek: number
+  later: number
+}
+
+/** When one module's cards that aren't due yet come back. */
+export function reviewOutlook(cards: Cards, lang: TargetLang, skill: Skill, now = new Date()): ReviewOutlook {
+  const day = (i: number) => new Date(now.getFullYear(), now.getMonth(), now.getDate() + i).getTime()
+  const [tomorrow, dayAfter, nextWeek] = [day(1), day(2), day(7)]
+  const out: ReviewOutlook = { laterToday: 0, tomorrow: 0, thisWeek: 0, later: 0 }
+  for (const [k, card] of Object.entries(cards)) {
+    if (!card) continue
+    const key = parseCardKey(k as CardKey)
+    if (key.lang !== lang || key.skill !== skill) continue
+    const due = new Date(card.due).getTime()
+    if (due <= now.getTime()) continue
+    if (due < tomorrow) out.laterToday++
+    else if (due < dayAfter) out.tomorrow++
+    else if (due < nextWeek) out.thisWeek++
+    else out.later++
+  }
+  return out
+}
+
 export interface HardWord {
   concept: Concept
   lang: TargetLang

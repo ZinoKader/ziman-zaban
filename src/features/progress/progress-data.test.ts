@@ -9,6 +9,7 @@ import {
   forecast,
   hardestWords,
   moduleProgress,
+  reviewOutlook,
   sessionGain,
   startedLanguages,
   unitProgress,
@@ -148,6 +149,21 @@ describe('forecast', () => {
     const f = forecast(cards, 'ckb', now, 7)
     expect(f.map((d) => d.day)).toEqual(['2026-03-10', '2026-03-11', '2026-03-12', '2026-03-13', '2026-03-14', '2026-03-15', '2026-03-16'])
     expect(f.map((d) => d.count)).toEqual([2, 1, 0, 0, 0, 0, 1])
+  })
+})
+
+describe('reviewOutlook', () => {
+  it("counts one module's cards that come back later, leaving out what is due now", () => {
+    const cards: Cards = {
+      [cardKey('ckb', 'recall', 'a')]: dueAt(at(2026, 3, 1)),
+      [cardKey('ckb', 'recall', 'b')]: dueAt(at(2026, 3, 10, 20)),
+      [cardKey('ckb', 'recall', 'c')]: dueAt(at(2026, 3, 11, 8)),
+      [cardKey('ckb', 'recall', 'd')]: dueAt(at(2026, 3, 16, 23)),
+      [cardKey('ckb', 'recall', 'e')]: dueAt(at(2026, 3, 17, 1)),
+      [cardKey('ckb', 'recognition', 'f')]: dueAt(at(2026, 3, 10, 20)),
+      [cardKey('fa', 'recall', 'g')]: dueAt(at(2026, 3, 10, 20)),
+    }
+    expect(reviewOutlook(cards, 'ckb', 'recall', now)).toEqual({ laterToday: 1, tomorrow: 1, thisWeek: 1, later: 1 })
   })
 })
 

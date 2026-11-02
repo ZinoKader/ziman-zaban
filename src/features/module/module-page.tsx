@@ -1,4 +1,4 @@
-import { Lightbulb, Lock, Play } from 'lucide-react'
+import { CalendarClock, Lightbulb, Lock, Play } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { Button } from '@/components/ui/button'
@@ -12,6 +12,7 @@ import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { moduleBySlug, moduleWhy } from '@/features/modules'
 import { Meter } from '@/features/progress/meter'
+import { reviewOutlook } from '@/features/progress/progress-data'
 import { progressStrings } from '@/features/progress/strings'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
@@ -33,10 +34,28 @@ const strings = defineStrings({
       response: 'Questions unlock once you can recall most of the words they use.',
     },
     noContent: 'No content in this unit yet',
+    reviews: 'How reviews work',
+    reviewsBody:
+      "Everything you practise comes back just before you'd forget it: first after a few minutes, then after about two days, then about a week and a half, then weeks and months. Get it right and the gap grows; miss it and it comes back sooner. So a big session today doesn't mean doing it all again tomorrow, just a few reviews spread over the coming days.",
+    comingBack: 'Coming back',
+    laterToday: 'Later today',
+    tomorrow: 'Tomorrow',
+    thisWeek: 'This week',
+    later: 'Later',
+    afterAll: {
+      recognition: (n: number) =>
+        `What happens after all ${n} words? They stay with you: learned words keep coming back at longer and longer intervals, so they stick for good. They also move on to Recall, where you produce them yourself, and then into Sentence building and Q&A.`,
+      recall: (n: number) =>
+        `What happens after all ${n} words? They keep coming back at longer and longer intervals, weeks and then months apart, so they stay in your long-term memory. And you use them in Sentence building and Q&A.`,
+      construction: (n: number) =>
+        `What happens after all ${n} sentences? They come back now and then so the grammar stays automatic, while Q&A puts the same words to work in real conversations.`,
+      response: (n: number) =>
+        `What happens after all ${n} questions? They come back at longer and longer intervals, so you can keep answering them without thinking.`,
+    },
   },
   sv: {
     start: 'Starta passet',
-    due: 'Att repetera',
+    due: 'Att repetera nu',
     available: 'Redo att lära',
     learned: 'Inlärda',
     total: 'Totalt',
@@ -50,6 +69,24 @@ const strings = defineStrings({
       response: 'Frågor låses upp när du kan plocka fram de flesta orden de använder.',
     },
     noContent: 'Inget innehåll i den här enheten än',
+    reviews: 'Så fungerar repetitionerna',
+    reviewsBody:
+      'Allt du övar kommer tillbaka precis innan du skulle glömma det: först efter några minuter, sedan efter ungefär två dagar, sedan efter en dryg vecka och sedan efter veckor och månader. Svarar du rätt blir uppehållet längre, svarar du fel kommer det tillbaka snabbare. Gör du mycket idag behöver du alltså inte göra om allt imorgon, bara några repetitioner utspridda över de kommande dagarna.',
+    comingBack: 'Kommer tillbaka',
+    laterToday: 'Senare idag',
+    tomorrow: 'Imorgon',
+    thisWeek: 'I veckan',
+    later: 'Senare',
+    afterAll: {
+      recognition: (n: number) =>
+        `Vad händer efter alla ${n} ord? De stannar kvar: inlärda ord fortsätter att komma tillbaka med allt längre mellanrum, så att de fastnar på riktigt. De går också vidare till Återkallning, där du plockar fram dem själv, och sedan till Meningsbygge och Frågor & svar.`,
+      recall: (n: number) =>
+        `Vad händer efter alla ${n} ord? De fortsätter att komma tillbaka med allt längre mellanrum, veckor och sedan månader, så att de stannar i långtidsminnet. Och du använder dem i Meningsbygge och Frågor & svar.`,
+      construction: (n: number) =>
+        `Vad händer efter alla ${n} meningar? De kommer tillbaka då och då så att grammatiken sitter, medan Frågor & svar använder samma ord i riktiga samtal.`,
+      response: (n: number) =>
+        `Vad händer efter alla ${n} frågor? De kommer tillbaka med allt längre mellanrum, så att du kan svara utan att tänka efter.`,
+    },
   },
 })
 
@@ -77,8 +114,9 @@ export function ModulePage() {
       return { unit: u, total: inUnit.length, learned, started, unlocked }
     })
   }, [meta, lang, cards])
+  const outlook = useMemo(() => (meta ? reviewOutlook(cards, lang, meta.skill, now) : null), [meta, lang, cards, now])
 
-  if (!meta || !status) return <Navigate to="/" replace />
+  if (!meta || !outlook || !status) return <Navigate to="/" replace />
   const Icon = meta.icon
   const canStart = status.due > 0 || status.available > 0
 
@@ -129,6 +167,37 @@ export function ModulePage() {
               {s.lockedHint[meta.skill] || s.nothing}
             </p>
           )}
+        </div>
+      </section>
+
+      <section className="flex gap-3 rounded-2xl border bg-card p-5">
+        <CalendarClock className={cn('mt-0.5 size-5 shrink-0', meta.text)} />
+        <div className="min-w-0 flex-1 space-y-3">
+          <div>
+            <h2 className="font-medium">{s.reviews}</h2>
+            <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{s.reviewsBody}</p>
+          </div>
+          {status.started > 0 && (
+            <div>
+              <h3 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.comingBack}</h3>
+              <dl className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
+                {(
+                  [
+                    [s.laterToday, outlook.laterToday],
+                    [s.tomorrow, outlook.tomorrow],
+                    [s.thisWeek, outlook.thisWeek],
+                    [s.later, outlook.later],
+                  ] as const
+                ).map(([label, value]) => (
+                  <div key={label} className="flex flex-col-reverse rounded-xl bg-muted/60 px-3 py-2">
+                    <dt className="text-xs text-muted-foreground">{label}</dt>
+                    <dd className="text-lg font-semibold tabular-nums">{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+          <p className="text-sm leading-relaxed text-muted-foreground">{s.afterAll[meta.skill](status.total)}</p>
         </div>
       </section>
 
