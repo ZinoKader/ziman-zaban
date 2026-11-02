@@ -4,6 +4,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import type { BaseLang, TargetLang } from '@/content/types'
 import { defineStrings } from '@/i18n'
 import { cn } from '@/lib/utils'
+import { latestRelease } from '@/features/whats-new/changelog'
 import { useSettings, type RomanizationMode } from '@/store/settings'
 
 const strings = defineStrings({
@@ -96,7 +97,7 @@ export function Onboarding() {
         <Button
           size="xl"
           className="w-full"
-          onClick={() => settings.set({ targetLang: target, romanization: rom, answerScript: rom === 'never' ? 'arabic' : 'latin', onboarded: true })}
+          onClick={() => settings.set({ targetLang: target, romanization: rom, answerScript: rom === 'never' ? 'arabic' : 'latin', onboarded: true, changelogSeen: latestRelease })}
         >
           {s.go}
         </Button>

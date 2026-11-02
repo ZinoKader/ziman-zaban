@@ -21,6 +21,12 @@ export function shortDate(date: Date, lang: BaseLang): string {
   return new Intl.DateTimeFormat(locale(lang), { weekday: 'long', day: 'numeric', month: 'long' }).format(date)
 }
 
+/** "2 November 2026" for a YYYY-MM-DD day key. */
+export function longDate(day: string, lang: BaseLang): string {
+  const [y, m, d] = day.split('-').map(Number)
+  return new Intl.DateTimeFormat(locale(lang), { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(y, m - 1, d))
+}
+
 export function formatBytes(n: number, lang: BaseLang): string {
   const fmt = new Intl.NumberFormat(locale(lang), { maximumFractionDigits: 1 })
   if (n < 1024) return `${fmt.format(n)} B`

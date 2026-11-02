@@ -1,4 +1,4 @@
-import { BookA, ChartNoAxesColumn, GraduationCap, Home, Info, Languages, Menu, Settings as SettingsIcon, ShieldCheck, SpellCheck } from 'lucide-react'
+import { BookA, ChartNoAxesColumn, GraduationCap, Home, Info, Languages, Menu, Settings as SettingsIcon, ShieldCheck, Sparkles, SpellCheck } from 'lucide-react'
 import { useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router'
 import { Button } from '@/components/ui/button'
@@ -17,6 +17,8 @@ import { cn } from '@/lib/utils'
 import { MODULES } from '@/features/modules'
 import { SaveIndicator } from '@/features/progress/save-indicator'
 import { progressStrings } from '@/features/progress/strings'
+import { hasUnseen } from '@/features/whats-new/changelog'
+import { whatsNewStrings } from '@/features/whats-new/strings'
 import { useSettings } from '@/store/settings'
 
 function useTheme() {
@@ -83,6 +85,7 @@ const MORE = [
   { to: '/words', icon: BookA, key: 'words' },
   { to: '/grammar', icon: GraduationCap, key: 'grammar' },
   { to: '/alphabet', icon: SpellCheck, key: 'alphabet' },
+  { to: '/whats-new', icon: Sparkles, key: 'whatsNew' },
   { to: '/settings', icon: SettingsIcon, key: 'settings' },
   { to: '/about', icon: Info, key: 'about' },
   { to: '/review', icon: ShieldCheck, key: 'review' },
@@ -93,6 +96,8 @@ export function AppLayout() {
   useDocumentLang()
   const s = common.use()
   const p = progressStrings.use()
+  const w = whatsNewStrings.use()
+  const unseen = hasUnseen(useSettings((st) => st.changelogSeen))
   const location = useLocation()
   const inSession = /\/session/.test(location.pathname)
 
@@ -143,8 +148,9 @@ export function AppLayout() {
                 <BaseLangSwitch />
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" size="icon" aria-label="Menu">
+                    <Button variant="ghost" size="icon" aria-label={unseen ? `Menu, ${w.unseen}` : 'Menu'} className="relative">
                       <Menu />
+                      {unseen && <span className="absolute end-1.5 top-1.5 size-2 rounded-full bg-primary" aria-hidden />}
                     </Button>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end" className="w-52">
@@ -165,6 +171,9 @@ export function AppLayout() {
                       <DropdownMenuItem key={m.to} asChild>
                         <NavLink to={m.to}>
                           <m.icon /> {s.nav[m.key]}
+                          {m.key === 'whatsNew' && unseen && (
+                            <span className="ms-auto size-2 rounded-full bg-primary" aria-label={w.unseen} />
+                          )}
                         </NavLink>
                       </DropdownMenuItem>
                     ))}

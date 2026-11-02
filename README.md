@@ -104,7 +104,7 @@ npm run content:check
 
 ## Writing prose and the changelog
 
-[`CHANGELOG.md`](CHANGELOG.md) lists what changed for learners. Anything written in this repo (changelog, docs, UI strings, commit messages) follows [`.cursor/skills/writing/SKILL.md`](.cursor/skills/writing/SKILL.md): plain words, short sentences, no LLM language. Changelog entries also follow [`.cursor/skills/changelog/SKILL.md`](.cursor/skills/changelog/SKILL.md): one short bullet per change.
+[`CHANGELOG.md`](CHANGELOG.md) (English) and [`CHANGELOG.sv.md`](CHANGELOG.sv.md) (Swedish) list what changed for learners. The app shows them on its "What's new" page. Anything written in this repo (changelog, docs, UI strings, commit messages) follows [`.cursor/skills/writing/SKILL.md`](.cursor/skills/writing/SKILL.md): plain words, short sentences, no LLM language. Changelog entries also follow [`.cursor/skills/changelog/SKILL.md`](.cursor/skills/changelog/SKILL.md): one short bullet per change.
 
 ## Project layout
 

@@ -26,6 +26,8 @@ export interface Settings {
   autoplayAudio: boolean
   theme: 'light' | 'dark' | 'system'
   onboarded: boolean
+  /** Date (YYYY-MM-DD) of the newest changelog entry the learner has seen. */
+  changelogSeen: string | null
 }
 
 interface SettingsState extends Settings {
@@ -45,6 +47,7 @@ export const DEFAULT_SETTINGS: Settings = {
   autoplayAudio: true,
   theme: 'system',
   onboarded: false,
+  changelogSeen: null,
 }
 
 export const useSettings = create<SettingsState>()(

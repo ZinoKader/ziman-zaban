@@ -8,6 +8,7 @@ import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { MODULES, type ModuleMeta } from '@/features/modules'
 import { ProgressCard } from '@/features/progress/progress-card'
+import { WhatsNewBanner } from '@/features/whats-new/whats-new-banner'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { Onboarding } from './onboarding'
@@ -76,7 +77,8 @@ export function HomePage() {
     <div className="mx-auto max-w-6xl space-y-8 px-4 py-6 sm:py-10">
       {!onboarded && <Onboarding />}
 
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-3xl space-y-3">
+        {onboarded && <WhatsNewBanner />}
         <ProgressCard lang={lang} greeting={s.hello[lang]} action={action} />
       </div>
 
