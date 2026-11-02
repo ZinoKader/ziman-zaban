@@ -102,6 +102,10 @@ npm run ref -- --check ckb "دەخۆم" "dexom"   # lint one form
 npm run content:check
 ```
 
+## Writing prose and the changelog
+
+[`CHANGELOG.md`](CHANGELOG.md) lists what changed for learners. Anything written in this repo (changelog, docs, UI strings, commit messages) follows [`.cursor/skills/writing/SKILL.md`](.cursor/skills/writing/SKILL.md): plain words, short sentences, no LLM language. Changelog entries also follow [`.cursor/skills/changelog/SKILL.md`](.cursor/skills/changelog/SKILL.md): one short bullet per change.
+
 ## Project layout
 
 ```
