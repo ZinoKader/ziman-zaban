@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { qaFor } from '@/content'
+import { conceptsFor, qaFor } from '@/content'
 import type { TargetLang } from '@/content/types'
+import { qaUnlock, type Cards } from '@/lib/curriculum'
 import { seededRandom } from '@/lib/distractors'
-import { newCard, Rating, type StoredCard } from '@/lib/srs'
+import { knownWords } from '@/lib/known-words'
+import { cardKey, newCard, Rating, type StoredCard } from '@/lib/srs'
 import { buildChoiceOptions, buildTiles, checkTiles, chooseMode, finalGrade } from './options'
 import { matchQAAnswer, sameText } from './template'
 
@@ -57,6 +59,52 @@ describe.each(['ckb', 'fa'] as TargetLang[])('choice options (%s)', (lang) => {
       const extras = bank.filter((t) => !answer.includes(t))
       expect(checkTiles([...answer, extras[0]], form, lang).grade).toBe('wrong')
     }
+  })
+})
+
+describe('options from known words only', () => {
+  const lang = 'fa'
+  const pool = qaFor(lang)
+  const greetings = conceptsFor(lang).filter((c) => c.unit === 'greetings')
+  const cards: Cards = Object.fromEntries(
+    greetings.flatMap((c) => [
+      [cardKey(lang, 'recognition', c.id), card({ reps: 3 })],
+      [cardKey(lang, 'recall', c.id), card({ reps: 1 })],
+    ]),
+  )
+  const known = knownWords(lang, cards)
+  const unlocked = pool.filter((q) => qaUnlock(q, lang, cards).unlocked)
+
+  it('has unlocked greetings to test with', () => {
+    expect(unlocked.length).toBeGreaterThan(2)
+  })
+
+  it('never makes an answer with an unseen word the right option', () => {
+    const goodbye = pool.find((q) => q.id === 'goodbye')!
+    for (let i = 0; i < 30; i++) {
+      const right = buildChoiceOptions(goodbye, lang, pool, seededRandom(`s${i}`), 4, known).find((o) => o.correct)!
+      expect(right.latin).toBe('khodâhâfez!')
+    }
+    for (const item of unlocked) {
+      for (let i = 0; i < 10; i++) {
+        const right = buildChoiceOptions(item, lang, pool, seededRandom(`${item.id}${i}`), 4, known).find((o) => o.correct)!
+        expect(known.text(right.text)).toBe(true)
+      }
+    }
+  })
+
+  it('takes distractors from known words while there are enough', () => {
+    const options = buildChoiceOptions(unlocked[0], lang, pool, seededRandom('x'), 4, known)
+    const familiar = options.filter((o) => known.text(o.text))
+    expect(familiar.length).toBeGreaterThanOrEqual(Math.min(4, unlocked.length))
+  })
+
+  it('takes extra tiles from known words first', () => {
+    const item = unlocked.find((q) => (q[lang]!.answers[0].tokens?.length ?? 0) > 1) ?? unlocked[0]
+    const { answer, bank } = buildTiles(item, lang, pool, seededRandom('t'), 3, known)
+    const extras = bank.filter((t) => !answer.includes(t))
+    expect(extras.length).toBe(3)
+    expect(extras.filter((t) => known.text(t.text)).length).toBeGreaterThan(0)
   })
 })
 

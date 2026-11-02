@@ -12,8 +12,10 @@ import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { speak } from '@/lib/audio'
 import { seededRandom } from '@/lib/distractors'
+import { knownWords } from '@/lib/known-words'
 import type { Grade } from '@/lib/srs'
 import { cn } from '@/lib/utils'
+import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { SelfGrade } from '../session/self-grade'
 import type { ExerciseProps } from '../session/types'
@@ -65,13 +67,15 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
   const seed = `${item.key}:${item.card?.reps ?? 0}:${attempt}`
   const [mode] = useState(() => chooseMode(item, form, attempt))
   const pool = useMemo(() => qaFor(lang), [lang])
+  // Taken once per exercise, so the options don't change as answers are graded.
+  const [known] = useState(() => knownWords(lang, useProgress.getState().cards))
   const options = useMemo(
-    () => (mode === 'choose' ? buildChoiceOptions(qa, lang, pool, seededRandom(`${seed}:choose`)) : []),
-    [mode, qa, lang, pool, seed],
+    () => (mode === 'choose' ? buildChoiceOptions(qa, lang, pool, seededRandom(`${seed}:choose`), 4, known) : []),
+    [mode, qa, lang, pool, seed, known],
   )
   const tiles = useMemo(
-    () => (mode === 'build' ? buildTiles(qa, lang, pool, seededRandom(`${seed}:tiles`)) : null),
-    [mode, qa, lang, pool, seed],
+    () => (mode === 'build' ? buildTiles(qa, lang, pool, seededRandom(`${seed}:tiles`), 3, known) : null),
+    [mode, qa, lang, pool, seed, known],
   )
 
   const [phase, setPhase] = useState<'question' | 'feedback'>('question')
@@ -92,7 +96,7 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
 
   const recorder = useRecorder(() => finishSpoken('spoken'))
   const [recordingSupported] = useState(canRecord)
-  const dictation = useDictation(lang === 'fa', setTyped)
+  const dictation = useDictation(lang === 'fa' ? 'fa-IR' : null, setTyped)
 
   const [waitedForVoice, setWaitedForVoice] = useState(false)
   const [voiced, setVoiced] = useState<boolean | null>(null)

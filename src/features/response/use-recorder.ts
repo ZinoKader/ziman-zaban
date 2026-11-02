@@ -95,11 +95,12 @@ function recognitionCtor(): SpeechRecognitionCtor | undefined {
 }
 
 /**
- * Optional speech-to-text for Persian (browsers offer fa-IR; there is no Sorani model).
- * The transcript goes through the same matcher as a typed answer.
+ * Optional speech-to-text in the browser, for a BCP 47 locale such as `fa-IR` or `sv-SE`
+ * (browsers have no Sorani model; pass null to turn it off). The transcript goes through the
+ * same matcher as a typed answer.
  */
-export function useDictation(enabled: boolean, onTranscript: (text: string) => void) {
-  const Ctor = enabled ? recognitionCtor() : undefined
+export function useDictation(locale: string | null, onTranscript: (text: string) => void) {
+  const Ctor = locale ? recognitionCtor() : undefined
   const [listening, setListening] = useState(false)
   const rec = useRef<SpeechRecognitionLike | null>(null)
   const callback = useRef(onTranscript)
@@ -109,9 +110,9 @@ export function useDictation(enabled: boolean, onTranscript: (text: string) => v
   useEffect(() => () => rec.current?.stop(), [])
 
   const start = useCallback(() => {
-    if (!Ctor) return
+    if (!Ctor || !locale) return
     const r = new Ctor()
-    r.lang = 'fa-IR'
+    r.lang = locale
     r.interimResults = false
     r.maxAlternatives = 1
     r.onresult = (e) => {
@@ -130,7 +131,7 @@ export function useDictation(enabled: boolean, onTranscript: (text: string) => v
     } catch {
       setListening(false)
     }
-  }, [Ctor])
+  }, [Ctor, locale])
 
   return { available: !!Ctor, listening, start, stop: () => rec.current?.stop() }
 }

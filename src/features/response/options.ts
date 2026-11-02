@@ -1,6 +1,7 @@
-import type { Localized, QAForm, QAItem, TargetLang, Token } from '@/content/types'
+import type { Localized, QAAnswer, QAForm, QAItem, TargetLang, Token } from '@/content/types'
 import type { Candidate } from '@/lib/curriculum'
 import { shuffle } from '@/lib/distractors'
+import type { KnownWords } from '@/lib/known-words'
 import type { MatchGrade } from '@/lib/script/match'
 import { gradeOutcome, Rating, type Grade } from '@/lib/srs'
 import { isTemplate, matchQAAnswer, sameText } from './template'
@@ -32,9 +33,17 @@ export interface ChoiceOption {
 
 const concreteAnswers = (form: QAForm) => form.answers.filter((a) => !isTemplate(a))
 
+/** An answer is made of known words when every token (or, untokenized, every word) is one the learner has met. */
+export function answerKnown(a: QAAnswer, known: KnownWords): boolean {
+  return a.tokens?.length ? a.tokens.every(known.token) : known.text(a.text)
+}
+
 /**
  * One fitting answer plus answers to other questions in the same language, same unit first.
  * A distractor that would also be accepted as an answer to this question is never used.
+ * With `known`, every option is made of words the learner has already met where the content allows:
+ * an alternative answer with an unseen word is never the right option, and distractors come from
+ * known words first.
  */
 export function buildChoiceOptions(
   item: QAItem,
@@ -42,24 +51,34 @@ export function buildChoiceOptions(
   pool: QAItem[],
   random: () => number,
   count = 4,
+  known?: KnownWords,
 ): ChoiceOption[] {
   const form = item[lang]!
   const own = concreteAnswers(form)
-  const right = own[Math.floor(random() * own.length)] ?? form.answers[0]
+  const familiar = known ? own.filter((a) => answerKnown(a, known)) : own
+  const rightPool = familiar.length ? familiar : own.slice(0, 1)
+  const right = rightPool[Math.floor(random() * rightPool.length)] ?? form.answers[0]
   const options: ChoiceOption[] = [{ id: `${item.id}#right`, ...right, correct: true }]
 
   const others = pool.filter((q) => q.id !== item.id && q[lang])
-  const tiers = [others.filter((q) => q.unit === item.unit), others.filter((q) => q.unit !== item.unit)]
-  for (const tier of tiers) {
-    for (const q of shuffle(tier, random)) {
+  const byUnit = [others.filter((q) => q.unit === item.unit), others.filter((q) => q.unit !== item.unit)]
+  const tiers = (known ? [true, false] : [false]).flatMap((strict) => byUnit.map((qs) => ({ qs, strict })))
+  const used = new Set<string>()
+  for (const { qs, strict } of tiers) {
+    for (const q of shuffle(qs, random)) {
       if (options.length >= count) break
+      if (used.has(q.id)) continue
       const candidates = shuffle(concreteAnswers(q[lang]!), random)
       const pick = candidates.find(
         (a) =>
+          (!strict || answerKnown(a, known!)) &&
           matchQAAnswer(a.text, form.answers, lang).grade === 'wrong' &&
           !options.some((o) => sameText(o.text, a.text, lang)),
       )
-      if (pick) options.push({ id: `${q.id}#${q[lang]!.answers.indexOf(pick)}`, ...pick, correct: false })
+      if (pick) {
+        used.add(q.id)
+        options.push({ id: `${q.id}#${q[lang]!.answers.indexOf(pick)}`, ...pick, correct: false })
+      }
     }
   }
   return shuffle(options, random)
@@ -79,21 +98,25 @@ function toTile(t: Token, id: string): Tile {
   return { id, text: tileLabel(t.text), latin: tileLabel(t.latin), gloss: t.gloss }
 }
 
-/** Word tiles for the model answer, plus a few plausible extra tiles taken from other answers. */
+/** Word tiles for the model answer, plus a few plausible extra tiles taken from other answers (known words first). */
 export function buildTiles(
   item: QAItem,
   lang: TargetLang,
   pool: QAItem[],
   random: () => number,
   extra = 3,
+  known?: KnownWords,
 ): { answer: Tile[]; bank: Tile[] } {
   const form = item[lang]!
   const answer = (form.answers[0].tokens ?? []).map((t, i) => toTile(t, `a${i}`))
   const taken = new Set(answer.map((t) => t.text))
   const others = pool.filter((q) => q.id !== item.id && q[lang])
   const tokenPool = (qs: QAItem[]) => shuffle(qs.flatMap((q) => q[lang]!.answers.flatMap((a) => a.tokens ?? [])), random)
+  const sameUnit = tokenPool(others.filter((q) => q.unit === item.unit))
+  const all = tokenPool(others)
+  const pools = known ? [sameUnit.filter(known.token), all.filter(known.token), sameUnit, all] : [sameUnit, all]
   const extras: Tile[] = []
-  for (const tokens of [tokenPool(others.filter((q) => q.unit === item.unit)), tokenPool(others)]) {
+  for (const tokens of pools) {
     for (const t of tokens) {
       if (extras.length >= extra) break
       const tile = toTile(t, `x${extras.length}`)
