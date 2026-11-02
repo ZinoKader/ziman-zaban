@@ -1,4 +1,4 @@
-import { Volume2 } from 'lucide-react'
+import { Mic, Volume2 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnswerInput } from '@/components/answer-input'
 import { useCanSpeak } from '@/components/audio-button'
@@ -18,10 +18,14 @@ import { gradeOutcome, Rating } from '@/lib/srs'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
+import { useDictation } from '../response/use-recorder'
 import type { ExerciseProps } from '../session/types'
 import { recognitionStrings } from './strings'
 
 type Mode = 'mc' | 'listen' | 'typed'
+
+/** Typed meanings can be dictated in the learner's own language instead. */
+const DICTATION_LOCALE = { sv: 'sv-SE', en: 'en-US' } as const
 
 /*
  * Recognition: Sorani/Persian -> meaning.
@@ -62,6 +66,7 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
   const [chosen, setChosen] = useState<string | null>(null)
   const [typed, setTyped] = useState('')
   const [grade, setGrade] = useState<MatchGrade>('wrong')
+  const dictation = useDictation(mode === 'typed' ? DICTATION_LOCALE[baseLang] : null, setTyped)
   const shownAt = useRef(Date.now())
   const answeredAfter = useRef(0)
 
@@ -177,6 +182,20 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
           <div className="space-y-2">
             <AnswerInput value={typed} onChange={setTyped} onSubmit={submitTyped} placeholder={s.typeMeaning} />
             <div className="flex gap-2">
+              {dictation.available && (
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className={cn('px-3', dictation.listening && 'border-mod-recognition text-mod-recognition')}
+                  onClick={dictation.listening ? dictation.stop : dictation.start}
+                  aria-pressed={dictation.listening}
+                  aria-label={dictation.listening ? s.listening : s.sayMeaning}
+                  title={s.sayMeaning}
+                >
+                  <Mic className={cn(dictation.listening && 'motion-safe:animate-pulse')} />
+                  <span className="max-sm:sr-only">{dictation.listening ? s.listening : s.say}</span>
+                </Button>
+              )}
               <Button variant="ghost" className="flex-1" onClick={() => finish('wrong')}>
                 {s.dontKnow}
               </Button>
