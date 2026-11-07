@@ -35,13 +35,13 @@ export const sessionStrings = defineStrings({
       response: 'Ska du ta några nya frågor?',
     },
     learnNew: {
-      recognition: (n: number) => `Lär dig ${n} nya ord`,
-      recall: (n: number) => `Öva på ${n} nya ord`,
+      recognition: (n: number) => `Lär dig ${n} ${plural(n, 'nytt', 'nya')} ord`,
+      recall: (n: number) => `Öva på ${n} ${plural(n, 'nytt', 'nya')} ord`,
       construction: (n: number) => `Bygg ${n} ${plural(n, 'ny mening', 'nya meningar')}`,
       response: (n: number) => `Ta ${n} ${plural(n, 'ny fråga', 'nya frågor')}`,
     },
     ready: {
-      recognition: (n: number) => `${n} nya ord väntar i Igenkänning.`,
+      recognition: (n: number) => `${n} ${plural(n, 'nytt', 'nya')} ord väntar i Igenkänning.`,
       recall: (n: number) => `${n} ord väntar på att övas i Återkallning.`,
       construction: (n: number) => `${n} ${plural(n, 'ny mening väntar', 'nya meningar väntar')} i Meningsbygge.`,
       response: (n: number) => `${n} ${plural(n, 'ny fråga väntar', 'nya frågor väntar')} i Frågor & svar.`,
