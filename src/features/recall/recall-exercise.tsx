@@ -29,12 +29,15 @@ import { recallStrings } from './strings'
 
 /*
  * Recall: meaning -> Sorani/Persian word.
- *  - A word fresh from Recognition is first picked among four options (see `chooseMode`).
- *  - After that it is produced from memory: typed (Arabic script or Latin letters), or said
- *    aloud and self-graded, whichever the learner prefers.
- *  - Hints reveal letters one by one; both hints and asking for the options cap the grade at Hard.
+ *  - By default the word is picked among four options. Learners who switch to typing or
+ *    saying still pick a word fresh from Recognition among options first (see `chooseMode`).
+ *  - Producing is typed (Arabic script or Latin letters), or said aloud and self-graded.
+ *  - Hints reveal letters one by one and cap the grade at Hard.
  *  - After a typed miss, the learner types the correct form once before moving on.
  */
+
+const MODE_OF: Record<RecallAnswer, RecallMode> = { choose: 'choose', type: 'typed', say: 'spoken' }
+const TAB_ICON = { choose: ListChecks, type: Keyboard, say: Mic } as const
 
 /** Bottom-anchored on phones so the main action stays in reach of the thumb. */
 const MOBILE_DOCK = 'max-sm:sticky max-sm:bottom-0 max-sm:z-10 max-sm:-mx-4 max-sm:bg-background/95 max-sm:px-4 max-sm:pb-safe max-sm:pt-2 max-sm:backdrop-blur'
@@ -63,7 +66,6 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
 
   const seed = modeSeed(item, attempt)
   const [mode, setMode] = useState<RecallMode>(() => chooseMode(item, attempt, seededRandom(seed), recallAnswer))
-  const [chose, setChose] = useState<'scheduled' | 'asked' | undefined>(mode === 'choose' ? 'scheduled' : undefined)
   const [phase, setPhase] = useState<Phase>('question')
   const [typed, setTyped] = useState('')
   const [hintLevel, setHintLevel] = useState(0)
@@ -127,24 +129,18 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
     setPhase('feedback')
   }
 
-  const askOptions = () => {
-    if (phase !== 'question' || recorder.state === 'recording') return
-    setChose('asked')
-    setMode('choose')
-  }
-
   const switchAnswer = (v: RecallAnswer) => {
-    if (phase !== 'question') return
+    if (phase !== 'question' || recorder.state === 'recording') return
     setSettings({ recallAnswer: v })
-    setMode(v === 'say' ? 'spoken' : 'typed')
+    setMode(v === 'choose' ? 'choose' : v === 'say' ? 'spoken' : 'typed')
   }
 
   const finish = (grade: Grade, kind: string) => onDone({ grade, kind, ms: answerMs.current })
 
   const completeChoice = () => {
     if (!result) return
-    const grade = recallGrade({ match: result.grade, hintsUsed: hintLevel, responseMs: answerMs.current, fastMs: 0, attempt, chose })
-    finish(grade, chose === 'asked' ? 'recall-options' : 'recall-choose')
+    const grade = recallGrade({ match: result.grade, hintsUsed: hintLevel, responseMs: answerMs.current, fastMs: 0, attempt, chose: true })
+    finish(grade, 'recall-choose')
   }
 
   const completeTyped = () => {
@@ -212,11 +208,11 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   )
 
   const answerBar = phase === 'question' && recorder.state !== 'recording' && (
-    <div className="flex flex-wrap items-center justify-between gap-2">
-      <div role="tablist" aria-label={s.answerBy} className="inline-grid grid-cols-2 gap-1 rounded-xl bg-muted p-1">
-        {(['type', 'say'] as const).map((v) => {
-          const active = (v === 'say') === (mode === 'spoken')
-          const Icon = v === 'type' ? Keyboard : Mic
+    <div className="flex justify-center">
+      <div role="tablist" aria-label={s.answerBy} className="inline-grid grid-cols-3 gap-1 rounded-xl bg-muted p-1">
+        {(['choose', 'type', 'say'] as const).map((v) => {
+          const active = MODE_OF[v] === mode
+          const Icon = TAB_ICON[v]
           return (
             <button
               key={v}
@@ -230,15 +226,11 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
               )}
             >
               <Icon className="size-4" />
-              {v === 'type' ? s.typeTab : s.sayTab}
+              {s.tabs[v]}
             </button>
           )
         })}
       </div>
-      <Button variant="ghost" size="sm" onClick={askOptions} title={s.optionsCost}>
-        <ListChecks />
-        {s.showOptions}
-      </Button>
     </div>
   )
 
@@ -248,7 +240,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
       <div className="flex flex-col gap-6">
         <p className="text-center text-sm font-medium text-muted-foreground">{s.choosePrompt[lang]}</p>
         <RecallPrompt concept={concept} />
-        {chose === 'asked' && phase === 'question' && <p className="-mt-3 text-center text-xs text-muted-foreground">{s.optionsCost}</p>}
+        {answerBar}
         <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2" role="group" aria-label={s.choosePrompt[lang]}>
           {options.map((o, i) => {
             const form = o[lang]!.primary
@@ -288,7 +280,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
             }
           >
             <AnswerDetails concept={concept} lang={lang} shown={entry.primary} caption={wrongChoice ? c.feedback.expected : undefined} autoPlay />
-            {!wrongChoice && <p className="text-center text-sm text-muted-foreground">{s.nextTimeProduce}</p>}
+            {!wrongChoice && recallAnswer !== 'choose' && <p className="text-center text-sm text-muted-foreground">{s.nextTimeProduce}</p>}
           </FeedbackPanel>
         )}
       </div>

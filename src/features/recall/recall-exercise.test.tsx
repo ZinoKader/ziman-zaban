@@ -151,7 +151,7 @@ describe('RecallExercise', () => {
     for (let reps = 1; reps < 50 && !item; reps++) {
       const card = { ...newCard(new Date()), stability: 30, reps, state: State.Review }
       const candidate: Candidate = { ...reviewed, card }
-      if (chooseMode(candidate, 0, seededRandom(modeSeed(candidate, 0))) === 'spoken') item = candidate
+      if (chooseMode(candidate, 0, seededRandom(modeSeed(candidate, 0)), 'type') === 'spoken') item = candidate
     }
     const onDone = renderExercise(item!)
     expect(screen.getByText('Say it out loud in Sorani')).toBeInTheDocument()
@@ -183,13 +183,23 @@ describe('RecallExercise', () => {
     expect(onDone.mock.calls[0][0].grade).toBe(Rating.Again)
   })
 
-  it('offers the four options instead of typing, capped at Hard', () => {
-    const onDone = renderExercise()
-    fireEvent.click(button('Show 4 options'))
-    expect(screen.getByText(/counts like a hint/)).toBeInTheDocument()
+  it('always offers four options to learners who prefer them, even for well-known words', () => {
+    useSettings.setState({ recallAnswer: 'choose' })
+    const known: Candidate = { ...reviewed, card: { ...reviewed.card!, reps: 12, stability: 60 } }
+    const onDone = renderExercise(known)
+    expect(screen.getByRole('tab', { name: 'Options' })).toHaveAttribute('aria-selected', 'true')
+    expect(screen.queryByPlaceholderText('Latin or Arabic letters')).not.toBeInTheDocument()
     fireEvent.click(within(screen.getByRole('group')).getAllByRole('button').find((o) => o.textContent?.includes('supas'))!)
+    expect(screen.queryByText(/you say or type it yourself/)).not.toBeInTheDocument()
     fireEvent.click(button('Continue'))
-    expect(onDone.mock.calls[0][0]).toMatchObject({ grade: Rating.Hard, kind: 'recall-options' })
+    expect(onDone.mock.calls[0][0]).toMatchObject({ grade: Rating.Good, kind: 'recall-choose' })
+  })
+
+  it('switches from typing to options and remembers the choice', () => {
+    renderExercise()
+    fireEvent.click(screen.getByRole('tab', { name: 'Options' }))
+    expect(useSettings.getState().recallAnswer).toBe('choose')
+    expect(within(screen.getByRole('group')).getAllByRole('button')).toHaveLength(4)
   })
 
   it('switches to saying the word aloud and remembers the choice', () => {

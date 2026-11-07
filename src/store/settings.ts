@@ -19,8 +19,8 @@ export interface Settings {
   compare: boolean
   /** Preferred input for typed answers. Both are always accepted. */
   answerScript: 'arabic' | 'latin'
-  /** Recall: type the word, or say it aloud and grade yourself. */
-  recallAnswer: 'type' | 'say'
+  /** Recall: pick the word among four options, type it, or say it aloud and grade yourself. */
+  recallAnswer: 'choose' | 'type' | 'say'
   newPerSession: number
   sessionSize: number
   autoplayAudio: boolean
@@ -41,7 +41,7 @@ export const DEFAULT_SETTINGS: Settings = {
   showScript: false,
   compare: true,
   answerScript: 'latin',
-  recallAnswer: 'type',
+  recallAnswer: 'choose',
   newPerSession: 6,
   sessionSize: 15,
   autoplayAudio: true,
@@ -58,9 +58,15 @@ export const useSettings = create<SettingsState>()(
     }),
     {
       name: 'zz-settings',
-      version: 1,
+      version: 2,
       storage: createJSONStorage(() => deviceStorage),
       partialize: ({ set: _set, ...rest }) => rest,
+      migrate: (persisted, version) => {
+        const s = persisted as Partial<Settings>
+        // Typing was the default before options were; nobody had to pick it.
+        if (version < 2 && s.recallAnswer === 'type') s.recallAnswer = 'choose'
+        return s as SettingsState
+      },
     },
   ),
 )

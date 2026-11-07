@@ -44,7 +44,7 @@ export const aboutStrings = defineStrings({
       direction: {
         title: 'Practise the direction you need',
         claim: 'Going from meaning to word builds speaking; going from word to meaning builds understanding.',
-        inApp: 'Recall makes you produce the Sorani or Persian word from its meaning, typed or said aloud. A brand-new word is first picked among four options, a small step before producing it.',
+        inApp: 'Recall makes you produce the Sorani or Persian word from its meaning, picked among four options by default, or typed or said aloud. Learners who type or say still pick a brand-new word among options first, a small step before producing it.',
         finding: 'Productive learning of word pairs led to larger gains in productive knowledge. In a web-app study, words practised from the native language to the new one were recalled better overall.',
       },
       questions: {
@@ -208,7 +208,7 @@ export const aboutStrings = defineStrings({
       direction: {
         title: 'Öva i den riktning du behöver',
         claim: 'Att gå från betydelse till ord bygger talet; att gå från ord till betydelse bygger förståelsen.',
-        inApp: 'Återkallning låter dig ta fram det soraniska eller persiska ordet utifrån betydelsen, skrivet eller sagt högt. Ett helt nytt ord väljer du först bland fyra alternativ, ett litet steg innan du tar fram det själv.',
+        inApp: 'Återkallning låter dig ta fram det soraniska eller persiska ordet utifrån betydelsen, valt bland fyra alternativ från början, eller skrivet eller sagt högt. Skriver eller säger du väljer du ändå ett helt nytt ord bland alternativ först, ett litet steg innan du tar fram det själv.',
         finding: 'Produktiv inlärning av ordpar gav större vinster i produktiv ordkunskap. I en studie av en webbapp mindes deltagarna totalt sett bättre de ord de övat från modersmålet till det nya språket.',
       },
       questions: {

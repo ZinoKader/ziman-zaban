@@ -30,7 +30,7 @@ export const common = defineStrings({
       recall: {
         title: 'Recall',
         short: 'Find the word',
-        description: 'Go from English or Swedish to the word: pick it among four options at first, then type it or say it from memory.',
+        description: 'Go from English or Swedish to the word: pick it among four options, or type it or say it from memory.',
       },
       construction: {
         title: 'Sentence building',
@@ -128,7 +128,7 @@ export const common = defineStrings({
       recall: {
         title: 'Återkallning',
         short: 'Hitta ordet',
-        description: 'Gå från svenska eller engelska till ordet: välj det bland fyra alternativ i början, skriv eller säg det sedan ur minnet.',
+        description: 'Gå från svenska eller engelska till ordet: välj det bland fyra alternativ, eller skriv eller säg det ur minnet.',
       },
       construction: {
         title: 'Meningsbygge',
