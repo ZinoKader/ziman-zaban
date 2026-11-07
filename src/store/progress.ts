@@ -29,6 +29,14 @@ export interface ContentReport {
 
 export type DaysByLang = Partial<Record<TargetLang, Record<string, DayStats>>>
 
+export interface EarnedMedal {
+  /** The milestone: words learned in that language. */
+  words: number
+  at: string
+}
+
+export type MedalsByLang = Partial<Record<TargetLang, EarnedMedal[]>>
+
 interface ProgressState {
   cards: Partial<Record<CardKey, StoredCard>>
   log: ReviewEntry[]
@@ -36,10 +44,13 @@ interface ProgressState {
   days: Record<string, DayStats>
   daysByLang: DaysByLang
   reports: ContentReport[]
+  /** Medals stay once earned, even if words are forgotten later. */
+  medals: MedalsByLang
   record: (key: CardKey, grade: Grade, meta: { ms: number; kind: string; now?: Date }) => StoredCard
   report: (key: string, message: string) => void
+  award: (lang: TargetLang, words: number[], now?: Date) => void
   resetLanguage: (lang: TargetLang) => void
-  importState: (s: Pick<ProgressState, 'cards' | 'log' | 'days'> & { daysByLang?: DaysByLang }) => void
+  importState: (s: Pick<ProgressState, 'cards' | 'log' | 'days'> & { daysByLang?: DaysByLang; medals?: MedalsByLang }) => void
 }
 
 const MAX_LOG = 5000
@@ -120,6 +131,7 @@ export const useProgress = create<ProgressState>()(
       days: {},
       daysByLang: {},
       reports: [],
+      medals: {},
       record: (key, grade, { ms, kind, now = new Date() }) => {
         const prev = get().cards[key]
         const card = reviewCard(prev, grade, now)
@@ -140,16 +152,25 @@ export const useProgress = create<ProgressState>()(
       },
       report: (key, message) =>
         set((s) => ({ reports: [...s.reports, { key, message, at: new Date().toISOString() }] })),
+      award: (lang, words, now = new Date()) =>
+        set((s) => {
+          const have = s.medals[lang] ?? []
+          const fresh = words.filter((w) => !have.some((m) => m.words === w))
+          if (!fresh.length) return {}
+          const at = now.toISOString()
+          return { medals: { ...s.medals, [lang]: [...have, ...fresh.map((w) => ({ words: w, at }))].sort((a, b) => a.words - b.words) } }
+        }),
       resetLanguage: (lang) =>
         set((s) => ({
+          medals: Object.fromEntries(Object.entries(s.medals).filter(([l]) => l !== lang)),
           cards: Object.fromEntries(
             Object.entries(s.cards).filter(([k]) => parseCardKey(k as CardKey).lang !== lang),
           ),
           log: s.log.filter((e) => parseCardKey(e.key).lang !== lang),
           daysByLang: Object.fromEntries(Object.entries(s.daysByLang).filter(([l]) => l !== lang)),
         })),
-      importState: ({ cards, log, days, daysByLang }) =>
-        set({ cards, log, days, daysByLang: daysByLang ?? daysByLangFromLog(log) }),
+      importState: ({ cards, log, days, daysByLang, medals }) =>
+        set((s) => ({ cards, log, days, daysByLang: daysByLang ?? daysByLangFromLog(log), medals: medals ?? s.medals })),
     }),
     {
       name: 'zz-progress',

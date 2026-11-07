@@ -5,7 +5,7 @@ const water = cardKey('ckb', 'recognition', 'water')
 const waterFa = cardKey('fa', 'recognition', 'water')
 const recallName = cardKey('ckb', 'recall', 'name')
 
-const empty = { cards: {}, log: [], days: {}, daysByLang: {}, reports: [] }
+const empty = { cards: {}, log: [], days: {}, daysByLang: {}, reports: [], medals: {} }
 const day = (y: number, m: number, d: number, h = 12, min = 0) => new Date(y, m - 1, d, h, min)
 
 beforeEach(() => useProgress.setState(empty))
@@ -212,6 +212,28 @@ describe('resetLanguage', () => {
     expect(s.log.map((e) => e.key)).toEqual([waterFa])
     expect(s.daysByLang.ckb).toBeUndefined()
     expect(s.daysByLang.fa).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1 } })
+  })
+})
+
+describe('award', () => {
+  it('keeps each medal once, sorted, with the day it was earned', () => {
+    const { award } = useProgress.getState()
+    award('ckb', [25, 10], day(2026, 3, 2))
+    award('ckb', [10, 50], day(2026, 3, 9))
+    expect(useProgress.getState().medals.ckb).toEqual([
+      { words: 10, at: day(2026, 3, 2).toISOString() },
+      { words: 25, at: day(2026, 3, 2).toISOString() },
+      { words: 50, at: day(2026, 3, 9).toISOString() },
+    ])
+    expect(useProgress.getState().medals.fa).toBeUndefined()
+  })
+
+  it('clears the medals of a language that is reset', () => {
+    const { award } = useProgress.getState()
+    award('ckb', [10])
+    award('fa', [10])
+    useProgress.getState().resetLanguage('ckb')
+    expect(useProgress.getState().medals).toEqual({ fa: [{ words: 10, at: expect.any(String) }] })
   })
 })
 

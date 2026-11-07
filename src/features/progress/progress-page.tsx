@@ -9,6 +9,7 @@ import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
+import { MedalShelf } from '@/features/medals/medal-shelf'
 import { dayKey, scopedDays, streak, useProgress, type StatsScope } from '@/store/progress'
 import { useSaveStatus } from '@/store/save-status'
 import { useSettings } from '@/store/settings'
@@ -249,6 +250,12 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
             <LanguageCourse key={x} lang={x} current={x === current} />
           ))}
         </div>
+      </section>
+
+      <section className={cn('grid gap-4', langs.length > 1 && 'lg:grid-cols-2')}>
+        {langs.map((x) => (
+          <MedalShelf key={x} lang={x} showLanguage={langs.length > 1} />
+        ))}
       </section>
 
       <section className="grid gap-4 md:grid-cols-5">

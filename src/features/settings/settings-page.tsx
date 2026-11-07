@@ -222,6 +222,7 @@ export function SettingsPage() {
                 log: progress.log,
                 days: progress.days,
                 daysByLang: progress.daysByLang,
+                medals: progress.medals,
               })
             }
           >
@@ -242,7 +243,8 @@ export function SettingsPage() {
                 const data = JSON.parse(await file.text())
                 if (typeof data.cards !== 'object' || !Array.isArray(data.log)) throw new Error('bad file')
                 const daysByLang = data.daysByLang && typeof data.daysByLang === 'object' ? data.daysByLang : undefined
-                progress.importState({ cards: data.cards, log: data.log, days: data.days ?? {}, daysByLang })
+                const medals = data.medals && typeof data.medals === 'object' ? data.medals : undefined
+                progress.importState({ cards: data.cards, log: data.log, days: data.days ?? {}, daysByLang, medals })
                 toast.success(s.imported)
               } catch {
                 toast.error(s.importFailed)
