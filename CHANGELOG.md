@@ -2,6 +2,16 @@
 
 What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelog skill](.cursor/skills/changelog/SKILL.md).
 
+## 2026-11-07
+
+- Recall: you always answer by picking one of four options. No typing and no extra click.
+- Recall: to type or say the answer instead, pick the "Type" or "Say" tab. "Options" takes you back. The choice is also in Settings.
+- App: when a session ends, the app suggests a few new words, even if you still have words to review. The button starts a session with only new words.
+- App: when there's nothing to review, the home page asks if you want to learn some new words.
+- Progress: you get a medal at 10, 25, 50, 100, 150, 200 and 250 words learned, and when you've learned every word in the course.
+- App: when you reach a medal, the app celebrates with confetti and shows your new medal.
+- Progress: "Medals" shows the medals you have and how many words are left to the next ones. Medals for words you learned before today arrive after your next session.
+
 ## 2026-11-02
 
 - Recognition: say the meaning out loud instead of typing it.
