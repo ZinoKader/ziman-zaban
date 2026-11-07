@@ -8,6 +8,7 @@ import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { MODULES, type ModuleMeta } from '@/features/modules'
 import { ProgressCard } from '@/features/progress/progress-card'
+import { sessionStrings } from '@/features/session/strings'
 import { WhatsNewBanner } from '@/features/whats-new/whats-new-banner'
 import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
@@ -54,6 +55,7 @@ function ModuleStep({ meta, status }: { meta: ModuleMeta; status: ModuleStatus }
 export function HomePage() {
   const c = common.use()
   const s = homeStrings.use()
+  const n = sessionStrings.use()
   const lang = useSettings((st) => st.targetLang)
   const onboarded = useSettings((st) => st.onboarded)
   const cards = useProgress((st) => st.cards)
@@ -63,12 +65,17 @@ export function HomePage() {
   const next = MODULES.find((_, i) => statuses[i].due > 0) ?? MODULES.find((_, i) => statuses[i].available > 0)
   const fresh = statuses.every((st) => st.started === 0)
 
+  const nothingDue = statuses.every((st) => st.due === 0)
+
   const action = next ? (
-    <Button asChild size="xl" className="w-full sm:w-auto">
-      <Link to={`/learn/${next.slug}/session`}>
-        {fresh ? s.start : `${s.continue}: ${c.modules[next.skill].title}`} <ArrowRight className="rtl:rotate-180" />
-      </Link>
-    </Button>
+    <div className="flex flex-col gap-2">
+      {nothingDue && !fresh && <p className="text-sm text-muted-foreground">{n.noReviews}</p>}
+      <Button asChild size="xl" className="w-full sm:w-auto">
+        <Link to={`/learn/${next.slug}/session`}>
+          {fresh ? s.start : `${s.continue}: ${c.modules[next.skill].title}`} <ArrowRight className="rtl:rotate-180" />
+        </Link>
+      </Button>
+    </div>
   ) : (
     <p className="text-sm text-muted-foreground">{s.allDone}</p>
   )

@@ -77,7 +77,6 @@ export const common = defineStrings({
       newLearned: 'New',
       time: 'Time',
       quit: 'End session',
-      again: 'Practise again',
       home: 'Back to home',
     },
     evidence: {
@@ -175,7 +174,6 @@ export const common = defineStrings({
       newLearned: 'Nya',
       time: 'Tid',
       quit: 'Avsluta passet',
-      again: 'Öva igen',
       home: 'Till startsidan',
     },
     evidence: {

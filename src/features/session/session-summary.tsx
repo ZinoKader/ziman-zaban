@@ -1,16 +1,24 @@
-import { CircleCheck, LoaderCircle, PartyPopper, RotateCcw, Sprout, TriangleAlert } from 'lucide-react'
-import { useMemo } from 'react'
+import { ArrowRight, CircleCheck, LoaderCircle, Medal, PartyPopper, RotateCcw, Sparkles, Sprout, TriangleAlert } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
+import { useNavigate } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import type { Skill } from '@/content/types'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
+import { Celebration } from '@/features/medals/celebration'
+import { medalsToAward, nextMilestone } from '@/features/medals/medals'
+import { medalStrings } from '@/features/medals/strings'
+import { MODULES } from '@/features/modules'
 import { Meter } from '@/features/progress/meter'
 import { sessionGain } from '@/features/progress/progress-data'
 import { progressStrings } from '@/features/progress/strings'
 import { cardsBefore, lastRecordedAt, useProgress } from '@/store/progress'
 import { useSaveStatus } from '@/store/save-status'
 import { useSettings } from '@/store/settings'
+import { nextSteps } from './next-steps'
+import { sessionStrings } from './strings'
+import type { SessionKind } from './use-session'
 
 export interface SessionStats {
   reviewed: number
@@ -25,7 +33,9 @@ interface SessionSummaryProps {
   skill: Skill
   stats: SessionStats
   empty: boolean
-  onRestart: () => void
+  /** The units this session was limited to, if any; suggestions stay within them. */
+  units?: string[]
+  onRestart: (kind: SessionKind) => void
   onExit: () => void
 }
 
@@ -64,13 +74,82 @@ function SavedBadge() {
   )
 }
 
-export function SessionSummary({ skill, stats, empty, onRestart, onExit }: SessionSummaryProps) {
+/** Offers more instead of stopping: new items first, then more reviews here, then another module. */
+function NextStepsPanel({ skill, units, onRestart, onExit }: Pick<SessionSummaryProps, 'skill' | 'units' | 'onRestart' | 'onExit'>) {
+  const s = common.use()
+  const n = sessionStrings.use()
+  const navigate = useNavigate()
+  const lang = useSettings((st) => st.targetLang)
+  const sessionSize = useSettings((st) => st.sessionSize)
+  const newPerSession = useSettings((st) => st.newPerSession)
+  const cards = useProgress((st) => st.cards)
+  const next = useMemo(
+    () => nextSteps(skill, lang, cards, { sessionSize, newPerSession, units }),
+    [skill, lang, cards, sessionSize, newPerSession, units],
+  )
+  const slug = (k: Skill) => MODULES.find((m) => m.skill === k)!.slug
+  const learnNew = next.learnNew
+  const startNew = () => {
+    if (!learnNew) return
+    if (learnNew.skill === skill) onRestart('new')
+    else navigate(`/learn/${slug(learnNew.skill)}/session?kind=new`)
+  }
+
+  return (
+    <div className="flex w-full flex-col gap-3">
+      {learnNew ? (
+        <Card className="w-full gap-3 border-primary/30 bg-primary/5 py-5">
+          <CardContent className="flex flex-col items-center gap-3 px-5">
+            <div className="space-y-1">
+              <p className="text-lg font-semibold">{n.keepGoing[learnNew.skill]}</p>
+              <p className="text-sm text-muted-foreground">{n.ready[learnNew.skill](learnNew.count)}</p>
+            </div>
+            <Button size="xl" className="w-full" onClick={startNew}>
+              <Sparkles /> {n.learnNew[learnNew.skill](learnNew.count)}
+            </Button>
+          </CardContent>
+        </Card>
+      ) : (
+        next.reviews === 0 && !next.other && <p className="text-sm text-muted-foreground">{n.caughtUp}</p>
+      )}
+      <div className="flex w-full flex-col gap-2 sm:flex-row">
+        {next.reviews > 0 && (
+          <Button size="xl" variant="outline" className="sm:flex-1" onClick={() => onRestart('reviews')}>
+            <RotateCcw /> {n.reviewMore(next.reviews)}
+          </Button>
+        )}
+        {next.other && (
+          <Button size="xl" variant="outline" className="sm:flex-1" onClick={() => navigate(`/learn/${slug(next.other!)}/session`)}>
+            {n.continueWith(s.modules[next.other].title)} <ArrowRight className="rtl:rotate-180" />
+          </Button>
+        )}
+        <Button size="xl" variant={learnNew || next.reviews || next.other ? 'ghost' : 'default'} className="sm:flex-1" onClick={onExit}>
+          {s.session.home}
+        </Button>
+      </div>
+    </div>
+  )
+}
+
+export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }: SessionSummaryProps) {
   const s = common.use()
   const p = progressStrings.use()
+  const m = medalStrings.use()
   const lang = useSettings((st) => st.targetLang)
   const cards = useProgress((st) => st.cards)
+  const award = useProgress((st) => st.award)
+  const earned = useProgress((st) => st.medals[lang])
   const since = stats.startedAt
   const gain = useMemo(() => sessionGain(skill, lang, cardsBefore(since, cards), cards), [skill, lang, since, cards])
+  const [celebration, setCelebration] = useState(() => {
+    if (empty) return null
+    const have = (useProgress.getState().medals[lang] ?? []).map((e) => e.words)
+    const reached = medalsToAward(gain.course.after.learned, gain.course.after.total, have)
+    return reached.length ? reached : null
+  })
+  useEffect(() => {
+    if (celebration) award(lang, celebration)
+  }, [celebration, award, lang])
 
   if (empty) {
     return (
@@ -78,9 +157,7 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
         <Sprout className="size-12 text-primary" />
         <h2 className="text-2xl font-semibold">{s.session.empty}</h2>
         <p className="text-muted-foreground">{s.session.emptyHint}</p>
-        <Button size="xl" onClick={onExit}>
-          {s.session.home}
-        </Button>
+        <NextStepsPanel skill={skill} units={units} onRestart={onRestart} onExit={onExit} />
       </div>
     )
   }
@@ -93,6 +170,7 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
   ]
   const { course, module } = gain
   const learnedNow = gain.newlyLearned.length
+  const nextMedal = nextMilestone(course.after.learned, course.after.total, (earned ?? []).map((e) => e.words))
   return (
     <div className="mx-auto flex max-w-lg flex-col items-center gap-6 px-4 py-10 text-center animate-pop-in sm:py-12">
       <div className="rounded-full bg-primary/10 p-5 text-primary">
@@ -138,6 +216,11 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
             ) : (
               course.after.learning > 0 && <p className="text-xs text-muted-foreground">{p.learnedLater}</p>
             )}
+            {nextMedal !== null && (
+              <p className="flex items-center gap-1.5 pt-1 text-xs text-muted-foreground">
+                <Medal className="size-3.5 text-amber-500" /> {m.next(nextMedal - course.after.learned, nextMedal)}
+              </p>
+            )}
           </div>
           <div className="space-y-2">
             <div className="flex items-baseline justify-between gap-2 text-sm">
@@ -169,14 +252,16 @@ export function SessionSummary({ skill, stats, empty, onRestart, onExit }: Sessi
           </Card>
         ))}
       </div>
-      <div className="flex w-full flex-col gap-2 sm:flex-row">
-        <Button size="xl" variant="outline" className="sm:flex-1" onClick={onRestart}>
-          <RotateCcw /> {s.session.again}
-        </Button>
-        <Button size="xl" className="sm:flex-1" onClick={onExit}>
-          {s.session.home}
-        </Button>
-      </div>
+      <NextStepsPanel skill={skill} units={units} onRestart={onRestart} onExit={onExit} />
+      {celebration && (
+        <Celebration
+          lang={lang}
+          words={celebration[celebration.length - 1]}
+          total={course.after.total}
+          alsoEarned={celebration.length - 1}
+          onClose={() => setCelebration(null)}
+        />
+      )}
     </div>
   )
 }

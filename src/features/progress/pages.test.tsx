@@ -75,11 +75,18 @@ function seedPersian() {
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', onboarded: true, romanization: 'always', autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
+  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [], medals: {} })
   useSaveStatus.setState({ ...INITIAL_SAVE_STATUS, lastSavedAt: new Date().toISOString() })
 })
 
 describe('HomePage', () => {
+  it('suggests new words when nothing is due', () => {
+    const learned = reviewCard(undefined, Rating.Easy, new Date())
+    useProgress.setState({ cards: { [cardKey('ckb', 'recognition', words[0].id)]: learned } })
+    renderAt('/', <HomePage />)
+    expect(screen.getByText('Nothing to review right now. How about a few new words?')).toBeInTheDocument()
+  })
+
   it('shows the course bar, module bars, today and streak', () => {
     seed()
     renderAt('/', <HomePage />)
@@ -276,6 +283,41 @@ describe('SessionSummary', () => {
     )
     expect(summaryRow('Inlärda ord')).toHaveTextContent(`0/${total} · 1 under inlärning`)
     expect(summaryRow('Igenkänning')).toHaveTextContent(/· 1 under inlärning$/)
+  })
+
+  it('celebrates a medal milestone once and shows the next one', () => {
+    const now = new Date()
+    const learned = reviewCard(undefined, Rating.Easy, now)
+    useProgress.setState({
+      cards: Object.fromEntries(words.slice(0, 10).map((w) => [cardKey('ckb', 'recognition', w.id), learned])),
+    })
+    const summary = (
+      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 0, ms: 60_000, startedAt: Date.now() - 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />
+    )
+    const { unmount } = renderAt('/', summary)
+    const dialog = screen.getByRole('dialog', { name: 'Hooray!' })
+    expect(dialog).toHaveTextContent("You've learned 10 words in Sorani!")
+    expect(dialog).toHaveTextContent('You get a bronze medal.')
+    expect(useProgress.getState().medals.ckb?.map((m) => m.words)).toEqual([10])
+    expect(screen.getByText('15 words to your next medal (25)')).toBeInTheDocument()
+
+    fireEvent.click(within(dialog).getByRole('button', { name: 'Thank you!' }))
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+    unmount()
+    renderAt('/', summary)
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+  })
+
+  it('suggests new words after a session and restarts with only new ones', () => {
+    useProgress.getState().record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
+    const onRestart = vi.fn()
+    renderAt(
+      '/',
+      <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 60_000, startedAt: Date.now() - 60_000 }} empty={false} onRestart={onRestart} onExit={() => {}} />,
+    )
+    expect(screen.getByText('How about a few new words?')).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: /^Learn \d+ new words$/ }))
+    expect(onRestart).toHaveBeenCalledWith('new')
   })
 
   it('warns when saving failed', () => {

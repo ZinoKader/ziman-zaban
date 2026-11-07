@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils'
 import { useProgress } from '@/store/progress'
 import { SessionSummary, type SessionStats } from './session-summary'
 import type { ExerciseProps, ExerciseResult } from './types'
+import type { SessionKind } from './use-session'
 import { ScriptToggle } from '@/components/script-toggle'
 
 /** An item still in its learning steps comes back after this many other items (spaced within the session). */
@@ -41,7 +42,8 @@ interface SessionRunnerProps {
   onExit: () => void
   /** The summary's "Back to home". */
   onHome: () => void
-  onRestart: () => void
+  onRestart: (kind: SessionKind) => void
+  units?: string[]
 }
 
 /*
@@ -50,7 +52,7 @@ interface SessionRunnerProps {
  * later, so a word answered correctly twice in a session graduates (counts as learned)
  * the same day instead of waiting for a later session.
  */
-export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, onRestart }: SessionRunnerProps) {
+export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, onRestart, units }: SessionRunnerProps) {
   const s = common.use()
   const record = useProgress((st) => st.record)
   const [turns, setTurns] = useState<Turn[]>(() => queue.map((item) => ({ item, attempt: 0, repeat: 0 })))
@@ -108,7 +110,7 @@ export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, on
   }
 
   if (stats) {
-    return <SessionSummary skill={skill} stats={stats} empty={queue.length === 0} onRestart={onRestart} onExit={onHome} />
+    return <SessionSummary skill={skill} stats={stats} empty={queue.length === 0} units={units} onRestart={onRestart} onExit={onHome} />
   }
 
   const turn = turns[index]

@@ -222,6 +222,13 @@ describe('buildQueue', () => {
     expect(q.every((c) => !c.isNew)).toBe(true)
   })
 
+  it('leaves out due reviews for a session of new items only', () => {
+    const cards = cardsFor(ids.slice(0, 6).map((id) => [['ckb', 'recognition', id], practised(20)]))
+    const q = buildQueue('recognition', 'ckb', cards, { ...opts, size: 5, maxNew: 3, onlyNew: true })
+    expect(q.map((c) => c.itemId)).toEqual(ids.slice(6, 9))
+    expect(q.every((c) => c.isNew)).toBe(true)
+  })
+
   it('skips cards that are not due yet', () => {
     const notDue = { ...practised(1), due: new Date(NOW.getTime() + 3 * DAY).toISOString() }
     const cards = cardsFor([

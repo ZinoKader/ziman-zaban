@@ -153,6 +153,8 @@ export interface QueueOptions {
   now?: Date
   /** Only items from these units (for unit practice). */
   units?: string[]
+  /** Leave out due reviews, for a session of new items only. */
+  onlyNew?: boolean
   /** Deterministic shuffling in tests. */
   random?: () => number
 }
@@ -172,7 +174,7 @@ export function buildQueue(skill: Skill, lang: TargetLang, cards: Cards, opts: Q
     const key = cardKey(lang, skill, it.id)
     const card = cards[key]
     if (card) {
-      if (dueForSession(card, now)) due.push({ key, itemId: it.id, isNew: false, order: it.order, card })
+      if (!opts.onlyNew && dueForSession(card, now)) due.push({ key, itemId: it.id, isNew: false, order: it.order, card })
     } else if (it.unlock.unlocked) {
       fresh.push({ key, itemId: it.id, isNew: true, order: it.order })
     }
