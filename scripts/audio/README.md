@@ -107,7 +107,8 @@ The zip can also hold the export one folder down, as it does when a phone unpack
 Before that, each take is raised to a peak of −6 dBFS, so the silence trim works the same for a quiet
 microphone as for a loud one. A click, breath or rustle that a pause of 0.3 s or more separates from the
 speech is cut off; the import lists those takes as "stray sound cut". A second sound at least 0.25 s long and
-no more than 10 dB quieter than the speech stays, as it is likely the next word of a phrase.
+no more than 10 dB quieter than the speech stays, as it is likely the next word of a phrase. After a pause of
+1 s or more it is the word said again, so only the louder part is kept.
 
 The import trims, normalizes and encodes each take like a generated clip, writes it to
 `public/audio/<lang>/rec-<hash>.mp3` and records it in `recordings.json` (committed). The manifest then lists

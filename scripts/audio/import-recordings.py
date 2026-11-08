@@ -46,8 +46,14 @@ JOIN_GAP_S = 0.3
 # A separate sound this long and this loud (relative to the speech) is kept as a second word.
 KEEP_S = 0.25
 KEEP_WITHIN_DB = 10
+# After a pause this long the speaker said the word again; only the louder of the two is kept.
+REPEAT_GAP_S = 1.0
 # The cut sits this far from a dropped sound, so soft word edges next to it stay.
 MARGIN_S = 0.05
+# Room left before and after the speech for soft starts and endings. The raised background noise of a
+# quiet take is too loud for the silence trim in postprocess, so the cut has to end the take.
+LEAD_S = 0.3
+TAIL_S = 0.4
 PEAK = 32768 * 10 ** (-6 / 20)
 MAX_GAIN = 10 ** (40 / 20)
 
@@ -105,20 +111,23 @@ def speech_span(samples: array.array, rate: int) -> tuple[int, int, bool]:
 
     main = max(clusters, key=weight)
     main_peak = max(db[main[0] : main[1]])
+    lo = hi = clusters.index(main)
+    while lo > 0 and (clusters[lo][0] - clusters[lo - 1][1]) * FRAME_S < REPEAT_GAP_S:
+        lo -= 1
+    while hi < len(clusters) - 1 and (clusters[hi + 1][0] - clusters[hi][1]) * FRAME_S < REPEAT_GAP_S:
+        hi += 1
     kept = [
         c
-        for c in clusters
+        for c in clusters[lo : hi + 1]
         if c is main or ((c[1] - c[0]) * FRAME_S >= KEEP_S and max(db[c[0] : c[1]]) >= main_peak - KEEP_WITHIN_DB)
     ]
-    if len(kept) == len(clusters):
-        return 0, len(samples), False
     margin = round(MARGIN_S / FRAME_S)
     start, end = min(c[0] for c in kept), max(c[1] for c in kept)
     before = max((c[1] for c in clusters if c[1] <= start), default=None)
     after = min((c[0] for c in clusters if c[0] >= end), default=None)
-    first = (before + margin) * hop if before is not None else 0
-    last = (after - margin) * hop if after is not None else len(samples)
-    return first, last, True
+    first = max(start - round(LEAD_S / FRAME_S), before + margin if before is not None else 0)
+    last = min(end + round(TAIL_S / FRAME_S), after - margin if after is not None else n)
+    return first * hop, min(last * hop, len(samples)), len(kept) < len(clusters)
 
 
 def index_folder(zf: zipfile.ZipFile, path: Path) -> str:
