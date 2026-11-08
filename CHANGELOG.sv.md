@@ -2,6 +2,11 @@
 
 Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHANGELOG.md](CHANGELOG.md). Följ [skillen för ändringsloggen](.cursor/skills/changelog/SKILL.md) när du lägger till något.
 
+## 2026-11-08
+
+- Appen: den som har soranikurdiska eller persiska som modersmål kan spela in ord och meningar på den nya sidan "Spela in röster" i menyn. Man läser en text i taget, och appen sparar inspelningen vid varje paus och visar nästa text.
+- Ljud: ord och meningar som en infödd talare har spelat in spelas före datorrösten.
+
 ## 2026-11-07
 
 - Återkallning: du svarar alltid genom att välja bland fyra alternativ. Du behöver inte skriva och inte klicka en extra gång.

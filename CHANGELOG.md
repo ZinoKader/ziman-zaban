@@ -2,6 +2,11 @@
 
 What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelog skill](.cursor/skills/changelog/SKILL.md).
 
+## 2026-11-08
+
+- App: native speakers can record words and sentences on the new "Record voices" page in the menu. They read one text after another, and the app saves a recording at each pause and shows the next text.
+- Audio: a word or sentence recorded by a native speaker plays before the computer voice.
+
 ## 2026-11-07
 
 - Recall: you always answer by picking one of four options. No typing and no extra click.
