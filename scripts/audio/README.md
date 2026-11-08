@@ -99,7 +99,10 @@ Takes stay on the device (IndexedDB) until the speaker downloads them as one zip
 ```sh
 npm run audio:import -- ziman-zaban-recordings-ckb-aras-202611081005.zip   # add takes
 npm run audio:import -- --remove-speaker ckb-rec-aras                     # take a speaker's takes out again
+npm run audio:import -- recordings.zip --skip "اونا"                       # leave out a bad take; that text keeps the computer voice
 ```
+
+The zip can also hold the export one folder down, as it does when a phone unpacks the download and zips the folder again.
 
 Before that, each take is raised to a peak of −6 dBFS, so the silence trim works the same for a quiet
 microphone as for a loud one. A click, breath or rustle that a pause of 0.3 s or more separates from the

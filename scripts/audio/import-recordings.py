@@ -2,6 +2,7 @@
 
     npm run audio:import -- ziman-zaban-recordings-ckb-aras-202611081005.zip [more.zip ...]
     npm run audio:import -- --remove-speaker ckb-rec-aras
+    npm run audio:import -- recordings.zip --skip "اونا" --skip "خوشبختم"   # leave bad takes out
 
 Each take is trimmed, loudness-normalized and encoded like the generated clips (mono 24 kHz MP3,
 -16 LUFS), written to public/audio/<lang>/rec-<hash>.mp3 and listed in recordings.json (committed).
@@ -120,9 +121,21 @@ def speech_span(samples: array.array, rate: int) -> tuple[int, int, bool]:
     return first, last, True
 
 
-def import_zip(path: Path, recordings: dict, known: dict[str, set[str]]) -> None:
+def index_folder(zf: zipfile.ZipFile, path: Path) -> str:
+    """Where takes.json sits. A phone that unpacks the download and zips the folder again puts it one level down."""
+    names = zf.namelist()
+    if "takes.json" in names:
+        return ""
+    found = [n[: -len("takes.json")] for n in names if n.endswith("/takes.json") and not n.startswith("__MACOSX/")]
+    if len(found) != 1:
+        raise SystemExit(f"{path.name}: no takes.json in it")
+    return found[0]
+
+
+def import_zip(path: Path, recordings: dict, known: dict[str, set[str]], skip: set[str]) -> None:
     with zipfile.ZipFile(path) as zf:
-        index = json.loads(zf.read("takes.json"))
+        folder = index_folder(zf, path)
+        index = json.loads(zf.read(folder + "takes.json"))
         if index.get("format") != FORMAT or index.get("version") != 1:
             raise SystemExit(f"{path.name}: not a recordings file from the app")
         lang = index["lang"]
@@ -142,6 +155,9 @@ def import_zip(path: Path, recordings: dict, known: dict[str, set[str]]) -> None
         work = tmpdir()
         for take in index["takes"]:
             text = take["text"]
+            if text in skip:
+                notes.append(f"left out with --skip: {text}")
+                continue
             if text not in known[lang]:
                 notes.append(f"not in the course: {text}")
                 continue
@@ -150,7 +166,7 @@ def import_zip(path: Path, recordings: dict, known: dict[str, set[str]]) -> None
                 notes.append(f"newer take already imported: {text}")
                 continue
             src = work / Path(take["file"]).name
-            src.write_bytes(zf.read(take["file"]))
+            src.write_bytes(zf.read(folder + take["file"]))
             clean = work / f"clean-{src.name}"
             if clean_take(src, clean):
                 notes.append(f"stray sound cut: {text}")
@@ -188,6 +204,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("zips", nargs="*", type=Path, help="files downloaded from the Record voices page")
     ap.add_argument("--remove-speaker", metavar="VOICE", help="delete every recording by this voice id")
+    ap.add_argument("--skip", metavar="TEXT", action="append", default=[], help="leave out the take of this text (repeatable)")
     args = ap.parse_args()
     if not args.zips and not args.remove_speaker:
         ap.error("give at least one zip file, or --remove-speaker")
@@ -198,7 +215,7 @@ def main() -> None:
     if args.remove_speaker:
         remove_speaker(args.remove_speaker, recordings)
     for z in args.zips:
-        import_zip(z, recordings, known)
+        import_zip(z, recordings, known, set(args.skip))
     save_recordings(recordings)
     manifest = write_manifest(texts, load_verification())
     for lang in LANGS:
