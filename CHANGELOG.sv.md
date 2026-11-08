@@ -8,6 +8,8 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Ljud: ord och meningar som en infödd talare har spelat in spelas före datorrösten.
 - Ljud: alla 390 soraniord är nu inspelade av Zino Kader, som har soranikurdiska som modersmål. Meningar, frågor och svar läses fortfarande av datorrösten.
 - Metod & källor: "Källor & licenser" visar varje modersmålstalare som har spelat in klipp, och hur många.
+- Spela in röster: "Börja spela in" kör först ett mikrofontest. Du säger ett ord, hör det spelas upp och ser vad du ska göra om mikrofonen inte fungerar. "Testa mikrofonen" kör testet igen.
+- Spela in röster: på iPhone startar mikrofonen nu när du trycker. Förut var den tillåten men appen hörde ingenting.
 
 ## 2026-11-07
 

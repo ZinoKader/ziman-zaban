@@ -90,6 +90,9 @@ Native speakers record in the app, on the "Record voices" page (`/studio`, in th
 teleprompter: the app keeps the microphone open, cuts a take at each pause (`src/features/studio/segmenter.ts`),
 saves it under the text on screen and shows the next text. "Back" deletes the last take, "Skip" leaves a text
 out. Texts that already have a native recording in the manifest, or a take on the device, are not shown again.
+Before the first run on a page visit, a microphone check (`src/features/studio/mic-check.tsx`) has the speaker
+say one word, plays it back and, when something fails, shows steps to fix it for their browser and a report
+they can copy and send.
 Takes stay on the device (IndexedDB) until the speaker downloads them as one zip: 16-bit WAV files plus
 `takes.json` with the speaker's name, the text of each take and the license they agreed to (CC BY-SA 4.0).
 

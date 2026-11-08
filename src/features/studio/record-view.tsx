@@ -1,18 +1,17 @@
-import { Check, ChevronLeft, Mic, MicOff, Pause, Play, SkipForward, X } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { Check, ChevronLeft, Mic, Pause, Play, SkipForward, X } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import type { TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { cn } from '@/lib/utils'
+import { CLIPPING_DB, QUIET_PEAK_DB, readEnvironment } from './diagnostics'
+import { MicTrouble } from './mic-check'
 import type { Prompt } from './prompts'
 import { back, countRecorded, recorded, skipped, startRun, type RunState } from './run'
 import { takeKey, useStudio } from './store'
 import { studioStrings } from './strings'
 import { useTakeRecorder, type Take } from './use-take-recorder'
 import { encodeWav, peakDb } from './wav'
-
-const QUIET_DB = -30
-const CLIPPING_DB = -0.3
 
 function ScriptLine({ lang, text, className }: { lang: TargetLang; text: string; className?: string }) {
   return (
@@ -55,11 +54,12 @@ export function RecordView({ lang, prompts, onClose }: { lang: TargetLang; promp
       const next = recorded(r)
       runRef.current = next
       setRun(next)
-      setFlash(peak < QUIET_DB ? 'quiet' : peak > CLIPPING_DB ? 'loud' : 'saved')
+      setFlash(peak < QUIET_PEAK_DB ? 'quiet' : peak > CLIPPING_DB ? 'loud' : 'saved')
     },
     [addTake, lang, prompts],
   )
 
+  const env = useMemo(() => readEnvironment(), [])
   const rec = useTakeRecorder(current?.text, onTake)
   const { start, stop, setPaused, cancel } = rec
 
@@ -148,13 +148,7 @@ export function RecordView({ lang, prompts, onClose }: { lang: TargetLang; promp
             </Button>
           </div>
         ) : rec.status === 'error' ? (
-          <div className="max-w-md space-y-4">
-            <span className="mx-auto grid size-16 place-items-center rounded-full bg-destructive/10 text-destructive">
-              <MicOff className="size-8" />
-            </span>
-            <p className="text-pretty">{s.micErrors[rec.error ?? 'failed']}</p>
-            <Button onClick={() => void start()}>{s.tryAgain}</Button>
-          </div>
+          <MicTrouble error={rec.error ?? 'failed'} env={env} diag={rec.diag} onRetry={() => void start()} />
         ) : (
           current && (
             <>

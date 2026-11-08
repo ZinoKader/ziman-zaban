@@ -33,6 +33,14 @@ describe('StudioPage', () => {
     expect(screen.getByRole('button', { name: 'Start recording' })).toBeEnabled()
   })
 
+  it('runs the microphone check before the first recording', () => {
+    useStudio.setState({ speaker: 'Aras', lang: 'ckb', consentAt: '2026-11-08T10:00:00.000Z' })
+    renderPage()
+    fireEvent.click(screen.getByRole('button', { name: 'Start recording' }))
+    expect(screen.getByRole('dialog', { name: 'Microphone check' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Start the test/ })).toBeInTheDocument()
+  })
+
   it('counts only texts without a native recording, here or in the app', () => {
     const [first, second] = promptsFor('ckb', 'words')
     useStudio.setState({

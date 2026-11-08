@@ -1,4 +1,4 @@
-import { Mic } from 'lucide-react'
+import { Mic, Stethoscope } from 'lucide-react'
 import { useId, useMemo, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -14,6 +14,8 @@ import { NATIVE_NAME } from '@/i18n/native-names'
 import { useReview } from '@/features/review/store'
 import { useSettings } from '@/store/settings'
 import { RECORDING_LICENSE } from './export'
+import { unlockAudio } from './mic'
+import { MicCheck } from './mic-check'
 import { promptsFor, promptTotal, type Prompt, type PromptGroup } from './prompts'
 import { RecordView } from './record-view'
 import { RecordingsPanel } from './recordings-panel'
@@ -121,6 +123,8 @@ function Studio({ lang, onEdit }: { lang: TargetLang; onEdit: () => void }) {
   const takes = useStudio((st) => st.takes)
   const manifest = useAudioManifest()
   const [run, setRun] = useState<Prompt[] | null>(null)
+  const [checking, setChecking] = useState(false)
+  const [checked, setChecked] = useState(false)
 
   const prompts = useMemo(
     () => promptsFor(lang, group, (text) => !!manifest?.[lang][text]?.h || !!takes[takeKey(lang, text)]),
@@ -166,9 +170,23 @@ function Studio({ lang, onEdit }: { lang: TargetLang; onEdit: () => void }) {
               ))}
             </div>
             <p className="text-sm text-muted-foreground">{prompts.length ? s.left(prompts.length, total) : s.allDone}</p>
-            <Button size="xl" className="w-full" disabled={!prompts.length} onClick={() => setRun(prompts)}>
-              <Mic /> {s.startRecording}
-            </Button>
+            <div className="flex flex-col gap-2 sm:flex-row">
+              <Button
+                size="xl"
+                className="flex-1"
+                disabled={!prompts.length}
+                onClick={() => {
+                  unlockAudio()
+                  if (checked) setRun(prompts)
+                  else setChecking(true)
+                }}
+              >
+                <Mic /> {s.startRecording}
+              </Button>
+              <Button size="xl" variant="outline" onClick={() => setChecking(true)}>
+                <Stethoscope /> {s.testMic}
+              </Button>
+            </div>
           </CardContent>
         </Card>
         <Card className="h-fit lg:col-span-2">
@@ -187,6 +205,17 @@ function Studio({ lang, onEdit }: { lang: TargetLang; onEdit: () => void }) {
 
       <RecordingsPanel lang={lang} />
 
+      {checking && (
+        <MicCheck
+          lang={lang}
+          onClose={() => setChecking(false)}
+          onReady={() => {
+            setChecked(true)
+            setChecking(false)
+            if (prompts.length) setRun(prompts)
+          }}
+        />
+      )}
       {run && <RecordView lang={lang} prompts={run} onClose={() => setRun(null)} />}
     </div>
   )
