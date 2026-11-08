@@ -4,9 +4,10 @@ import { canonicalize } from '@/lib/script/normalize'
 
 /*
  * Pronunciation comes from, in order of preference:
- *  1. a recording attached to the content (native speakers, Wikimedia Commons)
- *  2. a pre-generated neural TTS clip from public/audio (see scripts/audio), looked up by canonical text
- *  3. a speech-synthesis voice installed in the browser/OS for that language
+ *  1. a native speaker's recording made for the app, in public/audio (manifest clips with `h`)
+ *  2. a recording attached to the content (Wikimedia Commons)
+ *  3. a pre-generated neural TTS clip from public/audio (see scripts/audio), looked up by canonical text
+ *  4. a speech-synthesis voice installed in the browser/OS for that language
  * All three play through one shared audio element, so starting one stops the previous.
  */
 
@@ -17,6 +18,8 @@ export interface AudioClip {
   v: string
   /** Character error rate of a speech-recognition round trip (0 = recognised perfectly). */
   q?: number
+  /** Recorded by a native speaker (see scripts/audio/import-recordings.py). Played before any other recording. */
+  h?: 1
 }
 
 export interface AudioVoiceInfo {
@@ -179,8 +182,8 @@ const preloaded = new Map<string, HTMLAudioElement>()
 export function preloadAudio(lang: TargetLang, text: string, url?: string) {
   if (typeof Audio === 'undefined') return
   const run = () => {
-    const clip = url ? undefined : clipFor(lang, text)
-    const src = url ?? (clip && clipUrl(clip))
+    const clip = clipFor(lang, text)
+    const src = clip?.h ? clipUrl(clip) : (url ?? (clip && clipUrl(clip)))
     if (!src || preloaded.has(src)) return
     const a = new Audio()
     a.preload = 'auto'
@@ -224,15 +227,18 @@ export interface SpeakOptions {
 export async function speak({ lang, text, url, voice, rate = 1 }: SpeakOptions): Promise<boolean> {
   stopAudio()
   const mine = token
-  if (url) {
-    const r = await playSource(url, rate, mine)
+  const native = clipFor(lang, text)
+  const sources = native?.h ? [clipUrl(native), url] : [url]
+  for (const src of sources) {
+    if (!src) continue
+    const r = await playSource(src, rate, mine)
     if (r === 'played') return true
     if (r !== 'failed') return false
   }
   if (!manifest) await loadAudioManifest()
   if (mine !== token) return false
   const clip = clipFor(lang, text)
-  if (clip) {
+  if (clip && !(clip.h && native?.h)) {
     const r = await playSource(clipUrl(clip), rate, mine)
     if (r === 'played') return true
     if (r !== 'failed') return false

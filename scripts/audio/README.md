@@ -84,6 +84,28 @@ which works for sentences but not for single words, so words stay with Audio8. I
 is retried with the other speaker, then with Audio8. On ten course sentences Whisper's mean CER was
 0.24 for ParsVoice A and 0.12 for Audio8, which is why Audio8 stays the fallback.
 
+## Native speaker recordings
+
+Native speakers record in the app, on the "Record voices" page (`/studio`, in the menu). They read from a
+teleprompter: the app keeps the microphone open, cuts a take at each pause (`src/features/studio/segmenter.ts`),
+saves it under the text on screen and shows the next text. "Back" deletes the last take, "Skip" leaves a text
+out. Texts that already have a native recording in the manifest, or a take on the device, are not shown again.
+Takes stay on the device (IndexedDB) until the speaker downloads them as one zip: 16-bit WAV files plus
+`takes.json` with the speaker's name, the text of each take and the license they agreed to (CC BY-SA 4.0).
+
+```sh
+npm run audio:import -- ziman-zaban-recordings-ckb-aras-202611081005.zip   # add takes
+npm run audio:import -- --remove-speaker ckb-rec-aras                     # take a speaker's takes out again
+```
+
+The import trims, normalizes and encodes each take like a generated clip, writes it to
+`public/audio/<lang>/rec-<hash>.mp3` and records it in `recordings.json` (committed). The manifest then lists
+the recording for that text, marked `"h": 1`, with the speaker as its voice; the app plays it before any other
+audio. One take per text: a newer take replaces an older one. The generated clip stays on disk and `prune`
+keeps recordings, so removing a speaker brings the generated clips back. Listen to the takes before
+committing them: the speaker checks theirs in the app, but a take that went to the wrong text (a cough heard
+as a word, a sentence split at a long breath) is easiest to catch by ear.
+
 ## Recognisers
 
 Downloaded on first use; CPU is fine. Override with `AUDIO_ASR_FA` / `AUDIO_ASR_CKB` (comma-separated

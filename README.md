@@ -38,6 +38,7 @@ npm run dev          # http://localhost:41731
 | `npm run ref -- <word>` | Look a word up in the reference data |
 | `npm run audio:build` | Render missing pronunciation clips into `public/audio/` (Python, see below) |
 | `npm run audio:verify` | Check every clip with speech recognition and retry weak ones |
+| `npm run audio:import -- <file.zip>` | Add takes recorded on the "Record voices" page |
 
 ## Progress and storage
 
@@ -47,7 +48,7 @@ The Progress page (`/progress`) shows, per language, the words learned and in pr
 
 ## Audio
 
-Every Sorani and Persian text has a pre-generated pronunciation clip in `public/audio/` (mono MP3, 48 kbps), looked up by canonical text in `public/audio/manifest.json`. No speech API is called at runtime. A recording by a native speaker, where one exists (Wikimedia Commons), is played instead, and the browser's speech synthesis is the last resort.
+Every Sorani and Persian text has a pre-generated pronunciation clip in `public/audio/` (mono MP3, 48 kbps), looked up by canonical text in `public/audio/manifest.json`. No speech API is called at runtime. A recording by a native speaker is played instead where one exists: first takes recorded for the app on the "Record voices" page (`/studio`), then Wikimedia Commons. The browser's speech synthesis is the last resort.
 
 | Language | Voice | License |
 | --- | --- | --- |
@@ -64,6 +65,8 @@ npm run audio:verify   # speech-recognition round trip, retry weak clips, write 
 ```
 
 Both steps are incremental, so after a content edit only new or changed texts are rendered and checked. `docs/audio-report.md` lists the scores and the clips still flagged for a native listener.
+
+Native speakers can record words and sentences in the app on the "Record voices" page. They read one text after another and the app cuts a take at each pause, so nobody clicks through texts one by one. They download their takes as a zip, and `npm run audio:import -- <file.zip>` adds them to `public/audio/`, where they replace the generated clip for those texts. See [`scripts/audio/README.md`](scripts/audio/README.md#native-speaker-recordings).
 
 ## Deploying
 
@@ -129,7 +132,7 @@ Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, zus
 
 ## Known limitations
 
-- The audio is synthesized, not recorded by people. Every clip passes an automatic speech-recognition check, but a machine voice can still stress or pronounce a word wrongly; flagged clips are listed in `docs/audio-report.md`.
+- Most audio is synthesized, not recorded by people, until native speakers record it on the "Record voices" page. Every clip passes an automatic speech-recognition check, but a machine voice can still stress or pronounce a word wrongly; flagged clips are listed in `docs/audio-report.md`.
 - The course teaches Sulaymani Sorani and Tehrani Persian. Written Persian is the main form, with spoken Tehrani forms alongside.
 - This is a first version. Content is checked against references, but native-speaker review is still in progress. Items flagged for review are listed in `docs/content-report.md`.
 

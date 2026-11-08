@@ -22,6 +22,7 @@ HERE = Path(__file__).resolve().parent
 PUBLIC = ROOT / "public" / "audio"
 TEXTS = HERE / ".texts.json"
 VERIFICATION = HERE / "verification.json"
+RECORDINGS = HERE / "recordings.json"
 MODELS = Path(os.environ.get("AUDIO_MODELS_DIR", HERE / ".models"))
 LANGS = ("ckb", "fa")
 
@@ -181,6 +182,33 @@ def save_verification(data: dict) -> None:
     # Writes a sorted copy: callers hold references to data["clips"] across saves.
     out = {**data, "clips": dict(sorted(data["clips"].items())), "choices": dict(sorted(data["choices"].items()))}
     VERIFICATION.write_text(json.dumps(out, ensure_ascii=False, indent=0, sort_keys=False) + "\n")
+
+
+def load_recordings() -> dict:
+    """Native speakers' takes imported by import-recordings.py: speakers by voice id, and one clip per text."""
+    data = json.loads(RECORDINGS.read_text()) if RECORDINGS.exists() else {}
+    data.setdefault("speakers", {})
+    data.setdefault("clips", {})
+    for lang in LANGS:
+        data["clips"].setdefault(lang, {})
+    return data
+
+
+def save_recordings(data: dict) -> None:
+    out = {
+        "speakers": dict(sorted(data["speakers"].items())),
+        "clips": {lang: dict(sorted(data["clips"][lang].items())) for lang in LANGS},
+    }
+    RECORDINGS.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+
+
+def speaker_id(lang: str, name: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()).strip("-")
+    return f"{lang}-rec-{slug or hashlib.sha1(name.encode()).hexdigest()[:8]}"
+
+
+def recorded_files(recordings: dict) -> set[str]:
+    return {c["f"] for lang in LANGS for c in recordings["clips"][lang].values()}
 
 
 def choice_key(lang: str, text: str) -> str:
@@ -674,11 +702,20 @@ class Renderer:
 
 
 def write_manifest(texts: dict[str, list[dict]], verification: dict) -> dict:
+    """Lists one clip per text: a native speaker's recording when there is one (`h`), else the generated clip."""
+    recordings = load_recordings()
     manifest: dict = {}
     used_voices: set[str] = set()
+    used_speakers: set[str] = set()
     for lang in LANGS:
         out = {}
+        human = recordings["clips"][lang]
         for entry in texts.get(lang, []):
+            rec = human.get(entry["text"])
+            if rec and (PUBLIC / rec["f"]).exists() and rec["v"] in recordings["speakers"]:
+                out[entry["text"]] = {"f": rec["f"], "v": rec["v"], "h": 1}
+                used_speakers.add(rec["v"])
+                continue
             r = planned_render(entry, lang, verification)
             if not r.path.exists():
                 continue
@@ -692,6 +729,9 @@ def write_manifest(texts: dict[str, list[dict]], verification: dict) -> dict:
     manifest["voices"] = {
         v: {k: VOICES[v][k] for k in ("name", "engine", "license", "credit")} for v in sorted(used_voices)
     }
+    for v in sorted(used_speakers):
+        s = recordings["speakers"][v]
+        manifest["voices"][v] = {"name": s["name"], "engine": "native speaker", "license": s["license"], "credit": s["name"]}
     for v in manifest["voices"].values():
         if v["engine"] == "azure":
             v["engine"] = "Microsoft neural TTS"
@@ -711,8 +751,8 @@ def referenced_files(texts: dict[str, list[dict]], verification: dict) -> set[st
 
 
 def prune(texts: dict[str, list[dict]], verification: dict) -> int:
-    """Deletes clips no text uses any more (old voices, losing retries, removed content)."""
-    keep = referenced_files(texts, verification)
+    """Deletes clips no text uses any more (old voices, losing retries, removed content). Native recordings stay."""
+    keep = referenced_files(texts, verification) | recorded_files(load_recordings())
     removed = 0
     for lang in LANGS:
         for f in (PUBLIC / lang).glob("*.mp3"):

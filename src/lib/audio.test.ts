@@ -80,6 +80,19 @@ describe('speak', () => {
     expect(played[0].src).toContain(clipUrl(MANIFEST.fa['سلام']))
   })
 
+  it("plays a native speaker's recording before any other", async () => {
+    setAudioManifest({ ...MANIFEST, fa: { 'سلام': { f: 'fa/rec-dddddddddddddddd.mp3', v: 'fa-rec-sara', h: 1 } } })
+    expect(await speak({ lang: 'fa', text: 'سلام', url: 'https://example.org/rec.mp3' })).toBe(true)
+    expect(played.map((p) => p.src)).toEqual([expect.stringContaining('fa/rec-dddddddddddddddd.mp3')])
+  })
+
+  it('falls back to the attached recording when the native clip fails', async () => {
+    setAudioManifest({ ...MANIFEST, fa: { 'سلام': { f: 'fa/rec-dddddddddddddddd.mp3', v: 'fa-rec-sara', h: 1 } } })
+    failing.add('rec-dddddddddddddddd.mp3')
+    expect(await speak({ lang: 'fa', text: 'سلام', url: 'https://example.org/rec.mp3' })).toBe(true)
+    expect(played.map((p) => p.src)).toEqual(['https://example.org/rec.mp3'])
+  })
+
   it('plays slow clips with pitch preserved', async () => {
     await speak({ lang: 'ckb', text: 'باشم.', rate: SLOW_RATE })
     expect(played[0]).toMatchObject({ rate: SLOW_RATE, preservesPitch: true })
