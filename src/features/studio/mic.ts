@@ -58,6 +58,31 @@ export function failureCode(e: unknown): MicError {
   return (e as Partial<MicFailure>)?.code ?? 'failed'
 }
 
+type AudioSessionType = 'auto' | 'playback' | 'transient' | 'transient-solo' | 'ambient' | 'play-and-record'
+
+function audioSession(): { type: AudioSessionType } | undefined {
+  return typeof navigator === 'undefined' ? undefined : (navigator as unknown as { audioSession?: { type: AudioSessionType } }).audioSession
+}
+
+/** The audio session type in Safari, for diagnostics; undefined in browsers without the API. */
+export function audioSessionType(): string | undefined {
+  return audioSession()?.type
+}
+
+/**
+ * Safari mutes Web Audio in silent mode, and with it the microphone tap. A "play-and-record" session, the
+ * kind a call uses, is not muted. Playback goes back to "auto" so it uses the loudspeaker again.
+ */
+function setAudioSession(type: AudioSessionType) {
+  const session = audioSession()
+  if (!session || session.type === type) return
+  try {
+    session.type = type
+  } catch {
+    // Older Safari: the API is there but refuses the type.
+  }
+}
+
 let shared: AudioContext | null = null
 const tapLoaded = new WeakSet<AudioContext>()
 
@@ -72,6 +97,7 @@ function context(): AudioContext {
  */
 export function unlockAudio() {
   if (!micSupported()) return
+  setAudioSession('play-and-record')
   const ctx = context()
   if (ctx.state !== 'running') void ctx.resume().catch(() => {})
 }
@@ -113,6 +139,7 @@ function deviceError(e: unknown): MicFailure {
 export async function openMic(onChunk: (samples: Float32Array) => void): Promise<Mic> {
   if (typeof window !== 'undefined' && window.isSecureContext === false) throw micFailure('insecure')
   if (!micSupported()) throw micFailure('unsupported')
+  setAudioSession('play-and-record')
   const ctx = context()
   if (ctx.state !== 'running') void ctx.resume().catch(() => {})
 
@@ -122,9 +149,13 @@ export async function openMic(onChunk: (samples: Float32Array) => void): Promise
       audio: { channelCount: 1, echoCancellation: false, noiseSuppression: false, autoGainControl: false },
     })
   } catch (e) {
+    setAudioSession('auto')
     throw deviceError(e)
   }
-  const release = () => stream.getTracks().forEach((t) => t.stop())
+  const release = () => {
+    stream.getTracks().forEach((t) => t.stop())
+    setAudioSession('auto')
+  }
 
   try {
     if (!(await running(ctx))) throw micFailure('blocked', `AudioContext ${ctx.state}`)
