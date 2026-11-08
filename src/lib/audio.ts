@@ -68,7 +68,8 @@ export function loadAudioManifest(): Promise<AudioManifest | null> {
   if (loading) return loading
   if (failedAt && Date.now() - failedAt < RETRY_MS) return Promise.resolve(null)
   if (typeof fetch === 'undefined') return Promise.resolve(null)
-  loading = fetch(`${AUDIO_BASE}manifest.json`)
+  // GitHub Pages lets browsers keep the manifest for 10 minutes; revalidate so new clips show up on reload.
+  loading = fetch(`${AUDIO_BASE}manifest.json`, { cache: 'no-cache' })
     .then((r) => (r.ok ? (r.json() as Promise<AudioManifest>) : null))
     .catch(() => null)
     .then((m) => {

@@ -144,7 +144,7 @@ describe('manifest loading', () => {
   it('fetches the manifest once and notifies hooks', async () => {
     setAudioManifest(null)
     let resolve: (v: unknown) => void = () => {}
-    const fetchMock = vi.fn((_url: string) => new Promise((r) => (resolve = r)))
+    const fetchMock = vi.fn((_url: string, _init?: RequestInit) => new Promise((r) => (resolve = r)))
     vi.stubGlobal('fetch', fetchMock)
     const { result } = renderHook(() => ({
       clip: useHasClip('ckb', 'باشم'),
@@ -157,6 +157,7 @@ describe('manifest loading', () => {
     await act(async () => resolve({ ok: true, json: async () => MANIFEST }))
     expect(result.current).toEqual({ clip: true, any: true, can: true })
     expect(fetchMock.mock.calls[0][0]).toMatch(/audio\/manifest\.json$/)
+    expect(fetchMock.mock.calls[0][1]).toMatchObject({ cache: 'no-cache' })
   })
 
   it('survives a missing manifest', async () => {
