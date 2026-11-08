@@ -98,6 +98,11 @@ npm run audio:import -- ziman-zaban-recordings-ckb-aras-202611081005.zip   # add
 npm run audio:import -- --remove-speaker ckb-rec-aras                     # take a speaker's takes out again
 ```
 
+Before that, each take is raised to a peak of −6 dBFS, so the silence trim works the same for a quiet
+microphone as for a loud one. A click, breath or rustle that a pause of 0.3 s or more separates from the
+speech is cut off; the import lists those takes as "stray sound cut". A second sound at least 0.25 s long and
+no more than 10 dB quieter than the speech stays, as it is likely the next word of a phrase.
+
 The import trims, normalizes and encodes each take like a generated clip, writes it to
 `public/audio/<lang>/rec-<hash>.mp3` and records it in `recordings.json` (committed). The manifest then lists
 the recording for that text, marked `"h": 1`, with the speaker as its voice; the app plays it before any other
