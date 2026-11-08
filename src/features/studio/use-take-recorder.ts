@@ -8,6 +8,8 @@ export interface Take {
   samples: Float32Array
   sampleRate: number
   voicedMs: number
+  /** Background level in dBFS when the take ended. */
+  floorDb: number
 }
 
 /** What the mic check shows, refreshed a few times a second while the microphone is open. */
@@ -64,7 +66,8 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
       if (s.speechActive) s.cancel()
       return
     }
-    for (const d of done) onTakeRef.current({ samples: t.slice(d.start, d.end), sampleRate: mic.current!.sampleRate, voicedMs: d.voicedMs })
+    for (const d of done)
+      onTakeRef.current({ samples: t.slice(d.start, d.end), sampleRate: mic.current!.sampleRate, voicedMs: d.voicedMs, floorDb: s.floorDb })
   }, [])
 
   const close = useCallback(() => {
@@ -146,7 +149,8 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
         const state = m.state()
         return fail(micFailure(state === 'running' ? 'silent' : 'blocked', `no samples for ${SILENT_MS} ms, AudioContext ${state}`))
       }
-      setLevel(Math.max(0, Math.min(1, (s.levelDb + 60) / 50)))
+      // Relative to the background, so the meter moves as much for a quiet phone microphone as for a loud one.
+      setLevel(Math.max(0, Math.min(1, (s.levelDb - s.floorDb - 6) / 36)))
       setNoisy(s.floorDb > NOISY_FLOOR_DB)
       setDiag((d) => ({ ...d, chunks: chunks.current, floorDb: s.floorDb, levelDb: s.levelDb, state: m.state() }))
       if (!paused.current) setStatus(s.speechActive ? 'hearing' : 'listening')

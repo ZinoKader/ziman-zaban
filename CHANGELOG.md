@@ -10,6 +10,9 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - Method & sources: "Sources & licenses" lists each native speaker who recorded clips, and how many.
 - Record voices: "Start recording" first runs a microphone check. You say one word, hear it played back, and see what to fix if the microphone doesn't work. "Test microphone" runs it again.
 - Record voices: on iPhone the microphone now starts from your tap. Before, it was allowed but the app heard nothing.
+- Record voices: recording on iPhone keeps working in silent mode.
+- Record voices: you no longer need to hold the phone close. The app only says a recording is quiet when your voice is close to the background noise, and recordings play back at full volume.
+- Record voices: "Start recording" is a full-width button again, with "Test microphone" below it.
 
 ## 2026-11-07
 

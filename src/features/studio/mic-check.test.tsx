@@ -27,7 +27,9 @@ describe('diagnostics', () => {
 
   it('judges the test word', () => {
     expect(levelVerdict(-12, -80)).toBe('good')
-    expect(levelVerdict(-45, -90)).toBe('quiet')
+    expect(levelVerdict(-30, -88)).toBe('good')
+    expect(levelVerdict(-40, -70)).toBe('quiet')
+    expect(levelVerdict(-58, -100)).toBe('quiet')
     expect(levelVerdict(0, -80)).toBe('loud')
     expect(levelVerdict(-12, -35)).toBe('noisy')
   })

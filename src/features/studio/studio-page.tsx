@@ -170,10 +170,10 @@ function Studio({ lang, onEdit }: { lang: TargetLang; onEdit: () => void }) {
               ))}
             </div>
             <p className="text-sm text-muted-foreground">{prompts.length ? s.left(prompts.length, total) : s.allDone}</p>
-            <div className="flex flex-col gap-2 sm:flex-row">
+            <div className="space-y-1">
               <Button
                 size="xl"
-                className="flex-1"
+                className="w-full"
                 disabled={!prompts.length}
                 onClick={() => {
                   unlockAudio()
@@ -183,7 +183,7 @@ function Studio({ lang, onEdit }: { lang: TargetLang; onEdit: () => void }) {
               >
                 <Mic /> {s.startRecording}
               </Button>
-              <Button size="xl" variant="outline" onClick={() => setChecking(true)}>
+              <Button variant="ghost" className="mx-auto flex text-muted-foreground" onClick={() => setChecking(true)}>
                 <Stethoscope /> {s.testMic}
               </Button>
             </div>

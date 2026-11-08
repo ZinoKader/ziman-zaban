@@ -4,14 +4,14 @@ import { Button } from '@/components/ui/button'
 import type { TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { cn } from '@/lib/utils'
-import { CLIPPING_DB, QUIET_PEAK_DB, readEnvironment } from './diagnostics'
+import { levelVerdict, readEnvironment } from './diagnostics'
 import { MicTrouble } from './mic-check'
 import type { Prompt } from './prompts'
 import { back, countRecorded, recorded, skipped, startRun, type RunState } from './run'
 import { takeKey, useStudio } from './store'
 import { studioStrings } from './strings'
 import { useTakeRecorder, type Take } from './use-take-recorder'
-import { encodeWav, peakDb } from './wav'
+import { encodeWav, normalized, peakDb } from './wav'
 
 function ScriptLine({ lang, text, className }: { lang: TargetLang; text: string; className?: string }) {
   return (
@@ -49,12 +49,13 @@ export function RecordView({ lang, prompts, onClose }: { lang: TargetLang; promp
           durationMs: Math.round((take.samples.length / take.sampleRate) * 1000),
           peakDb: Math.round(peak * 10) / 10,
         },
-        encodeWav(take.samples, take.sampleRate),
+        encodeWav(normalized(take.samples), take.sampleRate),
       )
       const next = recorded(r)
       runRef.current = next
       setRun(next)
-      setFlash(peak < QUIET_PEAK_DB ? 'quiet' : peak > CLIPPING_DB ? 'loud' : 'saved')
+      const verdict = levelVerdict(peak, take.floorDb)
+      setFlash(verdict === 'quiet' || verdict === 'loud' ? verdict : 'saved')
     },
     [addTake, lang, prompts],
   )

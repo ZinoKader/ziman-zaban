@@ -5,6 +5,11 @@ import type { PromptGroup } from './prompts'
 
 const plural = (n: number, one: string, many: string) => (n === 1 ? one : many)
 
+const SILENT_MODE = {
+  en: 'Turn off silent mode: flip the switch on the side of the iPhone, or on newer models open Control Center and tap the bell.',
+  sv: 'Stäng av ljudlöst läge: vrid reglaget på sidan av din iPhone, eller öppna Kontrollcenter och tryck på klockan på nyare modeller.',
+}
+
 export const studioStrings = defineStrings({
   en: {
     title: 'Record voices',
@@ -29,7 +34,7 @@ export const studioStrings = defineStrings({
     startRecording: 'Start recording',
     tipsTitle: 'Before you start',
     tips: [
-      'Find a quiet room and keep the microphone about 20 cm from your mouth.',
+      'Find a quiet room. The phone can be 20 to 50 cm from your mouth, so you can hold it or put it on the table.',
       'Say each text once, at normal speed, the way you would say it to a friend.',
       "Pause for about a second after each one. That's how the app knows you're done.",
       'Said it wrong? Press "Back" and say it again.',
@@ -47,7 +52,7 @@ export const studioStrings = defineStrings({
     answerTo: (question: string) => `Answer to: ${question}`,
     upNext: 'Next',
     noisy: "It's noisy where you are. Recordings may be cut in the wrong place.",
-    quiet: 'That was quiet. Move a little closer to the microphone.',
+    quiet: 'Your voice was close to the background noise. Move a little closer or find a quieter room.',
     loud: 'That was loud enough to distort. Move back a little.',
     finished: "That's the whole list. Thank you!",
     recordedNow: (n: number) => `${n} ${plural(n, 'recording', 'recordings')} this time`,
@@ -95,12 +100,14 @@ export const studioStrings = defineStrings({
         case 'blocked':
           return [
             ...openInBrowser,
+            ...(platform === 'ios' ? [SILENT_MODE.en] : []),
             'Tap "Try again". The browser only starts sound after a tap.',
             ...(platform === 'ios' ? ['Still nothing? Close Safari completely (swipe it away in the app switcher), open the app again and test once more.'] : []),
           ]
         case 'silent':
           return [
             ...openInBrowser,
+            ...(platform === 'ios' ? [SILENT_MODE.en] : []),
             'Disconnect Bluetooth headphones, or try another microphone.',
             'Reload the page and tap "Try again".',
             ...(platform === 'ios' ? ['Still nothing? Restart the iPhone. After a call iOS sometimes keeps the microphone busy.'] : []),
@@ -121,10 +128,10 @@ export const studioStrings = defineStrings({
       steps: { browser: 'The browser can record', allowed: 'Microphone allowed', sound: 'Sound is coming in', voice: 'The app hears your voice', level: 'Volume' },
       waiting: 'Waiting for you to speak',
       noVoice: 'No voice yet. Speak a little louder and check that nothing covers the microphone.',
-      noVoiceIos: 'On an iPhone the microphone is at the bottom edge, next to the charging port.',
+      noVoiceIos: 'On an iPhone the microphone is at the bottom edge, next to the charging port. If silent mode is on, turn it off.',
       verdict: {
         good: 'Sounds good.',
-        quiet: 'Quiet. Hold the microphone about 20 cm from your mouth.',
+        quiet: 'Your voice is close to the background noise. Move a little closer or find a quieter room.',
         loud: 'So loud that it distorts. Move back a little.',
         noisy: 'There is background noise. A quieter room gives cleaner recordings.',
       } satisfies Record<LevelVerdict, string>,
@@ -180,7 +187,7 @@ export const studioStrings = defineStrings({
     startRecording: 'Börja spela in',
     tipsTitle: 'Innan du börjar',
     tips: [
-      'Sitt i ett tyst rum och håll mikrofonen ungefär 20 cm från munnen.',
+      'Sitt i ett tyst rum. Telefonen kan vara 20 till 50 cm från munnen, så du kan hålla den eller lägga den på bordet.',
       'Säg varje text en gång, i vanlig takt, som du skulle säga den till en vän.',
       'Pausa ungefär en sekund efter varje. Då vet appen att du är klar.',
       'Blev det fel? Tryck på "Tillbaka" och säg det igen.',
@@ -198,7 +205,7 @@ export const studioStrings = defineStrings({
     answerTo: (question: string) => `Svar på: ${question}`,
     upNext: 'Nästa',
     noisy: 'Det är stökigt ljud omkring dig. Inspelningarna kan klippas på fel ställe.',
-    quiet: 'Det var tyst. Gå lite närmare mikrofonen.',
+    quiet: 'Rösten hördes knappt över bakgrundsljudet. Gå lite närmare eller hitta ett tystare rum.',
     loud: 'Det var så högt att det kan låta förvrängt. Backa lite.',
     finished: 'Det var hela listan. Tack!',
     recordedNow: (n: number) => `${n} ${plural(n, 'inspelning', 'inspelningar')} den här gången`,
@@ -246,12 +253,14 @@ export const studioStrings = defineStrings({
         case 'blocked':
           return [
             ...openInBrowser,
+            ...(platform === 'ios' ? [SILENT_MODE.sv] : []),
             'Tryck på "Försök igen". Webbläsaren startar bara ljud efter ett tryck.',
             ...(platform === 'ios' ? ['Fortfarande inget? Stäng Safari helt (svep bort den i appväxlaren), öppna appen igen och testa en gång till.'] : []),
           ]
         case 'silent':
           return [
             ...openInBrowser,
+            ...(platform === 'ios' ? [SILENT_MODE.sv] : []),
             'Koppla från Bluetooth-hörlurar, eller prova en annan mikrofon.',
             'Ladda om sidan och tryck på "Försök igen".',
             ...(platform === 'ios' ? ['Fortfarande inget? Starta om din iPhone. Efter ett samtal håller iOS ibland kvar mikrofonen.'] : []),
@@ -272,10 +281,10 @@ export const studioStrings = defineStrings({
       steps: { browser: 'Webbläsaren kan spela in', allowed: 'Mikrofonen är tillåten', sound: 'Ljud kommer in', voice: 'Appen hör din röst', level: 'Ljudnivå' },
       waiting: 'Väntar på att du ska prata',
       noVoice: 'Ingen röst än. Prata lite högre och kolla att inget täcker mikrofonen.',
-      noVoiceIos: 'På en iPhone sitter mikrofonen på nederkanten, bredvid laddkontakten.',
+      noVoiceIos: 'På en iPhone sitter mikrofonen på nederkanten, bredvid laddkontakten. Är ljudlöst läge på, stäng av det.',
       verdict: {
         good: 'Låter bra.',
-        quiet: 'Tyst. Håll mikrofonen ungefär 20 cm från munnen.',
+        quiet: 'Rösten hörs knappt över bakgrundsljudet. Gå lite närmare eller hitta ett tystare rum.',
         loud: 'Så högt att det låter förvrängt. Backa lite.',
         noisy: 'Det hörs bakgrundsljud. Ett tystare rum ger renare inspelningar.',
       } satisfies Record<LevelVerdict, string>,

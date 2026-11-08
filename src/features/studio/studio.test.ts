@@ -3,7 +3,7 @@ import { buildRecordingZip, zipName, type RecordingIndex } from './export'
 import { promptsFor, promptTotal } from './prompts'
 import { back, countRecorded, recorded, skipped, startRun } from './run'
 import type { TakeMeta } from './store'
-import { encodeWav, peakDb } from './wav'
+import { encodeWav, normalized, peakDb } from './wav'
 
 describe('encodeWav', () => {
   it('writes a 16-bit mono PCM header and clamps samples', () => {
@@ -19,6 +19,11 @@ describe('encodeWav', () => {
 
   it('measures the peak level', () => {
     expect(peakDb(Float32Array.from([0.1, -0.5]))).toBeCloseTo(-6.02, 1)
+  })
+
+  it('raises a quiet take to a full peak, with the gain capped', () => {
+    expect(peakDb(normalized(Float32Array.from([0.02, -0.04])))).toBeCloseTo(-3, 1)
+    expect(peakDb(normalized(Float32Array.from([0.0001])))).toBeCloseTo(-80 + 30, 0)
   })
 })
 

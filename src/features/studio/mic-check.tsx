@@ -7,7 +7,7 @@ import { diagnosticsReport, levelVerdict, readEnvironment, type Environment, typ
 import { unlockAudio, type MicError } from './mic'
 import { studioStrings } from './strings'
 import { useTakeRecorder, type RecorderDiagnostics, type Take } from './use-take-recorder'
-import { encodeWav, peakDb } from './wav'
+import { encodeWav, normalized, peakDb } from './wav'
 
 const TEST_WORD: Record<TargetLang, { text: string; latin: string }> = {
   ckb: { text: 'سڵاو', latin: 'slaw' },
@@ -101,17 +101,16 @@ export function MicCheck({ lang, onReady, onClose }: { lang: TargetLang; onReady
   const [started, setStarted] = useState(false)
   const [take, setTake] = useState<TestTake | null>(null)
   const [noVoice, setNoVoice] = useState(false)
-  const floorRef = useRef(-100)
   const player = useRef<HTMLAudioElement | null>(null)
   const urlRef = useRef<string | null>(null)
   const stopRef = useRef<() => void>(() => {})
 
   const onTake = useCallback((t: Take) => {
     const peak = peakDb(t.samples)
-    const url = URL.createObjectURL(new Blob([encodeWav(t.samples, t.sampleRate)], { type: 'audio/wav' }))
+    const url = URL.createObjectURL(new Blob([encodeWav(normalized(t.samples), t.sampleRate)], { type: 'audio/wav' }))
     if (urlRef.current) URL.revokeObjectURL(urlRef.current)
     urlRef.current = url
-    setTake({ peakDb: peak, verdict: levelVerdict(peak, floorRef.current), url })
+    setTake({ peakDb: peak, verdict: levelVerdict(peak, t.floorDb), url })
     // iOS plays through the earpiece while the microphone is open, so close it before playback.
     stopRef.current()
   }, [])
@@ -121,9 +120,6 @@ export function MicCheck({ lang, onReady, onClose }: { lang: TargetLang; onReady
   useEffect(() => {
     stopRef.current = stop
   }, [stop])
-  useEffect(() => {
-    floorRef.current = diag.floorDb
-  }, [diag.floorDb])
 
   const begin = () => {
     unlockAudio()

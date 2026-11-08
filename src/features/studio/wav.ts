@@ -29,3 +29,15 @@ export function peakDb(samples: Float32Array): number {
   for (const s of samples) peak = Math.max(peak, Math.abs(s))
   return 20 * Math.log10(peak + 1e-12)
 }
+
+/**
+ * A copy raised (or lowered) so its peak sits at `targetDb`. Phone microphones without the browser's
+ * gain control record quietly; this makes a take sound full when played back. Gain is capped so that
+ * a take of near silence isn't blown up into noise.
+ */
+export function normalized(samples: Float32Array, targetDb = -3, maxGainDb = 30): Float32Array {
+  const gain = 10 ** (Math.min(targetDb - peakDb(samples), maxGainDb) / 20)
+  const out = new Float32Array(samples.length)
+  for (let i = 0; i < samples.length; i++) out[i] = samples[i] * gain
+  return out
+}

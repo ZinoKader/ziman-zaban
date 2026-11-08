@@ -10,6 +10,9 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Metod & källor: "Källor & licenser" visar varje modersmålstalare som har spelat in klipp, och hur många.
 - Spela in röster: "Börja spela in" kör först ett mikrofontest. Du säger ett ord, hör det spelas upp och ser vad du ska göra om mikrofonen inte fungerar. "Testa mikrofonen" kör testet igen.
 - Spela in röster: på iPhone startar mikrofonen nu när du trycker. Förut var den tillåten men appen hörde ingenting.
+- Spela in röster: inspelningen på iPhone fungerar även i ljudlöst läge.
+- Spela in röster: du behöver inte längre hålla telefonen nära. Appen säger bara att en inspelning är tyst när rösten knappt hörs över bakgrundsljudet, och inspelningarna spelas upp med full volym.
+- Spela in röster: "Börja spela in" är en bred knapp igen, med "Testa mikrofonen" under.
 
 ## 2026-11-07
 

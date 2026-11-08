@@ -1,4 +1,4 @@
-import type { MicError } from './mic'
+import { audioSessionType, type MicError } from './mic'
 import type { RecorderDiagnostics } from './use-take-recorder'
 import { NOISY_FLOOR_DB } from './use-take-recorder'
 
@@ -29,14 +29,16 @@ export function inAppBrowser(ua: string): string | null {
 
 export type LevelVerdict = 'good' | 'quiet' | 'loud' | 'noisy'
 
-export const QUIET_PEAK_DB = -36
 export const CLIPPING_DB = -0.3
+/** A take this far above the background is clean, however quiet the microphone itself is. */
+export const CLEAN_ABOVE_FLOOR_DB = 35
+const MIN_PEAK_DB = -55
 
-/** How a test take sounds: `peakDb` is its sample peak, `floorDb` the background level between words. */
+/** How a take sounds: `peakDb` is its sample peak, `floorDb` the background level between words. */
 export function levelVerdict(peakDb: number, floorDb: number): LevelVerdict {
   if (peakDb > CLIPPING_DB) return 'loud'
-  if (peakDb < QUIET_PEAK_DB) return 'quiet'
   if (floorDb > NOISY_FLOOR_DB) return 'noisy'
+  if (peakDb < MIN_PEAK_DB || peakDb - floorDb < CLEAN_ABOVE_FLOOR_DB) return 'quiet'
   return 'good'
 }
 
@@ -77,7 +79,7 @@ export function diagnosticsReport(
     `Ziman·Zabân microphone check, ${now.toISOString()}`,
     `Browser: ${env.ua}`,
     `Platform: ${env.platform}${env.inApp ? `, inside ${env.inApp}` : ''}`,
-    `Secure page: ${yesNo(env.secure)}. Microphone API: ${yesNo(env.getUserMedia)}. Web Audio: ${yesNo(env.audioContext)}. AudioWorklet: ${yesNo(env.audioWorklet)}`,
+    `Secure page: ${yesNo(env.secure)}. Microphone API: ${yesNo(env.getUserMedia)}. Web Audio: ${yesNo(env.audioContext)}. AudioWorklet: ${yesNo(env.audioWorklet)}. Audio session: ${audioSessionType() ?? 'none'}`,
   ]
   if (diag.info) {
     lines.push(`Recording with: ${diag.info.engine}, ${diag.info.sampleRate} Hz`)
