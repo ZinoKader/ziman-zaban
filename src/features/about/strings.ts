@@ -137,7 +137,7 @@ export const aboutStrings = defineStrings({
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, by Armin Rahimi Darehbagh',
-        what: 'An open Central Kurdish text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the central-kurdish-tts4all corpus (audiobook content courtesy of Malaka Mustafa Soltani). Almost all Sorani audio is pre-generated with its default voice. Non-commercial use only.',
+        what: 'An open Central Kurdish text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the central-kurdish-tts4all corpus (audiobook content courtesy of Malaka Mustafa Soltani). It reads the Sorani sentences, questions and answers with its default voice, and every word nobody has recorded yet. Non-commercial use only.',
       },
       vekol: {
         name: 'Vekol-TTS by Darvan Shvan / Revge',
@@ -145,6 +145,7 @@ export const aboutStrings = defineStrings({
       },
     },
     license: 'License',
+    speaker: (lang: string, n: number) => `Native ${lang} speaker. Recorded ${n} of the clips you hear in the app.`,
     referenceUse: 'Used as a reference',
 
     dialectTitle: 'Which Sorani, which Persian?',
@@ -160,7 +161,7 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Honest limitations',
     limits: [
-      'The audio is synthesized, not recorded by people: open models read it, ParsVoice and Audio8 for Persian and Audio8 for Sorani. Every clip is checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker’s recording exists, you hear that instead. If you are a native speaker, telling us about clips that sound wrong helps a lot.',
+      'Most of the audio is synthesized, not recorded by people: open models read it, ParsVoice and Audio8 for Persian and Audio8 for Sorani. Every clip is checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker has recorded a text, you hear the recording instead. The Sorani words are recorded. The Sorani sentences and the Persian audio are not yet. If you are a native speaker, you can record texts on the “Record voices” page.',
       'The voices are licensed for non-commercial use only (ParsVoice under the Coqui Public Model License; Audio8 Persian, Audio8 Sorani and Vekol-TTS under CC BY-NC 4.0), so the app may only be used non-commercially while it uses them.',
       'This is a first version. Native review is ongoing, and some items are still marked “Not yet verified”.',
       'The automatic checks confirm that a word exists with a meaning, not that it is the most natural choice in every situation.',
@@ -168,7 +169,7 @@ export const aboutStrings = defineStrings({
       'The Persian romanization is a learner scheme, not an official standard.',
     ],
     unverified: (n: number) => `${n} items are currently not yet verified.`,
-    thanks: 'Thank you to the Wiktionary and Tatoeba communities, and to every native speaker who reviews.',
+    thanks: 'Thank you to the Wiktionary and Tatoeba communities, and to every native speaker who reviews or records.',
   },
   sv: {
     eyebrow: 'Om appen',
@@ -301,7 +302,7 @@ export const aboutStrings = defineStrings({
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, av Armin Rahimi Darehbagh',
-        what: 'En öppen talsyntesmodell för centralkurdiska, byggd på Audio8 TTS från Edge0-AI och tränad på korpusen central-kurdish-tts4all (ljudboksmaterial med tillstånd av Malaka Mustafa Soltani). Nästan allt soraniljud är förgenererat med dess standardröst. Endast för icke-kommersiellt bruk.',
+        what: 'En öppen talsyntesmodell för centralkurdiska, byggd på Audio8 TTS från Edge0-AI och tränad på korpusen central-kurdish-tts4all (ljudboksmaterial med tillstånd av Malaka Mustafa Soltani). Den läser soranins meningar, frågor och svar med sin standardröst, och alla ord som ingen har spelat in än. Endast för icke-kommersiellt bruk.',
       },
       vekol: {
         name: 'Vekol-TTS av Darvan Shvan / Revge',
@@ -309,6 +310,7 @@ export const aboutStrings = defineStrings({
       },
     },
     license: 'Licens',
+    speaker: (lang: string, n: number) => `Har ${lang.toLocaleLowerCase('sv')} som modersmål. Har spelat in ${n} av klippen du hör i appen.`,
     referenceUse: 'Används som referens',
 
     dialectTitle: 'Vilken sorani, vilken persiska?',
@@ -324,7 +326,7 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Ärliga begränsningar',
     limits: [
-      'Ljudet är syntetiskt, inte inläst av människor: öppna modeller läser det, ParsVoice och Audio8 för persiskan och Audio8 för soranin. Varje klipp kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Finns en inspelning av en modersmålstalare får du höra den i stället. Är du modersmålstalare hjälper det oss mycket om du säger till när ett klipp låter fel.',
+      'Det mesta av ljudet är syntetiskt, inte inläst av människor: öppna modeller läser det, ParsVoice och Audio8 för persiskan och Audio8 för soranin. Varje klipp kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Har en modersmålstalare spelat in en text får du höra inspelningen i stället. Soranins ord är inspelade, men inte meningarna och inget av det persiska ljudet än. Är du modersmålstalare kan du spela in texter på sidan ”Spela in röster”.',
       'Rösterna får bara användas icke-kommersiellt (ParsVoice under Coqui Public Model License; Audio8 Persian, Audio8 Sorani och Vekol-TTS under CC BY-NC 4.0), så appen får bara användas icke-kommersiellt så länge den använder dem.',
       'Det här är en första version. Granskningen av modersmålstalare pågår, och en del innehåll är fortfarande markerat ”Ännu inte verifierat”.',
       'De automatiska kontrollerna bekräftar att ett ord finns med en viss betydelse, inte att det är det naturligaste valet i varje situation.',
@@ -332,6 +334,6 @@ export const aboutStrings = defineStrings({
       'Den persiska transkriptionen är ett system för den som lär sig, inte en officiell standard.',
     ],
     unverified: (n: number) => `${n} delar av innehållet är ännu inte verifierade.`,
-    thanks: 'Tack till Wiktionary- och Tatoeba-gemenskaperna och till alla modersmålstalare som granskar.',
+    thanks: 'Tack till Wiktionary- och Tatoeba-gemenskaperna och till alla modersmålstalare som granskar eller spelar in.',
   },
 })

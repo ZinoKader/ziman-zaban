@@ -3,6 +3,7 @@ import { MemoryRouter } from 'react-router'
 import { beforeAll, describe, expect, it } from 'vitest'
 import { TooltipProvider } from '@/components/ui/tooltip'
 import evidenceJson from '@/content/generated/evidence.json'
+import { setAudioManifest } from '@/lib/audio'
 import { useSettings } from '@/store/settings'
 import { AboutPage } from './about-page'
 import { CITATIONS, PRINCIPLES } from './citations'
@@ -97,6 +98,31 @@ describe('AboutPage', () => {
     const badges = screen.getAllByRole('button', { name: /Confirmed by/ })
     fireEvent.click(badges[0])
     expect(screen.getByText('How we checked this')).toBeInTheDocument()
+  })
+
+  it('credits each native speaker with the number of clips they recorded', () => {
+    useSettings.setState({ baseLang: 'sv', targetLang: 'ckb' })
+    setAudioManifest({
+      ckb: {
+        a: { f: 'ckb/rec-a.mp3', v: 'ckb-rec-zino-kader', h: 1 },
+        b: { f: 'ckb/rec-b.mp3', v: 'ckb-rec-zino-kader', h: 1 },
+        c: { f: 'ckb/c.mp3', v: 'ckb-audio8' },
+      },
+      fa: {},
+      voices: {
+        'ckb-rec-zino-kader': { name: 'Zino Kader', engine: 'native speaker', license: 'CC BY-SA 4.0', credit: 'Zino Kader' },
+        'fa-rec-nobody': { name: 'Nobody', engine: 'native speaker', license: 'CC BY-SA 4.0', credit: 'Nobody' },
+        'ckb-audio8': { name: 'Audio8 Sorani', engine: 'Audio8 TTS', license: 'CC BY-NC 4.0', credit: 'Audio8' },
+      },
+    })
+    try {
+      renderPage()
+      expect(screen.getByRole('heading', { level: 3, name: 'Zino Kader' })).toBeInTheDocument()
+      expect(screen.getByText('Har soranikurdiska som modersmål. Har spelat in 2 av klippen du hör i appen.')).toBeInTheDocument()
+      expect(screen.queryByRole('heading', { name: 'Nobody' })).not.toBeInTheDocument()
+    } finally {
+      setAudioManifest(null)
+    }
   })
 
   it('renders in Swedish', () => {

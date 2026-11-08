@@ -6,6 +6,8 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 
 - App: native speakers can record words and sentences on the new "Record voices" page in the menu. They read one text after another, and the app saves a recording at each pause and shows the next text.
 - Audio: a word or sentence recorded by a native speaker plays before the computer voice.
+- Audio: all 390 Sorani words are now recorded by Zino Kader, a native speaker. Sentences, questions and answers still use the computer voice.
+- Method & sources: "Sources & licenses" lists each native speaker who recorded clips, and how many.
 
 ## 2026-11-07
 

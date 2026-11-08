@@ -14,6 +14,7 @@ import {
   Layers,
   MessageCircleQuestion,
   MessagesSquare,
+  Mic,
   MonitorSmartphone,
   ShieldCheck,
   ShieldQuestion,
@@ -29,6 +30,7 @@ import { Button } from '@/components/ui/button'
 import { conceptById, type EvidenceLevel } from '@/content'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
+import { useAudioManifest, type AudioManifest } from '@/lib/audio'
 import { cn } from '@/lib/utils'
 import { MODULES, moduleWhy } from '@/features/modules'
 import { useSettings } from '@/store/settings'
@@ -350,11 +352,40 @@ function Accuracy() {
   )
 }
 
+function nativeSpeakers(m: AudioManifest | null) {
+  if (!m) return []
+  return Object.entries(m.voices)
+    .filter(([, v]) => v.engine === 'native speaker')
+    .map(([id, v]) => {
+      const lang: TargetLang = id.startsWith('fa-') ? 'fa' : 'ckb'
+      const clips = Object.values(m[lang]).filter((c) => c.v === id).length
+      return { id, lang, clips, name: v.name, license: v.license }
+    })
+    .filter((sp) => sp.clips > 0)
+}
+
 function Sources() {
   const s = aboutStrings.use()
+  const c = common.use()
+  const manifest = useAudioManifest()
+  const speakers = useMemo(() => nativeSpeakers(manifest), [manifest])
   return (
     <Section id="sources" title={s.sourcesTitle}>
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {speakers.map((sp) => (
+          <li key={sp.id} className="flex flex-col gap-2 rounded-3xl border bg-card p-4 shadow-xs">
+            <div className="flex items-start justify-between gap-2">
+              <h3 dir="auto" className="font-semibold leading-snug">
+                {sp.name}
+              </h3>
+              <Mic className="size-4 shrink-0 text-muted-foreground" aria-hidden />
+            </div>
+            <p className="text-sm text-muted-foreground">{s.speaker(c.languages[sp.lang], sp.clips)}</p>
+            <p className="mt-auto pt-1">
+              <span className="rounded-full border px-2 py-0.5 font-mono text-[0.7rem]">{`${s.license}: ${sp.license}`}</span>
+            </p>
+          </li>
+        ))}
         {SOURCES.map((src) => {
           const text = s.sources[src.key]
           return (
