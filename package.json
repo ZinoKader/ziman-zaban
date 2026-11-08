@@ -17,13 +17,15 @@
     "typecheck": "tsc -b",
     "audio:collect": "tsx scripts/audio/collect-texts.ts",
     "audio:build": "npm run audio:collect && python3 scripts/audio/generate.py",
-    "audio:verify": "python3 scripts/audio/verify.py"
+    "audio:verify": "python3 scripts/audio/verify.py",
+    "audio:import": "npm run audio:collect && python3 scripts/audio/import-recordings.py"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
     "@fontsource-variable/vazirmatn": "^5.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "fflate": "^0.8.3",
     "idb-keyval": "^6.3.0",
     "lucide-react": "^1.66.0",
     "radix-ui": "^1.8.1",

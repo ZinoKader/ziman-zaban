@@ -20,6 +20,7 @@ export const common = defineStrings({
       whatsNew: "What's new",
       about: 'Method & sources',
       review: 'Native review',
+      studio: 'Record voices',
     },
     modules: {
       recognition: {
@@ -117,6 +118,7 @@ export const common = defineStrings({
       whatsNew: 'Nytt i appen',
       about: 'Metod & källor',
       review: 'Granskning',
+      studio: 'Spela in röster',
     },
     modules: {
       recognition: {

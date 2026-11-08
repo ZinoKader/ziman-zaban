@@ -1,4 +1,4 @@
-import { BookA, ChartNoAxesColumn, GraduationCap, Home, Info, Languages, Menu, Settings as SettingsIcon, ShieldCheck, Sparkles, SpellCheck } from 'lucide-react'
+import { BookA, ChartNoAxesColumn, GraduationCap, Home, Info, Languages, Menu, Mic, Settings as SettingsIcon, ShieldCheck, Sparkles, SpellCheck } from 'lucide-react'
 import { useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router'
 import { Button } from '@/components/ui/button'
@@ -89,6 +89,7 @@ const MORE = [
   { to: '/settings', icon: SettingsIcon, key: 'settings' },
   { to: '/about', icon: Info, key: 'about' },
   { to: '/review', icon: ShieldCheck, key: 'review' },
+  { to: '/studio', icon: Mic, key: 'studio' },
 ] as const
 
 export function AppLayout() {

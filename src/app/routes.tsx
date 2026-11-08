@@ -8,6 +8,7 @@ import { ProgressPage } from '@/features/progress/progress-page'
 import { ReviewPage } from '@/features/review/review-page'
 import { SessionPage } from '@/features/session/session-page'
 import { SettingsPage } from '@/features/settings/settings-page'
+import { StudioPage } from '@/features/studio/studio-page'
 import { WhatsNewPage } from '@/features/whats-new/whats-new-page'
 import { WordsPage } from '@/features/words/words-page'
 import { AppLayout } from './layout'
@@ -31,6 +32,7 @@ export const router = createBrowserRouter([
       { path: 'review', element: <ReviewPage /> },
       { path: 'settings', element: <SettingsPage /> },
       { path: 'whats-new', element: <WhatsNewPage /> },
+      { path: 'studio', element: <StudioPage /> },
       { path: '*', element: <HomePage /> },
     ],
   },

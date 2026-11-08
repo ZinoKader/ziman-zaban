@@ -5,14 +5,13 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { TARGET_LANGS, type BaseLang, type TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
+import { NATIVE_NAME } from '@/i18n/native-names'
 import { cn } from '@/lib/utils'
 import { useSettings } from '@/store/settings'
 import { useReview } from './store'
 import { reviewStrings } from './strings'
 
-const NATIVE_NAME: Record<TargetLang, string> = { ckb: 'کوردیی ناوەندی', fa: 'فارسی' }
-
-function Choice<T extends string>({
+export function Choice<T extends string>({
   label,
   value,
   options,
