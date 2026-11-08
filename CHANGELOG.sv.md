@@ -7,7 +7,7 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Appen: den som har soranikurdiska eller persiska som modersmål kan spela in ord och meningar på den nya sidan "Spela in röster" i menyn. Man läser en text i taget, och appen sparar inspelningen vid varje paus och visar nästa text.
 - Ljud: ord och meningar som en infödd talare har spelat in spelas före datorrösten.
 - Ljud: alla 390 soraniord är nu inspelade av Zino Kader, som har soranikurdiska som modersmål. Meningar, frågor och svar läses fortfarande av datorrösten.
-- Ljud: 238 av de 424 persiska orden är nu inspelade av Essi, som har persiska som modersmål. Resten, och alla meningar, läses fortfarande av datorrösten.
+- Ljud: alla 424 persiska ord är nu inspelade av Essi, som har persiska som modersmål. Meningar, frågor och svar läses fortfarande av datorrösten.
 - Metod & källor: "Källor & licenser" visar varje modersmålstalare som har spelat in klipp, och hur många.
 - Spela in röster: "Börja spela in" kör först ett mikrofontest. Du säger ett ord, hör det spelas upp och ser vad du ska göra om mikrofonen inte fungerar. "Testa mikrofonen" kör testet igen.
 - Spela in röster: på iPhone startar mikrofonen nu när du trycker. Förut var den tillåten men appen hörde ingenting.

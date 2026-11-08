@@ -161,7 +161,7 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Honest limitations',
     limits: [
-      'Most of the audio is synthesized, not recorded by people: open models read it, ParsVoice and Audio8 for Persian and Audio8 for Sorani. Every clip is checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker has recorded a text, you hear the recording instead. The Sorani words and over half of the Persian words are recorded. The sentences are not yet. If you are a native speaker, you can record texts on the “Record voices” page.',
+      'Most of the audio is synthesized, not recorded by people: open models read it, ParsVoice and Audio8 for Persian and Audio8 for Sorani. Every clip is checked automatically with speech recognition, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker has recorded a text, you hear the recording instead. The Sorani and Persian words are recorded. The sentences are not yet. If you are a native speaker, you can record texts on the “Record voices” page.',
       'The voices are licensed for non-commercial use only (ParsVoice under the Coqui Public Model License; Audio8 Persian, Audio8 Sorani and Vekol-TTS under CC BY-NC 4.0), so the app may only be used non-commercially while it uses them.',
       'This is a first version. Native review is ongoing, and some items are still marked “Not yet verified”.',
       'The automatic checks confirm that a word exists with a meaning, not that it is the most natural choice in every situation.',
@@ -326,7 +326,7 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Ärliga begränsningar',
     limits: [
-      'Det mesta av ljudet är syntetiskt, inte inläst av människor: öppna modeller läser det, ParsVoice och Audio8 för persiskan och Audio8 för soranin. Varje klipp kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Har en modersmålstalare spelat in en text får du höra inspelningen i stället. Soranins ord och över hälften av de persiska orden är inspelade, men inte meningarna än. Är du modersmålstalare kan du spela in texter på sidan ”Spela in röster”.',
+      'Det mesta av ljudet är syntetiskt, inte inläst av människor: öppna modeller läser det, ParsVoice och Audio8 för persiskan och Audio8 för soranin. Varje klipp kontrolleras automatiskt med taligenkänning, men en maskinröst kan ändå betona eller uttala ett ord fel. Har en modersmålstalare spelat in en text får du höra inspelningen i stället. Orden på sorani och persiska är inspelade, men inte meningarna än. Är du modersmålstalare kan du spela in texter på sidan ”Spela in röster”.',
       'Rösterna får bara användas icke-kommersiellt (ParsVoice under Coqui Public Model License; Audio8 Persian, Audio8 Sorani och Vekol-TTS under CC BY-NC 4.0), så appen får bara användas icke-kommersiellt så länge den använder dem.',
       'Det här är en första version. Granskningen av modersmålstalare pågår, och en del innehåll är fortfarande markerat ”Ännu inte verifierat”.',
       'De automatiska kontrollerna bekräftar att ett ord finns med en viss betydelse, inte att det är det naturligaste valet i varje situation.',

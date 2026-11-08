@@ -1972,6 +1972,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:37.030Z"
    },
+   "آبی": {
+    "f": "fa/rec-de95d51032e81046.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:13.558Z"
+   },
    "آرش": {
     "f": "fa/rec-17b888f1124c0264.mp3",
     "v": "fa-rec-essi",
@@ -1982,6 +1987,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:48.756Z"
    },
+   "آسان": {
+    "f": "fa/rec-07ef27424e1c3c42.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:25.334Z"
+   },
+   "آسون": {
+    "f": "fa/rec-063effc1d3801dc6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:27.424Z"
+   },
    "آشپزخانه": {
     "f": "fa/rec-733aa2003b1dc7d7.mp3",
     "v": "fa-rec-essi",
@@ -1991,6 +2006,21 @@
     "f": "fa/rec-c836af5e11366764.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:09.405Z"
+   },
+   "آشپزی کردم": {
+    "f": "fa/rec-f2b0977fa1550dc7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:56.395Z"
+   },
+   "آشپزی کردن": {
+    "f": "fa/rec-2a3bf42664f3cfa3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:12.334Z"
+   },
+   "آمدن": {
+    "f": "fa/rec-4f9434fc5e590230.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:01.325Z"
    },
    "آن": {
     "f": "fa/rec-cb37e47ffaac0c92.mp3",
@@ -2012,15 +2042,40 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:15.411Z"
    },
+   "آهسته": {
+    "f": "fa/rec-ae650b8b2a9fdfea.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:13.216Z"
+   },
+   "آپارتمان": {
+    "f": "fa/rec-b9560e63ff7f8126.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:22.430Z"
+   },
    "اتاق": {
     "f": "fa/rec-64c60f50bb48d5b5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:01.127Z"
    },
+   "اتوبوس": {
+    "f": "fa/rec-f27f8880af383897.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:33.459Z"
+   },
    "اربیل": {
     "f": "fa/rec-9b68500d4b9eaca8.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:50.878Z"
+   },
+   "ارزان": {
+    "f": "fa/rec-a3eb1cc78dbf5f96.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:35.574Z"
+   },
+   "ارزون": {
+    "f": "fa/rec-88f521ccffbd9073.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:37.749Z"
    },
    "اریک": {
     "f": "fa/rec-d5548bbc99d35d53.mp3",
@@ -2067,6 +2122,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:46.003Z"
    },
+   "البته": {
+    "f": "fa/rec-535b5a57b642e160.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:04.341Z"
+   },
+   "اما": {
+    "f": "fa/rec-dd405df117951146.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:48.811Z"
+   },
    "امروز": {
     "f": "fa/rec-4880496861db86fe.mp3",
     "v": "fa-rec-essi",
@@ -2091,6 +2156,11 @@
     "f": "fa/rec-35b2447f5603d15f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:07.859Z"
+   },
+   "اونا": {
+    "f": "fa/rec-a5d35ceb81dd5f7c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:37:49.765Z"
    },
    "اونجا": {
     "f": "fa/rec-a82638d2e6858bd0.mp3",
@@ -2117,6 +2187,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:20.137Z"
    },
+   "با": {
+    "f": "fa/rec-98022d958a1726e5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:11.948Z"
+   },
    "بابا": {
     "f": "fa/rec-198b72f818949964.mp3",
     "v": "fa-rec-essi",
@@ -2126,6 +2201,26 @@
     "f": "fa/rec-f420301542db0cb1.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:03.349Z"
+   },
+   "باز": {
+    "f": "fa/rec-890b3fc149f6c3de.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:08.820Z"
+   },
+   "باز کردن": {
+    "f": "fa/rec-00bf2090b7d91692.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:40.684Z"
+   },
+   "بازار": {
+    "f": "fa/rec-47a720f47092854c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:50.549Z"
+   },
+   "بازی کردن": {
+    "f": "fa/rec-5de33c61cf8c64a5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:09.476Z"
    },
    "باشه": {
     "f": "fa/rec-f71f105b76d0a991.mp3",
@@ -2137,15 +2232,45 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:27.497Z"
    },
+   "بد": {
+    "f": "fa/rec-10d0dfce0d1624df.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:27.863Z"
+   },
    "برادر": {
     "f": "fa/rec-62174bd059c16c62.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:43.593Z"
    },
+   "برای اینکه": {
+    "f": "fa/rec-da73e457c7c9b8d1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:38.869Z"
+   },
+   "برای چی": {
+    "f": "fa/rec-1c6cb982c4601976.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:20.141Z"
+   },
    "برنج": {
     "f": "fa/rec-0c731836eb1931f2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:50.088Z"
+   },
+   "برویم": {
+    "f": "fa/rec-7192d06ad2461191.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:04.926Z"
+   },
+   "بریم": {
+    "f": "fa/rec-39cfba234d917145.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:06.887Z"
+   },
+   "بزرگ": {
+    "f": "fa/rec-272e52f87566f990.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:13.826Z"
    },
    "بزرگتر": {
     "f": "fa/rec-204341af0f8990ce.mp3",
@@ -2162,15 +2287,75 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:40.221Z"
    },
+   "بستن": {
+    "f": "fa/rec-756622c5cbd1c85e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:43.115Z"
+   },
    "بسه": {
     "f": "fa/rec-4c20c5f07e8a1519.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:42.226Z"
    },
+   "بسیار": {
+    "f": "fa/rec-1638e96adeebbc79.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:05.239Z"
+   },
+   "بعداً می‌بینمت": {
+    "f": "fa/rec-152e926aa95fe90b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:12.733Z"
+   },
+   "بعضی وقتا": {
+    "f": "fa/rec-f89168e67dcf7bd0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:48:09.312Z"
+   },
+   "بعضی وقت‌ها": {
+    "f": "fa/rec-71f8c38b5a6c33f7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:48:26.531Z"
+   },
    "بله": {
     "f": "fa/rec-2a2898add9222f9d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:51.999Z"
+   },
+   "بلیت": {
+    "f": "fa/rec-eb9596450ec2a61c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:42.504Z"
+   },
+   "بلیط": {
+    "f": "fa/rec-d49e7cb4cf47acc6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:44.595Z"
+   },
+   "به": {
+    "f": "fa/rec-1616ea520670fe2a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:10.070Z"
+   },
+   "به امید دیدار": {
+    "f": "fa/rec-ecc2b7f9e3db7ecd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:15.550Z"
+   },
+   "به بازار رفتم": {
+    "f": "fa/rec-2ba67202ed6f70de.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:59.297Z"
+   },
+   "به فارسی چی می‌شه؟": {
+    "f": "fa/rec-5af7b0bc242676b7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:55.926Z"
+   },
+   "بهتر": {
+    "f": "fa/rec-003fb9551e51c36c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:53.408Z"
    },
    "بودن": {
     "f": "fa/rec-ae6f8e221fcb12b8.mp3",
@@ -2187,6 +2372,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:54.642Z"
    },
+   "بیا بریم": {
+    "f": "fa/rec-eb45354032eaaec4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:09.747Z"
+   },
+   "بیدار شدن": {
+    "f": "fa/rec-024f946e068f8080.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:34.079Z"
+   },
    "بیست": {
     "f": "fa/rec-1e23daf2b4c09ed9.mp3",
     "v": "fa-rec-essi",
@@ -2196,6 +2391,31 @@
     "f": "fa/rec-87785fe131095655.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:38.514Z"
+   },
+   "بیمار": {
+    "f": "fa/rec-9ef18f6c58cf8cc1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:00.971Z"
+   },
+   "بیمارستان": {
+    "f": "fa/rec-93e74eb3985f1527.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:53.023Z"
+   },
+   "بیمارستون": {
+    "f": "fa/rec-7300bcd2e0b865d3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:26.846Z"
+   },
+   "تازه": {
+    "f": "fa/rec-d8f1277f6f3f21f6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:35.842Z"
+   },
+   "تاکسی": {
+    "f": "fa/rec-5e0ad5bdb6979de8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:40.329Z"
    },
    "تخت": {
     "f": "fa/rec-f55de1ce49af0013.mp3",
@@ -2227,6 +2447,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:22.887Z"
    },
+   "تلفن کردن": {
+    "f": "fa/rec-0cf2afcd479d4eac.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:03.718Z"
+   },
+   "تمیز": {
+    "f": "fa/rec-aa3cbf3e7e5a4bc5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:45.087Z"
+   },
    "تنها": {
     "f": "fa/rec-a9b57e17fedd5857.mp3",
     "v": "fa-rec-essi",
@@ -2252,6 +2482,26 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:09.706Z"
    },
+   "توانستن": {
+    "f": "fa/rec-8fd04e9ffaec287d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:00.860Z"
+   },
+   "توی": {
+    "f": "fa/rec-f76dbbd52a962692.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:07.895Z"
+   },
+   "جدی": {
+    "f": "fa/rec-104923e5e159fd5d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:18.121Z"
+   },
+   "جدید": {
+    "f": "fa/rec-3e0f050c53f2869f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:37.634Z"
+   },
    "جمعه": {
     "f": "fa/rec-839c90158662db53.mp3",
     "v": "fa-rec-essi",
@@ -2266,6 +2516,11 @@
     "f": "fa/rec-78f02141f649a2db.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:01.045Z"
+   },
+   "حتماً": {
+    "f": "fa/rec-6fcdfc412fcac135.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:06.302Z"
    },
    "حرف زدن": {
     "f": "fa/rec-d6cde3324ee7fabf.mp3",
@@ -2297,10 +2552,30 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:28.235Z"
    },
+   "خریدن": {
+    "f": "fa/rec-c9a9b4039e6440c4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:32.362Z"
+   },
+   "خسته": {
+    "f": "fa/rec-f551bfcec4d24416.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:58.923Z"
+   },
+   "خوابیدن": {
+    "f": "fa/rec-3d021be761ad4383.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:25.664Z"
+   },
    "خواستن": {
     "f": "fa/rec-abdb5401b4eebb2a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:26.483Z"
+   },
+   "خواندن": {
+    "f": "fa/rec-551fa5bb445b67de.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:27.500Z"
    },
    "خواهر": {
     "f": "fa/rec-cbce95ecc248adab.mp3",
@@ -2322,6 +2597,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:04.755Z"
    },
+   "خودرو": {
+    "f": "fa/rec-cc7214fc030d1dd6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:35.635Z"
+   },
    "خوردن": {
     "f": "fa/rec-a74ae4b705d46bd5.mp3",
     "v": "fa-rec-essi",
@@ -2342,6 +2622,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:20.245Z"
    },
+   "خوشبختم": {
+    "f": "fa/rec-7354b75c892a09b2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:37:52.664Z"
+   },
+   "خوشحال": {
+    "f": "fa/rec-15561f15fa9f2c0a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:50.988Z"
+   },
    "خوشمزه": {
     "f": "fa/rec-6f864bf18e8f5b87.mp3",
     "v": "fa-rec-essi",
@@ -2352,6 +2642,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:43:35.710Z"
    },
+   "خوشگل": {
+    "f": "fa/rec-d4502a2df71df44d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:29.953Z"
+   },
    "خوش‌مزه": {
     "f": "fa/rec-d990befff250d74f.mp3",
     "v": "fa-rec-essi",
@@ -2361,6 +2656,21 @@
     "f": "fa/rec-6c87814f944a7ae4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:59.335Z"
+   },
+   "خیابان": {
+    "f": "fa/rec-6ff6cb2bb00feb45.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:09.582Z"
+   },
+   "خیابون": {
+    "f": "fa/rec-319433c672cf4078.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:18.872Z"
+   },
+   "خیلی": {
+    "f": "fa/rec-61a05a19f88c4e8f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:07.371Z"
    },
    "خیلی مرسی": {
     "f": "fa/rec-0e428e4a3cf9b338.mp3",
@@ -2377,10 +2687,25 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:45.428Z"
    },
+   "دادن": {
+    "f": "fa/rec-e83fdb566b7eb54e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:35.562Z"
+   },
    "داشتن": {
     "f": "fa/rec-9222d4f59238fbfe.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:22.803Z"
+   },
+   "داغ": {
+    "f": "fa/rec-46d95659fff9cbb8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:45.312Z"
+   },
+   "دانستن": {
+    "f": "fa/rec-dafb0c0f1bf2e0a5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:19.563Z"
    },
    "دایی": {
     "f": "fa/rec-fb716bdef9975e9b.mp3",
@@ -2396,6 +2721,16 @@
     "f": "fa/rec-cc3b90c5b1b4511c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:02.962Z"
+   },
+   "درس خواندن": {
+    "f": "fa/rec-e22f44dbeb4d320b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:40.721Z"
+   },
+   "درس خوندن": {
+    "f": "fa/rec-3d30bdc72c57fad8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:44.735Z"
    },
    "دقه": {
     "f": "fa/rec-7a15d1e077ae26a5.mp3",
@@ -2427,30 +2762,95 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:28.510Z"
    },
+   "دوباره": {
+    "f": "fa/rec-49ff9c235ca11332.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:11.038Z"
+   },
+   "دور": {
+    "f": "fa/rec-0681bef6b9d8320b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:37:57.058Z"
+   },
    "دوست": {
     "f": "fa/rec-e3a25a78bb5d8816.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:32.935Z"
+   },
+   "دوست داشتن": {
+    "f": "fa/rec-5e3dc21357c1b4a2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:58.516Z"
    },
    "دوشنبه": {
     "f": "fa/rec-4a13919c04b12928.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:15.613Z"
    },
+   "دوچرخه": {
+    "f": "fa/rec-175f5d0283bb6702.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:37:54.925Z"
+   },
+   "دکتر": {
+    "f": "fa/rec-cb45407cc66e0d79.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:31.454Z"
+   },
+   "دیدن": {
+    "f": "fa/rec-9187ffe583265db0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:14.785Z"
+   },
+   "دیر": {
+    "f": "fa/rec-ca52efc8ba2c4f70.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:48.161Z"
+   },
    "دیروز": {
     "f": "fa/rec-7c69b9ce4d863842.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:42.077Z"
+   },
+   "راحت": {
+    "f": "fa/rec-1c997c7cf706a6a9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:29.430Z"
+   },
+   "راست": {
+    "f": "fa/rec-2cd7dc72ef8bc438.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:52.489Z"
+   },
+   "رفتن": {
+    "f": "fa/rec-ee3265e9c4d7d6dc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:37:59.234Z"
    },
    "رفیق": {
     "f": "fa/rec-97efda93dbd9df73.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:34.728Z"
    },
+   "رنگ": {
+    "f": "fa/rec-344ad2562f3e4a59.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:49.355Z"
+   },
    "روز": {
     "f": "fa/rec-dbee90caa9368604.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:47.751Z"
+   },
+   "روزانه": {
+    "f": "fa/rec-c70f13783c2f4dca.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:53.994Z"
+   },
+   "روستا": {
+    "f": "fa/rec-faec57d71d46dad7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:03.671Z"
    },
    "زبان": {
     "f": "fa/rec-f0c4fdd05b508780.mp3",
@@ -2462,6 +2862,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:44.639Z"
    },
+   "زرد": {
+    "f": "fa/rec-8e2d4bc0ea16a0a1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:23.071Z"
+   },
    "زن": {
     "f": "fa/rec-e39cd27c7a7c02b9.mp3",
     "v": "fa-rec-essi",
@@ -2471,6 +2876,26 @@
     "f": "fa/rec-1e5de0b273fbebe3.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:18.261Z"
+   },
+   "زنگ زدن": {
+    "f": "fa/rec-2b8cb90aa3e81b38.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:06.446Z"
+   },
+   "زود": {
+    "f": "fa/rec-3fab4936ffb8af2a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:46.370Z"
+   },
+   "زیبا": {
+    "f": "fa/rec-40288e33e5ba326f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:32.002Z"
+   },
+   "زیرا": {
+    "f": "fa/rec-2fa06e52e898da05.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:44.928Z"
    },
    "ساعت": {
     "f": "fa/rec-269c52c2d574f4dd.mp3",
@@ -2482,6 +2907,31 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:33.811Z"
    },
+   "سبز": {
+    "f": "fa/rec-e00e73b9dbfbb3d1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:15.521Z"
+   },
+   "سخت": {
+    "f": "fa/rec-228c5632e3699ff6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:31.307Z"
+   },
+   "سرخ": {
+    "f": "fa/rec-1fd2ffa982f003e4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:09.164Z"
+   },
+   "سرد": {
+    "f": "fa/rec-5a9c6494b2b3ccea.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:48.940Z"
+   },
+   "سفید": {
+    "f": "fa/rec-54dca256b05d7e52.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:17.355Z"
+   },
    "سلام": {
     "f": "fa/rec-e93807dc426ef03f.mp3",
     "v": "fa-rec-essi",
@@ -2491,6 +2941,11 @@
     "f": "fa/rec-36646b20d2c530f6.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:35.731Z"
+   },
+   "سنندج": {
+    "f": "fa/rec-1e603c686969c930.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:53:53.173Z"
    },
    "سه": {
     "f": "fa/rec-1649c7a1bf57bb34.mp3",
@@ -2522,15 +2977,30 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:01.928Z"
    },
+   "سیاه": {
+    "f": "fa/rec-65d58309cd8ae50d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:19.146Z"
+   },
    "سیب": {
     "f": "fa/rec-30aaee9ae5a79990.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:01.224Z"
    },
+   "شاد": {
+    "f": "fa/rec-5a77cc69a83e7eff.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:52.780Z"
+   },
    "شام": {
     "f": "fa/rec-558818bda5368d42.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:20.594Z"
+   },
+   "شاید": {
+    "f": "fa/rec-bc2cbdac267dcfcd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:01.609Z"
    },
    "شب": {
     "f": "fa/rec-ede52937bdfb7b6b.mp3",
@@ -2541,6 +3011,11 @@
     "f": "fa/rec-6b51ae9344fd7e43.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:25.495Z"
+   },
+   "شستن": {
+    "f": "fa/rec-2ad5378854f634af.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:49.980Z"
    },
    "شش": {
     "f": "fa/rec-45292db454c90ea2.mp3",
@@ -2561,6 +3036,11 @@
     "f": "fa/rec-35fc270cc83302f2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:09.257Z"
+   },
+   "شنیدن": {
+    "f": "fa/rec-40446274cf5c8ca2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:17.216Z"
    },
    "شهر": {
     "f": "fa/rec-1b9a117965b1879a.mp3",
@@ -2617,6 +3097,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:14.963Z"
    },
+   "صبر کردن": {
+    "f": "fa/rec-f368a0f69cae60f2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:50.069Z"
+   },
    "صحبت کردن": {
     "f": "fa/rec-1189561bb1c82060.mp3",
     "v": "fa-rec-essi",
@@ -2636,6 +3121,11 @@
     "f": "fa/rec-ee2b372d65d6440a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:17.041Z"
+   },
+   "عربی": {
+    "f": "fa/rec-6688a2e4c24befa6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:08.811Z"
    },
    "عصر": {
     "f": "fa/rec-0ee88b948903713a.mp3",
@@ -2657,6 +3147,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:35.453Z"
    },
+   "غذا درست کردن": {
+    "f": "fa/rec-6478b32d2e494e52.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:17.453Z"
+   },
+   "غمگین": {
+    "f": "fa/rec-1af73ab5d5851c35.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:54.827Z"
+   },
    "فارسی": {
     "f": "fa/rec-f7f60fb1bd43fa6b.mp3",
     "v": "fa-rec-essi",
@@ -2672,10 +3172,45 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:40.285Z"
    },
+   "فرودگاه": {
+    "f": "fa/rec-df3c37d846b05de6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:55.454Z"
+   },
+   "فروشگاه": {
+    "f": "fa/rec-b5a59f1d7226f89e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:21.558Z"
+   },
+   "فعلاً": {
+    "f": "fa/rec-c48eec7aff57eabc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:17.597Z"
+   },
    "فقط": {
     "f": "fa/rec-14c0ef52028ca007.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:53.266Z"
+   },
+   "فهمیدن": {
+    "f": "fa/rec-9f4d5acb76ae2510.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:22.166Z"
+   },
+   "قدیمی": {
+    "f": "fa/rec-110e5cce9d9d5d72.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:41.687Z"
+   },
+   "قرمز": {
+    "f": "fa/rec-3996f2619dcc45dc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:11.553Z"
+   },
+   "قشنگ": {
+    "f": "fa/rec-ede845dcb089598e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:33.920Z"
    },
    "قند": {
     "f": "fa/rec-dd53197c9d0ed03f.mp3",
@@ -2687,10 +3222,30 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:46.504Z"
    },
+   "لباس": {
+    "f": "fa/rec-e7972740dca6a5ff.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:07.319Z"
+   },
+   "لباس‌ها": {
+    "f": "fa/rec-97c27102bc546f3c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:10.302Z"
+   },
    "لطفاً": {
     "f": "fa/rec-ef9aa9abed6942e6.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:46.879Z"
+   },
+   "لطفاً دوباره بگویید": {
+    "f": "fa/rec-603f2aff13e8ffca.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:37.151Z"
+   },
+   "لطفاً دوباره بگید": {
+    "f": "fa/rec-1defcdc26cb89a64.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:40.480Z"
    },
    "لندن": {
     "f": "fa/rec-3c9aa321031dec46.mp3",
@@ -2722,6 +3277,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:04.765Z"
    },
+   "ماشین": {
+    "f": "fa/rec-dfcc8227295c1eca.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:38.152Z"
+   },
    "مامان": {
     "f": "fa/rec-94652759847edf24.mp3",
     "v": "fa-rec-essi",
@@ -2742,10 +3302,25 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:31.719Z"
    },
+   "مترو": {
+    "f": "fa/rec-ef49a416fed692e9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:53:32.090Z"
+   },
    "متشکرم": {
     "f": "fa/rec-3787a20e5f73182e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:32.714Z"
+   },
+   "متوجه نشدم": {
+    "f": "fa/rec-dbc7fce4d69800e4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:23.798Z"
+   },
+   "مدرسه": {
+    "f": "fa/rec-7f9d8f99763aca56.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:15.422Z"
    },
    "مرد": {
     "f": "fa/rec-4fbbb971014a7e08.mp3",
@@ -2762,10 +3337,45 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:53.415Z"
    },
+   "مریض": {
+    "f": "fa/rec-78ccddbcd70515aa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:02.849Z"
+   },
    "مریم": {
     "f": "fa/rec-a5b8971d4ba4e1a7.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:46.314Z"
+   },
+   "مستقیم": {
+    "f": "fa/rec-873b76e2f0805c75.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:54.750Z"
+   },
+   "مشکل": {
+    "f": "fa/rec-313acc3d1ed51360.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:33.397Z"
+   },
+   "مشکی": {
+    "f": "fa/rec-46478b024d61050b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:21.155Z"
+   },
+   "معمولاً": {
+    "f": "fa/rec-bef8a498dd27d7c9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:44.068Z"
+   },
+   "معنی آن چیست؟": {
+    "f": "fa/rec-01bed74923f69db4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:46.583Z"
+   },
+   "مغازه": {
+    "f": "fa/rec-bbfa07cec0e3f363.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:23.945Z"
    },
    "ممنون": {
     "f": "fa/rec-47d283fc86b58f48.mp3",
@@ -2797,6 +3407,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:59.517Z"
    },
+   "می‌شه تکرار کنید؟": {
+    "f": "fa/rec-73cbd87174482e2c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:43.721Z"
+   },
+   "ناراحت": {
+    "f": "fa/rec-2417221a87a5caf9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:56.919Z"
+   },
    "نام": {
     "f": "fa/rec-6fac156bffc7e4b1.mp3",
     "v": "fa-rec-essi",
@@ -2822,20 +3442,50 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:54.005Z"
    },
+   "نزدیک": {
+    "f": "fa/rec-e630fcaa227c9cac.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:56.669Z"
+   },
    "نسرین": {
     "f": "fa/rec-efe35d6c98a1724f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:30.750Z"
+   },
+   "نشستن": {
+    "f": "fa/rec-f4955265bec69d18.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:46.784Z"
    },
    "نصف": {
     "f": "fa/rec-5437f8f391f7ef52.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:00.637Z"
    },
+   "نفهمیدم": {
+    "f": "fa/rec-0d1ae0f653957b05.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:26.313Z"
+   },
    "نمک": {
     "f": "fa/rec-d3dbc89c304e871c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:10.696Z"
+   },
+   "نمی‌دانم": {
+    "f": "fa/rec-02a4c1b70306b41d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:31.220Z"
+   },
+   "نمی‌دونم": {
+    "f": "fa/rec-f8b9f736ccd3cc79.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:33.438Z"
+   },
+   "نمی‌فهمم": {
+    "f": "fa/rec-645aa632aae3a59a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:28.830Z"
    },
    "نه": {
     "f": "fa/rec-bd8cce6c12c1a075.mp3",
@@ -2847,10 +3497,20 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:18.845Z"
    },
+   "نو": {
+    "f": "fa/rec-6ec2e0f86a029075.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:39.552Z"
+   },
    "نوزاد": {
     "f": "fa/rec-77e6878c8e63f2d1.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:18.920Z"
+   },
+   "نوشتن": {
+    "f": "fa/rec-37e708ba5e1478c8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:29.973Z"
    },
    "نوشیدن": {
     "f": "fa/rec-4e176018585ca050.mp3",
@@ -2861,6 +3521,11 @@
     "f": "fa/rec-c25337182b023423.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:41.042Z"
+   },
+   "نیز": {
+    "f": "fa/rec-53dce662f4ca0ae8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:54.995Z"
    },
    "نیلوفر": {
     "f": "fa/rec-6ddd4ed4fad1774e.mp3",
@@ -2876,6 +3541,16 @@
     "f": "fa/rec-a2517eba927cebe5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:20.840Z"
+   },
+   "هر روز": {
+    "f": "fa/rec-a9c3c4ab4b7efdf0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:48:01.939Z"
+   },
+   "هرگز": {
+    "f": "fa/rec-182f8c70f2a3c7d5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:39.418Z"
    },
    "هزار": {
     "f": "fa/rec-e766d093e3adf700.mp3",
@@ -2902,15 +3577,65 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:49.841Z"
    },
+   "هم": {
+    "f": "fa/rec-db5d46a7248826bd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:57.044Z"
+   },
    "همسر": {
     "f": "fa/rec-6528701774014207.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:09.748Z"
    },
+   "همچنین": {
+    "f": "fa/rec-50de40da8c434ed8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:59.434Z"
+   },
+   "همیشه": {
+    "f": "fa/rec-2373a4e077f898e4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:48:04.403Z"
+   },
+   "هوا": {
+    "f": "fa/rec-54cffb81a40d038f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:51.318Z"
+   },
+   "هیچ‌وقت": {
+    "f": "fa/rec-94e113cf7aa7b84a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:41.761Z"
+   },
+   "و": {
+    "f": "fa/rec-b6978e9c16c912e5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:46.762Z"
+   },
+   "واقعاً": {
+    "f": "fa/rec-ea2b04513d793289.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:20.554Z"
+   },
+   "ولی": {
+    "f": "fa/rec-b957b6eb77dca93c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:50.601Z"
+   },
    "پانزده": {
     "f": "fa/rec-dc3a46b257773ef5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:30.558Z"
+   },
+   "پاک": {
+    "f": "fa/rec-7ffaa131ae097e17.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:43.296Z"
+   },
+   "پختن": {
+    "f": "fa/rec-d3ead426d31a91e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:14.338Z"
    },
    "پدر": {
     "f": "fa/rec-775da587e823ec2b.mp3",
@@ -2926,6 +3651,11 @@
     "f": "fa/rec-8f3ac18d00b9160c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:26.483Z"
+   },
+   "پزشک": {
+    "f": "fa/rec-a6c80df86848529a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:29.533Z"
    },
    "پسر": {
     "f": "fa/rec-89fca4feefd811dd.mp3",
@@ -2962,6 +3692,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:03.014Z"
    },
+   "پول": {
+    "f": "fa/rec-ebf06fb4fcc63e7d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:46.428Z"
+   },
    "پونزده": {
     "f": "fa/rec-067177d998b4fbd0.mp3",
     "v": "fa-rec-essi",
@@ -2982,6 +3717,31 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:44.625Z"
    },
+   "چرا": {
+    "f": "fa/rec-3bf65820020814ed.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:22.060Z"
+   },
+   "چطور": {
+    "f": "fa/rec-059a2f01291283c2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:26.069Z"
+   },
+   "چطور می‌گویند؟": {
+    "f": "fa/rec-2e5187b81429a344.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:59.166Z"
+   },
+   "چطوری": {
+    "f": "fa/rec-5a44dd742bdac708.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:28.033Z"
+   },
+   "چقدر": {
+    "f": "fa/rec-e2f1bf59cc141670.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:48.435Z"
+   },
    "چند": {
     "f": "fa/rec-56b3abcbd7057f89.mp3",
     "v": "fa-rec-essi",
@@ -2996,6 +3756,11 @@
     "f": "fa/rec-b0be99225f38f2a5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:25.609Z"
+   },
+   "چه وقت": {
+    "f": "fa/rec-efeb3e0d961f3743.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:24.108Z"
    },
    "چهار": {
     "f": "fa/rec-9090005d18909575.mp3",
@@ -3012,10 +3777,45 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:24.690Z"
    },
+   "چون": {
+    "f": "fa/rec-cada51bfbec1a2da.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:40.660Z"
+   },
+   "چون که": {
+    "f": "fa/rec-7f4faa1b216c3720.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:43.093Z"
+   },
+   "چپ": {
+    "f": "fa/rec-09050550251ba6b2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:50.611Z"
+   },
+   "چگونه": {
+    "f": "fa/rec-1344479ac5a06469.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:29.995Z"
+   },
    "چی": {
     "f": "fa/rec-e1436efc06cf3089.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:27.357Z"
+   },
+   "چی می‌گن؟": {
+    "f": "fa/rec-f862355bfbfbee3d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:43:02.537Z"
+   },
+   "کار": {
+    "f": "fa/rec-a6ba43f6b0cd9307.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:12.177Z"
+   },
+   "کار کردن": {
+    "f": "fa/rec-29bfdedede340711.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:47:37.991Z"
    },
    "کافی": {
     "f": "fa/rec-14bf90bd3a4645ae.mp3",
@@ -3032,30 +3832,85 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:20.882Z"
    },
+   "کثیف": {
+    "f": "fa/rec-f22a2a6752795a67.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:47.007Z"
+   },
    "کجا": {
     "f": "fa/rec-958bd638930807fb.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:31.028Z"
+   },
+   "کدام": {
+    "f": "fa/rec-de271e88698db59a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:31.828Z"
+   },
+   "کدام یک": {
+    "f": "fa/rec-36d776b4de68895d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:34.303Z"
+   },
+   "کدوم": {
+    "f": "fa/rec-db353aaa2ae49a28.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:36.267Z"
+   },
+   "کردن": {
+    "f": "fa/rec-e7f67536755feba1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:12.565Z"
    },
    "کردی": {
     "f": "fa/rec-01ae1f1ebc84fe2a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:52.318Z"
    },
+   "کردی خواندم": {
+    "f": "fa/rec-35c33ea18d6a8c1e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:03.392Z"
+   },
    "کشور": {
     "f": "fa/rec-be5cd69b1d5c84ce.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:38.623Z"
+   },
+   "کلید": {
+    "f": "fa/rec-3757441705e840b9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:46:58.785Z"
+   },
+   "کمک کردن": {
+    "f": "fa/rec-b9c80b0c5fd86791.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:53.141Z"
    },
    "کمی": {
     "f": "fa/rec-eee5d27ea34758f3.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:07.934Z"
    },
+   "کهنه": {
+    "f": "fa/rec-5296888df198ee32.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:43.606Z"
+   },
    "کودک": {
     "f": "fa/rec-9f3ca465da967fbf.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:56.391Z"
+   },
+   "کوه": {
+    "f": "fa/rec-5fb25da04e4ac1db.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:05.462Z"
+   },
+   "کوچک": {
+    "f": "fa/rec-a3a76ca9f870ad20.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:17.836Z"
    },
    "کوچکتر": {
     "f": "fa/rec-abb3c056f0e471cc.mp3",
@@ -3067,6 +3922,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:42.472Z"
    },
+   "کوچیک": {
+    "f": "fa/rec-daf7835db97382cd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:25.856Z"
+   },
    "کوچیک‌تر": {
     "f": "fa/rec-b6bccca10659f0ca.mp3",
     "v": "fa-rec-essi",
@@ -3077,15 +3937,50 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:29.193Z"
    },
+   "گاهی": {
+    "f": "fa/rec-064709ae3dcf0bc9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:52:37.360Z"
+   },
+   "گران": {
+    "f": "fa/rec-2d5db2cff9959831.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:39.800Z"
+   },
    "گرسنه": {
     "f": "fa/rec-b41ca9dc8ae10be6.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:28.445Z"
    },
+   "گرفتن": {
+    "f": "fa/rec-731180ac724fca7e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:37.611Z"
+   },
+   "گرم": {
+    "f": "fa/rec-f1387a5830bee3f3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:47.190Z"
+   },
+   "گرون": {
+    "f": "fa/rec-1ff582dd74a662b5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:39:41.633Z"
+   },
    "گشنه": {
     "f": "fa/rec-8d71a5f1d49b9d5a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:30.365Z"
+   },
+   "گفتن": {
+    "f": "fa/rec-bc1efd1ad3aaff15.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:24.213Z"
+   },
+   "گنده": {
+    "f": "fa/rec-ab45bc3a03179ef8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:38:15.874Z"
    },
    "گوشت": {
     "f": "fa/rec-650e7797991ddda1.mp3",
@@ -3097,10 +3992,30 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:24.807Z"
    },
+   "یا": {
+    "f": "fa/rec-9312f17b21317336.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:41:53.129Z"
+   },
+   "یاد گرفتن": {
+    "f": "fa/rec-c038ac9dfa74371a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:55.742Z"
+   },
    "یازده": {
     "f": "fa/rec-833fa27aeda304bd.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:26.547Z"
+   },
+   "یعنی چه؟": {
+    "f": "fa/rec-8cfd81c2910b2b79.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:49.182Z"
+   },
+   "یعنی چی؟": {
+    "f": "fa/rec-86f5842da6069084.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:51.358Z"
    },
    "یه": {
     "f": "fa/rec-0f0832808c7abed2.mp3",
@@ -3116,6 +4031,11 @@
     "f": "fa/rec-7e6fa335facfddb3.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:15.273Z"
+   },
+   "یواش": {
+    "f": "fa/rec-04b3b04d5ca6cdb6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:42:15.433Z"
    },
    "یک": {
     "f": "fa/rec-4377f4a639956a0c.mp3",
@@ -3137,10 +4057,20 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:57.415Z"
    },
+   "یک شهر بزرگ": {
+    "f": "fa/rec-f69b098ef75a123e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T11:54:00.691Z"
+   },
    "یک مغازه": {
     "f": "fa/rec-ff836a10f567107a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:48.499Z"
+   },
+   "یک کتاب خواندم": {
+    "f": "fa/rec-baa5881bdc35111d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-08T18:40:06.637Z"
    },
    "یک کم": {
     "f": "fa/rec-a454020ba01fd922.mp3",
