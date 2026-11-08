@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { openMic, type Mic, type MicError } from './mic'
+import { failureCode, micFailure, openMic, type Mic, type MicError, type MicInfo } from './mic'
 import { gapFor, minVoicedFor, Segmenter, Tape } from './segmenter'
 
 export type RecorderStatus = 'idle' | 'starting' | 'listening' | 'hearing' | 'paused' | 'error'
@@ -10,7 +10,19 @@ export interface Take {
   voicedMs: number
 }
 
-const NOISY_FLOOR_DB = -42
+/** What the mic check shows, refreshed a few times a second while the microphone is open. */
+export interface RecorderDiagnostics {
+  info: MicInfo | null
+  chunks: number
+  floorDb: number
+  levelDb: number
+  state: string
+  errorDetail: string
+}
+
+export const NOISY_FLOOR_DB = -42
+/** With the microphone open, this long without any samples means the browser stopped the sound. */
+const SILENT_MS = 2500
 
 /**
  * Keeps the microphone open and calls `onTake` each time the speaker finishes a take and pauses.
@@ -21,10 +33,13 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
   const [error, setError] = useState<MicError | null>(null)
   const [level, setLevel] = useState(0)
   const [noisy, setNoisy] = useState(false)
+  const [diag, setDiag] = useState<RecorderDiagnostics>({ info: null, chunks: 0, floorDb: -100, levelDb: -100, state: '', errorDetail: '' })
   const mic = useRef<Mic | null>(null)
   const seg = useRef<Segmenter | null>(null)
   const tape = useRef<Tape | null>(null)
   const paused = useRef(false)
+  const chunks = useRef(0)
+  const lastChunkAt = useRef(0)
   const onTakeRef = useRef(onTake)
   const promptRef = useRef(prompt)
 
@@ -38,6 +53,8 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
   }, [prompt])
 
   const handle = useCallback((chunk: Float32Array) => {
+    chunks.current++
+    lastChunkAt.current = performance.now()
     const s = seg.current
     const t = tape.current
     if (!s || !t) return
@@ -50,6 +67,24 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
     for (const d of done) onTakeRef.current({ samples: t.slice(d.start, d.end), sampleRate: mic.current!.sampleRate, voicedMs: d.voicedMs })
   }, [])
 
+  const close = useCallback(() => {
+    mic.current?.stop()
+    mic.current = null
+    seg.current = null
+    tape.current = null
+    setLevel(0)
+  }, [])
+
+  const fail = useCallback(
+    (e: unknown) => {
+      close()
+      setError(failureCode(e))
+      setDiag((d) => ({ ...d, errorDetail: (e as Error)?.message ?? String(e) }))
+      setStatus('error')
+    },
+    [close],
+  )
+
   const starting = useRef(false)
   /** False once `stop` was called, so a microphone that finishes opening afterwards is closed again. */
   const wanted = useRef(false)
@@ -59,6 +94,8 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
     starting.current = true
     setStatus('starting')
     setError(null)
+    chunks.current = 0
+    setDiag({ info: null, chunks: 0, floorDb: -100, levelDb: -100, state: '', errorDetail: '' })
     try {
       const m = await openMic(handle)
       if (!wanted.current) return m.stop()
@@ -68,24 +105,21 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
       if (p) seg.current.setOptions({ gapMs: gapFor(p), minVoicedMs: minVoicedFor(p) })
       tape.current = new Tape(m.sampleRate * 30)
       paused.current = false
+      lastChunkAt.current = performance.now()
+      setDiag((d) => ({ ...d, info: m.info, state: m.state() }))
       setStatus('listening')
     } catch (e) {
-      setError(((e as { code?: MicError }).code ?? 'failed') as MicError)
-      setStatus('error')
+      fail(e)
     } finally {
       starting.current = false
     }
-  }, [handle])
+  }, [handle, fail])
 
   const stop = useCallback(() => {
     wanted.current = false
-    mic.current?.stop()
-    mic.current = null
-    seg.current = null
-    tape.current = null
+    close()
     setStatus('idle')
-    setLevel(0)
-  }, [])
+  }, [close])
 
   const setPaused = useCallback((p: boolean) => {
     paused.current = p
@@ -96,8 +130,9 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
   /** Drops a take in progress, e.g. after going back. */
   const cancel = useCallback(() => seg.current?.cancel(), [])
 
+  const open = status === 'listening' || status === 'hearing' || status === 'paused'
   useEffect(() => {
-    if (status !== 'listening' && status !== 'hearing') return
+    if (!open) return
     let raf = 0
     let last = 0
     const tick = (t: number) => {
@@ -105,16 +140,22 @@ export function useTakeRecorder(prompt: string | undefined, onTake: (take: Take)
       if (t - last < 60) return
       last = t
       const s = seg.current
-      if (!s) return
+      const m = mic.current
+      if (!s || !m) return
+      if (performance.now() - lastChunkAt.current > SILENT_MS) {
+        const state = m.state()
+        return fail(micFailure(state === 'running' ? 'silent' : 'blocked', `no samples for ${SILENT_MS} ms, AudioContext ${state}`))
+      }
       setLevel(Math.max(0, Math.min(1, (s.levelDb + 60) / 50)))
       setNoisy(s.floorDb > NOISY_FLOOR_DB)
-      setStatus(s.speechActive ? 'hearing' : 'listening')
+      setDiag((d) => ({ ...d, chunks: chunks.current, floorDb: s.floorDb, levelDb: s.levelDb, state: m.state() }))
+      if (!paused.current) setStatus(s.speechActive ? 'hearing' : 'listening')
     }
     raf = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(raf)
-  }, [status])
+  }, [open, fail])
 
   useEffect(() => () => mic.current?.stop(), [])
 
-  return { status, error, level, noisy, start, stop, setPaused, cancel }
+  return { status, error, level, noisy, diag, start, stop, setPaused, cancel }
 }
