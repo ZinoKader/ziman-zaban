@@ -1,7 +1,1965 @@
 {
- "speakers": {},
+ "speakers": {
+  "ckb-rec-zino-kader": {
+   "name": "Zino Kader",
+   "lang": "ckb",
+   "license": "CC BY-SA 4.0",
+   "consentAt": "2026-11-08T10:25:53.406Z"
+  }
+ },
  "clips": {
-  "ckb": {},
+  "ckb": {
+   "ئاراس": {
+    "f": "ckb/rec-daaa605616ebbad8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:24.190Z"
+   },
+   "ئاسان": {
+    "f": "ckb/rec-fca494bf054d617b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:20.020Z"
+   },
+   "ئاشپەزخانە": {
+    "f": "ckb/rec-8a096e3e656e6d4e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:14.152Z"
+   },
+   "ئافرەت": {
+    "f": "ckb/rec-81af603a48fd3fe6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:02.277Z"
+   },
+   "ئاو": {
+    "f": "ckb/rec-78a81e2c2ffd497d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:07.008Z"
+   },
+   "ئاپارتمان": {
+    "f": "ckb/rec-c5f79c3f083ad013.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:10.896Z"
+   },
+   "ئۆتۆمبێل": {
+    "f": "ckb/rec-267f14ba0fdc8d73.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:47.235Z"
+   },
+   "ئۆتۆمۆبیل": {
+    "f": "ckb/rec-a459a30b81179d08.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:49.539Z"
+   },
+   "ئیش": {
+    "f": "ckb/rec-f376e267686284e1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:48.540Z"
+   },
+   "ئینگلیزی": {
+    "f": "ckb/rec-10a1ad157d89009b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:31.857Z"
+   },
+   "ئێران": {
+    "f": "ckb/rec-a79d83d812750250.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:43.004Z"
+   },
+   "ئێریک": {
+    "f": "ckb/rec-e8ea777c267146fe.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:26.579Z"
+   },
+   "ئێرە": {
+    "f": "ckb/rec-b69f6ea252cb9427.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:44.143Z"
+   },
+   "ئێستا": {
+    "f": "ckb/rec-8a9c1dcd5dbeff42.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:01.726Z"
+   },
+   "ئێمە": {
+    "f": "ckb/rec-5c72bdfdabd44281.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:57.724Z"
+   },
+   "ئێوارە": {
+    "f": "ckb/rec-1da1a938e25e40ae.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:30.868Z"
+   },
+   "ئێوە": {
+    "f": "ckb/rec-4c74f15e630044ab.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:00.241Z"
+   },
+   "ئەرێ": {
+    "f": "ckb/rec-19905bfd0a88e6ab.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:39.438Z"
+   },
+   "ئەم": {
+    "f": "ckb/rec-5174f6da9137bbca.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:53.871Z"
+   },
+   "ئەمرۆ": {
+    "f": "ckb/rec-ac7e3d82eb65a4a4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:51.957Z"
+   },
+   "ئەمڕۆ": {
+    "f": "ckb/rec-f783466e125f6e33.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:53.920Z"
+   },
+   "ئەمە": {
+    "f": "ckb/rec-4336a91cf3044c24.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:56.090Z"
+   },
+   "ئەو": {
+    "f": "ckb/rec-219790a9e31d6104.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:55.931Z"
+   },
+   "ئەوان": {
+    "f": "ckb/rec-f140efad4d529c89.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:02.331Z"
+   },
+   "ئەوێ": {
+    "f": "ckb/rec-6102b3efbe775391.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:48.325Z"
+   },
+   "ئەوە": {
+    "f": "ckb/rec-998e2726bc64fade.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:58.180Z"
+   },
+   "ئەی ئێوە؟": {
+    "f": "ckb/rec-d7921ce31012427d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:56.544Z"
+   },
+   "ئەی تۆ؟": {
+    "f": "ckb/rec-ce6fd2e560284572.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:58.890Z"
+   },
+   "با بڕۆین": {
+    "f": "ckb/rec-bfbbd37076a4961a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:41.772Z"
+   },
+   "بابە": {
+    "f": "ckb/rec-ffbd3a684722d419.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:57.101Z"
+   },
+   "بازاڕ": {
+    "f": "ckb/rec-d0ab1382924cb4b3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:06.191Z"
+   },
+   "باش": {
+    "f": "ckb/rec-1f14a587dfbc268d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:49.035Z"
+   },
+   "باشتر": {
+    "f": "ckb/rec-297083a535c421e2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:42.461Z"
+   },
+   "باشم": {
+    "f": "ckb/rec-2a0477208872a1e3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:50.998Z"
+   },
+   "باشە": {
+    "f": "ckb/rec-e2627d6c5ac2c790.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:21.799Z"
+   },
+   "باوک": {
+    "f": "ckb/rec-e89d2e677e3708ab.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:58.808Z"
+   },
+   "باپیر": {
+    "f": "ckb/rec-04f3db6611f5729f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:31.192Z"
+   },
+   "باپیرە": {
+    "f": "ckb/rec-5b6f5b9ccebc2cc0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:33.240Z"
+   },
+   "ببورن": {
+    "f": "ckb/rec-8cf6bebd42a6dbf6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:36.909Z"
+   },
+   "ببورە": {
+    "f": "ckb/rec-62a86fb3136721a9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:12.031Z"
+   },
+   "ببوورن": {
+    "f": "ckb/rec-2916473d7b6e20d8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:38.827Z"
+   },
+   "ببوورە": {
+    "f": "ckb/rec-4c7718d7b16d5d58.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:14.547Z"
+   },
+   "برا": {
+    "f": "ckb/rec-50675d483100c3e7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:00.940Z"
+   },
+   "برسی": {
+    "f": "ckb/rec-826ac63825ba7557.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:17.150Z"
+   },
+   "برنج": {
+    "f": "ckb/rec-df3f77efa823ba45.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:18.954Z"
+   },
+   "بلیت": {
+    "f": "ckb/rec-ae157e52434b7a05.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:00.760Z"
+   },
+   "بوون": {
+    "f": "ckb/rec-d44b152fe6aaacc0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:18.289Z"
+   },
+   "بچووک": {
+    "f": "ckb/rec-873dd7129be5b4e4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:35.731Z"
+   },
+   "بچووکتر": {
+    "f": "ckb/rec-db5d6d552acc1eec.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:01.313Z"
+   },
+   "بڕۆین": {
+    "f": "ckb/rec-e463b6e383338c99.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:43.691Z"
+   },
+   "بۆ": {
+    "f": "ckb/rec-04de205f238e95c4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:30.357Z"
+   },
+   "بۆچی": {
+    "f": "ckb/rec-6e7979752897ffd6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:31.215Z"
+   },
+   "بیست": {
+    "f": "ckb/rec-807ba73b0b84a302.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:12.192Z"
+   },
+   "بیستن": {
+    "f": "ckb/rec-50e26273a8b62216.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:18.343Z"
+   },
+   "بینین": {
+    "f": "ckb/rec-af6da0433b4189de.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:07.335Z"
+   },
+   "بێگومان": {
+    "f": "ckb/rec-13449c324aa7e023.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:20.921Z"
+   },
+   "بە ناسینت خۆشحاڵم": {
+    "f": "ckb/rec-9251f13dab8695ae.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:11.365Z"
+   },
+   "بە هێواشی": {
+    "f": "ckb/rec-58ff621cb16e6a62.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:32.782Z"
+   },
+   "بە چەند": {
+    "f": "ckb/rec-7d2a0c782fb2686d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:24.481Z"
+   },
+   "بە کوردی چۆن دەڵێن؟": {
+    "f": "ckb/rec-8c2044c207136abd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:29.657Z"
+   },
+   "بەتام": {
+    "f": "ckb/rec-f91da67b75645c5c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:24.873Z"
+   },
+   "بەخێربێن": {
+    "f": "ckb/rec-0d4e353bcfa527c7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:01.406Z"
+   },
+   "بەخێربێی": {
+    "f": "ckb/rec-91ab9e393371f1ec.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:03.498Z"
+   },
+   "بەخێربێیت": {
+    "f": "ckb/rec-06dc57339f13d41a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:05.459Z"
+   },
+   "بەزۆری": {
+    "f": "ckb/rec-65680166b39dceec.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:57.656Z"
+   },
+   "بەس": {
+    "f": "ckb/rec-723a9ca0e55784fd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:31.101Z"
+   },
+   "بەلەزەت": {
+    "f": "ckb/rec-45f234d810f64042.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:26.962Z"
+   },
+   "بەڕاستی": {
+    "f": "ckb/rec-c253bf97e8bfa921.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:38.797Z"
+   },
+   "بەڵام": {
+    "f": "ckb/rec-2d14a6e3927c12cc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:05.605Z"
+   },
+   "بەڵێ": {
+    "f": "ckb/rec-e60f1e4c875fc818.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:41.954Z"
+   },
+   "بەیانی": {
+    "f": "ckb/rec-481a53554c459a4d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:28.863Z"
+   },
+   "بەیانیت باش": {
+    "f": "ckb/rec-c470369b56e3c17b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:07.935Z"
+   },
+   "تازە": {
+    "f": "ckb/rec-d6404273a1d47606.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:43.454Z"
+   },
+   "توانین": {
+    "f": "ckb/rec-b8be83a3698d4444.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:13.766Z"
+   },
+   "تکایە": {
+    "f": "ckb/rec-d33da21258e68a67.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:18.587Z"
+   },
+   "تکایە دووبارەی بکەرەوە": {
+    "f": "ckb/rec-bc6ba2b05d3b5d31.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:56.078Z"
+   },
+   "تۆ": {
+    "f": "ckb/rec-5163d5622c1c6c57.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:54.309Z"
+   },
+   "تۆزێک": {
+    "f": "ckb/rec-cad5e8c7011e0274.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:38.000Z"
+   },
+   "تینوو": {
+    "f": "ckb/rec-5fa75ef98e26d15c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:19.284Z"
+   },
+   "تێناگەم": {
+    "f": "ckb/rec-3eefab7a7adb149c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:41.187Z"
+   },
+   "تێنەگەیشتم": {
+    "f": "ckb/rec-b390a984a06b7568.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:45.326Z"
+   },
+   "تێگەیشتن": {
+    "f": "ckb/rec-14f5c8600bbc78f1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:23.079Z"
+   },
+   "تەلەفۆن": {
+    "f": "ckb/rec-2a5ccf4823b6f945.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:36.549Z"
+   },
+   "تەلەفۆن کردن": {
+    "f": "ckb/rec-137ebc9cf029b803.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:20.465Z"
+   },
+   "تەمەن": {
+    "f": "ckb/rec-992aaab3f893cd54.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:57.346Z"
+   },
+   "تەنها": {
+    "f": "ckb/rec-1a1adf42143a567a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:03.190Z"
+   },
+   "تەنیا": {
+    "f": "ckb/rec-e25bbfc0a13a9966.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:05.024Z"
+   },
+   "تەکسی": {
+    "f": "ckb/rec-5f9d055e5d40b470.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:54.232Z"
+   },
+   "جادە": {
+    "f": "ckb/rec-02ee97ba3a6cb3ce.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:23.127Z"
+   },
+   "جاروبار": {
+    "f": "ckb/rec-2e7ee6457e3cc692.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:45.882Z"
+   },
+   "جارێکی تر": {
+    "f": "ckb/rec-1f2e0532585086f9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:25.828Z"
+   },
+   "جل": {
+    "f": "ckb/rec-fdbb83f9e4533fb1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:42.694Z"
+   },
+   "جلوبەرگ": {
+    "f": "ckb/rec-e29c8b475aa1e55a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:45.979Z"
+   },
+   "جوان": {
+    "f": "ckb/rec-2b224d984d8ce9f8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:41.577Z"
+   },
+   "جومعە": {
+    "f": "ckb/rec-e0713482917c8bfc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:47.510Z"
+   },
+   "جێگا": {
+    "f": "ckb/rec-ef2f935cea9a03dd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:21.447Z"
+   },
+   "جێگە": {
+    "f": "ckb/rec-c86364d4a7c2befc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:24.775Z"
+   },
+   "حەز کردن": {
+    "f": "ckb/rec-3ae79c0884a79f1b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:11.846Z"
+   },
+   "حەفتە": {
+    "f": "ckb/rec-e041e11ca0de7e97.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:06.163Z"
+   },
+   "حەوت": {
+    "f": "ckb/rec-2454bcdaa1136c71.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:26.998Z"
+   },
+   "حەوت و نیو": {
+    "f": "ckb/rec-70804fd42b30efc3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:57.750Z"
+   },
+   "خانوو": {
+    "f": "ckb/rec-38ef5ea4b5d041c5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:50.343Z"
+   },
+   "خانوویەک": {
+    "f": "ckb/rec-44509da892f272ff.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:40.316Z"
+   },
+   "خاوێن": {
+    "f": "ckb/rec-0e78570e10e62d84.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:32.307Z"
+   },
+   "خاڵ": {
+    "f": "ckb/rec-1567e805f0f23a62.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:38.998Z"
+   },
+   "خراپ": {
+    "f": "ckb/rec-31f880a02df1efd3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:37.609Z"
+   },
+   "خوا حافیز": {
+    "f": "ckb/rec-6ad6901c69fc0674.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:08.780Z"
+   },
+   "خوات لەگەڵ": {
+    "f": "ckb/rec-fbcadde95a046c45.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:11.169Z"
+   },
+   "خواردن": {
+    "f": "ckb/rec-71ee8079f7cbb416.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:02.315Z"
+   },
+   "خواردن دروست کردن": {
+    "f": "ckb/rec-ba207f7a9c05800f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:29.253Z"
+   },
+   "خواردنەوە": {
+    "f": "ckb/rec-075771ce1217c68b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:12.925Z"
+   },
+   "خوشک": {
+    "f": "ckb/rec-f0a34d41160bfa23.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:02.818Z"
+   },
+   "خوشکی باوک": {
+    "f": "ckb/rec-c4343e3aa21f80f1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:43.777Z"
+   },
+   "خوشکی دایک": {
+    "f": "ckb/rec-9bf85aa6041c8676.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:45.954Z"
+   },
+   "خولەک": {
+    "f": "ckb/rec-6dbd58aac65ce644.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:22.847Z"
+   },
+   "خوێ": {
+    "f": "ckb/rec-b35f5b19765209d3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:45.065Z"
+   },
+   "خوێندن": {
+    "f": "ckb/rec-cf0edc2a957cd515.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:28.432Z"
+   },
+   "خوێندنەوە": {
+    "f": "ckb/rec-c4e5f9854405bfe9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:30.929Z"
+   },
+   "خۆراک": {
+    "f": "ckb/rec-dd493573484463c5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:05.215Z"
+   },
+   "خۆشحاڵ": {
+    "f": "ckb/rec-729b609aac5be699.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:53.097Z"
+   },
+   "خۆشحاڵم بە بینینت": {
+    "f": "ckb/rec-6923995ac37cfbe1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:25.658Z"
+   },
+   "خۆشحاڵم بە ناسینت": {
+    "f": "ckb/rec-6e007c06b0cd96cf.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:28.901Z"
+   },
+   "خۆشحاڵم بە ناسینتان": {
+    "f": "ckb/rec-a14900df1f0cda0b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:33.850Z"
+   },
+   "خێزان": {
+    "f": "ckb/rec-53f9eaed4ac182cc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:51.726Z"
+   },
+   "خێزاندار": {
+    "f": "ckb/rec-54f67b27b971af9b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:53.804Z"
+   },
+   "خەراپ": {
+    "f": "ckb/rec-40cf72074d7a807c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:39.401Z"
+   },
+   "خەمبار": {
+    "f": "ckb/rec-52a1f806eb81e442.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:58.046Z"
+   },
+   "خەوتن": {
+    "f": "ckb/rec-19a5a8f5f20d56b9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:15.119Z"
+   },
+   "خەڵکی": {
+    "f": "ckb/rec-1644be4c5f8fe0e9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:16.412Z"
+   },
+   "داخستن": {
+    "f": "ckb/rec-6a76ade2527242b8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:46.076Z"
+   },
+   "دان": {
+    "f": "ckb/rec-b257456536361d42.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:38.781Z"
+   },
+   "دانیشتن": {
+    "f": "ckb/rec-8895b354c48bd600.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:51.152Z"
+   },
+   "داپیر": {
+    "f": "ckb/rec-aff8fa0b7e5fd4b2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:25.048Z"
+   },
+   "داپیرە": {
+    "f": "ckb/rec-24b339e719fa366d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:27.181Z"
+   },
+   "دایک": {
+    "f": "ckb/rec-6df3c3f7bcf19ed3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:53.433Z"
+   },
+   "دایە": {
+    "f": "ckb/rec-1f94e7cd296d2888.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:55.353Z"
+   },
+   "درەنگ": {
+    "f": "ckb/rec-5d9979639e7d0cba.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:04.184Z"
+   },
+   "دواتر دەتبینمەوە": {
+    "f": "ckb/rec-6694d6cd47adf594.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:51.544Z"
+   },
+   "دوازدە": {
+    "f": "ckb/rec-3bbe4dc89aa82cee.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:37.835Z"
+   },
+   "دوانزە": {
+    "f": "ckb/rec-05efe47c86db7955.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:39.668Z"
+   },
+   "دوایی دەتبینمەوە": {
+    "f": "ckb/rec-019cff1bbb4d119f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:54.316Z"
+   },
+   "دوو": {
+    "f": "ckb/rec-f5a424e36304e481.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:07.627Z"
+   },
+   "دووبارە": {
+    "f": "ckb/rec-50d67889f3175617.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:27.748Z"
+   },
+   "دووبارەی بکەرەوە": {
+    "f": "ckb/rec-4af2698e1ca74022.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:18.904Z"
+   },
+   "دوور": {
+    "f": "ckb/rec-069a7bcc206701dd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:46.709Z"
+   },
+   "دووشەممە": {
+    "f": "ckb/rec-f163aaf7b19e70ba.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:38.377Z"
+   },
+   "دوکان": {
+    "f": "ckb/rec-8e02e9b5369604ee.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:32.558Z"
+   },
+   "دوکانێک": {
+    "f": "ckb/rec-76178b9107455dab.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:35.454Z"
+   },
+   "دوێنێ": {
+    "f": "ckb/rec-7fe9dbffc4bbc678.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:59.893Z"
+   },
+   "دکتۆر": {
+    "f": "ckb/rec-34ac2c285e9ec044.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:41.389Z"
+   },
+   "دڵتەنگ": {
+    "f": "ckb/rec-eb09fb1023fc2685.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:59.923Z"
+   },
+   "دڵخۆش": {
+    "f": "ckb/rec-979e9aba6807e803.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:55.145Z"
+   },
+   "دیتن": {
+    "f": "ckb/rec-d4ab5a2cf844fc38.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:15.954Z"
+   },
+   "دیسان": {
+    "f": "ckb/rec-0146814c3c29e9d9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:29.668Z"
+   },
+   "دیلان": {
+    "f": "ckb/rec-4f6ba8d36c709652.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:28.712Z"
+   },
+   "دێ": {
+    "f": "ckb/rec-f4acaffd9cac4d61.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:56.054Z"
+   },
+   "دە": {
+    "f": "ckb/rec-4cae553de6e3b0c0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:31.435Z"
+   },
+   "دە و نیو": {
+    "f": "ckb/rec-9931eb5d0d1e5913.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:18.721Z"
+   },
+   "دەتبینمەوە": {
+    "f": "ckb/rec-5e7cfd1e3c857847.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:47.660Z"
+   },
+   "دەتوانیت دووبارەی بکەیتەوە؟": {
+    "f": "ckb/rec-a37e95e62c556596.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:15.405Z"
+   },
+   "دەرگا": {
+    "f": "ckb/rec-d192a8985a22e1b1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:56.488Z"
+   },
+   "دەقیقە": {
+    "f": "ckb/rec-d8d1b2eebd119ce6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:24.980Z"
+   },
+   "زانین": {
+    "f": "ckb/rec-a30e4d03c77ab3a6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:20.519Z"
+   },
+   "زمان": {
+    "f": "ckb/rec-9b1841831239e3d6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:24.091Z"
+   },
+   "زوو": {
+    "f": "ckb/rec-73d4d2fc0cc49987.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:02.222Z"
+   },
+   "زۆر": {
+    "f": "ckb/rec-4b3e96daf8a1c267.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:06.196Z"
+   },
+   "زۆر سوپاس": {
+    "f": "ckb/rec-4f031ce55eef7f5d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:15.477Z"
+   },
+   "زۆربەی جار": {
+    "f": "ckb/rec-882a75f459eaeda5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:00.302Z"
+   },
+   "زیاتر": {
+    "f": "ckb/rec-dd58d803a583b92d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:29.054Z"
+   },
+   "زەحمەت": {
+    "f": "ckb/rec-a702e35c8c86737d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:21.854Z"
+   },
+   "زەرد": {
+    "f": "ckb/rec-09e41b2aa388969e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:17.970Z"
+   },
+   "سارد": {
+    "f": "ckb/rec-515c7af265a4f2c3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:50.922Z"
+   },
+   "ساڵ": {
+    "f": "ckb/rec-d3bceff2c98a4f29.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:55.553Z"
+   },
+   "سبەی": {
+    "f": "ckb/rec-b335ca419309cca3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:55.967Z"
+   },
+   "سبەینێ": {
+    "f": "ckb/rec-76a325a961cbffe4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:57.844Z"
+   },
+   "سفر": {
+    "f": "ckb/rec-5369568f1951e372.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:20.426Z"
+   },
+   "سلێمانی": {
+    "f": "ckb/rec-a6f21a56a8562347.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:51.025Z"
+   },
+   "سوور": {
+    "f": "ckb/rec-aea75fb1adab1a6e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:08.628Z"
+   },
+   "سوپاس": {
+    "f": "ckb/rec-ce683d4b2deea994.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:13.087Z"
+   },
+   "سوید": {
+    "f": "ckb/rec-da447b6ce5250f1e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:33.647Z"
+   },
+   "سویدی": {
+    "f": "ckb/rec-b89ce51b6606eb00.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:29.809Z"
+   },
+   "سپی": {
+    "f": "ckb/rec-a0ba355ce6a3092b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:14.558Z"
+   },
+   "سڵاو": {
+    "f": "ckb/rec-7670499c9d7edd47.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:06.053Z"
+   },
+   "سی": {
+    "f": "ckb/rec-51677bc980010402.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:13.857Z"
+   },
+   "سێ": {
+    "f": "ckb/rec-4f3d28e304fa1d78.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:09.077Z"
+   },
+   "سێشەممە": {
+    "f": "ckb/rec-9670324760a4e81a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:40.254Z"
+   },
+   "سێو": {
+    "f": "ckb/rec-1c8ea53f4678c58b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:35.081Z"
+   },
+   "سەخت": {
+    "f": "ckb/rec-1a4ea889a3746749.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:23.730Z"
+   },
+   "سەد": {
+    "f": "ckb/rec-d264b33acafdc8d9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:48.244Z"
+   },
+   "سەعات": {
+    "f": "ckb/rec-27d24d42a42e35ed.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:11.454Z"
+   },
+   "سەوز": {
+    "f": "ckb/rec-3112613edaa0c522.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:12.894Z"
+   },
+   "سەیارە": {
+    "f": "ckb/rec-4ae5ff0ff4e88153.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:51.801Z"
+   },
+   "شاخ": {
+    "f": "ckb/rec-d87290d46b70bd9e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:03.392Z"
+   },
+   "شار": {
+    "f": "ckb/rec-8726b9904add8ee8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:22.171Z"
+   },
+   "شارێکی گەورە": {
+    "f": "ckb/rec-b6da3d521e4b9e44.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:20.868Z"
+   },
+   "شایانی نییە": {
+    "f": "ckb/rec-2959888dad971a77.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:17.576Z"
+   },
+   "شایەنی نییە": {
+    "f": "ckb/rec-dcc07bedff193ca7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:19.922Z"
+   },
+   "شوشتن": {
+    "f": "ckb/rec-da96a89720b2d03e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:34.787Z"
+   },
+   "شوقە": {
+    "f": "ckb/rec-a9f09005f64977bd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:13.071Z"
+   },
+   "شوقەیەکی بچووک": {
+    "f": "ckb/rec-49726bc23508af44.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:45.481Z"
+   },
+   "شیر": {
+    "f": "ckb/rec-3df273e48eb76e49.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:16.735Z"
+   },
+   "شیلان": {
+    "f": "ckb/rec-afc329b29fe39dad.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:30.973Z"
+   },
+   "شین": {
+    "f": "ckb/rec-e2148c803b48f6c9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:10.975Z"
+   },
+   "شێو": {
+    "f": "ckb/rec-91220014a4151569.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:06.269Z"
+   },
+   "شەش": {
+    "f": "ckb/rec-1e168d66c9e94664.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:25.504Z"
+   },
+   "شەقام": {
+    "f": "ckb/rec-e43d70f86bcf251f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:29.998Z"
+   },
+   "شەممە": {
+    "f": "ckb/rec-b07ca7e607be3999.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:34.665Z"
+   },
+   "شەو": {
+    "f": "ckb/rec-4d51fc1d635cc5f4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:32.745Z"
+   },
+   "شەو باش": {
+    "f": "ckb/rec-cc9634d1849ba7f2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:10.109Z"
+   },
+   "شەکر": {
+    "f": "ckb/rec-34d5baa6dcf94649.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:43.059Z"
+   },
+   "عەرەبی": {
+    "f": "ckb/rec-c0cc59ecfe33c7e4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:03.368Z"
+   },
+   "فارسی": {
+    "f": "ckb/rec-d45e57bcb70f8e6e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:27.889Z"
+   },
+   "فراوین": {
+    "f": "ckb/rec-2a206e64d52483f5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:52.575Z"
+   },
+   "فڕۆکەخانە": {
+    "f": "ckb/rec-d6caf2a20f20f695.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:11.779Z"
+   },
+   "فێر بوون": {
+    "f": "ckb/rec-f13227b222864410.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:07.921Z"
+   },
+   "فێربوون": {
+    "f": "ckb/rec-c1d31259ec5d166c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:09.541Z"
+   },
+   "قاوە": {
+    "f": "ckb/rec-6015ea3ac244bbe4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:14.943Z"
+   },
+   "قسە کردن": {
+    "f": "ckb/rec-17f7c4e3e2a23759.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:36.250Z"
+   },
+   "قوتابخانە": {
+    "f": "ckb/rec-02af94f18b34aefa.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:00.230Z"
+   },
+   "لێت تێناگەم": {
+    "f": "ckb/rec-cc5ad96c15383726.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:48.356Z"
+   },
+   "لێرە": {
+    "f": "ckb/rec-272fc216879085f5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:46.107Z"
+   },
+   "لە": {
+    "f": "ckb/rec-95bb1279a3135728.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:14.235Z"
+   },
+   "لە ... دا": {
+    "f": "ckb/rec-15ffe5977a8b36ca.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:26.090Z"
+   },
+   "لە خەو هەڵسان": {
+    "f": "ckb/rec-d2ab40329579520e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:21.477Z"
+   },
+   "لەبەر ئەوەی": {
+    "f": "ckb/rec-bbcc564580f0c925.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:48.197Z"
+   },
+   "لەبەر چی": {
+    "f": "ckb/rec-eaaff2e2ce05555f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:33.606Z"
+   },
+   "لەسەرخۆ": {
+    "f": "ckb/rec-1b6461b10bb123fb.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:34.916Z"
+   },
+   "لەندەن": {
+    "f": "ckb/rec-09552d1f8c3347e0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:47.058Z"
+   },
+   "لەوانەیە": {
+    "f": "ckb/rec-adca1e837838e3d3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:17.678Z"
+   },
+   "لەوێ": {
+    "f": "ckb/rec-3e8781bda722990d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:50.287Z"
+   },
+   "لەگەڵ": {
+    "f": "ckb/rec-11428331563b748d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:32.404Z"
+   },
+   "ماست": {
+    "f": "ckb/rec-3d443402b5cfa1e1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:41.098Z"
+   },
+   "مام": {
+    "f": "ckb/rec-274fb77c8fa073cd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:37.079Z"
+   },
+   "مانای چییە؟": {
+    "f": "ckb/rec-9530587aa3598785.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:22.189Z"
+   },
+   "ماندوو": {
+    "f": "ckb/rec-103cab7a6be0f250.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:02.526Z"
+   },
+   "مانگ": {
+    "f": "ckb/rec-7d78d7c14c849f98.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:09.748Z"
+   },
+   "ماڵ": {
+    "f": "ckb/rec-daa3015b4370a46a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:52.136Z"
+   },
+   "مریشک": {
+    "f": "ckb/rec-181493e4498655fe.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:24.033Z"
+   },
+   "من": {
+    "f": "ckb/rec-5d0481f79bcf36f2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:52.731Z"
+   },
+   "مناڵ": {
+    "f": "ckb/rec-2fcbaf538b6305e9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:18.221Z"
+   },
+   "منداڵ": {
+    "f": "ckb/rec-696d86bce7efb339.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:20.269Z"
+   },
+   "منداڵان": {
+    "f": "ckb/rec-3a8e8b329ae18fe5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:22.360Z"
+   },
+   "مۆبایل": {
+    "f": "ckb/rec-7389539e1805d3e4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:38.728Z"
+   },
+   "میوە": {
+    "f": "ckb/rec-b6b20a5a28b01afb.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:28.087Z"
+   },
+   "مێرد": {
+    "f": "ckb/rec-fab25fec0e25a6c6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:35.245Z"
+   },
+   "مێز": {
+    "f": "ckb/rec-4920fec09261ee6f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:26.651Z"
+   },
+   "مەتبەخ": {
+    "f": "ckb/rec-c896032d3764ad07.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:19.185Z"
+   },
+   "نا": {
+    "f": "ckb/rec-5b04e744c87e96e4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:43.574Z"
+   },
+   "نازانم": {
+    "f": "ckb/rec-94ff4524fac39dbc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:50.787Z"
+   },
+   "نان": {
+    "f": "ckb/rec-14b5a4cb6db52aec.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:08.843Z"
+   },
+   "نان و پەنیر": {
+    "f": "ckb/rec-43e97db620553f20.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:55.106Z"
+   },
+   "نانی ئێوارە": {
+    "f": "ckb/rec-da3c36012f61ba74.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:08.831Z"
+   },
+   "نانی بەیانی": {
+    "f": "ckb/rec-90ff756b413161c4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:47.712Z"
+   },
+   "نانی نیوەڕۆ": {
+    "f": "ckb/rec-fb72119326ccbcb7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:55.391Z"
+   },
+   "ناو": {
+    "f": "ckb/rec-2a1b2bc64ec12d2d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:04.251Z"
+   },
+   "نزیک": {
+    "f": "ckb/rec-035fa7983f548220.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:44.875Z"
+   },
+   "نووستن": {
+    "f": "ckb/rec-35274ef4ee8ce152.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:17.382Z"
+   },
+   "نووسین": {
+    "f": "ckb/rec-4d737185ee2dc6cb.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:33.149Z"
+   },
+   "نوێ": {
+    "f": "ckb/rec-f98286f601d864f8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:45.844Z"
+   },
+   "نۆ": {
+    "f": "ckb/rec-a8a113c49cc512a0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:29.984Z"
+   },
+   "نیو": {
+    "f": "ckb/rec-04104af6cbcce283.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:26.941Z"
+   },
+   "نەخۆش": {
+    "f": "ckb/rec-b355379a35891e74.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:04.531Z"
+   },
+   "نەخۆشخانە": {
+    "f": "ckb/rec-a0c6d38dfd1221f9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:09.049Z"
+   },
+   "نەخێر": {
+    "f": "ckb/rec-cf2042a4ffb426fc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:45.367Z"
+   },
+   "نەسرین": {
+    "f": "ckb/rec-4a65588dffaee8e5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:49.337Z"
+   },
+   "نەنک": {
+    "f": "ckb/rec-ca0bed1ce30366cd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:29.228Z"
+   },
+   "هاتن": {
+    "f": "ckb/rec-9440249ec2234416.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:53.366Z"
+   },
+   "هاوڕێ": {
+    "f": "ckb/rec-f0481059996dcbd6.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:06.586Z"
+   },
+   "هێلکە": {
+    "f": "ckb/rec-4154e90b3091342d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:26.037Z"
+   },
+   "هێواش": {
+    "f": "ckb/rec-d5c5c856f064131e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:36.793Z"
+   },
+   "هەبوون": {
+    "f": "ckb/rec-20c709c69ee8936e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:49.920Z"
+   },
+   "هەرزان": {
+    "f": "ckb/rec-783fee717acdc96b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:25.736Z"
+   },
+   "هەروەها": {
+    "f": "ckb/rec-6cc2ab767d8f9520.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:13.582Z"
+   },
+   "هەرگیز": {
+    "f": "ckb/rec-0be0769e89fe3e95.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:54.756Z"
+   },
+   "هەزار": {
+    "f": "ckb/rec-68acccdb4dc3aa61.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:50.122Z"
+   },
+   "هەشت": {
+    "f": "ckb/rec-5575f1b328c0b49f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:28.490Z"
+   },
+   "هەفتە": {
+    "f": "ckb/rec-06ad6dee88fcf514.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:07.999Z"
+   },
+   "هەموو ڕۆژێک": {
+    "f": "ckb/rec-1e27f93fdaf1eae2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:39.695Z"
+   },
+   "هەمیشە": {
+    "f": "ckb/rec-a409a64083bef2d5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:43.662Z"
+   },
+   "هەندێ جار": {
+    "f": "ckb/rec-ae742904af760ddc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:49.594Z"
+   },
+   "هەندێک جار": {
+    "f": "ckb/rec-206f8ea7b288aefa.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:52.154Z"
+   },
+   "هەوا": {
+    "f": "ckb/rec-f77eeffd9ca0e430.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:40.457Z"
+   },
+   "هەولێر": {
+    "f": "ckb/rec-fd0179e2fdfe43a0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:48.978Z"
+   },
+   "هەڵبەت": {
+    "f": "ckb/rec-4ee619bf6c93f009.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:23.053Z"
+   },
+   "هەڵسان": {
+    "f": "ckb/rec-66787bea99c6f00d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:23.396Z"
+   },
+   "هەینی": {
+    "f": "ckb/rec-6f68ece678cc8813.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:51.094Z"
+   },
+   "و": {
+    "f": "ckb/rec-f51bd22d716b0ad0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:50.074Z"
+   },
+   "واتای چییە؟": {
+    "f": "ckb/rec-9438befac9e0aa8b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:26.584Z"
+   },
+   "وتن": {
+    "f": "ckb/rec-286d13bfbdbae91f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:27.431Z"
+   },
+   "وڵات": {
+    "f": "ckb/rec-680d3d224bcc3128.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:20.123Z"
+   },
+   "ویستن": {
+    "f": "ckb/rec-c25836c80650a92c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:15.145Z"
+   },
+   "وە": {
+    "f": "ckb/rec-37c4b01f7c9eb092.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:03.727Z"
+   },
+   "پارە": {
+    "f": "ckb/rec-17af04b01c87ab4d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:03.063Z"
+   },
+   "پازدە": {
+    "f": "ckb/rec-6f2b9b5ef232016f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:41.588Z"
+   },
+   "پاس": {
+    "f": "ckb/rec-7c26fd4fa0fabede.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:43.950Z"
+   },
+   "پانزە": {
+    "f": "ckb/rec-ab77f91e6f44980e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:43.766Z"
+   },
+   "پاک": {
+    "f": "ckb/rec-d40a3dced5cf75c7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:29.406Z"
+   },
+   "پایسکل": {
+    "f": "ckb/rec-dcdc3145b7d7031d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:15.748Z"
+   },
+   "پزیشک": {
+    "f": "ckb/rec-4b7ecaaaf59c11c0.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:37:39.299Z"
+   },
+   "پوور": {
+    "f": "ckb/rec-815bc9b2fbf5a87c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:40.620Z"
+   },
+   "پیاو": {
+    "f": "ckb/rec-78e7783a58ed8959.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:00.228Z"
+   },
+   "پیس": {
+    "f": "ckb/rec-c80669b0b83d8932.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:34.270Z"
+   },
+   "پێنج": {
+    "f": "ckb/rec-5cde382d4a7a13b1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:23.797Z"
+   },
+   "پێنجشەممە": {
+    "f": "ckb/rec-33bd6fb9e41aa24a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:44.138Z"
+   },
+   "پەرتووک": {
+    "f": "ckb/rec-07d30267bac9cd95.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:32.325Z"
+   },
+   "پەرداخ": {
+    "f": "ckb/rec-f89dbab320840def.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:33.022Z"
+   },
+   "پەنجا": {
+    "f": "ckb/rec-557532b0bce04d0f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:15.605Z"
+   },
+   "پەنجەرە": {
+    "f": "ckb/rec-410e86ee1fe95ef7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:03.146Z"
+   },
+   "پەنیر": {
+    "f": "ckb/rec-4cd4935610eb2a01.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:36.959Z"
+   },
+   "پەنێر": {
+    "f": "ckb/rec-822cf67b42c42a7b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:39.347Z"
+   },
+   "پەیوەندی کردن": {
+    "f": "ckb/rec-4f2ca80cfc6a9ff4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:17.947Z"
+   },
+   "چ": {
+    "f": "ckb/rec-71a933c7f2772b02.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:06.172Z"
+   },
+   "چا": {
+    "f": "ckb/rec-1285744fbbe41425.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:10.719Z"
+   },
+   "چاوەڕێ کردن": {
+    "f": "ckb/rec-eaae8e6fea0f297e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:56.060Z"
+   },
+   "چای": {
+    "f": "ckb/rec-fe78693ec6ebb34d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:12.852Z"
+   },
+   "چل": {
+    "f": "ckb/rec-a331c44ee97d77b2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:39.608Z"
+   },
+   "چوار": {
+    "f": "ckb/rec-433bbe648a723535.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:10.570Z"
+   },
+   "چوارشەممە": {
+    "f": "ckb/rec-0548652009c35521.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:42.217Z"
+   },
+   "چونکە": {
+    "f": "ckb/rec-dffb7ca1685c30ab.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:44.997Z"
+   },
+   "چوومە بازاڕ": {
+    "f": "ckb/rec-4a5f365a8d4b9d8e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:49.801Z"
+   },
+   "چوون": {
+    "f": "ckb/rec-287009de43503235.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:49.100Z"
+   },
+   "چڵکن": {
+    "f": "ckb/rec-f686a64dbe273093.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:36.189Z"
+   },
+   "چۆن": {
+    "f": "ckb/rec-2b24818d0e209f47.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:36.932Z"
+   },
+   "چۆن دەڵێن؟": {
+    "f": "ckb/rec-cd079d5111271dbd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:32.002Z"
+   },
+   "چۆن دەڵێیت؟": {
+    "f": "ckb/rec-7c309330dd117453.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:44:34.391Z"
+   },
+   "چۆنیت؟": {
+    "f": "ckb/rec-fe6e0313547ab54b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:26:47.329Z"
+   },
+   "چی": {
+    "f": "ckb/rec-407e7257e9466b91.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:08.220Z"
+   },
+   "چیا": {
+    "f": "ckb/rec-ed4193161a487cc4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:01.303Z"
+   },
+   "چێشت": {
+    "f": "ckb/rec-40dd288c530f9630.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:00.395Z"
+   },
+   "چێشت لێنان": {
+    "f": "ckb/rec-b946064be8c6b252.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:25.712Z"
+   },
+   "چێشتخانە": {
+    "f": "ckb/rec-892d708a1967b124.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:16.583Z"
+   },
+   "چێشتم لێنا": {
+    "f": "ckb/rec-a705d8a2dbe94b8b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:53.043Z"
+   },
+   "چەند": {
+    "f": "ckb/rec-84de076952d1422e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:51.756Z"
+   },
+   "چەپ": {
+    "f": "ckb/rec-34ae9311f4e22d37.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:26.103Z"
+   },
+   "ڕاست": {
+    "f": "ckb/rec-ed0f875910c93f71.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:27.937Z"
+   },
+   "ڕاستەوخۆ": {
+    "f": "ckb/rec-6e4fa5dfecd85876.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:41.036Z"
+   },
+   "ڕۆژ": {
+    "f": "ckb/rec-84c678ce9b4ad2dc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:03.561Z"
+   },
+   "ڕۆژان": {
+    "f": "ckb/rec-0350690f839483a9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:42.468Z"
+   },
+   "ڕۆژانە": {
+    "f": "ckb/rec-e0447acd5babb391.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:37.135Z"
+   },
+   "ڕۆیشتن": {
+    "f": "ckb/rec-0daca63e9705f2ff.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:51.275Z"
+   },
+   "ڕێک": {
+    "f": "ckb/rec-6d92d30d466675ff.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:42.785Z"
+   },
+   "ڕەش": {
+    "f": "ckb/rec-5e94f0a17161516e.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:16.393Z"
+   },
+   "ڕەنگ": {
+    "f": "ckb/rec-299ab92eec46a00a.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:37.938Z"
+   },
+   "ڕەنگە": {
+    "f": "ckb/rec-a87e253674532e3c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:15.502Z"
+   },
+   "ژن": {
+    "f": "ckb/rec-0e7382ac722be761.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:04.709Z"
+   },
+   "ژوور": {
+    "f": "ckb/rec-bb79ddede8c8c2a8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:54.226Z"
+   },
+   "ژیان": {
+    "f": "ckb/rec-ad519964e30076bc.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:41.839Z"
+   },
+   "کاتژمێر": {
+    "f": "ckb/rec-28bdd70397a151cf.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:18.026Z"
+   },
+   "کار": {
+    "f": "ckb/rec-fa010166624143c4.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:51.570Z"
+   },
+   "کار کردن": {
+    "f": "ckb/rec-69c7565a7fdfb961.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:36:26.215Z"
+   },
+   "کام": {
+    "f": "ckb/rec-6171746aedadf148.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:41.157Z"
+   },
+   "کامیان": {
+    "f": "ckb/rec-ebcdd33e0755cbc5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:43.205Z"
+   },
+   "کاژاڵ": {
+    "f": "ckb/rec-aba5aad7f02606d9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:29:46.521Z"
+   },
+   "کتێب": {
+    "f": "ckb/rec-46dcb110bf456468.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:34.161Z"
+   },
+   "کتێبێکم خوێندەوە": {
+    "f": "ckb/rec-f1769a38b43c0355.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:57.608Z"
+   },
+   "کردن": {
+    "f": "ckb/rec-82b53c3ba6211685.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:05.500Z"
+   },
+   "کردنەوە": {
+    "f": "ckb/rec-30679ec8d73dea37.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:43.516Z"
+   },
+   "کلیل": {
+    "f": "ckb/rec-ce95908ae6314e8c.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:40.732Z"
+   },
+   "کوردی": {
+    "f": "ckb/rec-915ab18c224d64c3.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:26.011Z"
+   },
+   "کوردیم خوێند": {
+    "f": "ckb/rec-5bdeeaf6cf854f60.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:00.979Z"
+   },
+   "کورسی": {
+    "f": "ckb/rec-9ee4fd26622dc754.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:35:28.572Z"
+   },
+   "کوڕ": {
+    "f": "ckb/rec-2651614ff1991c64.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:05.420Z"
+   },
+   "کوێ": {
+    "f": "ckb/rec-2ea1435b0ef0dd4f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:12.230Z"
+   },
+   "کچ": {
+    "f": "ckb/rec-c92791cb28a1ac93.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:16.343Z"
+   },
+   "کڕین": {
+    "f": "ckb/rec-50fe61ddca5545d9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:35.580Z"
+   },
+   "کۆرپە": {
+    "f": "ckb/rec-5215189a9fa3f6fa.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:48.002Z"
+   },
+   "کۆن": {
+    "f": "ckb/rec-d1c76cb1a714eef1.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:47.636Z"
+   },
+   "کێ": {
+    "f": "ckb/rec-b90809dc9c6519dd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:10.182Z"
+   },
+   "کێو": {
+    "f": "ckb/rec-e8014583bde829e9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:07.232Z"
+   },
+   "کەرکووک": {
+    "f": "ckb/rec-4e7f683976da96bd.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:27:44.924Z"
+   },
+   "کەمێک": {
+    "f": "ckb/rec-3f5cc16f2d907cb8.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:28:39.749Z"
+   },
+   "کەچی": {
+    "f": "ckb/rec-a6297b8fd65df8a2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:07.608Z"
+   },
+   "کەی": {
+    "f": "ckb/rec-39d9f02ac87e004d.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:35.225Z"
+   },
+   "گران": {
+    "f": "ckb/rec-5ca95b0ff2c21211.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:40:27.614Z"
+   },
+   "گرتن": {
+    "f": "ckb/rec-c4a19d525c84e1d9.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:40.869Z"
+   },
+   "گوتن": {
+    "f": "ckb/rec-491e9010c1ae8a55.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:25.511Z"
+   },
+   "گوند": {
+    "f": "ckb/rec-2b920e7a02a34c76.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:38:58.272Z"
+   },
+   "گوندێک": {
+    "f": "ckb/rec-b801cc087a10d947.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:34:48.209Z"
+   },
+   "گۆشت": {
+    "f": "ckb/rec-5deab8c8e1845935.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:33:21.471Z"
+   },
+   "گەرم": {
+    "f": "ckb/rec-5817c970022c083b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:49.342Z"
+   },
+   "گەورە": {
+    "f": "ckb/rec-d71ba6927f9abbe2.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:39:34.240Z"
+   },
+   "گەورەتر": {
+    "f": "ckb/rec-e6789125927696b7.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:30:59.393Z"
+   },
+   "یا": {
+    "f": "ckb/rec-7d6b8211ad1d8fbf.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:09.615Z"
+   },
+   "یارمەتی دان": {
+    "f": "ckb/rec-5e1b61c6f3fb9425.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:41:58.620Z"
+   },
+   "یاری کردن": {
+    "f": "ckb/rec-5d3a901905787a88.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:42:23.023Z"
+   },
+   "یازدە": {
+    "f": "ckb/rec-c3f55a00625995e5.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:33.952Z"
+   },
+   "یان": {
+    "f": "ckb/rec-7b4b8eecf6bb4d3f.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:43:11.405Z"
+   },
+   "یانزە": {
+    "f": "ckb/rec-03a3a49f1918c59b.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:35.956Z"
+   },
+   "یەک": {
+    "f": "ckb/rec-285fef6e71cdbe42.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:31:21.962Z"
+   },
+   "یەکشەممە": {
+    "f": "ckb/rec-a57d95ff4da3accf.mp3",
+    "v": "ckb-rec-zino-kader",
+    "recordedAt": "2026-11-08T10:32:36.543Z"
+   }
+  },
   "fa": {}
  }
 }
