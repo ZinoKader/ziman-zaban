@@ -8,6 +8,8 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Inställningar: "Skapa konto" kopplar dina framsteg till din e-post och ett lösenord. Med "Logga in" öppnar du dem på en annan enhet, och det du har övat där som gäst läggs till.
 - Inställningar: inställningarna följer med kontot till andra enheter.
 - Inställningar: "Importera säkerhetskopia" lägger till säkerhetskopian i dina framsteg i stället för att ersätta dem.
+- Appen: kontoknappen högst upp på sidan öppnar ett litet formulär där du skapar ett konto eller loggar in. När du är inloggad visar den första bokstaven i din e-post och har "Logga ut".
+- Appen: efter ett övningspass får gäster frågan om de vill skapa ett konto. "Inte nu" döljer frågan i en vecka.
 
 ## 2026-11-08
 

@@ -8,6 +8,8 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - Settings: "Create account" links your progress to your email and a password. "Sign in" opens it on another device, and what you practised there as a guest is added to it.
 - Settings: your settings follow the account to other devices.
 - Settings: "Import backup" adds the backup to your progress instead of replacing it.
+- App: the account button at the top of the page opens a small form to create an account or sign in. Once you're signed in, it shows the first letter of your email and has "Sign out".
+- App: after a practice session, guests are asked to create an account. "Not now" hides the question for a week.
 
 ## 2026-11-08
 
