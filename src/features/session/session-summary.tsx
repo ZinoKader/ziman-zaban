@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import type { Skill } from '@/content/types'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
+import { AccountPrompt } from '@/features/account/account-prompt'
 import { Celebration } from '@/features/medals/celebration'
 import { medalsToAward, nextMilestone } from '@/features/medals/medals'
 import { medalStrings } from '@/features/medals/strings'
@@ -250,6 +251,7 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
           </Card>
         ))}
       </div>
+      <AccountPrompt />
       <NextStepsPanel skill={skill} units={units} onRestart={onRestart} onExit={onExit} />
       {celebration && (
         <Celebration

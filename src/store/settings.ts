@@ -28,6 +28,7 @@ export type Settings = {
   onboarded: boolean
   /** Date (YYYY-MM-DD) of the newest changelog entry the learner has seen. */
   changelogSeen: string | null
+  accountPromptHiddenAt: string | null
 }
 
 interface SettingsState extends Settings {
@@ -48,6 +49,7 @@ export const DEFAULT_SETTINGS: Settings = {
   theme: 'system',
   onboarded: false,
   changelogSeen: null,
+  accountPromptHiddenAt: null,
 }
 
 export const useSettings = create<SettingsState>()(

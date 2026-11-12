@@ -1,6 +1,6 @@
 import { queryOptions, useMutation, useQuery } from '@tanstack/react-query'
 import { queryClient } from '@/data/query-client'
-import { createAccount, currentAccount, signIn, signOut, type AuthOutcome } from '@/data/session'
+import { createAccount, currentAccount, signIn, signOut, type Account, type AuthOutcome } from '@/data/session'
 import { pullSettings } from '@/data/settings-sync'
 import { reloadProgress } from './progress'
 import { useSettings } from './settings'
@@ -11,6 +11,10 @@ export const accountQuery = queryOptions({ queryKey: ACCOUNT_KEY, queryFn: curre
 
 export function useAccount() {
   return useQuery(accountQuery, queryClient).data ?? null
+}
+
+export function memberEmail(account: Account | null): string | null {
+  return account && !account.guest && account.email ? account.email : null
 }
 
 const refreshAccount = () => queryClient.invalidateQueries({ queryKey: ACCOUNT_KEY })

@@ -2,19 +2,27 @@ import { LogIn, LogOut, UserPlus } from 'lucide-react'
 import { useState } from 'react'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { authProblem } from '@/data/auth-problem'
 import type { AuthOutcome } from '@/data/session'
-import { useAccount, useCreateAccount, useSignIn, useSignOut } from '@/store/account'
-import { settingsStrings as strings } from './strings'
+import { cn } from '@/lib/utils'
+import { useCreateAccount, useSignIn, useSignOut } from '@/store/account'
+import { accountStrings as strings } from './strings'
 
-type Mode = 'create' | 'sign-in'
+export type AccountMode = 'create' | 'sign-in'
 
-function AccountForm() {
+interface AccountFormProps {
+  id: string
+  initialMode?: AccountMode
+  compact?: boolean
+  autoFocus?: boolean
+  onDone?: () => void
+}
+
+export function AccountForm({ id, initialMode = 'create', compact = false, autoFocus = false, onDone }: AccountFormProps) {
   const s = strings.use()
-  const [mode, setMode] = useState<Mode>('create')
+  const [mode, setMode] = useState<AccountMode>(initialMode)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [message, setMessage] = useState<string | null>(null)
@@ -26,6 +34,7 @@ function AccountForm() {
     if (outcome.ok === true) {
       toast.success(done)
       setMessage(null)
+      onDone?.()
     } else setMessage(outcome.ok === 'confirm' ? s.confirm : s.problems[outcome.problem])
   }
 
@@ -38,22 +47,23 @@ function AccountForm() {
 
   return (
     <form onSubmit={submit} className="space-y-4">
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className={cn('grid gap-3', !compact && 'sm:grid-cols-2')}>
         <div className="space-y-1.5">
-          <Label htmlFor="account-email">{s.email}</Label>
+          <Label htmlFor={`${id}-email`}>{s.email}</Label>
           <Input
-            id="account-email"
+            id={`${id}-email`}
             type="email"
             autoComplete="email"
+            autoFocus={autoFocus}
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="space-y-1.5">
-          <Label htmlFor="account-password">{s.password}</Label>
+          <Label htmlFor={`${id}-password`}>{s.password}</Label>
           <Input
-            id="account-password"
+            id={`${id}-password`}
             type="password"
             autoComplete={mode === 'create' ? 'new-password' : 'current-password'}
             required
@@ -70,7 +80,7 @@ function AccountForm() {
           {message}
         </p>
       )}
-      <div className="flex flex-wrap items-center gap-2">
+      <div className={cn('flex flex-wrap items-center gap-2', compact && 'flex-col items-stretch')}>
         <Button type="submit" disabled={busy}>
           {mode === 'create' ? <UserPlus /> : <LogIn />}
           {mode === 'create' ? s.create : s.signIn}
@@ -90,39 +100,26 @@ function AccountForm() {
   )
 }
 
-export function AccountCard() {
+export function SignOutButton({ onDone, className }: { onDone?: () => void; className?: string }) {
   const s = strings.use()
-  const account = useAccount()
   const signOut = useSignOut()
-  const member = account && !account.guest && account.email
-
   return (
-    <Card id="account" className="scroll-mt-20">
-      <CardHeader>
-        <CardTitle>{s.account}</CardTitle>
-        <CardDescription>{member ? s.accountHint(member) : s.guestHint}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        {member ? (
-          <Button
-            variant="outline"
-            disabled={signOut.isPending}
-            onClick={async () => {
-              if (!confirm(s.signOutConfirm)) return
-              try {
-                await signOut.mutateAsync()
-                toast.success(s.signedOut)
-              } catch (e) {
-                toast.error(s.problems[authProblem(e)])
-              }
-            }}
-          >
-            <LogOut /> {s.signOut}
-          </Button>
-        ) : (
-          <AccountForm />
-        )}
-      </CardContent>
-    </Card>
+    <Button
+      variant="outline"
+      className={className}
+      disabled={signOut.isPending}
+      onClick={async () => {
+        if (!confirm(s.signOutConfirm)) return
+        try {
+          await signOut.mutateAsync()
+          toast.success(s.signedOut)
+          onDone?.()
+        } catch (e) {
+          toast.error(s.problems[authProblem(e)])
+        }
+      }}
+    >
+      <LogOut /> {s.signOut}
+    </Button>
   )
 }

@@ -14,6 +14,7 @@ import { Toaster } from '@/components/ui/sonner'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
+import { AccountMenu } from '@/features/account/account-menu'
 import { MODULES } from '@/features/modules'
 import { SaveIndicator } from '@/features/progress/save-indicator'
 import { progressStrings } from '@/features/progress/strings'
@@ -147,6 +148,7 @@ export function AppLayout() {
                 <SaveIndicator />
                 <LanguageSwitch />
                 <BaseLangSwitch />
+                <AccountMenu />
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button variant="ghost" size="icon" aria-label={unseen ? `Menu, ${w.unseen}` : 'Menu'} className="relative">

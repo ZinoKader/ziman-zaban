@@ -10,11 +10,11 @@ import { Switch } from '@/components/ui/switch'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
 import { backupOf, parseBackup } from '@/data/backup'
+import { AccountCard } from '@/features/account/account-card'
 import { fetchReviews } from '@/data/progress-api'
 import { SaveDetails } from '@/features/progress/save-indicator'
 import { useImportBackup, useProgress, useResetLanguage } from '@/store/progress'
 import { useSettings, type Settings } from '@/store/settings'
-import { AccountCard } from './account-card'
 import { settingsStrings as strings } from './strings'
 
 function download(name: string, data: unknown) {
