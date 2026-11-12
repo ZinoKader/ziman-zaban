@@ -33,7 +33,6 @@ export interface DeviceStorage extends StateStorage {
   isWriting: (name: string) => boolean
   /** Runs `fn` with writes ignored: for applying state that was just read from the device. */
   quietly: (fn: () => void) => void
-  isQuiet: () => boolean
 }
 
 /** Shared by the database storage and its localStorage fallback. */
@@ -60,7 +59,6 @@ function hookApi(hooks: Hooks) {
         hooks.muted--
       }
     },
-    isQuiet: () => hooks.muted > 0,
   }
 }
 
