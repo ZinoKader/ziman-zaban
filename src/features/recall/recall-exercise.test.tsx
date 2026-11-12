@@ -5,11 +5,12 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 import type { Candidate } from '@/lib/curriculum'
 import { seededRandom } from '@/lib/distractors'
 import { newCard, Rating, State } from '@/lib/srs'
-import { useProgress } from '@/store/progress'
+import { getProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import type { ExerciseResult } from '../session/types'
 import { chooseMode, modeSeed } from './grading'
 import { RecallExercise } from './recall-exercise'
+import { seedProgress } from '@/test/progress'
 
 const newItem: Candidate = { key: 'ckb:recall:thank-you', itemId: 'thank-you', isNew: true, order: 0 }
 /** Past the options stage and not yet stable enough to be asked aloud: typed. */
@@ -37,7 +38,7 @@ const button = (name: RegExp | string) => screen.getByRole('button', { name })
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', answerScript: 'latin', recallAnswer: 'type', romanization: 'always', compare: true, showScript: true, autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
+  seedProgress()
 })
 
 describe('RecallExercise', () => {
@@ -140,7 +141,7 @@ describe('RecallExercise', () => {
     expect(screen.getByText(/Counted as correct/)).toBeInTheDocument()
     fireEvent.click(button('Continue'))
     expect(onDone.mock.calls[0][0]).toMatchObject({ grade: Rating.Good, kind: 'recall-override' })
-    const reports = useProgress.getState().reports
+    const reports = getProgress().reports
     expect(reports).toHaveLength(1)
     expect(reports[0].key).toBe('concept:ckb:thank-you')
     expect(reports[0].message).toContain('tashakor')

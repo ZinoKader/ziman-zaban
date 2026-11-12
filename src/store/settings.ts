@@ -9,7 +9,7 @@ import { deviceStorage } from './device-storage'
  */
 export type RomanizationMode = 'always' | 'tap' | 'never'
 
-export interface Settings {
+export type Settings = {
   baseLang: BaseLang
   targetLang: TargetLang
   romanization: RomanizationMode

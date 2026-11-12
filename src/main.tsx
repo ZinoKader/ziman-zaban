@@ -1,21 +1,23 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router'
-import { HydrationGate } from './app/hydration-gate'
+import { BootGate } from './app/boot-gate'
 import { router } from './app/routes'
-import { startPersistence } from './store/hydration'
+import { queryClient } from './data/query-client'
+import { trackServerSaves } from './data/server-saves'
+import { PROGRESS_KEY } from './store/progress'
 import { startTabSync } from './store/tab-sync'
 import './index.css'
 
-// The saved theme is only known after hydration; until then follow the device so the splash doesn't flash white.
 document.documentElement.classList.toggle('dark', window.matchMedia('(prefers-color-scheme: dark)').matches)
-startPersistence()
+queryClient.mount()
+trackServerSaves(queryClient, PROGRESS_KEY)
 startTabSync()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <HydrationGate>
+    <BootGate>
       <RouterProvider router={router} />
-    </HydrationGate>
+    </BootGate>
   </StrictMode>,
 )

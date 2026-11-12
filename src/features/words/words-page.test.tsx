@@ -1,11 +1,11 @@
-import { act, fireEvent, render, screen, within } from '@testing-library/react'
+import { fireEvent, render, screen, within } from '@testing-library/react'
 import { Link, MemoryRouter, Route, Routes, useLocation } from 'react-router'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { TooltipProvider } from '@/components/ui/tooltip'
 import { cardKey, Rating, reviewCard } from '@/lib/srs'
-import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { WordsPage } from './words-page'
+import { seedProgress, patchProgress, record } from '@/test/progress'
 
 function CurrentSearch() {
   return <output aria-label="search params">{useLocation().search}</output>
@@ -36,7 +36,7 @@ globalThis.ResizeObserver ??= class {
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', compare: true, showScript: true, romanization: 'always', autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
+  seedProgress()
 })
 
 describe('WordsPage', () => {
@@ -81,7 +81,7 @@ describe('WordsPage', () => {
 
   it('shows strength dots from the progress store', () => {
     const now = new Date()
-    useProgress.setState({ cards: { [cardKey('ckb', 'recognition', 'hello')]: reviewCard(undefined, Rating.Good, now) } })
+    patchProgress({ cards: { [cardKey('ckb', 'recognition', 'hello')]: reviewCard(undefined, Rating.Good, now) } })
     renderAt('/words?q=hello')
     expect(screen.getByRole('img', { name: 'Recognition: Learning, Recall: New' })).toBeInTheDocument()
   })
@@ -99,13 +99,13 @@ describe('WordsPage', () => {
   it('updates strength dots as progress changes', () => {
     renderAt('/words?q=hello')
     expect(screen.getByRole('img', { name: 'Recognition: New, Recall: New' })).toBeInTheDocument()
-    act(() => useProgress.getState().record(cardKey('ckb', 'recognition', 'hello'), Rating.Good, { ms: 1, kind: 'mc' }))
+    record(cardKey('ckb', 'recognition', 'hello'), Rating.Good, { ms: 1, kind: 'mc' })
     expect(screen.getByRole('img', { name: 'Recognition: Learning, Recall: New' })).toBeInTheDocument()
   })
 
   it('opens a word with examples, stats and a practice link', () => {
     const card = reviewCard(reviewCard(undefined, Rating.Good, new Date()), Rating.Good, new Date())
-    useProgress.setState({ cards: { [cardKey('ckb', 'recognition', 'i')]: card } })
+    patchProgress({ cards: { [cardKey('ckb', 'recognition', 'i')]: card } })
     renderAt('/words/i')
     const dialog = screen.getByRole('dialog')
     expect(within(dialog).getByText('Example sentences')).toBeInTheDocument()

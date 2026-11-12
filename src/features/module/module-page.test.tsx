@@ -2,9 +2,9 @@ import { render, screen } from '@testing-library/react'
 import { MemoryRouter, Route, Routes } from 'react-router'
 import { conceptsFor } from '@/content'
 import { cardKey, Rating, reviewCard } from '@/lib/srs'
-import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { ModulePage } from './module-page'
+import { seedProgress, patchProgress } from '@/test/progress'
 
 const words = conceptsFor('fa')
 
@@ -22,7 +22,7 @@ const value = (label: string) => screen.getByText(label).parentElement?.querySel
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'sv', targetLang: 'fa', onboarded: true })
-  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
+  seedProgress()
 })
 
 describe('ModulePage', () => {
@@ -38,7 +38,7 @@ describe('ModulePage', () => {
     const now = new Date()
     const learning = reviewCard(undefined, Rating.Good, now)
     const learned = reviewCard(undefined, Rating.Easy, now)
-    useProgress.setState({
+    patchProgress({
       cards: {
         [cardKey('fa', 'recognition', words[0].id)]: learning,
         [cardKey('fa', 'recognition', words[1].id)]: learned,

@@ -7,7 +7,7 @@ import { common } from '@/i18n/common'
 import type { Candidate } from '@/lib/curriculum'
 import { inLearningSteps, Rating } from '@/lib/srs'
 import { cn } from '@/lib/utils'
-import { useProgress } from '@/store/progress'
+import { useRecordReview } from '@/store/progress'
 import { SessionSummary, type SessionStats } from './session-summary'
 import type { ExerciseProps, ExerciseResult } from './types'
 import type { SessionKind } from './use-session'
@@ -54,7 +54,7 @@ interface SessionRunnerProps {
  */
 export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, onRestart, units }: SessionRunnerProps) {
   const s = common.use()
-  const record = useProgress((st) => st.record)
+  const record = useRecordReview()
   const [turns, setTurns] = useState<Turn[]>(() => queue.map((item) => ({ item, attempt: 0, repeat: 0 })))
   const [index, setIndex] = useState(0)
   const [startedAt] = useState(() => Date.now())

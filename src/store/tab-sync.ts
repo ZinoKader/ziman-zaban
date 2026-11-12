@@ -1,5 +1,4 @@
 import { deviceStorage, type DeviceStorage } from './device-storage'
-import { useProgress } from './progress'
 import { useSettings } from './settings'
 
 export const TAB_CHANNEL = 'ziman-zaban'
@@ -28,7 +27,7 @@ const openChannel = (): TabChannel | null =>
 /**
  * Keeps every open tab on the latest saved state. Without it a tab left open keeps
  * its old copy in memory, and the next answer given there writes that copy over
- * the progress made in another tab.
+ * the changes made in another tab.
  *
  * After each save a tab names the saved keys on a BroadcastChannel; the others read
  * those keys back from the device and apply them without writing them again.
@@ -37,7 +36,7 @@ const openChannel = (): TabChannel | null =>
  */
 export function startTabSync({
   storage = deviceStorage,
-  stores = [useProgress, useSettings] as SyncedStore[],
+  stores = [useSettings] as SyncedStore[],
   channel = openChannel(),
 }: { storage?: DeviceStorage; stores?: SyncedStore[]; channel?: TabChannel | null } = {}): () => void {
   if (!channel) return () => {}

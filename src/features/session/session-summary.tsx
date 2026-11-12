@@ -13,8 +13,8 @@ import { MODULES } from '@/features/modules'
 import { Meter } from '@/features/progress/meter'
 import { sessionGain } from '@/features/progress/progress-data'
 import { progressStrings } from '@/features/progress/strings'
-import { cardsBefore, lastRecordedAt, useProgress } from '@/store/progress'
-import { useSaveStatus } from '@/store/save-status'
+import { useServerSaves } from '@/data/server-saves'
+import { cardsBefore, getProgress, useAwardMedals, useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { nextSteps } from './next-steps'
 import { sessionStrings } from './strings'
@@ -47,11 +47,9 @@ function formatDuration(ms: number): string {
 }
 
 function useSaved(): 'saving' | 'saved' | 'failed' {
-  const { lastSavedAt, failed, medium } = useSaveStatus()
-  if (failed || medium === 'memory') return 'failed'
-  const last = lastRecordedAt()
-  if (last === null || (lastSavedAt && Date.parse(lastSavedAt) >= last)) return 'saved'
-  return 'saving'
+  const { pending, failed } = useServerSaves()
+  if (failed) return 'failed'
+  return pending ? 'saving' : 'saved'
 }
 
 function SavedBadge() {
@@ -137,13 +135,13 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
   const m = medalStrings.use()
   const lang = useSettings((st) => st.targetLang)
   const cards = useProgress((st) => st.cards)
-  const award = useProgress((st) => st.award)
+  const award = useAwardMedals()
   const earned = useProgress((st) => st.medals[lang])
   const since = stats.startedAt
   const gain = useMemo(() => sessionGain(skill, lang, cardsBefore(since, cards), cards), [skill, lang, since, cards])
   const [celebration, setCelebration] = useState(() => {
     if (empty) return null
-    const have = (useProgress.getState().medals[lang] ?? []).map((e) => e.words)
+    const have = (getProgress().medals[lang] ?? []).map((e) => e.words)
     const reached = medalsToAward(gain.course.after.learned, gain.course.after.total, have)
     return reached.length ? reached : null
   })

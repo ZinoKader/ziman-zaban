@@ -2,11 +2,11 @@ import { act, fireEvent, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { TooltipProvider } from '@/components/ui/tooltip'
-import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { buildQueue, DEFAULT_FILTERS } from './queue'
 import { ReviewPage } from './review-page'
 import { useReview } from './store'
+import { patchProgress } from '@/test/progress'
 
 function renderPage() {
   return render(
@@ -24,7 +24,7 @@ describe('ReviewPage', () => {
   beforeEach(() => {
     window.scrollTo = vi.fn() as unknown as typeof window.scrollTo
     useSettings.setState({ baseLang: 'en' })
-    useProgress.setState({ reports: [] })
+    patchProgress({ reports: [] })
     useReview.setState({ reviewer: '', lang: null, decisions: {}, filters: DEFAULT_FILTERS, cursor: {} })
   })
 
@@ -73,7 +73,7 @@ describe('ReviewPage', () => {
   it('shows learner reports first, flagged', () => {
     useReview.setState({ reviewer: 'Aras', lang: 'ckb' })
     const last = buildQueue('ckb').at(-1)!
-    useProgress.setState({ reports: [{ key: last.key, at: '2026-10-30T10:00:00Z', message: 'Looks misspelled' }] })
+    patchProgress({ reports: [{ key: last.key, at: '2026-10-30T10:00:00Z', message: 'Looks misspelled' }] })
     renderPage()
     expect(screen.getByText('A learner reported a problem with this item')).toBeInTheDocument()
     expect(screen.getByText(/Looks misspelled/)).toBeInTheDocument()

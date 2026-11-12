@@ -1,10 +1,10 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { MemoryRouter, Route, Routes } from 'react-router'
 import { HomePage } from '@/features/home/home-page'
-import { useProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { changelog, latestRelease } from './changelog'
 import { WhatsNewPage } from './whats-new-page'
+import { seedProgress } from '@/test/progress'
 
 function renderAt(path: string) {
   return render(
@@ -19,7 +19,7 @@ function renderAt(path: string) {
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'sv', targetLang: 'fa', onboarded: true, changelogSeen: null })
-  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] })
+  seedProgress()
 })
 
 describe('WhatsNewPage', () => {

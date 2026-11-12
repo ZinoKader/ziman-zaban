@@ -15,7 +15,7 @@ import type { Grade } from '@/lib/srs'
 import { cn } from '@/lib/utils'
 import { AnswerLine } from '@/features/response/components/answer-line'
 import { canRecord, useDictation, useRecorder } from '@/features/response/use-recorder'
-import { useProgress } from '@/store/progress'
+import { getProgress, useReportProblem } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { SelfGrade } from '../session/self-grade'
 import type { ExerciseProps } from '../session/types'
@@ -60,7 +60,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   const romanization = useSettings((st) => st.romanization)
   const recallAnswer = useSettings((st) => st.recallAnswer)
   const setSettings = useSettings((st) => st.set)
-  const report = useProgress((st) => st.report)
+  const report = useReportProblem()
   const entry = concept[lang]!
   const forms = useMemo(() => acceptedForms(entry), [entry])
 
@@ -82,7 +82,7 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
   // Options stay fixed for this exercise; words the learner has met in Recognition come first.
   const options = useMemo(() => {
     const random = seededRandom(`${seed}:options`)
-    const cards = useProgress.getState().cards
+    const cards = getProgress().cards
     const known = new Set(
       Object.keys(cards)
         .filter((k) => k.startsWith(`${lang}:recognition:`))

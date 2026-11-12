@@ -7,11 +7,12 @@ import { cardKey, Rating, reviewCard } from '@/lib/srs'
 import { HomePage } from '@/features/home/home-page'
 import { SessionSummary } from '@/features/session/session-summary'
 import { SettingsPage } from '@/features/settings/settings-page'
-import { dayKey, useProgress } from '@/store/progress'
-import { INITIAL_SAVE_STATUS, useSaveStatus } from '@/store/save-status'
+import { dayKey, getProgress } from '@/store/progress'
+import { NO_SAVES, useServerSaves } from '@/data/server-saves'
 import { useSettings } from '@/store/settings'
 import { ProgressPage } from './progress-page'
 import { SaveIndicator } from './save-indicator'
+import { seedProgress, patchProgress, record } from '@/test/progress'
 
 const words = conceptsFor('ckb')
 const total = words.length
@@ -44,9 +45,8 @@ function seed() {
     [dayKey(now)]: { reviews: 8, correct: 6, newItems: 2, ms: 60_000 },
     [dayKey(yesterday)]: { reviews: 12, correct: 12, newItems: 3, ms: 90_000 },
   }
-  useProgress.setState({
+  patchProgress({
     cards: { [k(0)]: learned, [k(1)]: learned, [k(2)]: hard, [k(3)]: learning, [k(4)]: learning },
-    log: [],
     days,
     daysByLang: { ckb: days },
     reports: [],
@@ -61,7 +61,7 @@ function seedPersian() {
   let forgotten = reviewCard(undefined, Rating.Easy, now)
   forgotten = reviewCard(forgotten, Rating.Again, new Date(forgotten.due))
   const today = { reviews: 5, correct: 4, newItems: 1, ms: 20_000 }
-  useProgress.setState((s) => {
+  patchProgress((s) => {
     const day = dayKey(now)
     const both = s.days[day]
     return {
@@ -75,14 +75,14 @@ function seedPersian() {
 
 beforeEach(() => {
   useSettings.setState({ baseLang: 'en', targetLang: 'ckb', onboarded: true, romanization: 'always', autoplayAudio: false })
-  useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [], medals: {} })
-  useSaveStatus.setState({ ...INITIAL_SAVE_STATUS, lastSavedAt: new Date().toISOString() })
+  seedProgress()
+  useServerSaves.setState({ ...NO_SAVES, lastSavedAt: new Date().toISOString() })
 })
 
 describe('HomePage', () => {
   it('suggests new words when nothing is due', () => {
     const learned = reviewCard(undefined, Rating.Easy, new Date())
-    useProgress.setState({ cards: { [cardKey('ckb', 'recognition', words[0].id)]: learned } })
+    patchProgress({ cards: { [cardKey('ckb', 'recognition', words[0].id)]: learned } })
     renderAt('/', <HomePage />)
     expect(screen.getByText('Nothing to review right now. How about a few new words?')).toBeInTheDocument()
   })
@@ -125,7 +125,7 @@ describe('HomePage', () => {
     vi.useFakeTimers()
     try {
       const key = cardKey('ckb', 'recognition', words[0].id)
-      useProgress.getState().record(key, Rating.Good, { ms: 1, kind: 'mc' })
+      record(key, Rating.Good, { ms: 1, kind: 'mc' })
       renderAt('/', <HomePage />)
       expect(screen.getByText('Nothing due')).toBeInTheDocument()
       act(() => void vi.advanceTimersByTime(11 * 60_000))
@@ -231,8 +231,8 @@ describe('SessionSummary', () => {
     const startMs = 60_000
     const word = words[0]
     const key = cardKey('ckb', 'recognition', word.id)
-    useProgress.getState().record(key, Rating.Good, { ms: 1, kind: 'mc', now: new Date(Date.now() - 3 * 86_400_000) })
-    useProgress.getState().record(key, Rating.Easy, { ms: 1, kind: 'mc' })
+    record(key, Rating.Good, { ms: 1, kind: 'mc', now: new Date(Date.now() - 3 * 86_400_000) })
+    record(key, Rating.Easy, { ms: 1, kind: 'mc' })
     renderAt(
       '/',
       <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 0, ms: startMs, startedAt: Date.now() - startMs }} empty={false} onRestart={() => {}} onExit={() => {}} />,
@@ -254,7 +254,6 @@ describe('SessionSummary', () => {
 
   it('counts words still in progress after a first session, and updates live', () => {
     const recognition = moduleStatus('recognition', 'ckb', {}).total
-    const { record } = useProgress.getState()
     record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
     record(cardKey('ckb', 'recognition', words[1].id), Rating.Good, { ms: 1, kind: 'mc' })
     renderAt(
@@ -268,7 +267,7 @@ describe('SessionSummary', () => {
 
     act(() => {
       const key = cardKey('ckb', 'recognition', words[2].id)
-      useProgress.setState((s) => ({ cards: { ...s.cards, [key]: reviewCard(undefined, Rating.Easy, new Date()) } }))
+      patchProgress((s) => ({ cards: { ...s.cards, [key]: reviewCard(undefined, Rating.Easy, new Date()) } }))
     })
     expect(summaryRow('Words learned')).toHaveTextContent(`1/${total} · 2 in progress`)
     expect(summaryRow('Recognition')).toHaveTextContent(`1/${recognition} · 2 in progress`)
@@ -276,7 +275,7 @@ describe('SessionSummary', () => {
 
   it('labels words in progress in Swedish', () => {
     useSettings.setState({ baseLang: 'sv' })
-    useProgress.getState().record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
+    record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
     renderAt(
       '/',
       <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 60_000, startedAt: Date.now() - 60_000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
@@ -288,7 +287,7 @@ describe('SessionSummary', () => {
   it('celebrates a medal milestone once and shows the next one', () => {
     const now = new Date()
     const learned = reviewCard(undefined, Rating.Easy, now)
-    useProgress.setState({
+    patchProgress({
       cards: Object.fromEntries(words.slice(0, 10).map((w) => [cardKey('ckb', 'recognition', w.id), learned])),
     })
     const summary = (
@@ -298,7 +297,7 @@ describe('SessionSummary', () => {
     const dialog = screen.getByRole('dialog', { name: 'Hooray!' })
     expect(dialog).toHaveTextContent("You've learned 10 words in Sorani!")
     expect(dialog).toHaveTextContent('You get a bronze medal.')
-    expect(useProgress.getState().medals.ckb?.map((m) => m.words)).toEqual([10])
+    expect(getProgress().medals.ckb?.map((m) => m.words)).toEqual([10])
     expect(screen.getByText('15 words to your next medal (25)')).toBeInTheDocument()
 
     fireEvent.click(within(dialog).getByRole('button', { name: 'Thank you!' }))
@@ -309,7 +308,7 @@ describe('SessionSummary', () => {
   })
 
   it('suggests new words after a session and restarts with only new ones', () => {
-    useProgress.getState().record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
+    record(cardKey('ckb', 'recognition', words[0].id), Rating.Good, { ms: 1, kind: 'mc' })
     const onRestart = vi.fn()
     renderAt(
       '/',
@@ -321,8 +320,8 @@ describe('SessionSummary', () => {
   })
 
   it('warns when saving failed', () => {
-    useProgress.getState().record(cardKey('ckb', 'recognition', words[1].id), Rating.Good, { ms: 1, kind: 'mc' })
-    useSaveStatus.setState({ failed: true })
+    record(cardKey('ckb', 'recognition', words[1].id), Rating.Good, { ms: 1, kind: 'mc' })
+    useServerSaves.setState({ failed: true })
     renderAt(
       '/',
       <SessionSummary skill="recognition" stats={{ reviewed: 1, correctFirstTry: 1, newItems: 1, ms: 5000, startedAt: Date.now() - 5000 }} empty={false} onRestart={() => {}} onExit={() => {}} />,
@@ -333,33 +332,34 @@ describe('SessionSummary', () => {
 })
 
 describe('Saved indicator and Your data', () => {
-  it('opens details about where and when progress was saved', () => {
-    useSaveStatus.setState({ medium: 'indexeddb', persistSupported: true, persistent: true })
+  it('opens details about where and when progress was saved', async () => {
     renderAt('/', <SaveIndicator />)
-    fireEvent.click(screen.getByRole('button', { name: 'Saved on this device' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Saved' }))
     expect(screen.getByText('Last saved just now')).toBeInTheDocument()
-    expect(screen.getByText(/browser's database on this device/)).toBeInTheDocument()
-    expect(screen.getByText(/Protected/)).toBeInTheDocument()
+    expect(await screen.findByText(/Saved online as a guest in this browser/)).toBeInTheDocument()
     expect(screen.getByRole('link', { name: 'Your data' })).toHaveAttribute('href', '/settings#data')
   })
 
-  it('flags storage that will not survive the tab', () => {
-    useSaveStatus.setState({ medium: 'memory' })
+  it('shows saves waiting for the internet and failed saves', () => {
+    useServerSaves.setState({ pending: 2, waiting: true })
+    const { unmount } = renderAt('/', <SaveIndicator />)
+    expect(screen.getByRole('button', { name: 'Waiting for internet' })).toBeInTheDocument()
+    unmount()
+    useServerSaves.setState({ waiting: false, failed: true })
     renderAt('/', <SaveIndicator />)
     expect(screen.getByRole('button', { name: 'Not saved' })).toBeInTheDocument()
   })
 
-  it('lists storage facts in Settings', () => {
+  it('lists account and data facts in Settings', async () => {
     seed()
-    useSaveStatus.setState({ medium: 'indexeddb', persistSupported: true, persistent: false })
     renderAt('/settings', <SettingsPage />)
     const data = document.getElementById('data')!
     expect(within(data).getByText('Your data')).toBeInTheDocument()
-    expect(within(data).getByText(/5 cards, 0 reviews, 2 days of practice/)).toBeInTheDocument()
-    expect(within(data).getByText(/Not protected yet/)).toBeInTheDocument()
-    expect(within(data).getByRole('button', { name: /Ask the browser to keep it/ })).toBeInTheDocument()
-    expect(within(data).getByText(/Syncing between your devices will come with accounts later/)).toBeInTheDocument()
+    expect(within(data).getByText(/5 cards, 20 reviews, 2 days of practice/)).toBeInTheDocument()
     expect(within(data).getByRole('button', { name: /Export backup/ })).toBeInTheDocument()
     expect(within(data).getByRole('button', { name: /Import backup/ })).toBeInTheDocument()
+    const account = document.getElementById('account')!
+    expect(await within(account).findByText(/practising as a guest/)).toBeInTheDocument()
+    expect(within(account).getByRole('button', { name: /Create account/ })).toBeInTheDocument()
   })
 })

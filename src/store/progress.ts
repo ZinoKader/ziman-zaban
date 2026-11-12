@@ -1,100 +1,60 @@
-import { create } from 'zustand'
-import { createJSONStorage, persist } from 'zustand/middleware'
+import { queryOptions, useMutation, useSuspenseQuery } from '@tanstack/react-query'
+import { useCallback } from 'react'
 import type { TargetLang } from '@/content/types'
-import { parseCardKey, reviewCard, type CardKey, type Grade, type StoredCard } from '@/lib/srs'
-import { deviceStorage } from './device-storage'
+import * as api from '@/data/progress-api'
+import { queryClient } from '@/data/query-client'
+import { cardInsert, medalInserts, progressRows, reportInsert, reviewInsert, type FullProgress } from '@/data/rows'
+import {
+  EMPTY_PROGRESS,
+  withMedals,
+  withReport,
+  withReview,
+  withoutLanguage,
+  type Progress,
+} from '@/lib/progress'
+import type { CardKey, Grade, StoredCard } from '@/lib/srs'
 
-export interface ReviewEntry {
-  key: CardKey
-  grade: Grade
-  at: string
-  ms: number
-  /** Exercise kind, e.g. `mc-meaning`, `typed`, `tiles`. */
-  kind: string
+export * from '@/lib/progress'
+
+export const PROGRESS_KEY = ['progress'] as const
+const SAVE_SCOPE = { id: 'progress' }
+
+let edits = 0
+
+async function loadProgress(): Promise<Progress> {
+  const before = edits
+  const fresh = await api.fetchProgress()
+  const busy = edits !== before || queryClient.isMutating({ mutationKey: PROGRESS_KEY }) > 0
+  return busy ? getProgress() : fresh
 }
 
-export interface DayStats {
-  reviews: number
-  correct: number
-  newItems: number
-  ms: number
+export const progressQuery = queryOptions({ queryKey: PROGRESS_KEY, queryFn: loadProgress })
+
+queryClient.setQueryDefaults(PROGRESS_KEY, { queryFn: loadProgress })
+
+export function getProgress(): Progress {
+  return queryClient.getQueryData<Progress>(PROGRESS_KEY) ?? EMPTY_PROGRESS
 }
 
-/** Problems reported by the learner on a specific item, for the content team. */
-export interface ContentReport {
-  key: string
-  at: string
-  message: string
+export function setProgress(update: Progress | ((p: Progress) => Progress)) {
+  edits++
+  queryClient.setQueryData<Progress>(PROGRESS_KEY, (p = EMPTY_PROGRESS) => (typeof update === 'function' ? update(p) : update))
 }
 
-export type DaysByLang = Partial<Record<TargetLang, Record<string, DayStats>>>
-
-export interface EarnedMedal {
-  /** The milestone: words learned in that language. */
-  words: number
-  at: string
+export function useProgress<T>(select: (p: Progress) => T): T {
+  return useSuspenseQuery({ ...progressQuery, select }, queryClient).data
 }
 
-export type MedalsByLang = Partial<Record<TargetLang, EarnedMedal[]>>
-
-interface ProgressState {
-  cards: Partial<Record<CardKey, StoredCard>>
-  log: ReviewEntry[]
-  /** Both languages together; kept for days older than the review log reaches. */
-  days: Record<string, DayStats>
-  daysByLang: DaysByLang
-  reports: ContentReport[]
-  /** Medals stay once earned, even if words are forgotten later. */
-  medals: MedalsByLang
-  record: (key: CardKey, grade: Grade, meta: { ms: number; kind: string; now?: Date }) => StoredCard
-  report: (key: string, message: string) => void
-  award: (lang: TargetLang, words: number[], now?: Date) => void
-  resetLanguage: (lang: TargetLang) => void
-  importState: (s: Pick<ProgressState, 'cards' | 'log' | 'days'> & { daysByLang?: DaysByLang; medals?: MedalsByLang }) => void
+export function reloadProgress() {
+  return queryClient.resetQueries({ queryKey: PROGRESS_KEY })
 }
 
-const MAX_LOG = 5000
-const MAX_MS = 120_000
-
-const EMPTY_DAY: DayStats = { reviews: 0, correct: 0, newItems: 0, ms: 0 }
-
-function addReview(d: DayStats | undefined, grade: Grade, ms: number, isNew: boolean): DayStats {
-  const prev = d ?? EMPTY_DAY
-  return {
-    reviews: prev.reviews + 1,
-    correct: prev.correct + (grade > 1 ? 1 : 0),
-    newItems: prev.newItems + (isNew ? 1 : 0),
-    ms: prev.ms + Math.min(ms, MAX_MS),
-  }
-}
-
-/**
- * Per-language day stats rebuilt from the review log, for progress saved before they were
- * recorded separately. Days older than the log (it keeps the last 5,000 reviews) are missing.
- */
-export function daysByLangFromLog(log: ReviewEntry[]): DaysByLang {
-  const out: DaysByLang = {}
-  const seen = new Set<CardKey>()
-  for (const e of log) {
-    const lang = parseCardKey(e.key).lang
-    const day = dayKey(new Date(e.at))
-    const byDay = (out[lang] ??= {})
-    byDay[day] = addReview(byDay[day], e.grade, e.ms, !seen.has(e.key))
-    seen.add(e.key)
-  }
-  return out
-}
-
-export function dayKey(d: Date): string {
-  const y = d.getFullYear()
-  const m = String(d.getMonth() + 1).padStart(2, '0')
-  const day = String(d.getDate()).padStart(2, '0')
-  return `${y}-${m}-${day}`
+function useSave<V>(save: (v: V) => Promise<void>) {
+  return useMutation({ mutationKey: PROGRESS_KEY, scope: SAVE_SCOPE, mutationFn: (v: V) => save(v) }, queryClient)
 }
 
 interface JournalEntry {
   key: CardKey
-  /** The card before this review; undefined for a brand-new item. */
   prev: StoredCard | undefined
   at: number
 }
@@ -102,10 +62,6 @@ interface JournalEntry {
 const MAX_JOURNAL = 1000
 const journal: JournalEntry[] = []
 
-/**
- * Cards as they were before any review recorded at or after `since` (ms) in this visit.
- * Lets a session summary compare before and after without the session runner keeping a snapshot.
- */
 export function cardsBefore(since: number, cards: Partial<Record<CardKey, StoredCard>>): Partial<Record<CardKey, StoredCard>> {
   const before = { ...cards }
   const seen = new Set<CardKey>()
@@ -118,89 +74,67 @@ export function cardsBefore(since: number, cards: Partial<Record<CardKey, Stored
   return before
 }
 
-/** Time (ms) of the most recent review recorded in this visit, or null. */
-export function lastRecordedAt(): number | null {
-  return journal.at(-1)?.at ?? null
-}
+export type RecordReview = (key: CardKey, grade: Grade, meta: { ms: number; kind: string; now?: Date }) => StoredCard
 
-export const useProgress = create<ProgressState>()(
-  persist(
-    (set, get) => ({
-      cards: {},
-      log: [],
-      days: {},
-      daysByLang: {},
-      reports: [],
-      medals: {},
-      record: (key, grade, { ms, kind, now = new Date() }) => {
-        const prev = get().cards[key]
-        const card = reviewCard(prev, grade, now)
-        const day = dayKey(now)
-        journal.push({ key, prev, at: now.getTime() })
-        if (journal.length > MAX_JOURNAL) journal.splice(0, journal.length - MAX_JOURNAL)
-        const lang = parseCardKey(key).lang
-        set((s) => {
-          const byDay = s.daysByLang[lang] ?? {}
-          return {
-            cards: { ...s.cards, [key]: card },
-            log: [...s.log, { key, grade, at: now.toISOString(), ms, kind }].slice(-MAX_LOG),
-            days: { ...s.days, [day]: addReview(s.days[day], grade, ms, !prev) },
-            daysByLang: { ...s.daysByLang, [lang]: { ...byDay, [day]: addReview(byDay[day], grade, ms, !prev) } },
-          }
-        })
-        return card
-      },
-      report: (key, message) =>
-        set((s) => ({ reports: [...s.reports, { key, message, at: new Date().toISOString() }] })),
-      award: (lang, words, now = new Date()) =>
-        set((s) => {
-          const have = s.medals[lang] ?? []
-          const fresh = words.filter((w) => !have.some((m) => m.words === w))
-          if (!fresh.length) return {}
-          const at = now.toISOString()
-          return { medals: { ...s.medals, [lang]: [...have, ...fresh.map((w) => ({ words: w, at }))].sort((a, b) => a.words - b.words) } }
-        }),
-      resetLanguage: (lang) =>
-        set((s) => ({
-          medals: Object.fromEntries(Object.entries(s.medals).filter(([l]) => l !== lang)),
-          cards: Object.fromEntries(
-            Object.entries(s.cards).filter(([k]) => parseCardKey(k as CardKey).lang !== lang),
-          ),
-          log: s.log.filter((e) => parseCardKey(e.key).lang !== lang),
-          daysByLang: Object.fromEntries(Object.entries(s.daysByLang).filter(([l]) => l !== lang)),
-        })),
-      importState: ({ cards, log, days, daysByLang, medals }) =>
-        set((s) => ({ cards, log, days, daysByLang: daysByLang ?? daysByLangFromLog(log), medals: medals ?? s.medals })),
-    }),
-    {
-      name: 'zz-progress',
-      version: 2,
-      storage: createJSONStorage(() => deviceStorage),
-      migrate: (persisted, version) => {
-        const s = persisted as Partial<ProgressState>
-        if (version < 2 && !s.daysByLang) s.daysByLang = daysByLangFromLog(s.log ?? [])
-        return s as ProgressState
-      },
+export function useRecordReview(): RecordReview {
+  const { mutate } = useSave(api.saveProgress)
+  return useCallback(
+    (key, grade, { ms, kind, now = new Date() }) => {
+      const current = getProgress()
+      const { progress, card, entry } = withReview(current, key, grade, { ms, kind, now })
+      journal.push({ key, prev: current.cards[key], at: now.getTime() })
+      if (journal.length > MAX_JOURNAL) journal.splice(0, journal.length - MAX_JOURNAL)
+      setProgress(progress)
+      mutate({ reviews: [reviewInsert(entry, card)], cards: [cardInsert(key, card)] })
+      return card
     },
-  ),
-)
-
-export type StatsScope = TargetLang | 'all'
-
-/** Day stats for one language, or for both together. */
-export function scopedDays(s: Pick<ProgressState, 'days' | 'daysByLang'>, scope: StatsScope): Record<string, DayStats> {
-  return scope === 'all' ? s.days : (s.daysByLang[scope] ?? NO_DAYS)
+    [mutate],
+  )
 }
-const NO_DAYS: Record<string, DayStats> = {}
 
-/** Consecutive days (ending today or yesterday) with at least one review. */
-export function streak(days: Record<string, DayStats>, now = new Date()): number {
-  let n = 0
-  const d = new Date(now)
-  if (!days[dayKey(d)]?.reviews) d.setDate(d.getDate() - 1)
-  while (days[dayKey(d)]?.reviews) {
-    n++
-    d.setDate(d.getDate() - 1)
-  }
-  return n
+export function useAwardMedals() {
+  const { mutate } = useSave(api.saveMedals)
+  return useCallback(
+    (lang: TargetLang, words: number[], now = new Date()) => {
+      const { progress, fresh } = withMedals(getProgress(), lang, words, now)
+      if (!fresh.length) return
+      setProgress(progress)
+      mutate(medalInserts(lang, fresh))
+    },
+    [mutate],
+  )
+}
+
+export function useReportProblem() {
+  const { mutate } = useSave(api.saveReport)
+  return useCallback(
+    (key: string, message: string, now = new Date()) => {
+      const { progress, report } = withReport(getProgress(), key, message, now)
+      setProgress(progress)
+      mutate(reportInsert(report))
+    },
+    [mutate],
+  )
+}
+
+export function useResetLanguage() {
+  const { mutate } = useSave(({ lang, at }: { lang: TargetLang; at: string }) => api.resetLanguage(lang, at))
+  return useCallback(
+    (lang: TargetLang, now = new Date()) => {
+      setProgress((p) => withoutLanguage(p, lang))
+      mutate({ lang, at: now.toISOString() })
+    },
+    [mutate],
+  )
+}
+
+export function useImportBackup() {
+  const { mutateAsync } = useSave(api.saveProgress)
+  return useCallback(
+    async (backup: FullProgress, fallback: TargetLang) => {
+      await mutateAsync(progressRows(backup, fallback))
+      await queryClient.refetchQueries({ queryKey: PROGRESS_KEY })
+    },
+    [mutateAsync],
+  )
 }

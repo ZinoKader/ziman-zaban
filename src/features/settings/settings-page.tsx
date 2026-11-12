@@ -1,5 +1,5 @@
-import { Download, Info, ShieldCheck, Trash2, Upload } from 'lucide-react'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Download, Trash2, Upload } from 'lucide-react'
+import { useEffect, useRef } from 'react'
 import { useLocation } from 'react-router'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
@@ -9,14 +9,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Switch } from '@/components/ui/switch'
 import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
-import { useNow } from '@/lib/use-now'
-import { cn } from '@/lib/utils'
-import { formatBytes, formatWhen } from '@/features/progress/format'
-import { progressStrings } from '@/features/progress/strings'
-import { deviceStorage, requestPersistence } from '@/store/device-storage'
-import { useProgress } from '@/store/progress'
-import { useSaveStatus } from '@/store/save-status'
+import { backupOf, parseBackup } from '@/data/backup'
+import { fetchReviews } from '@/data/progress-api'
+import { SaveDetails } from '@/features/progress/save-indicator'
+import { useImportBackup, useProgress, useResetLanguage } from '@/store/progress'
 import { useSettings, type Settings } from '@/store/settings'
+import { AccountCard } from './account-card'
 import { settingsStrings as strings } from './strings'
 
 function download(name: string, data: unknown) {
@@ -73,56 +71,18 @@ function Fact({ label, children }: { label: string; children: React.ReactNode })
 
 function DataFacts() {
   const s = strings.use()
-  const p = progressStrings.use()
-  const baseLang = useSettings((st) => st.baseLang)
-  const { medium, persistent, persistSupported, lastSavedAt } = useSaveStatus()
-  const now = useNow()
-  const cards = useProgress((st) => st.cards)
-  const log = useProgress((st) => st.log)
-  const days = useProgress((st) => st.days)
-  const daysByLang = useProgress((st) => st.daysByLang)
-  const [asked, setAsked] = useState<boolean | null>(null)
-  const size = useMemo(
-    () => new Blob([JSON.stringify({ cards, log, days, daysByLang })]).size,
-    [cards, log, days, daysByLang],
-  )
-  const protection = !persistSupported || persistent === null ? 'unknown' : persistent ? 'granted' : 'denied'
-  const practised = Object.values(days).filter((d) => d.reviews > 0).length
+  const cards = useProgress((st) => Object.keys(st.cards).length)
+  const days = useProgress((st) => Object.values(st.days))
+  const reviews = days.reduce((n, d) => n + d.reviews, 0)
+  const practised = days.filter((d) => d.reviews > 0).length
 
   return (
-    <div className="space-y-4">
-      <dl className="divide-y">
-        <Fact label={s.where}>{p.medium[medium]}</Fact>
-        {medium !== 'memory' && (
-          <Fact label={s.protection}>
-            <span className="flex flex-col items-start gap-2">
-              <span className={cn(protection === 'granted' && 'text-success')}>
-                {protection === 'granted' && <ShieldCheck className="me-1 inline size-4 align-[-3px]" />}
-                {p.protection[protection]}
-              </span>
-              {protection === 'denied' && (
-                <Button
-                  size="sm"
-                  variant="outline"
-                  onClick={async () => setAsked(await requestPersistence(deviceStorage, { force: true }))}
-                >
-                  <ShieldCheck /> {s.protect}
-                </Button>
-              )}
-              {asked === false && <span className="text-xs">{s.protectDenied}</span>}
-            </span>
-          </Fact>
-        )}
-        <Fact label={s.lastSaved}>{lastSavedAt ? formatWhen(lastSavedAt, baseLang, p.justNow, now) : s.never}</Fact>
-        <Fact label={s.contents}>
-          {s.contentsValue(Object.keys(cards).length, log.length, practised)} · {s.size(formatBytes(size, baseLang))}
-        </Fact>
-      </dl>
-      <p className="flex gap-2 rounded-xl bg-muted/60 p-3 text-sm text-muted-foreground">
-        <Info className="mt-0.5 size-4 shrink-0" />
-        {s.reminder}
-      </p>
-    </div>
+    <dl className="divide-y">
+      <Fact label={s.contents}>{s.contentsValue(cards, reviews, practised)}</Fact>
+      <Fact label={s.saving}>
+        <SaveDetails />
+      </Fact>
+    </dl>
   )
 }
 
@@ -138,7 +98,9 @@ export function SettingsPage() {
   const s = strings.use()
   const c = common.use()
   const settings = useSettings()
-  const progress = useProgress()
+  const progress = useProgress((st) => st)
+  const importBackup = useImportBackup()
+  const resetLanguage = useResetLanguage()
   const fileInput = useRef<HTMLInputElement>(null)
   const numbers = (values: number[]) => Object.fromEntries(values.map((n) => [String(n), String(n)]))
 
@@ -205,6 +167,8 @@ export function SettingsPage() {
         </CardContent>
       </Card>
 
+      <AccountCard />
+
       <Card id="data" className="scroll-mt-20">
         <CardHeader>
           <CardTitle>{s.data}</CardTitle>
@@ -216,15 +180,13 @@ export function SettingsPage() {
         <CardContent className="flex flex-wrap gap-2 border-t pt-4">
           <Button
             variant="outline"
-            onClick={() =>
-              download('ziman-zaban-progress.json', {
-                cards: progress.cards,
-                log: progress.log,
-                days: progress.days,
-                daysByLang: progress.daysByLang,
-                medals: progress.medals,
-              })
-            }
+            onClick={async () => {
+              try {
+                download('ziman-zaban-progress.json', backupOf(progress, await fetchReviews()))
+              } catch {
+                toast.error(s.exportFailed)
+              }
+            }}
           >
             <Download /> {s.export}
           </Button>
@@ -240,11 +202,9 @@ export function SettingsPage() {
               const file = e.target.files?.[0]
               if (!file) return
               try {
-                const data = JSON.parse(await file.text())
-                if (typeof data.cards !== 'object' || !Array.isArray(data.log)) throw new Error('bad file')
-                const daysByLang = data.daysByLang && typeof data.daysByLang === 'object' ? data.daysByLang : undefined
-                const medals = data.medals && typeof data.medals === 'object' ? data.medals : undefined
-                progress.importState({ cards: data.cards, log: data.log, days: data.days ?? {}, daysByLang, medals })
+                const backup = parseBackup(await file.text())
+                if (!backup) throw new Error('bad file')
+                await importBackup(backup, settings.targetLang)
                 toast.success(s.imported)
               } catch {
                 toast.error(s.importFailed)
@@ -263,7 +223,7 @@ export function SettingsPage() {
               variant="ghost"
               className="text-destructive"
               onClick={() => {
-                if (confirm(s.resetConfirm)) progress.resetLanguage(l)
+                if (confirm(s.resetConfirm)) resetLanguage(l)
               }}
             >
               <Trash2 /> {s.reset(c.languagesShort[l])}

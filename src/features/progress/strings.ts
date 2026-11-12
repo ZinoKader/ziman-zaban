@@ -5,22 +5,20 @@ export const progressStrings = defineStrings({
     nav: 'Progress',
     loading: 'Loading your progress…',
 
-    saved: 'Saved on this device',
+    saved: 'Saved',
     notSaved: 'Not saved',
+    waiting: 'Waiting for internet',
     lastSaved: (when: string) => `Last saved ${when}`,
-    neverSaved: 'Nothing saved yet. Your progress is saved after every answer.',
+    neverSaved: 'Nothing saved yet in this visit. Your progress is saved after every answer.',
     justNow: 'just now',
-    medium: {
-      indexeddb: "In this browser's database on this device.",
-      localstorage: "In this browser's local storage (its database isn't available here, for example in private browsing).",
-      memory: 'Only until you close this tab: this browser is blocking storage.',
+    where: {
+      guest: 'Saved online as a guest in this browser. Create an account in Settings to use it on other devices.',
+      account: (email: string) => `Saved online to ${email}. Sign in with it on any device.`,
     },
-    protection: {
-      granted: "Protected: the browser won't clear it to free up space.",
-      denied: 'Not protected yet: the browser may clear it if the device runs low on space.',
-      unknown: 'Your browser decides how long to keep it.',
-    },
-    failed: "The last save didn't work. Export a backup in Settings to be safe.",
+    offline: "You're offline. Your answers are saved when the internet is back, so keep this tab open until then.",
+    failed: "The last save didn't work. Check your internet connection.",
+    loadFailed: "Couldn't load your progress. Check your internet connection and try again.",
+    retry: 'Try again',
     manage: 'Your data',
 
     courseTitle: (lang: string) => `Your ${lang} course`,
@@ -40,7 +38,7 @@ export const progressStrings = defineStrings({
       `${learned}/${total}${learning ? ` · ${learning} in progress` : ''}`,
 
     title: 'Your progress',
-    intro: 'Everything is saved on this device after every answer.',
+    intro: 'Everything is saved to your account after every answer.',
     courses: 'Courses',
     switchTo: 'Practise this language',
     current: 'Current',
@@ -77,7 +75,7 @@ export const progressStrings = defineStrings({
 
     progressSaved: 'Progress saved',
     saving: 'Saving…',
-    saveFailed: "Couldn't save on this device. Export a backup in Settings.",
+    saveFailed: "Couldn't save. Check your internet connection.",
     wordsLearned: 'Words learned',
     newlyLearned: (n: number) => `+${n} word${n === 1 ? '' : 's'} learned`,
     learnedLater: 'A word counts as learned once you get it right twice in a row.',
@@ -86,22 +84,20 @@ export const progressStrings = defineStrings({
     nav: 'Framsteg',
     loading: 'Laddar dina framsteg…',
 
-    saved: 'Sparat på den här enheten',
+    saved: 'Sparat',
     notSaved: 'Inte sparat',
+    waiting: 'Väntar på internet',
     lastSaved: (when: string) => `Senast sparat ${when}`,
-    neverSaved: 'Inget sparat än. Dina framsteg sparas efter varje svar.',
+    neverSaved: 'Inget sparat än under det här besöket. Dina framsteg sparas efter varje svar.',
     justNow: 'nyss',
-    medium: {
-      indexeddb: 'I webbläsarens databas på den här enheten.',
-      localstorage: 'I webbläsarens lokala lagring (databasen är inte tillgänglig här, till exempel i privat surfning).',
-      memory: 'Bara tills du stänger fliken: webbläsaren blockerar lagring.',
+    where: {
+      guest: 'Sparat online som gäst i den här webbläsaren. Skapa ett konto under Inställningar för att använda det på andra enheter.',
+      account: (email: string) => `Sparat online på ${email}. Logga in med det på vilken enhet som helst.`,
     },
-    protection: {
-      granted: 'Skyddat: webbläsaren rensar inte bort det för att frigöra utrymme.',
-      denied: 'Inte skyddat än: webbläsaren kan rensa det om enheten får ont om utrymme.',
-      unknown: 'Webbläsaren avgör hur länge det sparas.',
-    },
-    failed: 'Den senaste sparningen misslyckades. Exportera en säkerhetskopia under Inställningar för säkerhets skull.',
+    offline: 'Du är offline. Dina svar sparas när internet är tillbaka, så låt fliken vara öppen tills dess.',
+    failed: 'Den senaste sparningen misslyckades. Kontrollera din internetanslutning.',
+    loadFailed: 'Kunde inte ladda dina framsteg. Kontrollera din internetanslutning och försök igen.',
+    retry: 'Försök igen',
     manage: 'Dina data',
 
     courseTitle: (lang: string) => `Din kurs i ${lang}`,
@@ -120,7 +116,7 @@ export const progressStrings = defineStrings({
       `${learned}/${total}${learning ? ` · ${learning} under inlärning` : ''}`,
 
     title: 'Dina framsteg',
-    intro: 'Allt sparas på den här enheten efter varje svar.',
+    intro: 'Allt sparas på ditt konto efter varje svar.',
     courses: 'Kurser',
     switchTo: 'Öva på det här språket',
     current: 'Aktuell',
@@ -157,7 +153,7 @@ export const progressStrings = defineStrings({
 
     progressSaved: 'Framstegen är sparade',
     saving: 'Sparar…',
-    saveFailed: 'Kunde inte spara på enheten. Exportera en säkerhetskopia under Inställningar.',
+    saveFailed: 'Kunde inte spara. Kontrollera din internetanslutning.',
     wordsLearned: 'Inlärda ord',
     newlyLearned: (n: number) => `+${n} ${n === 1 ? 'inlärt ord' : 'inlärda ord'}`,
     learnedLater: 'Ett ord räknas som inlärt när du har svarat rätt två gånger i rad.',

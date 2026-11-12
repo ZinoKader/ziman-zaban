@@ -11,7 +11,7 @@ import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { MedalShelf } from '@/features/medals/medal-shelf'
 import { dayKey, scopedDays, streak, useProgress, type StatsScope } from '@/store/progress'
-import { useSaveStatus } from '@/store/save-status'
+import { useServerSaves } from '@/data/server-saves'
 import { useSettings } from '@/store/settings'
 import { formatWhen, shortDate, weekday } from './format'
 import { Meter } from './meter'
@@ -156,7 +156,7 @@ export function ProgressPage() {
   const lang = useSettings((st) => st.targetLang)
   const baseLang = useSettings((st) => st.baseLang)
   const cards = useProgress((st) => st.cards)
-  const lastSavedAt = useSaveStatus((st) => st.lastSavedAt)
+  const lastSavedAt = useServerSaves((st) => st.lastSavedAt)
   const [params, setParams] = useSearchParams()
 
   const now = useNow()

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { Skill, TargetLang } from '@/content/types'
 import { buildQueue, type Candidate, type Cards } from '@/lib/curriculum'
-import { useProgress } from '@/store/progress'
+import { getProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 
 /** What the next session holds: reviews and new items mixed (the default), only new items, or only reviews. */
@@ -30,7 +30,7 @@ export function useSessionQueue(skill: Skill, lang: TargetLang, options: { units
   const sessionSize = useSettings((s) => s.sessionSize)
   const newPerSession = useSettings((s) => s.newPerSession)
   const build = (kind: SessionKind) =>
-    queueFor(skill, lang, useProgress.getState().cards, kind, { sessionSize, newPerSession, units: options.units })
+    queueFor(skill, lang, getProgress().cards, kind, { sessionSize, newPerSession, units: options.units })
   const [queue, setQueue] = useState<Candidate[]>(() => build(options.kind ?? 'mixed'))
   const [generation, setGeneration] = useState(0)
   return {

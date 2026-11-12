@@ -1,7 +1,7 @@
 import { conceptsFor, units } from '@/content'
 import { moduleStatus, type Cards } from '@/lib/curriculum'
 import { cardKey, isLearned, Rating, reviewCard, State, type StoredCard } from '@/lib/srs'
-import { cardsBefore, useProgress, type DayStats } from '@/store/progress'
+import { cardsBefore, type DayStats, getProgress } from '@/store/progress'
 import {
   accuracy,
   activity,
@@ -15,6 +15,7 @@ import {
   unitProgress,
   wordState,
 } from './progress-data'
+import { seedProgress, record } from '@/test/progress'
 
 const at = (y: number, m: number, d: number, h = 12) => new Date(y, m - 1, d, h)
 const now = at(2026, 3, 10, 9)
@@ -187,18 +188,17 @@ describe('hardestWords', () => {
 })
 
 describe('sessionGain and cardsBefore', () => {
-  beforeEach(() => useProgress.setState({ cards: {}, log: [], days: {}, daysByLang: {}, reports: [] }))
+  beforeEach(() => seedProgress())
 
   it('reconstructs the cards before a session and finds newly learned words', () => {
     const [a, b] = words
-    const { record } = useProgress.getState()
     const t0 = at(2026, 3, 9, 8)
     record(cardKey('ckb', 'recognition', a.id), Rating.Good, { ms: 1, kind: 'mc', now: t0 })
     const start = at(2026, 3, 10, 8).getTime()
     record(cardKey('ckb', 'recognition', a.id), Rating.Easy, { ms: 1, kind: 'mc', now: new Date(start + 1000) })
     record(cardKey('ckb', 'recognition', b.id), Rating.Good, { ms: 1, kind: 'mc', now: new Date(start + 2000) })
 
-    const after = useProgress.getState().cards
+    const after = getProgress().cards
     const before = cardsBefore(start, after)
     expect(before[cardKey('ckb', 'recognition', a.id)]!.reps).toBe(1)
     expect(before[cardKey('ckb', 'recognition', b.id)]).toBeUndefined()

@@ -1,247 +1,129 @@
-import { cardKey, Rating, reviewCard, State } from '@/lib/srs'
-import { dayKey, daysByLangFromLog, scopedDays, streak, useProgress, type DayStats } from './progress'
+import { QueryClient } from '@tanstack/react-query'
+import { act, renderHook, waitFor } from '@testing-library/react'
+import * as api from '@/data/progress-api'
+import { queryClient } from '@/data/query-client'
+import { NO_SAVES, trackServerSaves, useServerSaves } from '@/data/server-saves'
+import { cardKey, Rating } from '@/lib/srs'
+import { record, seedProgress } from '@/test/progress'
+import {
+  EMPTY_PROGRESS,
+  getProgress,
+  PROGRESS_KEY,
+  progressQuery,
+  useAwardMedals,
+  useImportBackup,
+  useProgress,
+  useReportProblem,
+  useResetLanguage,
+  type Progress,
+} from './progress'
 
 const water = cardKey('ckb', 'recognition', 'water')
 const waterFa = cardKey('fa', 'recognition', 'water')
-const recallName = cardKey('ckb', 'recall', 'name')
+const now = new Date(2026, 2, 2, 9)
 
-const empty = { cards: {}, log: [], days: {}, daysByLang: {}, reports: [], medals: {} }
-const day = (y: number, m: number, d: number, h = 12, min = 0) => new Date(y, m - 1, d, h, min)
-
-beforeEach(() => useProgress.setState(empty))
-
-describe('dayKey', () => {
-  it('formats the local calendar date with zero padding', () => {
-    expect(dayKey(day(2026, 1, 5))).toBe('2026-01-05')
-    expect(dayKey(day(2026, 12, 31, 23, 59))).toBe('2026-12-31')
-    expect(dayKey(day(2027, 1, 1, 0, 1))).toBe('2027-01-01')
-  })
-})
-
-describe('record', () => {
-  it('creates a card, a log entry and day stats for a new item', () => {
-    const now = day(2026, 3, 2, 9)
-    const card = useProgress.getState().record(water, Rating.Good, { ms: 3200, kind: 'mc-meaning', now })
-    const s = useProgress.getState()
-    expect(s.cards[water]).toEqual(card)
-    expect(card).toEqual(reviewCard(undefined, Rating.Good, now))
-    expect(s.log).toEqual([{ key: water, grade: Rating.Good, at: now.toISOString(), ms: 3200, kind: 'mc-meaning' }])
-    expect(s.days[dayKey(now)]).toEqual({ reviews: 1, correct: 1, newItems: 1, ms: 3200 })
+describe('useRecordReview', () => {
+  it('shows the review at once and saves the review and the card', async () => {
+    const { result } = renderHook(() => useProgress((p) => p.cards[water]?.reps ?? 0))
+    const card = record(water, Rating.Good, { ms: 1200, kind: 'typed', now })
+    expect(result.current).toBe(1)
+    expect(getProgress().days['2026-03-02']).toEqual({ reviews: 1, correct: 1, newItems: 1, ms: 1200 })
+    await waitFor(() => expect(api.saveProgress).toHaveBeenCalledTimes(1))
+    expect(api.saveProgress).toHaveBeenCalledWith({
+      reviews: [expect.objectContaining({ item_id: 'water', grade: Rating.Good, is_new: true, reviewed_at: now.toISOString() })],
+      cards: [expect.objectContaining({ item_id: 'water', reps: 1, due: card.due })],
+    })
   })
 
-  it('updates the same card on later reviews and only counts it as new once', () => {
-    const { record } = useProgress.getState()
-    const first = record(water, Rating.Good, { ms: 1000, kind: 'mc-meaning', now: day(2026, 3, 2, 9) })
-    const second = record(water, Rating.Good, { ms: 1000, kind: 'typed', now: day(2026, 3, 2, 10) })
-    expect(second.reps).toBe(2)
-    expect(second.createdAt).toBe(first.createdAt)
-    expect(second.state).toBe(State.Review)
-    const s = useProgress.getState()
-    expect(Object.keys(s.cards)).toEqual([water])
-    expect(s.log.map((e) => e.kind)).toEqual(['mc-meaning', 'typed'])
-    expect(s.days['2026-03-02']).toMatchObject({ reviews: 2, newItems: 1 })
-  })
-
-  it('counts Again as not correct and lapses the card', () => {
-    const { record } = useProgress.getState()
-    record(water, Rating.Good, { ms: 1000, kind: 'typed', now: day(2026, 3, 2, 9) })
-    record(water, Rating.Good, { ms: 1000, kind: 'typed', now: day(2026, 3, 2, 10) })
-    const due = new Date(useProgress.getState().cards[water]!.due)
-    const lapsed = record(water, Rating.Again, { ms: 1000, kind: 'typed', now: due })
-    expect(lapsed.lapses).toBe(1)
-    expect(useProgress.getState().days[dayKey(due)]).toMatchObject({ reviews: 1, correct: 0, newItems: 0 })
-  })
-
-  it('caps time per review at two minutes', () => {
-    const now = day(2026, 3, 2)
-    useProgress.getState().record(water, Rating.Hard, { ms: 10 * 60_000, kind: 'typed', now })
-    expect(useProgress.getState().days[dayKey(now)]).toMatchObject({ ms: 120_000, correct: 1 })
-  })
-
-  it('files reviews under the local day they happened on', () => {
-    const { record } = useProgress.getState()
-    record(water, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 2, 23, 59) })
-    record(recallName, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 3, 0, 1) })
-    expect(Object.keys(useProgress.getState().days).sort()).toEqual(['2026-03-02', '2026-03-03'])
-  })
-
-  it('keeps day stats per language as well as for both together', () => {
-    const { record } = useProgress.getState()
-    const now = day(2026, 3, 2, 9)
-    record(water, Rating.Good, { ms: 1000, kind: 'typed', now })
-    record(recallName, Rating.Again, { ms: 1000, kind: 'typed', now })
-    record(waterFa, Rating.Good, { ms: 500, kind: 'typed', now })
-    const s = useProgress.getState()
-    expect(s.days['2026-03-02']).toEqual({ reviews: 3, correct: 2, newItems: 3, ms: 2500 })
-    expect(s.daysByLang.ckb!['2026-03-02']).toEqual({ reviews: 2, correct: 1, newItems: 2, ms: 2000 })
-    expect(s.daysByLang.fa!['2026-03-02']).toEqual({ reviews: 1, correct: 1, newItems: 1, ms: 500 })
-    expect(scopedDays(s, 'fa')).toBe(s.daysByLang.fa)
-    expect(scopedDays(s, 'all')).toBe(s.days)
-    expect(streak(scopedDays(s, 'fa'), now)).toBe(1)
-  })
-
-  it('has empty stats for a language never practised', () => {
-    const a = scopedDays(useProgress.getState(), 'fa')
-    expect(a).toEqual({})
-    expect(scopedDays(useProgress.getState(), 'fa')).toBe(a)
-  })
-
-  // 5,003 persisted writes take several seconds on a loaded machine.
-  it('keeps the review log bounded', { timeout: 30_000 }, () => {
-    const { record } = useProgress.getState()
-    const now = day(2026, 3, 2)
-    for (let i = 0; i < 5003; i++) record(cardKey('fa', 'recall', `item-${i % 50}`), Rating.Good, { ms: 1, kind: 'typed', now })
-    const { log } = useProgress.getState()
-    expect(log).toHaveLength(5000)
-    expect(log.at(-1)!.key).toBe(cardKey('fa', 'recall', `item-${5002 % 50}`))
-  })
-
-  it('persists to localStorage', () => {
-    useProgress.getState().record(water, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 2) })
-    const stored = JSON.parse(localStorage.getItem('zz-progress')!)
-    expect(stored.state.cards[water].reps).toBe(1)
-    expect(typeof stored.state.cards[water].due).toBe('string')
-  })
-})
-
-describe('streak', () => {
-  const stats = (reviews: number): DayStats => ({ reviews, correct: reviews, newItems: 0, ms: 0 })
-  const now = day(2026, 3, 10, 8)
-
-  it('counts consecutive days ending today', () => {
-    expect(streak({ '2026-03-10': stats(3), '2026-03-09': stats(1), '2026-03-08': stats(2) }, now)).toBe(3)
-  })
-
-  it('still counts a streak ending yesterday (today not practised yet)', () => {
-    expect(streak({ '2026-03-09': stats(1), '2026-03-08': stats(2) }, now)).toBe(2)
-  })
-
-  it('a gap or a zero-review day breaks it', () => {
-    expect(streak({ '2026-03-10': stats(1), '2026-03-08': stats(2) }, now)).toBe(1)
-    expect(streak({ '2026-03-10': stats(1), '2026-03-09': stats(0), '2026-03-08': stats(2) }, now)).toBe(1)
-    expect(streak({ '2026-03-07': stats(5) }, now)).toBe(0)
-    expect(streak({}, now)).toBe(0)
-  })
-
-  it('crosses month and year boundaries', () => {
-    const days = { '2027-01-01': stats(1), '2026-12-31': stats(1), '2026-12-30': stats(1) }
-    expect(streak(days, day(2027, 1, 1, 20))).toBe(3)
-    expect(streak({ '2026-03-01': stats(1), '2026-02-28': stats(1) }, day(2026, 3, 1))).toBe(2)
-  })
-
-  it('works on the days recorded by record()', () => {
-    const { record } = useProgress.getState()
-    for (const d of [8, 9, 10]) record(water, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, d, 21) })
-    expect(streak(useProgress.getState().days, now)).toBe(3)
-  })
-})
-
-describe('export / import', () => {
-  it('round-trips through JSON and keeps scheduling identically', () => {
-    const { record } = useProgress.getState()
-    record(water, Rating.Good, { ms: 1500, kind: 'typed', now: day(2026, 3, 2, 9) })
-    record(waterFa, Rating.Hard, { ms: 2500, kind: 'mc-meaning', now: day(2026, 3, 2, 9, 5) })
-    record(water, Rating.Good, { ms: 900, kind: 'typed', now: day(2026, 3, 2, 9, 20) })
-    const { cards, log, days } = useProgress.getState()
-    const file = JSON.stringify({ cards, log, days }, null, 2)
-
-    useProgress.setState(empty)
-    const data = JSON.parse(file)
-    useProgress.getState().importState({ cards: data.cards, log: data.log, days: data.days })
-    const s = useProgress.getState()
-    expect(s.cards).toEqual(cards)
-    expect(s.log).toEqual(log)
-    expect(s.days).toEqual(days)
-
-    const later = day(2026, 3, 9)
-    const afterImport = s.record(water, Rating.Good, { ms: 1, kind: 'typed', now: later })
-    expect(afterImport).toEqual(reviewCard(cards[water], Rating.Good, later))
-  })
-
-  it('rebuilds per-language stats from the log when a backup has none', () => {
-    const { record } = useProgress.getState()
-    record(water, Rating.Good, { ms: 1500, kind: 'typed', now: day(2026, 3, 2, 9) })
-    record(waterFa, Rating.Again, { ms: 2500, kind: 'typed', now: day(2026, 3, 3, 9) })
-    record(water, Rating.Good, { ms: 900, kind: 'typed', now: day(2026, 3, 3, 10) })
-    const { cards, log, days, daysByLang } = useProgress.getState()
-    expect(daysByLangFromLog(log)).toEqual(daysByLang)
-
-    useProgress.setState(empty)
-    useProgress.getState().importState({ cards, log, days })
-    expect(useProgress.getState().daysByLang).toEqual(daysByLang)
-  })
-
-  it('splits stats saved before they were kept per language', async () => {
-    const at = day(2026, 3, 2, 9)
-    const log = [
-      { key: water, grade: Rating.Good, at: at.toISOString(), ms: 1000, kind: 'typed' },
-      { key: waterFa, grade: Rating.Good, at: at.toISOString(), ms: 1000, kind: 'typed' },
-    ]
-    const days = { '2026-03-02': { reviews: 2, correct: 2, newItems: 2, ms: 2000 } }
-    localStorage.setItem('zz-progress', JSON.stringify({ state: { cards: {}, log, days, reports: [] }, version: 0 }))
-    await useProgress.persist.rehydrate()
-    const s = useProgress.getState()
-    expect(s.days).toEqual(days)
-    expect(s.daysByLang.ckb).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1000 } })
-    expect(s.daysByLang.fa).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1000 } })
-  })
-
-  it('rehydrates the persisted state', async () => {
-    useProgress.getState().record(water, Rating.Good, { ms: 1, kind: 'typed', now: day(2026, 3, 2) })
-    const before = useProgress.getState().cards
-    const raw = localStorage.getItem('zz-progress')!
-    useProgress.setState(empty)
-    localStorage.setItem('zz-progress', raw)
-    await useProgress.persist.rehydrate()
-    expect(useProgress.getState().cards).toEqual(before)
-  })
-})
-
-describe('resetLanguage', () => {
-  it('removes cards and log entries of one language only', () => {
-    const { record } = useProgress.getState()
-    const now = day(2026, 3, 2)
+  it('keeps reviews made during a refetch', async () => {
+    let release!: (p: Progress) => void
+    vi.mocked(api.fetchProgress).mockImplementationOnce(() => new Promise((r) => (release = r)))
+    const refetch = queryClient.refetchQueries({ queryKey: PROGRESS_KEY })
+    await waitFor(() => expect(api.fetchProgress).toHaveBeenCalled())
     record(water, Rating.Good, { ms: 1, kind: 'typed', now })
-    record(recallName, Rating.Good, { ms: 1, kind: 'typed', now })
+    release(EMPTY_PROGRESS)
+    await refetch
+    expect(getProgress().cards[water]).toBeDefined()
+  })
+
+  it('takes the server copy when nothing changed meanwhile', async () => {
+    const server = { ...EMPTY_PROGRESS, days: { '2026-03-01': { reviews: 4, correct: 4, newItems: 0, ms: 4000 } } }
+    vi.mocked(api.fetchProgress).mockResolvedValueOnce(server)
+    await queryClient.fetchQuery({ ...progressQuery, staleTime: 0 })
+    expect(getProgress()).toEqual(server)
+  })
+})
+
+describe('useAwardMedals', () => {
+  it('saves only medals not earned before', async () => {
+    seedProgress({ medals: { ckb: [{ words: 10, at: now.toISOString() }] } })
+    const { result } = renderHook(() => useAwardMedals())
+    act(() => result.current('ckb', [10, 25], now))
+    expect(getProgress().medals.ckb!.map((m) => m.words)).toEqual([10, 25])
+    await waitFor(() => expect(api.saveMedals).toHaveBeenCalledWith([{ lang: 'ckb', words: 25, earned_at: now.toISOString() }]))
+    act(() => result.current('ckb', [10, 25], now))
+    expect(api.saveMedals).toHaveBeenCalledTimes(1)
+  })
+})
+
+describe('useReportProblem', () => {
+  it('keeps the report and sends it', async () => {
+    const { result } = renderHook(() => useReportProblem())
+    act(() => result.current(water, 'Wrong vowel', now))
+    expect(getProgress().reports).toEqual([{ key: water, message: 'Wrong vowel', at: now.toISOString() }])
+    await waitFor(() =>
+      expect(api.saveReport).toHaveBeenCalledWith({ item_key: water, message: 'Wrong vowel', created_at: now.toISOString() }),
+    )
+  })
+})
+
+describe('useResetLanguage', () => {
+  it('clears one language and resets it on the server from that moment', async () => {
+    record(water, Rating.Good, { ms: 1, kind: 'typed', now })
     record(waterFa, Rating.Good, { ms: 1, kind: 'typed', now })
-    const faCard = useProgress.getState().cards[waterFa]
-
-    useProgress.getState().resetLanguage('ckb')
-    const s = useProgress.getState()
-    expect(s.cards).toEqual({ [waterFa]: faCard })
-    expect(s.log.map((e) => e.key)).toEqual([waterFa])
-    expect(s.daysByLang.ckb).toBeUndefined()
-    expect(s.daysByLang.fa).toEqual({ '2026-03-02': { reviews: 1, correct: 1, newItems: 1, ms: 1 } })
+    const { result } = renderHook(() => useResetLanguage())
+    act(() => result.current('ckb', now))
+    expect(Object.keys(getProgress().cards)).toEqual([waterFa])
+    await waitFor(() => expect(api.resetLanguage).toHaveBeenCalledWith('ckb', now.toISOString()))
   })
 })
 
-describe('award', () => {
-  it('keeps each medal once, sorted, with the day it was earned', () => {
-    const { award } = useProgress.getState()
-    award('ckb', [25, 10], day(2026, 3, 2))
-    award('ckb', [10, 50], day(2026, 3, 9))
-    expect(useProgress.getState().medals.ckb).toEqual([
-      { words: 10, at: day(2026, 3, 2).toISOString() },
-      { words: 25, at: day(2026, 3, 2).toISOString() },
-      { words: 50, at: day(2026, 3, 9).toISOString() },
-    ])
-    expect(useProgress.getState().medals.fa).toBeUndefined()
-  })
-
-  it('clears the medals of a language that is reset', () => {
-    const { award } = useProgress.getState()
-    award('ckb', [10])
-    award('fa', [10])
-    useProgress.getState().resetLanguage('ckb')
-    expect(useProgress.getState().medals).toEqual({ fa: [{ words: 10, at: expect.any(String) }] })
+describe('useImportBackup', () => {
+  it('sends the backup and loads the result from the server', async () => {
+    const medals = { fa: [{ words: 10, at: now.toISOString() }] }
+    const merged = { ...EMPTY_PROGRESS, medals }
+    vi.mocked(api.fetchProgress).mockResolvedValueOnce(merged)
+    const { result } = renderHook(() => useImportBackup())
+    await act(() => result.current({ ...EMPTY_PROGRESS, log: [], medals }, 'ckb'))
+    expect(api.saveProgress).toHaveBeenCalledWith(
+      expect.objectContaining({ medals: [{ lang: 'fa', words: 10, earned_at: now.toISOString() }] }),
+    )
+    expect(getProgress()).toEqual(merged)
   })
 })
 
-describe('report', () => {
-  it('appends a content report', () => {
-    useProgress.getState().report(water, 'Wrong vowel in the romanization')
-    expect(useProgress.getState().reports).toEqual([
-      { key: water, message: 'Wrong vowel in the romanization', at: expect.any(String) },
-    ])
+describe('trackServerSaves', () => {
+  it('counts pending saves, successes and failures of progress saves only', async () => {
+    const client = new QueryClient({ defaultOptions: { mutations: { retry: false } } })
+    useServerSaves.setState({ ...NO_SAVES })
+    const stop = trackServerSaves(client, PROGRESS_KEY, useServerSaves, () => now)
+    const build = (mutationKey: readonly unknown[], mutationFn: () => Promise<void>) =>
+      client.getMutationCache().build(client, { mutationKey, mutationFn })
+
+    let finish!: () => void
+    const running = build(PROGRESS_KEY, () => new Promise<void>((r) => (finish = r))).execute(undefined)
+    await waitFor(() => expect(useServerSaves.getState().pending).toBe(1))
+    finish()
+    await running
+    expect(useServerSaves.getState()).toMatchObject({ pending: 0, saves: 1, failed: false, lastSavedAt: now.toISOString() })
+
+    await build(PROGRESS_KEY, () => Promise.reject(new Error('down')))
+      .execute(undefined)
+      .catch(() => {})
+    expect(useServerSaves.getState()).toMatchObject({ pending: 0, saves: 1, failed: true })
+
+    await build(['other'], () => Promise.resolve()).execute(undefined)
+    expect(useServerSaves.getState().saves).toBe(1)
+    stop()
   })
 })

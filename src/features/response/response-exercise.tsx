@@ -15,7 +15,7 @@ import { seededRandom } from '@/lib/distractors'
 import { knownWords } from '@/lib/known-words'
 import type { Grade } from '@/lib/srs'
 import { cn } from '@/lib/utils'
-import { useProgress } from '@/store/progress'
+import { getProgress } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import { SelfGrade } from '../session/self-grade'
 import type { ExerciseProps } from '../session/types'
@@ -68,7 +68,7 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
   const [mode] = useState(() => chooseMode(item, form, attempt))
   const pool = useMemo(() => qaFor(lang), [lang])
   // Taken once per exercise, so the options don't change as answers are graded.
-  const [known] = useState(() => knownWords(lang, useProgress.getState().cards))
+  const [known] = useState(() => knownWords(lang, getProgress().cards))
   const options = useMemo(
     () => (mode === 'choose' ? buildChoiceOptions(qa, lang, pool, seededRandom(`${seed}:choose`), 4, known) : []),
     [mode, qa, lang, pool, seed, known],

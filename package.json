@@ -18,11 +18,14 @@
     "audio:collect": "tsx scripts/audio/collect-texts.ts",
     "audio:build": "npm run audio:collect && python3 scripts/audio/generate.py",
     "audio:verify": "python3 scripts/audio/verify.py",
-    "audio:import": "npm run audio:collect && python3 scripts/audio/import-recordings.py"
+    "audio:import": "npm run audio:collect && python3 scripts/audio/import-recordings.py",
+    "db:types": "npx -y supabase gen types typescript --project-id tkhjbtdipmabfuigasae --schema public > src/data/database.types.ts"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
     "@fontsource-variable/vazirmatn": "^5.3.0",
+    "@supabase/supabase-js": "^2.119.0",
+    "@tanstack/react-query": "^5.107.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "fflate": "^0.8.3",
