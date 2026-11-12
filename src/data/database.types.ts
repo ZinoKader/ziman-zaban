@@ -7,6 +7,11 @@ export type Json =
   | Json[]
 
 export type Database = {
+  // Allows to automatically instantiate createClient with right options
+  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  __InternalSupabase: {
+    PostgrestVersion: "14.18"
+  }
   public: {
     Tables: {
       cards: {
@@ -27,7 +32,6 @@ export type Database = {
           state: number
           user_id: string
         }
-        ComputedFields: never
         Insert: {
           created_at: string
           difficulty: number
@@ -72,7 +76,6 @@ export type Database = {
           message: string
           user_id: string
         }
-        ComputedFields: never
         Insert: {
           created_at: string
           id?: never
@@ -99,7 +102,6 @@ export type Database = {
           reviews: number
           user_id: string
         }
-        ComputedFields: never
         Insert: {
           correct?: number
           day: string
@@ -127,7 +129,6 @@ export type Database = {
           user_id: string
           words: number
         }
-        ComputedFields: never
         Insert: {
           earned_at: string
           lang: Database["public"]["Enums"]["target_lang"]
@@ -145,20 +146,19 @@ export type Database = {
       profiles: {
         Row: {
           created_at: string
-          settings: NonNullable<Json>
+          settings: Json
           settings_updated_at: string | null
           user_id: string
         }
-        ComputedFields: never
         Insert: {
           created_at?: string
-          settings?: NonNullable<Json>
+          settings?: Json
           settings_updated_at?: string | null
           user_id?: string
         }
         Update: {
           created_at?: string
-          settings?: NonNullable<Json>
+          settings?: Json
           settings_updated_at?: string | null
           user_id?: string
         }
@@ -178,7 +178,6 @@ export type Database = {
           skill: Database["public"]["Enums"]["skill"]
           user_id: string
         }
-        ComputedFields: never
         Insert: {
           day: string
           grade: number

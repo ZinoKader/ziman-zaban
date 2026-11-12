@@ -36,3 +36,5 @@ scripts/audio/.compare
 scripts/audio/.baseline
 scripts/audio/__pycache__
 /.venv-parsvoice
+
+supabase/.temp/
