@@ -39,12 +39,27 @@ npm run dev          # http://localhost:41731
 | `npm run audio:build` | Render missing pronunciation clips into `public/audio/` (Python, see below) |
 | `npm run audio:verify` | Check every clip with speech recognition and retry weak ones |
 | `npm run audio:import -- <file.zip>` | Add takes recorded on the "Record voices" page |
+| `npm run db:types` | Regenerate the database types from the Supabase project |
 
-## Progress and storage
+## Progress and accounts
 
-There is no backend and no account. Progress and settings are saved on the device after every answer, in the browser's IndexedDB (database `ziman-zaban`, through `idb-keyval`; see `src/store/device-storage.ts`). Data from older versions, which used localStorage, is migrated on first load. Where IndexedDB is unavailable or fails (some private browsing modes), the app falls back to localStorage, and to memory if storage is blocked entirely. On the first save the app asks the browser to keep the data persistent, so it is not cleared to free up space. Native-review verdicts and personal answers stay in localStorage.
+Progress is stored in Postgres on [Supabase](https://supabase.com). The schema is in `supabase/migrations/`: one row per card, one per review, daily totals per language, medals, problem reports and a profile with the settings. Row level security lets each user read and write only their own rows. The three SQL functions (`save_progress`, `save_settings`, `reset_language`) run with the caller's rights.
 
-The Progress page (`/progress`) shows, per language, the words learned and in progress, each module and unit, the last 14 days of activity, accuracy over the last 7 days, the reviews coming up, the streak and the hardest words. It also says where the data is saved, when it was last saved and whether the browser protects it. Progress can be exported and imported from Settings.
+Everyone starts as an anonymous guest, so the app works without signing up. In Settings a guest can turn that into an email account, or sign in to an existing one, and what they practised as a guest is added to it.
+
+The app reads progress with TanStack Query and writes on each action: an answer saves the review and the card, a medal or report saves that row. The screen updates at once and the save runs in the background, in order, and waits while the device is offline. Settings are kept on the device and copied to the profile, newest change wins.
+
+Before accounts, progress was saved only in the browser (IndexedDB, `src/store/device-storage.ts`). On first load the app sends that copy to the account once and leaves it on the device. The local copy will be removed in a later version.
+
+The Supabase URL and publishable key are in `src/data/supabase.ts`. To use another project, set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`. The project needs:
+
+1. The migration run in the SQL editor (or `supabase db push`).
+2. Authentication, Sign In / Providers: "Allow anonymous sign-ins" on.
+3. Authentication, Sign In / Providers, Email: "Confirm email" off, so a guest becomes an account right away. With it on, the guest stays a guest until they open the email link.
+
+The table types in `src/data/database.types.ts` are generated from the schema. After changing a migration, run `SUPABASE_ACCESS_TOKEN=... npm run db:types` ([Supabase CLI](https://supabase.com/docs/guides/api/rest/generating-types)).
+
+The Progress page (`/progress`) shows, per language, the words learned and in progress, each module and unit, the last 14 days of activity, accuracy over the last 7 days, the reviews coming up, the streak and the hardest words. Progress can be exported and imported from Settings. An import adds the backup to the account, and for each card the newest review wins.
 
 ## Audio
 
@@ -118,17 +133,20 @@ src/
   features/       one folder per module and page (recognition, recall, construction,
                   response, words, grammar, alphabet, about, review, settings, session)
   components/     shared UI (target-language text, audio, answer input, script keyboard)
-  lib/            script normalization and matching, FSRS wrapper, curriculum, audio
-  store/          persisted progress and settings (zustand)
+  lib/            script normalization and matching, FSRS wrapper, curriculum, audio,
+                  the progress model
+  data/           Supabase client, generated types, reads and writes, sign-in
+  store/          progress and account hooks (TanStack Query), settings (zustand)
   i18n/           English and Swedish UI strings
 scripts/          content validator, reference builder, lookup CLI
 scripts/audio/    pronunciation audio pipeline (Python)
 public/audio/     generated clips and manifest
 reference/        reference indices built from Wiktionary and Tatoeba
 docs/             content guide, curriculum, generated content and audio reports
+supabase/         database migrations
 ```
 
-Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, zustand, ts-fsrs, zod.
+Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, TanStack Query, Supabase, zustand, ts-fsrs, zod.
 
 ## Known limitations
 
