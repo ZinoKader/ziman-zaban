@@ -2,6 +2,13 @@
 
 Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHANGELOG.md](CHANGELOG.md). Följ [skillen för ändringsloggen](.cursor/skills/changelog/SKILL.md) när du lägger till något.
 
+## 2026-11-12
+
+- Appen: framstegen sparas på ett konto online efter varje svar. Förut sparades de bara i webbläsaren. Första gången appen öppnas läggs framstegen som redan finns på enheten till på kontot.
+- Inställningar: "Skapa konto" kopplar dina framsteg till din e-post och ett lösenord. Med "Logga in" öppnar du dem på en annan enhet, och det du har övat där som gäst läggs till.
+- Inställningar: inställningarna följer med kontot till andra enheter.
+- Inställningar: "Importera säkerhetskopia" lägger till säkerhetskopian i dina framsteg i stället för att ersätta dem.
+
 ## 2026-11-08
 
 - Appen: den som har soranikurdiska eller persiska som modersmål kan spela in ord och meningar på den nya sidan "Spela in röster" i menyn. Man läser en text i taget, och appen sparar inspelningen vid varje paus och visar nästa text.

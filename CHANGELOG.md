@@ -2,6 +2,13 @@
 
 What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelog skill](.cursor/skills/changelog/SKILL.md).
 
+## 2026-11-12
+
+- App: progress is saved to an account online after every answer. Before, it was only saved in the browser. The first time the app opens, the progress already on the device is added to the account.
+- Settings: "Create account" links your progress to your email and a password. "Sign in" opens it on another device, and what you practised there as a guest is added to it.
+- Settings: your settings follow the account to other devices.
+- Settings: "Import backup" adds the backup to your progress instead of replacing it.
+
 ## 2026-11-08
 
 - App: native speakers can record words and sentences on the new "Record voices" page in the menu. They read one text after another, and the app saves a recording at each pause and shows the next text.
