@@ -168,6 +168,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.167
 }
 },
+"ckb/04faabfc4ab6ae40.mp3": {
+"cer": 0.0,
+"hyp": "کەباب",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/053d4aae5fd445db.mp3": {
 "cer": 0.0,
 "hyp": "ئەمە هاوڕێمە.",
@@ -659,6 +666,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.054
 }
 },
+"ckb/130610758c5e6052.mp3": {
+"cer": 0.25,
+"hyp": "گوێس",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.25
+}
+},
 "ckb/132243d1f6aca62b.mp3": {
 "cer": 0.2,
 "hyp": "تا جمێر دەدەخەوم",
@@ -708,11 +722,25 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/13f3ec3381c370f8.mp3": {
+"cer": 0.0,
+"hyp": "هەنار",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/14776732b381eea2.mp3": {
 "cer": 0.0,
 "hyp": "سێ کەسین",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/148f88a94cfad7ff.mp3": {
+"cer": 0.143,
+"hyp": "فاسولیە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.143
 }
 },
 "ckb/14bd647a1b07338c.mp3": {
@@ -926,11 +954,25 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.25
 }
 },
+"ckb/1c333f5cdcc8dae6.mp3": {
+"cer": 0.143,
+"hyp": "سماوەر",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.143
+}
+},
 "ckb/1c91bb76e9f4dc91.mp3": {
 "cer": 0.333,
 "hyp": "داپیدا",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.333
+}
+},
+"ckb/1d2f71efbeab632c.mp3": {
+"cer": 0.0,
+"hyp": "گارسۆن",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
 "ckb/1d3f3a7403b69ffb.mp3": {
@@ -1193,6 +1235,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/24f88cdf73978d43.mp3": {
+"cer": 0.333,
+"hyp": "موم",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.333
+}
+},
 "ckb/24f9835d5a2b541b.mp3": {
 "cer": 0.0,
 "hyp": "کارناکەم.",
@@ -1220,6 +1269,13 @@
 "hyp": "هەوت",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.25
+}
+},
+"ckb/2676d04bcb80ca88.mp3": {
+"cer": 0.0,
+"hyp": "لیمۆ",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
 "ckb/26b3e645edbfe184.mp3": {
@@ -1267,6 +1323,13 @@
 "ckb/27d64967f652174d.mp3": {
 "cer": 0.0,
 "hyp": "توانین",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/2804e7a5378be547.mp3": {
+"cer": 0.0,
+"hyp": "هەنجیر",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -1341,6 +1404,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/2b1f42680ccfb435.mp3": {
+"cer": 0.0,
+"hyp": "باینجان",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/2b519c69bc90248e.mp3": {
 "cer": 0.083,
 "hyp": "باشم زۆر سپاس",
@@ -1374,6 +1444,20 @@
 "hyp": "ئۆتۆمۆبیل هەیە",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.071
+}
+},
+"ckb/2bb24f0bfd7e8285.mp3": {
+"cer": 0.0,
+"hyp": "هێل",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/2bba3066c6595cf7.mp3": {
+"cer": 0.0,
+"hyp": "ترێ",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
 "ckb/2c5754ad1bcb63dc.mp3": {
@@ -2021,6 +2105,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.067
 }
 },
+"ckb/3ea09108b6abd9ef.mp3": {
+"cer": 0.0,
+"hyp": "زەر دەچێوە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/3ec710fc9e78740b.mp3": {
 "cer": 0.0,
 "hyp": "ئێریک",
@@ -2068,6 +2159,13 @@
 "hyp": "سپاس منیش",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.111
+}
+},
+"ckb/4001027bd80c4e56.mp3": {
+"cer": 0.0,
+"hyp": "سماق",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
 "ckb/402c4c633790cdcd.mp3": {
@@ -2154,6 +2252,20 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/4400661f9d761772.mp3": {
+"cer": 0.0,
+"hyp": "شووتی",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/44bce6024423a2b0.mp3": {
+"cer": 0.0,
+"hyp": "شۆربەی نیسک",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/450bf8be2d0b5014.mp3": {
 "cer": 0.0,
 "hyp": "جوان",
@@ -2192,6 +2304,13 @@
 "ckb/45bd7a267f2447bc.mp3": {
 "cer": 0.0,
 "hyp": "سێ شەممە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/45c0c68b38516c25.mp3": {
+"cer": 0.0,
+"hyp": "خورما",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -2259,6 +2378,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.25
 }
 },
+"ckb/47ad27dcf451476f.mp3": {
+"cer": 0.0,
+"hyp": "ئارد",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/47ee7b3ae003780e.mp3": {
 "cer": 0.0,
 "hyp": "گەورە",
@@ -2314,6 +2440,13 @@
 "hyp": "یاریکردن",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/48627561742928a3.mp3": {
+"cer": 0.167,
+"hyp": "پەتاتا",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.167
 }
 },
 "ckb/4870134b99291df3.mp3": {
@@ -2750,6 +2883,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.333
 }
 },
+"ckb/56bdb39f37462821.mp3": {
+"cer": 0.0,
+"hyp": "گێزەر",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/571ce3cfeed6df98.mp3": {
 "cer": 0.2,
 "hyp": "کۆرپا",
@@ -2853,6 +2993,13 @@
 "hyp": "بونوو",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.5
+}
+},
+"ckb/58c72f3bb0737d4d.mp3": {
+"cer": 0.0,
+"hyp": "تەماتە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
 "ckb/597d9ff0f017501d.mp3": {
@@ -3597,6 +3744,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/709d20b38f7bed6b.mp3": {
+"cer": 0.0,
+"hyp": "پیاز",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/70a3f3e5cc176674.mp3": {
 "cer": 0.375,
 "hyp": "ئاتامبیل",
@@ -3630,6 +3784,13 @@
 "hyp": "خوشتم لە من گەورەترا",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.118
+}
+},
+"ckb/725e66ee1996bda6.mp3": {
+"cer": 0.5,
+"hyp": "کاند.",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.5
 }
 },
 "ckb/7265a346e1b5b6c3.mp3": {
@@ -3912,6 +4073,20 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/7da6904a2234f2e5.mp3": {
+"cer": 0.0,
+"hyp": "بریانی",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/7e43abc2910e211c.mp3": {
+"cer": 0.0,
+"hyp": "نۆک",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/7e70041bdac9f1d1.mp3": {
 "cer": 0.0,
 "hyp": "ئاوم دەوێت.",
@@ -4064,6 +4239,13 @@
 "hyp": "چومکە هاوڕێکەم خەڵکی سلێمانییە",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.037
+}
+},
+"ckb/83079734e36a0f68.mp3": {
+"cer": 0.0,
+"hyp": "شیرینی",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
 "ckb/834b49ecc87c1e55.mp3": {
@@ -4528,6 +4710,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.083
 }
 },
+"ckb/918879715bd5cb8e.mp3": {
+"cer": 0.0,
+"hyp": "تەرازوو",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/91c09e3cd9cfad28.mp3": {
 "cer": 0.0,
 "hyp": "سەعات",
@@ -4561,6 +4750,13 @@
 "hyp": "مانای چییە؟",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/92c25cd362197af8.mp3": {
+"cer": 0.5,
+"hyp": "نیسکەک.",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.5
 }
 },
 "ckb/92caffcf939ad2e1.mp3": {
@@ -4717,6 +4913,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.143
 }
 },
+"ckb/986e0ea9f4dbe6ea.mp3": {
+"cer": 0.143,
+"hyp": "بەخلاوە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.143
+}
+},
 "ckb/986f19c5f19e44d2.mp3": {
 "cer": 0.0,
 "hyp": "دەزانیت لەکوێیە؟",
@@ -4797,6 +5000,13 @@
 "ckb/9b71edb33d855699.mp3": {
 "cer": 0.0,
 "hyp": "خانووەکە گەورەیە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/9bbb2cc3c4da9d54.mp3": {
+"cer": 0.0,
+"hyp": "دارچین",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -5088,6 +5298,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/a524ba6f1026f7b3.mp3": {
+"cer": 0.25,
+"hyp": "مێوش",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.25
+}
+},
 "ckb/a52f064a31fd6c33.mp3": {
 "cer": 0.0,
 "hyp": "کاتژمێر حەوتنانی ئێوارە دەخۆین",
@@ -5112,6 +5329,13 @@
 "ckb/a56ffd29f935bba4.mp3": {
 "cer": 0.0,
 "hyp": "شایانی نییە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/a577a7b41f1cacd4.mp3": {
+"cer": 0.0,
+"hyp": "هەنگوین",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -5557,6 +5781,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/b26ef2499df9e036.mp3": {
+"cer": 0.0,
+"hyp": "کێک",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/b29dcf4cfb25e093.mp3": {
 "cer": 0.053,
 "hyp": "ئەمڕۆ لە دوێنێ سارترە",
@@ -5679,6 +5910,13 @@
 "ckb/b5ca3cb647036348.mp3": {
 "cer": 0.0,
 "hyp": "زمانی کوردی",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/b5f102ca0bd5879c.mp3": {
+"cer": 0.0,
+"hyp": "دۆڵمە",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -6537,6 +6775,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.056
 }
 },
+"ckb/d39b22f1f92adbe7.mp3": {
+"cer": 0.0,
+"hyp": "گێلاس",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/d3d4b06391e82b3b.mp3": {
 "cer": 0.111,
 "hyp": "سبەی لێرم",
@@ -6654,6 +6899,13 @@
 "hyp": "هەینی",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/d917019278274005.mp3": {
+"cer": 0.2,
+"hyp": "خەیارت",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.2
 }
 },
 "ckb/d94014fcff101c0a.mp3": {
@@ -6785,6 +7037,13 @@
 "ckb/dfcbe6966c25e3b8.mp3": {
 "cer": 0.0,
 "hyp": "چۆنن؟",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/dfe61f16789e72fa.mp3": {
+"cer": 0.0,
+"hyp": "دۆ",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -7377,6 +7636,13 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
+"ckb/f1cba877ead0fb57.mp3": {
+"cer": 0.0,
+"hyp": "فاسۆلیا",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
 "ckb/f1f25d08d2d6d913.mp3": {
 "cer": 0.0,
 "hyp": "نەخێر هاوڕێمە",
@@ -7450,6 +7716,13 @@
 "ckb/f3c6542525199dc9.mp3": {
 "cer": 0.0,
 "hyp": "چوومە قوتابخانە",
+"by": {
+"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
+}
+},
+"ckb/f42451296114ceae.mp3": {
+"cer": 0.0,
+"hyp": "سیر",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
@@ -7825,6 +8098,13 @@
 "fw:medium": 0.231
 }
 },
+"fa/00b3030a751922b2.mp3": {
+"cer": 0.5,
+"hyp": "سن مول",
+"by": {
+"fw:medium": 0.5
+}
+},
 "fa/00d4503e34b80aec.mp3": {
 "cer": 0.111,
 "hyp": "در استکالم",
@@ -8028,6 +8308,13 @@
 "fw:medium": 0.167
 }
 },
+"fa/0459647779f4f1d5.mp3": {
+"cer": 0.0,
+"hyp": "سنجد",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/046197f13864a6bf.mp3": {
 "cer": 0.2,
 "hyp": "اشان؟",
@@ -8077,6 +8364,13 @@
 "fw:medium": 0.15
 }
 },
+"fa/055fb57ac3be326c.mp3": {
+"cer": 0.125,
+"hyp": "کوکو سابزی",
+"by": {
+"fw:medium": 0.125
+}
+},
 "fa/0582fa87e27ffa14.mp3": {
 "cer": 0.2,
 "hyp": "کهی؟ فرسی میخانید؟",
@@ -8096,6 +8390,13 @@
 "hyp": "مامان هم توی یه روستا زندگی می کنه",
 "by": {
 "fw:medium": 0.08
+}
+},
+"fa/05fa7435bc9f3740.mp3": {
+"cer": 0.25,
+"hyp": "سامنو",
+"by": {
+"fw:medium": 0.25
 }
 },
 "fa/060ec42ac1043011.mp3": {
@@ -8131,6 +8432,13 @@
 "hyp": "بیایی دنجا",
 "by": {
 "fw:medium": 0.182
+}
+},
+"fa/06f1e53f5b635be6.mp3": {
+"cer": 0.25,
+"hyp": "شباب",
+"by": {
+"fw:medium": 0.25
 }
 },
 "fa/07290303b6f2f2e5.mp3": {
@@ -8264,6 +8572,13 @@
 "hyp": "خدا حفظ",
 "by": {
 "fw:medium": 0.143
+}
+},
+"fa/0b439d5c91628959.mp3": {
+"cer": 0.5,
+"hyp": "آش ورش دی",
+"by": {
+"fw:medium": 0.5
 }
 },
 "fa/0b629672b829b4c2.mp3": {
@@ -8509,6 +8824,13 @@
 "hyp": "این مادر مرست",
 "by": {
 "fw:medium": 0.167
+}
+},
+"fa/11d58ace94fa7f22.mp3": {
+"cer": 0.0,
+"hyp": "پسته",
+"by": {
+"fw:medium": 0.0
 }
 },
 "fa/11de7468604989f5.mp3": {
@@ -8833,11 +9155,25 @@
 "fw:medium": 0.333
 }
 },
+"fa/1c05f4006291020b.mp3": {
+"cer": 0.0,
+"hyp": "كيک",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/1c429c0b21231af6.mp3": {
 "cer": 0.333,
 "hyp": "قاند",
 "by": {
 "fw:medium": 0.333
+}
+},
+"fa/1c6aeb7f4fb0ca59.mp3": {
+"cer": 0.25,
+"hyp": "مو هی هرمز",
+"by": {
+"fw:medium": 0.25
 }
 },
 "fa/1ca4e74f3f6a74ef.mp3": {
@@ -8917,6 +9253,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/1ec2c72ab3a94e75.mp3": {
+"cer": 0.25,
+"hyp": "ریمو",
+"by": {
+"fw:medium": 0.25
+}
+},
 "fa/1ec407a1a41cc289.mp3": {
 "cer": 0.0,
 "hyp": "آهسته؟",
@@ -8929,6 +9272,13 @@
 "hyp": "آن",
 "by": {
 "fw:medium": 0.0
+}
+},
+"fa/1eea25cc88b4dead.mp3": {
+"cer": 0.4,
+"hyp": "تا هدی",
+"by": {
+"fw:medium": 0.4
 }
 },
 "fa/1f0fed5abe183484.mp3": {
@@ -9118,6 +9468,20 @@
 "hyp": "همه یا منجا زندگی می کنند.",
 "by": {
 "fw:medium": 0.263
+}
+},
+"fa/24cdc026453854ef.mp3": {
+"cer": 0.0,
+"hyp": "کباب کوبیده",
+"by": {
+"fw:medium": 0.0
+}
+},
+"fa/24edd1cadd2a1466.mp3": {
+"cer": 0.0,
+"hyp": "دیزی",
+"by": {
+"fw:medium": 0.0
 }
 },
 "fa/2514f88693c438d1.mp3": {
@@ -9314,6 +9678,13 @@
 "hyp": "نه ارسان هست",
 "by": {
 "fw:medium": 0.2
+}
+},
+"fa/298b490c66c160ca.mp3": {
+"cer": 0.5,
+"hyp": "سپا دست",
+"by": {
+"fw:medium": 0.5
 }
 },
 "fa/2a2659ee5fbaf448.mp3": {
@@ -9603,6 +9974,13 @@
 "fw:medium": 0.3
 }
 },
+"fa/306859c9188f4087.mp3": {
+"cer": 0.0,
+"hyp": "انگور",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/30aac916abbf60fa.mp3": {
 "cer": 0.0,
 "hyp": "به فارسی چی میشه؟",
@@ -9820,6 +10198,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/35eb48eefdd49036.mp3": {
+"cer": 0.444,
+"hyp": "گوجه فر đượcی",
+"by": {
+"fw:medium": 0.444
+}
+},
 "fa/35f44c8b9ab4c061.mp3": {
 "cer": 0.077,
 "hyp": "کردی آسان تر هست",
@@ -9874,6 +10259,13 @@
 "hyp": "اونجا کار می کنی؟",
 "by": {
 "fw:medium": 0.333
+}
+},
+"fa/37385b243077bf69.mp3": {
+"cer": 0.286,
+"hyp": "باد همی جان",
+"by": {
+"fw:medium": 0.286
 }
 },
 "fa/374654f53cfce40a.mp3": {
@@ -10065,6 +10457,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/3bc66bf7c9fe1ad2.mp3": {
+"cer": 0.0,
+"hyp": "زرد چوبه",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/3bf0878a07fe5355.mp3": {
 "cer": 0.0,
 "hyp": "هزار",
@@ -10154,6 +10553,13 @@
 "hyp": "ساته ساس",
 "by": {
 "fw:medium": 0.444
+}
+},
+"fa/3d8c9d0b6996b8ba.mp3": {
+"cer": 0.0,
+"hyp": "کشمش",
+"by": {
+"fw:medium": 0.0
 }
 },
 "fa/3dd239320f6cda0e.mp3": {
@@ -10373,6 +10779,13 @@
 "fw:medium": 0.333
 }
 },
+"fa/441e7efa253086ea.mp3": {
+"cer": 0.25,
+"hyp": "کوری",
+"by": {
+"fw:medium": 0.25
+}
+},
 "fa/445206df089fb0c6.mp3": {
 "cer": 0.375,
 "hyp": "آفار سمن",
@@ -10471,6 +10884,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/45a88b8b50c8bcb4.mp3": {
+"cer": 0.5,
+"hyp": "اویچ",
+"by": {
+"fw:medium": 0.5
+}
+},
 "fa/45ef1844505d7426.mp3": {
 "cer": 0.222,
 "hyp": "بیست سلامه",
@@ -10567,6 +10987,20 @@
 "hyp": "او چایست",
 "by": {
 "fw:medium": 0.333
+}
+},
+"fa/4940b0c0611d4adf.mp3": {
+"cer": 0.5,
+"hyp": "پا گلوه",
+"by": {
+"fw:medium": 0.5
+}
+},
+"fa/49458ffb646a4097.mp3": {
+"cer": 0.5,
+"hyp": "اه نور",
+"by": {
+"fw:medium": 0.5
 }
 },
 "fa/497dd42a81c58fc9.mp3": {
@@ -10686,6 +11120,13 @@
 "hyp": "نجونم کجاست?",
 "by": {
 "fw:medium": 0.333
+}
+},
+"fa/4ca494bbaa29b966.mp3": {
+"cer": 0.2,
+"hyp": "سماوه",
+"by": {
+"fw:medium": 0.2
 }
 },
 "fa/4cad3eb0c1f7404e.mp3": {
@@ -10975,6 +11416,13 @@
 "fw:medium": 0.333
 }
 },
+"fa/54afa4e6461670a6.mp3": {
+"cer": 0.2,
+"hyp": "انجر",
+"by": {
+"fw:medium": 0.2
+}
+},
 "fa/55171008cb2fb7db.mp3": {
 "cer": 0.0,
 "hyp": "خریدن",
@@ -10989,11 +11437,25 @@
 "fw:medium": 0.308
 }
 },
+"fa/558e32372037eeb0.mp3": {
+"cer": 0.0,
+"hyp": "سیب زمینی",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/55b6eab3e7bfc9ce.mp3": {
 "cer": 0.0,
 "hyp": "سلام",
 "by": {
 "fw:medium": 0.0
+}
+},
+"fa/55cf2792413b9d3c.mp3": {
+"cer": 0.333,
+"hyp": "شم",
+"by": {
+"fw:medium": 0.333
 }
 },
 "fa/5604776da9ad6ffc.mp3": {
@@ -11064,6 +11526,13 @@
 "hyp": "آره، گوشنمه.",
 "by": {
 "fw:medium": 0.125
+}
+},
+"fa/58f94587e37ce009.mp3": {
+"cer": 0.667,
+"hyp": "آسله",
+"by": {
+"fw:medium": 0.667
 }
 },
 "fa/591f9addb3237beb.mp3": {
@@ -11269,6 +11738,13 @@
 "fw:medium": 0.059
 }
 },
+"fa/5e896d43544c2eaa.mp3": {
+"cer": 0.5,
+"hyp": "گوبشه",
+"by": {
+"fw:medium": 0.5
+}
+},
 "fa/5ecffd065c78ba68.mp3": {
 "cer": 0.0,
 "hyp": "چای",
@@ -11393,6 +11869,13 @@
 "hyp": "چایی خیلی دارست",
 "by": {
 "fw:medium": 0.231
+}
+},
+"fa/62d739cd090104b7.mp3": {
+"cer": 0.25,
+"hyp": "سابزی",
+"by": {
+"fw:medium": 0.25
 }
 },
 "fa/6352e70381915494.mp3": {
@@ -11647,6 +12130,13 @@
 "fw:medium": 0.5
 }
 },
+"fa/6b4222d2ff17b8d0.mp3": {
+"cer": 0.333,
+"hyp": "شونه زرد",
+"by": {
+"fw:medium": 0.333
+}
+},
 "fa/6b720864a6de386f.mp3": {
 "cer": 0.182,
 "hyp": "که به نمیخورم",
@@ -11701,6 +12191,13 @@
 "hyp": "چه گفتی؟",
 "by": {
 "fw:medium": 0.0
+}
+},
+"fa/6d0a2b16c31ebcb1.mp3": {
+"cer": 0.667,
+"hyp": "اتس",
+"by": {
+"fw:medium": 0.667
 }
 },
 "fa/6d1929bd3d2fc6d6.mp3": {
@@ -11962,6 +12459,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/74b1b470b637c55b.mp3": {
+"cer": 0.25,
+"hyp": "دلامه",
+"by": {
+"fw:medium": 0.25
+}
+},
 "fa/74b7828cc4c5e240.mp3": {
 "cer": 0.143,
 "hyp": "پنج شبه",
@@ -12046,6 +12550,13 @@
 "fw:medium": 0.133
 }
 },
+"fa/765da2cf72428002.mp3": {
+"cer": 0.2,
+"hyp": "بستانی",
+"by": {
+"fw:medium": 0.2
+}
+},
 "fa/7670b90e338081ce.mp3": {
 "cer": 0.3,
 "hyp": "از نباش کرده",
@@ -12109,6 +12620,13 @@
 "fw:medium": 0.333
 }
 },
+"fa/7803fc27bda17bb8.mp3": {
+"cer": 0.5,
+"hyp": "زفره",
+"by": {
+"fw:medium": 0.5
+}
+},
 "fa/783929ace647cae1.mp3": {
 "cer": 0.333,
 "hyp": "او میخوام.",
@@ -12156,6 +12674,13 @@
 "hyp": "موازه سمت چپ هست.",
 "by": {
 "fw:medium": 0.154
+}
+},
+"fa/796d704ecb9924c3.mp3": {
+"cer": 0.0,
+"hyp": "کشک بادم جان",
+"by": {
+"fw:medium": 0.0
 }
 },
 "fa/798162b77408b981.mp3": {
@@ -12319,6 +12844,20 @@
 "fw:medium": 0.192
 }
 },
+"fa/7ff0d1e06713bebb.mp3": {
+"cer": 0.333,
+"hyp": "اپ گوشت",
+"by": {
+"fw:medium": 0.333
+}
+},
+"fa/7ff135f153d69203.mp3": {
+"cer": 0.2,
+"hyp": "ترزو",
+"by": {
+"fw:medium": 0.2
+}
+},
 "fa/800122b89734456b.mp3": {
 "cer": 0.2,
 "hyp": "انجریسی هرف میزنم",
@@ -12364,6 +12903,13 @@
 "fa/813e1ced3a6038d7.mp3": {
 "cer": 0.333,
 "hyp": "بشام",
+"by": {
+"fw:medium": 0.333
+}
+},
+"fa/816d66d24b2c6136.mp3": {
+"cer": 0.333,
+"hyp": "سه که",
 "by": {
 "fw:medium": 0.333
 }
@@ -12452,6 +12998,13 @@
 "fw:medium": 0.25
 }
 },
+"fa/8363a25f0f6a4519.mp3": {
+"cer": 0.167,
+"hyp": "شرینی",
+"by": {
+"fw:medium": 0.167
+}
+},
 "fa/837b535420187b25.mp3": {
 "cer": 0.167,
 "hyp": "یکشنب",
@@ -12492,6 +13045,13 @@
 "hyp": "نسلرین",
 "by": {
 "fw:medium": 0.2
+}
+},
+"fa/84594077ed9aaa01.mp3": {
+"cer": 0.429,
+"hyp": "زر اشکر پرو",
+"by": {
+"fw:medium": 0.429
 }
 },
 "fa/8468970dc35cfdd6.mp3": {
@@ -12739,6 +13299,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/8958fceea7f7fa4c.mp3": {
+"cer": 0.333,
+"hyp": "آر",
+"by": {
+"fw:medium": 0.333
+}
+},
 "fa/896a4fb5d91f9ffa.mp3": {
 "cer": 0.25,
 "hyp": "اسمت چیز",
@@ -12751,6 +13318,13 @@
 "hyp": "ممنون",
 "by": {
 "fw:medium": 0.0
+}
+},
+"fa/89b300df24a9327f.mp3": {
+"cer": 0.167,
+"hyp": "دور چین",
+"by": {
+"fw:medium": 0.167
 }
 },
 "fa/89b4794730489ca5.mp3": {
@@ -13019,6 +13593,13 @@
 "fw:medium": 0.222
 }
 },
+"fa/8f7eb5c548044696.mp3": {
+"cer": 0.0,
+"hyp": "کشک بادن جان",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/8fdbfb264653bdae.mp3": {
 "cer": 0.312,
 "hyp": "سو آنگه ماست میخورم",
@@ -13110,6 +13691,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/9220f64431396bf7.mp3": {
+"cer": 0.429,
+"hyp": "بود انجون",
+"by": {
+"fw:medium": 0.429
+}
+},
 "fa/924ccbee40c743c5.mp3": {
 "cer": 0.0,
 "hyp": "راست",
@@ -13199,6 +13787,13 @@
 "hyp": "آره، تو اون خیابون یه مقازه هست.",
 "by": {
 "fw:medium": 0.042
+}
+},
+"fa/94588fd9908da499.mp3": {
+"cer": 0.167,
+"hyp": "گرسون",
+"by": {
+"fw:medium": 0.167
 }
 },
 "fa/949158c2d09d2bf8.mp3": {
@@ -13446,6 +14041,13 @@
 "fw:medium": 0.3
 }
 },
+"fa/9b2ad95015031975.mp3": {
+"cer": 0.0,
+"hyp": "هل؟",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/9b32fcd521e3ed45.mp3": {
 "cer": 0.25,
 "hyp": "دو تا تخمار میخم",
@@ -13568,6 +14170,13 @@
 "fa/9f71dd171025c0bc.mp3": {
 "cer": 0.0,
 "hyp": "متاهل",
+"by": {
+"fw:medium": 0.0
+}
+},
+"fa/a09326f7684fbf3e.mp3": {
+"cer": 0.0,
+"hyp": "نخود",
 "by": {
 "fw:medium": 0.0
 }
@@ -13803,6 +14412,13 @@
 "fw:medium": 0.5
 }
 },
+"fa/a66daad337f527a6.mp3": {
+"cer": 0.286,
+"hyp": "پیش هد مات",
+"by": {
+"fw:medium": 0.286
+}
+},
 "fa/a6726dc9cdeeb6d0.mp3": {
 "cer": 0.0,
 "hyp": "متوجه نشدم",
@@ -13899,6 +14515,13 @@
 "hyp": "یا هفته هفته روزه",
 "by": {
 "fw:medium": 0.154
+}
+},
+"fa/a7db7b64fb30c08c.mp3": {
+"cer": 0.5,
+"hyp": "یا دو",
+"by": {
+"fw:medium": 0.5
 }
 },
 "fa/a7fef7be00dd253c.mp3": {
@@ -14811,6 +15434,13 @@
 "fw:medium": 0.364
 }
 },
+"fa/c0300b019a4f0e18.mp3": {
+"cer": 0.5,
+"hyp": "سابسه",
+"by": {
+"fw:medium": 0.5
+}
+},
 "fa/c0391649d89020d9.mp3": {
 "cer": 0.1,
 "hyp": "نه تک فرزنده",
@@ -14844,6 +15474,20 @@
 "hyp": "شون دوستم احل تهرانست.",
 "by": {
 "fw:medium": 0.158
+}
+},
+"fa/c08eb9e1e0e6cec9.mp3": {
+"cer": 0.5,
+"hyp": "سمک",
+"by": {
+"fw:medium": 0.5
+}
+},
+"fa/c0e49bed925cb9cc.mp3": {
+"cer": 0.286,
+"hyp": "این دوانه",
+"by": {
+"fw:medium": 0.286
 }
 },
 "fa/c111e5ba02f884b4.mp3": {
@@ -15182,6 +15826,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/ca722166466e3ac7.mp3": {
+"cer": 0.0,
+"hyp": "لیموترش",
+"by": {
+"fw:medium": 0.0
+}
+},
 "fa/ca76bfda88289718.mp3": {
 "cer": 0.0,
 "hyp": "ده هزار تومان است",
@@ -15201,6 +15852,13 @@
 "hyp": "تر تیران",
 "by": {
 "fw:medium": 0.286
+}
+},
+"fa/cae574c3eecee6a6.mp3": {
+"cer": 0.333,
+"hyp": "قرم سابزی",
+"by": {
+"fw:medium": 0.333
 }
 },
 "fa/cb02b5688b11baa3.mp3": {
@@ -15399,6 +16057,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/cf21e71e5e48dded.mp3": {
+"cer": 0.333,
+"hyp": "دو",
+"by": {
+"fw:medium": 0.333
+}
+},
 "fa/cf36f5176482aa02.mp3": {
 "cer": 0.286,
 "hyp": "باز کردن تا",
@@ -15595,6 +16260,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/d4c26156571097d6.mp3": {
+"cer": 0.5,
+"hyp": "خرامه",
+"by": {
+"fw:medium": 0.5
+}
+},
 "fa/d4e0e600110bcd14.mp3": {
 "cer": 0.0,
 "hyp": "خواهش میکنم",
@@ -15621,6 +16293,13 @@
 "hyp": "سو ادی و انگلیسی صحبت می کنم.",
 "by": {
 "fw:medium": 0.045
+}
+},
+"fa/d58740a585fb98c8.mp3": {
+"cer": 0.2,
+"hyp": "لوبیو",
+"by": {
+"fw:medium": 0.2
 }
 },
 "fa/d5b6c04b18990aff.mp3": {
@@ -15691,6 +16370,13 @@
 "hyp": "ایمتش پنچ هزار تو من هست",
 "by": {
 "fw:medium": 0.2
+}
+},
+"fa/d863435cb3524cb5.mp3": {
+"cer": 0.0,
+"hyp": "خیار",
+"by": {
+"fw:medium": 0.0
 }
 },
 "fa/d866988141bf1690.mp3": {
@@ -15931,6 +16617,13 @@
 "fw:medium": 0.2
 }
 },
+"fa/dfb3f1a8608feb88.mp3": {
+"cer": 0.25,
+"hyp": "پیاس",
+"by": {
+"fw:medium": 0.25
+}
+},
 "fa/dfcccd817f5ebe89.mp3": {
 "cer": 0.25,
 "hyp": "خوفیست ممنون",
@@ -15964,6 +16657,13 @@
 "hyp": "متعهل هستی؟",
 "by": {
 "fw:medium": 0.2
+}
+},
+"fa/e249052b3567c36a.mp3": {
+"cer": 0.5,
+"hyp": "دو جکبه",
+"by": {
+"fw:medium": 0.5
 }
 },
 "fa/e25f5a1917142ac8.mp3": {
@@ -16358,6 +17058,13 @@
 "fw:medium": 0.0
 }
 },
+"fa/ede9410d862cc639.mp3": {
+"cer": 0.25,
+"hyp": "ارمه سابزی",
+"by": {
+"fw:medium": 0.25
+}
+},
 "fa/ee5160e7c02de2a5.mp3": {
 "cer": 0.538,
 "hyp": "فرات یک اتراد",
@@ -16545,6 +17252,13 @@
 "hyp": "لطفا دوباره بگیدم تو...",
 "by": {
 "fw:medium": 0.214
+}
+},
+"fa/f49ccab48df33fe4.mp3": {
+"cer": 0.333,
+"hyp": "سیره",
+"by": {
+"fw:medium": 0.333
 }
 },
 "fa/f4aacfd5a043f674.mp3": {
@@ -16841,6 +17555,13 @@
 "fw:medium": 0.308
 }
 },
+"fa/fc6de01a34aff0f4.mp3": {
+"cer": 0.4,
+"hyp": "کلاس",
+"by": {
+"fw:medium": 0.4
+}
+},
 "fa/fc92254b722ca916.mp3": {
 "cer": 0.333,
 "hyp": "اوتو بس",
@@ -17004,6 +17725,12 @@
 }
 },
 "choices": {
+"ckb|ئارد": {
+"voice": "ckb-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
 "ckb|ئافرەت": {
 "voice": "ckb-berfin",
 "rate": -10,
@@ -17102,6 +17829,12 @@
 "tried": 4,
 "take": 1
 },
+"ckb|لیمۆ": {
+"voice": "ckb-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
 "ckb|نا": {
 "voice": "ckb-audio8",
 "rate": 0,
@@ -17188,6 +17921,12 @@
 "take": 1
 },
 "ckb|کێو": {
+"voice": "ckb-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
+"ckb|گوێز": {
 "voice": "ckb-audio8",
 "rate": 0,
 "tried": 4,
@@ -17532,6 +18271,12 @@
 "rate": 0,
 "tried": 3
 },
+"fa|باقلوا": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 2
+},
 "fa|ببخشید": {
 "voice": "fa-audio8",
 "rate": 0,
@@ -17791,6 +18536,11 @@
 "rate": 0,
 "tried": 3
 },
+"fa|جوجه‌کباب": {
+"voice": "fa-dilara",
+"rate": -10,
+"tried": 4
+},
 "fa|حتماً": {
 "voice": "fa-audio8",
 "rate": 0,
@@ -18012,6 +18762,12 @@
 "rate": 0,
 "tried": 3
 },
+"fa|دوغ": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
 "fa|دکتر تو بیمارستانه.": {
 "voice": "fa-audio8",
 "rate": 0,
@@ -18184,6 +18940,11 @@
 "rate": 0,
 "tried": 3
 },
+"fa|سماور": {
+"voice": "fa-dilara",
+"rate": -10,
+"tried": 4
+},
 "fa|سمت راست است.": {
 "voice": "fa-audio8",
 "rate": 0,
@@ -18224,6 +18985,12 @@
 "rate": 0,
 "tried": 3
 },
+"fa|سکه": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
 "fa|سیاه": {
 "voice": "fa-dilara",
 "rate": -10,
@@ -18249,6 +19016,11 @@
 "voice": "fa-audio8",
 "rate": 0,
 "tried": 3
+},
+"fa|شمع": {
+"voice": "fa-dilara",
+"rate": -10,
+"tried": 4
 },
 "fa|شیر می‌خواهم.": {
 "voice": "fa-audio8",
@@ -18340,10 +19112,20 @@
 "tried": 4,
 "take": 1
 },
+"fa|عدس": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4
+},
 "fa|عربی یاد می‌گیرم.": {
 "voice": "fa-parsvoice-b",
 "rate": 0,
 "tried": 3
+},
+"fa|عسل": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4
 },
 "fa|عصر": {
 "voice": "fa-audio8",
@@ -18677,6 +19459,12 @@
 "rate": 0,
 "tried": 3
 },
+"fa|نخود": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
 "fa|نزدیک": {
 "voice": "fa-audio8",
 "rate": 0,
@@ -18856,6 +19644,12 @@
 "voice": "fa-parsvoice-a",
 "rate": 0,
 "tried": 3
+},
+"fa|هویج": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
 },
 "fa|هیچ جا نرفتم.": {
 "voice": "fa-audio8",
@@ -19176,6 +19970,12 @@
 "rate": 0,
 "tried": 3
 },
+"fa|کیک": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 1
+},
 "fa|گاهی.": {
 "voice": "fa-audio8",
 "rate": 0,
@@ -19206,6 +20006,12 @@
 "voice": "fa-audio8",
 "rate": 0,
 "tried": 3
+},
+"fa|گیلاس": {
+"voice": "fa-audio8",
+"rate": 0,
+"tried": 4,
+"take": 2
 },
 "fa|یه برادر دارم.": {
 "voice": "fa-audio8",
