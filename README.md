@@ -15,6 +15,8 @@ Each module is one step on the path from understanding a word to holding a conve
 | 3 | Sentences | Build whole sentences from known words | All of the sentence's words were introduced |
 | 4 | Conversation | Hear a question in Sorani/Persian, answer in the same language | Most of its words can be recalled |
 
+Beside the path, Picture recognition shows a photo and asks "What do you see?" with four Sorani or Persian words to pick from. The photos are grouped in areas: dishes, the haft-sin table, the pantry, the market and a café. It is open from the start. Photos come from Wikimedia Commons, and the credits are on the Method & sources page.
+
 Exercises get harder as a card matures. Recognition goes from multiple choice to listening to typed meanings. Recall goes from typed answers to saying the word aloud. Sentences go from word tiles to a cloze to typing the full sentence. Conversation goes from choosing an answer to building it from tiles to answering freely by typing or recording yourself.
 
 Scheduling uses [FSRS](https://github.com/open-spaced-repetition/ts-fsrs) with a 90% retention target. Every answer gets immediate feedback with audio, romanization, a word-by-word gloss and grammar links. The Method & sources page in the app (`/about`) explains the research behind each choice.
@@ -131,7 +133,8 @@ src/
   app/            layout and routes
   content/        types, schemas, loader, data/*.json, generated evidence
   features/       one folder per module and page (recognition, recall, construction,
-                  response, words, grammar, alphabet, about, review, settings, session)
+                  response, pictures, words, grammar, alphabet, about, review, settings,
+                  session)
   components/     shared UI (target-language text, audio, answer input, script keyboard)
   lib/            script normalization and matching, FSRS wrapper, curriculum, audio,
                   the progress model
@@ -141,6 +144,7 @@ src/
 scripts/          content validator, reference builder, lookup CLI
 scripts/audio/    pronunciation audio pipeline (Python)
 public/audio/     generated clips and manifest
+public/pictures/  photos for Picture recognition (webp, from Wikimedia Commons)
 reference/        reference indices built from Wiktionary and Tatoeba
 docs/             content guide, curriculum, generated content and audio reports
 supabase/         database migrations
@@ -156,4 +160,4 @@ Stack: Vite, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, react-router, Tan
 
 ## Licenses
 
-Reference data: Wiktionary (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). Font: Vazirmatn (SIL OFL). Sorani word recordings: Zino Kader (CC BY-SA 4.0). Persian word recordings: Essi (CC BY-SA 4.0). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: ParsVoice-XTTS (Coqui Public Model License, non-commercial), with reference voices from Mozilla Common Voice (CC0), and Audio8-TTS-Persian (CC BY-NC 4.0, non-commercial). The text normalizers in `scripts/audio/ckb_normalize.py` and `scripts/audio/fa_normalize.py` are from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.
+Reference data: Wiktionary (CC BY-SA 4.0), Tatoeba (CC BY 2.0 FR) and Wikipedia article titles (CC BY-SA 4.0). Photos: Wikimedia Commons, each under its own license (CC0, public domain, CC BY or CC BY-SA), credited in `src/content/data/pictures/` and on the Method & sources page. Font: Vazirmatn (SIL OFL). Sorani word recordings: Zino Kader (CC BY-SA 4.0). Persian word recordings: Essi (CC BY-SA 4.0). Sorani audio: Audio8-TTS-Kurdish-Sorani and Vekol-TTS (both CC BY-NC 4.0, non-commercial). Persian audio: ParsVoice-XTTS (Coqui Public Model License, non-commercial), with reference voices from Mozilla Common Voice (CC0), and Audio8-TTS-Persian (CC BY-NC 4.0, non-commercial). The text normalizers in `scripts/audio/ckb_normalize.py` and `scripts/audio/fa_normalize.py` are from Audio8-Persian-TTS (Apache-2.0). Grammar references: W. M. Thackston, *Sorani Kurdish: A Reference Grammar with Selected Readings*, and D. H. Kim, *A Basic Guide to Kurdish Grammar*.

@@ -1,0 +1,546 @@
+{
+  "area": {
+    "id": "pantry",
+    "order": 3,
+    "emoji": "🫙",
+    "title": {
+      "en": "The pantry",
+      "sv": "Skafferiet"
+    },
+    "description": {
+      "en": "Rice, pulses, spices and other things that keep.",
+      "sv": "Ris, baljväxter, kryddor och annat som håller länge."
+    }
+  },
+  "pictures": [
+    {
+      "id": "rice",
+      "image": {
+        "file": "rice.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Long_grain_rice.jpg",
+        "credit": "Gaurav Dhwaj Khadka",
+        "license": "CC BY-SA 4.0"
+      },
+      "concept": "rice"
+    },
+    {
+      "id": "lentils",
+      "image": {
+        "file": "lentils.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Split_Red_Lentil.jpg",
+        "credit": "Sanjay Acharya",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "lentils",
+        "sv": "linser",
+        "enAlt": [
+          "lentil"
+        ],
+        "svAlt": [
+          "lins"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "نیسک",
+          "latin": "nîsk"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "lentil"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "عدس",
+          "latin": "'adas"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "lentil"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chickpeas",
+      "image": {
+        "file": "chickpeas.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Soaked_and_dried_chickpeas.jpg",
+        "credit": "Tiia Monto",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "chickpeas",
+        "sv": "kikärter",
+        "enAlt": [
+          "chickpea"
+        ],
+        "svAlt": [
+          "kikärt"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "نۆک",
+          "latin": "nok"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "chickpea"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "نخود",
+          "latin": "nokhod"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "chickpea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "beans",
+      "image": {
+        "file": "beans.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_kidney_beans_2024-11-27.jpg",
+        "credit": "Bean appreciator",
+        "license": "CC0"
+      },
+      "gloss": {
+        "en": "beans",
+        "sv": "bönor",
+        "enAlt": [
+          "bean"
+        ],
+        "svAlt": [
+          "böna"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "فاسۆلیا",
+          "latin": "fasolya"
+        },
+        "variants": [
+          {
+            "script": "فاسولیا",
+            "latin": "fasulya"
+          }
+        ],
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "bean"
+          },
+          {
+            "source": "wikipedia",
+            "ref": "ckb:فاسۆلیا"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "لوبیا",
+          "latin": "lubiyâ"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "bean"
+          }
+        ]
+      }
+    },
+    {
+      "id": "flour",
+      "image": {
+        "file": "flour.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:All-Purpose_Flour_(4107895947).jpg",
+        "credit": "Veganbaking.net from USA",
+        "license": "CC BY-SA 2.0"
+      },
+      "gloss": {
+        "en": "flour",
+        "sv": "mjöl"
+      },
+      "ckb": {
+        "primary": {
+          "script": "ئارد",
+          "latin": "ard"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "flour"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "آرد",
+          "latin": "ârd"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "flour"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saffron",
+      "image": {
+        "file": "saffron.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Iran_saffron_threads.jpg",
+        "credit": "Rainer Zenz",
+        "license": "Public domain"
+      },
+      "gloss": {
+        "en": "saffron",
+        "sv": "saffran"
+      },
+      "fa": {
+        "primary": {
+          "script": "زعفران",
+          "latin": "za'farân"
+        },
+        "notes": {
+          "en": "Iran grows most of the world's saffron.",
+          "sv": "Iran odlar det mesta av världens saffran."
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "saffron"
+          }
+        ]
+      }
+    },
+    {
+      "id": "turmeric",
+      "image": {
+        "file": "turmeric.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg",
+        "credit": "Simon A. Eugster",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "turmeric",
+        "sv": "gurkmeja"
+      },
+      "ckb": {
+        "primary": {
+          "script": "زەردەچێوە",
+          "latin": "zerdeçêwe"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "turmeric"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "زردچوبه",
+          "latin": "zardchube"
+        },
+        "notes": {
+          "en": "Literally \"yellow wood\".",
+          "sv": "Ordagrant \"gult trä\"."
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "turmeric"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cinnamon",
+      "image": {
+        "file": "cinnamon.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Canelle_Cinnamomum_burmanni_Luc_Viatour.jpg",
+        "credit": "Luc Viatour",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "cinnamon",
+        "sv": "kanel"
+      },
+      "ckb": {
+        "primary": {
+          "script": "دارچین",
+          "latin": "darçîn"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cinnamon"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "دارچین",
+          "latin": "dârchin"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cinnamon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dates",
+      "image": {
+        "file": "dates.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Dates_10-8-09-101309_copy.jpg",
+        "credit": "Loorie Cooper",
+        "license": "Public domain"
+      },
+      "gloss": {
+        "en": "dates",
+        "sv": "dadlar",
+        "enAlt": [
+          "date"
+        ],
+        "svAlt": [
+          "dadel"
+        ]
+      },
+      "senseNote": {
+        "en": "(the fruit)",
+        "sv": "(frukten)"
+      },
+      "ckb": {
+        "primary": {
+          "script": "خورما",
+          "latin": "xurma"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "date"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "خرما",
+          "latin": "khormâ"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "date"
+          }
+        ]
+      }
+    },
+    {
+      "id": "walnuts",
+      "image": {
+        "file": "walnuts.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Walnuts_-_whole_and_open_with_halved_kernel.jpg",
+        "credit": "Ivar Leidus",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "walnuts",
+        "sv": "valnötter",
+        "enAlt": [
+          "walnut"
+        ],
+        "svAlt": [
+          "valnöt"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "گوێز",
+          "latin": "gwêz"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "walnut"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "گردو",
+          "latin": "gerdu"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "walnut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "raisins",
+      "image": {
+        "file": "raisins.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:2023_Rodzynki_(2).jpg",
+        "credit": "Jacek Halicki",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "raisins",
+        "sv": "russin",
+        "enAlt": [
+          "raisin"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "مێوژ",
+          "latin": "mêwij"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "raisin"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "کشمش",
+          "latin": "keshmesh"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "raisin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "honey",
+      "image": {
+        "file": "honey.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Jar_and_honey_stick.jpg",
+        "credit": "Tasmanianbeekeepers",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "honey",
+        "sv": "honung"
+      },
+      "ckb": {
+        "primary": {
+          "script": "هەنگوین",
+          "latin": "hengwîn"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "honey"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "عسل",
+          "latin": "'asal"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "honey"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cardamom",
+      "image": {
+        "file": "cardamom.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Green_Cardamom_Pods.jpg",
+        "credit": "Misterneedlemouse",
+        "license": "CC0"
+      },
+      "gloss": {
+        "en": "cardamom",
+        "sv": "kardemumma"
+      },
+      "ckb": {
+        "primary": {
+          "script": "هێل",
+          "latin": "hêl"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cardamom"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "هل",
+          "latin": "hel"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cardamom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pistachios",
+      "image": {
+        "file": "pistachios.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Salted_pistachios_photographed_in_West_Bengal,_India,_by_Yogabrata_Chakraborty,_March_7,_2023.jpg",
+        "credit": "Billjones94",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "pistachios",
+        "sv": "pistaschnötter",
+        "enAlt": [
+          "pistachio"
+        ],
+        "svAlt": [
+          "pistasch",
+          "pistaschnöt"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "پسته",
+          "latin": "peste"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "pistachio"
+          }
+        ]
+      }
+    }
+  ]
+}

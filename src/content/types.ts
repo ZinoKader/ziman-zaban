@@ -73,6 +73,7 @@ export type SourceId =
   | 'kim-kurdish-grammar'
   | 'asosoft'
   | 'native-speaker'
+  | 'wikipedia'
   | 'author'
 
 export interface LanguageEntry {
@@ -207,6 +208,40 @@ export interface Unit {
   emoji: string
 }
 
-/** Which of the four modules a card belongs to. */
-export const SKILLS = ['recognition', 'recall', 'construction', 'response'] as const
+/** A freely licensed photo, with what its license asks us to show. */
+export interface PictureImage {
+  /** File name in public/pictures. */
+  file: string
+  /** Page the photo came from. */
+  source: string
+  credit: string
+  license: string
+}
+
+/** A group of pictures, such as dishes or the market. */
+export interface PictureArea {
+  id: string
+  order: number
+  emoji: string
+  title: Localized
+  description: Localized
+}
+
+/**
+ * One picture in the picture module. It either points at a lexicon word (`concept`)
+ * or carries its own word, for things that only belong here (dishes, the Nowruz table).
+ */
+export interface Picture {
+  id: string
+  area: string
+  image: PictureImage
+  concept?: string
+  gloss?: Gloss
+  senseNote?: Localized
+  ckb?: LanguageEntry
+  fa?: LanguageEntry
+}
+
+/** Which module a card belongs to: the four steps of the course, then the picture module. */
+export const SKILLS = ['recognition', 'recall', 'construction', 'response', 'pictures'] as const
 export type Skill = (typeof SKILLS)[number]

@@ -1,5 +1,5 @@
 import type { EvidenceLevel } from '@/content'
-import type { Skill } from '@/content/types'
+import type { PathSkill } from '@/features/modules'
 import { defineStrings } from '@/i18n'
 import type { PrincipleId } from './citations'
 
@@ -15,7 +15,7 @@ export const aboutStrings = defineStrings({
 
     pathTitle: 'From understanding to speaking',
     pathBody: 'Four modules, each a step closer to a real conversation. A word moves along the path as you master it.',
-    stepVerb: { recognition: 'Understand', recall: 'Remember', construction: 'Build', response: 'Speak' } satisfies Record<Skill, string>,
+    stepVerb: { recognition: 'Understand', recall: 'Remember', construction: 'Build', response: 'Speak' } satisfies Record<PathSkill, string>,
     step: (n: number) => `Step ${n}`,
 
     scienceTitle: 'The research behind it',
@@ -111,6 +111,7 @@ export const aboutStrings = defineStrings({
       words: 'Words',
       sentencesLabel: 'Sentences',
       qa: 'Questions',
+      pictures: 'Picture words',
       live: 'Live counts from the current content',
       badgeHint: 'Look for this badge on every word. Tap it to see exactly what confirmed it.',
     },
@@ -123,6 +124,8 @@ export const aboutStrings = defineStrings({
     sources: {
       wiktionary: { name: 'Wiktionary', what: 'English, Persian and Central Kurdish editions: translations and dictionary entries used to verify words.' },
       tatoeba: { name: 'Tatoeba', what: 'Example sentences used as evidence of real usage. Sorani entries are user-contributed and normalized on import.' },
+      wikipedia: { name: 'Wikipedia', what: 'The Sorani and Persian titles of articles on dishes, plants and things, used to check the words in Picture recognition.' },
+      commons: { name: 'Wikimedia Commons', what: 'The photos in Picture recognition, resized and cropped. Each photographer and license is listed below.' },
       thackston: { name: 'W. M. Thackston, Sorani Kurdish: A Reference Grammar with Selected Readings', what: 'Reference for Sorani grammar, phonology and spelling.' },
       kim: { name: 'D. H. Kim, A Basic Guide to Kurdish Grammar', what: 'A self-study reference for Sorani grammar and the alphabet.' },
       vazirmatn: { name: 'Vazirmatn font, by Saber Rastikerdar', what: 'The typeface used for all Sorani and Persian text.' },
@@ -145,6 +148,7 @@ export const aboutStrings = defineStrings({
       },
     },
     license: 'License',
+    photoCredits: (n: number) => `Photo credits (${n})`,
     speaker: (lang: string, n: number) => `Native ${lang} speaker. Recorded ${n} of the clips you hear in the app.`,
     referenceUse: 'Used as a reference',
 
@@ -276,6 +280,7 @@ export const aboutStrings = defineStrings({
       words: 'Ord',
       sentencesLabel: 'Meningar',
       qa: 'Frågor',
+      pictures: 'Bildord',
       live: 'Aktuella siffror från innehållet just nu',
       badgeHint: 'Titta efter den här symbolen vid varje ord. Tryck på den för att se exakt vad som bekräftade ordet.',
     },
@@ -288,6 +293,8 @@ export const aboutStrings = defineStrings({
     sources: {
       wiktionary: { name: 'Wiktionary', what: 'Engelska, persiska och centralkurdiska utgåvorna: översättningar och ordboksuppslag som används för att verifiera orden.' },
       tatoeba: { name: 'Tatoeba', what: 'Exempelmeningar som belägg för verklig användning. Soranimeningarna är bidrag från användare och normaliseras vid import.' },
+      wikipedia: { name: 'Wikipedia', what: 'Soraniska och persiska titlar på artiklar om maträtter, växter och saker, som används för att kontrollera orden i Bildigenkänning.' },
+      commons: { name: 'Wikimedia Commons', what: 'Fotona i Bildigenkänning, förminskade och beskurna. Fotografer och licenser listas nedan.' },
       thackston: { name: 'W. M. Thackston, Sorani Kurdish: A Reference Grammar with Selected Readings', what: 'Referens för soranins grammatik, ljudsystem och stavning.' },
       kim: { name: 'D. H. Kim, A Basic Guide to Kurdish Grammar', what: 'En självstudiebok om soranins grammatik och alfabet.' },
       vazirmatn: { name: 'Typsnittet Vazirmatn, av Saber Rastikerdar', what: 'Typsnittet för all sorani- och persisk text.' },
@@ -310,6 +317,7 @@ export const aboutStrings = defineStrings({
       },
     },
     license: 'Licens',
+    photoCredits: (n: number) => `Fotografer och licenser (${n} foton)`,
     speaker: (lang: string, n: number) => `Har ${lang.toLocaleLowerCase('sv')} som modersmål. Har spelat in ${n} av klippen du hör i appen.`,
     referenceUse: 'Används som referens',
 

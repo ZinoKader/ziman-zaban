@@ -24,11 +24,14 @@ import {
 } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link } from 'react-router'
+import { Disclosure } from '@/components/disclosure'
 import { EvidenceBadge } from '@/components/evidence-badge'
 import { TargetText } from '@/components/target-text'
 import { Button } from '@/components/ui/button'
 import { conceptById, type EvidenceLevel } from '@/content'
+import { pictureWord, pictures } from '@/content/pictures'
 import type { TargetLang } from '@/content/types'
+import { useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { useAudioManifest, type AudioManifest } from '@/lib/audio'
 import { cn } from '@/lib/utils'
@@ -63,6 +66,8 @@ const LEVEL_STYLE: Record<EvidenceLevel, { icon: LucideIcon; text: string; bar: 
 const SOURCES = [
   { key: 'wiktionary', license: 'CC BY-SA 4.0', url: 'https://www.wiktionary.org' },
   { key: 'tatoeba', license: 'CC BY 2.0 FR', url: 'https://tatoeba.org' },
+  { key: 'wikipedia', license: 'CC BY-SA 4.0', url: 'https://www.wikipedia.org' },
+  { key: 'commons', license: 'CC0, CC BY, CC BY-SA', url: 'https://commons.wikimedia.org' },
   { key: 'thackston', license: null, url: null },
   { key: 'kim', license: null, url: null },
   { key: 'vazirmatn', license: 'SIL OFL 1.1', url: 'https://github.com/rastikerdar/vazirmatn' },
@@ -317,7 +322,7 @@ function Accuracy() {
                 <LevelBar
                   key={kind}
                   counts={counts[kind][l]}
-                  label={kind === 'concept' ? s.levels.words : kind === 'sentence' ? s.levels.sentencesLabel : s.levels.qa}
+                  label={{ concept: s.levels.words, sentence: s.levels.sentencesLabel, qa: s.levels.qa, picture: s.levels.pictures }[kind]}
                 />
               ))}
             </div>
@@ -412,7 +417,27 @@ function Sources() {
           )
         })}
       </ul>
+      <PhotoCredits />
     </Section>
+  )
+}
+
+function PhotoCredits() {
+  const s = aboutStrings.use()
+  const l = useLocalize()
+  return (
+    <Disclosure label={s.photoCredits(pictures.length)} className="mt-4 rounded-3xl border bg-card px-4 py-2 shadow-xs">
+      <ul className="grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
+        {pictures.map((p) => (
+          <li key={p.id} className="flex items-baseline justify-between gap-3">
+            <span className="min-w-0 truncate">{l(pictureWord(p, 'fa')?.gloss ?? pictureWord(p, 'ckb')!.gloss)}</span>
+            <a href={p.image.source} target="_blank" rel="noreferrer" className="shrink-0 text-xs text-muted-foreground hover:underline">
+              {p.image.credit}, {p.image.license}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </Disclosure>
   )
 }
 

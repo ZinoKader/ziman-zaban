@@ -23,6 +23,7 @@ const MODULE_COLOR: Record<Skill, string> = {
   recall: '[&_[data-slot=progress-indicator]]:bg-mod-recall',
   construction: '[&_[data-slot=progress-indicator]]:bg-mod-construction',
   response: '[&_[data-slot=progress-indicator]]:bg-mod-response',
+  pictures: '[&_[data-slot=progress-indicator]]:bg-mod-pictures',
 }
 
 interface Turn {

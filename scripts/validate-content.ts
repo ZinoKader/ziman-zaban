@@ -12,6 +12,7 @@ import { z } from 'zod'
 import {
   grammarFileSchema,
   lexiconFileSchema,
+  pictureFileSchema,
   qaFileSchema,
   sentenceFileSchema,
   unitSchema,
@@ -20,6 +21,7 @@ import type {
   Concept,
   Form,
   GrammarPoint,
+  Picture,
   QAItem,
   Sentence,
   SentenceForm,
@@ -90,6 +92,10 @@ const qaEntries = readDir('qa', qaFileSchema).flatMap(({ file, data }) => data.i
 const grammarEntries = readDir('grammar', grammarFileSchema).flatMap(({ file, data }) =>
   data.points.map((g) => ({ file, g: g as GrammarPoint })),
 )
+const pictureFiles = readDir('pictures', pictureFileSchema)
+const pictureEntries = pictureFiles.flatMap(({ file, data }) =>
+  data.pictures.map((p) => ({ file, p: { ...p, area: data.area.id } as Picture })),
+)
 
 function checkUniqueIds(kind: string, items: Array<{ file: string; id: string }>) {
   const seen = new Map<string, string>()
@@ -102,6 +108,8 @@ checkUniqueIds('concept', lexicon.map(({ file, c }) => ({ file, id: c.id })))
 checkUniqueIds('sentence', sentenceEntries.map(({ file, s }) => ({ file, id: s.id })))
 checkUniqueIds('qa', qaEntries.map(({ file, q }) => ({ file, id: q.id })))
 checkUniqueIds('grammar', grammarEntries.map(({ file, g }) => ({ file, id: g.id })))
+checkUniqueIds('picture', pictureEntries.map(({ file, p }) => ({ file, id: p.id })))
+checkUniqueIds('picture area', pictureFiles.map(({ file, data }) => ({ file, id: data.area.id })))
 
 const conceptIds = new Set(lexicon.map(({ c }) => c.id))
 const grammarIds = new Set(grammarEntries.map(({ g }) => g.id))
@@ -276,6 +284,43 @@ for (const { file, g } of grammarEntries) {
   }
 }
 
+/* ---------- pictures ---------- */
+
+const PICTURE_DIR = path.join(ROOT, 'public/pictures')
+const conceptsById = new Map(lexicon.map(({ c }) => [c.id, c]))
+
+for (const { file, p } of pictureEntries) {
+  const where = `${file} picture "${p.id}"`
+  if (!fs.existsSync(path.join(PICTURE_DIR, p.image.file))) error(where, `image public/pictures/${p.image.file} is missing`)
+  if (p.concept) {
+    if (!conceptsById.has(p.concept)) error(where, `refers to unknown concept "${p.concept}"`)
+    continue
+  }
+  for (const lang of LANGS) {
+    const entry = p[lang]
+    if (!entry) continue
+    for (const f of [entry.primary, ...(entry.variants ?? [])]) {
+      lintForm(`${where} ${lang}`, f, lang)
+      const rom = checkRomanization(f.script, f.latin, lang)
+      if (!rom.ok) warn(`${where} ${lang}`, `romanization "${f.latin}" may not match "${f.script}" (${rom.script} vs ${rom.latin})`)
+    }
+    const ev = formEvidence(entry.primary, lang, [p.gloss!.en, ...(p.gloss!.enAlt ?? [])])
+    const level = evidenceLevel(ev)
+    const checks: string[] = []
+    if (ev.translationTable) checks.push('Wiktionary translation table')
+    if (ev.entryGlossMatch) checks.push('Wiktionary dictionary entry')
+    else if (ev.entryExists) checks.push('Wiktionary entry exists (different sense)')
+    if (ev.tatoebaHits) checks.push(`Used in ${ev.tatoebaHits} Tatoeba sentence${ev.tatoebaHits > 1 ? 's' : ''}`)
+    if (level === 'none') warn(`${where} ${lang}`, `no reference source confirms "${entry.primary.script}"; needs native review`)
+    const key = `picture:${lang}:${p.id}`
+    evidence[key] = applyReview(key, { level, checks })
+  }
+}
+
+const usedImages = new Set(pictureEntries.map(({ p }) => p.image.file))
+if (fs.existsSync(PICTURE_DIR))
+  for (const f of fs.readdirSync(PICTURE_DIR)) if (!usedImages.has(f)) warn(`public/pictures/${f}`, 'image is not used by any picture')
+
 /* ---------- output ---------- */
 
 const generated = path.join(ROOT, 'src/content/generated')
@@ -309,7 +354,7 @@ const report = [
   '',
   '| Kind | Language | ' + levels.join(' | ') + ' |',
   '| --- | --- | ' + levels.map(() => '---').join(' | ') + ' |',
-  ...(['concept', 'sentence', 'qa'] as const).flatMap((kind) =>
+  ...(['concept', 'sentence', 'qa', 'picture'] as const).flatMap((kind) =>
     LANGS.map((lang) => `| ${kind} | ${lang} | ${levels.map((l) => count(kind, lang, l)).join(' | ')} |`),
   ),
   '',
@@ -337,7 +382,7 @@ fs.writeFileSync(path.join(ROOT, 'docs/content-report.md'), report)
 for (const i of errors) console.error(`ERROR  ${i.where}: ${i.message}`)
 if (!quiet) for (const i of warnings) console.warn(`warn   ${i.where}: ${i.message}`)
 console.log(
-  `\n${lexicon.length} concepts, ${sentenceEntries.length} sentences, ${qaEntries.length} Q&A, ${grammarEntries.length} grammar points`,
+  `\n${lexicon.length} concepts, ${sentenceEntries.length} sentences, ${qaEntries.length} Q&A, ${grammarEntries.length} grammar points, ${pictureEntries.length} pictures`,
 )
 for (const lang of LANGS)
   console.log(`  ${lang} words: ${levels.map((l) => `${l} ${count('concept', lang, l)}`).join(', ')}`)

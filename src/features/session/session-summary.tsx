@@ -10,7 +10,7 @@ import { AccountPrompt } from '@/features/account/account-prompt'
 import { Celebration } from '@/features/medals/celebration'
 import { medalsToAward, nextMilestone } from '@/features/medals/medals'
 import { medalStrings } from '@/features/medals/strings'
-import { MODULES } from '@/features/modules'
+import { moduleBySkill } from '@/features/modules'
 import { Meter } from '@/features/progress/meter'
 import { sessionGain } from '@/features/progress/progress-data'
 import { progressStrings } from '@/features/progress/strings'
@@ -86,7 +86,7 @@ function NextStepsPanel({ skill, units, onRestart, onExit }: Pick<SessionSummary
     () => nextSteps(skill, lang, cards, { sessionSize, newPerSession, units }),
     [skill, lang, cards, sessionSize, newPerSession, units],
   )
-  const slug = (k: Skill) => MODULES.find((m) => m.skill === k)!.slug
+  const slug = (k: Skill) => moduleBySkill.get(k)!.slug
   const learnNew = next.learnNew
   const startNew = () => {
     if (!learnNew) return

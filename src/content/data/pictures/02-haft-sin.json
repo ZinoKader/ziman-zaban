@@ -1,0 +1,328 @@
+{
+  "area": {
+    "id": "haft-sin",
+    "order": 2,
+    "emoji": "🌱",
+    "title": {
+      "en": "Haft-sin",
+      "sv": "Haft sin"
+    },
+    "description": {
+      "en": "The Nowruz table: seven things whose Persian names start with س (s), and a few more.",
+      "sv": "Nowruzbordet: sju saker vars persiska namn börjar på س (s), och några till."
+    }
+  },
+  "pictures": [
+    {
+      "id": "sabzeh",
+      "image": {
+        "file": "sabzeh.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Sabzeh,_displayed_during_Nowruz.jpg",
+        "credit": "Maahmaah",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "sprouts (sabzeh)",
+        "sv": "groddar (sabze)",
+        "enAlt": [
+          "sprouts",
+          "sabzeh",
+          "wheatgrass"
+        ],
+        "svAlt": [
+          "groddar",
+          "sabze"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سبزه",
+          "latin": "sabze"
+        },
+        "notes": {
+          "en": "Wheat or lentil sprouts grown for Nowruz. On the thirteenth day of the new year they are thrown into running water.",
+          "sv": "Vete- eller linsgroddar som odlas till nowruz. På nyårets trettonde dag kastas de i rinnande vatten."
+        },
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samanu",
+      "image": {
+        "file": "samanu.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Samanu_05.jpg",
+        "credit": "Maryam Davarnia",
+        "license": "CC BY 4.0"
+      },
+      "gloss": {
+        "en": "samanu (wheat pudding)",
+        "sv": "samanu (vetepudding)",
+        "enAlt": [
+          "samanu"
+        ],
+        "svAlt": [
+          "samanu"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سمنو",
+          "latin": "samanu"
+        },
+        "notes": {
+          "en": "A sweet paste cooked from sprouted wheat for many hours.",
+          "sv": "En söt kräm som kokas av grodda vetekorn i många timmar."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سمنو"
+          }
+        ]
+      }
+    },
+    {
+      "id": "senjed",
+      "image": {
+        "file": "senjed.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Elaeagnus_angustifolia_MHNT.BOT.2007.43.27.jpg",
+        "credit": "Roger Culos",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "dried oleaster (senjed)",
+        "sv": "torkad silverbuskfrukt (senjed)",
+        "enAlt": [
+          "oleaster",
+          "senjed"
+        ],
+        "svAlt": [
+          "senjed"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سنجد",
+          "latin": "senjed"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سنجد"
+          }
+        ]
+      }
+    },
+    {
+      "id": "garlic",
+      "image": {
+        "file": "garlic.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg",
+        "credit": "Ivar Leidus",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "garlic",
+        "sv": "vitlök"
+      },
+      "ckb": {
+        "primary": {
+          "script": "سیر",
+          "latin": "sîr"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "garlic"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سیر",
+          "latin": "sir"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سیر"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apple",
+      "image": {
+        "file": "apple.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Apple.jpg",
+        "credit": "Abhijit Tembhekar from Mumbai, India",
+        "license": "CC BY 2.0"
+      },
+      "concept": "apple"
+    },
+    {
+      "id": "sumac",
+      "image": {
+        "file": "sumac.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Sumac.jpg",
+        "credit": "Webaware",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "sumac",
+        "sv": "sumak"
+      },
+      "ckb": {
+        "primary": {
+          "script": "سماق",
+          "latin": "simaq"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "sumac"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سماق",
+          "latin": "somâgh"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "sumac"
+          }
+        ]
+      }
+    },
+    {
+      "id": "coin",
+      "image": {
+        "file": "coin.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:5_Pahlavi_-_Iranian_Golden_coin.jpg",
+        "credit": "Bank Melli Iran",
+        "license": "Public domain"
+      },
+      "gloss": {
+        "en": "coin",
+        "sv": "mynt"
+      },
+      "fa": {
+        "primary": {
+          "script": "سکه",
+          "latin": "sekke"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سکه"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hyacinth",
+      "image": {
+        "file": "hyacinth.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Growing-and-caring-for-hyacinth-plants.jpg",
+        "credit": "Sera.B.profile",
+        "license": "CC BY 4.0"
+      },
+      "gloss": {
+        "en": "hyacinth",
+        "sv": "hyacint"
+      },
+      "fa": {
+        "primary": {
+          "script": "سنبل",
+          "latin": "sonbol"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "hyacinth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goldfish",
+      "image": {
+        "file": "goldfish.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Carassius_auratus_auratus_(goldfish)_1.jpg",
+        "credit": "James St. John",
+        "license": "CC BY 2.0"
+      },
+      "gloss": {
+        "en": "goldfish",
+        "sv": "guldfisk"
+      },
+      "fa": {
+        "primary": {
+          "script": "ماهی قرمز",
+          "latin": "mâhi-ye ghermez"
+        },
+        "notes": {
+          "en": "Literally \"red fish\".",
+          "sv": "Ordagrant \"röd fisk\"."
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "goldfish"
+          }
+        ]
+      }
+    },
+    {
+      "id": "candle",
+      "image": {
+        "file": "candle.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Candle_flame_closeup.jpg",
+        "credit": "domdomegg",
+        "license": "CC BY 4.0"
+      },
+      "gloss": {
+        "en": "candle",
+        "sv": "ljus",
+        "svAlt": [
+          "stearinljus"
+        ]
+      },
+      "senseNote": {
+        "en": "(wax candle)",
+        "sv": "(stearinljus)"
+      },
+      "ckb": {
+        "primary": {
+          "script": "مۆم",
+          "latin": "mom"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "ckb:مۆم"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "شمع",
+          "latin": "sham'"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:شمع"
+          }
+        ]
+      }
+    }
+  ]
+}

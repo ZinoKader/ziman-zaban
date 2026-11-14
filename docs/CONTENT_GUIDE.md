@@ -19,6 +19,7 @@ Everything the learner sees in Sorani or Persian lives in JSON under `src/conten
 | `src/content/data/sentences/` | `sentences` | unit |
 | `src/content/data/qa/` | `items` | unit |
 | `src/content/data/grammar/` | `points` | unit |
+| `src/content/data/pictures/` | `area`, `pictures` | picture area, e.g. `01-dishes.json` |
 
 Files are picked up automatically (`import.meta.glob`). The types are in `src/content/types.ts` and the strict zod schemas in `src/content/schema.ts`. Unknown keys are errors.
 
@@ -174,6 +175,16 @@ Never `x`, `q`, or `c` without `h`.
 
 One point per concept, per language. `id` is prefixed with the language (`ckb-present-tense`, `fa-ezafe`). The explanation is short (under ~120 words), plain, and contrastive with Swedish or English where that helps. It supports `**bold**` and `` `code` `` only. Give two to four examples with tokens.
 
+## Pictures
+
+Picture recognition shows a photo and four words. Each file is one area (dishes, the pantry, the market) with an `area` header (`id`, `order`, `emoji`, `title`, `description`) and its `pictures`.
+
+- `image.file` is a file in `public/pictures/`: 720×540 webp, cropped to 4:3 so the thing fills the frame. `image.source` links to the Wikimedia Commons file page, `image.credit` names the photographer and `image.license` is CC0, public domain, CC BY or CC BY-SA. The About page lists every credit.
+- Pick photos where the thing is easy to tell apart from the other pictures in its area. Leave out things that look alike in a photo (salt and sugar next to flour).
+- When the word is already in the lexicon, set `concept` to its id and give nothing else: the gloss, forms and audio come from the lexicon. Otherwise give `gloss` and `ckb` and/or `fa` like a concept.
+- A picture may teach one language only. If you are not sure of the word in a language, leave that language out. The test suite needs at least four pictures per area in each language, so there are always three wrong options.
+- Wrong options come from the same area first, and never share a written form with the answer.
+
 ## Sources
 
 `sources` lists where you checked a form. The validator re-checks Wiktionary and Tatoeba itself, so a false claim does not raise the score.
@@ -185,6 +196,7 @@ One point per concept, per language. `id` is prefixed with the language (`ckb-pr
 | `thackston-sorani-grammar` | W. M. Thackston, *Sorani Kurdish: A Reference Grammar* (`ref` = page or section) |
 | `kim-kurdish-grammar` | D. H. Kim, *A Basic Guide to Kurdish Grammar* |
 | `asosoft` | AsoSoft corpus or lexicon |
+| `wikipedia` | The title of the Sorani or Persian Wikipedia article linked from the English one (`ref` = article title) |
 | `native-speaker` | Confirmed by a native speaker (only via the review overlay) |
 | `author` | Written by the content author from knowledge, not verified elsewhere |
 

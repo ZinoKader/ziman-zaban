@@ -1,11 +1,11 @@
-import { BookOpenCheck, Brain, Blocks, MessagesSquare, type LucideIcon } from 'lucide-react'
+import { BookOpenCheck, Brain, Blocks, Images, MessagesSquare, type LucideIcon } from 'lucide-react'
 import type { Skill } from '@/content/types'
 import { defineStrings } from '@/i18n'
 
 export interface ModuleMeta {
   skill: Skill
   slug: string
-  step: number
+  step?: number
   icon: LucideIcon
   /** Tailwind classes using the module colour tokens. */
   bg: string
@@ -14,7 +14,15 @@ export interface ModuleMeta {
   ring: string
 }
 
-export const MODULES: ModuleMeta[] = [
+export type PathSkill = Exclude<Skill, 'pictures'>
+
+export interface PathModule extends ModuleMeta {
+  skill: PathSkill
+  step: number
+}
+
+/** The four steps of the course path, in order. */
+export const MODULES: PathModule[] = [
   {
     skill: 'recognition',
     slug: 'recognition',
@@ -57,8 +65,20 @@ export const MODULES: ModuleMeta[] = [
   },
 ]
 
-export const moduleBySlug = new Map(MODULES.map((m) => [m.slug, m]))
-export const moduleBySkill = new Map(MODULES.map((m) => [m.skill, m]))
+export const PICTURES_MODULE: ModuleMeta = {
+  skill: 'pictures',
+  slug: 'pictures',
+  icon: Images,
+  bg: 'bg-mod-pictures',
+  text: 'text-mod-pictures',
+  soft: 'bg-mod-pictures/10',
+  ring: 'ring-mod-pictures/30',
+}
+
+export const ALL_MODULES: ModuleMeta[] = [...MODULES, PICTURES_MODULE]
+
+export const moduleBySlug = new Map(ALL_MODULES.map((m) => [m.slug, m]))
+export const moduleBySkill = new Map(ALL_MODULES.map((m) => [m.skill, m]))
 
 /** Why each module works, in one or two sentences, with the research behind it. */
 export const moduleWhy = defineStrings({
@@ -71,6 +91,8 @@ export const moduleWhy = defineStrings({
       'Words only become speech when you can put them in order with the right endings. Building sentences from words you already know focuses attention on grammar: word order (verb last), suffixes and agreement.',
     response:
       'Answering a question requires understanding it first, which leads to deeper processing than repeating a model sentence. Studies of question-and-answer practice found better long-term retention than repetition. This is the closest step to a real conversation.',
+    pictures:
+      'Pictures are remembered better than words (the picture superiority effect), and linking a word straight to an image skips the detour through English or Swedish. The photos show dishes and things as they look in Iran and Kurdistan.',
   },
   sv: {
     recognition:
@@ -81,5 +103,7 @@ export const moduleWhy = defineStrings({
       'Ord blir tal först när du kan sätta dem i rätt ordning med rätt ändelser. Att bygga meningar av ord du redan kan riktar uppmärksamheten mot grammatiken: ordföljd (verbet sist), suffix och kongruens.',
     response:
       'Att svara på en fråga kräver att man först förstår den, vilket ger djupare bearbetning än att upprepa en förebildsmening. Studier av fråga-svar-övning visar bättre långsiktigt minne än upprepning. Det här är steget närmast ett riktigt samtal.',
+    pictures:
+      'Bilder minns bättre än ord (bildöverlägsenhetseffekten), och när ordet kopplas direkt till en bild slipper du omvägen via svenska eller engelska. Fotona visar rätter och saker som de ser ut i Iran och Kurdistan.',
   },
 })

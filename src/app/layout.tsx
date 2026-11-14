@@ -15,7 +15,7 @@ import type { TargetLang } from '@/content/types'
 import { common } from '@/i18n/common'
 import { cn } from '@/lib/utils'
 import { AccountMenu } from '@/features/account/account-menu'
-import { MODULES } from '@/features/modules'
+import { ALL_MODULES, MODULES, PICTURES_MODULE } from '@/features/modules'
 import { SaveIndicator } from '@/features/progress/save-indicator'
 import { progressStrings } from '@/features/progress/strings'
 import { hasUnseen } from '@/features/whats-new/changelog'
@@ -116,13 +116,14 @@ export function AppLayout() {
                 <span className="hidden sm:inline lg:hidden xl:inline">{s.appName}</span>
               </NavLink>
               <nav className="ms-2 hidden items-center gap-1 lg:flex xl:ms-4">
-                {MODULES.map((m) => (
+                {ALL_MODULES.map((m) => (
                   <NavLink
                     key={m.slug}
                     to={`/learn/${m.slug}`}
                     className={({ isActive }) =>
                       cn(
                         'flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground',
+                        !m.step && 'hidden xl:flex',
                         isActive && 'bg-muted text-foreground',
                       )
                     }
@@ -160,6 +161,11 @@ export function AppLayout() {
                     <DropdownMenuItem asChild>
                       <NavLink to="/progress">
                         <ChartNoAxesColumn /> {p.nav}
+                      </NavLink>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem asChild>
+                      <NavLink to={`/learn/${PICTURES_MODULE.slug}`}>
+                        <PICTURES_MODULE.icon /> {s.nav.pictures}
                       </NavLink>
                     </DropdownMenuItem>
                     {MORE.slice(0, 3).map((m) => (

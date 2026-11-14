@@ -7,7 +7,7 @@ import { setAudioManifest } from '@/lib/audio'
 import { useSettings } from '@/store/settings'
 import { AboutPage } from './about-page'
 import { CITATIONS, PRINCIPLES } from './citations'
-import { countEvidence, EVIDENCE_LEVELS, exampleIdAt } from './evidence-stats'
+import { countEvidence, EVIDENCE_KINDS, EVIDENCE_LEVELS, exampleIdAt } from './evidence-stats'
 
 beforeAll(() => {
   globalThis.ResizeObserver ??= class {
@@ -46,7 +46,7 @@ describe('countEvidence', () => {
 
   it('accounts for every item in the generated evidence file', () => {
     const counts = countEvidence()
-    const total = (['concept', 'sentence', 'qa'] as const).reduce((n, k) => n + counts[k].ckb.total + counts[k].fa.total, 0)
+    const total = EVIDENCE_KINDS.reduce((n, k) => n + counts[k].ckb.total + counts[k].fa.total, 0)
     expect(total).toBe(Object.keys(evidenceJson).length)
     for (const level of EVIDENCE_LEVELS) {
       const id = exampleIdAt(level, 'ckb')
@@ -85,8 +85,10 @@ describe('AboutPage', () => {
     const strongRow = screen.getByRole('row', { name: /Confirmed by two sources/ })
     expect(within(strongRow).getAllByText(String(counts.concept.ckb.strong)).length).toBeGreaterThan(0)
 
-    expect(screen.getByText('License: CC BY-SA 4.0')).toBeInTheDocument()
+    expect(screen.getAllByText('License: CC BY-SA 4.0')).toHaveLength(2)
     expect(screen.getByText('License: CC BY 2.0 FR')).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: /^Photo credits/ }))
+    expect(screen.getAllByRole('link', { name: /CC BY/ }).length).toBeGreaterThan(10)
     expect(screen.getByRole('link', { name: /Open native review/ })).toHaveAttribute('href', '/review')
   })
 

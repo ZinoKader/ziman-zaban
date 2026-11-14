@@ -225,7 +225,7 @@ export type Database = {
       }
     }
     Enums: {
-      skill: "recognition" | "recall" | "construction" | "response"
+      skill: "recognition" | "recall" | "construction" | "response" | "pictures"
       target_lang: "ckb" | "fa"
     }
     CompositeTypes: {
@@ -354,7 +354,7 @@ export type CompositeTypes<
 export const Constants = {
   public: {
     Enums: {
-      skill: ["recognition", "recall", "construction", "response"],
+      skill: ["recognition", "recall", "construction", "response", "pictures"],
       target_lang: ["ckb", "fa"],
     },
   },

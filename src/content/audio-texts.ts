@@ -1,9 +1,9 @@
 import { canonicalize } from '@/lib/script/normalize'
-import type { Concept, Form, GrammarPoint, QAItem, Sentence, TargetLang } from './types'
+import type { Concept, Form, GrammarPoint, Picture, QAItem, Sentence, TargetLang } from './types'
 
 export type TextKind = 'word' | 'sentence' | 'question' | 'answer' | 'grammar'
 
-/** One text the app can play, keyed by canonical text. `refs` are `concept:id`, `sentence:id`, `qa:id` or `grammar:id`. */
+/** One text the app can play, keyed by canonical text. `refs` are `concept:id`, `sentence:id`, `qa:id`, `grammar:id` or `picture:id`. */
 export interface AudioText {
   text: string
   latin: string
@@ -16,6 +16,7 @@ export interface AudioTextSources {
   sentences: Sentence[]
   qaItems: QAItem[]
   grammarPoints: GrammarPoint[]
+  pictures: Picture[]
 }
 
 /** Lower number wins when the same text appears in several roles. */
@@ -28,7 +29,7 @@ const LANGS = ['ckb', 'fa'] as const
 const wordCount = (s: string) => s.trim().split(/\s+/).length
 
 /** Every target-language text the app can play: words, sentences, questions, filled answers and grammar examples. */
-export function collectAudioTexts({ concepts, sentences, qaItems, grammarPoints }: AudioTextSources): Record<TargetLang, AudioText[]> {
+export function collectAudioTexts({ concepts, sentences, qaItems, grammarPoints, pictures }: AudioTextSources): Record<TargetLang, AudioText[]> {
   const texts: Record<TargetLang, Map<string, AudioText>> = { ckb: new Map(), fa: new Map() }
 
   const add = (lang: TargetLang, raw: { text?: string; script?: string; latin: string } | undefined, kind: TextKind, ref: string) => {
@@ -50,6 +51,13 @@ export function collectAudioTexts({ concepts, sentences, qaItems, grammarPoints 
       const e = c[lang]
       if (!e) continue
       for (const f of [e.primary, ...(e.variants ?? []), e.plural].filter(Boolean) as Form[]) add(lang, f, 'word', `concept:${c.id}`)
+    }
+
+  for (const p of pictures)
+    for (const lang of LANGS) {
+      const e = p[lang]
+      if (!e) continue
+      for (const f of [e.primary, ...(e.variants ?? [])]) add(lang, f, 'word', `picture:${p.id}`)
     }
 
   for (const s of sentences)

@@ -1,0 +1,407 @@
+{
+  "area": {
+    "id": "cafe",
+    "order": 5,
+    "emoji": "☕",
+    "title": {
+      "en": "At a café",
+      "sv": "På ett kafé"
+    },
+    "description": {
+      "en": "Tea, coffee and something sweet.",
+      "sv": "Te, kaffe och något sött."
+    }
+  },
+  "pictures": [
+    {
+      "id": "tea",
+      "image": {
+        "file": "tea.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Persian_tea_glass.JPG",
+        "credit": "Unknown",
+        "license": "Public domain"
+      },
+      "concept": "tea"
+    },
+    {
+      "id": "coffee",
+      "image": {
+        "file": "coffee.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG",
+        "credit": "Julius Schorzman",
+        "license": "CC BY-SA 2.0"
+      },
+      "concept": "coffee"
+    },
+    {
+      "id": "milk",
+      "image": {
+        "file": "milk.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Hemp_milk_with_hemp_seeds_2.jpg",
+        "credit": "Mx. Granger",
+        "license": "CC0"
+      },
+      "concept": "milk"
+    },
+    {
+      "id": "sugar-cubes",
+      "image": {
+        "file": "sugar-cubes.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:W%C3%BCrfelzucker_--_2018_--_3564.jpg",
+        "credit": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "sugar cubes",
+        "sv": "sockerbitar",
+        "enAlt": [
+          "sugar cube"
+        ],
+        "svAlt": [
+          "sockerbit"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "قەند",
+          "latin": "qend"
+        },
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "قند",
+          "latin": "ghand"
+        },
+        "notes": {
+          "en": "Many Iranians hold a sugar cube in the mouth and drink the tea through it.",
+          "sv": "Många iranier håller en sockerbit i munnen och dricker teet genom den."
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "sugar cube"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cake",
+      "image": {
+        "file": "cake.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg",
+        "credit": "Daria Yakovleva",
+        "license": "CC0"
+      },
+      "gloss": {
+        "en": "cake",
+        "sv": "tårta",
+        "svAlt": [
+          "kaka"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "کێک",
+          "latin": "kêk"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cake"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "کیک",
+          "latin": "keyk"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:کیک"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ice-cream",
+      "image": {
+        "file": "ice-cream.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Gilak,_Archway,_London_(5241860049).jpg",
+        "credit": "Ewan Munro from London, UK",
+        "license": "CC BY-SA 2.0"
+      },
+      "gloss": {
+        "en": "ice cream",
+        "sv": "glass"
+      },
+      "fa": {
+        "primary": {
+          "script": "بستنی",
+          "latin": "bastani"
+        },
+        "notes": {
+          "en": "بستنی سنتی bastani sonnati is Persian ice cream with saffron, rosewater and pistachios.",
+          "sv": "بستنی سنتی bastani sonnati är persisk glass med saffran, rosenvatten och pistaschnötter."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:بستنی"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pastries",
+      "image": {
+        "file": "pastries.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Pastries_of_Iran_04.jpg",
+        "credit": "Mehdi",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "pastries",
+        "sv": "bakverk",
+        "enAlt": [
+          "sweets",
+          "cookies"
+        ],
+        "svAlt": [
+          "kakor",
+          "småkakor"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "شیرینی",
+          "latin": "şîrînî"
+        },
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "شیرینی",
+          "latin": "shirini"
+        },
+        "notes": {
+          "en": "The word also means sweetness.",
+          "sv": "Ordet betyder också sötma."
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "pastry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "baklava",
+      "image": {
+        "file": "baklava.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Baklava(1).png",
+        "credit": "Sakaman",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "baklava",
+        "sv": "baklava"
+      },
+      "ckb": {
+        "primary": {
+          "script": "بەقلاوە",
+          "latin": "beqlawe"
+        },
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "باقلوا",
+          "latin": "bâghlavâ"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:باقلوا"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samovar",
+      "image": {
+        "file": "samovar.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Samovar.silver.jpg",
+        "credit": "Unknown",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "samovar",
+        "sv": "samovar"
+      },
+      "ckb": {
+        "primary": {
+          "script": "سەماوەر",
+          "latin": "semawer"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "samovar"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سماور",
+          "latin": "samâvar"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سماور"
+          }
+        ]
+      }
+    },
+    {
+      "id": "teapot",
+      "image": {
+        "file": "teapot.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Teapot_2010_G1.jpg",
+        "credit": "George Chernilevsky",
+        "license": "Public domain"
+      },
+      "gloss": {
+        "en": "teapot",
+        "sv": "tekanna"
+      },
+      "fa": {
+        "primary": {
+          "script": "قوری",
+          "latin": "ghuri"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:قوری"
+          }
+        ]
+      }
+    },
+    {
+      "id": "waiter",
+      "image": {
+        "file": "waiter.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Serving_coffee_in_a_cafe_during_the_morning_hours_with_a_waiter_carrying_a_tray_of_drinks_for_customers.jpg",
+        "credit": "Shixart1985",
+        "license": "CC BY 2.0"
+      },
+      "gloss": {
+        "en": "waiter",
+        "sv": "servitör",
+        "enAlt": [
+          "waitress"
+        ],
+        "svAlt": [
+          "servitris"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "گارسۆن",
+          "latin": "garson"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "ckb:گارسۆن"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "گارسون",
+          "latin": "gârson"
+        },
+        "variants": [
+          {
+            "script": "پیشخدمت",
+            "latin": "pishkhedmat",
+            "register": "formal"
+          }
+        ],
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doogh",
+      "image": {
+        "file": "doogh.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Doogh_in_Ankara.jpg",
+        "credit": "E4024",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "doogh (yogurt drink)",
+        "sv": "dugh (yoghurtdryck)",
+        "enAlt": [
+          "doogh",
+          "yogurt drink",
+          "ayran"
+        ],
+        "svAlt": [
+          "dugh",
+          "yoghurtdryck"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "دۆ",
+          "latin": "do"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "doogh"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "دوغ",
+          "latin": "dugh"
+        },
+        "notes": {
+          "en": "Salty yogurt mixed with water, often with dried mint.",
+          "sv": "Salt yoghurt blandad med vatten, ofta med torkad mynta."
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "doogh"
+          }
+        ]
+      }
+    }
+  ]
+}

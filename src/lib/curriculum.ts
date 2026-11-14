@@ -4,6 +4,7 @@ import {
   sentencesFor,
   unitById,
 } from '@/content'
+import { pictureAreaById, picturesFor } from '@/content/pictures'
 import type { Concept, QAItem, Sentence, Skill, TargetLang, Token } from '@/content/types'
 import { cardKey, inLearningSteps, isDue, isLearned, retrievability, type CardKey, type StoredCard } from '@/lib/srs'
 
@@ -14,6 +15,8 @@ import { cardKey, inLearningSteps, isDue, isLearned, retrievability, type CardKe
  *   recall       meaning -> target word        unlocked once a word is recognised reliably
  *   construction build whole sentences         unlocked once all its words have been introduced
  *   response     answer questions in-language  unlocked once its words can be recalled
+ *
+ * Pictures sits beside the path: photo -> word, grouped by area, all open from the start.
  *
  * Testing in the direction you want to master matters: receptive practice builds
  * receptive knowledge, productive practice builds productive knowledge.
@@ -103,6 +106,13 @@ export function moduleItems(skill: Skill, lang: TargetLang, cards: Cards) {
         order: unitOrder(q.unit) * 10_000 + i,
         unit: q.unit,
         unlock: qaUnlock(q, lang, cards),
+      }))
+    case 'pictures':
+      return picturesFor(lang).map((p, i) => ({
+        id: p.id,
+        order: (pictureAreaById.get(p.area)?.order ?? 999) * 10_000 + i,
+        unit: p.area,
+        unlock: { unlocked: true, missing: [] },
       }))
   }
 }

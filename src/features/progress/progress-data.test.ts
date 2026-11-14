@@ -70,10 +70,10 @@ describe('wordState and courseProgress', () => {
 })
 
 describe('moduleProgress', () => {
-  it('reports the curriculum status of all four modules in path order', () => {
+  it('reports the curriculum status of the path modules in order, then Picture recognition', () => {
     const cards: Cards = { [cardKey('ckb', 'recognition', words[0].id)]: learned() }
     const m = moduleProgress('ckb', cards, now)
-    expect(m.map((x) => x.skill)).toEqual(['recognition', 'recall', 'construction', 'response'])
+    expect(m.map((x) => x.skill)).toEqual(['recognition', 'recall', 'construction', 'response', 'pictures'])
     expect(m[0].status).toEqual(moduleStatus('recognition', 'ckb', cards, now))
     expect(m[0].status.learned).toBe(1)
   })

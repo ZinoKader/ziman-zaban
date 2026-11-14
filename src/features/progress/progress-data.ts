@@ -2,7 +2,7 @@ import { conceptById, conceptsFor, units } from '@/content'
 import type { Concept, Skill, TargetLang, Unit } from '@/content/types'
 import { moduleItems, moduleStatus, type Cards, type ModuleStatus } from '@/lib/curriculum'
 import { cardKey, isLearned, parseCardKey, type CardKey } from '@/lib/srs'
-import { MODULES } from '@/features/modules'
+import { ALL_MODULES } from '@/features/modules'
 import { dayKey, type DayStats } from '@/store/progress'
 
 /** Learned, still being learned, and total; `learning + learned <= total`. */
@@ -48,7 +48,7 @@ export interface ModuleProgress {
 }
 
 export function moduleProgress(lang: TargetLang, cards: Cards, now = new Date()): ModuleProgress[] {
-  return MODULES.map((m) => ({ skill: m.skill, status: moduleStatus(m.skill, lang, cards, now) }))
+  return ALL_MODULES.map((m) => ({ skill: m.skill, status: moduleStatus(m.skill, lang, cards, now) }))
 }
 
 export interface UnitProgress {

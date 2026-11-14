@@ -1,0 +1,618 @@
+{
+  "area": {
+    "id": "market",
+    "order": 4,
+    "emoji": "🧺",
+    "title": {
+      "en": "At the market",
+      "sv": "På marknaden"
+    },
+    "description": {
+      "en": "Fruit, vegetables and herbs from the bazaar.",
+      "sv": "Frukt, grönsaker och örter från basaren."
+    }
+  },
+  "pictures": [
+    {
+      "id": "watermelon",
+      "image": {
+        "file": "watermelon.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Slice_of_Watermelon_from_Wilson_Farm,_Lexington_MA.jpg",
+        "credit": "John Phelan",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "watermelon",
+        "sv": "vattenmelon"
+      },
+      "ckb": {
+        "primary": {
+          "script": "شووتی",
+          "latin": "şûtî"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "watermelon"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "هندوانه",
+          "latin": "hendevâne"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "watermelon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pomegranate",
+      "image": {
+        "file": "pomegranate.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Pomegranate_(opened).jpg",
+        "credit": "Ivar Leidus",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "pomegranate",
+        "sv": "granatäpple"
+      },
+      "ckb": {
+        "primary": {
+          "script": "هەنار",
+          "latin": "henar"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "pomegranate"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "انار",
+          "latin": "anâr"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "pomegranate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tomato",
+      "image": {
+        "file": "tomato.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg",
+        "credit": "Softeis",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "tomatoes",
+        "sv": "tomater",
+        "enAlt": [
+          "tomato"
+        ],
+        "svAlt": [
+          "tomat"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "تەماتە",
+          "latin": "temate"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "tomato"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "گوجه‌فرنگی",
+          "latin": "gowje-farangi"
+        },
+        "variants": [
+          {
+            "script": "گوجه",
+            "latin": "gowje",
+            "register": "colloquial"
+          }
+        ],
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:گوجه‌فرنگی"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cucumber",
+      "image": {
+        "file": "cucumber.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Ryerson_Market_cucumbers_on_sale.jpg",
+        "credit": "Jason Zhang",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "cucumbers",
+        "sv": "gurkor",
+        "enAlt": [
+          "cucumber"
+        ],
+        "svAlt": [
+          "gurka"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "خەیار",
+          "latin": "xeyar"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cucumber"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "خیار",
+          "latin": "khiyâr"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:خیار"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eggplant",
+      "image": {
+        "file": "eggplant.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Aubergine-Varianten.JPG",
+        "credit": "Grey Geezer",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "eggplant",
+        "sv": "aubergine",
+        "enAlt": [
+          "aubergine",
+          "eggplants",
+          "aubergines"
+        ],
+        "svAlt": [
+          "auberginer",
+          "äggplanta"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "باینجان",
+          "latin": "bayincan"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "eggplant"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "بادمجان",
+          "latin": "bâdemjân"
+        },
+        "variants": [
+          {
+            "script": "بادنجان",
+            "latin": "bâdenjân"
+          }
+        ],
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "eggplant"
+          }
+        ]
+      }
+    },
+    {
+      "id": "potato",
+      "image": {
+        "file": "potato.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Solanum_tuberosum_Red_Scarlett20170523_7825.jpg",
+        "credit": "Bff",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "potatoes",
+        "sv": "potatis",
+        "enAlt": [
+          "potato"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "پەتاتە",
+          "latin": "petate"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "potato"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سیب‌زمینی",
+          "latin": "sib-zamini"
+        },
+        "notes": {
+          "en": "Literally \"earth apple\", like French pomme de terre.",
+          "sv": "Ordagrant \"jordäpple\", som det gamla svenska ordet."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سیب‌زمینی"
+          }
+        ]
+      }
+    },
+    {
+      "id": "onion",
+      "image": {
+        "file": "onion.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Onion_on_White.JPG",
+        "credit": "Colin",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "onion",
+        "sv": "lök",
+        "enAlt": [
+          "onions"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "پیاز",
+          "latin": "pyaz"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "onion"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "پیاز",
+          "latin": "piyâz"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "onion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lemon",
+      "image": {
+        "file": "lemon.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Lemon.jpg",
+        "credit": "André Karwath aka Aka",
+        "license": "CC BY-SA 2.5"
+      },
+      "gloss": {
+        "en": "lemons",
+        "sv": "citroner",
+        "enAlt": [
+          "lemon"
+        ],
+        "svAlt": [
+          "citron"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "لیمۆ",
+          "latin": "lîmo"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "lemon"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "لیمو",
+          "latin": "limu"
+        },
+        "variants": [
+          {
+            "script": "لیموترش",
+            "latin": "limu-torsh"
+          }
+        ],
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "lemon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grapes",
+      "image": {
+        "file": "grapes.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3368_White_Grapes.jpg",
+        "credit": "Carl Davies, CSIRO",
+        "license": "CC BY 3.0"
+      },
+      "gloss": {
+        "en": "grapes",
+        "sv": "vindruvor",
+        "enAlt": [
+          "grape"
+        ],
+        "svAlt": [
+          "druvor",
+          "vindruva"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "ترێ",
+          "latin": "trê"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "grape"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "انگور",
+          "latin": "angur"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "grape"
+          }
+        ]
+      }
+    },
+    {
+      "id": "figs",
+      "image": {
+        "file": "figs.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Bowl_of_Figs.jpg",
+        "credit": "BenAveling",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "figs",
+        "sv": "fikon",
+        "enAlt": [
+          "fig"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "هەنجیر",
+          "latin": "hencîr"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "fig"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "انجیر",
+          "latin": "anjir"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "fig"
+          }
+        ]
+      }
+    },
+    {
+      "id": "carrot",
+      "image": {
+        "file": "carrot.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Carrots_at_Ljubljana_Central_Market.JPG",
+        "credit": "domdomegg",
+        "license": "CC BY 4.0"
+      },
+      "gloss": {
+        "en": "carrots",
+        "sv": "morötter",
+        "enAlt": [
+          "carrot"
+        ],
+        "svAlt": [
+          "morot"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "گێزەر",
+          "latin": "gêzer"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "carrot"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "هویج",
+          "latin": "havij"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "carrot"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cherries",
+      "image": {
+        "file": "cherries.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Cherry_Stella444.jpg",
+        "credit": "Benjamint444, edited by Fir0002",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "cherries",
+        "sv": "körsbär",
+        "enAlt": [
+          "cherry"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "گێلاس",
+          "latin": "gêlas"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cherry"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "گیلاس",
+          "latin": "gilâs"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "cherry"
+          }
+        ]
+      }
+    },
+    {
+      "id": "herbs",
+      "image": {
+        "file": "herbs.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Shemesh_family_Sabzi_plate_02.jpg",
+        "credit": "Nizzan Cohen",
+        "license": "CC BY 4.0"
+      },
+      "gloss": {
+        "en": "fresh herbs",
+        "sv": "färska örter",
+        "enAlt": [
+          "herbs"
+        ],
+        "svAlt": [
+          "örter"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سبزی",
+          "latin": "sabzi"
+        },
+        "notes": {
+          "en": "سبزی خوردن sabzi khordan is a plate of fresh herbs and radishes served with a meal.",
+          "sv": "سبزی خوردن sabzi khordan är ett fat med färska örter och rädisor som serveras till maten."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سبزی خوردن"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scales",
+      "image": {
+        "file": "scales.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Balance_(68976145).jpeg",
+        "credit": "Bertrand Paris Romaskevich",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "scales",
+        "sv": "våg",
+        "enAlt": [
+          "scale"
+        ],
+        "svAlt": [
+          "vågen"
+        ]
+      },
+      "senseNote": {
+        "en": "(for weighing)",
+        "sv": "(för att väga)"
+      },
+      "ckb": {
+        "primary": {
+          "script": "تەرازوو",
+          "latin": "terazû"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "scales"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "ترازو",
+          "latin": "tarâzu"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:ترازو"
+          }
+        ]
+      }
+    }
+  ]
+}

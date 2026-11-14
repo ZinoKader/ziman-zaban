@@ -4398,6 +4398,665 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/LL-Q9168_%28fas%29-Darafsh-sifr.wav/LL-Q9168_%28fas%29-Darafsh-sifr.wav.mp3",
   "ipa": "[sæ.fǽɹ]"
  },
+ "picture:ckb:baklava": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:ckb:beans": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:ckb:biryani": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:ckb:cake": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:candle": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:cardamom": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:carrot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:cherries": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:chickpeas": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:cinnamon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:cucumber": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:dates": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:dolma": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:ckb:doogh": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:eggplant": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:figs": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:flour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:garlic": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:grapes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:honey": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:kebab": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:lemon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:lentil-soup": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:ckb:lentils": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:onion": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:pastries": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:pomegranate": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:potato": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:raisins": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:samovar": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:scales": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:sugar-cubes": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:ckb:sumac": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:ckb:tomato": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "picture:ckb:turmeric": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "picture:ckb:waiter": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:walnuts": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:ckb:watermelon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:abgoosht": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:ash-reshteh": {
+  "level": "attested",
+  "checks": [
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:baklava": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:beans": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:cake": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 38 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:candle": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:cardamom": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:carrot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:cherries": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:chickpeas": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:cinnamon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:coin": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:cucumber": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:dates": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:dolma": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:doogh": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:eggplant": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:figs": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:flour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:garlic": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:ghormeh-sabzi": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:goldfish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 43 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:grapes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:herbs": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:honey": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:hyacinth": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:ice-cream": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:joojeh-kabab": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:kashk-bademjan": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:kebab": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:fa:kuku-sabzi": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:fa:lemon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:lentil-soup": {
+  "level": "attested",
+  "checks": [
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:lentils": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:onion": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:pastries": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:pistachios": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:pomegranate": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:potato": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:raisins": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:sabzeh": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:saffron": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:samanu": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:samovar": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:scales": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:senjed": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:sholeh-zard": {
+  "level": "none",
+  "checks": []
+ },
+ "picture:fa:sugar-cubes": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:sumac": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "picture:fa:tahdig": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:teapot": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:tomato": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:turmeric": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "picture:fa:waiter": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:walnuts": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:watermelon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "picture:fa:zereshk-polo": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
  "qa:ckb:are-you-hungry": {
   "level": "none",
   "checks": [

@@ -1,6 +1,7 @@
 import type { ComponentType } from 'react'
 import type { Skill } from '@/content/types'
 import { ConstructionExercise } from './construction/construction-exercise'
+import { PicturesExercise } from './pictures/pictures-exercise'
 import { RecallExercise } from './recall/recall-exercise'
 import { RecognitionExercise } from './recognition/recognition-exercise'
 import { ResponseExercise } from './response/response-exercise'
@@ -12,4 +13,5 @@ export const EXERCISES: Record<Skill, ComponentType<ExerciseProps>> = {
   recall: RecallExercise,
   construction: ConstructionExercise,
   response: ResponseExercise,
+  pictures: PicturesExercise,
 }

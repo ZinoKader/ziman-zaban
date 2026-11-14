@@ -98,7 +98,7 @@ describe('HomePage', () => {
     expect(course).toHaveAttribute('aria-valuenow', '3')
     expect(screen.getByRole('progressbar', { name: `Recognition: 3 of ${total} learned` })).toBeInTheDocument()
     expect(screen.getByText(`3/${total} · 2 in progress`)).toBeInTheDocument()
-    expect(screen.getAllByRole('progressbar', { name: /: 0 of \d+ learned/ })).toHaveLength(3)
+    expect(screen.getAllByRole('progressbar', { name: /: 0 of \d+ learned/ })).toHaveLength(4)
     expect(screen.getByText('8 reviews done')).toBeInTheDocument()
     expect(screen.getByText('2-day streak')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /See all progress/ })).toHaveAttribute('href', '/progress')

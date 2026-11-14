@@ -1,6 +1,6 @@
 import type { Skill, TargetLang } from '@/content/types'
 import { moduleStatus, type Cards } from '@/lib/curriculum'
-import { MODULES } from '@/features/modules'
+import { ALL_MODULES } from '@/features/modules'
 import { queueFor, type QueueSettings } from './use-session'
 
 export interface NextSteps {
@@ -16,7 +16,7 @@ export interface NextSteps {
 export function nextSteps(skill: Skill, lang: TargetLang, cards: Cards, q: QueueSettings, now = new Date()): NextSteps {
   const here = queueFor(skill, lang, cards, 'new', q).length
   const reviews = queueFor(skill, lang, cards, 'reviews', q).length
-  const others = MODULES.filter((m) => m.skill !== skill).map((m) => ({ skill: m.skill, status: moduleStatus(m.skill, lang, cards, now) }))
+  const others = ALL_MODULES.filter((m) => m.skill !== skill).map((m) => ({ skill: m.skill, status: moduleStatus(m.skill, lang, cards, now) }))
   const elsewhere = others.find((m) => m.status.available > 0)
   const learnNew = here
     ? { skill, count: here }

@@ -1,0 +1,526 @@
+{
+  "area": {
+    "id": "dishes",
+    "order": 1,
+    "emoji": "🍲",
+    "title": {
+      "en": "Dishes",
+      "sv": "Maträtter"
+    },
+    "description": {
+      "en": "Stews, kebabs and rice dishes from Iranian and Kurdish kitchens.",
+      "sv": "Grytor, kebab och risrätter från iranska och kurdiska kök."
+    }
+  },
+  "pictures": [
+    {
+      "id": "ghormeh-sabzi",
+      "image": {
+        "file": "ghormeh-sabzi.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:%D7%97%D7%95%D7%A8%D7%A9%D7%98_%D7%A1%D7%91%D7%96%D7%99.jpg",
+        "credit": "Edsel Little",
+        "license": "CC BY-SA 2.0"
+      },
+      "gloss": {
+        "en": "ghormeh sabzi (herb stew)",
+        "sv": "ghormeh sabzi (örtgryta)",
+        "enAlt": [
+          "ghormeh sabzi"
+        ],
+        "svAlt": [
+          "ghormeh sabzi"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "قورمه‌سبزی",
+          "latin": "ghorme-sabzi"
+        },
+        "variants": [
+          {
+            "script": "قرمه‌سبزی",
+            "latin": "ghorme-sabzi"
+          }
+        ],
+        "notes": {
+          "en": "A stew of fried herbs, kidney beans, meat and dried lime. Many Iranians call it the national dish.",
+          "sv": "En gryta av stekta örter, kidneybönor, kött och torkad lime. Många iranier kallar den nationalrätten."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:قرمه‌سبزی"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kebab",
+      "image": {
+        "file": "kebab.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:20240809_Kabab_koobideh_%26_Kabuli_Pulao_Restaurant_Safrani_Berlin_anagoria.jpg",
+        "credit": "Anagoria",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "kebab",
+        "sv": "kebab"
+      },
+      "ckb": {
+        "primary": {
+          "script": "کەباب",
+          "latin": "kebab"
+        },
+        "notes": {
+          "en": "In Kurdistan کەباب kebab is usually minced meat on a skewer. Pieces of meat on a skewer are تکە tike.",
+          "sv": "I Kurdistan är کەباب kebab oftast färs på spett. Köttbitar på spett heter تکە tike."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "ckb:کەباب"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "کباب کوبیده",
+          "latin": "kabâb kubide"
+        },
+        "variants": [
+          {
+            "script": "کباب",
+            "latin": "kabâb"
+          }
+        ],
+        "notes": {
+          "en": "Kubide is kebab of minced meat, served with rice and a grilled tomato. کباب kabâb on its own means any kebab.",
+          "sv": "Kubide är kebab av färs, som serveras med ris och en grillad tomat. کباب kabâb ensamt betyder vilken kebab som helst."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:کباب کوبیده"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joojeh-kabab",
+      "image": {
+        "file": "joojeh-kabab.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Jujeh_Kebab-2.JPG",
+        "credit": "Mehdi",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "chicken kebab",
+        "sv": "kycklingkebab"
+      },
+      "fa": {
+        "primary": {
+          "script": "جوجه‌کباب",
+          "latin": "juje-kabâb"
+        },
+        "notes": {
+          "en": "Pieces of chicken marinated in saffron, lemon and onion, grilled on a skewer.",
+          "sv": "Kycklingbitar marinerade i saffran, citron och lök, grillade på spett."
+        },
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tahdig",
+      "image": {
+        "file": "tahdig.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Nurungji.jpg",
+        "credit": "Hyeon-Jeong Suk",
+        "license": "CC BY 2.0"
+      },
+      "gloss": {
+        "en": "tahdig (crispy rice)",
+        "sv": "tahdig (krispigt ris)",
+        "enAlt": [
+          "tahdig"
+        ],
+        "svAlt": [
+          "tahdig"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "ته‌دیگ",
+          "latin": "tahdig"
+        },
+        "notes": {
+          "en": "The crust from the bottom of the rice pot. ته tah means bottom and دیگ dig means pot.",
+          "sv": "Skorpan från botten av riskastrullen. ته tah betyder botten och دیگ dig betyder gryta."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:ته‌دیگ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ash-reshteh",
+      "image": {
+        "file": "ash-reshteh.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Ash_reshteh.jpg",
+        "credit": "MRG90",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "ash reshteh (noodle soup)",
+        "sv": "ash reshte (nudelsoppa)",
+        "enAlt": [
+          "ash reshteh"
+        ],
+        "svAlt": [
+          "ash reshte"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "آش رشته",
+          "latin": "âsh-e reshte"
+        },
+        "notes": {
+          "en": "A thick soup of herbs, beans and noodles, topped with kashk and fried mint.",
+          "sv": "En tjock soppa på örter, bönor och nudlar, toppad med kashk och stekt mynta."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:آش رشته"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kashk-bademjan",
+      "image": {
+        "file": "kashk-bademjan.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Kashk_e_b%C4%81demj%C4%81n.JPG",
+        "credit": "MRG90",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "kashk-e bademjan (eggplant dip)",
+        "sv": "kashk-e bademjan (auberginedipp)",
+        "enAlt": [
+          "kashk bademjan",
+          "eggplant dip",
+          "aubergine dip"
+        ],
+        "svAlt": [
+          "auberginedipp"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "کشک بادمجان",
+          "latin": "kashk-e bâdemjân"
+        },
+        "variants": [
+          {
+            "script": "کشک بادنجان",
+            "latin": "kashk-e bâdenjân"
+          }
+        ],
+        "notes": {
+          "en": "Fried eggplant mashed with کشک kashk, a salty dried whey.",
+          "sv": "Stekt aubergine mosad med کشک kashk, en salt torkad vassle."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:کشک بادنجان"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dolma",
+      "image": {
+        "file": "dolma.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Stuffed_grape_leaves.jpg",
+        "credit": "Jon Sullivan",
+        "license": "Public domain"
+      },
+      "gloss": {
+        "en": "dolma (stuffed vegetables)",
+        "sv": "dolma (fyllda grönsaker)",
+        "enAlt": [
+          "dolma"
+        ],
+        "svAlt": [
+          "dolma"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "دۆڵمە",
+          "latin": "dołme"
+        },
+        "notes": {
+          "en": "Vine leaves and vegetables such as onions and peppers, stuffed with rice and cooked together in one pot.",
+          "sv": "Vinblad och grönsaker som lök och paprika, fyllda med ris och kokta tillsammans i en gryta."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "ckb:دۆڵمە"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "دلمه",
+          "latin": "dolme"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "dolma"
+          },
+          {
+            "source": "wikipedia",
+            "ref": "fa:دلمه"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zereshk-polo",
+      "image": {
+        "file": "zereshk-polo.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:%D8%B2%D8%B1%D8%B4%DA%A9_%D9%BE%D9%84%D9%88_,_%D8%A7%D8%B2%D9%86%D8%A7_,_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_,_1392_Zereshk_Polo,_Azna,_Iran.jpg",
+        "credit": "Hamid3",
+        "license": "CC BY-SA 3.0"
+      },
+      "gloss": {
+        "en": "rice with barberries",
+        "sv": "ris med berberis",
+        "enAlt": [
+          "zereshk polo"
+        ],
+        "svAlt": [
+          "zereshk polo"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "زرشک‌پلو",
+          "latin": "zereshk-polow"
+        },
+        "notes": {
+          "en": "Saffron rice with sour barberries (زرشک zereshk), usually served with chicken.",
+          "sv": "Saffransris med syrliga berberisbär (زرشک zereshk), oftast med kyckling."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:زرشک‌پلو"
+          }
+        ]
+      }
+    },
+    {
+      "id": "abgoosht",
+      "image": {
+        "file": "abgoosht.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Abgoosht_dizi.jpg",
+        "credit": "مانفی",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "abgusht (meat and chickpea stew)",
+        "sv": "abgusht (gryta med kött och kikärter)",
+        "enAlt": [
+          "abgoosht",
+          "dizi"
+        ],
+        "svAlt": [
+          "abgusht",
+          "dizi"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "آبگوشت",
+          "latin": "âbgusht"
+        },
+        "variants": [
+          {
+            "script": "دیزی",
+            "latin": "dizi"
+          }
+        ],
+        "notes": {
+          "en": "Lamb, chickpeas and potatoes cooked in a stone pot called دیزی dizi, which is also a name for the dish.",
+          "sv": "Lamm, kikärter och potatis kokta i en stengryta som heter دیزی dizi, vilket också är ett namn på rätten."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:آبگوشت"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kuku-sabzi",
+      "image": {
+        "file": "kuku-sabzi.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Kookoo-sabzi-3.JPG",
+        "credit": "Aron (عارون)",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "kuku sabzi (herb omelette)",
+        "sv": "kuku sabzi (örtomelett)",
+        "enAlt": [
+          "kuku sabzi",
+          "herb frittata"
+        ],
+        "svAlt": [
+          "kuku sabzi"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "کوکو سبزی",
+          "latin": "kuku sabzi"
+        },
+        "notes": {
+          "en": "Eggs with a lot of chopped herbs, fried or baked. It is often eaten at Nowruz.",
+          "sv": "Ägg med mycket hackade örter, stekta eller ugnsbakade. Rätten äts ofta till nowruz."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:کوکو (غذا)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sholeh-zard",
+      "image": {
+        "file": "sholeh-zard.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Shole-zrad-2014.JPG",
+        "credit": "Rezarad",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "sholeh zard (saffron rice pudding)",
+        "sv": "sholezard (saffransrispudding)",
+        "enAlt": [
+          "sholeh zard"
+        ],
+        "svAlt": [
+          "sholezard",
+          "sholeh zard"
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "شله‌زرد",
+          "latin": "shole-zard"
+        },
+        "notes": {
+          "en": "Rice pudding with saffron and rosewater, decorated with cinnamon and almonds.",
+          "sv": "Rispudding med saffran och rosenvatten, dekorerad med kanel och mandel."
+        },
+        "sources": [
+          {
+            "source": "author"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lentil-soup",
+      "image": {
+        "file": "lentil-soup.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Amy%27s_lentil_vegetable_soup.jpg",
+        "credit": "Mx. Granger",
+        "license": "CC0"
+      },
+      "gloss": {
+        "en": "lentil soup",
+        "sv": "linssoppa"
+      },
+      "ckb": {
+        "primary": {
+          "script": "شۆربەی نیسک",
+          "latin": "şorbey nîsk"
+        },
+        "sources": [
+          {
+            "source": "wiktionary",
+            "ref": "soup"
+          },
+          {
+            "source": "wiktionary",
+            "ref": "lentil"
+          }
+        ]
+      },
+      "fa": {
+        "primary": {
+          "script": "سوپ عدس",
+          "latin": "sup-e 'adas"
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "fa:سوپ عدس"
+          }
+        ]
+      }
+    },
+    {
+      "id": "biryani",
+      "image": {
+        "file": "biryani.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Chicken_Iraqi_Biryani.jpg",
+        "credit": "Abdulsalam Al Dabbagh",
+        "license": "CC BY-SA 4.0"
+      },
+      "gloss": {
+        "en": "biryani (spiced rice)",
+        "sv": "biryani (kryddat ris)",
+        "enAlt": [
+          "biryani"
+        ],
+        "svAlt": [
+          "biryani"
+        ]
+      },
+      "ckb": {
+        "primary": {
+          "script": "بریانی",
+          "latin": "biryanî"
+        },
+        "notes": {
+          "en": "Rice with chicken or meat, nuts, raisins and potatoes. It is popular in Kurdistan and the rest of Iraq.",
+          "sv": "Ris med kyckling eller kött, nötter, russin och potatis. Rätten är populär i Kurdistan och resten av Irak."
+        },
+        "sources": [
+          {
+            "source": "wikipedia",
+            "ref": "ckb:بریانی"
+          }
+        ]
+      }
+    }
+  ]
+}

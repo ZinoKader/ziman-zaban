@@ -4,6 +4,7 @@ import { Link, Navigate, useParams } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { units } from '@/content'
+import { pictureAreas } from '@/content/pictures'
 import { defineStrings, useLocalize } from '@/i18n'
 import { common } from '@/i18n/common'
 import { moduleItems, moduleStatus } from '@/lib/curriculum'
@@ -26,12 +27,14 @@ const strings = defineStrings({
     total: 'Total',
     why: 'Why this works',
     byUnit: 'Practise by unit',
+    byArea: 'Practise by area',
     nothing: 'Nothing to practise in this module yet.',
     lockedHint: {
       recognition: '',
       recall: 'Words arrive here once you recognise them reliably (after a few correct answers in Recognition).',
       construction: 'Sentences unlock once you have met all the words they use in Recognition.',
       response: 'Questions unlock once you can recall most of the words they use.',
+      pictures: '',
     },
     noContent: 'No content in this unit yet',
     reviews: 'How reviews work',
@@ -51,6 +54,8 @@ const strings = defineStrings({
         `What happens after all ${n} sentences? They come back now and then so the grammar stays automatic, while Q&A puts the same words to work in real conversations.`,
       response: (n: number) =>
         `What happens after all ${n} questions? They come back at longer and longer intervals, so you can keep answering them without thinking.`,
+      pictures: (n: number) =>
+        `What happens after all ${n} pictures? They come back at longer and longer intervals, so the word comes to you as soon as you see the thing.`,
     },
   },
   sv: {
@@ -61,12 +66,14 @@ const strings = defineStrings({
     total: 'Totalt',
     why: 'Därför fungerar det',
     byUnit: 'Öva per enhet',
+    byArea: 'Öva per område',
     nothing: 'Inget att öva på i den här modulen än.',
     lockedHint: {
       recognition: '',
       recall: 'Ord kommer hit när du känner igen dem säkert (efter några rätta svar i Igenkänning).',
       construction: 'Meningar låses upp när du har mött alla ord de använder i Igenkänning.',
       response: 'Frågor låses upp när du kan plocka fram de flesta orden de använder.',
+      pictures: '',
     },
     noContent: 'Inget innehåll i den här enheten än',
     reviews: 'Så fungerar repetitionerna',
@@ -86,6 +93,8 @@ const strings = defineStrings({
         `Vad händer efter alla ${n} meningar? De kommer tillbaka då och då så att grammatiken sitter, medan Frågor & svar använder samma ord i riktiga samtal.`,
       response: (n: number) =>
         `Vad händer efter alla ${n} frågor? De kommer tillbaka med allt längre mellanrum, så att du kan svara utan att tänka efter.`,
+      pictures: (n: number) =>
+        `Vad händer efter alla ${n} bilder? De kommer tillbaka med allt längre mellanrum, så att ordet dyker upp så fort du ser saken.`,
     },
   },
 })
@@ -106,7 +115,8 @@ export function ModulePage() {
   const perUnit = useMemo(() => {
     if (!meta) return []
     const items = moduleItems(meta.skill, lang, cards)
-    return units.map((u) => {
+    const groups = meta.skill === 'pictures' ? pictureAreas : units
+    return groups.map((u) => {
       const inUnit = items.filter((it) => it.unit === u.id)
       const learned = inUnit.filter((it) => isLearned(cards[cardKey(lang, meta.skill, it.id)])).length
       const started = inUnit.filter((it) => cards[cardKey(lang, meta.skill, it.id)]).length
@@ -210,7 +220,7 @@ export function ModulePage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-lg font-semibold">{s.byUnit}</h2>
+        <h2 className="text-lg font-semibold">{meta.skill === 'pictures' ? s.byArea : s.byUnit}</h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {perUnit.map(({ unit, total, learned, started, unlocked }) => (
             <Card key={unit.id} className="py-4">

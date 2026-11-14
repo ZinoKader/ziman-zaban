@@ -10,6 +10,8 @@ export const homeStrings = defineStrings({
     step: (n: number) => `Step ${n}`,
     locked: 'Unlocks as you learn words',
     allDone: "You're all caught up. Come back later for reviews.",
+    more: 'More practice',
+    moreHint: 'Beside the path, open from the start.',
   },
   sv: {
     hello: { ckb: 'سڵاو', fa: 'سلام' },
@@ -20,5 +22,7 @@ export const homeStrings = defineStrings({
     step: (n: number) => `Steg ${n}`,
     locked: 'Låses upp när du lär dig ord',
     allDone: 'Du är i fas. Kom tillbaka senare för repetitioner.',
+    more: 'Mer att öva på',
+    moreHint: 'Vid sidan av stegen, öppet från början.',
   },
 })

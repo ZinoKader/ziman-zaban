@@ -1,5 +1,6 @@
 import { collectAudioTexts, type AudioText, type TextKind } from '@/content/audio-texts'
 import { conceptById, concepts, grammarById, grammarPoints, qaById, qaItems, sentenceById, sentences, units } from '@/content'
+import { pictureById, pictures } from '@/content/pictures'
 import type { Localized, TargetLang } from '@/content/types'
 import { canonicalize } from '@/lib/script/normalize'
 
@@ -22,7 +23,7 @@ export interface Prompt extends AudioText {
 
 let cache: Record<TargetLang, AudioText[]> | null = null
 function allTexts(): Record<TargetLang, AudioText[]> {
-  cache ??= collectAudioTexts({ concepts, sentences, qaItems, grammarPoints })
+  cache ??= collectAudioTexts({ concepts, sentences, qaItems, grammarPoints, pictures })
   return cache
 }
 
@@ -32,6 +33,7 @@ const position = new Map<string, number>([
   ...sentences.map((s, i): [string, number] => [`sentence:${s.id}`, i]),
   ...qaItems.map((q, i): [string, number] => [`qa:${q.id}`, i]),
   ...grammarPoints.map((g, i): [string, number] => [`grammar:${g.id}`, i]),
+  ...pictures.map((p, i): [string, number] => [`picture:${p.id}`, i]),
 ])
 
 function unitOf(ref: string): string | undefined {
@@ -48,6 +50,9 @@ function meaningOf(t: AudioText, lang: TargetLang): Pick<Prompt, 'meaning' | 'an
     if (kind === 'concept') {
       const c = conceptById.get(id)
       if (c) return { meaning: c.gloss }
+    } else if (kind === 'picture') {
+      const g = pictureById.get(id)?.gloss
+      if (g) return { meaning: g }
     } else if (kind === 'sentence') {
       const s = sentenceById.get(id)
       if (s) return { meaning: s.translation }

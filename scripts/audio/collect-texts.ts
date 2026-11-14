@@ -9,8 +9,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 import type { z } from 'zod'
 import { collectAudioTexts } from '../../src/content/audio-texts'
-import { grammarFileSchema, lexiconFileSchema, qaFileSchema, sentenceFileSchema } from '../../src/content/schema'
-import type { Concept, GrammarPoint, QAItem, Sentence } from '../../src/content/types'
+import { grammarFileSchema, lexiconFileSchema, pictureFileSchema, qaFileSchema, sentenceFileSchema } from '../../src/content/schema'
+import type { Concept, GrammarPoint, Picture, QAItem, Sentence } from '../../src/content/types'
 
 const ROOT = path.resolve(import.meta.dirname, '../..')
 const DATA = path.join(ROOT, 'src/content/data')
@@ -40,6 +40,7 @@ const out = collectAudioTexts({
   sentences: readDir('sentences', sentenceFileSchema).flatMap((f) => f.sentences as Sentence[]),
   qaItems: readDir('qa', qaFileSchema).flatMap((f) => f.items as QAItem[]),
   grammarPoints: readDir('grammar', grammarFileSchema).flatMap((f) => f.points as GrammarPoint[]),
+  pictures: readDir('pictures', pictureFileSchema).flatMap((f) => f.pictures.map((p) => ({ ...p, area: f.area.id }) as Picture)),
 })
 fs.writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n')
 for (const lang of ['ckb', 'fa'] as const) {

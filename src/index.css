@@ -33,6 +33,7 @@
     --color-mod-recall: var(--mod-recall);
     --color-mod-construction: var(--mod-construction);
     --color-mod-response: var(--mod-response);
+    --color-mod-pictures: var(--mod-pictures);
     --font-script: 'Vazirmatn Variable', 'Noto Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
     --color-accent-foreground: var(--accent-foreground);
     --color-accent: var(--accent);
@@ -90,6 +91,7 @@
     --mod-recall: oklch(0.7 0.15 65);
     --mod-construction: oklch(0.58 0.18 15);
     --mod-response: oklch(0.52 0.15 280);
+    --mod-pictures: oklch(0.56 0.14 145);
     --sidebar: oklch(0.975 0.01 85);
     --sidebar-foreground: oklch(0.22 0.02 260);
     --sidebar-primary: oklch(0.52 0.11 195);
@@ -131,6 +133,7 @@
     --mod-recall: oklch(0.8 0.14 70);
     --mod-construction: oklch(0.7 0.17 15);
     --mod-response: oklch(0.7 0.13 280);
+    --mod-pictures: oklch(0.74 0.15 145);
     --sidebar: oklch(0.2 0.02 250);
     --sidebar-foreground: oklch(0.96 0.01 85);
     --sidebar-primary: oklch(0.72 0.11 190);

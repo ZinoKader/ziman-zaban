@@ -3,7 +3,7 @@ import evidenceJson from '@/content/generated/evidence.json'
 import type { TargetLang } from '@/content/types'
 
 export const EVIDENCE_LEVELS: EvidenceLevel[] = ['native-reviewed', 'strong', 'good', 'attested', 'none']
-export const EVIDENCE_KINDS = ['concept', 'sentence', 'qa'] as const
+export const EVIDENCE_KINDS = ['concept', 'sentence', 'qa', 'picture'] as const
 export type EvidenceKind = (typeof EVIDENCE_KINDS)[number]
 
 export type LevelCounts = Record<EvidenceLevel, number> & { total: number }

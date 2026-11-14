@@ -33,6 +33,7 @@ export const sourceClaimSchema = z
       'kim-kurdish-grammar',
       'asosoft',
       'native-speaker',
+      'wikipedia',
       'author',
     ]),
     ref: z.string().optional(),
@@ -189,8 +190,42 @@ export const unitSchema = z
   })
   .strict()
 
+export const pictureAreaSchema = z
+  .object({
+    id,
+    order: z.number().int(),
+    emoji: nonEmpty,
+    title: localizedSchema,
+    description: localizedSchema,
+  })
+  .strict()
+
+export const pictureSchema = z
+  .object({
+    id,
+    image: z
+      .object({
+        file: z.string().regex(/^[a-z0-9-]+\.(webp|jpg|png)$/),
+        source: z.string().url(),
+        credit: nonEmpty,
+        license: nonEmpty,
+      })
+      .strict(),
+    concept: id.optional(),
+    gloss: glossSchema.optional(),
+    senseNote: localizedSchema.optional(),
+    ckb: languageEntrySchema.optional(),
+    fa: languageEntrySchema.optional(),
+  })
+  .strict()
+  .refine(
+    (p) => (p.concept ? !p.gloss && !p.ckb && !p.fa && !p.senseNote : p.gloss && (p.ckb || p.fa)),
+    'a picture either points at a concept or has its own gloss and at least one target language',
+  )
+
 /** Each content JSON file has one of these shapes, decided by its folder. */
 export const lexiconFileSchema = z.object({ concepts: z.array(conceptSchema) }).strict()
 export const sentenceFileSchema = z.object({ sentences: z.array(sentenceSchema) }).strict()
 export const qaFileSchema = z.object({ items: z.array(qaItemSchema) }).strict()
 export const grammarFileSchema = z.object({ points: z.array(grammarPointSchema) }).strict()
+export const pictureFileSchema = z.object({ area: pictureAreaSchema, pictures: z.array(pictureSchema).min(1) }).strict()

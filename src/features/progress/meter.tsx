@@ -11,6 +11,7 @@ const TONES: Record<MeterTone, [string, string]> = {
   recall: ['bg-mod-recall', 'bg-mod-recall/30'],
   construction: ['bg-mod-construction', 'bg-mod-construction/30'],
   response: ['bg-mod-response', 'bg-mod-response/30'],
+  pictures: ['bg-mod-pictures', 'bg-mod-pictures/30'],
 }
 
 const SIZES = { xs: 'h-1.5', sm: 'h-2', md: 'h-3', lg: 'h-4' }

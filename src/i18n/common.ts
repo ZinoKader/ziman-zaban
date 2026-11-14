@@ -13,6 +13,7 @@ export const common = defineStrings({
       recall: 'Recall',
       construction: 'Sentences',
       response: 'Conversation',
+      pictures: 'Pictures',
       words: 'Words',
       grammar: 'Grammar',
       alphabet: 'Alphabet',
@@ -42,6 +43,11 @@ export const common = defineStrings({
         title: 'Questions & answers',
         short: 'Hold a conversation',
         description: 'Hear a question in Sorani or Persian and answer it in the same language.',
+      },
+      pictures: {
+        title: 'Picture recognition',
+        short: 'What do you see?',
+        description: 'See a photo and pick its Sorani or Persian word among four options: dishes, the Nowruz table, the pantry, the market and the café.',
       },
     },
     actions: {
@@ -111,6 +117,7 @@ export const common = defineStrings({
       recall: 'Återkallning',
       construction: 'Meningar',
       response: 'Samtal',
+      pictures: 'Bilder',
       words: 'Ord',
       grammar: 'Grammatik',
       alphabet: 'Alfabet',
@@ -140,6 +147,11 @@ export const common = defineStrings({
         title: 'Frågor & svar',
         short: 'Föra ett samtal',
         description: 'Hör en fråga på sorani eller persiska och svara på samma språk.',
+      },
+      pictures: {
+        title: 'Bildigenkänning',
+        short: 'Vad ser du?',
+        description: 'Se ett foto och välj det soraniska eller persiska ordet bland fyra alternativ: maträtter, nowruzbordet, skafferiet, marknaden och kaféet.',
       },
     },
     actions: {
