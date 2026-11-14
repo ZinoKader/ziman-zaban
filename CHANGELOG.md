@@ -2,6 +2,12 @@
 
 What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelog skill](.cursor/skills/changelog/SKILL.md).
 
+## 2026-11-14
+
+- Picture recognition: a new module next to the path. It shows a photo, asks "What do you see?" and gives four Sorani or Persian words to pick from. There are 63 photos in five areas: dishes like ghormeh sabzi and kebab koobideh, the haft-sin table, the pantry, the market and a café.
+- Picture recognition: a new picture is shown with its word and audio first. If you pick the wrong word, the answer shows what that word means.
+- App: Picture recognition is on the home page under "More practice", in the menu, and in the top bar on wide screens.
+
 ## 2026-11-12
 
 - App: progress is saved to an account online after every answer. Before, it was only saved in the browser. The first time the app opens, the progress already on the device is added to the account.

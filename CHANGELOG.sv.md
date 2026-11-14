@@ -2,6 +2,12 @@
 
 Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHANGELOG.md](CHANGELOG.md). Följ [skillen för ändringsloggen](.cursor/skills/changelog/SKILL.md) när du lägger till något.
 
+## 2026-11-14
+
+- Bildigenkänning: en ny modul vid sidan av stegen. Den visar ett foto, frågar "Vad ser du?" och ger fyra soraniska eller persiska ord att välja mellan. Det finns 63 foton i fem områden: maträtter som ghormeh sabzi och kabab koobideh, haft sin-bordet, skafferiet, marknaden och ett kafé.
+- Bildigenkänning: en ny bild visas först med sitt ord och ljud. Väljer du fel ord får du se vad det ordet betyder.
+- Appen: Bildigenkänning finns på startsidan under "Mer att öva på", i menyn och i fältet högst upp på breda skärmar.
+
 ## 2026-11-12
 
 - Appen: framstegen sparas på ett konto online efter varje svar. Förut sparades de bara i webbläsaren. Första gången appen öppnas läggs framstegen som redan finns på enheten till på kontot.
