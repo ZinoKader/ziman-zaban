@@ -191,7 +191,7 @@
           {
             "text": "نا، سبەی هەینییە.",
             "latin": "na, sibey heynîye.",
-            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, i morgon är det fredag." }
+            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, imorgon är det fredag." }
           }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
@@ -226,12 +226,12 @@
           {
             "text": "نه، فردا جمعه است.",
             "latin": "na, fardâ jom'e ast.",
-            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, i morgon är det fredag." }
+            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, imorgon är det fredag." }
           },
           {
             "text": "نه، فردا جمعه‌ست.",
             "latin": "na, fardâ jom'e-st.",
-            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, i morgon är det fredag." }
+            "translation": { "en": "No, tomorrow is Friday.", "sv": "Nej, imorgon är det fredag." }
           }
         ],
         "sources": [{ "source": "author" }]
@@ -385,10 +385,10 @@
               { "text": "پێنج", "latin": "pênc", "gloss": { "en": "five", "sv": "fem" }, "concept": "five" },
               { "text": "کەسین.", "latin": "kesîn.", "gloss": { "en": "people, we are", "sv": "personer, vi är" }, "morph": "person-COP.1PL" }
             ],
-            "translation": { "en": "We are five.", "sv": "Vi är fem." }
+            "translation": { "en": "There are five of us.", "sv": "Vi är fem." }
           },
-          { "text": "ئێمە {count} کەسین.", "latin": "ême {count} kesîn.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
-          { "text": "{count} کەسین.", "latin": "{count} kesîn.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
+          { "text": "ئێمە {count} کەسین.", "latin": "ême {count} kesîn.", "translation": { "en": "There are {count} of us.", "sv": "Vi är {count}." } },
+          { "text": "{count} کەسین.", "latin": "{count} kesîn.", "translation": { "en": "There are {count} of us.", "sv": "Vi är {count}." } },
           { "text": "{count} کەس.", "latin": "{count} kes.", "translation": { "en": "{count} people.", "sv": "{count} personer." } }
         ],
         "slots": {
@@ -421,10 +421,10 @@
               { "text": "پنج", "latin": "panj", "gloss": { "en": "five", "sv": "fem" }, "concept": "five" },
               { "text": "نفریم.", "latin": "nafarim.", "gloss": { "en": "people, we are", "sv": "personer, vi är" }, "morph": "person-COP.1PL" }
             ],
-            "translation": { "en": "We are five.", "sv": "Vi är fem." }
+            "translation": { "en": "There are five of us.", "sv": "Vi är fem." }
           },
-          { "text": "ما {count} نفریم.", "latin": "mâ {count} nafarim.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
-          { "text": "{count} نفریم.", "latin": "{count} nafarim.", "translation": { "en": "We are {count}.", "sv": "Vi är {count}." } },
+          { "text": "ما {count} نفریم.", "latin": "mâ {count} nafarim.", "translation": { "en": "There are {count} of us.", "sv": "Vi är {count}." } },
+          { "text": "{count} نفریم.", "latin": "{count} nafarim.", "translation": { "en": "There are {count} of us.", "sv": "Vi är {count}." } },
           { "text": "{count} نفر.", "latin": "{count} nafar.", "translation": { "en": "{count} people.", "sv": "{count} personer." } }
         ],
         "slots": {
@@ -462,12 +462,12 @@
               { "text": "سبەی", "latin": "sibey", "gloss": { "en": "tomorrow", "sv": "i morgon" }, "concept": "tomorrow" },
               { "text": "لێرەم.", "latin": "lêrem.", "gloss": { "en": "I'm here", "sv": "jag är här" }, "concept": "here", "morph": "in.here-COP.1SG" }
             ],
-            "translation": { "en": "I'm here tomorrow.", "sv": "I morgon är jag här." }
+            "translation": { "en": "I'm here tomorrow.", "sv": "Imorgon är jag här." }
           },
           {
             "text": "سبەی لە {place}م.",
             "latin": "sibey le {place}im.",
-            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "I morgon är jag i {place}." }
+            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "Imorgon är jag i {place}." }
           },
           { "text": "لە {place}م.", "latin": "le {place}im.", "translation": { "en": "I'm in {place}.", "sv": "Jag är i {place}." } }
         ],
@@ -500,17 +500,17 @@
               { "text": "اینجا", "latin": "injâ", "gloss": { "en": "here", "sv": "här" }, "concept": "here" },
               { "text": "هستم.", "latin": "hastam.", "gloss": { "en": "I am", "sv": "jag är" }, "concept": "to-be", "morph": "be.PRS-1SG" }
             ],
-            "translation": { "en": "I'm here tomorrow.", "sv": "I morgon är jag här." }
+            "translation": { "en": "I'm here tomorrow.", "sv": "Imorgon är jag här." }
           },
           {
             "text": "فردا در {place} هستم.",
             "latin": "fardâ dar {place} hastam.",
-            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "I morgon är jag i {place}." }
+            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "Imorgon är jag i {place}." }
           },
           {
             "text": "فردا {place} هستم.",
             "latin": "fardâ {place} hastam.",
-            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "I morgon är jag i {place}." }
+            "translation": { "en": "Tomorrow I'm in {place}.", "sv": "Imorgon är jag i {place}." }
           },
           { "text": "{place}.", "latin": "{place}.", "translation": { "en": "{place}.", "sv": "{place}." } }
         ],
@@ -518,8 +518,7 @@
           "place": [
             { "text": "تهران", "latin": "Tehrân", "translation": { "en": "Tehran", "sv": "Teheran" } },
             { "text": "سوئد", "latin": "Su'ed", "translation": { "en": "Sweden", "sv": "Sverige" } },
-            { "text": "استکهلم", "latin": "Estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } },
-            { "text": "خانه", "latin": "khâne", "translation": { "en": "home", "sv": "hemma" } }
+            { "text": "استکهلم", "latin": "Estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } }
           ]
         },
         "sources": [{ "source": "author" }]

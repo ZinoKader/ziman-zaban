@@ -595,7 +595,6 @@
         "slots": {
           "language": [
             { "text": "سوئدی", "latin": "su'edi", "translation": { "en": "Swedish", "sv": "svenska" } },
-            { "text": "انگلیسی", "latin": "englisi", "translation": { "en": "English", "sv": "engelska" } },
             { "text": "کردی", "latin": "kordi", "translation": { "en": "Kurdish", "sv": "kurdiska" } },
             { "text": "فارسی", "latin": "fârsi", "translation": { "en": "Persian", "sv": "persiska" } }
           ]
@@ -807,7 +806,7 @@
                 "morph": "know.INF-2SG"
               }
             ],
-            "translation": { "en": "Nice to meet you too.", "sv": "Detsamma, trevligt att träffas." }
+            "translation": { "en": "Nice to meet you too.", "sv": "Trevligt att träffa dig också." }
           },
           { "text": "سوپاس، منیش.", "latin": "supas, minîş.", "translation": { "en": "Thanks, me too.", "sv": "Tack, detsamma." } }
         ],
@@ -842,7 +841,7 @@
                 "morph": "pleased-COP.1SG"
               }
             ],
-            "translation": { "en": "Nice to meet you too.", "sv": "Detsamma, trevligt att träffas." }
+            "translation": { "en": "Nice to meet you too.", "sv": "Trevligt att träffa dig också." }
           },
           { "text": "همچنین.", "latin": "hamchenin.", "translation": { "en": "Likewise.", "sv": "Detsamma." } },
           { "text": "من هم همین‌طور.", "latin": "man ham hamintor.", "translation": { "en": "Me too.", "sv": "Jag också." } }

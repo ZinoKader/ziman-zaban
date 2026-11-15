@@ -118,7 +118,7 @@
           {
             "text": "نرخی دوو هەزار دینارە.",
             "latin": "nirxî dû hezar dînare.",
-            "translation": { "en": "Its price is two thousand dinars.", "sv": "Priset är tvåtusen dinar." }
+            "translation": { "en": "The price is two thousand dinars.", "sv": "Priset är tvåtusen dinar." }
           }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
@@ -153,7 +153,7 @@
           {
             "text": "قیمتش پنج هزار تومان است.",
             "latin": "gheymatesh panj hezâr tomân ast.",
-            "translation": { "en": "Its price is five thousand toman.", "sv": "Priset är femtusen toman." }
+            "translation": { "en": "The price is five thousand toman.", "sv": "Priset är femtusen toman." }
           }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
@@ -271,25 +271,25 @@
       "id": "is-the-airport-far",
       "unit": "places-travel",
       "level": "A1",
-      "question": { "en": "Is the airport far?", "sv": "Ligger flygplatsen långt bort?" },
+      "question": { "en": "Is the airport far?", "sv": "Ligger flygplatsen långt borta?" },
       "ckb": {
         "question": {
           "text": "فڕۆکەخانەکە دوورە؟",
           "latin": "fřokexaneke dûre?",
           "tokens": [
             { "text": "فڕۆکەخانەکە", "latin": "fřokexaneke", "gloss": { "en": "the airport", "sv": "flygplatsen" }, "concept": "airport", "morph": "airport-DEF" },
-            { "text": "دوورە؟", "latin": "dûre?", "gloss": { "en": "is far", "sv": "är långt bort" }, "concept": "far", "morph": "far-COP.3SG" }
+            { "text": "دوورە؟", "latin": "dûre?", "gloss": { "en": "is far", "sv": "är långt borta" }, "concept": "far", "morph": "far-COP.3SG" }
           ]
         },
         "answers": [
           {
             "text": "بەڵێ، زۆر دوورە.",
             "latin": "bełê, zor dûre.",
-            "translation": { "en": "Yes, it's very far.", "sv": "Ja, den ligger väldigt långt bort." },
+            "translation": { "en": "Yes, it's very far.", "sv": "Ja, den ligger väldigt långt borta." },
             "tokens": [
               { "text": "بەڵێ،", "latin": "bełê,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
               { "text": "زۆر", "latin": "zor", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
-              { "text": "دوورە.", "latin": "dûre.", "gloss": { "en": "is far", "sv": "är långt bort" }, "concept": "far", "morph": "far-COP.3SG" }
+              { "text": "دوورە.", "latin": "dûre.", "gloss": { "en": "is far", "sv": "är långt borta" }, "concept": "far", "morph": "far-COP.3SG" }
             ]
           },
           {
@@ -300,7 +300,7 @@
           {
             "text": "نەخێر، زۆر دوور نییە.",
             "latin": "nexêr, zor dûr nîye.",
-            "translation": { "en": "No, it's not very far.", "sv": "Nej, den ligger inte så långt bort." }
+            "translation": { "en": "No, it's not very far.", "sv": "Nej, den ligger inte så långt borta." }
           }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
@@ -311,7 +311,7 @@
           "latin": "forudgâh dur ast?",
           "tokens": [
             { "text": "فرودگاه", "latin": "forudgâh", "gloss": { "en": "the airport", "sv": "flygplatsen" }, "concept": "airport" },
-            { "text": "دور", "latin": "dur", "gloss": { "en": "far", "sv": "långt bort" }, "concept": "far" },
+            { "text": "دور", "latin": "dur", "gloss": { "en": "far", "sv": "långt borta" }, "concept": "far" },
             { "text": "است؟", "latin": "ast?", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
           ]
         },
@@ -319,11 +319,11 @@
           {
             "text": "بله، خیلی دور است.",
             "latin": "bale, kheyli dur ast.",
-            "translation": { "en": "Yes, it's very far.", "sv": "Ja, den ligger väldigt långt bort." },
+            "translation": { "en": "Yes, it's very far.", "sv": "Ja, den ligger väldigt långt borta." },
             "tokens": [
               { "text": "بله،", "latin": "bale,", "gloss": { "en": "yes", "sv": "ja" }, "concept": "yes" },
               { "text": "خیلی", "latin": "kheyli", "gloss": { "en": "very", "sv": "väldigt" }, "concept": "very" },
-              { "text": "دور", "latin": "dur", "gloss": { "en": "far", "sv": "långt bort" }, "concept": "far" },
+              { "text": "دور", "latin": "dur", "gloss": { "en": "far", "sv": "långt borta" }, "concept": "far" },
               { "text": "است.", "latin": "ast.", "gloss": { "en": "is", "sv": "är" }, "concept": "to-be", "morph": "be.PRS.3SG" }
             ]
           },
@@ -335,12 +335,12 @@
           {
             "text": "نه، خیلی دور نیست.",
             "latin": "na, kheyli dur nist.",
-            "translation": { "en": "No, it's not very far.", "sv": "Nej, den ligger inte så långt bort." }
+            "translation": { "en": "No, it's not very far.", "sv": "Nej, den ligger inte så långt borta." }
           },
           {
             "text": "آره، خیلی دوره.",
             "latin": "âre, kheyli dure.",
-            "translation": { "en": "Yeah, it's really far. (spoken)", "sv": "Ja, den ligger jättelångt bort. (talspråk)" }
+            "translation": { "en": "Yeah, it's really far. (spoken)", "sv": "Ja, den ligger jättelångt borta. (talspråk)" }
           }
         ],
         "sources": [{ "source": "author" }]
@@ -366,7 +366,7 @@
           {
             "text": "دەچمە بازاڕ.",
             "latin": "deçime bazař.",
-            "translation": { "en": "I'm going to the market.", "sv": "Jag går till marknaden." },
+            "translation": { "en": "I'm going to the market.", "sv": "Jag ska till marknaden." },
             "tokens": [
               { "text": "دەچمە", "latin": "deçime", "gloss": { "en": "I go to", "sv": "jag går till" }, "concept": "to-go", "morph": "DUR-go.PRS-1SG-GOAL" },
               { "text": "بازاڕ.", "latin": "bazař.", "gloss": { "en": "the market", "sv": "marknaden" }, "concept": "market" }
@@ -385,7 +385,7 @@
           {
             "text": "دەچمەوە ماڵەوە.",
             "latin": "deçimewe małewe.",
-            "translation": { "en": "I'm going home.", "sv": "Jag går hem." }
+            "translation": { "en": "I'm going home.", "sv": "Jag ska hem." }
           }
         ],
         "slots": {
@@ -411,7 +411,7 @@
           {
             "text": "به بازار می‌روم.",
             "latin": "be bâzâr miravam.",
-            "translation": { "en": "I'm going to the market.", "sv": "Jag går till marknaden." },
+            "translation": { "en": "I'm going to the market.", "sv": "Jag ska till marknaden." },
             "tokens": [
               { "text": "به", "latin": "be", "gloss": { "en": "to", "sv": "till" }, "concept": "to" },
               { "text": "بازار", "latin": "bâzâr", "gloss": { "en": "the market", "sv": "marknaden" }, "concept": "market" },
@@ -431,7 +431,7 @@
           {
             "text": "به خانه می‌روم.",
             "latin": "be khâne miravam.",
-            "translation": { "en": "I'm going home.", "sv": "Jag går hem." }
+            "translation": { "en": "I'm going home.", "sv": "Jag ska hem." }
           }
         ],
         "slots": {
@@ -523,7 +523,7 @@
       "id": "is-there-a-shop-nearby",
       "unit": "places-travel",
       "level": "A2",
-      "question": { "en": "Is there a shop nearby?", "sv": "Finns det en affär i närheten?" },
+      "question": { "en": "Is there a shop nearby?", "sv": "Finns det någon affär i närheten?" },
       "ckb": {
         "question": {
           "text": "لەم نزیکانە دوکان هەیە؟",
@@ -556,7 +556,7 @@
           {
             "text": "نەخێر، بازاڕەکە دوورە.",
             "latin": "nexêr, bazařeke dûre.",
-            "translation": { "en": "No, the market is far away.", "sv": "Nej, marknaden ligger långt bort." }
+            "translation": { "en": "No, the market is far away.", "sv": "Nej, marknaden ligger långt borta." }
           }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§14" }]
@@ -600,7 +600,7 @@
           {
             "text": "نه، بازار دور است.",
             "latin": "na, bâzâr dur ast.",
-            "translation": { "en": "No, the market is far away.", "sv": "Nej, marknaden ligger långt bort." }
+            "translation": { "en": "No, the market is far away.", "sv": "Nej, marknaden ligger långt borta." }
           }
         ],
         "sources": [{ "source": "author" }]

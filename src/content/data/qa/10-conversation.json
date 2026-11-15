@@ -49,7 +49,7 @@
           },
           { "text": "بله، می‌فهمم.", "latin": "bale, mifahmam.", "translation": { "en": "Yes, I understand.", "sv": "Ja, jag förstår." } },
           { "text": "نه، نمی‌فهمم.", "latin": "na, nemifahmam.", "translation": { "en": "No, I don't understand.", "sv": "Nej, jag förstår inte." } },
-          { "text": "ببخشید، متوجه نشدم.", "latin": "bebakhshid, motevajjeh nashodam.", "translation": { "en": "Sorry, I didn't catch that.", "sv": "Förlåt, jag uppfattade inte." } }
+          { "text": "ببخشید، متوجه نشدم.", "latin": "bebakhshid, motevajjeh nashodam.", "translation": { "en": "Sorry, I didn't catch that.", "sv": "Förlåt, det uppfattade jag inte." } }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
       }
@@ -75,7 +75,7 @@
           {
             "text": "چونکە حەز لە کوردی دەکەم.",
             "latin": "çunke ḧez le kurdî dekem.",
-            "translation": { "en": "Because I like Kurdish.", "sv": "Eftersom jag tycker om kurdiska." },
+            "translation": { "en": "Because I like Kurdish.", "sv": "För att jag tycker om kurdiska." },
             "tokens": [
               { "text": "چونکە", "latin": "çunke", "gloss": { "en": "because", "sv": "eftersom" }, "concept": "because" },
               { "text": "حەز", "latin": "ḧez", "gloss": { "en": "liking", "sv": "tycke" }, "concept": "to-like" },
@@ -84,8 +84,8 @@
               { "text": "دەکەم.", "latin": "dekem.", "gloss": { "en": "I do (= I like)", "sv": "jag gör (= jag tycker om)" }, "concept": "to-like", "morph": "DUR-do.PRS-1SG" }
             ]
           },
-          { "text": "چونکە دایکم کوردە.", "latin": "çunke daykim kurde.", "translation": { "en": "Because my mother is Kurdish.", "sv": "Eftersom min mamma är kurd." } },
-          { "text": "چونکە هاوڕێکەم خەڵکی سلێمانییە.", "latin": "çunke hawřêkem xełkî Silêmanîye.", "translation": { "en": "Because my friend is from Sulaymaniyah.", "sv": "Eftersom min vän kommer från Sulaymaniyya." } },
+          { "text": "چونکە دایکم کوردە.", "latin": "çunke daykim kurde.", "translation": { "en": "Because my mother is Kurdish.", "sv": "För att min mamma är kurd." } },
+          { "text": "چونکە هاوڕێکەم خەڵکی سلێمانییە.", "latin": "çunke hawřêkem xełkî Silêmanîye.", "translation": { "en": "Because my friend is from Sulaymaniyah.", "sv": "För att min vän kommer från Sulaymaniyya." } },
           { "text": "بۆ کارەکەم.", "latin": "bo karekem.", "translation": { "en": "For my work.", "sv": "För mitt jobb." } }
         ],
         "sources": [{ "source": "kim-kurdish-grammar", "ref": "ch. 14: فێری زمانی کوردی بوو" }, { "source": "author" }]
@@ -112,7 +112,7 @@
           {
             "text": "چون فارسی را دوست دارم.",
             "latin": "chon fârsi râ dust dâram.",
-            "translation": { "en": "Because I like Persian.", "sv": "Eftersom jag tycker om persiska." },
+            "translation": { "en": "Because I like Persian.", "sv": "För att jag tycker om persiska." },
             "tokens": [
               { "text": "چون", "latin": "chon", "gloss": { "en": "because", "sv": "eftersom" }, "concept": "because" },
               { "text": "فارسی", "latin": "fârsi", "gloss": { "en": "Persian", "sv": "persiska" }, "concept": "persian" },
@@ -121,9 +121,9 @@
               { "text": "دارم.", "latin": "dâram.", "gloss": { "en": "I have (= I like)", "sv": "jag har (= jag tycker om)" }, "concept": "to-like", "morph": "have.PRS-1SG" }
             ]
           },
-          { "text": "چون فارسی رو دوست دارم.", "latin": "chon fârsi ro dust dâram.", "translation": { "en": "Because I like Persian.", "sv": "Eftersom jag tycker om persiska." } },
-          { "text": "چون مادرم ایرانی است.", "latin": "chon mâdaram irâni ast.", "translation": { "en": "Because my mother is Iranian.", "sv": "Eftersom min mamma är iranier." } },
-          { "text": "چون دوستم اهل تهران است.", "latin": "chon dustam ahl-e Tehrân ast.", "translation": { "en": "Because my friend is from Tehran.", "sv": "Eftersom min vän kommer från Teheran." } },
+          { "text": "چون فارسی رو دوست دارم.", "latin": "chon fârsi ro dust dâram.", "translation": { "en": "Because I like Persian.", "sv": "För att jag tycker om persiska." } },
+          { "text": "چون مادرم ایرانی است.", "latin": "chon mâdaram irâni ast.", "translation": { "en": "Because my mother is Iranian.", "sv": "För att min mamma är iranier." } },
+          { "text": "چون دوستم اهل تهران است.", "latin": "chon dustam ahl-e Tehrân ast.", "translation": { "en": "Because my friend is from Tehran.", "sv": "För att min vän kommer från Teheran." } },
           { "text": "برای کارم.", "latin": "barâye kâram.", "translation": { "en": "For my work.", "sv": "För mitt jobb." } }
         ],
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
@@ -263,7 +263,7 @@
       "id": "can-you-speak-more-slowly",
       "unit": "conversation",
       "level": "A2",
-      "question": { "en": "Can you speak more slowly, please?", "sv": "Kan du prata långsammare, tack?" },
+      "question": { "en": "Can you speak more slowly, please?", "sv": "Kan du vara snäll och prata långsammare?" },
       "ckb": {
         "question": {
           "text": "تکایە دەتوانیت هێواشتر قسە بکەیت؟",
@@ -413,7 +413,14 @@
           ]
         },
         "sources": [{ "source": "thackston-sorani-grammar", "ref": "§12.2 Days of the week" }, { "source": "author" }]
-      },
+      }
+    },
+    {
+      "id": "when-do-you-study-persian",
+      "unit": "conversation",
+      "level": "A2",
+      "question": { "en": "When do you study Persian?", "sv": "När pluggar du persiska?" },
+      "personal": true,
       "fa": {
         "question": {
           "text": "کی فارسی می‌خوانید؟",

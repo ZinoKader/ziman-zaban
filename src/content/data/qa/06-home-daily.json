@@ -50,8 +50,7 @@
             { "text": "نەخۆشخانە", "latin": "nexoşxane", "translation": { "en": "the hospital", "sv": "sjukhuset" } },
             { "text": "بازاڕ", "latin": "bazař", "translation": { "en": "the market", "sv": "marknaden" } },
             { "text": "فڕۆکەخانە", "latin": "fřokexane", "translation": { "en": "the airport", "sv": "flygplatsen" } },
-            { "text": "دوکانێک", "latin": "dukanêk", "translation": { "en": "a shop", "sv": "en affär" } },
-            { "text": "سلێمانی", "latin": "slêmanî", "translation": { "en": "Sulaymani", "sv": "Sulaymaniyya" } }
+            { "text": "دوکانێک", "latin": "dukanêk", "translation": { "en": "a shop", "sv": "en affär" } }
           ]
         },
         "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17" }]
@@ -99,8 +98,7 @@
             { "text": "بیمارستان", "latin": "bimârestân", "translation": { "en": "the hospital", "sv": "sjukhuset" } },
             { "text": "بازار", "latin": "bâzâr", "translation": { "en": "the market", "sv": "marknaden" } },
             { "text": "فرودگاه", "latin": "forudgâh", "translation": { "en": "the airport", "sv": "flygplatsen" } },
-            { "text": "یک مغازه", "latin": "yek maghâze", "translation": { "en": "a shop", "sv": "en affär" } },
-            { "text": "استکهلم", "latin": "estokholm", "translation": { "en": "Stockholm", "sv": "Stockholm" } }
+            { "text": "یک مغازه", "latin": "yek maghâze", "translation": { "en": "a shop", "sv": "en affär" } }
           ]
         },
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
@@ -582,7 +580,7 @@
           {
             "text": "دەخوێنم و کاریش دەکەم.",
             "latin": "dexwênim û karîş dekem.",
-            "translation": { "en": "I study, and I work too.", "sv": "Jag studerar, och jag arbetar också." }
+            "translation": { "en": "I study, and I work too.", "sv": "Jag studerar och arbetar också." }
           }
         ],
         "slots": {

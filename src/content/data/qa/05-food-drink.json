@@ -676,7 +676,6 @@
         ],
         "slots": {
           "count": [
-            { "text": "یەک", "latin": "yek", "translation": { "en": "one", "sv": "ett" } },
             { "text": "دوو", "latin": "dû", "translation": { "en": "two", "sv": "två" } },
             { "text": "سێ", "latin": "sê", "translation": { "en": "three", "sv": "tre" } },
             { "text": "چوار", "latin": "çwar", "translation": { "en": "four", "sv": "fyra" } }

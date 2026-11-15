@@ -198,7 +198,7 @@
             ],
             "translation": { "en": "You're welcome.", "sv": "Varsågod." }
           },
-          { "text": "قابلی نداشت.", "latin": "ghâbeli nadâsht.", "translation": { "en": "It was nothing.", "sv": "Det var ingenting." } }
+          { "text": "قابلی نداشت.", "latin": "ghâbeli nadâsht.", "translation": { "en": "It was nothing.", "sv": "Det var så lite." } }
         ],
         "sources": [{ "source": "wiktionary", "ref": "خواهش" }, { "source": "tatoeba" }]
       }
