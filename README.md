@@ -61,7 +61,7 @@ The Supabase URL and publishable key are in `src/data/supabase.ts`. To use anoth
 
 The table types in `src/data/database.types.ts` are generated from the schema. After changing a migration, run `SUPABASE_ACCESS_TOKEN=... npm run db:types` ([Supabase CLI](https://supabase.com/docs/guides/api/rest/generating-types)).
 
-The Progress page (`/progress`) shows, per language, the words learned and in progress, each module and unit, the last 14 days of activity, accuracy over the last 7 days, the reviews coming up, the streak and the hardest words. Progress can be exported and imported from Settings. An import adds the backup to the account, and for each card the newest review wins.
+The Progress page (`/progress`) shows, per language or both together, the streak, answers today, reviews due and total time. Below that are the statistics: answers, minutes, accuracy and new items per week, month or year with a comparison to the period before; a calendar of the last 12 months; every session and answer of a chosen day; answers per module; a weekday and hour chart; words met and learned over time; and personal records. The day-by-day view and the module, hour and words charts read the full answer log (the `reviews` table), which loads when the page opens. The chosen period, chart and day are kept in the address (`?range=month&metric=accuracy&day=2026-11-02`). After the statistics come the course and module bars, medals, the reviews coming up, each unit and the hardest words. Progress can be exported and imported from Settings. An import adds the backup to the account, and for each card the newest review wins.
 
 ## Audio
 
