@@ -4,6 +4,11 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 
 ## 2026-11-16
 
+- App: the text in menus, exercises, grammar notes and word notes is rewritten to read more naturally, most of all in Swedish.
+- App: in Swedish, Recall is now called "Minnas" and the button that checks your answer says "Rätta".
+- Q&A: example answers no longer make broken sentences like "I want one eggs" or "I work at Stockholm", and they always start with a capital letter.
+- Q&A: Persian has its own question "When do you study Persian?". Before, the Persian version was shown as "When do you study Kurdish?".
+- Grammar: some explanations are corrected. For example, Tehran Persian says shir for both "lion" and "milk".
 - Progress: the "Activity" chart shows a week, a month or a year. The arrows go back in time, and you pick Answers, Minutes, Accuracy or New to chart. Each number is compared with the period before.
 - Progress: "Your year" shows every day of the last 12 months as a square, darker the more you practised. Tap a day, or a bar in "Activity", to open it.
 - Progress: "Day by day" lists the sessions of the chosen day and every answer in them: the time, the word or sentence, right or wrong, and how long it took. "Mistakes" shows only the wrong answers.

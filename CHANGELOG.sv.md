@@ -4,10 +4,15 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 
 ## 2026-11-16
 
-- Framsteg: diagrammet "Aktivitet" visar en vecka, en månad eller ett år. Med pilarna går du bakåt i tiden, och du väljer om det ska visa Svar, Minuter, Träffsäkerhet eller Nya. Varje siffra jämförs med perioden före.
+- Appen: texterna i menyer, övningar, grammatik och ordanteckningar är omskrivna så att de låter mer naturliga, framför allt på svenska.
+- Appen: Återkallning heter nu "Minnas", och knappen som rättar ditt svar heter "Rätta".
+- Frågor & svar: exempelsvaren blir inte längre felaktiga meningar som "Jag arbetar på Stockholm" eller "Imorgon är jag i hemma", och de börjar alltid med stor bokstav.
+- Frågor & svar: persiskan har en egen fråga, "När pluggar du persiska?". Förut visades den persiska versionen som "När pluggar du kurdiska?".
+- Grammatik: några förklaringar är rättade. Till exempel säger man shir för både "lejon" och "mjölk" på teheranpersiska.
+- Framsteg: diagrammet "Aktivitet" visar en vecka, en månad eller ett år. Med pilarna går du bakåt i tiden, och du väljer om det ska visa Svar, Minuter, Andel rätt eller Nya. Varje siffra jämförs med perioden före.
 - Framsteg: "Ditt år" visar varje dag de senaste 12 månaderna som en ruta, mörkare ju mer du övade. Tryck på en dag, eller på en stapel i "Aktivitet", för att öppna den.
 - Framsteg: "Dag för dag" visar passen den valda dagen och alla svar i dem: tiden, ordet eller meningen, rätt eller fel och hur lång tid det tog. "Fel" visar bara de felaktiga svaren.
-- Framsteg: nya kort visar vilka moduler du har använt, vilka veckodagar och timmar du övar, orden du har mött och lärt dig över tid, och dina personliga rekord.
+- Framsteg: nya kort visar vilka moduler du har använt, vilka veckodagar och timmar du övar, orden du har mött och lärt dig över tid, och dina rekord.
 - Appen: fältet högst upp går inte längre utanför kanten på bärbara datorer. Bildigenkänning finns där bara på mycket breda skärmar.
 
 ## 2026-11-14
