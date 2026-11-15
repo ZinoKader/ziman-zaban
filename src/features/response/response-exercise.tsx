@@ -400,7 +400,7 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
             {kind === 'choose' && chosenOption && (
               <div className="flex flex-col items-start gap-0.5">
                 <AnswerLine lang={lang} text={chosenOption.text} latin={chosenOption.latin} showLatin={romanization !== 'never'} />
-                {!chosenOption.correct && <span className="text-sm italic text-muted-foreground">“{l(chosenOption.translation)}”</span>}
+                {!chosenOption.correct && <span className="text-sm italic text-muted-foreground">"{l(chosenOption.translation)}"</span>}
               </div>
             )}
             {kind === 'build' && (

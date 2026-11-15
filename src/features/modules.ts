@@ -84,26 +84,26 @@ export const moduleBySkill = new Map(ALL_MODULES.map((m) => [m.skill, m]))
 export const moduleWhy = defineStrings({
   en: {
     recognition:
-      'Retrieving a meaning from memory (rather than re-reading it) is one of the most robust findings in memory research, the "testing effect". Immediate feedback after every answer and reviews spread over days (spaced repetition) make it stick.',
+      'You remember a meaning better when you pull it from memory than when you read it again. This is the "testing effect", and memory research has found it over and over. You get feedback right after every answer, and reviews spread over several days (spaced repetition) make the word stick.',
     recall:
-      'You get good at what you practise: going from meaning to word is what speaking needs, and it is harder than recognising. Studies of vocabulary learning find productive recall builds productive knowledge best. You pick the word among four options, or switch to typing it or saying it aloud from memory when you want it harder.',
+      'You get good at what you practise. To speak, you have to go from meaning to word, and that is harder than recognising a word. Studies of vocabulary learning find that recalling words yourself is the best way to learn to use them. You pick the word from four options. When you want it harder, switch to typing it or saying it aloud from memory.',
     construction:
-      'Words only become speech when you can put them in order with the right endings. Building sentences from words you already know focuses attention on grammar: word order (verb last), suffixes and agreement.',
+      'Words only become speech when you can put them in order with the right endings. When you build sentences from words you already know, you can focus on the grammar: word order (the verb goes last), suffixes and agreement.',
     response:
-      'Answering a question requires understanding it first, which leads to deeper processing than repeating a model sentence. Studies of question-and-answer practice found better long-term retention than repetition. This is the closest step to a real conversation.',
+      'To answer a question you first have to understand it, so you process it more deeply than when you repeat a model sentence. In studies of question-and-answer practice, learners remembered more in the long run than with repetition. This step is the closest to a real conversation.',
     pictures:
-      'Pictures are remembered better than words (the picture superiority effect), and linking a word straight to an image skips the detour through English or Swedish. The photos show dishes and things as they look in Iran and Kurdistan.',
+      'People remember pictures better than words (the picture superiority effect). Linking a word straight to a picture also skips the detour through English or Swedish. The photos show dishes and things as they look in Iran and Kurdistan.',
   },
   sv: {
     recognition:
-      'Att plocka fram en betydelse ur minnet (i stället för att läsa om den) är ett av minnesforskningens mest robusta resultat, "testeffekten". Direkt återkoppling efter varje svar och repetitioner utspridda över dagar (spridd repetition) gör att det fastnar.',
+      'Du minns en betydelse bättre om du plockar fram den ur minnet än om du läser den igen. Det kallas testeffekten, och minnesforskningen har visat den gång på gång. Du får veta direkt efter varje svar om det blev rätt, och repetitionerna sprids ut över flera dagar, så att ordet fastnar.',
     recall:
-      'Man blir bra på det man övar på: att gå från betydelse till ord är vad talet kräver, och det är svårare än att känna igen. Forskning om ordinlärning visar att produktiv återkallning bygger produktiv kunskap bäst. Du väljer ordet bland fyra alternativ, eller byter till att skriva eller säga det högt ur minnet när du vill ha det svårare.',
+      'Du blir bra på det du övar på. För att kunna prata måste du gå från betydelse till ord, och det är svårare än att känna igen ordet. Forskning om ordinlärning visar att du lär dig använda ord bäst genom att själv plocka fram dem. Du väljer ordet bland fyra alternativ. Vill du ha det svårare kan du i stället skriva det eller säga det högt ur minnet.',
     construction:
-      'Ord blir tal först när du kan sätta dem i rätt ordning med rätt ändelser. Att bygga meningar av ord du redan kan riktar uppmärksamheten mot grammatiken: ordföljd (verbet sist), suffix och kongruens.',
+      'Orden blir tal först när du kan sätta dem i rätt ordning med rätt ändelser. När du bygger meningar av ord du redan kan, kan du koncentrera dig på grammatiken: ordföljden (verbet sist), suffixen och kongruensen.',
     response:
-      'Att svara på en fråga kräver att man först förstår den, vilket ger djupare bearbetning än att upprepa en förebildsmening. Studier av fråga-svar-övning visar bättre långsiktigt minne än upprepning. Det här är steget närmast ett riktigt samtal.',
+      'För att svara på en fråga måste du först förstå den. Då bearbetar du språket djupare än när du härmar en färdig mening. Studier har visat att man minns mer på lång sikt när man övar med frågor och svar än när man upprepar. Det här steget ligger närmast ett riktigt samtal.',
     pictures:
-      'Bilder minns bättre än ord (bildöverlägsenhetseffekten), och när ordet kopplas direkt till en bild slipper du omvägen via svenska eller engelska. Fotona visar rätter och saker som de ser ut i Iran och Kurdistan.',
+      'Man minns bilder bättre än ord (bildöverlägsenhetseffekten). När du kopplar ordet direkt till en bild slipper du också omvägen via svenska eller engelska. Fotona visar maträtter och saker som de ser ut i Iran och Kurdistan.',
   },
 })

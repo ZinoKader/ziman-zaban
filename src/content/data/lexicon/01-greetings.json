@@ -46,7 +46,7 @@
         "variants": [{ "script": "خدانگهدار", "latin": "khodânegahdâr", "register": "formal" }],
         "notes": {
           "en": "Literally \"God (is your) protector\". Sorani خوا حافیز is the same phrase.",
-          "sv": "Ordagrant \"Gud (är ditt) beskydd\". Soranins خوا حافیز är samma uttryck."
+          "sv": "Ordagrant \"Gud (är din) beskyddare\". Soranins خوا حافیز är samma uttryck."
         },
         "sources": [{ "source": "wiktionary", "ref": "خداحافظ" }, { "source": "tatoeba" }]
       }
@@ -73,7 +73,7 @@
         ],
         "notes": {
           "en": "In everyday Tehran speech ممنون and مرسی are the most common. Formal سپاس is the same word as Sorani سوپاس.",
-          "sv": "I vardagligt Teheran-tal är ممنون och مرسی vanligast. Det formella سپاس är samma ord som soranins سوپاس."
+          "sv": "I vardagligt tal i Teheran är ممنون och مرسی vanligast. Det formella سپاس är samma ord som soranins سوپاس."
         },
         "sources": [{ "source": "wiktionary", "ref": "thank you" }, { "source": "tatoeba" }]
       }
@@ -89,7 +89,7 @@
         "primary": { "script": "زۆر سوپاس", "latin": "zor supas" },
         "notes": {
           "en": "زۆر means \"very, a lot\" and comes before what it intensifies.",
-          "sv": "زۆر betyder \"mycket\" och står före det som förstärks."
+          "sv": "زۆر betyder \"mycket\" och står före ordet det förstärker."
         },
         "sources": [{ "source": "tatoeba" }]
       },
@@ -118,7 +118,7 @@
         "primary": { "script": "لطفاً", "latin": "lotfan" },
         "notes": {
           "en": "The small mark ً over the alef is written in careful spelling; everyday typing often leaves it out (لطفا).",
-          "sv": "Det lilla tecknet ً över alef skrivs i noggrann stavning; i vardagligt skrivande utelämnas det ofta (لطفا)."
+          "sv": "Det lilla tecknet ً över alef skrivs ut när man stavar noga, men när man skriver till vardags hoppar man ofta över det (لطفا)."
         },
         "sources": [{ "source": "wiktionary", "ref": "لطفا" }, { "source": "tatoeba" }]
       }
@@ -166,7 +166,7 @@
         "variants": [{ "script": "نخیر", "latin": "nakheyr", "register": "formal" }],
         "notes": {
           "en": "The final ه here is not pronounced as h; it marks the vowel: na.",
-          "sv": "Det sista ه uttalas inte som h här; det markerar vokalen: na."
+          "sv": "Här uttalas det sista ه inte som h, utan markerar vokalen: na."
         },
         "sources": [{ "source": "wiktionary", "ref": "no" }, { "source": "tatoeba" }]
       }
@@ -190,7 +190,7 @@
         ],
         "notes": {
           "en": "چۆن means \"how\" and ی / یت is \"you are\". To several people, or politely to an elder: چۆنن؟ (çonin?), with the plural \"you are\" ن.",
-          "sv": "چۆن betyder \"hur\" och ی / یت är \"du är\". Till flera personer, eller artigt till en äldre: چۆنن؟ (çonin?), med plural-\"ni är\" ن."
+          "sv": "چۆن betyder \"hur\" och ی / یت är \"du är\". Till flera personer, eller artigt till en äldre: چۆنن؟ (çonin?), där ن betyder \"ni är\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "how are you" }, { "source": "tatoeba" }]
       },
@@ -228,7 +228,7 @@
         "primary": { "script": "خوب", "latin": "khub" },
         "notes": {
           "en": "Here و is the long vowel u. Persian باش (bâsh) also exists, but it means \"be!\", not \"good\".",
-          "sv": "Här är و den långa vokalen u. Persiskans باش (bâsh) finns också, men betyder \"var!\", inte \"bra\"."
+          "sv": "Här är و den långa vokalen u. Persiskans باش (bâsh) finns också, men det betyder \"var!\", inte \"bra\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "good" }, { "source": "tatoeba" }]
       }
@@ -244,7 +244,7 @@
         "primary": { "script": "باشم", "latin": "başim" },
         "notes": {
           "en": "باش (good) + م (I am). The i in başim is heard but not written: Sorani script leaves out this short vowel.",
-          "sv": "باش (bra) + م (jag är). I:et i başim hörs men skrivs inte: soranisk skrift utelämnar den korta vokalen."
+          "sv": "باش (bra) + م (jag är). I:et i başim hörs men skrivs inte: soranisk skrift hoppar över den korta vokalen."
         },
         "sources": [{ "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§15 copula" }]
       },
@@ -275,7 +275,7 @@
         ],
         "notes": {
           "en": "ئەی here is \"and what about…?\", used to bounce a question back.",
-          "sv": "ئەی betyder här \"och hur är det med…?\" och används för att ställa frågan tillbaka."
+          "sv": "ئەی betyder här \"och hur är det med…?\". Man säger det för att skicka tillbaka frågan."
         },
         "sources": [{ "source": "wiktionary", "ref": "ئەی" }, { "source": "tatoeba" }]
       },
@@ -377,7 +377,7 @@
         "variants": [{ "script": "ببورە", "latin": "bibure" }],
         "notes": {
           "en": "Used both to apologise and to get someone's attention. Both spellings are in use.",
-          "sv": "Används både för att be om ursäkt och för att få någons uppmärksamhet. Båda stavningarna förekommer."
+          "sv": "Man säger det både när man ber om ursäkt och när man vill få någons uppmärksamhet. Båda stavningarna förekommer."
         },
         "sources": [{ "source": "wiktionary", "ref": "excuse me" }, { "source": "tatoeba" }]
       },
@@ -385,7 +385,7 @@
         "primary": { "script": "ببخشید", "latin": "bebakhshid" },
         "notes": {
           "en": "Used both to apologise and to get someone's attention, like \"excuse me\".",
-          "sv": "Används både för att be om ursäkt och för att få någons uppmärksamhet, som \"ursäkta\"."
+          "sv": "Man säger det både när man ber om ursäkt och när man vill få någons uppmärksamhet, som \"ursäkta\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "ببخشید" }, { "source": "tatoeba" }]
       }
@@ -426,7 +426,7 @@
         "primary": { "script": "باشە", "latin": "başe" },
         "notes": {
           "en": "باش (good) + ە (it is): \"it's good\". It looks just like Persian باشه, but that one is built differently (\"let it be\").",
-          "sv": "باش (bra) + ە (det är): \"det är bra\". Det ser ut precis som persiskans باشه, men det är uppbyggt annorlunda (\"må det vara\")."
+          "sv": "باش (bra) + ە (det är): \"det är bra\". Det ser ut precis som persiskans باشه, men det ordet är uppbyggt på ett annat sätt (\"må det vara\")."
         },
         "sources": [{ "source": "wiktionary", "ref": "great" }, { "source": "tatoeba" }]
       },

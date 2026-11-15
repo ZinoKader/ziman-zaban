@@ -42,8 +42,8 @@
       "ckb": {
         "primary": { "script": "بچووک", "latin": "biçûk" },
         "notes": {
-          "en": "Also \"young\": برا بچووکەکەم \"my little brother\". The comparative بچووکتر is how you say \"younger\".",
-          "sv": "Betyder också \"ung\": برا بچووکەکەم \"min lillebror\". Komparativen بچووکتر är hur man säger \"yngre\"."
+          "en": "Also \"young\": برا بچووکەکەم \"my little brother\". Its comparative بچووکتر means \"younger\".",
+          "sv": "Betyder också \"ung\": برا بچووکەکەم \"min lillebror\". Komparativen بچووکتر betyder \"yngre\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "small" }, { "source": "tatoeba" }]
       },
@@ -124,10 +124,10 @@
       "gloss": { "en": "new", "sv": "ny", "svAlt": ["nytt", "nya"] },
       "ckb": {
         "primary": { "script": "نوێ", "latin": "nwê" },
-        "variants": [{ "script": "تازە", "latin": "taze", "note": { "en": "fresh, brand-new", "sv": "färsk, splitter ny" } }],
+        "variants": [{ "script": "تازە", "latin": "taze", "note": { "en": "fresh, brand-new", "sv": "färsk, splitterny" } }],
         "notes": {
           "en": "Related to Persian نو (now), English \"new\" and Swedish \"ny\". تازە (taze) is \"fresh, brand-new\".",
-          "sv": "Släkt med persiskans نو (now), engelskans \"new\" och svenskans \"ny\". تازە (taze) är \"färsk, splitter ny\"."
+          "sv": "Släkt med persiskans نو (now), engelskans \"new\" och svenskans \"ny\". تازە (taze) är \"färsk, splitterny\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "new" }, { "source": "tatoeba" }]
       },
@@ -139,7 +139,7 @@
         ],
         "notes": {
           "en": "جدید (from Arabic) is the general word. نو (now) \"brand-new\" is related to Sorani نوێ, English \"new\" and Swedish \"ny\".",
-          "sv": "جدید (från arabiskan) är det allmänna ordet. نو (now) \"splitter ny\" är släkt med soranins نوێ, engelskans \"new\" och svenskans \"ny\"."
+          "sv": "جدید (från arabiskan) är det allmänna ordet. نو (now) \"splitterny\" är släkt med soranins نوێ, engelskans \"new\" och svenskans \"ny\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "new" }, { "source": "tatoeba" }]
       }
@@ -272,7 +272,7 @@
         ],
         "notes": {
           "en": "Built on خەم (xem) \"sorrow\", the same word as Persian غم (gham). دڵتەنگ, literally \"tight-hearted\", is just as common in speech.",
-          "sv": "Bildat av خەم (xem) \"sorg\", samma ord som persiskans غم (gham). دڵتەنگ, ordagrant \"trånghjärtad\", är lika vanligt i tal."
+          "sv": "Bygger på خەم (xem) \"sorg\", samma ord som persiskans غم (gham). دڵتەنگ, ordagrant \"trånghjärtad\", är lika vanligt i tal."
         },
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
       },
@@ -417,7 +417,7 @@
         "primary": { "script": "آبی", "latin": "âbi" },
         "notes": {
           "en": "Literally \"watery\": آب (âb) \"water\" + -i. Dark blue, navy, has its own word: سرمه‌ای (sorme-i).",
-          "sv": "Ordagrant \"vattnig\": آب (âb) \"vatten\" + -i. Mörkblått, marinblått, har ett eget ord: سرمه‌ای (sorme-i)."
+          "sv": "Ordagrant \"vattnig\": آب (âb) \"vatten\" + -i. Mörkblått (marinblått) har ett eget ord: سرمه‌ای (sorme-i)."
         },
         "sources": [{ "source": "wiktionary", "ref": "blue" }, { "source": "tatoeba" }]
       }
@@ -564,7 +564,7 @@
         "variants": [{ "script": "زەحمەت", "latin": "zeḧmet", "note": { "en": "difficult; also \"trouble\"", "sv": "svår; också \"besvär\"" } }],
         "notes": {
           "en": "The same word as Persian سخت (sakht). زەحمەت (zeḧmet) is just as common in speech, and also means \"trouble\": زەحمەت نەبێت \"if it's no trouble\".",
-          "sv": "Samma ord som persiskans سخت (sakht). زەحمەت (zeḧmet) är lika vanligt i tal och betyder också \"besvär\": زەحمەت نەبێت \"om det inte är besvärligt\"."
+          "sv": "Samma ord som persiskans سخت (sakht). زەحمەت (zeḧmet) är lika vanligt i tal och betyder också \"besvär\": زەحمەت نەبێت \"om det inte är för mycket besvär\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "difficult" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§5, §7" }]
       },
@@ -645,7 +645,7 @@
       "gloss": { "en": "clean", "sv": "ren", "svAlt": ["rent", "rena"] },
       "ckb": {
         "primary": { "script": "خاوێن", "latin": "xawên" },
-        "variants": [{ "script": "پاک", "latin": "pak", "note": { "en": "clean, pure", "sv": "ren, renlig" } }],
+        "variants": [{ "script": "پاک", "latin": "pak", "note": { "en": "clean, pure", "sv": "ren, pur" } }],
         "notes": {
           "en": "پاک (pak) \"clean, pure\" is also common, and پاک کردنەوە is \"to clean\".",
           "sv": "پاک (pak) \"ren\" är också vanligt, och پاک کردنەوە betyder \"att städa, göra ren\"."
@@ -670,7 +670,7 @@
       "gloss": { "en": "dirty", "sv": "smutsig", "svAlt": ["smutsigt", "skitig"] },
       "ckb": {
         "primary": { "script": "پیس", "latin": "pîs" },
-        "variants": [{ "script": "چڵکن", "latin": "çiłkin", "note": { "en": "grimy, filthy", "sv": "skitig, sotig" } }],
+        "variants": [{ "script": "چڵکن", "latin": "çiłkin", "note": { "en": "grimy, filthy", "sv": "skitig, snuskig" } }],
         "notes": {
           "en": "The opposite of خاوێن: ژوورەکەی پیسە \"his room is dirty\".",
           "sv": "Motsatsen till خاوێن: ژوورەکەی پیسە \"hans rum är smutsigt\"."

@@ -17,7 +17,7 @@ const strings = defineStrings({
   sv: {
     placeholderTarget: 'Skriv med arabisk skrift eller latinska bokstäver',
     placeholderBase: 'Skriv betydelsen',
-    keyboard: 'Tangentbord på skärmen',
+    keyboard: 'Skärmtangentbord',
   },
 })
 

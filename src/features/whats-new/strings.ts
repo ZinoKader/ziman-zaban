@@ -12,7 +12,7 @@ export const whatsNewStrings = defineStrings({
   },
   sv: {
     title: 'Nytt i appen',
-    intro: 'Ändringar i appen, senaste först.',
+    intro: 'Ändringar i appen, de senaste först.',
     empty: 'Inget här än.',
     banner: (n: number) => `Nytt i appen: ${n === 1 ? '1 ändring' : `${n} ändringar`}`,
     read: 'Se vad som är nytt',

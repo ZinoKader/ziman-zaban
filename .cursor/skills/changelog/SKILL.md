@@ -28,7 +28,7 @@ Read the [writing skill](../writing/SKILL.md) first and follow it, including its
 - One short bullet per change. Aim for one line, at most two short sentences.
 - Start each bullet with where the change is, using the names on screen, then a colon.
   - English: `Recognition:`, `Recall:`, `Sentence building:`, `Q&A:`, `Module pages:`, `Words:`, `Progress:`, `Settings:`, `Audio:`, `App:` for changes that apply everywhere.
-  - Swedish: `Igenkänning:`, `Återkallning:`, `Meningsbygge:`, `Frågor & svar:`, `Modulsidor:`, `Ord:`, `Framsteg:`, `Inställningar:`, `Ljud:`, `Appen:`.
+  - Swedish: `Igenkänning:`, `Minnas:`, `Meningsbygge:`, `Frågor & svar:`, `Modulsidor:`, `Ord:`, `Framsteg:`, `Inställningar:`, `Ljud:`, `Appen:`.
 - Say what changed, in the present tense: "Recall: new words start as a choice between four options." Not "We've added..." and not "Improved...".
 - Use button labels exactly as the app shows them in that language, in double quotes ("Show 4 options" in English, "Visa 4 alternativ" in Swedish). Look them up in `src/**/strings.ts`.
 - No sub-bullets, no bold, no emoji, no "Added / Changed / Fixed" sections. A fix is written as the new behaviour: "Q&A: answers only use words you have already met."
@@ -57,7 +57,7 @@ Good:
 ```markdown
 ## 2026-11-02
 
-- Återkallning: nya ord börjar som ett val mellan fyra alternativ.
+- Minnas: nya ord börjar som ett val mellan fyra alternativ.
 - Frågor & svar: svaren använder bara ord du redan har mött.
 ```
 

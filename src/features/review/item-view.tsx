@@ -157,7 +157,7 @@ function ReportedBanner({ reports }: { reports: ContentReport[] }) {
       <ul className="space-y-1">
         {reports.map((r) => (
           <li key={r.at} className="text-sm">
-            <span dir="auto">“{r.message}”</span>{' '}
+            <span dir="auto">"{r.message}"</span>{' '}
             <time className="text-xs text-muted-foreground" dateTime={r.at}>
               {r.at.slice(0, 10)}
             </time>

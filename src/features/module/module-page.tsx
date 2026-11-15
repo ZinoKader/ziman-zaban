@@ -32,8 +32,8 @@ const strings = defineStrings({
     lockedHint: {
       recognition: '',
       recall: 'Words arrive here once you recognise them reliably (after a few correct answers in Recognition).',
-      construction: 'Sentences unlock once you have met all the words they use in Recognition.',
-      response: 'Questions unlock once you can recall most of the words they use.',
+      construction: 'Sentences open once you have met all their words in Recognition.',
+      response: 'Questions open once you can recall most of their words.',
       pictures: '',
     },
     noContent: 'No content in this unit yet',
@@ -47,11 +47,11 @@ const strings = defineStrings({
     later: 'Later',
     afterAll: {
       recognition: (n: number) =>
-        `What happens after all ${n} words? They stay with you: learned words keep coming back at longer and longer intervals, so they stick for good. They also move on to Recall, where you produce them yourself, and then into Sentence building and Q&A.`,
+        `What happens after all ${n} words? They stay with you: learned words keep coming back at longer and longer intervals, so they stick for good. They also move on to Recall, where you come up with them yourself, and then to Sentence building and Q&A.`,
       recall: (n: number) =>
         `What happens after all ${n} words? They keep coming back at longer and longer intervals, weeks and then months apart, so they stay in your long-term memory. And you use them in Sentence building and Q&A.`,
       construction: (n: number) =>
-        `What happens after all ${n} sentences? They come back now and then so the grammar stays automatic, while Q&A puts the same words to work in real conversations.`,
+        `What happens after all ${n} sentences? They come back now and then so the grammar stays automatic, and Q&A puts the same words to work in conversation.`,
       response: (n: number) =>
         `What happens after all ${n} questions? They come back at longer and longer intervals, so you can keep answering them without thinking.`,
       pictures: (n: number) =>
@@ -61,7 +61,7 @@ const strings = defineStrings({
   sv: {
     start: 'Starta passet',
     due: 'Att repetera nu',
-    available: 'Redo att lära',
+    available: 'Redo att lära in',
     learned: 'Inlärda',
     total: 'Totalt',
     why: 'Därför fungerar det',
@@ -71,14 +71,14 @@ const strings = defineStrings({
     lockedHint: {
       recognition: '',
       recall: 'Ord kommer hit när du känner igen dem säkert (efter några rätta svar i Igenkänning).',
-      construction: 'Meningar låses upp när du har mött alla ord de använder i Igenkänning.',
-      response: 'Frågor låses upp när du kan plocka fram de flesta orden de använder.',
+      construction: 'Meningar låses upp när du har mött alla deras ord i Igenkänning.',
+      response: 'Frågor låses upp när du kan plocka fram de flesta av orden i dem.',
       pictures: '',
     },
     noContent: 'Inget innehåll i den här enheten än',
     reviews: 'Så fungerar repetitionerna',
     reviewsBody:
-      'Allt du övar kommer tillbaka precis innan du skulle glömma det: först efter några minuter, sedan efter ungefär två dagar, sedan efter en dryg vecka och sedan efter veckor och månader. Svarar du rätt blir uppehållet längre, svarar du fel kommer det tillbaka snabbare. Gör du mycket idag behöver du alltså inte göra om allt imorgon, bara några repetitioner utspridda över de kommande dagarna.',
+      'Allt du övar kommer tillbaka precis innan du skulle glömma det: först efter några minuter, sedan efter ungefär två dagar, sedan efter en dryg vecka och sedan efter veckor och månader. Svarar du rätt dröjer det längre till nästa gång. Svarar du fel kommer det tillbaka tidigare. Gör du mycket idag behöver du alltså inte göra om allt imorgon, bara några repetitioner utspridda över de kommande dagarna.',
     comingBack: 'Kommer tillbaka',
     laterToday: 'Senare idag',
     tomorrow: 'Imorgon',
@@ -86,11 +86,11 @@ const strings = defineStrings({
     later: 'Senare',
     afterAll: {
       recognition: (n: number) =>
-        `Vad händer efter alla ${n} ord? De stannar kvar: inlärda ord fortsätter att komma tillbaka med allt längre mellanrum, så att de fastnar på riktigt. De går också vidare till Återkallning, där du plockar fram dem själv, och sedan till Meningsbygge och Frågor & svar.`,
+        `Vad händer efter alla ${n} ord? De stannar kvar: inlärda ord fortsätter att komma tillbaka med allt längre mellanrum, så att de fastnar på riktigt. De går också vidare till Minnas, där du plockar fram dem själv, och sedan till Meningsbygge och Frågor & svar.`,
       recall: (n: number) =>
         `Vad händer efter alla ${n} ord? De fortsätter att komma tillbaka med allt längre mellanrum, veckor och sedan månader, så att de stannar i långtidsminnet. Och du använder dem i Meningsbygge och Frågor & svar.`,
       construction: (n: number) =>
-        `Vad händer efter alla ${n} meningar? De kommer tillbaka då och då så att grammatiken sitter, medan Frågor & svar använder samma ord i riktiga samtal.`,
+        `Vad händer efter alla ${n} meningar? De kommer tillbaka då och då så att grammatiken sitter, och i Frågor & svar använder du samma ord i samtal.`,
       response: (n: number) =>
         `Vad händer efter alla ${n} frågor? De kommer tillbaka med allt längre mellanrum, så att du kan svara utan att tänka efter.`,
       pictures: (n: number) =>

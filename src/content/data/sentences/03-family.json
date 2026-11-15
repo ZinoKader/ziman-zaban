@@ -607,7 +607,7 @@
       "id": "my-uncle-lives-there",
       "unit": "family",
       "level": "A1",
-      "translation": { "en": "My uncle (my father’s brother) lives there.", "sv": "Min farbror bor där.", "enAlt": ["My uncle lives there."] },
+      "translation": { "en": "My uncle (my father's brother) lives there.", "sv": "Min farbror bor där.", "enAlt": ["My uncle lives there."] },
       "ckb": {
         "text": "مامم لەوێ دەژی.",
         "latin": "mamim lewê dejî.",
@@ -663,7 +663,7 @@
       "id": "my-aunt-is-from-tehran",
       "unit": "family",
       "level": "A1",
-      "translation": { "en": "My aunt (my mother’s sister) is from Tehran.", "sv": "Min moster kommer från Teheran.", "enAlt": ["My aunt is from Tehran."] },
+      "translation": { "en": "My aunt (my mother's sister) is from Tehran.", "sv": "Min moster kommer från Teheran.", "enAlt": ["My aunt is from Tehran."] },
       "ckb": {
         "text": "پوورم خەڵکی تارانە.",
         "latin": "pûrim xełkî Tarane.",

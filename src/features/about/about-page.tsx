@@ -467,7 +467,7 @@ function Dialects() {
               </div>
             ))}
           </div>
-          <p className="text-center text-xs text-muted-foreground">“{s.iWant}”</p>
+          <p className="text-center text-xs text-muted-foreground">"{s.iWant}"</p>
         </div>
       </div>
     </Section>

@@ -49,11 +49,11 @@
       "title": { "en": "Numbers & time", "sv": "Siffror & tid" },
       "description": {
         "en": "Counting, age, days, and talking about today, tomorrow and yesterday.",
-        "sv": "Räkna, ålder, dagar och att prata om idag, imorgon och igår."
+        "sv": "Att räkna, ålder, dagar och hur du pratar om idag, imorgon och igår."
       },
       "canDo": {
         "en": "Say your age, count things, and say when something happens.",
-        "sv": "Säga din ålder, räkna saker och säga när något händer."
+        "sv": "Säga hur gammal du är, räkna saker och säga när något händer."
       }
     },
     {
@@ -88,10 +88,10 @@
       "id": "places-travel",
       "order": 7,
       "emoji": "🗺️",
-      "title": { "en": "Places & getting around", "sv": "Platser & att ta sig runt" },
+      "title": { "en": "Places & getting around", "sv": "Platser & att ta sig fram" },
       "description": {
         "en": "The city, shops, school, directions, near and far.",
-        "sv": "Staden, affärer, skolan, vägbeskrivningar, nära och långt."
+        "sv": "Staden, affärer, skolan, vägbeskrivningar, nära och långt borta."
       },
       "canDo": {
         "en": "Ask where something is and say where you are going.",
@@ -137,7 +137,7 @@
       },
       "canDo": {
         "en": "Ask follow-up questions and give reasons.",
-        "sv": "Ställa följdfrågor och ge skäl."
+        "sv": "Ställa följdfrågor och förklara varför."
       }
     }
   ]

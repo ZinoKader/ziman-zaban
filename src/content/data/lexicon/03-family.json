@@ -22,12 +22,12 @@
             "script": "فامیل",
             "latin": "fâmil",
             "register": "colloquial",
-            "note": { "en": "relatives, the wider family", "sv": "släkt, den utökade familjen" }
+            "note": { "en": "relatives, the wider family", "sv": "släkt, den större familjen" }
           }
         ],
         "notes": {
           "en": "Built on خانه (khâne) \"house\". فامیل (fâmil), from French, means the wider family, your relatives.",
-          "sv": "Bildat av خانه (khâne) \"hus\". فامیل (fâmil), från franskan, betyder den utökade familjen, släkten."
+          "sv": "Bildat av خانه (khâne) \"hus\". فامیل (fâmil), från franskan, betyder släkten, alltså den större familjen."
         },
         "sources": [{ "source": "wiktionary", "ref": "family" }, { "source": "tatoeba" }]
       }
@@ -122,7 +122,7 @@
         "primary": { "script": "خوشک", "latin": "xuşk" },
         "notes": {
           "en": "Also a friendly way to address any woman: خوشکە! (xuşke) \"sister!\". \"My sister\" is خوشکم (xuşkim).",
-          "sv": "Används också vänligt till vilken kvinna som helst: خوشکە! (xuşke) \"syster!\". \"Min syster\" heter خوشکم (xuşkim)."
+          "sv": "Är också ett vänligt tilltal till vilken kvinna som helst: خوشکە! (xuşke) \"syster!\". \"Min syster\" heter خوشکم (xuşkim)."
         },
         "sources": [{ "source": "wiktionary", "ref": "sister" }, { "source": "tatoeba" }]
       },
@@ -364,7 +364,7 @@
         "primary": { "script": "خاڵ", "latin": "xał" },
         "notes": {
           "en": "خاڵ also means \"dot, point\"; in a family the meaning is clear. \"My uncle\" is خاڵم (xałim).",
-          "sv": "خاڵ betyder också \"prick, punkt\"; i familjesammanhang är betydelsen tydlig. \"Min morbror\" heter خاڵم (xałim)."
+          "sv": "خاڵ betyder också \"prick, punkt\"; när man pratar om familjen är det tydligt vad som menas. \"Min morbror\" heter خاڵم (xałim)."
         },
         "sources": [{ "source": "wiktionary", "ref": "maternal uncle" }, { "source": "tatoeba" }]
       },
@@ -395,7 +395,7 @@
         ],
         "notes": {
           "en": "Unlike the uncles, Sorani پوور covers both aunts. To be precise, say خوشکی باوکم \"my father's sister\".",
-          "sv": "Till skillnad från farbror och morbror täcker soranins پوور båda mostrar och fastrar. Vill man vara tydlig säger man خوشکی باوکم \"min pappas syster\"."
+          "sv": "Till skillnad från farbror och morbror är soranins پوور både faster och moster. Vill man vara tydlig säger man خوشکی باوکم \"min pappas syster\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "paternal aunt" }, { "source": "tatoeba" }]
       },
@@ -511,8 +511,8 @@
         "primary": { "script": "چند", "latin": "chand" },
         "variants": [{ "script": "چند تا", "latin": "chand tâ", "register": "colloquial" }],
         "notes": {
-          "en": "Singular noun after it, as in Sorani: چند برادر؟ In speech people add تا: چند تا خواهر داری؟ The same word as Sorani چەند.",
-          "sv": "Substantiv i singular efter, som i soranin: چند برادر؟ I tal lägger man till تا: چند تا خواهر داری؟ Samma ord som soranins چەند."
+          "en": "The noun after it is singular, as in Sorani: چند برادر؟ In speech people add تا: چند تا خواهر داری؟ The same word as Sorani چەند.",
+          "sv": "Substantivet efter står i singular, som i soranin: چند برادر؟ I tal lägger man till تا: چند تا خواهر داری؟ Samma ord som soranins چەند."
         },
         "sources": [{ "source": "wiktionary", "ref": "how many" }, { "source": "tatoeba" }]
       }

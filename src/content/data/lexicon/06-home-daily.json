@@ -27,7 +27,7 @@
         "variants": [{ "script": "خونه", "latin": "khune", "register": "colloquial" }],
         "notes": {
           "en": "In Tehran speech â before n often becomes u: خانه → خونه (khune), like نان → نون. Sorani خانوو is the same word.",
-          "sv": "I Teherantal blir â före n ofta u: خانه → خونه (khune), som نان → نون. Soranins خانوو är samma ord."
+          "sv": "I Teherans talspråk blir â före n ofta u: خانه → خونه (khune), som نان → نون. Soranins خانوو är samma ord."
         },
         "sources": [{ "source": "wiktionary", "ref": "house" }, { "source": "tatoeba" }]
       }
@@ -201,7 +201,7 @@
         "primary": { "script": "کورسی", "latin": "kursî" },
         "notes": {
           "en": "From Arabic kursî. Careful in Iran: Persian کرسی (korsi) is a low heated table covered with a quilt, not a chair.",
-          "sv": "Från arabiskans kursî. Se upp i Iran: persiskans کرسی (korsi) är ett lågt uppvärmt bord täckt med ett täcke, inte en stol."
+          "sv": "Från arabiskans kursî. Se upp i Iran: persiskans کرسی (korsi) är ett lågt, uppvärmt bord med ett täcke över, inte en stol."
         },
         "sources": [{ "source": "wiktionary", "ref": "chair" }, { "source": "tatoeba" }]
       },
@@ -324,7 +324,7 @@
         "variants": [{ "script": "جلوبەرگ", "latin": "cilûberg" }],
         "notes": {
           "en": "\"My clothes\" is جلەکانم (cilekanim). جلوبەرگ (\"clothes and garments\") is the fuller word for \"clothing\".",
-          "sv": "\"Mina kläder\" heter جلەکانم (cilekanim). جلوبەرگ (\"kläder och plagg\") är det fylligare ordet för \"klädsel\"."
+          "sv": "\"Mina kläder\" heter جلەکانم (cilekanim). جلوبەرگ (\"kläder och plagg\") är den längre formen och betyder \"klädsel\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "clothes" }, { "source": "tatoeba" }]
       },
@@ -459,12 +459,12 @@
           {
             "script": "لە خەو هەڵسان",
             "latin": "le xew hełsan",
-            "note": { "en": "\"to rise from sleep\", clearly \"wake up\"", "sv": "\"att resa sig ur sömnen\", tydligt \"vakna\"" }
+            "note": { "en": "\"to rise from sleep\", clearly \"wake up\"", "sv": "\"att resa sig ur sömnen\", entydigt \"vakna\"" }
           }
         ],
         "notes": {
-          "en": "Literally \"to get up\". دە goes inside: هەڵدەستم (hełdestim) \"I get up\", negative هەڵناستم. Add لە خەو \"from sleep\" to mean waking.",
-          "sv": "Ordagrant \"att stiga upp\". دە hamnar inuti: هەڵدەستم (hełdestim) \"jag går upp\", nekande هەڵناستم. Lägg till لە خەو \"ur sömnen\" för att säga vakna."
+          "en": "Literally \"to get up\". دە goes inside the verb: هەڵدەستم (hełdestim) \"I get up\", negative هەڵناستم. Add لە خەو \"from sleep\" to mean waking.",
+          "sv": "Ordagrant \"att stiga upp\". دە hamnar mitt i verbet: هەڵدەستم (hełdestim) \"jag går upp\", nekande هەڵناستم. Lägg till لە خەو \"ur sömnen\" så betyder det vakna."
         },
         "sources": [{ "source": "wiktionary", "ref": "wake up" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§17, §23" }]
       },

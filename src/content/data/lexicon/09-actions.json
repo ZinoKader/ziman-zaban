@@ -50,7 +50,7 @@
         "pastStem": { "script": "بینی", "latin": "bînî" },
         "notes": {
           "en": "دەبینم (debînim) \"I see\". Transitive, so the past is ergative: تۆم بینی (tom bînî) \"I saw you\", with the \"I\" glued to تۆ.",
-          "sv": "دەبینم (debînim) \"jag ser\". Transitivt, så preteritum är ergativt: تۆم بینی (tom bînî) \"jag såg dig\", med \"jag\" fastsatt på تۆ."
+          "sv": "دەبینم (debînim) \"jag ser\". Transitivt, så preteritum är ergativt: تۆم بینی (tom bînî) \"jag såg dig\", där \"jag\" sitter fast på تۆ."
         },
         "sources": [{ "source": "thackston-sorani-grammar", "ref": "§27.2 (dîtin, present stem bîn)" }, { "source": "tatoeba" }]
       },
@@ -106,8 +106,8 @@
         "presentStem": { "script": "زان", "latin": "zan" },
         "pastStem": { "script": "زانی", "latin": "zanî" },
         "notes": {
-          "en": "Like Swedish \"veta\": facts and skills. For knowing a person, Swedish \"känna\", use ناسین (nasîn): دەیناسم \"I know him\". نازانم (nazanim) \"I don't know\" is one of the most useful words there is.",
-          "sv": "Som svenskans \"veta\": fakta och färdigheter. För att känna en person används ناسین (nasîn): دەیناسم \"jag känner honom\". نازانم (nazanim) \"jag vet inte\" är ett av de nyttigaste orden som finns."
+          "en": "Like Swedish \"veta\": facts and skills. For knowing a person, Swedish \"känna\", use ناسین (nasîn): دەیناسم \"I know him\". You will need نازانم (nazanim) \"I don't know\" often.",
+          "sv": "Som svenskans \"veta\": fakta och färdigheter. För att känna en person används ناسین (nasîn): دەیناسم \"jag känner honom\". نازانم (nazanim) \"jag vet inte\" kommer du att behöva ofta."
         },
         "sources": [{ "source": "wiktionary", "ref": "to know" }, { "source": "tatoeba" }]
       },
@@ -117,7 +117,7 @@
         "pastStem": { "script": "دانست", "latin": "dânest" },
         "notes": {
           "en": "Like Swedish \"veta\". For people, Swedish \"känna\", use شناختن (shenâkhtan): او را می‌شناسم \"I know him\". In speech می‌دانم becomes می‌دونم (midunam), and \"I don't know\" is نمی‌دونم (nemidunam).",
-          "sv": "Som svenskans \"veta\". För personer, \"känna\", används شناختن (shenâkhtan): او را می‌شناسم \"jag känner honom\". I tal blir می‌دانم می‌دونم (midunam), och \"jag vet inte\" heter نمی‌دونم (nemidunam)."
+          "sv": "Som svenskans \"veta\". För personer, \"känna\", används شناختن (shenâkhtan): او را می‌شناسم \"jag känner honom\". I tal blir می‌دانم till می‌دونم (midunam), och \"jag vet inte\" heter نمی‌دونم (nemidunam)."
         },
         "sources": [{ "source": "wiktionary", "ref": "to know" }, { "source": "tatoeba" }]
       }
@@ -135,7 +135,7 @@
         "pastStem": { "script": "تێگەیشت", "latin": "têgeyşt" },
         "notes": {
           "en": "The prefix تێ- splits off: تێدەگەم (têdegem) \"I understand\", تێناگەم (tênagem) \"I don't understand\". It is intransitive (literally \"to reach into\"), so the past has normal endings: تێگەیشتم \"I understood\".",
-          "sv": "Förstavelsen تێ- delas av: تێدەگەم (têdegem) \"jag förstår\", تێناگەم (tênagem) \"jag förstår inte\". Verbet är intransitivt (ordagrant \"att nå in i\"), så preteritum får vanliga ändelser: تێگەیشتم \"jag förstod\"."
+          "sv": "Förstavelsen تێ- skiljs från verbet: تێدەگەم (têdegem) \"jag förstår\", تێناگەم (tênagem) \"jag förstår inte\". Verbet är intransitivt (ordagrant \"att nå in i\"), så preteritum får vanliga ändelser: تێگەیشتم \"jag förstod\"."
         },
         "sources": [
           { "source": "wiktionary", "ref": "to understand" },
@@ -198,7 +198,7 @@
         "pastStem": { "script": "خوێند", "latin": "xwênd" },
         "notes": {
           "en": "Reading a text takes the ending -ewe: کتێب دەخوێنمەوە (kitêb dexwênimewe) \"I read a book\". Plain خوێندن (xwêndin) means \"to study\" or \"to recite, sing\".",
-          "sv": "Att läsa en text får ändelsen -ewe: کتێب دەخوێنمەوە (kitêb dexwênimewe) \"jag läser en bok\". Enbart خوێندن (xwêndin) betyder \"att studera\" eller \"att recitera, sjunga\"."
+          "sv": "När man läser en text får verbet ändelsen -ewe: کتێب دەخوێنمەوە (kitêb dexwênimewe) \"jag läser en bok\". Utan -ewe betyder خوێندن (xwêndin) \"att studera\" eller \"att recitera, sjunga\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "to read" }, { "source": "tatoeba" }]
       },
@@ -208,7 +208,7 @@
         "pastStem": { "script": "خواند", "latin": "khând" },
         "notes": {
           "en": "The و is silent: khândan. Also \"to study\" (درس خواندن) and \"to sing\". In speech می‌خوانم becomes می‌خونم (mikhunam). The same verb as Sorani خوێندن.",
-          "sv": "و är stumt: khândan. Betyder också \"att plugga\" (درس خواندن) och \"att sjunga\". I tal blir می‌خوانم می‌خونم (mikhunam). Samma verb som soranins خوێندن."
+          "sv": "و är stumt: khândan. Betyder också \"att plugga\" (درس خواندن) och \"att sjunga\". I tal blir می‌خوانم till می‌خونم (mikhunam). Samma verb som soranins خوێندن."
         },
         "sources": [{ "source": "wiktionary", "ref": "to read" }, { "source": "tatoeba" }]
       }
@@ -315,7 +315,7 @@
         "pastStem": { "script": "گرت", "latin": "girt" },
         "notes": {
           "en": "Also \"to hold, to catch\": بیگرە! (bîgre) \"take it!\". To take something somewhere is بردن (birdin), the same word as in Persian.",
-          "sv": "Betyder också \"att hålla, att fånga\": بیگرە! (bîgre) \"ta den!\". Att ta något någonstans heter بردن (birdin), samma ord som på persiska."
+          "sv": "Betyder också \"att hålla, att fånga\": بیگرە! (bîgre) \"ta den!\". Att ta med något någonstans heter بردن (birdin), samma ord som på persiska."
         },
         "sources": [{ "source": "wiktionary", "ref": "گرتن" }, { "source": "tatoeba" }]
       },
@@ -325,7 +325,7 @@
         "pastStem": { "script": "گرفت", "latin": "gereft" },
         "notes": {
           "en": "Present stem گیر: بگیر! (begir) \"take it!\". Also \"to get, to catch\": تاکسی می‌گیرم \"I'll take a taxi\". To take somewhere is بردن (bordan).",
-          "sv": "Presensstam گیر: بگیر! (begir) \"ta den!\". Betyder också \"att få, att fånga\": تاکسی می‌گیرم \"jag tar en taxi\". Att ta någonstans heter بردن (bordan)."
+          "sv": "Presensstam گیر: بگیر! (begir) \"ta den!\". Betyder också \"att få, att fånga\": تاکسی می‌گیرم \"jag tar en taxi\". Att ta med något någonstans heter بردن (bordan)."
         },
         "sources": [{ "source": "wiktionary", "ref": "گرفتن" }, { "source": "tatoeba" }]
       }
@@ -371,7 +371,7 @@
         "pastStem": { "script": "داخست", "latin": "daxist" },
         "notes": {
           "en": "The prefix دا- splits off: دادەخەم (dadexem) \"I close\", دابخە! (dabixe) \"close it!\". Past: پەنجەرەکەم داخست \"I closed the window\".",
-          "sv": "Förstavelsen دا- delas av: دادەخەم (dadexem) \"jag stänger\", دابخە! (dabixe) \"stäng!\". Preteritum: پەنجەرەکەم داخست \"jag stängde fönstret\"."
+          "sv": "Förstavelsen دا- skiljs från verbet: دادەخەم (dadexem) \"jag stänger\", دابخە! (dabixe) \"stäng!\". Preteritum: پەنجەرەکەم داخست \"jag stängde fönstret\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "to close" }, { "source": "tatoeba" }]
       },
@@ -428,7 +428,7 @@
         "pastStem": { "script": "چاوەڕێ کرد", "latin": "çaweřê kird" },
         "notes": {
           "en": "Built on چاو \"eye\" and ڕێ \"road\": eyes on the road. \"Wait!\" is چاوەڕێ بکە! or چاوەڕێ بە!, and \"I'm waiting for you\" is چاوەڕێت دەکەم.",
-          "sv": "Bildat av چاو \"öga\" och ڕێ \"väg\": blicken mot vägen. \"Vänta!\" heter چاوەڕێ بکە! eller چاوەڕێ بە!, och \"jag väntar på dig\" heter چاوەڕێت دەکەم."
+          "sv": "Bygger på چاو \"öga\" och ڕێ \"väg\": blicken mot vägen. \"Vänta!\" heter چاوەڕێ بکە! eller چاوەڕێ بە!, och \"jag väntar på dig\" heter چاوەڕێت دەکەم."
         },
         "sources": [{ "source": "wiktionary", "ref": "to wait" }, { "source": "tatoeba" }]
       },
@@ -438,7 +438,7 @@
         "pastStem": { "script": "صبر کرد", "latin": "sabr kard" },
         "notes": {
           "en": "صبر means \"patience\": صبر کنید! \"wait!\". \"I'm waiting for you\" uses منتظر (montazer) \"waiting\": منتظرت هستم, in speech منتظرتم (montazeretam).",
-          "sv": "صبر betyder \"tålamod\": صبر کنید! \"vänta!\". \"Jag väntar på dig\" uttrycks med منتظر (montazer) \"väntande\": منتظرت هستم, i tal منتظرتم (montazeretam)."
+          "sv": "صبر betyder \"tålamod\": صبر کنید! \"vänta!\". \"Jag väntar på dig\" säger man med منتظر (montazer) \"väntande\": منتظرت هستم, i tal منتظرتم (montazeretam)."
         },
         "sources": [{ "source": "wiktionary", "ref": "صبر کردن" }, { "source": "tatoeba" }]
       }
@@ -456,7 +456,7 @@
         "pastStem": { "script": "یارمەتی دا", "latin": "yarmetî da" },
         "notes": {
           "en": "Literally \"to give help\". The person helped goes on یارمەتی: یارمەتیم بدە! \"help me!\", یارمەتیت دەدەم \"I'll help you\".",
-          "sv": "Ordagrant \"att ge hjälp\". Den som får hjälp sätts på یارمەتی: یارمەتیم بدە! \"hjälp mig!\", یارمەتیت دەدەم \"jag hjälper dig\"."
+          "sv": "Ordagrant \"att ge hjälp\". Den som får hjälp fästs vid یارمەتی: یارمەتیم بدە! \"hjälp mig!\", یارمەتیت دەدەم \"jag hjälper dig\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "to help" }, { "source": "tatoeba" }]
       },
@@ -466,7 +466,7 @@
         "pastStem": { "script": "کمک کرد", "latin": "komak kard" },
         "notes": {
           "en": "The person helped takes به: به من کمک کنید \"help me\", in speech کمکم کن (komakam kon). کمک! alone is a cry for help.",
-          "sv": "Den som får hjälp får به: به من کمک کنید \"hjälp mig\", i tal کمکم کن (komakam kon). Bara کمک! är ett rop på hjälp."
+          "sv": "Framför den man hjälper står به: به من کمک کنید \"hjälp mig\", i tal کمکم کن (komakam kon). کمک! ensamt är ett rop på hjälp."
         },
         "sources": [{ "source": "wiktionary", "ref": "to help" }, { "source": "tatoeba" }]
       }
@@ -644,7 +644,7 @@
         "pastStem": { "script": "چێشت لێنا", "latin": "çêşt lêna" },
         "notes": {
           "en": "Literally \"to put food on (the fire)\". The prefix لێ- splits off: چێشت لێدەنێم (çêşt lêdenêm) \"I cook\". In speech people also say خواردن دروست دەکەم \"I make food\".",
-          "sv": "Ordagrant \"att sätta mat på (elden)\". Förstavelsen لێ- delas av: چێشت لێدەنێم (çêşt lêdenêm) \"jag lagar mat\". I tal säger man också خواردن دروست دەکەم \"jag lagar mat\"."
+          "sv": "Ordagrant \"att sätta mat på (elden)\". Förstavelsen لێ- skiljs från verbet: چێشت لێدەنێم (çêşt lêdenêm) \"jag lagar mat\". I tal säger man också خواردن دروست دەکەم \"jag gör mat\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "to cook" }, { "source": "tatoeba" }]
       },

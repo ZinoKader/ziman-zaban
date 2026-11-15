@@ -75,12 +75,12 @@
             "script": "ایشان",
             "latin": "ishân",
             "register": "formal",
-            "note": { "en": "respectful, about someone you honour", "sv": "artigt, om någon man vill visa respekt" }
+            "note": { "en": "respectful, about someone you honour", "sv": "artigt, om någon man vill visa respekt för" }
           }
         ],
         "notes": {
           "en": "No gender here either: او is both \"he\" and \"she\". In Tehran speech you mostly hear اون (un).",
-          "sv": "Inget genus här heller: او är både \"han\" och \"hon\". I Teheran-tal hör man oftast اون (un)."
+          "sv": "Inget genus här heller: او är både \"han\" och \"hon\". I Teheran hör man oftast اون (un)."
         },
         "sources": [{ "source": "wiktionary", "ref": "او" }, { "source": "tatoeba" }]
       }
@@ -121,7 +121,7 @@
         "primary": { "script": "ئێوە", "latin": "êwe" },
         "notes": {
           "en": "For two or more people. You can also use it to one person to show extra respect, but Sorani needs it far less often than Persian needs شما.",
-          "sv": "Till två eller fler personer. Det kan också användas till en person för att visa extra respekt, men soranin behöver det mycket mer sällan än persiskan behöver شما."
+          "sv": "Till två eller fler personer. Du kan också säga det till en person för att visa extra respekt, men soranin behöver det mycket mer sällan än persiskan behöver شما."
         },
         "sources": [{ "source": "wiktionary", "ref": "ئێوە" }, { "source": "tatoeba" }]
       },
@@ -409,7 +409,7 @@
         "variants": [{ "script": "زبون", "latin": "zabun", "register": "colloquial" }],
         "notes": {
           "en": "Also \"tongue\". \"The Persian language\" is زبان فارسی (zabân-e fârsi). In Tehran speech â before n often becomes u: zabun.",
-          "sv": "Betyder också \"tunga\". \"Persiska språket\" heter زبان فارسی (zabân-e fârsi). I Teheran-tal blir â före n ofta u: zabun."
+          "sv": "Betyder också \"tunga\". \"Persiska språket\" heter زبان فارسی (zabân-e fârsi). I Teheran blir â före n ofta u: zabun."
         },
         "sources": [{ "source": "wiktionary", "ref": "language" }, { "source": "tatoeba" }]
       }
@@ -426,7 +426,7 @@
         "primary": { "script": "کوردی", "latin": "kurdî" },
         "notes": {
           "en": "کورد (kurd) \"a Kurd\" + ی (-î) makes the language. Sorani (سۆرانی) is the Central Kurdish variety taught here.",
-          "sv": "کورد (kurd) \"en kurd\" + ی (-î) ger språket. Sorani (سۆرانی) är den centralkurdiska varieteten som lärs ut här."
+          "sv": "کورد (kurd) \"en kurd\" + ی (-î) ger språket. Sorani (سۆرانی) är den centralkurdiska varianten som du lär dig här."
         },
         "sources": [{ "source": "wiktionary", "ref": "Kurdish" }, { "source": "tatoeba" }]
       },
@@ -455,7 +455,7 @@
         "primary": { "script": "فارسی", "latin": "fârsi" },
         "notes": {
           "en": "Named after the province of Fars (فارس) in southern Iran. Poetic پارسی (pârsi) is the older form of the same word.",
-          "sv": "Uppkallat efter provinsen Fars (فارس) i södra Iran. Det poetiska پارسی (pârsi) är en äldre form av samma ord."
+          "sv": "Har fått sitt namn efter provinsen Fars (فارس) i södra Iran. Det poetiska پارسی (pârsi) är den äldre formen av samma ord."
         },
         "sources": [{ "source": "wiktionary", "ref": "Persian" }, { "source": "tatoeba" }]
       }
@@ -767,7 +767,7 @@
         "primary": { "script": "مرد", "latin": "mard" },
         "notes": {
           "en": "Polite word for a man you don't know: آقا (âghâ) \"sir, Mr\".",
-          "sv": "Artigt ord för en man man inte känner: آقا (âghâ) \"herrn\"."
+          "sv": "Artigt ord för en man du inte känner: آقا (âghâ) \"herrn\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "man" }, { "source": "tatoeba" }]
       }

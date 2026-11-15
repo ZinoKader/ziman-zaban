@@ -19,7 +19,7 @@ const strings = defineStrings({
     cognate: 'Related words',
   },
   sv: {
-    also: 'Även:',
+    also: 'Också:',
     otherForms: (n: number) => (n === 1 ? '1 annat sätt att säga det' : `${n} andra sätt att säga det`),
     plural: 'Plural',
     inOther: { ckb: 'På sorani', fa: 'På persiska' },

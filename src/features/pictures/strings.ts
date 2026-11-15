@@ -11,10 +11,10 @@ export const picturesStrings = defineStrings({
   },
   sv: {
     newWord: 'Nytt ord',
-    gotIt: 'Jag förstår, testa mig',
+    gotIt: 'Okej, testa mig',
     prompt: 'Vad ser du?',
     photo: (credit: string, license: string) => `Foto: ${credit}, ${license}`,
-    noImage: 'Bilden kunde inte laddas.',
+    noImage: 'Bilden gick inte att ladda.',
     youPicked: (meaning: string) => `Ordet du valde betyder "${meaning}".`,
   },
 })

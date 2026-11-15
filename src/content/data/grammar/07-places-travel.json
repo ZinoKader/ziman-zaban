@@ -8,7 +8,7 @@
       "title": { "en": "Commands: go! come! don't!", "sv": "Uppmaningar: gå! kom! låt bli!" },
       "explanation": {
         "en": "The imperative is `ب-` + **present stem**. A consonant stem adds `-e` for one person: `بنووسە` 'write!'. A vowel stem adds nothing: `بکە` 'do!', `بخۆ` 'eat!', `بڕۆ` 'go!'. For several people, or politely, add `-n`: `بڕۆن`, `بکەن`, `بنووسن`. 'Come!' is **irregular**: `وەرە`, plural `وەرن`. 'Go!' is usually `بڕۆ` (from ڕۆیشتن); from چوون you also hear `بچۆ` or `بچە`. The negative swaps `ب-` for `مە-`: `مەڕۆ` 'don't go!', `مەخۆ` 'don't eat!'. An object clitic comes right after `ب-`: `بیخۆ` 'eat it!'. Put `تکایە` 'please' in front to soften it.",
-        "sv": "Imperativ är `ب-` + **presensstam**. En konsonantstam får `-e` till en person: `بنووسە` 'skriv!'. En vokalstam får inget: `بکە` 'gör!', `بخۆ` 'ät!', `بڕۆ` 'gå!'. Till flera personer, eller artigt, lägg till `-n`: `بڕۆن`, `بکەن`, `بنووسن`. 'Kom!' är **oregelbundet**: `وەرە`, plural `وەرن`. 'Gå!' heter oftast `بڕۆ` (av ڕۆیشتن); av چوون hör man också `بچۆ` eller `بچە`. Nekande byter `ب-` mot `مە-`: `مەڕۆ` 'gå inte!', `مەخۆ` 'ät inte!'. En objektsklitika kommer direkt efter `ب-`: `بیخۆ` 'ät den!'. Sätt `تکایە` 'snälla' först för att mjuka upp."
+        "sv": "Imperativ är `ب-` + **presensstam**. En konsonantstam får `-e` till en person: `بنووسە` 'skriv!'. En vokalstam får inget: `بکە` 'gör!', `بخۆ` 'ät!', `بڕۆ` 'gå!'. Till flera personer, eller artigt, lägg till `-n`: `بڕۆن`, `بکەن`, `بنووسن`. 'Kom!' är **oregelbundet**: `وەرە`, plural `وەرن`. 'Gå!' heter oftast `بڕۆ` (av ڕۆیشتن); av چوون hör man också `بچۆ` eller `بچە`. Den nekande formen har `مە-` i stället för `ب-`: `مەڕۆ` 'gå inte!', `مەخۆ` 'ät inte!'. En objektsklitika kommer direkt efter `ب-`: `بیخۆ` 'ät den!'. Sätt `تکایە` 'snälla' först så låter det mjukare."
       },
       "examples": [
         {
@@ -120,7 +120,7 @@
       "title": { "en": "Commands: go! come! don't!", "sv": "Uppmaningar: gå! kom! låt bli!" },
       "explanation": {
         "en": "The imperative is `ب-` + **present stem**: `برو` boro 'go!', `بخور` bokhor 'eat!', `بنویس` benevis 'write!'. The prefix sounds `bo-` before an o-stem, otherwise `be-`. A stem starting with a vowel takes `بی-`: `آ` → `بیا` biyâ 'come!'. For several people, or to be **polite**, add `-id`: `بروید`, `بیایید`; in speech `برید`, `بیاین`. Many compound verbs drop `ب-`: `صبر کن` 'wait!'. The negative uses `ن-` instead: `نرو` 'don't go!'. `بفرمایید` 'please, go ahead' is the classic polite command.",
-        "sv": "Imperativ är `ب-` + **presensstam**: `برو` boro 'gå!', `بخور` bokhor 'ät!', `بنویس` benevis 'skriv!'. Prefixet uttalas `bo-` före en o-stam, annars `be-`. En stam som börjar på vokal får `بی-`: `آ` → `بیا` biyâ 'kom!'. Till flera personer, eller **artigt**, lägg till `-id`: `بروید`, `بیایید`; i tal `برید`, `بیاین`. Många sammansatta verb tappar `ب-`: `صبر کن` 'vänta!'. Nekande använder `ن-` i stället: `نرو` 'gå inte!'. `بفرمایید` 'varsågod' är den klassiska artiga uppmaningen."
+        "sv": "Imperativ är `ب-` + **presensstam**: `برو` boro 'gå!', `بخور` bokhor 'ät!', `بنویس` benevis 'skriv!'. Prefixet uttalas `bo-` före en o-stam, annars `be-`. En stam som börjar på vokal får `بی-`: `آ` → `بیا` biyâ 'kom!'. Till flera personer, eller **artigt**, lägg till `-id`: `بروید`, `بیایید`; i tal `برید`, `بیاین`. Många sammansatta verb tappar `ب-`: `صبر کن` 'vänta!'. Den nekande formen har `ن-` i stället: `نرو` 'gå inte!'. `بفرمایید` 'varsågod' är den klassiska artiga uppmaningen."
       },
       "examples": [
         {
@@ -163,7 +163,7 @@
       "title": { "en": "In, to, from, with", "sv": "I, till, från, med" },
       "explanation": {
         "en": "`در` dar 'in, at' is the written form; in speech say `تو` or `توی` tu-ye: `تو بیمارستانه` 'is in the hospital'. `به` be 'to' marks a goal: `به بازار می‌روم`; in speech it usually disappears after 'go' and 'come': `می‌رم بازار`. `از` az means 'from': `از سلیمانیه می‌آیم`. `با` bâ 'with' also means 'by' for vehicles: `با اتوبوس` 'by bus', `با دوستم` 'with my friend'. Several 'prepositions' are really nouns + ezafe: `روی میز` 'on the table', `سمت چپ` 'on the left', `نزدیک خانه` 'near the house'.",
-        "sv": "`در` dar 'i, på' är skriftformen; i tal säger man `تو` eller `توی` tu-ye: `تو بیمارستانه` 'är på sjukhuset'. `به` be 'till' anger mål: `به بازار می‌روم`; i tal försvinner det oftast efter 'gå' och 'komma': `می‌رم بازار`. `از` az betyder 'från': `از سلیمانیه می‌آیم`. `با` bâ 'med' används också om fordon: `با اتوبوس` 'med buss', `با دوستم` 'med min vän'. Flera 'prepositioner' är egentligen substantiv + ezafe: `روی میز` 'på bordet', `سمت چپ` 'till vänster', `نزدیک خانه` 'nära huset'."
+        "sv": "`در` dar 'i, på' är skriftformen; i tal säger man `تو` eller `توی` tu-ye: `تو بیمارستانه` 'är på sjukhuset'. `به` be 'till' visar vart man är på väg: `به بازار می‌روم`; i tal försvinner det oftast efter 'gå' och 'komma': `می‌رم بازار`. `از` az betyder 'från': `از سلیمانیه می‌آیم`. `با` bâ 'med' används också om fordon: `با اتوبوس` 'med buss', `با دوستم` 'med min vän'. Flera 'prepositioner' är egentligen substantiv + ezafe: `روی میز` 'på bordet', `سمت چپ` 'till vänster', `نزدیک خانه` 'nära huset'."
       },
       "examples": [
         {

@@ -24,7 +24,7 @@
         "variants": [{ "script": "برای چی", "latin": "barâye chi", "register": "colloquial" }],
         "notes": {
           "en": "Answering a negative question, چرا means \"yes, it is so\", exactly like Swedish **jo**: نمی‌آیی؟ چرا! \"Aren't you coming? Jo!\"",
-          "sv": "Som svar på en nekande fråga betyder چرا \"jo\", precis som svenskans **jo**: نمی‌آیی؟ چرا! \"Kommer du inte? Jo!\""
+          "sv": "Som svar på en nekande fråga fungerar چرا precis som svenskans **jo**: نمی‌آیی؟ چرا! \"Kommer du inte? Jo!\""
         },
         "sources": [{ "source": "wiktionary", "ref": "why" }, { "source": "tatoeba" }]
       }
@@ -177,7 +177,7 @@
       "gloss": { "en": "but", "sv": "men" },
       "ckb": {
         "primary": { "script": "بەڵام", "latin": "bełam" },
-        "variants": [{ "script": "کەچی", "latin": "keçî", "note": { "en": "\"yet, and still\", for a surprising contrast", "sv": "\"ändå, och ändå\", för en oväntad kontrast" } }],
+        "variants": [{ "script": "کەچی", "latin": "keçî", "note": { "en": "\"yet, and still\", for a surprising contrast", "sv": "\"ändå, men ändå\", för en oväntad kontrast" } }],
         "notes": {
           "en": "Comes first in its clause, as in English and Swedish: تێدەگەم، بەڵام قسە ناکەم \"I understand, but I don't speak\".",
           "sv": "Står först i sin sats, som på svenska och engelska: تێدەگەم، بەڵام قسە ناکەم \"jag förstår, men jag pratar inte\"."
@@ -288,10 +288,10 @@
       },
       "fa": {
         "primary": { "script": "البته", "latin": "albatte" },
-        "variants": [{ "script": "حتماً", "latin": "hatman", "note": { "en": "\"definitely\", the usual reply to a request", "sv": "\"absolut\", det vanliga svaret på en begäran" } }],
+        "variants": [{ "script": "حتماً", "latin": "hatman", "note": { "en": "\"definitely\", the usual reply to a request", "sv": "\"absolut\", det vanliga svaret när någon ber om något" } }],
         "notes": {
           "en": "Inside a sentence البته often means \"admittedly, mind you\": خوب است، البته گران است \"it's good, mind you it's expensive\". Sorani هەڵبەت is the same word.",
-          "sv": "Inne i en mening betyder البته ofta \"visserligen\": خوب است، البته گران است \"den är bra, visserligen dyr\". Soranins هەڵبەت är samma ord."
+          "sv": "Inne i en mening betyder البته ofta \"visserligen\": خوب است، البته گران است \"den är bra, fast visserligen dyr\". Soranins هەڵبەت är samma ord."
         },
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
       }
@@ -321,7 +321,7 @@
         "variants": [{ "script": "باز", "latin": "bâz", "register": "colloquial" }],
         "notes": {
           "en": "دو (two) + باره (time). باز also means \"open\", so in speech it is mostly \"again\" only before a verb: باز آمد \"he came again\".",
-          "sv": "دو (två) + باره (gång). باز betyder också \"öppen\", så i tal betyder det \"igen\" mest före ett verb: باز آمد \"han kom igen\"."
+          "sv": "دو (två) + باره (gång). باز betyder också \"öppen\", så i tal betyder det oftast \"igen\" bara före ett verb: باز آمد \"han kom igen\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "again" }, { "source": "tatoeba" }]
       }
@@ -341,7 +341,7 @@
         ],
         "notes": {
           "en": "To ask someone to slow down, use the comparative: هێواشتر قسە بکە (hêwaştir qise bike) \"speak more slowly\".",
-          "sv": "För att be någon sakta ner använder man komparativ: هێواشتر قسە بکە (hêwaştir qise bike) \"prata långsammare\"."
+          "sv": "Vill du be någon sakta ner använder du komparativ: هێواشتر قسە بکە (hêwaştir qise bike) \"prata långsammare\"."
         },
         "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "slowly" }]
       },
@@ -350,7 +350,7 @@
         "variants": [{ "script": "یواش", "latin": "yavâsh", "register": "colloquial" }],
         "notes": {
           "en": "Also \"quietly\". To ask for slower speech: آهسته‌تر (âheste-tar), in speech یواش‌تر (yavâsh-tar), \"more slowly\".",
-          "sv": "Betyder också \"tyst, lågt\". För att be om långsammare tal: آهسته‌تر (âheste-tar), i tal یواش‌تر (yavâsh-tar), \"långsammare\"."
+          "sv": "Betyder också \"tyst, lågt\". Vill du att någon pratar långsammare säger du آهسته‌تر (âheste-tar), i tal یواش‌تر (yavâsh-tar), \"långsammare\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "slowly" }, { "source": "tatoeba" }]
       }
@@ -407,7 +407,7 @@
         ],
         "notes": {
           "en": "When you didn't catch what someone said, Iranians usually say متوجه نشدم (motevajjeh nashodam) \"I didn't catch that\"; it sounds politer than نمی‌فهمم.",
-          "sv": "När man inte uppfattade vad någon sa säger iranier oftast متوجه نشدم (motevajjeh nashodam) \"jag uppfattade inte\"; det låter artigare än نمی‌فهمم."
+          "sv": "Har man inte uppfattat vad någon sa säger iranier oftast متوجه نشدم (motevajjeh nashodam) \"jag uppfattade inte\"; det låter artigare än نمی‌فهمم."
         },
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
       }
@@ -465,7 +465,7 @@
         ],
         "notes": {
           "en": "Literally \"please say (it) again\", with the polite plural بگویید. In speech بگویید shrinks to بگید (begid).",
-          "sv": "Ordagrant \"säg (det) igen, tack\", med artigt plural بگویید. I tal krymper بگویید till بگید (begid)."
+          "sv": "Ordagrant \"säg (det) igen, tack\", med den artiga pluralformen بگویید. I tal krymper بگویید till بگید (begid)."
         },
         "sources": [{ "source": "tatoeba" }, { "source": "author" }]
       }
@@ -544,7 +544,7 @@
         "variants": [{ "script": "ببورن", "latin": "biburin" }],
         "notes": {
           "en": "The plural of ببوورە \"sorry\". Use it to a group, or to a stranger to sound polite: ببوورن، بە ئینگلیزی قسە دەکەن؟ \"Excuse me, do you speak English?\". Persian does the same: its ببخشید is also a plural.",
-          "sv": "Plural av ببوورە \"förlåt\". Används till en grupp, eller till en främling för att låta artig: ببوورن، بە ئینگلیزی قسە دەکەن؟ \"Ursäkta, pratar ni engelska?\". Persiskan gör likadant: dess ببخشید är också plural."
+          "sv": "Plural av ببوورە \"förlåt\". Säg det till en grupp, eller till en främling för att vara artig: ببوورن، بە ئینگلیزی قسە دەکەن؟ \"Ursäkta, pratar ni engelska?\". Likadant i persiskan: ببخشید är också plural."
         },
         "sources": [{ "source": "tatoeba" }]
       }

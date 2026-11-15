@@ -90,7 +90,7 @@ export const alphabetStrings = defineStrings({
         },
         yeh: {
           title: 'ی is y, i or ey',
-          body: 'The same letter writes the consonant y, the long i and the diphthong ey.',
+          body: 'The same letter is used for the consonant y, the long i and the diphthong ey.',
         },
         heh: {
           title: 'A final ه is often silent',
@@ -110,7 +110,7 @@ export const alphabetStrings = defineStrings({
       inWords: 'In course words',
     },
     compareTitle: 'Sorani vs Persian',
-    compareBody: 'The two alphabets are close cousins. These are the letters where they part ways.',
+    compareBody: 'The two alphabets are closely related. These are the letters where they differ.',
     compareCols: { letter: 'Letter', sorani: 'Sorani', persian: 'Persian' },
     compare: {
       e: { sorani: 'The vowel e', persian: 'Not used; e is unwritten or a final ه' },
@@ -161,12 +161,12 @@ export const alphabetStrings = defineStrings({
     title: 'Att läsa skriften',
     intro: {
       ckb: 'Sorani skrivs med arabisk skrift, anpassad så att nästan varje vokal har en egen bokstav. Kan du de här bokstäverna kan du ljuda dig igenom nästan vilket ord som helst.',
-      fa: 'Persiska skrivs med arabisk skrift och fyra egna bokstäver (پ چ ژ گ). Korta vokaler skrivs inte ut, så att läsa innebär att lära sig varje ords konsonantskelett.',
+      fa: 'Persiska skrivs med arabisk skrift plus fyra egna bokstäver (پ چ ژ گ). Korta vokaler skrivs inte ut, så du lär dig känna igen varje ord på dess konsonanter.',
     },
     showFor: 'Visa bokstäverna för',
     facts: {
       rtl: 'Från höger till vänster',
-      rtlBody: 'Ord och rader läses från höger till vänster. Siffror läses ändå från vänster till höger.',
+      rtlBody: 'Ord och rader går från höger till vänster. Siffror skrivs ändå från vänster till höger.',
       join: 'Bokstäverna binds ihop',
       joinBody: 'De flesta bokstäver hänger ihop med nästa och byter form beroende på var i ordet de står.',
       count: (n: number) => `${n} bokstäver`,
@@ -175,14 +175,14 @@ export const alphabetStrings = defineStrings({
         fa: '32 bokstäver, plus آ för â i början av ett ord. Inga versaler.',
       },
       gaps: 'Några binds aldrig',
-      gapsBody: 'De här bokstäverna binds aldrig till bokstaven efter, så det blir ett litet mellanrum:',
+      gapsBody: 'De här bokstäverna binds aldrig ihop med bokstaven efter, så det blir ett litet mellanrum:',
     },
     anatomy: 'Ett ord, bokstav för bokstav',
-    anatomyBody: 'Läs från höger. Se hur varje bokstav ändrar form för att hålla i sina grannar.',
+    anatomyBody: 'Läs från höger. Se hur varje bokstav ändrar form för att hänga ihop med grannarna.',
     letters: 'Bokstäverna',
-    lettersHint: 'Tryck på en bokstav för att se dess former och höra den i ett ord.',
+    lettersHint: 'Tryck på en bokstav så ser du dess former och hör den i ett ord.',
     filters: { all: 'Alla', vowels: 'Vokaler', nonJoining: 'Binds inte', arabic: 'Från arabiskan' },
-    legend: { vowel: 'vokalbokstav', nonJoining: 'binds aldrig till nästa bokstav', arabic: 'främst i arabiska lånord' },
+    legend: { vowel: 'vokalbokstav', nonJoining: 'binds aldrig ihop med nästa bokstav', arabic: 'främst i arabiska lånord' },
     detail: {
       name: 'Namn',
       sound: 'Ljud',
@@ -190,7 +190,7 @@ export const alphabetStrings = defineStrings({
       silent: 'stum',
       shapes: 'Former',
       positions: { isolated: 'Ensam', initial: 'Först', medial: 'Mitten', final: 'Sist' },
-      nonJoining: 'Binds aldrig till bokstaven efter, så den har bara två former.',
+      nonJoining: 'Binds aldrig ihop med bokstaven efter, så den har bara två former.',
       roles: {
         consonant: 'Konsonant',
         vowel: 'Vokal',
@@ -208,23 +208,23 @@ export const alphabetStrings = defineStrings({
       ckb: {
         unwritten: {
           title: 'Alla vokaler skrivs, utom korta i',
-          body: 'Sorani skriver vokaler med bokstäver, inte med tecken. Enda undantaget är korta i, som hörs men aldrig syns: ژن uttalas jin.',
+          body: 'På sorani skrivs vokalerna med bokstäver, inte med tecken. Enda undantaget är korta i, som hörs men aldrig syns: ژن uttalas jin.',
         },
         eh: {
           title: 'ە är vokalen e, ه är konsonanten h',
-          body: 'De ser likadana ut i slutet av ett ord. Vokalen ە binds aldrig till nästa bokstav, konsonanten ه gör det alltid.',
+          body: 'I slutet av ett ord ser de likadana ut. Vokalen ە binds aldrig ihop med nästa bokstav, men det gör alltid konsonanten ه.',
         },
         waw: {
           title: 'و är w eller kort u, وو är långt û',
-          body: 'Ett و är antingen en konsonant eller ett kort u. Två i rad är alltid det långa û.',
+          body: 'Ett ensamt و är antingen en konsonant eller ett kort u. Två i rad är alltid det långa û.',
         },
         yeh: {
           title: 'ی är j-ljud eller långt î, ێ är ê',
-          body: 'Ett vanligt ی är en konsonant eller långt î. Med det lilla v-tecknet under är ێ alltid ê.',
+          body: 'Ett vanligt ی är en konsonant eller ett långt î. Med det lilla v-tecknet under, ێ, är det alltid ê.',
         },
         seat: {
           title: 'En vokal står aldrig ensam först i ett ord',
-          body: 'I början av ett ord sitter varje vokal på den stumma bäraren ئ. Den skrivs inte ut i transkriptionen.',
+          body: 'I början av ett ord sitter varje vokal på den stumma bäraren ئ. Med latinska bokstäver skrivs den inte ut.',
         },
       },
       fa: {
@@ -233,31 +233,31 @@ export const alphabetStrings = defineStrings({
           body: 'Korta a, e och o skrivs normalt inte ut. من är man och پدر (p-d-r) är pedar. Vokalerna lär du dig med ordet.',
         },
         alef: {
-          title: 'ا är â, och آ inleder ett ord med â',
-          body: 'Inne i ett ord är ا ett långt â. I början betyder آ â, medan ett ensamt ا bär upp en kort vokal eller står före و och ی för ett långt u eller i.',
+          title: 'ا är â, och آ är â i början av ett ord',
+          body: 'Inne i ett ord är ا ett långt â. I början av ett ord står آ för â. Ett ensamt ا bär där en kort vokal, eller står före و och ی när ordet börjar med långt u eller i.',
         },
         vav: {
-          title: 'و har fyra uppgifter',
-          body: 'Det kan vara konsonanten v eller vokalerna u, o och ow. Transkriptionen visar vilket.',
+          title: 'و kan läsas på fyra sätt',
+          body: 'Den kan vara konsonanten v eller vokalerna u, o och ow. De latinska bokstäverna visar vilket.',
         },
         yeh: {
           title: 'ی är j-ljud, i eller ey',
-          body: 'Samma bokstav skriver konsonanten j, det långa i och diftongen ey.',
+          body: 'Samma bokstav används för konsonanten j, det långa i och diftongen ey.',
         },
         heh: {
           title: 'Ett ه i slutet är ofta stumt',
-          body: 'I slutet av ett ord visar ه oftast bara en slutvokal, för det mesta e (خاله khâle), ibland a (نه na).',
+          body: 'I slutet av ett ord visar ه oftast bara att ordet slutar på en vokal, för det mesta e (خاله khâle), ibland a (نه na).',
         },
         zwnj: {
           title: 'Det osynliga halvmellanslaget',
-          body: 'Prefix och suffix som می och ها fogas till med en nollbreddsavgränsare: de hör till ordet men binds inte ihop med det.',
+          body: 'Prefix och suffix som می och ها skrivs med en nollbreddsavgränsare emellan: de hör till ordet men binds inte ihop med det.',
         },
       },
     },
     arabicTitle: 'Bokstäver från arabiskan',
     arabic: {
       ckb: 'Sorani stavar orden som de låter, så även lånord från arabiskan skrivs med kurdiska bokstäver. De arabiska bokstäverna ث ذ ص ض ط ظ används normalt inte alls: arabiskans خط (linje) blir خەت xet. Bara ع och ح finns kvar, och i Irak behåller de sina arabiska strupljud.',
-      fa: 'Persiskan behöll stavningen i sina många arabiska lånord, så flera bokstäver delar på samma ljud. Hör du ett s kan det skrivas på tre sätt. Extrabokstäverna finns nästan bara i ord från arabiskan, så stavningen lär du dig med varje ord.',
+      fa: 'Persiskan har kvar den arabiska stavningen i sina många lånord från arabiskan, så flera bokstäver har samma ljud. Hör du ett s kan det skrivas på tre sätt. Extrabokstäverna finns nästan bara i ord från arabiskan, så du lär dig stavningen ord för ord.',
       soundsLike: (latin: string) => `låter alla som ${latin}`,
       inWords: 'I kursens ord',
     },
@@ -283,14 +283,14 @@ export const alphabetStrings = defineStrings({
       waw: 'Soranins w är persiskans v.',
       qaf: 'Ett djupt k på sorani, ett skrapande gh i Teheran.',
       alef: 'Öppet a på sorani, rundare â på persiska.',
-      heh: 'Alltid h på sorani; ofta ett stumt slut-e på persiska.',
-      jim: 'Samma ljud, bara olika transkription.',
+      heh: 'Alltid h på sorani. På persiska är det i slutet av ett ord ofta stumt och visar ett e.',
+      jim: 'Samma ljud, men det skrivs olika med latinska bokstäver.',
     },
     quiz: {
       title: 'Snabbquiz',
       body: 'Åtta bokstäver, fyra ljud att välja på. Ingen press, inget sparas.',
       start: 'Starta quizet',
-      prompt: 'Vilket ljud gör den här bokstaven?',
+      prompt: 'Vilket ljud står den här bokstaven för?',
       progress: (n: number, total: number) => `${n} av ${total}`,
       streak: (n: number) => `${n} i rad`,
       correct: 'Ja!',
@@ -303,8 +303,8 @@ export const alphabetStrings = defineStrings({
           : ratio >= 0.75
             ? 'Snyggt läst! Ett par rundor till så sitter de.'
             : ratio >= 0.5
-              ? 'Bra början. Tryck på dem du missade i rutnätet ovanför.'
-              : 'Varje runda hjälper. Titta på bokstäverna ovanför och försök igen.',
+              ? 'Bra början. Tryck på dem du missade i rutnätet ovan.'
+              : 'Varje runda hjälper. Titta på bokstäverna ovan och försök igen.',
       again: 'Spela igen',
     },
   },

@@ -53,7 +53,7 @@ describe('ConstructionExercise', () => {
     expect(screen.getByRole('list', { name: 'Word by word' })).toBeInTheDocument()
     expect(screen.getByRole('list', { name: 'Word by word' })).toHaveTextContent('Sara-COP.1SG')
     expect(screen.getByTitle('1st person singular')).toBeInTheDocument()
-    expect(screen.getByText(/copula, “to be”/)).toBeInTheDocument()
+    expect(screen.getByText(/copula, "to be"/)).toBeInTheDocument()
 
     fireEvent.click(screen.getByRole('button', { name: /build it/ }))
     expect(screen.getByRole('group', { name: 'Word bank' })).toBeInTheDocument()
@@ -100,7 +100,7 @@ describe('ConstructionExercise', () => {
     const [a, b, ...rest] = s.fa!.tokens.map((t) => t.text)
     for (const t of [b, a, ...rest]) add(t)
     check()
-    expect(screen.getByText('One word is off; the rest is right.')).toBeInTheDocument()
+    expect(screen.getByText('One word is wrong. The rest is right.')).toBeInTheDocument()
     expect(document.querySelectorAll('[data-state="misplaced"]').length).toBeGreaterThan(0)
     next()
     expect(onDone).toHaveBeenCalledWith(expect.objectContaining({ grade: Rating.Hard }))

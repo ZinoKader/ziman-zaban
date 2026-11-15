@@ -262,16 +262,16 @@
       "ckb": {
         "primary": { "script": "دە", "latin": "de" },
         "notes": {
-          "en": "Written ١٠. The teens end in a form of \"ten\": یانزە (11), پانزە (15).",
-          "sv": "Skrivs ١٠. Tonåren slutar på en form av \"tio\": یانزە (11), پانزە (15)."
+          "en": "Written ١٠. The numbers 11–19 end in a form of \"ten\": یانزە (11), پانزە (15).",
+          "sv": "Skrivs ١٠. Talen 11–19 slutar på en form av \"tio\": یانزە (11), پانزە (15)."
         },
         "sources": [{ "source": "wiktionary", "ref": "ten" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
       },
       "fa": {
         "primary": { "script": "ده", "latin": "dah" },
         "notes": {
-          "en": "Written ۱۰. The teens end in -dah \"ten\": یازده (11), پانزده (15). Related to Latin \"decem\".",
-          "sv": "Skrivs ۱۰. Tonåren slutar på -dah \"tio\": یازده (11), پانزده (15). Släkt med latinets \"decem\"."
+          "en": "Written ۱۰. The numbers 11–19 end in -dah \"ten\": یازده (11), پانزده (15). Related to Latin \"decem\".",
+          "sv": "Skrivs ۱۰. Talen 11–19 slutar på -dah \"tio\": یازده (11), پانزده (15). Släkt med latinets \"decem\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "ten" }, { "source": "tatoeba" }]
       }
@@ -357,7 +357,7 @@
         "primary": { "script": "بیست", "latin": "bîst" },
         "notes": {
           "en": "Written ٢٠. 21 is بیست و یەک (bîst û yek): tens first, joined with و \"and\".",
-          "sv": "Skrivs ٢٠. 21 heter بیست و یەک (bîst û yek): tiotalet först, ihopbundet med و \"och\"."
+          "sv": "Skrivs ٢٠. 21 heter بیست و یەک (bîst û yek): tiotalet först, med و \"och\" emellan."
         },
         "sources": [{ "source": "wiktionary", "ref": "twenty" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
       },
@@ -379,12 +379,12 @@
       "cognate": true,
       "ckb": {
         "primary": { "script": "سی", "latin": "sî" },
-        "notes": { "en": "Written ٣٠. Not to be confused with سێ (sê) \"three\".", "sv": "Skrivs ٣٠. Får inte förväxlas med سێ (sê) \"tre\"." },
+        "notes": { "en": "Written ٣٠. Don't mix it up with سێ (sê) \"three\".", "sv": "Skrivs ٣٠. Blanda inte ihop det med سێ (sê) \"tre\"." },
         "sources": [{ "source": "wiktionary", "ref": "thirty" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
       },
       "fa": {
         "primary": { "script": "سی", "latin": "si" },
-        "notes": { "en": "Written ۳۰. Not to be confused with سه (se) \"three\".", "sv": "Skrivs ۳۰. Får inte förväxlas med سه (se) \"tre\"." },
+        "notes": { "en": "Written ۳۰. Don't mix it up with سه (se) \"three\".", "sv": "Skrivs ۳۰. Blanda inte ihop det med سه (se) \"tre\"." },
         "sources": [{ "source": "wiktionary", "ref": "thirty" }, { "source": "tatoeba" }]
       }
     },
@@ -617,7 +617,7 @@
         "primary": { "script": "مانگ", "latin": "mang" },
         "notes": {
           "en": "Also means \"moon\", just like the Swedish pair måne / månad and English moon / month.",
-          "sv": "Betyder också \"måne\", precis som paret måne / månad."
+          "sv": "Betyder också \"måne\". Jämför svenskans måne och månad."
         },
         "sources": [{ "source": "wiktionary", "ref": "month" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§12" }]
       },
@@ -625,7 +625,7 @@
         "primary": { "script": "ماه", "latin": "mâh" },
         "notes": {
           "en": "Also means \"moon\", like Sorani مانگ and the Swedish pair måne / månad.",
-          "sv": "Betyder också \"måne\", som soranins مانگ och paret måne / månad."
+          "sv": "Betyder också \"måne\", som soranins مانگ. Jämför svenskans måne och månad."
         },
         "sources": [{ "source": "wiktionary", "ref": "month" }, { "source": "tatoeba" }]
       }
@@ -730,7 +730,7 @@
         "primary": { "script": "بەیانی", "latin": "beyanî" },
         "notes": {
           "en": "As in بەیانیت باش \"good morning\". In Sulaymani speech بەیانی is also used for \"tomorrow\".",
-          "sv": "Som i بەیانیت باش \"god morgon\". I Sulaymani används بەیانی också för \"i morgon\"."
+          "sv": "Som i بەیانیت باش \"god morgon\". I Sulaymani betyder بەیانی också \"i morgon\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "morning" }, { "source": "tatoeba" }]
       },

@@ -15,7 +15,7 @@ const strings = defineStrings({
     script: 'Can you read Arabic script?',
     scriptOptions: {
       always: ['Not yet', "We'll show Latin letters under every word. Learn the letters in Alphabet when you're ready."],
-      tap: ['A little', 'Latin letters are hidden; tap a word to see them.'],
+      tap: ['A little', 'Latin letters are hidden. Tap a word to see them.'],
       never: ['Yes', 'Arabic script only.'],
     },
     go: 'Start learning',
@@ -27,7 +27,7 @@ const strings = defineStrings({
     script: 'Kan du läsa arabisk skrift?',
     scriptOptions: {
       always: ['Inte än', 'Vi visar latinska bokstäver under varje ord. Lär dig bokstäverna under Alfabet när du är redo.'],
-      tap: ['Lite', 'Latinska bokstäver är dolda; tryck på ett ord för att se dem.'],
+      tap: ['Lite', 'Vi döljer de latinska bokstäverna. Tryck på ett ord för att se dem.'],
       never: ['Ja', 'Bara arabisk skrift.'],
     },
     go: 'Börja lära dig',

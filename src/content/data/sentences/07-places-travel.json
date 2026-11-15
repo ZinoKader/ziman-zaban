@@ -148,7 +148,7 @@
       "level": "A1",
       "translation": {
         "en": "The airport is far away.",
-        "sv": "Flygplatsen ligger långt bort.",
+        "sv": "Flygplatsen ligger långt borta.",
         "enAlt": [
           "The airport is far."
         ],
@@ -175,7 +175,7 @@
             "latin": "dûre.",
             "gloss": {
               "en": "is far",
-              "sv": "är långt bort"
+              "sv": "är långt borta"
             },
             "concept": "far",
             "morph": "far-COP.3SG"
@@ -196,7 +196,7 @@
             "latin": "dûrin.",
             "gloss": {
               "en": "are far",
-              "sv": "är långt bort (plural)"
+              "sv": "är långt borta (plural)"
             },
             "morph": "far-COP.3PL"
           }
@@ -232,7 +232,7 @@
             "latin": "dur",
             "gloss": {
               "en": "far",
-              "sv": "långt bort"
+              "sv": "långt borta"
             },
             "concept": "far"
           },

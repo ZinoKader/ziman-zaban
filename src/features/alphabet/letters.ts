@@ -45,7 +45,7 @@ export const SORANI_LETTERS: Letter[] = [
     role: 'seat',
     note: {
       en: 'Every word that starts with a vowel starts with ئ: ئاو aw (water), ئێوە êwe (you all). It is not written in the romanization.',
-      sv: 'Varje ord som börjar på vokal börjar med ئ: ئاو aw (vatten), ئێوە êwe (ni). Den skrivs inte ut i transkriptionen.',
+      sv: 'Ord som börjar på vokal skrivs med ئ först: ئاو aw (vatten), ئێوە êwe (ni). Med latinska bokstäver skrivs den inte ut.',
     },
   }),
   l('ا', 'elîf', ['a'], ['ɑː'], 'a as in father', 'a som i glas', {
@@ -53,7 +53,7 @@ export const SORANI_LETTERS: Letter[] = [
     role: 'vowel',
     note: {
       en: 'Always the long a. At the start of a word it sits on a seat: ئا.',
-      sv: 'Alltid det långa a-ljudet. I början av ett ord sitter det på en bärare: ئا.',
+      sv: 'Alltid ett långt a. I början av ett ord står det på en bärare: ئا.',
     },
   }),
   l('ب', 'bê', ['b'], ['b'], 'b as in boy', 'b som i bok'),
@@ -78,14 +78,14 @@ export const SORANI_LETTERS: Letter[] = [
     ...nonJoining,
     note: {
       en: 'Never at the start of a word: a word-initial r is always the rolled ڕ.',
-      sv: 'Står aldrig först i ett ord: ett r i början av ett ord är alltid det rullande ڕ.',
+      sv: 'Står aldrig först i ett ord. Ett ord som börjar på r börjar alltid med det rullande ڕ.',
     },
   }),
   l('ڕ', 'řê', ['ř'], ['r'], 'a rolled r, as in Spanish perro', 'ett rullande r, som i spanska perro', {
     ...nonJoining,
     note: {
       en: 'The small v-mark makes the r rolled. It changes meaning: کەر ker (donkey) but کەڕ keř (deaf).',
-      sv: 'Det lilla v-tecknet gör r:et rullande. Det ändrar betydelsen: کەر ker (åsna) men کەڕ keř (döv).',
+      sv: 'Det lilla v-tecknet gör att r:et rullas, och det ändrar betydelsen: کەر ker (åsna) men کەڕ keř (döv).',
     },
   }),
   l('ز', 'zê', ['z'], ['z'], 'z as in zoo', 'tonande s, som z i engelska zoo', nonJoining),
@@ -114,8 +114,8 @@ export const SORANI_LETTERS: Letter[] = [
   l('ف', 'fê', ['f'], ['f'], 'f as in fish', 'f som i fisk'),
   l('ڤ', 'vê', ['v'], ['v'], 'v as in very', 'v som i vatten', {
     note: {
-      en: 'A rare sound in Sorani; you will meet it more in Kurmanji Kurdish.',
-      sv: 'Ett ovanligt ljud på sorani; det är vanligare på kurmanji.',
+      en: 'Rare in Sorani. You will meet it more often in Kurmanji Kurdish.',
+      sv: 'Ovanligt i sorani. Du möter det oftare i kurmanji.',
     },
   }),
   l('ق', 'qaf', ['q'], ['q'], 'a k made far back, at the uvula', 'ett k längst bak i munnen, vid tungspenen'),
@@ -124,8 +124,8 @@ export const SORANI_LETTERS: Letter[] = [
   l('ل', 'lam', ['l'], ['l'], 'a light l, as in leaf', 'ett ljust l, som i lampa'),
   l('ڵ', 'lamî qelew', ['ł'], ['ɫ'], 'a dark l, as in English full', 'ett mörkt l, som ll i engelska full', {
     note: {
-      en: 'The "fat l". Never at the start of a word, and it changes meaning: گوڵ guł (flower) but گول gul (leper).',
-      sv: '"Det feta l:et". Står aldrig först i ett ord och ändrar betydelsen: گوڵ guł (blomma) men گول gul (spetälsk).',
+      en: 'The "dark" l. Never at the start of a word, and it changes meaning: گوڵ guł (flower) but گول gul (leper).',
+      sv: 'Det "tjocka" l:et. Står aldrig först i ett ord och ändrar betydelsen: گوڵ guł (blomma) men گول gul (spetälsk).',
     },
   }),
   l('م', 'mîm', ['m'], ['m'], 'm as in moon', 'm som i mamma'),
@@ -135,7 +135,7 @@ export const SORANI_LETTERS: Letter[] = [
     role: 'both',
     note: {
       en: 'A consonant (وڵات wiłat, country) or the short vowel u (کوڕ kuř, son). Doubled, وو is the long û.',
-      sv: 'En konsonant (وڵات wiłat, land) eller den korta vokalen u (کوڕ kuř, son). Dubbelt, وو, blir det långa û.',
+      sv: 'En konsonant (وڵات wiłat, land) eller den korta vokalen u (کوڕ kuř, son). Två i rad, وو, blir ett långt û.',
     },
   }),
   l('ۆ', 'o', ['o'], ['o'], 'o as in go, but pure, without the w-glide', 'som å i gå', {
@@ -157,7 +157,7 @@ export const SORANI_LETTERS: Letter[] = [
     role: 'vowel',
     note: {
       en: 'The vowel e. It looks like a final ه, but it never joins the next letter: هەبوون hebûn (to have) has both.',
-      sv: 'Vokalen e. Den liknar ett ه i slutet av ett ord men binds aldrig till nästa bokstav: هەبوون hebûn (att ha) har båda.',
+      sv: 'Vokalen e. Den liknar ett ه i slutet av ett ord men sitter aldrig ihop med nästa bokstav. هەبوون hebûn (att ha) har båda.',
     },
   }),
   l('ی', 'yê', ['y', 'î'], ['j', 'iː'], 'y as in yes, or ee as in see', 'j som i ja, eller i som i bil', {
@@ -179,7 +179,7 @@ export const SORANI_LETTERS: Letter[] = [
     role: 'vowel',
     note: {
       en: 'Not a separate letter but two و in a row, which spell the long û: پوور pûr (aunt).',
-      sv: 'Ingen egen bokstav utan två و i rad, som skriver det långa û: پوور pûr (faster, moster).',
+      sv: 'Ingen egen bokstav utan två و i rad, som tillsammans blir ett långt û: پوور pûr (faster, moster).',
     },
   }),
 ]
@@ -191,7 +191,7 @@ export const PERSIAN_LETTERS: Letter[] = [
     role: 'vowel',
     note: {
       en: 'Inside a word it is the long â. At the start of a word it carries a short vowel: اسم esm (name), او u (he, she).',
-      sv: 'Inne i ett ord är det långt â. I början av ett ord bär det upp en kort vokal: اسم esm (namn), او u (han, hon).',
+      sv: 'Inne i ett ord är det ett långt â. I början av ett ord bär det en kort vokal: اسم esm (namn), او u (han, hon).',
     },
   }),
   l('آ', 'alef madde', ['â'], ['ɒː'], 'â at the start of a word', 'â i början av ett ord', {
@@ -199,7 +199,7 @@ export const PERSIAN_LETTERS: Letter[] = [
     role: 'vowel',
     note: {
       en: 'Alef with a wavy madde on top writes â at the start of a word: آن ân (that).',
-      sv: 'Alef med ett vågigt madde-tecken skriver â i början av ett ord: آن ân (den där).',
+      sv: 'Alef med ett vågigt madde-tecken ovanpå är â i början av ett ord: آن ân (den där).',
     },
   }),
   l('ب', 'be', ['b'], ['b'], 'b as in boy', 'b som i bok'),
@@ -269,21 +269,21 @@ export const PERSIAN_LETTERS: Letter[] = [
     ...nonJoining,
     role: 'both',
     note: {
-      en: 'Four jobs: کشور keshvar (country), دوست dust (friend), تو to (you), نوزاد nowzâd (baby).',
-      sv: 'Fyra uppgifter: کشور keshvar (land), دوست dust (vän), تو to (du), نوزاد nowzâd (spädbarn).',
+      en: 'Four sounds: کشور keshvar (country), دوست dust (friend), تو to (you), نوزاد nowzâd (baby).',
+      sv: 'Fyra ljud: کشور keshvar (land), دوست dust (vän), تو to (du), نوزاد nowzâd (spädbarn).',
     },
   }),
   l('ه', 'he-ye do-cheshm', ['h', 'e'], ['h', 'e'], 'h as in hat; silent at the end of many words', 'h som i hus; stum i slutet av många ord', {
     note: {
-      en: 'At the end of a word it is often silent and only marks a final e: خاله khâle (aunt).',
-      sv: 'I slutet av ett ord är den ofta stum och visar bara ett slut-e: خاله khâle (moster).',
+      en: 'At the end of a word it is often silent and only shows that the word ends in e: خاله khâle (aunt).',
+      sv: 'I slutet av ett ord är den ofta stum och visar bara att ordet slutar på e: خاله khâle (moster).',
     },
   }),
   l('ی', 'ye', ['y', 'i', 'ey'], ['j', 'iː', 'ej'], 'y as in yes, or ee as in see', 'j som i ja, eller i som i bil', {
     role: 'both',
     note: {
-      en: 'A consonant y, the long vowel i, or ey: خیلی kheyli (very) has two of them.',
-      sv: 'En konsonant (j-ljud), det långa i eller ey: خیلی kheyli (mycket) har två av dem.',
+      en: 'A consonant y, the long vowel i, or ey: خیلی kheyli (very) has two of them, ey and i.',
+      sv: 'En konsonant (j-ljud), det långa i eller ey: خیلی kheyli (mycket) har två av dem, ey och i.',
     },
   }),
 ]

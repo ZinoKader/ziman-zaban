@@ -8,7 +8,7 @@
       "title": { "en": "Question words", "sv": "Frågeord" },
       "explanation": {
         "en": "The question words are `چی` çî 'what', `کێ` kê 'who', `لە کوێ` le kwê 'where', `کەی` key 'when', `بۆچی` boçî 'why', `چۆن` çon 'how', `کام` kam 'which' (`کامیان` 'which of them') and `چەند` çend 'how many/much'. **The word order does not change**: the question word stands where the answer would be, normally just before the verb. 'Is' joins the question word as an ending: `چییە؟` 'what is…?', `کێیە؟` 'who is…?', `لە کوێیە؟` 'where is…?', `چۆنە؟` 'how is…?'. A yes/no question is just a statement with rising intonation; in writing it may start with `ئایا`.",
-        "sv": "Frågeorden är `چی` çî 'vad', `کێ` kê 'vem', `لە کوێ` le kwê 'var', `کەی` key 'när', `بۆچی` boçî 'varför', `چۆن` çon 'hur', `کام` kam 'vilken' (`کامیان` 'vilken av dem') och `چەند` çend 'hur många/mycket'. **Ordföljden ändras inte**: frågeordet står där svaret skulle stå, oftast precis före verbet. 'Är' fogas till frågeordet som en ändelse: `چییە؟` 'vad är…?', `کێیە؟` 'vem är…?', `لە کوێیە؟` 'var är…?', `چۆنە؟` 'hur är…?'. En ja/nej-fråga är bara ett påstående med stigande intonation; i skrift kan den börja med `ئایا`."
+        "sv": "Frågeorden är `چی` çî 'vad', `کێ` kê 'vem', `لە کوێ` le kwê 'var', `کەی` key 'när', `بۆچی` boçî 'varför', `چۆن` çon 'hur', `کام` kam 'vilken' (`کامیان` 'vilken av dem') och `چەند` çend 'hur många/mycket'. **Ordföljden ändras inte**: frågeordet står där svaret skulle stå, oftast precis före verbet. 'Är' blir en ändelse på frågeordet: `چییە؟` 'vad är…?', `کێیە؟` 'vem är…?', `لە کوێیە؟` 'var är…?', `چۆنە؟` 'hur är…?'. En ja/nej-fråga är bara ett påstående med stigande intonation; i skrift kan den börja med `ئایا`."
       },
       "examples": [
         {
@@ -176,7 +176,7 @@
       "title": { "en": "And, but, or, because, too", "sv": "Och, men, eller, eftersom, också" },
       "explanation": {
         "en": "`و` 'and' is read **va** in careful speech, but in everyday speech it is usually **o**, joined to the word before: `کردی و فارسی` kordi-o fârsi. 'But' is `ولی` vali (more formal `اما` ammâ), 'or' is `یا` yâ and 'because' is `چون` chon (formal `زیرا`). 'Too, also' is the separate word `هم` ham, placed **after** the word it is about: `من هم` 'me too' (spoken `منم` manam). This is where Sorani uses the ending `ـیش`: `منیش`.",
-        "sv": "`و` 'och' läses **va** i vårdat tal, men i vardagligt tal blir det oftast **o**, som fogas till ordet före: `کردی و فارسی` kordi-o fârsi. 'Men' är `ولی` vali (mer formellt `اما` ammâ), 'eller' är `یا` yâ och 'eftersom' är `چون` chon (formellt `زیرا`). 'Också' är det fristående ordet `هم` ham, som står **efter** ordet det gäller: `من هم` 'jag också' (i tal `منم` manam). Här använder sorani ändelsen `ـیش`: `منیش`."
+        "sv": "`و` 'och' läses **va** i vårdat tal, men i vardagligt tal blir det oftast **o** och hänger ihop med ordet före: `کردی و فارسی` kordi-o fârsi. 'Men' är `ولی` vali (mer formellt `اما` ammâ), 'eller' är `یا` yâ och 'eftersom' är `چون` chon (formellt `زیرا`). 'Också' är det fristående ordet `هم` ham, som står **efter** ordet det gäller: `من هم` 'jag också' (i tal `منم` manam). Där använder sorani i stället ändelsen `ـیش`: `منیش`."
       },
       "examples": [
         {

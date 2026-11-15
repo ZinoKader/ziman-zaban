@@ -76,10 +76,10 @@ describe('formatCitation', () => {
       'W. M. Thackston, Sorani Kurdish: A Reference Grammar with Selected Readings, §15',
     )
     expect(formatCitation({ source: 'kim-kurdish-grammar', ref: 'Linking verbs' }, en)).toBe(
-      'D. H. Kim, A Basic Guide to Kurdish Grammar, chapter “Linking verbs”',
+      'D. H. Kim, A Basic Guide to Kurdish Grammar, chapter "Linking verbs"',
     )
     expect(formatCitation({ source: 'kim-kurdish-grammar', ref: 'Izafe' }, sv)).toBe(
-      'D. H. Kim, A Basic Guide to Kurdish Grammar, kapitlet ”Izafe”',
+      'D. H. Kim, A Basic Guide to Kurdish Grammar, kapitlet "Izafe"',
     )
   })
 

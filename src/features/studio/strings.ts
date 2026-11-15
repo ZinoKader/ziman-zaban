@@ -7,14 +7,14 @@ const plural = (n: number, one: string, many: string) => (n === 1 ? one : many)
 
 const SILENT_MODE = {
   en: 'Turn off silent mode: flip the switch on the side of the iPhone, or on newer models open Control Center and tap the bell.',
-  sv: 'Stäng av ljudlöst läge: vrid reglaget på sidan av din iPhone, eller öppna Kontrollcenter och tryck på klockan på nyare modeller.',
+  sv: 'Stäng av ljudlöst läge: för reglaget på sidan av din iPhone, eller öppna Kontrollcenter och tryck på klockan om du har en nyare modell.',
 }
 
 export const studioStrings = defineStrings({
   en: {
     title: 'Record voices',
     intro:
-      "Learners hear a computer voice for most words today. Record them in your own voice: read one word after another out loud. The app hears the pause after each word, keeps the recording and shows the next one. You don't press anything in between.",
+      "Learners still hear a computer voice for many words and most sentences. Record them in your own voice: read one word after another out loud. The app hears the pause after each word, keeps the recording and shows the next one. You don't press anything in between.",
     whoFor: 'For native speakers of Sorani Kurdish or Persian.',
     uiLang: 'Instructions in',
     langLabel: 'Language you record',
@@ -85,7 +85,7 @@ export const studioStrings = defineStrings({
             ...(platform === 'ios'
               ? [
                   'In Safari: tap "aA" at the left of the address bar, then "Website Settings", and set Microphone to "Allow".',
-                  'Not there, or still blocked? Open the Settings app, go to Apps > Safari > Microphone (on older iPhones Safari > Microphone) and pick "Ask" or "Allow".',
+                  'Not there, or still blocked? Open the Settings app, go to Apps > Safari > Microphone (before iOS 18: Safari > Microphone) and pick "Ask" or "Allow".',
                   'In Chrome: open the Settings app, then Apps > Chrome, and turn on Microphone.',
                 ]
               : platform === 'android'
@@ -167,7 +167,7 @@ export const studioStrings = defineStrings({
   sv: {
     title: 'Spela in röster',
     intro:
-      'I dag hör eleverna en datorröst för de flesta orden. Spela in dem med din egen röst: läs ord efter ord högt. Appen hör pausen efter varje ord, sparar inspelningen och visar nästa. Du behöver inte trycka på något mellan orden.',
+      'Än så länge läser en datorröst upp många ord och de flesta meningar för eleverna. Spela in dem med din egen röst: läs upp orden ett i taget. Appen hör pausen efter varje ord, sparar inspelningen och visar nästa ord. Du behöver inte trycka på något mellan orden.',
     whoFor: 'För dig som har soranikurdiska eller persiska som modersmål.',
     uiLang: 'Instruktioner på',
     langLabel: 'Språk du spelar in',
@@ -178,18 +178,18 @@ export const studioStrings = defineStrings({
     continue: 'Fortsätt',
     save: 'Spara',
 
-    recordingAs: (name: string, lang: string) => `Spelar in ${lang} som ${name}`,
+    recordingAs: (name: string, lang: string) => `Du spelar in ${lang.toLocaleLowerCase('sv')} som ${name}`,
     change: 'Ändra',
     groupLabel: 'Vad du spelar in',
     groups: { words: 'Ord', sentences: 'Meningar och frågor', all: 'Allt' } satisfies Record<PromptGroup, string>,
-    left: (n: number, total: number) => `${n} av ${total} saknar fortfarande röst`,
+    left: (n: number, total: number) => `${n} av ${total} saknar röst än`,
     allDone: 'Allt i den här listan har en röst. Välj en annan lista.',
     startRecording: 'Börja spela in',
     tipsTitle: 'Innan du börjar',
     tips: [
       'Sitt i ett tyst rum. Telefonen kan vara 20 till 50 cm från munnen, så du kan hålla den eller lägga den på bordet.',
       'Säg varje text en gång, i vanlig takt, som du skulle säga den till en vän.',
-      'Pausa ungefär en sekund efter varje. Då vet appen att du är klar.',
+      'Gör en paus på ungefär en sekund efter varje text. Då vet appen att du är klar.',
       'Blev det fel? Tryck på "Tillbaka" och säg det igen.',
       'Kan du inte ordet, eller ser det fel ut? Tryck på "Hoppa över".',
     ],
@@ -204,7 +204,7 @@ export const studioStrings = defineStrings({
     done: 'Klar',
     answerTo: (question: string) => `Svar på: ${question}`,
     upNext: 'Nästa',
-    noisy: 'Det är stökigt ljud omkring dig. Inspelningarna kan klippas på fel ställe.',
+    noisy: 'Det är mycket ljud omkring dig. Inspelningarna kan klippas på fel ställe.',
     quiet: 'Rösten hördes knappt över bakgrundsljudet. Gå lite närmare eller hitta ett tystare rum.',
     loud: 'Det var så högt att det kan låta förvrängt. Backa lite.',
     finished: 'Det var hela listan. Tack!',
@@ -222,7 +222,7 @@ export const studioStrings = defineStrings({
     fixes: (code: MicError, platform: Platform, inApp: string | null): string[] => {
       const openInBrowser = inApp
         ? [
-            `Du har öppnat appen inne i ${inApp}. Dess inbyggda webbläsare kan ofta inte spela in.`,
+            `Du har öppnat appen inne i ${inApp}. Den inbyggda webbläsaren där kan ofta inte spela in.`,
             platform === 'ios' ? 'Öppna menyn (··· eller kompassikonen) och välj "Öppna i Safari".' : 'Öppna menyn (⋮) och välj "Öppna i Chrome" eller "Öppna i webbläsare".',
           ]
         : []
@@ -238,7 +238,7 @@ export const studioStrings = defineStrings({
             ...(platform === 'ios'
               ? [
                   'I Safari: tryck på "aA" till vänster i adressfältet, sedan "Webbplatsinställningar", och ställ Mikrofon på "Tillåt".',
-                  'Finns det inte där, eller är den fortfarande blockerad? Öppna appen Inställningar, gå till Appar > Safari > Mikrofon (på äldre iPhone Safari > Mikrofon) och välj "Fråga" eller "Tillåt".',
+                  'Finns det inte där, eller är den fortfarande blockerad? Öppna appen Inställningar, gå till Appar > Safari > Mikrofon (före iOS 18: Safari > Mikrofon) och välj "Fråga" eller "Tillåt".',
                   'I Chrome: öppna appen Inställningar, sedan Appar > Chrome, och slå på Mikrofon.',
                 ]
               : platform === 'android'
@@ -249,7 +249,7 @@ export const studioStrings = defineStrings({
         case 'busy':
           return [...openInBrowser, 'En annan app spelar in: ett telefon- eller FaceTime-samtal, Röstmemon, diktering eller en annan flik. Avsluta eller stäng den.', retry]
         case 'nodevice':
-          return ['Anslut en mikrofon, eller kolla att headsetet sitter i.', retry]
+          return ['Anslut en mikrofon, eller kolla att headsetet är inkopplat.', retry]
         case 'blocked':
           return [
             ...openInBrowser,
@@ -288,7 +288,7 @@ export const studioStrings = defineStrings({
         loud: 'Så högt att det låter förvrängt. Backa lite.',
         noisy: 'Det hörs bakgrundsljud. Ett tystare rum ger renare inspelningar.',
       } satisfies Record<LevelVerdict, string>,
-      inAppWarning: (app: string) => `Öppnad inne i ${app}. Om inspelningen inte fungerar, öppna appen i Safari eller Chrome.`,
+      inAppWarning: (app: string) => `Du har öppnat appen inne i ${app}. Går det inte att spela in, öppna appen i Safari eller Chrome.`,
       listen: 'Lyssna på dig själv',
       again: 'Testa igen',
       ready: 'Börja spela in',
@@ -311,7 +311,7 @@ export const studioStrings = defineStrings({
     play: (text: string) => `Spela upp ${text}`,
     remove: (text: string) => `Ta bort ${text}`,
     exportTitle: 'Skicka dina inspelningar',
-    exportHint: 'Ladda ner filen och skicka den till Ziman·Zabân. När den har lagts in i appen hör eleverna din röst för de här texterna.',
+    exportHint: 'Ladda ner filen och skicka den till teamet bakom Ziman·Zabân. När vi har lagt in den i appen hör eleverna din röst i de här texterna.',
     download: (n: number) => `Ladda ner ${n} ${plural(n, 'inspelning', 'inspelningar')}`,
     downloaded: 'Filen har laddats ner',
     clear: 'Ta bort från enheten',

@@ -176,7 +176,7 @@
         "primary": { "script": "برنج", "latin": "berenj" },
         "notes": {
           "en": "Plain cooked rice is چلو (chelow), rice cooked with other things is پلو (polow), and the prized crispy bottom is ته‌دیگ (tahdig).",
-          "sv": "Kokt vitt ris heter چلو (chelow), ris kokt med annat heter پلو (polow), och den älskade krispiga botten heter ته‌دیگ (tahdig)."
+          "sv": "Kokt vitt ris heter چلو (chelow), ris kokt med annat heter پلو (polow), och den eftertraktade krispiga botten heter ته‌دیگ (tahdig)."
         },
         "sources": [{ "source": "wiktionary", "ref": "rice" }, { "source": "tatoeba" }]
       }
@@ -266,7 +266,7 @@
       "cognate": true,
       "ckb": {
         "primary": { "script": "میوە", "latin": "mîwe" },
-        "notes": { "en": "A bowl of fruit is set out for every guest, along with tea.", "sv": "En skål frukt ställs fram till varje gäst, tillsammans med te." },
+        "notes": { "en": "A bowl of fruit is set out for every guest, along with tea.", "sv": "Man ställer fram en skål frukt och te till varje gäst." },
         "sources": [{ "source": "wiktionary", "ref": "fruit" }, { "source": "tatoeba" }]
       },
       "fa": {
@@ -418,7 +418,7 @@
       "fa": {
         "primary": { "script": "صبحانه", "latin": "sobhâne" },
         "variants": [{ "script": "صبحونه", "latin": "sobhune", "register": "colloquial" }],
-        "notes": { "en": "Built on صبح \"morning\". In Tehran speech: صبحونه (sobhune).", "sv": "Bildat av صبح \"morgon\". I Teherantal: صبحونه (sobhune)." },
+        "notes": { "en": "Built on صبح \"morning\". In Tehran speech: صبحونه (sobhune).", "sv": "Bildat av صبح \"morgon\". I Teheran säger man صبحونه (sobhune)." },
         "sources": [{ "source": "wiktionary", "ref": "breakfast" }, { "source": "tatoeba" }]
       }
     },
@@ -550,7 +550,7 @@
         "pastStem": { "script": "ویست", "latin": "wîst" },
         "notes": {
           "en": "Built like \"have\": the person is a clitic on the thing wanted, ئاوم دەوێت (awim dewêt) \"I want water\", literally \"water-my is wanted\". In speech the -t drops: دەوێ.",
-          "sv": "Byggs som \"ha\": personen är en klitika på det man vill ha, ئاوم دەوێت (awim dewêt) \"jag vill ha vatten\", ordagrant \"vatten-mitt önskas\". I tal faller -t bort: دەوێ."
+          "sv": "Är uppbyggt som \"ha\": personen sitter som en ändelse på det man vill ha, ئاوم دەوێت (awim dewêt) \"jag vill ha vatten\", ordagrant \"vatten-mitt önskas\". I tal faller -t bort: دەوێ."
         },
         "sources": [{ "source": "wiktionary", "ref": "want" }, { "source": "tatoeba" }, { "source": "thackston-sorani-grammar", "ref": "§20" }]
       },
@@ -575,7 +575,7 @@
         "primary": { "script": "برسی", "latin": "birsî" },
         "notes": {
           "en": "Say it like \"have\", with the \"my\" clitic: برسیمە (birsîme) \"I'm hungry\", برسیتە؟ \"are you hungry?\", برسیم نییە \"I'm not hungry\".",
-          "sv": "Säg det som \"ha\", med klitikan för \"min\": برسیمە (birsîme) \"jag är hungrig\", برسیتە؟ \"är du hungrig?\", برسیم نییە \"jag är inte hungrig\"."
+          "sv": "Säg det som \"ha\", med ändelsen för \"min\": برسیمە (birsîme) \"jag är hungrig\", برسیتە؟ \"är du hungrig?\", برسیم نییە \"jag är inte hungrig\"."
         },
         "sources": [
           { "source": "wiktionary", "ref": "hungry" },

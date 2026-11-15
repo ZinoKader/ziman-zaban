@@ -56,7 +56,7 @@ describe('GrammarPage detail', () => {
 
     expect(within(article).getByRole('heading', { name: 'In the course' })).toBeInTheDocument()
     expect(within(article).getByText(/Thackston.*§15/)).toBeInTheDocument()
-    expect(within(article).getByText(/Kim.*chapter “Linking verbs”/)).toBeInTheDocument()
+    expect(within(article).getByText(/Kim.*chapter "Linking verbs"/)).toBeInTheDocument()
 
     expect(within(article).getByRole('link', { name: /Previous.*Personal pronouns/ })).toHaveAttribute('href', '/grammar/ckb-pronouns')
     expect(within(article).getByRole('link', { name: /How Persian does it/ })).toHaveAttribute('href', '/grammar/fa-copula')

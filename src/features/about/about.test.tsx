@@ -77,7 +77,7 @@ describe('AboutPage', () => {
     for (const name of ['Recognition', 'Recall', 'Sentence building', 'Questions & answers']) {
       expect(screen.getByRole('heading', { level: 3, name })).toBeInTheDocument()
     }
-    expect(screen.getByRole('heading', { name: 'Answer questions, don’t just repeat' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Answer questions instead of repeating' })).toBeInTheDocument()
     expect(screen.getAllByText(/Muramoto, D\./).length).toBeGreaterThan(0)
     expect(screen.getAllByText(/Bibauw, S\./).length).toBeGreaterThan(0)
 
@@ -131,6 +131,6 @@ describe('AboutPage', () => {
     useSettings.setState({ baseLang: 'sv', targetLang: 'ckb' })
     renderPage()
     expect(screen.getByRole('heading', { level: 1, name: 'Metod & källor' })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: 'Ärliga begränsningar' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Begränsningar' })).toBeInTheDocument()
   })
 })

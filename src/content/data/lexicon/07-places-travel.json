@@ -57,8 +57,8 @@
           }
         ],
         "notes": {
-          "en": "A cousin of French \"magasin\". دکان (dokkân), the word Sorani uses, sounds old-fashioned in Tehran.",
-          "sv": "En kusin till franskans \"magasin\" (jämför svenskans \"magasin\"). دکان (dokkân), soranins ord, låter ålderdomligt i Teheran."
+          "en": "Related to French and Swedish \"magasin\". دکان (dokkân), the word Sorani uses, sounds old-fashioned in Tehran.",
+          "sv": "Släkt med franskans och svenskans \"magasin\". دکان (dokkân), soranins ord, låter ålderdomligt i Teheran."
         },
         "sources": [{ "source": "wiktionary", "ref": "shop" }, { "source": "tatoeba" }]
       }
@@ -126,7 +126,7 @@
         "variants": [{ "script": "پزیشک", "latin": "pizîşk", "register": "formal" }],
         "notes": {
           "en": "دکتۆر is what you say and how you address a doctor. پزیشک is the formal word, the same as Persian پزشک.",
-          "sv": "دکتۆر är det man säger och hur man tilltalar en läkare. پزیشک är det formella ordet, samma som persiskans پزشک."
+          "sv": "دکتۆر är det man säger, också när man tilltalar en läkare. پزیشک är det formella ordet, samma som persiskans پزشک."
         },
         "sources": [{ "source": "wiktionary", "ref": "doctor" }, { "source": "tatoeba" }]
       },
@@ -566,7 +566,7 @@
         "primary": { "script": "کوه", "latin": "kuh" },
         "notes": {
           "en": "Tehran lies under the Alborz mountains, and on Fridays many Tehranis go hiking: می‌ریم کوه \"we're going to the mountain\".",
-          "sv": "Teheran ligger vid foten av Alborzbergen, och på fredagar går många teheranbor i bergen: می‌ریم کوه \"vi går till berget\"."
+          "sv": "Teheran ligger vid foten av Alborzbergen, och på fredagar vandrar många teheranbor i bergen: می‌ریم کوه \"vi går till berget\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "کوه" }, { "source": "tatoeba" }]
       }
@@ -641,7 +641,7 @@
         "primary": { "script": "با", "latin": "bâ" },
         "notes": {
           "en": "Also \"by\" for vehicles: با اتوبوس \"by bus\", با ماشین \"by car\". با هم (bâ ham) means \"together\".",
-          "sv": "Också \"med\" om fordon: با اتوبوس \"med buss\", با ماشین \"med bil\". با هم (bâ ham) betyder \"tillsammans\"."
+          "sv": "Används också om fordon: با اتوبوس \"med buss\", با ماشین \"med bil\". با هم (bâ ham) betyder \"tillsammans\"."
         },
         "sources": [{ "source": "wiktionary", "ref": "with" }, { "source": "tatoeba" }]
       }
