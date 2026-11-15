@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils'
 import type { DayStats } from '@/store/progress'
 import { useSettings } from '@/store/settings'
 import type { LogState } from './day-card'
-import { dayMonth, dayTitle, shortDate, weekday } from './format'
+import { dayMonth, dayTitle, weekday } from './format'
 import {
   accuracyOf,
   addDaysTo,
@@ -280,7 +280,7 @@ export function WordsCard({ answers, log, now }: { answers: Answer[] | undefined
               </div>
             </div>
             <ChartContainer config={wordsConfig} className="aspect-auto h-44 w-full">
-              <AreaChart data={points} margin={{ top: 4, right: 4, left: -24, bottom: 0 }}>
+              <AreaChart data={points} margin={{ top: 4, right: 4, left: -4, bottom: 0 }}>
                 <defs>
                   <linearGradient id="fill-met" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="5%" stopColor="var(--color-met)" stopOpacity={0.35} />
@@ -298,9 +298,9 @@ export function WordsCard({ answers, log, now }: { answers: Answer[] | undefined
                   axisLine={false}
                   tickMargin={8}
                   minTickGap={32}
-                  tickFormatter={(d: string) => shortDate(parseDay(d), lang)}
+                  tickFormatter={(d: string) => dayMonth(parseDay(d), lang)}
                 />
-                <YAxis tickLine={false} axisLine={false} width={48} allowDecimals={false} />
+                <YAxis tickLine={false} axisLine={false} width={40} allowDecimals={false} />
                 <ChartTooltip cursor={{ stroke: 'var(--muted-foreground)', strokeOpacity: 0.3 }} content={<WordsTooltip />} />
                 <Area dataKey="met" type="monotone" stroke="var(--color-met)" strokeWidth={2} fill="url(#fill-met)" />
                 <Area dataKey="learned" type="monotone" stroke="var(--color-learned)" strokeWidth={2} fill="url(#fill-learned)" />

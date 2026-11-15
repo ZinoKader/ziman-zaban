@@ -263,14 +263,12 @@ export function DayCard({
           </div>
         ) : (
           <>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
+            <div className="grid grid-cols-3 gap-2 sm:grid-cols-5">
               <Kpi label={s.metric.answers} value={reviews} />
               <Kpi label={s.metric.accuracy} value={pct === null ? '–' : `${pct}%`} tone={pct !== null && pct >= 80 ? 'text-success' : undefined} />
               <Kpi label={s.metric.minutes} value={Math.round((stats?.ms ?? 0) / 60_000)} />
               <Kpi label={s.metric.new} value={stats?.newItems ?? 0} />
-              <div className="col-span-2 sm:col-span-1">
-                <Kpi label={s.sessionsLabel} value={answers ? sessions.length : '…'} />
-              </div>
+              <Kpi label={s.sessionsLabel} value={answers ? sessions.length : '…'} />
             </div>
 
             {log.failed ? (

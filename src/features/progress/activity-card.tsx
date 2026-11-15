@@ -12,6 +12,7 @@ import { useSettings } from '@/store/settings'
 import { dayMonth, dayTitle, monthName, periodLabel, weekday } from './format'
 import {
   accuracyOf,
+  addDaysTo,
   bucketsOf,
   change,
   contains,
@@ -68,6 +69,7 @@ function MetricTile({
   now,
   before,
   range,
+  soFar,
   onSelect,
 }: {
   metric: Metric
@@ -75,6 +77,7 @@ function MetricTile({
   now: Totals
   before: Totals
   range: Range
+  soFar: boolean
   onSelect: () => void
 }) {
   const s = statsStrings.use()
@@ -97,7 +100,7 @@ function MetricTile({
       <span className="text-2xl font-semibold tabular-nums">{formatMetric(metric, value)}</span>
       <span className="flex flex-wrap items-center gap-1">
         <Delta pct={delta} />
-        {delta !== null && <span className="hidden text-[0.7rem] text-muted-foreground sm:inline">{s.vsBefore[range]}</span>}
+        {delta !== null && <span className="hidden text-[0.7rem] text-muted-foreground sm:inline">{(soFar ? s.vsSoFar : s.vsBefore)[range]}</span>}
       </span>
     </button>
   )
@@ -177,7 +180,9 @@ export function ActivityCard({
   const canGoNext = after.start <= today
 
   const now = useMemo(() => totalsBetween(days, period.start, period.end), [days, period.start, period.end])
-  const prev = useMemo(() => totalsBetween(days, before.start, before.end), [days, before.start, before.end])
+  const elapsedDays = Math.round((addDaysTo(today, 1).getTime() - period.start.getTime()) / 86_400_000)
+  const prevEnd = isCurrent ? Math.min(addDaysTo(before.start, elapsedDays).getTime(), before.end.getTime()) : before.end.getTime()
+  const prev = useMemo(() => totalsBetween(days, before.start, new Date(prevEnd)), [days, before.start, prevEnd])
   const points: Point[] = useMemo(
     () =>
       bucketsOf(period, days).map((b) => ({
@@ -244,7 +249,7 @@ export function ActivityCard({
       <CardContent className="space-y-4">
         <div role="radiogroup" aria-label={s.activity} className="grid grid-cols-2 gap-2 sm:grid-cols-4">
           {METRICS.map((m) => (
-            <MetricTile key={m} metric={m} active={m === metric} now={now} before={prev} range={range} onSelect={() => onChange({ metric: m })} />
+            <MetricTile key={m} metric={m} active={m === metric} now={now} before={prev} range={range} soFar={isCurrent} onSelect={() => onChange({ metric: m })} />
           ))}
         </div>
 
@@ -256,13 +261,18 @@ export function ActivityCard({
               const i = Number(state?.activeTooltipIndex)
               if (Number.isInteger(i) && points[i]) open(points[i])
             }}
-            margin={{ top: 8, right: 4, left: -24, bottom: 0 }} barCategoryGap={range === 'month' ? '18%' : '28%'}>
+            margin={{ top: 8, right: 4, left: -4, bottom: 0 }} barCategoryGap={range === 'month' ? '18%' : '28%'}>
             <CartesianGrid vertical={false} strokeDasharray="3 3" />
-            <XAxis dataKey="label" tickLine={false} axisLine={false} tickMargin={8} interval={range === 'month' ? 'preserveStartEnd' : 0} minTickGap={6} />
+            <XAxis
+              dataKey="label"
+              tickLine={false}
+              axisLine={false}
+              tickMargin={8}
+              padding={metric === 'accuracy' ? { left: 12, right: 12 } : undefined} interval={range === 'month' ? 'preserveStartEnd' : 0} minTickGap={6} />
             <YAxis
               tickLine={false}
               axisLine={false}
-              width={48}
+              width={metric === 'accuracy' ? 46 : 40}
               allowDecimals={false}
               domain={metric === 'accuracy' ? [0, 100] : [0, 'auto']}
               tickFormatter={(v: number) => (metric === 'accuracy' ? `${v}%` : String(v))}

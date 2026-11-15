@@ -265,6 +265,21 @@ describe('ProgressPage statistics', () => {
     expect(screen.getByRole('button', { name: 'Next day' })).toBeEnabled()
   })
 
+  it('moves through the calendar with the arrow keys', () => {
+    seed()
+    renderAt('/progress', <ProgressPage />)
+    const calendar = screen.getByRole('group', { name: 'Your year' })
+    const current = () => within(calendar).getByRole('button', { current: true })
+    fireEvent.keyDown(current(), { key: 'ArrowUp' })
+    expect(current()).toHaveAccessibleName(/: 12 answers$/)
+    expect(current()).toHaveFocus()
+    fireEvent.keyDown(current(), { key: 'ArrowLeft' })
+    fireEvent.keyDown(current(), { key: 'ArrowRight' })
+    expect(current()).toHaveAccessibleName(/: 12 answers$/)
+    fireEvent.keyDown(current(), { key: 'ArrowRight' })
+    expect(current()).toHaveAccessibleName(/: 12 answers$/)
+  })
+
   it('switches period and metric, and compares with the period before', () => {
     seed()
     renderAt('/progress?range=year&metric=accuracy', <ProgressPage />)

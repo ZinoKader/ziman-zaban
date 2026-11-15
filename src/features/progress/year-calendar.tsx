@@ -27,7 +27,7 @@ export function YearCalendar({
   const [hover, setHover] = useState<HeatCell | null>(null)
   const scroller = useRef<HTMLDivElement>(null)
   const grid = useRef<HTMLDivElement>(null)
-  const focusNext = useRef(false)
+  const cursor = useRef<string | null>(null)
   const cells = weeks.flat()
   const first = cells[0].day
   const todayKey = dayKey(today)
@@ -38,12 +38,16 @@ export function YearCalendar({
 
   useEffect(() => {
     const el = scroller.current
-    if (el) el.scrollLeft = el.scrollWidth
-  }, [])
+    const cell = el?.querySelector<HTMLElement>(`[data-day="${tabStop}"]`)
+    if (!el || !cell) return
+    const margin = 48
+    if (cell.offsetLeft < el.scrollLeft + margin || cell.offsetLeft > el.scrollLeft + el.clientWidth - margin)
+      el.scrollLeft = cell.offsetLeft - el.clientWidth / 2
+  }, [tabStop])
 
   useEffect(() => {
-    if (!focusNext.current) return
-    focusNext.current = false
+    if (cursor.current !== selected) return
+    cursor.current = null
     grid.current?.querySelector<HTMLButtonElement>(`[data-day="${selected}"]`)?.focus()
   }, [selected])
 
@@ -51,9 +55,9 @@ export function YearCalendar({
     const step = STEP[e.key]
     if (!step) return
     e.preventDefault()
-    const next = dayKey(addDaysTo(parseDay(tabStop), step))
+    const next = dayKey(addDaysTo(parseDay(cursor.current ?? tabStop), step))
     if (next < first || next > todayKey) return
-    focusNext.current = true
+    cursor.current = next
     onDay(next)
   }
 
@@ -66,7 +70,7 @@ export function YearCalendar({
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-3">
-        <div ref={scroller} className="-mx-2 overflow-x-auto px-2 pb-1">
+        <div ref={scroller} className="relative -mx-2 overflow-x-auto px-2 pb-2 [scrollbar-color:var(--border)_transparent] [scrollbar-width:thin]">
           <div className="inline-grid grid-cols-[auto_1fr] gap-x-2 gap-y-1">
             <span />
             <div aria-hidden className="grid auto-cols-[0.8rem] grid-flow-col gap-[3px] text-[0.65rem] text-muted-foreground">
