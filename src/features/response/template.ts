@@ -58,11 +58,16 @@ export function fillAnswer(answer: QAAnswer, values: Record<string, SlotValue | 
   const script = (slot: string) => values[slot]?.text || values[slot]?.latin || '…'
   const latin = (slot: string) => values[slot]?.latin || values[slot]?.text || '…'
   const base = (lang: BaseLang) => (slot: string) => values[slot]?.translation?.[lang] || latin(slot)
+  const sentence = (lang: BaseLang) => capitalize(fillSlots(answer.translation[lang], base(lang)))
   return {
     text: fillSlots(answer.text, script),
     latin: fillSlots(answer.latin, latin),
-    translation: { en: fillSlots(answer.translation.en, base('en')), sv: fillSlots(answer.translation.sv, base('sv')) },
+    translation: { en: sentence('en'), sv: sentence('sv') },
   }
+}
+
+function capitalize(text: string): string {
+  return text.charAt(0).toLocaleUpperCase() + text.slice(1)
 }
 
 /**

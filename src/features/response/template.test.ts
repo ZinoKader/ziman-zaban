@@ -19,6 +19,13 @@ describe('template parsing', () => {
     expect(filled).toEqual({ text: 'ناوم ئێریکە.', latin: 'nawim Êrîke.', translation: { en: 'My name is Erik.', sv: 'Jag heter Erik.' } })
     expect(fillAnswer(answer, { name: { text: '', latin: 'Erik' } }).text).toBe('ناوم Erikە.')
   })
+
+  it('starts the translation with a capital when it opens with a slot', () => {
+    const answer: QAAnswer = { text: '{day}.', latin: '{day}.', translation: { en: '{day}.', sv: '{day}.' } }
+    const filled = fillAnswer(answer, { day: { text: 'دووشەممە', latin: 'dûşemme', translation: { en: 'Monday', sv: 'måndag' } } })
+    expect(filled.translation).toEqual({ en: 'Monday.', sv: 'Måndag.' })
+    expect(filled.latin).toBe('dûşemme.')
+  })
 })
 
 describe('matchTemplate: Sorani', () => {
