@@ -108,7 +108,7 @@ export function AppLayout() {
       <div className="flex min-h-dvh flex-col">
         {!inSession && (
           <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
-            <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-4">
+            <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-4 2xl:max-w-7xl">
               <NavLink to="/" className="flex items-center gap-2 font-semibold">
                 <span className="grid size-8 place-items-center rounded-xl bg-primary text-primary-foreground font-script text-lg" aria-hidden>
                   ز
@@ -122,8 +122,8 @@ export function AppLayout() {
                     to={`/learn/${m.slug}`}
                     className={({ isActive }) =>
                       cn(
-                        'flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground',
-                        !m.step && 'hidden xl:flex',
+                        'flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground xl:px-3',
+                        !m.step && 'hidden 2xl:flex',
                         isActive && 'bg-muted text-foreground',
                       )
                     }
@@ -136,7 +136,7 @@ export function AppLayout() {
                   to="/progress"
                   className={({ isActive }) =>
                     cn(
-                      'flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground',
+                      'flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground xl:px-3',
                       isActive && 'bg-muted text-foreground',
                     )
                   }
