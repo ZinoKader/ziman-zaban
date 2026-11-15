@@ -2,6 +2,14 @@
 
 Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHANGELOG.md](CHANGELOG.md). Följ [skillen för ändringsloggen](.cursor/skills/changelog/SKILL.md) när du lägger till något.
 
+## 2026-11-16
+
+- Framsteg: diagrammet "Aktivitet" visar en vecka, en månad eller ett år. Med pilarna går du bakåt i tiden, och du väljer om det ska visa Svar, Minuter, Träffsäkerhet eller Nya. Varje siffra jämförs med perioden före.
+- Framsteg: "Ditt år" visar varje dag de senaste 12 månaderna som en ruta, mörkare ju mer du övade. Tryck på en dag, eller på en stapel i "Aktivitet", för att öppna den.
+- Framsteg: "Dag för dag" visar passen den valda dagen och alla svar i dem: tiden, ordet eller meningen, rätt eller fel och hur lång tid det tog. "Fel" visar bara de felaktiga svaren.
+- Framsteg: nya kort visar vilka moduler du har använt, vilka veckodagar och timmar du övar, orden du har mött och lärt dig över tid, och dina personliga rekord.
+- Appen: fältet högst upp går inte längre utanför kanten på bärbara datorer. Bildigenkänning finns där bara på mycket breda skärmar.
+
 ## 2026-11-14
 
 - Bildigenkänning: en ny modul vid sidan av stegen. Den visar ett foto, frågar "Vad ser du?" och ger fyra soraniska eller persiska ord att välja mellan. Det finns 63 foton i fem områden: maträtter som ghormeh sabzi och kabab koobideh, haft sin-bordet, skafferiet, marknaden och ett kafé.

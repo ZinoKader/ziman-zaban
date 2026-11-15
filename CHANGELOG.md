@@ -2,6 +2,14 @@
 
 What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelog skill](.cursor/skills/changelog/SKILL.md).
 
+## 2026-11-16
+
+- Progress: the "Activity" chart shows a week, a month or a year. The arrows go back in time, and you pick Answers, Minutes, Accuracy or New to chart. Each number is compared with the period before.
+- Progress: "Your year" shows every day of the last 12 months as a square, darker the more you practised. Tap a day, or a bar in "Activity", to open it.
+- Progress: "Day by day" lists the sessions of the chosen day and every answer in them: the time, the word or sentence, right or wrong, and how long it took. "Mistakes" shows only the wrong answers.
+- Progress: new cards show which modules you used, which weekdays and hours you practise, the words you have met and learned over time, and your personal records.
+- App: the top bar no longer runs past the edge of laptop screens. Picture recognition is in it only on very wide screens.
+
 ## 2026-11-14
 
 - Picture recognition: a new module next to the path. It shows a photo, asks "What do you see?" and gives four Sorani or Persian words to pick from. There are 63 photos in five areas: dishes like ghormeh sabzi and kebab koobideh, the haft-sin table, the pantry, the market and a café.
