@@ -4,7 +4,6 @@ import { AlphabetPage } from '@/features/alphabet/alphabet-page'
 import { GrammarPage } from '@/features/grammar/grammar-page'
 import { HomePage } from '@/features/home/home-page'
 import { ModulePage } from '@/features/module/module-page'
-import { ProgressPage } from '@/features/progress/progress-page'
 import { ReviewPage } from '@/features/review/review-page'
 import { SessionPage } from '@/features/session/session-page'
 import { SettingsPage } from '@/features/settings/settings-page'
@@ -18,11 +17,12 @@ const basename = import.meta.env.BASE_URL.replace(/\/+$/, '') || '/'
 export const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    hydrateFallbackElement: <div className="min-h-svh bg-background" />,
     children: [
       { index: true, element: <HomePage /> },
       { path: 'learn/:module', element: <ModulePage /> },
       { path: 'learn/:module/session', element: <SessionPage /> },
-      { path: 'progress', element: <ProgressPage /> },
+      { path: 'progress', lazy: () => import('@/features/progress/progress-page').then((m) => ({ Component: m.ProgressPage })) },
       { path: 'words', element: <WordsPage /> },
       { path: 'words/:conceptId', element: <WordsPage /> },
       { path: 'grammar', element: <GrammarPage /> },

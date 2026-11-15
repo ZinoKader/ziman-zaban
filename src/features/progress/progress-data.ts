@@ -3,7 +3,7 @@ import type { Concept, Skill, TargetLang, Unit } from '@/content/types'
 import { moduleItems, moduleStatus, type Cards, type ModuleStatus } from '@/lib/curriculum'
 import { cardKey, isLearned, parseCardKey, type CardKey } from '@/lib/srs'
 import { ALL_MODULES } from '@/features/modules'
-import { dayKey, type DayStats } from '@/store/progress'
+import { dayKey } from '@/store/progress'
 
 /** Learned, still being learned, and total; `learning + learned <= total`. */
 export interface Bar {
@@ -87,35 +87,6 @@ export function startedLanguages(cards: Cards): TargetLang[] {
   const langs = new Set<TargetLang>()
   for (const k of Object.keys(cards)) langs.add(parseCardKey(k as CardKey).lang)
   return (['ckb', 'fa'] as TargetLang[]).filter((l) => langs.has(l))
-}
-
-export interface DayActivity {
-  day: string
-  date: Date
-  reviews: number
-  correct: number
-}
-
-/** The last `n` local days, oldest first, ending today. */
-export function activity(days: Record<string, DayStats>, now = new Date(), n = 14): DayActivity[] {
-  const out: DayActivity[] = []
-  for (let i = n - 1; i >= 0; i--) {
-    const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i)
-    const key = dayKey(date)
-    out.push({ day: key, date, reviews: days[key]?.reviews ?? 0, correct: days[key]?.correct ?? 0 })
-  }
-  return out
-}
-
-/** Share of reviews answered correctly over the last `n` days; `pct` is null without reviews. */
-export function accuracy(days: Record<string, DayStats>, now = new Date(), n = 7) {
-  let reviews = 0
-  let correct = 0
-  for (const d of activity(days, now, n)) {
-    reviews += d.reviews
-    correct += d.correct
-  }
-  return { reviews, correct, pct: reviews ? Math.round((correct / reviews) * 100) : null }
 }
 
 /**

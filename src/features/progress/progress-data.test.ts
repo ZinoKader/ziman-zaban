@@ -1,10 +1,8 @@
 import { conceptsFor, units } from '@/content'
 import { moduleStatus, type Cards } from '@/lib/curriculum'
 import { cardKey, isLearned, Rating, reviewCard, State, type StoredCard } from '@/lib/srs'
-import { cardsBefore, type DayStats, getProgress } from '@/store/progress'
+import { cardsBefore, getProgress } from '@/store/progress'
 import {
-  accuracy,
-  activity,
   courseProgress,
   forecast,
   hardestWords,
@@ -32,7 +30,6 @@ const lapsed = (times: number, t = now): StoredCard => {
   return c
 }
 const dueAt = (due: Date): StoredCard => ({ ...learned(), due: due.toISOString() })
-const stats = (reviews: number, correct = reviews): DayStats => ({ reviews, correct, newItems: 0, ms: 0 })
 
 describe('test fixtures', () => {
   it('match the srs definitions of learning and learned', () => {
@@ -117,23 +114,6 @@ describe('startedLanguages', () => {
   it('returns practised languages in a fixed order', () => {
     expect(startedLanguages({})).toEqual([])
     expect(startedLanguages({ [cardKey('fa', 'recall', 'x')]: learned(), [cardKey('ckb', 'recall', 'y')]: learned() })).toEqual(['ckb', 'fa'])
-  })
-})
-
-describe('activity and accuracy', () => {
-  it('returns the last 14 local days, oldest first, across a month boundary', () => {
-    const a = activity({ '2026-03-10': stats(5, 4), '2026-02-25': stats(2), '2026-02-24': stats(9) }, now, 14)
-    expect(a).toHaveLength(14)
-    expect(a[0].day).toBe('2026-02-25')
-    expect(a.at(-1)).toMatchObject({ day: '2026-03-10', reviews: 5, correct: 4 })
-    expect(a[0].reviews).toBe(2)
-    expect(a.reduce((n, d) => n + d.reviews, 0)).toBe(7)
-  })
-
-  it('computes accuracy over the last 7 days only', () => {
-    const days = { '2026-03-10': stats(10, 8), '2026-03-04': stats(10, 6), '2026-03-03': stats(50, 0) }
-    expect(accuracy(days, now, 7)).toEqual({ reviews: 20, correct: 14, pct: 70 })
-    expect(accuracy({}, now).pct).toBeNull()
   })
 })
 

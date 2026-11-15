@@ -1,4 +1,4 @@
-import { queryOptions, useMutation, useSuspenseQuery } from '@tanstack/react-query'
+import { queryOptions, useMutation, useQuery, useSuspenseQuery } from '@tanstack/react-query'
 import { useCallback } from 'react'
 import type { TargetLang } from '@/content/types'
 import * as api from '@/data/progress-api'
@@ -11,6 +11,7 @@ import {
   withReview,
   withoutLanguage,
   type Progress,
+  type ReviewEntry,
 } from '@/lib/progress'
 import type { CardKey, Grade, StoredCard } from '@/lib/srs'
 
@@ -46,7 +47,16 @@ export function useProgress<T>(select: (p: Progress) => T): T {
 }
 
 export function reloadProgress() {
-  return queryClient.resetQueries({ queryKey: PROGRESS_KEY })
+  return Promise.all([queryClient.resetQueries({ queryKey: PROGRESS_KEY }), queryClient.resetQueries({ queryKey: REVIEWS_KEY })])
+}
+
+export const REVIEWS_KEY = ['reviews'] as const
+
+/** Every answer ever given, oldest first. Loaded on demand: only the statistics need it. */
+export const reviewsQuery = queryOptions({ queryKey: REVIEWS_KEY, queryFn: api.fetchReviews, staleTime: 5 * 60_000 })
+
+export function useReviewLog() {
+  return useQuery(reviewsQuery, queryClient)
 }
 
 function useSave<V>(save: (v: V) => Promise<void>) {
@@ -85,6 +95,7 @@ export function useRecordReview(): RecordReview {
       journal.push({ key, prev: current.cards[key], at: now.getTime() })
       if (journal.length > MAX_JOURNAL) journal.splice(0, journal.length - MAX_JOURNAL)
       setProgress(progress)
+      queryClient.setQueryData<ReviewEntry[]>(REVIEWS_KEY, (log) => log && [...log, entry])
       mutate({ reviews: [reviewInsert(entry, card)], cards: [cardInsert(key, card)] })
       return card
     },
@@ -122,6 +133,7 @@ export function useResetLanguage() {
   return useCallback(
     (lang: TargetLang, now = new Date()) => {
       setProgress((p) => withoutLanguage(p, lang))
+      queryClient.setQueryData<ReviewEntry[]>(REVIEWS_KEY, (log) => log?.filter((e) => !e.key.startsWith(`${lang}:`)))
       mutate({ lang, at: now.toISOString() })
     },
     [mutate],
@@ -134,6 +146,7 @@ export function useImportBackup() {
     async (backup: FullProgress, fallback: TargetLang) => {
       await mutateAsync(progressRows(backup, fallback))
       await queryClient.refetchQueries({ queryKey: PROGRESS_KEY })
+      await queryClient.invalidateQueries({ queryKey: REVIEWS_KEY })
     },
     [mutateAsync],
   )

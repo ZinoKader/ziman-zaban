@@ -10,6 +10,7 @@ import { SettingsPage } from '@/features/settings/settings-page'
 import { dayKey, getProgress } from '@/store/progress'
 import { NO_SAVES, useServerSaves } from '@/data/server-saves'
 import { useSettings } from '@/store/settings'
+import * as api from '@/data/progress-api'
 import { ProgressPage } from './progress-page'
 import { SaveIndicator } from './save-indicator'
 import { seedProgress, patchProgress, record } from '@/test/progress'
@@ -157,11 +158,6 @@ describe('ProgressPage', () => {
     const unitTotal = words.filter((w) => w.unit === unit.id).length
     expect(screen.getByRole('progressbar', { name: `${unit.title.en}: 3/${unitTotal} words · 2 in progress` })).toBeInTheDocument()
 
-    const chart = screen.getByRole('list', { name: 'Last 14 days' })
-    expect(within(chart).getAllByRole('listitem')).toHaveLength(14)
-    expect(screen.getByText('20 reviews')).toBeInTheDocument()
-    expect(screen.getByText('90%')).toBeInTheDocument()
-    expect(screen.getByText('18 of 20 answers correct')).toBeInTheDocument()
     expect(within(screen.getByRole('list', { name: 'Coming up' })).getAllByRole('listitem')).toHaveLength(7)
 
     const link = screen.getByRole('link', { name: new RegExp(hardWord[`ckb`]!.primary.latin) })
@@ -176,14 +172,14 @@ describe('ProgressPage', () => {
     const tabs = screen.getByRole('tablist', { name: 'Show stats for' })
     expect(within(tabs).getAllByRole('tab').map((t) => t.textContent)).toEqual(['Sorani', 'Farsi', 'Both'])
     expect(screen.getByRole('tab', { name: 'Sorani' })).toHaveAttribute('aria-selected', 'true')
-    const stat = (label: string) => screen.getByText(label).previousElementSibling!.textContent
-    expect(stat('Reviews today')).toBe('8')
+    const stat = (label: string) => screen.getByText(label).nextElementSibling!.textContent
+    expect(stat('Answers today')).toBe('8')
     expect(screen.queryByText('Persian (Farsi)')).not.toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'Units' })).toBeInTheDocument()
 
     // Radix tabs switch on mousedown.
     fireEvent.mouseDown(screen.getByRole('tab', { name: 'Farsi' }), { button: 0 })
-    expect(stat('Reviews today')).toBe('5')
+    expect(stat('Answers today')).toBe('5')
     expect(stat('Day streak')).toBe('1')
     expect(screen.getAllByText('Persian (Farsi)').length).toBeGreaterThan(0)
     expect(screen.queryByText('Sorani Kurdish')).not.toBeInTheDocument()
@@ -191,7 +187,7 @@ describe('ProgressPage', () => {
     expect(screen.queryByRole('link', { name: new RegExp(hardWord.ckb!.primary.latin) })).not.toBeInTheDocument()
 
     fireEvent.mouseDown(screen.getByRole('tab', { name: 'Both' }), { button: 0 })
-    expect(stat('Reviews today')).toBe('13')
+    expect(stat('Answers today')).toBe('13')
     expect(screen.getAllByText('Persian (Farsi)').length).toBeGreaterThan(0)
     expect(screen.getAllByText('Sorani Kurdish').length).toBeGreaterThan(0)
     expect(screen.queryByRole('heading', { name: 'Units' })).not.toBeInTheDocument()
@@ -217,8 +213,84 @@ describe('ProgressPage', () => {
 
   it('is friendly before any practice', () => {
     renderAt('/progress', <ProgressPage />)
-    expect(screen.getByText('No reviews in the last 7 days.')).toBeInTheDocument()
+    expect(screen.getByText('No practice on this day.')).toBeInTheDocument()
+    expect(screen.getByText('Records appear after your first session.')).toBeInTheDocument()
     expect(screen.getByText(/No forgotten words so far/)).toBeInTheDocument()
+    expect(screen.getByText('Nothing yet today')).toBeInTheDocument()
+  })
+})
+
+describe('ProgressPage statistics', () => {
+  const now = new Date()
+  const yesterday = dayKey(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1))
+  const at = (h: number, m: number) => new Date(now.getFullYear(), now.getMonth(), now.getDate(), h, m).toISOString()
+
+  function seedLog() {
+    const a = cardKey('ckb', 'recognition', words[0].id)
+    const b = cardKey('ckb', 'recall', words[1].id)
+    vi.mocked(api.fetchReviews).mockResolvedValue([
+      { key: a, grade: Rating.Good, at: at(0, 5), ms: 3000, kind: 'mc' },
+      { key: b, grade: Rating.Again, at: at(0, 10), ms: 8000, kind: 'typed' },
+      { key: a, grade: Rating.Easy, at: at(0, 50), ms: 2000, kind: 'mc' },
+    ])
+  }
+
+  it('shows every answer of the day in sessions, with a filter for mistakes', async () => {
+    seed()
+    seedLog()
+    renderAt('/progress', <ProgressPage />)
+    expect(await screen.findByText('2 sessions')).toBeInTheDocument()
+    const first = screen.getByRole('button', { name: /00:05–00:10/ })
+    fireEvent.click(first)
+    expect(screen.getAllByText(words[0].ckb!.primary.latin).length).toBeGreaterThan(0)
+    expect(screen.getAllByText('First time').length).toBe(2)
+    fireEvent.click(screen.getByRole('radio', { name: 'Mistakes' }))
+    const rows = screen.getAllByRole('listitem').filter((li) => li.querySelector('time'))
+    expect(rows).toHaveLength(1)
+    expect(rows[0]).toHaveTextContent(words[1].ckb!.primary.latin)
+    expect(rows[0]).toHaveTextContent('Wrong')
+  })
+
+  it('opens a day from the calendar and keeps it in the address', () => {
+    seed()
+    renderAt(`/progress?day=${yesterday}`, <ProgressPage />)
+    const calendar = screen.getByRole('group', { name: 'Your year' })
+    expect(within(calendar).getByRole('button', { name: /: 12 answers$/ })).toHaveAttribute('aria-current', 'true')
+    fireEvent.click(within(calendar).getByRole('button', { name: /: 8 answers$/ }))
+    expect(within(calendar).getByRole('button', { name: /: 8 answers$/ })).toHaveAttribute('aria-current', 'true')
+    expect(screen.queryByRole('button', { name: 'Today' })).not.toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: 'Previous day' }))
+    expect(within(calendar).getByRole('button', { name: /: 12 answers$/ })).toHaveAttribute('aria-current', 'true')
+    expect(screen.getByRole('button', { name: 'Today' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Next day' })).toBeEnabled()
+  })
+
+  it('switches period and metric, and compares with the period before', () => {
+    seed()
+    renderAt('/progress?range=year&metric=accuracy', <ProgressPage />)
+    expect(screen.getByRole('radio', { name: 'Year' })).toHaveAttribute('aria-checked', 'true')
+    expect(screen.getByRole('radio', { name: /^Accuracy/ })).toHaveAttribute('aria-checked', 'true')
+    expect(screen.getByRole('radio', { name: /^Accuracy/ })).toHaveTextContent('90%')
+    expect(screen.getByRole('radio', { name: /^Answers/ })).toHaveTextContent('20')
+    expect(screen.getByRole('button', { name: 'Next' })).toBeDisabled()
+    fireEvent.click(screen.getByRole('button', { name: 'Previous' }))
+    expect(screen.getByRole('radio', { name: /^Answers/ })).toHaveTextContent('0')
+    expect(screen.getByText('No practice in this period.')).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: 'This year' }))
+    fireEvent.click(screen.getByRole('radio', { name: 'Week' }))
+    expect(screen.getByRole('radio', { name: 'Week' })).toHaveAttribute('aria-checked', 'true')
+    expect(screen.getAllByRole('listitem').filter((li) => /answers?$/.test(li.textContent ?? '') && li.closest('ol.sr-only'))).toHaveLength(7)
+  })
+
+  it('lists personal records and jumps to the best day', () => {
+    seed()
+    renderAt('/progress', <ProgressPage />)
+    const best = screen.getByRole('button', { name: /Best day/ })
+    expect(best).toHaveTextContent('12 answers')
+    fireEvent.click(best)
+    const calendar = screen.getByRole('group', { name: 'Your year' })
+    expect(within(calendar).getByRole('button', { name: /: 12 answers$/ })).toHaveAttribute('aria-current', 'true')
+    expect(screen.getByText('Longest streak').nextElementSibling).toHaveTextContent('2 days')
   })
 })
 

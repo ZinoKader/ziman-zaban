@@ -33,3 +33,32 @@ export function formatBytes(n: number, lang: BaseLang): string {
   if (n < 1024 * 1024) return `${fmt.format(n / 1024)} KB`
   return `${fmt.format(n / 1024 / 1024)} MB`
 }
+
+const fmt = (lang: BaseLang, o: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat(locale(lang), o)
+
+/** "Sunday 15 November 2026". */
+export function dayTitle(date: Date, lang: BaseLang): string {
+  return fmt(lang, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(date)
+}
+
+/** "15 Nov". */
+export function dayMonth(date: Date, lang: BaseLang): string {
+  return fmt(lang, { day: 'numeric', month: 'short' }).format(date)
+}
+
+export function monthName(date: Date, lang: BaseLang, style: 'short' | 'long' = 'short'): string {
+  return fmt(lang, { month: style }).format(date)
+}
+
+/** "18:05", or "18:05:12" with seconds. */
+export function timeOf(date: Date, lang: BaseLang, seconds = false): string {
+  return fmt(lang, { hour: '2-digit', minute: '2-digit', ...(seconds ? { second: '2-digit' } : {}), hourCycle: 'h23' }).format(date)
+}
+
+/** "10–16 Nov 2026", "November 2026" or "2026", for a period with an exclusive end. */
+export function periodLabel(range: 'week' | 'month' | 'year', start: Date, end: Date, lang: BaseLang): string {
+  if (range === 'year') return String(start.getFullYear())
+  if (range === 'month') return fmt(lang, { month: 'long', year: 'numeric' }).format(start)
+  const last = new Date(end.getFullYear(), end.getMonth(), end.getDate() - 1)
+  return fmt(lang, { day: 'numeric', month: 'short', year: 'numeric' }).formatRange(start, last)
+}

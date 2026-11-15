@@ -1,4 +1,4 @@
-import { ArrowRight, CircleCheck, Flame, Lock } from 'lucide-react'
+import { ArrowRight, CircleCheck, Lock } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { Button } from '@/components/ui/button'
@@ -10,15 +10,19 @@ import { common } from '@/i18n/common'
 import { useNow } from '@/lib/use-now'
 import { cn } from '@/lib/utils'
 import { MedalShelf } from '@/features/medals/medal-shelf'
-import { dayKey, scopedDays, streak, useProgress, type StatsScope } from '@/store/progress'
+import { dayKey, scopedDays, streak, useProgress, useReviewLog, type StatsScope } from '@/store/progress'
 import { useServerSaves } from '@/data/server-saves'
 import { useSettings } from '@/store/settings'
-import { formatWhen, shortDate, weekday } from './format'
+import { ActivityCard } from './activity-card'
+import { DayCard, type LogState } from './day-card'
+import { formatWhen, periodLabel, shortDate, weekday } from './format'
+import { Highlights, ModulesCard, RecordsCard, WhenCard, WordsCard } from './insights'
+import { answersBetween, answersOf, parseDay, recordsOf } from './stats-data'
+import { useStatsView } from './stats-params'
+import { YearCalendar } from './year-calendar'
 import { Meter } from './meter'
 import { CourseSummary, ModuleBars } from './progress-card'
 import {
-  accuracy,
-  activity,
   courseProgress,
   dueNow,
   forecast,
@@ -59,18 +63,6 @@ function LanguageCourse({ lang, current }: { lang: TargetLang; current: boolean 
         )}
       </CardContent>
     </Card>
-  )
-}
-
-function Stat({ label, value, icon }: { label: string; value: React.ReactNode; icon?: React.ReactNode }) {
-  return (
-    <div className="rounded-2xl border bg-card px-4 py-3">
-      <div className="flex items-center gap-1.5 text-2xl font-semibold tabular-nums">
-        {icon}
-        {value}
-      </div>
-      <div className="text-xs text-muted-foreground">{label}</div>
-    </div>
   )
 }
 
@@ -218,29 +210,45 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
   const c = common.use()
   const l = useLocalize()
   const current = useSettings((st) => st.targetLang)
+  const baseLang = useSettings((st) => st.baseLang)
   const cards = useProgress((st) => st.cards)
   const days = useProgress((st) => scopedDays(st, scope))
   const now = useNow()
   const today = dayKey(now)
   const single = langs.length === 1 ? langs[0] : null
 
-  const recent = useMemo(() => activity(days, now, 14), [days, now])
-  const acc = useMemo(() => accuracy(days, now, 7), [days, now])
   const coming = useMemo(() => forecast(cards, langs, now, 7), [cards, langs, now])
   const perUnit = useMemo(() => (single ? unitProgress(single, cards) : []), [cards, single])
   const hardest = useMemo(() => hardestWords(cards, langs, 8), [cards, langs])
   const due = useMemo(() => dueNow(langs, cards, now), [cards, langs, now])
-  const daysPractised = Object.values(days).filter((d) => d.reviews > 0).length
-  const recentTotal = recent.reduce((n, d) => n + d.reviews, 0)
   const comingTotal = coming.reduce((n, d) => n + d.count, 0)
+
+  const midnight = useMemo(() => parseDay(today), [today])
+  const [view, setView] = useStatsView(now)
+  const reviewLog = useReviewLog()
+  const answers = useMemo(() => reviewLog.data && answersOf(reviewLog.data, langs), [reviewLog.data, langs])
+  const log: LogState = { answers, failed: reviewLog.isError && !answers, retry: () => void reviewLog.refetch() }
+  const inPeriod = useMemo(() => answers && answersBetween(answers, view.period.start, view.period.end), [answers, view.period.start, view.period.end])
+  const records = useMemo(() => recordsOf(days), [days])
+  const periodName = periodLabel(view.range, view.period.start, view.period.end, baseLang)
+  const selectDay = (day: string) => setView({ day })
 
   return (
     <div className="space-y-8">
-      <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <Stat label={s.stats.streak} value={streak(days, now)} icon={<Flame className="size-5 text-orange-500" />} />
-        <Stat label={s.stats.today} value={days[today]?.reviews ?? 0} />
-        <Stat label={s.stats.due} value={due} />
-        <Stat label={s.stats.days} value={daysPractised} />
+      <Highlights streakNow={streak(days, now)} records={records} todayStats={days[today]} due={due} />
+
+      <section className="space-y-4">
+        <ActivityCard days={days} period={view.period} metric={view.metric} day={view.day} today={midnight} onChange={setView} />
+        <YearCalendar days={days} today={midnight} selected={view.day} onDay={selectDay} />
+        <DayCard days={days} day={view.day} today={midnight} log={log} showLang={!single} onDay={selectDay} />
+        <div className="grid gap-4 md:grid-cols-2">
+          <ModulesCard answers={inPeriod} log={log} periodLabel={periodName} />
+          <WhenCard answers={inPeriod} log={log} periodLabel={periodName} />
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          <WordsCard answers={answers} log={log} now={now} />
+          <RecordsCard records={records} onChange={setView} />
+        </div>
       </section>
 
       <section className="space-y-3">
@@ -256,40 +264,6 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
         {langs.map((x) => (
           <MedalShelf key={x} lang={x} showLanguage={langs.length > 1} />
         ))}
-      </section>
-
-      <section className="grid gap-4 md:grid-cols-5">
-        <Card className="md:col-span-3">
-          <CardHeader>
-            <CardTitle>{s.activity}</CardTitle>
-            <CardDescription>{s.activityTotal(recentTotal)}</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ColumnChart
-              data={recent.map((d) => ({ key: d.day, date: d.date, value: d.reviews }))}
-              label={s.activity}
-              barLabel={s.activityBar}
-              highlight={today}
-              tone="bg-primary"
-            />
-          </CardContent>
-        </Card>
-        <Card className="md:col-span-2">
-          <CardHeader>
-            <CardTitle>{s.accuracy}</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-3">
-            {acc.pct === null ? (
-              <p className="text-sm text-muted-foreground">{s.accuracyNone}</p>
-            ) : (
-              <>
-                <p className="text-4xl font-semibold tabular-nums">{acc.pct}%</p>
-                <Meter learned={acc.correct} total={acc.reviews} tone="success" size="sm" label={s.accuracyDetail(acc.correct, acc.reviews)} />
-                <p className="text-sm text-muted-foreground">{s.accuracyDetail(acc.correct, acc.reviews)}</p>
-              </>
-            )}
-          </CardContent>
-        </Card>
       </section>
 
       <Card>
