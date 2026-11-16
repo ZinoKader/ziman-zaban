@@ -52,7 +52,8 @@ const PERSIAN_SCRIPT: Record<string, string> = {
   ک: 'k', گ: 'g', ل: 'l', م: 'm', ن: 'n', ه: 'h', '\u064B': 'n',
 }
 
-export function persianScriptSkeleton(script: string): string {
+/** Word-final h is written `H`, since it may stand for a silent ه that the other side leaves out. */
+function persianScriptWords(script: string): string {
   // ه before a ZWNJ ends a morpheme (آهسته‌تر, خانه‌ها), so it is the silent final heh.
   const t = canonicalize(script, 'fa')
     .replace(/(?<=\S)ه\u200C/g, '\u200C')
@@ -67,12 +68,14 @@ export function persianScriptSkeleton(script: string): string {
         })
         .join('')
         .replace(/(.)\1+/g, '$1')
+        .replace(/h$/, 'H')
     })
     .join('')
 }
 
-export function persianLatinSkeleton(latin: string): string {
+function persianLatinWords(latin: string): string {
   return words(latin.normalize('NFC').toLowerCase())
+    .flatMap((w) => w.split('-'))
     .map((w) =>
       w
         .replace(/kh|x/g, 'X')
@@ -82,10 +85,21 @@ export function persianLatinSkeleton(latin: string): string {
         .replace(/gh|q|ğ|ġ/g, 'G')
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[aeiouyvw'ʼ’`-]/g, '')
-        .replace(/(.)\1+/g, '$1'),
+        .replace(/[aeiouyvw'ʼ’`]/g, '')
+        .replace(/(.)\1+/g, '$1')
+        .replace(/h$/, 'H'),
     )
     .join('')
+}
+
+const plain = (s: string) => s.replace(/H/g, 'h').replace(/(.)\1+/g, '$1')
+
+export function persianScriptSkeleton(script: string): string {
+  return plain(persianScriptWords(script))
+}
+
+export function persianLatinSkeleton(latin: string): string {
+  return plain(persianLatinWords(latin))
 }
 
 function words(t: string): string[] {
@@ -111,6 +125,7 @@ export function checkRomanization(script: string, latin: string, lang: TargetLan
   const s = persianScriptSkeleton(script)
   const l = persianLatinSkeleton(latin)
   // Word-final h is ambiguous between silent ه (khâne) and real /h/ (râh), so allow it either way.
-  const ok = s === l || s.replace(/h/g, '') === l.replace(/h/g, '')
+  const dropFinal = (x: string) => x.replace(/H/g, '').replace(/(.)\1+/g, '$1')
+  const ok = s === l || dropFinal(persianScriptWords(script)) === dropFinal(persianLatinWords(latin))
   return { ok, script: s, latin: l }
 }
