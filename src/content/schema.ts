@@ -66,7 +66,7 @@ export const conceptSchema = z
     level: z.enum(LEVELS),
     gloss: glossSchema,
     senseNote: localizedSchema.optional(),
-    icon: z.enum(ICON_NAMES).optional(),
+    icon: z.enum(ICON_NAMES),
     ckb: languageEntrySchema.optional(),
     fa: languageEntrySchema.optional(),
     cognate: z.boolean().optional(),

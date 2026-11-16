@@ -305,6 +305,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
+      "icon": "hand-grab",
       "gloss": { "en": "to take", "sv": "att ta", "enAlt": ["take", "to get"], "svAlt": ["ta", "få tag i"] },
       "senseNote": { "en": "take hold of, get", "sv": "ta, få tag i" },
       "cognate": true,

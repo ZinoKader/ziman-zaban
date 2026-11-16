@@ -102,8 +102,8 @@ export interface Concept {
   gloss: Gloss
   /** Disambiguates the sense, e.g. "(the fruit)". */
   senseNote?: Localized
-  /** A Lucide icon used as a visual memory anchor. */
-  icon?: IconName
+  /** A visual memory anchor; see `src/content/icons.ts`. */
+  icon: IconName
   ckb?: LanguageEntry
   fa?: LanguageEntry
   /** True when the Sorani and Persian words share an origin (e.g. نان nan / نان nân). Shown in compare mode. */

@@ -37,6 +37,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-mother",
       "gloss": { "en": "mother", "sv": "mamma", "enAlt": ["mum", "mom"], "svAlt": ["mor", "moder"] },
       "ckb": {
         "primary": { "script": "دایک", "latin": "dayk" },
@@ -62,6 +63,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-father",
       "gloss": { "en": "father", "sv": "pappa", "enAlt": ["dad"], "svAlt": ["far", "fader"] },
       "ckb": {
         "primary": { "script": "باوک", "latin": "bawk" },
@@ -87,6 +89,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-brothers",
       "gloss": { "en": "brother", "sv": "bror", "svAlt": ["broder", "brorsa"] },
       "cognate": true,
       "ckb": {
@@ -112,6 +115,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-sisters",
       "gloss": { "en": "sister", "sv": "syster", "svAlt": ["syrra"] },
       "cognate": true,
       "ckb": {
@@ -136,6 +140,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-boy",
       "gloss": { "en": "son", "sv": "son" },
       "ckb": {
         "primary": { "script": "کوڕ", "latin": "kuř" },
@@ -159,6 +164,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-girl",
       "gloss": { "en": "daughter", "sv": "dotter" },
       "ckb": {
         "primary": { "script": "کچ", "latin": "kiç" },
@@ -182,6 +188,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-child",
       "gloss": { "en": "child", "sv": "barn", "enAlt": ["kid"], "svAlt": ["unge"] },
       "ckb": {
         "primary": { "script": "منداڵ", "latin": "mindał" },
@@ -209,6 +216,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-grandmother",
       "gloss": { "en": "grandmother", "sv": "farmor / mormor", "enAlt": ["grandma"], "svAlt": ["farmor", "mormor"] },
       "ckb": {
         "primary": { "script": "داپیر", "latin": "dapîr" },
@@ -237,6 +245,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-grandfather",
       "gloss": { "en": "grandfather", "sv": "farfar / morfar", "enAlt": ["grandpa"], "svAlt": ["farfar", "morfar"] },
       "ckb": {
         "primary": { "script": "باپیر", "latin": "bapîr" },
@@ -262,6 +271,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-husband",
       "gloss": { "en": "husband", "sv": "man", "svAlt": ["make"] },
       "ckb": {
         "primary": { "script": "مێرد", "latin": "mêrd" },
@@ -293,6 +303,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-wife",
       "gloss": { "en": "wife", "sv": "fru", "svAlt": ["hustru", "maka"] },
       "cognate": true,
       "ckb": {
@@ -325,6 +336,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-man",
       "gloss": { "en": "uncle", "sv": "farbror", "enAlt": ["paternal uncle"] },
       "senseNote": { "en": "father's brother", "sv": "pappas bror" },
       "ckb": {
@@ -349,6 +361,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-man",
       "gloss": { "en": "uncle", "sv": "morbror", "enAlt": ["maternal uncle"] },
       "senseNote": { "en": "mother's brother", "sv": "mammas bror" },
       "ckb": {
@@ -373,6 +386,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-woman",
       "gloss": { "en": "aunt", "sv": "faster", "enAlt": ["paternal aunt"] },
       "senseNote": { "en": "father's sister", "sv": "pappas syster" },
       "ckb": {
@@ -404,6 +418,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-woman",
       "gloss": { "en": "aunt", "sv": "moster", "enAlt": ["maternal aunt"] },
       "senseNote": { "en": "mother's sister", "sv": "mammas syster" },
       "ckb": {
@@ -460,6 +475,7 @@
       "unit": "family",
       "pos": "verb",
       "level": "A1",
+      "icon": "package-check",
       "gloss": { "en": "to have", "sv": "att ha", "svAlt": ["ha"] },
       "ckb": {
         "primary": { "script": "هەبوون", "latin": "hebûn" },
@@ -586,6 +602,7 @@
       "unit": "family",
       "pos": "adjective",
       "level": "A2",
+      "icon": "chevrons-up",
       "gloss": { "en": "older", "sv": "äldre", "enAlt": ["elder"] },
       "ckb": {
         "primary": { "script": "گەورەتر", "latin": "gewretir" },
@@ -610,6 +627,7 @@
       "unit": "family",
       "pos": "adjective",
       "level": "A2",
+      "icon": "chevrons-down",
       "gloss": { "en": "younger", "sv": "yngre" },
       "ckb": {
         "primary": { "script": "بچووکتر", "latin": "biçûktir" },
@@ -637,6 +655,7 @@
       "unit": "family",
       "pos": "adverb",
       "level": "A1",
+      "icon": "circle-dot",
       "gloss": { "en": "only", "sv": "bara", "enAlt": ["just"], "svAlt": ["endast", "enbart"] },
       "ckb": {
         "primary": { "script": "تەنها", "latin": "tenha" },

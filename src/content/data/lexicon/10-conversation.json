@@ -61,6 +61,7 @@
       "unit": "conversation",
       "pos": "question-word",
       "level": "A1",
+      "icon": "workflow",
       "gloss": { "en": "how", "sv": "hur" },
       "senseNote": { "en": "in what way", "sv": "på vilket sätt" },
       "ckb": {
@@ -89,6 +90,7 @@
       "unit": "conversation",
       "pos": "question-word",
       "level": "A1",
+      "icon": "list-checks",
       "gloss": { "en": "which", "sv": "vilken", "svAlt": ["vilket", "vilka"] },
       "ckb": {
         "primary": { "script": "کام", "latin": "kam" },
@@ -117,6 +119,7 @@
       "unit": "conversation",
       "pos": "conjunction",
       "level": "A1",
+      "icon": "link",
       "gloss": { "en": "because", "sv": "eftersom", "svAlt": ["för att", "därför att"] },
       "cognate": true,
       "ckb": {
@@ -174,6 +177,7 @@
       "unit": "conversation",
       "pos": "conjunction",
       "level": "A1",
+      "icon": "corner-up-right",
       "gloss": { "en": "but", "sv": "men" },
       "ckb": {
         "primary": { "script": "بەڵام", "latin": "bełam" },
@@ -199,6 +203,7 @@
       "unit": "conversation",
       "pos": "conjunction",
       "level": "A1",
+      "icon": "split",
       "gloss": { "en": "or", "sv": "eller" },
       "cognate": true,
       "ckb": {
@@ -224,6 +229,7 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
+      "icon": "copy-plus",
       "gloss": { "en": "also", "sv": "också", "enAlt": ["too", "as well"], "svAlt": ["även"] },
       "ckb": {
         "primary": { "script": "هەروەها", "latin": "herweha" },
@@ -251,6 +257,7 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
+      "icon": "dices",
       "gloss": { "en": "maybe", "sv": "kanske", "enAlt": ["perhaps"], "svAlt": ["möjligen"] },
       "ckb": {
         "primary": { "script": "ڕەنگە", "latin": "řenge" },
@@ -275,6 +282,7 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
+      "icon": "badge-check",
       "gloss": { "en": "of course", "sv": "självklart", "enAlt": ["sure", "certainly"], "svAlt": ["naturligtvis", "givetvis", "så klart", "klart"] },
       "ckb": {
         "primary": { "script": "بێگومان", "latin": "bêguman" },
@@ -359,6 +367,7 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
+      "icon": "circle-alert",
       "gloss": { "en": "really", "sv": "verkligen", "enAlt": ["truly"], "svAlt": ["på riktigt", "jaså"] },
       "ckb": {
         "primary": { "script": "بەڕاستی", "latin": "beřastî" },
@@ -383,6 +392,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
+      "icon": "message-circle-x",
       "gloss": { "en": "I don't understand", "sv": "jag förstår inte", "enAlt": ["I do not understand"] },
       "ckb": {
         "primary": { "script": "تێناگەم", "latin": "tênagem" },
@@ -414,6 +424,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
+      "icon": "badge-question-mark",
       "gloss": { "en": "I don't know", "sv": "jag vet inte", "enAlt": ["I do not know"] },
       "cognate": true,
       "ckb": {
@@ -579,6 +590,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
+      "icon": "clock-arrow-up",
       "gloss": { "en": "see you later", "sv": "vi ses", "enAlt": ["see you"], "svAlt": ["vi ses senare", "ses"] },
       "ckb": {
         "primary": { "script": "دواتر دەتبینمەوە", "latin": "dwatir detbînimewe" },

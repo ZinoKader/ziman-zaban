@@ -114,6 +114,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "horse-head",
       "gloss": { "en": "horse", "sv": "häst" },
       "cognate": true,
       "ckb": {
@@ -138,6 +139,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "cow-head",
       "gloss": { "en": "cow", "sv": "ko", "svAlt": ["kossa"] },
       "ckb": {
         "primary": { "script": "مانگا", "latin": "manga" },
@@ -161,6 +163,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "sheep",
       "gloss": { "en": "sheep", "sv": "får" },
       "ckb": {
         "primary": { "script": "مەڕ", "latin": "meř" },
@@ -184,6 +187,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "goat",
       "gloss": { "en": "goat", "sv": "get" },
       "cognate": true,
       "ckb": {
@@ -208,6 +212,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "donkey",
       "gloss": { "en": "donkey", "sv": "åsna", "enAlt": ["ass"] },
       "cognate": true,
       "ckb": {
@@ -257,6 +262,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "lion",
       "gloss": { "en": "lion", "sv": "lejon" },
       "cognate": true,
       "ckb": {
@@ -281,6 +287,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "wolf",
       "gloss": { "en": "wolf", "sv": "varg", "svAlt": ["ulv"] },
       "cognate": true,
       "ckb": {
@@ -305,6 +312,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "bear-face",
       "gloss": { "en": "bear", "sv": "björn" },
       "senseNote": { "en": "the animal", "sv": "djuret" },
       "ckb": {
@@ -355,6 +363,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "snake",
       "gloss": { "en": "snake", "sv": "orm", "enAlt": ["serpent"] },
       "cognate": true,
       "ckb": {
@@ -379,6 +388,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "bee",
       "gloss": { "en": "bee", "sv": "bi" },
       "ckb": {
         "primary": { "script": "هەنگ", "latin": "heng" },
@@ -402,6 +412,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "butterfly",
       "gloss": { "en": "butterfly", "sv": "fjäril" },
       "ckb": {
         "primary": { "script": "پەپوولە", "latin": "pepûle" },
@@ -520,6 +531,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "shovel",
       "gloss": { "en": "garden", "sv": "trädgård" },
       "ckb": {
         "primary": { "script": "باخچە", "latin": "baxçe" },
@@ -595,6 +607,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "pond",
       "gloss": { "en": "lake", "sv": "sjö", "svAlt": ["insjö"] },
       "cognate": true,
       "ckb": {
@@ -643,6 +656,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "stone",
       "gloss": { "en": "stone", "sv": "sten", "enAlt": ["rock"], "svAlt": ["klippa"] },
       "ckb": {
         "primary": { "script": "بەرد", "latin": "berd" },
@@ -666,6 +680,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "cactus",
       "gloss": { "en": "desert", "sv": "öken" },
       "cognate": true,
       "ckb": {
@@ -692,6 +707,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
+      "icon": "tree-palm-island-sun",
       "gloss": { "en": "island", "sv": "ö" },
       "ckb": {
         "primary": { "script": "دوورگە", "latin": "dûrge" },

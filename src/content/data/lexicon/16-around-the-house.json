@@ -73,6 +73,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "bed-double",
       "gloss": { "en": "bedroom", "sv": "sovrum" },
       "ckb": {
         "primary": { "script": "ژووری نووستن", "latin": "jûrî nûstin" },
@@ -96,6 +97,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "sofa",
       "gloss": { "en": "living room", "sv": "vardagsrum", "enAlt": ["sitting room", "lounge"], "svAlt": ["allrum"] },
       "ckb": {
         "primary": { "script": "ژووری دانیشتن", "latin": "jûrî danîştin" },
@@ -126,6 +128,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "layers",
       "gloss": { "en": "floor", "sv": "golv" },
       "senseNote": { "en": "what you walk on, not a storey", "sv": "det man går på, inte en våning" },
       "ckb": {
@@ -183,6 +186,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "house-roof",
       "gloss": { "en": "roof", "sv": "tak", "svAlt": ["yttertak"] },
       "ckb": {
         "primary": { "script": "بان", "latin": "ban" },
@@ -214,6 +218,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "stairs",
       "gloss": { "en": "stairs", "sv": "trappa", "enAlt": ["staircase", "stair", "steps"], "svAlt": ["trappor", "trappan"] },
       "cognate": true,
       "ckb": {
@@ -296,6 +301,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "rug",
       "gloss": { "en": "carpet", "sv": "matta", "enAlt": ["rug"] },
       "cognate": true,
       "ckb": {
@@ -321,6 +327,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "refrigerator-freezer",
       "gloss": { "en": "fridge", "sv": "kylskåp", "enAlt": ["refrigerator"], "svAlt": ["kyl"] },
       "ckb": {
         "primary": { "script": "سەلاجە", "latin": "selace" },
@@ -344,6 +351,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "stove",
       "gloss": { "en": "stove", "sv": "spis", "enAlt": ["cooker", "hob"] },
       "senseNote": { "en": "for cooking", "sv": "för matlagning" },
       "fa": {
@@ -361,6 +369,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "wardrobe",
       "gloss": { "en": "cupboard", "sv": "skåp", "enAlt": ["closet", "wardrobe", "cabinet"], "svAlt": ["garderob", "klädskåp"] },
       "ckb": {
         "primary": { "script": "دۆڵاب", "latin": "dołab" },
@@ -391,6 +400,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "mirror-round",
       "gloss": { "en": "mirror", "sv": "spegel" },
       "cognate": true,
       "ckb": {
@@ -416,6 +426,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "towel-folded",
       "gloss": { "en": "towel", "sv": "handduk" },
       "ckb": {
         "primary": { "script": "خاولی", "latin": "xawlî" },
@@ -564,6 +575,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "fence",
       "gloss": { "en": "neighbour", "sv": "granne", "enAlt": ["neighbor"] },
       "ckb": {
         "primary": { "script": "دراوسێ", "latin": "dirawsê" },
@@ -587,6 +599,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "user-round-plus",
       "gloss": { "en": "guest", "sv": "gäst", "enAlt": ["visitor"], "svAlt": ["besökare"] },
       "cognate": true,
       "ckb": {
@@ -612,6 +625,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "key-round",
       "gloss": { "en": "rent", "sv": "hyra", "svAlt": ["hyran"] },
       "senseNote": { "en": "money for a home", "sv": "pengar för en bostad" },
       "ckb": {
@@ -666,6 +680,7 @@
       "unit": "around-the-house",
       "pos": "verb",
       "level": "A2",
+      "icon": "arrow-down-to-line",
       "gloss": { "en": "to put", "sv": "att lägga", "enAlt": ["put", "to place", "place", "to set", "set"], "svAlt": ["lägga", "ställa", "att ställa", "sätta", "att sätta", "placera"] },
       "senseNote": { "en": "to place something", "sv": "placera något" },
       "ckb": {
@@ -719,6 +734,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "pillow",
       "gloss": { "en": "pillow", "sv": "kudde", "enAlt": ["cushion"], "svAlt": ["huvudkudde"] },
       "ckb": {
         "primary": { "script": "سەرین", "latin": "serîn" },
@@ -742,6 +758,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
+      "icon": "blanket",
       "gloss": { "en": "blanket", "sv": "filt", "enAlt": ["quilt"], "svAlt": ["täcke"] },
       "ckb": {
         "primary": { "script": "بەتانی", "latin": "betanî" },

@@ -30,6 +30,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
+      "icon": "pointer",
       "gloss": { "en": "you", "sv": "du" },
       "senseNote": { "en": "one person", "sv": "en person" },
       "cognate": true,
@@ -114,6 +115,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
+      "icon": "users-round",
       "gloss": { "en": "you", "sv": "ni" },
       "senseNote": { "en": "several people, or polite", "sv": "flera personer, eller artigt" },
       "ckb": {
@@ -225,6 +227,7 @@
       "unit": "me-and-you",
       "pos": "question-word",
       "level": "A1",
+      "icon": "user-search",
       "gloss": { "en": "who", "sv": "vem" },
       "cognate": true,
       "ckb": {
@@ -273,6 +276,7 @@
       "unit": "me-and-you",
       "pos": "preposition",
       "level": "A1",
+      "icon": "arrow-right-from-line",
       "gloss": { "en": "from", "sv": "från", "svAlt": ["ifrån"] },
       "ckb": {
         "primary": { "script": "لە", "latin": "le" },
@@ -296,6 +300,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "map-pin",
       "gloss": { "en": "from (a place)", "sv": "från (en plats)", "enAlt": ["native of", "people of", "from"], "svAlt": ["från", "hemma från"] },
       "senseNote": { "en": "literally \"people of\", to say where someone is from", "sv": "ordagrant \"folk från\", för att säga var någon kommer ifrån" },
       "ckb": {
@@ -416,6 +421,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "message-square-text",
       "gloss": { "en": "Kurdish", "sv": "kurdiska" },
       "senseNote": { "en": "the language", "sv": "språket" },
       "cognate": true,
@@ -441,6 +447,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "message-square-text",
       "gloss": { "en": "Persian", "sv": "persiska", "enAlt": ["Farsi"], "svAlt": ["farsi"] },
       "senseNote": { "en": "the language", "sv": "språket" },
       "cognate": true,
@@ -462,6 +469,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "message-square-text",
       "gloss": { "en": "Swedish", "sv": "svenska" },
       "senseNote": { "en": "the language", "sv": "språket" },
       "ckb": {
@@ -486,6 +494,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "message-square-text",
       "gloss": { "en": "English", "sv": "engelska" },
       "senseNote": { "en": "the language", "sv": "språket" },
       "ckb": {
@@ -506,6 +515,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "flag-sweden",
       "gloss": { "en": "Sweden", "sv": "Sverige" },
       "ckb": {
         "primary": { "script": "سوید", "latin": "Swîd" },
@@ -564,6 +574,7 @@
       "unit": "me-and-you",
       "pos": "adverb",
       "level": "A1",
+      "icon": "a-little",
       "gloss": { "en": "a little", "sv": "lite", "enAlt": ["a bit"], "svAlt": ["lite grann", "lite granna"] },
       "cognate": true,
       "ckb": {
@@ -654,6 +665,7 @@
       "unit": "me-and-you",
       "pos": "adverb",
       "level": "A1",
+      "icon": "map-pinned",
       "gloss": { "en": "there", "sv": "där", "svAlt": ["dit"] },
       "ckb": {
         "primary": { "script": "ئەوێ", "latin": "ewê" },
@@ -685,6 +697,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
+      "icon": "arrow-down-to-dot",
       "gloss": { "en": "this", "sv": "det här", "svAlt": ["den här", "detta", "denna"] },
       "cognate": true,
       "ckb": {
@@ -716,6 +729,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
+      "icon": "arrow-up-right",
       "gloss": { "en": "that", "sv": "det där", "svAlt": ["den där"] },
       "ckb": {
         "primary": { "script": "ئەوە", "latin": "ewe" },
@@ -747,6 +761,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-man",
       "gloss": { "en": "man", "sv": "man" },
       "ckb": {
         "primary": { "script": "پیاو", "latin": "pyaw" },
@@ -770,6 +785,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "person-woman",
       "gloss": { "en": "woman", "sv": "kvinna" },
       "cognate": true,
       "ckb": {
@@ -795,6 +811,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
+      "icon": "heart-handshake",
       "gloss": { "en": "friend", "sv": "vän", "svAlt": ["kompis", "kamrat"] },
       "ckb": {
         "primary": { "script": "هاوڕێ", "latin": "hawřê" },

@@ -58,6 +58,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "toast",
       "gloss": { "en": "bread", "sv": "bröd" },
       "cognate": true,
       "ckb": {
@@ -83,6 +84,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "mug-teabag",
       "gloss": { "en": "tea", "sv": "te" },
       "cognate": true,
       "ckb": {
@@ -159,6 +161,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "rice-bowl",
       "gloss": { "en": "rice", "sv": "ris" },
       "cognate": true,
       "ckb": {
@@ -305,6 +308,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "cheese",
       "gloss": { "en": "cheese", "sv": "ost" },
       "cognate": true,
       "ckb": {
@@ -330,6 +334,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "jar",
       "gloss": { "en": "yogurt", "sv": "yoghurt", "enAlt": ["yoghurt"] },
       "cognate": true,
       "ckb": {
@@ -380,6 +385,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "salt-shaker",
       "gloss": { "en": "salt", "sv": "salt" },
       "ckb": {
         "primary": { "script": "خوێ", "latin": "xwê" },
@@ -538,6 +544,7 @@
       "unit": "food-drink",
       "pos": "verb",
       "level": "A1",
+      "icon": "heart-plus",
       "gloss": { "en": "to want", "sv": "att vilja", "enAlt": ["want", "would like"], "svAlt": ["vilja", "vilja ha"] },
       "ckb": {
         "primary": { "script": "ویستن", "latin": "wîstin" },
@@ -565,6 +572,7 @@
       "unit": "food-drink",
       "pos": "adjective",
       "level": "A1",
+      "icon": "hamburger",
       "gloss": { "en": "hungry", "sv": "hungrig" },
       "ckb": {
         "primary": { "script": "برسی", "latin": "birsî" },
@@ -593,6 +601,7 @@
       "unit": "food-drink",
       "pos": "adjective",
       "level": "A1",
+      "icon": "cup-soda",
       "gloss": { "en": "thirsty", "sv": "törstig" },
       "ckb": {
         "primary": { "script": "تینوو", "latin": "tînû" },
@@ -620,6 +629,7 @@
       "unit": "food-drink",
       "pos": "adjective",
       "level": "A1",
+      "icon": "chef-hat",
       "gloss": { "en": "delicious", "sv": "god", "enAlt": ["tasty"], "svAlt": ["gott", "läcker", "smaskig"] },
       "ckb": {
         "primary": { "script": "بەتام", "latin": "betam" },
@@ -669,6 +679,7 @@
       "unit": "food-drink",
       "pos": "adverb",
       "level": "A1",
+      "icon": "circle-check-big",
       "gloss": { "en": "enough", "sv": "nog", "svAlt": ["tillräckligt", "det räcker"] },
       "cognate": true,
       "ckb": {
@@ -697,6 +708,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
+      "icon": "glass-water",
       "gloss": { "en": "glass", "sv": "glas" },
       "senseNote": { "en": "for drinking", "sv": "att dricka ur" },
       "ckb": {

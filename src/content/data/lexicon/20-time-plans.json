@@ -5,6 +5,7 @@
       "unit": "time-plans",
       "pos": "noun",
       "level": "A2",
+      "icon": "sun-dim",
       "gloss": { "en": "afternoon", "sv": "eftermiddag" },
       "ckb": {
         "primary": { "script": "دوای نیوەڕۆ", "latin": "dway nîweřo" },
@@ -55,6 +56,7 @@
       "unit": "time-plans",
       "pos": "noun",
       "level": "A2",
+      "icon": "calendar-heart",
       "gloss": { "en": "weekend", "sv": "helg", "enAlt": ["the weekend"], "svAlt": ["helgen", "veckoslut"] },
       "ckb": {
         "primary": { "script": "کۆتایی هەفتە", "latin": "kotayî hefte" },
@@ -104,6 +106,7 @@
       "unit": "time-plans",
       "pos": "noun",
       "level": "A2",
+      "icon": "clock-4",
       "gloss": { "en": "time", "sv": "tid" },
       "senseNote": { "en": "as in \"I have no time\"", "sv": "som i \"jag har inte tid\"" },
       "ckb": {
@@ -129,6 +132,7 @@
       "unit": "time-plans",
       "pos": "adverb",
       "level": "A2",
+      "icon": "clock-arrow-up",
       "gloss": { "en": "soon", "sv": "snart", "enAlt": ["shortly"], "svAlt": ["inom kort"] },
       "ckb": {
         "primary": { "script": "بەم زووانە", "latin": "bem zûane" },
@@ -153,6 +157,7 @@
       "unit": "time-plans",
       "pos": "adverb",
       "level": "A2",
+      "icon": "clock-fading",
       "gloss": { "en": "later", "sv": "senare", "enAlt": ["afterwards"], "svAlt": ["sedan", "sen", "efteråt"] },
       "ckb": {
         "primary": { "script": "دواتر", "latin": "dwatir" },
@@ -177,6 +182,7 @@
       "unit": "time-plans",
       "pos": "preposition",
       "level": "A2",
+      "icon": "arrow-left-to-line",
       "gloss": { "en": "before", "sv": "före", "svAlt": ["innan"] },
       "ckb": {
         "primary": { "script": "پێش", "latin": "pêş" },
@@ -201,6 +207,7 @@
       "unit": "time-plans",
       "pos": "preposition",
       "level": "A2",
+      "icon": "arrow-right-to-line",
       "gloss": { "en": "after", "sv": "efter" },
       "ckb": {
         "primary": { "script": "دوای", "latin": "dway" },
@@ -226,6 +233,7 @@
       "unit": "time-plans",
       "pos": "preposition",
       "level": "A2",
+      "icon": "arrow-right-to-line",
       "gloss": { "en": "until", "sv": "tills", "enAlt": ["till", "up to"], "svAlt": ["till", "fram till"] },
       "cognate": true,
       "ckb": {
@@ -251,6 +259,7 @@
       "unit": "time-plans",
       "pos": "postposition",
       "level": "A2",
+      "icon": "rewind",
       "gloss": { "en": "ago", "sv": "för ... sedan", "svAlt": ["sedan", "för sedan", "sen"] },
       "ckb": {
         "primary": { "script": "لەمەوبەر", "latin": "lemewber" },
@@ -301,6 +310,7 @@
       "unit": "time-plans",
       "pos": "adjective",
       "level": "A2",
+      "icon": "arrow-big-left",
       "gloss": { "en": "last", "sv": "sista", "enAlt": ["final", "previous"], "svAlt": ["sist", "förra", "senaste"] },
       "senseNote": { "en": "the last one, or last week", "sv": "den sista, eller förra veckan" },
       "ckb": {
@@ -333,6 +343,7 @@
       "unit": "time-plans",
       "pos": "adjective",
       "level": "A2",
+      "icon": "arrow-big-right",
       "gloss": { "en": "next", "sv": "nästa", "enAlt": ["coming", "following"], "svAlt": ["kommande"] },
       "senseNote": { "en": "as in \"next week\"", "sv": "som i \"nästa vecka\"" },
       "ckb": {
@@ -358,6 +369,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "handshake",
       "gloss": { "en": "to meet", "sv": "att träffa", "enAlt": ["meet"], "svAlt": ["träffa", "möta", "träffas", "att träffas"] },
       "ckb": {
         "primary": { "script": "چاو پێ کەوتن", "latin": "çaw pê kewtin" },
@@ -443,6 +455,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "hand-platter",
       "gloss": { "en": "to bring", "sv": "att ta med", "enAlt": ["bring"], "svAlt": ["ta med", "ta med sig", "hämta"] },
       "ckb": {
         "primary": { "script": "هێنان", "latin": "hênan" },
@@ -498,6 +511,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "search-x",
       "gloss": { "en": "to lose", "sv": "att tappa bort", "enAlt": ["lose"], "svAlt": ["tappa bort", "tappa", "förlora", "att tappa"] },
       "senseNote": { "en": "lose something, not a game", "sv": "tappa bort något, inte förlora en match" },
       "ckb": {
@@ -556,6 +570,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "reply",
       "gloss": { "en": "to answer", "sv": "att svara", "enAlt": ["to reply", "answer", "reply"], "svAlt": ["svara"] },
       "ckb": {
         "primary": { "script": "وەڵام دانەوە", "latin": "wełam danewe" },
@@ -584,6 +599,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "scan-eye",
       "gloss": { "en": "to show", "sv": "att visa", "enAlt": ["show"], "svAlt": ["visa"] },
       "ckb": {
         "primary": { "script": "پیشان دان", "latin": "pîşan dan" },
@@ -616,6 +632,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "target",
       "gloss": { "en": "to try", "sv": "att försöka", "enAlt": ["try", "to attempt"], "svAlt": ["försöka", "prova", "pröva"] },
       "ckb": {
         "primary": { "script": "هەوڵ دان", "latin": "hewł dan" },
@@ -644,6 +661,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "mouse-pointer-click",
       "gloss": { "en": "to use", "sv": "att använda", "enAlt": ["use"], "svAlt": ["använda"] },
       "ckb": {
         "primary": { "script": "بەکار هێنان", "latin": "bekar hênan" },
@@ -731,6 +749,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "waves-ladder",
       "gloss": { "en": "to swim", "sv": "att simma", "enAlt": ["swim"], "svAlt": ["simma"] },
       "ckb": {
         "primary": { "script": "مەلە کردن", "latin": "mele kirdin" },
@@ -788,6 +807,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
+      "icon": "music",
       "gloss": { "en": "to dance", "sv": "att dansa", "enAlt": ["dance"], "svAlt": ["dansa"] },
       "ckb": {
         "primary": { "script": "سەما کردن", "latin": "sema kirdin" },

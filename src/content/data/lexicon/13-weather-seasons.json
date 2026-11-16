@@ -86,6 +86,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "rainbow",
       "gloss": { "en": "sky", "sv": "himmel", "svAlt": ["himlen"] },
       "cognate": true,
       "ckb": {
@@ -236,6 +237,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "snowflake",
       "gloss": { "en": "ice", "sv": "is", "svAlt": ["isen"] },
       "ckb": {
         "primary": { "script": "سەهۆڵ", "latin": "sehoł" },
@@ -310,6 +312,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "leaf",
       "gloss": { "en": "autumn", "sv": "höst", "enAlt": ["fall"], "svAlt": ["hösten"] },
       "cognate": true,
       "ckb": {
@@ -334,6 +337,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "snowman",
       "gloss": { "en": "winter", "sv": "vinter", "svAlt": ["vintern"] },
       "cognate": true,
       "ckb": {
@@ -359,6 +363,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "cloud-sun-rain",
       "gloss": { "en": "season", "sv": "årstid", "svAlt": ["säsong"] },
       "ckb": {
         "primary": { "script": "وەرز", "latin": "werz" },
@@ -382,6 +387,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
+      "icon": "thermometer-sun",
       "gloss": { "en": "warm", "sv": "varm", "svAlt": ["varmt", "varma"] },
       "cognate": true,
       "ckb": {
@@ -407,6 +413,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
+      "icon": "fan",
       "gloss": { "en": "cool", "sv": "sval", "svAlt": ["svalt", "svala"] },
       "senseNote": { "en": "pleasantly cold", "sv": "skönt kall" },
       "ckb": {
@@ -455,6 +462,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
+      "icon": "droplet-off",
       "gloss": { "en": "dry", "sv": "torr", "svAlt": ["torrt", "torra"] },
       "cognate": true,
       "ckb": {
@@ -479,6 +487,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
+      "icon": "sun-medium",
       "gloss": { "en": "sunny", "sv": "solig", "svAlt": ["soligt", "soliga"] },
       "ckb": {
         "primary": { "script": "خۆرەتاو", "latin": "xoretaw" },
@@ -551,6 +560,7 @@
       "unit": "weather-seasons",
       "pos": "verb",
       "level": "A2",
+      "icon": "cloud-rain-wind",
       "gloss": { "en": "to rain", "sv": "att regna", "enAlt": ["rain"], "svAlt": ["regna"] },
       "cognate": true,
       "ckb": {
@@ -606,6 +616,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "degrees-celsius",
       "gloss": { "en": "degree", "sv": "grad", "enAlt": ["degrees"], "svAlt": ["grader"] },
       "senseNote": { "en": "of temperature", "sv": "om temperatur" },
       "ckb": {
@@ -657,6 +668,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
+      "icon": "eclipse",
       "gloss": { "en": "dark", "sv": "mörk", "svAlt": ["mörkt", "mörka"] },
       "cognate": true,
       "ckb": {
@@ -681,6 +693,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
+      "icon": "wind",
       "gloss": { "en": "air", "sv": "luft", "svAlt": ["luften"] },
       "cognate": true,
       "ckb": {

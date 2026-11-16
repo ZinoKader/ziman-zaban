@@ -5,6 +5,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-0",
       "gloss": { "en": "zero", "sv": "noll", "enAlt": ["0", "nought", "nil"], "svAlt": ["0"] },
       "cognate": true,
       "ckb": {
@@ -29,6 +30,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-1",
       "gloss": { "en": "one", "sv": "ett", "enAlt": ["1"], "svAlt": ["en", "1"] },
       "cognate": true,
       "ckb": {
@@ -61,6 +63,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-2",
       "gloss": { "en": "two", "sv": "två", "enAlt": ["2"], "svAlt": ["2"] },
       "cognate": true,
       "ckb": {
@@ -85,6 +88,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-3",
       "gloss": { "en": "three", "sv": "tre", "enAlt": ["3"], "svAlt": ["3"] },
       "cognate": true,
       "ckb": {
@@ -109,6 +113,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-4",
       "gloss": { "en": "four", "sv": "fyra", "enAlt": ["4"], "svAlt": ["4"] },
       "cognate": true,
       "ckb": {
@@ -134,6 +139,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-5",
       "gloss": { "en": "five", "sv": "fem", "enAlt": ["5"], "svAlt": ["5"] },
       "cognate": true,
       "ckb": {
@@ -158,6 +164,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-6",
       "gloss": { "en": "six", "sv": "sex", "enAlt": ["6"], "svAlt": ["6"] },
       "cognate": true,
       "ckb": {
@@ -177,6 +184,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-7",
       "gloss": { "en": "seven", "sv": "sju", "enAlt": ["7"], "svAlt": ["7"] },
       "cognate": true,
       "ckb": {
@@ -201,6 +209,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-8",
       "gloss": { "en": "eight", "sv": "åtta", "enAlt": ["8"], "svAlt": ["8"] },
       "cognate": true,
       "ckb": {
@@ -225,6 +234,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-9",
       "gloss": { "en": "nine", "sv": "nio", "enAlt": ["9"], "svAlt": ["9"] },
       "cognate": true,
       "ckb": {
@@ -246,6 +256,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-10",
       "gloss": { "en": "ten", "sv": "tio", "enAlt": ["10"], "svAlt": ["10"] },
       "cognate": true,
       "ckb": {
@@ -270,6 +281,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-11",
       "gloss": { "en": "eleven", "sv": "elva", "enAlt": ["11"], "svAlt": ["11"] },
       "cognate": true,
       "ckb": {
@@ -292,6 +304,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-12",
       "gloss": { "en": "twelve", "sv": "tolv", "enAlt": ["12"], "svAlt": ["12"] },
       "cognate": true,
       "ckb": {
@@ -314,6 +327,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-15",
       "gloss": { "en": "fifteen", "sv": "femton", "enAlt": ["15"], "svAlt": ["15"] },
       "cognate": true,
       "ckb": {
@@ -340,6 +354,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-20",
       "gloss": { "en": "twenty", "sv": "tjugo", "enAlt": ["20"], "svAlt": ["20"] },
       "cognate": true,
       "ckb": {
@@ -364,6 +379,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-30",
       "gloss": { "en": "thirty", "sv": "trettio", "enAlt": ["30"], "svAlt": ["30"] },
       "cognate": true,
       "ckb": {
@@ -382,6 +398,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-50",
       "gloss": { "en": "fifty", "sv": "femtio", "enAlt": ["50"], "svAlt": ["50"] },
       "cognate": true,
       "ckb": {
@@ -406,6 +423,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-100",
       "gloss": { "en": "hundred", "sv": "hundra", "enAlt": ["one hundred", "a hundred", "100"], "svAlt": ["etthundra", "100"] },
       "cognate": true,
       "ckb": {
@@ -430,6 +448,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-1000",
       "gloss": { "en": "thousand", "sv": "tusen", "enAlt": ["one thousand", "a thousand", "1000"], "svAlt": ["ettusen", "1000"] },
       "cognate": true,
       "ckb": {
@@ -454,6 +473,7 @@
       "unit": "numbers-time",
       "pos": "adverb",
       "level": "A1",
+      "icon": "calendar-check",
       "gloss": { "en": "today", "sv": "idag", "svAlt": ["i dag"] },
       "cognate": true,
       "ckb": {
@@ -479,6 +499,7 @@
       "unit": "numbers-time",
       "pos": "adverb",
       "level": "A1",
+      "icon": "calendar-plus",
       "gloss": { "en": "tomorrow", "sv": "imorgon", "svAlt": ["i morgon"] },
       "ckb": {
         "primary": { "script": "سبەی", "latin": "sibey" },
@@ -503,6 +524,7 @@
       "unit": "numbers-time",
       "pos": "adverb",
       "level": "A1",
+      "icon": "calendar-minus",
       "gloss": { "en": "yesterday", "sv": "igår", "svAlt": ["i går"] },
       "ckb": {
         "primary": { "script": "دوێنێ", "latin": "dwênê" },
@@ -526,6 +548,7 @@
       "unit": "numbers-time",
       "pos": "adverb",
       "level": "A1",
+      "icon": "clock-check",
       "gloss": { "en": "now", "sv": "nu", "enAlt": ["right now"] },
       "ckb": {
         "primary": { "script": "ئێستا", "latin": "êsta" },
@@ -598,6 +621,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-range",
       "gloss": { "en": "month", "sv": "månad" },
       "cognate": true,
       "ckb": {
@@ -680,6 +704,7 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
+      "icon": "number-half",
       "gloss": { "en": "half", "sv": "halv", "enAlt": ["a half"], "svAlt": ["hälft", "en halv"] },
       "cognate": true,
       "ckb": {
@@ -784,6 +809,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Saturday", "sv": "lördag" },
       "cognate": true,
       "ckb": {
@@ -808,6 +834,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Sunday", "sv": "söndag" },
       "cognate": true,
       "ckb": {
@@ -830,6 +857,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Monday", "sv": "måndag" },
       "cognate": true,
       "ckb": {
@@ -848,6 +876,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Tuesday", "sv": "tisdag" },
       "cognate": true,
       "ckb": {
@@ -869,6 +898,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Wednesday", "sv": "onsdag" },
       "cognate": true,
       "ckb": {
@@ -890,6 +920,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Thursday", "sv": "torsdag" },
       "cognate": true,
       "ckb": {
@@ -912,6 +943,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
+      "icon": "calendar-days",
       "gloss": { "en": "Friday", "sv": "fredag" },
       "ckb": {
         "primary": { "script": "هەینی", "latin": "heynî" },

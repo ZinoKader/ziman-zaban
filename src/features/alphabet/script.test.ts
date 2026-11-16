@@ -10,6 +10,7 @@ function word(id: string, ckb?: string, fa?: string): Concept {
     unit: 'test',
     pos: 'noun',
     level: 'A1',
+    icon: 'book-open',
     gloss: { en: id, sv: id },
     ckb: ckb ? { primary: { script: ckb, latin: id }, sources: [] } : undefined,
     fa: fa ? { primary: { script: fa, latin: id }, sources: [] } : undefined,

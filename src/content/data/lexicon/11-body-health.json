@@ -5,6 +5,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "person-standing",
       "gloss": { "en": "body", "sv": "kropp" },
       "ckb": {
         "primary": { "script": "لەش", "latin": "leş" },
@@ -28,6 +29,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "scan-face",
       "gloss": { "en": "head", "sv": "huvud" },
       "cognate": true,
       "ckb": {
@@ -76,6 +78,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "scissors-hair-comb",
       "gloss": { "en": "hair", "sv": "hår" },
       "senseNote": { "en": "on the head", "sv": "på huvudet" },
       "ckb": {
@@ -151,6 +154,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "nose-profile",
       "gloss": { "en": "nose", "sv": "näsa" },
       "ckb": {
         "primary": { "script": "لووت", "latin": "lût" },
@@ -175,6 +179,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "face-mouth",
       "gloss": { "en": "mouth", "sv": "mun" },
       "ckb": {
         "primary": { "script": "دەم", "latin": "dem" },
@@ -199,6 +204,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "tooth",
       "gloss": { "en": "tooth", "sv": "tand" },
       "cognate": true,
       "ckb": {
@@ -224,6 +230,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "body-neck",
       "gloss": { "en": "neck", "sv": "hals" },
       "ckb": {
         "primary": { "script": "مل", "latin": "mil" },
@@ -247,6 +254,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "body-shoulder",
       "gloss": { "en": "shoulder", "sv": "axel", "svAlt": ["skuldra"] },
       "cognate": true,
       "ckb": {
@@ -271,6 +279,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "biceps-flexed",
       "gloss": { "en": "arm", "sv": "arm" },
       "ckb": {
         "primary": { "script": "قۆڵ", "latin": "qoł" },
@@ -319,6 +328,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "fingerprint",
       "gloss": { "en": "finger", "sv": "finger" },
       "ckb": {
         "primary": { "script": "پەنجە", "latin": "pence" },
@@ -342,6 +352,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "body-leg",
       "gloss": { "en": "leg", "sv": "ben" },
       "ckb": {
         "primary": { "script": "قاچ", "latin": "qaç" },
@@ -391,6 +402,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "person-standing",
       "gloss": { "en": "back", "sv": "rygg" },
       "senseNote": { "en": "the body part", "sv": "kroppsdelen" },
       "cognate": true,
@@ -416,6 +428,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "body-stomach",
       "gloss": { "en": "stomach", "sv": "mage", "enAlt": ["belly", "tummy"], "svAlt": ["buk"] },
       "ckb": {
         "primary": { "script": "زگ", "latin": "zig" },
@@ -465,6 +478,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "droplet",
       "gloss": { "en": "blood", "sv": "blod" },
       "cognate": true,
       "ckb": {
@@ -489,6 +503,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "zap",
       "gloss": { "en": "pain", "sv": "smärta", "enAlt": ["ache"], "svAlt": ["värk"] },
       "ckb": {
         "primary": { "script": "ئازار", "latin": "azar" },
@@ -513,6 +528,7 @@
       "unit": "body-health",
       "pos": "verb",
       "level": "A2",
+      "icon": "bandage",
       "gloss": { "en": "to hurt", "sv": "att göra ont", "enAlt": ["to ache", "hurt", "ache"], "svAlt": ["göra ont", "att värka", "värka"] },
       "senseNote": { "en": "to ache, as in \"my head hurts\"", "sv": "värka, som i \"huvudet gör ont\"" },
       "ckb": {
@@ -541,6 +557,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "face-headache",
       "gloss": { "en": "headache", "sv": "huvudvärk" },
       "ckb": {
         "primary": { "script": "سەرێشە", "latin": "serêşe" },
@@ -589,6 +606,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "thermometer-snowflake",
       "gloss": { "en": "cold", "sv": "förkylning", "enAlt": ["common cold", "a cold"], "svAlt": ["snuva"] },
       "senseNote": { "en": "the illness", "sv": "sjukdomen" },
       "ckb": {
@@ -637,6 +655,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "pill-bottle",
       "gloss": { "en": "pharmacy", "sv": "apotek", "enAlt": ["chemist's", "chemist", "drugstore"] },
       "ckb": {
         "primary": { "script": "دەرمانخانە", "latin": "dermanxane" },
@@ -661,6 +680,7 @@
       "unit": "body-health",
       "pos": "adjective",
       "level": "A2",
+      "icon": "activity",
       "gloss": { "en": "healthy", "sv": "frisk", "svAlt": ["friskt", "friska", "hälsosam", "hälsosamt"] },
       "ckb": {
         "primary": { "script": "تەندروست", "latin": "tendirust" },
@@ -692,6 +712,7 @@
       "unit": "body-health",
       "pos": "verb",
       "level": "A2",
+      "icon": "bed-single",
       "gloss": { "en": "to rest", "sv": "att vila", "enAlt": ["rest"], "svAlt": ["vila", "vila sig"] },
       "ckb": {
         "primary": { "script": "پشوو دان", "latin": "pişû dan" },
@@ -720,6 +741,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
+      "icon": "toothbrush",
       "gloss": { "en": "dentist", "sv": "tandläkare" },
       "ckb": {
         "primary": { "script": "دکتۆری ددان", "latin": "diktorî didan" },

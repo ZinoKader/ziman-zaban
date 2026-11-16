@@ -30,6 +30,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "trousers",
       "gloss": { "en": "trousers", "sv": "byxor", "enAlt": ["pants", "a pair of trousers"], "svAlt": ["byxa", "ett par byxor"] },
       "ckb": {
         "primary": { "script": "پانتۆڵ", "latin": "pantoł" },
@@ -53,6 +54,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "dress",
       "gloss": { "en": "dress", "sv": "klänning" },
       "ckb": {
         "primary": { "script": "کراس", "latin": "kiras" },
@@ -76,6 +78,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "sneaker",
       "gloss": { "en": "shoe", "sv": "sko", "enAlt": ["shoes"], "svAlt": ["skor"] },
       "ckb": {
         "primary": { "script": "پێڵاو", "latin": "pêław" },
@@ -99,6 +102,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "jacket",
       "gloss": { "en": "coat", "sv": "rock", "enAlt": ["overcoat"], "svAlt": ["kappa", "överrock"] },
       "cognate": true,
       "ckb": {
@@ -123,6 +127,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "hat-bowler",
       "gloss": { "en": "hat", "sv": "hatt", "enAlt": ["cap"], "svAlt": ["mössa", "keps"] },
       "cognate": true,
       "ckb": {
@@ -144,6 +149,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "socks",
       "gloss": { "en": "sock", "sv": "strumpa", "enAlt": ["socks"], "svAlt": ["socka", "strumpor"] },
       "ckb": {
         "primary": { "script": "گۆرەوی", "latin": "gorewî" },
@@ -164,6 +170,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "scarf",
       "gloss": { "en": "scarf", "sv": "halsduk", "enAlt": ["headscarf"], "svAlt": ["sjal", "scarf", "huvudduk"] },
       "ckb": {
         "primary": { "script": "ملپێچ", "latin": "milpêç" },
@@ -213,6 +220,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "shirt-t-ruler",
       "gloss": { "en": "size", "sv": "storlek" },
       "senseNote": { "en": "of clothes", "sv": "på kläder" },
       "cognate": true,
@@ -264,6 +272,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
+      "icon": "shopping-basket",
       "gloss": { "en": "customer", "sv": "kund", "enAlt": ["buyer", "client"], "svAlt": ["köpare"] },
       "ckb": {
         "primary": { "script": "کڕیار", "latin": "kiřyar" },
@@ -288,6 +297,7 @@
       "unit": "shopping-clothes",
       "pos": "verb",
       "level": "A2",
+      "icon": "hand-coins",
       "gloss": { "en": "to pay", "sv": "att betala", "enAlt": ["pay"], "svAlt": ["betala"] },
       "ckb": {
         "primary": { "script": "پارە دان", "latin": "pare dan" },
@@ -323,6 +333,7 @@
       "unit": "shopping-clothes",
       "pos": "verb",
       "level": "A2",
+      "icon": "tags",
       "gloss": { "en": "to sell", "sv": "att sälja", "enAlt": ["sell"], "svAlt": ["sälja"] },
       "cognate": true,
       "ckb": {
@@ -351,6 +362,7 @@
       "unit": "shopping-clothes",
       "pos": "verb",
       "level": "A2",
+      "icon": "coat-hanger",
       "gloss": { "en": "to wear", "sv": "att ha på sig", "enAlt": ["wear", "to put on", "put on"], "svAlt": ["ha på sig", "bära", "att bära", "ta på sig"] },
       "senseNote": { "en": "clothes", "sv": "kläder" },
       "ckb": {
@@ -456,6 +468,7 @@
       "unit": "shopping-clothes",
       "pos": "adjective",
       "level": "A2",
+      "icon": "shrink",
       "gloss": { "en": "short", "sv": "kort", "svAlt": ["korta"] },
       "senseNote": { "en": "in length", "sv": "om längd" },
       "ckb": {
@@ -480,6 +493,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-13",
       "gloss": { "en": "thirteen", "sv": "tretton", "enAlt": ["13"], "svAlt": ["13"] },
       "cognate": true,
       "ckb": {
@@ -505,6 +519,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-14",
       "gloss": { "en": "fourteen", "sv": "fjorton", "enAlt": ["14"], "svAlt": ["14"] },
       "cognate": true,
       "ckb": {
@@ -524,6 +539,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-16",
       "gloss": { "en": "sixteen", "sv": "sexton", "enAlt": ["16"], "svAlt": ["16"] },
       "cognate": true,
       "ckb": {
@@ -547,6 +563,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-17",
       "gloss": { "en": "seventeen", "sv": "sjutton", "enAlt": ["17"], "svAlt": ["17"] },
       "cognate": true,
       "ckb": {
@@ -565,6 +582,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-18",
       "gloss": { "en": "eighteen", "sv": "arton", "enAlt": ["18"], "svAlt": ["aderton", "18"] },
       "cognate": true,
       "ckb": {
@@ -590,6 +608,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-19",
       "gloss": { "en": "nineteen", "sv": "nitton", "enAlt": ["19"], "svAlt": ["19"] },
       "cognate": true,
       "ckb": {
@@ -611,6 +630,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-40",
       "gloss": { "en": "forty", "sv": "fyrtio", "enAlt": ["40"], "svAlt": ["fyrti", "40"] },
       "cognate": true,
       "ckb": {
@@ -636,6 +656,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-60",
       "gloss": { "en": "sixty", "sv": "sextio", "enAlt": ["60"], "svAlt": ["sexti", "60"] },
       "cognate": true,
       "ckb": {
@@ -660,6 +681,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-70",
       "gloss": { "en": "seventy", "sv": "sjuttio", "enAlt": ["70"], "svAlt": ["sjutti", "70"] },
       "cognate": true,
       "ckb": {
@@ -678,6 +700,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-80",
       "gloss": { "en": "eighty", "sv": "åttio", "enAlt": ["80"], "svAlt": ["åtti", "80"] },
       "cognate": true,
       "ckb": {
@@ -702,6 +725,7 @@
       "unit": "shopping-clothes",
       "pos": "numeral",
       "level": "A2",
+      "icon": "number-90",
       "gloss": { "en": "ninety", "sv": "nittio", "enAlt": ["90"], "svAlt": ["nitti", "90"] },
       "cognate": true,
       "ckb": {

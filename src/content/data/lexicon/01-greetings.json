@@ -83,6 +83,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
+      "icon": "hand-heart",
       "gloss": { "en": "thank you very much", "sv": "tack så mycket", "enAlt": ["thanks a lot", "many thanks"], "svAlt": ["stort tack"] },
       "ckb": {
         "primary": { "script": "زۆر سوپاس", "latin": "zor supas" },
@@ -107,6 +108,7 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
+      "icon": "hand-helping",
       "gloss": { "en": "please", "sv": "snälla", "svAlt": ["vänligen"] },
       "ckb": {
         "primary": { "script": "تکایە", "latin": "tikaye" },
@@ -260,6 +262,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
+      "icon": "arrow-left-right",
       "gloss": { "en": "and you?", "sv": "och du?", "enAlt": ["what about you?"], "svAlt": ["själv då?"] },
       "ckb": {
         "primary": { "script": "ئەی تۆ؟", "latin": "ey to?" },
@@ -367,6 +370,7 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
+      "icon": "frown",
       "gloss": { "en": "sorry", "sv": "förlåt", "enAlt": ["excuse me", "pardon"], "svAlt": ["ursäkta"] },
       "ckb": {
         "primary": { "script": "ببوورە", "latin": "bibûre" },
@@ -391,6 +395,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
+      "icon": "smile-plus",
       "gloss": { "en": "you're welcome", "sv": "varsågod", "enAlt": ["you are welcome", "no problem"], "svAlt": ["ingen orsak"] },
       "ckb": {
         "primary": { "script": "شایەنی نییە", "latin": "şayenî nîye" },
@@ -415,6 +420,7 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
+      "icon": "circle-check",
       "gloss": { "en": "okay", "sv": "okej", "enAlt": ["OK", "alright", "fine"], "svAlt": ["ok", "visst"] },
       "ckb": {
         "primary": { "script": "باشە", "latin": "başe" },

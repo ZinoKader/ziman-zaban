@@ -29,6 +29,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
+      "icon": "person-boy",
       "gloss": { "en": "boy", "sv": "pojke", "svAlt": ["kille", "grabb"] },
       "ckb": {
         "primary": { "script": "کوڕ", "latin": "kuř" },
@@ -52,6 +53,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
+      "icon": "person-girl",
       "gloss": { "en": "girl", "sv": "flicka", "svAlt": ["tjej"] },
       "ckb": {
         "primary": { "script": "کچ", "latin": "kiç" },
@@ -75,6 +77,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "sprout",
       "gloss": { "en": "young", "sv": "ung", "svAlt": ["ungt", "unga"] },
       "ckb": {
         "primary": { "script": "گەنج", "latin": "genc" },
@@ -99,6 +102,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "arrow-up-from-line",
       "gloss": { "en": "tall", "sv": "lång", "svAlt": ["långt", "långa"] },
       "senseNote": { "en": "of a person", "sv": "om en person" },
       "ckb": {
@@ -148,6 +152,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "shield-off",
       "gloss": { "en": "weak", "sv": "svag", "svAlt": ["svagt", "svaga"] },
       "ckb": {
         "primary": { "script": "لاواز", "latin": "lawaz" },
@@ -171,6 +176,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "user",
       "gloss": { "en": "alone", "sv": "ensam", "enAlt": ["lonely", "on my own"], "svAlt": ["ensamt", "ensamma"] },
       "cognate": true,
       "ckb": {
@@ -220,6 +226,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "ghost",
       "gloss": { "en": "afraid", "sv": "rädd", "enAlt": ["scared", "frightened"], "svAlt": ["skrämd"] },
       "cognate": true,
       "ckb": {
@@ -268,6 +275,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "cloud-alert",
       "gloss": { "en": "worried", "sv": "orolig", "enAlt": ["anxious"], "svAlt": ["oroligt", "oroliga", "bekymrad"] },
       "cognate": true,
       "ckb": {
@@ -292,6 +300,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "face-surprised",
       "gloss": { "en": "surprised", "sv": "förvånad", "enAlt": ["amazed"], "svAlt": ["förvånat", "förvånade", "överraskad"] },
       "ckb": {
         "primary": { "script": "سەرسام", "latin": "sersam" },
@@ -315,6 +324,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "hand-heart",
       "gloss": { "en": "kind", "sv": "snäll", "enAlt": ["friendly"], "svAlt": ["snällt", "snälla", "vänlig"] },
       "senseNote": { "en": "nice to others", "sv": "mot andra" },
       "cognate": true,
@@ -341,6 +351,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "flower-lotus",
       "gloss": { "en": "calm", "sv": "lugn", "enAlt": ["quiet"], "svAlt": ["lugnt", "lugna"] },
       "cognate": true,
       "ckb": {
@@ -366,6 +377,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
+      "icon": "snail",
       "gloss": { "en": "lazy", "sv": "lat", "svAlt": ["lata"] },
       "cognate": true,
       "ckb": {
@@ -437,6 +449,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
+      "icon": "heart",
       "gloss": { "en": "love", "sv": "kärlek", "svAlt": ["kärleken"] },
       "ckb": {
         "primary": { "script": "خۆشەویستی", "latin": "xoşewîstî" },
@@ -462,6 +475,7 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
+      "icon": "heart",
       "gloss": { "en": "to love", "sv": "att älska", "enAlt": ["love"], "svAlt": ["älska"] },
       "ckb": {
         "primary": { "script": "خۆشویستن", "latin": "xoşwîstin" },
@@ -489,6 +503,7 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
+      "icon": "laugh",
       "gloss": { "en": "to laugh", "sv": "att skratta", "enAlt": ["laugh"], "svAlt": ["skratta"] },
       "ckb": {
         "primary": { "script": "پێکەنین", "latin": "pêkenîn" },
@@ -516,6 +531,7 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
+      "icon": "face-crying",
       "gloss": { "en": "to cry", "sv": "att gråta", "enAlt": ["cry", "to weep", "weep"], "svAlt": ["gråta"] },
       "cognate": true,
       "ckb": {
@@ -573,6 +589,7 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
+      "icon": "bookmark-check",
       "gloss": { "en": "to remember", "sv": "att komma ihåg", "enAlt": ["remember", "to recall"], "svAlt": ["komma ihåg", "minnas", "att minnas"] },
       "ckb": {
         "primary": { "script": "لەبیر بوون", "latin": "lebîr bûn" },
@@ -600,6 +617,7 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
+      "icon": "eraser",
       "gloss": { "en": "to forget", "sv": "att glömma", "enAlt": ["forget"], "svAlt": ["glömma"] },
       "ckb": {
         "primary": { "script": "لەبیر چوون", "latin": "lebîr çûn" },
@@ -726,6 +744,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
+      "icon": "gem-ring",
       "gloss": { "en": "wedding", "sv": "bröllop", "svAlt": ["bröllopet"] },
       "ckb": {
         "primary": { "script": "زەماوەند", "latin": "zemawend" },

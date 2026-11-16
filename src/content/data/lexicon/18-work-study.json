@@ -56,6 +56,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "backpack",
       "gloss": { "en": "student", "sv": "student", "enAlt": ["university student"], "svAlt": ["studerande"] },
       "senseNote": { "en": "at a university", "sv": "på universitet" },
       "ckb": {
@@ -108,6 +109,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "briefcase-business",
       "gloss": { "en": "colleague", "sv": "kollega", "enAlt": ["coworker", "co-worker"], "svAlt": ["arbetskamrat", "medarbetare"] },
       "cognate": true,
       "ckb": {
@@ -133,6 +135,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "crown",
       "gloss": { "en": "boss", "sv": "chef", "enAlt": ["manager", "director", "head"], "svAlt": ["boss", "föreståndare"] },
       "ckb": {
         "primary": { "script": "بەڕێوەبەر", "latin": "beřêweber" },
@@ -156,6 +159,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "cog",
       "gloss": { "en": "engineer", "sv": "ingenjör" },
       "ckb": {
         "primary": { "script": "ئەندازیار", "latin": "endazyar" },
@@ -179,6 +183,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "syringe",
       "gloss": { "en": "nurse", "sv": "sjuksköterska", "svAlt": ["sköterska", "sjuksköterskan"] },
       "cognate": true,
       "ckb": {
@@ -203,6 +208,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "steering-wheel",
       "gloss": { "en": "driver", "sv": "chaufför", "enAlt": ["chauffeur"], "svAlt": ["förare", "busschaufför", "taxichaufför"] },
       "ckb": {
         "primary": { "script": "شۆفێر", "latin": "şofêr" },
@@ -253,6 +259,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "factory",
       "gloss": { "en": "company", "sv": "företag", "enAlt": ["firm", "business"], "svAlt": ["bolag", "firma"] },
       "senseNote": { "en": "a firm", "sv": "firma, bolag" },
       "ckb": {
@@ -277,6 +284,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "wallet",
       "gloss": { "en": "salary", "sv": "lön", "enAlt": ["wage", "wages", "pay"], "svAlt": ["månadslön"] },
       "ckb": {
         "primary": { "script": "مووچە", "latin": "mûçe" },
@@ -301,6 +309,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "book-open-text",
       "gloss": { "en": "lesson", "sv": "lektion" },
       "ckb": {
         "primary": { "script": "وانە", "latin": "wane" },
@@ -325,6 +334,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "presentation",
       "gloss": { "en": "class", "sv": "klass", "svAlt": ["lektion"] },
       "senseNote": { "en": "group of students, or a lesson", "sv": "elevgrupp eller lektion" },
       "ckb": {
@@ -373,6 +383,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "clipboard-check",
       "gloss": { "en": "exam", "sv": "prov", "enAlt": ["test", "examination"], "svAlt": ["tenta", "tentamen", "test"] },
       "ckb": {
         "primary": { "script": "تاقیکردنەوە", "latin": "taqîkirdinewe" },
@@ -396,6 +407,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "university",
       "gloss": { "en": "university", "sv": "universitet", "enAlt": ["college"], "svAlt": ["högskola"] },
       "ckb": {
         "primary": { "script": "زانکۆ", "latin": "zanko" },
@@ -518,6 +530,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "reply",
       "gloss": { "en": "answer", "sv": "svar", "enAlt": ["reply"] },
       "ckb": {
         "primary": { "script": "وەڵام", "latin": "wełam" },
@@ -542,6 +555,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "whole-word",
       "gloss": { "en": "word", "sv": "ord" },
       "ckb": {
         "primary": { "script": "وشە", "latin": "wişe" },
@@ -566,6 +580,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "text",
       "gloss": { "en": "sentence", "sv": "mening", "svAlt": ["sats"] },
       "senseNote": { "en": "in grammar", "sv": "i grammatik" },
       "ckb": {
@@ -616,6 +631,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
+      "icon": "messages-square",
       "gloss": { "en": "meeting", "sv": "möte", "svAlt": ["sammanträde"] },
       "ckb": {
         "primary": { "script": "کۆبوونەوە", "latin": "kobûnewe" },
@@ -639,6 +655,7 @@
       "unit": "work-study",
       "pos": "verb",
       "level": "A2",
+      "icon": "presentation",
       "gloss": { "en": "to teach", "sv": "att lära ut", "enAlt": ["teach"], "svAlt": ["lära ut", "undervisa", "att undervisa", "lära"] },
       "ckb": {
         "primary": { "script": "فێر کردن", "latin": "fêr kirdin" },
@@ -697,6 +714,7 @@
       "unit": "work-study",
       "pos": "verb",
       "level": "A2",
+      "icon": "check-check",
       "gloss": { "en": "to finish", "sv": "att avsluta", "enAlt": ["to end", "to complete", "finish", "end", "complete"], "svAlt": ["avsluta", "göra klart", "att göra klart", "slutföra"] },
       "ckb": {
         "primary": { "script": "تەواو کردن", "latin": "tewaw kirdin" },
@@ -725,6 +743,7 @@
       "unit": "work-study",
       "pos": "adjective",
       "level": "A2",
+      "icon": "clock-alert",
       "gloss": { "en": "busy", "sv": "upptagen", "enAlt": ["occupied"], "svAlt": ["sysselsatt", "upptaget"] },
       "ckb": {
         "primary": { "script": "سەرقاڵ", "latin": "serqał" },

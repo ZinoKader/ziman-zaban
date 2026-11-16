@@ -112,7 +112,13 @@ Never `x`, `q`, or `c` without `h`.
 - Nouns: add `plural` when it is irregular or useful (Persian `-ân` for people). Regular Sorani `-an` and Persian `-hâ` can be left out.
 - `notes` (en + sv) is the best teaching surface in the app. Use it for a memorable fact: usage, a cognate, a trap, a cultural point. One or two sentences.
 - `senseNote` disambiguates homonyms in the learner's language ("(the fruit)").
-- `icon` is a memory anchor: the name of a [Lucide](https://lucide.dev/icons/) icon, such as `droplet`. Only add one that shows the word itself. A loose match (a paw print for "horse") teaches the wrong thing, so leave it out. The icon must be in `src/content/icons.ts`; add it there first.
+- `icon` is required: a memory anchor shown next to the word, such as `droplet`. Pick it in this order:
+  1. A [Lucide](https://lucide.dev/icons/) icon that shows the word itself.
+  2. A [Lucide Lab](https://github.com/lucide-icons/lucide-lab) icon, for clothes, animals, food and household things core Lucide lacks (`trousers`, `cow-head`, `onion`).
+  3. One of our own in `src/content/custom-icons.ts`: numbers (`number-12`, `number-half`), colours (`colour-red`), people (`person-mother`, `person-brothers`), directions (`compass-north`) and a few things like `rug` and `tooth`. Draw a new one on the same 24 x 24 grid with 2px round strokes when nothing fits.
+  4. For a word no picture can show (a weekday, a conjunction), a symbol for what it does: `calendar-days` for weekdays, `split` for "or". Never a picture of something else: a paw print for "horse" teaches the wrong thing.
+
+  Every icon must be listed in `src/content/icons.ts`; add it there first.
 - `gloss.en` must be the plain English headword, so the reference lookup can find it (`to eat`, `mother`, `how much`).
 
 ## Sentences

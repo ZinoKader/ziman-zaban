@@ -171,6 +171,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
+      "icon": "chairs-table-platter",
       "gloss": { "en": "table", "sv": "bord", "enAlt": ["desk"], "svAlt": ["skrivbord"] },
       "cognate": true,
       "ckb": {
@@ -635,6 +636,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
+      "icon": "circle-dashed",
       "gloss": { "en": "sometimes", "sv": "ibland", "svAlt": ["då och då"] },
       "ckb": {
         "primary": { "script": "هەندێک جار", "latin": "hendêk car" },
@@ -698,6 +700,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
+      "icon": "calendar-sync",
       "gloss": { "en": "usually", "sv": "vanligtvis", "enAlt": ["normally", "mostly"], "svAlt": ["oftast", "vanligen", "för det mesta"] },
       "ckb": {
         "primary": { "script": "بەزۆری", "latin": "bezorî" },

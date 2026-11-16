@@ -107,6 +107,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "book-user",
       "gloss": { "en": "passport", "sv": "pass" },
       "cognate": true,
       "ckb": {
@@ -157,6 +158,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "road",
       "gloss": { "en": "road", "sv": "väg" },
       "ckb": {
         "primary": { "script": "ڕێگا", "latin": "řêga" },
@@ -256,6 +258,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "mosque",
       "gloss": { "en": "mosque", "sv": "moské" },
       "ckb": {
         "primary": { "script": "مزگەوت", "latin": "mizgewt" },
@@ -279,6 +282,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "landmark",
       "gloss": { "en": "museum", "sv": "museum" },
       "ckb": {
         "primary": { "script": "مۆزەخانە", "latin": "mozexane" },
@@ -382,6 +386,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "plane-takeoff",
       "gloss": { "en": "trip", "sv": "resa", "enAlt": ["journey", "travel"], "svAlt": ["tur", "utflykt"] },
       "ckb": {
         "primary": { "script": "گەشت", "latin": "geşt" },
@@ -432,6 +437,7 @@
       "unit": "travel-town",
       "pos": "verb",
       "level": "A2",
+      "icon": "plane-landing",
       "gloss": { "en": "to arrive", "sv": "att komma fram", "enAlt": ["arrive", "to reach", "reach", "to get to"], "svAlt": ["komma fram", "anlända", "nå fram"] },
       "ckb": {
         "primary": { "script": "گەیشتن", "latin": "geyiştin" },
@@ -459,6 +465,7 @@
       "unit": "travel-town",
       "pos": "verb",
       "level": "A2",
+      "icon": "log-out",
       "gloss": { "en": "to leave", "sv": "att åka iväg", "enAlt": ["leave", "to depart", "depart", "to set off", "set off"], "svAlt": ["åka iväg", "ge sig av", "avgå", "avresa"] },
       "senseNote": { "en": "to depart", "sv": "ge sig av" },
       "ckb": {
@@ -487,6 +494,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "compass-north",
       "gloss": { "en": "north", "sv": "norr", "svAlt": ["nord"] },
       "ckb": {
         "primary": { "script": "باکوور", "latin": "bakûr" },
@@ -510,6 +518,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "compass-south",
       "gloss": { "en": "south", "sv": "söder", "svAlt": ["syd"] },
       "ckb": {
         "primary": { "script": "باشوور", "latin": "başûr" },
@@ -533,6 +542,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "compass-east",
       "gloss": { "en": "east", "sv": "öster", "svAlt": ["öst"] },
       "ckb": {
         "primary": { "script": "ڕۆژهەڵات", "latin": "řojhełat" },
@@ -556,6 +566,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "compass-west",
       "gloss": { "en": "west", "sv": "väster", "svAlt": ["väst"] },
       "ckb": {
         "primary": { "script": "ڕۆژئاوا", "latin": "řojawa" },
@@ -580,6 +591,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "town-square",
       "gloss": { "en": "square", "sv": "torg", "enAlt": ["town square", "plaza"] },
       "senseNote": { "en": "in a town", "sv": "i en stad" },
       "ckb": {
@@ -606,6 +618,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "corner-down-right",
       "gloss": { "en": "corner", "sv": "hörn" },
       "cognate": true,
       "ckb": {
@@ -630,6 +643,7 @@
       "unit": "travel-town",
       "pos": "verb",
       "level": "A2",
+      "icon": "steering-wheel",
       "gloss": { "en": "to drive", "sv": "att köra", "enAlt": ["drive"], "svAlt": ["köra", "köra bil"] },
       "ckb": {
         "primary": { "script": "لێخوڕین", "latin": "lêxuřîn" },
@@ -658,6 +672,7 @@
       "unit": "travel-town",
       "pos": "verb",
       "level": "A2",
+      "icon": "footprints",
       "gloss": { "en": "to walk", "sv": "att promenera", "enAlt": ["walk", "to go on foot"], "svAlt": ["promenera", "gå", "gå till fots", "att gå till fots"] },
       "senseNote": { "en": "on foot", "sv": "till fots" },
       "ckb": {
@@ -712,6 +727,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "luggage-cabin",
       "gloss": { "en": "tourist", "sv": "turist" },
       "ckb": {
         "primary": { "script": "گەشتیار", "latin": "geştyar" },
@@ -736,6 +752,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
+      "icon": "map-pin-house",
       "gloss": { "en": "address", "sv": "adress" },
       "senseNote": { "en": "where you live", "sv": "där man bor" },
       "ckb": {

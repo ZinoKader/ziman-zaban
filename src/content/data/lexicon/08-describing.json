@@ -87,6 +87,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "sparkles",
       "gloss": { "en": "beautiful", "sv": "vacker", "enAlt": ["pretty", "nice", "handsome"], "svAlt": ["fin", "snygg", "söt"] },
       "ckb": {
         "primary": { "script": "جوان", "latin": "ciwan" },
@@ -148,6 +149,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "history",
       "gloss": { "en": "old", "sv": "gammal", "svAlt": ["gammalt", "gamla"] },
       "senseNote": { "en": "of things", "sv": "om saker" },
       "ckb": {
@@ -296,6 +298,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "battery-low",
       "gloss": { "en": "tired", "sv": "trött" },
       "ckb": {
         "primary": { "script": "ماندوو", "latin": "mandû" },
@@ -344,6 +347,7 @@
       "unit": "describing",
       "pos": "adverb",
       "level": "A1",
+      "icon": "signal-high",
       "gloss": { "en": "very", "sv": "mycket", "enAlt": ["a lot", "much", "really"], "svAlt": ["väldigt", "jätte"] },
       "ckb": {
         "primary": { "script": "زۆر", "latin": "zor" },
@@ -368,6 +372,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "colour-red",
       "gloss": { "en": "red", "sv": "röd", "svAlt": ["rött", "röda"] },
       "ckb": {
         "primary": { "script": "سوور", "latin": "sûr" },
@@ -399,6 +404,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "colour-blue",
       "gloss": { "en": "blue", "sv": "blå", "svAlt": ["blått", "blåa"] },
       "ckb": {
         "primary": { "script": "شین", "latin": "şîn" },
@@ -422,6 +428,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "colour-green",
       "gloss": { "en": "green", "sv": "grön", "svAlt": ["grönt", "gröna"] },
       "cognate": true,
       "ckb": {
@@ -443,6 +450,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "colour-white",
       "gloss": { "en": "white", "sv": "vit", "svAlt": ["vitt", "vita"] },
       "cognate": true,
       "ckb": {
@@ -467,6 +475,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "colour-black",
       "gloss": { "en": "black", "sv": "svart", "svAlt": ["svarta"] },
       "ckb": {
         "primary": { "script": "ڕەش", "latin": "řeş" },
@@ -497,6 +506,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "colour-yellow",
       "gloss": { "en": "yellow", "sv": "gul", "svAlt": ["gult", "gula"] },
       "cognate": true,
       "ckb": {
@@ -518,6 +528,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "feather",
       "gloss": { "en": "easy", "sv": "lätt", "enAlt": ["simple"], "svAlt": ["enkel", "enkelt"] },
       "cognate": true,
       "ckb": {
@@ -546,6 +557,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "weight",
       "gloss": { "en": "difficult", "sv": "svår", "enAlt": ["hard"], "svAlt": ["svårt", "svåra"] },
       "cognate": true,
       "ckb": {
@@ -604,6 +616,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "banknote-arrow-up",
       "gloss": { "en": "expensive", "sv": "dyr", "svAlt": ["dyrt", "dyra"] },
       "cognate": true,
       "ckb": {
@@ -655,6 +668,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
+      "icon": "shirt-stain",
       "gloss": { "en": "dirty", "sv": "smutsig", "svAlt": ["smutsigt", "skitig"] },
       "ckb": {
         "primary": { "script": "پیس", "latin": "pîs" },

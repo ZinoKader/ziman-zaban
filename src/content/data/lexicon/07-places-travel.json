@@ -522,6 +522,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
+      "icon": "farm",
       "gloss": { "en": "village", "sv": "by" },
       "ckb": {
         "primary": { "script": "گوند", "latin": "gund" },
@@ -575,6 +576,7 @@
       "unit": "places-travel",
       "pos": "preposition",
       "level": "A1",
+      "icon": "square-dot",
       "gloss": { "en": "in", "sv": "i", "enAlt": ["at"], "svAlt": ["på"] },
       "ckb": {
         "primary": { "script": "لە ... دا", "latin": "le ... da" },
@@ -603,6 +605,7 @@
       "unit": "places-travel",
       "pos": "preposition",
       "level": "A1",
+      "icon": "move-right",
       "gloss": { "en": "to", "sv": "till" },
       "senseNote": { "en": "towards a place", "sv": "mot en plats" },
       "ckb": {
@@ -627,6 +630,7 @@
       "unit": "places-travel",
       "pos": "preposition",
       "level": "A1",
+      "icon": "link-2",
       "gloss": { "en": "with", "sv": "med" },
       "ckb": {
         "primary": { "script": "لەگەڵ", "latin": "legeł" },
