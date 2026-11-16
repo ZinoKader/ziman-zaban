@@ -24,7 +24,7 @@ interface FeedbackPanelProps {
 const STYLE: Record<MatchGrade, { verdict: Verdict; tone: string; title: string }> = {
   exact: { verdict: 'right', tone: 'border-success/30 bg-success/8', title: 'text-success' },
   close: { verdict: 'right', tone: 'border-success/30 bg-success/8', title: 'text-success' },
-  typo: { verdict: 'close', tone: 'border-warning/40 bg-warning/10', title: 'text-amber-700 dark:text-warning' },
+  typo: { verdict: 'close', tone: 'border-warning/40 bg-warning/10', title: 'text-warning-foreground' },
   wrong: { verdict: 'wrong', tone: 'border-destructive/30 bg-destructive/6', title: 'text-destructive' },
 }
 

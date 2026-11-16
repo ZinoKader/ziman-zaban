@@ -149,7 +149,7 @@ export function ModulePage() {
           ].map(([label, value]) => (
             <div key={label as string} className="flex flex-col-reverse">
               <dt className="text-sm text-muted-foreground">{label}</dt>
-              <dd className="text-2xl font-medium tabular-nums">{value}</dd>
+              <dd className="text-2xl font-medium">{value}</dd>
             </div>
           ))}
         </dl>
@@ -194,7 +194,7 @@ export function ModulePage() {
               ).map(([label, value]) => (
                 <div key={label} className="flex flex-col-reverse">
                   <dt className="text-sm text-muted-foreground">{label}</dt>
-                  <dd className="text-xl font-medium tabular-nums">{value}</dd>
+                  <dd className="text-xl font-medium">{value}</dd>
                 </div>
               ))}
             </dl>

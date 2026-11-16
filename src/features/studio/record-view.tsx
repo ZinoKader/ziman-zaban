@@ -183,9 +183,9 @@ export function RecordView({ lang, prompts, onClose }: { lang: TargetLang; promp
                 </span>
               </div>
               <p className="min-h-6 text-sm font-medium" aria-live="polite">
-                {flash === 'saved' ? s.saved : flash ? <span className="text-amber-600 dark:text-amber-400">{s[flash]}</span> : s.status[rec.status]}
+                {flash === 'saved' ? s.saved : flash ? <span className="text-warning-foreground">{s[flash]}</span> : s.status[rec.status]}
               </p>
-              {rec.noisy && listening && <p className="max-w-sm text-xs text-amber-600 dark:text-amber-400">{s.noisy}</p>}
+              {rec.noisy && listening && <p className="max-w-sm text-xs text-warning-foreground">{s.noisy}</p>}
 
               {prompts[run.index + 1] && (
                 <div className="space-y-1 opacity-50">

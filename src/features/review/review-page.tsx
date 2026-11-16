@@ -118,7 +118,7 @@ function ReviewWorkspace({ lang, reviewer, onEditSetup }: { lang: TargetLang; re
 
           {current ? (
             <>
-              <article key={current.key} className="rounded-3xl border bg-card p-4 shadow-sm animate-pop-in sm:p-6" aria-label={s.kind[current.kind]}>
+              <article key={current.key} className="rounded-2xl border bg-card p-4 animate-pop-in sm:p-6" aria-label={s.kind[current.kind]}>
                 <ReviewItemView item={current} lang={lang} reports={reported.get(current.key) ?? []} />
               </article>
               <DecisionPanel
@@ -198,7 +198,7 @@ function EmptyState({
   const s = reviewStrings.use()
   const Icon = kind === 'filtered' ? SearchX : PartyPopper
   return (
-    <div className="flex flex-col items-center gap-3 rounded-3xl border border-dashed bg-card/50 px-6 py-12 text-center animate-pop-in">
+    <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed bg-card/50 px-6 py-12 text-center animate-pop-in">
       <Icon className="size-10 text-primary" aria-hidden />
       <p className="text-lg font-semibold">{kind === 'end' ? s.endTitle : kind === 'done' ? s.allDone : s.emptyFilter}</p>
       {kind !== 'filtered' && <p className="max-w-sm text-sm text-muted-foreground">{s.endBody}</p>}

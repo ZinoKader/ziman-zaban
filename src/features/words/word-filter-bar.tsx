@@ -74,7 +74,7 @@ export function WordFilterBar({ filters, update, clear, posOptions, unitOptions,
   }, [])
 
   return (
-    <div className="sticky top-14 z-30 -mx-4 space-y-2.5 border-b bg-background/90 px-4 pt-3 pb-2.5 backdrop-blur supports-backdrop-filter:bg-background/75">
+    <div className="sticky top-14 z-30 -mx-4 space-y-2.5 border-b bg-background/90 px-4 pt-3 pb-2.5 lg:mx-0 lg:px-0 backdrop-blur supports-backdrop-filter:bg-background/75">
       <div className="relative">
         <Search className="pointer-events-none absolute start-3.5 top-1/2 size-4.5 -translate-y-1/2 text-muted-foreground" aria-hidden />
         <input
@@ -94,7 +94,7 @@ export function WordFilterBar({ filters, update, clear, posOptions, unitOptions,
           aria-label={s.searchLabel}
           placeholder={s.searchPlaceholder}
           dir="auto"
-          className="h-11 w-full rounded-full border border-input bg-card ps-10 pe-20 text-base shadow-xs outline-none transition placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/40 [&::-webkit-search-cancel-button]:hidden"
+          className="h-11 w-full rounded-full border border-input bg-card ps-10 pe-20 text-base outline-none transition placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/40 [&::-webkit-search-cancel-button]:hidden"
         />
         <div className="absolute end-2 top-1/2 flex -translate-y-1/2 items-center gap-1">
           {filters.q ? (
@@ -110,7 +110,7 @@ export function WordFilterBar({ filters, update, clear, posOptions, unitOptions,
       </div>
 
       <div className="flex items-center gap-2">
-        <div role="group" aria-label={s.filters} className="-my-1 flex min-w-0 flex-1 gap-2 overflow-x-auto py-1 [scrollbar-width:none]">
+        <div role="group" aria-label={s.filters} className="-my-1 flex min-w-0 flex-1 gap-2 overflow-x-auto py-1 [scrollbar-width:none] max-sm:pe-8 max-sm:[mask-image:linear-gradient(to_right,#000_calc(100%-2.5rem),transparent)]">
           <FilterSelect
             label={s.unit}
             allLabel={s.allUnits}

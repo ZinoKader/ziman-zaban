@@ -31,7 +31,7 @@ export function PictureFrame({ picture, className }: { picture: Picture; classNa
   const alt = picture.gloss ? l(picture.gloss) : ''
   return (
     <figure className={cn('mx-auto w-full max-w-md space-y-1.5', className)}>
-      <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border bg-muted shadow-sm">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border bg-muted shadow-sm">
         {state === 'failed' ? (
           <div className="flex size-full flex-col items-center justify-center gap-2 p-4 text-center text-sm text-muted-foreground">
             <ImageOff className="size-8" />

@@ -43,7 +43,7 @@ export function ChoiceButton({ state, index, onChoose, disabled, accent = 'hover
         onChoose()
       }}
       className={cn(
-        'group relative isolate flex min-h-16 animate-rise-in overflow-hidden rounded-2xl border-2 bg-card shadow-xs transition-[border-color,box-shadow,opacity,translate,scale] duration-200 ease-out-quart',
+        'group relative isolate flex min-h-16 animate-rise-in overflow-hidden rounded-2xl border-2 bg-card transition-[border-color,box-shadow,opacity,translate,scale] duration-200 ease-out-quart',
         stacked ? 'flex-col items-center justify-center px-3 py-2' : 'items-center gap-3 px-4 py-3 text-start',
         state === 'idle' && cn('hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:scale-[0.985] motion-reduce:hover:translate-y-0', accent),
         state === 'right' && 'border-success',

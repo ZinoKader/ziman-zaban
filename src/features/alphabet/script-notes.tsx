@@ -22,7 +22,7 @@ export function VowelRules({ lang }: { lang: TargetLang }) {
       <SectionHeading id="vowels" title={s.vowelsTitle} />
       <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {Object.entries(rules).map(([key, rule], i) => (
-          <li key={key} className="flex flex-col gap-3 rounded-3xl border bg-card p-5 shadow-xs">
+          <li key={key} className="flex flex-col gap-3 rounded-2xl border bg-card p-5">
             <div className="flex items-start gap-3">
               <span className="grid size-7 shrink-0 place-items-center rounded-full bg-primary/10 text-sm font-semibold text-primary">
                 {i + 1}
@@ -71,7 +71,7 @@ export function ArabicLetters({ lang }: { lang: TargetLang }) {
     return (
       <section aria-labelledby="arabic">
         <SectionHeading id="arabic" title={s.arabicTitle} />
-        <div className="flex flex-col gap-4 rounded-3xl border bg-card p-5 shadow-xs sm:flex-row sm:items-center">
+        <div className="flex flex-col gap-4 rounded-2xl border bg-card p-5 sm:flex-row sm:items-center">
           <p className="flex-1 text-sm leading-relaxed sm:text-base">
             <ScriptRich text={s.arabic.ckb} lang="ckb" />
           </p>
@@ -98,7 +98,7 @@ export function ArabicLetters({ lang }: { lang: TargetLang }) {
             .flatMap((letter) => (letter ? [pickExample(letter, 'fa')] : []))
             .filter((x) => !!x)
           return (
-            <div key={group.latin} className="flex flex-col gap-3 rounded-3xl border bg-card p-4 shadow-xs">
+            <div key={group.latin} className="flex flex-col gap-3 rounded-2xl border bg-card p-4">
               <div className="flex items-center justify-between gap-3">
                 <div dir="rtl" className="flex gap-1.5">
                   {group.letters.map((ch, i) => (
@@ -131,7 +131,7 @@ export function CompareTable() {
   return (
     <section aria-labelledby="compare" className="space-y-6">
       <SectionHeading id="compare" title={s.compareTitle} body={s.compareBody} />
-      <div className="overflow-hidden rounded-3xl border bg-card shadow-xs">
+      <div className="overflow-hidden rounded-2xl border bg-card">
         <table className="w-full text-sm">
           <thead className="bg-muted/60 text-xs tracking-wide text-muted-foreground uppercase">
             <tr>

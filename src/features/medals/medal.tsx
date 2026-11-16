@@ -6,14 +6,14 @@ const DISC: Record<MedalTier, string> = {
   bronze: 'bg-[radial-gradient(circle_at_30%_25%,#ffe0bd,#d08a4f_45%,#8a4f22)] text-[#4a2608] ring-[#f3c08c]',
   silver: 'bg-[radial-gradient(circle_at_30%_25%,#ffffff,#c4ccd6_45%,#7f8a99)] text-[#2b3340] ring-[#e6ebf1]',
   gold: 'bg-[radial-gradient(circle_at_30%_25%,#fff6c2,#f1bf2a_45%,#a8740a)] text-[#4d3300] ring-[#ffe58a]',
-  star: 'bg-[radial-gradient(circle_at_30%_25%,#fde4ff,#b98cff_45%,#5b3cc4)] text-white ring-[#e8d3ff]',
+  star: 'bg-[radial-gradient(circle_at_30%_25%,#fbf0da,#b48a4a_45%,#4e3a2a)] text-white ring-[#eadcbf]',
 }
 
 const RIBBON: Record<MedalTier, [string, string]> = {
-  bronze: ['bg-[#c2410c]', 'bg-[#9a3412]'],
-  silver: ['bg-[#2563eb]', 'bg-[#1e40af]'],
-  gold: ['bg-[#dc2626]', 'bg-[#991b1b]'],
-  star: ['bg-[#db2777]', 'bg-[#7c3aed]'],
+  bronze: ['bg-[#b4643f]', 'bg-[#8d4b2f]'],
+  silver: ['bg-[#5b6b88]', 'bg-[#43506a]'],
+  gold: ['bg-[#a5545e]', 'bg-[#7e3d46]'],
+  star: ['bg-[#4e3a2a]', 'bg-[#7d9060]'],
 }
 
 interface MedalProps {

@@ -53,7 +53,7 @@ export function CourseSummary({ course, size = 'lg', grow }: CourseSummaryProps)
           <p className="text-lg font-medium">{s.know(course.learned, course.total)}</p>
           {note && <p className="text-sm text-muted-foreground">{note}</p>}
         </div>
-        <span className="shrink-0 text-2xl font-medium tabular-nums">{pct(course.learned, course.total)}%</span>
+        <span className="shrink-0 text-2xl font-medium">{pct(course.learned, course.total)}%</span>
       </div>
       {meter}
       {course.learning > 0 && (

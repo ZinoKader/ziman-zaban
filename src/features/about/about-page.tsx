@@ -96,18 +96,18 @@ function Hero() {
   const s = aboutStrings.use()
   const nav = Object.entries(s.nav) as Array<[keyof typeof s.nav, string]>
   return (
-    <header className="relative overflow-hidden rounded-[2rem] border bg-linear-to-br from-primary/10 via-card to-mod-response/10 px-5 py-8 sm:px-10 sm:py-12">
+    <header className="relative overflow-hidden rounded-2xl border bg-card px-5 py-8 sm:px-10 sm:py-12">
       <div
         aria-hidden
         dir="rtl"
-        className="pointer-events-none absolute -top-3 -right-2 flex flex-col items-start font-script text-6xl leading-[1.3] text-primary/10 select-none sm:-top-6 sm:-right-4 sm:flex-row sm:gap-6 sm:text-9xl"
+        className="pointer-events-none absolute -top-3 -right-2 flex flex-col items-start font-poster text-7xl leading-[1.3] text-mod-recognition/15 select-none sm:-top-6 sm:-right-4 sm:flex-row sm:gap-6 sm:text-[9rem]"
       >
         <span lang="ckb">زمان</span>
         <span lang="fa">زبان</span>
       </div>
       <div className="relative max-w-2xl space-y-4">
         <p className="text-sm font-medium text-primary">{s.eyebrow}</p>
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">{s.title}</h1>
+        <h1 className="text-3xl font-medium tracking-tight sm:text-5xl">{s.title}</h1>
         <p className="text-base leading-relaxed sm:text-lg">{s.lead}</p>
         <p className="text-sm text-muted-foreground italic">{s.nameNote}</p>
         <nav aria-label={s.title} className="flex flex-wrap gap-2 pt-2">
@@ -144,10 +144,10 @@ function Path() {
                 />
               </>
             )}
-            <span className={cn('relative z-10 grid size-11 shrink-0 place-items-center rounded-2xl text-white shadow-sm', m.bg)}>
+            <span className={cn('relative z-10 grid size-11 shrink-0 place-items-center rounded-xl text-white', m.bg)}>
               <m.icon className="size-6" />
             </span>
-            <div className={cn('flex-1 space-y-2 rounded-3xl border bg-card p-4 shadow-xs ring-1 lg:min-h-full', m.ring)}>
+            <div className="flex-1 space-y-2 rounded-2xl border bg-card p-4 lg:min-h-full">
               <div>
                 <h3 className="text-lg font-semibold">{c.modules[m.skill].title}</h3>
                 <p className="text-sm text-muted-foreground">
@@ -196,9 +196,9 @@ function Science() {
           const Icon = PRINCIPLE_ICONS[p.id]
           const caveat = 'caveat' in text ? text.caveat : undefined
           return (
-            <article key={p.id} className="flex flex-col gap-3 rounded-3xl border bg-card p-5 shadow-xs">
+            <article key={p.id} className="flex flex-col gap-3 rounded-2xl border bg-card p-5">
               <div className="flex items-start gap-3">
-                <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-primary/10 text-primary">
+                <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-primary/10 text-primary">
                   <Icon className="size-5" />
                 </span>
                 <div className="space-y-1">
@@ -206,7 +206,7 @@ function Science() {
                   <p className="text-[0.95rem] leading-snug font-medium">{text.claim}</p>
                 </div>
               </div>
-              <p className="rounded-2xl bg-muted/60 px-3 py-2 text-sm">
+              <p className="rounded-xl bg-muted/60 px-3 py-2 text-sm">
                 <span className="font-medium">{s.inApp}: </span>
                 {text.inApp}
               </p>
@@ -265,7 +265,7 @@ function Accuracy() {
     <Section id="accuracy" title={s.accuracyTitle} body={s.accuracyBody}>
       <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {s.pipeline.map((step, i) => (
-          <li key={step.title} className="relative rounded-3xl border bg-card p-4 shadow-xs">
+          <li key={step.title} className="relative rounded-2xl border bg-card p-4">
             <span className="mb-2 grid size-8 place-items-center rounded-full bg-foreground text-sm font-semibold text-background">{i + 1}</span>
             <h3 className="font-semibold">{step.title}</h3>
             <p className="mt-1 text-sm text-muted-foreground">{step.body}</p>
@@ -274,7 +274,7 @@ function Accuracy() {
       </ol>
 
       <div className="grid gap-4 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
-        <div className="overflow-hidden rounded-3xl border bg-card shadow-xs">
+        <div className="overflow-hidden rounded-2xl border bg-card">
           <div className="flex items-baseline justify-between gap-3 border-b px-4 py-3">
             <h3 className="font-semibold">{s.levels.title}</h3>
             <p className="text-xs text-muted-foreground">{s.levels.live}</p>
@@ -315,7 +315,7 @@ function Accuracy() {
 
         <div className="flex flex-col gap-4">
           {langs.map((l) => (
-            <div key={l} className="space-y-3 rounded-3xl border bg-card p-4 shadow-xs">
+            <div key={l} className="space-y-3 rounded-2xl border bg-card p-4">
               <h3 className="flex items-center gap-2 font-semibold">
                 <span lang={l} className="font-script text-lg font-normal text-primary">{l === 'ckb' ? 'کوردی' : 'فارسی'}</span>
                 {c.languages[l]}
@@ -330,7 +330,7 @@ function Accuracy() {
             </div>
           ))}
           {demo?.[lang] && demoId && (
-            <div className="flex items-center gap-3 rounded-3xl border border-dashed p-4">
+            <div className="flex items-center gap-3 rounded-2xl border border-dashed p-4">
               <div className="shrink-0 text-center">
                 <span dir="rtl" lang={lang} className="block font-script text-2xl">{demo[lang]!.primary.script}</span>
                 <EvidenceBadge kind="concept" lang={lang} id={demoId} showLabel />
@@ -341,7 +341,7 @@ function Accuracy() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 rounded-3xl bg-foreground p-5 text-background sm:flex-row sm:items-center sm:p-6">
+      <div className="flex flex-col gap-4 rounded-2xl bg-foreground p-5 text-background sm:flex-row sm:items-center sm:p-6">
         <div className="flex-1 space-y-1">
           <h3 className="text-lg font-semibold">{s.reviewTitle}</h3>
           <p className="text-sm opacity-80">{s.reviewBody}</p>
@@ -380,7 +380,7 @@ function Sources() {
     <Section id="sources" title={s.sourcesTitle}>
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {speakers.map((sp) => (
-          <li key={sp.id} className="flex flex-col gap-2 rounded-3xl border bg-card p-4 shadow-xs">
+          <li key={sp.id} className="flex flex-col gap-2 rounded-2xl border bg-card p-4">
             <div className="flex items-start justify-between gap-2">
               <h3 dir="auto" className="font-semibold leading-snug">
                 {sp.name}
@@ -396,7 +396,7 @@ function Sources() {
         {SOURCES.map((src) => {
           const text = s.sources[src.key]
           return (
-            <li key={src.key} className="flex flex-col gap-2 rounded-3xl border bg-card p-4 shadow-xs">
+            <li key={src.key} className="flex flex-col gap-2 rounded-2xl border bg-card p-4">
               <div className="flex items-start justify-between gap-2">
                 <h3 className="font-semibold leading-snug">
                   {src.url ? (
@@ -428,7 +428,7 @@ function PhotoCredits() {
   const s = aboutStrings.use()
   const l = useLocalize()
   return (
-    <Disclosure label={s.photoCredits(pictures.length)} className="mt-4 rounded-3xl border bg-card px-4 py-2 shadow-xs">
+    <Disclosure label={s.photoCredits(pictures.length)} className="mt-4 rounded-2xl border bg-card px-4 py-2">
       <ul className="grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
         {pictures.map((p) => (
           <li key={p.id} className="flex items-baseline justify-between gap-3">
@@ -449,13 +449,13 @@ function Dialects() {
     <Section id="dialects" title={s.dialectTitle}>
       <div className="grid gap-4 md:grid-cols-3">
         {(['ckb', 'fa'] as TargetLang[]).map((l) => (
-          <div key={l} className="space-y-1.5 rounded-3xl border bg-card p-5 shadow-xs">
+          <div key={l} className="space-y-1.5 rounded-2xl border bg-card p-5">
             <span lang={l} className="font-script text-2xl text-primary">{l === 'ckb' ? 'سلێمانی' : 'تهران'}</span>
             <h3 className="font-semibold">{s.dialects[l].title}</h3>
             <p className="text-sm text-muted-foreground">{s.dialects[l].body}</p>
           </div>
         ))}
-        <div className="space-y-3 rounded-3xl border bg-card p-5 shadow-xs">
+        <div className="space-y-3 rounded-2xl border bg-card p-5">
           <h3 className="font-semibold">{s.writtenSpoken}</h3>
           <p className="text-sm text-muted-foreground">{s.writtenSpokenBody}</p>
           <div className="grid grid-cols-2 gap-2">
@@ -463,7 +463,7 @@ function Dialects() {
               { label: s.written, text: 'می‌خواهم', latin: 'mikhâham' },
               { label: s.spoken, text: 'می‌خوام', latin: 'mikhâm' },
             ].map((f) => (
-              <div key={f.label} className="rounded-2xl bg-muted/60 px-2 py-2 text-center">
+              <div key={f.label} className="rounded-xl bg-muted/60 px-2 py-2 text-center">
                 <p className="text-[0.7rem] font-medium tracking-wide text-muted-foreground uppercase">{f.label}</p>
                 <TargetText lang="fa" text={f.text} latin={f.latin} size="sm" romanization="always" />
               </div>

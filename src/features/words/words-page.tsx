@@ -145,7 +145,7 @@ export function WordsPage() {
         {isDesktop && (
           <aside
             aria-label={selected ? l(selected.gloss) : s.title}
-            className="sticky top-[4.5rem] mt-4 max-h-[calc(100dvh-5.5rem)] self-start overflow-y-auto overscroll-contain rounded-3xl border bg-card p-6 shadow-xs"
+            className="sticky top-[4.5rem] mt-4 max-h-[calc(100dvh-5.5rem)] self-start overflow-y-auto overscroll-contain rounded-2xl border bg-card p-6"
           >
             {conceptId ? (
               <DetailBody key={conceptId} conceptId={conceptId} lang={lang} backTo={backTo} />

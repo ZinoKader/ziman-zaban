@@ -224,7 +224,7 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
             )}
             {nextMedal !== null && (
               <p className="flex items-center gap-1.5 pt-1 text-xs text-muted-foreground">
-                <Medal className="size-3.5 text-amber-500" /> {m.next(nextMedal - course.after.learned, nextMedal)}
+                <Medal className="size-3.5 text-warning" /> {m.next(nextMedal - course.after.learned, nextMedal)}
               </p>
             )}
           </div>
@@ -252,7 +252,7 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
         {tiles.map((t, i) => (
           <Card key={t.label} style={step(3 + i * 0.5)} className="animate-rise-in py-4">
             <CardContent className="px-3">
-              <div className="text-2xl font-semibold tabular-nums">{t.value}</div>
+              <div className="text-2xl font-medium">{t.value}</div>
               <div className="text-xs text-muted-foreground">{t.label}</div>
             </CardContent>
           </Card>

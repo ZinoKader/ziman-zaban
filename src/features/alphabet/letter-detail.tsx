@@ -32,7 +32,7 @@ export function LetterDetail({ letter, lang, example, className }: LetterDetailP
           dir="rtl"
           lang={lang}
           className={cn(
-            'grid size-24 shrink-0 place-items-center rounded-3xl border-2 font-script text-6xl leading-none',
+            'grid size-24 shrink-0 place-items-center rounded-2xl border-2 font-script text-6xl leading-none',
             isVowel ? 'border-primary/30 bg-primary/8 text-primary' : 'bg-card',
           )}
         >

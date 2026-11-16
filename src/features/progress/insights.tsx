@@ -42,7 +42,7 @@ function Tile({ icon, label, value, hint }: { icon: React.ReactNode; label: stri
         {icon}
         {label}
       </div>
-      <div className="mt-1 text-2xl font-semibold tabular-nums">{value}</div>
+      <div className="mt-1 text-2xl font-medium">{value}</div>
       <div className="truncate text-xs text-muted-foreground">{hint}</div>
     </div>
   )
@@ -66,7 +66,7 @@ export function Highlights({
   return (
     <section className="grid grid-cols-2 gap-3 lg:grid-cols-4">
       <Tile
-        icon={<Flame className="size-4 text-orange-500" />}
+        icon={<Flame className="size-4 text-mod-recognition" />}
         label={s.highlights.streak}
         value={streakNow}
         hint={s.highlights.best(Math.max(streakNow, records.longestStreak?.days ?? 0))}
@@ -265,11 +265,11 @@ export function WordsCard({ answers, log, now }: { answers: Answer[] | undefined
           <>
             <div className="flex gap-6">
               <div>
-                <div className="text-2xl font-semibold tabular-nums text-mod-recognition">{last.met}</div>
+                <div className="text-2xl font-medium text-mod-recognition">{last.met}</div>
                 <div className="text-xs text-muted-foreground">{s.wordsMet}</div>
               </div>
               <div>
-                <div className="text-2xl font-semibold tabular-nums text-success">{last.learned}</div>
+                <div className="text-2xl font-medium text-success">{last.learned}</div>
                 <div className="text-xs text-muted-foreground">{s.wordsLearned}</div>
               </div>
             </div>
@@ -312,7 +312,7 @@ function RecordRow({
     <>
       <span className="min-w-0 flex-1">
         <span className="block text-xs text-muted-foreground">{label}</span>
-        <span className="block truncate font-semibold tabular-nums">{value}</span>
+        <span className="block truncate font-medium underline-offset-4 group-hover/row:underline">{value}</span>
       </span>
       {detail && <span className="shrink-0 text-end text-xs text-muted-foreground">{detail}</span>}
     </>
@@ -320,11 +320,11 @@ function RecordRow({
   return (
     <li>
       {onClick ? (
-        <button type="button" onClick={onClick} className="flex w-full items-center gap-3 rounded-xl px-2 py-2 text-start transition hover:bg-muted/60">
+        <button type="button" onClick={onClick} className="group/row flex w-full items-center gap-3 py-2.5 text-start">
           {body}
         </button>
       ) : (
-        <div className="flex items-center gap-3 px-2 py-2">{body}</div>
+        <div className="flex items-center gap-3 py-2.5">{body}</div>
       )}
     </li>
   )
@@ -343,7 +343,7 @@ export function RecordsCard({ records, onChange }: { records: Records; onChange:
         {!bestDay || !bestWeek || !longestStreak || !firstDay ? (
           <p className="text-sm text-muted-foreground">{s.noRecords}</p>
         ) : (
-          <ul className="-mx-2 divide-y">
+          <ul className="divide-y">
             <RecordRow
               label={s.bestDay}
               value={s.answers(bestDay.reviews)}

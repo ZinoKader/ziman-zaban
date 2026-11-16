@@ -13,7 +13,7 @@ export function WhatsNewBanner() {
   const markSeen = () => set({ changelogSeen: latestRelease })
 
   return (
-    <div className="flex items-center gap-3 rounded-2xl border bg-card p-3 ps-4 shadow-xs">
+    <div className="flex items-center gap-3 rounded-2xl border bg-card p-3 ps-4">
       <Sparkles className="size-5 shrink-0 text-primary" />
       <Link to="/whats-new" onClick={markSeen} className="min-w-0 flex-1 text-sm">
         <span className="font-medium">{s.banner(unseenCount(seen))}</span>

@@ -94,7 +94,7 @@ export const AnswerInput = forwardRef<AnswerInputHandle, AnswerInputProps>(funct
           lang={arabic && lang ? lang : undefined}
           placeholder={placeholder ?? (lang ? s.placeholderTarget : s.placeholderBase)}
           className={cn(
-            'h-14 w-full min-w-0 rounded-xl border-2 bg-card px-4 text-lg shadow-xs outline-none transition',
+            'h-14 w-full min-w-0 rounded-xl border-2 bg-card px-4 text-lg outline-none transition',
             'focus:border-primary focus:ring-4 focus:ring-primary/15',
             arabic && 'font-script text-2xl',
             state === 'correct' && 'border-success bg-success/5',

@@ -182,7 +182,7 @@ function FlagForm({ lang, currentText, initial, onCancel, onSave }: FlagFormProp
   const toggle = (i: Issue) => setIssues((xs) => (xs.includes(i) ? xs.filter((x) => x !== i) : ISSUES.filter((x) => x === i || xs.includes(x))))
 
   return (
-    <div ref={root} className="space-y-4 rounded-2xl border-2 border-destructive/40 bg-card p-4 shadow-sm animate-pop-in" role="group" aria-label={s.flagTitle}>
+    <div ref={root} className="space-y-4 rounded-2xl border-2 border-destructive/40 bg-card p-4 animate-pop-in" role="group" aria-label={s.flagTitle}>
       <p className="flex items-center gap-2 font-semibold text-destructive">
         <XCircle className="size-5" /> {s.flagTitle}
       </p>

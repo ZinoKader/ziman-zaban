@@ -8,7 +8,7 @@ import { Medal } from './medal'
 import { tierOf } from './medals'
 import { medalStrings } from './strings'
 
-const COLORS = ['#f43f5e', '#f59e0b', '#10b981', '#3b82f6', '#a855f7', '#facc15', '#14b8a6']
+const COLORS = ['#c0643c', '#c29a4e', '#a5545e', '#5b6b88', '#7d9060', '#e4d6bf', '#5a4636']
 
 function playFanfare() {
   const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
@@ -96,7 +96,7 @@ export function Celebration({ lang, words, total, alsoEarned, onClose }: Celebra
       className="fixed inset-0 z-50 grid place-items-center bg-black/55 p-4 backdrop-blur-sm"
     >
       <Confetti />
-      <div className="animate-pop-in relative flex w-full max-w-sm flex-col items-center gap-5 rounded-3xl bg-card px-6 pb-6 pt-8 text-center shadow-2xl">
+      <div className="animate-pop-in relative flex w-full max-w-sm flex-col items-center gap-5 rounded-2xl bg-card px-6 pb-6 pt-8 text-center shadow-2xl">
         <div className="relative">
           <div className="animate-medal-shine absolute inset-[-20%] rounded-full bg-[radial-gradient(circle,rgba(250,204,21,0.55),transparent_65%)]" aria-hidden />
           <div className="animate-medal-in">

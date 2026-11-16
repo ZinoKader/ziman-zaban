@@ -82,7 +82,7 @@ function Facts({ lang }: { lang: TargetLang }) {
   return (
     <section className="grid grid-cols-2 gap-2.5 sm:gap-3 lg:grid-cols-4">
       {cards.map((card) => (
-        <div key={card.title} className="flex flex-col gap-2 rounded-3xl border bg-card p-3.5 shadow-xs sm:p-4">
+        <div key={card.title} className="flex flex-col gap-2 rounded-2xl border bg-card p-3.5 sm:p-4">
           <span className="grid size-9 place-items-center rounded-xl bg-primary/10 text-primary">
             {card.icon ? (
               <card.icon className="size-5" />
@@ -96,7 +96,7 @@ function Facts({ lang }: { lang: TargetLang }) {
           </p>
         </div>
       ))}
-      <div className="flex flex-col gap-2 rounded-3xl border bg-card p-3.5 shadow-xs sm:p-4">
+      <div className="flex flex-col gap-2 rounded-2xl border bg-card p-3.5 sm:p-4">
         <span className="grid size-9 place-items-center rounded-xl bg-primary/10 text-primary">
           <Link2Off className="size-5" />
         </span>
@@ -137,7 +137,7 @@ function Anatomy({ lang, onPick }: { lang: TargetLang; onPick: (l: Letter) => vo
   const parts = useMemo(() => (form ? spellOut(form.script, lang) : []), [form, lang])
   if (!form || !parts.length) return null
   return (
-    <section className="flex flex-col items-center gap-4 rounded-3xl border bg-linear-to-br from-primary/8 via-card to-card p-5 text-center shadow-xs sm:flex-row sm:p-6 sm:text-start">
+    <section className="flex flex-col items-center gap-4 rounded-2xl border bg-linear-to-br from-primary/8 via-card to-card p-5 text-center shadow-xs sm:flex-row sm:p-6 sm:text-start">
       <div className="space-y-1 sm:flex-1">
         <h2 className="text-lg font-semibold">{s.anatomy}</h2>
         <p className="text-sm text-muted-foreground">{s.anatomyBody}</p>
@@ -180,7 +180,7 @@ function LetterTile({ letter, lang, selected, onClick }: { letter: Letter; lang:
       aria-pressed={selected}
       aria-label={`${letter.char}, ${letter.name}, ${letter.latin.length ? soundLabel(letter) : s.detail.silent}`}
       className={cn(
-        'relative flex aspect-square flex-col items-center justify-center gap-0.5 rounded-2xl border-2 bg-card shadow-xs transition hover:-translate-y-0.5 hover:shadow-md focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none active:translate-y-0 motion-reduce:hover:translate-y-0',
+        'relative flex aspect-square flex-col items-center justify-center gap-0.5 rounded-2xl border-2 bg-card transition hover:-translate-y-0.5 hover:shadow-md focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none active:translate-y-0 motion-reduce:hover:translate-y-0',
         vowel && 'bg-primary/8',
         letter.arabic && 'border-dashed border-muted-foreground/40',
         selected && 'border-primary ring-3 ring-primary/25',
@@ -289,7 +289,7 @@ export function AlphabetPage() {
             ))}
           </div>
           {isDesktop && (
-            <aside className="sticky top-20 self-start rounded-3xl border bg-card/60 p-5 shadow-xs">{detail}</aside>
+            <aside className="sticky top-20 self-start rounded-2xl border bg-card/60 p-5">{detail}</aside>
           )}
         </div>
       </section>

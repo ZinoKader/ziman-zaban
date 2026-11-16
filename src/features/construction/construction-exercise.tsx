@@ -176,7 +176,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
         <p className="flex items-center justify-center gap-1.5 text-center text-sm font-medium text-muted-foreground">
           <Sparkles className="size-4 text-mod-construction" /> {s.newSentence}
         </p>
-        <div className="space-y-5 rounded-3xl border bg-card px-4 py-6 shadow-sm sm:px-6">
+        <div className="space-y-5 rounded-2xl border bg-card px-4 py-6 sm:px-6">
           <p className="text-center text-xl font-semibold text-balance">{l(sentence.translation)}</p>
           <div className="space-y-2">
             <TargetText lang={lang} text={form.text} latin={form.latin} size="lg" audio audioUrl={audioUrl} autoPlay />
@@ -206,7 +206,7 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
     <div className="flex flex-col gap-5">
       <p className="text-center text-sm font-medium text-muted-foreground">{prompt}</p>
 
-      <div className="flex min-h-32 flex-col items-center justify-center gap-4 rounded-3xl border bg-card px-4 py-7 shadow-sm">
+      <div className="flex min-h-32 flex-col items-center justify-center gap-4 rounded-2xl border bg-card px-4 py-7">
         {mode === 'cloze' ? (
           <>
             <p className="text-center text-muted-foreground">{l(sentence.translation)}</p>

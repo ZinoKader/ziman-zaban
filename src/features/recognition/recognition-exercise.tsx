@@ -155,7 +155,7 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
         {mode === 'listen' ? s.listenPrompt : s.whatMeans}
       </p>
 
-      <div className="flex min-h-40 flex-col items-center justify-center gap-3 rounded-3xl border bg-card px-4 py-8 shadow-sm">
+      <div className="flex min-h-40 flex-col items-center justify-center gap-3 rounded-2xl border bg-card px-4 py-8">
         {showPrompt ? (
           <TargetText
             lang={lang}

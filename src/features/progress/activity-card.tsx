@@ -93,7 +93,7 @@ function MetricTile({
       )}
     >
       <span className="text-xs font-medium text-muted-foreground">{s.metric[metric]}</span>
-      <span className="text-2xl font-semibold tabular-nums">{formatMetric(metric, value)}</span>
+      <span className="text-2xl font-medium">{formatMetric(metric, value)}</span>
       <Delta pct={delta} />
     </button>
   )

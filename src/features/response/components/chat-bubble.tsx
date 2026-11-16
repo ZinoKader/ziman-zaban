@@ -17,7 +17,7 @@ export function SpeakerBubble({ lang, label, children }: { lang: TargetLang; lab
       </div>
       <div className="flex min-w-0 max-w-[88%] flex-col items-end gap-1">
         <span className="px-2 text-xs font-medium text-muted-foreground">{label}</span>
-        <div className="w-full rounded-3xl rounded-br-md border bg-card px-4 py-4 shadow-sm sm:px-6 sm:py-5">{children}</div>
+        <div className="w-full rounded-2xl rounded-br-md border bg-card px-4 py-4 sm:px-6 sm:py-5">{children}</div>
       </div>
     </div>
   )
@@ -37,7 +37,7 @@ export function LearnerBubble({ label, tone = 'neutral', children }: { label: st
         <span className="px-2 text-xs font-medium text-muted-foreground">{label}</span>
         <div
           className={cn(
-            'rounded-3xl rounded-bl-md border-2 px-4 py-3',
+            'rounded-2xl rounded-bl-md border-2 px-4 py-3',
             tone === 'neutral' && 'border-primary/20 bg-primary/10',
             tone === 'right' && 'border-success/40 bg-success/10',
             tone === 'wrong' && 'border-destructive/30 bg-destructive/5',

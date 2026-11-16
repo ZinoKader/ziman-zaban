@@ -152,7 +152,7 @@ function ReportedBanner({ reports }: { reports: ContentReport[] }) {
   const s = reviewStrings.use()
   return (
     <div className="rounded-xl border border-warning/60 bg-warning/10 px-3 py-2.5 text-sm" role="note">
-      <p className="mb-1 flex items-center gap-1.5 font-medium text-amber-800 dark:text-warning">
+      <p className="mb-1 flex items-center gap-1.5 font-medium text-warning-foreground">
         <Flag className="size-4" /> {s.reportedTitle(reports.length)}
       </p>
       <ul className="space-y-1">
@@ -186,7 +186,7 @@ function Header({ item, extra, reported }: { item: QueueItem; extra?: ReactNode;
       </Badge>
       {extra}
       {reported && (
-        <Badge className="bg-warning text-amber-950">
+        <Badge className="bg-warning text-foreground">
           <Flag /> {s.reported}
         </Badge>
       )}

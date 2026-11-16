@@ -10,7 +10,7 @@ import { progressStrings } from './strings'
 
 const BANDS = [
   ['sticking', 'bg-success'],
-  ['fading', 'bg-amber-500'],
+  ['fading', 'bg-warning'],
   ['slipping', 'bg-destructive'],
 ] as const
 
@@ -31,7 +31,7 @@ function Bands({ memory }: { memory: Memory }) {
               <span className={cn('mt-0.5 size-2.5 shrink-0 rounded-full', tone)} />
               <span>{s.band[band]}</span>
             </dt>
-            <dd className="text-lg font-semibold tabular-nums">{memory[band]}</dd>
+            <dd className="text-lg font-medium">{memory[band]}</dd>
             <dd className="text-xs text-muted-foreground">{s.bandHint[band]}</dd>
           </div>
         ))}
@@ -43,8 +43,8 @@ function Bands({ memory }: { memory: Memory }) {
 function Rate({ label, pct, detail }: { label: string; pct: number | null; detail: string }) {
   return (
     <div className="min-w-0 space-y-1.5">
-      <div className="min-h-[2lh] text-xs text-muted-foreground">{label}</div>
-      <div className="text-2xl font-semibold tabular-nums">{pct === null ? '–' : `${pct}%`}</div>
+      <div className="text-xs text-muted-foreground">{label}</div>
+      <div className="text-2xl font-medium">{pct === null ? '–' : `${pct}%`}</div>
       <div className="relative h-1.5 rounded-full bg-muted" aria-hidden>
         {pct !== null && <div className="h-full rounded-full bg-primary" style={{ width: `${pct}%` }} />}
         <div className="absolute -top-1 bottom-[-0.25rem] w-0.5 rounded-full bg-foreground/60" style={{ insetInlineStart: '90%' }} />
@@ -101,7 +101,7 @@ export function MemoryCard({
         ) : (
           <>
             <p className="flex flex-wrap items-baseline gap-x-2">
-              <span className="text-3xl font-semibold tabular-nums">{memory.sticking}</span>
+              <span className="text-3xl font-medium">{memory.sticking}</span>
               <span className="text-muted-foreground">{s.sticking(memory.learned)}</span>
             </p>
             <Bands memory={memory} />
@@ -147,17 +147,16 @@ export function ForecastCard({ days }: { days: Array<{ day: string; date: Date; 
               {days.map((d, i) => {
                 const name = i === 0 ? s.today : weekday(d.date, lang, 'short')
                 return (
-                  <li key={d.day} className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-1">
-                    <span className="text-xs tabular-nums text-muted-foreground" aria-hidden>
-                      {d.count || ''}
-                    </span>
-                    <div
-                      aria-hidden
-                      className={cn('w-full rounded-t-md', d.count ? (i === 0 ? 'bg-primary' : 'bg-primary/45') : 'bg-muted')}
-                      style={{ height: d.count ? `${Math.max(4, (d.count / max) * 100)}%` : '2px' }}
-                    />
+                  <li key={d.day} className="flex h-full min-w-0 flex-1 flex-col items-center gap-1">
+                    <div aria-hidden className="flex w-full flex-1 flex-col justify-end gap-1">
+                      <span className="text-center text-xs tabular-nums text-muted-foreground">{d.count || ''}</span>
+                      <div
+                        className={cn('w-full rounded-t-md', d.count ? (i === 0 ? 'bg-primary' : 'bg-primary/45') : 'bg-muted')}
+                        style={{ height: d.count ? `calc(${Math.max(4, (d.count / max) * 100)}% - 1.25rem)` : '2px' }}
+                      />
+                    </div>
                     <span className="sr-only">{s.forecastBar(name, d.count)}</span>
-                    <span aria-hidden className={cn('w-full truncate text-center text-[0.7rem] text-muted-foreground', i === 0 && 'font-semibold text-foreground')}>
+                    <span aria-hidden className={cn('w-full truncate text-center text-[0.7rem] text-muted-foreground', i === 0 && 'font-medium text-foreground')}>
                       {name}
                     </span>
                   </li>

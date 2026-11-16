@@ -78,7 +78,7 @@ export function LetterQuiz({ lang, random = Math.random }: { lang: TargetLang; r
 
   if (!questions) {
     return (
-      <div className="flex flex-col items-center gap-4 rounded-3xl border-2 border-dashed bg-card/50 px-6 py-10 text-center">
+      <div className="flex flex-col items-center gap-4 rounded-2xl border-2 border-dashed bg-card/50 px-6 py-10 text-center">
         <span className="grid size-14 place-items-center rounded-2xl bg-primary/10 text-primary">
           <Sparkles className="size-7" />
         </span>
@@ -93,7 +93,7 @@ export function LetterQuiz({ lang, random = Math.random }: { lang: TargetLang; r
   if (done) {
     const ratio = score / questions.length
     return (
-      <div className="flex flex-col items-center gap-4 rounded-3xl border-2 bg-card px-6 py-10 text-center animate-pop-in">
+      <div className="flex flex-col items-center gap-4 rounded-2xl border-2 bg-card px-6 py-10 text-center animate-pop-in">
         <p className="text-5xl font-semibold tracking-tight text-primary">
           {score}
           <span className="text-2xl text-muted-foreground">/{questions.length}</span>
@@ -118,14 +118,14 @@ export function LetterQuiz({ lang, random = Math.random }: { lang: TargetLang; r
 
   const q = question!
   return (
-    <div className="flex flex-col gap-5 rounded-3xl border-2 bg-card p-4 sm:p-6">
+    <div className="flex flex-col gap-5 rounded-2xl border-2 bg-card p-4 sm:p-6">
       <div className="flex items-center gap-3 text-sm">
         <span className="font-medium text-muted-foreground tabular-nums">{s.quiz.progress(index + 1, questions.length)}</span>
         <Progress value={(index / questions.length) * 100} className="h-2 flex-1" />
         <span
           className={cn(
             'flex items-center gap-1 font-medium tabular-nums transition',
-            streak >= 2 ? 'text-orange-600 dark:text-orange-400' : 'opacity-0',
+            streak >= 2 ? 'text-mod-recognition' : 'opacity-0',
           )}
           aria-hidden={streak < 2}
         >
@@ -135,7 +135,7 @@ export function LetterQuiz({ lang, random = Math.random }: { lang: TargetLang; r
 
       <p className="text-center text-sm font-medium text-muted-foreground">{s.quiz.prompt}</p>
       <div key={q.letter.char} className="flex justify-center animate-pop-in">
-        <span dir="rtl" lang={lang} className="grid size-32 place-items-center rounded-3xl border-2 bg-background font-script text-7xl leading-none shadow-sm">
+        <span dir="rtl" lang={lang} className="grid size-32 place-items-center rounded-2xl border-2 bg-background font-script text-7xl leading-none shadow-sm">
           {q.letter.char}
         </span>
       </div>
