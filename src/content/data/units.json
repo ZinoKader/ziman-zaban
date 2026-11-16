@@ -139,6 +139,146 @@
         "en": "Ask follow-up questions and give reasons.",
         "sv": "Ställa följdfrågor och förklara varför."
       }
+    },
+    {
+      "id": "body-health",
+      "order": 11,
+      "emoji": "🩺",
+      "title": { "en": "Body & health", "sv": "Kroppen & hälsan" },
+      "description": {
+        "en": "Parts of the body, pain, a fever, the pharmacy and the dentist.",
+        "sv": "Kroppsdelar, ont, feber, apoteket och tandläkaren."
+      },
+      "canDo": {
+        "en": "Say where it hurts and ask for medicine.",
+        "sv": "Säga var det gör ont och be om medicin."
+      }
+    },
+    {
+      "id": "shopping-clothes",
+      "order": 12,
+      "emoji": "🛍️",
+      "title": { "en": "Clothes & shopping", "sv": "Kläder & shopping" },
+      "description": {
+        "en": "Clothes, sizes and prices, paying by card or in cash, and the numbers up to a hundred.",
+        "sv": "Kläder, storlekar och priser, att betala med kort eller kontant, och talen upp till hundra."
+      },
+      "canDo": {
+        "en": "Buy clothes, ask for another size and understand the price.",
+        "sv": "Köpa kläder, be om en annan storlek och förstå priset."
+      }
+    },
+    {
+      "id": "weather-seasons",
+      "order": 13,
+      "emoji": "🌦️",
+      "title": { "en": "Weather & seasons", "sv": "Väder & årstider" },
+      "description": {
+        "en": "Sun, rain and snow, the four seasons, warm and cool, light and dark.",
+        "sv": "Sol, regn och snö, de fyra årstiderna, varmt och svalt, ljust och mörkt."
+      },
+      "canDo": {
+        "en": "Talk about the weather today and your favourite season.",
+        "sv": "Prata om vädret idag och vilken årstid du tycker bäst om."
+      }
+    },
+    {
+      "id": "nature-animals",
+      "order": 14,
+      "emoji": "🐾",
+      "title": { "en": "Nature & animals", "sv": "Naturen & djuren" },
+      "description": {
+        "en": "Pets and farm animals, a few wild ones, trees and flowers, rivers, the sea and the forest.",
+        "sv": "Husdjur och bondgårdsdjur, några vilda djur, träd och blommor, floder, havet och skogen."
+      },
+      "canDo": {
+        "en": "Say which animals you like and describe a place outdoors.",
+        "sv": "Säga vilka djur du tycker om och beskriva en plats ute i naturen."
+      }
+    },
+    {
+      "id": "kitchen-cooking",
+      "order": 15,
+      "emoji": "🍳",
+      "title": { "en": "Cooking & eating out", "sv": "Matlagning & restaurang" },
+      "description": {
+        "en": "Fruit and vegetables, plates and cutlery, sweet and sour, and ordering at a restaurant.",
+        "sv": "Frukt och grönsaker, tallrikar och bestick, sött och surt, och att beställa på restaurang."
+      },
+      "canDo": {
+        "en": "Say what a dish tastes like and ask for the bill.",
+        "sv": "Säga hur en maträtt smakar och be om notan."
+      }
+    },
+    {
+      "id": "around-the-house",
+      "order": 16,
+      "emoji": "🛋️",
+      "title": { "en": "Around the house", "sv": "Hemma" },
+      "description": {
+        "en": "The rooms and the furniture, things in the bathroom, neighbours and guests.",
+        "sv": "Rummen och möblerna, saker i badrummet, grannar och gäster."
+      },
+      "canDo": {
+        "en": "Show a guest around your home and say where things are.",
+        "sv": "Visa en gäst runt hemma och säga var saker finns."
+      }
+    },
+    {
+      "id": "travel-town",
+      "order": 17,
+      "emoji": "🚆",
+      "title": { "en": "Travel & the town", "sv": "Resor & staden" },
+      "description": {
+        "en": "Trains and planes, the hotel and your passport, the compass points and finding your way in town.",
+        "sv": "Tåg och flyg, hotellet och passet, väderstrecken och att hitta i staden."
+      },
+      "canDo": {
+        "en": "Ask the way, book a room and say where you are travelling.",
+        "sv": "Fråga om vägen, boka ett rum och säga vart du ska resa."
+      }
+    },
+    {
+      "id": "work-study",
+      "order": 18,
+      "emoji": "💼",
+      "title": { "en": "Work & study", "sv": "Jobb & studier" },
+      "description": {
+        "en": "Jobs, the office and colleagues, lessons, homework and exams.",
+        "sv": "Yrken, kontoret och kollegorna, lektioner, läxor och prov."
+      },
+      "canDo": {
+        "en": "Say what you do for a living and what you study.",
+        "sv": "Säga vad du jobbar med och vad du pluggar."
+      }
+    },
+    {
+      "id": "people-feelings",
+      "order": 19,
+      "emoji": "🫶",
+      "title": { "en": "People & feelings", "sv": "Människor & känslor" },
+      "description": {
+        "en": "Boys and girls, what people are like, how you feel, and birthdays and weddings.",
+        "sv": "Pojkar och flickor, hur människor är, hur du känner dig, och födelsedagar och bröllop."
+      },
+      "canDo": {
+        "en": "Describe a person and say how you feel and why.",
+        "sv": "Beskriva en person och säga hur du känner dig och varför."
+      }
+    },
+    {
+      "id": "time-plans",
+      "order": 20,
+      "emoji": "🗓️",
+      "title": { "en": "Time & plans", "sv": "Tid & planer" },
+      "description": {
+        "en": "Before and after, the weekend, soon and later, and verbs for meeting, sending and bringing.",
+        "sv": "Före och efter, helgen, snart och senare, och verb för att träffas, skicka och ta med."
+      },
+      "canDo": {
+        "en": "Make plans and say what happened before and what comes next.",
+        "sv": "Göra upp planer och säga vad som hände innan och vad som händer sen."
+      }
     }
   ]
 }
