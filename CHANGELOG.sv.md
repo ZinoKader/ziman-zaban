@@ -4,6 +4,7 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 
 ## 2026-11-16
 
+- Ljud: nästan alla persiska meningar, frågor och svar är nu inspelade av Essi, 886 nya klipp. Meningarna på sorani läses fortfarande av datorrösten.
 - Appen: texterna i menyer, övningar, grammatik och ordanteckningar är omskrivna så att de låter mer naturliga, framför allt på svenska.
 - Appen: Återkallning heter nu "Minnas", och knappen som rättar ditt svar heter "Rätta".
 - Frågor & svar: exempelsvaren blir inte längre felaktiga meningar som "Jag arbetar på Stockholm" eller "Imorgon är jag i hemma", och de börjar alltid med stor bokstav.
