@@ -2,6 +2,10 @@
 
 Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHANGELOG.md](CHANGELOG.md). Följ [skillen för ändringsloggen](.cursor/skills/changelog/SKILL.md) när du lägger till något.
 
+## 2026-11-17
+
+- Ord: alla ord har nu en ikon. Tal visar sina siffror, färger en droppe färg och familjeord små figurer, till exempel en mamma med sitt barn.
+
 ## 2026-11-16
 
 - Appen: ny logotyp. Den är bokstaven ز, som både ziman och zabân börjar med, med pricken i orange. Samma prick står mitt i namnet.

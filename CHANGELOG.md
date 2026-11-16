@@ -2,6 +2,10 @@
 
 What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelog skill](.cursor/skills/changelog/SKILL.md).
 
+## 2026-11-17
+
+- Words: every word now has an icon. Numbers show their digits, colours a drop of paint, and family words small figures, like a mother with her child.
+
 ## 2026-11-16
 
 - App: a new logo. It is the letter ز, which starts both ziman and zabân, with its dot in orange. The same dot sits in the middle of the name.
