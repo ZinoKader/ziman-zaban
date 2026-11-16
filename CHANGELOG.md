@@ -4,6 +4,9 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 
 ## 2026-11-16
 
+- Words: ten new units add about 300 words to each language: "Body & health", "Clothes & shopping", "Weather & seasons", "Nature & animals", "Cooking & eating out", "Around the house", "Travel & the town", "Work & study", "People & feelings" and "Time & plans". They come after "Keeping a conversation going" and are a step up in level.
+- Progress: new medals at 300, 400 and 500 learned words.
+- Picture recognition: nine photos from the market and the pantry, like the tomato and the honey, now use the word and notes from the new units.
 - Audio: almost every Persian sentence, question and answer is now recorded by Essi, 886 new clips in all. Sorani sentences still use the computer voice.
 - App: the text in menus, exercises, grammar notes and word notes is rewritten to read more naturally, most of all in Swedish.
 - App: in Swedish, Recall is now called "Minnas" and the button that checks your answer says "Rätta".
