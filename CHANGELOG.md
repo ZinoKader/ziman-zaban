@@ -4,6 +4,9 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 
 ## 2026-11-16
 
+- App: new colours, taken from a dining room in smoked oak with linen and a pale oak floor. Dark mode uses the same browns.
+- App: the home page has less on it. The course card shows how many words you know, today's reviews and one button. Each step of the path shows how many words are due and new, and a large letter from its name in Persian or Sorani. The bars for each module are on the Progress page.
+- Module pages: the numbers are no longer in boxes, and "Why this works" opens when you tap it.
 - Words: ten new units add about 300 words to each language: "Body & health", "Clothes & shopping", "Weather & seasons", "Nature & animals", "Cooking & eating out", "Around the house", "Travel & the town", "Work & study", "People & feelings" and "Time & plans". They come after "Keeping a conversation going" and are a step up in level.
 - Progress: new medals at 300, 400 and 500 learned words.
 - Picture recognition: nine photos from the market and the pantry, like the tomato and the honey, now use the word and notes from the new units.
@@ -22,7 +25,7 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - App: after "Continue", the next question starts at the top of the screen. Before, the page stopped a little way down.
 - App: the top bar no longer runs past the edge of laptop screens. Picture recognition is in it only on very wide screens.
 - App: when you pick an answer, it fills with green or red from where you tapped, and a check or a cross draws itself next to it. The next question slides in, and at the end of a session the numbers count up. If reduced motion is turned on in your device settings, things fade in without moving.
-- App: on computers the home page uses the full width, and the four steps of the path are joined by a line. The line is solid once the next step is open.
+- App: on computers the home page uses the full width.
 
 ## 2026-11-14
 
