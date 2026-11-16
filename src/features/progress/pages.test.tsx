@@ -88,7 +88,7 @@ describe('HomePage', () => {
     expect(screen.getByText('Nothing to review right now. How about a few new words?')).toBeInTheDocument()
   })
 
-  it('shows the course bar, module bars, today and streak', () => {
+  it('shows the course bar, today and streak', () => {
     seed()
     renderAt('/', <HomePage />)
     expect(screen.getByRole('heading', { name: 'Your Sorani course' })).toBeInTheDocument()
@@ -97,9 +97,7 @@ describe('HomePage', () => {
     expect(screen.getByText(`${Math.round((3 / total) * 100)}%`)).toBeInTheDocument()
     const course = screen.getByRole('progressbar', { name: `You know 3 of ${total} words` })
     expect(course).toHaveAttribute('aria-valuenow', '3')
-    expect(screen.getByRole('progressbar', { name: `Recognition: 3 of ${total} learned` })).toBeInTheDocument()
-    expect(screen.getByText(`3/${total} · 2 in progress`)).toBeInTheDocument()
-    expect(screen.getAllByRole('progressbar', { name: /: 0 of \d+ learned/ })).toHaveLength(4)
+    expect(screen.getAllByRole('progressbar')).toHaveLength(1)
     expect(screen.getByText('8 reviews done')).toBeInTheDocument()
     expect(screen.getByText('2-day streak')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /See all progress/ })).toHaveAttribute('href', '/progress')

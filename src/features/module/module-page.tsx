@@ -1,8 +1,8 @@
-import { CalendarClock, Lightbulb, Lock, Play } from 'lucide-react'
+import { Lock, Play } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
+import { Disclosure } from '@/components/disclosure'
 import { units } from '@/content'
 import { pictureAreas } from '@/content/pictures'
 import { defineStrings, useLocalize } from '@/i18n'
@@ -127,52 +127,50 @@ export function ModulePage() {
   const outlook = useMemo(() => (meta ? reviewOutlook(cards, lang, meta.skill, now) : null), [meta, lang, cards, now])
 
   if (!meta || !outlook || !status) return <Navigate to="/" replace />
-  const Icon = meta.icon
   const canStart = status.due > 0 || status.available > 0
 
   return (
-    <div className="mx-auto max-w-4xl space-y-6 px-4 py-6 sm:py-10">
-      <section className={cn('rounded-3xl p-6 ring-1 sm:p-8', meta.soft, meta.ring)}>
-        <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
-          <span className={cn('grid size-14 shrink-0 place-items-center rounded-2xl text-white', meta.bg)}>
-            <Icon className="size-7" />
-          </span>
-          <div className="flex-1 space-y-2">
-            <h1 className="text-3xl font-semibold">{c.modules[meta.skill].title}</h1>
-            <p className="text-muted-foreground">{c.modules[meta.skill].description}</p>
-          </div>
-        </div>
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+    <div className="mx-auto max-w-4xl space-y-10 px-4 py-6 sm:py-10">
+      <section className="relative isolate overflow-hidden rounded-2xl border bg-card p-6 sm:p-8">
+        <span
+          aria-hidden
+          className={cn('pointer-events-none absolute -bottom-8 end-6 -z-10 font-poster text-[9rem] leading-none sm:-bottom-10 sm:end-10 sm:text-[12rem]', meta.text)}
+        >
+          {meta.letter[lang]}
+        </span>
+        <h1 className="text-3xl font-semibold tracking-tight">{c.modules[meta.skill].title}</h1>
+        <p className="mt-2 max-w-[46ch] text-muted-foreground">{c.modules[meta.skill].description}</p>
+        <dl className="mt-7 flex flex-wrap gap-x-8 gap-y-3">
           {[
             [s.due, status.due],
             [s.available, status.available],
             [s.learned, status.learned],
             [s.total, status.total],
           ].map(([label, value]) => (
-            <div key={label as string} className="rounded-2xl bg-card/80 px-4 py-3">
-              <div className="text-2xl font-semibold tabular-nums">{value}</div>
-              <div className="text-xs text-muted-foreground">{label}</div>
+            <div key={label as string} className="flex flex-col-reverse">
+              <dt className="text-sm text-muted-foreground">{label}</dt>
+              <dd className="text-2xl font-medium tabular-nums">{value}</dd>
             </div>
           ))}
-        </div>
+        </dl>
         <Meter
           learned={status.learned}
           learning={status.started - status.learned}
           total={status.total}
           tone={meta.skill}
-          size="sm"
+          size="xs"
           label={`${s.learned}: ${status.learned}/${status.total}`}
-          className="mt-4 bg-card/80"
+          className="mt-5 max-w-md"
         />
-        <div className="mt-6">
+        <div className="mt-7">
           {canStart ? (
-            <Button asChild size="xl" className={cn('w-full text-white sm:w-auto', meta.bg)}>
+            <Button asChild size="xl" className="w-full sm:w-auto">
               <Link to={`/learn/${meta.slug}/session`}>
                 <Play /> {s.start}
               </Link>
             </Button>
           ) : (
-            <p className="flex items-start gap-2 text-sm text-muted-foreground">
+            <p className="flex max-w-[46ch] items-start gap-2 text-sm text-muted-foreground">
               <Lock className="mt-0.5 size-4 shrink-0" />
               {s.lockedHint[meta.skill] || s.nothing}
             </p>
@@ -180,52 +178,41 @@ export function ModulePage() {
         </div>
       </section>
 
-      <section className="flex gap-3 rounded-2xl border bg-card p-5">
-        <CalendarClock className={cn('mt-0.5 size-5 shrink-0', meta.text)} />
-        <div className="min-w-0 flex-1 space-y-3">
+      <section className="space-y-4">
+        <h2 className="text-lg font-medium">{s.reviews}</h2>
+        {status.started > 0 && (
           <div>
-            <h2 className="font-medium">{s.reviews}</h2>
-            <p className="mt-1 max-w-[56ch] text-sm leading-relaxed text-muted-foreground">{s.reviewsBody}</p>
+            <h3 className="text-sm text-muted-foreground">{s.comingBack}</h3>
+            <dl className="mt-1.5 flex flex-wrap gap-x-8 gap-y-2">
+              {(
+                [
+                  [s.laterToday, outlook.laterToday],
+                  [s.tomorrow, outlook.tomorrow],
+                  [s.thisWeek, outlook.thisWeek],
+                  [s.later, outlook.later],
+                ] as const
+              ).map(([label, value]) => (
+                <div key={label} className="flex flex-col-reverse">
+                  <dt className="text-sm text-muted-foreground">{label}</dt>
+                  <dd className="text-xl font-medium tabular-nums">{value}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
-          {status.started > 0 && (
-            <div>
-              <h3 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{s.comingBack}</h3>
-              <dl className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
-                {(
-                  [
-                    [s.laterToday, outlook.laterToday],
-                    [s.tomorrow, outlook.tomorrow],
-                    [s.thisWeek, outlook.thisWeek],
-                    [s.later, outlook.later],
-                  ] as const
-                ).map(([label, value]) => (
-                  <div key={label} className="flex flex-col-reverse rounded-xl bg-muted/60 px-3 py-2">
-                    <dt className="text-xs text-muted-foreground">{label}</dt>
-                    <dd className="text-lg font-semibold tabular-nums">{value}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          )}
-          <p className="max-w-[56ch] text-sm leading-relaxed text-muted-foreground">{s.afterAll[meta.skill](status.total)}</p>
-        </div>
-      </section>
-
-      <section className="flex gap-3 rounded-2xl border bg-card p-5">
-        <Lightbulb className={cn('mt-0.5 size-5 shrink-0', meta.text)} />
-        <div>
-          <h2 className="font-medium">{s.why}</h2>
-          <p className="mt-1 max-w-[56ch] text-sm leading-relaxed text-muted-foreground">{why[meta.skill]}</p>
-        </div>
+        )}
+        <p className="max-w-[60ch] text-sm leading-relaxed text-muted-foreground">{s.reviewsBody}</p>
+        <p className="max-w-[60ch] text-sm leading-relaxed text-muted-foreground">{s.afterAll[meta.skill](status.total)}</p>
+        <Disclosure label={s.why} className="max-w-[60ch]">
+          <p className="text-sm leading-relaxed text-muted-foreground">{why[meta.skill]}</p>
+        </Disclosure>
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-lg font-semibold">{meta.skill === 'pictures' ? s.byArea : s.byUnit}</h2>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <h2 className="text-lg font-medium">{meta.skill === 'pictures' ? s.byArea : s.byUnit}</h2>
+        <ul className="grid rounded-2xl border bg-card sm:grid-cols-2">
           {perUnit.map(({ unit, total, learned, started, unlocked }) => (
-            <Card key={unit.id} className="py-4">
-              <CardContent className="flex items-center gap-3 px-4">
-                <span className="text-2xl" aria-hidden>{unit.emoji}</span>
+            <li key={unit.id} className="border-b last:border-b-0 sm:[&:nth-last-child(2):nth-child(odd)]:border-b-0 sm:odd:border-e">
+              <div className="flex items-center gap-3 py-3 ps-5 pe-3">
                 <div className="min-w-0 flex-1 space-y-1.5">
                   <div className="flex items-baseline justify-between gap-2">
                     <h3 className="truncate font-medium">{l(unit.title)}</h3>
@@ -253,10 +240,10 @@ export function ModulePage() {
                     </span>
                   )}
                 </Button>
-              </CardContent>
-            </Card>
+              </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
     </div>
   )

@@ -81,7 +81,6 @@ export function SaveIndicator({ className }: { className?: string }) {
           )}
         >
           <Icon key={saves} className={cn('size-4 shrink-0', ok && 'text-success', flash && 'animate-pop-in')} />
-          <span className="hidden xl:inline">{label}</span>
         </button>
       </PopoverTrigger>
       <PopoverContent align="end" className="w-72 space-y-3">

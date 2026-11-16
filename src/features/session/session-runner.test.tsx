@@ -126,7 +126,7 @@ describe('SessionRunner', () => {
       </MemoryRouter>,
     )
     expect(screen.getByRole('progressbar', { name: `You know 6 of ${total} words` })).toBeInTheDocument()
-    expect(screen.getByRole('progressbar', { name: `Recognition: 6 of ${total} learned` })).toBeInTheDocument()
+    expect(screen.getByText(`${Math.round((6 / total) * 100)}%`)).toBeInTheDocument()
   })
 
   it('keeps a missed word in progress until it is answered right twice', () => {

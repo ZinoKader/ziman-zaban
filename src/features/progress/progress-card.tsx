@@ -1,4 +1,4 @@
-import { CalendarCheck, ChartNoAxesColumn, Flame } from 'lucide-react'
+import { ChevronRight, Flame } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link } from 'react-router'
 import type { TargetLang } from '@/content/types'
@@ -14,40 +14,48 @@ import { progressStrings } from './strings'
 const EMPTY = { learned: 0, learning: 0 }
 
 interface CourseSummaryProps {
-  lang: TargetLang
   course: Bar
   size?: 'md' | 'lg'
   /** Fill the meter from empty when it first shows. */
   grow?: boolean
 }
 
-export function CourseSummary({ lang, course, size = 'lg', grow }: CourseSummaryProps) {
+export function CourseSummary({ course, size = 'lg', grow }: CourseSummaryProps) {
   const s = progressStrings.use()
-  const c = common.use()
   const started = course.learned + course.learning > 0
+  const note = started ? (course.learning > 0 ? s.onTheWay(course.learning) : '') : s.notStarted
+  const meter = (
+    <Meter
+      learned={course.learned}
+      learning={course.learning}
+      total={course.total}
+      size={size === 'lg' ? 'sm' : 'md'}
+      label={s.know(course.learned, course.total)}
+      from={grow ? EMPTY : undefined}
+    />
+  )
+  if (size === 'lg') {
+    return (
+      <div className="space-y-3">
+        <p className="text-2xl font-medium tracking-tight sm:text-3xl">{s.know(course.learned, course.total)}</p>
+        {meter}
+        <div className="flex justify-between gap-3 text-sm text-muted-foreground">
+          <span>{note}</span>
+          <span className="tabular-nums">{pct(course.learned, course.total)}%</span>
+        </div>
+      </div>
+    )
+  }
   return (
     <div className="space-y-2.5">
       <div className="flex items-end justify-between gap-3">
         <div className="min-w-0">
-          <p className={cn('font-semibold', size === 'lg' ? 'text-xl sm:text-2xl' : 'text-lg')}>
-            {s.know(course.learned, course.total)}
-          </p>
-          <p className="text-sm text-muted-foreground">
-            {started ? (course.learning > 0 ? s.onTheWay(course.learning) : c.languages[lang]) : s.notStarted}
-          </p>
+          <p className="text-lg font-medium">{s.know(course.learned, course.total)}</p>
+          {note && <p className="text-sm text-muted-foreground">{note}</p>}
         </div>
-        <span className={cn('shrink-0 font-semibold tabular-nums text-primary', size === 'lg' ? 'text-3xl sm:text-4xl' : 'text-2xl')}>
-          {pct(course.learned, course.total)}%
-        </span>
+        <span className="shrink-0 text-2xl font-medium tabular-nums">{pct(course.learned, course.total)}%</span>
       </div>
-      <Meter
-        learned={course.learned}
-        learning={course.learning}
-        total={course.total}
-        size={size === 'lg' ? 'lg' : 'md'}
-        label={s.know(course.learned, course.total)}
-        from={grow ? EMPTY : undefined}
-      />
+      {meter}
       {course.learning > 0 && (
         <div className="flex gap-4 text-xs text-muted-foreground">
           <span className="flex items-center gap-1.5">
@@ -121,7 +129,7 @@ interface ProgressCardProps {
   action?: React.ReactNode
 }
 
-/** The home page headline: how much of the course is known, per module, and today. */
+/** The home page headline: how much of the course is known, and today. */
 export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
   const s = progressStrings.use()
   const c = common.use()
@@ -137,50 +145,41 @@ export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
   return (
     <section
       aria-labelledby="course-title"
-      className="@container grid animate-pop-in gap-5 rounded-3xl border bg-card p-5 shadow-xs sm:p-7 @4xl:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] @4xl:gap-x-10"
+      className="grid animate-pop-in gap-6 rounded-2xl border bg-card p-6 sm:p-8 md:grid-cols-[minmax(0,1fr)_auto] md:gap-x-16"
     >
-      <div className="flex items-start justify-between gap-3 @4xl:col-span-2">
-        <div>
-          {greeting && (
-            <p lang={lang} dir="rtl" className="w-fit font-script text-3xl leading-tight text-primary">
-              {greeting}
-            </p>
-          )}
-          <h1 id="course-title" className="text-sm font-medium text-muted-foreground">
+      {greeting && (
+        <p
+          lang={lang}
+          dir="rtl"
+          className="w-fit font-poster text-7xl leading-none text-primary md:order-last md:self-center md:pe-6 md:text-[8.5rem]"
+        >
+          {greeting}
+        </p>
+      )}
+      <div className="max-w-xl space-y-6">
+        <div className="flex items-baseline justify-between gap-3">
+          <h1 id="course-title" className="text-sm text-muted-foreground">
             {s.courseTitle(c.languagesShort[lang])}
           </h1>
+          <Link
+            to="/progress"
+            className="-me-2 flex shrink-0 items-center gap-1 rounded-full px-2 py-1 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+          >
+            {s.seeAll} <ChevronRight className="size-4 rtl:rotate-180" />
+          </Link>
         </div>
-        <Link
-          to="/progress"
-          className="flex shrink-0 items-center gap-1 rounded-full px-2 py-1 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
-        >
-          <ChartNoAxesColumn className="size-4" /> {s.seeAll}
-        </Link>
+        <CourseSummary course={course} grow />
+        <p className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
+          <span>
+            {s.today}: <span>{s.reviewsDone(today)}</span>
+          </span>
+          <span className={cn(due > 0 && 'font-medium text-foreground')}>{s.dueNow(due)}</span>
+          <span className="flex items-center gap-1">
+            <Flame className={cn('size-3.5', currentStreak && 'text-mod-recognition')} /> {s.streak(currentStreak)}
+          </span>
+        </p>
+        {action}
       </div>
-
-      <CourseSummary lang={lang} course={course} grow />
-
-      <ModuleBars modules={modules} grow className="@4xl:row-span-3 @4xl:grid-cols-1 @4xl:content-start @4xl:border-s @4xl:ps-10" />
-
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t pt-4 text-sm">
-        <span className="flex items-center gap-1.5">
-          <CalendarCheck className="size-4 text-muted-foreground" />
-          <span className="font-medium">{s.today}:</span> {s.reviewsDone(today)}
-        </span>
-        <span className={cn('rounded-full px-2.5 py-0.5 text-xs font-medium', due ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground')}>
-          {s.dueNow(due)}
-        </span>
-        <span
-          className={cn(
-            'flex items-center gap-1 font-medium',
-            currentStreak ? 'text-orange-600 dark:text-orange-400' : 'text-muted-foreground',
-          )}
-        >
-          <Flame className="size-4" /> {s.streak(currentStreak)}
-        </span>
-      </div>
-
-      {action}
     </section>
   )
 }

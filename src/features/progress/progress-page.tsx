@@ -56,7 +56,7 @@ function LanguageCourse({ lang, current, badge }: { lang: TargetLang; current: b
         </CardTitle>
       </CardHeader>
       <CardContent className="@container space-y-5">
-        <CourseSummary lang={lang} course={course} size="md" />
+        <CourseSummary course={course} size="md" />
         <ModuleBars modules={modules} linked={current} />
         {!current && (
           <Button variant="outline" onClick={() => set({ targetLang: lang })}>

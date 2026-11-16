@@ -1,5 +1,5 @@
 import { BookOpenCheck, Brain, Blocks, Images, MessagesSquare, type LucideIcon } from 'lucide-react'
-import type { Skill } from '@/content/types'
+import type { Skill, TargetLang } from '@/content/types'
 import { defineStrings } from '@/i18n'
 
 export interface ModuleMeta {
@@ -12,6 +12,8 @@ export interface ModuleMeta {
   text: string
   soft: string
   ring: string
+  /** The first letter of the module's name in each language, drawn large on its card. */
+  letter: Record<TargetLang, string>
 }
 
 export type PathSkill = Exclude<Skill, 'pictures'>
@@ -32,6 +34,7 @@ export const MODULES: PathModule[] = [
     text: 'text-mod-recognition',
     soft: 'bg-mod-recognition/10',
     ring: 'ring-mod-recognition/30',
+    letter: { fa: 'ش', ckb: 'ن' }, // شناختن, ناسینەوە
   },
   {
     skill: 'recall',
@@ -42,6 +45,7 @@ export const MODULES: PathModule[] = [
     text: 'text-mod-recall',
     soft: 'bg-mod-recall/12',
     ring: 'ring-mod-recall/30',
+    letter: { fa: 'ی', ckb: 'ب' }, // یادآوری, بیرهێنانەوە
   },
   {
     skill: 'construction',
@@ -52,6 +56,7 @@ export const MODULES: PathModule[] = [
     text: 'text-mod-construction',
     soft: 'bg-mod-construction/10',
     ring: 'ring-mod-construction/30',
+    letter: { fa: 'ج', ckb: 'ڕ' }, // جمله‌سازی, ڕستەسازی
   },
   {
     skill: 'response',
@@ -62,6 +67,7 @@ export const MODULES: PathModule[] = [
     text: 'text-mod-response',
     soft: 'bg-mod-response/10',
     ring: 'ring-mod-response/30',
+    letter: { fa: 'پ', ckb: 'پ' }, // پرسش و پاسخ, پرسیار و وەڵام
   },
 ]
 
@@ -73,6 +79,7 @@ export const PICTURES_MODULE: ModuleMeta = {
   text: 'text-mod-pictures',
   soft: 'bg-mod-pictures/10',
   ring: 'ring-mod-pictures/30',
+    letter: { fa: 'ت', ckb: 'و' }, // تصویر, وێنە
 }
 
 export const ALL_MODULES: ModuleMeta[] = [...MODULES, PICTURES_MODULE]

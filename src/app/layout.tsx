@@ -185,7 +185,7 @@ export function AppLayout() {
           <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
             <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-4 2xl:max-w-7xl">
               <NavLink to="/" className="flex items-center gap-2 font-semibold">
-                <span className="grid size-8 place-items-center rounded-xl bg-primary text-primary-foreground font-script text-lg" aria-hidden>
+                <span className="grid size-8 place-items-center rounded-lg bg-primary pt-1 font-poster text-xl text-primary-foreground" aria-hidden>
                   ز
                 </span>
                 <span className="hidden sm:inline lg:hidden xl:inline">{s.appName}</span>
@@ -193,7 +193,7 @@ export function AppLayout() {
               <nav className="ms-2 hidden items-center gap-1 lg:flex xl:ms-4">
                 {ALL_MODULES.map((m) => (
                   <TopLink key={m.slug} to={`/learn/${m.slug}`} className={cn(!m.step && 'hidden 2xl:flex')}>
-                    <m.icon className={cn('size-4', m.text)} />
+                    <m.icon className="size-4" />
                     {s.nav[m.skill]}
                   </TopLink>
                 ))}
@@ -262,7 +262,7 @@ export function AppLayout() {
                 <TabLink
                   key={m.slug}
                   to={`/learn/${m.slug}`}
-                  icon={(active) => <m.icon className={cn('size-5', active && m.text)} />}
+                  icon={<m.icon className="size-5" />}
                   label={s.nav[m.skill]}
                 />
               ))}
