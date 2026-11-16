@@ -10,6 +10,7 @@ import { soundLabel, type Letter } from './letters'
 import { ScriptRich } from './script-bits'
 import { contextualForms, type LetterExample } from './script'
 import { alphabetStrings } from './strings'
+import { ContentIcon } from '@/components/content-icon'
 
 interface LetterDetailProps {
   letter: Letter
@@ -86,11 +87,7 @@ export function LetterDetail({ letter, lang, example, className }: LetterDetailP
         <h3 className="mb-2 text-xs font-medium tracking-wide text-muted-foreground uppercase">{s.detail.example}</h3>
         {example ? (
           <div className="flex flex-col items-center gap-2 rounded-2xl border bg-card px-4 py-4">
-            {example.concept.emoji && (
-              <span className="text-2xl" aria-hidden>
-                {example.concept.emoji}
-              </span>
-            )}
+            {example.concept.icon && <ContentIcon name={example.concept.icon} strokeWidth={1.5} className="size-7 text-muted-foreground" />}
             <TargetText
               lang={lang}
               text={example.form.script}

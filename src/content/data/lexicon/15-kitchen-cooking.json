@@ -5,7 +5,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🥦",
+      "icon": "leafy-green",
       "gloss": { "en": "vegetable", "sv": "grönsak", "enAlt": ["vegetables"], "svAlt": ["grönsaker"] },
       "cognate": true,
       "ckb": {
@@ -30,7 +30,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🥔",
       "gloss": { "en": "potato", "sv": "potatis", "enAlt": ["potatoes"], "svAlt": ["potatisar"] },
       "ckb": {
         "primary": { "script": "پەتاتە", "latin": "petate" },
@@ -54,7 +53,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍅",
       "gloss": { "en": "tomato", "sv": "tomat", "enAlt": ["tomatoes"], "svAlt": ["tomater"] },
       "ckb": {
         "primary": { "script": "تەماتە", "latin": "temate" },
@@ -79,7 +77,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧅",
       "gloss": { "en": "onion", "sv": "lök", "enAlt": ["onions"], "svAlt": ["gul lök", "lökar"] },
       "cognate": true,
       "ckb": {
@@ -101,7 +98,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🥒",
       "gloss": { "en": "cucumber", "sv": "gurka", "enAlt": ["cucumbers"], "svAlt": ["gurkor"] },
       "cognate": true,
       "ckb": {
@@ -123,7 +119,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🥕",
+      "icon": "carrot",
       "gloss": { "en": "carrot", "sv": "morot", "enAlt": ["carrots"], "svAlt": ["morötter"] },
       "ckb": {
         "primary": { "script": "گێزەر", "latin": "gêzer" },
@@ -147,7 +143,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧄",
       "gloss": { "en": "garlic", "sv": "vitlök" },
       "cognate": true,
       "ckb": {
@@ -172,7 +167,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍊",
+      "icon": "citrus",
       "gloss": { "en": "orange", "sv": "apelsin", "enAlt": ["oranges"], "svAlt": ["apelsiner"] },
       "senseNote": { "en": "the fruit", "sv": "frukten" },
       "cognate": true,
@@ -198,7 +193,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍌",
+      "icon": "banana",
       "gloss": { "en": "banana", "sv": "banan", "enAlt": ["bananas"], "svAlt": ["bananer"] },
       "cognate": true,
       "ckb": {
@@ -220,7 +215,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍇",
+      "icon": "grape",
       "gloss": { "en": "grape", "sv": "vindruva", "enAlt": ["grapes"], "svAlt": ["druva", "vindruvor", "druvor"] },
       "ckb": {
         "primary": { "script": "ترێ", "latin": "trê" },
@@ -241,7 +236,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍉",
       "gloss": { "en": "watermelon", "sv": "vattenmelon" },
       "ckb": {
         "primary": { "script": "شووتی", "latin": "şûtî" },
@@ -263,7 +257,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍋",
       "gloss": { "en": "lemon", "sv": "citron", "enAlt": ["lemons"], "svAlt": ["citroner"] },
       "cognate": true,
       "ckb": {
@@ -289,7 +282,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧃",
       "gloss": { "en": "juice", "sv": "juice", "enAlt": ["fruit juice"], "svAlt": ["jos", "fruktjuice"] },
       "ckb": {
         "primary": { "script": "شەربەت", "latin": "şerbet" },
@@ -314,7 +306,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🥣",
+      "icon": "soup",
       "gloss": { "en": "soup", "sv": "soppa" },
       "ckb": {
         "primary": { "script": "شۆربە", "latin": "şorbe" },
@@ -374,7 +366,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧈",
       "gloss": { "en": "butter", "sv": "smör" },
       "cognate": true,
       "ckb": {
@@ -399,7 +390,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍯",
       "gloss": { "en": "honey", "sv": "honung" },
       "ckb": {
         "primary": { "script": "هەنگوین", "latin": "hengwîn" },
@@ -446,7 +436,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🥄",
       "gloss": { "en": "spoon", "sv": "sked" },
       "ckb": {
         "primary": { "script": "کەوچک", "latin": "kewçik" },
@@ -492,7 +481,6 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🔪",
       "gloss": { "en": "knife", "sv": "kniv" },
       "cognate": true,
       "ckb": {
@@ -595,7 +583,7 @@
       "unit": "kitchen-cooking",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🍭",
+      "icon": "lollipop",
       "gloss": { "en": "sweet", "sv": "söt", "svAlt": ["sött", "söta"] },
       "cognate": true,
       "ckb": {
@@ -668,7 +656,6 @@
       "unit": "kitchen-cooking",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🌶️",
       "gloss": { "en": "spicy", "sv": "stark", "enAlt": ["hot"], "svAlt": ["starkt", "kryddstark", "het"] },
       "senseNote": { "en": "hot with chili", "sv": "het av chili" },
       "ckb": {
@@ -724,7 +711,7 @@
       "unit": "kitchen-cooking",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧾",
+      "icon": "receipt",
       "gloss": { "en": "bill", "sv": "nota", "enAlt": ["check"], "svAlt": ["notan", "räkning", "räkningen"] },
       "senseNote": { "en": "at a restaurant", "sv": "på restaurang" },
       "ckb": {

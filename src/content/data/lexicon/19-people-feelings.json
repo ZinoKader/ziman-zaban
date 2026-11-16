@@ -5,7 +5,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👥",
+      "icon": "users",
       "gloss": { "en": "people", "sv": "människor", "svAlt": ["folk"] },
       "ckb": {
         "primary": { "script": "خەڵک", "latin": "xełk" },
@@ -29,7 +29,6 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👦",
       "gloss": { "en": "boy", "sv": "pojke", "svAlt": ["kille", "grabb"] },
       "ckb": {
         "primary": { "script": "کوڕ", "latin": "kuř" },
@@ -53,7 +52,6 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👧",
       "gloss": { "en": "girl", "sv": "flicka", "svAlt": ["tjej"] },
       "ckb": {
         "primary": { "script": "کچ", "latin": "kiç" },
@@ -101,7 +99,6 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🦒",
       "gloss": { "en": "tall", "sv": "lång", "svAlt": ["långt", "långa"] },
       "senseNote": { "en": "of a person", "sv": "om en person" },
       "ckb": {
@@ -127,7 +124,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "💪",
+      "icon": "biceps-flexed",
       "gloss": { "en": "strong", "sv": "stark", "svAlt": ["starkt", "starka"] },
       "ckb": {
         "primary": { "script": "بەهێز", "latin": "behêz" },
@@ -199,7 +196,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😠",
+      "icon": "angry",
       "gloss": { "en": "angry", "sv": "arg", "enAlt": ["mad", "cross"], "svAlt": ["ilsken", "sur"] },
       "ckb": {
         "primary": { "script": "تووڕە", "latin": "tûře" },
@@ -223,7 +220,6 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😨",
       "gloss": { "en": "afraid", "sv": "rädd", "enAlt": ["scared", "frightened"], "svAlt": ["skrämd"] },
       "cognate": true,
       "ckb": {
@@ -248,7 +244,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😑",
+      "icon": "meh",
       "gloss": { "en": "bored", "sv": "uttråkad", "enAlt": ["fed up"], "svAlt": ["less"] },
       "ckb": {
         "primary": { "script": "بێزار", "latin": "bêzar" },
@@ -272,7 +268,6 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😟",
       "gloss": { "en": "worried", "sv": "orolig", "enAlt": ["anxious"], "svAlt": ["oroligt", "oroliga", "bekymrad"] },
       "cognate": true,
       "ckb": {
@@ -297,7 +292,6 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😮",
       "gloss": { "en": "surprised", "sv": "förvånad", "enAlt": ["amazed"], "svAlt": ["förvånat", "förvånade", "överraskad"] },
       "ckb": {
         "primary": { "script": "سەرسام", "latin": "sersam" },
@@ -347,7 +341,6 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😌",
       "gloss": { "en": "calm", "sv": "lugn", "enAlt": ["quiet"], "svAlt": ["lugnt", "lugna"] },
       "cognate": true,
       "ckb": {
@@ -373,7 +366,6 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🦥",
       "gloss": { "en": "lazy", "sv": "lat", "svAlt": ["lata"] },
       "cognate": true,
       "ckb": {
@@ -395,7 +387,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "💡",
+      "icon": "lightbulb",
       "gloss": { "en": "clever", "sv": "smart", "enAlt": ["smart", "intelligent", "bright"], "svAlt": ["klok", "intelligent", "begåvad"] },
       "ckb": {
         "primary": { "script": "زیرەک", "latin": "zîrek" },
@@ -420,7 +412,7 @@
       "unit": "people-feelings",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "😄",
+      "icon": "laugh",
       "gloss": { "en": "funny", "sv": "rolig", "enAlt": ["amusing"], "svAlt": ["roligt", "roliga", "kul", "lustig"] },
       "ckb": {
         "primary": { "script": "پێکەنیناوی", "latin": "pêkenînawî" },
@@ -445,7 +437,6 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💕",
       "gloss": { "en": "love", "sv": "kärlek", "svAlt": ["kärleken"] },
       "ckb": {
         "primary": { "script": "خۆشەویستی", "latin": "xoşewîstî" },
@@ -471,7 +462,6 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🥰",
       "gloss": { "en": "to love", "sv": "att älska", "enAlt": ["love"], "svAlt": ["älska"] },
       "ckb": {
         "primary": { "script": "خۆشویستن", "latin": "xoşwîstin" },
@@ -499,7 +489,6 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
-      "emoji": "😂",
       "gloss": { "en": "to laugh", "sv": "att skratta", "enAlt": ["laugh"], "svAlt": ["skratta"] },
       "ckb": {
         "primary": { "script": "پێکەنین", "latin": "pêkenîn" },
@@ -527,7 +516,6 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
-      "emoji": "😭",
       "gloss": { "en": "to cry", "sv": "att gråta", "enAlt": ["cry", "to weep", "weep"], "svAlt": ["gråta"] },
       "cognate": true,
       "ckb": {
@@ -557,7 +545,7 @@
       "unit": "people-feelings",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🤔",
+      "icon": "message-circle-question-mark",
       "gloss": { "en": "to think", "sv": "att tänka", "enAlt": ["think"], "svAlt": ["tänka", "tycka", "tro"] },
       "ckb": {
         "primary": { "script": "بیر کردنەوە", "latin": "bîr kirdinewe" },
@@ -639,7 +627,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌱",
+      "icon": "sprout",
       "gloss": { "en": "life", "sv": "liv", "svAlt": ["livet"] },
       "ckb": {
         "primary": { "script": "ژیان", "latin": "jiyan" },
@@ -663,7 +651,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🎂",
+      "icon": "cake",
       "gloss": { "en": "birthday", "sv": "födelsedag", "svAlt": ["födelsedagen"] },
       "ckb": {
         "primary": { "script": "ڕۆژی لەدایکبوون", "latin": "řojî ledaykbûn" },
@@ -687,7 +675,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🎉",
+      "icon": "party-popper",
       "gloss": { "en": "party", "sv": "fest", "enAlt": ["celebration"], "svAlt": ["festen", "kalas", "party"] },
       "senseNote": { "en": "a celebration", "sv": "ett firande" },
       "ckb": {
@@ -713,7 +701,7 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🎁",
+      "icon": "gift",
       "gloss": { "en": "gift", "sv": "present", "enAlt": ["present"], "svAlt": ["presenten", "gåva"] },
       "ckb": {
         "primary": { "script": "دیاری", "latin": "diyarî" },
@@ -738,7 +726,6 @@
       "unit": "people-feelings",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💒",
       "gloss": { "en": "wedding", "sv": "bröllop", "svAlt": ["bröllopet"] },
       "ckb": {
         "primary": { "script": "زەماوەند", "latin": "zemawend" },

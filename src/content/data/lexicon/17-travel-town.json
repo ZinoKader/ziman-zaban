@@ -5,7 +5,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🚆",
+      "icon": "train-front",
       "gloss": { "en": "train", "sv": "tåg" },
       "ckb": {
         "primary": { "script": "شەمەندەفەر", "latin": "şemendefer" },
@@ -30,7 +30,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🚉",
+      "icon": "train-track",
       "gloss": { "en": "station", "sv": "station", "enAlt": ["train station", "railway station"], "svAlt": ["tågstation", "järnvägsstation"] },
       "cognate": true,
       "ckb": {
@@ -56,7 +56,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🛩️",
+      "icon": "plane",
       "gloss": { "en": "plane", "sv": "flygplan", "enAlt": ["airplane", "aeroplane", "aircraft"], "svAlt": ["plan", "flyg"] },
       "senseNote": { "en": "that flies", "sv": "som flyger" },
       "ckb": {
@@ -82,7 +82,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏨",
+      "icon": "hotel",
       "gloss": { "en": "hotel", "sv": "hotell" },
       "cognate": true,
       "ckb": {
@@ -107,7 +107,6 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🛂",
       "gloss": { "en": "passport", "sv": "pass" },
       "cognate": true,
       "ckb": {
@@ -133,7 +132,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🗺️",
+      "icon": "map",
       "gloss": { "en": "map", "sv": "karta" },
       "cognate": true,
       "ckb": {
@@ -182,7 +181,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌉",
+      "icon": "bridge",
       "gloss": { "en": "bridge", "sv": "bro" },
       "ckb": {
         "primary": { "script": "پرد", "latin": "pird" },
@@ -206,7 +205,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏞️",
+      "icon": "trees",
       "gloss": { "en": "park", "sv": "park" },
       "cognate": true,
       "ckb": {
@@ -231,7 +230,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏦",
+      "icon": "landmark",
       "gloss": { "en": "bank", "sv": "bank" },
       "senseNote": { "en": "for money", "sv": "för pengar" },
       "cognate": true,
@@ -257,7 +256,6 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🕌",
       "gloss": { "en": "mosque", "sv": "moské" },
       "ckb": {
         "primary": { "script": "مزگەوت", "latin": "mizgewt" },
@@ -281,7 +279,6 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏛️",
       "gloss": { "en": "museum", "sv": "museum" },
       "ckb": {
         "primary": { "script": "مۆزەخانە", "latin": "mozexane" },
@@ -306,7 +303,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👮",
+      "icon": "shield-user",
       "gloss": { "en": "police", "sv": "polis", "enAlt": ["police officer", "policeman", "the police"], "svAlt": ["polisen"] },
       "cognate": true,
       "ckb": {
@@ -331,7 +328,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🚲",
+      "icon": "bike",
       "gloss": { "en": "bicycle", "sv": "cykel", "enAlt": ["bike"] },
       "ckb": {
         "primary": { "script": "پاسکیل", "latin": "paskîl" },
@@ -355,7 +352,7 @@
       "unit": "travel-town",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🌍",
+      "icon": "earth",
       "gloss": { "en": "to travel", "sv": "att resa", "enAlt": ["travel"], "svAlt": ["resa"] },
       "ckb": {
         "primary": { "script": "گەشت کردن", "latin": "geşt kirdin" },
@@ -410,7 +407,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧳",
+      "icon": "luggage",
       "gloss": { "en": "suitcase", "sv": "resväska", "enAlt": ["luggage"] },
       "ckb": {
         "primary": { "script": "جانتا", "latin": "canta" },
@@ -690,7 +687,7 @@
       "unit": "travel-town",
       "pos": "noun",
       "level": "A2",
-      "emoji": "📮",
+      "icon": "mailbox",
       "gloss": { "en": "post office", "sv": "postkontor", "svAlt": ["posten"] },
       "ckb": {
         "primary": { "script": "پۆستەخانە", "latin": "postexane" },

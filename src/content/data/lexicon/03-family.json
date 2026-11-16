@@ -5,7 +5,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👨‍👩‍👧‍👦",
+      "icon": "users",
       "gloss": { "en": "family", "sv": "familj" },
       "ckb": {
         "primary": { "script": "خێزان", "latin": "xêzan" },
@@ -37,7 +37,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👩",
       "gloss": { "en": "mother", "sv": "mamma", "enAlt": ["mum", "mom"], "svAlt": ["mor", "moder"] },
       "ckb": {
         "primary": { "script": "دایک", "latin": "dayk" },
@@ -63,7 +62,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👨",
       "gloss": { "en": "father", "sv": "pappa", "enAlt": ["dad"], "svAlt": ["far", "fader"] },
       "ckb": {
         "primary": { "script": "باوک", "latin": "bawk" },
@@ -89,7 +87,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👦",
       "gloss": { "en": "brother", "sv": "bror", "svAlt": ["broder", "brorsa"] },
       "cognate": true,
       "ckb": {
@@ -115,7 +112,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👧",
       "gloss": { "en": "sister", "sv": "syster", "svAlt": ["syrra"] },
       "cognate": true,
       "ckb": {
@@ -186,7 +182,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🧒",
       "gloss": { "en": "child", "sv": "barn", "enAlt": ["kid"], "svAlt": ["unge"] },
       "ckb": {
         "primary": { "script": "منداڵ", "latin": "mindał" },
@@ -214,7 +209,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👵",
       "gloss": { "en": "grandmother", "sv": "farmor / mormor", "enAlt": ["grandma"], "svAlt": ["farmor", "mormor"] },
       "ckb": {
         "primary": { "script": "داپیر", "latin": "dapîr" },
@@ -243,7 +237,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👴",
       "gloss": { "en": "grandfather", "sv": "farfar / morfar", "enAlt": ["grandpa"], "svAlt": ["farfar", "morfar"] },
       "ckb": {
         "primary": { "script": "باپیر", "latin": "bapîr" },
@@ -269,7 +262,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🤵",
       "gloss": { "en": "husband", "sv": "man", "svAlt": ["make"] },
       "ckb": {
         "primary": { "script": "مێرد", "latin": "mêrd" },
@@ -301,7 +293,6 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👰",
       "gloss": { "en": "wife", "sv": "fru", "svAlt": ["hustru", "maka"] },
       "cognate": true,
       "ckb": {
@@ -444,7 +435,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👶",
+      "icon": "baby",
       "gloss": { "en": "baby", "sv": "bebis", "svAlt": ["bäbis", "spädbarn"] },
       "ckb": {
         "primary": { "script": "کۆرپە", "latin": "korpe" },
@@ -469,7 +460,6 @@
       "unit": "family",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🤲",
       "gloss": { "en": "to have", "sv": "att ha", "svAlt": ["ha"] },
       "ckb": {
         "primary": { "script": "هەبوون", "latin": "hebûn" },
@@ -496,7 +486,7 @@
       "unit": "family",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "🔢",
+      "icon": "hash",
       "gloss": { "en": "how many", "sv": "hur många", "enAlt": ["how much"], "svAlt": ["hur mycket"] },
       "cognate": true,
       "ckb": {
@@ -522,7 +512,7 @@
       "unit": "family",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "💍",
+      "icon": "gem",
       "gloss": { "en": "married", "sv": "gift" },
       "ckb": {
         "primary": { "script": "خێزاندار", "latin": "xêzandar" },
@@ -547,7 +537,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "📅",
+      "icon": "calendar",
       "gloss": { "en": "year", "sv": "år" },
       "cognate": true,
       "ckb": {
@@ -572,7 +562,7 @@
       "unit": "family",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🎂",
+      "icon": "cake",
       "gloss": { "en": "age", "sv": "ålder" },
       "ckb": {
         "primary": { "script": "تەمەن", "latin": "temen" },
@@ -647,7 +637,6 @@
       "unit": "family",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "☝️",
       "gloss": { "en": "only", "sv": "bara", "enAlt": ["just"], "svAlt": ["endast", "enbart"] },
       "ckb": {
         "primary": { "script": "تەنها", "latin": "tenha" },

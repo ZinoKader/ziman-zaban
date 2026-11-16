@@ -5,7 +5,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "0️⃣",
       "gloss": { "en": "zero", "sv": "noll", "enAlt": ["0", "nought", "nil"], "svAlt": ["0"] },
       "cognate": true,
       "ckb": {
@@ -30,7 +29,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "1️⃣",
       "gloss": { "en": "one", "sv": "ett", "enAlt": ["1"], "svAlt": ["en", "1"] },
       "cognate": true,
       "ckb": {
@@ -63,7 +61,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "2️⃣",
       "gloss": { "en": "two", "sv": "två", "enAlt": ["2"], "svAlt": ["2"] },
       "cognate": true,
       "ckb": {
@@ -88,7 +85,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "3️⃣",
       "gloss": { "en": "three", "sv": "tre", "enAlt": ["3"], "svAlt": ["3"] },
       "cognate": true,
       "ckb": {
@@ -113,7 +109,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "4️⃣",
       "gloss": { "en": "four", "sv": "fyra", "enAlt": ["4"], "svAlt": ["4"] },
       "cognate": true,
       "ckb": {
@@ -139,7 +134,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "5️⃣",
       "gloss": { "en": "five", "sv": "fem", "enAlt": ["5"], "svAlt": ["5"] },
       "cognate": true,
       "ckb": {
@@ -164,7 +158,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "6️⃣",
       "gloss": { "en": "six", "sv": "sex", "enAlt": ["6"], "svAlt": ["6"] },
       "cognate": true,
       "ckb": {
@@ -184,7 +177,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "7️⃣",
       "gloss": { "en": "seven", "sv": "sju", "enAlt": ["7"], "svAlt": ["7"] },
       "cognate": true,
       "ckb": {
@@ -209,7 +201,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "8️⃣",
       "gloss": { "en": "eight", "sv": "åtta", "enAlt": ["8"], "svAlt": ["8"] },
       "cognate": true,
       "ckb": {
@@ -234,7 +225,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "9️⃣",
       "gloss": { "en": "nine", "sv": "nio", "enAlt": ["9"], "svAlt": ["9"] },
       "cognate": true,
       "ckb": {
@@ -256,7 +246,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "🔟",
       "gloss": { "en": "ten", "sv": "tio", "enAlt": ["10"], "svAlt": ["10"] },
       "cognate": true,
       "ckb": {
@@ -417,7 +406,6 @@
       "unit": "numbers-time",
       "pos": "numeral",
       "level": "A1",
-      "emoji": "💯",
       "gloss": { "en": "hundred", "sv": "hundra", "enAlt": ["one hundred", "a hundred", "100"], "svAlt": ["etthundra", "100"] },
       "cognate": true,
       "ckb": {
@@ -559,7 +547,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "☀️",
+      "icon": "sun",
       "gloss": { "en": "day", "sv": "dag" },
       "cognate": true,
       "ckb": {
@@ -584,7 +572,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🗓️",
+      "icon": "calendar-days",
       "gloss": { "en": "week", "sv": "vecka" },
       "cognate": true,
       "ckb": {
@@ -610,7 +598,6 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🌕",
       "gloss": { "en": "month", "sv": "månad" },
       "cognate": true,
       "ckb": {
@@ -635,7 +622,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🕐",
+      "icon": "clock-3",
       "gloss": { "en": "hour", "sv": "timme", "enAlt": ["o'clock", "clock"], "svAlt": ["klockan", "klocka"] },
       "ckb": {
         "primary": { "script": "کاتژمێر", "latin": "katjimêr" },
@@ -667,7 +654,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "⏱️",
+      "icon": "timer",
       "gloss": { "en": "minute", "sv": "minut" },
       "ckb": {
         "primary": { "script": "خولەک", "latin": "xulek" },
@@ -724,7 +711,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🌅",
+      "icon": "sunrise",
       "gloss": { "en": "morning", "sv": "morgon", "svAlt": ["förmiddag"] },
       "ckb": {
         "primary": { "script": "بەیانی", "latin": "beyanî" },
@@ -748,7 +735,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🌇",
+      "icon": "sunset",
       "gloss": { "en": "evening", "sv": "kväll", "svAlt": ["afton"] },
       "ckb": {
         "primary": { "script": "ئێوارە", "latin": "êware" },
@@ -772,7 +759,7 @@
       "unit": "numbers-time",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🌙",
+      "icon": "moon",
       "gloss": { "en": "night", "sv": "natt" },
       "cognate": true,
       "ckb": {

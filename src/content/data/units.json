@@ -3,7 +3,7 @@
     {
       "id": "greetings",
       "order": 1,
-      "emoji": "👋",
+      "icon": "hand",
       "title": { "en": "Greetings & courtesy", "sv": "Hälsningar & artighet" },
       "description": {
         "en": "Hello, goodbye, thank you, please, yes and no: the words you use in every conversation.",
@@ -17,7 +17,7 @@
     {
       "id": "me-and-you",
       "order": 2,
-      "emoji": "🙋",
+      "icon": "user-round",
       "title": { "en": "Me and you", "sv": "Jag och du" },
       "description": {
         "en": "Pronouns, names, where you are from, and the verb \"to be\".",
@@ -31,7 +31,7 @@
     {
       "id": "family",
       "order": 3,
-      "emoji": "👨‍👩‍👧",
+      "icon": "users",
       "title": { "en": "Family", "sv": "Familj" },
       "description": {
         "en": "Parents, siblings, children, and how to say what you have.",
@@ -45,7 +45,7 @@
     {
       "id": "numbers-time",
       "order": 4,
-      "emoji": "🔢",
+      "icon": "calendar-clock",
       "title": { "en": "Numbers & time", "sv": "Siffror & tid" },
       "description": {
         "en": "Counting, age, days, and talking about today, tomorrow and yesterday.",
@@ -59,7 +59,7 @@
     {
       "id": "food-drink",
       "order": 5,
-      "emoji": "🍞",
+      "icon": "utensils",
       "title": { "en": "Food & drink", "sv": "Mat & dryck" },
       "description": {
         "en": "Everyday food, tea, hunger and thirst, and saying what you want.",
@@ -73,7 +73,7 @@
     {
       "id": "home-daily",
       "order": 6,
-      "emoji": "🏠",
+      "icon": "house",
       "title": { "en": "Home & daily life", "sv": "Hem & vardag" },
       "description": {
         "en": "Your home, your day, going and coming, sleeping and working.",
@@ -87,7 +87,7 @@
     {
       "id": "places-travel",
       "order": 7,
-      "emoji": "🗺️",
+      "icon": "map",
       "title": { "en": "Places & getting around", "sv": "Platser & att ta sig fram" },
       "description": {
         "en": "The city, shops, school, directions, near and far.",
@@ -101,7 +101,7 @@
     {
       "id": "describing",
       "order": 8,
-      "emoji": "🎨",
+      "icon": "palette",
       "title": { "en": "Describing things & feelings", "sv": "Beskriva saker & känslor" },
       "description": {
         "en": "Big and small, hot and cold, colours, and how you feel.",
@@ -115,7 +115,7 @@
     {
       "id": "actions",
       "order": 9,
-      "emoji": "🏃",
+      "icon": "footprints",
       "title": { "en": "Everyday actions", "sv": "Vardagliga handlingar" },
       "description": {
         "en": "Speaking, understanding, knowing, seeing, giving and taking.",
@@ -129,7 +129,7 @@
     {
       "id": "conversation",
       "order": 10,
-      "emoji": "💬",
+      "icon": "messages-square",
       "title": { "en": "Keeping a conversation going", "sv": "Hålla igång ett samtal" },
       "description": {
         "en": "Question words, and, but, because, very, maybe: the glue of real conversation.",
@@ -143,7 +143,7 @@
     {
       "id": "body-health",
       "order": 11,
-      "emoji": "🩺",
+      "icon": "stethoscope",
       "title": { "en": "Body & health", "sv": "Kroppen & hälsan" },
       "description": {
         "en": "Parts of the body, pain, a fever, the pharmacy and the dentist.",
@@ -157,7 +157,7 @@
     {
       "id": "shopping-clothes",
       "order": 12,
-      "emoji": "🛍️",
+      "icon": "shopping-bag",
       "title": { "en": "Clothes & shopping", "sv": "Kläder & shopping" },
       "description": {
         "en": "Clothes, sizes and prices, paying by card or in cash, and the numbers up to a hundred.",
@@ -171,7 +171,7 @@
     {
       "id": "weather-seasons",
       "order": 13,
-      "emoji": "🌦️",
+      "icon": "cloud-sun",
       "title": { "en": "Weather & seasons", "sv": "Väder & årstider" },
       "description": {
         "en": "Sun, rain and snow, the four seasons, warm and cool, light and dark.",
@@ -185,7 +185,7 @@
     {
       "id": "nature-animals",
       "order": 14,
-      "emoji": "🐾",
+      "icon": "paw-print",
       "title": { "en": "Nature & animals", "sv": "Naturen & djuren" },
       "description": {
         "en": "Pets and farm animals, a few wild ones, trees and flowers, rivers, the sea and the forest.",
@@ -199,7 +199,7 @@
     {
       "id": "kitchen-cooking",
       "order": 15,
-      "emoji": "🍳",
+      "icon": "cooking-pot",
       "title": { "en": "Cooking & eating out", "sv": "Matlagning & restaurang" },
       "description": {
         "en": "Fruit and vegetables, plates and cutlery, sweet and sour, and ordering at a restaurant.",
@@ -213,7 +213,7 @@
     {
       "id": "around-the-house",
       "order": 16,
-      "emoji": "🛋️",
+      "icon": "sofa",
       "title": { "en": "Around the house", "sv": "Hemma" },
       "description": {
         "en": "The rooms and the furniture, things in the bathroom, neighbours and guests.",
@@ -227,7 +227,7 @@
     {
       "id": "travel-town",
       "order": 17,
-      "emoji": "🚆",
+      "icon": "train-front",
       "title": { "en": "Travel & the town", "sv": "Resor & staden" },
       "description": {
         "en": "Trains and planes, the hotel and your passport, the compass points and finding your way in town.",
@@ -241,7 +241,7 @@
     {
       "id": "work-study",
       "order": 18,
-      "emoji": "💼",
+      "icon": "briefcase",
       "title": { "en": "Work & study", "sv": "Jobb & studier" },
       "description": {
         "en": "Jobs, the office and colleagues, lessons, homework and exams.",
@@ -255,7 +255,7 @@
     {
       "id": "people-feelings",
       "order": 19,
-      "emoji": "🫶",
+      "icon": "heart-handshake",
       "title": { "en": "People & feelings", "sv": "Människor & känslor" },
       "description": {
         "en": "Boys and girls, what people are like, how you feel, and birthdays and weddings.",
@@ -269,7 +269,7 @@
     {
       "id": "time-plans",
       "order": 20,
-      "emoji": "🗓️",
+      "icon": "calendar-days",
       "title": { "en": "Time & plans", "sv": "Tid & planer" },
       "description": {
         "en": "Before and after, the weekend, soon and later, and verbs for meeting, sending and bringing.",

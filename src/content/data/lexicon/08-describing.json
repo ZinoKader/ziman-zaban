@@ -5,7 +5,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🐘",
+      "icon": "maximize-2",
       "gloss": { "en": "big", "sv": "stor", "enAlt": ["large"], "svAlt": ["stort", "stora"] },
       "ckb": {
         "primary": { "script": "گەورە", "latin": "gewre" },
@@ -37,7 +37,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🐭",
+      "icon": "minimize-2",
       "gloss": { "en": "small", "sv": "liten", "enAlt": ["little"], "svAlt": ["litet", "små"] },
       "ckb": {
         "primary": { "script": "بچووک", "latin": "biçûk" },
@@ -62,7 +62,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "👎",
+      "icon": "thumbs-down",
       "gloss": { "en": "bad", "sv": "dålig", "svAlt": ["dåligt", "dåliga"] },
       "ckb": {
         "primary": { "script": "خراپ", "latin": "xirap" },
@@ -87,7 +87,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🌸",
       "gloss": { "en": "beautiful", "sv": "vacker", "enAlt": ["pretty", "nice", "handsome"], "svAlt": ["fin", "snygg", "söt"] },
       "ckb": {
         "primary": { "script": "جوان", "latin": "ciwan" },
@@ -120,7 +119,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🆕",
+      "icon": "sparkle",
       "gloss": { "en": "new", "sv": "ny", "svAlt": ["nytt", "nya"] },
       "ckb": {
         "primary": { "script": "نوێ", "latin": "nwê" },
@@ -149,7 +148,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🏚️",
       "gloss": { "en": "old", "sv": "gammal", "svAlt": ["gammalt", "gamla"] },
       "senseNote": { "en": "of things", "sv": "om saker" },
       "ckb": {
@@ -175,7 +173,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🔥",
+      "icon": "flame",
       "gloss": { "en": "hot", "sv": "varm", "enAlt": ["warm"], "svAlt": ["het", "varmt"] },
       "cognate": true,
       "ckb": {
@@ -201,7 +199,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🥶",
+      "icon": "thermometer-snowflake",
       "gloss": { "en": "cold", "sv": "kall", "svAlt": ["kallt", "kalla"] },
       "cognate": true,
       "ckb": {
@@ -226,7 +224,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "😊",
+      "icon": "smile",
       "gloss": { "en": "happy", "sv": "glad", "enAlt": ["glad", "pleased"], "svAlt": ["lycklig", "nöjd"] },
       "ckb": {
         "primary": { "script": "دڵخۆش", "latin": "diłxoş" },
@@ -259,7 +257,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "😢",
+      "icon": "frown",
       "gloss": { "en": "sad", "sv": "ledsen", "enAlt": ["upset", "unhappy"], "svAlt": ["sorgsen", "upprörd"] },
       "ckb": {
         "primary": { "script": "خەمبار", "latin": "xembar" },
@@ -298,7 +296,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🥱",
       "gloss": { "en": "tired", "sv": "trött" },
       "ckb": {
         "primary": { "script": "ماندوو", "latin": "mandû" },
@@ -322,7 +319,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🤒",
+      "icon": "thermometer",
       "gloss": { "en": "sick", "sv": "sjuk", "enAlt": ["ill"], "svAlt": ["krasslig"] },
       "ckb": {
         "primary": { "script": "نەخۆش", "latin": "nexoş" },
@@ -371,7 +368,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🔴",
       "gloss": { "en": "red", "sv": "röd", "svAlt": ["rött", "röda"] },
       "ckb": {
         "primary": { "script": "سوور", "latin": "sûr" },
@@ -403,7 +399,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🔵",
       "gloss": { "en": "blue", "sv": "blå", "svAlt": ["blått", "blåa"] },
       "ckb": {
         "primary": { "script": "شین", "latin": "şîn" },
@@ -427,7 +422,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🟢",
       "gloss": { "en": "green", "sv": "grön", "svAlt": ["grönt", "gröna"] },
       "cognate": true,
       "ckb": {
@@ -449,7 +443,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "⚪",
       "gloss": { "en": "white", "sv": "vit", "svAlt": ["vitt", "vita"] },
       "cognate": true,
       "ckb": {
@@ -474,7 +467,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "⚫",
       "gloss": { "en": "black", "sv": "svart", "svAlt": ["svarta"] },
       "ckb": {
         "primary": { "script": "ڕەش", "latin": "řeş" },
@@ -505,7 +497,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🟡",
       "gloss": { "en": "yellow", "sv": "gul", "svAlt": ["gult", "gula"] },
       "cognate": true,
       "ckb": {
@@ -527,7 +518,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "👌",
       "gloss": { "en": "easy", "sv": "lätt", "enAlt": ["simple"], "svAlt": ["enkel", "enkelt"] },
       "cognate": true,
       "ckb": {
@@ -556,7 +546,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🧗",
       "gloss": { "en": "difficult", "sv": "svår", "enAlt": ["hard"], "svAlt": ["svårt", "svåra"] },
       "cognate": true,
       "ckb": {
@@ -589,7 +578,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🏷️",
+      "icon": "tag",
       "gloss": { "en": "cheap", "sv": "billig", "enAlt": ["inexpensive"], "svAlt": ["billigt", "billiga"] },
       "cognate": true,
       "ckb": {
@@ -615,7 +604,6 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "💰",
       "gloss": { "en": "expensive", "sv": "dyr", "svAlt": ["dyrt", "dyra"] },
       "cognate": true,
       "ckb": {
@@ -641,7 +629,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🧼",
+      "icon": "soap-dispenser-droplet",
       "gloss": { "en": "clean", "sv": "ren", "svAlt": ["rent", "rena"] },
       "ckb": {
         "primary": { "script": "خاوێن", "latin": "xawên" },
@@ -691,7 +679,7 @@
       "unit": "describing",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🎨",
+      "icon": "palette",
       "gloss": { "en": "color", "sv": "färg", "enAlt": ["colour"] },
       "cognate": true,
       "ckb": {
@@ -716,7 +704,7 @@
       "unit": "describing",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🌤️",
+      "icon": "cloud-sun",
       "gloss": { "en": "weather", "sv": "väder", "svAlt": ["vädret"] },
       "cognate": true,
       "ckb": {
@@ -741,7 +729,7 @@
       "unit": "describing",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "📈",
+      "icon": "trending-up",
       "gloss": { "en": "better", "sv": "bättre" },
       "ckb": {
         "primary": { "script": "باشتر", "latin": "baştir" },

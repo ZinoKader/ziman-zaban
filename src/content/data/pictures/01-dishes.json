@@ -2,7 +2,7 @@
   "area": {
     "id": "dishes",
     "order": 1,
-    "emoji": "🍲",
+    "icon": "soup",
     "title": {
       "en": "Dishes",
       "sv": "Maträtter"

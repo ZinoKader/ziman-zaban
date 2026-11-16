@@ -5,7 +5,7 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
-      "emoji": "👋",
+      "icon": "hand",
       "gloss": { "en": "hello", "sv": "hej", "enAlt": ["hi"], "svAlt": ["hallå", "hejsan"] },
       "cognate": true,
       "ckb": {
@@ -30,7 +30,7 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
-      "emoji": "🚶",
+      "icon": "footprints",
       "gloss": { "en": "goodbye", "sv": "hej då", "enAlt": ["bye"], "svAlt": ["adjö"] },
       "ckb": {
         "primary": { "script": "خوات لەگەڵ", "latin": "xwat legeł" },
@@ -56,7 +56,7 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
-      "emoji": "🙏",
+      "icon": "hand-heart",
       "gloss": { "en": "thank you", "sv": "tack", "enAlt": ["thanks"] },
       "cognate": true,
       "ckb": {
@@ -83,7 +83,6 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "💐",
       "gloss": { "en": "thank you very much", "sv": "tack så mycket", "enAlt": ["thanks a lot", "many thanks"], "svAlt": ["stort tack"] },
       "ckb": {
         "primary": { "script": "زۆر سوپاس", "latin": "zor supas" },
@@ -108,7 +107,6 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
-      "emoji": "🤲",
       "gloss": { "en": "please", "sv": "snälla", "svAlt": ["vänligen"] },
       "ckb": {
         "primary": { "script": "تکایە", "latin": "tikaye" },
@@ -128,7 +126,7 @@
       "unit": "greetings",
       "pos": "particle",
       "level": "A1",
-      "emoji": "✅",
+      "icon": "check",
       "gloss": { "en": "yes", "sv": "ja" },
       "ckb": {
         "primary": { "script": "بەڵێ", "latin": "bełê" },
@@ -154,7 +152,7 @@
       "unit": "greetings",
       "pos": "particle",
       "level": "A1",
-      "emoji": "❌",
+      "icon": "x",
       "gloss": { "en": "no", "sv": "nej" },
       "ckb": {
         "primary": { "script": "نەخێر", "latin": "nexêr" },
@@ -176,7 +174,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🙂",
+      "icon": "smile",
       "gloss": { "en": "how are you?", "sv": "hur mår du?", "enAlt": ["how are you doing?"], "svAlt": ["hur är det?"] },
       "ckb": {
         "primary": { "script": "چۆنی؟", "latin": "çonî?" },
@@ -218,7 +216,7 @@
       "unit": "greetings",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "👍",
+      "icon": "thumbs-up",
       "gloss": { "en": "good", "sv": "bra", "enAlt": ["fine", "well"], "svAlt": ["god"] },
       "ckb": {
         "primary": { "script": "باش", "latin": "baş" },
@@ -238,7 +236,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "😊",
+      "icon": "smile",
       "gloss": { "en": "I'm fine", "sv": "jag mår bra", "enAlt": ["I am fine", "I'm good", "I am well"], "svAlt": ["bra"] },
       "ckb": {
         "primary": { "script": "باشم", "latin": "başim" },
@@ -262,7 +260,6 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🫵",
       "gloss": { "en": "and you?", "sv": "och du?", "enAlt": ["what about you?"], "svAlt": ["själv då?"] },
       "ckb": {
         "primary": { "script": "ئەی تۆ؟", "latin": "ey to?" },
@@ -293,7 +290,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🤗",
+      "icon": "door-open",
       "gloss": { "en": "welcome", "sv": "välkommen" },
       "ckb": {
         "primary": { "script": "بەخێربێیت", "latin": "bexêrbêyt" },
@@ -325,7 +322,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🌅",
+      "icon": "sunrise",
       "gloss": { "en": "good morning", "sv": "god morgon" },
       "ckb": {
         "primary": { "script": "بەیانیت باش", "latin": "beyanît baş" },
@@ -349,7 +346,7 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🌙",
+      "icon": "moon",
       "gloss": { "en": "good night", "sv": "god natt" },
       "cognate": true,
       "ckb": {
@@ -370,7 +367,6 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
-      "emoji": "🙇",
       "gloss": { "en": "sorry", "sv": "förlåt", "enAlt": ["excuse me", "pardon"], "svAlt": ["ursäkta"] },
       "ckb": {
         "primary": { "script": "ببوورە", "latin": "bibûre" },
@@ -395,7 +391,6 @@
       "unit": "greetings",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "😌",
       "gloss": { "en": "you're welcome", "sv": "varsågod", "enAlt": ["you are welcome", "no problem"], "svAlt": ["ingen orsak"] },
       "ckb": {
         "primary": { "script": "شایەنی نییە", "latin": "şayenî nîye" },
@@ -420,7 +415,6 @@
       "unit": "greetings",
       "pos": "interjection",
       "level": "A1",
-      "emoji": "👌",
       "gloss": { "en": "okay", "sv": "okej", "enAlt": ["OK", "alright", "fine"], "svAlt": ["ok", "visst"] },
       "ckb": {
         "primary": { "script": "باشە", "latin": "başe" },

@@ -5,7 +5,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧍",
       "gloss": { "en": "body", "sv": "kropp" },
       "ckb": {
         "primary": { "script": "لەش", "latin": "leş" },
@@ -53,7 +52,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🙂",
+      "icon": "smile",
       "gloss": { "en": "face", "sv": "ansikte" },
       "ckb": {
         "primary": { "script": "دەموچاو", "latin": "demuçaw" },
@@ -77,7 +76,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💇",
       "gloss": { "en": "hair", "sv": "hår" },
       "senseNote": { "en": "on the head", "sv": "på huvudet" },
       "ckb": {
@@ -103,7 +101,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👁️",
+      "icon": "eye",
       "gloss": { "en": "eye", "sv": "öga" },
       "cognate": true,
       "ckb": {
@@ -128,7 +126,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👂",
+      "icon": "ear",
       "gloss": { "en": "ear", "sv": "öra" },
       "cognate": true,
       "ckb": {
@@ -153,7 +151,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👃",
       "gloss": { "en": "nose", "sv": "näsa" },
       "ckb": {
         "primary": { "script": "لووت", "latin": "lût" },
@@ -178,7 +175,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👄",
       "gloss": { "en": "mouth", "sv": "mun" },
       "ckb": {
         "primary": { "script": "دەم", "latin": "dem" },
@@ -203,7 +199,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🦷",
       "gloss": { "en": "tooth", "sv": "tand" },
       "cognate": true,
       "ckb": {
@@ -299,7 +294,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🖐️",
+      "icon": "hand",
       "gloss": { "en": "hand", "sv": "hand" },
       "cognate": true,
       "ckb": {
@@ -324,7 +319,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "☝️",
       "gloss": { "en": "finger", "sv": "finger" },
       "ckb": {
         "primary": { "script": "پەنجە", "latin": "pence" },
@@ -348,7 +342,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🦵",
       "gloss": { "en": "leg", "sv": "ben" },
       "ckb": {
         "primary": { "script": "قاچ", "latin": "qaç" },
@@ -373,7 +366,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🦶",
+      "icon": "footprints",
       "gloss": { "en": "foot", "sv": "fot" },
       "cognate": true,
       "ckb": {
@@ -447,7 +440,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🫀",
+      "icon": "heart-pulse",
       "gloss": { "en": "heart", "sv": "hjärta" },
       "cognate": true,
       "ckb": {
@@ -472,7 +465,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🩸",
       "gloss": { "en": "blood", "sv": "blod" },
       "cognate": true,
       "ckb": {
@@ -497,7 +489,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "😣",
       "gloss": { "en": "pain", "sv": "smärta", "enAlt": ["ache"], "svAlt": ["värk"] },
       "ckb": {
         "primary": { "script": "ئازار", "latin": "azar" },
@@ -550,7 +541,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🤕",
       "gloss": { "en": "headache", "sv": "huvudvärk" },
       "ckb": {
         "primary": { "script": "سەرێشە", "latin": "serêşe" },
@@ -575,7 +565,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌡️",
+      "icon": "thermometer",
       "gloss": { "en": "fever", "sv": "feber" },
       "ckb": {
         "primary": { "script": "تا", "latin": "ta" },
@@ -599,7 +589,6 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🤧",
       "gloss": { "en": "cold", "sv": "förkylning", "enAlt": ["common cold", "a cold"], "svAlt": ["snuva"] },
       "senseNote": { "en": "the illness", "sv": "sjukdomen" },
       "ckb": {
@@ -624,7 +613,7 @@
       "unit": "body-health",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💊",
+      "icon": "pill",
       "gloss": { "en": "medicine", "sv": "medicin", "enAlt": ["medication"], "svAlt": ["läkemedel"] },
       "ckb": {
         "primary": { "script": "دەرمان", "latin": "derman" },
@@ -703,7 +692,6 @@
       "unit": "body-health",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🛌",
       "gloss": { "en": "to rest", "sv": "att vila", "enAlt": ["rest"], "svAlt": ["vila", "vila sig"] },
       "ckb": {
         "primary": { "script": "پشوو دان", "latin": "pişû dan" },

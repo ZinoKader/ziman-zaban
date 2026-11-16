@@ -2,7 +2,7 @@
   "area": {
     "id": "market",
     "order": 4,
-    "emoji": "🧺",
+    "icon": "shopping-basket",
     "title": {
       "en": "At the market",
       "sv": "På marknaden"

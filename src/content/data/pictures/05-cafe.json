@@ -2,7 +2,7 @@
   "area": {
     "id": "cafe",
     "order": 5,
-    "emoji": "☕",
+    "icon": "coffee",
     "title": {
       "en": "At a café",
       "sv": "På ett kafé"

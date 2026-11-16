@@ -1,3 +1,5 @@
+import type { IconName } from './icons'
+
 export const TARGET_LANGS = ['ckb', 'fa'] as const
 export type TargetLang = (typeof TARGET_LANGS)[number]
 
@@ -100,8 +102,8 @@ export interface Concept {
   gloss: Gloss
   /** Disambiguates the sense, e.g. "(the fruit)". */
   senseNote?: Localized
-  /** A single emoji used as a visual memory anchor. */
-  emoji?: string
+  /** A Lucide icon used as a visual memory anchor. */
+  icon?: IconName
   ckb?: LanguageEntry
   fa?: LanguageEntry
   /** True when the Sorani and Persian words share an origin (e.g. نان nan / نان nân). Shown in compare mode. */
@@ -205,7 +207,7 @@ export interface Unit {
   description: Localized
   /** Communicative goal: what the learner can say after this unit. */
   canDo: Localized
-  emoji: string
+  icon: IconName
 }
 
 /** A freely licensed photo, with what its license asks us to show. */
@@ -222,7 +224,7 @@ export interface PictureImage {
 export interface PictureArea {
   id: string
   order: number
-  emoji: string
+  icon: IconName
   title: Localized
   description: Localized
 }

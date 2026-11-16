@@ -35,6 +35,7 @@ import {
   type UnitProgress,
 } from './progress-data'
 import { progressStrings } from './strings'
+import { ContentIcon } from '@/components/content-icon'
 
 const SCRIPT_NAME: Record<TargetLang, string> = { ckb: 'کوردی', fa: 'فارسی' }
 
@@ -75,7 +76,7 @@ function UnitRow({ p }: { p: UnitProgress }) {
   const count = s.unitWords(words.learned, words.total, words.learning)
   return (
     <li className={cn('flex items-start gap-3 rounded-2xl border bg-card p-4', state === 'upcoming' && 'bg-card/60')}>
-      <span className="text-3xl leading-none" aria-hidden>{unit.emoji}</span>
+      <ContentIcon name={unit.icon} strokeWidth={1.75} className="mt-0.5 size-6 shrink-0 text-muted-foreground" />
       <div className="min-w-0 flex-1 space-y-2">
         <div className="flex items-baseline justify-between gap-2">
           <h3 className="truncate font-medium">{l(unit.title)}</h3>
@@ -262,7 +263,9 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
                     to={`/words/${concept.id}`}
                     className="flex items-center gap-3 rounded-2xl border bg-card px-4 py-3 transition hover:bg-muted/60"
                   >
-                    <span className="text-2xl" aria-hidden>{concept.emoji}</span>
+                    <span className="grid size-8 shrink-0 place-items-center text-muted-foreground">
+                      {concept.icon && <ContentIcon name={concept.icon} strokeWidth={1.75} className="size-6" />}
+                    </span>
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-lg font-semibold">{form?.latin}</span>
                       <span className="block truncate text-sm text-muted-foreground">

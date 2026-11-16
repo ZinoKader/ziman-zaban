@@ -5,7 +5,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍲",
+      "icon": "utensils",
       "gloss": { "en": "food", "sv": "mat", "enAlt": ["meal"], "svAlt": ["måltid"] },
       "ckb": {
         "primary": { "script": "خواردن", "latin": "xwardin" },
@@ -33,7 +33,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "💧",
+      "icon": "droplet",
       "gloss": { "en": "water", "sv": "vatten" },
       "cognate": true,
       "ckb": {
@@ -58,7 +58,6 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍞",
       "gloss": { "en": "bread", "sv": "bröd" },
       "cognate": true,
       "ckb": {
@@ -84,7 +83,6 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍵",
       "gloss": { "en": "tea", "sv": "te" },
       "cognate": true,
       "ckb": {
@@ -111,7 +109,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "☕",
+      "icon": "coffee",
       "gloss": { "en": "coffee", "sv": "kaffe" },
       "cognate": true,
       "ckb": {
@@ -136,7 +134,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🥛",
+      "icon": "milk",
       "gloss": { "en": "milk", "sv": "mjölk" },
       "cognate": true,
       "ckb": {
@@ -161,7 +159,6 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍚",
       "gloss": { "en": "rice", "sv": "ris" },
       "cognate": true,
       "ckb": {
@@ -186,7 +183,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🥩",
+      "icon": "beef",
       "gloss": { "en": "meat", "sv": "kött" },
       "cognate": true,
       "ckb": {
@@ -211,7 +208,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍗",
+      "icon": "drumstick",
       "gloss": { "en": "chicken", "sv": "kyckling", "enAlt": ["hen"], "svAlt": ["höna"] },
       "cognate": true,
       "ckb": {
@@ -236,7 +233,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🥚",
+      "icon": "egg",
       "gloss": { "en": "egg", "sv": "ägg" },
       "ckb": {
         "primary": { "script": "هێلکە", "latin": "hêlke" },
@@ -261,7 +258,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍎",
+      "icon": "apple",
       "gloss": { "en": "fruit", "sv": "frukt" },
       "cognate": true,
       "ckb": {
@@ -283,7 +280,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍏",
+      "icon": "apple",
       "gloss": { "en": "apple", "sv": "äpple" },
       "cognate": true,
       "ckb": {
@@ -308,7 +305,6 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🧀",
       "gloss": { "en": "cheese", "sv": "ost" },
       "cognate": true,
       "ckb": {
@@ -358,7 +354,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍬",
+      "icon": "candy",
       "gloss": { "en": "sugar", "sv": "socker" },
       "cognate": true,
       "ckb": {
@@ -384,7 +380,6 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🧂",
       "gloss": { "en": "salt", "sv": "salt" },
       "ckb": {
         "primary": { "script": "خوێ", "latin": "xwê" },
@@ -405,7 +400,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍳",
+      "icon": "egg-fried",
       "gloss": { "en": "breakfast", "sv": "frukost" },
       "ckb": {
         "primary": { "script": "نانی بەیانی", "latin": "nanî beyanî" },
@@ -427,7 +422,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🥗",
+      "icon": "salad",
       "gloss": { "en": "lunch", "sv": "lunch" },
       "ckb": {
         "primary": { "script": "نانی نیوەڕۆ", "latin": "nanî nîweřo" },
@@ -453,7 +448,7 @@
       "unit": "food-drink",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍽️",
+      "icon": "utensils-crossed",
       "gloss": { "en": "dinner", "sv": "middag", "enAlt": ["supper"], "svAlt": ["kvällsmat"] },
       "ckb": {
         "primary": { "script": "نانی ئێوارە", "latin": "nanî êware" },
@@ -478,7 +473,7 @@
       "unit": "food-drink",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🍴",
+      "icon": "fork-knife",
       "gloss": { "en": "to eat", "sv": "att äta", "enAlt": ["eat"], "svAlt": ["äta"] },
       "cognate": true,
       "ckb": {
@@ -507,7 +502,7 @@
       "unit": "food-drink",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🥤",
+      "icon": "cup-soda",
       "gloss": { "en": "to drink", "sv": "att dricka", "enAlt": ["drink"], "svAlt": ["dricka"] },
       "ckb": {
         "primary": { "script": "خواردنەوە", "latin": "xwardinewe" },
@@ -625,7 +620,6 @@
       "unit": "food-drink",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "😋",
       "gloss": { "en": "delicious", "sv": "god", "enAlt": ["tasty"], "svAlt": ["gott", "läcker", "smaskig"] },
       "ckb": {
         "primary": { "script": "بەتام", "latin": "betam" },
@@ -651,7 +645,7 @@
       "unit": "food-drink",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "➕",
+      "icon": "plus",
       "gloss": { "en": "more", "sv": "mer", "svAlt": ["mera"] },
       "ckb": {
         "primary": { "script": "زیاتر", "latin": "zyatir" },
@@ -675,7 +669,6 @@
       "unit": "food-drink",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "✋",
       "gloss": { "en": "enough", "sv": "nog", "svAlt": ["tillräckligt", "det räcker"] },
       "cognate": true,
       "ckb": {

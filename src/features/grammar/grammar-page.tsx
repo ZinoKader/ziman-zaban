@@ -14,6 +14,7 @@ import { GrammarExampleView } from './interlinear'
 import { Markup, ScriptRuns } from './markup'
 import { teaser } from './markup-parse'
 import { grammarStrings } from './strings'
+import { ContentIcon } from '@/components/content-icon'
 
 function GrammarList({ lang }: { lang: TargetLang }) {
   const s = grammarStrings.use()
@@ -36,12 +37,8 @@ function GrammarList({ lang }: { lang: TargetLang }) {
         <div className="space-y-10">
           {groups.map(({ unit, unitId, points }) => (
             <section key={unitId} aria-labelledby={`grammar-unit-${unitId}`}>
-              <h2 id={`grammar-unit-${unitId}`} className="mb-3 flex items-baseline gap-2.5">
-                {unit && (
-                  <span aria-hidden className="text-xl">
-                    {unit.emoji}
-                  </span>
-                )}
+              <h2 id={`grammar-unit-${unitId}`} className="mb-3 flex items-center gap-2.5">
+                {unit && <ContentIcon name={unit.icon} className="size-5 text-muted-foreground" />}
                 <span className="text-lg font-semibold">{unit ? l(unit.title) : unitId}</span>
                 <span className="text-sm text-muted-foreground">{s.count(points.length)}</span>
               </h2>
@@ -84,7 +81,7 @@ function SideNav({ point, order }: { point: GrammarPoint; order: GrammarPoint[] 
         {groups.map(({ unit, unitId, points }) => (
           <div key={unitId}>
             <p className="mb-1 flex items-center gap-1.5 text-sm font-medium">
-              {unit && <span aria-hidden>{unit.emoji}</span>}
+              {unit && <ContentIcon name={unit.icon} className="size-4 text-muted-foreground" />}
               {unit ? l(unit.title) : unitId}
             </p>
             <ul className="space-y-0.5 border-s">
@@ -165,7 +162,7 @@ function GrammarDetail({ point }: { point: GrammarPoint }) {
           <div className="mb-3 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
             {unit && (
               <span className="flex items-center gap-1.5">
-                <span aria-hidden>{unit.emoji}</span>
+                <ContentIcon name={unit.icon} className="size-4" />
                 {l(unit.title)}
               </span>
             )}

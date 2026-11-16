@@ -118,7 +118,7 @@ export function WordFilterBar({ filters, update, clear, posOptions, unitOptions,
             onChange={(unit) => update({ unit })}
             options={units
               .filter((u) => unitOptions.includes(u.id))
-              .map((u) => ({ value: u.id, label: `${u.emoji} ${l(u.title)}` }))}
+              .map((u) => ({ value: u.id, label: l(u.title) }))}
           />
           <FilterSelect
             label={s.pos}

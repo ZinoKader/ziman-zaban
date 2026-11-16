@@ -5,7 +5,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐾",
+      "icon": "paw-print",
       "gloss": { "en": "animal", "sv": "djur" },
       "ckb": {
         "primary": { "script": "ئاژەڵ", "latin": "ajeł" },
@@ -39,7 +39,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐕",
+      "icon": "dog",
       "gloss": { "en": "dog", "sv": "hund" },
       "cognate": true,
       "ckb": {
@@ -64,7 +64,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐈",
+      "icon": "cat",
       "gloss": { "en": "cat", "sv": "katt", "svAlt": ["katta"] },
       "ckb": {
         "primary": { "script": "پشیلە", "latin": "pişîle" },
@@ -89,7 +89,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐦",
+      "icon": "bird",
       "gloss": { "en": "bird", "sv": "fågel" },
       "ckb": {
         "primary": { "script": "باڵندە", "latin": "bałinde" },
@@ -114,7 +114,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐎",
       "gloss": { "en": "horse", "sv": "häst" },
       "cognate": true,
       "ckb": {
@@ -139,7 +138,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐄",
       "gloss": { "en": "cow", "sv": "ko", "svAlt": ["kossa"] },
       "ckb": {
         "primary": { "script": "مانگا", "latin": "manga" },
@@ -163,7 +161,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐑",
       "gloss": { "en": "sheep", "sv": "får" },
       "ckb": {
         "primary": { "script": "مەڕ", "latin": "meř" },
@@ -187,7 +184,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐐",
       "gloss": { "en": "goat", "sv": "get" },
       "cognate": true,
       "ckb": {
@@ -212,7 +208,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🫏",
       "gloss": { "en": "donkey", "sv": "åsna", "enAlt": ["ass"] },
       "cognate": true,
       "ckb": {
@@ -237,7 +232,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐟",
+      "icon": "fish",
       "gloss": { "en": "fish", "sv": "fisk" },
       "cognate": true,
       "ckb": {
@@ -262,7 +257,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🦁",
       "gloss": { "en": "lion", "sv": "lejon" },
       "cognate": true,
       "ckb": {
@@ -287,7 +281,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐺",
       "gloss": { "en": "wolf", "sv": "varg", "svAlt": ["ulv"] },
       "cognate": true,
       "ckb": {
@@ -312,7 +305,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐻",
       "gloss": { "en": "bear", "sv": "björn" },
       "senseNote": { "en": "the animal", "sv": "djuret" },
       "ckb": {
@@ -337,7 +329,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐁",
+      "icon": "rat",
       "gloss": { "en": "mouse", "sv": "mus" },
       "senseNote": { "en": "the animal", "sv": "djuret" },
       "cognate": true,
@@ -363,7 +355,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐍",
       "gloss": { "en": "snake", "sv": "orm", "enAlt": ["serpent"] },
       "cognate": true,
       "ckb": {
@@ -388,7 +379,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🐝",
       "gloss": { "en": "bee", "sv": "bi" },
       "ckb": {
         "primary": { "script": "هەنگ", "latin": "heng" },
@@ -412,7 +402,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🦋",
       "gloss": { "en": "butterfly", "sv": "fjäril" },
       "ckb": {
         "primary": { "script": "پەپوولە", "latin": "pepûle" },
@@ -432,7 +421,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌳",
+      "icon": "tree-deciduous",
       "gloss": { "en": "tree", "sv": "träd" },
       "ckb": {
         "primary": { "script": "دار", "latin": "dar" },
@@ -456,7 +445,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌼",
+      "icon": "flower-2",
       "gloss": { "en": "flower", "sv": "blomma", "svAlt": ["blomster"] },
       "cognate": true,
       "ckb": {
@@ -481,7 +470,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌱",
+      "icon": "sprout",
       "gloss": { "en": "grass", "sv": "gräs" },
       "ckb": {
         "primary": { "script": "گیا", "latin": "giya" },
@@ -507,7 +496,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍃",
+      "icon": "leaf",
       "gloss": { "en": "leaf", "sv": "löv", "svAlt": ["blad"] },
       "ckb": {
         "primary": { "script": "گەڵا", "latin": "geła" },
@@ -531,7 +520,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏡",
       "gloss": { "en": "garden", "sv": "trädgård" },
       "ckb": {
         "primary": { "script": "باخچە", "latin": "baxçe" },
@@ -557,7 +545,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏞️",
+      "icon": "trees",
       "gloss": { "en": "river", "sv": "flod", "svAlt": ["älv", "å"] },
       "ckb": {
         "primary": { "script": "ڕووبار", "latin": "řûbar" },
@@ -581,7 +569,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌊",
+      "icon": "waves",
       "gloss": { "en": "sea", "sv": "hav", "enAlt": ["ocean"] },
       "cognate": true,
       "ckb": {
@@ -631,7 +619,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌲",
+      "icon": "tree-pine",
       "gloss": { "en": "forest", "sv": "skog", "enAlt": ["woods"] },
       "ckb": {
         "primary": { "script": "دارستان", "latin": "daristan" },
@@ -655,7 +643,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🪨",
       "gloss": { "en": "stone", "sv": "sten", "enAlt": ["rock"], "svAlt": ["klippa"] },
       "ckb": {
         "primary": { "script": "بەرد", "latin": "berd" },
@@ -679,7 +666,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏜️",
       "gloss": { "en": "desert", "sv": "öken" },
       "cognate": true,
       "ckb": {
@@ -706,7 +692,6 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏝️",
       "gloss": { "en": "island", "sv": "ö" },
       "ckb": {
         "primary": { "script": "دوورگە", "latin": "dûrge" },
@@ -726,7 +711,7 @@
       "unit": "nature-animals",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌾",
+      "icon": "wheat",
       "gloss": { "en": "field", "sv": "åker", "svAlt": ["fält"] },
       "senseNote": { "en": "a farmer's field", "sv": "en bondes åker" },
       "ckb": {

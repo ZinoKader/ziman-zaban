@@ -5,7 +5,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🛣️",
+      "icon": "route",
       "gloss": { "en": "street", "sv": "gata", "enAlt": ["road"], "svAlt": ["väg"] },
       "ckb": {
         "primary": { "script": "شەقام", "latin": "şeqam" },
@@ -37,7 +37,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏪",
+      "icon": "store",
       "gloss": { "en": "shop", "sv": "affär", "enAlt": ["store"], "svAlt": ["butik"] },
       "ckb": {
         "primary": { "script": "دوکان", "latin": "dukan" },
@@ -68,7 +68,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🛍️",
+      "icon": "shopping-bag",
       "gloss": { "en": "market", "sv": "marknad", "enAlt": ["bazaar"], "svAlt": ["basar", "torg"] },
       "cognate": true,
       "ckb": {
@@ -93,7 +93,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏥",
+      "icon": "hospital",
       "gloss": { "en": "hospital", "sv": "sjukhus" },
       "ckb": {
         "primary": { "script": "نەخۆشخانە", "latin": "nexoşxane" },
@@ -118,7 +118,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🧑‍⚕️",
+      "icon": "stethoscope",
       "gloss": { "en": "doctor", "sv": "läkare", "svAlt": ["doktor"] },
       "cognate": true,
       "ckb": {
@@ -145,7 +145,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🚌",
+      "icon": "bus",
       "gloss": { "en": "bus", "sv": "buss" },
       "ckb": {
         "primary": { "script": "پاس", "latin": "pas" },
@@ -169,7 +169,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🚗",
+      "icon": "car",
       "gloss": { "en": "car", "sv": "bil" },
       "ckb": {
         "primary": { "script": "ئۆتۆمۆبیل", "latin": "otomobîl" },
@@ -205,7 +205,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🚕",
+      "icon": "car-taxi-front",
       "gloss": { "en": "taxi", "sv": "taxi", "enAlt": ["cab"] },
       "cognate": true,
       "ckb": {
@@ -230,7 +230,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "✈️",
+      "icon": "plane",
       "gloss": { "en": "airport", "sv": "flygplats" },
       "ckb": {
         "primary": { "script": "فڕۆکەخانە", "latin": "fřokexane" },
@@ -254,7 +254,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🎫",
+      "icon": "ticket",
       "gloss": { "en": "ticket", "sv": "biljett" },
       "cognate": true,
       "ckb": {
@@ -280,7 +280,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "💵",
+      "icon": "banknote",
       "gloss": { "en": "money", "sv": "pengar" },
       "ckb": {
         "primary": { "script": "پارە", "latin": "pare" },
@@ -304,7 +304,7 @@
       "unit": "places-travel",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "🏷️",
+      "icon": "tag",
       "gloss": { "en": "how much", "sv": "hur mycket", "svAlt": ["vad kostar"] },
       "senseNote": { "en": "asking a price", "sv": "fråga om pris" },
       "cognate": true,
@@ -332,7 +332,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "⬅️",
+      "icon": "arrow-left",
       "gloss": { "en": "left", "sv": "vänster" },
       "senseNote": { "en": "the direction", "sv": "riktningen" },
       "cognate": true,
@@ -358,7 +358,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "➡️",
+      "icon": "arrow-right",
       "gloss": { "en": "right", "sv": "höger" },
       "senseNote": { "en": "the direction, not \"correct\"", "sv": "riktningen, inte \"rätt\"" },
       "cognate": true,
@@ -384,7 +384,7 @@
       "unit": "places-travel",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "⬆️",
+      "icon": "arrow-up",
       "gloss": { "en": "straight ahead", "sv": "rakt fram", "enAlt": ["straight", "straight on"] },
       "ckb": {
         "primary": { "script": "ڕاستەوخۆ", "latin": "řastewxo" },
@@ -409,7 +409,7 @@
       "unit": "places-travel",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "📍",
+      "icon": "map-pin",
       "gloss": { "en": "near", "sv": "nära", "enAlt": ["close"] },
       "cognate": true,
       "ckb": {
@@ -434,7 +434,7 @@
       "unit": "places-travel",
       "pos": "adjective",
       "level": "A1",
-      "emoji": "🔭",
+      "icon": "telescope",
       "gloss": { "en": "far", "sv": "långt bort", "enAlt": ["far away"], "svAlt": ["långt", "långt borta", "avlägsen"] },
       "cognate": true,
       "ckb": {
@@ -459,7 +459,7 @@
       "unit": "places-travel",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🚶",
+      "icon": "footprints",
       "gloss": { "en": "to go", "sv": "att gå", "svAlt": ["gå", "åka", "att åka", "fara"] },
       "ckb": {
         "primary": { "script": "چوون", "latin": "çûn" },
@@ -494,7 +494,7 @@
       "unit": "places-travel",
       "pos": "verb",
       "level": "A1",
-      "emoji": "👋",
+      "icon": "hand",
       "gloss": { "en": "to come", "sv": "att komma", "svAlt": ["komma"] },
       "ckb": {
         "primary": { "script": "هاتن", "latin": "hatin" },
@@ -522,7 +522,6 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏘️",
       "gloss": { "en": "village", "sv": "by" },
       "ckb": {
         "primary": { "script": "گوند", "latin": "gund" },
@@ -548,7 +547,7 @@
       "unit": "places-travel",
       "pos": "noun",
       "level": "A1",
-      "emoji": "⛰️",
+      "icon": "mountain",
       "gloss": { "en": "mountain", "sv": "berg" },
       "ckb": {
         "primary": { "script": "چیا", "latin": "çiya" },

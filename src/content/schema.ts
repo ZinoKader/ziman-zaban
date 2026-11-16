@@ -1,4 +1,5 @@
 import { z } from 'zod'
+import { ICON_NAMES } from './icons'
 import { LEVELS, PARTS_OF_SPEECH } from './types'
 
 const id = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'ids are kebab-case ascii')
@@ -65,7 +66,7 @@ export const conceptSchema = z
     level: z.enum(LEVELS),
     gloss: glossSchema,
     senseNote: localizedSchema.optional(),
-    emoji: z.string().optional(),
+    icon: z.enum(ICON_NAMES).optional(),
     ckb: languageEntrySchema.optional(),
     fa: languageEntrySchema.optional(),
     cognate: z.boolean().optional(),
@@ -186,7 +187,7 @@ export const unitSchema = z
     title: localizedSchema,
     description: localizedSchema,
     canDo: localizedSchema,
-    emoji: nonEmpty,
+    icon: z.enum(ICON_NAMES),
   })
   .strict()
 
@@ -194,7 +195,7 @@ export const pictureAreaSchema = z
   .object({
     id,
     order: z.number().int(),
-    emoji: nonEmpty,
+    icon: z.enum(ICON_NAMES),
     title: localizedSchema,
     description: localizedSchema,
   })

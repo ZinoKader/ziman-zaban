@@ -9,6 +9,7 @@ import { StrengthDots } from './strength-dots'
 import { wordsStrings } from './strings'
 import type { WordStrength } from './word-progress'
 import { useShowScript } from '@/components/script-toggle'
+import { ContentIcon } from '@/components/content-icon'
 
 interface RowProps {
   concept: Concept
@@ -39,8 +40,8 @@ const WordRow = memo(function WordRow({ concept, lang, baseLang, compare, romani
         aria-current={selected ? 'true' : undefined}
         className="flex min-w-0 flex-1 items-center gap-3 rounded-2xl py-2.5 ps-3 outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
       >
-        <span className="w-8 shrink-0 text-center text-2xl leading-none" aria-hidden>
-          {concept.emoji}
+        <span className="grid w-8 shrink-0 place-items-center text-muted-foreground">
+          {concept.icon && <ContentIcon name={concept.icon} strokeWidth={1.75} className="size-5" />}
         </span>
         <span className="flex w-28 shrink-0 flex-col items-start sm:w-36">
           {romanization === 'never' ? (
@@ -113,7 +114,7 @@ export function WordList({ concepts, strengthOf, selectedId, linkFor, ...rest }:
         return (
           <section key={headingId} aria-labelledby={headingId}>
             <h2 id={headingId} className="mb-2 flex items-center gap-2 px-3 text-sm font-semibold text-muted-foreground">
-              {u && <span aria-hidden className="text-lg">{u.emoji}</span>}
+              {u && <ContentIcon name={u.icon} className="size-4" />}
               <span className="text-foreground">{u ? u.title[rest.baseLang] : unit}</span>
               <span className="font-normal tabular-nums">· {s.results(items.length)}</span>
             </h2>

@@ -9,6 +9,7 @@ import { useSettings } from '@/store/settings'
 import { EvidenceBadge } from './evidence-badge'
 import { useShowScript } from './script-toggle'
 import { TargetText } from './target-text'
+import { ContentIcon } from '@/components/content-icon'
 
 const strings = defineStrings({
   en: {
@@ -171,10 +172,8 @@ export function WordCard({
 
   return (
     <div className={cn('flex flex-col items-center gap-3 text-center', className)}>
-      {concept.emoji && (
-        <div className={cn(size === 'lg' ? 'text-5xl' : 'text-3xl')} aria-hidden>
-          {concept.emoji}
-        </div>
+      {concept.icon && (
+        <ContentIcon name={concept.icon} strokeWidth={1.5} className={cn('text-muted-foreground', size === 'lg' ? 'size-12' : 'size-8')} />
       )}
       <TargetText
         lang={lang}

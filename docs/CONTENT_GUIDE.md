@@ -94,7 +94,7 @@ Never `x`, `q`, or `c` without `h`.
   "unit": "food-drink",
   "pos": "noun",
   "level": "A1",
-  "emoji": "💧",
+  "icon": "droplet",
   "gloss": { "en": "water", "sv": "vatten" },
   "cognate": true,
   "ckb": {
@@ -112,7 +112,7 @@ Never `x`, `q`, or `c` without `h`.
 - Nouns: add `plural` when it is irregular or useful (Persian `-ân` for people). Regular Sorani `-an` and Persian `-hâ` can be left out.
 - `notes` (en + sv) is the best teaching surface in the app. Use it for a memorable fact: usage, a cognate, a trap, a cultural point. One or two sentences.
 - `senseNote` disambiguates homonyms in the learner's language ("(the fruit)").
-- `emoji` is a memory anchor. Only add one that really fits.
+- `icon` is a memory anchor: the name of a [Lucide](https://lucide.dev/icons/) icon, such as `droplet`. Only add one that shows the word itself. A loose match (a paw print for "horse") teaches the wrong thing, so leave it out. The icon must be in `src/content/icons.ts`; add it there first.
 - `gloss.en` must be the plain English headword, so the reference lookup can find it (`to eat`, `mother`, `how much`).
 
 ## Sentences
@@ -177,7 +177,7 @@ One point per concept, per language. `id` is prefixed with the language (`ckb-pr
 
 ## Pictures
 
-Picture recognition shows a photo and four words. Each file is one area (dishes, the pantry, the market) with an `area` header (`id`, `order`, `emoji`, `title`, `description`) and its `pictures`.
+Picture recognition shows a photo and four words. Each file is one area (dishes, the pantry, the market) with an `area` header (`id`, `order`, `icon`, `title`, `description`) and its `pictures`.
 
 - `image.file` is a file in `public/pictures/`: 720×540 webp, cropped to 4:3 so the thing fills the frame. `image.source` links to the Wikimedia Commons file page, `image.credit` names the photographer and `image.license` is CC0, public domain, CC BY or CC BY-SA. The About page lists every credit.
 - Pick photos where the thing is easy to tell apart from the other pictures in its area. Leave out things that look alike in a photo (salt and sugar next to flour).

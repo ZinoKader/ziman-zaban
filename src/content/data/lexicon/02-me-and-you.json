@@ -5,7 +5,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
-      "emoji": "🙋",
+      "icon": "user-round",
       "gloss": { "en": "I", "sv": "jag" },
       "cognate": true,
       "ckb": {
@@ -30,7 +30,6 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
-      "emoji": "🫵",
       "gloss": { "en": "you", "sv": "du" },
       "senseNote": { "en": "one person", "sv": "en person" },
       "cognate": true,
@@ -56,7 +55,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
-      "emoji": "🧑",
+      "icon": "user",
       "gloss": { "en": "he / she", "sv": "han / hon", "enAlt": ["he", "she"], "svAlt": ["han", "hon", "hen"] },
       "cognate": true,
       "ckb": {
@@ -90,7 +89,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
-      "emoji": "👫",
+      "icon": "users-round",
       "gloss": { "en": "we", "sv": "vi" },
       "cognate": true,
       "ckb": {
@@ -139,7 +138,7 @@
       "unit": "me-and-you",
       "pos": "pronoun",
       "level": "A1",
-      "emoji": "👥",
+      "icon": "users",
       "gloss": { "en": "they", "sv": "de", "svAlt": ["dom"] },
       "ckb": {
         "primary": { "script": "ئەوان", "latin": "ewan" },
@@ -168,7 +167,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "📛",
+      "icon": "id-card",
       "gloss": { "en": "name", "sv": "namn" },
       "ckb": {
         "primary": { "script": "ناو", "latin": "naw" },
@@ -193,7 +192,7 @@
       "unit": "me-and-you",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "❓",
+      "icon": "circle-question-mark",
       "gloss": { "en": "what", "sv": "vad" },
       "cognate": true,
       "ckb": {
@@ -226,7 +225,6 @@
       "unit": "me-and-you",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "🕵️",
       "gloss": { "en": "who", "sv": "vem" },
       "cognate": true,
       "ckb": {
@@ -251,7 +249,7 @@
       "unit": "me-and-you",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "📍",
+      "icon": "map-pin",
       "gloss": { "en": "where", "sv": "var", "svAlt": ["vart"] },
       "ckb": {
         "primary": { "script": "کوێ", "latin": "kwê" },
@@ -298,7 +296,6 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏡",
       "gloss": { "en": "from (a place)", "sv": "från (en plats)", "enAlt": ["native of", "people of", "from"], "svAlt": ["från", "hemma från"] },
       "senseNote": { "en": "literally \"people of\", to say where someone is from", "sv": "ordagrant \"folk från\", för att säga var någon kommer ifrån" },
       "ckb": {
@@ -323,7 +320,7 @@
       "unit": "me-and-you",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🟰",
+      "icon": "equal",
       "gloss": { "en": "to be", "sv": "att vara", "svAlt": ["vara"] },
       "cognate": true,
       "ckb": {
@@ -352,7 +349,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🗺️",
+      "icon": "map",
       "gloss": { "en": "country", "sv": "land" },
       "ckb": {
         "primary": { "script": "وڵات", "latin": "wiłat" },
@@ -368,7 +365,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏙️",
+      "icon": "building-2",
       "gloss": { "en": "city", "sv": "stad" },
       "cognate": true,
       "ckb": {
@@ -393,7 +390,7 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🗣️",
+      "icon": "languages",
       "gloss": { "en": "language", "sv": "språk" },
       "cognate": true,
       "ckb": {
@@ -509,7 +506,6 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🇸🇪",
       "gloss": { "en": "Sweden", "sv": "Sverige" },
       "ckb": {
         "primary": { "script": "سوید", "latin": "Swîd" },
@@ -533,7 +529,7 @@
       "unit": "me-and-you",
       "pos": "verb",
       "level": "A1",
-      "emoji": "💬",
+      "icon": "message-circle",
       "gloss": { "en": "to speak", "sv": "att prata", "enAlt": ["to talk"], "svAlt": ["prata", "tala", "att tala"] },
       "ckb": {
         "primary": { "script": "قسە کردن", "latin": "qise kirdin" },
@@ -568,7 +564,6 @@
       "unit": "me-and-you",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "🤏",
       "gloss": { "en": "a little", "sv": "lite", "enAlt": ["a bit"], "svAlt": ["lite grann", "lite granna"] },
       "cognate": true,
       "ckb": {
@@ -599,7 +594,7 @@
       "unit": "me-and-you",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🏠",
+      "icon": "house",
       "gloss": { "en": "to live", "sv": "att bo", "svAlt": ["bo", "leva", "att leva"] },
       "senseNote": { "en": "to have your home somewhere", "sv": "ha sitt hem någonstans" },
       "ckb": {
@@ -628,7 +623,7 @@
       "unit": "me-and-you",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "👇",
+      "icon": "arrow-down",
       "gloss": { "en": "here", "sv": "här", "svAlt": ["hit"] },
       "ckb": {
         "primary": { "script": "ئێرە", "latin": "êre" },
@@ -659,7 +654,6 @@
       "unit": "me-and-you",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "👉",
       "gloss": { "en": "there", "sv": "där", "svAlt": ["dit"] },
       "ckb": {
         "primary": { "script": "ئەوێ", "latin": "ewê" },
@@ -753,7 +747,6 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👨",
       "gloss": { "en": "man", "sv": "man" },
       "ckb": {
         "primary": { "script": "پیاو", "latin": "pyaw" },
@@ -777,7 +770,6 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👩",
       "gloss": { "en": "woman", "sv": "kvinna" },
       "cognate": true,
       "ckb": {
@@ -803,7 +795,6 @@
       "unit": "me-and-you",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🧑‍🤝‍🧑",
       "gloss": { "en": "friend", "sv": "vän", "svAlt": ["kompis", "kamrat"] },
       "ckb": {
         "primary": { "script": "هاوڕێ", "latin": "hawřê" },
@@ -828,7 +819,7 @@
       "unit": "me-and-you",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🤝",
+      "icon": "handshake",
       "gloss": { "en": "nice to meet you", "sv": "trevligt att träffas", "enAlt": ["pleased to meet you"], "svAlt": ["angenämt", "kul att träffas"] },
       "ckb": {
         "primary": { "script": "خۆشحاڵم بە ناسینت", "latin": "xoşḧałim be nasînit" },

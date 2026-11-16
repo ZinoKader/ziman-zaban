@@ -5,7 +5,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👕",
+      "icon": "shirt",
       "gloss": { "en": "shirt", "sv": "skjorta" },
       "ckb": {
         "primary": { "script": "کراس", "latin": "kiras" },
@@ -30,7 +30,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👖",
       "gloss": { "en": "trousers", "sv": "byxor", "enAlt": ["pants", "a pair of trousers"], "svAlt": ["byxa", "ett par byxor"] },
       "ckb": {
         "primary": { "script": "پانتۆڵ", "latin": "pantoł" },
@@ -54,7 +53,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👗",
       "gloss": { "en": "dress", "sv": "klänning" },
       "ckb": {
         "primary": { "script": "کراس", "latin": "kiras" },
@@ -78,7 +76,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👞",
       "gloss": { "en": "shoe", "sv": "sko", "enAlt": ["shoes"], "svAlt": ["skor"] },
       "ckb": {
         "primary": { "script": "پێڵاو", "latin": "pêław" },
@@ -102,7 +99,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧥",
       "gloss": { "en": "coat", "sv": "rock", "enAlt": ["overcoat"], "svAlt": ["kappa", "överrock"] },
       "cognate": true,
       "ckb": {
@@ -127,7 +123,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👒",
       "gloss": { "en": "hat", "sv": "hatt", "enAlt": ["cap"], "svAlt": ["mössa", "keps"] },
       "cognate": true,
       "ckb": {
@@ -149,7 +144,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧦",
       "gloss": { "en": "sock", "sv": "strumpa", "enAlt": ["socks"], "svAlt": ["socka", "strumpor"] },
       "ckb": {
         "primary": { "script": "گۆرەوی", "latin": "gorewî" },
@@ -170,7 +164,6 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧣",
       "gloss": { "en": "scarf", "sv": "halsduk", "enAlt": ["headscarf"], "svAlt": ["sjal", "scarf", "huvudduk"] },
       "ckb": {
         "primary": { "script": "ملپێچ", "latin": "milpêç" },
@@ -196,7 +189,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👜",
+      "icon": "handbag",
       "gloss": { "en": "bag", "sv": "väska", "enAlt": ["handbag"], "svAlt": ["handväska"] },
       "ckb": {
         "primary": { "script": "جانتا", "latin": "canta" },
@@ -247,7 +240,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏷️",
+      "icon": "tag",
       "gloss": { "en": "price", "sv": "pris", "enAlt": ["cost"] },
       "ckb": {
         "primary": { "script": "نرخ", "latin": "nirx" },
@@ -387,7 +380,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💵",
+      "icon": "banknote",
       "gloss": { "en": "cash", "sv": "kontanter", "svAlt": ["kontant", "kontanta pengar"] },
       "ckb": {
         "primary": { "script": "کاش", "latin": "kaş" },
@@ -412,7 +405,7 @@
       "unit": "shopping-clothes",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💳",
+      "icon": "credit-card",
       "gloss": { "en": "card", "sv": "kort", "enAlt": ["bank card", "credit card", "debit card"], "svAlt": ["bankkort", "betalkort", "kontokort"] },
       "senseNote": { "en": "bank card", "sv": "bankkort" },
       "cognate": true,
@@ -438,7 +431,7 @@
       "unit": "shopping-clothes",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "📏",
+      "icon": "ruler",
       "gloss": { "en": "long", "sv": "lång", "svAlt": ["långt", "långa"] },
       "ckb": {
         "primary": { "script": "درێژ", "latin": "dirêj" },

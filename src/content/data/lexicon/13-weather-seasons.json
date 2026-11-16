@@ -5,7 +5,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "☀️",
+      "icon": "sun",
       "gloss": { "en": "sun", "sv": "sol", "svAlt": ["solen"] },
       "ckb": {
         "primary": { "script": "خۆر", "latin": "xor" },
@@ -37,7 +37,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌙",
+      "icon": "moon",
       "gloss": { "en": "moon", "sv": "måne", "svAlt": ["månen"] },
       "ckb": {
         "primary": { "script": "مانگ", "latin": "mang" },
@@ -61,7 +61,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "⭐",
+      "icon": "star",
       "gloss": { "en": "star", "sv": "stjärna", "svAlt": ["stjärnan"] },
       "cognate": true,
       "ckb": {
@@ -111,7 +111,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "☁️",
+      "icon": "cloud",
       "gloss": { "en": "cloud", "sv": "moln", "svAlt": ["molnet"] },
       "ckb": {
         "primary": { "script": "هەور", "latin": "hewr" },
@@ -135,7 +135,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌧️",
+      "icon": "cloud-rain",
       "gloss": { "en": "rain", "sv": "regn", "svAlt": ["regnet"] },
       "cognate": true,
       "ckb": {
@@ -161,7 +161,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "❄️",
+      "icon": "snowflake",
       "gloss": { "en": "snow", "sv": "snö", "svAlt": ["snön"] },
       "cognate": true,
       "ckb": {
@@ -186,7 +186,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌬️",
+      "icon": "wind",
       "gloss": { "en": "wind", "sv": "vind", "svAlt": ["vinden", "blåst"] },
       "cognate": true,
       "ckb": {
@@ -211,7 +211,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "⛈️",
+      "icon": "cloud-lightning",
       "gloss": { "en": "storm", "sv": "storm", "svAlt": ["stormen", "oväder"] },
       "ckb": {
         "primary": { "script": "زریان", "latin": "ziryan" },
@@ -236,7 +236,6 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧊",
       "gloss": { "en": "ice", "sv": "is", "svAlt": ["isen"] },
       "ckb": {
         "primary": { "script": "سەهۆڵ", "latin": "sehoł" },
@@ -260,7 +259,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌷",
+      "icon": "flower",
       "gloss": { "en": "spring", "sv": "vår", "enAlt": ["springtime"], "svAlt": ["våren"] },
       "senseNote": { "en": "the season", "sv": "årstiden" },
       "cognate": true,
@@ -286,7 +285,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏖️",
+      "icon": "tree-palm",
       "gloss": { "en": "summer", "sv": "sommar", "svAlt": ["sommaren"] },
       "ckb": {
         "primary": { "script": "هاوین", "latin": "hawîn" },
@@ -311,7 +310,6 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🍂",
       "gloss": { "en": "autumn", "sv": "höst", "enAlt": ["fall"], "svAlt": ["hösten"] },
       "cognate": true,
       "ckb": {
@@ -336,7 +334,6 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "⛄",
       "gloss": { "en": "winter", "sv": "vinter", "svAlt": ["vintern"] },
       "cognate": true,
       "ckb": {
@@ -434,7 +431,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "💦",
+      "icon": "droplets",
       "gloss": { "en": "wet", "sv": "blöt", "svAlt": ["våt", "blött", "vått", "blöta", "våta"] },
       "ckb": {
         "primary": { "script": "تەڕ", "latin": "teř" },
@@ -458,7 +455,6 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🏜️",
       "gloss": { "en": "dry", "sv": "torr", "svAlt": ["torrt", "torra"] },
       "cognate": true,
       "ckb": {
@@ -483,7 +479,6 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🌞",
       "gloss": { "en": "sunny", "sv": "solig", "svAlt": ["soligt", "soliga"] },
       "ckb": {
         "primary": { "script": "خۆرەتاو", "latin": "xoretaw" },
@@ -507,7 +502,7 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🌥️",
+      "icon": "cloudy",
       "gloss": { "en": "cloudy", "sv": "molnig", "svAlt": ["molnigt", "mulen", "mulet"] },
       "ckb": {
         "primary": { "script": "هەوری", "latin": "hewrî" },
@@ -531,7 +526,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "☂️",
+      "icon": "umbrella",
       "gloss": { "en": "umbrella", "sv": "paraply", "svAlt": ["paraplyet", "parasoll"] },
       "cognate": true,
       "ckb": {
@@ -586,7 +581,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌡️",
+      "icon": "thermometer",
       "gloss": { "en": "temperature", "sv": "temperatur", "svAlt": ["temperaturen"] },
       "ckb": {
         "primary": { "script": "پلەی گەرما", "latin": "pley germa" },
@@ -635,7 +630,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💡",
+      "icon": "lightbulb",
       "gloss": { "en": "light", "sv": "ljus", "svAlt": ["ljuset", "dagsljus"] },
       "senseNote": { "en": "daylight, lamp light", "sv": "dagsljus, lampljus" },
       "ckb": {
@@ -662,7 +657,6 @@
       "unit": "weather-seasons",
       "pos": "adjective",
       "level": "A2",
-      "emoji": "🌑",
       "gloss": { "en": "dark", "sv": "mörk", "svAlt": ["mörkt", "mörka"] },
       "cognate": true,
       "ckb": {
@@ -711,7 +705,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌍",
+      "icon": "earth",
       "gloss": { "en": "world", "sv": "värld", "svAlt": ["världen"] },
       "cognate": true,
       "ckb": {
@@ -738,7 +732,7 @@
       "unit": "weather-seasons",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🌳",
+      "icon": "tree-deciduous",
       "gloss": { "en": "nature", "sv": "natur", "svAlt": ["naturen"] },
       "ckb": {
         "primary": { "script": "سروشت", "latin": "sruşt" },

@@ -18,6 +18,7 @@ import { StrengthDot } from './strength-dots'
 import { wordsStrings } from './strings'
 import { wordCards } from './word-progress'
 import { qaUsing, sentencesUsing } from './word-usage'
+import { ContentIcon } from '@/components/content-icon'
 
 const EXAMPLES_SHOWN = 4
 
@@ -158,7 +159,7 @@ export function WordDetail({ concept, lang }: { concept: Concept; lang: TargetLa
         <Button asChild variant="secondary" className="mt-3 h-10 w-full justify-between rounded-xl">
           <Link to={`/learn/recognition/session?unit=${encodeURIComponent(concept.unit)}`}>
             <span className="flex min-w-0 items-center gap-2">
-              {unit && <span aria-hidden>{unit.emoji}</span>}
+              {unit && <ContentIcon name={unit.icon} className="text-muted-foreground" />}
               <span className="truncate">
                 {s.practiceUnit}
                 {unit && <span className="text-muted-foreground"> · {l(unit.title)}</span>}

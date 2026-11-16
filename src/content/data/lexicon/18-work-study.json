@@ -5,7 +5,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💼",
+      "icon": "briefcase",
       "gloss": { "en": "job", "sv": "yrke", "enAlt": ["occupation", "profession"], "svAlt": ["jobb", "sysselsättning"] },
       "senseNote": { "en": "what you do for a living", "sv": "det man jobbar med" },
       "ckb": {
@@ -30,7 +30,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧑‍🏫",
+      "icon": "presentation",
       "gloss": { "en": "teacher", "sv": "lärare", "svAlt": ["lärarinna", "fröken"] },
       "ckb": {
         "primary": { "script": "مامۆستا", "latin": "mamosta" },
@@ -83,7 +83,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏢",
+      "icon": "building",
       "gloss": { "en": "office", "sv": "kontor", "svAlt": ["byrå"] },
       "ckb": {
         "primary": { "script": "نووسینگە", "latin": "nûsînge" },
@@ -228,7 +228,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "👷",
+      "icon": "hard-hat",
       "gloss": { "en": "worker", "sv": "arbetare", "enAlt": ["labourer", "laborer", "workman"], "svAlt": ["arbetaren"] },
       "ckb": {
         "primary": { "script": "کرێکار", "latin": "kirêkar" },
@@ -349,7 +349,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "📝",
+      "icon": "notebook-pen",
       "gloss": { "en": "homework", "sv": "läxa", "svAlt": ["läxor", "hemläxa"] },
       "ckb": {
         "primary": { "script": "ئەرکی ماڵەوە", "latin": "erkî małewe" },
@@ -419,7 +419,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🖊️",
+      "icon": "pen",
       "gloss": { "en": "pen", "sv": "penna", "enAlt": ["ballpoint pen", "biro"], "svAlt": ["bläckpenna", "kulspetspenna", "kulpenna"] },
       "ckb": {
         "primary": { "script": "پێنووس", "latin": "pênûs" },
@@ -443,7 +443,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "📄",
+      "icon": "file-text",
       "gloss": { "en": "paper", "sv": "papper" },
       "cognate": true,
       "ckb": {
@@ -468,7 +468,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "📓",
+      "icon": "notebook",
       "gloss": { "en": "notebook", "sv": "anteckningsbok", "enAlt": ["exercise book"], "svAlt": ["skrivbok", "block", "kollegieblock"] },
       "cognate": true,
       "ckb": {
@@ -493,7 +493,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "❓",
+      "icon": "circle-question-mark",
       "gloss": { "en": "question", "sv": "fråga" },
       "ckb": {
         "primary": { "script": "پرسیار", "latin": "pirsyar" },
@@ -590,7 +590,7 @@
       "unit": "work-study",
       "pos": "noun",
       "level": "A2",
-      "emoji": "✉️",
+      "icon": "mail",
       "gloss": { "en": "letter", "sv": "brev" },
       "senseNote": { "en": "that you post", "sv": "som man skickar" },
       "cognate": true,
@@ -668,7 +668,7 @@
       "unit": "work-study",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🏁",
+      "icon": "flag",
       "gloss": { "en": "to begin", "sv": "att börja", "enAlt": ["to start", "begin", "start"], "svAlt": ["börja", "starta", "att starta"] },
       "ckb": {
         "primary": { "script": "دەست پێکردن", "latin": "dest pêkirdin" },

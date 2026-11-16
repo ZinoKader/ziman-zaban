@@ -2,7 +2,7 @@
   "area": {
     "id": "pantry",
     "order": 3,
-    "emoji": "🫙",
+    "icon": "wheat",
     "title": {
       "en": "The pantry",
       "sv": "Skafferiet"

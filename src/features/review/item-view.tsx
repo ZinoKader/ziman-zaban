@@ -11,6 +11,7 @@ import { cn } from '@/lib/utils'
 import type { ContentReport } from '@/store/progress'
 import type { QueueItem } from './queue'
 import { reviewStrings } from './strings'
+import { ContentIcon } from '@/components/content-icon'
 
 function Section({ title, hint, children, className }: { title: string; hint?: string; children: ReactNode; className?: string }) {
   return (
@@ -177,7 +178,7 @@ function Header({ item, extra, reported }: { item: QueueItem; extra?: ReactNode;
       <Badge variant="secondary">{s.kind[item.kind]}</Badge>
       {unit && (
         <Badge variant="outline" className="font-normal">
-          <span aria-hidden>{unit.emoji}</span> {l(unit.title)}
+          <ContentIcon name={unit.icon} /> {l(unit.title)}
         </Badge>
       )}
       <Badge variant="outline" className="font-normal">
@@ -236,11 +237,7 @@ function ConceptView({ item, lang, reports }: ItemViewProps) {
       />
       {reports.length > 0 && <ReportedBanner reports={reports} />}
       <div className="flex flex-col items-center gap-2 py-2 text-center">
-        {concept.emoji && (
-          <span className="text-4xl" aria-hidden>
-            {concept.emoji}
-          </span>
-        )}
+        {concept.icon && <ContentIcon name={concept.icon} strokeWidth={1.5} className="size-10 text-muted-foreground" />}
         <TargetText lang={lang} text={entry.primary.script} latin={entry.primary.latin} size="2xl" audio audioUrl={audioUrl} romanization="always" lead="script" />
         <div className="flex flex-wrap items-center justify-center gap-1.5">
           <FormTags form={entry.primary} />

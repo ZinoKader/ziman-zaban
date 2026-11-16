@@ -5,7 +5,7 @@
       "unit": "conversation",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "🤔",
+      "icon": "message-circle-question-mark",
       "gloss": { "en": "why", "sv": "varför" },
       "ckb": {
         "primary": { "script": "بۆچی", "latin": "boçî" },
@@ -34,7 +34,7 @@
       "unit": "conversation",
       "pos": "question-word",
       "level": "A1",
-      "emoji": "⏰",
+      "icon": "alarm-clock",
       "gloss": { "en": "when", "sv": "när" },
       "senseNote": { "en": "in questions", "sv": "i frågor" },
       "cognate": true,
@@ -147,7 +147,7 @@
       "unit": "conversation",
       "pos": "conjunction",
       "level": "A1",
-      "emoji": "➕",
+      "icon": "plus",
       "gloss": { "en": "and", "sv": "och" },
       "cognate": true,
       "ckb": {
@@ -275,7 +275,6 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "💯",
       "gloss": { "en": "of course", "sv": "självklart", "enAlt": ["sure", "certainly"], "svAlt": ["naturligtvis", "givetvis", "så klart", "klart"] },
       "ckb": {
         "primary": { "script": "بێگومان", "latin": "bêguman" },
@@ -301,7 +300,7 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "🔁",
+      "icon": "repeat",
       "gloss": { "en": "again", "sv": "igen", "enAlt": ["once more"], "svAlt": ["en gång till"] },
       "cognate": true,
       "ckb": {
@@ -331,7 +330,7 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "🐢",
+      "icon": "turtle",
       "gloss": { "en": "slowly", "sv": "långsamt", "svAlt": ["sakta"] },
       "ckb": {
         "primary": { "script": "هێواش", "latin": "hêwaş" },
@@ -360,7 +359,6 @@
       "unit": "conversation",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "😮",
       "gloss": { "en": "really", "sv": "verkligen", "enAlt": ["truly"], "svAlt": ["på riktigt", "jaså"] },
       "ckb": {
         "primary": { "script": "بەڕاستی", "latin": "beřastî" },
@@ -385,7 +383,6 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "😕",
       "gloss": { "en": "I don't understand", "sv": "jag förstår inte", "enAlt": ["I do not understand"] },
       "ckb": {
         "primary": { "script": "تێناگەم", "latin": "tênagem" },
@@ -417,7 +414,6 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🤷",
       "gloss": { "en": "I don't know", "sv": "jag vet inte", "enAlt": ["I do not know"] },
       "cognate": true,
       "ckb": {
@@ -443,7 +439,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🗣️",
+      "icon": "languages",
       "gloss": { "en": "please say it again", "sv": "kan du säga det igen?", "enAlt": ["please repeat", "say it again"], "svAlt": ["säg det igen", "kan du upprepa?", "upprepa, tack"] },
       "ckb": {
         "primary": { "script": "تکایە دووبارەی بکەرەوە", "latin": "tikaye dûbarey bikerewe" },
@@ -475,7 +471,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "📖",
+      "icon": "book-open",
       "gloss": { "en": "what does it mean?", "sv": "vad betyder det?", "enAlt": ["what does that mean?", "what does this mean?"], "svAlt": ["vad betyder det här?"] },
       "ckb": {
         "primary": { "script": "مانای چییە؟", "latin": "manay çîye?" },
@@ -504,7 +500,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🗨️",
+      "icon": "message-square",
       "gloss": { "en": "how do you say ...?", "sv": "hur säger man ...?", "enAlt": ["how do you say it?", "how do you say that?"], "svAlt": ["hur säger man det?"] },
       "ckb": {
         "primary": { "script": "چۆن دەڵێن؟", "latin": "çon dełên?" },
@@ -536,7 +532,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🙋",
+      "icon": "user-round",
       "gloss": { "en": "excuse me", "sv": "ursäkta mig", "enAlt": ["pardon me"], "svAlt": ["ursäkta"] },
       "senseNote": { "en": "polite, to get attention", "sv": "artigt, för att få uppmärksamhet" },
       "ckb": {
@@ -554,7 +550,7 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🏃",
+      "icon": "person-standing",
       "gloss": { "en": "let's go", "sv": "nu går vi", "enAlt": ["let us go"], "svAlt": ["vi går", "kom så går vi"] },
       "ckb": {
         "primary": { "script": "با بڕۆین", "latin": "ba biřoyn" },
@@ -583,7 +579,6 @@
       "unit": "conversation",
       "pos": "phrase",
       "level": "A1",
-      "emoji": "🔜",
       "gloss": { "en": "see you later", "sv": "vi ses", "enAlt": ["see you"], "svAlt": ["vi ses senare", "ses"] },
       "ckb": {
         "primary": { "script": "دواتر دەتبینمەوە", "latin": "dwatir detbînimewe" },

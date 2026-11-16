@@ -5,7 +5,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🛠️",
+      "icon": "wrench",
       "gloss": { "en": "to do", "sv": "att göra", "enAlt": ["to make", "do", "make"], "svAlt": ["göra"] },
       "cognate": true,
       "ckb": {
@@ -34,7 +34,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "👀",
+      "icon": "eye",
       "gloss": { "en": "to see", "sv": "att se", "enAlt": ["see"], "svAlt": ["se"] },
       "cognate": true,
       "ckb": {
@@ -70,7 +70,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "👂",
+      "icon": "ear",
       "gloss": { "en": "to hear", "sv": "att höra", "enAlt": ["hear"], "svAlt": ["höra"] },
       "ckb": {
         "primary": { "script": "بیستن", "latin": "bîstin" },
@@ -98,7 +98,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🧠",
+      "icon": "brain",
       "gloss": { "en": "to know", "sv": "att veta", "enAlt": ["know"], "svAlt": ["veta", "kunna"] },
       "cognate": true,
       "ckb": {
@@ -127,7 +127,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "💡",
+      "icon": "lightbulb",
       "gloss": { "en": "to understand", "sv": "att förstå", "enAlt": ["understand"], "svAlt": ["förstå"] },
       "ckb": {
         "primary": { "script": "تێگەیشتن", "latin": "têgeyştin" },
@@ -159,7 +159,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "💬",
+      "icon": "message-circle",
       "gloss": { "en": "to say", "sv": "att säga", "enAlt": ["to tell", "say", "tell"], "svAlt": ["säga"] },
       "cognate": true,
       "ckb": {
@@ -189,7 +189,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "📖",
+      "icon": "book-open",
       "gloss": { "en": "to read", "sv": "att läsa", "enAlt": ["read"], "svAlt": ["läsa"] },
       "cognate": true,
       "ckb": {
@@ -218,7 +218,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "✍️",
+      "icon": "pen-line",
       "gloss": { "en": "to write", "sv": "att skriva", "enAlt": ["write"], "svAlt": ["skriva"] },
       "cognate": true,
       "ckb": {
@@ -247,7 +247,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🛒",
+      "icon": "shopping-cart",
       "gloss": { "en": "to buy", "sv": "att köpa", "enAlt": ["buy"], "svAlt": ["köpa"] },
       "cognate": true,
       "ckb": {
@@ -276,7 +276,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🎁",
+      "icon": "gift",
       "gloss": { "en": "to give", "sv": "att ge", "enAlt": ["give"], "svAlt": ["ge", "giva"] },
       "cognate": true,
       "ckb": {
@@ -305,7 +305,6 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "✋",
       "gloss": { "en": "to take", "sv": "att ta", "enAlt": ["take", "to get"], "svAlt": ["ta", "få tag i"] },
       "senseNote": { "en": "take hold of, get", "sv": "ta, få tag i" },
       "cognate": true,
@@ -335,7 +334,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🔓",
+      "icon": "lock-open",
       "gloss": { "en": "to open", "sv": "att öppna", "enAlt": ["open"], "svAlt": ["öppna"] },
       "ckb": {
         "primary": { "script": "کردنەوە", "latin": "kirdinewe" },
@@ -363,7 +362,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🔒",
+      "icon": "lock",
       "gloss": { "en": "to close", "sv": "att stänga", "enAlt": ["to shut", "close", "shut"], "svAlt": ["stänga"] },
       "ckb": {
         "primary": { "script": "داخستن", "latin": "daxistin" },
@@ -391,7 +390,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🪑",
+      "icon": "armchair",
       "gloss": { "en": "to sit", "sv": "att sitta", "enAlt": ["to sit down", "sit"], "svAlt": ["sätta sig", "sitta"] },
       "cognate": true,
       "ckb": {
@@ -420,7 +419,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "⏳",
+      "icon": "hourglass",
       "gloss": { "en": "to wait", "sv": "att vänta", "enAlt": ["wait"], "svAlt": ["vänta"] },
       "ckb": {
         "primary": { "script": "چاوەڕێ کردن", "latin": "çaweřê kirdin" },
@@ -448,7 +447,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🤝",
+      "icon": "handshake",
       "gloss": { "en": "to help", "sv": "att hjälpa", "enAlt": ["help"], "svAlt": ["hjälpa"] },
       "ckb": {
         "primary": { "script": "یارمەتی دان", "latin": "yarmetî dan" },
@@ -476,7 +475,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🎓",
+      "icon": "graduation-cap",
       "gloss": { "en": "to learn", "sv": "att lära sig", "enAlt": ["learn"], "svAlt": ["lära sig", "lära"] },
       "ckb": {
         "primary": { "script": "فێر بوون", "latin": "fêr bûn" },
@@ -505,7 +504,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "❤️",
+      "icon": "heart",
       "gloss": { "en": "to like", "sv": "att tycka om", "enAlt": ["to love", "like", "love"], "svAlt": ["tycka om", "gilla", "älska"] },
       "ckb": {
         "primary": { "script": "حەز کردن", "latin": "ḧez kirdin" },
@@ -533,7 +532,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "💪",
+      "icon": "biceps-flexed",
       "gloss": { "en": "can", "sv": "kunna", "enAlt": ["to be able to", "be able to", "could"], "svAlt": ["att kunna", "kan"] },
       "cognate": true,
       "ckb": {
@@ -562,7 +561,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "📞",
+      "icon": "phone",
       "gloss": { "en": "to call", "sv": "att ringa", "enAlt": ["to phone", "to ring", "call", "phone"], "svAlt": ["ringa", "ringa upp"] },
       "senseNote": { "en": "on the phone", "sv": "i telefon" },
       "ckb": {
@@ -600,7 +599,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "⚽",
+      "icon": "volleyball",
       "gloss": { "en": "to play", "sv": "att leka", "enAlt": ["play"], "svAlt": ["leka", "spela"] },
       "ckb": {
         "primary": { "script": "یاری کردن", "latin": "yarî kirdin" },
@@ -628,7 +627,7 @@
       "unit": "actions",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🍳",
+      "icon": "egg-fried",
       "gloss": { "en": "to cook", "sv": "att laga mat", "enAlt": ["cook"], "svAlt": ["laga mat", "laga"] },
       "ckb": {
         "primary": { "script": "چێشت لێنان", "latin": "çêşt lênan" },

@@ -30,7 +30,7 @@
       "unit": "time-plans",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🕛",
+      "icon": "clock-12",
       "gloss": { "en": "noon", "sv": "middag", "enAlt": ["midday", "lunchtime"], "svAlt": ["mitt på dagen", "lunchtid", "klockan tolv"] },
       "senseNote": { "en": "12 o'clock in the day", "sv": "klockan tolv på dagen, inte måltiden" },
       "ckb": {
@@ -78,7 +78,7 @@
       "unit": "time-plans",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🏖️",
+      "icon": "tree-palm",
       "gloss": { "en": "holiday", "sv": "ledighet", "enAlt": ["vacation", "day off", "holidays"], "svAlt": ["semester", "ledig dag", "lov"] },
       "senseNote": { "en": "a day off or a vacation", "sv": "ledig dag eller semester" },
       "ckb": {
@@ -104,7 +104,6 @@
       "unit": "time-plans",
       "pos": "noun",
       "level": "A2",
-      "emoji": "⌛",
       "gloss": { "en": "time", "sv": "tid" },
       "senseNote": { "en": "as in \"I have no time\"", "sv": "som i \"jag har inte tid\"" },
       "ckb": {
@@ -130,7 +129,6 @@
       "unit": "time-plans",
       "pos": "adverb",
       "level": "A2",
-      "emoji": "🔜",
       "gloss": { "en": "soon", "sv": "snart", "enAlt": ["shortly"], "svAlt": ["inom kort"] },
       "ckb": {
         "primary": { "script": "بەم زووانە", "latin": "bem zûane" },
@@ -278,7 +276,7 @@
       "unit": "time-plans",
       "pos": "numeral",
       "level": "A2",
-      "emoji": "🥇",
+      "icon": "medal",
       "gloss": { "en": "first", "sv": "första", "svAlt": ["förste", "först"] },
       "ckb": {
         "primary": { "script": "یەکەم", "latin": "yekem" },
@@ -388,7 +386,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🔙",
+      "icon": "undo-2",
       "gloss": { "en": "to return", "sv": "att komma tillbaka", "enAlt": ["to come back", "to go back", "return", "come back"], "svAlt": ["komma tillbaka", "återvända", "gå tillbaka"] },
       "senseNote": { "en": "come back", "sv": "komma tillbaka" },
       "ckb": {
@@ -417,7 +415,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "📤",
+      "icon": "send",
       "gloss": { "en": "to send", "sv": "att skicka", "enAlt": ["send"], "svAlt": ["skicka", "sända"] },
       "ckb": {
         "primary": { "script": "ناردن", "latin": "nardin" },
@@ -472,7 +470,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🔍",
+      "icon": "search",
       "gloss": { "en": "to find", "sv": "att hitta", "enAlt": ["find"], "svAlt": ["hitta", "finna"] },
       "ckb": {
         "primary": { "script": "دۆزینەوە", "latin": "dozînewe" },
@@ -528,7 +526,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "❓",
+      "icon": "circle-question-mark",
       "gloss": { "en": "to ask", "sv": "att fråga", "enAlt": ["ask"], "svAlt": ["fråga"] },
       "senseNote": { "en": "ask a question", "sv": "ställa en fråga" },
       "cognate": true,
@@ -586,7 +584,6 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "👉",
       "gloss": { "en": "to show", "sv": "att visa", "enAlt": ["show"], "svAlt": ["visa"] },
       "ckb": {
         "primary": { "script": "پیشان دان", "latin": "pîşan dan" },
@@ -676,7 +673,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🔄",
+      "icon": "refresh-cw",
       "gloss": { "en": "to change", "sv": "att ändra", "enAlt": ["change"], "svAlt": ["ändra", "byta", "att byta", "förändra"] },
       "senseNote": { "en": "make something different", "sv": "ändra, byta ut något" },
       "ckb": {
@@ -706,7 +703,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🏃",
+      "icon": "person-standing",
       "gloss": { "en": "to run", "sv": "att springa", "enAlt": ["run"], "svAlt": ["springa", "löpa"] },
       "ckb": {
         "primary": { "script": "ڕاکردن", "latin": "řakirdin" },
@@ -734,7 +731,6 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🏊",
       "gloss": { "en": "to swim", "sv": "att simma", "enAlt": ["swim"], "svAlt": ["simma"] },
       "ckb": {
         "primary": { "script": "مەلە کردن", "latin": "mele kirdin" },
@@ -762,7 +758,7 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🎤",
+      "icon": "mic-vocal",
       "gloss": { "en": "to sing", "sv": "att sjunga", "enAlt": ["sing"], "svAlt": ["sjunga"] },
       "ckb": {
         "primary": { "script": "گۆرانی وتن", "latin": "goranî witin" },
@@ -792,7 +788,6 @@
       "unit": "time-plans",
       "pos": "verb",
       "level": "A2",
-      "emoji": "💃",
       "gloss": { "en": "to dance", "sv": "att dansa", "enAlt": ["dance"], "svAlt": ["dansa"] },
       "ckb": {
         "primary": { "script": "سەما کردن", "latin": "sema kirdin" },

@@ -5,7 +5,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏠",
+      "icon": "house",
       "gloss": { "en": "house", "sv": "hus", "enAlt": ["home"], "svAlt": ["hem"] },
       "ckb": {
         "primary": { "script": "ماڵ", "latin": "mał" },
@@ -37,7 +37,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🚪",
+      "icon": "door-closed",
       "gloss": { "en": "room", "sv": "rum" },
       "ckb": {
         "primary": { "script": "ژوور", "latin": "jûr" },
@@ -61,7 +61,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🚪",
+      "icon": "door-closed",
       "gloss": { "en": "door", "sv": "dörr" },
       "cognate": true,
       "ckb": {
@@ -86,7 +86,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🪟",
+      "icon": "app-window",
       "gloss": { "en": "window", "sv": "fönster" },
       "cognate": true,
       "ckb": {
@@ -111,7 +111,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🍳",
+      "icon": "egg-fried",
       "gloss": { "en": "kitchen", "sv": "kök" },
       "ckb": {
         "primary": { "script": "مەتبەخ", "latin": "metbex" },
@@ -145,7 +145,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🛏️",
+      "icon": "bed",
       "gloss": { "en": "bed", "sv": "säng" },
       "ckb": {
         "primary": { "script": "جێگا", "latin": "cêga" },
@@ -195,7 +195,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🪑",
+      "icon": "armchair",
       "gloss": { "en": "chair", "sv": "stol" },
       "ckb": {
         "primary": { "script": "کورسی", "latin": "kursî" },
@@ -219,7 +219,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "📖",
+      "icon": "book-open",
       "gloss": { "en": "book", "sv": "bok" },
       "cognate": true,
       "ckb": {
@@ -253,7 +253,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "📱",
+      "icon": "smartphone",
       "gloss": { "en": "phone", "sv": "telefon", "enAlt": ["mobile phone", "mobile", "cell phone", "telephone"], "svAlt": ["mobil", "mobiltelefon"] },
       "ckb": {
         "primary": { "script": "مۆبایل", "latin": "mobayl" },
@@ -292,7 +292,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🔑",
+      "icon": "key",
       "gloss": { "en": "key", "sv": "nyckel" },
       "cognate": true,
       "ckb": {
@@ -317,7 +317,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "👕",
+      "icon": "shirt",
       "gloss": { "en": "clothes", "sv": "kläder", "enAlt": ["clothing"] },
       "ckb": {
         "primary": { "script": "جل", "latin": "cil" },
@@ -343,7 +343,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "💼",
+      "icon": "briefcase",
       "gloss": { "en": "work", "sv": "arbete", "enAlt": ["job"], "svAlt": ["jobb"] },
       "senseNote": { "en": "the noun: a job, a task", "sv": "substantivet: ett jobb, en uppgift" },
       "cognate": true,
@@ -370,7 +370,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏫",
+      "icon": "school",
       "gloss": { "en": "school", "sv": "skola" },
       "ckb": {
         "primary": { "script": "قوتابخانە", "latin": "qutabxane" },
@@ -394,7 +394,7 @@
       "unit": "home-daily",
       "pos": "noun",
       "level": "A1",
-      "emoji": "🏢",
+      "icon": "building",
       "gloss": { "en": "apartment", "sv": "lägenhet", "enAlt": ["flat"] },
       "ckb": {
         "primary": { "script": "شوقە", "latin": "şuqe" },
@@ -419,7 +419,7 @@
       "unit": "home-daily",
       "pos": "verb",
       "level": "A1",
-      "emoji": "😴",
+      "icon": "bed-double",
       "gloss": { "en": "to sleep", "sv": "att sova", "svAlt": ["sova"] },
       "cognate": true,
       "ckb": {
@@ -449,7 +449,7 @@
       "unit": "home-daily",
       "pos": "verb",
       "level": "A1",
-      "emoji": "⏰",
+      "icon": "alarm-clock",
       "gloss": { "en": "to wake up", "sv": "att vakna", "enAlt": ["to get up", "wake up", "get up"], "svAlt": ["vakna", "gå upp", "att gå upp", "stiga upp"] },
       "ckb": {
         "primary": { "script": "هەڵسان", "latin": "hełsan" },
@@ -484,7 +484,7 @@
       "unit": "home-daily",
       "pos": "verb",
       "level": "A1",
-      "emoji": "👷",
+      "icon": "hard-hat",
       "gloss": { "en": "to work", "sv": "att arbeta", "svAlt": ["arbeta", "jobba", "att jobba"] },
       "cognate": true,
       "ckb": {
@@ -513,7 +513,7 @@
       "unit": "home-daily",
       "pos": "verb",
       "level": "A1",
-      "emoji": "📚",
+      "icon": "library",
       "gloss": { "en": "to study", "sv": "att studera", "svAlt": ["studera", "plugga", "att plugga"] },
       "cognate": true,
       "ckb": {
@@ -543,7 +543,7 @@
       "unit": "home-daily",
       "pos": "verb",
       "level": "A1",
-      "emoji": "🧼",
+      "icon": "soap-dispenser-droplet",
       "gloss": { "en": "to wash", "sv": "att tvätta", "svAlt": ["tvätta", "diska", "att diska"] },
       "cognate": true,
       "ckb": {
@@ -572,7 +572,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "📅",
+      "icon": "calendar",
       "gloss": { "en": "every day", "sv": "varje dag", "enAlt": ["daily"], "svAlt": ["dagligen"] },
       "ckb": {
         "primary": { "script": "هەموو ڕۆژێک", "latin": "hemû řojêk" },
@@ -610,7 +610,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "♾️",
+      "icon": "infinity",
       "gloss": { "en": "always", "sv": "alltid" },
       "cognate": true,
       "ckb": {
@@ -666,7 +666,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "🚫",
+      "icon": "ban",
       "gloss": { "en": "never", "sv": "aldrig" },
       "ckb": {
         "primary": { "script": "هەرگیز", "latin": "hergîz" },
@@ -722,7 +722,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "🌅",
+      "icon": "sunrise",
       "gloss": { "en": "early", "sv": "tidigt", "svAlt": ["tidig"] },
       "cognate": true,
       "ckb": {
@@ -747,7 +747,7 @@
       "unit": "home-daily",
       "pos": "adverb",
       "level": "A1",
-      "emoji": "🌙",
+      "icon": "moon",
       "gloss": { "en": "late", "sv": "sent", "svAlt": ["sen", "för sent"] },
       "ckb": {
         "primary": { "script": "درەنگ", "latin": "direng" },

@@ -6,6 +6,7 @@ import { LEVELS, type Level } from '@/content/types'
 import { useLocalize } from '@/i18n'
 import { REVIEW_KINDS, type QueueFilters as Filters, type ReviewKind } from './queue'
 import { reviewStrings } from './strings'
+import { ContentIcon } from '@/components/content-icon'
 
 interface QueueFiltersProps {
   filters: Filters
@@ -38,7 +39,7 @@ export function QueueFilters({ filters, onChange }: QueueFiltersProps) {
             <SelectItem value="all">{s.allUnits}</SelectItem>
             {units.map((u) => (
               <SelectItem key={u.id} value={u.id}>
-                {u.emoji} {l(u.title)}
+                <ContentIcon name={u.icon} className="text-muted-foreground" /> {l(u.title)}
               </SelectItem>
             ))}
           </SelectContent>

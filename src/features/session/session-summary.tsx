@@ -21,6 +21,7 @@ import { useSettings } from '@/store/settings'
 import { nextSteps } from './next-steps'
 import { sessionStrings } from './strings'
 import type { SessionKind } from './use-session'
+import { ContentIcon } from '@/components/content-icon'
 
 export interface SessionStats {
   reviewed: number
@@ -211,8 +212,8 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
                 <p className="text-sm font-medium text-success">{p.newlyLearned(learnedNow)}</p>
                 <ul className="flex flex-wrap gap-1.5">
                   {gain.newlyLearned.slice(0, 12).map((c) => (
-                    <li key={c.id} className="rounded-full bg-muted px-2.5 py-0.5 text-sm">
-                      {c.emoji && <span aria-hidden className="me-1">{c.emoji}</span>}
+                    <li key={c.id} className="flex items-center gap-1.5 rounded-full bg-muted px-2.5 py-0.5 text-sm">
+                      {c.icon && <ContentIcon name={c.icon} className="size-3.5 text-muted-foreground" />}
                       {c[lang]?.primary.latin}
                     </li>
                   ))}

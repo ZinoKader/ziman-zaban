@@ -5,7 +5,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🛁",
+      "icon": "bath",
       "gloss": { "en": "bathroom", "sv": "badrum" },
       "cognate": true,
       "ckb": {
@@ -31,7 +31,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🚽",
+      "icon": "toilet",
       "gloss": { "en": "toilet", "sv": "toalett", "enAlt": ["WC", "loo", "lavatory"], "svAlt": ["toa", "wc", "dass"] },
       "ckb": {
         "primary": { "script": "ئاودەست", "latin": "awdest" },
@@ -57,7 +57,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🚿",
+      "icon": "shower-head",
       "gloss": { "en": "shower", "sv": "dusch" },
       "fa": {
         "primary": { "script": "دوش", "latin": "dush" },
@@ -158,7 +158,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧱",
+      "icon": "brick-wall",
       "gloss": { "en": "wall", "sv": "vägg", "svAlt": ["mur"] },
       "cognate": true,
       "ckb": {
@@ -239,7 +239,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💡",
+      "icon": "lightbulb",
       "gloss": { "en": "lamp", "sv": "lampa", "enAlt": ["light"] },
       "cognate": true,
       "ckb": {
@@ -271,7 +271,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🛋️",
+      "icon": "sofa",
       "gloss": { "en": "sofa", "sv": "soffa", "enAlt": ["couch", "settee"] },
       "ckb": {
         "primary": { "script": "قەنەفە", "latin": "qenefe" },
@@ -391,7 +391,6 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🪞",
       "gloss": { "en": "mirror", "sv": "spegel" },
       "cognate": true,
       "ckb": {
@@ -440,7 +439,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🧼",
+      "icon": "soap-dispenser-droplet",
       "gloss": { "en": "soap", "sv": "tvål", "svAlt": ["såpa"] },
       "cognate": true,
       "ckb": {
@@ -465,7 +464,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "📺",
+      "icon": "tv",
       "gloss": { "en": "television", "sv": "tv", "enAlt": ["TV", "telly"], "svAlt": ["teve", "television", "tv-apparat"] },
       "cognate": true,
       "ckb": {
@@ -490,7 +489,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "💻",
+      "icon": "laptop",
       "gloss": { "en": "computer", "sv": "dator" },
       "cognate": true,
       "ckb": {
@@ -516,7 +515,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "📷",
+      "icon": "camera",
       "gloss": { "en": "photo", "sv": "foto", "enAlt": ["photograph", "picture"], "svAlt": ["bild", "fotografi", "kort"] },
       "ckb": {
         "primary": { "script": "وێنە", "latin": "wêne" },
@@ -540,7 +539,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🕰️",
+      "icon": "clock",
       "gloss": { "en": "clock", "sv": "klocka", "enAlt": ["watch"], "svAlt": ["ur", "armbandsur"] },
       "ckb": {
         "primary": { "script": "کاتژمێر", "latin": "katjimêr" },
@@ -638,7 +637,7 @@
       "unit": "around-the-house",
       "pos": "verb",
       "level": "A2",
-      "emoji": "🧹",
+      "icon": "brush-cleaning",
       "gloss": { "en": "to clean", "sv": "att städa", "enAlt": ["clean", "to tidy", "tidy"], "svAlt": ["städa", "göra ren", "att göra ren", "rengöra"] },
       "ckb": {
         "primary": { "script": "پاک کردنەوە", "latin": "pak kirdinewe" },
@@ -695,7 +694,7 @@
       "unit": "around-the-house",
       "pos": "noun",
       "level": "A2",
-      "emoji": "🗑️",
+      "icon": "trash-2",
       "gloss": { "en": "garbage", "sv": "sopor", "enAlt": ["rubbish", "trash", "waste"], "svAlt": ["skräp", "avfall", "sopa"] },
       "ckb": {
         "primary": { "script": "زبڵ", "latin": "zibł" },
