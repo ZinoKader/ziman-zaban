@@ -14,6 +14,7 @@ import {
   periodOf,
   punchCard,
   recordsOf,
+  reviewRecall,
   sessionsOf,
   shiftPeriod,
   totalsBetween,
@@ -161,5 +162,24 @@ describe('heatmap', () => {
     expect(weeks.at(-1)![1].level).toBe(1)
     expect(weeks.at(-1)![3].future).toBe(true)
     expect(weeks[0][0].day).toBe('2025-03-03')
+  })
+})
+
+describe('reviewRecall', () => {
+  const a = cardKey('ckb', 'recognition', words[0].id)
+  const c = cardKey('ckb', 'construction', 'x')
+  const log: ReviewEntry[] = [
+    { key: a, grade: Rating.Easy, at: at(2026, 3, 1, 9), ms: 1, kind: 'mc' },
+    { key: c, grade: Rating.Easy, at: at(2026, 3, 1, 9), ms: 1, kind: 'mc' },
+    { key: a, grade: Rating.Good, at: at(2026, 3, 6, 9), ms: 1, kind: 'mc' },
+    { key: c, grade: Rating.Good, at: at(2026, 3, 6, 9), ms: 1, kind: 'mc' },
+    { key: a, grade: Rating.Again, at: at(2026, 3, 30, 9), ms: 1, kind: 'mc' },
+    { key: a, grade: Rating.Good, at: at(2026, 3, 30, 9, 10), ms: 1, kind: 'mc' },
+  ]
+
+  it('counts only word answers on cards already in spaced review', () => {
+    const answers = answersOf(log, ['ckb'])
+    expect(reviewRecall(answers, new Date(2026, 2, 2))).toEqual({ reviews: 2, correct: 1 })
+    expect(reviewRecall(answers, new Date(2026, 2, 10))).toEqual({ reviews: 1, correct: 0 })
   })
 })

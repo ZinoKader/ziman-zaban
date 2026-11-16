@@ -6,6 +6,7 @@ import {
   courseProgress,
   forecast,
   hardestWords,
+  memoryOf,
   moduleProgress,
   reviewOutlook,
   sessionGain,
@@ -189,5 +190,39 @@ describe('sessionGain and cardsBefore', () => {
     expect(gain.course.after).toMatchObject({ learned: 1, learning: 1 })
     expect(gain.module.before.started).toBe(1)
     expect(gain.module.after.started).toBe(2)
+  })
+})
+
+describe('memoryOf', () => {
+  const DAY = 86_400_000
+  const held = (stability: number, daysAgo: number): StoredCard => ({
+    ...learned(),
+    stability,
+    last_review: new Date(now.getTime() - daysAgo * DAY).toISOString(),
+  })
+  const rec = (i: number) => cardKey('ckb', 'recognition', words[i].id)
+  const recall = (i: number) => cardKey('ckb', 'recall', words[i].id)
+
+  it('sorts learned words by the chance of remembering them now, using the stronger card', () => {
+    const cards: Cards = {
+      [rec(0)]: held(3, 1),
+      [rec(1)]: held(10, 20),
+      [rec(2)]: held(30, 900),
+      [recall(2)]: held(120, 10),
+      [rec(3)]: held(10, 300),
+      [rec(4)]: learning(),
+      [cardKey('fa', 'recognition', words[0].id)]: held(10, 300),
+      [cardKey('ckb', 'construction', 'x')]: held(10, 300),
+    }
+    const m = memoryOf(cards, 'ckb', now)
+    expect(m).toMatchObject({ learned: 4, learning: 1, sticking: 2, fading: 1, slipping: 1 })
+    expect(m.holds).toEqual([1, 2, 0, 1])
+    expect(m.recall).toBeGreaterThan(70)
+    expect(m.recall).toBeLessThan(90)
+    expect(memoryOf(cards, ['ckb', 'fa'], now).learned).toBe(5)
+  })
+
+  it('is empty before anything is learned', () => {
+    expect(memoryOf({ [rec(0)]: learning() }, 'ckb', now)).toMatchObject({ learned: 0, learning: 1, recall: null })
   })
 })

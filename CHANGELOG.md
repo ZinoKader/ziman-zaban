@@ -14,6 +14,8 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - Progress: "Your year" shows every day of the last 12 months as a square, darker the more you practised. Tap a day, or a bar in "Activity", to open it.
 - Progress: "Day by day" lists the sessions of the chosen day and every answer in them: the time, the word or sentence, right or wrong, and how long it took. "Mistakes" shows only the wrong answers.
 - Progress: new cards show which modules you used, which weekdays and hours you practise, the words you have met and learned over time, and your personal records.
+- Progress: a new "Memory" card shows how many of your learned words are sticking right now, which are fading, and how long they last before they need a review. It also shows how often you were right on reviews in the last 30 days.
+- Progress: the page has a new order. Your course, your memory and the reviews coming up are at the top, and the history is below. In "Day by day", a session stays closed until you open it.
 - App: the top bar no longer runs past the edge of laptop screens. Picture recognition is in it only on very wide screens.
 
 ## 2026-11-14

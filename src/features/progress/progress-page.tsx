@@ -1,8 +1,8 @@
 import { ArrowRight, CircleCheck, Lock } from 'lucide-react'
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import type { TargetLang } from '@/content/types'
 import { useLocalize } from '@/i18n'
@@ -15,11 +15,12 @@ import { useServerSaves } from '@/data/server-saves'
 import { useSettings } from '@/store/settings'
 import { ActivityCard } from './activity-card'
 import { DayCard, type LogState } from './day-card'
-import { formatWhen, periodLabel, shortDate, weekday } from './format'
+import { formatWhen, periodLabel } from './format'
 import { Highlights, ModulesCard, RecordsCard, WhenCard, WordsCard } from './insights'
-import { answersBetween, answersOf, parseDay, recordsOf } from './stats-data'
+import { addDaysTo, answersBetween, answersOf, parseDay, recordsOf, reviewRecall } from './stats-data'
 import { useStatsView } from './stats-params'
 import { YearCalendar } from './year-calendar'
+import { MemoryCard, ForecastCard } from './memory-card'
 import { Meter } from './meter'
 import { CourseSummary, ModuleBars } from './progress-card'
 import {
@@ -27,6 +28,7 @@ import {
   dueNow,
   forecast,
   hardestWords,
+  memoryOf,
   moduleProgress,
   startedLanguages,
   unitProgress,
@@ -36,7 +38,7 @@ import { progressStrings } from './strings'
 
 const SCRIPT_NAME: Record<TargetLang, string> = { ckb: 'کوردی', fa: 'فارسی' }
 
-function LanguageCourse({ lang, current }: { lang: TargetLang; current: boolean }) {
+function LanguageCourse({ lang, current, badge }: { lang: TargetLang; current: boolean; badge: boolean }) {
   const s = progressStrings.use()
   const c = common.use()
   const set = useSettings((st) => st.set)
@@ -45,12 +47,12 @@ function LanguageCourse({ lang, current }: { lang: TargetLang; current: boolean 
   const now = useNow()
   const modules = useMemo(() => moduleProgress(lang, cards, now), [lang, cards, now])
   return (
-    <Card className={cn(current && 'ring-2 ring-primary/30')}>
+    <Card className={cn(badge && current && 'ring-2 ring-primary/30')}>
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <span lang={lang} dir="rtl" className="font-script text-2xl text-primary">{SCRIPT_NAME[lang]}</span>
           <span>{c.languages[lang]}</span>
-          {current && <span className="ms-auto rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">{s.current}</span>}
+          {badge && current && <span className="ms-auto rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">{s.current}</span>}
         </CardTitle>
       </CardHeader>
       <CardContent className="@container space-y-5">
@@ -63,41 +65,6 @@ function LanguageCourse({ lang, current }: { lang: TargetLang; current: boolean 
         )}
       </CardContent>
     </Card>
-  )
-}
-
-function ColumnChart({
-  data,
-  label,
-  barLabel,
-  highlight,
-  tone,
-}: {
-  data: Array<{ key: string; date: Date; value: number }>
-  label: string
-  barLabel: (day: string, n: number) => string
-  highlight: string
-  tone: string
-}) {
-  const baseLang = useSettings((st) => st.baseLang)
-  const max = Math.max(1, ...data.map((d) => d.value))
-  return (
-    <ol aria-label={label} className="flex h-32 items-end gap-1 sm:gap-1.5">
-      {data.map((d) => (
-        <li key={d.key} className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-1">
-          <span className="text-[0.65rem] tabular-nums text-muted-foreground">{d.value || ''}</span>
-          <div
-            className={cn('w-full rounded-t-md', d.value ? tone : 'bg-muted', d.key === highlight && 'ring-2 ring-ring/40')}
-            style={{ height: d.value ? `${Math.max(6, (d.value / max) * 100)}%` : '3px' }}
-            title={barLabel(shortDate(d.date, baseLang), d.value)}
-          />
-          <span className="sr-only">{barLabel(shortDate(d.date, baseLang), d.value)}</span>
-          <span aria-hidden className={cn('text-[0.65rem] text-muted-foreground', d.key === highlight && 'font-semibold text-foreground')}>
-            {weekday(d.date, baseLang, 'narrow')}
-          </span>
-        </li>
-      ))}
-    </ol>
   )
 }
 
@@ -135,6 +102,31 @@ function UnitRow({ p }: { p: UnitProgress }) {
         </div>
       </div>
     </li>
+  )
+}
+
+const UNITS_SHOWN = 4
+
+function Units({ units }: { units: UnitProgress[] }) {
+  const s = progressStrings.use()
+  const [all, setAll] = useState(false)
+  const open = units.findIndex((p) => p.state !== 'done')
+  const from = Math.max(0, Math.min((open < 0 ? units.length : open) - 1, units.length - UNITS_SHOWN))
+  const shown = all ? units : units.slice(from, from + UNITS_SHOWN)
+  return (
+    <div className="space-y-3 pt-2">
+      <h3 className="font-semibold">{s.units}</h3>
+      <ul className="grid gap-3 sm:grid-cols-2">
+        {shown.map((p) => (
+          <UnitRow key={p.unit.id} p={p} />
+        ))}
+      </ul>
+      {shown.length < units.length || all ? (
+        <Button variant="outline" size="sm" onClick={() => setAll(!all)}>
+          {all ? s.fewerUnits : s.allUnits(units.length)}
+        </Button>
+      ) : null}
+    </div>
   )
 }
 
@@ -221,7 +213,7 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
   const perUnit = useMemo(() => (single ? unitProgress(single, cards) : []), [cards, single])
   const hardest = useMemo(() => hardestWords(cards, langs, 8), [cards, langs])
   const due = useMemo(() => dueNow(langs, cards, now), [cards, langs, now])
-  const comingTotal = coming.reduce((n, d) => n + d.count, 0)
+  const memory = useMemo(() => memoryOf(cards, langs, now), [cards, langs, now])
 
   const midnight = useMemo(() => parseDay(today), [today])
   const [view, setView] = useStatsView(now)
@@ -229,73 +221,29 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
   const answers = useMemo(() => reviewLog.data && answersOf(reviewLog.data, langs), [reviewLog.data, langs])
   const log: LogState = { answers, failed: reviewLog.isError && !answers, retry: () => void reviewLog.refetch() }
   const inPeriod = useMemo(() => answers && answersBetween(answers, view.period.start, view.period.end), [answers, view.period.start, view.period.end])
+  const recall = useMemo(() => answers && reviewRecall(answers, addDaysTo(midnight, -29)), [answers, midnight])
   const records = useMemo(() => recordsOf(days), [days])
   const periodName = periodLabel(view.range, view.period.start, view.period.end, baseLang)
   const selectDay = (day: string) => setView({ day })
 
   return (
     <div className="space-y-8">
-      <Highlights streakNow={streak(days, now)} records={records} todayStats={days[today]} due={due} />
-
-      <section className="space-y-4">
-        <ActivityCard days={days} period={view.period} metric={view.metric} day={view.day} today={midnight} onChange={setView} />
-        <YearCalendar days={days} today={midnight} selected={view.day} onDay={selectDay} />
-        <DayCard days={days} day={view.day} today={midnight} log={log} showLang={!single} onDay={selectDay} />
-        <div className="grid gap-4 md:grid-cols-2">
-          <ModulesCard answers={inPeriod} log={log} periodLabel={periodName} />
-          <WhenCard answers={inPeriod} log={log} periodLabel={periodName} />
-        </div>
-        <div className="grid gap-4 md:grid-cols-2">
-          <WordsCard answers={answers} log={log} now={now} />
-          <RecordsCard records={records} onChange={setView} />
-        </div>
-      </section>
+      <Highlights streakNow={streak(days, now)} records={records} todayStats={days[today]} due={due} tomorrow={coming[1]?.count ?? 0} />
 
       <section className="space-y-3">
         <h2 className="text-lg font-semibold">{s.courses}</h2>
         <div className={cn('grid gap-4', langs.length > 1 && 'md:grid-cols-2')}>
           {langs.map((x) => (
-            <LanguageCourse key={x} lang={x} current={x === current} />
+            <LanguageCourse key={x} lang={x} current={x === current} badge={langs.length > 1} />
           ))}
         </div>
+        {single && <Units units={perUnit} />}
       </section>
 
-      <section className={cn('grid gap-4', langs.length > 1 && 'lg:grid-cols-2')}>
-        {langs.map((x) => (
-          <MedalShelf key={x} lang={x} showLanguage={langs.length > 1} />
-        ))}
-      </section>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>{s.forecast}</CardTitle>
-          <CardDescription>{s.forecastHint}</CardDescription>
-        </CardHeader>
-        <CardContent>
-          {comingTotal === 0 ? (
-            <p className="text-sm text-muted-foreground">{s.dueNow(0)}</p>
-          ) : (
-            <ColumnChart
-              data={coming.map((d) => ({ key: d.day, date: d.date, value: d.count }))}
-              label={s.forecast}
-              barLabel={s.forecastBar}
-              highlight={today}
-              tone="bg-mod-recall"
-            />
-          )}
-        </CardContent>
-      </Card>
-
-      {single && (
-        <section className="space-y-3">
-          <h2 className="text-lg font-semibold">{s.units}</h2>
-          <ul className="grid gap-3 sm:grid-cols-2">
-            {perUnit.map((p) => (
-              <UnitRow key={p.unit.id} p={p} />
-            ))}
-          </ul>
-        </section>
-      )}
+      <div className="grid items-start gap-4 lg:grid-cols-[3fr_2fr]">
+        <MemoryCard memory={memory} recall={recall} log={log} />
+        <ForecastCard days={coming} />
+      </div>
 
       <section className="space-y-3">
         <div>
@@ -334,6 +282,27 @@ function ScopedProgress({ scope, langs }: { scope: StatsScope; langs: TargetLang
             })}
           </ul>
         )}
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-lg font-semibold">{s.history}</h2>
+        <ActivityCard days={days} period={view.period} metric={view.metric} day={view.day} today={midnight} onChange={setView} />
+        <YearCalendar days={days} today={midnight} selected={view.day} onDay={selectDay} />
+        <DayCard days={days} day={view.day} today={midnight} log={log} showLang={!single} onDay={selectDay} />
+        <div className="grid gap-4 md:grid-cols-2">
+          <ModulesCard answers={inPeriod} log={log} periodLabel={periodName} />
+          <WhenCard answers={inPeriod} log={log} periodLabel={periodName} />
+        </div>
+        <div className="grid gap-4 md:grid-cols-2">
+          <WordsCard answers={answers} log={log} now={now} />
+          <RecordsCard records={records} onChange={setView} />
+        </div>
+      </section>
+
+      <section className={cn('grid gap-4', langs.length > 1 && 'lg:grid-cols-2')}>
+        {langs.map((x) => (
+          <MedalShelf key={x} lang={x} showLanguage={langs.length > 1} />
+        ))}
       </section>
     </div>
   )

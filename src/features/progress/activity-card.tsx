@@ -45,7 +45,7 @@ function formatMetric(metric: Metric, v: number | null): string {
 
 function Delta({ pct, good = true }: { pct: number | null; good?: boolean }) {
   const s = statsStrings.use()
-  if (pct === null) return <span className="text-xs text-muted-foreground">{s.nothingBefore}</span>
+  if (pct === null) return <span className="text-xs text-muted-foreground" title={s.nothingBefore}>–</span>
   if (pct === 0) return <span className="text-xs text-muted-foreground">{s.noChange}</span>
   const up = pct > 0
   const Icon = up ? TrendingUp : TrendingDown
@@ -68,16 +68,12 @@ function MetricTile({
   active,
   now,
   before,
-  range,
-  soFar,
   onSelect,
 }: {
   metric: Metric
   active: boolean
   now: Totals
   before: Totals
-  range: Range
-  soFar: boolean
   onSelect: () => void
 }) {
   const s = statsStrings.use()
@@ -98,10 +94,7 @@ function MetricTile({
     >
       <span className="text-xs font-medium text-muted-foreground">{s.metric[metric]}</span>
       <span className="text-2xl font-semibold tabular-nums">{formatMetric(metric, value)}</span>
-      <span className="flex flex-wrap items-center gap-1">
-        <Delta pct={delta} />
-        {delta !== null && <span className="hidden text-[0.7rem] text-muted-foreground sm:inline">{(soFar ? s.vsSoFar : s.vsBefore)[range]}</span>}
-      </span>
+      <Delta pct={delta} />
     </button>
   )
 }
@@ -247,10 +240,13 @@ export function ActivityCard({
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
-        <div role="radiogroup" aria-label={s.activity} className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          {METRICS.map((m) => (
-            <MetricTile key={m} metric={m} active={m === metric} now={now} before={prev} range={range} soFar={isCurrent} onSelect={() => onChange({ metric: m })} />
-          ))}
+        <div className="space-y-1.5">
+          <div role="radiogroup" aria-label={s.activity} className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            {METRICS.map((m) => (
+              <MetricTile key={m} metric={m} active={m === metric} now={now} before={prev} onSelect={() => onChange({ metric: m })} />
+            ))}
+          </div>
+          <p className="text-xs text-muted-foreground">{(isCurrent ? s.vsSoFar : s.vsBefore)[range]}</p>
         </div>
 
         <ChartContainer config={config} className="aspect-auto h-56 w-full sm:h-64">

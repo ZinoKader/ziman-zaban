@@ -158,7 +158,9 @@ describe('ProgressPage', () => {
     const unitTotal = words.filter((w) => w.unit === unit.id).length
     expect(screen.getByRole('progressbar', { name: `${unit.title.en}: 3/${unitTotal} words · 2 in progress` })).toBeInTheDocument()
 
-    expect(within(screen.getByRole('list', { name: 'Coming up' })).getAllByRole('listitem')).toHaveLength(7)
+    expect(within(screen.getByRole('list', { name: 'Reviews ahead' })).getAllByRole('listitem')).toHaveLength(7)
+    expect(screen.getByText('of 3 learned words are sticking right now')).toBeInTheDocument()
+    expect(screen.getByText('2 more words are still in the first practice steps.')).toBeInTheDocument()
 
     const link = screen.getByRole('link', { name: new RegExp(hardWord[`ckb`]!.primary.latin) })
     expect(link).toHaveAttribute('href', `/words/${hardWord.id}`)

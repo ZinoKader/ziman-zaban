@@ -1,7 +1,7 @@
 import { conceptById, qaById, sentenceById } from '@/content'
 import { pictureById, pictureWord } from '@/content/pictures'
 import type { Localized, Skill, TargetLang } from '@/content/types'
-import { isLearned, parseCardKey, reviewCard, type CardKey, type Grade, type StoredCard } from '@/lib/srs'
+import { isLearned, parseCardKey, reviewCard, State, type CardKey, type Grade, type StoredCard } from '@/lib/srs'
 import { dayKey, type DayStats, type ReviewEntry } from '@/store/progress'
 
 export type Range = 'week' | 'month' | 'year'
@@ -268,6 +268,24 @@ export function wordsOverTime(answers: readonly Answer[], until: Date): WordsPoi
     m += metPerDay.get(key) ?? 0
     l += learnedPerDay.get(key) ?? 0
     out.push({ day: key, date: d, met: m, learned: l })
+  }
+  return out
+}
+
+/**
+ * Word answers since `since` given on a card that had already left the learning steps,
+ * i.e. real spaced reviews, and how many were right. The scheduler aims for 90 %.
+ */
+export function reviewRecall(answers: readonly Answer[], since: Date): { reviews: number; correct: number } {
+  const cards = new Map<CardKey, StoredCard>()
+  const out = { reviews: 0, correct: 0 }
+  for (const a of answers) {
+    const before = cards.get(a.key)
+    cards.set(a.key, reviewCard(before, a.grade, a.at))
+    if (a.at < since || (a.skill !== 'recognition' && a.skill !== 'recall')) continue
+    if (before?.state !== State.Review) continue
+    out.reviews++
+    if (a.correct) out.correct++
   }
   return out
 }

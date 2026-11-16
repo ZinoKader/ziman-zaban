@@ -1,6 +1,6 @@
-import { CalendarDays, CircleCheck, Clock, Flame, Hourglass, RotateCw, Trophy, Zap } from 'lucide-react'
+import { CircleCheck, Clock, Flame, Hourglass, RotateCw } from 'lucide-react'
 import { useMemo } from 'react'
-import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from 'recharts'
+import { CartesianGrid, Line, LineChart, XAxis, YAxis } from 'recharts'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { ChartContainer, ChartTooltip, type ChartConfig } from '@/components/ui/chart'
@@ -28,16 +28,16 @@ import type { StatsViewPatch } from './stats-params'
 import { statsStrings } from './stats-strings'
 
 const SKILL_ORDER = ALL_MODULES.map((m) => m.skill)
+const HEAT = ['bg-muted', 'bg-primary/25', 'bg-primary/45', 'bg-primary/70', 'bg-primary'] as const
 
 function hm(ms: number) {
   const min = Math.round(ms / 60_000)
   return [Math.floor(min / 60), min % 60] as const
 }
 
-function Tile({ icon, label, value, hint, tone }: { icon: React.ReactNode; label: string; value: React.ReactNode; hint: string; tone: string }) {
+function Tile({ icon, label, value, hint }: { icon: React.ReactNode; label: string; value: React.ReactNode; hint: string }) {
   return (
-    <div className="relative overflow-hidden rounded-2xl border bg-card px-4 py-3">
-      <div className={cn('pointer-events-none absolute -end-6 -top-6 size-20 rounded-full opacity-15 blur-xl', tone)} />
+    <div className="rounded-2xl border bg-card px-4 py-3">
       <div className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
         {icon}
         {label}
@@ -53,11 +53,13 @@ export function Highlights({
   records,
   todayStats,
   due,
+  tomorrow,
 }: {
   streakNow: number
   records: Records
   todayStats: DayStats | undefined
   due: number
+  tomorrow: number
 }) {
   const s = statsStrings.use()
   const [h, m] = hm(records.total.ms)
@@ -65,28 +67,24 @@ export function Highlights({
     <section className="grid grid-cols-2 gap-3 lg:grid-cols-4">
       <Tile
         icon={<Flame className="size-4 text-orange-500" />}
-        tone="bg-orange-500"
         label={s.highlights.streak}
         value={streakNow}
         hint={s.highlights.best(Math.max(streakNow, records.longestStreak?.days ?? 0))}
       />
       <Tile
         icon={<CircleCheck className="size-4 text-success" />}
-        tone="bg-success"
         label={s.highlights.today}
         value={todayStats?.reviews ?? 0}
         hint={s.highlights.todayRight(todayStats ? accuracyOf(todayStats) : null)}
       />
       <Tile
         icon={<Hourglass className="size-4 text-mod-recall" />}
-        tone="bg-mod-recall"
         label={s.highlights.due}
         value={due}
-        hint={s.highlights.dueHint(due)}
+        hint={s.highlights.dueHint(due, tomorrow)}
       />
       <Tile
         icon={<Clock className="size-4 text-primary" />}
-        tone="bg-primary"
         label={s.highlights.time}
         value={s.hours(h, m)}
         hint={s.highlights.timeHint(records.total.activeDays)}
@@ -95,7 +93,7 @@ export function Highlights({
   )
 }
 
-function LogPending({ log, rows = 3 }: { log: LogState; rows?: number }) {
+export function LogPending({ log, rows = 3 }: { log: LogState; rows?: number }) {
   const s = statsStrings.use()
   if (log.failed)
     return (
@@ -193,13 +191,10 @@ export function WhenCard({ answers, log, periodLabel }: { answers: Answer[] | un
               {grid.map((row, w) => (
                 <div key={w} className="contents">
                   <span className="text-[0.65rem] text-muted-foreground">{weekday(addDaysTo(monday, w), lang, 'short')}</span>
-                  <div className="grid grid-cols-24 gap-px">
+                  <div className="grid grid-cols-24 gap-0.5">
                     {row.map((n, h) => (
                       <span key={h} className="grid aspect-square place-items-center" title={`${weekday(addDaysTo(monday, w), lang, 'long')} ${String(h).padStart(2, '0')}:00 · ${s.answers(n)}`}>
-                        <span
-                          className={cn('rounded-full', n ? 'bg-primary' : 'size-0.5 bg-muted-foreground/25')}
-                          style={n ? { width: `${30 + 70 * Math.sqrt(n / max)}%`, height: `${30 + 70 * Math.sqrt(n / max)}%`, opacity: 0.35 + 0.65 * (n / max) } : undefined}
-                        />
+                        <span className={cn('size-full rounded-[2px]', HEAT[n ? Math.ceil((n / max) * 4) : 0])} />
                       </span>
                     ))}
                   </div>
@@ -213,8 +208,7 @@ export function WhenCard({ answers, log, periodLabel }: { answers: Answer[] | un
                 <span>18</span>
               </div>
             </div>
-            <p className="flex items-center gap-1.5 text-sm">
-              <Zap className="size-4 text-primary" />
+            <p className="text-sm">
               {s.whenPeak(weekday(addDaysTo(monday, peak.weekday), lang, 'long'), `${String(peak.hour).padStart(2, '0')}:00`)}
             </p>
           </>
@@ -280,17 +274,7 @@ export function WordsCard({ answers, log, now }: { answers: Answer[] | undefined
               </div>
             </div>
             <ChartContainer config={wordsConfig} className="aspect-auto h-44 w-full">
-              <AreaChart data={points} margin={{ top: 4, right: 4, left: -4, bottom: 0 }}>
-                <defs>
-                  <linearGradient id="fill-met" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="var(--color-met)" stopOpacity={0.35} />
-                    <stop offset="95%" stopColor="var(--color-met)" stopOpacity={0.02} />
-                  </linearGradient>
-                  <linearGradient id="fill-learned" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="var(--color-learned)" stopOpacity={0.5} />
-                    <stop offset="95%" stopColor="var(--color-learned)" stopOpacity={0.05} />
-                  </linearGradient>
-                </defs>
+              <LineChart data={points} margin={{ top: 4, right: 4, left: -4, bottom: 0 }}>
                 <CartesianGrid vertical={false} strokeDasharray="3 3" />
                 <XAxis
                   dataKey="day"
@@ -302,9 +286,9 @@ export function WordsCard({ answers, log, now }: { answers: Answer[] | undefined
                 />
                 <YAxis tickLine={false} axisLine={false} width={40} allowDecimals={false} />
                 <ChartTooltip cursor={{ stroke: 'var(--muted-foreground)', strokeOpacity: 0.3 }} content={<WordsTooltip />} />
-                <Area dataKey="met" type="monotone" stroke="var(--color-met)" strokeWidth={2} fill="url(#fill-met)" />
-                <Area dataKey="learned" type="monotone" stroke="var(--color-learned)" strokeWidth={2} fill="url(#fill-learned)" />
-              </AreaChart>
+                <Line dataKey="met" type="monotone" stroke="var(--color-met)" strokeWidth={2} dot={false} />
+                <Line dataKey="learned" type="monotone" stroke="var(--color-learned)" strokeWidth={2} dot={false} />
+              </LineChart>
             </ChartContainer>
           </>
         )}
@@ -314,13 +298,11 @@ export function WordsCard({ answers, log, now }: { answers: Answer[] | undefined
 }
 
 function RecordRow({
-  icon,
   label,
   value,
   detail,
   onClick,
 }: {
-  icon: React.ReactNode
   label: string
   value: string
   detail?: string
@@ -328,7 +310,6 @@ function RecordRow({
 }) {
   const body = (
     <>
-      <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400">{icon}</span>
       <span className="min-w-0 flex-1">
         <span className="block text-xs text-muted-foreground">{label}</span>
         <span className="block truncate font-semibold tabular-nums">{value}</span>
@@ -353,7 +334,6 @@ export function RecordsCard({ records, onChange }: { records: Records; onChange:
   const s = statsStrings.use()
   const lang = useSettings((st) => st.baseLang)
   const { bestDay, bestWeek, longestStreak, firstDay, total } = records
-  const [h, m] = hm(total.ms)
   return (
     <Card>
       <CardHeader>
@@ -365,30 +345,25 @@ export function RecordsCard({ records, onChange }: { records: Records; onChange:
         ) : (
           <ul className="-mx-2 divide-y">
             <RecordRow
-              icon={<Trophy className="size-4" />}
               label={s.bestDay}
               value={s.answers(bestDay.reviews)}
               detail={dayMonth(parseDay(bestDay.day), lang)}
               onClick={() => onChange({ range: 'week', day: bestDay.day })}
             />
             <RecordRow
-              icon={<CalendarDays className="size-4" />}
               label={s.bestWeek}
               value={s.answers(bestWeek.reviews)}
               detail={s.weekOf(dayMonth(parseDay(bestWeek.start), lang))}
               onClick={() => onChange({ range: 'week', day: bestWeek.start })}
             />
             <RecordRow
-              icon={<Flame className="size-4" />}
               label={s.longestStreak}
               value={s.streakDays(longestStreak.days)}
               detail={`${dayMonth(parseDay(longestStreak.start), lang)}–${dayMonth(parseDay(longestStreak.end), lang)}`}
               onClick={() => onChange({ day: longestStreak.end })}
             />
-            <RecordRow icon={<CircleCheck className="size-4" />} label={s.totalAnswers} value={String(total.reviews)} detail={s.allRight(accuracyOf(total))} />
-            <RecordRow icon={<Clock className="size-4" />} label={s.totalTime} value={s.hours(h, m)} />
+            <RecordRow label={s.totalAnswers} value={String(total.reviews)} detail={s.allRight(accuracyOf(total))} />
             <RecordRow
-              icon={<CalendarDays className="size-4" />}
               label={s.since}
               value={dayMonth(parseDay(firstDay), lang) + ` ${firstDay.slice(0, 4)}`}
               onClick={() => onChange({ day: firstDay })}

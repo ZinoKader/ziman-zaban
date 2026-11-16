@@ -1,7 +1,7 @@
 import { conceptById, conceptsFor, units } from '@/content'
 import type { Concept, Skill, TargetLang, Unit } from '@/content/types'
 import { moduleItems, moduleStatus, type Cards, type ModuleStatus } from '@/lib/curriculum'
-import { cardKey, isLearned, parseCardKey, type CardKey } from '@/lib/srs'
+import { cardKey, isLearned, parseCardKey, retrievability, type CardKey } from '@/lib/srs'
 import { ALL_MODULES } from '@/features/modules'
 import { dayKey } from '@/store/progress'
 
@@ -176,6 +176,63 @@ export function dueNow(lang: TargetLang | readonly TargetLang[], cards: Cards, n
     (total, l) => total + moduleProgress(l, cards, now).reduce((n, m) => n + m.status.due, 0),
     0,
   )
+}
+
+/** Upper bounds, in days, of the `holds` buckets; the last bucket is open-ended. */
+export const HOLD_BOUNDS = [7, 21, 90] as const
+
+export interface Memory {
+  /** Words with a Recognition or Recall card past the learning steps. */
+  learned: number
+  /** Words practised but not yet past the learning steps. */
+  learning: number
+  /** Learned words by predicted recall right now: at least 90 %, 70–90 %, under 70 %. */
+  sticking: number
+  fading: number
+  slipping: number
+  /** Mean predicted recall over learned words, 0–100. */
+  recall: number | null
+  /**
+   * Learned words by FSRS stability, the days until predicted recall falls to 90 %:
+   * under a week, one to three weeks, three weeks to three months, longer.
+   */
+  holds: [number, number, number, number]
+}
+
+/** How well the learned words are holding, judged by each word's stronger card. */
+export function memoryOf(cards: Cards, lang: TargetLang | readonly TargetLang[], now = new Date()): Memory {
+  const langs = asList(lang)
+  const words = new Map<string, { learned: boolean; recall: number; stability: number }>()
+  for (const [k, card] of Object.entries(cards)) {
+    if (!card) continue
+    const { lang: l, skill, itemId } = parseCardKey(k as CardKey)
+    if (!langs.includes(l) || (skill !== 'recognition' && skill !== 'recall') || card.reps === 0) continue
+    const key = `${l}:${itemId}`
+    const w = words.get(key) ?? { learned: false, recall: 0, stability: 0 }
+    if (isLearned(card)) {
+      w.learned = true
+      w.recall = Math.max(w.recall, retrievability(card, now))
+      w.stability = Math.max(w.stability, card.stability)
+    }
+    words.set(key, w)
+  }
+  const out: Memory = { learned: 0, learning: 0, sticking: 0, fading: 0, slipping: 0, recall: null, holds: [0, 0, 0, 0] }
+  let sum = 0
+  for (const w of words.values()) {
+    if (!w.learned) {
+      out.learning++
+      continue
+    }
+    out.learned++
+    sum += w.recall
+    if (w.recall >= 0.9) out.sticking++
+    else if (w.recall >= 0.7) out.fading++
+    else out.slipping++
+    const i = HOLD_BOUNDS.findIndex((b) => w.stability < b)
+    out.holds[i < 0 ? HOLD_BOUNDS.length : i]++
+  }
+  if (out.learned) out.recall = Math.round((sum / out.learned) * 100)
+  return out
 }
 
 function asList(lang: TargetLang | readonly TargetLang[]): readonly TargetLang[] {

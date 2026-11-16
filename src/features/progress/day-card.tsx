@@ -135,14 +135,14 @@ function AnswerRow({ a, showLang }: { a: Answer; showLang: boolean }) {
   )
 }
 
-function SessionBlock({ session, filter, showLang, defaultOpen }: { session: Session; filter: Filter; showLang: boolean; defaultOpen: boolean }) {
+function SessionBlock({ session, filter, showLang }: { session: Session; filter: Filter; showLang: boolean }) {
   const s = statsStrings.use()
   const lang = useSettings((st) => st.baseLang)
   const shown = session.answers.filter((a) => (filter === 'wrong' ? !a.correct : filter === 'new' ? a.isNew : true))
   const pct = accuracyOf({ reviews: session.answers.length, correct: session.correct })
   const ms = session.answers.reduce((n, a) => n + a.ms, 0)
   return (
-    <Collapsible defaultOpen={defaultOpen} className="overflow-hidden rounded-2xl border">
+    <Collapsible defaultOpen={filter !== 'all'} className="overflow-hidden rounded-2xl border">
       <CollapsibleTrigger className="group flex w-full items-center gap-3 bg-muted/30 px-3 py-2.5 text-start transition hover:bg-muted/60">
         <span className="min-w-0 flex-1">
           <span className="block font-medium tabular-nums">
@@ -306,14 +306,8 @@ export function DayCard({
                   </ToggleGroup>
                 </div>
                 <div className="space-y-2">
-                  {sessions.map((x, i) => (
-                    <SessionBlock
-                      key={`${day}-${x.start.getTime()}`}
-                      session={x}
-                      filter={filter}
-                      showLang={showLang}
-                      defaultOpen={i === sessions.length - 1}
-                    />
+                  {sessions.map((x) => (
+                    <SessionBlock key={`${day}-${x.start.getTime()}-${filter}`} session={x} filter={filter} showLang={showLang} />
                   ))}
                 </div>
               </>
