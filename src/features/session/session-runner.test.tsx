@@ -92,6 +92,19 @@ describe('SessionRunner', () => {
     expect(screen.getByText('100%')).toBeInTheDocument()
   })
 
+  it('starts every new question and the summary at the top of the page', () => {
+    const scrollTo = vi.spyOn(window, 'scrollTo').mockImplementation(() => {})
+    renderRunner(firstSession().slice(0, 2), fakeExercise(() => Rating.Easy, []))
+    expect(scrollTo).not.toHaveBeenCalled()
+    fireEvent.click(screen.getByRole('button', { name: 'answer' }))
+    expect(scrollTo).toHaveBeenCalledTimes(1)
+    expect(scrollTo).toHaveBeenLastCalledWith(expect.objectContaining({ top: 0 }))
+    answerAll()
+    expect(screen.getByRole('button', { name: 'Back to home' })).toBeInTheDocument()
+    expect(scrollTo).toHaveBeenCalledTimes(2)
+    scrollTo.mockRestore()
+  })
+
   it('goes home from the summary', () => {
     const onHome = vi.fn()
     renderRunner(firstSession().slice(0, 1), fakeExercise(() => Rating.Easy, []), onHome)

@@ -1,5 +1,5 @@
 import { X } from 'lucide-react'
-import { useMemo, useRef, useState } from 'react'
+import { useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import type { Skill, TargetLang } from '@/content/types'
@@ -64,6 +64,14 @@ export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, on
   const [stats, setStats] = useState<SessionStats | null>(() =>
     queue.length === 0 ? { reviewed: 0, correctFirstTry: 0, newItems: 0, ms: 0, startedAt } : null,
   )
+
+  // The feedback scrolls the page down to its continue button; each new question and the summary start at the top.
+  const shown = useRef({ index, done: !!stats })
+  useLayoutEffect(() => {
+    if (shown.current.index === index && shown.current.done === !!stats) return
+    shown.current = { index, done: !!stats }
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+  }, [index, stats])
 
   const uniqueTotal = queue.length
   const completed = useMemo(() => {
