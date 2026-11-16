@@ -21,6 +21,8 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Framsteg: sidan har en ny ordning. Kursen, minnet och kommande repetitioner ligger överst och historiken under. I "Dag för dag" är ett pass stängt tills du öppnar det.
 - Appen: efter "Fortsätt" börjar nästa fråga högst upp på skärmen. Förut stannade sidan en bit ner.
 - Appen: fältet högst upp går inte längre utanför kanten på bärbara datorer. Bildigenkänning finns där bara på mycket breda skärmar.
+- Appen: när du väljer ett svar fylls det med grönt eller rött från där du tryckte, och en bock eller ett kryss ritas fram bredvid. Nästa fråga glider in, och när passet är slut räknas siffrorna upp. Om du har slagit på minskade rörelser i enhetens inställningar tonas saker in utan att röra sig.
+- Appen: på datorn använder startsidan hela bredden, och de fyra stegen är ihopkopplade med en linje. Linjen blir hel när nästa steg är öppet.
 
 ## 2026-11-14
 

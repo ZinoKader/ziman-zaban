@@ -21,6 +21,8 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - Progress: the page has a new order. Your course, your memory and the reviews coming up are at the top, and the history is below. In "Day by day", a session stays closed until you open it.
 - App: after "Continue", the next question starts at the top of the screen. Before, the page stopped a little way down.
 - App: the top bar no longer runs past the edge of laptop screens. Picture recognition is in it only on very wide screens.
+- App: when you pick an answer, it fills with green or red from where you tapped, and a check or a cross draws itself next to it. The next question slides in, and at the end of a session the numbers count up. If reduced motion is turned on in your device settings, things fade in without moving.
+- App: on computers the home page uses the full width, and the four steps of the path are joined by a line. The line is solid once the next step is open.
 
 ## 2026-11-14
 
