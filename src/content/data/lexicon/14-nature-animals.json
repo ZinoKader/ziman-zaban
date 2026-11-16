@@ -1,0 +1,751 @@
+{
+  "concepts": [
+    {
+      "id": "animal",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐾",
+      "gloss": { "en": "animal", "sv": "djur" },
+      "ckb": {
+        "primary": { "script": "ئاژەڵ", "latin": "ajeł" },
+        "variants": [{ "script": "حەیوان", "latin": "ḧeywan" }],
+        "notes": {
+          "en": "ئاژەڵ can also mean farm animals, livestock. You also hear حەیوان (ḧeywan), the same word as Persian حیوان.",
+          "sv": "ئاژەڵ kan också betyda boskap. Man hör också حەیوان (ḧeywan), samma ord som persiskans حیوان."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "animal" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "حیوان", "latin": "heyvân" },
+        "variants": [
+          {
+            "script": "جانور",
+            "latin": "jânevar",
+            "register": "formal",
+            "note": { "en": "animal, creature (written)", "sv": "djur, varelse (skrift)" }
+          }
+        ],
+        "plural": { "script": "حیوانات", "latin": "heyvânât" },
+        "notes": {
+          "en": "The plural is often the Arabic form حیوانات (heyvânât). A zoo is باغ وحش (bâgh-e vahsh), \"garden of wild animals\".",
+          "sv": "I plural säger man ofta den arabiska formen حیوانات (heyvânât). Ett zoo heter باغ وحش (bâgh-e vahsh), \"de vilda djurens trädgård\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "حیوان" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dog",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐕",
+      "gloss": { "en": "dog", "sv": "hund" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سەگ", "latin": "seg" },
+        "notes": {
+          "en": "The same word as Persian سگ (sag). Calling someone a dog is a strong insult.",
+          "sv": "Samma ord som persiskans سگ (sag). Att kalla någon hund är en grov förolämpning."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dog" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سگ", "latin": "sag" },
+        "notes": {
+          "en": "The same word as Sorani سەگ (seg). It is also used as an insult.",
+          "sv": "Samma ord som soranins سەگ (seg). Det används också som skällsord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dog" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cat",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐈",
+      "gloss": { "en": "cat", "sv": "katt", "svAlt": ["katta"] },
+      "ckb": {
+        "primary": { "script": "پشیلە", "latin": "pişîle" },
+        "notes": {
+          "en": "The first i is not written. Persian children call a cat پیشی (pishi), which sounds close.",
+          "sv": "Det första i:et skrivs inte. Persiska barn säger پیشی (pishi) om en katt, och det låter nästan likadant."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cat" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گربه", "latin": "gorbe" },
+        "variants": [{ "script": "پیشی", "latin": "pishi", "register": "colloquial", "note": { "en": "kitty (to children)", "sv": "kissekatt (till barn)" } }],
+        "notes": {
+          "en": "The Persian cat breed is گربه‌ی ایرانی (gorbe-ye irâni), \"Iranian cat\". Children say پیشی (pishi) \"kitty\".",
+          "sv": "Perserkatten heter گربه‌ی ایرانی (gorbe-ye irâni), \"iransk katt\". Barn säger پیشی (pishi), \"kissekatt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cat" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bird",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐦",
+      "gloss": { "en": "bird", "sv": "fågel" },
+      "ckb": {
+        "primary": { "script": "باڵندە", "latin": "bałinde" },
+        "variants": [{ "script": "مەل", "latin": "mel" }],
+        "notes": {
+          "en": "Built on باڵ (bał) \"wing\". You also hear مەل (mel).",
+          "sv": "Bildat av باڵ (bał), \"vinge\". Man hör också مەل (mel)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bird" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پرنده", "latin": "parande" },
+        "notes": {
+          "en": "پرنده means \"flier\", from پریدن (paridan) \"to fly\". In poetry a bird is often مرغ (morgh), which today means \"hen, chicken\".",
+          "sv": "پرنده betyder \"en som flyger\", av پریدن (paridan), \"att flyga\". I poesi heter fågeln ofta مرغ (morgh), som i dag betyder \"höna, kyckling\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bird" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "horse",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐎",
+      "gloss": { "en": "horse", "sv": "häst" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئەسپ", "latin": "esp" },
+        "notes": {
+          "en": "The same word as Persian اسب (asb), with p where Persian has b.",
+          "sv": "Samma ord som persiskans اسب (asb), med p där persiskan har b."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "horse" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اسب", "latin": "asb" },
+        "notes": {
+          "en": "Also the knight in chess. The same word as Sorani ئەسپ (esp).",
+          "sv": "Också springaren i schack. Samma ord som soranins ئەسپ (esp)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "horse" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cow",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐄",
+      "gloss": { "en": "cow", "sv": "ko", "svAlt": ["kossa"] },
+      "ckb": {
+        "primary": { "script": "مانگا", "latin": "manga" },
+        "notes": {
+          "en": "Spelled and said like \"manga\", the Japanese comics, but the words are not related.",
+          "sv": "Stavas och uttalas som manga, de japanska serierna, men orden är inte släkt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cow" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گاو", "latin": "gâv" },
+        "notes": {
+          "en": "گاو covers cow, bull and cattle. It goes back to the same old word as English \"cow\" and Swedish \"ko\".",
+          "sv": "گاو gäller ko, tjur och nötkreatur. Det går tillbaka på samma uråldriga ord som svenskans \"ko\" och engelskans \"cow\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cow" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sheep",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐑",
+      "gloss": { "en": "sheep", "sv": "får" },
+      "ckb": {
+        "primary": { "script": "مەڕ", "latin": "meř" },
+        "notes": {
+          "en": "A lamb is بەرخ (berx).",
+          "sv": "Ett lamm heter بەرخ (berx)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sheep" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گوسفند", "latin": "gusfand" },
+        "notes": {
+          "en": "At Eid al-Adha, عید قربان (eyd-e ghorbân), many families slaughter a sheep and give away the meat.",
+          "sv": "Vid offerfesten, عید قربان (eyd-e ghorbân), slaktar många familjer ett får och delar ut köttet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sheep" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "goat",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐐",
+      "gloss": { "en": "goat", "sv": "get" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بزن", "latin": "bizin" },
+        "notes": {
+          "en": "The same word as Persian بز (boz). Careful: in Persian بزن (bezan) means \"hit!\".",
+          "sv": "Samma ord som persiskans بز (boz). Se upp: på persiska betyder بزن (bezan) \"slå!\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "goat" }]
+      },
+      "fa": {
+        "primary": { "script": "بز", "latin": "boz" },
+        "notes": {
+          "en": "The same word as Sorani بزن (bizin).",
+          "sv": "Samma ord som soranins بزن (bizin)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "goat" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "donkey",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🫏",
+      "gloss": { "en": "donkey", "sv": "åsna", "enAlt": ["ass"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کەر", "latin": "ker" },
+        "notes": {
+          "en": "Don't mix it up with کەڕ (keř) \"deaf\": only the r is different. As in English, کەر is also an insult for a fool.",
+          "sv": "Blanda inte ihop det med کەڕ (keř), \"döv\": bara r-ljudet skiljer. Precis som på svenska är کەر också ett skällsord för en dumbom."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "donkey" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خر", "latin": "khar" },
+        "notes": {
+          "en": "The same word as Sorani کەر (ker). خر also means \"stupid\", so think about who you say it to.",
+          "sv": "Samma ord som soranins کەر (ker). خر betyder också \"dum\", så tänk på vem du säger det till."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fish",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐟",
+      "gloss": { "en": "fish", "sv": "fisk" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ماسی", "latin": "masî" },
+        "notes": {
+          "en": "The same word for the animal and the food: ماسی دەخۆین \"we eat fish\". Persian has the same word, ماهی (mâhi).",
+          "sv": "Samma ord för djuret och maten: ماسی دەخۆین \"vi äter fisk\". Persiskan har samma ord, ماهی (mâhi)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fish" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ماهی", "latin": "mâhi" },
+        "notes": {
+          "en": "Also the food. A goldfish in a bowl is part of the Nowruz table, the هفت‌سین (haft-sin).",
+          "sv": "Också maten. En guldfisk i en skål hör till nyårsbordet هفت‌سین (haft-sin) vid nowruz."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fish" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lion",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🦁",
+      "gloss": { "en": "lion", "sv": "lejon" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شێر", "latin": "şêr" },
+        "notes": {
+          "en": "Watch the vowel: شێر (şêr) is \"lion\" and شیر (şîr) is \"milk\".",
+          "sv": "Se upp med vokalen: شێر (şêr) är \"lejon\" och شیر (şîr) är \"mjölk\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lion" }]
+      },
+      "fa": {
+        "primary": { "script": "شیر", "latin": "shir" },
+        "notes": {
+          "en": "Written and said exactly like شیر \"milk\", and it is also a water tap. The lion and sun, شیر و خورشید, was on Iran's flag until 1979.",
+          "sv": "Skrivs och uttalas precis som شیر \"mjölk\", och det betyder också vattenkran. Lejonet och solen, شیر و خورشید, fanns på Irans flagga fram till 1979."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lion" }]
+      }
+    },
+    {
+      "id": "wolf",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐺",
+      "gloss": { "en": "wolf", "sv": "varg", "svAlt": ["ulv"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گورگ", "latin": "gurg" },
+        "notes": {
+          "en": "The same word as Persian گرگ (gorg).",
+          "sv": "Samma ord som persiskans گرگ (gorg)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wolf" }]
+      },
+      "fa": {
+        "primary": { "script": "گرگ", "latin": "gorg" },
+        "notes": {
+          "en": "گرگ و میش (gorg-o mish), \"wolf and ewe\", is twilight: the time when you can't tell them apart.",
+          "sv": "گرگ و میش (gorg-o mish), \"varg och tacka\", betyder skymning eller gryning: när man inte kan skilja dem åt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wolf" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bear",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐻",
+      "gloss": { "en": "bear", "sv": "björn" },
+      "senseNote": { "en": "the animal", "sv": "djuret" },
+      "ckb": {
+        "primary": { "script": "ورچ", "latin": "wirç" },
+        "notes": {
+          "en": "The short i between w and r is not written: ورچ (wirç).",
+          "sv": "Det korta i:et mellan w och r skrivs inte: ورچ (wirç)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bear" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خرس", "latin": "khers" },
+        "notes": {
+          "en": "A teddy bear is خرس عروسکی (khers-e arusaki), \"doll bear\".",
+          "sv": "En teddybjörn heter خرس عروسکی (khers-e arusaki), \"dockbjörn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bear" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "mouse",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐁",
+      "gloss": { "en": "mouse", "sv": "mus" },
+      "senseNote": { "en": "the animal", "sv": "djuret" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "مشک", "latin": "mişk" },
+        "notes": {
+          "en": "The same word as Persian موش (mush), and related to English \"mouse\" and Swedish \"mus\".",
+          "sv": "Samma ord som persiskans موش (mush), och släkt med svenskans \"mus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mouse" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "موش", "latin": "mush" },
+        "notes": {
+          "en": "Related to English \"mouse\" and Swedish \"mus\". It also covers rats, and a computer mouse is ماوس (mâvs).",
+          "sv": "Släkt med svenskans \"mus\". Det gäller också råttor, och en datormus heter ماوس (mâvs)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mouse" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "snake",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐍",
+      "gloss": { "en": "snake", "sv": "orm", "enAlt": ["serpent"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "مار", "latin": "mar" },
+        "notes": {
+          "en": "The same word as Persian مار (mâr). In the Newroz story, Kawa the blacksmith kills the tyrant Zuhak, who had two snakes growing from his shoulders.",
+          "sv": "Samma ord som persiskans مار (mâr). I berättelsen om newroz dödar smeden Kawa tyrannen Zuhak, som hade två ormar som växte ur axlarna."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "snake" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مار", "latin": "mâr" },
+        "notes": {
+          "en": "In the Shahnameh, the tyrant ضحاک (Zahhâk) has a snake growing from each shoulder.",
+          "sv": "I Shahnameh har tyrannen ضحاک (Zahhâk) en orm som växer ur varje axel."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "snake" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bee",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🐝",
+      "gloss": { "en": "bee", "sv": "bi" },
+      "ckb": {
+        "primary": { "script": "هەنگ", "latin": "heng" },
+        "notes": {
+          "en": "Honey is هەنگوین (hengiwîn), built on هەنگ.",
+          "sv": "Honung heter هەنگوین (hengiwîn), som bygger på هەنگ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bee" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زنبور", "latin": "zanbur" },
+        "notes": {
+          "en": "زنبور is also a wasp. A honeybee is زنبور عسل (zanbur-e asal), from عسل \"honey\".",
+          "sv": "زنبور är också en geting. Ett honungsbi heter زنبور عسل (zanbur-e asal), av عسل \"honung\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bee" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "butterfly",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🦋",
+      "gloss": { "en": "butterfly", "sv": "fjäril" },
+      "ckb": {
+        "primary": { "script": "پەپوولە", "latin": "pepûle" },
+        "sources": [{ "source": "wiktionary", "ref": "butterfly" }]
+      },
+      "fa": {
+        "primary": { "script": "پروانه", "latin": "parvâne" },
+        "notes": {
+          "en": "Also a moth, and a common girl's name, Parvaneh. In poetry the moth that flies into the candle flame is the lover.",
+          "sv": "Också en nattfjäril, och ett vanligt flicknamn, Parvaneh. I poesin är nattfjärilen som flyger in i ljuslågan den älskande."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "butterfly" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tree",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌳",
+      "gloss": { "en": "tree", "sv": "träd" },
+      "ckb": {
+        "primary": { "script": "دار", "latin": "dar" },
+        "notes": {
+          "en": "دار also means \"wood\" and \"stick\". A forest is دارستان (daristan), \"place of trees\".",
+          "sv": "دار betyder också \"trä\" och \"pinne\". En skog heter دارستان (daristan), \"trädens plats\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tree" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "درخت", "latin": "derakht" },
+        "notes": {
+          "en": "Persian also has دار (dâr) for tree, but today it mostly means \"gallows\". The everyday word is درخت.",
+          "sv": "Persiskan har också دار (dâr) för träd, men i dag betyder det mest galgen man hängde folk i. Vardagsordet är درخت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tree" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "flower",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌼",
+      "gloss": { "en": "flower", "sv": "blomma", "svAlt": ["blomster"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گوڵ", "latin": "guł" },
+        "notes": {
+          "en": "The same word as Persian گل (gol), with the dark Kurdish ł.",
+          "sv": "Samma ord som persiskans گل (gol), med det mörka kurdiska ł."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "flower" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گل", "latin": "gol" },
+        "notes": {
+          "en": "Also \"rose\", and a football goal is spelled the same. So is گل (gel) \"mud\", so the context tells you which.",
+          "sv": "Betyder också \"ros\", och ett mål i fotboll stavas likadant. Det gör också گل (gel), \"lera\", så det är sammanhanget som avgör."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "flower" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "grass",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌱",
+      "gloss": { "en": "grass", "sv": "gräs" },
+      "ckb": {
+        "primary": { "script": "گیا", "latin": "giya" },
+        "variants": [{ "script": "چیمەن", "latin": "çîmen", "note": { "en": "lawn", "sv": "gräsmatta" } }],
+        "notes": {
+          "en": "Also \"plant\". It is the same word as Persian گیاه (giyâh) \"plant\". A lawn is چیمەن (çîmen).",
+          "sv": "Betyder också \"växt\". Det är samma ord som persiskans گیاه (giyâh), \"växt\". En gräsmatta heter چیمەن (çîmen)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "grass" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "علف", "latin": "alaf" },
+        "variants": [{ "script": "چمن", "latin": "chaman", "note": { "en": "lawn, grass in a park", "sv": "gräsmatta, gräs i en park" } }],
+        "notes": {
+          "en": "علف is wild grass and what animals eat; grass in a park is چمن (chaman). At Nowruz people grow سبزه (sabze), green sprouts, and throw them in a river on the 13th day.",
+          "sv": "علف är vilt gräs och det djuren äter; gräset i en park heter چمن (chaman). Till nowruz odlar man سبزه (sabze), gröna groddar, och kastar dem i en flod på trettonde dagen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "grass" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "leaf",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍃",
+      "gloss": { "en": "leaf", "sv": "löv", "svAlt": ["blad"] },
+      "ckb": {
+        "primary": { "script": "گەڵا", "latin": "geła" },
+        "notes": {
+          "en": "Autumn is also called گەڵاڕێزان (gełařêzan), \"leaf-fall\".",
+          "sv": "Hösten kallas också گەڵاڕێزان (gełařêzan), \"lövfällning\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "leaf" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "برگ", "latin": "barg" },
+        "notes": {
+          "en": "Also a sheet of paper. The season of falling leaves is برگ‌ریزان (barg-rizân), \"leaf-fall\".",
+          "sv": "Också ett pappersark. Tiden när löven faller heter برگ‌ریزان (barg-rizân), \"lövfällning\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "leaf" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "garden",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏡",
+      "gloss": { "en": "garden", "sv": "trädgård" },
+      "ckb": {
+        "primary": { "script": "باخچە", "latin": "baxçe" },
+        "variants": [{ "script": "باخ", "latin": "bax", "note": { "en": "large garden, orchard", "sv": "stor trädgård, fruktträdgård" } }],
+        "notes": {
+          "en": "باخ (bax) is a bigger garden or an orchard. Persian has the same pair: باغ and باغچه.",
+          "sv": "باخ (bax) är en större trädgård eller en fruktträdgård. Persiskan har samma par: باغ och باغچه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "garden" }]
+      },
+      "fa": {
+        "primary": { "script": "باغ", "latin": "bâgh" },
+        "variants": [{ "script": "باغچه", "latin": "bâghche", "note": { "en": "small garden by a house", "sv": "liten trädgård vid ett hus" } }],
+        "notes": {
+          "en": "باغ is a large garden or orchard; the small garden by a house is باغچه (bâghche). English \"paradise\" comes from an old Persian word for a walled garden.",
+          "sv": "باغ är en stor trädgård eller fruktträdgård; den lilla trädgården vid huset heter باغچه (bâghche). Ordet \"paradis\" kommer från ett gammalt persiskt ord för en inhägnad trädgård."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "garden" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "river",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏞️",
+      "gloss": { "en": "river", "sv": "flod", "svAlt": ["älv", "å"] },
+      "ckb": {
+        "primary": { "script": "ڕووبار", "latin": "řûbar" },
+        "sources": [{ "source": "wiktionary", "ref": "river" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "رودخانه", "latin": "rudkhâne" },
+        "variants": [
+          { "script": "رودخونه", "latin": "rudkhune", "register": "colloquial" },
+          { "script": "رود", "latin": "rud", "note": { "en": "river (in writing and names)", "sv": "flod (i skrift och namn)" } }
+        ],
+        "notes": {
+          "en": "Spoken رودخونه (rudkhune). The short رود (rud) is the written word and is in many names, like Isfahan's river زاینده‌رود (Zâyande-rud).",
+          "sv": "I tal رودخونه (rudkhune). Det korta رود (rud) hör till skriftspråket och finns i många namn, som floden i Isfahan, زاینده‌رود (Zâyande-rud)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "river" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sea",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌊",
+      "gloss": { "en": "sea", "sv": "hav", "enAlt": ["ocean"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دەریا", "latin": "derya" },
+        "variants": [{ "script": "زەریا", "latin": "zerya" }],
+        "notes": {
+          "en": "The same word as Persian دریا (daryâ). زەریا (zerya) is another form.",
+          "sv": "Samma ord som persiskans دریا (daryâ). زەریا (zerya) är en annan form."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sea" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دریا", "latin": "daryâ" },
+        "notes": {
+          "en": "The Caspian Sea is دریای خزر (daryâ-ye khazar). Darya is also a girl's name.",
+          "sv": "Kaspiska havet heter دریای خزر (daryâ-ye khazar). Darya är också ett flicknamn."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sea" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lake",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "lake", "sv": "sjö", "svAlt": ["insjö"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دەریاچە", "latin": "deryaçe" },
+        "notes": {
+          "en": "دەریا \"sea\" plus the small-ending چە: a \"little sea\", as in Persian. Lake Dukan, دەریاچەی دوکان, is northwest of Sulaymani.",
+          "sv": "دەریا \"hav\" plus diminutivändelsen چە: ett \"litet hav\", som på persiska. Dukansjön, دەریاچەی دوکان, ligger nordväst om Sulaymaniyya."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "دریاچه", "latin": "daryâche" },
+        "notes": {
+          "en": "دریا \"sea\" plus the small-ending چه: a \"little sea\". Lake Urmia, دریاچه‌ی ارومیه, in the northwest is a salt lake that has shrunk a lot.",
+          "sv": "دریا \"hav\" plus diminutivändelsen چه: ett \"litet hav\". Urmiasjön, دریاچه‌ی ارومیه, i nordväst är en saltsjö som har krympt mycket."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lake" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "forest",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌲",
+      "gloss": { "en": "forest", "sv": "skog", "enAlt": ["woods"] },
+      "ckb": {
+        "primary": { "script": "دارستان", "latin": "daristan" },
+        "notes": {
+          "en": "دار \"tree\" plus ستان \"place of\", the same ending as in Kurdistan.",
+          "sv": "دار \"träd\" plus ستان \"plats för\", samma ändelse som i Kurdistan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "forest" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جنگل", "latin": "jangal" },
+        "notes": {
+          "en": "Related to English \"jungle\". Iran's forests are in the north, along the Caspian Sea.",
+          "sv": "Släkt med engelskans \"jungle\", djungel. Irans skogar finns i norr, längs Kaspiska havet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "forest" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "stone",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🪨",
+      "gloss": { "en": "stone", "sv": "sten", "enAlt": ["rock"], "svAlt": ["klippa"] },
+      "ckb": {
+        "primary": { "script": "بەرد", "latin": "berd" },
+        "notes": {
+          "en": "Also \"rock\", a big stone.",
+          "sv": "Också \"klippa\", en stor sten."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "stone" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سنگ", "latin": "sang" },
+        "notes": {
+          "en": "Also \"rock\". سنگک (sangak) bread is baked on hot pebbles.",
+          "sv": "Också \"klippa\". Brödet سنگک (sangak) gräddas på heta småstenar."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "stone" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "desert",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏜️",
+      "gloss": { "en": "desert", "sv": "öken" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بیابان", "latin": "biyaban" },
+        "variants": [{ "script": "چۆڵ", "latin": "çoł", "note": { "en": "empty, wild land", "sv": "öde, obebodd mark" } }],
+        "notes": {
+          "en": "Persian has the same word, بیابان (biyâbân). Don't confuse it with دەشت (deşt), which is a plain.",
+          "sv": "Persiskan har samma ord, بیابان (biyâbân). Blanda inte ihop det med دەشت (deşt), som är en slätt."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "بیابان", "latin": "biyâbân" },
+        "variants": [{ "script": "صحرا", "latin": "sahrâ", "note": { "en": "desert, open country", "sv": "öken, öppet land" } }],
+        "notes": {
+          "en": "Iran's two big deserts are دشت کویر (Dasht-e Kavir) and دشت لوت (Dasht-e Lut). دشت means \"plain\", as in Sorani.",
+          "sv": "Irans två stora öknar heter دشت کویر (Dasht-e Kavir) och دشت لوت (Dasht-e Lut). دشت betyder \"slätt\", precis som på sorani."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "desert" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "island",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏝️",
+      "gloss": { "en": "island", "sv": "ö" },
+      "ckb": {
+        "primary": { "script": "دوورگە", "latin": "dûrge" },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "جزیره", "latin": "jazire" },
+        "notes": {
+          "en": "From Arabic, like the name Al Jazeera, \"the island\". Kish, جزیره‌ی کیش, in the Persian Gulf is a popular holiday island.",
+          "sv": "Från arabiskan, som namnet Al Jazeera, \"ön\". Kish, جزیره‌ی کیش, i Persiska viken är en populär semesterö."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "island" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "field",
+      "unit": "nature-animals",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌾",
+      "gloss": { "en": "field", "sv": "åker", "svAlt": ["fält"] },
+      "senseNote": { "en": "a farmer's field", "sv": "en bondes åker" },
+      "ckb": {
+        "primary": { "script": "کێڵگە", "latin": "kêłge" },
+        "variants": [{ "script": "زەوی", "latin": "zewî", "note": { "en": "land, ground, field", "sv": "jord, mark, åker" } }],
+        "notes": {
+          "en": "زەوی (zewî) \"land, ground\" is also used for a field.",
+          "sv": "زەوی (zewî), \"jord, mark\", används också om en åker."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "مزرعه", "latin": "mazra'e" },
+        "notes": {
+          "en": "Means both \"farm\" and \"field\". A rice field in the north is a شالیزار (shâlizâr).",
+          "sv": "Betyder både \"bondgård\" och \"åker\". Ett risfält i norr heter شالیزار (shâlizâr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مزرعه" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

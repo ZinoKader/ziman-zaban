@@ -5,6 +5,28 @@
    "Used in 29 Tatoeba sentences"
   ]
  },
+ "concept:ckb:address": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:afraid": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:after": {
+  "level": "attested",
+  "checks": [
+   "Used in 43 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:afternoon": {
+  "level": "attested",
+  "checks": [
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:again": {
   "level": "attested",
   "checks": [
@@ -19,6 +41,21 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:ago": {
+  "level": "attested",
+  "checks": [
+   "Used in 30 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:air": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/hawaː/"
+ },
  "concept:ckb:airport": {
   "level": "strong",
   "checks": [
@@ -27,6 +64,13 @@
    "Used in 10 Tatoeba sentences"
   ],
   "ipa": "/fro̞ːkaxaːna/"
+ },
+ "concept:ckb:alone": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 57 Tatoeba sentences"
+  ]
  },
  "concept:ckb:also": {
   "level": "attested",
@@ -56,6 +100,29 @@
    "Used in 12 Tatoeba sentences"
   ]
  },
+ "concept:ckb:angry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "/tuːra/"
+ },
+ "concept:ckb:animal": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:answer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:apartment": {
   "level": "strong",
   "checks": [
@@ -71,15 +138,79 @@
    "Wiktionary dictionary entry"
   ]
  },
+ "concept:ckb:arm": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:autumn": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/paːjiːz/"
+ },
  "concept:ckb:baby": {
   "level": "none",
   "checks": []
+ },
+ "concept:ckb:back": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 19 Tatoeba sentences"
+  ]
  },
  "concept:ckb:bad": {
   "level": "attested",
   "checks": [
    "Used in 15 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:bag": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:banana": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:bank": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:bank-card": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:bathroom": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:bear": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/wəɾt͡ʃ/"
  },
  "concept:ckb:beautiful": {
   "level": "strong",
@@ -103,10 +234,38 @@
    "Used in 10 Tatoeba sentences"
   ]
  },
+ "concept:ckb:bedroom": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:bee": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/haŋɡ/"
+ },
+ "concept:ckb:before": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 55 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:better": {
   "level": "attested",
   "checks": [
    "Used in 45 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:bicycle": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:big": {
@@ -118,6 +277,27 @@
   ],
   "ipa": "/ɡewre/"
  },
+ "concept:ckb:bill": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:bird": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/baːɫənda/"
+ },
+ "concept:ckb:birthday": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:black": {
   "level": "strong",
   "checks": [
@@ -126,6 +306,19 @@
    "Used in 5 Tatoeba sentences"
   ],
   "ipa": "/raʃ/"
+ },
+ "concept:ckb:blanket": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:blood": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/xwe̞ːn/"
  },
  "concept:ckb:blue": {
   "level": "strong",
@@ -136,6 +329,14 @@
   ],
   "ipa": "/ʃiːn/"
  },
+ "concept:ckb:body": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/laʃ/"
+ },
  "concept:ckb:book": {
   "level": "strong",
   "checks": [
@@ -144,6 +345,26 @@
    "Used in 10 Tatoeba sentences"
   ],
   "ipa": "/kəte̞ːb/"
+ },
+ "concept:ckb:bored": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:boss": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:boy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ]
  },
  "concept:ckb:bread": {
   "level": "strong",
@@ -159,6 +380,15 @@
   "checks": [
    "Used in 18 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:bridge": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/pəɾd/"
  },
  "concept:ckb:brother": {
   "level": "strong",
@@ -176,12 +406,42 @@
    "Used in 16 Tatoeba sentences"
   ]
  },
+ "concept:ckb:busy": {
+  "level": "attested",
+  "checks": [
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:but": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 79 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:butter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/kaɾa/"
+ },
+ "concept:ckb:butterfly": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/papuːla/"
+ },
+ "concept:ckb:calm": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
   ]
  },
  "concept:ckb:can": {
@@ -199,6 +459,35 @@
    "Used in 3 Tatoeba sentences"
   ],
   "ipa": "/oːtoːmˈbiːl/"
+ },
+ "concept:ckb:carpet": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:carrot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/ɟe̞ːzaɾ/"
+ },
+ "concept:ckb:cash": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:cat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
  },
  "concept:ckb:chair": {
   "level": "strong",
@@ -250,6 +539,13 @@
   ],
   "ipa": "/ʃaːɾ/"
  },
+ "concept:ckb:class": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:clean": {
   "level": "strong",
   "checks": [
@@ -259,11 +555,50 @@
   ],
   "ipa": "/xaːwe̞ːn/"
  },
+ "concept:ckb:clever": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/ziːɾak/"
+ },
+ "concept:ckb:clock": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 31 Tatoeba sentences"
+  ],
+  "ipa": "/kaːtʒəme̞ːɾ/"
+ },
  "concept:ckb:clothes": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:cloud": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/hau̯ɾ/"
+ },
+ "concept:ckb:cloudy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:coat": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
   ]
  },
  "concept:ckb:coffee": {
@@ -284,6 +619,12 @@
   ],
   "ipa": "/saːɾd/"
  },
+ "concept:ckb:colleague": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:color": {
   "level": "strong",
   "checks": [
@@ -293,11 +634,80 @@
   ],
   "ipa": "/raŋɡ/"
  },
+ "concept:ckb:common-cold": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:company": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:computer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:cool": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/fe̞ːŋək/"
+ },
+ "concept:ckb:corner": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
  "concept:ckb:country": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:cow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/maːŋɡaː/"
+ },
+ "concept:ckb:cucumber": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:cup": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:cupboard": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:customer": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:dark": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
   ]
  },
  "concept:ckb:daughter": {
@@ -316,12 +726,28 @@
   ],
   "ipa": "/ro̞ːʒ/"
  },
+ "concept:ckb:degree": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
  "concept:ckb:delicious": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 5 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:dentist": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:desert": {
+  "level": "none",
+  "checks": []
  },
  "concept:ckb:difficult": {
   "level": "strong",
@@ -353,6 +779,24 @@
    "Used in 11 Tatoeba sentences"
   ]
  },
+ "concept:ckb:dog": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "/saɡ/"
+ },
+ "concept:ckb:donkey": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "/kaɾ/"
+ },
  "concept:ckb:door": {
   "level": "strong",
   "checks": [
@@ -362,6 +806,35 @@
   ],
   "ipa": "/darɡaː/"
  },
+ "concept:ckb:dress": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:driver": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:dry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/wəʃk/"
+ },
+ "concept:ckb:ear": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "/ɟøe̯/"
+ },
  "concept:ckb:early": {
   "level": "strong",
   "checks": [
@@ -370,6 +843,14 @@
    "Used in 61 Tatoeba sentences"
   ],
   "ipa": "/zuː/"
+ },
+ "concept:ckb:east": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ro̞ːʒhaɫaːt/"
  },
  "concept:ckb:easy": {
   "level": "strong",
@@ -398,6 +879,20 @@
   ],
   "ipa": "/haʃt/"
  },
+ "concept:ckb:eighteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/haʒda/"
+ },
+ "concept:ckb:eighty": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
  "concept:ckb:eleven": {
   "level": "strong",
   "checks": [
@@ -405,6 +900,13 @@
    "Wiktionary dictionary entry"
   ],
   "ipa": "/jaːnza/"
+ },
+ "concept:ckb:engineer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
  },
  "concept:ckb:english": {
   "level": "attested",
@@ -434,6 +936,13 @@
    "Used in 34 Tatoeba sentences"
   ]
  },
+ "concept:ckb:exam": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:excuse-me": {
   "level": "attested",
   "checks": [
@@ -448,6 +957,24 @@
    "Used in 2 Tatoeba sentences"
   ],
   "ipa": "/ɡɾaːn/"
+ },
+ "concept:ckb:eye": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "/t͡ʃaːu̯/"
+ },
+ "concept:ckb:face": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/dæmut͡ʃaːw/"
  },
  "concept:ckb:family": {
   "level": "good",
@@ -473,6 +1000,17 @@
   ],
   "ipa": "/baːu̯k/"
  },
+ "concept:ckb:fever": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 166 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:field": {
+  "level": "none",
+  "checks": []
+ },
  "concept:ckb:fifteen": {
   "level": "strong",
   "checks": [
@@ -488,6 +1026,28 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:finger": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:first": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 55 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:fish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "/maːsiː/"
+ },
  "concept:ckb:five": {
   "level": "strong",
   "checks": [
@@ -497,11 +1057,59 @@
   ],
   "ipa": "/peːnd͡ʒ/"
  },
+ "concept:ckb:floor": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "/zawiː/"
+ },
+ "concept:ckb:flower": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:food": {
   "level": "attested",
   "checks": [
    "Wiktionary entry exists (different sense)",
    "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:foot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 278 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:forest": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/daːɾəstaːn/"
+ },
+ "concept:ckb:fork": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/t͡ʃəŋɡaːɫ/"
+ },
+ "concept:ckb:forty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:four": {
@@ -513,10 +1121,24 @@
   ],
   "ipa": "/t͡ʃ(ə)waːr/"
  },
+ "concept:ckb:fourteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/t͡ʃ(ə)waːrda/"
+ },
  "concept:ckb:friday": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:fridge": {
+  "level": "attested",
+  "checks": [
    "Used in 3 Tatoeba sentences"
   ]
  },
@@ -542,12 +1164,62 @@
   ],
   "ipa": "/miːwæ/"
  },
+ "concept:ckb:funny": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:garbage": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/zɪbɫ/"
+ },
+ "concept:ckb:garden": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:garlic": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:gift": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:girl": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:glass": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 1 Tatoeba sentence"
   ]
+ },
+ "concept:ckb:goat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/bəzən/"
  },
  "concept:ckb:good": {
   "level": "strong",
@@ -596,6 +1268,23 @@
   ],
   "ipa": "/daːpiːɾ/"
  },
+ "concept:ckb:grape": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/tɾe̞ː/"
+ },
+ "concept:ckb:grass": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/ɟəjaː/"
+ },
  "concept:ckb:green": {
   "level": "strong",
   "checks": [
@@ -604,6 +1293,20 @@
    "Used in 4 Tatoeba sentences"
   ],
   "ipa": "/sau̯z/"
+ },
+ "concept:ckb:guest": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:hair": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)"
+  ],
+  "ipa": "/qəʒ/"
  },
  "concept:ckb:half": {
   "level": "strong",
@@ -614,12 +1317,28 @@
   ],
   "ipa": "/niːu̯/"
  },
+ "concept:ckb:hand": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 67 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:happy": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 26 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:hat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/kəɫaːu̯/"
  },
  "concept:ckb:he-she": {
   "level": "good",
@@ -628,6 +1347,40 @@
    "Used in 723 Tatoeba sentences"
   ],
   "ipa": "/æw/"
+ },
+ "concept:ckb:head": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 79 Tatoeba sentences"
+  ],
+  "ipa": "/saɾ/"
+ },
+ "concept:ckb:headache": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/saɾe̞ːʃa/"
+ },
+ "concept:ckb:healthy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/tændrust/"
+ },
+ "concept:ckb:heart": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/dəɫ/"
  },
  "concept:ckb:hello": {
   "level": "good",
@@ -644,6 +1397,36 @@
    "Wiktionary dictionary entry",
    "Used in 50 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:holiday": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:homework": {
+  "level": "attested",
+  "checks": [
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:honey": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/haŋɡəwiːn/"
+ },
+ "concept:ckb:horse": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/ʔasp/"
  },
  "concept:ckb:hospital": {
   "level": "strong",
@@ -662,6 +1445,12 @@
    "Used in 11 Tatoeba sentences"
   ],
   "ipa": "/ɡaɾm/"
+ },
+ "concept:ckb:hotel": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
  },
  "concept:ckb:hour": {
   "level": "strong",
@@ -774,12 +1563,39 @@
    "Used in 22 Tatoeba sentences"
   ]
  },
+ "concept:ckb:ice": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/saho̞ːɫ/"
+ },
  "concept:ckb:in": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Wiktionary entry exists (different sense)",
    "Used in 165 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:island": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:job": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:juice": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:key": {
@@ -790,6 +1606,12 @@
   ],
   "ipa": "/kliːl/"
  },
+ "concept:ckb:kind": {
+  "level": "attested",
+  "checks": [
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:kitchen": {
   "level": "strong",
   "checks": [
@@ -799,6 +1621,14 @@
   ],
   "ipa": "/matbax/"
  },
+ "concept:ckb:knife": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:kurdish": {
   "level": "strong",
   "checks": [
@@ -806,6 +1636,19 @@
    "Wiktionary dictionary entry",
    "Used in 35 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:lake": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:lamp": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/t͡ʃəɾaː/"
  },
  "concept:ckb:language": {
   "level": "strong",
@@ -816,6 +1659,12 @@
   ],
   "ipa": "/zmaːn/"
  },
+ "concept:ckb:last": {
+  "level": "attested",
+  "checks": [
+   "Used in 15 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:late": {
   "level": "strong",
   "checks": [
@@ -825,6 +1674,27 @@
   ],
   "ipa": "/dəɾaŋɡ/"
  },
+ "concept:ckb:later": {
+  "level": "attested",
+  "checks": [
+   "Used in 18 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:lazy": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:leaf": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/ɡaɫaː/"
+ },
  "concept:ckb:left": {
   "level": "strong",
   "checks": [
@@ -833,10 +1703,80 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:leg": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:lemon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:lesson": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:lets-go": {
   "level": "attested",
   "checks": [
    "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:letter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:life": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "ipa": "/ʒjaːn/"
+ },
+ "concept:ckb:light": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:lion": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ʃe̞ːɾ/"
+ },
+ "concept:ckb:living-room": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:long": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/dɾe̞ːʒ/"
+ },
+ "concept:ckb:love": {
+  "level": "attested",
+  "checks": [
+   "Used in 20 Tatoeba sentences"
   ]
  },
  "concept:ckb:lunch": {
@@ -852,6 +1792,13 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:map": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:market": {
@@ -902,6 +1849,19 @@
   ],
   "ipa": "/ɡo̞ːʃt/"
  },
+ "concept:ckb:medicine": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:meeting": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:milk": {
   "level": "strong",
   "checks": [
@@ -916,6 +1876,15 @@
   "checks": [
    "Used in 9 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:mirror": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/ʔaːwe̞ːna/"
  },
  "concept:ckb:monday": {
   "level": "good",
@@ -942,6 +1911,15 @@
   ],
   "ipa": "/maːŋɡ/"
  },
+ "concept:ckb:moon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "ipa": "/maːŋɡ/"
+ },
  "concept:ckb:more": {
   "level": "attested",
   "checks": [
@@ -954,6 +1932,15 @@
    "Wiktionary translation table",
    "Used in 18 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:mosque": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/məzɡau̯t/"
  },
  "concept:ckb:mother": {
   "level": "strong",
@@ -973,6 +1960,30 @@
   ],
   "ipa": "/t͡ʃəjaː/"
  },
+ "concept:ckb:mouse": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/məʃk/"
+ },
+ "concept:ckb:mouth": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/dam/"
+ },
+ "concept:ckb:museum": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:name": {
   "level": "strong",
   "checks": [
@@ -988,11 +1999,34 @@
    "Used in 43 Tatoeba sentences"
   ]
  },
+ "concept:ckb:nature": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:near": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 16 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:neck": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/məl/"
+ },
+ "concept:ckb:neighbour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
   ]
  },
  "concept:ckb:never": {
@@ -1010,6 +2044,12 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:next": {
+  "level": "attested",
+  "checks": [
+   "Used in 37 Tatoeba sentences"
   ]
  },
  "concept:ckb:nice-to-meet-you": {
@@ -1034,10 +2074,56 @@
   ],
   "ipa": "/noː/"
  },
+ "concept:ckb:nineteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/noːzda/"
+ },
+ "concept:ckb:ninety": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
  "concept:ckb:no": {
   "level": "attested",
   "checks": [
    "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:noon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "/niːwaro̞ː/"
+ },
+ "concept:ckb:north": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "/baːkuːɾ/"
+ },
+ "concept:ckb:nose": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/luːt/"
+ },
+ "concept:ckb:notebook": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
   ]
  },
  "concept:ckb:now": {
@@ -1048,11 +2134,30 @@
    "Used in 207 Tatoeba sentences"
   ]
  },
+ "concept:ckb:nurse": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:of-course": {
   "level": "attested",
   "checks": [
    "Used in 5 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:office": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:oil": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/ro̞ːn/"
  },
  "concept:ckb:okay": {
   "level": "attested",
@@ -1084,6 +2189,14 @@
   ],
   "ipa": "/jɛk/"
  },
+ "concept:ckb:onion": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/pjaːz/"
+ },
  "concept:ckb:only": {
   "level": "strong",
   "checks": [
@@ -1096,6 +2209,50 @@
   "checks": [
    "Wiktionary translation table",
    "Used in 63 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:orange": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/pəɾtaqaːɫ/"
+ },
+ "concept:ckb:pain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/ʔaːzaːɾ/"
+ },
+ "concept:ckb:paper": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:park": {
+  "level": "attested",
+  "checks": [
+   "Used in 10 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:party": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:passport": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
   ]
  },
  "concept:ckb:paternal-aunt": {
@@ -1116,10 +2273,34 @@
   ],
   "ipa": "/maːm/"
  },
+ "concept:ckb:pen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/pe̞ːnuːs/"
+ },
+ "concept:ckb:people": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 63 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:persian": {
   "level": "good",
   "checks": [
    "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:pharmacy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
   ]
  },
  "concept:ckb:phone": {
@@ -1127,6 +2308,37 @@
   "checks": [
    "Wiktionary translation table",
    "Wiktionary dictionary entry"
+  ]
+ },
+ "concept:ckb:photo": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:pillow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/særiːn/"
+ },
+ "concept:ckb:plane": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/fro̞ːka/"
+ },
+ "concept:ckb:plate": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:please": {
@@ -1138,6 +2350,55 @@
  "concept:ckb:please-repeat": {
   "level": "none",
   "checks": []
+ },
+ "concept:ckb:police": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 21 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:post-office": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:pot": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:potato": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/pataːta/"
+ },
+ "concept:ckb:price": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:question": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:rain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ]
  },
  "concept:ckb:really": {
   "level": "attested",
@@ -1153,6 +2414,17 @@
    "Used in 10 Tatoeba sentences"
   ],
   "ipa": "/suːɾ/"
+ },
+ "concept:ckb:rent": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:restaurant": {
+  "level": "none",
+  "checks": []
  },
  "concept:ckb:rice": {
   "level": "strong",
@@ -1170,6 +2442,28 @@
    "Used in 36 Tatoeba sentences"
   ]
  },
+ "concept:ckb:river": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/ruːbaːɾ/"
+ },
+ "concept:ckb:road": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:roof": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:room": {
   "level": "strong",
   "checks": [
@@ -1183,6 +2477,10 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:salary": {
+  "level": "none",
+  "checks": []
+ },
  "concept:ckb:salt": {
   "level": "strong",
   "checks": [
@@ -1190,6 +2488,15 @@
    "Wiktionary dictionary entry",
    "Used in 3 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:salty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/søe̯ɾ/"
  },
  "concept:ckb:saturday": {
   "level": "strong",
@@ -1199,6 +2506,10 @@
   ],
   "ipa": "/ʃamma/"
  },
+ "concept:ckb:scarf": {
+  "level": "none",
+  "checks": []
+ },
  "concept:ckb:school": {
   "level": "strong",
   "checks": [
@@ -1206,10 +2517,33 @@
    "Used in 31 Tatoeba sentences"
   ]
  },
+ "concept:ckb:sea": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "/daɾjaː/"
+ },
+ "concept:ckb:season": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:see-you-later": {
   "level": "attested",
   "checks": [
    "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sentence": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
   ]
  },
  "concept:ckb:seven": {
@@ -1221,11 +2555,64 @@
   ],
   "ipa": "/ħawt/"
  },
+ "concept:ckb:seventeen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/ħavda/"
+ },
+ "concept:ckb:seventy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:sheep": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:shirt": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:shoe": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/pe̞ːɫaːu̯/"
+ },
  "concept:ckb:shop": {
   "level": "good",
   "checks": [
    "Wiktionary translation table"
   ]
+ },
+ "concept:ckb:short": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/kʊɾt/"
+ },
+ "concept:ckb:shoulder": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ʃaːn/"
  },
  "concept:ckb:sick": {
   "level": "strong",
@@ -1253,6 +2640,38 @@
   ],
   "ipa": "/ʃaʃ/"
  },
+ "concept:ckb:sixteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ʃaːnza/"
+ },
+ "concept:ckb:sixty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:size": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/ʔandaːza/"
+ },
+ "concept:ckb:sky": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/ʔaːsmaːn/"
+ },
  "concept:ckb:slowly": {
   "level": "attested",
   "checks": [
@@ -1264,6 +2683,43 @@
   "checks": [
    "Wiktionary translation table",
    "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:snake": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/maːɾ/"
+ },
+ "concept:ckb:snow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "/bæfɾ/"
+ },
+ "concept:ckb:soap": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:sock": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "/ɡɔːɾawiː/"
+ },
+ "concept:ckb:sofa": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
   ]
  },
  "concept:ckb:sometimes": {
@@ -1280,12 +2736,108 @@
    "Used in 4 Tatoeba sentences"
   ]
  },
+ "concept:ckb:soon": {
+  "level": "attested",
+  "checks": [
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:sorry": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 13 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:soup": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:sour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/təɾʃ/"
+ },
+ "concept:ckb:south": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/baːʃuːɾ/"
+ },
+ "concept:ckb:spicy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/tiːʒ/"
+ },
+ "concept:ckb:spoon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/kau̯t͡ʃək/"
+ },
+ "concept:ckb:spring": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "/bahaːɾ/"
+ },
+ "concept:ckb:square": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:stairs": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:star": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:station": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:stomach": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:stone": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "/baɾd/"
+ },
+ "concept:ckb:storm": {
+  "level": "none",
+  "checks": []
  },
  "concept:ckb:straight-ahead": {
   "level": "attested",
@@ -1300,6 +2852,19 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:strong": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:student": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:sugar": {
   "level": "strong",
   "checks": [
@@ -1309,10 +2874,47 @@
   ],
   "ipa": "/ʃakəɾ/"
  },
+ "concept:ckb:suitcase": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:summer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "/haːwiːn/"
+ },
+ "concept:ckb:sun": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "/xɔːɾ/"
+ },
  "concept:ckb:sunday": {
   "level": "attested",
   "checks": [
    "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:sunny": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:surprised": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
   ]
  },
  "concept:ckb:sweden": {
@@ -1328,6 +2930,13 @@
    "Wiktionary translation table"
   ]
  },
+ "concept:ckb:sweet": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:table": {
   "level": "strong",
   "checks": [
@@ -1335,6 +2944,15 @@
    "Wiktionary dictionary entry",
    "Used in 1 Tatoeba sentence"
   ]
+ },
+ "concept:ckb:tall": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "/dɾe̞ːʒ/"
  },
  "concept:ckb:taxi": {
   "level": "none",
@@ -1348,6 +2966,25 @@
    "Used in 1 Tatoeba sentence"
   ],
   "ipa": "/t͡ʃɑː/"
+ },
+ "concept:ckb:teacher": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 8 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:television": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:temperature": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
  },
  "concept:ckb:ten": {
   "level": "strong",
@@ -1402,6 +3039,14 @@
   ],
   "ipa": "/tiːnuː/"
  },
+ "concept:ckb:thirteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/s(ə)jaːnza/"
+ },
  "concept:ckb:thirty": {
   "level": "strong",
   "checks": [
@@ -1447,6 +3092,14 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:time": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 50 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:tired": {
   "level": "strong",
   "checks": [
@@ -1463,11 +3116,44 @@
    "Used in 936 Tatoeba sentences"
   ]
  },
+ "concept:ckb:to-answer": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:to-arrive": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "/ɡajəʃtən/"
+ },
+ "concept:ckb:to-ask": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/pəɾsiːn/"
+ },
  "concept:ckb:to-be": {
   "level": "attested",
   "checks": [
    "Used in 75 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:to-begin": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:to-bring": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/he̞ːnaːn/"
  },
  "concept:ckb:to-buy": {
   "level": "strong",
@@ -1483,6 +3169,16 @@
   "checks": [
    "Used in 5 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:to-change": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-clean": {
+  "level": "none",
+  "checks": []
  },
  "concept:ckb:to-close": {
   "level": "strong",
@@ -1509,6 +3205,27 @@
    "Used in 2 Tatoeba sentences"
   ]
  },
+ "concept:ckb:to-cry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-cut": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/briːn/"
+ },
+ "concept:ckb:to-dance": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:to-do": {
   "level": "strong",
   "checks": [
@@ -1524,12 +3241,38 @@
    "Used in 6 Tatoeba sentences"
   ]
  },
+ "concept:ckb:to-drive": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:to-eat": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 29 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-find": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-finish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-forget": {
+  "level": "attested",
+  "checks": [
+   "Used in 7 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-give": {
@@ -1571,6 +3314,10 @@
    "Used in 16 Tatoeba sentences"
   ]
  },
+ "concept:ckb:to-hurt": {
+  "level": "none",
+  "checks": []
+ },
  "concept:ckb:to-know": {
   "level": "strong",
   "checks": [
@@ -1580,11 +3327,24 @@
   ],
   "ipa": "/zaːniːn/"
  },
+ "concept:ckb:to-laugh": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:to-learn": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-leave": {
+  "level": "attested",
+  "checks": [
+   "Used in 12 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-like": {
@@ -1602,10 +3362,34 @@
   ],
   "ipa": "/ʒjaːn/"
  },
+ "concept:ckb:to-lose": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-love": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-meet": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
  "concept:ckb:to-open": {
   "level": "good",
   "checks": [
    "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-pay": {
+  "level": "attested",
+  "checks": [
+   "Used in 16 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-play": {
@@ -1615,10 +3399,52 @@
    "Used in 5 Tatoeba sentences"
   ]
  },
+ "concept:ckb:to-put": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-rain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/baːɾiːn/"
+ },
  "concept:ckb:to-read": {
   "level": "attested",
   "checks": [
    "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-remember": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 27 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-rest": {
+  "level": "attested",
+  "checks": [
+   "Used in 4 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-return": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:to-run": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-say": {
@@ -1632,6 +3458,32 @@
  "concept:ckb:to-see": {
   "level": "none",
   "checks": []
+ },
+ "concept:ckb:to-sell": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-send": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/naːɾdən/"
+ },
+ "concept:ckb:to-show": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 15 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-sing": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
  },
  "concept:ckb:to-sit": {
   "level": "strong",
@@ -1664,6 +3516,12 @@
   ],
   "ipa": "/xwe̞ːndən/"
  },
+ "concept:ckb:to-swim": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:to-take": {
   "level": "good",
   "checks": [
@@ -1671,9 +3529,39 @@
    "Used in 1 Tatoeba sentence"
   ]
  },
+ "concept:ckb:to-teach": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-think": {
+  "level": "none",
+  "checks": []
+ },
+ "concept:ckb:to-travel": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:to-try": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:to-understand": {
   "level": "attested",
   "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:to-use": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
    "Used in 1 Tatoeba sentence"
   ]
  },
@@ -1690,6 +3578,13 @@
    "Wiktionary translation table"
   ]
  },
+ "concept:ckb:to-walk": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:to-want": {
   "level": "none",
   "checks": []
@@ -1698,6 +3593,12 @@
   "level": "good",
   "checks": [
    "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:to-wear": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
   ]
  },
  "concept:ckb:to-work": {
@@ -1720,6 +3621,22 @@
    "Used in 87 Tatoeba sentences"
   ]
  },
+ "concept:ckb:toilet": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:tomato": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/tamaːta/"
+ },
  "concept:ckb:tomorrow": {
   "level": "strong",
   "checks": [
@@ -1728,6 +3645,56 @@
    "Used in 55 Tatoeba sentences"
   ],
   "ipa": "/sbɛi̯/"
+ },
+ "concept:ckb:tooth": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/ddaːn/"
+ },
+ "concept:ckb:tourist": {
+  "level": "attested",
+  "checks": [
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:towel": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/xaːu̯liː/"
+ },
+ "concept:ckb:train": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:tree": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:trip": {
+  "level": "attested",
+  "checks": [
+   "Used in 3 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:trousers": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
  },
  "concept:ckb:tuesday": {
   "level": "strong",
@@ -1762,10 +3729,37 @@
   ],
   "ipa": "/duː/"
  },
+ "concept:ckb:umbrella": {
+  "level": "good",
+  "checks": [
+   "Wiktionary translation table"
+  ]
+ },
+ "concept:ckb:university": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:until": {
+  "level": "attested",
+  "checks": [
+   "Used in 166 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:usually": {
   "level": "attested",
   "checks": [
    "Used in 7 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:vegetable": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 6 Tatoeba sentences"
   ]
  },
  "concept:ckb:very": {
@@ -1784,6 +3778,24 @@
   ],
   "ipa": "/ɡʊnd/"
  },
+ "concept:ckb:wall": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "/diːwaːɾ/"
+ },
+ "concept:ckb:warm": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "/ɡaɾm/"
+ },
  "concept:ckb:water": {
   "level": "strong",
   "checks": [
@@ -1791,6 +3803,15 @@
    "Wiktionary dictionary entry",
    "Used in 22 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:watermelon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "/ʃuːtiː/"
  },
  "concept:ckb:we": {
   "level": "attested",
@@ -1800,6 +3821,10 @@
   ],
   "ipa": "/eːmæ/"
  },
+ "concept:ckb:weak": {
+  "level": "none",
+  "checks": []
+ },
  "concept:ckb:weather": {
   "level": "good",
   "checks": [
@@ -1807,6 +3832,13 @@
    "Used in 4 Tatoeba sentences"
   ],
   "ipa": "/hawaː/"
+ },
+ "concept:ckb:wedding": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
  },
  "concept:ckb:wednesday": {
   "level": "attested",
@@ -1820,10 +3852,29 @@
    "Used in 5 Tatoeba sentences"
   ]
  },
+ "concept:ckb:weekend": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:welcome": {
   "level": "attested",
   "checks": [
    "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:west": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)"
+  ]
+ },
+ "concept:ckb:wet": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 3 Tatoeba sentences"
   ]
  },
  "concept:ckb:what": {
@@ -1896,6 +3947,15 @@
   ],
   "ipa": "/ʒən/"
  },
+ "concept:ckb:wind": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 128 Tatoeba sentences"
+  ],
+  "ipa": "/baː/"
+ },
  "concept:ckb:window": {
   "level": "strong",
   "checks": [
@@ -1905,12 +3965,29 @@
   ],
   "ipa": "/pand͡ʒaɾa/"
  },
+ "concept:ckb:winter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "/zəstaːn/"
+ },
  "concept:ckb:with": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 311 Tatoeba sentences"
   ]
+ },
+ "concept:ckb:wolf": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "ipa": "/ɡʊɾɡ/"
  },
  "concept:ckb:woman": {
   "level": "strong",
@@ -1921,11 +3998,39 @@
   ],
   "ipa": "/ʒən/"
  },
+ "concept:ckb:word": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 16 Tatoeba sentences"
+  ]
+ },
  "concept:ckb:work": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 102 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:worker": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:ckb:world": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ]
+ },
+ "concept:ckb:worried": {
+  "level": "attested",
+  "checks": [
+   "Used in 12 Tatoeba sentences"
   ]
  },
  "concept:ckb:year": {
@@ -1984,6 +4089,15 @@
   ],
   "ipa": "/eːwæ/"
  },
+ "concept:ckb:young": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "/ɡand͡ʒ/"
+ },
  "concept:ckb:younger": {
   "level": "none",
   "checks": []
@@ -2009,6 +4123,37 @@
   ],
   "ipa": "[kʰʲæ.míː]"
  },
+ "concept:fa:address": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D8%AF%D8%B1%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D8%AF%D8%B1%D8%B3.wav.mp3",
+  "ipa": "[ʔɒːd̪.ɹés]"
+ },
+ "concept:fa:afraid": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:after": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 155 Tatoeba sentences"
+  ],
+  "ipa": "[bæʔd̪̥ ʔæz]"
+ },
+ "concept:fa:afternoon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 30 Tatoeba sentences"
+  ]
+ },
  "concept:fa:again": {
   "level": "strong",
   "checks": [
@@ -2026,6 +4171,24 @@
   ],
   "ipa": "[sen(ː)]"
  },
+ "concept:fa:ago": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 234 Tatoeba sentences"
+  ],
+  "ipa": "[pʰiːʃ]"
+ },
+ "concept:fa:air": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 119 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Fa-%D9%87%D9%88%D8%A7.ogg/Fa-%D9%87%D9%88%D8%A7.ogg.mp3",
+  "ipa": "[hæ.vɒː]"
+ },
  "concept:fa:airport": {
   "level": "good",
   "checks": [
@@ -2034,6 +4197,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D9%88%D8%AF%DA%AF%D8%A7%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D9%88%D8%AF%DA%AF%D8%A7%D9%87.wav.mp3",
   "ipa": "[fo.ɹuːd̪.ɡɒ́ːʰ]"
+ },
+ "concept:fa:alone": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 254 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæn.hɒ́ː]"
  },
  "concept:fa:also": {
   "level": "strong",
@@ -2068,6 +4240,32 @@
    "Used in 97 Tatoeba sentences"
   ]
  },
+ "concept:fa:angry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 39 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæ.sæ.bɒː.niː]"
+ },
+ "concept:fa:animal": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "[hej.vɒ́ːn]"
+ },
+ "concept:fa:answer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 73 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒæ.vɒ́ːb̥]"
+ },
  "concept:fa:apartment": {
   "level": "good",
   "checks": [
@@ -2087,6 +4285,26 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Fa-%D8%B3%DB%8C%D8%A8.ogg/Fa-%D8%B3%DB%8C%D8%A8.ogg.mp3",
   "ipa": "[siːb̥]"
  },
+ "concept:fa:arm": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/LL-Q9168_%28fas%29-Darafsh-%D8%A8%D8%A7%D8%B2%D9%88.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A8%D8%A7%D8%B2%D9%88.wav.mp3",
+  "ipa": "[bɒː.zúː]"
+ },
+ "concept:fa:autumn": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 40 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/LL-Q9168_%28fas%29-Afsham23-%D9%BE%D8%A7%DB%8C%DB%8C%D8%B2.wav/LL-Q9168_%28fas%29-Afsham23-%D9%BE%D8%A7%DB%8C%DB%8C%D8%B2.wav.mp3",
+  "ipa": "[pʰɒː.jiːz]"
+ },
  "concept:fa:baby": {
   "level": "attested",
   "checks": [
@@ -2094,6 +4312,16 @@
    "Used in 10 Tatoeba sentences"
   ],
   "ipa": "[now.zɒːd̪̥]"
+ },
+ "concept:fa:back": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 92 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Fa-%D9%BE%D8%B4%D8%AA.ogg/Fa-%D9%BE%D8%B4%D8%AA.ogg.mp3",
+  "ipa": "[pʰoʃt̪ʰ]"
  },
  "concept:fa:bad": {
   "level": "strong",
@@ -2104,6 +4332,62 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Fa-%D8%A8%D8%AF.ogg/Fa-%D8%A8%D8%AF.ogg.mp3",
   "ipa": "[bæd̪̥]"
+ },
+ "concept:fa:bag": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 20 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲiːf]"
+ },
+ "concept:fa:banana": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "[mowz]"
+ },
+ "concept:fa:bank": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D9%86%DA%A9.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D9%86%DA%A9.wav.mp3",
+  "ipa": "[bɒːŋkʰʲ]"
+ },
+ "concept:fa:bank-card": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%A7%D8%B1%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%A7%D8%B1%D8%AA.wav.mp3",
+  "ipa": "[kʰɒːɹt̪ʰ]"
+ },
+ "concept:fa:bathroom": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q9168_%28fas%29-Darafsh-%D8%AD%D9%85%D8%A7%D9%85.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AD%D9%85%D8%A7%D9%85.wav.mp3",
+  "ipa": "[hæm.mɒːm]"
+ },
+ "concept:fa:bear": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 20 Tatoeba sentences"
+  ],
+  "ipa": "[xeɹs]"
  },
  "concept:fa:beautiful": {
   "level": "strong",
@@ -2131,12 +4415,48 @@
   ],
   "ipa": "[t̪ʰǽxt̪ʰ]"
  },
+ "concept:fa:bedroom": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 121 Tatoeba sentences"
+  ],
+  "ipa": "[ʔo.t̪ʰɒ́ː.ɢe xɒːb̥]"
+ },
+ "concept:fa:bee": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[zæm.buːɹ]"
+ },
+ "concept:fa:before": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 168 Tatoeba sentences"
+  ],
+  "ipa": "[qæbl̥ ʔæz]"
+ },
  "concept:fa:better": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 236 Tatoeba sentences"
   ]
+ },
+ "concept:fa:bicycle": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 47 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Fa-%D8%AF%D9%88%DA%86%D8%B1%D8%AE%D9%87.ogg/Fa-%D8%AF%D9%88%DA%86%D8%B1%D8%AE%D9%87.ogg.mp3",
+  "ipa": "[d̪o.t͡ʃʰæɹ.xe]"
  },
  "concept:fa:big": {
   "level": "strong",
@@ -2148,6 +4468,29 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Fa-%D8%A8%D8%B2%D8%B1%DA%AF.ogg/Fa-%D8%A8%D8%B2%D8%B1%DA%AF.ogg.mp3",
   "ipa": "[bo.zóɹɡʲ̥]"
  },
+ "concept:fa:bill": {
+  "level": "attested",
+  "checks": [
+   "Used in 57 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:bird": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 66 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæ.ɹǽn̪.d̪e]"
+ },
+ "concept:fa:birthday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæ.væl.lód̪̥]"
+ },
  "concept:fa:black": {
   "level": "strong",
   "checks": [
@@ -2157,6 +4500,25 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/LL-Q9168_%28fas%29-Afsham23-%D8%B3%DB%8C%D8%A7%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B3%DB%8C%D8%A7%D9%87.wav.mp3",
   "ipa": "[si.jɒːʱ]"
+ },
+ "concept:fa:blanket": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæ.t̪ʰúː]"
+ },
+ "concept:fa:blood": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D9%86.wav.mp3",
+  "ipa": "[xuːn]"
  },
  "concept:fa:blue": {
   "level": "strong",
@@ -2168,6 +4530,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Fa-%D8%A2%D8%A8%DB%8C.ogg/Fa-%D8%A2%D8%A8%DB%8C.ogg.mp3",
   "ipa": "[ʔɒː.bíː]"
  },
+ "concept:fa:body": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[bæ.d̪ǽn]"
+ },
  "concept:fa:book": {
   "level": "strong",
   "checks": [
@@ -2177,6 +4548,32 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Fa-%D9%83%D8%AA%D8%A7%D8%A8.ogg/Fa-%D9%83%D8%AA%D8%A7%D8%A8.ogg.mp3",
   "ipa": "[kʰʲe.t̪ʰɒ́ːb̥]"
+ },
+ "concept:fa:bored": {
+  "level": "attested",
+  "checks": [
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:boss": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 41 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D8%A6%DB%8C%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D8%A6%DB%8C%D8%B3.wav.mp3",
+  "ipa": "[ɹæ.ʔíːs]"
+ },
+ "concept:fa:boy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 99 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Fa-%D9%BE%D8%B3%D8%B1.ogg/Fa-%D9%BE%D8%B3%D8%B1.ogg.mp3",
+  "ipa": "[pʰe.sæɹ]"
  },
  "concept:fa:bread": {
   "level": "strong",
@@ -2197,6 +4594,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD%D8%A7%D9%86%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD%D8%A7%D9%86%D9%87.wav.mp3",
   "ipa": "[sob.hɒː.ne]"
  },
+ "concept:fa:bridge": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "ipa": "[pʰol̥]"
+ },
  "concept:fa:brother": {
   "level": "strong",
   "checks": [
@@ -2216,6 +4622,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AA%D9%88%D8%A8%D9%88%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AA%D9%88%D8%A8%D9%88%D8%B3.wav.mp3",
   "ipa": "[ʔo.t̪ʰo.buːs]"
  },
+ "concept:fa:busy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 71 Tatoeba sentences"
+  ],
+  "ipa": "[mæʃ.ɢúːl̥]"
+ },
  "concept:fa:but": {
   "level": "good",
   "checks": [
@@ -2223,6 +4638,34 @@
    "Used in 146 Tatoeba sentences"
   ],
   "ipa": "[vǽ.liː]"
+ },
+ "concept:fa:butter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲæ.ɹé]"
+ },
+ "concept:fa:butterfly": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæɹ.vɒː.né]"
+ },
+ "concept:fa:calm": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 54 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D8%B1%D8%A7%D9%85.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D8%B1%D8%A7%D9%85.wav.mp3",
+  "ipa": "[ʔɒː.ɹɒ́ːm]"
  },
  "concept:fa:can": {
   "level": "strong",
@@ -2242,6 +4685,42 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%B4%DB%8C%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%B4%DB%8C%D9%86.wav.mp3",
   "ipa": "[mɒː.ʃíːn]"
+ },
+ "concept:fa:carpet": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D8%B4.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D8%B4.wav.mp3",
+  "ipa": "[fæɹʃ]"
+ },
+ "concept:fa:carrot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[hæ.viːd͡ʒ̥]"
+ },
+ "concept:fa:cash": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "ipa": "[næʁd̪̥]"
+ },
+ "concept:fa:cat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 115 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D8%A8%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D8%A8%D9%87.wav.mp3",
+  "ipa": "[ɡ̥oɹ.bé]"
  },
  "concept:fa:chair": {
   "level": "strong",
@@ -2301,6 +4780,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%87%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D9%87%D8%B1.wav.mp3",
   "ipa": "[ʃæɦɹ]"
  },
+ "concept:fa:class": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 50 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D9%84%D8%A7%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D9%84%D8%A7%D8%B3.wav.mp3",
+  "ipa": "/keˈlɒːs/"
+ },
  "concept:fa:clean": {
   "level": "strong",
   "checks": [
@@ -2310,6 +4798,26 @@
   ],
   "ipa": "[t̪ʰæ.míːz]"
  },
+ "concept:fa:clever": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D9%87%D9%88%D8%B4.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D9%87%D9%88%D8%B4.wav.mp3",
+  "ipa": "[bɒː.ɦuːʃ]"
+ },
+ "concept:fa:clock": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 267 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D8%A7%D8%B9%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D8%A7%D8%B9%D8%AA.wav.mp3",
+  "ipa": "[sɒː.ʔæt̪ʰ]"
+ },
  "concept:fa:clothes": {
   "level": "good",
   "checks": [
@@ -2318,6 +4826,34 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/LL-Q9168_%28fas%29-Darafsh-%D9%84%D8%A8%D8%A7%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D9%84%D8%A8%D8%A7%D8%B3.wav.mp3",
   "ipa": "[le.bɒːs]"
+ },
+ "concept:fa:cloud": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 20 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Fa-%D8%A7%D8%A8%D8%B1.ogg/Fa-%D8%A7%D8%A8%D8%B1.ogg.mp3",
+  "ipa": "[ʔæbɹ]"
+ },
+ "concept:fa:cloudy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæb.ɹíː]"
+ },
+ "concept:fa:coat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "[pʰɒːl̪.t̪ʰó]"
  },
  "concept:fa:coffee": {
   "level": "strong",
@@ -2338,6 +4874,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Fa-%D8%B3%D8%B1%D8%AF.ogg/Fa-%D8%B3%D8%B1%D8%AF.ogg.mp3",
   "ipa": "[sǽɹd̪̥]"
  },
+ "concept:fa:colleague": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%85%DA%A9%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%85%DA%A9%D8%A7%D8%B1.wav.mp3",
+  "ipa": "[hæm.kʰɒ́ːɹ]"
+ },
  "concept:fa:color": {
   "level": "strong",
   "checks": [
@@ -2348,6 +4894,49 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D9%86%DA%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D9%86%DA%AF.wav.mp3",
   "ipa": "[ɹæŋɡʲ̥]"
  },
+ "concept:fa:common-cold": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 13 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:company": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 60 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D8%B1%DA%A9%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D8%B1%DA%A9%D8%AA.wav.mp3",
+  "ipa": "[ʃeɹ.kʰʲǽt̪ʰ]"
+ },
+ "concept:fa:computer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Fa-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1.ogg/Fa-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1.ogg.mp3",
+  "ipa": "[kʰɒːm.pʰi.juː.t̪ʰéɹ]"
+ },
+ "concept:fa:cool": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[xo.nǽkʰʲ]"
+ },
+ "concept:fa:corner": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥uː.ʃe]"
+ },
  "concept:fa:country": {
   "level": "strong",
   "checks": [
@@ -2357,6 +4946,60 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%B4%D9%88%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%B4%D9%88%D8%B1.wav.mp3",
   "ipa": "[kʰʲeʃ.vǽɹ]"
+ },
+ "concept:fa:cow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥ɒːv]"
+ },
+ "concept:fa:cucumber": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/LL-Q9168_%28fas%29-Afsham23-%D8%AE%DB%8C%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%DB%8C%D8%A7%D8%B1.wav.mp3",
+  "ipa": "[xi.jɒ́ːɹ]"
+ },
+ "concept:fa:cup": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 22 Tatoeba sentences"
+  ],
+  "ipa": "[fen.d͡ʒɒ́ːn]"
+ },
+ "concept:fa:cupboard": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "[kʰo.mód̪̥]"
+ },
+ "concept:fa:customer": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 14 Tatoeba sentences"
+  ],
+  "ipa": "[moʃ.t̪ʰæ.ɹíː]"
+ },
+ "concept:fa:dark": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/LL-Q9168_%28fas%29-Afsham23-%D8%AA%D8%A7%D8%B1%DB%8C%DA%A9.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AA%D8%A7%D8%B1%DB%8C%DA%A9.wav.mp3",
+  "ipa": "[t̪ʰɒ́ː.ɹiːkʰʲ]"
  },
  "concept:fa:daughter": {
   "level": "strong",
@@ -2378,6 +5021,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Fa-%D8%B1%D9%88%D8%B2.ogg/Fa-%D8%B1%D9%88%D8%B2.ogg.mp3",
   "ipa": "[ɹuːz]"
  },
+ "concept:fa:degree": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 23 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%B1%D8%AC%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%B1%D8%AC%D9%87.wav.mp3",
+  "ipa": "[d̪æ.ɹæ.d͡ʒe]"
+ },
  "concept:fa:delicious": {
   "level": "good",
   "checks": [
@@ -2385,6 +5038,24 @@
    "Used in 11 Tatoeba sentences"
   ],
   "ipa": "[xoʃ.mæ.zé]"
+ },
+ "concept:fa:dentist": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æn̪.d̪ɒːm.pʰe.zeʃkʰʲ]"
+ },
+ "concept:fa:desert": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "[bi.jɒː.bɒ́ːn]"
  },
  "concept:fa:difficult": {
   "level": "strong",
@@ -2422,6 +5093,25 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/LL-Q9168_%28fas%29-Darafsh-%D8%AF%DA%A9%D8%AA%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%DA%A9%D8%AA%D8%B1.wav.mp3",
   "ipa": "[d̪okʰʲ.t̪ʰóɹ]"
  },
+ "concept:fa:dog": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 132 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Fa-%D8%B3%DA%AF.ogg/Fa-%D8%B3%DA%AF.ogg.mp3",
+  "ipa": "[sæɡʲ̥]"
+ },
+ "concept:fa:donkey": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 44 Tatoeba sentences"
+  ],
+  "ipa": "[xæɹ]"
+ },
  "concept:fa:door": {
   "level": "strong",
   "checks": [
@@ -2432,6 +5122,43 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Fa-%D8%AF%D8%B1.ogg/Fa-%D8%AF%D8%B1.ogg.mp3",
   "ipa": "[d̪æɹ]"
  },
+ "concept:fa:dress": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 27 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/LL-Q9168_%28fas%29-Darafsh-%D9%BE%DB%8C%D8%B1%D8%A7%D9%87%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%BE%DB%8C%D8%B1%D8%A7%D9%87%D9%86.wav.mp3",
+  "ipa": "[pʰiː.ɹɒː.ɦǽn]"
+ },
+ "concept:fa:driver": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D8%A7%D9%86%D9%86%D8%AF%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B1%D8%A7%D9%86%D9%86%D8%AF%D9%87.wav.mp3",
+  "ipa": "[ɹɒː.næn̪.d̪é]"
+ },
+ "concept:fa:dry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 53 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/LL-Q9168_%28fas%29-Mazanin_%28%D9%85%D8%A7%D8%B2%D9%86%DB%8C%D9%86%29-%D8%AE%D8%B4%DA%A9.wav/LL-Q9168_%28fas%29-Mazanin_%28%D9%85%D8%A7%D8%B2%D9%86%DB%8C%D9%86%29-%D8%AE%D8%B4%DA%A9.wav.mp3",
+  "ipa": "[xoʃkʰʲ]"
+ },
+ "concept:fa:ear": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 131 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/LL-Q9168_%28fas%29-Mazanin_%28%D9%85%D8%A7%D8%B2%D9%86%DB%8C%D9%86%29-%DA%AF%D9%88%D8%B4.wav/LL-Q9168_%28fas%29-Mazanin_%28%D9%85%D8%A7%D8%B2%D9%86%DB%8C%D9%86%29-%DA%AF%D9%88%D8%B4.wav.mp3",
+  "ipa": "[ɡ̥uːʃ]"
+ },
  "concept:fa:early": {
   "level": "strong",
   "checks": [
@@ -2441,6 +5168,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/LL-Q9168_%28fas%29-Afsham23-%D8%B2%D9%88%D8%AF.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B2%D9%88%D8%AF.wav.mp3",
   "ipa": "[zuːd̪̥]"
+ },
+ "concept:fa:east": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[ʃæɹɢ̥]"
  },
  "concept:fa:easy": {
   "level": "strong",
@@ -2470,6 +5206,23 @@
   ],
   "ipa": "[hǽʃt̪ʰ]"
  },
+ "concept:fa:eighteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "[heʒ.d̪æʱ]"
+ },
+ "concept:fa:eighty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ]
+ },
  "concept:fa:eleven": {
   "level": "strong",
   "checks": [
@@ -2478,6 +5231,15 @@
    "Used in 5 Tatoeba sentences"
   ],
   "ipa": "[jɒːz.d̪ǽʱ]"
+ },
+ "concept:fa:engineer": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/LL-Q9168_%28fas%29-Darafsh-%D9%85%D9%87%D9%86%D8%AF%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D9%87%D9%86%D8%AF%D8%B3.wav.mp3",
+  "ipa": "[mo.ɦæn̪.d̪és]"
  },
  "concept:fa:english": {
   "level": "strong",
@@ -2511,6 +5273,15 @@
    "Used in 314 Tatoeba sentences"
   ]
  },
+ "concept:fa:exam": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 75 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86.wav.mp3",
+  "ipa": "[ʔem.t̪ʰe.ɦɒ́ːn]"
+ },
  "concept:fa:expensive": {
   "level": "good",
   "checks": [
@@ -2518,6 +5289,26 @@
    "Used in 44 Tatoeba sentences"
   ],
   "ipa": "[ɡʲe.ɹɒːn]"
+ },
+ "concept:fa:eye": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 98 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/LL-Q9168_%28fas%29-Darafsh-%DA%86%D8%B4%D9%85.wav/LL-Q9168_%28fas%29-Darafsh-%DA%86%D8%B4%D9%85.wav.mp3",
+  "ipa": "[t͡ʃʰæʃm]"
+ },
+ "concept:fa:face": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 68 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D9%88%D8%B1%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D9%88%D8%B1%D8%AA.wav.mp3",
+  "ipa": "[suː.ɹǽt̪ʰ]"
  },
  "concept:fa:family": {
   "level": "strong",
@@ -2548,6 +5339,23 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Fa-%D9%BE%D8%AF%D8%B1.ogg/Fa-%D9%BE%D8%AF%D8%B1.ogg.mp3",
   "ipa": "[pʰe.d̪ǽɹ]"
  },
+ "concept:fa:fever": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæb̥]"
+ },
+ "concept:fa:field": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 14 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Fa-%D9%85%D8%B2%D8%B1%D8%B9%D9%87.ogg/Fa-%D9%85%D8%B2%D8%B1%D8%B9%D9%87.ogg.mp3",
+  "ipa": "[mæz.ɹæ.ʔe]"
+ },
  "concept:fa:fifteen": {
   "level": "strong",
   "checks": [
@@ -2566,6 +5374,32 @@
   ],
   "ipa": "[pʰæn.d͡ʒɒ́ːʰ]"
  },
+ "concept:fa:finger": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæŋ.ɡóʃt̪ʰ]"
+ },
+ "concept:fa:first": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 81 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæv.vǽl̥]"
+ },
+ "concept:fa:fish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 73 Tatoeba sentences"
+  ],
+  "ipa": "[mɒː.ɦíː]"
+ },
  "concept:fa:five": {
   "level": "strong",
   "checks": [
@@ -2575,6 +5409,23 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Fa-%D9%BE%D9%86%D8%AC.ogg/Fa-%D9%BE%D9%86%D8%AC.ogg.mp3",
   "ipa": "[pʰænd͡ʒ̥]"
+ },
+ "concept:fa:floor": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "[kʰʲæf]"
+ },
+ "concept:fa:flower": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 106 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥ol̥]"
  },
  "concept:fa:food": {
   "level": "strong",
@@ -2586,6 +5437,43 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Fa-%D8%BA%D8%B0%D8%A7.ogg/Fa-%D8%BA%D8%B0%D8%A7.ogg.mp3",
   "ipa": "[qe.zɒ́ː]"
  },
+ "concept:fa:foot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 34 Tatoeba sentences"
+  ],
+  "ipa": "[pʰɒː]"
+ },
+ "concept:fa:forest": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 43 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒæɲ.ɡʲǽl̥]"
+ },
+ "concept:fa:fork": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/LL-Q9168_%28fas%29-Darafsh-%DA%86%D9%86%DA%AF%D8%A7%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%DA%86%D9%86%DA%AF%D8%A7%D9%84.wav.mp3",
+  "ipa": "[t͡ʃʰæŋ.ɡɒ́ːl̥]"
+ },
+ "concept:fa:forty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰe.ɦel̥]"
+ },
  "concept:fa:four": {
   "level": "strong",
   "checks": [
@@ -2595,6 +5483,15 @@
   ],
   "ipa": "[t͡ʃʰæ.ɦɒ́ːɹ]"
  },
+ "concept:fa:fourteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "ipa": "[t͡ʃʰæ.ɦɒːɹ.d̪ǽʱ]"
+ },
  "concept:fa:friday": {
   "level": "good",
   "checks": [
@@ -2602,6 +5499,14 @@
    "Used in 11 Tatoeba sentences"
   ],
   "ipa": "[d͡ʒom.ʔé]"
+ },
+ "concept:fa:fridge": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[jæx.t͡ʃʰɒːl̥]"
  },
  "concept:fa:friend": {
   "level": "strong",
@@ -2633,6 +5538,60 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/LL-Q9168_%28fas%29-Afsham23-%D9%85%DB%8C%D9%88%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%D9%85%DB%8C%D9%88%D9%87.wav.mp3",
   "ipa": "[miː.vé]"
  },
+ "concept:fa:funny": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 36 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:garbage": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[zo.bɒː.lé]"
+ },
+ "concept:fa:garden": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 53 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/Fa-%D8%A8%D8%A7%D8%BA.ogg/Fa-%D8%A8%D8%A7%D8%BA.ogg.mp3",
+  "ipa": "[bɒːɢ̥]"
+ },
+ "concept:fa:garlic": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ],
+  "ipa": "[siːɹ]"
+ },
+ "concept:fa:gift": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 46 Tatoeba sentences"
+  ],
+  "ipa": "[hæ.d̪i.je]"
+ },
+ "concept:fa:girl": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 87 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%AE%D8%AA%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%AE%D8%AA%D8%B1.wav.mp3",
+  "ipa": "[d̪ox.t̪ʰæɹ]"
+ },
  "concept:fa:glass": {
   "level": "strong",
   "checks": [
@@ -2642,6 +5601,16 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/LL-Q9168_%28fas%29-Afsham23-%D9%84%DB%8C%D9%88%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D9%84%DB%8C%D9%88%D8%A7%D9%86.wav.mp3",
   "ipa": "[liː.vɒ́ːn]"
+ },
+ "concept:fa:goat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Fa-%D8%A8%D8%B2.ogg/Fa-%D8%A8%D8%B2.ogg.mp3",
+  "ipa": "[boz]"
  },
  "concept:fa:good": {
   "level": "strong",
@@ -2695,6 +5664,25 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%A7%D8%AF%D8%B1%D8%A8%D8%B2%D8%B1%DA%AF.wav.mp3",
   "ipa": "[mɒː.d̪æɹ bo.zoɹɡʲ̥]"
  },
+ "concept:fa:grape": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D9%86%DA%AF%D9%88%D8%B1.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%D9%86%DA%AF%D9%88%D8%B1.wav.mp3",
+  "ipa": "[ʔæŋ.ɡúːɹ]"
+ },
+ "concept:fa:grass": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæ.lǽf]"
+ },
  "concept:fa:green": {
   "level": "good",
   "checks": [
@@ -2702,6 +5690,25 @@
    "Used in 33 Tatoeba sentences"
   ],
   "ipa": "[sæbz]"
+ },
+ "concept:fa:guest": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/LL-Q9168_%28fas%29-Darafsh-%D9%85%D9%87%D9%85%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D9%87%D9%85%D8%A7%D9%86.wav.mp3",
+  "ipa": "[meɦ.mɒːn]"
+ },
+ "concept:fa:hair": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "[muː]"
  },
  "concept:fa:half": {
   "level": "strong",
@@ -2711,6 +5718,16 @@
    "Used in 29 Tatoeba sentences"
   ],
   "ipa": "[niːm]"
+ },
+ "concept:fa:hand": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 387 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%AF%D8%B3%D8%AA.ogg/Fa-%D8%AF%D8%B3%D8%AA.ogg.mp3",
+  "ipa": "[d̪æst̪ʰ]"
  },
  "concept:fa:happy": {
   "level": "strong",
@@ -2722,6 +5739,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%B4%D8%AD%D8%A7%D9%84.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%D9%88%D8%B4%D8%AD%D8%A7%D9%84.wav.mp3",
   "ipa": "[xoʃ.hɒ́ːl̥]"
  },
+ "concept:fa:hat": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 26 Tatoeba sentences"
+  ],
+  "ipa": "[kʰo.lɒ́ːʰ]"
+ },
  "concept:fa:he-she": {
   "level": "good",
   "checks": [
@@ -2730,6 +5756,41 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Fa-%D8%A7%D9%88.ogg/Fa-%D8%A7%D9%88.ogg.mp3",
   "ipa": "[ʔuː]"
+ },
+ "concept:fa:head": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 198 Tatoeba sentences"
+  ],
+  "ipa": "[sæɹ]"
+ },
+ "concept:fa:headache": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[sæɹ.d̪ǽɹd̪̥]"
+ },
+ "concept:fa:healthy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 24 Tatoeba sentences"
+  ],
+  "ipa": "[sɒː.lem]"
+ },
+ "concept:fa:heart": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 66 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%84.wav.mp3",
+  "ipa": "[d̪el̥]"
  },
  "concept:fa:hello": {
   "level": "strong",
@@ -2751,6 +5812,40 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/LL-Q9168_%28fas%29-Afsham23-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7.wav.mp3",
   "ipa": "[ʔiːn.d͡ʒɒː]"
  },
+ "concept:fa:holiday": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:homework": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰækʰʲ.liːf]"
+ },
+ "concept:fa:honey": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæ.sǽl̥]"
+ },
+ "concept:fa:horse": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 83 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Fa-%D8%A7%D8%B3%D8%A8.ogg/Fa-%D8%A7%D8%B3%D8%A8.ogg.mp3",
+  "ipa": "[ʔæsb̥]"
+ },
  "concept:fa:hospital": {
   "level": "strong",
   "checks": [
@@ -2770,6 +5865,16 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Fa-%DA%AF%D8%B1%D9%85.ogg/Fa-%DA%AF%D8%B1%D9%85.ogg.mp3",
   "ipa": "[ɡʲæɹm]"
+ },
+ "concept:fa:hotel": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/LL-Q9168_%28fas%29-Darafsh-%D9%87%D8%AA%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D9%87%D8%AA%D9%84.wav.mp3",
+  "ipa": "[ho.t̪ʰel̥]"
  },
  "concept:fa:hour": {
   "level": "strong",
@@ -2888,6 +5993,14 @@
    "Used in 35 Tatoeba sentences"
   ]
  },
+ "concept:fa:ice": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "ipa": "[jæx]"
+ },
  "concept:fa:in": {
   "level": "strong",
   "checks": [
@@ -2897,6 +6010,35 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Fa-%D8%AF%D8%B1.ogg/Fa-%D8%AF%D8%B1.ogg.mp3",
   "ipa": "[d̪æɹ]"
+ },
+ "concept:fa:island": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒæ.ziː.ɹé]"
+ },
+ "concept:fa:job": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D8%BA%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%D8%BA%D9%84.wav.mp3",
+  "ipa": "[ʃoɢl̥]"
+ },
+ "concept:fa:juice": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 47 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Fa-%D8%A2%D8%A8%D9%85%DB%8C%D9%88%D9%87.ogg/Fa-%D8%A2%D8%A8%D9%85%DB%8C%D9%88%D9%87.ogg.mp3",
+  "ipa": "[ʔɒːb̥ miː.vé]"
  },
  "concept:fa:key": {
   "level": "strong",
@@ -2908,6 +6050,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D9%84%DB%8C%D8%AF.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D9%84%DB%8C%D8%AF.wav.mp3",
   "ipa": "[kʰʲæ.liːd̪̥]"
  },
+ "concept:fa:kind": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 23 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Fa-%D9%85%D9%87%D8%B1%D8%A8%D8%A7%D9%86.ogg/Fa-%D9%85%D9%87%D8%B1%D8%A8%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[meɦ.ɹæ.bɒ́ːn]"
+ },
  "concept:fa:kitchen": {
   "level": "good",
   "checks": [
@@ -2917,6 +6069,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D8%B4%D9%BE%D8%B2%D8%AE%D8%A7%D9%86%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A2%D8%B4%D9%BE%D8%B2%D8%AE%D8%A7%D9%86%D9%87.wav.mp3",
   "ipa": "[ʔɒːʃ.pʰæz.xɒː.né]"
  },
+ "concept:fa:knife": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰɒː.ʁuː]"
+ },
  "concept:fa:kurdish": {
   "level": "good",
   "checks": [
@@ -2924,6 +6085,23 @@
    "Used in 52 Tatoeba sentences"
   ],
   "ipa": "[kʰoɹ.d̪íː]"
+ },
+ "concept:fa:lake": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æɹ.jɒː.t͡ʃʰé]"
+ },
+ "concept:fa:lamp": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[t͡ʃʰe.ɹɒːɢ̥]"
  },
  "concept:fa:language": {
   "level": "strong",
@@ -2935,6 +6113,13 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Fa-%D8%B2%D8%A8%D8%A7%D9%86.ogg/Fa-%D8%B2%D8%A8%D8%A7%D9%86.ogg.mp3",
   "ipa": "[zæ.bɒ́ːn]"
  },
+ "concept:fa:last": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Used in 70 Tatoeba sentences"
+  ]
+ },
  "concept:fa:late": {
   "level": "strong",
   "checks": [
@@ -2943,6 +6128,34 @@
    "Used in 98 Tatoeba sentences"
   ],
   "ipa": "[d̪iːɹ]"
+ },
+ "concept:fa:later": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "ipa": "[bæʔ.d̪æn]"
+ },
+ "concept:fa:lazy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæm.bǽl̥]"
+ },
+ "concept:fa:leaf": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/Fa-%D8%A8%D8%B1%DA%AF.ogg/Fa-%D8%A8%D8%B1%DA%AF.ogg.mp3",
+  "ipa": "[bæɹɡʲ̥]"
  },
  "concept:fa:left": {
   "level": "strong",
@@ -2953,11 +6166,100 @@
   ],
   "ipa": "[t͡ʃʰæpʰ]"
  },
+ "concept:fa:leg": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 34 Tatoeba sentences"
+  ],
+  "ipa": "[pʰɒː]"
+ },
+ "concept:fa:lemon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/LL-Q9168_%28fas%29-Afsham23-%D9%84%DB%8C%D9%85%D9%88.wav/LL-Q9168_%28fas%29-Afsham23-%D9%84%DB%8C%D9%85%D9%88.wav.mp3",
+  "ipa": "[liː.múː]"
+ },
+ "concept:fa:lesson": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 77 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Fa-%D8%AF%D8%B1%D8%B3.ogg/Fa-%D8%AF%D8%B1%D8%B3.ogg.mp3",
+  "ipa": "[d̪æɹs]"
+ },
  "concept:fa:lets-go": {
   "level": "attested",
   "checks": [
    "Used in 30 Tatoeba sentences"
   ]
+ },
+ "concept:fa:letter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 150 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Fa-%D9%86%D8%A7%D9%85%D9%87.ogg/Fa-%D9%86%D8%A7%D9%85%D9%87.ogg.mp3",
+  "ipa": "[nɒː.mé]"
+ },
+ "concept:fa:life": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 649 Tatoeba sentences"
+  ],
+  "ipa": "[zen̪.d̪e.ɡʲiː]"
+ },
+ "concept:fa:light": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 46 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/LL-Q9168_%28fas%29-Afsham23-%D9%86%D9%88%D8%B1.wav/LL-Q9168_%28fas%29-Afsham23-%D9%86%D9%88%D8%B1.wav.mp3",
+  "ipa": "[nuːɹ]"
+ },
+ "concept:fa:lion": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 99 Tatoeba sentences"
+  ],
+  "ipa": "[ʃiːɹ]"
+ },
+ "concept:fa:living-room": {
+  "level": "attested",
+  "checks": [
+   "Used in 2 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:long": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 86 Tatoeba sentences"
+  ],
+  "ipa": "[bo.lǽn̪d̪̥]"
+ },
+ "concept:fa:love": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 191 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Fa-%D8%B9%D8%B4%D9%82.ogg/Fa-%D8%B9%D8%B4%D9%82.ogg.mp3",
+  "ipa": "[ʔeʃɢ̥]"
  },
  "concept:fa:lunch": {
   "level": "good",
@@ -2977,6 +6279,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Fa-%D9%85%D8%B1%D8%AF.ogg/Fa-%D9%85%D8%B1%D8%AF.ogg.mp3",
   "ipa": "[mæɹd̪̥]"
+ },
+ "concept:fa:map": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 49 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/LL-Q9168_%28fas%29-Darafsh-%D9%86%D9%82%D8%B4%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%86%D9%82%D8%B4%D9%87.wav.mp3",
+  "ipa": "[næʁ.ʃé]"
  },
  "concept:fa:market": {
   "level": "strong",
@@ -3035,6 +6346,23 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/LL-Q9168_%28fas%29-Afsham23-%DA%AF%D9%88%D8%B4%D8%AA.wav/LL-Q9168_%28fas%29-Afsham23-%DA%AF%D9%88%D8%B4%D8%AA.wav.mp3",
   "ipa": "[ɡ̥uːʃt̪ʰ]"
  },
+ "concept:fa:medicine": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Fa-%D8%AF%D8%A7%D8%B1%D9%88.ogg/Fa-%D8%AF%D8%A7%D8%B1%D9%88.ogg.mp3",
+  "ipa": "[d̪ɒː.ɹúː]"
+ },
+ "concept:fa:meeting": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒæ.læ.sé]"
+ },
  "concept:fa:milk": {
   "level": "good",
   "checks": [
@@ -3052,6 +6380,16 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%82%DB%8C%D9%82%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%82%DB%8C%D9%82%D9%87.wav.mp3",
   "ipa": "[d̪æ.ʁiː.ʁé]"
+ },
+ "concept:fa:mirror": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 24 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D8%A6%DB%8C%D9%86%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D8%A6%DB%8C%D9%86%D9%87.wav.mp3",
+  "ipa": "[ʔɒː.ʔiː.ne]"
  },
  "concept:fa:monday": {
   "level": "good",
@@ -3080,6 +6418,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Fa-%D9%85%D8%A7%D9%87.ogg/Fa-%D9%85%D8%A7%D9%87.ogg.mp3",
   "ipa": "[mɒːʱ]"
  },
+ "concept:fa:moon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 116 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Fa-%D9%85%D8%A7%D9%87.ogg/Fa-%D9%85%D8%A7%D9%87.ogg.mp3",
+  "ipa": "[mɒːʱ]"
+ },
  "concept:fa:more": {
   "level": "strong",
   "checks": [
@@ -3098,6 +6446,14 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B5%D8%A8%D8%AD.wav.mp3",
   "ipa": "[sobʰ]"
+ },
+ "concept:fa:mosque": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "[mæs.d͡ʒéd̪̥]"
  },
  "concept:fa:mother": {
   "level": "strong",
@@ -3118,6 +6474,34 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D9%88%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D9%88%D9%87.wav.mp3",
   "ipa": "[kʰuːʱ]"
  },
+ "concept:fa:mouse": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/LL-Q9168_%28fas%29-Afsham23-%D9%85%D9%88%D8%B4.wav/LL-Q9168_%28fas%29-Afsham23-%D9%85%D9%88%D8%B4.wav.mp3",
+  "ipa": "[muːʃ]"
+ },
+ "concept:fa:mouth": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Fa-%D8%AF%D9%87%D8%A7%D9%86.ogg/Fa-%D8%AF%D9%87%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[d̪æ.ɦɒ́ːn]"
+ },
+ "concept:fa:museum": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 21 Tatoeba sentences"
+  ],
+  "ipa": "[muː.ze]"
+ },
  "concept:fa:name": {
   "level": "strong",
   "checks": [
@@ -3137,6 +6521,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%87%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%87%D9%84.wav.mp3",
   "ipa": "[ʔæɦl̥]"
  },
+ "concept:fa:nature": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 40 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰæ.biː.ʔǽt̪ʰ]"
+ },
  "concept:fa:near": {
   "level": "strong",
   "checks": [
@@ -3145,6 +6538,25 @@
    "Used in 91 Tatoeba sentences"
   ],
   "ipa": "[næz.d̪iːkʰʲ]"
+ },
+ "concept:fa:neck": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 17 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D8%AF%D9%86.wav.mp3",
+  "ipa": "[ɡʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:neighbour": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 36 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%85%D8%B3%D8%A7%DB%8C%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%85%D8%B3%D8%A7%DB%8C%D9%87.wav.mp3",
+  "ipa": "[hæm.sɒː.jé]"
  },
  "concept:fa:never": {
   "level": "strong",
@@ -3163,6 +6575,15 @@
    "Used in 113 Tatoeba sentences"
   ],
   "ipa": "[d͡ʒæ.d̪íːd̪̥]"
+ },
+ "concept:fa:next": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary entry exists (different sense)",
+   "Used in 133 Tatoeba sentences"
+  ],
+  "ipa": "[ʔɒː.jæn̪.d̪é]"
  },
  "concept:fa:nice-to-meet-you": {
   "level": "good",
@@ -3191,6 +6612,24 @@
   ],
   "ipa": "[næ]"
  },
+ "concept:fa:nineteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "[nuːz.d̪ǽʱ]"
+ },
+ "concept:fa:ninety": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[næ.væd̪̥]"
+ },
  "concept:fa:no": {
   "level": "strong",
   "checks": [
@@ -3199,6 +6638,41 @@
    "Used in 441 Tatoeba sentences"
   ],
   "ipa": "[næ]"
+ },
+ "concept:fa:noon": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "ipa": "[zoɦɹ]"
+ },
+ "concept:fa:north": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "[ʃo.mɒ́ːl̥]"
+ },
+ "concept:fa:nose": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 49 Tatoeba sentences"
+  ],
+  "ipa": "[biː.níː]"
+ },
+ "concept:fa:notebook": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 15 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Fa-%D8%AF%D9%81%D8%AA%D8%B1.ogg/Fa-%D8%AF%D9%81%D8%AA%D8%B1.ogg.mp3",
+  "ipa": "[d̪æf.t̪ʰǽɹ]"
  },
  "concept:fa:now": {
   "level": "strong",
@@ -3209,6 +6683,14 @@
   ],
   "ipa": "[ʔæ.lɒːn]"
  },
+ "concept:fa:nurse": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæ.ɹæs.t̪ʰɒ́ːɹ]"
+ },
  "concept:fa:of-course": {
   "level": "good",
   "checks": [
@@ -3216,6 +6698,24 @@
    "Used in 25 Tatoeba sentences"
   ],
   "ipa": "[ʔæl.bæt̪ʰ.t̪ʰé]"
+ },
+ "concept:fa:office": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AF%D8%A7%D8%B1%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AF%D8%A7%D8%B1%D9%87.wav.mp3",
+  "ipa": "[ʔe.d̪ɒː.ɹé]"
+ },
+ "concept:fa:oil": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[ɹow.ɢæn]"
  },
  "concept:fa:okay": {
   "level": "strong",
@@ -3254,6 +6754,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Yek-audio-ir.ogg/Yek-audio-ir.ogg.mp3",
   "ipa": "[jekʰʲ]"
  },
+ "concept:fa:onion": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "[pʰi.jɒ́ːz]"
+ },
  "concept:fa:only": {
   "level": "strong",
   "checks": [
@@ -3271,6 +6780,60 @@
    "Used in 288 Tatoeba sentences"
   ],
   "ipa": "[jɒː]"
+ },
+ "concept:fa:orange": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 17 Tatoeba sentences"
+  ],
+  "ipa": "[pʰoɹ.t̪ʰo.ʁɒ́ːl̥]"
+ },
+ "concept:fa:pain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 58 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æɹd̪̥]"
+ },
+ "concept:fa:paper": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 26 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D8%A7%D8%BA%D9%8E%D8%B0.wav/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D8%A7%D8%BA%D9%8E%D8%B0.wav.mp3",
+  "ipa": "[kʰɒː.ɢǽz]"
+ },
+ "concept:fa:park": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 47 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/LL-Q9168_%28fas%29-Darafsh-%D9%BE%D8%A7%D8%B1%DA%A9.wav/LL-Q9168_%28fas%29-Darafsh-%D9%BE%D8%A7%D8%B1%DA%A9.wav.mp3",
+  "ipa": "[pʰɒːɹkʰʲ]"
+ },
+ "concept:fa:party": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[meɦ.mɒː.níː]"
+ },
+ "concept:fa:passport": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "[pʰɒːs.pʰóɹt̪ʰ]"
  },
  "concept:fa:paternal-aunt": {
   "level": "strong",
@@ -3291,6 +6854,26 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Fa-%D8%B9%D9%85%D9%88.ogg/Fa-%D8%B9%D9%85%D9%88.ogg.mp3",
   "ipa": "[ʔæ.muː]"
  },
+ "concept:fa:pen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1.wav.mp3",
+  "ipa": "[xod̪.kʰɒːɹ]"
+ },
+ "concept:fa:people": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 136 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%B1%D8%AF%D9%85.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%B1%D8%AF%D9%85.wav.mp3",
+  "ipa": "[mæɹ.d̪óm]"
+ },
  "concept:fa:persian": {
   "level": "strong",
   "checks": [
@@ -3301,6 +6884,14 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C.wav.mp3",
   "ipa": "[fɒːɹ.síː]"
  },
+ "concept:fa:pharmacy": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "[d̪ɒː.ɹuː.xɒː.né]"
+ },
  "concept:fa:phone": {
   "level": "good",
   "checks": [
@@ -3308,6 +6899,44 @@
    "Used in 5 Tatoeba sentences"
   ],
   "ipa": "[ɡ̥uː.ʃíː]"
+ },
+ "concept:fa:photo": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 54 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/LL-Q9168_%28fas%29-Darafsh-%D8%B9%DA%A9%D8%B3.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B9%DA%A9%D8%B3.wav.mp3",
+  "ipa": "[ʔækʰʲs]"
+ },
+ "concept:fa:pillow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "[bɒː.léʃ]"
+ },
+ "concept:fa:plane": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Fa-%D9%87%D9%88%D8%A7%D9%BE%DB%8C%D9%85%D8%A7.ogg/Fa-%D9%87%D9%88%D8%A7%D9%BE%DB%8C%D9%85%D8%A7.ogg.mp3",
+  "ipa": "[hæ.vɒː.pʰej.mɒː]"
+ },
+ "concept:fa:plate": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Fa-%D8%A8%D8%B4%D9%82%D8%A7%D8%A8.ogg/Fa-%D8%A8%D8%B4%D9%82%D8%A7%D8%A8.ogg.mp3",
+  "ipa": "[boʃ.ɢɒːb̥]"
  },
  "concept:fa:please": {
   "level": "good",
@@ -3322,6 +6951,67 @@
   "checks": [
    "Used in 41 Tatoeba sentences"
   ]
+ },
+ "concept:fa:police": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 41 Tatoeba sentences"
+  ],
+  "ipa": "[pʰolíːs]"
+ },
+ "concept:fa:post-office": {
+  "level": "attested",
+  "checks": [
+   "Used in 12 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:pot": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[qɒːb.læ.mé]"
+ },
+ "concept:fa:potato": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "[siːb.zæ.miː.niː]"
+ },
+ "concept:fa:price": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 61 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/LL-Q9168_%28fas%29-Darafsh-%D9%82%DB%8C%D9%85%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%D9%82%DB%8C%D9%85%D8%AA.wav.mp3",
+  "ipa": "[qej.mǽt̪ʰ]"
+ },
+ "concept:fa:question": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 104 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D8%A4%D8%A7%D9%84.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B3%D8%A4%D8%A7%D9%84.wav.mp3",
+  "ipa": "[so.ʔɒ́ːl̥]"
+ },
+ "concept:fa:rain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 166 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Fa-%D8%A8%D8%A7%D8%B1%D8%A7%D9%86.ogg/Fa-%D8%A8%D8%A7%D8%B1%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[bɒː.ɹɒ́ːn]"
  },
  "concept:fa:really": {
   "level": "strong",
@@ -3340,6 +7030,24 @@
    "Used in 43 Tatoeba sentences"
   ],
   "ipa": "[qeɹ.mez]"
+ },
+ "concept:fa:rent": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AC%D8%A7%D8%B1%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D8%AC%D8%A7%D8%B1%D9%87.wav.mp3",
+  "ipa": "[ʔe.d͡ʒɒː.ɹé]"
+ },
+ "concept:fa:restaurant": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 27 Tatoeba sentences"
+  ],
+  "ipa": "[ɹes.t̪ʰo.ɹɒːn]"
  },
  "concept:fa:rice": {
   "level": "strong",
@@ -3361,6 +7069,31 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/LL-Q9168_%28fas%29-Afsham23-%D8%B1%D8%A7%D8%B3%D8%AA.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B1%D8%A7%D8%B3%D8%AA.wav.mp3",
   "ipa": "[ɹɒːst̪ʰ]"
  },
+ "concept:fa:river": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 41 Tatoeba sentences"
+  ],
+  "ipa": "[ɹuːd̪.xɒː.né]"
+ },
+ "concept:fa:road": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒɒːd̪.d̪é]"
+ },
+ "concept:fa:roof": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[sæʁf]"
+ },
  "concept:fa:room": {
   "level": "good",
   "checks": [
@@ -3379,6 +7112,14 @@
   ],
   "ipa": "[nɒː.ɹɒː.ɦǽt̪ʰ]"
  },
+ "concept:fa:salary": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 58 Tatoeba sentences"
+  ],
+  "ipa": "[ho.ʁúːɢ̥]"
+ },
  "concept:fa:salt": {
   "level": "strong",
   "checks": [
@@ -3389,6 +7130,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Fa-%D9%86%D9%85%D9%83.ogg/Fa-%D9%86%D9%85%D9%83.ogg.mp3",
   "ipa": "[næ.mǽkʰʲ]"
  },
+ "concept:fa:salty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 10 Tatoeba sentences"
+  ],
+  "ipa": "[ʃuːɹ]"
+ },
  "concept:fa:saturday": {
   "level": "good",
   "checks": [
@@ -3397,6 +7147,14 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Fa-%D8%B4%D9%86%D8%A8%D9%87.ogg/Fa-%D8%B4%D9%86%D8%A8%D9%87.ogg.mp3",
   "ipa": "[ʃæm.bé]"
+ },
+ "concept:fa:scarf": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "[ʃɒːl.ɡʲæɹ.d̪ǽn]"
  },
  "concept:fa:school": {
   "level": "strong",
@@ -3408,12 +7166,40 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Fa-%D9%85%D8%AF%D8%B1%D8%B3%D9%87.ogg/Fa-%D9%85%D8%AF%D8%B1%D8%B3%D9%87.ogg.mp3",
   "ipa": "[mæd̪.ɹe.sé]"
  },
+ "concept:fa:sea": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 49 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%B1%DB%8C%D8%A7.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%B1%DB%8C%D8%A7.wav.mp3",
+  "ipa": "[d̪æɹ.jɒ́ː]"
+ },
+ "concept:fa:season": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Fa-%D9%81%D8%B5%D9%84.ogg/Fa-%D9%81%D8%B5%D9%84.ogg.mp3",
+  "ipa": "[fæsl̥]"
+ },
  "concept:fa:see-you-later": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
    "Used in 3 Tatoeba sentences"
   ]
+ },
+ "concept:fa:sentence": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 82 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/LL-Q9168_%28fas%29-Darafsh-%D8%AC%D9%85%D9%84%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AC%D9%85%D9%84%D9%87.wav.mp3",
+  "ipa": "[d͡ʒom.le]"
  },
  "concept:fa:seven": {
   "level": "strong",
@@ -3424,6 +7210,50 @@
   ],
   "ipa": "[hǽft̪ʰ]"
  },
+ "concept:fa:seventeen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "[hef.d̪æʱ]"
+ },
+ "concept:fa:seventy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ]
+ },
+ "concept:fa:sheep": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 17 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥uːs.fǽn̪d̪̥]"
+ },
+ "concept:fa:shirt": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 27 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/LL-Q9168_%28fas%29-Darafsh-%D9%BE%DB%8C%D8%B1%D8%A7%D9%87%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%BE%DB%8C%D8%B1%D8%A7%D9%87%D9%86.wav.mp3",
+  "ipa": "[pʰiː.ɹɒː.ɦǽn]"
+ },
+ "concept:fa:shoe": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/%DA%A9%D9%81%D8%B4_audio_file.ogg/%DA%A9%D9%81%D8%B4_audio_file.ogg.mp3",
+  "ipa": "/kæfʃ/"
+ },
  "concept:fa:shop": {
   "level": "strong",
   "checks": [
@@ -3433,6 +7263,32 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%BA%D8%A7%D8%B2%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%D8%BA%D8%A7%D8%B2%D9%87.wav.mp3",
   "ipa": "[mæ.ɢɒː.ze]"
+ },
+ "concept:fa:short": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 60 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D9%88%D8%AA%D8%A7%D9%87.wav/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D9%88%D8%AA%D8%A7%D9%87.wav.mp3",
+  "ipa": "[kʰuː.t̪ʰɒːʱ]"
+ },
+ "concept:fa:shoulder": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "ipa": "[ʃɒː.né]"
+ },
+ "concept:fa:shower": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 9 Tatoeba sentences"
+  ],
+  "ipa": "[d̪uːʃ]"
  },
  "concept:fa:sick": {
   "level": "strong",
@@ -3463,6 +7319,43 @@
   ],
   "ipa": "[ʃeʃ]"
  },
+ "concept:fa:sixteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 5 Tatoeba sentences"
+  ],
+  "ipa": "[ʃɒːnz.d̪æʱ]"
+ },
+ "concept:fa:sixty": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[ʃæst̪ʰ]"
+ },
+ "concept:fa:size": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 217 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%D9%87.wav.mp3",
+  "ipa": "[ʔæn̪.d̪ɒː.zé]"
+ },
+ "concept:fa:sky": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 85 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/Fa-%D8%A2%D8%B3%D9%85%D8%A7%D9%86.ogg/Fa-%D8%A2%D8%B3%D9%85%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[ʔɒːs.mɒːn]"
+ },
  "concept:fa:slowly": {
   "level": "strong",
   "checks": [
@@ -3481,6 +7374,52 @@
    "Used in 140 Tatoeba sentences"
   ],
   "ipa": "[kʰuː.t͡ʃʰǽkʰʲ]"
+ },
+ "concept:fa:snake": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 16 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Fa-%D9%85%D8%A7%D8%B1.ogg/Fa-%D9%85%D8%A7%D8%B1.ogg.mp3",
+  "ipa": "[mɒːɹ]"
+ },
+ "concept:fa:snow": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 105 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Fa-%D8%A8%D8%B1%D9%81.ogg/Fa-%D8%A8%D8%B1%D9%81.ogg.mp3",
+  "ipa": "[bæɹf]"
+ },
+ "concept:fa:soap": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Fa-%D8%B5%D8%A7%D8%A8%D9%88%D9%86.ogg/Fa-%D8%B5%D8%A7%D8%A8%D9%88%D9%86.ogg.mp3",
+  "ipa": "[sɒː.búːn]"
+ },
+ "concept:fa:sock": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒuː.ɹɒːb̥]"
+ },
+ "concept:fa:sofa": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "[mobl̥]"
  },
  "concept:fa:sometimes": {
   "level": "strong",
@@ -3502,6 +7441,12 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Fa-%D9%BE%D8%B3%D8%B1.ogg/Fa-%D9%BE%D8%B3%D8%B1.ogg.mp3",
   "ipa": "[pʰe.sæɹ]"
  },
+ "concept:fa:soon": {
+  "level": "attested",
+  "checks": [
+   "Used in 56 Tatoeba sentences"
+  ]
+ },
  "concept:fa:sorry": {
   "level": "strong",
   "checks": [
@@ -3510,6 +7455,136 @@
    "Used in 52 Tatoeba sentences"
   ],
   "ipa": "[bé.bæx.ʃiːd̪̥]"
+ },
+ "concept:fa:soup": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 35 Tatoeba sentences"
+  ],
+  "ipa": "[suːpʰ]"
+ },
+ "concept:fa:sour": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/LL-Q9168_%28fas%29-Darafsh-%D8%AA%D8%B1%D8%B4.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AA%D8%B1%D8%B4.wav.mp3",
+  "ipa": "[t̪ʰo.ɹoʃ]"
+ },
+ "concept:fa:south": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒo.núːb̥]"
+ },
+ "concept:fa:spicy": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 24 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Fa-%D8%AA%D9%86%D8%AF.ogg/Fa-%D8%AA%D9%86%D8%AF.ogg.mp3",
+  "ipa": "[t̪ʰon̪d̪̥]"
+ },
+ "concept:fa:spoon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Fa-%D9%82%D8%A7%D8%B4%D9%82.ogg/Fa-%D9%82%D8%A7%D8%B4%D9%82.ogg.mp3",
+  "ipa": "[qɒː.ʃoɢ̥]"
+ },
+ "concept:fa:spring": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 48 Tatoeba sentences"
+  ],
+  "ipa": "[bæ.ɦɒ́ːɹ]"
+ },
+ "concept:fa:square": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/LL-Q9168_%28fas%29-Darafsh-%D9%85%DB%8C%D8%AF%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%85%DB%8C%D8%AF%D8%A7%D9%86.wav.mp3",
+  "ipa": "[mej.d̪ɒ́ːn]"
+ },
+ "concept:fa:stairs": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/LL-Q9168_%28fas%29-Darafsh-%D9%BE%D9%84%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%BE%D9%84%D9%87.wav.mp3",
+  "ipa": "[pʰel.lé]"
+ },
+ "concept:fa:star": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/23/Fa-%D8%B3%D8%AA%D8%A7%D8%B1%D9%87.ogg/Fa-%D8%B3%D8%AA%D8%A7%D8%B1%D9%87.ogg.mp3",
+  "ipa": "[se.t̪ʰɒː.ɹé]"
+ },
+ "concept:fa:station": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 56 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/LL-Q9168_%28fas%29-Darafsh-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87.wav.mp3",
+  "ipa": "[ʔiːst̪ʰ.ɡɒ́ːʰ]"
+ },
+ "concept:fa:stomach": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/LL-Q9168_%28fas%29-Darafsh-%D8%B4%DA%A9%D9%85.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B4%DA%A9%D9%85.wav.mp3",
+  "ipa": "[ʃe.kʰʲæm]"
+ },
+ "concept:fa:stone": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 65 Tatoeba sentences"
+  ],
+  "ipa": "[sæɲɡʲ̥]"
+ },
+ "concept:fa:storm": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 25 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰuː.fɒ́ːn]"
+ },
+ "concept:fa:stove": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "[ʔo.d͡ʒɒːʁ.ɡɒːz]"
  },
  "concept:fa:straight-ahead": {
   "level": "strong",
@@ -3529,6 +7604,25 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/LL-Q9168_%28fas%29-Afsham23-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86.wav.mp3",
   "ipa": "[xi.jɒː.bɒ́ːn]"
  },
+ "concept:fa:strong": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 51 Tatoeba sentences"
+  ],
+  "ipa": "[qæ.viː]"
+ },
+ "concept:fa:student": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88.wav.mp3",
+  "ipa": "[d̪ɒː.neʃ.d͡ʒúː]"
+ },
  "concept:fa:sugar": {
   "level": "strong",
   "checks": [
@@ -3538,6 +7632,34 @@
   ],
   "ipa": "[ʃækʰʲ.kʰʲǽɹ]"
  },
+ "concept:fa:suitcase": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/LL-Q9168_%28fas%29-Darafsh-%DA%86%D9%85%D8%AF%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%DA%86%D9%85%D8%AF%D8%A7%D9%86.wav.mp3",
+  "ipa": "[t͡ʃʰæ.me.d̪ɒːn]"
+ },
+ "concept:fa:summer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 48 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Fa-%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86.ogg/Fa-%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[t̪ʰɒː.bes.t̪ʰɒ́ːn]"
+ },
+ "concept:fa:sun": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 69 Tatoeba sentences"
+  ],
+  "ipa": "[xoɹ.ʃíːd̪̥]"
+ },
  "concept:fa:sunday": {
   "level": "good",
   "checks": [
@@ -3545,6 +7667,22 @@
    "Used in 25 Tatoeba sentences"
   ],
   "ipa": "[jekʰʲ.ʃæm.bé]"
+ },
+ "concept:fa:sunny": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%81%D8%AA%D8%A7%D8%A8%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A2%D9%81%D8%AA%D8%A7%D8%A8%DB%8C.wav.mp3",
+  "ipa": "[ʔɒːf.t̪ʰɒː.bíː]"
+ },
+ "concept:fa:surprised": {
+  "level": "attested",
+  "checks": [
+   "Used in 18 Tatoeba sentences"
+  ]
  },
  "concept:fa:sweden": {
   "level": "good",
@@ -3561,6 +7699,16 @@
    "Used in 3 Tatoeba sentences"
   ]
  },
+ "concept:fa:sweet": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 33 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/LL-Q9168_%28fas%29-Afsham23-%D8%B4%DB%8C%D8%B1%DB%8C%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B4%DB%8C%D8%B1%DB%8C%D9%86.wav.mp3",
+  "ipa": "[ʃiː.ɹíːn]"
+ },
  "concept:fa:table": {
   "level": "strong",
   "checks": [
@@ -3570,6 +7718,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Fa-%D9%85%D9%8A%D8%B2.ogg/Fa-%D9%85%D9%8A%D8%B2.ogg.mp3",
   "ipa": "[miːz]"
+ },
+ "concept:fa:tall": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 86 Tatoeba sentences"
+  ],
+  "ipa": "[bo.lǽn̪d̪̥]"
  },
  "concept:fa:taxi": {
   "level": "good",
@@ -3588,6 +7745,32 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/LL-Q9168_%28fas%29-Afsham23-%DA%86%D8%A7%DB%8C.wav/LL-Q9168_%28fas%29-Afsham23-%DA%86%D8%A7%DB%8C.wav.mp3",
   "ipa": "[t͡ʃʰɒːj]"
+ },
+ "concept:fa:teacher": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 96 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Fa-%D9%85%D8%B9%D9%84%D9%85.ogg/Fa-%D9%85%D8%B9%D9%84%D9%85.ogg.mp3",
+  "ipa": "[mo.ʔæl.lem]"
+ },
+ "concept:fa:television": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 69 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/LL-Q9168_%28fas%29-Darafsh-%D8%AA%D9%84%D9%88%DB%8C%D8%B2%DB%8C%D9%88%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AA%D9%84%D9%88%DB%8C%D8%B2%DB%8C%D9%88%D9%86.wav.mp3",
+  "ipa": "[t̪ʰe.le.viːz.jón]"
+ },
+ "concept:fa:temperature": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æ.mɒː]"
  },
  "concept:fa:ten": {
   "level": "strong",
@@ -3653,6 +7836,15 @@
   ],
   "ipa": "[t̪ʰeʃ.né]"
  },
+ "concept:fa:thirteen": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "[siːz.d̪æʱ]"
+ },
  "concept:fa:thirty": {
   "level": "strong",
   "checks": [
@@ -3706,6 +7898,16 @@
   ],
   "ipa": "[be.liːt̪ʰ]"
  },
+ "concept:fa:time": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 210 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/LL-Q9168_%28fas%29-Darafsh-%D9%88%D9%82%D8%AA.wav/LL-Q9168_%28fas%29-Darafsh-%D9%88%D9%82%D8%AA.wav.mp3",
+  "ipa": "[væxt̪ʰ]"
+ },
  "concept:fa:tired": {
   "level": "good",
   "checks": [
@@ -3724,6 +7926,32 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Fa-%D8%A8%D9%87.ogg/Fa-%D8%A8%D9%87.ogg.mp3",
   "ipa": "[be]"
  },
+ "concept:fa:to-answer": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 73 Tatoeba sentences"
+  ],
+  "ipa": "[d͡ʒæ.vɒ́ːb̥ d̪ɒ́ː.d̪æn]"
+ },
+ "concept:fa:to-arrive": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 28 Tatoeba sentences"
+  ],
+  "ipa": "[ɹæ.siː.d̪æn]"
+ },
+ "concept:fa:to-ask": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[pʰoɹ.siː.d̪ǽn]"
+ },
  "concept:fa:to-be": {
   "level": "attested",
   "checks": [
@@ -3732,6 +7960,25 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Fa-%D8%A8%D9%88%D8%AF%D9%86.ogg/Fa-%D8%A8%D9%88%D8%AF%D9%86.ogg.mp3",
   "ipa": "[buː.d̪ǽn]"
+ },
+ "concept:fa:to-begin": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 166 Tatoeba sentences"
+  ],
+  "ipa": "[ʃo.ɹuːʔ kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:to-bring": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Fa-%D8%A2%D9%88%D8%B1%D8%AF%D9%86.ogg/Fa-%D8%A2%D9%88%D8%B1%D8%AF%D9%86.ogg.mp3",
+  "ipa": "[ʔɒː.væɹ.d̪ǽn]"
  },
  "concept:fa:to-buy": {
   "level": "good",
@@ -3747,6 +7994,22 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 44 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:to-change": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 52 Tatoeba sentences"
+  ],
+  "ipa": "[ʔæ.vǽz kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:to-clean": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 46 Tatoeba sentences"
   ]
  },
  "concept:fa:to-close": {
@@ -3777,6 +8040,33 @@
   ],
   "ipa": "[ʔɒːʃ.pʰæ.zíː kʰʲæɹ.d̪ǽn]"
  },
+ "concept:fa:to-cry": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 70 Tatoeba sentences"
+  ],
+  "ipa": "[ɡʲeɹ.jé kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-cut": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "[bo.ɹiː.d̪ǽn]"
+ },
+ "concept:fa:to-dance": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "[ɹæʁ.siː.d̪ǽn]"
+ },
  "concept:fa:to-do": {
   "level": "good",
   "checks": [
@@ -3795,6 +8085,13 @@
   ],
   "ipa": "[nuː.ʃiː.d̪ǽn]"
  },
+ "concept:fa:to-drive": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ]
+ },
  "concept:fa:to-eat": {
   "level": "strong",
   "checks": [
@@ -3804,6 +8101,34 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AE%D9%88%D8%B1%D8%AF%D9%86.wav.mp3",
   "ipa": "[xoɹ.d̪ǽn]"
+ },
+ "concept:fa:to-find": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 197 Tatoeba sentences"
+  ],
+  "ipa": "[pʰej.d̪ɒ́ː kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-finish": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 256 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/LL-Q9168_%28fas%29-Afsham23-%D8%AA%D9%85%D8%A7%D9%85_%DA%A9%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AA%D9%85%D8%A7%D9%85_%DA%A9%D8%B1%D8%AF%D9%86.wav.mp3",
+  "ipa": "[t̪ʰæ.mɒːm kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:to-forget": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 140 Tatoeba sentences"
+  ],
+  "ipa": "[fæ.ɹɒː.múːʃ kʰʲæɹ.d̪ǽn]"
  },
  "concept:fa:to-give": {
   "level": "strong",
@@ -3853,6 +8178,14 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Fa-%DA%A9%D9%85%DA%A9_%DA%A9%D8%B1%D8%AF%D9%86.ogg/Fa-%DA%A9%D9%85%DA%A9_%DA%A9%D8%B1%D8%AF%D9%86.ogg.mp3",
   "ipa": "[kʰo.mǽkʰʲ kʰʲæɹ.d̪ǽn]"
  },
+ "concept:fa:to-hurt": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 58 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æɹd̪̥ kʰʲæɹ.d̪ǽn]"
+ },
  "concept:fa:to-know": {
   "level": "strong",
   "checks": [
@@ -3863,6 +8196,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Danestan.ogg/Danestan.ogg.mp3",
   "ipa": "[d̪ɒː.nes.t̪ʰǽn]"
  },
+ "concept:fa:to-laugh": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[xæn̪.d̪iː.d̪ǽn]"
+ },
  "concept:fa:to-learn": {
   "level": "strong",
   "checks": [
@@ -3871,6 +8213,13 @@
    "Used in 63 Tatoeba sentences"
   ],
   "ipa": "[jɒːd̪̥ ɡʲe.ɹef.t̪ʰæn]"
+ },
+ "concept:fa:to-leave": {
+  "level": "attested",
+  "checks": [
+   "Wiktionary entry exists (different sense)",
+   "Used in 64 Tatoeba sentences"
+  ]
  },
  "concept:fa:to-like": {
   "level": "strong",
@@ -3891,6 +8240,31 @@
   ],
   "ipa": "[zæn̪.d̪e.ɡʲiː kʰʲæɹ.d̪ǽn]"
  },
+ "concept:fa:to-lose": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 49 Tatoeba sentences"
+  ],
+  "ipa": "[ˌɡom kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-love": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 93 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:to-meet": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 88 Tatoeba sentences"
+  ],
+  "ipa": "[mo.lɒː.ʁɒ́ːt̪ʰ kʰʲæɹ.d̪ǽn]"
+ },
  "concept:fa:to-open": {
   "level": "strong",
   "checks": [
@@ -3900,6 +8274,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2_%DA%A9%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2_%DA%A9%D8%B1%D8%AF%D9%86.wav.mp3",
   "ipa": "[ˌbɒːzkʲæɾˈd̪æn]"
+ },
+ "concept:fa:to-pay": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "ipa": "[pʰæɹ.d̪ɒːx.t̪ʰæn]"
  },
  "concept:fa:to-play": {
   "level": "strong",
@@ -3911,6 +8294,24 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2%DB%8C_%DA%A9%D8%B1%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%A8%D8%A7%D8%B2%DB%8C_%DA%A9%D8%B1%D8%AF%D9%86.wav.mp3",
   "ipa": "[bɒː.ziː kʰʲæɹ.d̪æn]"
  },
+ "concept:fa:to-put": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 6 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥o.zɒːʃ.t̪ʰǽn]"
+ },
+ "concept:fa:to-rain": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "[bɒː.ɹiː.d̪ǽn]"
+ },
  "concept:fa:to-read": {
   "level": "strong",
   "checks": [
@@ -3919,6 +8320,42 @@
    "Used in 85 Tatoeba sentences"
   ],
   "ipa": "[xɒːn̪.d̪æn]"
+ },
+ "concept:fa:to-remember": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 19 Tatoeba sentences"
+  ],
+  "ipa": "[be jɒːd̪̥ ʔɒː.væɹ.d̪ǽn]"
+ },
+ "concept:fa:to-rest": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 36 Tatoeba sentences"
+  ],
+  "ipa": "[ʔes.t̪ʰe.ɹɒː.ɦǽt̪ʰ kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-return": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 3 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Fa-%D8%A8%D8%B1%DA%AF%D8%B4%D8%AA%D9%86.ogg/Fa-%D8%A8%D8%B1%DA%AF%D8%B4%D8%AA%D9%86.ogg.mp3",
+  "ipa": "[bæɹ ɡʲæʃ.t̪ʰǽn]"
+ },
+ "concept:fa:to-run": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 13 Tatoeba sentences"
+  ],
+  "ipa": "[d̪æ.viː.d̪ǽn]"
  },
  "concept:fa:to-say": {
   "level": "strong",
@@ -3939,6 +8376,42 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/LL-Q9168_%28fas%29-Afsham23-%D8%AF%DB%8C%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%DB%8C%D8%AF%D9%86.wav.mp3",
   "ipa": "[d̪iː.d̪ǽn]"
+ },
+ "concept:fa:to-sell": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Fa-%D9%81%D8%B1%D9%88%D8%AE%D8%AA%D9%86.ogg/Fa-%D9%81%D8%B1%D9%88%D8%AE%D8%AA%D9%86.ogg.mp3",
+  "ipa": "[fo.ɹuːx.t̪ʰǽn]"
+ },
+ "concept:fa:to-send": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 1 Tatoeba sentence"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D8%B3%D8%AA%D8%A7%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D9%81%D8%B1%D8%B3%D8%AA%D8%A7%D8%AF%D9%86.wav.mp3",
+  "ipa": "[fe.ɹes.t̪ʰɒː.d̪ǽn]"
+ },
+ "concept:fa:to-show": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 130 Tatoeba sentences"
+  ],
+  "ipa": "[ne.ʃɒːn d̪ɒː.d̪æn]"
+ },
+ "concept:fa:to-sing": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 68 Tatoeba sentences"
+  ],
+  "ipa": "[ʔɒː.vɒ́ːz xɒːn̪.d̪ǽn]"
  },
  "concept:fa:to-sit": {
   "level": "strong",
@@ -3978,6 +8451,14 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%B1%D8%B3_%D8%AE%D9%88%D8%A7%D9%86%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%AF%D8%B1%D8%B3_%D8%AE%D9%88%D8%A7%D9%86%D8%AF%D9%86.wav.mp3",
   "ipa": "[d̪æɹs xɒːn̪.d̪æn]"
  },
+ "concept:fa:to-swim": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 91 Tatoeba sentences"
+  ]
+ },
  "concept:fa:to-take": {
   "level": "strong",
   "checks": [
@@ -3988,6 +8469,38 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D9%81%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%DA%AF%D8%B1%D9%81%D8%AA%D9%86.wav.mp3",
   "ipa": "[ɡʲe.ɹef.t̪ʰǽn]"
  },
+ "concept:fa:to-teach": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 145 Tatoeba sentences"
+  ]
+ },
+ "concept:fa:to-think": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 356 Tatoeba sentences"
+  ],
+  "ipa": "[fekʰʲɹ kʰʲæɹ.d̪æn]"
+ },
+ "concept:fa:to-travel": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 70 Tatoeba sentences"
+  ],
+  "ipa": "[sæ.fǽɹ kʰʲæɹ.d̪ǽn]"
+ },
+ "concept:fa:to-try": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 64 Tatoeba sentences"
+  ]
+ },
  "concept:fa:to-understand": {
   "level": "good",
   "checks": [
@@ -3995,6 +8508,15 @@
    "Used in 15 Tatoeba sentences"
   ],
   "ipa": "[fæɦ.miː.d̪ǽn]"
+ },
+ "concept:fa:to-use": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 181 Tatoeba sentences"
+  ],
+  "ipa": "[ʔes.t̪ʰe.fɒː.d̪é kʰʲæɹ.d̪ǽn]"
  },
  "concept:fa:to-wait": {
   "level": "good",
@@ -4014,6 +8536,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DB%8C%D8%AF%D8%A7%D8%B1_%D8%B4%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%A8%DB%8C%D8%AF%D8%A7%D8%B1_%D8%B4%D8%AF%D9%86.wav.mp3",
   "ipa": "[biː.d̪ɒ́ːɹ ʃo.d̪ǽn]"
  },
+ "concept:fa:to-walk": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 95 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/97/LL-Q9168_%28fas%29-Afsham23-%D8%B1%D8%A7%D9%87_%D8%B1%D9%81%D8%AA%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D8%B1%D8%A7%D9%87_%D8%B1%D9%81%D8%AA%D9%86.wav.mp3",
+  "ipa": "[ɹɒːʱ ɹæf.t̪ʰæn]"
+ },
  "concept:fa:to-want": {
   "level": "strong",
   "checks": [
@@ -4032,6 +8564,15 @@
    "Used in 4 Tatoeba sentences"
   ],
   "ipa": "[ʃos.t̪ʰǽn]"
+ },
+ "concept:fa:to-wear": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/LL-Q9168_%28fas%29-Afsham23-%D9%BE%D9%88%D8%B4%DB%8C%D8%AF%D9%86.wav/LL-Q9168_%28fas%29-Afsham23-%D9%BE%D9%88%D8%B4%DB%8C%D8%AF%D9%86.wav.mp3",
+  "ipa": "[pʰuː.ʃiː.d̪ǽn]"
  },
  "concept:fa:to-work": {
   "level": "strong",
@@ -4061,6 +8602,24 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Fa-%D8%A7%D9%85%D8%B1%D9%88%D8%B2.ogg/Fa-%D8%A7%D9%85%D8%B1%D9%88%D8%B2.ogg.mp3",
   "ipa": "[ʔem.ɹúːz]"
  },
+ "concept:fa:toilet": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%B3%D8%AA%D8%B4%D9%88%DB%8C%DB%8C.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D8%B3%D8%AA%D8%B4%D9%88%DB%8C%DB%8C.wav.mp3",
+  "ipa": "[d̪æst̪ʰ.ʃuː.jiː]"
+ },
+ "concept:fa:tomato": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥ow.d͡ʒe.fæ.ɹæɲ.ɡʲíː]"
+ },
  "concept:fa:tomorrow": {
   "level": "strong",
   "checks": [
@@ -4070,6 +8629,69 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Fa-%D9%81%D8%B1%D8%AF%D8%A7.ogg/Fa-%D9%81%D8%B1%D8%AF%D8%A7.ogg.mp3",
   "ipa": "[fæɹ.d̪ɒ́ː]"
+ },
+ "concept:fa:tooth": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 32 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Fa-%D8%AF%D9%86%D8%AF%D8%A7%D9%86.ogg/Fa-%D8%AF%D9%86%D8%AF%D8%A7%D9%86.ogg.mp3",
+  "ipa": "[d̪æn̪.d̪ɒːn]"
+ },
+ "concept:fa:tourist": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 2 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰuː.ɹíːst̪ʰ]"
+ },
+ "concept:fa:towel": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 23 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Fa-%D8%AD%D9%88%D9%84%D9%87.ogg/Fa-%D8%AD%D9%88%D9%84%D9%87.ogg.mp3",
+  "ipa": "[how.lé]"
+ },
+ "concept:fa:train": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 78 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/LL-Q9168_%28fas%29-Darafsh-%D9%82%D8%B7%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%D9%82%D8%B7%D8%A7%D8%B1.wav.mp3",
+  "ipa": "[qe.t̪ʰɒ́ːɹ]"
+ },
+ "concept:fa:tree": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 82 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Fa-%D8%AF%D8%B1%D8%AE%D8%AA.ogg/Fa-%D8%AF%D8%B1%D8%AE%D8%AA.ogg.mp3",
+  "ipa": "[d̪æ.ɹǽxt̪ʰ]"
+ },
+ "concept:fa:trip": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 70 Tatoeba sentences"
+  ],
+  "ipa": "[sæ.fǽɹ]"
+ },
+ "concept:fa:trousers": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 4 Tatoeba sentences"
+  ],
+  "ipa": "[ʃæl.vɒ́ːɹ]"
  },
  "concept:fa:tuesday": {
   "level": "good",
@@ -4107,6 +8729,33 @@
   ],
   "ipa": "[d̪o]"
  },
+ "concept:fa:umbrella": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/LL-Q9168_%28fas%29-Darafsh-%DA%86%D8%AA%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%DA%86%D8%AA%D8%B1.wav.mp3",
+  "ipa": "[t͡ʃʰæt̪ʰɹ]"
+ },
+ "concept:fa:university": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Fa-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.ogg/Fa-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.ogg.mp3",
+  "ipa": "[d̪ɒː.neʃ.ɡɒːʱ]"
+ },
+ "concept:fa:until": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 712 Tatoeba sentences"
+  ],
+  "ipa": "[t̪ʰɒː]"
+ },
  "concept:fa:usually": {
   "level": "strong",
   "checks": [
@@ -4115,6 +8764,12 @@
    "Used in 51 Tatoeba sentences"
   ],
   "ipa": "[mæʔ.muː.læn]"
+ },
+ "concept:fa:vegetable": {
+  "level": "attested",
+  "checks": [
+   "Used in 11 Tatoeba sentences"
+  ]
  },
  "concept:fa:very": {
   "level": "strong",
@@ -4133,6 +8788,26 @@
   ],
   "ipa": "[ɹuːs.t̪ʰɒː]"
  },
+ "concept:fa:wall": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 30 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Fa-%D8%AF%DB%8C%D9%88%D8%A7%D8%B1.ogg/Fa-%D8%AF%DB%8C%D9%88%D8%A7%D8%B1.ogg.mp3",
+  "ipa": "[d̪iː.vɒ́ːɹ]"
+ },
+ "concept:fa:warm": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 76 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Fa-%DA%AF%D8%B1%D9%85.ogg/Fa-%DA%AF%D8%B1%D9%85.ogg.mp3",
+  "ipa": "[ɡʲæɹm]"
+ },
  "concept:fa:water": {
   "level": "strong",
   "checks": [
@@ -4142,6 +8817,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Fa-%D8%A2%D8%A8.ogg/Fa-%D8%A2%D8%A8.ogg.mp3",
   "ipa": "[ʔɒːb̥]"
+ },
+ "concept:fa:watermelon": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 12 Tatoeba sentences"
+  ],
+  "ipa": "[hen̪.d̪e.vɒː.ne]"
  },
  "concept:fa:we": {
   "level": "strong",
@@ -4153,6 +8837,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Fa-%D9%85%D8%A7.ogg/Fa-%D9%85%D8%A7.ogg.mp3",
   "ipa": "[mɒ́ːʔ]"
  },
+ "concept:fa:weak": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 29 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/LL-Q9168_%28fas%29-Darafsh-%D8%B6%D8%B9%DB%8C%D9%81.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B6%D8%B9%DB%8C%D9%81.wav.mp3",
+  "ipa": "[zæ.ʔiːf]"
+ },
  "concept:fa:weather": {
   "level": "good",
   "checks": [
@@ -4161,6 +8855,15 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Fa-%D9%87%D9%88%D8%A7.ogg/Fa-%D9%87%D9%88%D8%A7.ogg.mp3",
   "ipa": "[hæ.vɒː]"
+ },
+ "concept:fa:wedding": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 7 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/LL-Q9168_%28fas%29-Darafsh-%D8%B9%D8%B1%D9%88%D8%B3%DB%8C.wav/LL-Q9168_%28fas%29-Darafsh-%D8%B9%D8%B1%D9%88%D8%B3%DB%8C.wav.mp3",
+  "ipa": "[ʔæ.ɹuː.síː]"
  },
  "concept:fa:wednesday": {
   "level": "good",
@@ -4181,6 +8884,12 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%81%D8%AA%D9%87.wav/LL-Q9168_%28fas%29-Darafsh-%D9%87%D9%81%D8%AA%D9%87.wav.mp3",
   "ipa": "[hæf.t̪ʰé]"
  },
+ "concept:fa:weekend": {
+  "level": "attested",
+  "checks": [
+   "Used in 63 Tatoeba sentences"
+  ]
+ },
  "concept:fa:welcome": {
   "level": "strong",
   "checks": [
@@ -4189,6 +8898,24 @@
    "Used in 21 Tatoeba sentences"
   ],
   "ipa": "[xoʃ ʔɒː.mǽ.d̪iːd̪̥]"
+ },
+ "concept:fa:west": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[qæɹb̥]"
+ },
+ "concept:fa:wet": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 11 Tatoeba sentences"
+  ],
+  "ipa": "[xiːs]"
  },
  "concept:fa:what": {
   "level": "strong",
@@ -4269,6 +8996,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%B2%D9%86.ogg/Fa-%D8%B2%D9%86.ogg.mp3",
   "ipa": "[zæn]"
  },
+ "concept:fa:wind": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 71 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Fa-%D8%A8%D8%A7%D8%AF.ogg/Fa-%D8%A8%D8%A7%D8%AF.ogg.mp3",
+  "ipa": "[bɒːd̪̥]"
+ },
  "concept:fa:window": {
   "level": "strong",
   "checks": [
@@ -4277,6 +9014,15 @@
    "Used in 49 Tatoeba sentences"
   ],
   "ipa": "[pʰæn.d͡ʒæ.ɹe]"
+ },
+ "concept:fa:winter": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 43 Tatoeba sentences"
+  ],
+  "ipa": "[ze.mes.t̪ʰɒːn]"
  },
  "concept:fa:with": {
   "level": "strong",
@@ -4288,6 +9034,15 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Fa-%D8%A8%D8%A7.ogg/Fa-%D8%A8%D8%A7.ogg.mp3",
   "ipa": "[bɒː]"
  },
+ "concept:fa:wolf": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 18 Tatoeba sentences"
+  ],
+  "ipa": "[ɡ̥oɹɡʲ̥]"
+ },
  "concept:fa:woman": {
   "level": "good",
   "checks": [
@@ -4296,6 +9051,16 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Fa-%D8%B2%D9%86.ogg/Fa-%D8%B2%D9%86.ogg.mp3",
   "ipa": "[zæn]"
+ },
+ "concept:fa:word": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 76 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/Fa-%DA%A9%D9%84%D9%85%D9%87.ogg/Fa-%DA%A9%D9%84%D9%85%D9%87.ogg.mp3",
+  "ipa": "[kʰʲæ.le.mé]"
  },
  "concept:fa:work": {
   "level": "strong",
@@ -4306,6 +9071,34 @@
   ],
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D8%A7%D8%B1.wav/LL-Q9168_%28fas%29-Afsham23-%DA%A9%D8%A7%D8%B1.wav.mp3",
   "ipa": "[kʰɒːɹ]"
+ },
+ "concept:fa:worker": {
+  "level": "good",
+  "checks": [
+   "Wiktionary dictionary entry",
+   "Used in 8 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1.wav/LL-Q9168_%28fas%29-Darafsh-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1.wav.mp3",
+  "ipa": "[kʰɒːɹ.ɡʲǽɹ]"
+ },
+ "concept:fa:world": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 194 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%86%DB%8C%D8%A7.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AF%D9%86%DB%8C%D8%A7.wav.mp3",
+  "ipa": "[d̪oɲ.jɒː]"
+ },
+ "concept:fa:worried": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 41 Tatoeba sentences"
+  ],
+  "ipa": "[ne.ɡʲæ.ɹɒːn]"
  },
  "concept:fa:year": {
   "level": "strong",
@@ -4374,6 +9167,16 @@
   "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Fa-%D8%B4%D9%85%D8%A7.ogg/Fa-%D8%B4%D9%85%D8%A7.ogg.mp3",
   "ipa": "[ʃo.mɒ́ː]"
  },
+ "concept:fa:young": {
+  "level": "strong",
+  "checks": [
+   "Wiktionary translation table",
+   "Wiktionary dictionary entry",
+   "Used in 80 Tatoeba sentences"
+  ],
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/LL-Q9168_%28fas%29-Darafsh-%D8%AC%D9%88%D8%A7%D9%86.wav/LL-Q9168_%28fas%29-Darafsh-%D8%AC%D9%88%D8%A7%D9%86.wav.mp3",
+  "ipa": "[d͡ʒæ.vɒ́ːn]"
+ },
  "concept:fa:younger": {
   "level": "attested",
   "checks": [
@@ -4431,14 +9234,6 @@
    "Wiktionary dictionary entry"
   ]
  },
- "picture:ckb:carrot": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 2 Tatoeba sentences"
-  ]
- },
  "picture:ckb:cherries": {
   "level": "strong",
   "checks": [
@@ -4458,13 +9253,6 @@
   "checks": [
    "Wiktionary translation table",
    "Wiktionary dictionary entry"
-  ]
- },
- "picture:ckb:cucumber": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Used in 2 Tatoeba sentences"
   ]
  },
  "picture:ckb:dates": {
@@ -4516,32 +9304,10 @@
    "Wiktionary dictionary entry"
   ]
  },
- "picture:ckb:grapes": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry"
-  ]
- },
- "picture:ckb:honey": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 2 Tatoeba sentences"
-  ]
- },
  "picture:ckb:kebab": {
   "level": "good",
   "checks": [
    "Wiktionary dictionary entry",
-   "Used in 1 Tatoeba sentence"
-  ]
- },
- "picture:ckb:lemon": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
    "Used in 1 Tatoeba sentence"
   ]
  },
@@ -4556,13 +9322,6 @@
    "Wiktionary dictionary entry"
   ]
  },
- "picture:ckb:onion": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry"
-  ]
- },
  "picture:ckb:pastries": {
   "level": "strong",
   "checks": [
@@ -4571,14 +9330,6 @@
   ]
  },
  "picture:ckb:pomegranate": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 1 Tatoeba sentence"
-  ]
- },
- "picture:ckb:potato": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
@@ -4618,14 +9369,6 @@
    "Wiktionary dictionary entry"
   ]
  },
- "picture:ckb:tomato": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 4 Tatoeba sentences"
-  ]
- },
  "picture:ckb:turmeric": {
   "level": "good",
   "checks": [
@@ -4644,14 +9387,6 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 1 Tatoeba sentence"
-  ]
- },
- "picture:ckb:watermelon": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 4 Tatoeba sentences"
   ]
  },
  "picture:fa:abgoosht": {
@@ -4701,14 +9436,6 @@
    "Used in 3 Tatoeba sentences"
   ]
  },
- "picture:fa:carrot": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 8 Tatoeba sentences"
-  ]
- },
  "picture:fa:cherries": {
   "level": "strong",
   "checks": [
@@ -4738,13 +9465,6 @@
   "checks": [
    "Wiktionary dictionary entry",
    "Used in 13 Tatoeba sentences"
-  ]
- },
- "picture:fa:cucumber": {
-  "level": "good",
-  "checks": [
-   "Wiktionary dictionary entry",
-   "Used in 3 Tatoeba sentences"
   ]
  },
  "picture:fa:dates": {
@@ -4813,27 +9533,11 @@
    "Used in 43 Tatoeba sentences"
   ]
  },
- "picture:fa:grapes": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 10 Tatoeba sentences"
-  ]
- },
  "picture:fa:herbs": {
   "level": "attested",
   "checks": [
    "Wiktionary entry exists (different sense)",
    "Used in 8 Tatoeba sentences"
-  ]
- },
- "picture:fa:honey": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 13 Tatoeba sentences"
   ]
  },
  "picture:fa:hyacinth": {
@@ -4870,14 +9574,6 @@
   "level": "none",
   "checks": []
  },
- "picture:fa:lemon": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 5 Tatoeba sentences"
-  ]
- },
  "picture:fa:lentil-soup": {
   "level": "attested",
   "checks": [
@@ -4885,14 +9581,6 @@
   ]
  },
  "picture:fa:lentils": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 6 Tatoeba sentences"
-  ]
- },
- "picture:fa:onion": {
   "level": "strong",
   "checks": [
    "Wiktionary translation table",
@@ -4921,13 +9609,6 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 3 Tatoeba sentences"
-  ]
- },
- "picture:fa:potato": {
-  "level": "good",
-  "checks": [
-   "Wiktionary dictionary entry",
-   "Used in 12 Tatoeba sentences"
   ]
  },
  "picture:fa:raisins": {
@@ -5014,13 +9695,6 @@
    "Wiktionary dictionary entry"
   ]
  },
- "picture:fa:tomato": {
-  "level": "good",
-  "checks": [
-   "Wiktionary dictionary entry",
-   "Used in 8 Tatoeba sentences"
-  ]
- },
  "picture:fa:turmeric": {
   "level": "strong",
   "checks": [
@@ -5041,14 +9715,6 @@
    "Wiktionary translation table",
    "Wiktionary dictionary entry",
    "Used in 3 Tatoeba sentences"
-  ]
- },
- "picture:fa:watermelon": {
-  "level": "strong",
-  "checks": [
-   "Wiktionary translation table",
-   "Wiktionary dictionary entry",
-   "Used in 12 Tatoeba sentences"
   ]
  },
  "picture:fa:zereshk-polo": {

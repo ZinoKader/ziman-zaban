@@ -1,0 +1,761 @@
+{
+  "concepts": [
+    {
+      "id": "sun",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "☀️",
+      "gloss": { "en": "sun", "sv": "sol", "svAlt": ["solen"] },
+      "ckb": {
+        "primary": { "script": "خۆر", "latin": "xor" },
+        "variants": [{ "script": "هەتاو", "latin": "hetaw", "note": { "en": "sunshine, the sun", "sv": "solsken, solen" } }],
+        "notes": {
+          "en": "ڕۆژ, which you know as \"day\", also means \"sun\": ڕۆژهەڵات \"east\" is where the sun comes up and ڕۆژئاوا \"west\" is where it goes down. هەتاو (hetaw) is \"sunshine\".",
+          "sv": "ڕۆژ, som du känner som \"dag\", betyder också \"sol\": ڕۆژهەڵات \"öster\" är där solen går upp och ڕۆژئاوا \"väster\" där den går ner. هەتاو (hetaw) är \"solsken\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sun" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خورشید", "latin": "khorshid" },
+        "variants": [
+          {
+            "script": "آفتاب",
+            "latin": "âftâb",
+            "note": { "en": "sunshine; the sun in everyday speech", "sv": "solsken; solen i vardagligt tal" }
+          }
+        ],
+        "notes": {
+          "en": "خورشید is the sun in the sky. آفتاب (âftâb) is sunshine: زیر آفتاب \"in the sun\". The خور in خورشید is the same word as Sorani خۆر.",
+          "sv": "خورشید är solen på himlen. آفتاب (âftâb) är solsken: زیر آفتاب \"i solen\". خور i خورشید är samma ord som soranins خۆر."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sun" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "moon",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌙",
+      "gloss": { "en": "moon", "sv": "måne", "svAlt": ["månen"] },
+      "ckb": {
+        "primary": { "script": "مانگ", "latin": "mang" },
+        "notes": {
+          "en": "Also means \"month\", just as Swedish \"måne\" and \"månad\" belong together. بۆچی ئەمشەو مانگ ئەوەندە گەورەیە؟ \"why is the moon so big tonight?\"",
+          "sv": "Betyder också \"månad\", precis som \"måne\" och \"månad\" hör ihop på svenska. بۆچی ئەمشەو مانگ ئەوەندە گەورەیە؟ \"varför är månen så stor i kväll?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "moon" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ماه", "latin": "mâh" },
+        "notes": {
+          "en": "Also means \"month\", like Sorani مانگ. مهتاب (mahtâb) is \"moonlight\", and in poetry ماه is the beloved, a beautiful face.",
+          "sv": "Betyder också \"månad\", som soranins مانگ. مهتاب (mahtâb) är \"månsken\", och i poesin är ماه den älskade, ett vackert ansikte."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "moon" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "star",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "⭐",
+      "gloss": { "en": "star", "sv": "stjärna", "svAlt": ["stjärnan"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئەستێرە", "latin": "estêre" },
+        "notes": {
+          "en": "The same word as Persian ستاره, and related to English \"star\" and Swedish \"stjärna\". ئاسمان سافە؛ پڕە لە ئەستێرە \"the sky is clear; it's full of stars\".",
+          "sv": "Samma ord som persiskans ستاره, och släkt med svenskans \"stjärna\" och engelskans \"star\". ئاسمان سافە؛ پڕە لە ئەستێرە \"himlen är klar, den är full av stjärnor\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "star" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ستاره", "latin": "setâre" },
+        "notes": {
+          "en": "Also a film or sports star, as in English. ستاره (Setareh) is a girl's name.",
+          "sv": "Betyder också stjärna om skådespelare och idrottare, som på svenska. ستاره (Setareh) är ett flicknamn."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "star" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sky",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "sky", "sv": "himmel", "svAlt": ["himlen"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئاسمان", "latin": "asman" },
+        "notes": {
+          "en": "The same word as Persian آسمان. ئاسمان سافە \"the sky is clear\".",
+          "sv": "Samma ord som persiskans آسمان. ئاسمان سافە \"himlen är klar\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sky" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آسمان", "latin": "âsemân" },
+        "variants": [{ "script": "آسمون", "latin": "âsemun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech آسمون (âsemun). A skyscraper is آسمان‌خراش (âsemân-kharâsh), a \"sky-scratcher\".",
+          "sv": "I tal آسمون (âsemun). En skyskrapa heter آسمان‌خراش (âsemân-kharâsh), ordagrant \"himmelskrapa\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sky" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cloud",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "☁️",
+      "gloss": { "en": "cloud", "sv": "moln", "svAlt": ["molnet"] },
+      "ckb": {
+        "primary": { "script": "هەور", "latin": "hewr" },
+        "notes": {
+          "en": "\"Cloudy\" is هەوری (hewrî), with the same -î ending as Persian ابری (abri).",
+          "sv": "\"Molnig\" heter هەوری (hewrî), med samma ändelse -î som persiskans ابری (abri)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cloud" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ابر", "latin": "abr" },
+        "notes": {
+          "en": "\"Cloudy\" is ابری (abri). Don't mix it up with the prefix ابر- (abar-) \"super-\", as in ابرقدرت \"superpower\": same letters, different word.",
+          "sv": "\"Molnig\" heter ابری (abri). Blanda inte ihop det med förledet ابر- (abar-) \"super-\", som i ابرقدرت \"supermakt\": samma bokstäver, ett annat ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cloud" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "rain",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌧️",
+      "gloss": { "en": "rain", "sv": "regn", "svAlt": ["regnet"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "باران", "latin": "baran" },
+        "notes": {
+          "en": "The same word as Persian باران. ئەمڕۆ باران دەبارێت \"it's raining today\", literally \"today rain rains\".",
+          "sv": "Samma ord som persiskans باران. ئەمڕۆ باران دەبارێت \"det regnar i dag\", ordagrant \"i dag regnar regn\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rain" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "باران", "latin": "bârân" },
+        "variants": [{ "script": "بارون", "latin": "bârun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech بارون (bârun). باران is also a girl's name.",
+          "sv": "I tal بارون (bârun). باران är också ett flicknamn."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rain" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "snow",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "❄️",
+      "gloss": { "en": "snow", "sv": "snö", "svAlt": ["snön"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بەفر", "latin": "befr" },
+        "notes": {
+          "en": "The same word as Persian برف, with the r and f swapped. بەفر دەبارێت \"it's snowing\": snow takes the same verb as rain.",
+          "sv": "Samma ord som persiskans برف, med r och f i omvänd ordning. بەفر دەبارێت \"det snöar\": snö har samma verb som regn."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "snow" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "برف", "latin": "barf" },
+        "notes": {
+          "en": "برف میاد (barf miyâd) \"it's snowing\", literally \"snow comes\". A snowman is آدم برفی (âdam barfi), a \"snow person\".",
+          "sv": "برف میاد (barf miyâd) \"det snöar\", ordagrant \"snö kommer\". En snögubbe heter آدم برفی (âdam barfi), en \"snömänniska\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "snow" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "wind",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌬️",
+      "gloss": { "en": "wind", "sv": "vind", "svAlt": ["vinden", "blåst"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "با", "latin": "ba" },
+        "notes": {
+          "en": "The same word as Persian باد, without the d. Another با means \"let's\": با بڕۆین \"let's go\".",
+          "sv": "Samma ord som persiskans باد, utan d. Ett annat با betyder \"låt oss\": با بڕۆین \"nu går vi\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wind" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "باد", "latin": "bâd" },
+        "notes": {
+          "en": "Wind \"blows\" with وزیدن: باد سردی می‌وزد \"a cold wind is blowing\". The باد in زنده باد \"long live\" is a different word, from \"to be\".",
+          "sv": "Vind \"blåser\" med verbet وزیدن: باد سردی می‌وزد \"det blåser en kall vind\". باد i زنده باد \"leve\" är ett annat ord, från \"att vara\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wind" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "storm",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "⛈️",
+      "gloss": { "en": "storm", "sv": "storm", "svAlt": ["stormen", "oväder"] },
+      "ckb": {
+        "primary": { "script": "زریان", "latin": "ziryan" },
+        "variants": [{ "script": "تۆفان", "latin": "tofan" }],
+        "notes": {
+          "en": "بەهۆی زریانەوە کارەبامان لەدەست دا \"we lost our electricity because of the storm\". You also hear تۆفان (tofan), the same word as Persian طوفان.",
+          "sv": "بەهۆی زریانەوە کارەبامان لەدەست دا \"vi blev utan ström på grund av stormen\". Man hör också تۆفان (tofan), samma ord som persiskans طوفان."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "طوفان", "latin": "tufân" },
+        "notes": {
+          "en": "Also \"flood\": طوفان نوح (tufân-e nuh) is Noah's Flood.",
+          "sv": "Betyder också \"översvämning\": طوفان نوح (tufân-e nuh) är syndafloden."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "storm" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "ice",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧊",
+      "gloss": { "en": "ice", "sv": "is", "svAlt": ["isen"] },
+      "ckb": {
+        "primary": { "script": "سەهۆڵ", "latin": "sehoł" },
+        "notes": {
+          "en": "Also the ice in a drink: بە سەهۆڵی زۆرەوە دەمەوێت \"I want it with lots of ice\".",
+          "sv": "Också isen i en dryck: بە سەهۆڵی زۆرەوە دەمەوێت \"jag vill ha mycket is i\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ice" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "یخ", "latin": "yakh" },
+        "notes": {
+          "en": "A fridge is یخچال (yakhchâl), literally \"ice pit\", the name of the domed ice houses of old Iran.",
+          "sv": "Ett kylskåp heter یخچال (yakhchâl), ordagrant \"isgrop\", samma namn som de gamla iranska ishusen med kupoltak."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "یخ" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "spring",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌷",
+      "gloss": { "en": "spring", "sv": "vår", "enAlt": ["springtime"], "svAlt": ["våren"] },
+      "senseNote": { "en": "the season", "sv": "årstiden" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بەهار", "latin": "behar" },
+        "notes": {
+          "en": "Spring starts with نەورۆز (Newroz) on 21 March, the Kurdish new year.",
+          "sv": "Våren börjar med نەورۆز (Newroz) den 21 mars, det kurdiska nyåret."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "spring" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بهار", "latin": "bahâr" },
+        "notes": {
+          "en": "The Persian new year, نوروز (nowruz), falls on the first day of spring, around 20 March. بهار is also a girl's name.",
+          "sv": "Det persiska nyåret, نوروز (nowruz), infaller på vårens första dag, runt den 20 mars. بهار är också ett flicknamn."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "spring" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "summer",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏖️",
+      "gloss": { "en": "summer", "sv": "sommar", "svAlt": ["sommaren"] },
+      "ckb": {
+        "primary": { "script": "هاوین", "latin": "hawîn" },
+        "notes": {
+          "en": "\"In summer\" is لە هاویندا (le hawînda): لە هاویندا پلەی گەرمی بەرز دەبێتەوە \"in summer the temperature rises\".",
+          "sv": "\"På sommaren\" heter لە هاویندا (le hawînda): لە هاویندا پلەی گەرمی بەرز دەبێتەوە \"på sommaren stiger temperaturen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "summer" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تابستان", "latin": "tâbestân" },
+        "variants": [{ "script": "تابستون", "latin": "tâbestun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech تابستون (tâbestun). Spring, autumn and winter are almost the same in Sorani, but summer is a different word there: هاوین.",
+          "sv": "I tal تابستون (tâbestun). Vår, höst och vinter heter nästan likadant på sorani, men sommar är ett helt annat ord där: هاوین."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "summer" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "autumn",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍂",
+      "gloss": { "en": "autumn", "sv": "höst", "enAlt": ["fall"], "svAlt": ["hösten"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پاییز", "latin": "payîz" },
+        "notes": {
+          "en": "The same word as Persian پاییز. \"In autumn\" is لە پاییزدا (le payîzda).",
+          "sv": "Samma ord som persiskans پاییز. \"På hösten\" heter لە پاییزدا (le payîzda)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "autumn" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پاییز", "latin": "pâyiz" },
+        "notes": {
+          "en": "Also spelled پائیز. Poetry has خزان (khazân), the season when the leaves fall.",
+          "sv": "Stavas också پائیز. I poesin finns خزان (khazân), årstiden då löven faller."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "autumn" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "winter",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "⛄",
+      "gloss": { "en": "winter", "sv": "vinter", "svAlt": ["vintern"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "زستان", "latin": "zistan" },
+        "notes": {
+          "en": "The same word as Persian زمستان, without the m.",
+          "sv": "Samma ord som persiskans زمستان, utan m."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "winter" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زمستان", "latin": "zemestân" },
+        "variants": [{ "script": "زمستون", "latin": "zemestun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech زمستون (zemestun). The longest night of the year, when winter begins, is شب یلدا (shab-e yaldâ), celebrated with pomegranates and watermelon.",
+          "sv": "I tal زمستون (zemestun). Årets längsta natt, när vintern börjar, heter شب یلدا (shab-e yaldâ) och firas med granatäpplen och vattenmelon."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "winter" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "season",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "season", "sv": "årstid", "svAlt": ["säsong"] },
+      "ckb": {
+        "primary": { "script": "وەرز", "latin": "werz" },
+        "notes": {
+          "en": "The four seasons are بەهار، هاوین، پاییز و زستان. وەرز is also a season in sport: ئەم وەرزە \"this season\".",
+          "sv": "De fyra årstiderna är بەهار، هاوین، پاییز و زستان. وەرز är också en säsong i idrott: ئەم وەرزە \"den här säsongen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "season" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فصل", "latin": "fasl" },
+        "notes": {
+          "en": "From Arabic, and also means \"chapter\" in a book. چهار فصل \"the four seasons\".",
+          "sv": "Från arabiskan, och betyder också \"kapitel\" i en bok. چهار فصل \"de fyra årstiderna\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "فصل" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "warm",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "warm", "sv": "varm", "svAlt": ["varmt", "varma"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گەرم", "latin": "germ" },
+        "notes": {
+          "en": "The same word as \"hot\" (گەرم): Sorani has one word for both. For \"really hot\", add زۆر: زۆر گەرمە \"it's very hot\".",
+          "sv": "Samma ord som \"varm, het\" (گەرم): soranin har ett ord för båda. För \"jättevarmt\" lägger man till زۆر: زۆر گەرمە \"det är jättevarmt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "warm" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گرم", "latin": "garm" },
+        "variants": [{ "script": "ولرم", "latin": "velarm", "note": { "en": "lukewarm (water, tea)", "sv": "ljum (vatten, te)" } }],
+        "notes": {
+          "en": "The same word as \"hot\" (گرم). For lukewarm water or tea, say ولرم (velarm). Really hot things are داغ (dâgh).",
+          "sv": "Samma ord som \"varm, het\" (گرم). Om ljummet vatten eller te säger man ولرم (velarm). Riktigt heta saker är داغ (dâgh)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "warm" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cool",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "cool", "sv": "sval", "svAlt": ["svalt", "svala"] },
+      "senseNote": { "en": "pleasantly cold", "sv": "skönt kall" },
+      "ckb": {
+        "primary": { "script": "فێنک", "latin": "fênik" },
+        "notes": {
+          "en": "Pleasantly cool, like a summer evening: ئێستا شەوەکان فێنکترن \"the nights are cooler now\". سارد is \"cold\".",
+          "sv": "Skönt sval, som en sommarkväll: ئێستا شەوەکان فێنکترن \"nu är nätterna svalare\". سارد är \"kall\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cool" }]
+      },
+      "fa": {
+        "primary": { "script": "خنک", "latin": "khonak" },
+        "notes": {
+          "en": "هوا خنک است \"it's cool\". About a joke or a person, خنک means \"lame, not funny\".",
+          "sv": "هوا خنک است \"det är svalt\". Om ett skämt eller en person betyder خنک \"töntig, inte rolig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cool" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "wet",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "💦",
+      "gloss": { "en": "wet", "sv": "blöt", "svAlt": ["våt", "blött", "vått", "blöta", "våta"] },
+      "ckb": {
+        "primary": { "script": "تەڕ", "latin": "teř" },
+        "notes": {
+          "en": "زەوییەکە تەڕ دیارە \"the ground looks wet\". The opposite is وشک \"dry\".",
+          "sv": "زەوییەکە تەڕ دیارە \"marken ser blöt ut\". Motsatsen är وشک \"torr\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wet" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خیس", "latin": "khis" },
+        "notes": {
+          "en": "خیس شدم \"I got wet\". تا مغز استخوان خیس شدم \"I got soaked\" is literally \"I got wet to the bone marrow\".",
+          "sv": "خیس شدم \"jag blev blöt\". تا مغز استخوان خیس شدم \"jag blev genomblöt\" är ordagrant \"jag blev blöt in till benmärgen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wet" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dry",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🏜️",
+      "gloss": { "en": "dry", "sv": "torr", "svAlt": ["torrt", "torra"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "وشک", "latin": "wişk" },
+        "notes": {
+          "en": "The same word as Persian خشک. وشک بوون means \"to dry, become dry\".",
+          "sv": "Samma ord som persiskans خشک. وشک بوون betyder \"att torka, bli torr\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dry" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خشک", "latin": "khoshk" },
+        "notes": {
+          "en": "A dry cleaner's is خشک‌شویی (khoshk-shuyi), literally \"dry washing\".",
+          "sv": "En kemtvätt heter خشک‌شویی (khoshk-shuyi), ordagrant \"torrtvätt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dry" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sunny",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🌞",
+      "gloss": { "en": "sunny", "sv": "solig", "svAlt": ["soligt", "soliga"] },
+      "ckb": {
+        "primary": { "script": "خۆرەتاو", "latin": "xoretaw" },
+        "notes": {
+          "en": "Built on خۆر \"sun\" and used like an adjective: ڕۆژێکی خۆرەتاو \"a sunny day\". You also hear ڕۆژێکی هەتاو.",
+          "sv": "Bygger på خۆر \"sol\" och används som ett adjektiv: ڕۆژێکی خۆرەتاو \"en solig dag\". Man hör också ڕۆژێکی هەتاو."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آفتابی", "latin": "âftâbi" },
+        "notes": {
+          "en": "آفتاب \"sunshine\" + -i: امروز روزی آفتابی است \"it's a sunny day\". ابری \"cloudy\" is built the same way.",
+          "sv": "آفتاب \"solsken\" + -i: امروز روزی آفتابی است \"det är en solig dag\". ابری \"molnig\" är byggt på samma sätt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sunny" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cloudy",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🌥️",
+      "gloss": { "en": "cloudy", "sv": "molnig", "svAlt": ["molnigt", "mulen", "mulet"] },
+      "ckb": {
+        "primary": { "script": "هەوری", "latin": "hewrî" },
+        "notes": {
+          "en": "هەور \"cloud\" + -î: ئاسمان هەورییە \"the sky is cloudy\".",
+          "sv": "هەور \"moln\" + -î: ئاسمان هەورییە \"himlen är molnig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cloudy" }]
+      },
+      "fa": {
+        "primary": { "script": "ابری", "latin": "abri" },
+        "notes": {
+          "en": "ابر \"cloud\" + -i. هوا ابری است \"it's cloudy\", in speech هوا ابریه (havâ abriye).",
+          "sv": "ابر \"moln\" + -i. هوا ابری است \"det är molnigt\", i tal هوا ابریه (havâ abriye)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cloudy" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "umbrella",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "☂️",
+      "gloss": { "en": "umbrella", "sv": "paraply", "svAlt": ["paraplyet", "parasoll"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چەتر", "latin": "çetr" },
+        "notes": {
+          "en": "The same word as Persian چتر. نازانم چەترەکەم لەکوێیە \"I don't know where my umbrella is\".",
+          "sv": "Samma ord som persiskans چتر. نازانم چەترەکەم لەکوێیە \"jag vet inte var mitt paraply är\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "umbrella" }]
+      },
+      "fa": {
+        "primary": { "script": "چتر", "latin": "chatr" },
+        "notes": {
+          "en": "Also a sunshade. A parachute is چتر نجات (chatr-e nejât), a \"rescue umbrella\".",
+          "sv": "Också ett parasoll. En fallskärm heter چتر نجات (chatr-e nejât), ett \"räddningsparaply\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "چتر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-rain",
+      "unit": "weather-seasons",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to rain", "sv": "att regna", "enAlt": ["rain"], "svAlt": ["regna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بارین", "latin": "barîn" },
+        "variants": [{ "script": "باران بارین", "latin": "baran barîn", "note": { "en": "rain falls", "sv": "regnet faller" } }],
+        "presentStem": { "script": "بار", "latin": "bar" },
+        "pastStem": { "script": "باری", "latin": "barî" },
+        "notes": {
+          "en": "The same verb as Persian باریدن. Say the noun too: باران دەبارێت \"it's raining\", دوێنێ باران باری \"it rained yesterday\".",
+          "sv": "Samma verb som persiskans باریدن. Säg substantivet också: باران دەبارێت \"det regnar\", دوێنێ باران باری \"det regnade i går\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rain" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "باریدن", "latin": "bâridan" },
+        "variants": [{ "script": "باران آمدن", "latin": "bârân âmadan", "note": { "en": "to rain (everyday)", "sv": "att regna (vardagligt)" } }],
+        "presentStem": { "script": "بار", "latin": "bâr" },
+        "pastStem": { "script": "بارید", "latin": "bârid" },
+        "notes": {
+          "en": "In writing باران می‌بارد \"it's raining\". In speech people say بارون میاد (bârun miyâd), from باران آمدن \"rain comes\".",
+          "sv": "I skrift باران می‌بارد \"det regnar\". I tal säger man بارون میاد (bârun miyâd), av باران آمدن \"regn kommer\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rain" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "temperature",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌡️",
+      "gloss": { "en": "temperature", "sv": "temperatur", "svAlt": ["temperaturen"] },
+      "ckb": {
+        "primary": { "script": "پلەی گەرما", "latin": "pley germa" },
+        "variants": [{ "script": "پلەی گەرمی", "latin": "pley germî" }],
+        "notes": {
+          "en": "Literally \"degree of heat\": پلە \"degree\" + گەرما \"heat\".",
+          "sv": "Ordagrant \"värmegrad\": پلە \"grad\" + گەرما \"värme\"."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "دما", "latin": "damâ" },
+        "notes": {
+          "en": "دما is the word in weather forecasts: دمای هوا \"the air temperature\". The older درجه حرارت (daraje harârat) means the same.",
+          "sv": "دما är ordet i väderprognoser: دمای هوا \"lufttemperaturen\". Det äldre درجه حرارت (daraje harârat) betyder samma sak."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "دما" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "degree",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "degree", "sv": "grad", "enAlt": ["degrees"], "svAlt": ["grader"] },
+      "senseNote": { "en": "of temperature", "sv": "om temperatur" },
+      "ckb": {
+        "primary": { "script": "پلە", "latin": "ple" },
+        "notes": {
+          "en": "Also \"step, level\". سی پلە \"thirty degrees\".",
+          "sv": "Betyder också \"steg, nivå\". سی پلە \"trettio grader\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "degree" }]
+      },
+      "fa": {
+        "primary": { "script": "درجه", "latin": "daraje" },
+        "notes": {
+          "en": "To ask about the weather: هوا چند درجه است؟ \"how warm is it?\", literally \"the weather is how many degrees?\". Also \"rank, grade\": درجه یک \"first-class\".",
+          "sv": "När man frågar om vädret: هوا چند درجه است؟ \"hur varmt är det?\", ordagrant \"vädret är hur många grader?\". Betyder också \"rang, klass\": درجه یک \"förstklassig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "degree" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "light",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💡",
+      "gloss": { "en": "light", "sv": "ljus", "svAlt": ["ljuset", "dagsljus"] },
+      "senseNote": { "en": "daylight, lamp light", "sv": "dagsljus, lampljus" },
+      "ckb": {
+        "primary": { "script": "ڕووناکی", "latin": "řûnakî" },
+        "variants": [{ "script": "ڕۆشنایی", "latin": "řoşnayî" }],
+        "notes": {
+          "en": "Also the light in a room: دەتوانیت ڕووناکییەکە بکوژێنیتەوە؟ \"could you turn off the light?\". The adjective ڕووناک means \"bright\".",
+          "sv": "Också ljuset i ett rum: دەتوانیت ڕووناکییەکە بکوژێنیتەوە؟ \"kan du släcka ljuset?\". Adjektivet ڕووناک betyder \"ljus\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نور", "latin": "nur" },
+        "variants": [{ "script": "روشنایی", "latin": "rowshanâyi", "note": { "en": "light, brightness", "sv": "ljus, belysning" } }],
+        "notes": {
+          "en": "نور is light itself. The lamp is چراغ (cherâgh): چراغ را خاموش کن \"turn off the light\". روشن (rowshan) \"bright\" also means \"switched on\".",
+          "sv": "نور är själva ljuset. Lampan heter چراغ (cherâgh): چراغ را خاموش کن \"släck ljuset\". روشن (rowshan) \"ljus\" betyder också \"påslagen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "نور" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dark",
+      "unit": "weather-seasons",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🌑",
+      "gloss": { "en": "dark", "sv": "mörk", "svAlt": ["mörkt", "mörka"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تاریک", "latin": "tarîk" },
+        "notes": {
+          "en": "The same word as Persian تاریک. \"Darkness\" is تاریکی (tarîkî): لە تاریکی دەترسم \"I'm scared of the dark\".",
+          "sv": "Samma ord som persiskans تاریک. \"Mörker\" heter تاریکی (tarîkî): لە تاریکی دەترسم \"jag är mörkrädd\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dark" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تاریک", "latin": "târik" },
+        "notes": {
+          "en": "هوا تاریک شد \"it got dark\", literally \"the air got dark\". For colors use تیره (tire): آبی تیره \"dark blue\".",
+          "sv": "هوا تاریک شد \"det blev mörkt\", ordagrant \"luften blev mörk\". Om färger säger man تیره (tire): آبی تیره \"mörkblå\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dark" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "air",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "air", "sv": "luft", "svAlt": ["luften"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەوا", "latin": "hewa" },
+        "notes": {
+          "en": "The same word as \"weather\" (هەوا). To mean only the weather, people also say کەشوهەوا (keşuhewa).",
+          "sv": "Samma ord som \"väder\" (هەوا). När man bara menar vädret säger man också کەشوهەوا (keşuhewa)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "air" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هوا", "latin": "havâ" },
+        "notes": {
+          "en": "The same word as \"weather\" (هوا). An airplane is هواپیما (havâpeymâ), and آب و هوا (âb o havâ), literally \"water and air\", means \"climate, weather\".",
+          "sv": "Samma ord som \"väder\" (هوا). Ett flygplan heter هواپیما (havâpeymâ), och آب و هوا (âb o havâ), ordagrant \"vatten och luft\", betyder \"klimat, väder\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "هوا" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "world",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌍",
+      "gloss": { "en": "world", "sv": "värld", "svAlt": ["världen"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دنیا", "latin": "dinya" },
+        "variants": [{ "script": "جیهان", "latin": "cîhan", "note": { "en": "world (in the news, in writing)", "sv": "värld (i nyheter, i skrift)" } }],
+        "notes": {
+          "en": "دنیا is the everyday word: دنیا زۆر گۆڕاوە \"the world has changed a lot\". جیهان (cîhan) is the word in the news, as in جامی جیهانی \"the World Cup\".",
+          "sv": "دنیا är vardagsordet: دنیا زۆر گۆڕاوە \"världen har förändrats mycket\". جیهان (cîhan) är ordet i nyheterna, som i جامی جیهانی \"fotbolls-VM\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "world" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دنیا", "latin": "donyâ" },
+        "variants": [{ "script": "جهان", "latin": "jahân", "register": "formal", "note": { "en": "world (written)", "sv": "värld (skrift)" } }],
+        "notes": {
+          "en": "From Arabic, and the same word as Sorani دنیا. جهان (jahân), the same word as Sorani جیهان, is more written: جام جهانی \"the World Cup\".",
+          "sv": "Från arabiskan, och samma ord som soranins دنیا. جهان (jahân), samma ord som soranins جیهان, hör mer till skriftspråket: جام جهانی \"fotbolls-VM\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "world" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "nature",
+      "unit": "weather-seasons",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌳",
+      "gloss": { "en": "nature", "sv": "natur", "svAlt": ["naturen"] },
+      "ckb": {
+        "primary": { "script": "سروشت", "latin": "sruşt" },
+        "notes": {
+          "en": "سروشتی (sruştî) means \"natural\". The word is related to Persian سرشت (seresht) \"inborn character\".",
+          "sv": "سروشتی (sruştî) betyder \"naturlig\". Ordet är släkt med persiskans سرشت (seresht) \"medfödd karaktär\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "nature" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "طبیعت", "latin": "tabi'at" },
+        "notes": {
+          "en": "From Arabic. طبیعی (tabi'i) means \"natural\". در بهار طبیعت سبز می‌شود \"in spring, nature turns green\".",
+          "sv": "Från arabiskan. طبیعی (tabi'i) betyder \"naturlig\". در بهار طبیعت سبز می‌شود \"på våren blir naturen grön\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "nature" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

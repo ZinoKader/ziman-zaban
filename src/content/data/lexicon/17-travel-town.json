@@ -1,0 +1,763 @@
+{
+  "concepts": [
+    {
+      "id": "train",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🚆",
+      "gloss": { "en": "train", "sv": "tåg" },
+      "ckb": {
+        "primary": { "script": "شەمەندەفەر", "latin": "şemendefer" },
+        "notes": {
+          "en": "From French \"chemin de fer\", \"iron road\". \"By train\" is بە شەمەندەفەر (be şemendefer).",
+          "sv": "Från franskans \"chemin de fer\", \"järnväg\". \"Med tåg\" heter بە شەمەندەفەر (be şemendefer)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "train" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قطار", "latin": "ghatâr" },
+        "variants": [{ "script": "ترن", "latin": "teran" }],
+        "notes": {
+          "en": "The railway is راه‌آهن (râh-âhan), \"iron road\", and that is also what Tehran's main station is called.",
+          "sv": "Järnvägen heter راه‌آهن (râh-âhan), \"järnväg\" ordagrant, och det är också namnet på Teherans centralstation."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "train" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "station",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🚉",
+      "gloss": { "en": "station", "sv": "station", "enAlt": ["train station", "railway station"], "svAlt": ["tågstation", "järnvägsstation"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "وێستگە", "latin": "wêstge" },
+        "variants": [{ "script": "ئێستگە", "latin": "êstge" }],
+        "notes": {
+          "en": "A bus stop is وێستگەی پاس (wêstgey pas). Also spelled ئێستگە, which is close to Persian ایستگاه.",
+          "sv": "En busshållplats heter وێستگەی پاس (wêstgey pas). Stavas också ئێستگە, som ligger nära persiskans ایستگاه."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "ایستگاه", "latin": "istgâh" },
+        "notes": {
+          "en": "ایست \"stop\" + گاه \"place\". ایستگاه اتوبوس is a bus stop, ایستگاه مترو a metro station.",
+          "sv": "ایست \"stopp\" + گاه \"plats\". ایستگاه اتوبوس är en busshållplats, ایستگاه مترو en tunnelbanestation."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ایستگاه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "plane",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🛩️",
+      "gloss": { "en": "plane", "sv": "flygplan", "enAlt": ["airplane", "aeroplane", "aircraft"], "svAlt": ["plan", "flyg"] },
+      "senseNote": { "en": "that flies", "sv": "som flyger" },
+      "ckb": {
+        "primary": { "script": "فڕۆکە", "latin": "fřoke" },
+        "variants": [{ "script": "تەیارە", "latin": "teyare", "register": "colloquial" }],
+        "notes": {
+          "en": "From فڕین \"to fly\". You know it from فڕۆکەخانە \"airport\". Many people say تەیارە, from Arabic.",
+          "sv": "Av فڕین \"att flyga\". Du känner igen det från فڕۆکەخانە \"flygplats\". Många säger تەیارە, från arabiskan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "airplane" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هواپیما", "latin": "havâpeymâ" },
+        "notes": {
+          "en": "هوا \"air\" + پیما \"measuring, crossing\": something that crosses the air. \"By plane\" is با هواپیما (bâ havâpeymâ).",
+          "sv": "هوا \"luft\" + پیما \"som mäter, som färdas genom\": något som färdas genom luften. \"Med flyg\" heter با هواپیما (bâ havâpeymâ)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "هواپیما" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hotel",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏨",
+      "gloss": { "en": "hotel", "sv": "hotell" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هۆتێل", "latin": "hotêl" },
+        "notes": {
+          "en": "لە هۆتێل دەمێنمەوە \"I'm staying at the hotel\". The same word as Persian هتل and Swedish \"hotell\".",
+          "sv": "لە هۆتێل دەمێنمەوە \"jag bor på hotellet\". Samma ord som persiskans هتل och svenskans \"hotell\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "هتل", "latin": "hotel" },
+        "notes": {
+          "en": "A cheap, simple inn is a مسافرخانه (mosâferkhâne), \"traveller house\".",
+          "sv": "Ett enkelt och billigt härbärge heter مسافرخانه (mosâferkhâne), \"resenärshus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hotel" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "passport",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🛂",
+      "gloss": { "en": "passport", "sv": "pass" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پاسپۆرت", "latin": "pasport" },
+        "notes": {
+          "en": "At a border you will hear پاسپۆرتەکەت (pasporteket), \"your passport\".",
+          "sv": "Vid en gräns får du höra پاسپۆرتەکەت (pasporteket), \"ditt pass\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "passport" }]
+      },
+      "fa": {
+        "primary": { "script": "پاسپورت", "latin": "pâsport" },
+        "variants": [{ "script": "گذرنامه", "latin": "gozarnâme", "register": "formal" }],
+        "notes": {
+          "en": "گذرنامه is the official word, printed on the passport itself: گذر \"passage\" + نامه \"letter\".",
+          "sv": "گذرنامه är det officiella ordet, och det står tryckt på själva passet: گذر \"passage\" + نامه \"brev\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پاسپورت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "map",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🗺️",
+      "gloss": { "en": "map", "sv": "karta" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نەخشە", "latin": "nexşe" },
+        "notes": {
+          "en": "The same word as Persian نقشه. It can also mean a plan.",
+          "sv": "Samma ord som persiskans نقشه. Det kan också betyda en plan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "map" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نقشه", "latin": "naghshe" },
+        "notes": {
+          "en": "Also \"plan\": نقشه کشیدن (naghshe keshidan) is to draw up a plan, or to plot something.",
+          "sv": "Betyder också \"plan\": نقشه کشیدن (naghshe keshidan) är att göra upp en plan, eller att planera något i hemlighet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "نقشه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "road",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "road", "sv": "väg" },
+      "ckb": {
+        "primary": { "script": "ڕێگا", "latin": "řêga" },
+        "variants": [{ "script": "ڕێگە", "latin": "řêge" }],
+        "notes": {
+          "en": "لە ڕێگا means \"on the way\". The spelling ڕێگە often means \"permission\": ڕێگە بدە \"allow it\".",
+          "sv": "لە ڕێگا betyder \"på vägen\". Stavningen ڕێگە betyder ofta \"tillåtelse\": ڕێگە بدە \"tillåt det\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "جاده", "latin": "jâdde" },
+        "notes": {
+          "en": "A road between towns. In town it's خیابان \"street\". راه (râh) is \"way\": در راه \"on the way\".",
+          "sv": "En väg mellan städer. Inne i stan heter det خیابان \"gata\". راه (râh) är väg i betydelsen sträcka eller färd: در راه \"på vägen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "جاده" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bridge",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌉",
+      "gloss": { "en": "bridge", "sv": "bro" },
+      "ckb": {
+        "primary": { "script": "پرد", "latin": "pird" },
+        "notes": {
+          "en": "\"The bridge\" is پردەکە (pirdeke). The short i in pird is not written.",
+          "sv": "\"Bron\" heter پردەکە (pirdeke). Det korta i:et mellan پ och ر skrivs inte ut."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bridge" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پل", "latin": "pol" },
+        "notes": {
+          "en": "Don't mix up پل (pol) \"bridge\" and پول (pul) \"money\". Isfahan is famous for its old bridges, such as سی‌وسه‌پل (si-o-se pol).",
+          "sv": "Blanda inte ihop پل (pol) \"bro\" och پول (pul) \"pengar\". Isfahan är känt för sina gamla broar, till exempel سی‌وسه‌پل (si-o-se pol)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bridge" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "park",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏞️",
+      "gloss": { "en": "park", "sv": "park" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پارک", "latin": "park" },
+        "notes": {
+          "en": "The same word as Swedish and English \"park\". زۆر پارک لەم دەوروبەرە هەن \"there are many parks around here\".",
+          "sv": "Samma ord som svenskans \"park\". زۆر پارک لەم دەوروبەرە هەن \"det finns många parker här omkring\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "پارک", "latin": "pârk" },
+        "notes": {
+          "en": "پارک کردن (pârk kardan) means \"to park\" a car, just like in English.",
+          "sv": "پارک کردن (pârk kardan) betyder \"att parkera\" en bil, precis som på svenska."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پارک" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bank",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏦",
+      "gloss": { "en": "bank", "sv": "bank" },
+      "senseNote": { "en": "for money", "sv": "för pengar" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بانک", "latin": "bank" },
+        "notes": {
+          "en": "The same word as Swedish \"bank\". لە بانک کار دەکات \"he works at the bank\".",
+          "sv": "Samma ord som svenskans \"bank\". لە بانک کار دەکات \"han jobbar på banken\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "بانک", "latin": "bânk" },
+        "notes": {
+          "en": "A cash machine is a خودپرداز (khodpardâz), \"self-payer\".",
+          "sv": "En bankomat heter خودپرداز (khodpardâz), \"självbetalare\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bank" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "mosque",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🕌",
+      "gloss": { "en": "mosque", "sv": "moské" },
+      "ckb": {
+        "primary": { "script": "مزگەوت", "latin": "mizgewt" },
+        "notes": {
+          "en": "The call to prayer from the mosque is بانگ (bang), a word that also means \"a call, a shout\".",
+          "sv": "Böneutropet från moskén heter بانگ (bang), ett ord som också betyder \"rop\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mosque" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مسجد", "latin": "masjed" },
+        "notes": {
+          "en": "From Arabic, \"place of prostration\". English \"mosque\" and Swedish \"moské\" come from the same word.",
+          "sv": "Från arabiskan, \"platsen där man faller ned i bön\". Svenskans \"moské\" kommer från samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مسجد" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "museum",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏛️",
+      "gloss": { "en": "museum", "sv": "museum" },
+      "ckb": {
+        "primary": { "script": "مۆزەخانە", "latin": "mozexane" },
+        "variants": [{ "script": "مووزەخانە", "latin": "mûzexane" }],
+        "notes": {
+          "en": "مۆزە \"museum\" + خانە \"house\", like فڕۆکەخانە \"airport\" and نەخۆشخانە \"hospital\".",
+          "sv": "مۆزە \"museum\" + خانە \"hus\", som فڕۆکەخانە \"flygplats\" och نەخۆشخانە \"sjukhus\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "موزه", "latin": "muze" },
+        "notes": {
+          "en": "From French \"musée\". The National Museum of Iran in Tehran is موزه‌ی ملی ایران (muze-ye melli-ye irân).",
+          "sv": "Från franskans \"musée\". Irans nationalmuseum i Teheran heter موزه‌ی ملی ایران (muze-ye melli-ye irân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "موزه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "police",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👮",
+      "gloss": { "en": "police", "sv": "polis", "enAlt": ["police officer", "policeman", "the police"], "svAlt": ["polisen"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پۆلیس", "latin": "polîs" },
+        "notes": {
+          "en": "Like Swedish \"polis\", it means both the police and a police officer. The same word as Persian پلیس.",
+          "sv": "Precis som svenskans \"polis\" betyder det både polisen och en polis. Samma ord som persiskans پلیس."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "police" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پلیس", "latin": "polis" },
+        "notes": {
+          "en": "A police station is a کلانتری (kalântari). The police number in Iran is 110.",
+          "sv": "En polisstation heter کلانتری (kalântari). Polisens nummer i Iran är 110."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پلیس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bicycle",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🚲",
+      "gloss": { "en": "bicycle", "sv": "cykel", "enAlt": ["bike"] },
+      "ckb": {
+        "primary": { "script": "پاسکیل", "latin": "paskîl" },
+        "notes": {
+          "en": "It starts like پاس \"bus\", but the two words are not related.",
+          "sv": "Det börjar som پاس \"buss\", men orden har inget med varandra att göra."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "دوچرخه", "latin": "docharkhe" },
+        "notes": {
+          "en": "دو \"two\" + چرخ \"wheel\": a \"two-wheeler\". Cycling is دوچرخه‌سواری (docharkhe-savâri), literally \"bicycle riding\".",
+          "sv": "دو \"två\" + چرخ \"hjul\": en \"tvåhjuling\". Cykling heter دوچرخه‌سواری (docharkhe-savâri), ordagrant \"cykelridning\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bike" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-travel",
+      "unit": "travel-town",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🌍",
+      "gloss": { "en": "to travel", "sv": "att resa", "enAlt": ["travel"], "svAlt": ["resa"] },
+      "ckb": {
+        "primary": { "script": "گەشت کردن", "latin": "geşt kirdin" },
+        "variants": [{ "script": "سەفەر کردن", "latin": "sefer kirdin" }],
+        "presentStem": { "script": "گەشت کە", "latin": "geşt ke" },
+        "pastStem": { "script": "گەشت کرد", "latin": "geşt kird" },
+        "notes": {
+          "en": "دەتەوێت بۆ کوێ گەشت بکەیت؟ \"where do you want to travel?\". سەفەر کردن is just as common, the same word as Persian سفر کردن.",
+          "sv": "دەتەوێت بۆ کوێ گەشت بکەیت؟ \"vart vill du resa?\". سەفەر کردن är lika vanligt, samma ord som persiskans سفر کردن."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "سفر کردن", "latin": "safar kardan" },
+        "variants": [{ "script": "مسافرت کردن", "latin": "mosâferat kardan" }],
+        "presentStem": { "script": "سفر کن", "latin": "safar kon" },
+        "pastStem": { "script": "سفر کرد", "latin": "safar kard" },
+        "notes": {
+          "en": "A traveller or passenger is a مسافر (mosâfer), from the same Arabic root. Wish someone a good trip with سفر بخیر (safar bekheyr).",
+          "sv": "En resenär eller passagerare heter مسافر (mosâfer), av samma arabiska rot. Önska någon trevlig resa med سفر بخیر (safar bekheyr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سفر کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "trip",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "trip", "sv": "resa", "enAlt": ["journey", "travel"], "svAlt": ["tur", "utflykt"] },
+      "ckb": {
+        "primary": { "script": "گەشت", "latin": "geşt" },
+        "variants": [{ "script": "سەفەر", "latin": "sefer" }],
+        "notes": {
+          "en": "Also an outing or a tour. گەشتیار \"tourist\" is built on it.",
+          "sv": "Kan också vara en utflykt eller en rundtur. گەشتیار \"turist\" är bildat av det."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "سفر", "latin": "safar" },
+        "variants": [{ "script": "مسافرت", "latin": "mosâferat" }],
+        "notes": {
+          "en": "سفر بخیر! (safar bekheyr) \"have a good trip!\". Careful: in Sorani the same letters سفر spell \"zero\" (sifir).",
+          "sv": "سفر بخیر! (safar bekheyr) \"trevlig resa!\". Se upp: på sorani stavar samma bokstäver سفر \"noll\" (sifir)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سفر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "suitcase",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧳",
+      "gloss": { "en": "suitcase", "sv": "resväska", "enAlt": ["luggage"] },
+      "ckb": {
+        "primary": { "script": "جانتا", "latin": "canta" },
+        "notes": {
+          "en": "Sorani uses the same word, جانتا, for a bag and a suitcase. هەوڵ دەدەم تەنیا بە یەک جانتا سەفەر بکەم \"I try to travel with just one suitcase\".",
+          "sv": "På sorani heter både väska och resväska جانتا. هەوڵ دەدەم تەنیا بە یەک جانتا سەفەر بکەم \"jag försöker resa med bara en resväska\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "suitcase" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چمدان", "latin": "chamedân" },
+        "variants": [{ "script": "چمدون", "latin": "chamedun", "register": "colloquial" }],
+        "notes": {
+          "en": "To pack is to \"close\" the suitcase: چمدانم را بستم \"I packed my suitcase\".",
+          "sv": "Att packa heter att \"stänga\" resväskan: چمدانم را بستم \"jag packade min resväska\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "چمدان" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-arrive",
+      "unit": "travel-town",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to arrive", "sv": "att komma fram", "enAlt": ["arrive", "to reach", "reach", "to get to"], "svAlt": ["komma fram", "anlända", "nå fram"] },
+      "ckb": {
+        "primary": { "script": "گەیشتن", "latin": "geyiştin" },
+        "presentStem": { "script": "گە", "latin": "ge" },
+        "pastStem": { "script": "گەیشت", "latin": "geyişt" },
+        "notes": {
+          "en": "تۆم دوای نیوەشەو گەیشت \"Tom arrived after midnight\". The place joins the verb with -e, as with چوون: کەی دەگەیتە ماڵ؟ \"when do you get home?\".",
+          "sv": "تۆم دوای نیوەشەو گەیشت \"Tom kom fram efter midnatt\". Platsen fogas till verbet med -e, som med چوون: کەی دەگەیتە ماڵ؟ \"när är du hemma?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "arrive" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "رسیدن", "latin": "residan" },
+        "presentStem": { "script": "رس", "latin": "res" },
+        "pastStem": { "script": "رسید", "latin": "resid" },
+        "notes": {
+          "en": "The place takes به: به تهران رسیدیم \"we arrived in Tehran\". Fruit that has \"arrived\" is ripe: میوه رسیده است.",
+          "sv": "Platsen får به: به تهران رسیدیم \"vi kom fram till Teheran\". Frukt som har \"kommit fram\" är mogen: میوه رسیده است."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "رسیدن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-leave",
+      "unit": "travel-town",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to leave", "sv": "att åka iväg", "enAlt": ["leave", "to depart", "depart", "to set off", "set off"], "svAlt": ["åka iväg", "ge sig av", "avgå", "avresa"] },
+      "senseNote": { "en": "to depart", "sv": "ge sig av" },
+      "ckb": {
+        "primary": { "script": "ڕۆیشتن", "latin": "řoyştin" },
+        "presentStem": { "script": "ڕۆ", "latin": "řo" },
+        "pastStem": { "script": "ڕۆیشت", "latin": "řoyşt" },
+        "notes": {
+          "en": "The same verb also means \"to go\" and \"to walk\". تۆم بەبێ ماڵئاوایی ڕۆیشت \"Tom left without saying goodbye\".",
+          "sv": "Samma verb betyder också \"att gå\" och \"att gå till fots\". تۆم بەبێ ماڵئاوایی ڕۆیشت \"Tom gick utan att säga hej då\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "go" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "حرکت کردن", "latin": "harakat kardan" },
+        "presentStem": { "script": "حرکت کن", "latin": "harakat kon" },
+        "pastStem": { "script": "حرکت کرد", "latin": "harakat kard" },
+        "notes": {
+          "en": "حرکت is \"movement\". Used for trains and buses: قطار ساعت هشت حرکت می‌کند \"the train leaves at eight\". When a person leaves, Persian just uses رفتن: دارم می‌رم \"I'm off\".",
+          "sv": "حرکت betyder \"rörelse\". Används om tåg och bussar: قطار ساعت هشت حرکت می‌کند \"tåget går klockan åtta\". När en person går därifrån säger man bara رفتن: دارم می‌رم \"jag drar nu\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "حرکت کردن" }]
+      }
+    },
+    {
+      "id": "north",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "north", "sv": "norr", "svAlt": ["nord"] },
+      "ckb": {
+        "primary": { "script": "باکوور", "latin": "bakûr" },
+        "notes": {
+          "en": "Kurds call the Kurdish part of Turkey باکوور (Bakur), \"the north\".",
+          "sv": "Kurder kallar den kurdiska delen av Turkiet باکوور (Bakur), \"norr\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "باکوور" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شمال", "latin": "shomâl" },
+        "notes": {
+          "en": "In Iran شمال often means the green Caspian coast: می‌ریم شمال \"we're going up north\" means a holiday by the Caspian Sea.",
+          "sv": "I Iran betyder شمال ofta den gröna kusten vid Kaspiska havet: می‌ریم شمال \"vi åker norrut\" betyder semester vid Kaspiska havet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "north" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "south",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "south", "sv": "söder", "svAlt": ["syd"] },
+      "ckb": {
+        "primary": { "script": "باشوور", "latin": "başûr" },
+        "notes": {
+          "en": "Kurds call the Kurdistan Region of Iraq باشوور (Başûr), \"the south\".",
+          "sv": "Kurder kallar Kurdistanregionen i Irak باشوور (Başûr), \"söder\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "south" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جنوب", "latin": "jonub" },
+        "notes": {
+          "en": "From Arabic, like all four compass points in Persian. Add -i for the adjective: جنوبی (jonubi) \"southern\".",
+          "sv": "Från arabiskan, som alla fyra väderstreck på persiska. Lägg till -i för adjektivet: جنوبی (jonubi) \"södra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "south" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "east",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "east", "sv": "öster", "svAlt": ["öst"] },
+      "ckb": {
+        "primary": { "script": "ڕۆژهەڵات", "latin": "řojhełat" },
+        "notes": {
+          "en": "ڕۆژ \"sun\" + هەڵات \"rose\": where the sun comes up. The Kurdish part of Iran is ڕۆژهەڵات (Rojhelat).",
+          "sv": "ڕۆژ \"sol\" + هەڵات \"steg upp\": där solen går upp. Den kurdiska delen av Iran heter ڕۆژهەڵات (Rojhelat)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "east" }]
+      },
+      "fa": {
+        "primary": { "script": "شرق", "latin": "shargh" },
+        "notes": {
+          "en": "The old Persian word خاور (khâvar) lives on in خاورمیانه (khâvar-miyâne), \"the Middle East\".",
+          "sv": "Det gamla persiska ordet خاور (khâvar) lever kvar i خاورمیانه (khâvar-miyâne), \"Mellanöstern\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "east" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "west",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "west", "sv": "väster", "svAlt": ["väst"] },
+      "ckb": {
+        "primary": { "script": "ڕۆژئاوا", "latin": "řojawa" },
+        "variants": [{ "script": "ڕۆژاوا", "latin": "řojawa" }],
+        "notes": {
+          "en": "ڕۆژ \"sun\" + ئاوا \"set\": where the sun goes down. The Kurdish part of Syria is ڕۆژئاوا (Rojava).",
+          "sv": "ڕۆژ \"sol\" + ئاوا \"gått ned\": där solen går ned. Den kurdiska delen av Syrien heter ڕۆژئاوا (Rojava)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ڕۆژئاوا" }]
+      },
+      "fa": {
+        "primary": { "script": "غرب", "latin": "gharb" },
+        "notes": {
+          "en": "Also \"the West\", Europe and America: غربی (gharbi) \"western\".",
+          "sv": "Betyder också \"väst\", alltså Europa och Amerika: غربی (gharbi) \"västerländsk\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "west" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "square",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "square", "sv": "torg", "enAlt": ["town square", "plaza"] },
+      "senseNote": { "en": "in a town", "sv": "i en stad" },
+      "ckb": {
+        "primary": { "script": "گۆڕەپان", "latin": "gořepan" },
+        "variants": [{ "script": "مەیدان", "latin": "meydan" }],
+        "notes": {
+          "en": "گۆڕەپان is any open space, a town square or a sports ground. مەیدان is the same word as Persian میدان.",
+          "sv": "گۆڕەپان är vilken öppen plats som helst, ett torg eller en idrottsplats. مەیدان är samma ord som persiskans میدان."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "میدان", "latin": "meydân" },
+        "variants": [{ "script": "میدون", "latin": "meydun", "register": "colloquial" }],
+        "notes": {
+          "en": "In Iran a میدان is often a big roundabout. Tehran's best-known one is میدان آزادی (meydân-e âzâdi), \"Freedom Square\".",
+          "sv": "I Iran är ett میدان ofta en stor rondell. Den mest kända i Teheran är میدان آزادی (meydân-e âzâdi), \"Frihetstorget\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "میدان" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "corner",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "corner", "sv": "hörn" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گۆشە", "latin": "goşe" },
+        "notes": {
+          "en": "Also \"angle\". The same word as Persian گوشه.",
+          "sv": "Betyder också \"vinkel\". Samma ord som persiskans گوشه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گۆشە" }]
+      },
+      "fa": {
+        "primary": { "script": "گوشه", "latin": "gushe" },
+        "notes": {
+          "en": "A street corner is نبش (nabsh). In directions people often say سر کوچه (sar-e kuche), \"at the head of the lane\", where it meets the street.",
+          "sv": "Ett gathörn heter نبش (nabsh). När man visar vägen säger man ofta سر کوچه (sar-e kuche), \"vid grändens början\", där den möter gatan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گوشه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-drive",
+      "unit": "travel-town",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to drive", "sv": "att köra", "enAlt": ["drive"], "svAlt": ["köra", "köra bil"] },
+      "ckb": {
+        "primary": { "script": "لێخوڕین", "latin": "lêxuřîn" },
+        "presentStem": { "script": "لێخوڕ", "latin": "lêxuř" },
+        "pastStem": { "script": "لێخوڕی", "latin": "lêxuřî" },
+        "notes": {
+          "en": "The infinitive is also the noun \"driving\": زۆر ئەزموونم نییە لە لێخوڕین \"I don't have much experience of driving\".",
+          "sv": "Infinitiven är också substantivet \"körning\": زۆر ئەزموونم نییە لە لێخوڕین \"jag har inte så mycket vana att köra\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "drive" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "رانندگی کردن", "latin": "rânandegi kardan" },
+        "variants": [{ "script": "راندن", "latin": "rândan", "register": "formal" }],
+        "presentStem": { "script": "رانندگی کن", "latin": "rânandegi kon" },
+        "pastStem": { "script": "رانندگی کرد", "latin": "rânandegi kard" },
+        "notes": {
+          "en": "Literally \"to do driving\". A driver is a راننده (rânande), and a driving licence is گواهینامه (govâhinâme).",
+          "sv": "Ordagrant \"att göra körning\". En förare heter راننده (rânande), och ett körkort heter گواهینامه (govâhinâme)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "رانندگی کردن" }]
+      }
+    },
+    {
+      "id": "to-walk",
+      "unit": "travel-town",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to walk", "sv": "att promenera", "enAlt": ["walk", "to go on foot"], "svAlt": ["promenera", "gå", "gå till fots", "att gå till fots"] },
+      "senseNote": { "en": "on foot", "sv": "till fots" },
+      "ckb": {
+        "primary": { "script": "پیاسە کردن", "latin": "pyase kirdin" },
+        "presentStem": { "script": "پیاسە کە", "latin": "pyase ke" },
+        "pastStem": { "script": "پیاسە کرد", "latin": "pyase kird" },
+        "notes": {
+          "en": "A walk for pleasure: هەموو بەیانییەک پیاسە دەکات \"she takes a walk every morning\". To get somewhere on foot, say بە پێ (be pê): بە پێ دەچم \"I'll walk there\".",
+          "sv": "En promenad för nöjes skull: هەموو بەیانییەک پیاسە دەکات \"hon promenerar varje morgon\". Att ta sig någonstans till fots heter بە پێ (be pê): بە پێ دەچم \"jag går dit\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "walk" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "راه رفتن", "latin": "râh raftan" },
+        "variants": [{ "script": "پیاده رفتن", "latin": "piyâde raftan", "note": { "en": "to go on foot", "sv": "att gå till fots" } }],
+        "presentStem": { "script": "راه رو", "latin": "râh rav" },
+        "pastStem": { "script": "راه رفت", "latin": "râh raft" },
+        "notes": {
+          "en": "Literally \"to go the way\". To get somewhere on foot, say پیاده (piyâde): پیاده می‌رم \"I'll walk\". A walk for pleasure is پیاده‌روی (piyâde-ravi).",
+          "sv": "Ordagrant \"att gå vägen\". Att ta sig någonstans till fots heter پیاده (piyâde): پیاده می‌رم \"jag går\". En promenad heter پیاده‌روی (piyâde-ravi)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "walk" }]
+      }
+    },
+    {
+      "id": "post-office",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "📮",
+      "gloss": { "en": "post office", "sv": "postkontor", "svAlt": ["posten"] },
+      "ckb": {
+        "primary": { "script": "پۆستەخانە", "latin": "postexane" },
+        "notes": {
+          "en": "پۆستە \"post\" + خانە \"house\". You also hear نووسینگەی پۆستە (nûsîngey poste), \"post office\".",
+          "sv": "پۆستە \"post\" + خانە \"hus\". Man hör också نووسینگەی پۆستە (nûsîngey poste), \"postkontor\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "اداره‌ی پست", "latin": "edâre-ye post" },
+        "variants": [{ "script": "پستخانه", "latin": "postkhâne" }],
+        "notes": {
+          "en": "اداره is any public office, and پست is the post. Careful: as an adjective پست (past) means \"low, mean\".",
+          "sv": "اداره är ett ämbetsverk eller kontor, och پست är posten. Se upp: som adjektiv betyder پست (past) \"låg, simpel\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اداره پست" }]
+      }
+    },
+    {
+      "id": "tourist",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "tourist", "sv": "turist" },
+      "ckb": {
+        "primary": { "script": "گەشتیار", "latin": "geştyar" },
+        "notes": {
+          "en": "Built on گەشت \"trip\". گەشتیاران (geştyaran) is \"tourists\".",
+          "sv": "Bildat av گەشت \"resa\". گەشتیاران (geştyaran) betyder \"turister\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "توریست", "latin": "turist" },
+        "variants": [{ "script": "گردشگر", "latin": "gardeshgar", "register": "formal" }],
+        "notes": {
+          "en": "From French \"touriste\". On signs and in the news you see گردشگر, from گردش (gardesh) \"an outing\".",
+          "sv": "Från franskans \"touriste\". På skyltar och i nyheterna ser man گردشگر, av گردش (gardesh) \"utflykt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "توریست" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "address",
+      "unit": "travel-town",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "address", "sv": "adress" },
+      "senseNote": { "en": "where you live", "sv": "där man bor" },
+      "ckb": {
+        "primary": { "script": "ناونیشان", "latin": "nawnîşan" },
+        "notes": {
+          "en": "ناو \"name\" + نیشان \"sign\". The word also means \"title\", for example of a book.",
+          "sv": "ناو \"namn\" + نیشان \"tecken\". Ordet betyder också \"titel\", till exempel på en bok."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "آدرس", "latin": "âdres" },
+        "variants": [{ "script": "نشانی", "latin": "neshâni", "register": "formal" }],
+        "notes": {
+          "en": "From French \"adresse\". In speech آدرس also means directions: آدرس دادن (âdres dâdan) is to tell someone the way.",
+          "sv": "Från franskans \"adresse\". I tal betyder آدرس också vägbeskrivning: آدرس دادن (âdres dâdan) är att visa någon vägen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "آدرس" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

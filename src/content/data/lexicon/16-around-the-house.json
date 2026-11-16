@@ -1,0 +1,779 @@
+{
+  "concepts": [
+    {
+      "id": "bathroom",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🛁",
+      "gloss": { "en": "bathroom", "sv": "badrum" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "حەمام", "latin": "ḧemam" },
+        "notes": {
+          "en": "حەمام کردن is \"to have a bath, to wash yourself\": حەمام دەکەم \"I'm having a bath\". The same word as Persian حمام.",
+          "sv": "حەمام کردن betyder \"att bada, tvätta sig\": حەمام دەکەم \"jag badar\". Samma ord som persiskans حمام."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bathroom" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "حمام", "latin": "hammâm" },
+        "variants": [{ "script": "حموم", "latin": "hammum", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech حموم (hammum), like خانه → خونه. In many Iranian homes the bathroom and the toilet (دستشویی) are two separate rooms. \"Hammam\" in English is the same word.",
+          "sv": "I tal حموم (hammum), som خانه → خونه. I många iranska hem är badrummet och toaletten (دستشویی) två olika rum. \"Hammam\" på svenska är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bathroom" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "toilet",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🚽",
+      "gloss": { "en": "toilet", "sv": "toalett", "enAlt": ["WC", "loo", "lavatory"], "svAlt": ["toa", "wc", "dass"] },
+      "ckb": {
+        "primary": { "script": "ئاودەست", "latin": "awdest" },
+        "variants": [{ "script": "تەوالێت", "latin": "tewalêt" }],
+        "notes": {
+          "en": "تەوالێت (tewalêt) is also used: دەبێت بچمە ئاودەست \"I have to go to the toilet\".",
+          "sv": "تەوالێت (tewalêt) används också: دەبێت بچمە ئاودەست \"jag måste gå på toa\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "toilet" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دستشویی", "latin": "dastshuyi" },
+        "variants": [{ "script": "توالت", "latin": "tovâlet" }],
+        "notes": {
+          "en": "Literally \"hand-washing (place)\", the polite everyday word: دستشویی کجاست؟ \"where is the toilet?\". It also means the washbasin.",
+          "sv": "Ordagrant \"handtvätt(-ställe)\", det artiga vardagsordet: دستشویی کجاست؟ \"var är toaletten?\". Det betyder också handfat."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "toilet" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "shower",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🚿",
+      "gloss": { "en": "shower", "sv": "dusch" },
+      "fa": {
+        "primary": { "script": "دوش", "latin": "dush" },
+        "notes": {
+          "en": "From French douche, like Swedish \"dusch\". \"To take a shower\" is دوش گرفتن: قبل از صبحانه دوش گرفتم \"I showered before breakfast\".",
+          "sv": "Från franskans douche, precis som svenskans \"dusch\". \"Att duscha\" heter دوش گرفتن, ordagrant \"ta dusch\": قبل از صبحانه دوش گرفتم \"jag duschade före frukost\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "دوش" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bedroom",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "bedroom", "sv": "sovrum" },
+      "ckb": {
+        "primary": { "script": "ژووری نووستن", "latin": "jûrî nûstin" },
+        "notes": {
+          "en": "ژوور \"room\" + نووستن \"sleeping\", joined by the ezafe -î. ژووری نووستنی خۆم هەیە \"I have my own bedroom\".",
+          "sv": "ژوور \"rum\" + نووستن \"sova\", ihopkopplade med ezafe -î. ژووری نووستنی خۆم هەیە \"jag har ett eget sovrum\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اتاق خواب", "latin": "otâgh-e khâb" },
+        "notes": {
+          "en": "اتاق \"room\" + خواب \"sleep\", with the ezafe -e that you hear but don't write. Built the same way as Sorani ژووری نووستن.",
+          "sv": "اتاق \"rum\" + خواب \"sömn\", med ezafe -e som hörs men inte skrivs. Byggt på samma sätt som soranins ژووری نووستن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اتاق خواب" }]
+      }
+    },
+    {
+      "id": "living-room",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "living room", "sv": "vardagsrum", "enAlt": ["sitting room", "lounge"], "svAlt": ["allrum"] },
+      "ckb": {
+        "primary": { "script": "ژووری دانیشتن", "latin": "jûrî danîştin" },
+        "notes": {
+          "en": "\"Room of sitting\": ژوور + دانیشتن \"to sit\". Built like ژووری نووستن \"bedroom\".",
+          "sv": "\"Sittandets rum\": ژوور + دانیشتن \"att sitta\". Byggt som ژووری نووستن \"sovrum\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اتاق نشیمن", "latin": "otâgh-e neshiman" },
+        "variants": [
+          {
+            "script": "پذیرایی",
+            "latin": "pazirâyi",
+            "note": { "en": "the main room, where guests are received", "sv": "det stora rummet, där man tar emot gäster" }
+          }
+        ],
+        "notes": {
+          "en": "نشیمن is \"sitting\", from the stem of نشستن \"to sit\". In many homes the main room is called پذیرایی (pazirâyi), \"reception\".",
+          "sv": "نشیمن betyder \"sittande\", av stammen i نشستن \"att sitta\". I många hem kallas det stora rummet پذیرایی (pazirâyi), \"mottagning\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wiktionary", "ref": "پذیرائی" }]
+      }
+    },
+    {
+      "id": "floor",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "floor", "sv": "golv" },
+      "senseNote": { "en": "what you walk on, not a storey", "sv": "det man går på, inte en våning" },
+      "ckb": {
+        "primary": { "script": "زەوی", "latin": "zewî" },
+        "variants": [{ "script": "عەرز", "latin": "'erz" }],
+        "notes": {
+          "en": "زەوی is also \"ground, land\" and the planet Earth. In speech you often hear عەرز: لەسەر عەرزەکە \"on the floor\".",
+          "sv": "زەوی betyder också \"mark, jord\" och planeten jorden. I tal hör man ofta عەرز: لەسەر عەرزەکە \"på golvet\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "زەوی" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کف", "latin": "kaf" },
+        "variants": [
+          {
+            "script": "زمین",
+            "latin": "zamin",
+            "note": { "en": "the ground; روی زمین \"on the floor\"", "sv": "marken; روی زمین \"på golvet\"" }
+          }
+        ],
+        "notes": {
+          "en": "کف is the floor surface: کف اتاق \"the floor of the room\". \"On the floor\" is usually روی زمین (ru-ye zamin), \"on the ground\".",
+          "sv": "کف är själva golvytan: کف اتاق \"golvet i rummet\". \"På golvet\" heter oftast روی زمین (ru-ye zamin), \"på marken\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کف" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "wall",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧱",
+      "gloss": { "en": "wall", "sv": "vägg", "svAlt": ["mur"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دیوار", "latin": "dîwar" },
+        "notes": {
+          "en": "The same word as Persian دیوار. لەسەر هەر دیوارێک ئاوێنەیەک هەیە \"there's a mirror on every wall\".",
+          "sv": "Samma ord som persiskans دیوار. لەسەر هەر دیوارێک ئاوێنەیەک هەیە \"det finns en spegel på varje vägg\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wall" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دیوار", "latin": "divâr" },
+        "notes": {
+          "en": "A wall inside or outside. A proverb: دیوار موش دارد، موش هم گوش دارد \"the wall has mice, and mice have ears\", the Persian \"walls have ears\".",
+          "sv": "Både vägg och mur. Ett ordspråk: دیوار موش دارد، موش هم گوش دارد \"väggen har möss, och möss har öron\", alltså \"väggarna har öron\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wall" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "roof",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "roof", "sv": "tak", "svAlt": ["yttertak"] },
+      "ckb": {
+        "primary": { "script": "بان", "latin": "ban" },
+        "variants": [{ "script": "سەربان", "latin": "serban" }],
+        "notes": {
+          "en": "Many Kurdish houses have flat roofs, and on hot summer nights families often sleep up on the سەربان. Persian بام \"roof\" is the same word.",
+          "sv": "Många kurdiska hus har platta tak, och heta sommarnätter sover familjer ofta uppe på سەربان. Persiskans بام \"tak\" är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "roof" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سقف", "latin": "saghf" },
+        "variants": [
+          {
+            "script": "پشت‌بام",
+            "latin": "posht-e bâm",
+            "note": { "en": "the flat roof you can walk on", "sv": "det platta taket man kan gå ut på" }
+          }
+        ],
+        "notes": {
+          "en": "Like Swedish \"tak\", سقف is both roof and ceiling: سقف خانه قرمز است \"the roof of the house is red\". The flat roof you can walk on is پشت‌بام.",
+          "sv": "Precis som svenskans \"tak\" betyder سقف både yttertak och innertak: سقف خانه قرمز است \"husets tak är rött\". Det platta taket man kan gå ut på heter پشت‌بام."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سقف" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "stairs",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "stairs", "sv": "trappa", "enAlt": ["staircase", "stair", "steps"], "svAlt": ["trappor", "trappan"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پلیکانە", "latin": "pilîkane" },
+        "notes": {
+          "en": "The same word as Persian پلکان (pellekân). پلیکانەکە تەسکە \"the staircase is narrow\". A ladder is پەیژە (peyje).",
+          "sv": "Samma ord som persiskans پلکان (pellekân). پلیکانەکە تەسکە \"trappan är smal\". En stege heter پەیژە (peyje)."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پله", "latin": "pelle" },
+        "variants": [{ "script": "پلکان", "latin": "pellekân", "register": "formal" }],
+        "notes": {
+          "en": "پله is one step, and پله‌ها (pelle-hâ) is the stairs: از پله‌ها بالا رفت \"he went up the stairs\". پلکان is a more formal word for a staircase.",
+          "sv": "پله är ett trappsteg och پله‌ها (pelle-hâ) är trappan: از پله‌ها بالا رفت \"han gick uppför trappan\". پلکان är ett mer formellt ord för trappa."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "stair" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lamp",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💡",
+      "gloss": { "en": "lamp", "sv": "lampa", "enAlt": ["light"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چرا", "latin": "çira" },
+        "notes": {
+          "en": "Careful: in Persian چرا (cherâ) means \"why\". The Persian word for lamp is چراغ, the same word with a غ at the end.",
+          "sv": "Se upp: på persiska betyder چرا (cherâ) \"varför\". Persiskans ord för lampa är چراغ, samma ord med ett غ på slutet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lamp" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چراغ", "latin": "cherâgh" },
+        "variants": [
+          {
+            "script": "لامپ",
+            "latin": "lâmp",
+            "note": { "en": "a light bulb, an electric lamp", "sv": "glödlampa, elektrisk lampa" }
+          }
+        ],
+        "notes": {
+          "en": "Also \"the light\": لطفاً چراغ را خاموش کن \"please turn off the light\". Sorani چرا is the same word.",
+          "sv": "Betyder också \"ljuset\": لطفاً چراغ را خاموش کن \"släck lampan, tack\". Soranins چرا är samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "چراغ" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sofa",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🛋️",
+      "gloss": { "en": "sofa", "sv": "soffa", "enAlt": ["couch", "settee"] },
+      "ckb": {
+        "primary": { "script": "قەنەفە", "latin": "qenefe" },
+        "notes": {
+          "en": "\"On the sofa\" is لەسەر قەنەفەکە: سەگەکە لەسەر قەنەفەکە دەخەوێت \"the dog sleeps on the sofa\".",
+          "sv": "\"I soffan\" heter لەسەر قەنەفەکە, ordagrant \"på soffan\": سەگەکە لەسەر قەنەفەکە دەخەوێت \"hunden sover i soffan\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sofa" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مبل", "latin": "mobl" },
+        "variants": [{ "script": "کاناپه", "latin": "kânâpe" }],
+        "notes": {
+          "en": "From French meuble \"furniture\". مبل is an upholstered sofa or armchair, and مبلمان (moblemân) is the furniture as a whole. کاناپه is a couch.",
+          "sv": "Från franskans meuble, samma ord som svenskans \"möbel\". مبل är en stoppad soffa eller fåtölj, och مبلمان (moblemân) är möblerna i stort. کاناپه är en soffa."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مبل" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "carpet",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "carpet", "sv": "matta", "enAlt": ["rug"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "فەرش", "latin": "ferş" },
+        "notes": {
+          "en": "From Arabic farsh, like Persian فرش. فەرشێکی نوێ بۆ ژوورەکە دەکڕم \"I'm buying a new carpet for the room\".",
+          "sv": "Från arabiskans farsh, som persiskans فرش. فەرشێکی نوێ بۆ ژوورەکە دەکڕم \"jag köper en ny matta till rummet\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "carpet" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فرش", "latin": "farsh" },
+        "variants": [{ "script": "قالی", "latin": "ghâli" }],
+        "notes": {
+          "en": "A Persian carpet is فرش ایرانی (farsh-e irâni). قالی (ghâli) is the traditional knotted carpet, and a small rug is قالیچه (ghâliche).",
+          "sv": "En persisk matta heter فرش ایرانی (farsh-e irâni). قالی (ghâli) är den traditionella knutna mattan, och en liten matta heter قالیچه (ghâliche)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "فرش" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fridge",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "fridge", "sv": "kylskåp", "enAlt": ["refrigerator"], "svAlt": ["kyl"] },
+      "ckb": {
+        "primary": { "script": "سەلاجە", "latin": "selace" },
+        "notes": {
+          "en": "From Arabic thallâja. هێلکەیەک لە سەلاجەکە بهێنە \"get an egg from the fridge\".",
+          "sv": "Från arabiskans thallâja. هێلکەیەک لە سەلاجەکە بهێنە \"ta ett ägg ur kylen\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "یخچال", "latin": "yakhchâl" },
+        "notes": {
+          "en": "یخ \"ice\" + چال \"pit\". Before electricity a یخچال was a domed ice house in the desert, where winter ice was kept for the summer.",
+          "sv": "یخ \"is\" + چال \"grop\". Innan det fanns el var en یخچال ett kupolformat ishus i öknen, där vinterns is sparades till sommaren."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "یخچال" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "stove",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "stove", "sv": "spis", "enAlt": ["cooker", "hob"] },
+      "senseNote": { "en": "for cooking", "sv": "för matlagning" },
+      "fa": {
+        "primary": { "script": "اجاق گاز", "latin": "ojâgh-e gâz" },
+        "variants": [{ "script": "اجاق", "latin": "ojâgh" }],
+        "notes": {
+          "en": "اجاق \"hearth, stove\" + گاز \"gas\": a gas cooker, the usual kind in Iran. اجاق را خاموش کن \"turn off the stove\".",
+          "sv": "اجاق \"härd, spis\" + گاز \"gas\": en gasspis, den vanliga sorten i Iran. اجاق را خاموش کن \"stäng av spisen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اجاق‌گاز" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cupboard",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "cupboard", "sv": "skåp", "enAlt": ["closet", "wardrobe", "cabinet"], "svAlt": ["garderob", "klädskåp"] },
+      "ckb": {
+        "primary": { "script": "دۆڵاب", "latin": "dołab" },
+        "notes": {
+          "en": "Also a wardrobe for clothes: پاڵتۆکەی بە دۆڵابەکە هەڵواسی \"he hung his coat in the wardrobe\". Persian has دولاب (dolâb) too, but there کمد is more common.",
+          "sv": "Också en garderob för kläder: پاڵتۆکەی بە دۆڵابەکە هەڵواسی \"han hängde sin rock i garderoben\". Persiskan har också دولاب (dolâb), men där är کمد vanligare."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کمد", "latin": "komod" },
+        "variants": [
+          {
+            "script": "کابینت",
+            "latin": "kâbinet",
+            "note": { "en": "kitchen cupboards", "sv": "köksskåp" }
+          }
+        ],
+        "notes": {
+          "en": "From French commode. کمد is a cupboard or a wardrobe; the cupboards in a kitchen are کابینت (kâbinet).",
+          "sv": "Från franskans commode, som svenskans \"kommod\". کمد är ett skåp eller en garderob; köksskåpen heter کابینت (kâbinet)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "closet" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "mirror",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🪞",
+      "gloss": { "en": "mirror", "sv": "spegel" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئاوێنە", "latin": "awêne" },
+        "notes": {
+          "en": "The same word as Persian آیینه. خۆی لە ئاوێنەکە دیت \"he saw himself in the mirror\".",
+          "sv": "Samma ord som persiskans آیینه. خۆی لە ئاوێنەکە دیت \"han såg sig själv i spegeln\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mirror" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آیینه", "latin": "âyine" },
+        "variants": [{ "script": "آینه", "latin": "âyene" }],
+        "notes": {
+          "en": "Also written آینه. A mirror and a pair of candlesticks, آینه و شمعدان, are part of the Persian wedding spread, سفره عقد (sofre-ye 'aghd).",
+          "sv": "Skrivs också آینه. En spegel och ett par ljusstakar, آینه و شمعدان, hör till den persiska bröllopsduken, سفره عقد (sofre-ye 'aghd)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mirror" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "towel",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "towel", "sv": "handduk" },
+      "ckb": {
+        "primary": { "script": "خاولی", "latin": "xawlî" },
+        "notes": {
+          "en": "بۆچی ئەوەندە خاولیت هەیە؟ \"why do you have so many towels?\". After a vowel the indefinite ending is -yek: خاولییەک \"a towel\".",
+          "sv": "بۆچی ئەوەندە خاولیت هەیە؟ \"varför har du så många handdukar?\". Efter vokal blir obestämd form -yek: خاولییەک \"en handduk\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "towel" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "حوله", "latin": "howle" },
+        "notes": {
+          "en": "The ح is said like a plain h: howle.",
+          "sv": "ح uttalas som ett vanligt h: howle."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "حوله" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "soap",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧼",
+      "gloss": { "en": "soap", "sv": "tvål", "svAlt": ["såpa"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سابوون", "latin": "sabûn" },
+        "notes": {
+          "en": "The same word as Persian صابون, from Arabic. Far back it is related to English \"soap\" and Swedish \"såpa\".",
+          "sv": "Samma ord som persiskans صابون, från arabiskan. Långt bak är det släkt med svenskans \"såpa\" och engelskans \"soap\"."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "صابون", "latin": "sâbun" },
+        "notes": {
+          "en": "Written with the Arabic letter ص, said like s. Sorani سابوون is the same word, spelled with س.",
+          "sv": "Skrivs med den arabiska bokstaven ص, som uttalas s. Soranins سابوون är samma ord, stavat med س."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "soap" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "television",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "📺",
+      "gloss": { "en": "television", "sv": "tv", "enAlt": ["TV", "telly"], "svAlt": ["teve", "television", "tv-apparat"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تەلەڤزیۆن", "latin": "televizyon" },
+        "notes": {
+          "en": "Spelled with ڤ, the Kurdish letter for v. \"To watch TV\" is تەماشای تەلەڤزیۆن کردن: لە ماڵەوە تەلەڤزیۆنم نییە \"I don't have a TV at home\".",
+          "sv": "Stavas med ڤ, den kurdiska bokstaven för v. \"Titta på tv\" heter تەماشای تەلەڤزیۆن کردن: لە ماڵەوە تەلەڤزیۆنم نییە \"jag har ingen tv hemma\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تلویزیون", "latin": "televizyun" },
+        "notes": {
+          "en": "\"To watch TV\" is تلویزیون تماشا کردن, in speech تلویزیون نگاه کردن, \"to look at TV\".",
+          "sv": "\"Titta på tv\" heter تلویزیون تماشا کردن, i tal säger man oftare تلویزیون نگاه کردن, ordagrant \"titta på tv\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تلویزیون" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "computer",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💻",
+      "gloss": { "en": "computer", "sv": "dator" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کۆمپیوتەر", "latin": "kompyuter" },
+        "notes": {
+          "en": "From English, like Persian کامپیوتر. کێشەی کۆمپیوتەرەکەت چییە؟ \"what's wrong with your computer?\"",
+          "sv": "Från engelskan, som persiskans کامپیوتر. کێشەی کۆمپیوتەرەکەت چییە؟ \"vad är det för fel på din dator?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "computer" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کامپیوتر", "latin": "kâmpyuter" },
+        "variants": [{ "script": "رایانه", "latin": "râyâne", "register": "formal" }],
+        "notes": {
+          "en": "رایانه (râyâne) is the word the Persian Academy made up. You see it in writing, but people say کامپیوتر.",
+          "sv": "رایانه (râyâne) är ordet som Persiska akademien hittade på. Man ser det i skrift, men folk säger کامپیوتر."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "computer" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "photo",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "📷",
+      "gloss": { "en": "photo", "sv": "foto", "enAlt": ["photograph", "picture"], "svAlt": ["bild", "fotografi", "kort"] },
+      "ckb": {
+        "primary": { "script": "وێنە", "latin": "wêne" },
+        "notes": {
+          "en": "Also \"picture, drawing\". To take a photo is وێنە گرتن. وێنەیەکی داپیرم بە دیوارەکە هەڵدەواسم \"I'm hanging a picture of my grandmother on the wall\".",
+          "sv": "Betyder också \"bild, teckning\". Att ta ett foto heter وێنە گرتن. وێنەیەکی داپیرم بە دیوارەکە هەڵدەواسم \"jag hänger upp en bild på min mormor på väggen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "picture" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عکس", "latin": "'aks" },
+        "notes": {
+          "en": "\"To take a photo\" is عکس گرفتن. عکس also means \"reflection\" and \"the opposite\": برعکس (bar'aks) \"on the contrary\".",
+          "sv": "\"Att fota\" heter عکس گرفتن. عکس betyder också \"spegelbild\" och \"motsats\": برعکس (bar'aks) \"tvärtom\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "عکس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "clock",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🕰️",
+      "gloss": { "en": "clock", "sv": "klocka", "enAlt": ["watch"], "svAlt": ["ur", "armbandsur"] },
+      "ckb": {
+        "primary": { "script": "کاتژمێر", "latin": "katjimêr" },
+        "variants": [{ "script": "سەعات", "latin": "se'at", "register": "colloquial" }],
+        "notes": {
+          "en": "The same word as \"hour\", and it also means a watch. کاتژمێرەکە هێواشە \"the clock is slow\".",
+          "sv": "Samma ord som \"timme\", och det betyder också armbandsur. کاتژمێرەکە هێواشە \"klockan går efter\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clock" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ساعت", "latin": "sâ'at" },
+        "notes": {
+          "en": "The same word as \"hour\". A wall clock is ساعت دیواری (sâ'at-e divâri), a wristwatch ساعت مچی (sâ'at-e mochi).",
+          "sv": "Samma ord som \"timme\". En väggklocka heter ساعت دیواری (sâ'at-e divâri), ett armbandsur ساعت مچی (sâ'at-e mochi)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clock" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "neighbour",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "neighbour", "sv": "granne", "enAlt": ["neighbor"] },
+      "ckb": {
+        "primary": { "script": "دراوسێ", "latin": "dirawsê" },
+        "notes": {
+          "en": "The i after د is not written: dirawsê. کچی دراوسێ is \"the girl next door\", literally \"the neighbour's daughter\".",
+          "sv": "I:et efter د skrivs inte: dirawsê. کچی دراوسێ är \"flickan i grannhuset\", ordagrant \"grannens dotter\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "neighbour" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "همسایه", "latin": "hamsâye" },
+        "notes": {
+          "en": "هم \"same, shared\" + سایه \"shade\": someone who shares your shade. The formal plural is همسایگان (hamsâyegân).",
+          "sv": "هم \"samma, gemensam\" + سایه \"skugga\": någon som delar din skugga. Den formella pluralen är همسایگان (hamsâyegân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "همسایه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "guest",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "guest", "sv": "gäst", "enAlt": ["visitor"], "svAlt": ["besökare"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "میوان", "latin": "mîwan" },
+        "notes": {
+          "en": "The same word as Persian مهمان. سبەی میوانمان دێن \"we're having guests tomorrow\", literally \"tomorrow our guests come\".",
+          "sv": "Samma ord som persiskans مهمان. سبەی میوانمان دێن \"vi får gäster i morgon\", ordagrant \"i morgon kommer våra gäster\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "guest" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مهمان", "latin": "mehmân" },
+        "variants": [{ "script": "مهمون", "latin": "mehmun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech مهمون (mehmun), like خانه → خونه. A party at someone's home is مهمانی (mehmâni).",
+          "sv": "I tal مهمون (mehmun), som خانه → خونه. En bjudning hemma hos någon heter مهمانی (mehmâni)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مهمان" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "rent",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "rent", "sv": "hyra", "svAlt": ["hyran"] },
+      "senseNote": { "en": "money for a home", "sv": "pengar för en bostad" },
+      "ckb": {
+        "primary": { "script": "کرێ", "latin": "kirê" },
+        "notes": {
+          "en": "Also a fare or hire charge. بە کرێ گرتن is \"to rent\": ئۆتۆمۆبیلێکمان بە کرێ گرت \"we rented a car\".",
+          "sv": "Också biljettpris eller hyra för en sak. بە کرێ گرتن betyder \"att hyra\": ئۆتۆمۆبیلێکمان بە کرێ گرت \"vi hyrde en bil\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rent" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اجاره", "latin": "ejâre" },
+        "variants": [{ "script": "کرایه", "latin": "kerâye" }],
+        "notes": {
+          "en": "\"To rent\" is اجاره کردن, \"to let\" اجاره دادن. کرایه (kerâye) is also used for rent, and it is the word for a taxi or bus fare.",
+          "sv": "\"Att hyra\" heter اجاره کردن, \"att hyra ut\" اجاره دادن. کرایه (kerâye) används också för hyra, och det är ordet för taxi- eller busspris."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "rent" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-clean",
+      "unit": "around-the-house",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🧹",
+      "gloss": { "en": "to clean", "sv": "att städa", "enAlt": ["clean", "to tidy", "tidy"], "svAlt": ["städa", "göra ren", "att göra ren", "rengöra"] },
+      "ckb": {
+        "primary": { "script": "پاک کردنەوە", "latin": "pak kirdinewe" },
+        "presentStem": { "script": "پاک کە", "latin": "pak ke" },
+        "pastStem": { "script": "پاک کرد", "latin": "pak kird" },
+        "variants": [{ "script": "خاوێن کردنەوە", "latin": "xawên kirdinewe" }],
+        "notes": {
+          "en": "پاک \"clean\" + کردن \"to do\" + -ewe: ژوورەکەم پاک دەکەمەوە \"I'm cleaning my room\". خاوێن کردنەوە means the same.",
+          "sv": "پاک \"ren\" + کردن \"att göra\" + -ewe: ژوورەکەم پاک دەکەمەوە \"jag städar mitt rum\". خاوێن کردنەوە betyder samma sak."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "تمیز کردن", "latin": "tamiz kardan" },
+        "presentStem": { "script": "تمیز کن", "latin": "tamiz kon" },
+        "pastStem": { "script": "تمیز کرد", "latin": "tamiz kard" },
+        "notes": {
+          "en": "تمیز \"clean\" + کردن \"to do\": اتاقت را تمیز کن! \"clean your room!\". پاک کردن is more \"to wipe, to erase\".",
+          "sv": "تمیز \"ren\" + کردن \"att göra\": اتاقت را تمیز کن! \"städa ditt rum!\". پاک کردن är mer \"att torka av, sudda ut\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clean" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-put",
+      "unit": "around-the-house",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to put", "sv": "att lägga", "enAlt": ["put", "to place", "place", "to set", "set"], "svAlt": ["lägga", "ställa", "att ställa", "sätta", "att sätta", "placera"] },
+      "senseNote": { "en": "to place something", "sv": "placera något" },
+      "ckb": {
+        "primary": { "script": "دانان", "latin": "danan" },
+        "presentStem": { "script": "دانێ", "latin": "danê" },
+        "pastStem": { "script": "دانا", "latin": "dana" },
+        "notes": {
+          "en": "دا- splits off: دادەنێم (dadenêm) \"I put\", دابنێ (dabinê) \"put (it)!\". Also \"to assume\": وای دادەنێم \"I suppose so\".",
+          "sv": "دا- skiljs från verbet: دادەنێم (dadenêm) \"jag lägger\", دابنێ (dabinê) \"lägg (den)!\". Betyder också \"anta\": وای دادەنێم \"jag antar det\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "place" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گذاشتن", "latin": "gozâshtan" },
+        "presentStem": { "script": "گذار", "latin": "gozâr" },
+        "pastStem": { "script": "گذاشت", "latin": "gozâsht" },
+        "notes": {
+          "en": "The ذ is said z. In speech می‌ذارم (mizâram) \"I put\". It also means \"to let\": بذار ببینم (bezâr bebinam) \"let me see\".",
+          "sv": "ذ uttalas z. I tal می‌ذارم (mizâram) \"jag lägger\". Det betyder också \"att låta\": بذار ببینم (bezâr bebinam) \"låt mig se\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "گذاشتن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "garbage",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🗑️",
+      "gloss": { "en": "garbage", "sv": "sopor", "enAlt": ["rubbish", "trash", "waste"], "svAlt": ["skräp", "avfall", "sopa"] },
+      "ckb": {
+        "primary": { "script": "زبڵ", "latin": "zibł" },
+        "notes": {
+          "en": "The bin is زبڵدان (zibłdan). هێشتا زبڵەکەم دەرنەهێناوە \"I haven't taken out the garbage yet\".",
+          "sv": "Soptunnan heter زبڵدان (zibłdan). هێشتا زبڵەکەم دەرنەهێناوە \"jag har inte gått ut med soporna än\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "زبڵ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "زباله", "latin": "zobâle" },
+        "variants": [{ "script": "آشغال", "latin": "âshghâl", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech آشغال (âshghâl) is more common: آشغال‌ها رو ببر بیرون \"take out the garbage\". The bin is سطل آشغال (satl-e âshghâl). Sorani زبڵ comes from the same Arabic root.",
+          "sv": "I tal är آشغال (âshghâl) vanligare: آشغال‌ها رو ببر بیرون \"gå ut med soporna\". Soptunnan heter سطل آشغال (satl-e âshghâl). Soranins زبڵ kommer från samma arabiska rot."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "trash" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "pillow",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "pillow", "sv": "kudde", "enAlt": ["cushion"], "svAlt": ["huvudkudde"] },
+      "ckb": {
+        "primary": { "script": "سەرین", "latin": "serîn" },
+        "notes": {
+          "en": "Like Swedish \"kudde\", it is both a pillow and a cushion. سەرینێکی بۆ هاوێشتم \"he threw a pillow at me\".",
+          "sv": "Precis som svenskans \"kudde\" är det både huvudkudde och soffkudde. سەرینێکی بۆ هاوێشتم \"han kastade en kudde på mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pillow" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بالش", "latin": "bâlesh" },
+        "notes": {
+          "en": "Both a pillow and a cushion. The firm cushion you lean on when sitting on the floor is پشتی (poshti), from پشت \"back\".",
+          "sv": "Både huvudkudde och soffkudde. Den fasta kudden man lutar sig mot när man sitter på golvet heter پشتی (poshti), av پشت \"rygg\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pillow" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "blanket",
+      "unit": "around-the-house",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "blanket", "sv": "filt", "enAlt": ["quilt"], "svAlt": ["täcke"] },
+      "ckb": {
+        "primary": { "script": "بەتانی", "latin": "betanî" },
+        "variants": [
+          {
+            "script": "لێفە",
+            "latin": "lêfe",
+            "note": { "en": "a thick quilt", "sv": "ett tjockt täcke" }
+          }
+        ],
+        "notes": {
+          "en": "بڕۆ بەتانییەکی بۆ بێنە \"go and get him a blanket\". A thick quilt is لێفە (lêfe).",
+          "sv": "بڕۆ بەتانییەکی بۆ بێنە \"gå och hämta en filt åt honom\". Ett tjockt täcke heter لێفە (lêfe)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "پتو", "latin": "patu" },
+        "variants": [
+          {
+            "script": "لحاف",
+            "latin": "lahâf",
+            "note": { "en": "a thick quilt", "sv": "ett tjockt täcke" }
+          }
+        ],
+        "notes": {
+          "en": "A thick quilt is لحاف (lahâf), the kind that goes over the heated korsi table in winter.",
+          "sv": "Ett tjockt täcke heter لحاف (lahâf), sådant som läggs över det uppvärmda korsi-bordet på vintern."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "blanket" }]
+      }
+    }
+  ]
+}

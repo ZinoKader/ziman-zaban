@@ -1,0 +1,747 @@
+{
+  "concepts": [
+    {
+      "id": "job",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💼",
+      "gloss": { "en": "job", "sv": "yrke", "enAlt": ["occupation", "profession"], "svAlt": ["jobb", "sysselsättning"] },
+      "senseNote": { "en": "what you do for a living", "sv": "det man jobbar med" },
+      "ckb": {
+        "primary": { "script": "پیشە", "latin": "pîşe" },
+        "notes": {
+          "en": "پیشە means \"profession\" and is the same word as Persian پیشه. In speech people ask چی کار دەکەیت؟ (çî kar dekeyt?) \"what do you do?\".",
+          "sv": "پیشە betyder \"yrke\" och är samma ord som persiskans پیشه. I tal frågar man چی کار دەکەیت؟ (çî kar dekeyt?) \"vad jobbar du med?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پیشە" }]
+      },
+      "fa": {
+        "primary": { "script": "شغل", "latin": "shoghl" },
+        "notes": {
+          "en": "The word on forms and in polite questions: شغل شما چیست؟ \"what is your job?\". In speech people ask چی‌کاره‌ای؟ (chikâre-i?), roughly \"what do you work as?\".",
+          "sv": "Ordet på blanketter och i artiga frågor: شغل شما چیست؟ \"vad har du för yrke?\". I tal frågar man چی‌کاره‌ای؟ (chikâre-i?), ungefär \"vad jobbar du som?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "job" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "teacher",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧑‍🏫",
+      "gloss": { "en": "teacher", "sv": "lärare", "svAlt": ["lärarinna", "fröken"] },
+      "ckb": {
+        "primary": { "script": "مامۆستا", "latin": "mamosta" },
+        "plural": { "script": "مامۆستایان", "latin": "mamostayan" },
+        "notes": {
+          "en": "Also a polite way to address teachers, lecturers and religious scholars: مامۆستا، پرسیارێکم هەیە \"teacher, I have a question\".",
+          "sv": "Används också när man tilltalar lärare, föreläsare och religiöst lärda: مامۆستا، پرسیارێکم هەیە, ordagrant \"lärare, jag har en fråga\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "teacher" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "معلم", "latin": "mo'allem" },
+        "plural": { "script": "معلمان", "latin": "mo'allemân" },
+        "notes": {
+          "en": "From Arabic, \"one who teaches\". A university teacher is استاد (ostâd), which is also a title for a master of a craft.",
+          "sv": "Från arabiskan, \"den som undervisar\". En universitetslärare är استاد (ostâd), som också är en titel för en mästare i ett hantverk."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "معلم" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "student",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "student", "sv": "student", "enAlt": ["university student"], "svAlt": ["studerande"] },
+      "senseNote": { "en": "at a university", "sv": "på universitet" },
+      "ckb": {
+        "primary": { "script": "خوێندکار", "latin": "xwêndkar" },
+        "variants": [{ "script": "قوتابی", "latin": "qutabî", "note": { "en": "school pupil", "sv": "skolelev" } }],
+        "notes": {
+          "en": "خوێندن \"to study\" + -کار \"-er\". A pupil at school is قوتابی (qutabî), the word in قوتابخانە \"school\".",
+          "sv": "خوێندن \"att studera\" + -کار \"-are\". En elev i skolan är قوتابی (qutabî), samma ord som i قوتابخانە \"skola\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دانشجو", "latin": "dâneshju" },
+        "variants": [{ "script": "دانش‌آموز", "latin": "dânesh-âmuz", "note": { "en": "school pupil", "sv": "skolelev" } }],
+        "plural": { "script": "دانشجویان", "latin": "dâneshjuyân" },
+        "notes": {
+          "en": "دانش \"knowledge\" + جو \"seeker\". A school pupil is دانش‌آموز (dânesh-âmuz), \"knowledge learner\". The university, دانشگاه, has the same دانش.",
+          "sv": "دانش \"kunskap\" + جو \"sökare\". En skolelev är دانش‌آموز (dânesh-âmuz), \"kunskapslärling\". Universitetet, دانشگاه, har samma دانش."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "student" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "office",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏢",
+      "gloss": { "en": "office", "sv": "kontor", "svAlt": ["byrå"] },
+      "ckb": {
+        "primary": { "script": "نووسینگە", "latin": "nûsînge" },
+        "variants": [{ "script": "ئۆفیس", "latin": "ofîs", "register": "colloquial" }],
+        "notes": {
+          "en": "نووسین \"to write\" + -گە \"place\". In speech many say ئۆفیس, from English: دەبێت بچم بۆ ئۆفیس \"I have to go to the office\".",
+          "sv": "نووسین \"att skriva\" + -گە \"plats\". I tal säger många ئۆفیس, från engelskan: دەبێت بچم بۆ ئۆفیس \"jag måste till kontoret\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اداره", "latin": "edâre" },
+        "notes": {
+          "en": "Usually an office you go to for work, often a government one: به اداره می‌روم \"I'm going to the office\", in speech می‌رم اداره (miram edâre). A private office is دفتر (daftar), the same word as \"notebook\".",
+          "sv": "Oftast ett kontor man går till för jobbet, ofta ett statligt: به اداره می‌روم \"jag går till kontoret\", i tal می‌رم اداره (miram edâre). Ett privat kontor är دفتر (daftar), samma ord som \"anteckningsbok\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اداره" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "colleague",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "colleague", "sv": "kollega", "enAlt": ["coworker", "co-worker"], "svAlt": ["arbetskamrat", "medarbetare"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هاوکار", "latin": "hawkar" },
+        "notes": {
+          "en": "هاو- \"co-\" + کار \"work\", built like Persian همکار. As an adjective it means \"helpful\": زۆر هاوکار بوو \"he was very helpful\".",
+          "sv": "هاو- \"med-\" + کار \"arbete\", byggt som persiskans همکار. Som adjektiv betyder det \"hjälpsam\": زۆر هاوکار بوو \"han var väldigt hjälpsam\"."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "همکار", "latin": "hamkâr" },
+        "plural": { "script": "همکاران", "latin": "hamkârân" },
+        "notes": {
+          "en": "هم- \"co-\" + کار \"work\". Introducing someone: همکار من است \"she's my colleague\", in speech همکارمه (hamkârame).",
+          "sv": "هم- \"med-\" + کار \"arbete\". När man presenterar någon: همکار من است \"hon är min kollega\", i tal همکارمه (hamkârame)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "coworker" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "boss",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "boss", "sv": "chef", "enAlt": ["manager", "director", "head"], "svAlt": ["boss", "föreståndare"] },
+      "ckb": {
+        "primary": { "script": "بەڕێوەبەر", "latin": "beřêweber" },
+        "notes": {
+          "en": "From بەڕێوەبردن \"to run, manage\". It is also the word for a school principal and for a director.",
+          "sv": "Från بەڕێوەبردن \"att leda, sköta\". Det är också ordet för en rektor och för en direktör."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "رئیس", "latin": "ra'is" },
+        "notes": {
+          "en": "Also \"head, president\": رئیس جمهور (ra'is-e jomhur) is the president of a country. A manager or director is مدیر (modir).",
+          "sv": "Betyder också \"ledare, ordförande\": رئیس جمهور (ra'is-e jomhur) är ett lands president. En direktör eller föreståndare heter مدیر (modir)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "رئیس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "engineer",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "engineer", "sv": "ingenjör" },
+      "ckb": {
+        "primary": { "script": "ئەندازیار", "latin": "endazyar" },
+        "notes": {
+          "en": "Built on ئەندازە \"measure, size\", the same word as Persian اندازه.",
+          "sv": "Bygger på ئەندازە \"mått, storlek\", samma ord som persiskans اندازه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "engineer" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مهندس", "latin": "mohandes" },
+        "notes": {
+          "en": "In Iran also a title of respect: people say آقای مهندس \"Mr Engineer\" to engineers and often to anyone who seems educated.",
+          "sv": "I Iran också en artig titel: man säger آقای مهندس \"herr ingenjör\" till ingenjörer och ofta till alla som verkar högutbildade."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مهندس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "nurse",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "nurse", "sv": "sjuksköterska", "svAlt": ["sköterska", "sjuksköterskan"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پەرستار", "latin": "peristar" },
+        "notes": {
+          "en": "The same word as Persian پرستار. Nursing, the job, is پەرستاری (peristarî).",
+          "sv": "Samma ord som persiskans پرستار. Själva yrket heter پەرستاری (peristarî)."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پرستار", "latin": "parastâr" },
+        "notes": {
+          "en": "The older meanings are \"servant\" and \"worshipper\", from پرستیدن (parastidan) \"to worship\". Nursing is پرستاری (parastâri).",
+          "sv": "De äldre betydelserna är \"tjänare\" och \"tillbedjare\", från پرستیدن (parastidan) \"att tillbe\". Sjukvårdsyrket heter پرستاری (parastâri)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پرستار" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "driver",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "driver", "sv": "chaufför", "enAlt": ["chauffeur"], "svAlt": ["förare", "busschaufför", "taxichaufför"] },
+      "ckb": {
+        "primary": { "script": "شۆفێر", "latin": "şofêr" },
+        "variants": [{ "script": "لێخوڕ", "latin": "lêxuř", "register": "formal" }],
+        "notes": {
+          "en": "From French \"chauffeur\", like Swedish \"chaufför\". شۆفێری is \"driving\": شۆفێری نازانێت \"he can't drive\".",
+          "sv": "Från franskans \"chauffeur\", precis som svenskans \"chaufför\". شۆفێری betyder \"bilkörning\": شۆفێری نازانێت \"han kan inte köra bil\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "driver" }]
+      },
+      "fa": {
+        "primary": { "script": "راننده", "latin": "rânande" },
+        "plural": { "script": "رانندگان", "latin": "rânandegân" },
+        "notes": {
+          "en": "From راندن (rândan) \"to drive\". A taxi driver is راننده‌ی تاکسی (rânande-ye tâksi). In the written plural the final ه becomes گ: رانندگان.",
+          "sv": "Från راندن (rândan) \"att köra\". En taxichaufför är راننده‌ی تاکسی (rânande-ye tâksi). I skriftspråkets plural blir slutets ه till گ: رانندگان."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "راننده" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "worker",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👷",
+      "gloss": { "en": "worker", "sv": "arbetare", "enAlt": ["labourer", "laborer", "workman"], "svAlt": ["arbetaren"] },
+      "ckb": {
+        "primary": { "script": "کرێکار", "latin": "kirêkar" },
+        "notes": {
+          "en": "کرێ \"wage, rent\" + کار \"work\": someone who works for a wage.",
+          "sv": "کرێ \"lön, hyra\" + کار \"arbete\": den som jobbar för lön."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "worker" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کارگر", "latin": "kârgar" },
+        "plural": { "script": "کارگران", "latin": "kârgarân" },
+        "notes": {
+          "en": "کار \"work\" + -گر, a suffix for people who make or do something. The same کار as in Sorani کرێکار.",
+          "sv": "کار \"arbete\" + -گر, en ändelse för den som gör eller tillverkar något. Samma کار som i soranins کرێکار."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کارگر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "company",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "company", "sv": "företag", "enAlt": ["firm", "business"], "svAlt": ["bolag", "firma"] },
+      "senseNote": { "en": "a firm", "sv": "firma, bolag" },
+      "ckb": {
+        "primary": { "script": "کۆمپانیا", "latin": "kompanya" },
+        "notes": {
+          "en": "A loanword that sounds like English \"company\": لە هەمان کۆمپانیا کار دەکەین \"we work at the same company\".",
+          "sv": "Ett lånord som låter som engelskans \"company\": لە هەمان کۆمپانیا کار دەکەین \"vi jobbar på samma företag\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شرکت", "latin": "sherkat" },
+        "notes": {
+          "en": "From Arabic \"partnership\". It also means \"taking part\": شرکت کردن \"to take part\".",
+          "sv": "Från arabiskans \"kompanjonskap\". Betyder också \"deltagande\": شرکت کردن \"att delta\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "شرکت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "salary",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "salary", "sv": "lön", "enAlt": ["wage", "wages", "pay"], "svAlt": ["månadslön"] },
+      "ckb": {
+        "primary": { "script": "مووچە", "latin": "mûçe" },
+        "variants": [{ "script": "مەعاش", "latin": "me'aş", "register": "colloquial" }],
+        "notes": {
+          "en": "مووچە is the usual written word. مەعاش (me'aş), from Arabic, is common in speech.",
+          "sv": "مووچە är det vanliga ordet i skrift. مەعاش (me'aş), från arabiskan, är vanligt i tal."
+        },
+        "sources": [{ "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "حقوق", "latin": "hoghugh" },
+        "notes": {
+          "en": "It is the plural of حق \"right\", so it also means \"rights\" and \"law\". \"My salary is low\" is حقوقم کم است.",
+          "sv": "Det är plural av حق \"rätt\", så det betyder också \"rättigheter\" och \"juridik\". \"Min lön är låg\" heter حقوقم کم است."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "حقوق" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lesson",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "lesson", "sv": "lektion" },
+      "ckb": {
+        "primary": { "script": "وانە", "latin": "wane" },
+        "variants": [{ "script": "دەرس", "latin": "ders", "register": "colloquial" }],
+        "notes": {
+          "en": "Textbooks number lessons with it: وانەی یەکەم \"lesson one\". In speech many say دەرس, the same word as Persian درس.",
+          "sv": "Läroböcker numrerar lektionerna med det: وانەی یەکەم \"lektion ett\". I tal säger många دەرس, samma ord som persiskans درس."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "درس", "latin": "dars" },
+        "notes": {
+          "en": "درس خواندن \"to read lessons\" is \"to study\", and درس دادن \"to give lessons\" is \"to teach\".",
+          "sv": "درس خواندن \"att läsa lektioner\" betyder \"att plugga\", och درس دادن \"att ge lektioner\" betyder \"att undervisa\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "درس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "class",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "class", "sv": "klass", "svAlt": ["lektion"] },
+      "senseNote": { "en": "group of students, or a lesson", "sv": "elevgrupp eller lektion" },
+      "ckb": {
+        "primary": { "script": "پۆل", "latin": "pol" },
+        "notes": {
+          "en": "The group of pupils and also the school year: پۆلی سێ \"third grade\". \"In class\" is لە پۆل. A single lesson is وانە.",
+          "sv": "Elevgruppen och också årskursen: پۆلی سێ \"årskurs tre\". \"På lektionen\" heter لە پۆل. En enskild lektion är وانە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "class" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کلاس", "latin": "kelâs" },
+        "notes": {
+          "en": "From French \"classe\". Also the lesson and the classroom: امروز کلاس دارم \"I have class today\".",
+          "sv": "Från franskans \"classe\". Betyder också lektion och klassrum: امروز کلاس دارم \"jag har lektion i dag\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کلاس" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "homework",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "📝",
+      "gloss": { "en": "homework", "sv": "läxa", "svAlt": ["läxor", "hemläxa"] },
+      "ckb": {
+        "primary": { "script": "ئەرکی ماڵەوە", "latin": "erkî małewe" },
+        "notes": {
+          "en": "Literally \"the task of home\": ئەرک \"duty, task\" + ماڵەوە \"home\". Often just ئەرک: ئەرکی سبەی چییە؟ \"what's the homework for tomorrow?\".",
+          "sv": "Ordagrant \"hemmets uppgift\": ئەرک \"plikt, uppgift\" + ماڵەوە \"hemma\". Ofta bara ئەرک: ئەرکی سبەی چییە؟ \"vad är läxan till i morgon?\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تکلیف", "latin": "taklif" },
+        "notes": {
+          "en": "Also \"duty, task\": تکلیف دارم \"I have homework\". Young pupils' written homework is مشق (mashgh).",
+          "sv": "Betyder också \"plikt, uppgift\": تکلیف دارم \"jag har läxor\". Små barns skrivläxa heter مشق (mashgh)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تکلیف" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "exam",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "exam", "sv": "prov", "enAlt": ["test", "examination"], "svAlt": ["tenta", "tentamen", "test"] },
+      "ckb": {
+        "primary": { "script": "تاقیکردنەوە", "latin": "taqîkirdinewe" },
+        "notes": {
+          "en": "Also \"test, trial\", from تاقی کردنەوە \"to try out\". \"I have an exam tomorrow\" is سبەی تاقیکردنەوەم هەیە.",
+          "sv": "Betyder också \"test, försök\", från تاقی کردنەوە \"att pröva\". \"Jag har prov i morgon\" heter سبەی تاقیکردنەوەم هەیە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "test" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "امتحان", "latin": "emtehân" },
+        "notes": {
+          "en": "The student \"gives\" the exam: امتحان دادن (emtehân dâdan) \"to take an exam\". فردا امتحان دارم \"I have an exam tomorrow\".",
+          "sv": "Eleven \"ger\" provet: امتحان دادن (emtehân dâdan) \"att skriva prov\". فردا امتحان دارم \"jag har prov i morgon\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "امتحان" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "university",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "university", "sv": "universitet", "enAlt": ["college"], "svAlt": ["högskola"] },
+      "ckb": {
+        "primary": { "script": "زانکۆ", "latin": "zanko" },
+        "notes": {
+          "en": "Built on زان- \"know\", as in زانین \"to know\". A university student is خوێندکاری زانکۆ.",
+          "sv": "Bygger på زان- \"veta\", som i زانین \"att veta\". En universitetsstudent är خوێندکاری زانکۆ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "university" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دانشگاه", "latin": "dâneshgâh" },
+        "notes": {
+          "en": "دانش \"knowledge\" + گاه \"place\". Persian d often matches Sorani z: دانستن and زانین both mean \"to know\", so دانشگاه and زانکۆ share a root.",
+          "sv": "دانش \"kunskap\" + گاه \"plats\". Persiskans d motsvarar ofta soranins z: دانستن och زانین betyder båda \"att veta\", så دانشگاه och زانکۆ har samma rot."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "دانشگاه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "pen",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🖊️",
+      "gloss": { "en": "pen", "sv": "penna", "enAlt": ["ballpoint pen", "biro"], "svAlt": ["bläckpenna", "kulspetspenna", "kulpenna"] },
+      "ckb": {
+        "primary": { "script": "پێنووس", "latin": "pênûs" },
+        "notes": {
+          "en": "Built on نووسین \"to write\". It covers both pen and pencil. قەڵەم (qełem) is also common.",
+          "sv": "Bygger på نووسین \"att skriva\". Ordet gäller både bläckpenna och blyertspenna. قەڵەم (qełem) är också vanligt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pen" }]
+      },
+      "fa": {
+        "primary": { "script": "خودکار", "latin": "khodkâr" },
+        "notes": {
+          "en": "A ballpoint pen. The word also means \"automatic\": خود \"self\" + کار \"work\". Any pen is قلم (ghalam), the same word as Sorani قەڵەم.",
+          "sv": "En kulspetspenna. Ordet betyder också \"automatisk\": خود \"själv\" + کار \"arbete\". En penna i allmänhet är قلم (ghalam), samma ord som soranins قەڵەم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "paper",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "📄",
+      "gloss": { "en": "paper", "sv": "papper" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کاغەز", "latin": "kaẍez" },
+        "notes": {
+          "en": "The same word as Persian کاغذ. It can also mean a letter on paper.",
+          "sv": "Samma ord som persiskans کاغذ. Det kan också betyda ett brev på papper."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "paper" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کاغذ", "latin": "kâghaz" },
+        "notes": {
+          "en": "A sheet of paper is یک برگ کاغذ, literally \"a leaf of paper\". Like Sorani کاغەز, it can also mean a letter.",
+          "sv": "Ett pappersark är یک برگ کاغذ, ordagrant \"ett blad papper\". Precis som soranins کاغەز kan det också betyda brev."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "paper" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "notebook",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "📓",
+      "gloss": { "en": "notebook", "sv": "anteckningsbok", "enAlt": ["exercise book"], "svAlt": ["skrivbok", "block", "kollegieblock"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دەفتەر", "latin": "defter" },
+        "notes": {
+          "en": "The same word as Persian دفتر. \"My notebook\" is دەفتەرەکەم (defterekem).",
+          "sv": "Samma ord som persiskans دفتر. \"Min anteckningsbok\" heter دەفتەرەکەم (defterekem)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "notebook" }]
+      },
+      "fa": {
+        "primary": { "script": "دفتر", "latin": "daftar" },
+        "notes": {
+          "en": "Also \"office\" and \"register\": دفتر تلفن (daftar-e telefon) is a phone book.",
+          "sv": "Betyder också \"kontor\" och \"register\": دفتر تلفن (daftar-e telefon) är en telefonbok."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "دفتر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "question",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "❓",
+      "gloss": { "en": "question", "sv": "fråga" },
+      "ckb": {
+        "primary": { "script": "پرسیار", "latin": "pirsyar" },
+        "notes": {
+          "en": "From پرسین \"to ask\", like Persian پرسش from پرسیدن. Asking uses کردن: مامۆستا پرسیارێک لە خوێندکاران دەکات \"the teacher asks the students a question\".",
+          "sv": "Från پرسین \"att fråga\", precis som persiskans پرسش från پرسیدن. Att ställa en fråga görs med کردن: مامۆستا پرسیارێک لە خوێندکاران دەکات \"läraren ställer en fråga till studenterna\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "question" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سؤال", "latin": "so'âl" },
+        "variants": [{ "script": "پرسش", "latin": "porsesh", "register": "formal" }],
+        "notes": {
+          "en": "The everyday word, from Arabic: یک سؤال دارم \"I have a question\". It is often written سوال. پرسش is the Persian word, used in writing.",
+          "sv": "Vardagsordet, från arabiskan: یک سؤال دارم \"jag har en fråga\". Det skrivs ofta سوال. پرسش är det persiska ordet och används i skrift."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "question" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "answer",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "answer", "sv": "svar", "enAlt": ["reply"] },
+      "ckb": {
+        "primary": { "script": "وەڵام", "latin": "wełam" },
+        "notes": {
+          "en": "To answer is وەڵام دانەوە, \"to give back an answer\": وەڵامی پرسیارەکە بدەنەوە \"answer the question\" (to several people).",
+          "sv": "Att svara heter وەڵام دانەوە, \"att ge tillbaka ett svar\": وەڵامی پرسیارەکە بدەنەوە \"svara på frågan\" (till flera personer)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "answer" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جواب", "latin": "javâb" },
+        "variants": [{ "script": "پاسخ", "latin": "pâsokh", "register": "formal" }],
+        "notes": {
+          "en": "To answer is جواب دادن \"to give an answer\". پاسخ (pâsokh) means the same and is used in writing and on the news.",
+          "sv": "Att svara heter جواب دادن \"att ge svar\". پاسخ (pâsokh) betyder samma sak och används i skrift och på nyheterna."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "answer" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "word",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "word", "sv": "ord" },
+      "ckb": {
+        "primary": { "script": "وشە", "latin": "wişe" },
+        "notes": {
+          "en": "\"The words\" is وشەکان (wişekan). A dictionary is فەرهەنگ (ferheng), the same word as Persian فرهنگ, which also means \"culture\".",
+          "sv": "\"Orden\" heter وشەکان (wişekan). En ordbok är فەرهەنگ (ferheng), samma ord som persiskans فرهنگ, som också betyder \"kultur\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "word" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کلمه", "latin": "kalame" },
+        "variants": [{ "script": "واژه", "latin": "vâzhe", "register": "formal" }],
+        "notes": {
+          "en": "From Arabic. واژه (vâzhe) is the Persian word, mostly written. \"What does this word mean?\" is این کلمه یعنی چه؟, in speech یعنی چی؟ (ya'ni chi?).",
+          "sv": "Från arabiskan. واژه (vâzhe) är det persiska ordet och används mest i skrift. \"Vad betyder det här ordet?\" heter این کلمه یعنی چه؟, i tal یعنی چی؟ (ya'ni chi?)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "word" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sentence",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "sentence", "sv": "mening", "svAlt": ["sats"] },
+      "senseNote": { "en": "in grammar", "sv": "i grammatik" },
+      "ckb": {
+        "primary": { "script": "ڕستە", "latin": "řiste" },
+        "notes": {
+          "en": "Often paired with وشە: وشە و ڕستە \"words and sentences\". Persian uses جمله, from Arabic.",
+          "sv": "Står ofta ihop med وشە: وشە و ڕستە \"ord och meningar\". Persiskan använder جمله, från arabiskan."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جمله", "latin": "jomle" },
+        "notes": {
+          "en": "From Arabic \"sum, whole\", which is why it also turns up in از جمله (az jomle) \"among others, including\".",
+          "sv": "Från arabiskans \"summa, helhet\", därför finns det också i از جمله (az jomle) \"bland annat\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "جمله" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "letter",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "✉️",
+      "gloss": { "en": "letter", "sv": "brev" },
+      "senseNote": { "en": "that you post", "sv": "som man skickar" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نامە", "latin": "name" },
+        "notes": {
+          "en": "Careful: نامە is read \"name\" but means a letter. \"Name\" is ناو.",
+          "sv": "Se upp: نامە uttalas \"name\" men betyder brev. \"Namn\" heter ناو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "letter" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نامه", "latin": "nâme" },
+        "notes": {
+          "en": "Also in words for written things: روزنامه (ruznâme) \"newspaper\" is literally \"day letter\".",
+          "sv": "Finns också i ord för skrivna saker: روزنامه (ruznâme) \"tidning\" är ordagrant \"dagbrev\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "letter" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "meeting",
+      "unit": "work-study",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "meeting", "sv": "möte", "svAlt": ["sammanträde"] },
+      "ckb": {
+        "primary": { "script": "کۆبوونەوە", "latin": "kobûnewe" },
+        "notes": {
+          "en": "کۆ \"together\" + بوونەوە, literally \"coming together\": کۆبوونەوەکە کەی دەست پێدەکات؟ \"when does the meeting start?\".",
+          "sv": "کۆ \"tillsammans\" + بوونەوە, ordagrant \"att komma samman\": کۆبوونەوەکە کەی دەست پێدەکات؟ \"när börjar mötet?\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جلسه", "latin": "jalase" },
+        "notes": {
+          "en": "A meeting at work. \"I'm in a meeting\" is در جلسه هستم, in speech تو جلسه‌ام (tu jalase-am). Meeting a person is دیدار (didâr).",
+          "sv": "Ett möte på jobbet. \"Jag sitter i möte\" heter در جلسه هستم, i tal تو جلسه‌ام (tu jalase-am). Att träffa en person är دیدار (didâr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "جلسه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-teach",
+      "unit": "work-study",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to teach", "sv": "att lära ut", "enAlt": ["teach"], "svAlt": ["lära ut", "undervisa", "att undervisa", "lära"] },
+      "ckb": {
+        "primary": { "script": "فێر کردن", "latin": "fêr kirdin" },
+        "variants": [{ "script": "وانە وتنەوە", "latin": "wane witinewe", "note": { "en": "to give lessons", "sv": "att undervisa" } }],
+        "presentStem": { "script": "فێر کە", "latin": "fêr ke" },
+        "pastStem": { "script": "فێر کرد", "latin": "fêr kird" },
+        "notes": {
+          "en": "The same فێر as in فێر بوون \"to learn\": فێرت دەکەم \"I'll teach you\". A teacher's work is وانە وتنەوە: وانەی ئینگلیزی دەڵێتەوە \"she teaches English\".",
+          "sv": "Samma فێر som i فێر بوون \"att lära sig\": فێرت دەکەم \"jag lär dig\". En lärares arbete heter وانە وتنەوە: وانەی ئینگلیزی دەڵێتەوە \"hon undervisar i engelska\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "یاد دادن", "latin": "yâd dâdan" },
+        "variants": [{ "script": "درس دادن", "latin": "dars dâdan", "note": { "en": "to give lessons", "sv": "att undervisa" } }],
+        "presentStem": { "script": "یاد ده", "latin": "yâd deh" },
+        "pastStem": { "script": "یاد داد", "latin": "yâd dâd" },
+        "notes": {
+          "en": "The pair of یاد گرفتن \"to learn\". The person taught takes به: به من فارسی یاد بده \"teach me Persian\". A teacher at a school درس می‌دهد \"gives lessons\".",
+          "sv": "Motsatsen till یاد گرفتن \"att lära sig\". Den som lär sig får به: به من فارسی یاد بده \"lär mig persiska\". En lärare i skolan درس می‌دهد \"ger lektioner\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "یاد دادن" }]
+      }
+    },
+    {
+      "id": "to-begin",
+      "unit": "work-study",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🏁",
+      "gloss": { "en": "to begin", "sv": "att börja", "enAlt": ["to start", "begin", "start"], "svAlt": ["börja", "starta", "att starta"] },
+      "ckb": {
+        "primary": { "script": "دەست پێکردن", "latin": "dest pêkirdin" },
+        "variants": [{ "script": "دەسپێکردن", "latin": "despêkirdin", "register": "colloquial" }],
+        "presentStem": { "script": "دەست پێکە", "latin": "dest pêke" },
+        "pastStem": { "script": "دەست پێکرد", "latin": "dest pêkird" },
+        "notes": {
+          "en": "Built on دەست \"hand\": دەست پێدەکەم \"I'm starting\". In speech the t often drops: دەسپێکردن.",
+          "sv": "Bygger på دەست \"hand\": دەست پێدەکەم \"jag börjar\". I tal faller t ofta bort: دەسپێکردن."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شروع کردن", "latin": "shoru' kardan" },
+        "presentStem": { "script": "شروع کن", "latin": "shoru' kon" },
+        "pastStem": { "script": "شروع کرد", "latin": "shoru' kard" },
+        "notes": {
+          "en": "For something that starts by itself use شدن: کلاس ساعت هشت شروع می‌شود \"class starts at eight\". آغاز کردن (âghâz kardan) is the formal word.",
+          "sv": "Om något som börjar av sig självt används شدن: کلاس ساعت هشت شروع می‌شود \"lektionen börjar klockan åtta\". آغاز کردن (âghâz kardan) är det formella ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "begin" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-finish",
+      "unit": "work-study",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to finish", "sv": "att avsluta", "enAlt": ["to end", "to complete", "finish", "end", "complete"], "svAlt": ["avsluta", "göra klart", "att göra klart", "slutföra"] },
+      "ckb": {
+        "primary": { "script": "تەواو کردن", "latin": "tewaw kirdin" },
+        "presentStem": { "script": "تەواو کە", "latin": "tewaw ke" },
+        "pastStem": { "script": "تەواو کرد", "latin": "tewaw kird" },
+        "notes": {
+          "en": "تەواو means \"finished, complete\", and on its own \"that's it, done\". For something that ends by itself use بوون: تەواو بوو \"it's over\".",
+          "sv": "تەواو betyder \"färdig, hel\", och ensamt \"klart, det var allt\". Om något som tar slut av sig självt används بوون: تەواو بوو \"det är slut\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "complete" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تمام کردن", "latin": "tamâm kardan" },
+        "variants": [{ "script": "تموم کردن", "latin": "tamum kardan", "register": "colloquial" }],
+        "presentStem": { "script": "تمام کن", "latin": "tamâm kon" },
+        "pastStem": { "script": "تمام کرد", "latin": "tamâm kard" },
+        "notes": {
+          "en": "For something that ends by itself use شدن: کلاس تمام شد \"class is over\". In speech تمام becomes تموم (tamum): تموم شد! \"it's over!\".",
+          "sv": "Om något som tar slut av sig självt används شدن: کلاس تمام شد \"lektionen är slut\". I tal blir تمام till تموم (tamum): تموم شد! \"det är slut!\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "finish" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "busy",
+      "unit": "work-study",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "busy", "sv": "upptagen", "enAlt": ["occupied"], "svAlt": ["sysselsatt", "upptaget"] },
+      "ckb": {
+        "primary": { "script": "سەرقاڵ", "latin": "serqał" },
+        "notes": {
+          "en": "سەرقاڵم \"I'm busy\". خەریک (xerîk) means \"in the middle of\": خەریکم قاپەکان دەشۆم \"I'm washing the dishes right now\".",
+          "sv": "سەرقاڵم \"jag är upptagen\". خەریک (xerîk) betyder \"mitt i\": خەریکم قاپەکان دەشۆم \"jag håller på att diska\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مشغول", "latin": "mashghul" },
+        "notes": {
+          "en": "مشغولم \"I'm busy\". In speech people often say سرم شلوغه (saram sholughe), literally \"my head is crowded\". A busy street is خیابان شلوغ.",
+          "sv": "مشغولم \"jag är upptagen\". I tal säger man ofta سرم شلوغه (saram sholughe), ordagrant \"mitt huvud är fullt av folk\". En livlig gata är خیابان شلوغ."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "busy" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

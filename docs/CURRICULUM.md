@@ -1,6 +1,6 @@
 # Curriculum
 
-Ten units take the learner from greetings to holding a simple conversation. Each unit has a communicative goal (`canDo` in `src/content/data/units.json`) and teaches the words, sentences, questions and grammar needed to reach it.
+Twenty units take the learner from greetings to holding a simple conversation (units 1 to 10, level A1) and then to everyday topics like health, shopping, travel and work (units 11 to 20, level A2). Each unit has a communicative goal (`canDo` in `src/content/data/units.json`) and teaches the words, sentences, questions and grammar needed to reach it.
 
 ## Concept registry
 
@@ -278,6 +278,356 @@ hello, goodbye, thank-you, thanks-a-lot, please, yes, no, how-are-you, good, i-a
 | excuse-me | excuse me (to get attention) |
 | lets-go | let's go |
 | see-you-later | see you later |
+
+### 11. body-health
+
+| id | en |
+| --- | --- |
+| body | body |
+| head | head |
+| face | face |
+| hair | hair (on the head) |
+| eye | eye |
+| ear | ear |
+| nose | nose |
+| mouth | mouth |
+| tooth | tooth |
+| neck | neck |
+| shoulder | shoulder |
+| arm | arm |
+| hand | hand |
+| finger | finger |
+| leg | leg |
+| foot | foot |
+| back | back (body part) |
+| stomach | stomach / belly |
+| heart | heart |
+| blood | blood |
+| pain | pain |
+| to-hurt | to hurt (ache) |
+| headache | headache |
+| fever | fever |
+| common-cold | cold (the illness) |
+| medicine | medicine |
+| pharmacy | pharmacy |
+| healthy | healthy |
+| to-rest | to rest |
+| dentist | dentist |
+
+### 12. shopping-clothes
+
+| id | en |
+| --- | --- |
+| shirt | shirt |
+| trousers | trousers |
+| dress | dress |
+| shoe | shoe |
+| coat | coat |
+| hat | hat |
+| sock | sock |
+| scarf | scarf |
+| bag | bag |
+| size | size (of clothes) |
+| price | price |
+| customer | customer |
+| to-pay | to pay |
+| to-sell | to sell |
+| to-wear | to wear (clothes) |
+| cash | cash |
+| bank-card | card (bank card) |
+| long | long |
+| short | short (in length) |
+| thirteen | thirteen |
+| fourteen | fourteen |
+| sixteen | sixteen |
+| seventeen | seventeen |
+| eighteen | eighteen |
+| nineteen | nineteen |
+| forty | forty |
+| sixty | sixty |
+| seventy | seventy |
+| eighty | eighty |
+| ninety | ninety |
+
+### 13. weather-seasons
+
+| id | en |
+| --- | --- |
+| sun | sun |
+| moon | moon |
+| star | star |
+| sky | sky |
+| cloud | cloud |
+| rain | rain |
+| snow | snow |
+| wind | wind |
+| storm | storm |
+| ice | ice |
+| spring | spring (the season) |
+| summer | summer |
+| autumn | autumn |
+| winter | winter |
+| season | season |
+| warm | warm |
+| cool | cool (pleasantly cold) |
+| wet | wet |
+| dry | dry |
+| sunny | sunny |
+| cloudy | cloudy |
+| umbrella | umbrella |
+| to-rain | to rain |
+| temperature | temperature |
+| degree | degree (of temperature) |
+| light | light (daylight, lamp light) |
+| dark | dark |
+| air | air |
+| world | world |
+| nature | nature |
+
+### 14. nature-animals
+
+| id | en |
+| --- | --- |
+| animal | animal |
+| dog | dog |
+| cat | cat |
+| bird | bird |
+| horse | horse |
+| cow | cow |
+| sheep | sheep |
+| goat | goat |
+| donkey | donkey |
+| fish | fish (the animal, also the food) |
+| lion | lion |
+| wolf | wolf |
+| bear | bear (the animal) |
+| mouse | mouse (the animal) |
+| snake | snake |
+| bee | bee |
+| butterfly | butterfly |
+| tree | tree |
+| flower | flower |
+| grass | grass |
+| leaf | leaf |
+| garden | garden |
+| river | river |
+| sea | sea |
+| lake | lake |
+| forest | forest |
+| stone | stone |
+| desert | desert |
+| island | island |
+| field | field (a farmer's field) |
+
+### 15. kitchen-cooking
+
+| id | en |
+| --- | --- |
+| vegetable | vegetable |
+| potato | potato |
+| tomato | tomato |
+| onion | onion |
+| cucumber | cucumber |
+| carrot | carrot |
+| garlic | garlic |
+| orange | orange (the fruit) |
+| banana | banana |
+| grape | grape |
+| watermelon | watermelon |
+| lemon | lemon |
+| juice | juice |
+| soup | soup |
+| oil | oil (cooking oil) |
+| butter | butter |
+| honey | honey |
+| plate | plate |
+| spoon | spoon |
+| fork | fork |
+| knife | knife |
+| cup | cup |
+| pot | pot (for cooking) |
+| to-cut | to cut |
+| sweet | sweet |
+| sour | sour |
+| salty | salty |
+| spicy | spicy (hot with chili) |
+| restaurant | restaurant |
+| bill | bill (at a restaurant) |
+
+### 16. around-the-house
+
+| id | en |
+| --- | --- |
+| bathroom | bathroom |
+| toilet | toilet |
+| shower | shower |
+| bedroom | bedroom |
+| living-room | living room |
+| floor | floor (what you walk on) |
+| wall | wall |
+| roof | roof |
+| stairs | stairs |
+| lamp | lamp |
+| sofa | sofa |
+| carpet | carpet |
+| fridge | fridge |
+| stove | stove (for cooking) |
+| cupboard | cupboard |
+| mirror | mirror |
+| towel | towel |
+| soap | soap |
+| television | television |
+| computer | computer |
+| photo | photo |
+| clock | clock |
+| neighbour | neighbour |
+| guest | guest |
+| rent | rent (money for a home) |
+| to-clean | to clean |
+| to-put | to put (to place something) |
+| garbage | garbage / rubbish |
+| pillow | pillow |
+| blanket | blanket |
+
+### 17. travel-town
+
+| id | en |
+| --- | --- |
+| train | train |
+| station | station |
+| plane | plane (that flies) |
+| hotel | hotel |
+| passport | passport |
+| map | map |
+| road | road |
+| bridge | bridge |
+| park | park |
+| bank | bank (for money) |
+| mosque | mosque |
+| museum | museum |
+| police | police |
+| bicycle | bicycle |
+| to-travel | to travel |
+| trip | trip |
+| suitcase | suitcase |
+| to-arrive | to arrive |
+| to-leave | to leave (depart) |
+| north | north |
+| south | south |
+| east | east |
+| west | west |
+| square | square (in a town) |
+| corner | corner |
+| to-drive | to drive |
+| to-walk | to walk (on foot) |
+| post-office | post office |
+| tourist | tourist |
+| address | address (where you live) |
+
+### 18. work-study
+
+| id | en |
+| --- | --- |
+| job | job (occupation) |
+| teacher | teacher |
+| student | student (at university) |
+| office | office |
+| colleague | colleague |
+| boss | boss |
+| engineer | engineer |
+| nurse | nurse |
+| driver | driver |
+| worker | worker |
+| company | company (a firm) |
+| salary | salary |
+| lesson | lesson |
+| class | class (a group of students or a lesson) |
+| homework | homework |
+| exam | exam |
+| university | university |
+| pen | pen |
+| paper | paper |
+| notebook | notebook |
+| question | question |
+| answer | answer (noun) |
+| word | word |
+| sentence | sentence (grammar) |
+| letter | letter (that you post) |
+| meeting | meeting |
+| to-teach | to teach |
+| to-begin | to begin |
+| to-finish | to finish |
+| busy | busy |
+
+### 19. people-feelings
+
+| id | en |
+| --- | --- |
+| people | people |
+| boy | boy |
+| girl | girl |
+| young | young |
+| tall | tall (person) |
+| strong | strong |
+| weak | weak |
+| alone | alone |
+| angry | angry |
+| afraid | afraid |
+| bored | bored |
+| worried | worried |
+| surprised | surprised |
+| kind | kind (nice to others) |
+| calm | calm |
+| lazy | lazy |
+| clever | clever |
+| funny | funny |
+| love | love (noun) |
+| to-love | to love |
+| to-laugh | to laugh |
+| to-cry | to cry |
+| to-think | to think |
+| to-remember | to remember |
+| to-forget | to forget |
+| life | life |
+| birthday | birthday |
+| party | party (celebration) |
+| gift | gift |
+| wedding | wedding |
+
+### 20. time-plans
+
+| id | en |
+| --- | --- |
+| afternoon | afternoon |
+| noon | noon |
+| weekend | weekend |
+| holiday | holiday (day off or vacation) |
+| time | time (as in "I have no time") |
+| soon | soon |
+| later | later |
+| before | before |
+| after | after |
+| until | until |
+| ago | ago |
+| first | first |
+| last | last (the last one / last week) |
+| next | next (next week) |
+| to-meet | to meet |
+| to-return | to return / to come back |
+| to-send | to send |
+| to-bring | to bring |
+| to-find | to find |
+| to-lose | to lose (something) |
+| to-ask | to ask |
+| to-answer | to answer |
+| to-show | to show |
+| to-try | to try |
+| to-use | to use |
+| to-change | to change |
+| to-run | to run |
+| to-swim | to swim |
+| to-sing | to sing |
+| to-dance | to dance |
 
 ## Grammar plan
 

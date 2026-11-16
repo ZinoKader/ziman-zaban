@@ -21,34 +21,7 @@
         "credit": "John Phelan",
         "license": "CC BY-SA 3.0"
       },
-      "gloss": {
-        "en": "watermelon",
-        "sv": "vattenmelon"
-      },
-      "ckb": {
-        "primary": {
-          "script": "شووتی",
-          "latin": "şûtî"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "watermelon"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "هندوانه",
-          "latin": "hendevâne"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "watermelon"
-          }
-        ]
-      }
+      "concept": "watermelon"
     },
     {
       "id": "pomegranate",
@@ -95,47 +68,7 @@
         "credit": "Softeis",
         "license": "CC BY-SA 3.0"
       },
-      "gloss": {
-        "en": "tomatoes",
-        "sv": "tomater",
-        "enAlt": [
-          "tomato"
-        ],
-        "svAlt": [
-          "tomat"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "تەماتە",
-          "latin": "temate"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "tomato"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "گوجه‌فرنگی",
-          "latin": "gowje-farangi"
-        },
-        "variants": [
-          {
-            "script": "گوجه",
-            "latin": "gowje",
-            "register": "colloquial"
-          }
-        ],
-        "sources": [
-          {
-            "source": "wikipedia",
-            "ref": "fa:گوجه‌فرنگی"
-          }
-        ]
-      }
+      "concept": "tomato"
     },
     {
       "id": "cucumber",
@@ -145,40 +78,7 @@
         "credit": "Jason Zhang",
         "license": "CC BY-SA 3.0"
       },
-      "gloss": {
-        "en": "cucumbers",
-        "sv": "gurkor",
-        "enAlt": [
-          "cucumber"
-        ],
-        "svAlt": [
-          "gurka"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "خەیار",
-          "latin": "xeyar"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "cucumber"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "خیار",
-          "latin": "khiyâr"
-        },
-        "sources": [
-          {
-            "source": "wikipedia",
-            "ref": "fa:خیار"
-          }
-        ]
-      }
+      "concept": "cucumber"
     },
     {
       "id": "eggplant",
@@ -240,41 +140,7 @@
         "credit": "Bff",
         "license": "CC BY-SA 4.0"
       },
-      "gloss": {
-        "en": "potatoes",
-        "sv": "potatis",
-        "enAlt": [
-          "potato"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "پەتاتە",
-          "latin": "petate"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "potato"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "سیب‌زمینی",
-          "latin": "sib-zamini"
-        },
-        "notes": {
-          "en": "Literally \"earth apple\", like French pomme de terre.",
-          "sv": "Ordagrant \"jordäpple\", som det gamla svenska ordet."
-        },
-        "sources": [
-          {
-            "source": "wikipedia",
-            "ref": "fa:سیب‌زمینی"
-          }
-        ]
-      }
+      "concept": "potato"
     },
     {
       "id": "onion",
@@ -284,37 +150,7 @@
         "credit": "Colin",
         "license": "CC BY-SA 3.0"
       },
-      "gloss": {
-        "en": "onion",
-        "sv": "lök",
-        "enAlt": [
-          "onions"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "پیاز",
-          "latin": "pyaz"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "onion"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "پیاز",
-          "latin": "piyâz"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "onion"
-          }
-        ]
-      }
+      "concept": "onion"
     },
     {
       "id": "lemon",
@@ -324,46 +160,7 @@
         "credit": "André Karwath aka Aka",
         "license": "CC BY-SA 2.5"
       },
-      "gloss": {
-        "en": "lemons",
-        "sv": "citroner",
-        "enAlt": [
-          "lemon"
-        ],
-        "svAlt": [
-          "citron"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "لیمۆ",
-          "latin": "lîmo"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "lemon"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "لیمو",
-          "latin": "limu"
-        },
-        "variants": [
-          {
-            "script": "لیموترش",
-            "latin": "limu-torsh"
-          }
-        ],
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "lemon"
-          }
-        ]
-      }
+      "concept": "lemon"
     },
     {
       "id": "grapes",
@@ -373,41 +170,7 @@
         "credit": "Carl Davies, CSIRO",
         "license": "CC BY 3.0"
       },
-      "gloss": {
-        "en": "grapes",
-        "sv": "vindruvor",
-        "enAlt": [
-          "grape"
-        ],
-        "svAlt": [
-          "druvor",
-          "vindruva"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "ترێ",
-          "latin": "trê"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "grape"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "انگور",
-          "latin": "angur"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "grape"
-          }
-        ]
-      }
+      "concept": "grape"
     },
     {
       "id": "figs",
@@ -457,40 +220,7 @@
         "credit": "domdomegg",
         "license": "CC BY 4.0"
       },
-      "gloss": {
-        "en": "carrots",
-        "sv": "morötter",
-        "enAlt": [
-          "carrot"
-        ],
-        "svAlt": [
-          "morot"
-        ]
-      },
-      "ckb": {
-        "primary": {
-          "script": "گێزەر",
-          "latin": "gêzer"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "carrot"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "هویج",
-          "latin": "havij"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "carrot"
-          }
-        ]
-      }
+      "concept": "carrot"
     },
     {
       "id": "cherries",

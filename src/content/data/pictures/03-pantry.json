@@ -444,34 +444,7 @@
         "credit": "Tasmanianbeekeepers",
         "license": "CC BY-SA 4.0"
       },
-      "gloss": {
-        "en": "honey",
-        "sv": "honung"
-      },
-      "ckb": {
-        "primary": {
-          "script": "هەنگوین",
-          "latin": "hengwîn"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "honey"
-          }
-        ]
-      },
-      "fa": {
-        "primary": {
-          "script": "عسل",
-          "latin": "'asal"
-        },
-        "sources": [
-          {
-            "source": "wiktionary",
-            "ref": "honey"
-          }
-        ]
-      }
+      "concept": "honey"
     },
     {
       "id": "cardamom",

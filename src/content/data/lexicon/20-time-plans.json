@@ -1,0 +1,819 @@
+{
+  "concepts": [
+    {
+      "id": "afternoon",
+      "unit": "time-plans",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "afternoon", "sv": "eftermiddag" },
+      "ckb": {
+        "primary": { "script": "دوای نیوەڕۆ", "latin": "dway nîweřo" },
+        "variants": [{ "script": "پاش نیوەڕۆ", "latin": "paş nîweřo" }],
+        "notes": {
+          "en": "Literally \"after noon\", just like the English word: دوای \"after\" + نیوەڕۆ \"noon\". دوای نیوەڕۆ دەچمە دەرەوە \"I'm going out this afternoon\".",
+          "sv": "Ordagrant \"efter middag\", precis som eftermiddag: دوای \"efter\" + نیوەڕۆ \"mitt på dagen\". دوای نیوەڕۆ دەچمە دەرەوە \"jag går ut i eftermiddag\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بعد از ظهر", "latin": "ba'd az zohr" },
+        "variants": [{ "script": "بعدازظهر", "latin": "ba'dazzohr", "note": { "en": "also written as one word", "sv": "skrivs också som ett ord" } }],
+        "notes": {
+          "en": "Literally \"after noon\": بعد از \"after\" + ظهر \"noon\". Late afternoon is عصر, the word you learned for evening.",
+          "sv": "Ordagrant \"efter middag\": بعد از \"efter\" + ظهر \"mitt på dagen\". Sen eftermiddag heter عصر, ordet du lärde dig för kväll."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "afternoon" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "noon",
+      "unit": "time-plans",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🕛",
+      "gloss": { "en": "noon", "sv": "middag", "enAlt": ["midday", "lunchtime"], "svAlt": ["mitt på dagen", "lunchtid", "klockan tolv"] },
+      "senseNote": { "en": "12 o'clock in the day", "sv": "klockan tolv på dagen, inte måltiden" },
+      "ckb": {
+        "primary": { "script": "نیوەڕۆ", "latin": "nîweřo" },
+        "notes": {
+          "en": "نیو \"half\" + ڕۆژ \"day\", like نیوەشەو (nîweşew) \"midnight\". Lunch is نانی نیوەڕۆ (nanî nîweřo), \"noon bread\".",
+          "sv": "نیو \"halv\" + ڕۆژ \"dag\", som نیوەشەو (nîweşew) \"midnatt\". Lunch heter نانی نیوەڕۆ (nanî nîweřo), \"middagsbröd\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "noon" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ظهر", "latin": "zohr" },
+        "notes": {
+          "en": "From Arabic. ساعت دوازده ظهر is \"twelve noon\", and lunch is ناهار (nâhâr).",
+          "sv": "Från arabiskan. ساعت دوازده ظهر är \"klockan tolv mitt på dagen\", och lunch heter ناهار (nâhâr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ظهر" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "weekend",
+      "unit": "time-plans",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "weekend", "sv": "helg", "enAlt": ["the weekend"], "svAlt": ["helgen", "veckoslut"] },
+      "ckb": {
+        "primary": { "script": "کۆتایی هەفتە", "latin": "kotayî hefte" },
+        "notes": {
+          "en": "کۆتایی \"end\" + هەفتە \"week\". In the Kurdistan Region the weekend is Friday and Saturday.",
+          "sv": "کۆتایی \"slut\" + هەفتە \"vecka\". I Kurdistanregionen är helgen fredag och lördag."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "آخر هفته", "latin": "âkhar-e hafte" },
+        "notes": {
+          "en": "Literally \"end of the week\", with the ezafe -e between the words. Friday is the main day off in Iran.",
+          "sv": "Ordagrant \"veckans slut\", med ezafe -e mellan orden. Fredag är den stora vilodagen i Iran."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "holiday",
+      "unit": "time-plans",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏖️",
+      "gloss": { "en": "holiday", "sv": "ledighet", "enAlt": ["vacation", "day off", "holidays"], "svAlt": ["semester", "ledig dag", "lov"] },
+      "senseNote": { "en": "a day off or a vacation", "sv": "ledig dag eller semester" },
+      "ckb": {
+        "primary": { "script": "پشوو", "latin": "pişû" },
+        "notes": {
+          "en": "Also \"rest, break\": سبەی پشوو دەدەم \"I'm taking tomorrow off\". A religious holiday or festival is جەژن (cejn).",
+          "sv": "Betyder också \"vila, paus\": سبەی پشوو دەدەم \"jag tar ledigt i morgon\". En religiös högtid heter جەژن (cejn)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "تعطیلات", "latin": "ta'tilât" },
+        "variants": [{ "script": "تعطیلی", "latin": "ta'tili", "note": { "en": "a day off, a public holiday", "sv": "en ledig dag, en helgdag" } }],
+        "notes": {
+          "en": "The plural of تعطیل \"closed, day off\": تعطیلات تابستان \"the summer holidays\". Leave from work is مرخصی (morakhasi).",
+          "sv": "Plural av تعطیل \"stängt, ledig dag\": تعطیلات تابستان \"sommarlovet\". Ledighet från jobbet heter مرخصی (morakhasi)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تعطیلات" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "time",
+      "unit": "time-plans",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "⌛",
+      "gloss": { "en": "time", "sv": "tid" },
+      "senseNote": { "en": "as in \"I have no time\"", "sv": "som i \"jag har inte tid\"" },
+      "ckb": {
+        "primary": { "script": "کات", "latin": "kat" },
+        "variants": [{ "script": "وەخت", "latin": "wext", "register": "colloquial" }],
+        "notes": {
+          "en": "کاتم نییە (katim nîye) \"I have no time\". It is the first half of کاتژمێر \"hour, clock\". In speech you also hear وەخت (wext), the Persian word.",
+          "sv": "کاتم نییە (katim nîye) \"jag har inte tid\". Det är första delen av کاتژمێر \"timme, klocka\". I tal hör man också وەخت (wext), det persiska ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "time" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "وقت", "latin": "vaght" },
+        "notes": {
+          "en": "وقت ندارم (vaght nadâram) \"I have no time\". It also means \"appointment\": وقت دکتر \"a doctor's appointment\". Time in general, as in \"time flies\", is زمان (zamân).",
+          "sv": "وقت ندارم (vaght nadâram) \"jag har inte tid\". Betyder också \"tid hos någon\": وقت دکتر \"en läkartid\". Tid i allmänhet, som i \"tiden går\", heter زمان (zamân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "time" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "soon",
+      "unit": "time-plans",
+      "pos": "adverb",
+      "level": "A2",
+      "emoji": "🔜",
+      "gloss": { "en": "soon", "sv": "snart", "enAlt": ["shortly"], "svAlt": ["inom kort"] },
+      "ckb": {
+        "primary": { "script": "بەم زووانە", "latin": "bem zûane" },
+        "notes": {
+          "en": "Built on زوو \"early\", which you already know: بەم زووانە دەگەڕێمەوە \"I'll be back soon\".",
+          "sv": "Bygger på زوو \"tidigt\", som du redan kan: بەم زووانە دەگەڕێمەوە \"jag kommer tillbaka snart\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "به‌زودی", "latin": "bezudi" },
+        "variants": [{ "script": "بزودی", "latin": "bezudi", "note": { "en": "also written this way", "sv": "skrivs också så" } }],
+        "notes": {
+          "en": "به + زود \"early\" + ی. In speech زود alone often does the job: زود برمی‌گردم \"I'll be back soon\".",
+          "sv": "به + زود \"tidigt\" + ی. I tal räcker ofta زود: زود برمی‌گردم \"jag kommer snart tillbaka\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "presently" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "later",
+      "unit": "time-plans",
+      "pos": "adverb",
+      "level": "A2",
+      "gloss": { "en": "later", "sv": "senare", "enAlt": ["afterwards"], "svAlt": ["sedan", "sen", "efteråt"] },
+      "ckb": {
+        "primary": { "script": "دواتر", "latin": "dwatir" },
+        "variants": [{ "script": "دوایی", "latin": "dwayî" }],
+        "notes": {
+          "en": "دوا \"after\" + -tir \"more\", the comparative ending. You know it from دواتر دەتبینمەوە \"see you later\".",
+          "sv": "دوا \"efter\" + -tir \"mer\", komparativändelsen. Du känner igen det från دواتر دەتبینمەوە \"vi ses senare\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "later" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بعداً", "latin": "ba'dan" },
+        "notes": {
+          "en": "From بعد \"after\", as in بعداً می‌بینمت \"see you later\". \"Later than usual\" uses دیرتر (dirtar), \"more late\".",
+          "sv": "Från بعد \"efter\", som i بعداً می‌بینمت \"vi ses senare\". \"Senare än vanligt\" heter دیرتر (dirtar), \"mer sent\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "later" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "before",
+      "unit": "time-plans",
+      "pos": "preposition",
+      "level": "A2",
+      "gloss": { "en": "before", "sv": "före", "svAlt": ["innan"] },
+      "ckb": {
+        "primary": { "script": "پێش", "latin": "pêş" },
+        "notes": {
+          "en": "پێش نیوەڕۆ \"before noon\". Before a verb it becomes پێش ئەوەی: پێش ئەوەی بڕۆم \"before I go\". The same word as Persian پیش.",
+          "sv": "پێش نیوەڕۆ \"på förmiddagen\". Före ett verb blir det پێش ئەوەی: پێش ئەوەی بڕۆم \"innan jag går\". Samma ord som persiskans پیش."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "before" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قبل از", "latin": "ghabl az" },
+        "variants": [{ "script": "پیش از", "latin": "pish az", "register": "formal" }],
+        "notes": {
+          "en": "قبل از ناهار (ghabl az nâhâr) \"before lunch\". In speech از often drops: قبل ناهار (ghabl-e nâhâr).",
+          "sv": "قبل از ناهار (ghabl az nâhâr) \"före lunch\". I tal faller از ofta bort: قبل ناهار (ghabl-e nâhâr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "before" }]
+      }
+    },
+    {
+      "id": "after",
+      "unit": "time-plans",
+      "pos": "preposition",
+      "level": "A2",
+      "gloss": { "en": "after", "sv": "efter" },
+      "ckb": {
+        "primary": { "script": "دوای", "latin": "dway" },
+        "variants": [{ "script": "پاش", "latin": "paş" }],
+        "notes": {
+          "en": "دوای کار \"after work\", دوای نیوەڕۆ \"afternoon\". پاش (paş) means the same and is the same word as Persian پس.",
+          "sv": "دوای کار \"efter jobbet\", دوای نیوەڕۆ \"eftermiddag\". پاش (paş) betyder samma sak och är samma ord som persiskans پس."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "after" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بعد از", "latin": "ba'd az" },
+        "variants": [{ "script": "پس از", "latin": "pas az", "register": "formal" }],
+        "notes": {
+          "en": "بعد از کار (ba'd az kâr) \"after work\". In speech از often drops: بعد کار (ba'd-e kâr).",
+          "sv": "بعد از کار (ba'd az kâr) \"efter jobbet\". I tal faller از ofta bort: بعد کار (ba'd-e kâr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "after" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "until",
+      "unit": "time-plans",
+      "pos": "preposition",
+      "level": "A2",
+      "gloss": { "en": "until", "sv": "tills", "enAlt": ["till", "up to"], "svAlt": ["till", "fram till"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تا", "latin": "ta" },
+        "variants": [{ "script": "هەتا", "latin": "heta" }],
+        "notes": {
+          "en": "تۆم تا نیوەڕۆ خەوت \"Tom slept until noon\". تا also means \"so that\": هاتم تا پێت بڵێم \"I came to tell you\".",
+          "sv": "تۆم تا نیوەڕۆ خەوت \"Tom sov till lunch\". تا betyder också \"för att\": هاتم تا پێت بڵێم \"jag kom för att säga det till dig\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تا", "latin": "tâ" },
+        "notes": {
+          "en": "تا فردا (tâ fardâ) \"until tomorrow\". After a number it is a counting word: دو تا چای \"two teas\".",
+          "sv": "تا فردا (tâ fardâ) \"till i morgon\". Efter ett tal är تا ett räknemått: دو تا چای \"två te\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "until" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "ago",
+      "unit": "time-plans",
+      "pos": "postposition",
+      "level": "A2",
+      "gloss": { "en": "ago", "sv": "för ... sedan", "svAlt": ["sedan", "för sedan", "sen"] },
+      "ckb": {
+        "primary": { "script": "لەمەوبەر", "latin": "lemewber" },
+        "variants": [{ "script": "لەمەوپێش", "latin": "lemewpêş" }],
+        "notes": {
+          "en": "It comes after the time, like English \"ago\": سێ ساڵ لەمەوبەر \"three years ago\".",
+          "sv": "Det står efter tiden, som engelskans \"ago\": سێ ساڵ لەمەوبەر \"för tre år sedan\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پیش", "latin": "pish" },
+        "variants": [{ "script": "قبل", "latin": "ghabl" }],
+        "notes": {
+          "en": "It comes after the time, like English \"ago\": دو سال پیش (do sâl pish) \"two years ago\". قبل works the same way: دو سال قبل.",
+          "sv": "Det står efter tiden, som engelskans \"ago\": دو سال پیش (do sâl pish) \"för två år sedan\". قبل fungerar likadant: دو سال قبل."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ago" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "first",
+      "unit": "time-plans",
+      "pos": "numeral",
+      "level": "A2",
+      "emoji": "🥇",
+      "gloss": { "en": "first", "sv": "första", "svAlt": ["förste", "först"] },
+      "ckb": {
+        "primary": { "script": "یەکەم", "latin": "yekem" },
+        "notes": {
+          "en": "یەک \"one\" + -em, the ending for all ordinals: دووەم \"second\", سێیەم \"third\". یەکەم جار \"the first time\".",
+          "sv": "یەک \"ett\" + -em, ändelsen för alla ordningstal: دووەم \"andra\", سێیەم \"tredje\". یەکەم جار \"första gången\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "first" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اول", "latin": "avval" },
+        "variants": [{ "script": "اولین", "latin": "avvalin", "note": { "en": "before a noun: اولین بار \"the first time\"", "sv": "före ett substantiv: اولین بار \"första gången\"" } }],
+        "notes": {
+          "en": "From Arabic. From two on Persian adds -om to the number: دوم (dovvom) \"second\", سوم (sevvom) \"third\".",
+          "sv": "Från arabiskan. Från två och uppåt lägger persiskan till -om: دوم (dovvom) \"andra\", سوم (sevvom) \"tredje\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "first" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "last",
+      "unit": "time-plans",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "last", "sv": "sista", "enAlt": ["final", "previous"], "svAlt": ["sist", "förra", "senaste"] },
+      "senseNote": { "en": "the last one, or last week", "sv": "den sista, eller förra veckan" },
+      "ckb": {
+        "primary": { "script": "دوایین", "latin": "dwayîn" },
+        "variants": [
+          { "script": "کۆتا", "latin": "kota" },
+          { "script": "ڕابردوو", "latin": "řabirdû", "note": { "en": "last, as in last week", "sv": "förra, som i förra veckan" } }
+        ],
+        "notes": {
+          "en": "دوایین جار \"the last time\". \"Last week\" uses ڕابردوو \"past\": هەفتەی ڕابردوو (heftey řabirdû).",
+          "sv": "دوایین جار \"sista gången\". \"Förra veckan\" säger man med ڕابردوو \"förfluten\": هەفتەی ڕابردوو (heftey řabirdû)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "آخرین", "latin": "âkharin" },
+        "variants": [
+          { "script": "آخر", "latin": "âkhar", "note": { "en": "after a noun: روز آخر \"the last day\"", "sv": "efter ett substantiv: روز آخر \"sista dagen\"" } },
+          { "script": "گذشته", "latin": "gozashte", "note": { "en": "last, as in last week", "sv": "förra, som i förra veckan" } }
+        ],
+        "notes": {
+          "en": "آخرین بار (âkharin bâr) \"the last time\". \"Last week\" uses گذشته \"past\": هفته‌ی گذشته (hafte-ye gozashte), in speech هفته‌ی پیش.",
+          "sv": "آخرین بار (âkharin bâr) \"sista gången\". \"Förra veckan\" säger man med گذشته \"förfluten\": هفته‌ی گذشته (hafte-ye gozashte), i tal هفته‌ی پیش."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "final" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "next",
+      "unit": "time-plans",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "next", "sv": "nästa", "enAlt": ["coming", "following"], "svAlt": ["kommande"] },
+      "senseNote": { "en": "as in \"next week\"", "sv": "som i \"nästa vecka\"" },
+      "ckb": {
+        "primary": { "script": "داهاتوو", "latin": "dahatû" },
+        "notes": {
+          "en": "Built on هاتن \"to come\": هەفتەی داهاتوو \"next week\", literally \"the coming week\". It also means \"the future\".",
+          "sv": "Bygger på هاتن \"att komma\": هەفتەی داهاتوو \"nästa vecka\", ordagrant \"den kommande veckan\". Betyder också \"framtiden\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "آینده", "latin": "âyande" },
+        "variants": [{ "script": "بعدی", "latin": "ba'di", "register": "colloquial", "note": { "en": "the next one", "sv": "nästa (av flera)" } }],
+        "notes": {
+          "en": "Literally \"coming\", from آمدن \"to come\", like Sorani داهاتوو: هفته‌ی آینده \"next week\". It also means \"the future\". In speech people often say هفته‌ی بعد.",
+          "sv": "Ordagrant \"kommande\", från آمدن \"att komma\", som soranins داهاتوو: هفته‌ی آینده \"nästa vecka\". Betyder också \"framtiden\". I tal säger man ofta هفته‌ی بعد."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "next" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-meet",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to meet", "sv": "att träffa", "enAlt": ["meet"], "svAlt": ["träffa", "möta", "träffas", "att träffas"] },
+      "ckb": {
+        "primary": { "script": "چاو پێ کەوتن", "latin": "çaw pê kewtin" },
+        "presentStem": { "script": "چاو پێ کەو", "latin": "çaw pê kew" },
+        "pastStem": { "script": "چاو پێ کەوت", "latin": "çaw pê kewt" },
+        "notes": {
+          "en": "Literally \"the eye falls on\": چاوم پێت کەوت (çawim pêt kewt) \"I met you\". To make plans people say یەکتر دەبینین \"we'll see each other\".",
+          "sv": "Ordagrant \"ögat faller på\": چاوم پێت کەوت (çawim pêt kewt) \"jag träffade dig\". När man bestämmer träff säger man یەکتر دەبینین \"vi ses\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "ملاقات کردن", "latin": "molâghât kardan" },
+        "variants": [{ "script": "دیدار کردن", "latin": "didâr kardan", "register": "formal" }],
+        "presentStem": { "script": "ملاقات کن", "latin": "molâghât kon" },
+        "pastStem": { "script": "ملاقات کرد", "latin": "molâghât kard" },
+        "notes": {
+          "en": "ملاقات is \"a meeting, a visit\" and sounds formal. Friends just use دیدن \"to see\": فردا همدیگه رو ببینیم؟ \"shall we meet tomorrow?\".",
+          "sv": "ملاقات betyder \"möte, besök\" och låter formellt. Vänner säger bara دیدن \"att se\": فردا همدیگه رو ببینیم؟ \"ska vi ses i morgon?\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ملاقات کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-return",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🔙",
+      "gloss": { "en": "to return", "sv": "att komma tillbaka", "enAlt": ["to come back", "to go back", "return", "come back"], "svAlt": ["komma tillbaka", "återvända", "gå tillbaka"] },
+      "senseNote": { "en": "come back", "sv": "komma tillbaka" },
+      "ckb": {
+        "primary": { "script": "گەڕانەوە", "latin": "geřanewe" },
+        "presentStem": { "script": "گەڕێ", "latin": "geřê" },
+        "pastStem": { "script": "گەڕا", "latin": "geřa" },
+        "notes": {
+          "en": "دەگەڕێمەوە (degeřêmewe) \"I'll be back\", گەڕامەوە \"I came back\". Without -ewe, گەڕان means \"to look for, to wander\".",
+          "sv": "دەگەڕێمەوە (degeřêmewe) \"jag kommer tillbaka\", گەڕامەوە \"jag kom tillbaka\". Utan -ewe betyder گەڕان \"att leta, att ströva\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "come back" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "برگشتن", "latin": "bargashtan" },
+        "presentStem": { "script": "برگرد", "latin": "bargard" },
+        "pastStem": { "script": "برگشت", "latin": "bargasht" },
+        "notes": {
+          "en": "The present stem is برگرد, and می‌ goes after بر: برمی‌گردم (barmigardam) \"I'll be back\". برگشتم (bargashtam) \"I'm back\".",
+          "sv": "Presensstammen är برگرد, och می‌ hamnar efter بر: برمی‌گردم (barmigardam) \"jag kommer tillbaka\". برگشتم (bargashtam) \"jag är tillbaka\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "come back" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-send",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "📤",
+      "gloss": { "en": "to send", "sv": "att skicka", "enAlt": ["send"], "svAlt": ["skicka", "sända"] },
+      "ckb": {
+        "primary": { "script": "ناردن", "latin": "nardin" },
+        "presentStem": { "script": "نێر", "latin": "nêr" },
+        "pastStem": { "script": "نارد", "latin": "nard" },
+        "notes": {
+          "en": "The present stem is نێر: دەنێرم (denêrim) \"I send\". The person you send to takes بۆ: ئیمەیل بۆ هاوڕێکەم دەنێرم \"I'll email my friend\".",
+          "sv": "Presensstammen är نێر: دەنێرم (denêrim) \"jag skickar\". Mottagaren får بۆ: ئیمەیل بۆ هاوڕێکەم دەنێرم \"jag mejlar min kompis\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ناردن" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فرستادن", "latin": "ferestâdan" },
+        "presentStem": { "script": "فرست", "latin": "ferest" },
+        "pastStem": { "script": "فرستاد", "latin": "ferestâd" },
+        "notes": {
+          "en": "می‌فرستم (miferestam) \"I send\", فرستادم (ferestâdam) \"I sent\". In speech \"I'll send it to you\" is برات می‌فرستم (barât miferestam).",
+          "sv": "می‌فرستم (miferestam) \"jag skickar\", فرستادم (ferestâdam) \"jag skickade\". I tal heter \"jag skickar det till dig\" برات می‌فرستم (barât miferestam)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "send" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-bring",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to bring", "sv": "att ta med", "enAlt": ["bring"], "svAlt": ["ta med", "ta med sig", "hämta"] },
+      "ckb": {
+        "primary": { "script": "هێنان", "latin": "hênan" },
+        "presentStem": { "script": "هێن", "latin": "hên" },
+        "pastStem": { "script": "هێنا", "latin": "hêna" },
+        "notes": {
+          "en": "تکایە فەرهەنگێک بهێنە \"please bring a dictionary\". It builds compounds: بەکار هێنان \"to use\" is literally \"to bring into work\".",
+          "sv": "تکایە فەرهەنگێک بهێنە \"ta med ett lexikon, tack\". Verbet bygger sammansättningar: بەکار هێنان \"att använda\" är ordagrant \"att föra in i arbete\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "هێنان" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آوردن", "latin": "âvardan" },
+        "presentStem": { "script": "آور", "latin": "âvar" },
+        "pastStem": { "script": "آورد", "latin": "âvard" },
+        "notes": {
+          "en": "In speech می‌آورم becomes میارم (miyâram), and \"bring!\" is بیار (biyâr). Taking something away is بردن (bordan).",
+          "sv": "I tal blir می‌آورم till میارم (miyâram), och \"ta hit!\" heter بیار (biyâr). Att ta med något bort heter بردن (bordan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bring" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-find",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🔍",
+      "gloss": { "en": "to find", "sv": "att hitta", "enAlt": ["find"], "svAlt": ["hitta", "finna"] },
+      "ckb": {
+        "primary": { "script": "دۆزینەوە", "latin": "dozînewe" },
+        "presentStem": { "script": "دۆز", "latin": "doz" },
+        "pastStem": { "script": "دۆزی", "latin": "dozî" },
+        "notes": {
+          "en": "Takes -ewe like \"to read\": دەدۆزمەوە (dedozimewe) \"I'll find\". The past is ergative: سەگەکەی دۆزییەوە \"she found the dog\".",
+          "sv": "Får -ewe precis som \"att läsa\": دەدۆزمەوە (dedozimewe) \"jag hittar\". Preteritum är ergativt: سەگەکەی دۆزییەوە \"hon hittade hunden\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "find" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پیدا کردن", "latin": "peydâ kardan" },
+        "presentStem": { "script": "پیدا کن", "latin": "peydâ kon" },
+        "pastStem": { "script": "پیدا کرد", "latin": "peydâ kard" },
+        "notes": {
+          "en": "پیدا means \"visible\": \"to make visible\". پیدا شد \"it turned up\". The bookish word is یافتن (yâftan).",
+          "sv": "پیدا betyder \"synlig\": \"att göra synlig\". پیدا شد \"den dök upp\". Det skriftspråkliga ordet är یافتن (yâftan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "find" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-lose",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to lose", "sv": "att tappa bort", "enAlt": ["lose"], "svAlt": ["tappa bort", "tappa", "förlora", "att tappa"] },
+      "senseNote": { "en": "lose something, not a game", "sv": "tappa bort något, inte förlora en match" },
+      "ckb": {
+        "primary": { "script": "ون کردن", "latin": "win kirdin" },
+        "presentStem": { "script": "ون کە", "latin": "win ke" },
+        "pastStem": { "script": "ون کرد", "latin": "win kird" },
+        "notes": {
+          "en": "ون means \"lost, missing\": دانەیەکم ون کرد \"I lost one\". To lose a game is دۆڕاندن (dořandin).",
+          "sv": "ون betyder \"borta, försvunnen\": دانەیەکم ون کرد \"jag tappade bort en\". Att förlora en match heter دۆڕاندن (dořandin)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "گم کردن", "latin": "gom kardan" },
+        "presentStem": { "script": "گم کن", "latin": "gom kon" },
+        "pastStem": { "script": "گم کرد", "latin": "gom kard" },
+        "notes": {
+          "en": "گم means \"lost\": گم شدم (gom shodam) \"I'm lost\". To lose a game is باختن (bâkhtan).",
+          "sv": "گم betyder \"borta\": گم شدم (gom shodam) \"jag har gått vilse\". Att förlora en match heter باختن (bâkhtan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lose" }]
+      }
+    },
+    {
+      "id": "to-ask",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "❓",
+      "gloss": { "en": "to ask", "sv": "att fråga", "enAlt": ["ask"], "svAlt": ["fråga"] },
+      "senseNote": { "en": "ask a question", "sv": "ställa en fråga" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پرسین", "latin": "pirsîn" },
+        "presentStem": { "script": "پرس", "latin": "pirs" },
+        "pastStem": { "script": "پرسی", "latin": "pirsî" },
+        "notes": {
+          "en": "The person you ask takes لە: لێم پرسی \"I asked him\". A question is پرسیار (pirsyar), and asking for something is داوا کردن (dawa kirdin).",
+          "sv": "Den man frågar får لە: لێم پرسی \"jag frågade honom\". En fråga heter پرسیار (pirsyar), och att be om något heter داوا کردن (dawa kirdin)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ask" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پرسیدن", "latin": "porsidan" },
+        "presentStem": { "script": "پرس", "latin": "pors" },
+        "pastStem": { "script": "پرسید", "latin": "porsid" },
+        "notes": {
+          "en": "The person you ask takes از: از او پرسیدم \"I asked him\". In speech سؤال کردن (so'âl kardan) is just as common. The same verb as Sorani پرسین.",
+          "sv": "Den man frågar får از: از او پرسیدم \"jag frågade honom\". I tal är سؤال کردن (so'âl kardan) lika vanligt. Samma verb som soranins پرسین."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ask" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-answer",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to answer", "sv": "att svara", "enAlt": ["to reply", "answer", "reply"], "svAlt": ["svara"] },
+      "ckb": {
+        "primary": { "script": "وەڵام دانەوە", "latin": "wełam danewe" },
+        "presentStem": { "script": "وەڵام دە", "latin": "wełam de" },
+        "pastStem": { "script": "وەڵام دا", "latin": "wełam da" },
+        "notes": {
+          "en": "Literally \"to give back an answer\": وەڵام \"answer\" + دانەوە. The person goes on وەڵام: وەڵامم بدەوە \"answer me\".",
+          "sv": "Ordagrant \"att ge tillbaka ett svar\": وەڵام \"svar\" + دانەوە. Personen fästs vid وەڵام: وەڵامم بدەوە \"svara mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "answer" }, { "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "جواب دادن", "latin": "javâb dâdan" },
+        "variants": [{ "script": "پاسخ دادن", "latin": "pâsokh dâdan", "register": "formal" }],
+        "presentStem": { "script": "جواب ده", "latin": "javâb deh" },
+        "pastStem": { "script": "جواب داد", "latin": "javâb dâd" },
+        "notes": {
+          "en": "Literally \"to give an answer\". On the phone, جواب نمی‌ده (javâb nemide) \"he's not answering\". پاسخ دادن is the formal word.",
+          "sv": "Ordagrant \"att ge svar\". I telefon: جواب نمی‌ده (javâb nemide) \"han svarar inte\". پاسخ دادن är det formella ordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "answer" }]
+      }
+    },
+    {
+      "id": "to-show",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "👉",
+      "gloss": { "en": "to show", "sv": "att visa", "enAlt": ["show"], "svAlt": ["visa"] },
+      "ckb": {
+        "primary": { "script": "پیشان دان", "latin": "pîşan dan" },
+        "variants": [
+          { "script": "پیشاندان", "latin": "pîşandan", "note": { "en": "also written as one word", "sv": "skrivs också som ett ord" } },
+          { "script": "نیشان دان", "latin": "nîşan dan" }
+        ],
+        "presentStem": { "script": "پیشان دە", "latin": "pîşan de" },
+        "pastStem": { "script": "پیشان دا", "latin": "pîşan da" },
+        "notes": {
+          "en": "با هەندێک وێنەتان پیشان بدەم \"let me show you some pictures\". نیشان دان (nîşan dan) is just as common and close to Persian نشان دادن.",
+          "sv": "با هەندێک وێنەتان پیشان بدەم \"får jag visa er några bilder\". نیشان دان (nîşan dan) är lika vanligt och ligger nära persiskans نشان دادن."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "show" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نشان دادن", "latin": "neshân dâdan" },
+        "variants": [{ "script": "نشون دادن", "latin": "neshun dâdan", "register": "colloquial" }],
+        "presentStem": { "script": "نشان ده", "latin": "neshân deh" },
+        "pastStem": { "script": "نشان داد", "latin": "neshân dâd" },
+        "notes": {
+          "en": "نشان is \"sign, mark\": \"to give a sign\". In Tehran it is neshun, because â becomes u before n: نشونم بده \"show me\".",
+          "sv": "نشان betyder \"tecken, märke\": \"att ge ett tecken\". I Teheran blir det neshun, eftersom â blir u före n: نشونم بده \"visa mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "show" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-try",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to try", "sv": "att försöka", "enAlt": ["try", "to attempt"], "svAlt": ["försöka", "prova", "pröva"] },
+      "ckb": {
+        "primary": { "script": "هەوڵ دان", "latin": "hewł dan" },
+        "presentStem": { "script": "هەوڵ دە", "latin": "hewł de" },
+        "pastStem": { "script": "هەوڵ دا", "latin": "hewł da" },
+        "notes": {
+          "en": "Literally \"to give effort\", followed by a subjunctive: هەوڵ دەدەم بێم \"I'll try to come\". Trying food is تام کردن (tam kirdin).",
+          "sv": "Ordagrant \"att ge ansträngning\", följt av konjunktiv: هەوڵ دەدەم بێم \"jag ska försöka komma\". Att smaka på mat heter تام کردن (tam kirdin)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "try" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سعی کردن", "latin": "sa'y kardan" },
+        "variants": [{ "script": "کوشیدن", "latin": "kushidan", "register": "formal" }],
+        "presentStem": { "script": "سعی کن", "latin": "sa'y kon" },
+        "pastStem": { "script": "سعی کرد", "latin": "sa'y kard" },
+        "notes": {
+          "en": "Followed by a subjunctive: سعی می‌کنم بیایم \"I'll try to come\", in speech سعی می‌کنم بیام. Trying clothes or a new thing is امتحان کردن (emtehân kardan).",
+          "sv": "Följs av konjunktiv: سعی می‌کنم بیایم \"jag ska försöka komma\", i tal سعی می‌کنم بیام. Att prova kläder eller något nytt heter امتحان کردن (emtehân kardan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سعی کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-use",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to use", "sv": "att använda", "enAlt": ["use"], "svAlt": ["använda"] },
+      "ckb": {
+        "primary": { "script": "بەکار هێنان", "latin": "bekar hênan" },
+        "variants": [{ "script": "بەکارهێنان", "latin": "bekarhênan", "note": { "en": "also written as one word", "sv": "skrivs också som ett ord" } }],
+        "presentStem": { "script": "بەکار هێن", "latin": "bekar hên" },
+        "pastStem": { "script": "بەکار هێنا", "latin": "bekar hêna" },
+        "notes": {
+          "en": "Literally \"to bring into work\", with هێنان \"to bring\": هەموو ڕۆژێک گووگڵ بەکار دەهێنم \"I use Google every day\".",
+          "sv": "Ordagrant \"att föra in i arbete\", med هێنان \"att ta med\": هەموو ڕۆژێک گووگڵ بەکار دەهێنم \"jag använder Google varje dag\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "use" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "استفاده کردن", "latin": "estefâde kardan" },
+        "variants": [{ "script": "به کار بردن", "latin": "be kâr bordan", "register": "formal" }],
+        "presentStem": { "script": "استفاده کن", "latin": "estefâde kon" },
+        "pastStem": { "script": "استفاده کرد", "latin": "estefâde kard" },
+        "notes": {
+          "en": "The thing you use takes از: از تلفن استفاده می‌کنم \"I use the phone\". به کار بردن \"to carry into work\" is the same picture as Sorani بەکار هێنان.",
+          "sv": "Det man använder får از: از تلفن استفاده می‌کنم \"jag använder telefonen\". به کار بردن \"att bära in i arbete\" är samma bild som soranins بەکار هێنان."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "use" }]
+      }
+    },
+    {
+      "id": "to-change",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🔄",
+      "gloss": { "en": "to change", "sv": "att ändra", "enAlt": ["change"], "svAlt": ["ändra", "byta", "att byta", "förändra"] },
+      "senseNote": { "en": "make something different", "sv": "ändra, byta ut något" },
+      "ckb": {
+        "primary": { "script": "گۆڕین", "latin": "gořîn" },
+        "presentStem": { "script": "گۆڕ", "latin": "goř" },
+        "pastStem": { "script": "گۆڕی", "latin": "gořî" },
+        "notes": {
+          "en": "جلەکانم دەگۆڕم \"I'm changing my clothes\". When something changes by itself, use گۆڕان (gořan).",
+          "sv": "جلەکانم دەگۆڕم \"jag byter kläder\". När något ändras av sig självt används گۆڕان (gořan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "change" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عوض کردن", "latin": "avaz kardan" },
+        "variants": [{ "script": "تغییر دادن", "latin": "taghyir dâdan", "register": "formal" }],
+        "presentStem": { "script": "عوض کن", "latin": "avaz kon" },
+        "pastStem": { "script": "عوض کرد", "latin": "avaz kard" },
+        "notes": {
+          "en": "Also \"to swap\": لباسم را عوض کردم \"I changed my clothes\". When something changes by itself, use عوض شدن: برنامه عوض شد \"the plan changed\".",
+          "sv": "Betyder också \"att byta\": لباسم را عوض کردم \"jag bytte kläder\". När något ändras av sig självt används عوض شدن: برنامه عوض شد \"planen ändrades\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "عوض کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-run",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🏃",
+      "gloss": { "en": "to run", "sv": "att springa", "enAlt": ["run"], "svAlt": ["springa", "löpa"] },
+      "ckb": {
+        "primary": { "script": "ڕاکردن", "latin": "řakirdin" },
+        "presentStem": { "script": "ڕاکە", "latin": "řake" },
+        "pastStem": { "script": "ڕاکرد", "latin": "řakird" },
+        "notes": {
+          "en": "ڕا + کردن \"to do\". The prefix splits off: ڕادەکەم (řadekem) \"I run\". It also means \"to run away\".",
+          "sv": "ڕا + کردن \"att göra\". Förstavelsen skiljs från verbet: ڕادەکەم (řadekem) \"jag springer\". Betyder också \"att fly\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "run" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دویدن", "latin": "davidan" },
+        "presentStem": { "script": "دو", "latin": "dav" },
+        "pastStem": { "script": "دوید", "latin": "david" },
+        "notes": {
+          "en": "The present stem is دو: می‌دوم (midavam) \"I run\". Don't read it as دو (do) \"two\".",
+          "sv": "Presensstammen är دو: می‌دوم (midavam) \"jag springer\". Läs det inte som دو (do) \"två\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "دویدن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-swim",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🏊",
+      "gloss": { "en": "to swim", "sv": "att simma", "enAlt": ["swim"], "svAlt": ["simma"] },
+      "ckb": {
+        "primary": { "script": "مەلە کردن", "latin": "mele kirdin" },
+        "presentStem": { "script": "مەلە کە", "latin": "mele ke" },
+        "pastStem": { "script": "مەلە کرد", "latin": "mele kird" },
+        "notes": {
+          "en": "مەلە is \"swimming\": لە حەوزەکە مەلە دەکات \"he's swimming in the pool\". A swimmer is مەلەوان (melewan).",
+          "sv": "مەلە betyder \"simning\": لە حەوزەکە مەلە دەکات \"han simmar i bassängen\". En simmare heter مەلەوان (melewan)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "شنا کردن", "latin": "shenâ kardan" },
+        "presentStem": { "script": "شنا کن", "latin": "shenâ kon" },
+        "pastStem": { "script": "شنا کرد", "latin": "shenâ kard" },
+        "notes": {
+          "en": "شنا is \"swimming\": شنا بلدی؟ (shenâ baladi?) \"can you swim?\". A swimming pool is استخر (estakhr).",
+          "sv": "شنا betyder \"simning\": شنا بلدی؟ (shenâ baladi?) \"kan du simma?\". En simbassäng heter استخر (estakhr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "swim" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-sing",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🎤",
+      "gloss": { "en": "to sing", "sv": "att sjunga", "enAlt": ["sing"], "svAlt": ["sjunga"] },
+      "ckb": {
+        "primary": { "script": "گۆرانی وتن", "latin": "goranî witin" },
+        "variants": [{ "script": "گۆرانی گوتن", "latin": "goranî gutin" }],
+        "presentStem": { "script": "گۆرانی ڵێ", "latin": "goranî łê" },
+        "pastStem": { "script": "گۆرانی وت", "latin": "goranî wit" },
+        "notes": {
+          "en": "Literally \"to say a song\", with the stems of وتن \"to say\": گۆرانی دەڵێم (goranî dełêm) \"I sing\". A singer is گۆرانیبێژ (goranîbêj).",
+          "sv": "Ordagrant \"att säga en sång\", med stammarna från وتن \"att säga\": گۆرانی دەڵێم (goranî dełêm) \"jag sjunger\". En sångare heter گۆرانیبێژ (goranîbêj)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sing" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آواز خواندن", "latin": "âvâz khândan" },
+        "variants": [{ "script": "آواز خوندن", "latin": "âvâz khundan", "register": "colloquial" }],
+        "presentStem": { "script": "آواز خوان", "latin": "âvâz khân" },
+        "pastStem": { "script": "آواز خواند", "latin": "âvâz khând" },
+        "notes": {
+          "en": "Literally \"to read a tune\", with خواندن \"to read\". A singer is خواننده (khânande), literally \"reader\".",
+          "sv": "Ordagrant \"att läsa en melodi\", med خواندن \"att läsa\". En sångare heter خواننده (khânande), ordagrant \"läsare\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "آواز خواندن" }]
+      }
+    },
+    {
+      "id": "to-dance",
+      "unit": "time-plans",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "💃",
+      "gloss": { "en": "to dance", "sv": "att dansa", "enAlt": ["dance"], "svAlt": ["dansa"] },
+      "ckb": {
+        "primary": { "script": "سەما کردن", "latin": "sema kirdin" },
+        "presentStem": { "script": "سەما کە", "latin": "sema ke" },
+        "pastStem": { "script": "سەما کرد", "latin": "sema kird" },
+        "notes": {
+          "en": "سەما is \"dance\": لەگەڵ تۆم سەما دەکات \"she's dancing with Tom\". The Kurdish line dance at weddings and Newroz is هەڵپەڕکێ (hełpeřkê).",
+          "sv": "سەما betyder \"dans\": لەگەڵ تۆم سەما دەکات \"hon dansar med Tom\". Den kurdiska ringdansen på bröllop och newroz heter هەڵپەڕکێ (hełpeřkê)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dance" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "رقصیدن", "latin": "raghsidan" },
+        "presentStem": { "script": "رقص", "latin": "raghs" },
+        "pastStem": { "script": "رقصید", "latin": "raghsid" },
+        "notes": {
+          "en": "The Arabic noun رقص \"dance\" with the Persian verb ending -idan: می‌رقصم (miraghsam) \"I dance\".",
+          "sv": "Det arabiska substantivet رقص \"dans\" med den persiska verbändelsen -idan: می‌رقصم (miraghsam) \"jag dansar\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dance" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

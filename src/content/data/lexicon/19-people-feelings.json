@@ -1,0 +1,762 @@
+{
+  "concepts": [
+    {
+      "id": "people",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👥",
+      "gloss": { "en": "people", "sv": "människor", "svAlt": ["folk"] },
+      "ckb": {
+        "primary": { "script": "خەڵک", "latin": "xełk" },
+        "notes": {
+          "en": "Before a place it takes -î: خەڵکی سلێمانی \"the people of Sulaymaniyah\". گەل (gel) is \"people\" in the sense of a nation.",
+          "sv": "Före en ort får det -î: خەڵکی سلێمانی \"folket i Sulaymaniyya\". گەل (gel) är \"folk\" i betydelsen nation."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "people" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مردم", "latin": "mardom" },
+        "notes": {
+          "en": "Related to مرد (mard) \"man\". It counts as plural, so the verb is plural too: مردم می‌گویند \"people say\".",
+          "sv": "Släkt med مرد (mard) \"man\". Ordet räknas som plural, så verbet står också i plural: مردم می‌گویند \"folk säger\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "people" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "boy",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👦",
+      "gloss": { "en": "boy", "sv": "pojke", "svAlt": ["kille", "grabb"] },
+      "ckb": {
+        "primary": { "script": "کوڕ", "latin": "kuř" },
+        "notes": {
+          "en": "Also \"son\": کوڕەکەم (kuřekem) \"my son\". \"The boys\" is کوڕەکان (kuřekan).",
+          "sv": "Betyder också \"son\": کوڕەکەم (kuřekem) \"min son\". \"Pojkarna\" heter کوڕەکان (kuřekan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کوڕ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پسر", "latin": "pesar" },
+        "notes": {
+          "en": "Also \"son\": پسرم (pesaram) \"my son\". Cousins are built on it: پسرعمو (pesar-amu) is \"son of your father's brother\".",
+          "sv": "Betyder också \"son\": پسرم (pesaram) \"min son\". Kusiner byggs på ordet: پسرعمو (pesar-amu) är \"farbrors son\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "boy" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "girl",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👧",
+      "gloss": { "en": "girl", "sv": "flicka", "svAlt": ["tjej"] },
+      "ckb": {
+        "primary": { "script": "کچ", "latin": "kiç" },
+        "notes": {
+          "en": "Also \"daughter\": کچەکەم (kiçekem) \"my daughter\".",
+          "sv": "Betyder också \"dotter\": کچەکەم (kiçekem) \"min dotter\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "girl" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دختر", "latin": "dokhtar" },
+        "notes": {
+          "en": "Also \"daughter\", and related to English \"daughter\" and Swedish \"dotter\". دخترم (dokhtaram) is \"my daughter\".",
+          "sv": "Betyder också \"dotter\" och är släkt med svenskans \"dotter\" och engelskans \"daughter\". دخترم (dokhtaram) är \"min dotter\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "girl" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "young",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "young", "sv": "ung", "svAlt": ["ungt", "unga"] },
+      "ckb": {
+        "primary": { "script": "گەنج", "latin": "genc" },
+        "notes": {
+          "en": "Also \"a young person\": گەنجەکان \"the young people\". Don't mix it up with جوان, which in Sorani means \"beautiful\".",
+          "sv": "Betyder också \"ung person\": گەنجەکان \"ungdomarna\". Blanda inte ihop det med جوان, som på sorani betyder \"vacker\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "young" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جوان", "latin": "javân" },
+        "variants": [{ "script": "جوون", "latin": "javun", "register": "colloquial" }],
+        "notes": {
+          "en": "Related to English \"young\". The same word is Sorani جوان, but there it means \"beautiful\". In speech it is جوون (javun).",
+          "sv": "Släkt med svenskans \"ung\". Samma ord finns på sorani, جوان, men där betyder det \"vacker\". I tal heter det جوون (javun)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "young" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tall",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🦒",
+      "gloss": { "en": "tall", "sv": "lång", "svAlt": ["långt", "långa"] },
+      "senseNote": { "en": "of a person", "sv": "om en person" },
+      "ckb": {
+        "primary": { "script": "درێژ", "latin": "dirêj" },
+        "notes": {
+          "en": "Also \"long\", just like Swedish \"lång\". It is the same word as Persian دراز (derâz) \"long\".",
+          "sv": "Betyder också \"lång\" om saker, precis som på svenska. Samma ord som persiskans دراز (derâz) \"lång\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tall" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بلند", "latin": "boland" },
+        "variants": [{ "script": "قدبلند", "latin": "ghadboland", "note": { "en": "tall (of a person)", "sv": "lång (om en person)" } }],
+        "notes": {
+          "en": "Also \"high\" and \"loud\": صدای بلند \"a loud voice\". For people you will also hear قدبلند (ghadboland), from قد \"height\".",
+          "sv": "Betyder också \"hög\": صدای بلند \"en hög röst\". Om personer hör du också قدبلند (ghadboland), av قد \"längd\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tall" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "strong",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "💪",
+      "gloss": { "en": "strong", "sv": "stark", "svAlt": ["starkt", "starka"] },
+      "ckb": {
+        "primary": { "script": "بەهێز", "latin": "behêz" },
+        "notes": {
+          "en": "Literally \"with strength\": بە (with) + هێز (strength). Also for wind: بایەکی بەهێز \"a strong wind\".",
+          "sv": "Ordagrant \"med styrka\": بە (med) + هێز (styrka). Används också om vind: بایەکی بەهێز \"en stark vind\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "strong" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قوی", "latin": "ghavi" },
+        "notes": {
+          "en": "From Arabic. The opposite is ضعیف (za'if) \"weak\", also from Arabic.",
+          "sv": "Från arabiskan. Motsatsen är ضعیف (za'if) \"svag\", också från arabiskan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "strong" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "weak",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "weak", "sv": "svag", "svAlt": ["svagt", "svaga"] },
+      "ckb": {
+        "primary": { "script": "لاواز", "latin": "lawaz" },
+        "notes": {
+          "en": "Also \"thin, skinny\" about a person. The opposite of بەهێز \"strong\".",
+          "sv": "Betyder också \"mager, tunn\" om en person. Motsatsen till بەهێز \"stark\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "feeble" }]
+      },
+      "fa": {
+        "primary": { "script": "ضعیف", "latin": "za'if" },
+        "notes": {
+          "en": "The ض is pronounced z. Also \"poor, low quality\": اینترنت ضعیف است \"the internet is weak\".",
+          "sv": "ض uttalas z. Betyder också \"dålig, av låg kvalitet\": اینترنت ضعیف است \"internet är segt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "weak" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "alone",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "alone", "sv": "ensam", "enAlt": ["lonely", "on my own"], "svAlt": ["ensamt", "ensamma"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تەنها", "latin": "tenha" },
+        "variants": [{ "script": "تەنیا", "latin": "tenya" }],
+        "notes": {
+          "en": "Also \"only\": تەنها چا \"only tea\". You will see it spelled تەنیا (tenya) just as often. The same word as Persian تنها.",
+          "sv": "Betyder också \"bara\": تەنها چا \"bara te\". Du ser det stavat تەنیا (tenya) lika ofta. Samma ord som persiskans تنها."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lonely" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تنها", "latin": "tanhâ" },
+        "notes": {
+          "en": "Also \"only\" and \"lonely\": تنها زندگی می‌کنم \"I live alone\".",
+          "sv": "Betyder också \"bara\": تنها زندگی می‌کنم \"jag bor ensam\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "alone" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "angry",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😠",
+      "gloss": { "en": "angry", "sv": "arg", "enAlt": ["mad", "cross"], "svAlt": ["ilsken", "sur"] },
+      "ckb": {
+        "primary": { "script": "تووڕە", "latin": "tûře" },
+        "notes": {
+          "en": "\"I'm angry\" is تووڕەم (tûřem). تووڕە مەبە! (tûře mebe) \"don't be angry!\"",
+          "sv": "\"Jag är arg\" heter تووڕەم (tûřem). تووڕە مەبە! (tûře mebe) \"bli inte arg!\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "angry" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عصبانی", "latin": "'asabâni" },
+        "notes": {
+          "en": "Built on Arabic عصب \"nerve\", and it can also mean \"nervous\". عصبانی شدم ('asabâni shodam) \"I got angry\".",
+          "sv": "Bygger på arabiskans عصب \"nerv\" och kan också betyda \"nervös\". عصبانی شدم ('asabâni shodam) \"jag blev arg\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "angry" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "afraid",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😨",
+      "gloss": { "en": "afraid", "sv": "rädd", "enAlt": ["scared", "frightened"], "svAlt": ["skrämd"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ترساو", "latin": "tirsaw" },
+        "notes": {
+          "en": "From ترس (tirs) \"fear\", the same word as in Persian. To say \"I'm afraid\" people use the verb: لە تاریکی دەترسم \"I'm afraid of the dark\".",
+          "sv": "Av ترس (tirs) \"rädsla\", samma ord som på persiska. För att säga \"jag är rädd\" använder man verbet: لە تاریکی دەترسم \"jag är mörkrädd\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "ترسیده", "latin": "tarside" },
+        "notes": {
+          "en": "Literally \"having feared\", from ترسیدن \"to fear\". \"I'm afraid of dogs\" is از سگ می‌ترسم (az sag mitarsam), with the verb.",
+          "sv": "Ordagrant \"som har blivit rädd\", av ترسیدن \"att vara rädd\". \"Jag är rädd för hundar\" heter از سگ می‌ترسم (az sag mitarsam), med verbet."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "bored",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😑",
+      "gloss": { "en": "bored", "sv": "uttråkad", "enAlt": ["fed up"], "svAlt": ["less"] },
+      "ckb": {
+        "primary": { "script": "بێزار", "latin": "bêzar" },
+        "notes": {
+          "en": "Also \"fed up\". What you are bored with takes لە: بێزار بووم لە تەماشاکردنی تەلەڤیزیۆن \"I got bored of watching TV\".",
+          "sv": "Betyder också \"less\". Det man är trött på får لە: بێزار بووم لە تەماشاکردنی تەلەڤیزیۆن \"jag tröttnade på att titta på tv\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bored" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بی‌حوصله", "latin": "bi-howsele" },
+        "notes": {
+          "en": "Literally \"without patience\": بی + حوصله (howsele). \"I'm bored\" is حوصله‌ام سر رفت, literally \"my patience boiled over\". Persian has Sorani's بێزار too, as بیزار (bizâr), but it means \"disgusted\".",
+          "sv": "Ordagrant \"utan tålamod\": بی + حوصله (howsele). \"Jag har tråkigt\" heter حوصله‌ام سر رفت, ordagrant \"mitt tålamod kokade över\". Persiskan har också soranins بێزار, som بیزار (bizâr), men där betyder det \"äcklad\"."
+        },
+        "sources": [{ "source": "author" }]
+      }
+    },
+    {
+      "id": "worried",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😟",
+      "gloss": { "en": "worried", "sv": "orolig", "enAlt": ["anxious"], "svAlt": ["oroligt", "oroliga", "bekymrad"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نیگەران", "latin": "nîgeran" },
+        "notes": {
+          "en": "You will hear نیگەران مەبە! (nîgeran mebe) \"don't worry!\" all the time. The same word as Persian نگران.",
+          "sv": "نیگەران مەبە! (nîgeran mebe) \"oroa dig inte!\" hör du hela tiden. Samma ord som persiskans نگران."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "نگران", "latin": "negarân" },
+        "notes": {
+          "en": "نگران نباش! (negarân nabâsh) \"don't worry!\". In speech نگرانتم (negarânetam) is \"I'm worried about you\".",
+          "sv": "نگران نباش! (negarân nabâsh) \"oroa dig inte!\". I tal betyder نگرانتم (negarânetam) \"jag är orolig för dig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "worried" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "surprised",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😮",
+      "gloss": { "en": "surprised", "sv": "förvånad", "enAlt": ["amazed"], "svAlt": ["förvånat", "förvånade", "överraskad"] },
+      "ckb": {
+        "primary": { "script": "سەرسام", "latin": "sersam" },
+        "notes": {
+          "en": "Also \"amazed, impressed\": سەرسام نەبووم \"I wasn't impressed\".",
+          "sv": "Betyder också \"imponerad\": سەرسام نەبووم \"jag blev inte imponerad\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "متعجب", "latin": "mota'ajjeb" },
+        "notes": {
+          "en": "From Arabic, and a bit formal. In speech people say تعجب کردم (ta'ajjob kardam) \"I was surprised\", literally \"I did surprise\".",
+          "sv": "Från arabiskan och lite formellt. I tal säger man تعجب کردم (ta'ajjob kardam) \"jag blev förvånad\", ordagrant \"jag gjorde förvåning\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "kind",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "kind", "sv": "snäll", "enAlt": ["friendly"], "svAlt": ["snällt", "snälla", "vänlig"] },
+      "senseNote": { "en": "nice to others", "sv": "mot andra" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "میهرەبان", "latin": "mîhreban" },
+        "notes": {
+          "en": "Kind to someone takes لەگەڵ \"with\": لەگەڵ پیرەکان میهرەبان بە \"be kind to old people\". The same word as Persian مهربان.",
+          "sv": "Snäll mot någon heter لەگەڵ \"med\": لەگەڵ پیرەکان میهرەبان بە \"var snäll mot gamla människor\". Samma ord som persiskans مهربان."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "مهربان", "latin": "mehrabân" },
+        "variants": [{ "script": "مهربون", "latin": "mehrabun", "register": "colloquial" }],
+        "notes": {
+          "en": "Built on مهر (mehr) \"love, kindness\", which is also the name of an autumn month. In speech it is مهربون (mehrabun).",
+          "sv": "Bygger på مهر (mehr) \"kärlek, vänlighet\", som också är namnet på en höstmånad. I tal heter det مهربون (mehrabun)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "kind" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "calm",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😌",
+      "gloss": { "en": "calm", "sv": "lugn", "enAlt": ["quiet"], "svAlt": ["lugnt", "lugna"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئارام", "latin": "aram" },
+        "notes": {
+          "en": "Also \"patient\". It is a common name too, Aram, in Kurdish and in Persian.",
+          "sv": "Betyder också \"tålmodig\". Det är också ett vanligt namn, Aram, både på kurdiska och persiska."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ئارام" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "آرام", "latin": "ârâm" },
+        "variants": [{ "script": "آروم", "latin": "ârum", "register": "colloquial" }],
+        "notes": {
+          "en": "Also \"quiet, slow\". In speech آروم (ârum): آروم باش! \"calm down!\", آروم صحبت کن \"speak quietly\".",
+          "sv": "Betyder också \"tyst, långsam\". I tal آروم (ârum): آروم باش! \"lugna dig!\", آروم صحبت کن \"prata tyst\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "calm" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "lazy",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🦥",
+      "gloss": { "en": "lazy", "sv": "lat", "svAlt": ["lata"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "تەمبەڵ", "latin": "tembeł" },
+        "notes": { "en": "The same word as Persian تنبل (tanbal).", "sv": "Samma ord som persiskans تنبل (tanbal)." },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "تنبل", "latin": "tanbal" },
+        "notes": {
+          "en": "Said \"tambal\": n before b sounds like m. The same word as Sorani تەمبەڵ, which writes the m.",
+          "sv": "Uttalas \"tambal\": n före b låter som m. Samma ord som soranins تەمبەڵ, som skriver ut m:et."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lazy" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "clever",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "💡",
+      "gloss": { "en": "clever", "sv": "smart", "enAlt": ["smart", "intelligent", "bright"], "svAlt": ["klok", "intelligent", "begåvad"] },
+      "ckb": {
+        "primary": { "script": "زیرەک", "latin": "zîrek" },
+        "notes": {
+          "en": "Persian has the same word, زیرک (zirak), but there باهوش is the everyday word.",
+          "sv": "Persiskan har samma ord, زیرک (zirak), men där är باهوش vardagsordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clever" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "باهوش", "latin": "bâhush" },
+        "variants": [{ "script": "زرنگ", "latin": "zerang", "note": { "en": "sharp, quick, also cunning", "sv": "skarp, snabb, också listig" } }],
+        "notes": {
+          "en": "Literally \"with intelligence\": با (with) + هوش (intelligence). زرنگ (zerang) is \"sharp, quick\", someone who knows how to get things done.",
+          "sv": "Ordagrant \"med intelligens\": با (med) + هوش (intelligens). زرنگ (zerang) är \"skarp, snabb\", någon som vet hur man får saker gjorda."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "clever" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "funny",
+      "unit": "people-feelings",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "😄",
+      "gloss": { "en": "funny", "sv": "rolig", "enAlt": ["amusing"], "svAlt": ["roligt", "roliga", "kul", "lustig"] },
+      "ckb": {
+        "primary": { "script": "پێکەنیناوی", "latin": "pêkenînawî" },
+        "notes": {
+          "en": "Built on پێکەنین \"to laugh, laughter\": تۆ پێکەنیناوی \"you're funny\".",
+          "sv": "Bygger på پێکەنین \"att skratta, skratt\": تۆ پێکەنیناوی \"du är rolig\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "خنده‌دار", "latin": "khande-dâr" },
+        "variants": [{ "script": "بامزه", "latin": "bâmaze", "note": { "en": "funny, cute", "sv": "rolig, söt" } }],
+        "notes": {
+          "en": "Literally \"laugh-having\": خنده (laughter) + دار. بامزه (bâmaze), literally \"with taste\", is \"funny\" or \"cute\" about people.",
+          "sv": "Ordagrant \"skrattförande\": خنده (skratt) + دار. بامزه (bâmaze), ordagrant \"med smak\", är \"rolig\" eller \"söt\" om personer."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "funny" }]
+      }
+    },
+    {
+      "id": "love",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💕",
+      "gloss": { "en": "love", "sv": "kärlek", "svAlt": ["kärleken"] },
+      "ckb": {
+        "primary": { "script": "خۆشەویستی", "latin": "xoşewîstî" },
+        "variants": [{ "script": "ئەوین", "latin": "ewîn", "note": { "en": "love (poetic)", "sv": "kärlek (poetiskt)" } }],
+        "notes": {
+          "en": "Built on خۆشەویست \"beloved\", which is also \"darling\": خۆشەویستم \"my love\".",
+          "sv": "Bygger på خۆشەویست \"älskad\", som också betyder \"älskling\": خۆشەویستم \"min älskling\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "عشق", "latin": "'eshgh" },
+        "variants": [{ "script": "محبت", "latin": "mohabbat", "note": { "en": "affection, kindness", "sv": "tillgivenhet, vänlighet" } }],
+        "notes": {
+          "en": "Romantic love, from Arabic, like عاشق ('âshegh) \"in love\". The warm love between family and friends is often محبت (mohabbat).",
+          "sv": "Romantisk kärlek, från arabiskan, som عاشق ('âshegh) \"förälskad\". Den varma kärleken mellan släkt och vänner heter ofta محبت (mohabbat)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "love" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-love",
+      "unit": "people-feelings",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🥰",
+      "gloss": { "en": "to love", "sv": "att älska", "enAlt": ["love"], "svAlt": ["älska"] },
+      "ckb": {
+        "primary": { "script": "خۆشویستن", "latin": "xoşwîstin" },
+        "presentStem": { "script": "خۆش وێ", "latin": "xoş wê" },
+        "pastStem": { "script": "خۆش ویست", "latin": "xoş wîst" },
+        "notes": {
+          "en": "Built on ویستن \"to want\". The one who loves is the ending on خۆش, the one loved is the ending on the verb: خۆشم دەوێیت (xoşim dewêyt) \"I love you\".",
+          "sv": "Bygger på ویستن \"att vilja\". Den som älskar är ändelsen på خۆش, den som blir älskad är ändelsen på verbet: خۆشم دەوێیت (xoşim dewêyt) \"jag älskar dig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "love" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عاشق بودن", "latin": "'âshegh budan" },
+        "presentStem": { "script": "عاشق باش", "latin": "'âshegh bâsh" },
+        "pastStem": { "script": "عاشق بود", "latin": "'âshegh bud" },
+        "notes": {
+          "en": "Literally \"to be in love\": عاشقتم ('âsheghetam) \"I love you\", عاشق شکلاتم \"I love chocolate\". For family and friends دوستت دارم is more common.",
+          "sv": "Ordagrant \"att vara förälskad\": عاشقتم ('âsheghetam) \"jag älskar dig\", عاشق شکلاتم \"jag älskar choklad\". Till släkt och vänner säger man oftare دوستت دارم."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "love" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-laugh",
+      "unit": "people-feelings",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "😂",
+      "gloss": { "en": "to laugh", "sv": "att skratta", "enAlt": ["laugh"], "svAlt": ["skratta"] },
+      "ckb": {
+        "primary": { "script": "پێکەنین", "latin": "pêkenîn" },
+        "presentStem": { "script": "پێکەن", "latin": "pêken" },
+        "pastStem": { "script": "پێکەنی", "latin": "pêkenî" },
+        "notes": {
+          "en": "Also the noun \"laughter\". Intransitive, so the past takes the normal endings: پێکەنیم \"I laughed\", پێکەنی \"she laughed\".",
+          "sv": "Också substantivet \"skratt\". Intransitivt, så preteritum får de vanliga ändelserna: پێکەنیم \"jag skrattade\", پێکەنی \"hon skrattade\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "laugh" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خندیدن", "latin": "khandidan" },
+        "presentStem": { "script": "خند", "latin": "khand" },
+        "pastStem": { "script": "خندید", "latin": "khandid" },
+        "notes": {
+          "en": "می‌خندم (mikhandam) \"I laugh\". The noun خنده (khande) \"laughter\" is in خنده‌دار \"funny\".",
+          "sv": "می‌خندم (mikhandam) \"jag skrattar\". Substantivet خنده (khande) \"skratt\" finns i خنده‌دار \"rolig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "laugh" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-cry",
+      "unit": "people-feelings",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "😭",
+      "gloss": { "en": "to cry", "sv": "att gråta", "enAlt": ["cry", "to weep", "weep"], "svAlt": ["gråta"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گریان", "latin": "giryan" },
+        "presentStem": { "script": "گری", "latin": "girî" },
+        "pastStem": { "script": "گریا", "latin": "girya" },
+        "notes": {
+          "en": "بۆ دەگری؟ (bo degirî?) \"why are you crying?\". From the same root as Persian گریه (gerye).",
+          "sv": "بۆ دەگری؟ (bo degirî?) \"varför gråter du?\". Samma rot som persiskans گریه (gerye)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cry" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گریه کردن", "latin": "gerye kardan" },
+        "presentStem": { "script": "گریه کن", "latin": "gerye kon" },
+        "pastStem": { "script": "گریه کرد", "latin": "gerye kard" },
+        "variants": [{ "script": "گریستن", "latin": "geristan", "register": "formal" }],
+        "notes": {
+          "en": "گریه (gerye) \"crying\" + کردن: چرا گریه می‌کنی؟ \"why are you crying?\". گریستن (geristan) is the written, literary verb.",
+          "sv": "گریه (gerye) \"gråt\" + کردن: چرا گریه می‌کنی؟ \"varför gråter du?\". گریستن (geristan) är skriftspråkets och litteraturens verb."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cry" }]
+      }
+    },
+    {
+      "id": "to-think",
+      "unit": "people-feelings",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🤔",
+      "gloss": { "en": "to think", "sv": "att tänka", "enAlt": ["think"], "svAlt": ["tänka", "tycka", "tro"] },
+      "ckb": {
+        "primary": { "script": "بیر کردنەوە", "latin": "bîr kirdinewe" },
+        "presentStem": { "script": "بیر کە", "latin": "bîr ke" },
+        "pastStem": { "script": "بیر کرد", "latin": "bîr kird" },
+        "notes": {
+          "en": "بیر is \"mind, thought\", and -ەوە comes back at the end: بیر دەکەمەوە \"I think\". For an opinion people say وا دەزانم (wa dezanim) \"I think so\", literally \"I know it so\".",
+          "sv": "بیر betyder \"tanke, sinne\", och -ەوە kommer tillbaka på slutet: بیر دەکەمەوە \"jag tänker\". För en åsikt säger man وا دەزانم (wa dezanim) \"jag tror det\", ordagrant \"jag vet det så\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "فکر کردن", "latin": "fekr kardan" },
+        "presentStem": { "script": "فکر کن", "latin": "fekr kon" },
+        "pastStem": { "script": "فکر کرد", "latin": "fekr kard" },
+        "notes": {
+          "en": "فکر (fekr) \"thought\" is from Arabic. فکر می‌کنم (fekr mikonam) \"I think\" also gives an opinion, like Swedish \"jag tror\".",
+          "sv": "فکر (fekr) \"tanke\" kommer från arabiskan. فکر می‌کنم (fekr mikonam) \"jag tänker\" används också för en åsikt, som \"jag tror\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "think" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-remember",
+      "unit": "people-feelings",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to remember", "sv": "att komma ihåg", "enAlt": ["remember", "to recall"], "svAlt": ["komma ihåg", "minnas", "att minnas"] },
+      "ckb": {
+        "primary": { "script": "لەبیر بوون", "latin": "lebîr bûn" },
+        "presentStem": { "script": "لەبیر ب", "latin": "lebîr b" },
+        "pastStem": { "script": "لەبیر بوو", "latin": "lebîr bû" },
+        "notes": {
+          "en": "Literally \"to be in memory\": لەبیرمە (lebîrme) \"I remember\", لەبیرم نییە \"I don't remember\". بیرم نایەت \"it doesn't come to my mind\" also means \"I can't remember\".",
+          "sv": "Ordagrant \"att finnas i minnet\": لەبیرمە (lebîrme) \"jag minns\", لەبیرم نییە \"jag minns inte\". بیرم نایەت \"det kommer inte till mitt minne\" betyder också \"jag kommer inte ihåg\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "remember" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "به یاد آوردن", "latin": "be yâd âvardan" },
+        "presentStem": { "script": "به یاد آور", "latin": "be yâd âvar" },
+        "pastStem": { "script": "به یاد آورد", "latin": "be yâd âvard" },
+        "notes": {
+          "en": "Literally \"to bring to memory\". In speech people say یادمه (yâdame) \"I remember\" and یادم نمی‌آد \"I can't remember\", built like Sorani لەبیرمە.",
+          "sv": "Ordagrant \"att föra till minnet\". I tal säger man یادمه (yâdame) \"jag minns\" och یادم نمی‌آد \"jag kommer inte ihåg\", byggt som soranins لەبیرمە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "remember" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-forget",
+      "unit": "people-feelings",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to forget", "sv": "att glömma", "enAlt": ["forget"], "svAlt": ["glömma"] },
+      "ckb": {
+        "primary": { "script": "لەبیر چوون", "latin": "lebîr çûn" },
+        "presentStem": { "script": "لەبیر چ", "latin": "lebîr ç" },
+        "pastStem": { "script": "لەبیر چوو", "latin": "lebîr çû" },
+        "notes": {
+          "en": "Literally \"to go from memory\": لەبیرم چوو (lebîrim çû) \"I forgot\", word for word \"from my memory it went\".",
+          "sv": "Ordagrant \"att gå ur minnet\": لەبیرم چوو (lebîrim çû) \"jag glömde\", ord för ord \"ur mitt minne gick det\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "فراموش کردن", "latin": "farâmush kardan" },
+        "presentStem": { "script": "فراموش کن", "latin": "farâmush kon" },
+        "pastStem": { "script": "فراموش کرد", "latin": "farâmush kard" },
+        "notes": {
+          "en": "In speech people say یادم رفت (yâdam raft) \"I forgot\", literally \"it went from my memory\", just like Sorani لەبیرم چوو.",
+          "sv": "I tal säger man یادم رفت (yâdam raft) \"jag glömde\", ordagrant \"det gick ur mitt minne\", precis som soranins لەبیرم چوو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "forget" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "life",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌱",
+      "gloss": { "en": "life", "sv": "liv", "svAlt": ["livet"] },
+      "ckb": {
+        "primary": { "script": "ژیان", "latin": "jiyan" },
+        "notes": {
+          "en": "Also the verb \"to live\": the same word is both. ژیان تەنیا خەونێکە \"life is only a dream\".",
+          "sv": "Också verbet \"att leva\": samma ord är båda. ژیان تەنیا خەونێکە \"livet är bara en dröm\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "زندگی", "latin": "zendegi" },
+        "notes": {
+          "en": "From زنده (zende) \"alive\". زندگی می‌کنم (zendegi mikonam) is \"I live\": در استکهلم زندگی می‌کنم \"I live in Stockholm\".",
+          "sv": "Av زنده (zende) \"levande\". زندگی می‌کنم (zendegi mikonam) betyder \"jag bor, jag lever\": در استکهلم زندگی می‌کنم \"jag bor i Stockholm\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "life" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "birthday",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🎂",
+      "gloss": { "en": "birthday", "sv": "födelsedag", "svAlt": ["födelsedagen"] },
+      "ckb": {
+        "primary": { "script": "ڕۆژی لەدایکبوون", "latin": "řojî ledaykbûn" },
+        "notes": {
+          "en": "Literally \"day of being born\", and لەدایکبوون is word for word \"being from mother\". \"Happy birthday!\" is ڕۆژی لەدایکبوونت پیرۆز بێت!",
+          "sv": "Ordagrant \"födelsens dag\", och لەدایکبوون är ord för ord \"att bli av mor\". \"Grattis på födelsedagen!\" heter ڕۆژی لەدایکبوونت پیرۆز بێت!"
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "تولد", "latin": "tavallod" },
+        "notes": {
+          "en": "Literally \"birth\", from Arabic. \"Happy birthday!\" is تولدت مبارک! (tavallodet mobârak).",
+          "sv": "Ordagrant \"födelse\", från arabiskan. \"Grattis på födelsedagen!\" heter تولدت مبارک! (tavallodet mobârak)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تولد" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "party",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🎉",
+      "gloss": { "en": "party", "sv": "fest", "enAlt": ["celebration"], "svAlt": ["festen", "kalas", "party"] },
+      "senseNote": { "en": "a celebration", "sv": "ett firande" },
+      "ckb": {
+        "primary": { "script": "ئاهەنگ", "latin": "aheng" },
+        "notes": {
+          "en": "You \"turn\" a party: ئاهەنگ دەگێڕین \"we're having a party\". Careful: پارتی in Kurdish is a political party, and the everyday name of the KDP.",
+          "sv": "Man \"vänder\" en fest: ئاهەنگ دەگێڕین \"vi har fest\". Se upp: پارتی på kurdiska är ett politiskt parti, och vardagsnamnet på KDP."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "مهمانی", "latin": "mehmâni" },
+        "variants": [{ "script": "مهمونی", "latin": "mehmuni", "register": "colloquial" }],
+        "notes": {
+          "en": "From مهمان (mehmân) \"guest\". You \"take\" a party: مهمانی گرفتن \"to throw a party\". پارتی (pârti) also means \"party\", and \"connections\": پارتی داره \"he knows the right people\".",
+          "sv": "Av مهمان (mehmân) \"gäst\". Man \"tar\" en fest: مهمانی گرفتن \"att ha fest\". پارتی (pârti) betyder också \"fest\", och \"kontakter\": پارتی داره \"han har kontakter\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "party" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "gift",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🎁",
+      "gloss": { "en": "gift", "sv": "present", "enAlt": ["present"], "svAlt": ["presenten", "gåva"] },
+      "ckb": {
+        "primary": { "script": "دیاری", "latin": "diyarî" },
+        "notes": {
+          "en": "Who the gift is for takes بۆ: دیارییەک بۆ تۆم بکڕم \"I should buy a gift for Tom\".",
+          "sv": "Den som får presenten står efter بۆ \"för\": دیارییەک بۆ تۆم بکڕم \"jag borde köpa en present till Tom\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "gift" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هدیه", "latin": "hadiye" },
+        "variants": [{ "script": "کادو", "latin": "kâdo", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech people often say کادو (kâdo), from French \"cadeau\".",
+          "sv": "I tal säger man ofta کادو (kâdo), från franskans \"cadeau\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "gift" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "wedding",
+      "unit": "people-feelings",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💒",
+      "gloss": { "en": "wedding", "sv": "bröllop", "svAlt": ["bröllopet"] },
+      "ckb": {
+        "primary": { "script": "زەماوەند", "latin": "zemawend" },
+        "variants": [{ "script": "شایی", "latin": "şayî", "note": { "en": "wedding party, celebration", "sv": "bröllopsfest, fest" } }],
+        "notes": {
+          "en": "شایی (şayî) is just as common for the wedding party, with music and dancing.",
+          "sv": "شایی (şayî) är lika vanligt om bröllopsfesten, med musik och dans."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wedding" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عروسی", "latin": "'arusi" },
+        "notes": {
+          "en": "From عروس ('arus) \"bride\". The groom is داماد (dâmâd).",
+          "sv": "Av عروس ('arus) \"brud\". Brudgummen heter داماد (dâmâd)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "عروسی" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

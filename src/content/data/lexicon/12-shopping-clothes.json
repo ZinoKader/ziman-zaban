@@ -1,0 +1,732 @@
+{
+  "concepts": [
+    {
+      "id": "shirt",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👕",
+      "gloss": { "en": "shirt", "sv": "skjorta" },
+      "ckb": {
+        "primary": { "script": "کراس", "latin": "kiras" },
+        "notes": {
+          "en": "Also used for a woman's dress, so کراسێکی شین can be a blue shirt or a blue dress. A T-shirt is تیشێرت.",
+          "sv": "Används också om en klänning, så کراسێکی شین kan vara en blå skjorta eller en blå klänning. En t-shirt heter تیشێرت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "shirt" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پیراهن", "latin": "pirâhan" },
+        "variants": [{ "script": "پیرهن", "latin": "pirhan", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech it is پیرهن (pirhan). The same word is used for a woman's dress, as in Sorani.",
+          "sv": "I tal blir det پیرهن (pirhan). Samma ord används för en klänning, precis som i soranin."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پیراهن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "trousers",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👖",
+      "gloss": { "en": "trousers", "sv": "byxor", "enAlt": ["pants", "a pair of trousers"], "svAlt": ["byxa", "ett par byxor"] },
+      "ckb": {
+        "primary": { "script": "پانتۆڵ", "latin": "pantoł" },
+        "notes": {
+          "en": "From French \"pantalon\". One pair is one پانتۆڵ, in the singular: پانتۆڵەکەم \"my trousers\".",
+          "sv": "Från franskans \"pantalon\", som i svenskans pantalonger. Ett par byxor är en پانتۆڵ, i singular: پانتۆڵەکەم \"mina byxor\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pants" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شلوار", "latin": "shalvâr" },
+        "notes": {
+          "en": "Singular, unlike English: یک شلوار is one pair of trousers. English borrowed it as \"shalwar\", as in shalwar kameez.",
+          "sv": "Står i singular: یک شلوار är ett par byxor. Engelskan har lånat ordet som \"shalwar\", de vida byxorna i Sydasien."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "شلوار" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dress",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👗",
+      "gloss": { "en": "dress", "sv": "klänning" },
+      "ckb": {
+        "primary": { "script": "کراس", "latin": "kiras" },
+        "notes": {
+          "en": "The same word as \"shirt\": the context tells you which. People also just say جل \"clothes\": ئەو جلە جوانە \"that dress is pretty\".",
+          "sv": "Samma ord som \"skjorta\": sammanhanget avgör. Man säger också bara جل \"kläder\": ئەو جلە جوانە \"den klänningen är fin\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پیراهن", "latin": "pirâhan" },
+        "notes": {
+          "en": "The same word as \"shirt\". In speech a dress is often just لباس, the word for clothes: لباس عروس (lebâs-e arus) \"wedding dress\".",
+          "sv": "Samma ord som \"skjorta\". I tal kallas en klänning ofta bara لباس, ordet för kläder: لباس عروس (lebâs-e arus) \"brudklänning\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پیراهن" }]
+      }
+    },
+    {
+      "id": "shoe",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👞",
+      "gloss": { "en": "shoe", "sv": "sko", "enAlt": ["shoes"], "svAlt": ["skor"] },
+      "ckb": {
+        "primary": { "script": "پێڵاو", "latin": "pêław" },
+        "notes": {
+          "en": "Shoes go on with لەپێ کردن, \"to put on the foot\" (clothes take لەبەر کردن): پێڵاو لەپێ ناکەم \"I don't wear shoes\".",
+          "sv": "Skor tar man på med لەپێ کردن, \"att ta på foten\" (kläder tar لەبەر کردن): پێڵاو لەپێ ناکەم \"jag har inga skor på mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "shoe" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کفش", "latin": "kafsh" },
+        "notes": {
+          "en": "Means one shoe or a pair. In Iranian homes you take your shoes off at the door: کفش‌هایت را در بیاور \"take off your shoes\".",
+          "sv": "Betyder en sko eller ett par. I iranska hem tar man av skorna vid dörren: کفش‌هایت را در بیاور \"ta av dig skorna\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کفش" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "coat",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧥",
+      "gloss": { "en": "coat", "sv": "rock", "enAlt": ["overcoat"], "svAlt": ["kappa", "överrock"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پاڵتۆ", "latin": "pałto" },
+        "notes": {
+          "en": "From French \"paletot\", like Persian پالتو. پاڵتۆکەت دابکەنە \"take your coat off\".",
+          "sv": "Från franskans \"paletot\", som persiskans پالتو och det gamla svenska ordet paletå. پاڵتۆکەت دابکەنە \"ta av dig rocken\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پالتو", "latin": "pâlto" },
+        "notes": {
+          "en": "A long winter coat. A suit jacket is کت (kot), and a padded winter jacket is کاپشن (kâpshen).",
+          "sv": "En lång vinterrock. En kavaj heter کت (kot), och en vadderad vinterjacka heter کاپشن (kâpshen)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "پالتو" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hat",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👒",
+      "gloss": { "en": "hat", "sv": "hatt", "enAlt": ["cap"], "svAlt": ["mössa", "keps"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کڵاو", "latin": "kiław" },
+        "notes": { "en": "Any hat or cap. The same word as Persian کلاه, written with ڵ.", "sv": "Alla sorters hattar och mössor. Samma ord som persiskans کلاه, skrivet med ڵ." },
+        "sources": [{ "source": "wiktionary", "ref": "hat" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کلاه", "latin": "kolâh" },
+        "notes": {
+          "en": "Any hat or cap. Useful at the bazaar: کلاه سرم گذاشتند, \"they put a hat on my head\", means \"they cheated me\".",
+          "sv": "Alla sorters hattar och mössor. Bra att kunna på basaren: کلاه سرم گذاشتند, \"de satte en hatt på mitt huvud\", betyder \"de lurade mig\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hat" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sock",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧦",
+      "gloss": { "en": "sock", "sv": "strumpa", "enAlt": ["socks"], "svAlt": ["socka", "strumpor"] },
+      "ckb": {
+        "primary": { "script": "گۆرەوی", "latin": "gorewî" },
+        "notes": { "en": "\"A pair of socks\" is جووتێک گۆرەوی (cûtêk gorewî).", "sv": "\"Ett par strumpor\" heter جووتێک گۆرەوی (cûtêk gorewî)." },
+        "sources": [{ "source": "wiktionary", "ref": "sock" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "جوراب", "latin": "jurâb" },
+        "notes": {
+          "en": "Also \"stockings, tights\". \"A pair of socks\" is یک جفت جوراب (yek joft jurâb).",
+          "sv": "Betyder också \"strumpbyxor, nylonstrumpor\". \"Ett par strumpor\" heter یک جفت جوراب (yek joft jurâb)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "جوراب" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "scarf",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧣",
+      "gloss": { "en": "scarf", "sv": "halsduk", "enAlt": ["headscarf"], "svAlt": ["sjal", "scarf", "huvudduk"] },
+      "ckb": {
+        "primary": { "script": "ملپێچ", "latin": "milpêç" },
+        "variants": [{ "script": "سەرپۆش", "latin": "serpoş", "note": { "en": "headscarf", "sv": "huvudduk" } }],
+        "notes": {
+          "en": "مل \"neck\" + پێچ \"wrap\". A headscarf is سەرپۆش (serpoş), \"head cover\".",
+          "sv": "مل \"hals\" + پێچ \"linda\". En huvudduk heter سەرپۆش (serpoş), \"huvudskydd\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شال‌گردن", "latin": "shâl-gardan" },
+        "variants": [{ "script": "روسری", "latin": "rusari", "note": { "en": "headscarf", "sv": "huvudduk" } }],
+        "notes": {
+          "en": "Literally \"neck shawl\". The headscarf women wear in Iran is روسری (rusari).",
+          "sv": "Ordagrant \"halssjal\". Huvudduken som kvinnor bär i Iran heter روسری (rusari)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "شال‌گردن" }]
+      }
+    },
+    {
+      "id": "bag",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👜",
+      "gloss": { "en": "bag", "sv": "väska", "enAlt": ["handbag"], "svAlt": ["handväska"] },
+      "ckb": {
+        "primary": { "script": "جانتا", "latin": "canta" },
+        "notes": {
+          "en": "A handbag, a school bag or a suitcase. The same word as Turkish \"çanta\".",
+          "sv": "En handväska, en skolväska eller en resväska. Samma ord som turkiskans \"çanta\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کیف", "latin": "kif" },
+        "notes": {
+          "en": "A wallet is کیف پول (kif-e pul), \"money bag\". The same spelling is read keyf \"fun\": کیف کردم \"I had a great time\".",
+          "sv": "En plånbok heter کیف پول (kif-e pul), \"pengaväska\". Samma stavning uttalas också keyf \"nöje\": کیف کردم \"jag hade jättekul\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "bag" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "size",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "size", "sv": "storlek" },
+      "senseNote": { "en": "of clothes", "sv": "på kläder" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ئەندازە", "latin": "endaze" },
+        "variants": [{ "script": "قیاس", "latin": "qiyas" }],
+        "notes": {
+          "en": "The same word as Persian اندازه. ئەندازەی خۆم نازانم \"I don't know my size\". You also hear قیاس (qiyas).",
+          "sv": "Samma ord som persiskans اندازه. ئەندازەی خۆم نازانم \"jag vet inte min storlek\". Man hör också قیاس (qiyas)."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "اندازه", "latin": "andâze" },
+        "variants": [{ "script": "سایز", "latin": "sâyz", "register": "colloquial", "note": { "en": "in shops", "sv": "i affärer" } }],
+        "notes": {
+          "en": "Also \"amount, measure\". In clothes shops you mostly hear the English loan سایز (sâyz): سایزتون چنده؟ \"what's your size?\"",
+          "sv": "Betyder också \"mängd, mått\". I klädaffärer hör man mest det engelska lånordet سایز (sâyz): سایزتون چنده؟ \"vilken storlek har du?\""
+        },
+        "sources": [{ "source": "wiktionary", "ref": "اندازه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "price",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🏷️",
+      "gloss": { "en": "price", "sv": "pris", "enAlt": ["cost"] },
+      "ckb": {
+        "primary": { "script": "نرخ", "latin": "nirx" },
+        "notes": {
+          "en": "نرخەکان بەرز دەبنەوە \"prices are going up\". Persian has the same word, نرخ (nerkh), but mostly for rates, like the exchange rate.",
+          "sv": "نرخەکان بەرز دەبنەوە \"priserna går upp\". Persiskan har samma ord, نرخ (nerkh), men mest om kurser, som växelkursen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "price" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "قیمت", "latin": "gheymat" },
+        "notes": {
+          "en": "It builds گران‌قیمت (gerân-gheymat) \"expensive\" and ارزان‌قیمت (arzân-gheymat) \"cheap\", literally \"dear-priced\" and \"cheap-priced\".",
+          "sv": "Det bygger گران‌قیمت (gerân-gheymat) \"dyr\" och ارزان‌قیمت (arzân-gheymat) \"billig\", ordagrant \"dyrt prissatt\" och \"billigt prissatt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "قیمت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "customer",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "customer", "sv": "kund", "enAlt": ["buyer", "client"], "svAlt": ["köpare"] },
+      "ckb": {
+        "primary": { "script": "کڕیار", "latin": "kiřyar" },
+        "variants": [{ "script": "مشتەری", "latin": "mişterî", "register": "colloquial" }],
+        "notes": {
+          "en": "Built on کڕین \"to buy\", like English \"buyer\". In the bazaar you also hear مشتەری (mişterî), the word Persian uses.",
+          "sv": "Bildat av کڕین \"att köpa\", som \"köpare\". På basaren hör man också مشتەری (mişterî), ordet som persiskan använder."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مشتری", "latin": "moshtari" },
+        "notes": {
+          "en": "Also the name of the planet Jupiter. مشتری همیشه حق دارد \"the customer is always right\".",
+          "sv": "Är också namnet på planeten Jupiter. مشتری همیشه حق دارد \"kunden har alltid rätt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "مشتری" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-pay",
+      "unit": "shopping-clothes",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to pay", "sv": "att betala", "enAlt": ["pay"], "svAlt": ["betala"] },
+      "ckb": {
+        "primary": { "script": "پارە دان", "latin": "pare dan" },
+        "presentStem": { "script": "پارە دە", "latin": "pare de" },
+        "pastStem": { "script": "پارە دا", "latin": "pare da" },
+        "notes": {
+          "en": "Literally \"to give money\": دەتوانیت بە کاش پارە بدەیت \"you can pay in cash\". The past is ergative: پارەم دا (parem da) \"I paid\".",
+          "sv": "Ordagrant \"att ge pengar\": دەتوانیت بە کاش پارە بدەیت \"du kan betala kontant\". Preteritum är ergativt: پارەم دا (parem da) \"jag betalade\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پرداختن", "latin": "pardâkhtan" },
+        "variants": [
+          {
+            "script": "حساب کردن",
+            "latin": "hesâb kardan",
+            "register": "colloquial",
+            "note": { "en": "to pay (the bill)", "sv": "att betala (notan)" }
+          }
+        ],
+        "presentStem": { "script": "پرداز", "latin": "pardâz" },
+        "pastStem": { "script": "پرداخت", "latin": "pardâkht" },
+        "notes": {
+          "en": "The written word: نقدی می‌پردازم \"I'll pay in cash\". In speech people say پول دادن \"to give money\", or for the bill من حساب می‌کنم \"I'll pay\".",
+          "sv": "Skriftspråkets ord: نقدی می‌پردازم \"jag betalar kontant\". I tal säger man پول دادن \"att ge pengar\", eller om notan من حساب می‌کنم \"jag betalar\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pay" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-sell",
+      "unit": "shopping-clothes",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to sell", "sv": "att sälja", "enAlt": ["sell"], "svAlt": ["sälja"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "فرۆشتن", "latin": "firoştin" },
+        "presentStem": { "script": "فرۆش", "latin": "firoş" },
+        "pastStem": { "script": "فرۆشت", "latin": "firoşt" },
+        "notes": {
+          "en": "پێڵاو دەفرۆشین (pêław defiroşîn) \"we sell shoes\". The same verb as Persian فروختن, with the same present stem.",
+          "sv": "پێڵاو دەفرۆشین (pêław defiroşîn) \"vi säljer skor\". Samma verb som persiskans فروختن, med samma presensstam."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فروختن", "latin": "forukhtan" },
+        "presentStem": { "script": "فروش", "latin": "forush" },
+        "pastStem": { "script": "فروخت", "latin": "forukht" },
+        "notes": {
+          "en": "The present stem فروش gives فروشگاه (forushgâh) \"store\" and فروشنده (forushande) \"shop assistant, seller\".",
+          "sv": "Presensstammen فروش ger فروشگاه (forushgâh) \"butik, varuhus\" och فروشنده (forushande) \"expedit, säljare\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "فروختن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-wear",
+      "unit": "shopping-clothes",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to wear", "sv": "att ha på sig", "enAlt": ["wear", "to put on", "put on"], "svAlt": ["ha på sig", "bära", "att bära", "ta på sig"] },
+      "senseNote": { "en": "clothes", "sv": "kläder" },
+      "ckb": {
+        "primary": { "script": "لەبەر کردن", "latin": "leber kirdin" },
+        "variants": [{ "script": "پۆشین", "latin": "poşîn", "register": "formal" }],
+        "presentStem": { "script": "لەبەر کە", "latin": "leber ke" },
+        "pastStem": { "script": "لەبەر کرد", "latin": "leber kird" },
+        "notes": {
+          "en": "\"To put on\"; \"to have on\" is لەبەرە: کراسێکی ڕەشی لەبەرە \"he has a black shirt on\". Careful: لەبەر کردن also means \"to learn by heart\".",
+          "sv": "\"Att ta på sig\"; \"att ha på sig\" heter لەبەرە: کراسێکی ڕەشی لەبەرە \"han har en svart skjorta på sig\". Se upp: لەبەر کردن betyder också \"att lära sig utantill\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پوشیدن", "latin": "pushidan" },
+        "presentStem": { "script": "پوش", "latin": "push" },
+        "pastStem": { "script": "پوشید", "latin": "pushid" },
+        "notes": {
+          "en": "Both \"to put on\" and \"to wear\": کلاه پوشیده است \"she's wearing a hat\". پوشاک (pushâk) \"clothing\" comes from it.",
+          "sv": "Både \"att ta på sig\" och \"att ha på sig\": کلاه پوشیده است \"hon har hatt på sig\". پوشاک (pushâk) \"klädsel\" kommer härifrån."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "wear" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cash",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💵",
+      "gloss": { "en": "cash", "sv": "kontanter", "svAlt": ["kontant", "kontanta pengar"] },
+      "ckb": {
+        "primary": { "script": "کاش", "latin": "kaş" },
+        "notes": {
+          "en": "From English. پارەی کاش \"cash money\", بە کاش \"in cash\". Don't confuse it with Persian کاش (kâsh) \"if only\".",
+          "sv": "Från engelskan. پارەی کاش \"kontanta pengar\", بە کاش \"kontant\". Blanda inte ihop det med persiskans کاش (kâsh) \"om bara\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "نقد", "latin": "naghd" },
+        "variants": [{ "script": "پول نقد", "latin": "pul-e naghd" }],
+        "notes": {
+          "en": "\"In cash\" is نقدی (naghdi): نقدی می‌پردازم \"I'll pay in cash\". نقد also means \"criticism\": نقد فیلم \"film review\".",
+          "sv": "\"Kontant\" heter نقدی (naghdi): نقدی می‌پردازم \"jag betalar kontant\". نقد betyder också \"kritik\": نقد فیلم \"filmrecension\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "نقد" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "bank-card",
+      "unit": "shopping-clothes",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💳",
+      "gloss": { "en": "card", "sv": "kort", "enAlt": ["bank card", "credit card", "debit card"], "svAlt": ["bankkort", "betalkort", "kontokort"] },
+      "senseNote": { "en": "bank card", "sv": "bankkort" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کارت", "latin": "kart" },
+        "notes": {
+          "en": "بە کارت \"by card\", like بە کاش \"in cash\". A credit card is کرێدیت کارت, from English.",
+          "sv": "بە کارت \"med kort\", som بە کاش \"kontant\". Ett kreditkort heter کرێدیت کارت, från engelskan."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کارت", "latin": "kârt" },
+        "notes": {
+          "en": "A bank card is کارت بانکی (kârt-e bânki). Foreign Visa and Mastercard cards don't work in Iran, so visitors bring cash.",
+          "sv": "Ett bankkort heter کارت بانکی (kârt-e bânki). Utländska Visa- och Mastercardkort fungerar inte i Iran, så besökare tar med kontanter."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کارت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "long",
+      "unit": "shopping-clothes",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "📏",
+      "gloss": { "en": "long", "sv": "lång", "svAlt": ["långt", "långa"] },
+      "ckb": {
+        "primary": { "script": "درێژ", "latin": "dirêj" },
+        "notes": {
+          "en": "Also \"tall\" for people. ماوەیەکی درێژ \"a long time\". Related to Persian دراز (derâz).",
+          "sv": "Används också om långa människor. ماوەیەکی درێژ \"en lång tid\". Släkt med persiskans دراز (derâz)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "long" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بلند", "latin": "boland" },
+        "variants": [{ "script": "دراز", "latin": "derâz", "note": { "en": "long; also tall and thin", "sv": "lång; också lång och smal" } }],
+        "notes": {
+          "en": "The word for clothes and hair: لباس بلند \"a long dress\", موی بلند \"long hair\". It also means \"tall, high, loud\". Long in time is طولانی (tulâni).",
+          "sv": "Ordet för kläder och hår: لباس بلند \"en lång klänning\", موی بلند \"långt hår\". Det betyder också \"lång, hög, högljudd\". Lång i tid heter طولانی (tulâni)."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "short",
+      "unit": "shopping-clothes",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "short", "sv": "kort", "svAlt": ["korta"] },
+      "senseNote": { "en": "in length", "sv": "om längd" },
+      "ckb": {
+        "primary": { "script": "کورت", "latin": "kurt" },
+        "notes": {
+          "en": "تەنورەیەکی کورت \"a short skirt\". Easy to remember next to Swedish \"kort\".",
+          "sv": "تەنورەیەکی کورت \"en kort kjol\". Lätt att komma ihåg, det låter nästan som \"kort\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "کورت" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کوتاه", "latin": "kutâh" },
+        "notes": {
+          "en": "Short in length, in time, and for people. پیراهن آستین کوتاه \"a short-sleeved shirt\".",
+          "sv": "Kort i längd, i tid och om människor. پیراهن آستین کوتاه \"en kortärmad skjorta\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "short" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "thirteen",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "thirteen", "sv": "tretton", "enAlt": ["13"], "svAlt": ["13"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سیانزە", "latin": "siyanze" },
+        "variants": [{ "script": "سێزدە", "latin": "sêzde", "register": "formal" }],
+        "notes": {
+          "en": "Written ١٣. Three + ten. Sulaymani speech says siyanze; سێزدە (sêzde) is the bookish form.",
+          "sv": "Skrivs ١٣. Tre + tio. I Sulaymani säger man siyanze; سێزدە (sêzde) är den skriftspråkliga formen."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thirteen" }]
+      },
+      "fa": {
+        "primary": { "script": "سیزده", "latin": "sizdah" },
+        "notes": {
+          "en": "Written ۱۳. On سیزده‌بدر (sizdah-bedar), the 13th day of the new year, families spend the day outdoors to leave bad luck behind.",
+          "sv": "Skrivs ۱۳. På سیزده‌بدر (sizdah-bedar), nyårets 13:e dag, är familjer ute i naturen hela dagen för att lämna oturen bakom sig."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "thirteen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fourteen",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "fourteen", "sv": "fjorton", "enAlt": ["14"], "svAlt": ["14"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چواردە", "latin": "çwarde" },
+        "notes": { "en": "Written ١٤. چوار \"four\" + دە \"ten\", with nothing shortened.", "sv": "Skrivs ١٤. چوار \"fyra\" + دە \"tio\", utan att något kortas av." },
+        "sources": [{ "source": "wiktionary", "ref": "fourteen" }]
+      },
+      "fa": {
+        "primary": { "script": "چهارده", "latin": "chahârdah" },
+        "variants": [{ "script": "چارده", "latin": "chârdah", "register": "colloquial" }],
+        "notes": { "en": "Written ۱۴. In speech chârdah, just as four is châr.", "sv": "Skrivs ۱۴. I tal chârdah, precis som fyra blir châr." },
+        "sources": [{ "source": "wiktionary", "ref": "fourteen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sixteen",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "sixteen", "sv": "sexton", "enAlt": ["16"], "svAlt": ["16"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شانزە", "latin": "şanze" },
+        "variants": [{ "script": "شازدە", "latin": "şazde", "register": "formal" }],
+        "notes": {
+          "en": "Written ١٦. Six + ten, with شەش shortened to şan-, like پانزە (15). The bookish form is شازدە (şazde).",
+          "sv": "Skrivs ١٦. Sex + tio, där شەش har kortats till şan-, som i پانزە (15). Den skriftspråkliga formen är شازدە (şazde)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sixteen" }]
+      },
+      "fa": {
+        "primary": { "script": "شانزده", "latin": "shânzdah" },
+        "variants": [{ "script": "شونزده", "latin": "shunzdah", "register": "colloquial" }],
+        "notes": { "en": "Written ۱۶. In Tehran it is shunzdah, like punzdah for 15.", "sv": "Skrivs ۱۶. I Teheran blir det shunzdah, som punzdah för 15." },
+        "sources": [{ "source": "wiktionary", "ref": "sixteen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "seventeen",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "seventeen", "sv": "sjutton", "enAlt": ["17"], "svAlt": ["17"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "حەڤدە", "latin": "ḧevde" },
+        "notes": { "en": "Written ١٧. حەوت \"seven\" becomes ḧev- here, spelled with ڤ (v).", "sv": "Skrivs ١٧. حەوت \"sju\" blir ḧev- här, stavat med ڤ (v)." },
+        "sources": [{ "source": "wiktionary", "ref": "seventeen" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هفده", "latin": "hefdah" },
+        "notes": { "en": "Written ۱۷. هفت (haft) \"seven\" changes its vowel: hefdah.", "sv": "Skrivs ۱۷. هفت (haft) \"sju\" byter vokal: hefdah." },
+        "sources": [{ "source": "wiktionary", "ref": "seventeen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "eighteen",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "eighteen", "sv": "arton", "enAlt": ["18"], "svAlt": ["aderton", "18"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەژدە", "latin": "hejde" },
+        "notes": {
+          "en": "Written ١٨. هەشت \"eight\" becomes hej-. Persian does the same: هجده (hejdah).",
+          "sv": "Skrivs ١٨. هەشت \"åtta\" blir hej-. Persiskan gör likadant: هجده (hejdah)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eighteen" }]
+      },
+      "fa": {
+        "primary": { "script": "هجده", "latin": "hejdah" },
+        "variants": [{ "script": "هیجده", "latin": "hijdah", "note": { "en": "also written this way", "sv": "skrivs också så" } }],
+        "notes": {
+          "en": "Written ۱۸. هشت (hasht) \"eight\" becomes hej-. Also written هیجده (hijdah).",
+          "sv": "Skrivs ۱۸. هشت (hasht) \"åtta\" blir hej-. Skrivs också هیجده (hijdah)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eighteen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "nineteen",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "nineteen", "sv": "nitton", "enAlt": ["19"], "svAlt": ["19"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نۆزدە", "latin": "nozde" },
+        "notes": {
+          "en": "Written ١٩. نۆ \"nine\" + زدە: nozde. Persian says nearly the same, نوزده (nuzdah).",
+          "sv": "Skrivs ١٩. نۆ \"nio\" + زدە: nozde. Persiskan säger nästan likadant, نوزده (nuzdah)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "nineteen" }]
+      },
+      "fa": {
+        "primary": { "script": "نوزده", "latin": "nuzdah" },
+        "notes": { "en": "Written ۱۹. نه (noh) \"nine\" becomes nuz-: nuzdah.", "sv": "Skrivs ۱۹. نه (noh) \"nio\" blir nuz-: nuzdah." },
+        "sources": [{ "source": "wiktionary", "ref": "nineteen" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "forty",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "forty", "sv": "fyrtio", "enAlt": ["40"], "svAlt": ["fyrti", "40"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چل", "latin": "çil" },
+        "notes": {
+          "en": "Written ٤٠. Short and easy to say. Persian has the same word, چهل (chehel).",
+          "sv": "Skrivs ٤٠. Kort och lätt att säga. Persiskan har samma ord, چهل (chehel)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "forty" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چهل", "latin": "chehel" },
+        "variants": [{ "script": "چل", "latin": "chel", "register": "colloquial" }],
+        "notes": {
+          "en": "Written ۴۰. In speech often chel. چهل‌ستون (chehel sotun), \"forty columns\", is a palace in Isfahan.",
+          "sv": "Skrivs ۴۰. I tal ofta chel. چهل‌ستون (chehel sotun), \"fyrtio pelare\", är ett palats i Isfahan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "forty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sixty",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "sixty", "sv": "sextio", "enAlt": ["60"], "svAlt": ["sexti", "60"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شەست", "latin": "şest" },
+        "notes": {
+          "en": "Written ٦٠. Built on شەش \"six\". Persian writes the same word شصت, with ص.",
+          "sv": "Skrivs ٦٠. Bildat av شەش \"sex\". Persiskan skriver samma ord شصت, med ص."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sixty" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شصت", "latin": "shast" },
+        "notes": {
+          "en": "Written ۶۰. Spelled with ص. Don't mix it up with شست (shast) \"thumb\", spelled with س.",
+          "sv": "Skrivs ۶۰. Stavas med ص. Blanda inte ihop det med شست (shast) \"tumme\", som stavas med س."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sixty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "seventy",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "seventy", "sv": "sjuttio", "enAlt": ["70"], "svAlt": ["sjutti", "70"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "حەفتا", "latin": "ḧefta" },
+        "notes": { "en": "Written ٧٠. Built on حەوت \"seven\", with f instead of w: ḧefta.", "sv": "Skrivs ٧٠. Bildat av حەوت \"sju\", med f i stället för w: ḧefta." },
+        "sources": [{ "source": "wiktionary", "ref": "seventy" }]
+      },
+      "fa": {
+        "primary": { "script": "هفتاد", "latin": "haftâd" },
+        "notes": { "en": "Written ۷۰. هفت \"seven\" + -âd.", "sv": "Skrivs ۷۰. هفت \"sju\" + -âd." },
+        "sources": [{ "source": "wiktionary", "ref": "seventy" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "eighty",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "eighty", "sv": "åttio", "enAlt": ["80"], "svAlt": ["åtti", "80"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "هەشتا", "latin": "heşta" },
+        "notes": {
+          "en": "Written ٨٠. هەشت \"eight\" + -a. 85 is هەشتا و پێنج (heşta û pênc).",
+          "sv": "Skrivs ٨٠. هەشت \"åtta\" + -a. 85 heter هەشتا و پێنج (heşta û pênc)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eighty" }]
+      },
+      "fa": {
+        "primary": { "script": "هشتاد", "latin": "hashtâd" },
+        "notes": {
+          "en": "Written ۸۰. هشت \"eight\" + -âd, like هفتاد (70). 85 is هشتاد و پنج (hashtâd-o panj).",
+          "sv": "Skrivs ۸۰. هشت \"åtta\" + -âd, som هفتاد (70). 85 heter هشتاد و پنج (hashtâd-o panj)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eighty" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "ninety",
+      "unit": "shopping-clothes",
+      "pos": "numeral",
+      "level": "A2",
+      "gloss": { "en": "ninety", "sv": "nittio", "enAlt": ["90"], "svAlt": ["nitti", "90"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "نەوەت", "latin": "newet" },
+        "notes": {
+          "en": "Written ٩٠. Not built on نۆ \"nine\", so learn it on its own. It is the same word as Persian نود (navad).",
+          "sv": "Skrivs ٩٠. Inte bildat av نۆ \"nio\", så det får man lära sig för sig. Det är samma ord som persiskans نود (navad)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ninety" }]
+      },
+      "fa": {
+        "primary": { "script": "نود", "latin": "navad" },
+        "notes": {
+          "en": "Written ۹۰. Not built on نه \"nine\", unlike 70 and 80. Iran's best-known football TV show was called نود, after the 90 minutes of a match.",
+          "sv": "Skrivs ۹۰. Inte bildat av نه \"nio\", till skillnad från 70 och 80. Irans mest kända fotbollsprogram på tv hette نود, efter matchens 90 minuter."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ninety" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

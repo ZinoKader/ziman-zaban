@@ -1,0 +1,755 @@
+{
+  "concepts": [
+    {
+      "id": "body",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧍",
+      "gloss": { "en": "body", "sv": "kropp" },
+      "ckb": {
+        "primary": { "script": "لەش", "latin": "leş" },
+        "notes": {
+          "en": "جەستە (ceste) is a more formal word for the same thing.",
+          "sv": "جەستە (ceste) är ett mer formellt ord för samma sak."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "body" }]
+      },
+      "fa": {
+        "primary": { "script": "بدن", "latin": "badan" },
+        "notes": {
+          "en": "A loan from Arabic. The old Persian word تن (tan) lives on in تندرست (tandorost) \"healthy\", literally \"body-sound\".",
+          "sv": "Ett lånord från arabiskan. Det gamla persiska ordet تن (tan) finns kvar i تندرست (tandorost) \"frisk\", ordagrant \"kropps-hel\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "body" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "head",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "head", "sv": "huvud" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سەر", "latin": "ser" },
+        "notes": {
+          "en": "Also \"top\", which gives لەسەر (leser) \"on\": لەسەر مێزەکە \"on the table\". سەرم دێشێت (serim dêşêt) is \"my head hurts\".",
+          "sv": "Betyder också \"topp\", och därifrån kommer لەسەر (leser) \"på\": لەسەر مێزەکە \"på bordet\". سەرم دێشێت (serim dêşêt) betyder \"jag har ont i huvudet\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "head" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سر", "latin": "sar" },
+        "notes": {
+          "en": "The same word as Sorani سەر. Also \"top, on\": سر کار (sar-e kâr) \"at work\", literally \"on top of work\".",
+          "sv": "Samma ord som soranins سەر. Betyder också \"topp, på\": سر کار (sar-e kâr) \"på jobbet\", ordagrant \"ovanpå jobbet\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "head" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "face",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🙂",
+      "gloss": { "en": "face", "sv": "ansikte" },
+      "ckb": {
+        "primary": { "script": "دەموچاو", "latin": "demuçaw" },
+        "notes": {
+          "en": "Literally \"mouth and eyes\": دەم + و + چاو, both in this unit. دەموچاو و دەستی شوشت \"he washed his face and hands\".",
+          "sv": "Ordagrant \"mun och ögon\": دەم + و + چاو, båda finns i den här enheten. دەموچاو و دەستی شوشت \"han tvättade ansiktet och händerna\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "face" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "صورت", "latin": "surat" },
+        "notes": {
+          "en": "From Arabic, where it means \"form, picture\". Add -ی and you get صورتی (surati) \"pink\". چهره (chehre) is a more literary word for face.",
+          "sv": "Från arabiskan, där det betyder \"form, bild\". Lägg till -ی så får du صورتی (surati) \"rosa\". چهره (chehre) är ett mer litterärt ord för ansikte."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "face" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hair",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💇",
+      "gloss": { "en": "hair", "sv": "hår" },
+      "senseNote": { "en": "on the head", "sv": "på huvudet" },
+      "ckb": {
+        "primary": { "script": "قژ", "latin": "qij" },
+        "notes": {
+          "en": "Only the hair on your head, and like Swedish \"hår\" it is one word for all of it: قژم سپییە (qijim spîye) \"my hair is white\".",
+          "sv": "Bara håret på huvudet, och precis som svenskans \"hår\" är det ett ord för alltihop: قژم سپییە (qijim spîye) \"mitt hår är vitt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hair" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "مو", "latin": "mu" },
+        "plural": { "script": "موها", "latin": "muhâ" },
+        "notes": {
+          "en": "For the hair on your head Persians often use the plural: موهایم (muhâyam), in speech موهام (muhâm) \"my hair\". One single hair is یک تار مو (yek târ mu).",
+          "sv": "Om håret på huvudet använder man ofta plural: موهایم (muhâyam), i tal موهام (muhâm) \"mitt hår\". Ett enda hårstrå är یک تار مو (yek târ mu)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hair" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "eye",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👁️",
+      "gloss": { "en": "eye", "sv": "öga" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چاو", "latin": "çaw" },
+        "notes": {
+          "en": "بەسەرچاو (beserçaw), literally \"on the eye\", is a warm \"gladly!\" when someone asks you for something.",
+          "sv": "بەسەرچاو (beserçaw), ordagrant \"på ögat\", är ett varmt \"gärna!\" när någon ber dig om något."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eye" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چشم", "latin": "cheshm" },
+        "notes": {
+          "en": "Related to Sorani چاو. Said on its own, چشم! means \"yes, of course\": a polite way to agree when someone asks you to do something.",
+          "sv": "Släkt med soranins چاو. Sagt ensamt betyder چشم! \"ja, absolut\": ett artigt sätt att säga ja när någon ber dig göra något."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "eye" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "ear",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👂",
+      "gloss": { "en": "ear", "sv": "öra" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "گوێ", "latin": "gwê" },
+        "notes": {
+          "en": "You met it in گوێم لێ بوو (gwêm lê bû) \"I heard\", literally \"my ear was on it\". The same word as Persian گوش.",
+          "sv": "Du har sett det i گوێم لێ بوو (gwêm lê bû) \"jag hörde\", ordagrant \"mitt öra var på det\". Samma ord som persiskans گوش."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ear" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گوش", "latin": "gush" },
+        "notes": {
+          "en": "گوش دادن (gush dâdan) \"to listen\" is literally \"to give ear\". In speech گوش کن! (gush kon) \"listen!\" is very common.",
+          "sv": "گوش دادن (gush dâdan) \"att lyssna\" är ordagrant \"att ge öra\". I tal hör man ofta گوش کن! (gush kon) \"lyssna!\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ear" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "nose",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👃",
+      "gloss": { "en": "nose", "sv": "näsa" },
+      "ckb": {
+        "primary": { "script": "لووت", "latin": "lût" },
+        "notes": {
+          "en": "لووتم خوێنی لێ دێت (lûtim xwênî lê dêt) \"my nose is bleeding\". لووتبەرز, \"high-nosed\", means stuck-up.",
+          "sv": "لووتم خوێنی لێ دێت (lûtim xwênî lê dêt) \"jag blöder näsblod\". لووتبەرز, \"högnäsad\", betyder högfärdig, som när vi säger att någon sätter näsan i vädret."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "nose" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بینی", "latin": "bini" },
+        "variants": [{ "script": "دماغ", "latin": "damâgh", "register": "colloquial" }],
+        "notes": {
+          "en": "بینی is the written word. In speech most people say دماغ (damâgh).",
+          "sv": "بینی är skriftspråkets ord. I tal säger de flesta دماغ (damâgh)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "nose" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "mouth",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "👄",
+      "gloss": { "en": "mouth", "sv": "mun" },
+      "ckb": {
+        "primary": { "script": "دەم", "latin": "dem" },
+        "notes": {
+          "en": "Also \"time, moment\": ئەو دەمە (ew deme) \"at that time\". دەموچاو \"face\" is literally \"mouth and eyes\".",
+          "sv": "Betyder också \"tid, stund\": ئەو دەمە (ew deme) \"på den tiden\". دەموچاو \"ansikte\" är ordagrant \"mun och ögon\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mouth" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دهان", "latin": "dahân" },
+        "variants": [{ "script": "دهن", "latin": "dahan", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech it is دهن (dahan): دهنتو باز کن (dahaneto bâz kon) \"open your mouth\", as the dentist says.",
+          "sv": "I tal heter det دهن (dahan): دهنتو باز کن (dahaneto bâz kon) \"gapa\", som tandläkaren säger."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "mouth" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "tooth",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🦷",
+      "gloss": { "en": "tooth", "sv": "tand" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ددان", "latin": "didan" },
+        "notes": {
+          "en": "ددانم دێشێت (didanim dêşêt) \"I have toothache\", literally \"my tooth hurts\". The same word as Persian دندان.",
+          "sv": "ددانم دێشێت (didanim dêşêt) \"jag har tandvärk\", ordagrant \"min tand gör ont\". Samma ord som persiskans دندان."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tooth" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دندان", "latin": "dandân" },
+        "variants": [{ "script": "دندون", "latin": "dandun", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech it is دندون (dandun): â before n often turns into u, as in نان \"bread\", spoken نون (nun).",
+          "sv": "I tal heter det دندون (dandun): â före n blir ofta u, som i نان \"bröd\", som uttalas نون (nun)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tooth" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "neck",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "neck", "sv": "hals" },
+      "ckb": {
+        "primary": { "script": "مل", "latin": "mil" },
+        "notes": {
+          "en": "Also the neck of a bottle or a shirt. ملپێچ (milpêç), \"neck-wrap\", is a scarf.",
+          "sv": "Används också om halsen på en flaska eller en skjorta. ملپێچ (milpêç), \"halslinda\", är en halsduk."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "neck" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "گردن", "latin": "gardan" },
+        "notes": {
+          "en": "گردنبند (gardanband), \"neck-band\", is a necklace. گردن also means \"responsibility\": something can be \"on your neck\".",
+          "sv": "گردنبند (gardanband), \"halsband\", är ett halsband, precis som på svenska. گردن betyder också \"ansvar\": något kan ligga \"på din hals\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "neck" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "shoulder",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "shoulder", "sv": "axel", "svAlt": ["skuldra"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شان", "latin": "şan" },
+        "notes": {
+          "en": "تۆم دەستی خستە سەر شانم \"Tom put his hand on my shoulder\". The same word as Persian شانه.",
+          "sv": "تۆم دەستی خستە سەر شانم \"Tom lade handen på min axel\". Samma ord som persiskans شانه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "shoulder" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شانه", "latin": "shâne" },
+        "notes": {
+          "en": "Also means \"comb\": شانه کردن is \"to comb\". To shrug is شانه بالا انداختن, \"to throw the shoulders up\".",
+          "sv": "Betyder också \"kam\": شانه کردن är \"att kamma\". Att rycka på axlarna heter شانه بالا انداختن, \"att kasta upp axlarna\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "شانه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "arm",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "arm", "sv": "arm" },
+      "ckb": {
+        "primary": { "script": "قۆڵ", "latin": "qoł" },
+        "notes": {
+          "en": "قۆڵم دێشێت (qołim dêşêt) \"my arm hurts\". باسک (bask) also means arm.",
+          "sv": "قۆڵم دێشێت (qołim dêşêt) \"jag har ont i armen\". باسک (bask) betyder också arm."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "arm" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بازو", "latin": "bâzu" },
+        "notes": {
+          "en": "بازو is mainly the upper arm. In everyday speech دست \"hand\" covers the whole arm too: دستم شکست can be \"I broke my arm\" or \"my hand\".",
+          "sv": "بازو är främst överarmen. I vardagligt tal räknas hela armen till دست \"hand\": دستم شکست kan betyda \"jag bröt armen\" eller \"handen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "arm" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "hand",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🖐️",
+      "gloss": { "en": "hand", "sv": "hand" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دەست", "latin": "dest" },
+        "notes": {
+          "en": "دەستت خۆش بێت (destit xoş bêt), \"may your hand be well\", thanks someone who cooked or made something for you.",
+          "sv": "دەستت خۆش بێت (destit xoş bêt), \"må din hand må bra\", säger man som tack till någon som har lagat mat eller gjort något åt en."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hand" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دست", "latin": "dast" },
+        "notes": {
+          "en": "دستت درد نکند (dastet dard nakonad), \"may your hand not hurt\", thanks someone for what they did for you. In speech: دستت درد نکنه.",
+          "sv": "دستت درد نکند (dastet dard nakonad), \"må din hand inte värka\", säger man som tack till någon som har gjort något åt en. I tal: دستت درد نکنه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "hand" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "finger",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "☝️",
+      "gloss": { "en": "finger", "sv": "finger" },
+      "ckb": {
+        "primary": { "script": "پەنجە", "latin": "pence" },
+        "notes": {
+          "en": "Covers toes as well. ئەنگوست (engust) also means finger and is the same word as Persian انگشت.",
+          "sv": "Används också om tår. ئەنگوست (engust) betyder också finger och är samma ord som persiskans انگشت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "finger" }]
+      },
+      "fa": {
+        "primary": { "script": "انگشت", "latin": "angosht" },
+        "notes": {
+          "en": "A toe is انگشت پا (angosht-e pâ), a \"foot finger\". انگشتر (angoshtar) is a ring.",
+          "sv": "En tå är انگشت پا (angosht-e pâ), ett \"fotfinger\". انگشتر (angoshtar) är en ring."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "انگشت" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "leg",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🦵",
+      "gloss": { "en": "leg", "sv": "ben" },
+      "ckb": {
+        "primary": { "script": "قاچ", "latin": "qaç" },
+        "variants": [{ "script": "لاق", "latin": "laq" }],
+        "notes": {
+          "en": "قاچم شکاوە (qaçim şikawe) \"my leg is broken\". لاق (laq) means the same and is just as common.",
+          "sv": "قاچم شکاوە (qaçim şikawe) \"mitt ben är brutet\". لاق (laq) betyder samma sak och är lika vanligt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "قاچ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پا", "latin": "pâ" },
+        "notes": {
+          "en": "Persian uses پا for both the leg and the foot. When it matters, ساق پا (sâgh-e pâ) is the lower leg and کف پا (kaf-e pâ) the sole.",
+          "sv": "Persiskan använder پا för både ben och fot. När det behövs är ساق پا (sâgh-e pâ) underbenet och کف پا (kaf-e pâ) fotsulan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "leg" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "foot",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🦶",
+      "gloss": { "en": "foot", "sv": "fot" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پێ", "latin": "pê" },
+        "notes": {
+          "en": "بە پێ (be pê) is \"on foot\". Unlike Persian, Sorani keeps the foot (پێ) apart from the leg (قاچ).",
+          "sv": "بە پێ (be pê) betyder \"till fots\". Till skillnad från persiskan skiljer soranin på fot (پێ) och ben (قاچ)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "foot" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پا", "latin": "pâ" },
+        "notes": {
+          "en": "The same word as Sorani پێ. It also covers the whole leg, so پام درد می‌کند can be \"my foot hurts\" or \"my leg hurts\".",
+          "sv": "Samma ord som soranins پێ. Det gäller också hela benet, så پام درد می‌کند kan betyda \"jag har ont i foten\" eller \"i benet\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "foot" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "back",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "back", "sv": "rygg" },
+      "senseNote": { "en": "the body part", "sv": "kroppsdelen" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پشت", "latin": "pişt" },
+        "notes": {
+          "en": "Also \"behind\": پشت دەرگاکە (pişt dergake) \"behind the door\". تۆزێک ئێشم لە پشتم هەیە \"I have a bit of pain in my back\".",
+          "sv": "Betyder också \"bakom\": پشت دەرگاکە (pişt dergake) \"bakom dörren\". تۆزێک ئێشم لە پشتم هەیە \"jag har lite ont i ryggen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "back" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پشت", "latin": "posht" },
+        "notes": {
+          "en": "Also \"behind\": پشت در (posht-e dar) \"behind the door\". For back pain Persians often say کمر (kamar) \"lower back, waist\": کمرم درد می‌کند \"my back hurts\".",
+          "sv": "Betyder också \"bakom\": پشت در (posht-e dar) \"bakom dörren\". Om ont i ryggen säger man ofta کمر (kamar) \"ländrygg, midja\": کمرم درد می‌کند \"jag har ont i ryggen\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "back" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "stomach",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "stomach", "sv": "mage", "enAlt": ["belly", "tummy"], "svAlt": ["buk"] },
+      "ckb": {
+        "primary": { "script": "زگ", "latin": "zig" },
+        "variants": [{ "script": "سک", "latin": "sik" }],
+        "notes": {
+          "en": "بە زگی بەتاڵ (be zigî betał) \"on an empty stomach\". In speech you will also hear سک (sik). The organ itself is گەدە (gede).",
+          "sv": "بە زگی بەتاڵ (be zigî betał) \"på fastande mage\". I tal hör man också سک (sik). Själva organet heter گەدە (gede)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "stomach" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شکم", "latin": "shekam" },
+        "notes": {
+          "en": "Stomach ache is often دل درد (del dard), with دل \"heart\": دلم درد می‌کند \"my stomach hurts\". The organ itself is معده (me'de).",
+          "sv": "Ont i magen heter ofta دل درد (del dard), med دل \"hjärta\": دلم درد می‌کند \"jag har ont i magen\". Själva organet heter معده (me'de)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "stomach" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "heart",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🫀",
+      "gloss": { "en": "heart", "sv": "hjärta" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "دڵ", "latin": "dił" },
+        "notes": {
+          "en": "As in Swedish, also the seat of feelings: دڵتەنگ (diłteng), \"narrow-hearted\", means sad. The same word as Persian دل.",
+          "sv": "Precis som på svenska också känslornas säte: دڵتەنگ (diłteng), \"trånghjärtad\", betyder ledsen. Samma ord som persiskans دل."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "heart" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دل", "latin": "del" },
+        "notes": {
+          "en": "دلم برایت تنگ شده (delam barâyat tang shode) \"I miss you\" is literally \"my heart has become narrow for you\". At the doctor's the organ is قلب (ghalb).",
+          "sv": "دلم برایت تنگ شده (delam barâyat tang shode) \"jag saknar dig\" är ordagrant \"mitt hjärta har blivit trångt för dig\". Hos läkaren heter organet قلب (ghalb)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "heart" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "blood",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🩸",
+      "gloss": { "en": "blood", "sv": "blod" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خوێن", "latin": "xwên" },
+        "notes": {
+          "en": "Spelled like the present stem of خوێندن \"to read\": دەخوێنم is \"I read\" and has nothing to do with blood. The same word as Persian خون.",
+          "sv": "Stavas som presensstammen till خوێندن \"att läsa\": دەخوێنم betyder \"jag läser\" och har inget med blod att göra. Samma ord som persiskans خون."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "blood" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "خون", "latin": "khun" },
+        "notes": {
+          "en": "خونسرد (khunsard), \"cold-blooded\", is a compliment: it means calm under pressure.",
+          "sv": "خونسرد (khunsard), \"kallblodig\", är en komplimang: det betyder lugn när det blåser."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "blood" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "pain",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "😣",
+      "gloss": { "en": "pain", "sv": "smärta", "enAlt": ["ache"], "svAlt": ["värk"] },
+      "ckb": {
+        "primary": { "script": "ئازار", "latin": "azar" },
+        "variants": [{ "script": "ئێش", "latin": "êş" }],
+        "notes": {
+          "en": "ئێش (êş) also means pain and gives سەرێشە \"headache\". دەرد (derd), the same word as Persian درد, is more \"suffering, sorrow\".",
+          "sv": "ئێش (êş) betyder också smärta och finns i سەرێشە \"huvudvärk\". دەرد (derd), samma ord som persiskans درد, betyder mer \"lidande, sorg\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pain" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "درد", "latin": "dard" },
+        "notes": {
+          "en": "Sorani ئازار \"pain\" is the same word as Persian آزار (âzâr), which means \"harm, bother\". دردسر (dardesar), \"head pain\", is a hassle.",
+          "sv": "Soranins ئازار \"smärta\" är samma ord som persiskans آزار (âzâr), som betyder \"skada, besvär\". دردسر (dardesar), \"huvudvärk\", betyder krångel."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pain" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-hurt",
+      "unit": "body-health",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to hurt", "sv": "att göra ont", "enAlt": ["to ache", "hurt", "ache"], "svAlt": ["göra ont", "att värka", "värka"] },
+      "senseNote": { "en": "to ache, as in \"my head hurts\"", "sv": "värka, som i \"huvudet gör ont\"" },
+      "ckb": {
+        "primary": { "script": "ئێشان", "latin": "êşan" },
+        "presentStem": { "script": "ئێش", "latin": "êş" },
+        "pastStem": { "script": "ئێشا", "latin": "êşa" },
+        "notes": {
+          "en": "The body part gets the \"my\" ending and the verb agrees with it: سەرم دێشێت (serim dêşêt) \"my head hurts\". In writing you also see دەئێشێت.",
+          "sv": "Kroppsdelen får ändelsen för \"min\" och verbet böjs efter den: سەرم دێشێت (serim dêşêt) \"jag har ont i huvudet\". I skrift ser man också دەئێشێت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "ache" }, { "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "درد کردن", "latin": "dard kardan" },
+        "presentStem": { "script": "درد کن", "latin": "dard kon" },
+        "pastStem": { "script": "درد کرد", "latin": "dard kard" },
+        "notes": {
+          "en": "Literally \"to do pain\", built like the Sorani: سرم درد می‌کند (saram dard mikonad) \"my head hurts\", in speech سرم درد می‌کنه (saram dard mikone).",
+          "sv": "Ordagrant \"att göra smärta\", byggt som på sorani: سرم درد می‌کند (saram dard mikonad) \"jag har ont i huvudet\", i tal سرم درد می‌کنه (saram dard mikone)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "درد کردن" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "headache",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🤕",
+      "gloss": { "en": "headache", "sv": "huvudvärk" },
+      "ckb": {
+        "primary": { "script": "سەرێشە", "latin": "serêşe" },
+        "variants": [{ "script": "سەرئێشە", "latin": "serêşe" }],
+        "notes": {
+          "en": "سەر \"head\" + ئێش \"ache\", built like Swedish \"huvudvärk\". Also spelled سەرئێشە.",
+          "sv": "سەر \"huvud\" + ئێش \"värk\", byggt precis som \"huvudvärk\". Stavas också سەرئێشە."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "headache" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سردرد", "latin": "sardard" },
+        "notes": {
+          "en": "سر \"head\" + درد \"pain\". \"I have a headache\" is سردرد دارم (sardard dâram) or سرم درد می‌کند.",
+          "sv": "سر \"huvud\" + درد \"smärta\". \"Jag har huvudvärk\" heter سردرد دارم (sardard dâram) eller سرم درد می‌کند."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سردرد" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fever",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🌡️",
+      "gloss": { "en": "fever", "sv": "feber" },
+      "ckb": {
+        "primary": { "script": "تا", "latin": "ta" },
+        "notes": {
+          "en": "تایەکی کەمم هەیە (tayekî kemim heye) \"I have a slight fever\". Spelled like تا \"until\", so read the context.",
+          "sv": "تایەکی کەمم هەیە (tayekî kemim heye) \"jag har lite feber\". Stavas som تا \"tills\", så läs sammanhanget."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fever" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تب", "latin": "tab" },
+        "notes": {
+          "en": "تب دارم (tab dâram) \"I have a fever\". A thermometer is تب‌سنج (tabsanj), a \"fever-measurer\".",
+          "sv": "تب دارم (tab dâram) \"jag har feber\". En febertermometer är تب‌سنج (tabsanj), en \"febermätare\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تب" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "common-cold",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🤧",
+      "gloss": { "en": "cold", "sv": "förkylning", "enAlt": ["common cold", "a cold"], "svAlt": ["snuva"] },
+      "senseNote": { "en": "the illness", "sv": "sjukdomen" },
+      "ckb": {
+        "primary": { "script": "هەڵامەت", "latin": "hełamet" },
+        "notes": {
+          "en": "You \"take\" a cold with گرتن: منداڵان بە ئاسانی هەڵامەت دەگرن \"children catch colds easily\".",
+          "sv": "En förkylning \"tar\" man med گرتن: منداڵان بە ئاسانی هەڵامەت دەگرن \"barn blir lätt förkylda\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "سرماخوردگی", "latin": "sarmâkhordegi" },
+        "notes": {
+          "en": "From سرما خوردن \"to eat cold\": سرما خوردم (sarmâ khordam) \"I've caught a cold\". زکام (zokâm) is also used.",
+          "sv": "Från سرما خوردن \"att äta kyla\": سرما خوردم (sarmâ khordam) \"jag har blivit förkyld\". زکام (zokâm) används också."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cold" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "medicine",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "💊",
+      "gloss": { "en": "medicine", "sv": "medicin", "enAlt": ["medication"], "svAlt": ["läkemedel"] },
+      "ckb": {
+        "primary": { "script": "دەرمان", "latin": "derman" },
+        "notes": {
+          "en": "The same word as Persian درمان (darmân), which there means \"treatment\". دەرمانخانە \"pharmacy\" is a \"medicine house\".",
+          "sv": "Samma ord som persiskans درمان (darmân), som där betyder \"behandling\". دەرمانخانە \"apotek\" är ett \"medicinhus\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "medicine" }]
+      },
+      "fa": {
+        "primary": { "script": "دارو", "latin": "dâru" },
+        "notes": {
+          "en": "A pill is قرص (ghors). Don't mix دارو up with درمان (darmân) \"treatment\", which is the Sorani word for medicine.",
+          "sv": "En tablett heter قرص (ghors). Blanda inte ihop دارو med درمان (darmân) \"behandling\", som är soranins ord för medicin."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "دارو" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "pharmacy",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "pharmacy", "sv": "apotek", "enAlt": ["chemist's", "chemist", "drugstore"] },
+      "ckb": {
+        "primary": { "script": "دەرمانخانە", "latin": "dermanxane" },
+        "notes": {
+          "en": "دەرمان \"medicine\" + خانە \"house\". Persian builds its word the same way: داروخانه.",
+          "sv": "دەرمان \"medicin\" + خانە \"hus\". Persiskan bygger sitt ord på samma sätt: داروخانه."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pharmacy" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "داروخانه", "latin": "dârukhâne" },
+        "variants": [{ "script": "داروخونه", "latin": "dârukhune", "register": "colloquial" }],
+        "notes": {
+          "en": "دارو \"medicine\" + خانه \"house\", in speech داروخونه (dârukhune). The pharmacist is داروساز (dârusâz).",
+          "sv": "دارو \"medicin\" + خانه \"hus\", i tal داروخونه (dârukhune). Apotekaren heter داروساز (dârusâz)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "داروخانه" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "healthy",
+      "unit": "body-health",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "healthy", "sv": "frisk", "svAlt": ["friskt", "friska", "hälsosam", "hälsosamt"] },
+      "ckb": {
+        "primary": { "script": "تەندروست", "latin": "tendirust" },
+        "variants": [
+          {
+            "script": "ساغ",
+            "latin": "saẍ",
+            "note": { "en": "sound, in good health", "sv": "frisk, hel" }
+          }
+        ],
+        "notes": {
+          "en": "Also for food: خواردنی تەندروست \"healthy food\". The same word as Persian تندرست, from تن \"body\" + درست \"right\".",
+          "sv": "Används också om mat: خواردنی تەندروست \"nyttig mat\". Samma ord som persiskans تندرست, av تن \"kropp\" + درست \"rätt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تەندروست" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سالم", "latin": "sâlem" },
+        "variants": [{ "script": "تندرست", "latin": "tandorost", "register": "formal" }],
+        "notes": {
+          "en": "Also for food: غذای سالم (ghazâ-ye sâlem) \"healthy food\". From the same Arabic root as سلام \"hello, peace\".",
+          "sv": "Används också om mat: غذای سالم (ghazâ-ye sâlem) \"nyttig mat\". Från samma arabiska rot som سلام \"hej, frid\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سالم" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-rest",
+      "unit": "body-health",
+      "pos": "verb",
+      "level": "A2",
+      "emoji": "🛌",
+      "gloss": { "en": "to rest", "sv": "att vila", "enAlt": ["rest"], "svAlt": ["vila", "vila sig"] },
+      "ckb": {
+        "primary": { "script": "پشوو دان", "latin": "pişû dan" },
+        "variants": [{ "script": "حەسانەوە", "latin": "ḧesanewe" }],
+        "presentStem": { "script": "پشوو دە", "latin": "pişû de" },
+        "pastStem": { "script": "پشوو دا", "latin": "pişû da" },
+        "notes": {
+          "en": "پشوو is \"rest, a break\", so the verb is \"to give rest\". It also means time off: سبەی پشوو دەدەم \"I'm taking tomorrow off\".",
+          "sv": "پشوو betyder \"vila, paus\", så verbet är \"att ge vila\". Det betyder också ledighet: سبەی پشوو دەدەم \"jag är ledig i morgon\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      },
+      "fa": {
+        "primary": { "script": "استراحت کردن", "latin": "esterâhat kardan" },
+        "presentStem": { "script": "استراحت کن", "latin": "esterâhat kon" },
+        "pastStem": { "script": "استراحت کرد", "latin": "esterâhat kard" },
+        "notes": {
+          "en": "From Arabic, related to راحت \"comfortable\". دکتر گفت باید استراحت کنی \"the doctor said you have to rest\".",
+          "sv": "Från arabiskan, släkt med راحت \"bekväm\". دکتر گفت باید استراحت کنی \"läkaren sa att du måste vila\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "to rest" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "dentist",
+      "unit": "body-health",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "dentist", "sv": "tandläkare" },
+      "ckb": {
+        "primary": { "script": "دکتۆری ددان", "latin": "diktorî didan" },
+        "notes": {
+          "en": "Literally \"doctor of teeth\": سبەی دەچمە لای دکتۆری ددان \"I'm going to the dentist tomorrow\".",
+          "sv": "Ordagrant \"tändernas doktor\": سبەی دەچمە لای دکتۆری ددان \"jag ska till tandläkaren i morgon\"."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "دندان‌پزشک", "latin": "dandânpezeshk" },
+        "variants": [{ "script": "دندون‌پزشک", "latin": "dandunpezeshk", "register": "colloquial" }],
+        "notes": {
+          "en": "دندان \"tooth\" + پزشک \"doctor\", built like Swedish \"tandläkare\". In speech دندون‌پزشک (dandunpezeshk).",
+          "sv": "دندان \"tand\" + پزشک \"läkare\", byggt precis som \"tandläkare\". I tal دندون‌پزشک (dandunpezeshk)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "dentist" }, { "source": "tatoeba" }]
+      }
+    }
+  ]
+}

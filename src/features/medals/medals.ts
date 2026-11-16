@@ -1,5 +1,5 @@
 /** Words learned in one language that earn a medal. Learning every word of the course earns the last one. */
-export const MILESTONES = [10, 25, 50, 100, 150, 200, 250] as const
+export const MILESTONES = [10, 25, 50, 100, 150, 200, 250, 300, 400, 500] as const
 
 export type MedalTier = 'bronze' | 'silver' | 'gold' | 'star'
 

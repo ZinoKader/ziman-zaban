@@ -1,0 +1,750 @@
+{
+  "concepts": [
+    {
+      "id": "vegetable",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🥦",
+      "gloss": { "en": "vegetable", "sv": "grönsak", "enAlt": ["vegetables"], "svAlt": ["grönsaker"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سەوزە", "latin": "sewze" },
+        "notes": {
+          "en": "Built on سەوز (sewz) \"green\". Careful: سەوزە can also be سەوز + ە \"is green\", as in چیاکە سەوزە \"the mountain is green\".",
+          "sv": "Bildat av سەوز (sewz) \"grön\". Se upp: سەوزە kan också vara سەوز + ە \"är grön\", som i چیاکە سەوزە \"berget är grönt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "vegetable" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "سبزیجات", "latin": "sabzijât" },
+        "notes": {
+          "en": "The everyday word for vegetables in general, built on سبز (sabz) \"green\". سبزی (sabzi) on its own usually means fresh herbs.",
+          "sv": "Vardagsordet för grönsaker i allmänhet, bildat av سبز (sabz) \"grön\". سبزی (sabzi) ensamt betyder oftast färska örter."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "author" }]
+      }
+    },
+    {
+      "id": "potato",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🥔",
+      "gloss": { "en": "potato", "sv": "potatis", "enAlt": ["potatoes"], "svAlt": ["potatisar"] },
+      "ckb": {
+        "primary": { "script": "پەتاتە", "latin": "petate" },
+        "notes": {
+          "en": "Sounds like Spanish patata, the word English \"potato\" comes from.",
+          "sv": "Låter som spanskans patata, som engelskans \"potato\" kommer från."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "potato" }]
+      },
+      "fa": {
+        "primary": { "script": "سیب‌زمینی", "latin": "sib-zamini" },
+        "notes": {
+          "en": "Literally \"earth apple\": سیب \"apple\" + زمین \"earth\", like French pomme de terre.",
+          "sv": "Ordagrant \"jordäpple\": سیب \"äpple\" + زمین \"jord\", som franskans pomme de terre och det gamla svenska jordäpple."
+        },
+        "sources": [{ "source": "wikipedia", "ref": "fa:سیب‌زمینی" }]
+      }
+    },
+    {
+      "id": "tomato",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍅",
+      "gloss": { "en": "tomato", "sv": "tomat", "enAlt": ["tomatoes"], "svAlt": ["tomater"] },
+      "ckb": {
+        "primary": { "script": "تەماتە", "latin": "temate" },
+        "notes": {
+          "en": "Easy to remember: it sounds like \"tomato\", and so does Swedish \"tomat\".",
+          "sv": "Lätt att komma ihåg: det låter som \"tomat\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "tomato" }]
+      },
+      "fa": {
+        "primary": { "script": "گوجه‌فرنگی", "latin": "gowje-farangi" },
+        "variants": [{ "script": "گوجه", "latin": "gowje", "register": "colloquial" }],
+        "notes": {
+          "en": "Literally \"European plum\": گوجه \"plum\" + فرنگی \"European\". In everyday speech just گوجه (gowje).",
+          "sv": "Ordagrant \"europeiskt plommon\": گوجه \"plommon\" + فرنگی \"europeisk\". I vardagligt tal bara گوجه (gowje)."
+        },
+        "sources": [{ "source": "wikipedia", "ref": "fa:گوجه‌فرنگی" }]
+      }
+    },
+    {
+      "id": "onion",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧅",
+      "gloss": { "en": "onion", "sv": "lök", "enAlt": ["onions"], "svAlt": ["gul lök", "lökar"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پیاز", "latin": "pyaz" },
+        "notes": { "en": "The same word as Persian پیاز (piyâz).", "sv": "Samma ord som persiskans پیاز (piyâz)." },
+        "sources": [{ "source": "wiktionary", "ref": "onion" }]
+      },
+      "fa": {
+        "primary": { "script": "پیاز", "latin": "piyâz" },
+        "notes": {
+          "en": "Fried onion, پیاز داغ (piyâz dâgh), goes on top of thick soups like آش (âsh).",
+          "sv": "Stekt lök, پیاز داغ (piyâz dâgh), läggs ovanpå tjocka soppor som آش (âsh)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "onion" }]
+      }
+    },
+    {
+      "id": "cucumber",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🥒",
+      "gloss": { "en": "cucumber", "sv": "gurka", "enAlt": ["cucumbers"], "svAlt": ["gurkor"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "خەیار", "latin": "xeyar" },
+        "notes": { "en": "The same word as Persian خیار (khiyâr).", "sv": "Samma ord som persiskans خیار (khiyâr)." },
+        "sources": [{ "source": "wiktionary", "ref": "cucumber" }]
+      },
+      "fa": {
+        "primary": { "script": "خیار", "latin": "khiyâr" },
+        "notes": {
+          "en": "In Iran cucumbers go in the fruit bowl offered to guests, often eaten with salt. ماست و خیار (mâst-o khiyâr) is yogurt with cucumber.",
+          "sv": "I Iran ligger gurkor i fruktskålen som bjuds till gäster, och man äter dem ofta med salt. ماست و خیار (mâst-o khiyâr) är yoghurt med gurka."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "خیار" }, { "source": "wikipedia", "ref": "fa:خیار" }]
+      }
+    },
+    {
+      "id": "carrot",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🥕",
+      "gloss": { "en": "carrot", "sv": "morot", "enAlt": ["carrots"], "svAlt": ["morötter"] },
+      "ckb": {
+        "primary": { "script": "گێزەر", "latin": "gêzer" },
+        "notes": {
+          "en": "Persian has the related word گزر (gazar), but Iranians say هویج (havij).",
+          "sv": "Persiskan har det besläktade ordet گزر (gazar), men iranier säger هویج (havij)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "carrot" }]
+      },
+      "fa": {
+        "primary": { "script": "هویج", "latin": "havij" },
+        "notes": {
+          "en": "آب‌هویج بستنی (âb-havij bastani), carrot juice with a scoop of ice cream, is a classic Iranian treat.",
+          "sv": "آب‌هویج بستنی (âb-havij bastani), morotsjuice med en kula glass, är en klassisk iransk godsak."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "carrot" }]
+      }
+    },
+    {
+      "id": "garlic",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧄",
+      "gloss": { "en": "garlic", "sv": "vitlök" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "سیر", "latin": "sîr" },
+        "notes": {
+          "en": "The same word as Persian سیر. In Sorani it only means garlic: \"full\" after a meal is تێر (têr).",
+          "sv": "Samma ord som persiskans سیر. På sorani betyder det bara vitlök: \"mätt\" heter تێر (têr)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "garlic" }]
+      },
+      "fa": {
+        "primary": { "script": "سیر", "latin": "sir" },
+        "notes": {
+          "en": "سیر also means \"full\" after eating: سیر شدم (sir shodam) \"I'm full\". Garlic is one of the seven س things on the Nowruz table.",
+          "sv": "سیر betyder också \"mätt\": سیر شدم (sir shodam) \"jag är mätt\". Vitlök är en av de sju س-sakerna på nowruzbordet."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سیر" }]
+      }
+    },
+    {
+      "id": "orange",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍊",
+      "gloss": { "en": "orange", "sv": "apelsin", "enAlt": ["oranges"], "svAlt": ["apelsiner"] },
+      "senseNote": { "en": "the fruit", "sv": "frukten" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "پرتەقاڵ", "latin": "pirteqał" },
+        "notes": {
+          "en": "Named after Portugal, like Persian پرتقال. Swedish \"apelsin\" means \"apple from China\" instead.",
+          "sv": "Uppkallad efter Portugal, precis som persiskans پرتقال. Svenskans \"apelsin\" betyder i stället \"äpple från Kina\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "orange" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "پرتقال", "latin": "portoghâl" },
+        "notes": {
+          "en": "Named after Portugal. نارنج (nâranj) is the bitter orange, and the word that became English \"orange\".",
+          "sv": "Uppkallad efter Portugal. نارنج (nâranj) är pomeransen, och det är det ordet som blev engelskans \"orange\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "orange" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "banana",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍌",
+      "gloss": { "en": "banana", "sv": "banan", "enAlt": ["bananas"], "svAlt": ["bananer"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "مۆز", "latin": "moz" },
+        "notes": {
+          "en": "The same word as Persian موز. مۆز also means \"horsefly\".",
+          "sv": "Samma ord som persiskans موز. مۆز betyder också \"broms\" (flugan)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "banana" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "موز", "latin": "moz" },
+        "notes": { "en": "From Arabic mawz, the same word as Sorani مۆز.", "sv": "Från arabiskans mawz, samma ord som soranins مۆز." },
+        "sources": [{ "source": "wiktionary", "ref": "banana" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "grape",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍇",
+      "gloss": { "en": "grape", "sv": "vindruva", "enAlt": ["grapes"], "svAlt": ["druva", "vindruvor", "druvor"] },
+      "ckb": {
+        "primary": { "script": "ترێ", "latin": "trê" },
+        "notes": { "en": "Dried grapes are مێوژ (mêwij) \"raisins\".", "sv": "Torkade druvor heter مێوژ (mêwij) \"russin\"." },
+        "sources": [{ "source": "wiktionary", "ref": "grape" }]
+      },
+      "fa": {
+        "primary": { "script": "انگور", "latin": "angur" },
+        "notes": {
+          "en": "\"A bunch of grapes\" is یک خوشه انگور (yek khushe angur). Dried grapes are کشمش (keshmesh) \"raisins\".",
+          "sv": "\"En klase vindruvor\" heter یک خوشه انگور (yek khushe angur). Torkade druvor heter کشمش (keshmesh) \"russin\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "grape" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "watermelon",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍉",
+      "gloss": { "en": "watermelon", "sv": "vattenmelon" },
+      "ckb": {
+        "primary": { "script": "شووتی", "latin": "şûtî" },
+        "notes": { "en": "شەربەتی شووتی (şerbetî şûtî) is watermelon juice.", "sv": "شەربەتی شووتی (şerbetî şûtî) är vattenmelonjuice." },
+        "sources": [{ "source": "wiktionary", "ref": "watermelon" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "هندوانه", "latin": "hendevâne" },
+        "variants": [{ "script": "هندونه", "latin": "hendune", "register": "colloquial" }],
+        "notes": {
+          "en": "Eaten on شب یلدا (shab-e yaldâ), the longest night of the year. In speech هندونه (hendune).",
+          "sv": "Äts på شب یلدا (shab-e yaldâ), årets längsta natt. I tal هندونه (hendune)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "watermelon" }]
+      }
+    },
+    {
+      "id": "lemon",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍋",
+      "gloss": { "en": "lemon", "sv": "citron", "enAlt": ["lemons"], "svAlt": ["citroner"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "لیمۆ", "latin": "lîmo" },
+        "notes": {
+          "en": "لیمۆ ترشە (lîmo tirşe) \"the lemon is sour\". The same word as Persian لیمو.",
+          "sv": "لیمۆ ترشە (lîmo tirşe) \"citronen är sur\". Samma ord som persiskans لیمو."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lemon" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "لیمو", "latin": "limu" },
+        "variants": [{ "script": "لیموترش", "latin": "limu-torsh" }],
+        "notes": {
+          "en": "Often لیموترش (limu-torsh) \"sour lemon\", to tell it apart from لیمو شیرین (limu shirin), a sweet lime.",
+          "sv": "Ofta لیموترش (limu-torsh) \"sur citron\", för att skilja den från لیمو شیرین (limu shirin), en söt limefrukt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "lemon" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "juice",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧃",
+      "gloss": { "en": "juice", "sv": "juice", "enAlt": ["fruit juice"], "svAlt": ["jos", "fruktjuice"] },
+      "ckb": {
+        "primary": { "script": "شەربەت", "latin": "şerbet" },
+        "variants": [{ "script": "ئاومیوە", "latin": "awmîwe", "note": { "en": "fruit juice", "sv": "fruktjuice" } }],
+        "notes": {
+          "en": "شەربەتی پرتەقاڵ (şerbetî pirteqał) \"orange juice\". English \"sherbet\" is the same word.",
+          "sv": "شەربەتی پرتەقاڵ (şerbetî pirteqał) \"apelsinjuice\". Svenskans \"sorbet\" kommer från samma ord."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "juice" }, { "source": "tatoeba" }, { "source": "wikipedia", "ref": "ckb:ئاومیوە" }]
+      },
+      "fa": {
+        "primary": { "script": "آب‌میوه", "latin": "âb-mive" },
+        "notes": {
+          "en": "Literally \"fruit water\": آب + میوه. For one fruit, say آب + the fruit: آب پرتقال (âb-e portoghâl) \"orange juice\".",
+          "sv": "Ordagrant \"fruktvatten\": آب + میوه. För en viss frukt säger man آب + frukten: آب پرتقال (âb-e portoghâl) \"apelsinjuice\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "آب‌میوه" }, { "source": "wikipedia", "ref": "fa:آب‌میوه" }]
+      }
+    },
+    {
+      "id": "soup",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🥣",
+      "gloss": { "en": "soup", "sv": "soppa" },
+      "ckb": {
+        "primary": { "script": "شۆربە", "latin": "şorbe" },
+        "variants": [
+          { "script": "شۆربا", "latin": "şorba" },
+          { "script": "سووپ", "latin": "sûp" }
+        ],
+        "notes": {
+          "en": "شۆربەی نیسک (şorbey nîsk) \"lentil soup\". You also hear شۆربا (şorba), as in شۆربای سەوزە \"vegetable soup\", and سووپ (sûp).",
+          "sv": "شۆربەی نیسک (şorbey nîsk) \"linssoppa\". Man hör också شۆربا (şorba), som i شۆربای سەوزە \"grönsakssoppa\", och سووپ (sûp)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "soup" }, { "source": "tatoeba" }, { "source": "wikipedia", "ref": "ckb:شۆربا" }]
+      },
+      "fa": {
+        "primary": { "script": "سوپ", "latin": "sup" },
+        "variants": [
+          {
+            "script": "آش",
+            "latin": "âsh",
+            "note": { "en": "thick soup with herbs, beans or noodles", "sv": "tjock soppa med örter, bönor eller nudlar" }
+          }
+        ],
+        "notes": {
+          "en": "سوپ is the thinner, Western-style soup. آش (âsh) is the thick traditional kind, and a cook is آشپز (âshpaz), literally \"âsh-cooker\".",
+          "sv": "سوپ är den tunnare soppan av västerländsk typ. آش (âsh) är den tjocka traditionella, och en kock heter آشپز (âshpaz), ordagrant \"den som kokar âsh\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "سوپ" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "oil",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "oil", "sv": "olja", "enAlt": ["cooking oil"], "svAlt": ["matolja"] },
+      "senseNote": { "en": "cooking oil", "sv": "matolja" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ڕۆن", "latin": "řon" },
+        "notes": {
+          "en": "Also clarified butter (ghee). Crude oil is another word: نەوت (newt), the same as Persian نفت (naft).",
+          "sv": "Också smält smör (ghee). Råolja är ett annat ord: نەوت (newt), samma som persiskans نفت (naft)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "oil" }, { "source": "tatoeba" }, { "source": "wikipedia", "ref": "ckb:ڕۆنی چێشتلێنان" }]
+      },
+      "fa": {
+        "primary": { "script": "روغن", "latin": "roghan" },
+        "notes": {
+          "en": "روغن زیتون (roghan-e zeytun) is olive oil. Crude oil is نفت (naft), the same word as Sorani نەوت.",
+          "sv": "روغن زیتون (roghan-e zeytun) är olivolja. Råolja heter نفت (naft), samma ord som soranins نەوت."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "oil" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "butter",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧈",
+      "gloss": { "en": "butter", "sv": "smör" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "کەرە", "latin": "kere" },
+        "notes": {
+          "en": "نان و کەرە (nan û kere) \"bread and butter\". The same word as Persian کره.",
+          "sv": "نان و کەرە (nan û kere) \"bröd och smör\". Samma ord som persiskans کره."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "butter" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "کره", "latin": "kare" },
+        "notes": {
+          "en": "The same spelling is also kore \"globe\" and the country Korea. Butter is kare.",
+          "sv": "Samma stavning är också kore \"klot\" och landet Korea. Smör uttalas kare."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "butter" }]
+      }
+    },
+    {
+      "id": "honey",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🍯",
+      "gloss": { "en": "honey", "sv": "honung" },
+      "ckb": {
+        "primary": { "script": "هەنگوین", "latin": "hengwîn" },
+        "notes": {
+          "en": "A bee is هەنگ (heng). The old Persian poetic word انگبین (angabin) is related.",
+          "sv": "Ett bi heter هەنگ (heng). Det gamla persiska poesiordet انگبین (angabin) är släkt."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "honey" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "عسل", "latin": "'asal" },
+        "notes": {
+          "en": "From Arabic. عسلم ('asalam) \"my honey\" is used for loved ones, as in English. Poetry has انگبین (angabin), related to Sorani هەنگوین.",
+          "sv": "Från arabiskan. عسلم ('asalam) \"min honung\" säger man till någon man tycker om, som engelskans \"honey\". I poesi finns انگبین (angabin), släkt med soranins هەنگوین."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "honey" }]
+      }
+    },
+    {
+      "id": "plate",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "plate", "sv": "tallrik", "enAlt": ["dish"], "svAlt": ["fat"] },
+      "ckb": {
+        "primary": { "script": "قاپ", "latin": "qap" },
+        "notes": {
+          "en": "\"A plate of rice\" is قاپێک برنج (qapêk birinc): no word for \"of\", just like پەرداخێک ئاو \"a glass of water\".",
+          "sv": "\"En tallrik ris\" heter قاپێک برنج (qapêk birinc): inget ord för \"av\", precis som پەرداخێک ئاو \"ett glas vatten\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "plate" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بشقاب", "latin": "boshghâb" },
+        "notes": {
+          "en": "\"A plate of rice\" is یک بشقاب برنج (yek boshghâb berenj). A big serving platter is دیس (dis).",
+          "sv": "\"En tallrik ris\" heter یک بشقاب برنج (yek boshghâb berenj). Ett stort serveringsfat heter دیس (dis)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "plate" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "spoon",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🥄",
+      "gloss": { "en": "spoon", "sv": "sked" },
+      "ckb": {
+        "primary": { "script": "کەوچک", "latin": "kewçik" },
+        "notes": {
+          "en": "پێویستت بە کەوچکێکە؟ \"do you need a spoon?\". The i in kewçik is not written.",
+          "sv": "پێویستت بە کەوچکێکە؟ \"behöver du en sked?\". I:et i kewçik skrivs inte."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "spoon" }, { "source": "tatoeba" }, { "source": "wikipedia", "ref": "ckb:کەوچک" }]
+      },
+      "fa": {
+        "primary": { "script": "قاشق", "latin": "ghâshogh" },
+        "notes": {
+          "en": "Iranians eat rice with a spoon in the right hand and a fork in the left; a knife is rarely needed.",
+          "sv": "Iranier äter ris med sked i höger hand och gaffel i vänster; kniv behövs sällan."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "spoon" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "fork",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "fork", "sv": "gaffel" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چنگاڵ", "latin": "çingał" },
+        "variants": [{ "script": "چەتاڵ", "latin": "çetał" }],
+        "notes": {
+          "en": "The same word as Persian چنگال. Many people say چەتاڵ (çetał), from Turkish çatal.",
+          "sv": "Samma ord som persiskans چنگال. Många säger چەتاڵ (çetał), från turkiskans çatal."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "fork" }]
+      },
+      "fa": {
+        "primary": { "script": "چنگال", "latin": "changâl" },
+        "notes": { "en": "It also means \"claw\" or \"talon\".", "sv": "Betyder också \"klo\"." },
+        "sources": [{ "source": "wiktionary", "ref": "fork" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "knife",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🔪",
+      "gloss": { "en": "knife", "sv": "kniv" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "چەقۆ", "latin": "çeqo" },
+        "variants": [{ "script": "کێرد", "latin": "kêrd" }],
+        "notes": {
+          "en": "The same word as Persian چاقو. کێرد (kêrd) is another word, the same as Persian کارد (kârd).",
+          "sv": "Samma ord som persiskans چاقو. کێرد (kêrd) är ett annat ord, samma som persiskans کارد (kârd)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "knife" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "چاقو", "latin": "châghu" },
+        "variants": [{ "script": "کارد", "latin": "kârd", "note": { "en": "table or kitchen knife", "sv": "bords- eller kökskniv" } }],
+        "notes": {
+          "en": "این چاقو خیلی تیز است \"this knife is very sharp\": تیز (tiz) is \"sharp\".",
+          "sv": "این چاقو خیلی تیز است \"den här kniven är väldigt vass\": تیز (tiz) betyder \"vass\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "knife" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "cup",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "cup", "sv": "kopp", "enAlt": ["mug"], "svAlt": ["mugg"] },
+      "ckb": {
+        "primary": { "script": "کووپ", "latin": "kûp" },
+        "variants": [{ "script": "کوپ", "latin": "kup" }],
+        "notes": {
+          "en": "کووپێک قاوە (kûpêk qawe) \"a cup of coffee\". Tea comes in a small glass.",
+          "sv": "کووپێک قاوە (kûpêk qawe) \"en kopp kaffe\". Te dricker man ur ett litet glas."
+        },
+        "sources": [{ "source": "wikipedia", "ref": "ckb:کووپ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "فنجان", "latin": "fenjân" },
+        "variants": [{ "script": "فنجون", "latin": "fenjun", "register": "colloquial" }],
+        "notes": {
+          "en": "یک فنجان قهوه (yek fenjân ghahve) \"a cup of coffee\". In speech فنجون (fenjun). Tea mostly comes in a small glass, استکان (estekân).",
+          "sv": "یک فنجان قهوه (yek fenjân ghahve) \"en kopp kaffe\". I tal فنجون (fenjun). Te serveras oftast i ett litet glas, استکان (estekân)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cup" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "pot",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "pot", "sv": "gryta", "enAlt": ["cooking pot", "saucepan"], "svAlt": ["kastrull"] },
+      "senseNote": { "en": "for cooking", "sv": "att laga mat i" },
+      "ckb": {
+        "primary": { "script": "مەنجەڵ", "latin": "menceł" },
+        "variants": [{ "script": "بەرۆش", "latin": "beroş" }],
+        "notes": { "en": "بەرۆش (beroş) is another word for a cooking pot.", "sv": "بەرۆش (beroş) är ett annat ord för en gryta." },
+        "sources": [{ "source": "wiktionary", "ref": "pot" }]
+      },
+      "fa": {
+        "primary": { "script": "قابلمه", "latin": "ghâblame" },
+        "variants": [{ "script": "دیگ", "latin": "dig", "note": { "en": "a big pot", "sv": "en stor gryta" } }],
+        "notes": {
+          "en": "دیگ (dig) is a big pot. The crispy rice at the bottom is ته‌دیگ (tahdig), \"pot bottom\".",
+          "sv": "دیگ (dig) är en stor gryta. Det krispiga riset i botten heter ته‌دیگ (tahdig), \"grytbotten\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "pot" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "to-cut",
+      "unit": "kitchen-cooking",
+      "pos": "verb",
+      "level": "A2",
+      "gloss": { "en": "to cut", "sv": "att skära", "enAlt": ["cut"], "svAlt": ["skära"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "بڕین", "latin": "biřîn" },
+        "presentStem": { "script": "بڕ", "latin": "biř" },
+        "pastStem": { "script": "بڕی", "latin": "biřî" },
+        "notes": {
+          "en": "دەبڕم (debiřim) \"I cut\". With a plain ر instead of ڕ, برین (brîn) is \"a wound\".",
+          "sv": "دەبڕم (debiřim) \"jag skär\". Med vanligt ر i stället för ڕ blir det برین (brîn) \"sår\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "بڕین" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "بریدن", "latin": "boridan" },
+        "presentStem": { "script": "بر", "latin": "bor" },
+        "pastStem": { "script": "برید", "latin": "borid" },
+        "notes": {
+          "en": "می‌برم can be miboram \"I cut\" or mibaram \"I take\" (from بردن); only the context tells. کیک را ببرید \"cut the cake\".",
+          "sv": "می‌برم kan vara miboram \"jag skär\" eller mibaram \"jag tar med\" (av بردن); bara sammanhanget avgör. کیک را ببرید \"skär kakan\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "cut" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sweet",
+      "unit": "kitchen-cooking",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🍭",
+      "gloss": { "en": "sweet", "sv": "söt", "svAlt": ["sött", "söta"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "شیرین", "latin": "şîrîn" },
+        "notes": {
+          "en": "Also \"lovely, dear\", and a girls' name. Sweets and pastries are شیرینی (şîrînî).",
+          "sv": "Betyder också \"ljuv, kär\", och är ett flicknamn. Sötsaker och bakverk heter شیرینی (şîrînî)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sweet" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شیرین", "latin": "shirin" },
+        "notes": {
+          "en": "Also a girls' name, from the love story of Khosrow and Shirin. A box of شیرینی (shirini) \"pastries\" is the usual gift when you visit someone.",
+          "sv": "Också ett flicknamn, från kärlekshistorien om Khosrow och Shirin. En ask شیرینی (shirini) \"bakelser\" är den vanliga presenten när man hälsar på någon."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sweet" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "sour",
+      "unit": "kitchen-cooking",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "sour", "sv": "sur", "svAlt": ["surt", "sura", "syrlig"] },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ترش", "latin": "tirş" },
+        "notes": {
+          "en": "لیمۆ ترشە (lîmo tirşe) \"the lemon is sour\". ترشی (tirşî) is pickled vegetables.",
+          "sv": "لیمۆ ترشە (lîmo tirşe) \"citronen är sur\". ترشی (tirşî) är inlagda grönsaker."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sour" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "ترش", "latin": "torsh" },
+        "notes": {
+          "en": "این سیب ترشه (in sib torshe) \"this apple is sour\". ترشی (torshi), pickled vegetables, comes with almost every meal.",
+          "sv": "این سیب ترشه (in sib torshe) \"det här äpplet är surt\". ترشی (torshi), inlagda grönsaker, hör till nästan varje måltid."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "sour" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "salty",
+      "unit": "kitchen-cooking",
+      "pos": "adjective",
+      "level": "A2",
+      "gloss": { "en": "salty", "sv": "salt", "svAlt": ["salta", "saltad"] },
+      "senseNote": { "en": "of taste", "sv": "om smak" },
+      "ckb": {
+        "primary": { "script": "سوێر", "latin": "swêr" },
+        "notes": {
+          "en": "ئەم شۆربایە زۆر سوێرە \"this soup is too salty\". The noun \"salt\" is خوێ (xwê).",
+          "sv": "ئەم شۆربایە زۆر سوێرە \"den här soppan är för salt\". Substantivet \"salt\" heter خوێ (xwê)."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "salty" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "شور", "latin": "shur" },
+        "notes": {
+          "en": "The noun \"salt\" is نمک (namak). خیلی شوره (kheyli shure) \"it's too salty\".",
+          "sv": "Substantivet \"salt\" heter نمک (namak). خیلی شوره (kheyli shure) \"det är för salt\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "salty" }]
+      }
+    },
+    {
+      "id": "spicy",
+      "unit": "kitchen-cooking",
+      "pos": "adjective",
+      "level": "A2",
+      "emoji": "🌶️",
+      "gloss": { "en": "spicy", "sv": "stark", "enAlt": ["hot"], "svAlt": ["starkt", "kryddstark", "het"] },
+      "senseNote": { "en": "hot with chili", "sv": "het av chili" },
+      "ckb": {
+        "primary": { "script": "تیژ", "latin": "tîj" },
+        "notes": {
+          "en": "Also \"sharp\": چەقۆی تیژ (çeqoy tîj) \"a sharp knife\". The same word as Persian تیز (tiz) \"sharp\".",
+          "sv": "Betyder också \"vass\": چەقۆی تیژ (çeqoy tîj) \"en vass kniv\". Samma ord som persiskans تیز (tiz) \"vass\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تیژ" }, { "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "تند", "latin": "tond" },
+        "notes": {
+          "en": "Also \"fast\": تند نرو! (tond naro) \"don't go so fast!\". A sharp knife is تیز (tiz), the word that is Sorani تیژ \"spicy, sharp\".",
+          "sv": "Betyder också \"snabb\": تند نرو! (tond naro) \"gå inte så fort!\". En vass kniv är تیز (tiz), samma ord som soranins تیژ \"stark, vass\"."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "تند" }, { "source": "tatoeba" }]
+      }
+    },
+    {
+      "id": "restaurant",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "gloss": { "en": "restaurant", "sv": "restaurang" },
+      "cognate": true,
+      "ckb": {
+        "primary": { "script": "ڕێستۆرانت", "latin": "řêstorant" },
+        "variants": [
+          {
+            "script": "خواردنگە",
+            "latin": "xwardinge",
+            "note": { "en": "the Kurdish word, \"eating place\"", "sv": "det kurdiska ordet, \"matställe\"" }
+          }
+        ],
+        "notes": {
+          "en": "From French, like Persian رستوران. The Kurdish word خواردنگە (xwardinge) is خواردن \"food\" + -گە \"place\".",
+          "sv": "Från franskan, precis som persiskans رستوران. Det kurdiska ordet خواردنگە (xwardinge) är خواردن \"mat\" + -گە \"plats\"."
+        },
+        "sources": [{ "source": "tatoeba" }, { "source": "wikipedia", "ref": "ckb:خواردنگە" }]
+      },
+      "fa": {
+        "primary": { "script": "رستوران", "latin": "restorân" },
+        "notes": {
+          "en": "A سفره‌خانه (sofre-khâne) is a traditional restaurant where you sit on raised platforms covered with carpets.",
+          "sv": "En سفره‌خانه (sofre-khâne) är en traditionell restaurang där man sitter på upphöjda bäddar täckta med mattor."
+        },
+        "sources": [{ "source": "wiktionary", "ref": "رستوران" }, { "source": "tatoeba" }, { "source": "wikipedia", "ref": "fa:رستوران" }]
+      }
+    },
+    {
+      "id": "bill",
+      "unit": "kitchen-cooking",
+      "pos": "noun",
+      "level": "A2",
+      "emoji": "🧾",
+      "gloss": { "en": "bill", "sv": "nota", "enAlt": ["check"], "svAlt": ["notan", "räkning", "räkningen"] },
+      "senseNote": { "en": "at a restaurant", "sv": "på restaurang" },
+      "ckb": {
+        "primary": { "script": "پسوولە", "latin": "pisûle" },
+        "variants": [{ "script": "وەسڵ", "latin": "wesł" }],
+        "notes": {
+          "en": "پسوولە، تکایە (pisûle, tikaye) \"the bill, please\". Also وەسڵ (wesł), from Arabic.",
+          "sv": "پسوولە، تکایە (pisûle, tikaye) \"notan, tack\". Också وەسڵ (wesł), från arabiskan."
+        },
+        "sources": [{ "source": "tatoeba" }]
+      },
+      "fa": {
+        "primary": { "script": "صورت‌حساب", "latin": "surat-hesâb" },
+        "variants": [{ "script": "حساب", "latin": "hesâb", "register": "colloquial" }],
+        "notes": {
+          "en": "In speech often just حساب (hesâb) \"account\". Friends argue over who pays, and offering to pay more than once is part of ta'arof.",
+          "sv": "I tal ofta bara حساب (hesâb) \"konto\". Vänner bråkar om vem som ska betala, och att erbjuda sig flera gånger hör till ta'arof."
+        },
+        "sources": [{ "source": "author" }]
+      }
+    }
+  ]
+}
