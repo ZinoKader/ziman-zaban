@@ -136,7 +136,7 @@ export const aboutStrings = defineStrings({
       },
       audio8Fa: {
         name: 'Audio8-TTS-Persian, by Armin Rahimi Darehbagh',
-        what: 'An open Persian text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the Mana-TTS and GPTInformal-Persian corpora. It reads the Persian words nobody has recorded yet, and the sentences ParsVoice did not get right. Non-commercial use only.',
+        what: 'An open Persian text-to-speech model, based on Audio8 TTS by Edge0-AI and trained on the Mana-TTS and GPTInformal-Persian corpora. It reads the few Persian texts nobody has recorded yet, where ParsVoice did not get them right. Non-commercial use only.',
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, by Armin Rahimi Darehbagh',
@@ -165,7 +165,7 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Limitations',
     limits: [
-      'Most of the audio is not recorded by people. Open text-to-speech models read it: ParsVoice and Audio8 for Persian, Audio8 and, for a few clips, Vekol-TTS for Sorani. Speech recognition checks every clip automatically, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker has recorded a text, you hear the recording instead. Most single words are recorded, but most sentences are not yet. If you are a native speaker, you can record texts on the "Record voices" page.',
+      'Almost all the Persian audio is recorded by a native speaker, but most of the Sorani sentences are not yet. Open text-to-speech models read the rest: ParsVoice and Audio8 for Persian, Audio8 and, for a few clips, Vekol-TTS for Sorani. Speech recognition checks every clip automatically, but a machine voice can still stress or pronounce a word wrongly. Where a native speaker has recorded a text, you hear the recording instead. If you are a native speaker, you can record texts on the "Record voices" page.',
       'The voices are licensed for non-commercial use only (ParsVoice under the Coqui Public Model License; Audio8 Persian, Audio8 Sorani and Vekol-TTS under CC BY-NC 4.0). As long as the app uses them, it may only be used non-commercially.',
       'This is a first version. Native speakers are still reviewing the content, and some items are marked "Not checked yet".',
       'The automatic checks confirm that a word exists with a meaning, not that it is the most natural choice in every situation.',
@@ -305,7 +305,7 @@ export const aboutStrings = defineStrings({
       },
       audio8Fa: {
         name: 'Audio8-TTS-Persian, av Armin Rahimi Darehbagh',
-        what: 'En öppen talsyntesmodell för persiska, byggd på Audio8 TTS från Edge0-AI och tränad på korpusarna Mana-TTS och GPTInformal-Persian. Den läser de persiska ord som ingen har spelat in än och de meningar som ParsVoice inte klarade. Endast för icke-kommersiellt bruk.',
+        what: 'En öppen talsyntesmodell för persiska, byggd på Audio8 TTS från Edge0-AI och tränad på korpusarna Mana-TTS och GPTInformal-Persian. Den läser de få persiska texter som ingen har spelat in än, där ParsVoice inte klarade dem. Endast för icke-kommersiellt bruk.',
       },
       audio8: {
         name: 'Audio8-TTS-Kurdish-Sorani, av Armin Rahimi Darehbagh',
@@ -334,7 +334,7 @@ export const aboutStrings = defineStrings({
 
     limitsTitle: 'Begränsningar',
     limits: [
-      'Det mesta av ljudet är inte inspelat av människor. Öppna modeller för talsyntes läser det: ParsVoice och Audio8 för persiska, Audio8 och i några få klipp Vekol-TTS för sorani. Varje klipp kontrolleras automatiskt med taligenkänning, men en datorröst kan ändå betona eller uttala ett ord fel. Har en modersmålstalare spelat in en text får du höra inspelningen i stället. De flesta enskilda ord är inspelade, men de flesta meningar är det inte än. Har du sorani eller persiska som modersmål kan du spela in texter på sidan "Spela in röster".',
+      'Nästan allt ljud på persiska är inspelat av en modersmålstalare, men de flesta meningar på sorani är det inte än. Öppna modeller för talsyntes läser resten: ParsVoice och Audio8 för persiska, Audio8 och i några få klipp Vekol-TTS för sorani. Varje klipp kontrolleras automatiskt med taligenkänning, men en datorröst kan ändå betona eller uttala ett ord fel. Har en modersmålstalare spelat in en text får du höra inspelningen i stället. Har du sorani eller persiska som modersmål kan du spela in texter på sidan "Spela in röster".',
       'Rösterna får bara användas icke-kommersiellt (ParsVoice under Coqui Public Model License; Audio8 Persian, Audio8 Sorani och Vekol-TTS under CC BY-NC 4.0). Så länge appen använder dem får den alltså bara användas icke-kommersiellt.',
       'Det här är en första version. Modersmålstalare granskar fortfarande innehållet, och en del är markerat "Inte kontrollerat än".',
       'De automatiska kontrollerna bekräftar att ett ord finns med en viss betydelse, inte att det är det naturligaste valet i varje situation.',

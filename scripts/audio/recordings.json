@@ -10,7 +10,7 @@
    "name": "Essi",
    "lang": "fa",
    "license": "CC BY-SA 4.0",
-   "consentAt": "2026-11-08T11:18:59.224Z"
+   "consentAt": "2026-11-16T16:27:30.984Z"
   }
  },
  "clips": {
@@ -1972,20 +1972,85 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:37.030Z"
    },
+   "آب می‌خوام.": {
+    "f": "fa/rec-4f69cbd844c035a7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:28.412Z"
+   },
+   "آب می‌خواهم.": {
+    "f": "fa/rec-ca53ffc881bda0a8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:31.100Z"
+   },
+   "آب، لطفاً.": {
+    "f": "fa/rec-ae65d91667b14959.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:07.765Z"
+   },
    "آبی": {
     "f": "fa/rec-de95d51032e81046.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:13.558Z"
+   },
+   "آبی است.": {
+    "f": "fa/rec-fc10c2480d5812da.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:33.875Z"
    },
    "آرش": {
     "f": "fa/rec-17b888f1124c0264.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:41.064Z"
    },
+   "آرش هستم.": {
+    "f": "fa/rec-4e5dcb72691aeee6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:17.755Z"
+   },
    "آره": {
     "f": "fa/rec-69604bd6099c7879.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:48.756Z"
+   },
+   "آره، بریم!": {
+    "f": "fa/rec-afe0192595727ee5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:33.500Z"
+   },
+   "آره، تشنمه.": {
+    "f": "fa/rec-69eceef2c8c56c82.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:52.724Z"
+   },
+   "آره، تو اون خیابون یه مغازه هست.": {
+    "f": "fa/rec-547390791618f61d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:58.389Z"
+   },
+   "آره، خوبم.": {
+    "f": "fa/rec-13509ea8fb52530a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:41.083Z"
+   },
+   "آره، خیلی دوره.": {
+    "f": "fa/rec-40dfe391cd1a10d3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:12.781Z"
+   },
+   "آره، خیلی دوست دارم.": {
+    "f": "fa/rec-ccb35519feee4043.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:11.337Z"
+   },
+   "آره، گشنمه.": {
+    "f": "fa/rec-9a45b695dd0f115a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:43.811Z"
+   },
+   "آره، یه کم می‌تونم.": {
+    "f": "fa/rec-d8efced5fb59ad4f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:59.433Z"
    },
    "آسان": {
     "f": "fa/rec-07ef27424e1c3c42.mp3",
@@ -2002,10 +2067,20 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:07.101Z"
    },
+   "آشپزخانه اینجاست.": {
+    "f": "fa/rec-c9f6fcb704a6f665.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:36.414Z"
+   },
    "آشپزخونه": {
     "f": "fa/rec-c836af5e11366764.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:09.405Z"
+   },
+   "آشپزخونه اینجاست.": {
+    "f": "fa/rec-c30e98352090e09f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:39.620Z"
    },
    "آشپزی کردم": {
     "f": "fa/rec-f2b0977fa1550dc7.mp3",
@@ -2027,6 +2102,21 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:27.602Z"
    },
+   "آن خانم اهل سلیمانیه است.": {
+    "f": "fa/rec-1ee66f7d802ff25b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:22.918Z"
+   },
+   "آن زن اهل سلیمانیه است.": {
+    "f": "fa/rec-60718da598661417.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:26.374Z"
+   },
+   "آن مرد کیست؟": {
+    "f": "fa/rec-4cb4a56a3e718d96.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:44.313Z"
+   },
    "آنجا": {
     "f": "fa/rec-449aeec326e89416.mp3",
     "v": "fa-rec-essi",
@@ -2042,6 +2132,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:15.411Z"
    },
+   "آن‌ها آنجا زندگی می‌کنند.": {
+    "f": "fa/rec-2df03400d37b5f75.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:26.854Z"
+   },
    "آهسته": {
     "f": "fa/rec-ae650b8b2a9fdfea.mp3",
     "v": "fa-rec-essi",
@@ -2056,6 +2151,26 @@
     "f": "fa/rec-64c60f50bb48d5b5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:01.127Z"
+   },
+   "اتاق تمیز و بزرگ است.": {
+    "f": "fa/rec-b25a93a48590550d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:59.981Z"
+   },
+   "اتاق تمیز و بزرگه.": {
+    "f": "fa/rec-b27749c0ba9c9530.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:03.907Z"
+   },
+   "اتاقم دو تا پنجره داره.": {
+    "f": "fa/rec-b10a9491bd60854b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:46.909Z"
+   },
+   "اتاقم دو پنجره دارد.": {
+    "f": "fa/rec-a74d845c43e1131a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:42.856Z"
    },
    "اتوبوس": {
     "f": "fa/rec-f27f8880af383897.mp3",
@@ -2082,6 +2197,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:44.180Z"
    },
+   "اریک هستم.": {
+    "f": "fa/rec-09b3e877611a829b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:20.485Z"
+   },
    "از": {
     "f": "fa/rec-0f5be2414f69751a.mp3",
     "v": "fa-rec-essi",
@@ -2097,6 +2217,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:50.604Z"
    },
+   "از سلیمانیه میام.": {
+    "f": "fa/rec-73520a09fcdbcbac.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:01.296Z"
+   },
+   "از سلیمانیه می‌آیم.": {
+    "f": "fa/rec-1e32b112c72a807a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:58.395Z"
+   },
    "ازدواج کرده": {
     "f": "fa/rec-332e54a061a08297.mp3",
     "v": "fa-rec-essi",
@@ -2107,10 +2237,115 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:58.984Z"
    },
+   "استکهلم.": {
+    "f": "fa/rec-e58fe946088d8dd1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:39.448Z"
+   },
    "اسم": {
     "f": "fa/rec-f57475e81ab074b9.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:21.939Z"
+   },
+   "اسم دوستت چیست؟": {
+    "f": "fa/rec-393d7c8de540c182.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:15.364Z"
+   },
+   "اسم دوستت چیه؟": {
+    "f": "fa/rec-c7cfcdd0fb3fb544.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:18.650Z"
+   },
+   "اسم شما چیست؟": {
+    "f": "fa/rec-3c0938550e54fa0d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:20.288Z"
+   },
+   "اسم مادرتان چیست؟": {
+    "f": "fa/rec-4300c0093818c522.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:09.397Z"
+   },
+   "اسم مادرم مریم است.": {
+    "f": "fa/rec-aecad03e3c28fc80.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:28.293Z"
+   },
+   "اسم مامانم شیرینه.": {
+    "f": "fa/rec-6ef6274edecb3b16.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:36.998Z"
+   },
+   "اسم مامانم مریمه.": {
+    "f": "fa/rec-e7900704d47c9b7f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:40.240Z"
+   },
+   "اسم مامانم نسرینه.": {
+    "f": "fa/rec-c6b2be04bc323097.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:43.312Z"
+   },
+   "اسم مامانم پروینه.": {
+    "f": "fa/rec-719a494dd02c83ac.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:32.946Z"
+   },
+   "اسم من آرش است.": {
+    "f": "fa/rec-f2b248d8ecf78a48.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:23.431Z"
+   },
+   "اسم من سارا است.": {
+    "f": "fa/rec-35cffff35db2880e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:34.416Z"
+   },
+   "اسمت چیست؟": {
+    "f": "fa/rec-9d5907019ecafa37.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:38.045Z"
+   },
+   "اسمش آرش است.": {
+    "f": "fa/rec-23939dc81eeee1a3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:27.377Z"
+   },
+   "اسمم آرشه.": {
+    "f": "fa/rec-4e87bd17fc6d2b4c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:26.374Z"
+   },
+   "اسمم اریکه.": {
+    "f": "fa/rec-003ec78a04611c05.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:29.104Z"
+   },
+   "اسمم سارا است.": {
+    "f": "fa/rec-e5a8efd5e75a8bec.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:38.128Z"
+   },
+   "اسمم ساراست.": {
+    "f": "fa/rec-7aefe951c323f104.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:41.199Z"
+   },
+   "اسمم مریمه.": {
+    "f": "fa/rec-cd12e4be5336a8e0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:31.793Z"
+   },
+   "اسمم نیلوفره.": {
+    "f": "fa/rec-d882e083c74c147b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:34.523Z"
+   },
+   "اشکالی ندارد.": {
+    "f": "fa/rec-f2af5753084f8263.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:08.838Z"
    },
    "اصفهان": {
     "f": "fa/rec-27a9b64a99195471.mp3",
@@ -2121,6 +2356,16 @@
     "f": "fa/rec-84a21ae1ee55f272.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:46.003Z"
+   },
+   "الان ساعت چند است؟": {
+    "f": "fa/rec-1cdf9b9d5b3a4014.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:44.994Z"
+   },
+   "الان ساعت چنده؟": {
+    "f": "fa/rec-259fe5333bf976bf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:47.896Z"
    },
    "البته": {
     "f": "fa/rec-535b5a57b642e160.mp3",
@@ -2137,30 +2382,210 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:38.407Z"
    },
+   "امروز از دیروز سردتر است.": {
+    "f": "fa/rec-af2b070277383301.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:23.333Z"
+   },
+   "امروز از دیروز سردتره.": {
+    "f": "fa/rec-c6000ef917eecb9f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:26.746Z"
+   },
+   "امروز جمعه است.": {
+    "f": "fa/rec-57c6c23892e596da.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:32.591Z"
+   },
+   "امروز جمعه است؟": {
+    "f": "fa/rec-25f86dec621e7939.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:18.398Z"
+   },
+   "امروز دوشنبه است.": {
+    "f": "fa/rec-e36f10164d19170e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:37.540Z"
+   },
+   "امروز شنبه است.": {
+    "f": "fa/rec-abaf5c630226c793.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:15.160Z"
+   },
+   "امروز شنبه‌ست.": {
+    "f": "fa/rec-382cddad5d537b2c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:27.244Z"
+   },
+   "امروز هوا خوب است.": {
+    "f": "fa/rec-33029b171ff1a005.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:16.523Z"
+   },
+   "امروز هوا سرد است.": {
+    "f": "fa/rec-3f68202952ac69fc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:18.564Z"
+   },
+   "امروز هوا سرده.": {
+    "f": "fa/rec-0a46d6d71db57493.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:21.722Z"
+   },
+   "امروز چطوری؟": {
+    "f": "fa/rec-9d209c10e52fc4c4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:04.765Z"
+   },
+   "امروز چه روزی است؟": {
+    "f": "fa/rec-285ee1e2ae1bc8c7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:15.541Z"
+   },
+   "امروز چهارشنبه است.": {
+    "f": "fa/rec-010dd75fea9e6090.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:35.108Z"
+   },
+   "امروز یکشنبه است.": {
+    "f": "fa/rec-504d7df59966ef28.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:40.056Z"
+   },
+   "امشب اینجا هستیم.": {
+    "f": "fa/rec-d569009887aaffc8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:29.195Z"
+   },
+   "امشب اینجاییم.": {
+    "f": "fa/rec-06cc44adcf42ec7c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:32.310Z"
+   },
    "انگلیسی": {
     "f": "fa/rec-7ca9676a6e47b45a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:58.760Z"
+   },
+   "انگلیسی حرف می‌زنی؟": {
+    "f": "fa/rec-23f8802029ed1d9d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:34.533Z"
+   },
+   "انگلیسی صحبت می‌کنی؟": {
+    "f": "fa/rec-58fad60f4f0d3e23.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:37.861Z"
+   },
+   "انگلیسی صحبت می‌کنید؟": {
+    "f": "fa/rec-20db9e2084ce2854.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:41.231Z"
+   },
+   "انگلیسی یاد می‌گیرم.": {
+    "f": "fa/rec-9ac670a2f534c3d3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:38.856Z"
    },
    "اهل": {
     "f": "fa/rec-73f7a1c63d52f006.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:34.739Z"
    },
+   "اهل اربیلم.": {
+    "f": "fa/rec-c8afdcac544d74d6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:42.587Z"
+   },
+   "اهل اصفهانم.": {
+    "f": "fa/rec-c864d0dfee2ffe10.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:45.232Z"
+   },
+   "اهل تهران است.": {
+    "f": "fa/rec-17eac64b5eb76e99.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:34.459Z"
+   },
+   "اهل تهرانم.": {
+    "f": "fa/rec-d6ef64c772fcba86.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:47.749Z"
+   },
+   "اهل تهرانه.": {
+    "f": "fa/rec-696e9f990a239e75.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:36.892Z"
+   },
+   "اهل سوئد هستم.": {
+    "f": "fa/rec-c9a7ae3d62de9fa1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:50.523Z"
+   },
+   "اهل سوئدم.": {
+    "f": "fa/rec-e83b428848454794.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:53.083Z"
+   },
+   "اهل شیرازم.": {
+    "f": "fa/rec-260026bef54bc248.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:55.814Z"
+   },
+   "اهل کجا هستید؟": {
+    "f": "fa/rec-afe9798fd5f9d175.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:23.531Z"
+   },
    "او": {
     "f": "fa/rec-698a14e646d618ec.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:06.154Z"
+   },
+   "او اهل اربیل است.": {
+    "f": "fa/rec-a3f6ec852f1a5cf8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:40.861Z"
+   },
+   "او اهل کجاست؟": {
+    "f": "fa/rec-c13364f4a5526687.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:42.303Z"
+   },
+   "او برادر شماست؟": {
+    "f": "fa/rec-46903dbb075ca64b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:12.511Z"
+   },
+   "او دوست من است.": {
+    "f": "fa/rec-e9d7ea5ae70e215d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:29.809Z"
+   },
+   "او کیست؟": {
+    "f": "fa/rec-93092cf96d4e3c87.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:39.359Z"
    },
    "اون": {
     "f": "fa/rec-35b2447f5603d15f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:07.859Z"
    },
+   "اون مرد کیه؟": {
+    "f": "fa/rec-5caff93fc88814f8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:47.173Z"
+   },
    "اونا": {
     "f": "fa/rec-a5d35ceb81dd5f7c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:37:49.765Z"
+   },
+   "اونا اونجا زندگی می‌کنن.": {
+    "f": "fa/rec-7332949d581790a8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:31.119Z"
    },
    "اونجا": {
     "f": "fa/rec-a82638d2e6858bd0.mp3",
@@ -2182,25 +2607,260 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:25.854Z"
    },
+   "این آبی است.": {
+    "f": "fa/rec-cc74a670aa7e71c2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:25.127Z"
+   },
+   "این ارزان است، آن گران است.": {
+    "f": "fa/rec-4c43faf81b738f5e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:10.404Z"
+   },
+   "این ارزونه، اون گرونه.": {
+    "f": "fa/rec-fd2a2f2c7eb7043d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:13.987Z"
+   },
+   "این خانه‌ی ماست.": {
+    "f": "fa/rec-0169e201744c70fb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:30.525Z"
+   },
+   "این خانواده‌ام است.": {
+    "f": "fa/rec-4cc838a347260f23.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:29.656Z"
+   },
+   "این خانواده‌مه.": {
+    "f": "fa/rec-c9b43db6ff9c82de.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:32.516Z"
+   },
+   "این خانواده‌ی من است.": {
+    "f": "fa/rec-37e022e76cfaa0a8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:35.545Z"
+   },
+   "این خونه‌ی ماست.": {
+    "f": "fa/rec-f227493517c93442.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:33.171Z"
+   },
+   "این دوست من است.": {
+    "f": "fa/rec-e743b0ea60b2158b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:50.245Z"
+   },
+   "این دوستم است.": {
+    "f": "fa/rec-c9eed052efb74d02.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:53.530Z"
+   },
+   "این دوستمه.": {
+    "f": "fa/rec-2144b81b5318baa6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:56.304Z"
+   },
+   "این را چطور می‌گویند؟": {
+    "f": "fa/rec-afcfab649c94e33c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:12.246Z"
+   },
+   "این مادر من است.": {
+    "f": "fa/rec-d2d64e76bbc05618.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:38.318Z"
+   },
+   "این مادرم است.": {
+    "f": "fa/rec-406ed8c3e7fcf409.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:40.793Z"
+   },
+   "این مامانمه.": {
+    "f": "fa/rec-6914596034fcf95d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:43.395Z"
+   },
+   "این نزدیکی‌ها مغازه هست؟": {
+    "f": "fa/rec-9d22118e8e923e47.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:50.004Z"
+   },
+   "این چقدر است؟": {
+    "f": "fa/rec-32af46400c706074.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:33.393Z"
+   },
+   "این چند است؟": {
+    "f": "fa/rec-3ec396ffa02cfad5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:00.158Z"
+   },
+   "این چنده؟": {
+    "f": "fa/rec-e8a10cd3a86e5c7f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:35.908Z"
+   },
+   "این چه رنگی است؟": {
+    "f": "fa/rec-93e56187b30fb8ae.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:10.012Z"
+   },
+   "این چیست؟": {
+    "f": "fa/rec-c15bd15d2516cf40.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:55.609Z"
+   },
+   "این چیه؟": {
+    "f": "fa/rec-a1305568ae7b6f13.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:57.826Z"
+   },
+   "این کتاب از آن بهتر است.": {
+    "f": "fa/rec-3ab77a18d97dad17.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:41.004Z"
+   },
+   "این کتاب از آن کتاب بهتر است.": {
+    "f": "fa/rec-fbbdbd44063ed2c4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:45.134Z"
+   },
+   "این کتاب از اون کتاب بهتره.": {
+    "f": "fa/rec-b3805af3eba293e7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:48.846Z"
+   },
+   "این کتاب خوبی است.": {
+    "f": "fa/rec-08bb424e5cc030f3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:56.635Z"
+   },
+   "این کتاب خوبیه.": {
+    "f": "fa/rec-06da31c7f766cf1a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:00.003Z"
+   },
+   "این یعنی چه؟": {
+    "f": "fa/rec-7cb87b9e9fb200fe.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:02.390Z"
+   },
+   "این یعنی چی؟": {
+    "f": "fa/rec-cedc12b09629d394.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:05.250Z"
+   },
+   "این یک کتاب خوب است.": {
+    "f": "fa/rec-f3cf09d6a6cb0082.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:03.246Z"
+   },
    "اینجا": {
     "f": "fa/rec-2cd49eb86d4a5a9a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:20.137Z"
+   },
+   "اینجا زندگی می‌کنم.": {
+    "f": "fa/rec-7722804f50eae786.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:09.424Z"
+   },
+   "اینو چطوری می‌گن؟": {
+    "f": "fa/rec-e1e823addd130d70.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:15.840Z"
    },
    "با": {
     "f": "fa/rec-98022d958a1726e5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:38:11.948Z"
    },
+   "با اتوبوس سر کار می‌روم.": {
+    "f": "fa/rec-c6aa65e1f4ff21da.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:53.726Z"
+   },
+   "با اتوبوس می‌رم سر کار.": {
+    "f": "fa/rec-3dda0a7f145fc682.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:56.712Z"
+   },
+   "با تاکسی سر کار می‌روم.": {
+    "f": "fa/rec-37bc79eaf5919cc6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:22.409Z"
+   },
+   "با تاکسی می‌رم سر کار.": {
+    "f": "fa/rec-7d82eab03c963432.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:25.519Z"
+   },
+   "با دوستم میام.": {
+    "f": "fa/rec-f3c0c7ea35cd2460.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:55.109Z"
+   },
+   "با دوستم می‌آیم.": {
+    "f": "fa/rec-915191138bd88381.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:51.697Z"
+   },
+   "با دوچرخه سر کار می‌روم.": {
+    "f": "fa/rec-00d041297482c92f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:29.017Z"
+   },
+   "با دوچرخه می‌رم سر کار.": {
+    "f": "fa/rec-a3066aaf2905a988.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:32.390Z"
+   },
+   "با ماشین سر کار می‌روم.": {
+    "f": "fa/rec-01b01c0ba90053e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:35.590Z"
+   },
+   "با ماشین می‌رم سر کار.": {
+    "f": "fa/rec-7bd5cc895eaa58b3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:39.216Z"
+   },
+   "با مترو سر کار می‌روم.": {
+    "f": "fa/rec-28bd3f7b92fae2bd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:42.715Z"
+   },
+   "با مترو می‌رم سر کار.": {
+    "f": "fa/rec-29b48b4b200cedbc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:46.000Z"
+   },
    "بابا": {
     "f": "fa/rec-198b72f818949964.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:40.051Z"
    },
+   "بابا و مامانم تو سلیمانیه زندگی می‌کنن.": {
+    "f": "fa/rec-4ba0683e369c281f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:08.519Z"
+   },
    "بابابزرگ": {
     "f": "fa/rec-f420301542db0cb1.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:03.349Z"
+   },
+   "بابام اهل اربیله.": {
+    "f": "fa/rec-0821fede64d8b425.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:46.553Z"
+   },
+   "بابام پنجاه سالشه.": {
+    "f": "fa/rec-fe668ac588471a45.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:58.262Z"
    },
    "باز": {
     "f": "fa/rec-890b3fc149f6c3de.mp3",
@@ -2227,10 +2887,75 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:32.063Z"
    },
+   "باشه.": {
+    "f": "fa/rec-6ded4931743509a5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:21.340Z"
+   },
+   "باشه، بعداً می‌بینمت.": {
+    "f": "fa/rec-8cb231e8ccc87df2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:51.884Z"
+   },
+   "باشه، شب بخیر!": {
+    "f": "fa/rec-6c3fc3ef7f221f9a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:18.245Z"
+   },
+   "باشه، فعلاً.": {
+    "f": "fa/rec-e2a7d18851a812af.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:54.485Z"
+   },
+   "باشه، مرسی.": {
+    "f": "fa/rec-bb6b45501300aee6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:55.503Z"
+   },
+   "باشه، ممنون.": {
+    "f": "fa/rec-bed0ad80f6c86d47.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:58.192Z"
+   },
    "ببخشید": {
     "f": "fa/rec-df08aca1af076ad7.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:27.497Z"
+   },
+   "ببخشید!": {
+    "f": "fa/rec-a73f7b144f7bbc2e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:06.378Z"
+   },
+   "ببخشید! باشه، آهسته‌تر صحبت می‌کنم.": {
+    "f": "fa/rec-778c0bd77871bdc3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:25.738Z"
+   },
+   "ببخشید، الان نمی‌توانم.": {
+    "f": "fa/rec-ebf6ab2db34c982e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:19.914Z"
+   },
+   "ببخشید، انگلیسی حرف می‌زنید؟": {
+    "f": "fa/rec-00b5ba1349389871.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:57.815Z"
+   },
+   "ببخشید، انگلیسی صحبت می‌کنید؟": {
+    "f": "fa/rec-5d163559a047fd95.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:01.529Z"
+   },
+   "ببخشید، متوجه نشدم.": {
+    "f": "fa/rec-25caea705a39afeb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:18.641Z"
+   },
+   "ببخشید، نمی‌فهمم.": {
+    "f": "fa/rec-b70a08548fc04efb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:34.146Z"
    },
    "بد": {
     "f": "fa/rec-10d0dfce0d1624df.mp3",
@@ -2242,6 +2967,31 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:43.593Z"
    },
+   "برادر بزرگم در سوئد زندگی می‌کند.": {
+    "f": "fa/rec-b67e538aea8b5d36.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:19.449Z"
+   },
+   "برادر ندارم.": {
+    "f": "fa/rec-386dbabe7d0fbd6a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:10.001Z"
+   },
+   "برادر ندارم، ولی دو خواهر دارم.": {
+    "f": "fa/rec-c77da0b06fc9517f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:01.128Z"
+   },
+   "برادرم از من کوچک‌تر است.": {
+    "f": "fa/rec-f36141facdd9ce78.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:33.273Z"
+   },
+   "برادرم بیست و یک سال دارد.": {
+    "f": "fa/rec-c6ad5e78ee688928.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:51.468Z"
+   },
    "برای اینکه": {
     "f": "fa/rec-da73e457c7c9b8d1.mp3",
     "v": "fa-rec-essi",
@@ -2252,15 +3002,45 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:20.141Z"
    },
+   "برای کارم.": {
+    "f": "fa/rec-de793c348ed5c4d2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:36.071Z"
+   },
    "برنج": {
     "f": "fa/rec-0c731836eb1931f2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:50.088Z"
    },
+   "برنج خوردم.": {
+    "f": "fa/rec-f17794a86f49b2a0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:13.567Z"
+   },
+   "برنج و گوشت خوردم.": {
+    "f": "fa/rec-2fd0f26a247ced7d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:16.596Z"
+   },
+   "برنج، لطفاً.": {
+    "f": "fa/rec-348982af4a6401a5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:31.714Z"
+   },
    "برویم": {
     "f": "fa/rec-7192d06ad2461191.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:43:04.926Z"
+   },
+   "برویم؟": {
+    "f": "fa/rec-679fe44ba0cda0a1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:33.681Z"
+   },
+   "برید سمت راست.": {
+    "f": "fa/rec-3bba4462a68785ce.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:03.527Z"
    },
    "بریم": {
     "f": "fa/rec-39cfba234d917145.mp3",
@@ -2287,6 +3067,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:40.221Z"
    },
+   "بس است، ممنون.": {
+    "f": "fa/rec-f98ab2f5a1163f62.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:50.121Z"
+   },
    "بستن": {
     "f": "fa/rec-756622c5cbd1c85e.mp3",
     "v": "fa-rec-essi",
@@ -2296,6 +3081,11 @@
     "f": "fa/rec-4c20c5f07e8a1519.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:42.226Z"
+   },
+   "بسه، مرسی.": {
+    "f": "fa/rec-18cf15668296c482.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:52.850Z"
    },
    "بسیار": {
     "f": "fa/rec-1638e96adeebbc79.mp3",
@@ -2317,10 +3107,210 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:48:26.531Z"
    },
+   "بعضی وقت‌ها در خانه کار می‌کنم.": {
+    "f": "fa/rec-ef9473e0220147d6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:16.865Z"
+   },
    "بله": {
     "f": "fa/rec-2a2898add9222f9d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:51.999Z"
+   },
+   "بله، ازدواج کرده‌ام.": {
+    "f": "fa/rec-888879f759e12d78.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:03.633Z"
+   },
+   "بله، البته.": {
+    "f": "fa/rec-a4eede8e26446045.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:28.594Z"
+   },
+   "بله، امروز جمعه است.": {
+    "f": "fa/rec-73ece1e5c8582339.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:50.511Z"
+   },
+   "بله، اینجاست.": {
+    "f": "fa/rec-d7abbe119029b3c0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:07.760Z"
+   },
+   "بله، باشه.": {
+    "f": "fa/rec-7fb1bf61a92a1c47.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:54.518Z"
+   },
+   "بله، برادرم است.": {
+    "f": "fa/rec-c228f23cef9f11af.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:53.551Z"
+   },
+   "بله، برویم.": {
+    "f": "fa/rec-61a90b0dc1d612f6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:36.230Z"
+   },
+   "بله، بزرگ است.": {
+    "f": "fa/rec-dc0422a82037b81b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:42.762Z"
+   },
+   "بله، تشنه‌ام.": {
+    "f": "fa/rec-b813e79e392ceed3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:55.839Z"
+   },
+   "بله، حتماً.": {
+    "f": "fa/rec-6af6d5ecc24f2c34.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:22.729Z"
+   },
+   "بله، خوب خوابیدم.": {
+    "f": "fa/rec-a8e153d493b83421.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:07.955Z"
+   },
+   "بله، خوب می‌توانم.": {
+    "f": "fa/rec-26b4d0d34b7c9fe2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:08.394Z"
+   },
+   "بله، خوبم.": {
+    "f": "fa/rec-472a7f1602f96307.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:43.686Z"
+   },
+   "بله، خیلی خسته‌ام.": {
+    "f": "fa/rec-1e25b4f64a6fa438.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:59.613Z"
+   },
+   "بله، خیلی خوشمزه است.": {
+    "f": "fa/rec-a3659151ba9c94ef.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:19.156Z"
+   },
+   "بله، خیلی دور است.": {
+    "f": "fa/rec-ac3be764d93b780e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:15.508Z"
+   },
+   "بله، خیلی گران است.": {
+    "f": "fa/rec-225a18a7a14cd342.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:55.164Z"
+   },
+   "بله، خیلی گرسنه‌ام.": {
+    "f": "fa/rec-69d3807066ebe69e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:46.795Z"
+   },
+   "بله، خیلی گرونه.": {
+    "f": "fa/rec-92f1cf53bf043e25.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:01:45.515Z"
+   },
+   "بله، داداشمه.": {
+    "f": "fa/rec-8500f76b4c6af05b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:56.111Z"
+   },
+   "بله، در آن خیابان یک مغازه هست.": {
+    "f": "fa/rec-698875d011a15750.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:01.930Z"
+   },
+   "بله، دو تا بچه دارم.": {
+    "f": "fa/rec-611e298e9cb28479.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:12.421Z"
+   },
+   "بله، سمت چپ.": {
+    "f": "fa/rec-89e2796c578bfb75.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:04.489Z"
+   },
+   "بله، عالیه.": {
+    "f": "fa/rec-f6c38b8262414fb7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:21.543Z"
+   },
+   "بله، فارسی صحبت می‌کنم.": {
+    "f": "fa/rec-7bcc922eca898124.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:43.857Z"
+   },
+   "بله، لطفاً.": {
+    "f": "fa/rec-7f2c4da5bd33fd7e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:10.194Z"
+   },
+   "بله، متأهل هستم.": {
+    "f": "fa/rec-db7396ca05e00e51.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:06.491Z"
+   },
+   "بله، متوجه می‌شوم.": {
+    "f": "fa/rec-4049a067fb00528b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:27.753Z"
+   },
+   "بله، می‌توانم.": {
+    "f": "fa/rec-c0666db36d7f6012.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:25.545Z"
+   },
+   "بله، می‌فهمم.": {
+    "f": "fa/rec-3f29b3a3be08462a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:30.696Z"
+   },
+   "بله، همیشه زود بیدار می‌شوم.": {
+    "f": "fa/rec-e96f4a3192b2afc3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:31.859Z"
+   },
+   "بله، چای دوست دارم.": {
+    "f": "fa/rec-0efd1df176335c3c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:14.281Z"
+   },
+   "بله، کمی سخت است.": {
+    "f": "fa/rec-9457ea15f297180c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:26.891Z"
+   },
+   "بله، کمی مریضم.": {
+    "f": "fa/rec-b016a7d4b44e9cbf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:16.979Z"
+   },
+   "بله، کمی می‌توانم.": {
+    "f": "fa/rec-a4edb41f0af9e732.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:02.634Z"
+   },
+   "بله، کمی کردی صحبت می‌کنم.": {
+    "f": "fa/rec-412a2fe3f918bef6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:34.901Z"
+   },
+   "بله، یک خواهر دارم.": {
+    "f": "fa/rec-114d20c5fb19b452.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:04.583Z"
+   },
+   "بله، یک ماشین دارم.": {
+    "f": "fa/rec-94dcffd726d18426.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:48.660Z"
+   },
+   "بله، یک پسر دارم.": {
+    "f": "fa/rec-0cdec060190685b0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:15.109Z"
    },
    "بلیت": {
     "f": "fa/rec-eb9596450ec2a61c.mp3",
@@ -2342,15 +3332,90 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:43:15.550Z"
    },
+   "به این چه می‌گویند؟": {
+    "f": "fa/rec-cd9f98b8e59e5691.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:19.543Z"
+   },
    "به بازار رفتم": {
     "f": "fa/rec-2ba67202ed6f70de.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:59.297Z"
    },
+   "به بازار رفتم.": {
+    "f": "fa/rec-263b297f5db726c1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:27.433Z"
+   },
+   "به بازار می‌روم.": {
+    "f": "fa/rec-47714e52cc48a080.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:50.482Z"
+   },
+   "به بیمارستان رفتم.": {
+    "f": "fa/rec-d5b8717f420524df.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:30.293Z"
+   },
+   "به بیمارستان می‌روم.": {
+    "f": "fa/rec-4992579b7bbfe8e5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:24.043Z"
+   },
+   "به تهران می‌روم.": {
+    "f": "fa/rec-dcf9014e857c1c89.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:26.687Z"
+   },
+   "به خانه می‌روم.": {
+    "f": "fa/rec-f6b0c74b0ec2c71a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:29.333Z"
+   },
+   "به روستا رفتم.": {
+    "f": "fa/rec-a883b094922c38f3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:32.938Z"
+   },
+   "به سمت راست بروید.": {
+    "f": "fa/rec-895108bc2fb96106.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:06.599Z"
+   },
    "به فارسی چی می‌شه؟": {
     "f": "fa/rec-5af7b0bc242676b7.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:55.926Z"
+   },
+   "به فرودگاه رفتم.": {
+    "f": "fa/rec-9ce70aed3b8cbea7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:35.882Z"
+   },
+   "به فرودگاه می‌روم.": {
+    "f": "fa/rec-38af274a1ddda4c0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:32.021Z"
+   },
+   "به مدرسه رفتم.": {
+    "f": "fa/rec-7a9cd89f9e77ee1a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:38.612Z"
+   },
+   "به مدرسه می‌روم.": {
+    "f": "fa/rec-469b31057611a867.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:34.878Z"
+   },
+   "به نظرم فارسی آسون‌تره.": {
+    "f": "fa/rec-d0dd3f029bbba55f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:55.315Z"
+   },
+   "به چه زبانی صحبت می‌کنید؟": {
+    "f": "fa/rec-190f41a594941920.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:36.887Z"
    },
    "بهتر": {
     "f": "fa/rec-003fb9551e51c36c.mp3",
@@ -2367,15 +3432,50 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:52.723Z"
    },
+   "بچه دارید؟": {
+    "f": "fa/rec-ff842e17fc43e307.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:02.484Z"
+   },
    "بچه‌ها": {
     "f": "fa/rec-8fb3556e416be965.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:54.642Z"
    },
+   "بچه‌ها اینجا هستند.": {
+    "f": "fa/rec-aa207b0553a6e84b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:05.585Z"
+   },
+   "بچه‌ها اینجان.": {
+    "f": "fa/rec-700290339a77d28a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:08.952Z"
+   },
+   "بچه‌ها تو مدرسه درس می‌خونن.": {
+    "f": "fa/rec-f09b11b63826e997.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:26.237Z"
+   },
+   "بچه‌ها در مدرسه درس می‌خوانند.": {
+    "f": "fa/rec-afede9dfa0ad41e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:29.949Z"
+   },
+   "بیا اینجا!": {
+    "f": "fa/rec-0404f28728172d56.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:18.118Z"
+   },
    "بیا بریم": {
     "f": "fa/rec-eb45354032eaaec4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:43:09.747Z"
+   },
+   "بیایید اینجا!": {
+    "f": "fa/rec-318e92c430383873.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:20.976Z"
    },
    "بیدار شدن": {
     "f": "fa/rec-024f946e068f8080.mp3",
@@ -2387,10 +3487,25 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:00.177Z"
    },
+   "بیست سال دارم.": {
+    "f": "fa/rec-c8f64a3f2e61911c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:42.981Z"
+   },
+   "بیست سالمه.": {
+    "f": "fa/rec-2f0be1c1d0e1560a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:45.968Z"
+   },
    "بیشتر": {
     "f": "fa/rec-87785fe131095655.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:38.514Z"
+   },
+   "بیشتر می‌خواهید؟": {
+    "f": "fa/rec-f1b3e09954bb835e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:05.204Z"
    },
    "بیمار": {
     "f": "fa/rec-9ef18f6c58cf8cc1.mp3",
@@ -2402,10 +3517,20 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:52:53.023Z"
    },
+   "بیمارستان کجاست؟": {
+    "f": "fa/rec-46564aba6b269d54.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:56.873Z"
+   },
    "بیمارستون": {
     "f": "fa/rec-7300bcd2e0b865d3.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:26.846Z"
+   },
+   "بیمارستون کجاست؟": {
+    "f": "fa/rec-ab8bf9f93f7331e2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:47.228Z"
    },
    "تازه": {
     "f": "fa/rec-d8f1277f6f3f21f6.mp3",
@@ -2437,10 +3562,25 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:57.681Z"
    },
+   "تشنمه، آب هست؟": {
+    "f": "fa/rec-eb63d89ac31bf0e7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:14.721Z"
+   },
    "تشنه": {
     "f": "fa/rec-fb56bfdc0d120ea2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:32.285Z"
+   },
+   "تشنه هستید؟": {
+    "f": "fa/rec-98249fda712b323f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:51.379Z"
+   },
+   "تشنه‌ام، آب هست؟": {
+    "f": "fa/rec-880d757f70c16d22.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:17.665Z"
    },
    "تلفن": {
     "f": "fa/rec-024d054385195836.mp3",
@@ -2467,10 +3607,80 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:54.932Z"
    },
+   "تهران بزرگ‌ترین شهر ایران است.": {
+    "f": "fa/rec-c8f91dbe9a2b97ec.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:52.345Z"
+   },
+   "تهران بزرگ‌ترین شهر ایرانه.": {
+    "f": "fa/rec-f312f5ffee66c1bc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:55.977Z"
+   },
+   "تهران.": {
+    "f": "fa/rec-8fba0269bda82f9e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:41.240Z"
+   },
    "تو": {
     "f": "fa/rec-0d7e062d0bed6248.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:04.488Z"
+   },
+   "تو آپارتمان زندگی می‌کنم.": {
+    "f": "fa/rec-6c53ffce52a2d9b2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:41.159Z"
+   },
+   "تو اتاق نشستیم.": {
+    "f": "fa/rec-0609fd55dc20099c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:53.144Z"
+   },
+   "تو استکهلم.": {
+    "f": "fa/rec-c9b8f770a0cbd9cd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:12.026Z"
+   },
+   "تو تهران زندگی می‌کنم.": {
+    "f": "fa/rec-761f7444da268bc7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:10.934Z"
+   },
+   "تو تهران.": {
+    "f": "fa/rec-5d299896968f992b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:14.372Z"
+   },
+   "تو خونه کار می‌کنم.": {
+    "f": "fa/rec-172b3642e3b767bb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:37.287Z"
+   },
+   "تو سنندج زندگی می‌کنم.": {
+    "f": "fa/rec-2e0abb8328460aed.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:14.217Z"
+   },
+   "تو سوئد زندگی می‌کنم.": {
+    "f": "fa/rec-d2ad626798d30c17.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:19.557Z"
+   },
+   "تو سوئد.": {
+    "f": "fa/rec-dbb2f2aaf735a55f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:16.463Z"
+   },
+   "تو لندن.": {
+    "f": "fa/rec-69ed2c5cf8d23b56.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:18.983Z"
+   },
+   "تو مریض هستی؟": {
+    "f": "fa/rec-4390973081559d70.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:47.888Z"
    },
    "تو چطور؟": {
     "f": "fa/rec-7d4dc9bd1f45d6c1.mp3",
@@ -2481,6 +3691,16 @@
     "f": "fa/rec-810a82b907690bd0.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:09.706Z"
+   },
+   "تو یک روستا زندگی می‌کنم.": {
+    "f": "fa/rec-0feacd264f1fe82c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:31.371Z"
+   },
+   "تو یک شهر بزرگ زندگی می‌کنم.": {
+    "f": "fa/rec-78d51ffc04c46832.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:34.827Z"
    },
    "توانستن": {
     "f": "fa/rec-8fd04e9ffaec287d.mp3",
@@ -2507,6 +3727,31 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:26.578Z"
    },
+   "جمعه.": {
+    "f": "fa/rec-c9e0e3ce43f2089e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:41.891Z"
+   },
+   "جمعهها فارسی می‌خوانم.": {
+    "f": "fa/rec-0338110d5d5ec0d7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:48.092Z"
+   },
+   "جمعه‌ها به کوه می‌رویم.": {
+    "f": "fa/rec-7fb841a96d977070.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:22.033Z"
+   },
+   "جمعه‌ها می‌ریم کوه.": {
+    "f": "fa/rec-2146eff4249104bc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:25.189Z"
+   },
+   "حال شما چطور است؟": {
+    "f": "fa/rec-4fd92526982b198c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:14.699Z"
+   },
    "حالت چطوره؟": {
     "f": "fa/rec-114deeb0314c17fa.mp3",
     "v": "fa-rec-essi",
@@ -2522,6 +3767,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:06.302Z"
    },
+   "حتماً.": {
+    "f": "fa/rec-d890c1512dc941c7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:30.897Z"
+   },
    "حرف زدن": {
     "f": "fa/rec-d6cde3324ee7fabf.mp3",
     "v": "fa-rec-essi",
@@ -2532,25 +3782,90 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:17.000Z"
    },
+   "خاله‌ام اهل تهران است.": {
+    "f": "fa/rec-99f1d03632d15795.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:59.553Z"
+   },
+   "خاله‌ام اهل تهرانه.": {
+    "f": "fa/rec-1fbe5a51ded1bc6c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:02.796Z"
+   },
    "خانه": {
     "f": "fa/rec-b5668aadf68b9ef4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:28.540Z"
+   },
+   "خانه بزرگ است.": {
+    "f": "fa/rec-83a5f6359dc57185.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:31.376Z"
+   },
+   "خانه‌تان بزرگ است؟": {
+    "f": "fa/rec-f6435a12de18d295.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:27.165Z"
+   },
+   "خانه‌تان چند اتاق دارد؟": {
+    "f": "fa/rec-8f625e5037dd7755.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:24.918Z"
+   },
+   "خانه‌ی بزرگ": {
+    "f": "fa/rec-4cf9eecb08d4503b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:32.277Z"
+   },
+   "خانه‌ی قدیمی خیلی زیبا است.": {
+    "f": "fa/rec-5e5dcee22bad7e92.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:58.800Z"
+   },
+   "خانه‌ی قدیمی خیلی قشنگ است.": {
+    "f": "fa/rec-6cda172230bdb712.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:02.598Z"
    },
    "خانواده": {
     "f": "fa/rec-605e8668734916a7.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:32.883Z"
    },
+   "خانواده‌ام در تهران زندگی می‌کنند.": {
+    "f": "fa/rec-7b6042fadf3eb81f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:24.838Z"
+   },
+   "خانواده‌تان چند نفر است؟": {
+    "f": "fa/rec-7c691acfa5186441.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:28.042Z"
+   },
+   "خانواده‌تان کجا زندگی می‌کنند؟": {
+    "f": "fa/rec-a8315156ed6ec0f6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:06.368Z"
+   },
    "خداحافظ": {
     "f": "fa/rec-d907c030900b580f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:25.716Z"
    },
+   "خداحافظ!": {
+    "f": "fa/rec-1d5f96be49ebc664.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:17.217Z"
+   },
    "خدانگهدار": {
     "f": "fa/rec-a40d29af9b7fb9a2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:28.235Z"
+   },
+   "خدانگهدار!": {
+    "f": "fa/rec-f6f3b55695d0151a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:14.514Z"
    },
    "خریدن": {
     "f": "fa/rec-c9a9b4039e6440c4.mp3",
@@ -2561,6 +3876,11 @@
     "f": "fa/rec-f551bfcec4d24416.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:38:58.923Z"
+   },
+   "خسته‌ای؟": {
+    "f": "fa/rec-976b004b8b267798.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:02.204Z"
    },
    "خوابیدن": {
     "f": "fa/rec-3d021be761ad4383.mp3",
@@ -2582,20 +3902,90 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:47.303Z"
    },
+   "خواهر ندارم.": {
+    "f": "fa/rec-edafeb164d021c0b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:03.449Z"
+   },
+   "خواهر و برادر دارید؟": {
+    "f": "fa/rec-75dc93f917549026.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:48.194Z"
+   },
+   "خواهرم از من بزرگ‌تر است.": {
+    "f": "fa/rec-57c91c20777bf8d0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:26.830Z"
+   },
+   "خواهرم از من بزرگ‌تره.": {
+    "f": "fa/rec-f7c36b7789eabb40.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:30.123Z"
+   },
    "خواهش می‌کنم": {
     "f": "fa/rec-f25eb6d7b761d65b.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:30.100Z"
+   },
+   "خواهش می‌کنم.": {
+    "f": "fa/rec-41ecfd0f20c6fcaa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:01.542Z"
    },
    "خوب": {
     "f": "fa/rec-7b2be0964adac135.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:02.836Z"
    },
+   "خوب خوابیدی؟": {
+    "f": "fa/rec-5525657d6491f48a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:07.570Z"
+   },
+   "خوب نیستم، مریضم.": {
+    "f": "fa/rec-0d81b84f892dc7b7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:08.232Z"
+   },
    "خوبم": {
     "f": "fa/rec-a21b9f76985f368a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:04.755Z"
+   },
+   "خوبم، خیلی ممنون.": {
+    "f": "fa/rec-55686e509e5cc209.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:49.468Z"
+   },
+   "خوبم، متشکرم. شما چطور؟": {
+    "f": "fa/rec-528adc0bc07dee00.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:52.798Z"
+   },
+   "خوبم، مرسی.": {
+    "f": "fa/rec-21c1594bae1ee1a9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:43.110Z"
+   },
+   "خوبم، مرسی. تو چطور؟": {
+    "f": "fa/rec-6494c94af07bdf98.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:35.452Z"
+   },
+   "خوبم، ممنون. تو چطور؟": {
+    "f": "fa/rec-417e34579fa4de87.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:55.996Z"
+   },
+   "خوبم، ممنون. تو چی؟": {
+    "f": "fa/rec-9820caebf0dea431.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:38.609Z"
+   },
+   "خوبم، ولی کمی خسته‌ام.": {
+    "f": "fa/rec-acc4e660246b2cc9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:11.561Z"
    },
    "خودرو": {
     "f": "fa/rec-cc7214fc030d1dd6.mp3",
@@ -2612,6 +4002,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:14.529Z"
    },
+   "خوش آمدید!": {
+    "f": "fa/rec-faf01bd0437d37d0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:04.203Z"
+   },
    "خوش اومدی": {
     "f": "fa/rec-d47f85d06f516a32.mp3",
     "v": "fa-rec-essi",
@@ -2621,6 +4016,11 @@
     "f": "fa/rec-5c6f96693b43f24e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:20.245Z"
+   },
+   "خوش اومدین!": {
+    "f": "fa/rec-c38c3a76324ba47c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:59.722Z"
    },
    "خوشبختم": {
     "f": "fa/rec-7354b75c892a09b2.mp3",
@@ -2642,6 +4042,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:43:35.710Z"
    },
+   "خوشوقتم.": {
+    "f": "fa/rec-3c0c79303f6da02e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:44.778Z"
+   },
    "خوشگل": {
     "f": "fa/rec-d4502a2df71df44d.mp3",
     "v": "fa-rec-essi",
@@ -2656,6 +4061,16 @@
     "f": "fa/rec-6c87814f944a7ae4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:59.335Z"
+   },
+   "خونه بزرگه.": {
+    "f": "fa/rec-40969f2acbec3a75.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:34.788Z"
+   },
+   "خونه‌ی قدیمی خیلی قشنگه.": {
+    "f": "fa/rec-2e792ae2abc9498b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:06.564Z"
    },
    "خیابان": {
     "f": "fa/rec-6ff6cb2bb00feb45.mp3",
@@ -2672,25 +4087,130 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:07.371Z"
    },
+   "خیلی بزرگ نیست.": {
+    "f": "fa/rec-127171fd822626fc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:45.835Z"
+   },
+   "خیلی خسته هستم.": {
+    "f": "fa/rec-a7a4c09d01198cd8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:38.458Z"
+   },
+   "خیلی خسته‌ام.": {
+    "f": "fa/rec-4e21680f15f81d70.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:41.361Z"
+   },
+   "خیلی خوبم، ممنون.": {
+    "f": "fa/rec-30fed93e14410029.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:46.313Z"
+   },
+   "خیلی خوشحالم!": {
+    "f": "fa/rec-5b9f474449b27da7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:14.163Z"
+   },
+   "خیلی خوشحالیم.": {
+    "f": "fa/rec-948819e43b6632ca.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:28.044Z"
+   },
+   "خیلی خوشمزه‌ست، دستت درد نکنه.": {
+    "f": "fa/rec-2241fd707baeb958.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:26.153Z"
+   },
+   "خیلی سرد است.": {
+    "f": "fa/rec-08e0a9294d515f44.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:19.046Z"
+   },
    "خیلی مرسی": {
     "f": "fa/rec-0e428e4a3cf9b338.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:42.272Z"
+   },
+   "خیلی مرسی، خداحافظ!": {
+    "f": "fa/rec-78358da500f5edc2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:11.804Z"
    },
    "خیلی ممنون": {
     "f": "fa/rec-1da0ac6b63bba07a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:44.833Z"
    },
+   "خیلی ممنون!": {
+    "f": "fa/rec-37f52b02ed0bb73d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:06.363Z"
+   },
+   "خیلی ممنون، خداحافظ!": {
+    "f": "fa/rec-55c0273e896995a4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:15.387Z"
+   },
+   "خیلی گرسنه‌ام.": {
+    "f": "fa/rec-e0dd0b5d7e8feb94.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:07.893Z"
+   },
+   "خیلی گشنمه.": {
+    "f": "fa/rec-136c0a93daed0c44.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:11.264Z"
+   },
    "داداش": {
     "f": "fa/rec-128ce5785dccc14a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:45.428Z"
    },
+   "داداش بزرگم تو سوئد زندگی می‌کنه.": {
+    "f": "fa/rec-8ec9ca725b1a1daf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:23.545Z"
+   },
+   "داداشم از من کوچیک‌تره.": {
+    "f": "fa/rec-b016a5846a47e316.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:36.516Z"
+   },
+   "داداشم بیست و یک سالشه.": {
+    "f": "fa/rec-8f7025fd6a9fe466.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:55.265Z"
+   },
    "دادن": {
     "f": "fa/rec-e83fdb566b7eb54e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:40:35.562Z"
+   },
+   "دارم انگلیسی یاد می‌گیرم.": {
+    "f": "fa/rec-34b3694eabb9ead9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:42.014Z"
+   },
+   "دارم سوئدی یاد می‌گیرم.": {
+    "f": "fa/rec-525bfe6dc130e4a2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:45.172Z"
+   },
+   "دارم عربی یاد می‌گیرم.": {
+    "f": "fa/rec-29a0ea565a3cb4c5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:48.032Z"
+   },
+   "دارم فارسی یاد می‌گیرم.": {
+    "f": "fa/rec-62ad35b19804a5b4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:50.974Z"
+   },
+   "دارم کردی یاد می‌گیرم.": {
+    "f": "fa/rec-41657551eab45d85.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:53.961Z"
    },
    "داشتن": {
     "f": "fa/rec-9222d4f59238fbfe.mp3",
@@ -2717,10 +4237,135 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:50.846Z"
    },
+   "دختر شما کجاست؟": {
+    "f": "fa/rec-3cfb0bb39e930c00.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:12.110Z"
+   },
+   "دخترت کجاست؟": {
+    "f": "fa/rec-118b0aa129cf332d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:14.925Z"
+   },
    "در": {
     "f": "fa/rec-cc3b90c5b1b4511c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:02.962Z"
+   },
+   "در آشپزخانه است.": {
+    "f": "fa/rec-f6de05d1a4b0eb1d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:24.123Z"
+   },
+   "در آپارتمان زندگی می‌کنید یا خانه‌ی ویلایی؟": {
+    "f": "fa/rec-c233ae918a540193.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:21.418Z"
+   },
+   "در اتاق نشستیم.": {
+    "f": "fa/rec-d4a317cf607b3e2f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:56.725Z"
+   },
+   "در استکهلم.": {
+    "f": "fa/rec-ff49ebdc9f7db9b8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:21.370Z"
+   },
+   "در بازار کار می‌کنم.": {
+    "f": "fa/rec-479a39e0c1fd590f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:43.346Z"
+   },
+   "در بیمارستان کار می‌کنم.": {
+    "f": "fa/rec-c54b956b8199835a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:46.504Z"
+   },
+   "در تهران زندگی می‌کنم.": {
+    "f": "fa/rec-5e0a4ff9acb604bd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:38.112Z"
+   },
+   "در تهران.": {
+    "f": "fa/rec-aed6d12393ebb1aa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:23.589Z"
+   },
+   "در سنندج زندگی می‌کنم.": {
+    "f": "fa/rec-f7eb7037ec7717c5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:41.140Z"
+   },
+   "در سوئد زندگی می‌کنم چون خانواده‌ام اینجاست.": {
+    "f": "fa/rec-75eff24fbcd82654.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:46.486Z"
+   },
+   "در سوئد زندگی می‌کنم.": {
+    "f": "fa/rec-4dee2859d891964f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:54.086Z"
+   },
+   "در سوئد.": {
+    "f": "fa/rec-b2ce20e125de18f1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:26.148Z"
+   },
+   "در شهر زندگی می‌کنم.": {
+    "f": "fa/rec-c636f8b606519b82.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:44.127Z"
+   },
+   "در شهر زندگی می‌کنید یا در روستا؟": {
+    "f": "fa/rec-ec1d74b24760a3a3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:54.016Z"
+   },
+   "در فرودگاه کار می‌کنم.": {
+    "f": "fa/rec-882214c4011a4347.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:49.576Z"
+   },
+   "در لندن.": {
+    "f": "fa/rec-e169bf005c2a0a5f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:28.409Z"
+   },
+   "در مدرسه کار می‌کنم.": {
+    "f": "fa/rec-4b62069a5f6c5127.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:52.649Z"
+   },
+   "در یک آپارتمان زندگی می‌کنم.": {
+    "f": "fa/rec-7899b06445a75dc7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:44.275Z"
+   },
+   "در یک آپارتمان کوچک زندگی می‌کنم.": {
+    "f": "fa/rec-5064307ac29f3ace.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:48.113Z"
+   },
+   "در یک خانه‌ی ویلایی زندگی می‌کنم.": {
+    "f": "fa/rec-aad2be110f5c8c05.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:51.570Z"
+   },
+   "در یک روستا زندگی می‌کنم.": {
+    "f": "fa/rec-8331a9680c15a829.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:54.813Z"
+   },
+   "در یک شهر بزرگ زندگی می‌کنم.": {
+    "f": "fa/rec-e250036b923351a6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:47.670Z"
+   },
+   "در یک مغازه کار می‌کنم.": {
+    "f": "fa/rec-27aa369ea667b9d0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:55.678Z"
    },
    "درس خواندن": {
     "f": "fa/rec-e22f44dbeb4d320b.mp3",
@@ -2731,6 +4376,16 @@
     "f": "fa/rec-3d30bdc72c57fad8.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:47:44.735Z"
+   },
+   "درس می‌خوانم.": {
+    "f": "fa/rec-bed749f89c4d62fe.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:34.406Z"
+   },
+   "درس می‌خونم.": {
+    "f": "fa/rec-dc5c32c3dbcca0af.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:37.435Z"
    },
    "دقه": {
     "f": "fa/rec-7a15d1e077ae26a5.mp3",
@@ -2747,6 +4402,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:24.456Z"
    },
+   "ده تومن.": {
+    "f": "fa/rec-7d2905dab5df4913.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:12.677Z"
+   },
+   "ده هزار تومان است.": {
+    "f": "fa/rec-3cb3e8bd288bd70c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:15.284Z"
+   },
    "ده و نیم": {
     "f": "fa/rec-13aed3702aa4dd6c.mp3",
     "v": "fa-rec-essi",
@@ -2757,10 +4422,75 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:55.144Z"
    },
+   "دو اتاق دارد.": {
+    "f": "fa/rec-513d1618bfbfd7aa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:10.299Z"
+   },
+   "دو برادر دارم.": {
+    "f": "fa/rec-1c7858fbeece0872.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:18.491Z"
+   },
+   "دو تا اتاق داره.": {
+    "f": "fa/rec-10e3b58ba1d16172.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:13.071Z"
+   },
+   "دو تا برادر دارم.": {
+    "f": "fa/rec-a3325e09bdbbd1f0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:21.393Z"
+   },
+   "دو تا تخم‌مرغ می‌خوام.": {
+    "f": "fa/rec-ffeab1d81214231b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:37.066Z"
+   },
+   "دو تا تخم‌مرغ می‌خواهم.": {
+    "f": "fa/rec-a8636f34aca036e0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:34.130Z"
+   },
+   "دو تا خواهر دارم.": {
+    "f": "fa/rec-8c46443fc3d5af42.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:29.842Z"
+   },
+   "دو تا می‌خوام.": {
+    "f": "fa/rec-b2517be7856010cc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:56.925Z"
+   },
+   "دو تا، لطفاً.": {
+    "f": "fa/rec-e371705bcd0fee4a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:59.400Z"
+   },
+   "دو تخم‌مرغ می‌خواهم.": {
+    "f": "fa/rec-d2db79e3aea8c22e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:40.224Z"
+   },
+   "دو خواهر دارم.": {
+    "f": "fa/rec-5c3f223b79142fe7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:32.315Z"
+   },
+   "دو و نیمه.": {
+    "f": "fa/rec-fea9e545474dea60.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:10.958Z"
+   },
    "دوازده": {
     "f": "fa/rec-f48b2939512de3b4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:28.510Z"
+   },
+   "دوازده ماه.": {
+    "f": "fa/rec-ee88f5d1f7b8490e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:05.488Z"
    },
    "دوباره": {
     "f": "fa/rec-49ff9c235ca11332.mp3",
@@ -2772,20 +4502,75 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:37:57.058Z"
    },
+   "دور است، با تاکسی بروید.": {
+    "f": "fa/rec-1740e3e70328a46b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:00.603Z"
+   },
    "دوست": {
     "f": "fa/rec-e3a25a78bb5d8816.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:32.935Z"
+   },
+   "دوست دارم با دوستانم صحبت کنم.": {
+    "f": "fa/rec-1ad70f40a1214617.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:07.818Z"
+   },
+   "دوست دارم بخوابم.": {
+    "f": "fa/rec-171f488265338acb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:10.930Z"
+   },
+   "دوست دارم کتاب بخوانم.": {
+    "f": "fa/rec-6515ffcb3a113e42.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:15.069Z"
+   },
+   "دوست دارم کتاب بخونم.": {
+    "f": "fa/rec-151693502fa08aa2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:19.506Z"
+   },
+   "دوست داری چه کار کنی؟": {
+    "f": "fa/rec-2e6d29caf223ce00.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:27.324Z"
    },
    "دوست داشتن": {
     "f": "fa/rec-5e3dc21357c1b4a2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:40:58.516Z"
    },
+   "دوستم اینجاست.": {
+    "f": "fa/rec-e6900c27dd48529a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:08.255Z"
+   },
+   "دوستمه.": {
+    "f": "fa/rec-adb18857f3fc2ee0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:32.070Z"
+   },
+   "دوست‌های من اینجا هستند.": {
+    "f": "fa/rec-25dab8ebb7912f69.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:12.098Z"
+   },
    "دوشنبه": {
     "f": "fa/rec-4a13919c04b12928.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:15.613Z"
+   },
+   "دوشنبه.": {
+    "f": "fa/rec-dec5d1fb282cf67c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:45.775Z"
+   },
+   "دوشنبهها فارسی می‌خوانم.": {
+    "f": "fa/rec-4b958e48ac8ef347.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:51.592Z"
    },
    "دوچرخه": {
     "f": "fa/rec-175f5d0283bb6702.mp3",
@@ -2796,6 +4581,16 @@
     "f": "fa/rec-cb45407cc66e0d79.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:31.454Z"
+   },
+   "دکتر تو بیمارستانه.": {
+    "f": "fa/rec-204d01529e365523.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:27.718Z"
+   },
+   "دکتر در بیمارستان است.": {
+    "f": "fa/rec-8d0039756a8c5d7c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:30.791Z"
    },
    "دیدن": {
     "f": "fa/rec-9187ffe583265db0.mp3",
@@ -2812,6 +4607,71 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:42.077Z"
    },
+   "دیروز آشپزی کردم.": {
+    "f": "fa/rec-5bfe96c9583d30f4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:59.017Z"
+   },
+   "دیروز به بازار رفتم.": {
+    "f": "fa/rec-4e2cecdbfe9a6ce5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:13.630Z"
+   },
+   "دیروز به مادرم زنگ زدم.": {
+    "f": "fa/rec-2c45c7afd227eb3f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:02.219Z"
+   },
+   "دیروز دوشنبه بود.": {
+    "f": "fa/rec-b70c8a31f9d86a0c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:58.379Z"
+   },
+   "دیروز رفتم بازار.": {
+    "f": "fa/rec-a4b0111348e91c26.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:07.491Z"
+   },
+   "دیروز سارا را دیدم.": {
+    "f": "fa/rec-db029936d884da9f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:15.853Z"
+   },
+   "دیروز سارا رو دیدم.": {
+    "f": "fa/rec-e10791b0d0a63508.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:18.968Z"
+   },
+   "دیروز چه کار کردی؟": {
+    "f": "fa/rec-c1cd2f08a7107503.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:30.236Z"
+   },
+   "دیروز چی کار کردی؟": {
+    "f": "fa/rec-e77999c3e79bdc28.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:33.394Z"
+   },
+   "دیروز کار کردم.": {
+    "f": "fa/rec-50c320330f57cb50.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:18.792Z"
+   },
+   "دیروز کجا رفتی؟": {
+    "f": "fa/rec-96b046a9fb966f3f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:39.112Z"
+   },
+   "دیروز کردی خواندم.": {
+    "f": "fa/rec-91fcff4993247f8f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:05.204Z"
+   },
+   "دیروز یک کتاب خواندم.": {
+    "f": "fa/rec-03e9a8887d9fd07b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:08.106Z"
+   },
    "راحت": {
     "f": "fa/rec-1c997c7cf706a6a9.mp3",
     "v": "fa-rec-essi",
@@ -2821,6 +4681,31 @@
     "f": "fa/rec-2cd7dc72ef8bc438.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:52.489Z"
+   },
+   "رفتم بازار.": {
+    "f": "fa/rec-e5e5d7ee85be75f8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:41.386Z"
+   },
+   "رفتم بیمارستان.": {
+    "f": "fa/rec-b0c64026a0a0b772.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:44.201Z"
+   },
+   "رفتم روستا.": {
+    "f": "fa/rec-8f493104cc868ce0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:47.019Z"
+   },
+   "رفتم فرودگاه.": {
+    "f": "fa/rec-31c7fdfe26d23afc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:49.791Z"
+   },
+   "رفتم مدرسه.": {
+    "f": "fa/rec-ffa53d95bab43720.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:52.351Z"
    },
    "رفتن": {
     "f": "fa/rec-ee3265e9c4d7d6dc.mp3",
@@ -2837,6 +4722,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:49.355Z"
    },
+   "رو میزه.": {
+    "f": "fa/rec-08d87ec12757d442.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:26.897Z"
+   },
    "روز": {
     "f": "fa/rec-dbee90caa9368604.mp3",
     "v": "fa-rec-essi",
@@ -2852,15 +4742,35 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:38:03.671Z"
    },
+   "روی میز است.": {
+    "f": "fa/rec-d6f54d153524b659.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:29.626Z"
+   },
    "زبان": {
     "f": "fa/rec-f0c4fdd05b508780.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:42.506Z"
    },
+   "زبان من کردی است.": {
+    "f": "fa/rec-33d222fed28fde4b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:47.716Z"
+   },
+   "زبانم کردی است.": {
+    "f": "fa/rec-4d0cc4308e862e76.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:50.617Z"
+   },
    "زبون": {
     "f": "fa/rec-8ddc3eec2ea4425f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:44.639Z"
+   },
+   "زبونم کردیه.": {
+    "f": "fa/rec-e7d705f10db2273b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:53.348Z"
    },
    "زرد": {
     "f": "fa/rec-8e2d4bc0ea16a0a1.mp3",
@@ -2877,6 +4787,16 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:18.261Z"
    },
+   "زنم سوئدی است.": {
+    "f": "fa/rec-7a60d09c32c1aa1a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:16.152Z"
+   },
+   "زنم سوئدیه.": {
+    "f": "fa/rec-2b86fd3c9b5fdd43.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:19.095Z"
+   },
    "زنگ زدن": {
     "f": "fa/rec-2b8cb90aa3e81b38.mp3",
     "v": "fa-rec-essi",
@@ -2886,6 +4806,11 @@
     "f": "fa/rec-3fab4936ffb8af2a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:52:46.370Z"
+   },
+   "زود بیدار می‌شوید؟": {
+    "f": "fa/rec-22cb9da3320f2726.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:17.023Z"
    },
    "زیبا": {
     "f": "fa/rec-40288e33e5ba326f.mp3",
@@ -2897,10 +4822,210 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:44.928Z"
    },
+   "سارا در را بست.": {
+    "f": "fa/rec-ad63ed60991f5f3e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:41.410Z"
+   },
+   "سارا درو بست.": {
+    "f": "fa/rec-85970cafdea19037.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:43.841Z"
+   },
    "ساعت": {
     "f": "fa/rec-269c52c2d574f4dd.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:53.811Z"
+   },
+   "ساعت ده می‌خوابم.": {
+    "f": "fa/rec-6f2d914a147426c4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:44.352Z"
+   },
+   "ساعت ده و نیم است.": {
+    "f": "fa/rec-b72cae8c447f6d52.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:16.806Z"
+   },
+   "ساعت ده و نیم.": {
+    "f": "fa/rec-45bcbea5d28eabd9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:19.449Z"
+   },
+   "ساعت دو و نیم است.": {
+    "f": "fa/rec-4c6a03557e0d5bb7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:38.978Z"
+   },
+   "ساعت دو و نیمه.": {
+    "f": "fa/rec-20abeef1d9f04c84.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:42.092Z"
+   },
+   "ساعت دوازده می‌خوابم.": {
+    "f": "fa/rec-3f64539f5d9310e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:47.377Z"
+   },
+   "ساعت سه است.": {
+    "f": "fa/rec-4277aa2305f192f6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:22.137Z"
+   },
+   "ساعت سه.": {
+    "f": "fa/rec-e944be1ad54edeab.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:24.697Z"
+   },
+   "ساعت شش است.": {
+    "f": "fa/rec-3a784576fdf4ea31.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:17.676Z"
+   },
+   "ساعت شش بیدار می‌شم.": {
+    "f": "fa/rec-0a6b3cb9796d805d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:01.522Z"
+   },
+   "ساعت شش بیدار می‌شوم.": {
+    "f": "fa/rec-3c41525163f81ff6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:05.447Z"
+   },
+   "ساعت شش صبحانه می‌خورم.": {
+    "f": "fa/rec-e75110aaea671a48.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:32.959Z"
+   },
+   "ساعت شش.": {
+    "f": "fa/rec-57e07b7f4ef8b773.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:35.391Z"
+   },
+   "ساعت شیشه.": {
+    "f": "fa/rec-a836bda7a2f94857.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:36.039Z"
+   },
+   "ساعت نه بیدار می‌شم.": {
+    "f": "fa/rec-db7267a035da3b65.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:08.562Z"
+   },
+   "ساعت نه بیدار می‌شوم.": {
+    "f": "fa/rec-4b26257b2720bdfd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:11.506Z"
+   },
+   "ساعت نه صبحانه می‌خورم.": {
+    "f": "fa/rec-83780f34785d5b92.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:39.104Z"
+   },
+   "ساعت نه می‌خوابم.": {
+    "f": "fa/rec-8fa6e75375a11e4b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:50.192Z"
+   },
+   "ساعت نه.": {
+    "f": "fa/rec-68abcd9e33f39f5b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:41.577Z"
+   },
+   "ساعت هشت است.": {
+    "f": "fa/rec-75675a149cd46953.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:27.727Z"
+   },
+   "ساعت هشت بیدار می‌شم.": {
+    "f": "fa/rec-b506634bad3814a2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:14.453Z"
+   },
+   "ساعت هشت بیدار می‌شوم.": {
+    "f": "fa/rec-bc833b4e4051937c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:20.167Z"
+   },
+   "ساعت هشت صبحانه می‌خورم.": {
+    "f": "fa/rec-a970011fb77558d1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:45.461Z"
+   },
+   "ساعت هشت.": {
+    "f": "fa/rec-474f980f497d2d12.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:30.116Z"
+   },
+   "ساعت هفت بیدار می‌شم.": {
+    "f": "fa/rec-8b5dcbcee1869fd7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:23.708Z"
+   },
+   "ساعت هفت بیدار می‌شوم.": {
+    "f": "fa/rec-70edd1440ca2eb6e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:27.805Z"
+   },
+   "ساعت هفت شام می‌خوریم.": {
+    "f": "fa/rec-c412909aa22c5631.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:17.300Z"
+   },
+   "ساعت هفت صبحانه می‌خورم.": {
+    "f": "fa/rec-cb10cc67e6fce791.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:49.087Z"
+   },
+   "ساعت هفت و نیم صبحانه می‌خورم.": {
+    "f": "fa/rec-8a00c6178f03acca.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:52.459Z"
+   },
+   "ساعت هفت و نیم.": {
+    "f": "fa/rec-346103bdf20acdbb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:55.315Z"
+   },
+   "ساعت پنج و ده دقیقه است.": {
+    "f": "fa/rec-f1e948d7d9974983.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:25.441Z"
+   },
+   "ساعت پنج و ده دقیقه.": {
+    "f": "fa/rec-26ad412578b37796.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:14.074Z"
+   },
+   "ساعت پنج و ده دقیقه‌ست.": {
+    "f": "fa/rec-758d278ff67c84e9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:36.065Z"
+   },
+   "ساعت چند است؟": {
+    "f": "fa/rec-12832997a1ffe5c0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:33.972Z"
+   },
+   "ساعت چند بیدار می‌شوید؟": {
+    "f": "fa/rec-15ae4651c3715623.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:14.080Z"
+   },
+   "ساعت چند صبحانه می‌خورید؟": {
+    "f": "fa/rec-47c05ea2f7fae549.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:58.548Z"
+   },
+   "ساعت چند می‌خوابید؟": {
+    "f": "fa/rec-54f58a7f0a74d8fb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:34.045Z"
+   },
+   "ساعت یازده می‌خوابم.": {
+    "f": "fa/rec-1b14519059a59b77.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:53.307Z"
    },
    "سال": {
     "f": "fa/rec-ba191149b5b29bcf.mp3",
@@ -2911,6 +5036,11 @@
     "f": "fa/rec-e00e73b9dbfbb3d1.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:15.521Z"
+   },
+   "سبز است.": {
+    "f": "fa/rec-1b1b429ee3d43731.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:27.432Z"
    },
    "سخت": {
     "f": "fa/rec-228c5632e3699ff6.mp3",
@@ -2932,10 +5062,70 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:17.355Z"
    },
+   "سفید است.": {
+    "f": "fa/rec-0f95d765d0dd0ed9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:29.651Z"
+   },
    "سلام": {
     "f": "fa/rec-e93807dc426ef03f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:22.901Z"
+   },
+   "سلام!": {
+    "f": "fa/rec-141bad08a9e0f90b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:56.568Z"
+   },
+   "سلام، از آشنایی با شما خوشوقتم.": {
+    "f": "fa/rec-eb31cc0055d23e2e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:01.456Z"
+   },
+   "سلام، از آشنایی‌تون خوشبختم.": {
+    "f": "fa/rec-8b4b40066801216e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:05.809Z"
+   },
+   "سلام، حالت چطوره؟": {
+    "f": "fa/rec-a323bc977d582b7d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:24.657Z"
+   },
+   "سلام، خوش آمدید!": {
+    "f": "fa/rec-c75852cc04337c21.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:46.459Z"
+   },
+   "سلام، خوش اومدی!": {
+    "f": "fa/rec-369008056fa13806.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:49.490Z"
+   },
+   "سلام، خوش اومدین!": {
+    "f": "fa/rec-e07e513be08353e6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:52.645Z"
+   },
+   "سلام، خوشبختم.": {
+    "f": "fa/rec-a1d82bd6a9245eda.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:08.836Z"
+   },
+   "سلام، خوشوقتم.": {
+    "f": "fa/rec-48aa13c494f3dbe1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:11.908Z"
+   },
+   "سلام، چطوری؟": {
+    "f": "fa/rec-270715a0dcfd527e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:21.287Z"
+   },
+   "سمت راست است.": {
+    "f": "fa/rec-c2808d880d0f2686.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:03.333Z"
    },
    "سن": {
     "f": "fa/rec-36646b20d2c530f6.mp3",
@@ -2952,6 +5142,66 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:56.764Z"
    },
+   "سه اتاق دارد.": {
+    "f": "fa/rec-a25ca23901b7945e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:15.631Z"
+   },
+   "سه برادر دارم.": {
+    "f": "fa/rec-82a40cd6b160fb42.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:05.967Z"
+   },
+   "سه تا اتاق داره.": {
+    "f": "fa/rec-6b4c888bafc16015.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:18.321Z"
+   },
+   "سه تا برادر دارم.": {
+    "f": "fa/rec-80e3922e30170ddf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:08.399Z"
+   },
+   "سه تا تخم‌مرغ می‌خواهم.": {
+    "f": "fa/rec-3c7b374e83aa6cdd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:02.557Z"
+   },
+   "سه تا خواهر دارم.": {
+    "f": "fa/rec-c841a8f1df1b25b1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:35.044Z"
+   },
+   "سه تا داداش دارم.": {
+    "f": "fa/rec-82f14093c10ea14c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:54.977Z"
+   },
+   "سه تا می‌خوام.": {
+    "f": "fa/rec-8bebe93f49b7b03f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:05.075Z"
+   },
+   "سه تا، لطفاً.": {
+    "f": "fa/rec-d6d730166cc0d3bb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:07.421Z"
+   },
+   "سه خواهر دارم.": {
+    "f": "fa/rec-22e808cf1753a014.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:37.605Z"
+   },
+   "سه نفر.": {
+    "f": "fa/rec-2ab7c30559a813bc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:12.696Z"
+   },
+   "سه نفریم.": {
+    "f": "fa/rec-560d444917dfdbbb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:14.915Z"
+   },
    "سه‌شنبه": {
     "f": "fa/rec-2c235b78dc38bfa6.mp3",
     "v": "fa-rec-essi",
@@ -2962,10 +5212,35 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:00.937Z"
    },
+   "سوئد.": {
+    "f": "fa/rec-034e914cc91c3689.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:44.610Z"
+   },
    "سوئدی": {
     "f": "fa/rec-d2b4fb756941abd8.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:56.543Z"
+   },
+   "سوئدی حرف می‌زنم.": {
+    "f": "fa/rec-6c3033d1e02cbed0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:01.050Z"
+   },
+   "سوئدی صحبت می‌کنم.": {
+    "f": "fa/rec-eb9d37f70284b6b9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:03.739Z"
+   },
+   "سوئدی و انگلیسی صحبت می‌کنم.": {
+    "f": "fa/rec-be14d0e69a4c564a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:06.896Z"
+   },
+   "سوئدی یاد می‌گیرم.": {
+    "f": "fa/rec-252b126aad83bf94.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:56.989Z"
    },
    "سپاس": {
     "f": "fa/rec-9c72fb0ef1265574.mp3",
@@ -2976,6 +5251,16 @@
     "f": "fa/rec-b9d2e8b519daa376.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:01.928Z"
+   },
+   "سی سال دارم.": {
+    "f": "fa/rec-8b8db6120bcc0de8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:58.469Z"
+   },
+   "سی سالمه.": {
+    "f": "fa/rec-2cf9f933ba3497f8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:00.729Z"
    },
    "سیاه": {
     "f": "fa/rec-65d58309cd8ae50d.mp3",
@@ -3002,6 +5287,26 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:01.609Z"
    },
+   "شاید بعداً.": {
+    "f": "fa/rec-a44b083ddcab8df7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:39.003Z"
+   },
+   "شاید خانه باشد.": {
+    "f": "fa/rec-e753cd92511529c1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:10.533Z"
+   },
+   "شاید فردا، نمی‌دانم.": {
+    "f": "fa/rec-5bd4648f13810b01.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:45.954Z"
+   },
+   "شاید فردا، نمی‌دونم.": {
+    "f": "fa/rec-30893e4ca2223240.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:48.898Z"
+   },
    "شب": {
     "f": "fa/rec-ede52937bdfb7b6b.mp3",
     "v": "fa-rec-essi",
@@ -3012,6 +5317,21 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:25.495Z"
    },
+   "شب بخیر!": {
+    "f": "fa/rec-19de1ef34bb6e2c9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:09.065Z"
+   },
+   "شب شما هم بخیر!": {
+    "f": "fa/rec-ec6db7e8ef8bbb53.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:12.252Z"
+   },
+   "شب‌ها.": {
+    "f": "fa/rec-fc7ba8fed5b7d5fe.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:53.680Z"
+   },
    "شستن": {
     "f": "fa/rec-2ad5378854f634af.mp3",
     "v": "fa-rec-essi",
@@ -3021,6 +5341,16 @@
     "f": "fa/rec-45292db454c90ea2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:17.159Z"
+   },
+   "شش نفر.": {
+    "f": "fa/rec-dfef13c6703ac9e6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:17.176Z"
+   },
+   "شش نفریم.": {
+    "f": "fa/rec-5012c84000d35cf4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:19.480Z"
    },
    "شما": {
     "f": "fa/rec-1c246f2b518a823c.mp3",
@@ -3036,6 +5366,11 @@
     "f": "fa/rec-35fc270cc83302f2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:09.257Z"
+   },
+   "شنبهها فارسی می‌خوانم.": {
+    "f": "fa/rec-839aaea57f940706.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:56.797Z"
    },
    "شنیدن": {
     "f": "fa/rec-40446274cf5c8ca2.mp3",
@@ -3062,6 +5397,26 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:48.296Z"
    },
+   "شیر می‌خوام.": {
+    "f": "fa/rec-3e890136abf82956.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:20.652Z"
+   },
+   "شیر می‌خواهم.": {
+    "f": "fa/rec-aa6004805f6f764d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:23.169Z"
+   },
+   "شیر می‌خورم.": {
+    "f": "fa/rec-773219d4953a14d3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:38.102Z"
+   },
+   "شیر، لطفاً.": {
+    "f": "fa/rec-b9b247e93977b033.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:25.859Z"
+   },
    "شیراز": {
     "f": "fa/rec-1cd0aa73407c99b3.mp3",
     "v": "fa-rec-essi",
@@ -3071,6 +5426,11 @@
     "f": "fa/rec-49f96d30c2ef1051.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:28.360Z"
+   },
+   "شیرین.": {
+    "f": "fa/rec-b3178d09b622f935.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:47.194Z"
    },
    "شیش": {
     "f": "fa/rec-b2970d2a209d9040.mp3",
@@ -3087,15 +5447,110 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:23.018Z"
    },
+   "صبح بخیر!": {
+    "f": "fa/rec-61eace761fb5971b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:31:59.468Z"
+   },
+   "صبح بخیر، حال شما چطور است؟": {
+    "f": "fa/rec-2568770a1edb798f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:28.157Z"
+   },
+   "صبح بخیر، حالتون چطوره؟": {
+    "f": "fa/rec-b88d4d49533cccb7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:31.910Z"
+   },
+   "صبح بخیر، خوش آمدید!": {
+    "f": "fa/rec-c96aed382dbeaa9a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:21.574Z"
+   },
+   "صبح بخیر، خوش اومدین!": {
+    "f": "fa/rec-f85fb8c19ea10a46.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:26.313Z"
+   },
+   "صبح شما هم بخیر!": {
+    "f": "fa/rec-f3b0790a254bcd5e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:59.068Z"
+   },
+   "صبحا چایی می‌خورم.": {
+    "f": "fa/rec-4515960aa5dc6565.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:40.743Z"
+   },
    "صبحانه": {
     "f": "fa/rec-0abcf0829429362d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:12.786Z"
    },
+   "صبحانه تخم‌مرغ می‌خورم.": {
+    "f": "fa/rec-be86d781ad79518c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:02.582Z"
+   },
+   "صبحانه ماست می‌خورم.": {
+    "f": "fa/rec-b7074a7f8d8aed45.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:05.567Z"
+   },
+   "صبحانه میوه می‌خورم.": {
+    "f": "fa/rec-abda27bbd51a6d57.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:08.469Z"
+   },
+   "صبحانه نان و پنیر می‌خورم.": {
+    "f": "fa/rec-64456cf7701f8fa4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:12.096Z"
+   },
+   "صبحانه نان و پنیر می‌خوریم.": {
+    "f": "fa/rec-e2f5a2e9ea0ae9db.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:09.791Z"
+   },
+   "صبحانه چه می‌خورید؟": {
+    "f": "fa/rec-273154c0c12df66a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:54.410Z"
+   },
    "صبحونه": {
     "f": "fa/rec-dcf3577bf4d347e5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:14.963Z"
+   },
+   "صبحونه تخم‌مرغ می‌خورم.": {
+    "f": "fa/rec-1856d6a25c254ad8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:15.595Z"
+   },
+   "صبحونه ماست می‌خورم.": {
+    "f": "fa/rec-77f087e7805d8ecc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:18.623Z"
+   },
+   "صبحونه میوه می‌خورم.": {
+    "f": "fa/rec-5244827a75a46959.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:21.568Z"
+   },
+   "صبحونه نان و پنیر می‌خورم.": {
+    "f": "fa/rec-b01aa01b50863bbb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:25.663Z"
+   },
+   "صبحونه نون و پنیر می‌خوریم.": {
+    "f": "fa/rec-dfeb2516798c89bd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:13.844Z"
+   },
+   "صبح‌ها چای می‌خورم.": {
+    "f": "fa/rec-740eb82e13e2671d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:43.858Z"
    },
    "صبر کردن": {
     "f": "fa/rec-f368a0f69cae60f2.mp3",
@@ -3127,6 +5582,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:40:08.811Z"
    },
+   "عربی یاد می‌گیرم.": {
+    "f": "fa/rec-8bbcb09e7caab9a2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:59.848Z"
+   },
    "عصر": {
     "f": "fa/rec-0ee88b948903713a.mp3",
     "v": "fa-rec-essi",
@@ -3142,10 +5602,35 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:11.582Z"
    },
+   "عموم اونجا زندگی می‌کنه.": {
+    "f": "fa/rec-fe69440372eb3094.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:52.686Z"
+   },
+   "عمویم آنجا زندگی می‌کند.": {
+    "f": "fa/rec-63f0c162bbcfd266.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:56.142Z"
+   },
    "غذا": {
     "f": "fa/rec-6cd7d50454e17a94.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:35.453Z"
+   },
+   "غذا خوشمزه است؟": {
+    "f": "fa/rec-8a012e4e26338da6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:08.062Z"
+   },
+   "غذا خیلی خوشمزه است.": {
+    "f": "fa/rec-14b567575594247b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:43.849Z"
+   },
+   "غذا خیلی خوشمزه‌ست.": {
+    "f": "fa/rec-9cb7549984ae75e6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:47.007Z"
    },
    "غذا درست کردن": {
     "f": "fa/rec-6478b32d2e494e52.mp3",
@@ -3162,6 +5647,71 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:54.239Z"
    },
+   "فارسی آسان‌تر است.": {
+    "f": "fa/rec-5da554f05aa2ca8f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:58.131Z"
+   },
+   "فارسی حرف می‌زنم.": {
+    "f": "fa/rec-968387dcfde38f74.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:09.668Z"
+   },
+   "فارسی زیباست، اما سخت است.": {
+    "f": "fa/rec-fdeb5a2858e57928.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:26.871Z"
+   },
+   "فارسی زیباست، ولی سخت است.": {
+    "f": "fa/rec-3a09b01e9586d950.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:30.114Z"
+   },
+   "فارسی سخت است؟": {
+    "f": "fa/rec-a50365e1589b25f2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:24.266Z"
+   },
+   "فارسی صحبت می‌کنم.": {
+    "f": "fa/rec-4510ebfeffb89d5d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:12.740Z"
+   },
+   "فارسی صحبت می‌کنید؟": {
+    "f": "fa/rec-9020e19344908ec7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:33.344Z"
+   },
+   "فارسی قشنگه، ولی سخته.": {
+    "f": "fa/rec-737039e936943fc1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:33.568Z"
+   },
+   "فارسی و انگلیسی صحبت می‌کنم.": {
+    "f": "fa/rec-bf83adaaf235e13d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:16.111Z"
+   },
+   "فارسی یاد می‌گیرم چون دوستم اهل تهران است.": {
+    "f": "fa/rec-4a3e361843f05e5c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:42.189Z"
+   },
+   "فارسی یاد می‌گیرم چون دوستم اهل تهرانه.": {
+    "f": "fa/rec-c298d92bcdae98a2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:46.496Z"
+   },
+   "فارسی یاد می‌گیرم.": {
+    "f": "fa/rec-7cc0ec6c3609c4c1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:02.494Z"
+   },
+   "فارسی یاد می‌گیرم، چون دوستم اهل تهران است.": {
+    "f": "fa/rec-281c0d26230696c3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:51.619Z"
+   },
    "فامیل": {
     "f": "fa/rec-fe27059808d1ba99.mp3",
     "v": "fa-rec-essi",
@@ -3172,10 +5722,95 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:40.285Z"
    },
+   "فردا استکهلم هستم.": {
+    "f": "fa/rec-248ac360a92c9bd3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:47.512Z"
+   },
+   "فردا اینجا هستم.": {
+    "f": "fa/rec-dae618dcebc988e8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:50.243Z"
+   },
+   "فردا تهران هستم.": {
+    "f": "fa/rec-9ea811d735a1c88f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:53.272Z"
+   },
+   "فردا جمعه است.": {
+    "f": "fa/rec-4a5acd6c1a303d61.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:29.975Z"
+   },
+   "فردا جمعه‌ست.": {
+    "f": "fa/rec-d00c34d99d038085.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:32.834Z"
+   },
+   "فردا در استکهلم هستم.": {
+    "f": "fa/rec-08017a39ce20b70b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:59.246Z"
+   },
+   "فردا در تهران هستم.": {
+    "f": "fa/rec-f971ac4c78300f7c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:02.275Z"
+   },
+   "فردا در سوئد هستم.": {
+    "f": "fa/rec-7fc97984bf85f879.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:08.035Z"
+   },
+   "فردا سوئد هستم.": {
+    "f": "fa/rec-2c6d91016c23e29c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:12.557Z"
+   },
+   "فردا عصر کجا هستید؟": {
+    "f": "fa/rec-80131e292fb6a464.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:01.537Z"
+   },
+   "فردا عصر کجایی؟": {
+    "f": "fa/rec-43ce4ed0e6a6a7bb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:04.694Z"
+   },
+   "فردا نمی‌توانم بیایم.": {
+    "f": "fa/rec-3761ebc8da79d1cd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:08.760Z"
+   },
+   "فردا نمی‌تونم بیام.": {
+    "f": "fa/rec-b020572684296793.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:12.045Z"
+   },
+   "فردا کجا هستید؟": {
+    "f": "fa/rec-48bdf498070ce485.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:31.027Z"
+   },
    "فرودگاه": {
     "f": "fa/rec-df3c37d846b05de6.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:52:55.454Z"
+   },
+   "فرودگاه دور است.": {
+    "f": "fa/rec-e06a281ec62d1d45.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:49.873Z"
+   },
+   "فرودگاه دور است؟": {
+    "f": "fa/rec-14bd1d52fdfea5d6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:41.555Z"
+   },
+   "فرودگاه دوره.": {
+    "f": "fa/rec-ba3f5f52ae640fb8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:52.818Z"
    },
    "فروشگاه": {
     "f": "fa/rec-b5a59f1d7226f89e.mp3",
@@ -3192,10 +5827,35 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:53.266Z"
    },
+   "فقط یک اتاق دارد.": {
+    "f": "fa/rec-ba34b4f79765a0f0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:21.436Z"
+   },
    "فهمیدن": {
     "f": "fa/rec-9f4d5acb76ae2510.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:40:22.166Z"
+   },
+   "فهمیدی؟": {
+    "f": "fa/rec-b9fca8eb15dd3580.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:58.945Z"
+   },
+   "فهمیدید؟": {
+    "f": "fa/rec-74a6e1351e638d6e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:01.290Z"
+   },
+   "قابلی ندارد.": {
+    "f": "fa/rec-83a32450eff430b5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:02.324Z"
+   },
+   "قابلی نداشت.": {
+    "f": "fa/rec-14b8a10847098041.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:04.060Z"
    },
    "قدیمی": {
     "f": "fa/rec-110e5cce9d9d5d72.mp3",
@@ -3206,6 +5866,11 @@
     "f": "fa/rec-3996f2619dcc45dc.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:11.553Z"
+   },
+   "قرمز است.": {
+    "f": "fa/rec-1cfd494827931cd7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:31.784Z"
    },
    "قشنگ": {
     "f": "fa/rec-ede845dcb089598e.mp3",
@@ -3222,30 +5887,115 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:46.504Z"
    },
+   "قهوه می‌خوام.": {
+    "f": "fa/rec-9144528560de5c7b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:28.374Z"
+   },
+   "قهوه می‌خواهم.": {
+    "f": "fa/rec-4657c235526efb4c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:30.807Z"
+   },
+   "قهوه می‌خورم.": {
+    "f": "fa/rec-8bf95b37d06231e9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:40.577Z"
+   },
+   "قهوه نمی‌خورم.": {
+    "f": "fa/rec-1b1dde81a78daf25.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:48.170Z"
+   },
+   "قهوه نمی‌خورم، چای می‌خورم.": {
+    "f": "fa/rec-b41f84e85aa72b51.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:45.528Z"
+   },
+   "قهوه، لطفاً.": {
+    "f": "fa/rec-f23237e5dc9d5bf3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:33.451Z"
+   },
+   "قیمت این چند است؟": {
+    "f": "fa/rec-6181dff7f7185e11.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:38.812Z"
+   },
+   "قیمتش پنج هزار تومان است.": {
+    "f": "fa/rec-0233e7c8db5a99fb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:18.865Z"
+   },
    "لباس": {
     "f": "fa/rec-e7972740dca6a5ff.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:47:07.319Z"
+   },
+   "لباسا رو می‌شورم.": {
+    "f": "fa/rec-59d50e702c626819.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:51.207Z"
    },
    "لباس‌ها": {
     "f": "fa/rec-97c27102bc546f3c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:47:10.302Z"
    },
+   "لباس‌ها را می‌شویم.": {
+    "f": "fa/rec-eebea13a06ed1da1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:10.875Z"
+   },
    "لطفاً": {
     "f": "fa/rec-ef9aa9abed6942e6.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:46.879Z"
+   },
+   "لطفاً آهسته صحبت کنید.": {
+    "f": "fa/rec-05b80e51245563d3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:47.030Z"
+   },
+   "لطفاً آهسته‌تر صحبت کنید.": {
+    "f": "fa/rec-62ae343cf733ccf0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:55.778Z"
+   },
+   "لطفاً تکرار کنید.": {
+    "f": "fa/rec-ba7c86f2e82b1345.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:37.345Z"
    },
    "لطفاً دوباره بگویید": {
     "f": "fa/rec-603f2aff13e8ffca.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:37.151Z"
    },
+   "لطفاً دوباره بگویید.": {
+    "f": "fa/rec-7bf91a87eee0f7e4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:40.502Z"
+   },
    "لطفاً دوباره بگید": {
     "f": "fa/rec-1defcdc26cb89a64.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:40.480Z"
+   },
+   "لطفاً دوباره بگید.": {
+    "f": "fa/rec-a12b7b740a1222ba.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:43.575Z"
+   },
+   "لطفاً می‌توانید آهسته‌تر صحبت کنید؟": {
+    "f": "fa/rec-6924805d6c306f4d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:31.423Z"
+   },
+   "لطفاً یواش‌تر حرف بزنید.": {
+    "f": "fa/rec-8633a9257d300230.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:59.406Z"
    },
    "لندن": {
     "f": "fa/rec-3c9aa321031dec46.mp3",
@@ -3262,6 +6012,61 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:11.615Z"
    },
+   "ما با هم دوستیم.": {
+    "f": "fa/rec-4c90d72aa60be42a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:59.461Z"
+   },
+   "ما برنج می‌خوریم.": {
+    "f": "fa/rec-106b443a50d33305.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:21.825Z"
+   },
+   "ما خیلی خوشحال هستیم.": {
+    "f": "fa/rec-161a12c55928a44c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:32.005Z"
+   },
+   "ما خیلی خوشحالیم.": {
+    "f": "fa/rec-0927c0932944e308.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:35.887Z"
+   },
+   "ما دوست هستیم.": {
+    "f": "fa/rec-de0d08e1fe40c389.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:02.277Z"
+   },
+   "ما دوستیم.": {
+    "f": "fa/rec-7af730fca3cde770.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:05.134Z"
+   },
+   "ما سه نفریم.": {
+    "f": "fa/rec-0a18fb6638dfc89d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:27.246Z"
+   },
+   "ما شش نفریم.": {
+    "f": "fa/rec-a4b9b5c603a8eb4e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:29.976Z"
+   },
+   "ما هفت نفریم.": {
+    "f": "fa/rec-617a04129863d14f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:32.451Z"
+   },
+   "ما پنج نفریم.": {
+    "f": "fa/rec-a39d31fba29120df.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:22.253Z"
+   },
+   "ما چهار نفریم.": {
+    "f": "fa/rec-fc362af6c75859c9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:24.856Z"
+   },
    "مادر": {
     "f": "fa/rec-d33efdb0ac82a3f4.mp3",
     "v": "fa-rec-essi",
@@ -3271,6 +6076,36 @@
     "f": "fa/rec-24e9daf8d448f222.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:58.482Z"
+   },
+   "مادربزرگم فقط به کردی صحبت می‌کند.": {
+    "f": "fa/rec-5f5a61813904e7d5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:40.868Z"
+   },
+   "مادربزرگم فقط کردی حرف می‌زنه.": {
+    "f": "fa/rec-747fa78f613b4bb6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:44.885Z"
+   },
+   "مادربزرگم فقط کردی صحبت می‌کند.": {
+    "f": "fa/rec-bb1fa5aad0fc2307.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:49.317Z"
+   },
+   "مادرم در یک روستا زندگی می‌کند.": {
+    "f": "fa/rec-a35c3532007aa94c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:04.965Z"
+   },
+   "مادرم غمگین است.": {
+    "f": "fa/rec-660afb34e4ab0b19.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:38.830Z"
+   },
+   "مادرم ناراحت است.": {
+    "f": "fa/rec-d0a3afbd29ff656e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:41.733Z"
    },
    "ماست": {
     "f": "fa/rec-7c3fb10e8ef8d4f1.mp3",
@@ -3282,10 +6117,65 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:38.152Z"
    },
+   "ماشین دارید؟": {
+    "f": "fa/rec-ae29d59df195fa43.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:46.504Z"
+   },
+   "ماشین قرمزی دارم.": {
+    "f": "fa/rec-58c613bf337f9bcf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:48.388Z"
+   },
+   "ماشین ندارم.": {
+    "f": "fa/rec-17585e81c32d6f26.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:36.224Z"
+   },
+   "ماشینت چه رنگی است؟": {
+    "f": "fa/rec-b48f7d9cbf43f9bb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:13.343Z"
+   },
+   "ماشینم آبی است.": {
+    "f": "fa/rec-7460b0bb48140942.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:38.823Z"
+   },
+   "ماشینم سبز است.": {
+    "f": "fa/rec-e439689ae1ec44c2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:41.512Z"
+   },
+   "ماشینم سفید است.": {
+    "f": "fa/rec-bfa026724ed779a8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:44.157Z"
+   },
+   "ماشینم قرمز است.": {
+    "f": "fa/rec-aeac78b9d3f10c88.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:46.974Z"
+   },
+   "ماشینم مشکی است.": {
+    "f": "fa/rec-30a6b915c49e08f1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:49.791Z"
+   },
    "مامان": {
     "f": "fa/rec-94652759847edf24.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:38.344Z"
+   },
+   "مامانم تو یه روستا زندگی می‌کنه.": {
+    "f": "fa/rec-75edea155dceb585.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:08.594Z"
+   },
+   "مامانم ناراحته.": {
+    "f": "fa/rec-11c4b94b107c4f00.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:44.932Z"
    },
    "مامان‌بزرگ": {
     "f": "fa/rec-d52970dbb542f225.mp3",
@@ -3302,6 +6192,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:31.719Z"
    },
+   "متأهل هستید؟": {
+    "f": "fa/rec-e5d2f8282e583076.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:59.966Z"
+   },
    "مترو": {
     "f": "fa/rec-ef49a416fed692e9.mp3",
     "v": "fa-rec-essi",
@@ -3311,6 +6206,11 @@
     "f": "fa/rec-3787a20e5f73182e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:32.714Z"
+   },
+   "متوجه می‌شوید؟": {
+    "f": "fa/rec-237fa322c623b46b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:16.829Z"
    },
    "متوجه نشدم": {
     "f": "fa/rec-dbc7fce4d69800e4.mp3",
@@ -3337,20 +6237,65 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:53.415Z"
    },
+   "مرغ خوردم.": {
+    "f": "fa/rec-cb6d5d72bb42e95c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:24.106Z"
+   },
    "مریض": {
     "f": "fa/rec-78ccddbcd70515aa.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:02.849Z"
+   },
+   "مریض هستی؟": {
+    "f": "fa/rec-308df1dee5380bb2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:50.703Z"
+   },
+   "مریض هستید؟": {
+    "f": "fa/rec-246554543b5a9aa2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:07.283Z"
+   },
+   "مریضی؟": {
+    "f": "fa/rec-7c86bedc0ce64013.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:52.922Z"
    },
    "مریم": {
     "f": "fa/rec-a5b8971d4ba4e1a7.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:46.314Z"
    },
+   "مریم هستم.": {
+    "f": "fa/rec-76f8c26bb7a8672e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:37.211Z"
+   },
+   "مریم.": {
+    "f": "fa/rec-25dd81f190b7a0ff.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:48.985Z"
+   },
    "مستقیم": {
     "f": "fa/rec-873b76e2f0805c75.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:54.750Z"
+   },
+   "مستقیم برو.": {
+    "f": "fa/rec-737a8646bd4d7d78.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:55.505Z"
+   },
+   "مستقیم بروید.": {
+    "f": "fa/rec-f7444c390e199a48.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:58.109Z"
+   },
+   "مستقیم برید.": {
+    "f": "fa/rec-04a32dcb8e2081c9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:00.668Z"
    },
    "مشکل": {
     "f": "fa/rec-313acc3d1ed51360.mp3",
@@ -3362,25 +6307,55 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:21.155Z"
    },
+   "مشکی است.": {
+    "f": "fa/rec-93d12bd2c0fccee1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:52.390Z"
+   },
    "معمولاً": {
     "f": "fa/rec-bef8a498dd27d7c9.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:52:44.068Z"
+   },
+   "معمولاً دیر می‌خوابم.": {
+    "f": "fa/rec-9943596b3002f095.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:56.507Z"
    },
    "معنی آن چیست؟": {
     "f": "fa/rec-01bed74923f69db4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:46.583Z"
    },
+   "معنی این چیست؟": {
+    "f": "fa/rec-27b08840220b676f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:08.577Z"
+   },
    "مغازه": {
     "f": "fa/rec-bbfa07cec0e3f363.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:23.945Z"
    },
+   "مغازه سمت چپ است.": {
+    "f": "fa/rec-12f26937f2214112.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:11.463Z"
+   },
+   "مغازه سمت چپه.": {
+    "f": "fa/rec-3895d7fc91e605f4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:15.432Z"
+   },
    "ممنون": {
     "f": "fa/rec-47d283fc86b58f48.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:36.597Z"
+   },
+   "ممنون!": {
+    "f": "fa/rec-ac7e931acc36214c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:01.684Z"
    },
    "ممنونم": {
     "f": "fa/rec-c12064a6e17ba3fc.mp3",
@@ -3392,10 +6367,120 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:02.867Z"
    },
+   "من از سوئد هستم.": {
+    "f": "fa/rec-8fcecbbe069d9504.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:12.261Z"
+   },
+   "من اهل اربیلم.": {
+    "f": "fa/rec-3bff8e4d181ce497.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:58.544Z"
+   },
+   "من اهل اصفهانم.": {
+    "f": "fa/rec-fddcf504913fb4e4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:01.316Z"
+   },
+   "من اهل تهرانم.": {
+    "f": "fa/rec-8f3a6e45818b0303.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:04.090Z"
+   },
+   "من اهل سوئد هستم.": {
+    "f": "fa/rec-90cc3da52b628a00.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:15.290Z"
+   },
+   "من اهل سوئدم.": {
+    "f": "fa/rec-b3cd751b7a4206ef.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:51.269Z"
+   },
+   "من اهل شیرازم.": {
+    "f": "fa/rec-540e03b7255333de.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:06.736Z"
+   },
+   "من خواهر ندارم.": {
+    "f": "fa/rec-0b2755fd38065219.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:56.322Z"
+   },
+   "من خیلی خسته‌ام.": {
+    "f": "fa/rec-b8041eca237aef52.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:44.517Z"
+   },
+   "من در سوئد زندگی می‌کنم.": {
+    "f": "fa/rec-f67a2b47a3f0ba47.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:22.462Z"
+   },
+   "من سارا هستم.": {
+    "f": "fa/rec-e7a49cbd1846c703.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:29.210Z"
+   },
+   "من سارام.": {
+    "f": "fa/rec-80811dc1948fb58f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:31.599Z"
+   },
+   "من قهوه نمی‌خورم.": {
+    "f": "fa/rec-bf1a330568a57122.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:51.072Z"
+   },
+   "من قهوه نمی‌نوشم.": {
+    "f": "fa/rec-059e1b4b211d1142.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:54.187Z"
+   },
+   "من نان خوردم.": {
+    "f": "fa/rec-db72837e6df14357.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:10.307Z"
+   },
+   "من نان می‌خورم.": {
+    "f": "fa/rec-ab4cc7a9df539e28.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:24.606Z"
+   },
+   "من هم خوبم.": {
+    "f": "fa/rec-6ce2b7d0a2ee7a03.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:22.530Z"
+   },
+   "من هم خوشوقتم.": {
+    "f": "fa/rec-59c36238f6b8e527.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:43.889Z"
+   },
+   "من هم همین‌طور.": {
+    "f": "fa/rec-179642b45bc877ee.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:46.833Z"
+   },
+   "من کرد نیستم.": {
+    "f": "fa/rec-95a50ee492883378.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:05.099Z"
+   },
+   "منم خوبم.": {
+    "f": "fa/rec-82f73dbb6763dadf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:25.430Z"
+   },
    "موبایل": {
     "f": "fa/rec-bd3d2d807cd9d2bf.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:27.453Z"
+   },
+   "موبایلم کجاست؟": {
+    "f": "fa/rec-dea7d45890686dd3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:02.571Z"
    },
    "میز": {
     "f": "fa/rec-1e34e1f0dae302b9.mp3",
@@ -3406,6 +6491,166 @@
     "f": "fa/rec-badeaefa03c24dd8.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:59.517Z"
+   },
+   "میوه، لطفاً.": {
+    "f": "fa/rec-5d16aea16c542e5c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:02.690Z"
+   },
+   "می‌توانم صبر کنم.": {
+    "f": "fa/rec-a055d8da687c441a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:24.204Z"
+   },
+   "می‌توانم کمی کردی صحبت کنم.": {
+    "f": "fa/rec-3af7a744873e34f9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:15.971Z"
+   },
+   "می‌توانی به من کمک کنی؟": {
+    "f": "fa/rec-883c37246a6e5152.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:05.218Z"
+   },
+   "می‌توانید به من کمک کنید؟": {
+    "f": "fa/rec-4a9563c4de6559fb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:10.898Z"
+   },
+   "می‌توانید فارسی صحبت کنید؟": {
+    "f": "fa/rec-696b8831d25dcf89.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:50.291Z"
+   },
+   "می‌توانید کردی صحبت کنید؟": {
+    "f": "fa/rec-8cd18977336d8ac0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:42.441Z"
+   },
+   "می‌تونم برم.": {
+    "f": "fa/rec-ea27afa9a2ca3d51.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:35.349Z"
+   },
+   "می‌تونم صبر کنم.": {
+    "f": "fa/rec-28b87d7022d6f1cc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:28.045Z"
+   },
+   "می‌تونم یه کم کردی حرف بزنم.": {
+    "f": "fa/rec-1d052c9769b31471.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:20.153Z"
+   },
+   "می‌تونی کردی حرف بزنی؟": {
+    "f": "fa/rec-484c2f66042c3be6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:46.452Z"
+   },
+   "می‌تونی کمکم کنی؟": {
+    "f": "fa/rec-3be4f4e1664a46fa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:14.140Z"
+   },
+   "می‌خوام برنج بخورم.": {
+    "f": "fa/rec-f4f496bc8bea2c01.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:37.688Z"
+   },
+   "می‌خوام میوه بخورم.": {
+    "f": "fa/rec-48c5c7adfabc963b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:43.362Z"
+   },
+   "می‌خوام نان و پنیر بخورم.": {
+    "f": "fa/rec-7de1a52774041732.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:46.605Z"
+   },
+   "می‌خوام نون بخورم.": {
+    "f": "fa/rec-d97a0d89284e2b6f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:00.287Z"
+   },
+   "می‌خوام گوشت بخورم.": {
+    "f": "fa/rec-3318af03acfe3ace.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:40.631Z"
+   },
+   "می‌خواهم برنج بخورم.": {
+    "f": "fa/rec-3e71f1d73776a100.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:49.639Z"
+   },
+   "می‌خواهم برنج و مرغ بخورم.": {
+    "f": "fa/rec-1a63d0a324f9fcb0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:52.279Z"
+   },
+   "می‌خواهم میوه بخورم.": {
+    "f": "fa/rec-232f6eb396084019.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:56.887Z"
+   },
+   "می‌خواهم نان بخورم.": {
+    "f": "fa/rec-502ffe770b3930b7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:03.658Z"
+   },
+   "می‌خواهم نان و پنیر بخورم.": {
+    "f": "fa/rec-71d4a4ba55fab87d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:59.961Z"
+   },
+   "می‌خواهم گوشت بخورم.": {
+    "f": "fa/rec-e51e1c59aab48695.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:53.942Z"
+   },
+   "می‌خواهید چای بخورید؟": {
+    "f": "fa/rec-a569e4eea97d2d33.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:20.542Z"
+   },
+   "می‌خواهید چای بنوشید؟": {
+    "f": "fa/rec-14b896d3d853a3ff.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:24.085Z"
+   },
+   "می‌خواین چایی بخورین؟": {
+    "f": "fa/rec-b244eb1b4528547d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:27.624Z"
+   },
+   "می‌دانی کجاست؟": {
+    "f": "fa/rec-2b1f90c75b532297.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:40.423Z"
+   },
+   "می‌رم بازار.": {
+    "f": "fa/rec-fc60a240dad247b0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:24.305Z"
+   },
+   "می‌رم بیمارستان.": {
+    "f": "fa/rec-5d32f6074806d0a5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:38.037Z"
+   },
+   "می‌رم تهران.": {
+    "f": "fa/rec-e751a1c4aecea999.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:40.511Z"
+   },
+   "می‌رم فرودگاه.": {
+    "f": "fa/rec-2cb4c574c4a03ada.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:43.028Z"
+   },
+   "می‌رم مدرسه.": {
+    "f": "fa/rec-145fd68b0dd6c967.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:45.588Z"
    },
    "می‌شه تکرار کنید؟": {
     "f": "fa/rec-73cbd87174482e2c.mp3",
@@ -3427,30 +6672,80 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:38.824Z"
    },
+   "نان خوردم.": {
+    "f": "fa/rec-ff7a8a6bb9702d21.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:16.062Z"
+   },
    "نان و پنیر": {
     "f": "fa/rec-c39e767cdf498a02.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:31.102Z"
+   },
+   "نان و پنیر خریدم.": {
+    "f": "fa/rec-77aace78d7f3d5fc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:32.799Z"
+   },
+   "نان و پنیر و چای می‌خورم.": {
+    "f": "fa/rec-e6aead70d7eb1306.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:28.993Z"
+   },
+   "نان و پنیر، لطفاً.": {
+    "f": "fa/rec-2c62e36a5231cc53.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:05.505Z"
    },
    "ناهار": {
     "f": "fa/rec-818fab9d10e6a2fc.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:16.881Z"
    },
+   "نتوانستم بخوابم.": {
+    "f": "fa/rec-b927abe35f40973d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:24.595Z"
+   },
+   "نتونستم بخوابم.": {
+    "f": "fa/rec-958cad94fd560095.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:25:31.287Z"
+   },
    "نخیر": {
     "f": "fa/rec-16f6c0d66e3e62e4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:54.005Z"
+   },
+   "نرو!": {
+    "f": "fa/rec-fa62f794eab57bf0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:29.930Z"
    },
    "نزدیک": {
     "f": "fa/rec-e630fcaa227c9cac.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:56.669Z"
    },
+   "نزدیک است، مستقیم بروید.": {
+    "f": "fa/rec-6b865e73a03a9bf8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:06.960Z"
+   },
+   "نزدیکه، مستقیم برید.": {
+    "f": "fa/rec-c528019d61d4c631.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:10.118Z"
+   },
    "نسرین": {
     "f": "fa/rec-efe35d6c98a1724f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:30.750Z"
+   },
+   "نسرین.": {
+    "f": "fa/rec-0f1e1c95005a95b5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:50.863Z"
    },
    "نشستن": {
     "f": "fa/rec-f4955265bec69d18.mp3",
@@ -3477,10 +6772,30 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:31.220Z"
    },
+   "نمی‌دانم او کجاست.": {
+    "f": "fa/rec-feac5a6a6b859856.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:04.471Z"
+   },
+   "نمی‌دانم کجاست.": {
+    "f": "fa/rec-36ad1b245539491f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:08.269Z"
+   },
+   "نمی‌دانم.": {
+    "f": "fa/rec-d285990821f2ee3e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:31.931Z"
+   },
    "نمی‌دونم": {
     "f": "fa/rec-f8b9f736ccd3cc79.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:33.438Z"
+   },
+   "نمی‌دونم کجاست.": {
+    "f": "fa/rec-cfc41bafa67dab01.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:11.212Z"
    },
    "نمی‌فهمم": {
     "f": "fa/rec-645aa632aae3a59a.mp3",
@@ -3491,6 +6806,211 @@
     "f": "fa/rec-bd8cce6c12c1a075.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:32:55.839Z"
+   },
+   "نه مرسی، سیر شدم.": {
+    "f": "fa/rec-cd77e3440ce15c80.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:12.925Z"
+   },
+   "نه، آسان است.": {
+    "f": "fa/rec-a47760cd5ddd7456.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:29.961Z"
+   },
+   "نه، ارزان است.": {
+    "f": "fa/rec-63089b96e4e5ddba.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:10.849Z"
+   },
+   "نه، امروز پنجشنبه است.": {
+    "f": "fa/rec-cfbcac9317e24149.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:53.241Z"
+   },
+   "نه، با اتوبوس می‌روم.": {
+    "f": "fa/rec-614cc0dc531b1125.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:51.734Z"
+   },
+   "نه، بازار دور است.": {
+    "f": "fa/rec-21784d212c531219.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:59:07.732Z"
+   },
+   "نه، ببخشید.": {
+    "f": "fa/rec-e5cbbbea9eada45c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:07.835Z"
+   },
+   "نه، بچه ندارم.": {
+    "f": "fa/rec-e1de7c6115ad8b8c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:17.669Z"
+   },
+   "نه، تشنه نیستم.": {
+    "f": "fa/rec-f0baba866baa2f49.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:58.784Z"
+   },
+   "نه، تک‌فرزندم.": {
+    "f": "fa/rec-5da16b1b4416fb0a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:07.441Z"
+   },
+   "نه، خسته نیستم.": {
+    "f": "fa/rec-0f317d12aad1c3fb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:05.033Z"
+   },
+   "نه، خوب نخوابیدم.": {
+    "f": "fa/rec-baa08f1d99fbc314.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:10.685Z"
+   },
+   "نه، خوبم.": {
+    "f": "fa/rec-a154c99c2a700acf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:19.326Z"
+   },
+   "نه، خونه‌مون کوچیکه.": {
+    "f": "fa/rec-cbe98d5e0c5f4060.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:50.187Z"
+   },
+   "نه، خیلی دور نیست.": {
+    "f": "fa/rec-363cb17aa96f381c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:18.155Z"
+   },
+   "نه، خیلی سخت نیست.": {
+    "f": "fa/rec-7a2de1892e76ef55.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:33.291Z"
+   },
+   "نه، خیلی گران نیست.": {
+    "f": "fa/rec-62bd7f1fb51a44af.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:13.834Z"
+   },
+   "نه، دوستم است.": {
+    "f": "fa/rec-a6ebb36c08497991.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:58.671Z"
+   },
+   "نه، سخت نیست.": {
+    "f": "fa/rec-c334bbed41128585.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:35.935Z"
+   },
+   "نه، فارسی از کردی آسان‌تر است.": {
+    "f": "fa/rec-fc8685941a650ee2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:39.735Z"
+   },
+   "نه، فارسی بلد نیستم.": {
+    "f": "fa/rec-51fa105c2288e2e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:47.013Z"
+   },
+   "نه، فردا جمعه است.": {
+    "f": "fa/rec-3ed20aca8b574952.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:55.929Z"
+   },
+   "نه، فردا جمعه‌ست.": {
+    "f": "fa/rec-89655a8cbbd4ade4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:58.746Z"
+   },
+   "نه، فقط خسته‌ام.": {
+    "f": "fa/rec-86c18d7fb19a4898.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:22.100Z"
+   },
+   "نه، قهوه دوست دارم.": {
+    "f": "fa/rec-d9403896472b5157.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:16.970Z"
+   },
+   "نه، ماشین ندارم.": {
+    "f": "fa/rec-fe91929cafa50cc6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:54.547Z"
+   },
+   "نه، مجرد هستم.": {
+    "f": "fa/rec-2dc353d26e644fe0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:09.221Z"
+   },
+   "نه، مرسی.": {
+    "f": "fa/rec-4754121fca773be4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:00.624Z"
+   },
+   "نه، معمولاً دیر بیدار می‌شوم.": {
+    "f": "fa/rec-ec917c6f20bdc5ff.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:37.362Z"
+   },
+   "نه، ممنون.": {
+    "f": "fa/rec-ad39a08548aa0f08.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:03.014Z"
+   },
+   "نه، ممنون، کافی است.": {
+    "f": "fa/rec-d1c81967ea3cae39.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:15.784Z"
+   },
+   "نه، ممنونم.": {
+    "f": "fa/rec-61a5c140eb1a0cf8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:09:05.530Z"
+   },
+   "نه، نزدیک است.": {
+    "f": "fa/rec-bcbb4d738f49300d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:58:20.971Z"
+   },
+   "نه، نمی‌توانم.": {
+    "f": "fa/rec-b9f5e694c08ab3c1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:05.492Z"
+   },
+   "نه، نمی‌دانم.": {
+    "f": "fa/rec-3993a259c176684f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:13.009Z"
+   },
+   "نه، نمی‌دونم.": {
+    "f": "fa/rec-d021d1e3c3c56762.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:15.526Z"
+   },
+   "نه، نمی‌فهمم.": {
+    "f": "fa/rec-cd1daf108665a24d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:33.383Z"
+   },
+   "نه، کردی صحبت نمی‌کنم.": {
+    "f": "fa/rec-96cb0bae27dae86f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:38.266Z"
+   },
+   "نه، کوچک است، ولی قشنگ است.": {
+    "f": "fa/rec-d5abaea5620a3876.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:55.180Z"
+   },
+   "نه، گرسنه نیستم.": {
+    "f": "fa/rec-3de17f62f75c4887.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:49.653Z"
+   },
+   "نه، یه کم صبر کن.": {
+    "f": "fa/rec-5d00102710f32d85.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:43.402Z"
    },
    "نهار": {
     "f": "fa/rec-9203e7429c0c0713.mp3",
@@ -3522,6 +7042,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:41.042Z"
    },
+   "نون خوردم.": {
+    "f": "fa/rec-599c6aaef32a921d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:12.866Z"
+   },
    "نیز": {
     "f": "fa/rec-53dce662f4ca0ae8.mp3",
     "v": "fa-rec-essi",
@@ -3531,6 +7056,11 @@
     "f": "fa/rec-6ddd4ed4fad1774e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:33:48.447Z"
+   },
+   "نیلوفر هستم.": {
+    "f": "fa/rec-7c11f1c11ab50882.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:37:39.813Z"
    },
    "نیم": {
     "f": "fa/rec-6445144bdb9fa66e.mp3",
@@ -3542,10 +7072,45 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:20.840Z"
    },
+   "هر جمعه به کوه می‌رویم.": {
+    "f": "fa/rec-de59471d05467727.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:21:28.518Z"
+   },
+   "هر دو.": {
+    "f": "fa/rec-db76b8ed27c4f213.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:46:39.925Z"
+   },
    "هر روز": {
     "f": "fa/rec-a9c3c4ab4b7efdf0.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:48:01.939Z"
+   },
+   "هر روز ساعت هفت بیدار می‌شم.": {
+    "f": "fa/rec-82dc8f57ebd4125c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:33.363Z"
+   },
+   "هر روز ساعت هفت بیدار می‌شوم.": {
+    "f": "fa/rec-3962a56e44a026ae.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:36.989Z"
+   },
+   "هر روز فارسی می‌خوانم.": {
+    "f": "fa/rec-b32cb88e37bef50c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:59.826Z"
+   },
+   "هر روز کار می‌کنم.": {
+    "f": "fa/rec-e3945b3fd3b12c61.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:05.854Z"
+   },
+   "هر روز.": {
+    "f": "fa/rec-ac750258e96aa62e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:01.957Z"
    },
    "هرگز": {
     "f": "fa/rec-182f8c70f2a3c7d5.mp3",
@@ -3567,6 +7132,26 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:21.042Z"
    },
+   "هفت تا.": {
+    "f": "fa/rec-8c788a950b01e8f6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:00.878Z"
+   },
+   "هفت روز.": {
+    "f": "fa/rec-52279b875d999c95.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:03.054Z"
+   },
+   "هفت نفر.": {
+    "f": "fa/rec-e7cc9e0c704547ec.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:35.139Z"
+   },
+   "هفت نفریم.": {
+    "f": "fa/rec-2774fe329f7dbaa3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:37.441Z"
+   },
    "هفت و نیم": {
     "f": "fa/rec-486327345ccf56ed.mp3",
     "v": "fa-rec-essi",
@@ -3582,30 +7167,115 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:57.044Z"
    },
+   "هم کار می‌کنم، هم درس می‌خوانم.": {
+    "f": "fa/rec-00daf234436a9da5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:41.320Z"
+   },
    "همسر": {
     "f": "fa/rec-6528701774014207.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:09.748Z"
+   },
+   "همسرم سوئدی است.": {
+    "f": "fa/rec-5eb9e6e23b119a91.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:21.869Z"
    },
    "همچنین": {
     "f": "fa/rec-50de40da8c434ed8.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:59.434Z"
    },
+   "همچنین.": {
+    "f": "fa/rec-43bf4761808d2632.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:48.752Z"
+   },
    "همیشه": {
     "f": "fa/rec-2373a4e077f898e4.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:48:04.403Z"
+   },
+   "همیشه آن‌ها را می‌شویم.": {
+    "f": "fa/rec-b171fef226455b5c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:13.906Z"
+   },
+   "همیشه اونا رو می‌شورم.": {
+    "f": "fa/rec-744823f720cc58b0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:16.935Z"
+   },
+   "همیشه زود بیدار می‌شم.": {
+    "f": "fa/rec-c8440737692a718a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:09.480Z"
+   },
+   "همیشه زود بیدار می‌شوم.": {
+    "f": "fa/rec-0def51fcea47b188.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:12.724Z"
    },
    "هوا": {
     "f": "fa/rec-54cffb81a40d038f.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:51.318Z"
    },
+   "هوا امروز سرد است.": {
+    "f": "fa/rec-53db55e295e6003d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:25.263Z"
+   },
+   "هوا سرده.": {
+    "f": "fa/rec-827a7cb5269d5492.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:21.514Z"
+   },
+   "هوا چطور است؟": {
+    "f": "fa/rec-00f24b5905008d87.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:18.375Z"
+   },
+   "هوا گرم است.": {
+    "f": "fa/rec-fb8d682f29db5c3a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:03:23.990Z"
+   },
+   "هیچ برادری ندارم.": {
+    "f": "fa/rec-bc1de38d631637e7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:15.168Z"
+   },
+   "هیچ جا نرفتم.": {
+    "f": "fa/rec-cd1c5bcccc818713.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:56.020Z"
+   },
+   "هیچ چیز نخوردم.": {
+    "f": "fa/rec-5d33ba7c19294bc4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:38.465Z"
+   },
+   "هیچ کاری نکردم.": {
+    "f": "fa/rec-865af76415d74a60.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:11.006Z"
+   },
    "هیچ‌وقت": {
     "f": "fa/rec-94e113cf7aa7b84a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:52:41.761Z"
+   },
+   "هیچ‌وقت دیر بیدار نمی‌شم.": {
+    "f": "fa/rec-fc30bf4289bf6491.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:44.040Z"
+   },
+   "هیچ‌وقت دیر بیدار نمی‌شوم.": {
+    "f": "fa/rec-5391f4f78eaad16c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:47.282Z"
    },
    "و": {
     "f": "fa/rec-b6978e9c16c912e5.mp3",
@@ -3616,6 +7286,11 @@
     "f": "fa/rec-ea2b04513d793289.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:42:20.554Z"
+   },
+   "واقعاً نمی‌دانم.": {
+    "f": "fa/rec-2587bf2fe16115a6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:03.889Z"
    },
    "ولی": {
     "f": "fa/rec-b957b6eb77dca93c.mp3",
@@ -3642,15 +7317,40 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:41.758Z"
    },
+   "پدر و مادرم اینجا زندگی می‌کنند.": {
+    "f": "fa/rec-bb0bc3a9773e4c99.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:21.083Z"
+   },
+   "پدر و مادرم در سلیمانیه زندگی می‌کنند.": {
+    "f": "fa/rec-f3259954c9f1ede3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:13.039Z"
+   },
    "پدربزرگ": {
     "f": "fa/rec-56c20271af9651a7.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:05.866Z"
    },
+   "پدرم اهل اربیل است.": {
+    "f": "fa/rec-a68c624dc6559852.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:49.796Z"
+   },
+   "پدرم پنجاه سال دارد.": {
+    "f": "fa/rec-c1abea2ae2cc5b9d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:26.082Z"
+   },
    "پروین": {
     "f": "fa/rec-8f3ac18d00b9160c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:26.483Z"
+   },
+   "پروین.": {
+    "f": "fa/rec-d2a210659fe92d49.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:41:45.402Z"
    },
    "پزشک": {
     "f": "fa/rec-a6c80df86848529a.mp3",
@@ -3667,15 +7367,60 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:15.411Z"
    },
+   "پنج اتاق دارد.": {
+    "f": "fa/rec-3b7fc9358e9bbdb7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:58.225Z"
+   },
+   "پنج تا اتاق داره.": {
+    "f": "fa/rec-62e25399c8f279e4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:01.084Z"
+   },
+   "پنج تا تخم‌مرغ می‌خواهم.": {
+    "f": "fa/rec-5b720c1f72d18335.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:47:59.071Z"
+   },
+   "پنج تا می‌خوام.": {
+    "f": "fa/rec-e32a0d846ab0f4b7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:42.931Z"
+   },
+   "پنج تا، لطفاً.": {
+    "f": "fa/rec-357bb5bd70047138.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:45.576Z"
+   },
    "پنجاه": {
     "f": "fa/rec-b7b3ce9c6452d4c1.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:03.891Z"
    },
+   "پنجاه سال دارم.": {
+    "f": "fa/rec-40fea7edb977bc11.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:48.656Z"
+   },
+   "پنجاه سالمه.": {
+    "f": "fa/rec-481d9939da291eb4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:51.088Z"
+   },
    "پنجره": {
     "f": "fa/rec-40178c14be64cd62.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:04.881Z"
+   },
+   "پنجره را باز کردم.": {
+    "f": "fa/rec-e3c59d62c587f098.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:47.127Z"
+   },
+   "پنجره رو باز کردم.": {
+    "f": "fa/rec-73816bdb38a4b47d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:50.114Z"
    },
    "پنجشنبه": {
     "f": "fa/rec-1307c4dad5fa5df9.mp3",
@@ -3692,15 +7437,30 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:03.014Z"
    },
+   "پنیر خوردم.": {
+    "f": "fa/rec-0a2d53c87b803e38.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:19.157Z"
+   },
    "پول": {
     "f": "fa/rec-ebf06fb4fcc63e7d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:46.428Z"
    },
+   "پول ندارم.": {
+    "f": "fa/rec-350e3602796bd7ec.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:41.371Z"
+   },
    "پونزده": {
     "f": "fa/rec-067177d998b4fbd0.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:32.818Z"
+   },
+   "پیاده می‌روم.": {
+    "f": "fa/rec-656f6b2719e47f56.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:52:48.689Z"
    },
    "چار": {
     "f": "fa/rec-40fc636c93f221f8.mp3",
@@ -3712,20 +7472,135 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:42.791Z"
    },
+   "چای بدون شکر می‌خورم.": {
+    "f": "fa/rec-f8edd785522859bc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:59.210Z"
+   },
+   "چای بدون شکر می‌نوشم.": {
+    "f": "fa/rec-a557ec27de93e3a7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:02.665Z"
+   },
+   "چای خیلی داغ است.": {
+    "f": "fa/rec-8320b8f87d865d79.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:06.661Z"
+   },
+   "چای خیلی گرم است.": {
+    "f": "fa/rec-2f6eacbb80898890.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:11.780Z"
+   },
+   "چای دوست دارید؟": {
+    "f": "fa/rec-95802c4c75c99eaa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:53.021Z"
+   },
+   "چای می‌خوام.": {
+    "f": "fa/rec-478d7b03ae00076e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:10.243Z"
+   },
+   "چای می‌خواهم.": {
+    "f": "fa/rec-02ae2ee560f315a1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:15.703Z"
+   },
+   "چای می‌خواهم، لطفاً.": {
+    "f": "fa/rec-d9acca6b175895e6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:13.101Z"
+   },
+   "چای می‌خواهی یا قهوه؟": {
+    "f": "fa/rec-ced34b092bf2fe65.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:15.824Z"
+   },
+   "چای می‌خورم.": {
+    "f": "fa/rec-4b4b042763201f53.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:35.756Z"
+   },
+   "چای می‌خوری؟": {
+    "f": "fa/rec-0af29606d18df8f1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:20.351Z"
+   },
+   "چای می‌خورید یا قهوه؟": {
+    "f": "fa/rec-39bf57ce8ec96c7e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:46.388Z"
+   },
+   "چای می‌نوشی؟": {
+    "f": "fa/rec-0b8b556a7c30abff.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:23.295Z"
+   },
+   "چای یا قهوه می‌خواهی؟": {
+    "f": "fa/rec-4314a85ac86b76fa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:19.490Z"
+   },
+   "چای، لطفاً.": {
+    "f": "fa/rec-f31fd9aa8af4e955.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:45:18.219Z"
+   },
    "چایی": {
     "f": "fa/rec-407bffff6da7eb8a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:44.625Z"
+   },
+   "چایی بدون قند می‌خورم.": {
+    "f": "fa/rec-17981b2c630ca2da.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:06.038Z"
+   },
+   "چایی خیلی داغه.": {
+    "f": "fa/rec-e8ba931501232e56.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:15.579Z"
+   },
+   "چایی دوست داری؟": {
+    "f": "fa/rec-a28b1d707e55a681.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:55.879Z"
+   },
+   "چایی می‌خوای یا قهوه؟": {
+    "f": "fa/rec-68d5b3e26f7794ac.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:23.203Z"
+   },
+   "چایی می‌خوری؟": {
+    "f": "fa/rec-180d64d3f1f9e32c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:45.439Z"
    },
    "چرا": {
     "f": "fa/rec-3bf65820020814ed.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:22.060Z"
    },
+   "چرا اینجا هستی؟": {
+    "f": "fa/rec-586ae41db0f16b21.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:41.323Z"
+   },
+   "چرا فارسی یاد می‌گیرید؟": {
+    "f": "fa/rec-d514a2398f211b5d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:20.071Z"
+   },
    "چطور": {
     "f": "fa/rec-059a2f01291283c2.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:26.069Z"
+   },
+   "چطور سر کار می‌روید؟": {
+    "f": "fa/rec-bc970c154691d7e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:38.526Z"
    },
    "چطور می‌گویند؟": {
     "f": "fa/rec-2e5187b81429a344.mp3",
@@ -3737,6 +7612,11 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:28.033Z"
    },
+   "چطوری؟": {
+    "f": "fa/rec-178d382ebf2c80af.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:11.370Z"
+   },
    "چقدر": {
     "f": "fa/rec-e2f1bf59cc141670.mp3",
     "v": "fa-rec-essi",
@@ -3747,40 +7627,195 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:24.637Z"
    },
+   "چند برادر دارید؟": {
+    "f": "fa/rec-40ac3c9b70640cca.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:51.392Z"
+   },
    "چند تا": {
     "f": "fa/rec-4ecc1328b40e6507.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:26.855Z"
+   },
+   "چند تا تخم‌مرغ می‌خواهید؟": {
+    "f": "fa/rec-81078c68e598ab99.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:02.344Z"
+   },
+   "چند خواهر دارید؟": {
+    "f": "fa/rec-18481c4f43b96242.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:54.250Z"
+   },
+   "چند سال دارید؟": {
+    "f": "fa/rec-1e325e3643682b36.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:57.024Z"
    },
    "چه": {
     "f": "fa/rec-b0be99225f38f2a5.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:25.609Z"
    },
+   "چه خریدی؟": {
+    "f": "fa/rec-f899bd174895a320.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:58.438Z"
+   },
+   "چه خوردی؟": {
+    "f": "fa/rec-b1b4c79360ba7917.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:36.167Z"
+   },
+   "چه زبانی یاد می‌گیرید؟": {
+    "f": "fa/rec-aeb2bf56bb4306d2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:04.584Z"
+   },
+   "چه می‌خواهی؟": {
+    "f": "fa/rec-85cbd259b7dcf1dc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:06.387Z"
+   },
+   "چه می‌خواهید بخورید؟": {
+    "f": "fa/rec-9a18a6bfa364bc58.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:39.267Z"
+   },
+   "چه می‌خواهید بنوشید؟": {
+    "f": "fa/rec-018013057fc57e42.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:42.805Z"
+   },
+   "چه می‌خواهید؟": {
+    "f": "fa/rec-588eb12d8e1405d7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:08.863Z"
+   },
    "چه وقت": {
     "f": "fa/rec-efeb3e0d961f3743.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:24.108Z"
+   },
+   "چه وقت می‌آیی؟": {
+    "f": "fa/rec-23a840679d852c82.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:36.608Z"
+   },
+   "چه گفتی؟": {
+    "f": "fa/rec-e4b59c209d4db365.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:33.090Z"
    },
    "چهار": {
     "f": "fa/rec-9090005d18909575.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:37:58.471Z"
    },
+   "چهار اتاق دارد.": {
+    "f": "fa/rec-4c6044902ffa02a0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:04.284Z"
+   },
+   "چهار برادر دارم.": {
+    "f": "fa/rec-40afe296cd38a51c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:13.116Z"
+   },
+   "چهار تا اتاق داره.": {
+    "f": "fa/rec-dee96fb3f9aa22e8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:51:07.484Z"
+   },
+   "چهار تا برادر دارم.": {
+    "f": "fa/rec-88d54ef05763de30.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:15.931Z"
+   },
+   "چهار تا تخم‌مرغ می‌خواهم.": {
+    "f": "fa/rec-23e7103b776a2fd7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:48.692Z"
+   },
+   "چهار تا خواهر دارم.": {
+    "f": "fa/rec-4b2ff75f108c6e07.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:24.337Z"
+   },
+   "چهار تا می‌خوام.": {
+    "f": "fa/rec-2d17f0cd8a6061df.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:51.720Z"
+   },
+   "چهار تا، لطفاً.": {
+    "f": "fa/rec-6220140b4a3c5d7f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:48:54.323Z"
+   },
+   "چهار خواهر دارم.": {
+    "f": "fa/rec-8307aac9ca4502bc.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:27.152Z"
+   },
+   "چهار نفر.": {
+    "f": "fa/rec-d41fe10bacfc135b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:07.703Z"
+   },
+   "چهار نفریم.": {
+    "f": "fa/rec-9d0dc1a4b48ced5d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:43:09.964Z"
+   },
    "چهارشنبه": {
     "f": "fa/rec-da26fc698d1862ee.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:20.093Z"
+   },
+   "چهارشنبه.": {
+    "f": "fa/rec-1f9066804fba7cb1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:43.896Z"
    },
    "چهل": {
     "f": "fa/rec-dd5b8c3f5b361a66.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:36:24.690Z"
    },
+   "چهل سال دارم.": {
+    "f": "fa/rec-a678f2d397682380.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:53.605Z"
+   },
+   "چهل سالمه.": {
+    "f": "fa/rec-19224682b0554806.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:55.994Z"
+   },
    "چون": {
     "f": "fa/rec-cada51bfbec1a2da.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:40.660Z"
+   },
+   "چون دوستم اهل تهران است.": {
+    "f": "fa/rec-56c5a8d236d5e468.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:39.999Z"
+   },
+   "چون فارسی را دوست دارم.": {
+    "f": "fa/rec-67d924560acde2bb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:43.539Z"
+   },
+   "چون فارسی رو دوست دارم.": {
+    "f": "fa/rec-db03f13bb5888e26.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:46.782Z"
+   },
+   "چون مادرم ایرانی است.": {
+    "f": "fa/rec-b80e673d41ae696e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:51.688Z"
    },
    "چون که": {
     "f": "fa/rec-7f4faa1b216c3720.mp3",
@@ -3802,15 +7837,50 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:27.357Z"
    },
+   "چی خریدی؟": {
+    "f": "fa/rec-9d78eedc66f138d5.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:01.042Z"
+   },
+   "چی می‌خواین؟": {
+    "f": "fa/rec-800f22e070b5a10a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:28.361Z"
+   },
    "چی می‌گن؟": {
     "f": "fa/rec-f862355bfbfbee3d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:43:02.537Z"
    },
+   "چی گفتی؟": {
+    "f": "fa/rec-ed3568ec64b96612.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:35.436Z"
+   },
+   "چیزی نخریدم.": {
+    "f": "fa/rec-416a7e75b1c3937d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:28.745Z"
+   },
+   "چیزی نخوردم.": {
+    "f": "fa/rec-2ea30b79751fbbce.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:21.523Z"
+   },
    "کار": {
     "f": "fa/rec-a6ba43f6b0cd9307.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:47:12.177Z"
+   },
+   "کار می‌کنید یا درس می‌خوانید؟": {
+    "f": "fa/rec-dba8c18dd05c12ae.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:31.145Z"
+   },
+   "کار نمی‌کنم.": {
+    "f": "fa/rec-157f880de64c7f57.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:49:58.109Z"
    },
    "کار کردن": {
     "f": "fa/rec-29bfdedede340711.mp3",
@@ -3822,10 +7892,20 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:44.104Z"
    },
+   "کافی است، ممنون.": {
+    "f": "fa/rec-0f1f2e959c0f6d57.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:55.796Z"
+   },
    "کتاب": {
     "f": "fa/rec-0dda35300c83cc6b.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:18.834Z"
+   },
+   "کتاب جدیدی خریدم.": {
+    "f": "fa/rec-29889972399926d4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:23.833Z"
    },
    "کتاب‌ها": {
     "f": "fa/rec-1e4ba99ed9f96e8d.mp3",
@@ -3842,20 +7922,65 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:31.028Z"
    },
+   "کجا زندگی می‌کنید؟": {
+    "f": "fa/rec-a575150735d6c418.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:26.731Z"
+   },
+   "کجا می‌روید؟": {
+    "f": "fa/rec-da43aa0a463a2426.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:44.072Z"
+   },
+   "کجا هستی؟": {
+    "f": "fa/rec-7f5bbe873897baf4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:07.652Z"
+   },
+   "کجا کار می‌کنید؟": {
+    "f": "fa/rec-dd33818a04c70d1a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:10.792Z"
+   },
+   "کجایی؟": {
+    "f": "fa/rec-bd456042d774bc7b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:09.487Z"
+   },
    "کدام": {
     "f": "fa/rec-de271e88698db59a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:31.828Z"
+   },
+   "کدام آسان‌تر است، کردی یا فارسی؟": {
+    "f": "fa/rec-277007023942e210.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:24.083Z"
+   },
+   "کدام بهتر است؟": {
+    "f": "fa/rec-91972bfdcac00b50.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:27.905Z"
    },
    "کدام یک": {
     "f": "fa/rec-36d776b4de68895d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:34.303Z"
    },
+   "کدام یک بهتر است؟": {
+    "f": "fa/rec-736347581523d720.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:30.720Z"
+   },
    "کدوم": {
     "f": "fa/rec-db353aaa2ae49a28.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:41:36.267Z"
+   },
+   "کدوم بهتره؟": {
+    "f": "fa/rec-c2561374f092731b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:33.366Z"
    },
    "کردن": {
     "f": "fa/rec-e7f67536755feba1.mp3",
@@ -3867,10 +7992,65 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:52.318Z"
    },
+   "کردی آسان‌تر است.": {
+    "f": "fa/rec-932732cd5fa9184b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:07:00.817Z"
+   },
+   "کردی حرف می‌زنم.": {
+    "f": "fa/rec-7cfedac1ef194eb3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:18.799Z"
+   },
    "کردی خواندم": {
     "f": "fa/rec-35c33ea18d6a8c1e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:40:03.392Z"
+   },
+   "کردی سخت است؟": {
+    "f": "fa/rec-e6500f5dd8e8a4f6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:21.534Z"
+   },
+   "کردی سخت نیست.": {
+    "f": "fa/rec-1d49e8209f29b7b7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:16.932Z"
+   },
+   "کردی صحبت می‌کنم.": {
+    "f": "fa/rec-f09e49f9ba2a4dd2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:21.573Z"
+   },
+   "کردی صحبت می‌کنید؟": {
+    "f": "fa/rec-77e0b046ae1c6e9b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:32:30.060Z"
+   },
+   "کردی مشکل نیست.": {
+    "f": "fa/rec-4a6f8eb7cac0d14b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:23:19.874Z"
+   },
+   "کردی و انگلیسی صحبت می‌کنم.": {
+    "f": "fa/rec-1a568a8292ed7b02.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:24.730Z"
+   },
+   "کردی و فارسی صحبت می‌کنم.": {
+    "f": "fa/rec-eb9db026cb614be8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:49.813Z"
+   },
+   "کردی و فارسی یاد می‌گیرم.": {
+    "f": "fa/rec-572f289641687e02.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:27:36.854Z"
+   },
+   "کردی یاد می‌گیرم.": {
+    "f": "fa/rec-0337a8d0a8a7160a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:06:05.181Z"
    },
    "کشور": {
     "f": "fa/rec-be5cd69b1d5c84ce.mp3",
@@ -3882,6 +8062,31 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:46:58.785Z"
    },
+   "کلید را می‌خواهم.": {
+    "f": "fa/rec-7ee11f4b173e25e7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:19.793Z"
+   },
+   "کلید رو میزه.": {
+    "f": "fa/rec-9c90baa822e76e27.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:50.409Z"
+   },
+   "کلید روی میز است.": {
+    "f": "fa/rec-642c2bed1176ea7b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:53.310Z"
+   },
+   "کلید کجاست؟": {
+    "f": "fa/rec-9a2dc51e2f658588.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:34:27.432Z"
+   },
+   "کلیدو می‌خوام.": {
+    "f": "fa/rec-4898886c07634362.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:19:22.396Z"
+   },
    "کمک کردن": {
     "f": "fa/rec-b9c80b0c5fd86791.mp3",
     "v": "fa-rec-essi",
@@ -3891,6 +8096,21 @@
     "f": "fa/rec-eee5d27ea34758f3.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:07.934Z"
+   },
+   "کمی خسته‌ام.": {
+    "f": "fa/rec-efa8c87f65975121.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:00:02.174Z"
+   },
+   "کمی فارسی صحبت می‌کنم.": {
+    "f": "fa/rec-5855edea02a2c4aa.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:39:57.287Z"
+   },
+   "کمی کردی صحبت می‌کنم، ولی فارسی نمی‌دانم.": {
+    "f": "fa/rec-ec77885f9a8d3dbb.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:54.508Z"
    },
    "کهنه": {
     "f": "fa/rec-5296888df198ee32.mp3",
@@ -3937,20 +8157,60 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:34:29.193Z"
    },
+   "کی فارسی می‌خوانید؟": {
+    "f": "fa/rec-9abd2f2d09843a9d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:36:37.564Z"
+   },
+   "کی میای؟": {
+    "f": "fa/rec-97057bf1dc29c326.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:42.709Z"
+   },
+   "کی می‌آیی؟": {
+    "f": "fa/rec-2a32f26b6b96ad15.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:26:39.638Z"
+   },
    "گاهی": {
     "f": "fa/rec-064709ae3dcf0bc9.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:52:37.360Z"
+   },
+   "گاهی خونه کار می‌کنم.": {
+    "f": "fa/rec-e98d7239231a169a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:20.147Z"
+   },
+   "گاهی در خانه کار می‌کنم.": {
+    "f": "fa/rec-453eb6cdb3c91f85.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:18:23.304Z"
+   },
+   "گاهی.": {
+    "f": "fa/rec-5d3a13448f867257.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:50:33.605Z"
    },
    "گران": {
     "f": "fa/rec-2d5db2cff9959831.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:39:39.800Z"
    },
+   "گران است؟": {
+    "f": "fa/rec-90ed0a4fb6f76571.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:35:15.858Z"
+   },
    "گرسنه": {
     "f": "fa/rec-b41ca9dc8ae10be6.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:28.445Z"
+   },
+   "گرسنه هستید؟": {
+    "f": "fa/rec-8aca00fd4ecef1b6.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:48.863Z"
    },
    "گرفتن": {
     "f": "fa/rec-731180ac724fca7e.mp3",
@@ -3987,10 +8247,35 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:51.750Z"
    },
+   "گوشت خوردم.": {
+    "f": "fa/rec-65261d76c7c797fd.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:04:21.588Z"
+   },
+   "گوشت نمی‌خورم.": {
+    "f": "fa/rec-7bcd8cb083bf373d.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:15:56.745Z"
+   },
+   "گوشت، لطفاً.": {
+    "f": "fa/rec-a190153058770b08.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:34.189Z"
+   },
    "گوشی": {
     "f": "fa/rec-0049f16ec8fd3e09.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:41:24.807Z"
+   },
+   "گوشیم کجاست؟": {
+    "f": "fa/rec-2c718b655941c9ae.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:59.454Z"
+   },
+   "گوشی‌ام کجاست؟": {
+    "f": "fa/rec-7eff054eb0473b49.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:17:56.425Z"
    },
    "یا": {
     "f": "fa/rec-9312f17b21317336.mp3",
@@ -4022,10 +8307,65 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:38:11.740Z"
    },
+   "یه برادر دارم.": {
+    "f": "fa/rec-eec9fbefc8c44b70.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:53.465Z"
+   },
+   "یه بلیت می‌خوام، لطفاً.": {
+    "f": "fa/rec-99a23006280db250.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:47.984Z"
+   },
+   "یه روز بیست و چهار ساعته.": {
+    "f": "fa/rec-1d14ee164d0da5e1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:47.329Z"
+   },
+   "یه سال دوازده ماهه.": {
+    "f": "fa/rec-c7250f5071ad139e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:39.948Z"
+   },
+   "یه لیوان آب، لطفاً.": {
+    "f": "fa/rec-073e23ab21c3eaf7.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:34.079Z"
+   },
+   "یه ماشین قرمز دارم.": {
+    "f": "fa/rec-cf311a931e571eb1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:54.789Z"
+   },
+   "یه هفته هفت روزه.": {
+    "f": "fa/rec-64219b686f06b401.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:51.864Z"
+   },
+   "یه پسر داریم.": {
+    "f": "fa/rec-5d13a8341adb5db2.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:12:02.298Z"
+   },
+   "یه کتاب جدید خریدم.": {
+    "f": "fa/rec-68cafcb7a768a496.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:30.657Z"
+   },
    "یه کم": {
     "f": "fa/rec-9c7fd2b2e75d9b1c.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:12.669Z"
+   },
+   "یه کم فارسی حرف می‌زنم.": {
+    "f": "fa/rec-d8911f9750de5354.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:10:44.603Z"
+   },
+   "یه کم.": {
+    "f": "fa/rec-e2fa411fbc216c66.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:38:40.442Z"
    },
    "یه کمی": {
     "f": "fa/rec-7e6fa335facfddb3.mp3",
@@ -4047,40 +8387,130 @@
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:51.529Z"
    },
+   "یک برادر دارم.": {
+    "f": "fa/rec-c3e6423a44cb914c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:01.146Z"
+   },
+   "یک بلیت می‌خواهم، لطفاً.": {
+    "f": "fa/rec-646386905286fdb3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:20:44.613Z"
+   },
+   "یک بچه دارم.": {
+    "f": "fa/rec-4099cc8222c5797e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:17.941Z"
+   },
    "یک خانه‌ی ویلایی": {
     "f": "fa/rec-c8035f976d666d87.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:54.602Z"
+   },
+   "یک خواهر دارم.": {
+    "f": "fa/rec-8b0a8a572fc028c1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:40:40.251Z"
+   },
+   "یک روز بیست و چهار ساعت است.": {
+    "f": "fa/rec-c9eccadb63777f3e.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:14:43.661Z"
    },
    "یک روستا": {
     "f": "fa/rec-28aa4165d168c1cc.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:57.415Z"
    },
+   "یک سال دوازده ماه است.": {
+    "f": "fa/rec-d80088fb9ea4fdb8.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:28.429Z"
+   },
+   "یک سال چند ماه است؟": {
+    "f": "fa/rec-e8740027e170d0bf.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:24.671Z"
+   },
    "یک شهر بزرگ": {
     "f": "fa/rec-f69b098ef75a123e.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:54:00.691Z"
+   },
+   "یک لیوان آب، لطفاً.": {
+    "f": "fa/rec-a5f31e90c26f53df.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:16:31.307Z"
+   },
+   "یک ماشین قرمز دارم.": {
+    "f": "fa/rec-5193bab41a512c7b.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:22:51.502Z"
    },
    "یک مغازه": {
     "f": "fa/rec-ff836a10f567107a.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:40:48.499Z"
    },
+   "یک هفته هفت روز است.": {
+    "f": "fa/rec-747265f385edf0a4.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:44:20.663Z"
+   },
+   "یک هفته چند روز است؟": {
+    "f": "fa/rec-75721dc54faacfe0.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:33:21.600Z"
+   },
+   "یک پسر داریم.": {
+    "f": "fa/rec-f7eba58617aee373.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:11:59.139Z"
+   },
+   "یک کتاب جدید خریدم.": {
+    "f": "fa/rec-b5159effb0a28ea1.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:24:27.374Z"
+   },
+   "یک کتاب خریدم.": {
+    "f": "fa/rec-b72ede24897fd47a.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:05:35.699Z"
+   },
    "یک کتاب خواندم": {
     "f": "fa/rec-baa5881bdc35111d.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T18:40:06.637Z"
+   },
+   "یک کلید می‌خواهم.": {
+    "f": "fa/rec-00e856456942876c.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:28:28.010Z"
    },
    "یک کم": {
     "f": "fa/rec-a454020ba01fd922.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:35:10.152Z"
    },
+   "یک، دو، سه.": {
+    "f": "fa/rec-1de7ea6022565f1f.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:13:24.642Z"
+   },
    "یکشنبه": {
     "f": "fa/rec-6f50f0a5c9bfea42.mp3",
     "v": "fa-rec-essi",
     "recordedAt": "2026-11-08T11:39:11.262Z"
+   },
+   "یکشنبه.": {
+    "f": "fa/rec-87d943004e8bcdf3.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T16:42:47.736Z"
+   },
+   "یکشنبهها فارسی می‌خوانم.": {
+    "f": "fa/rec-29b6fc81424a94b9.mp3",
+    "v": "fa-rec-essi",
+    "recordedAt": "2026-11-16T17:08:05.371Z"
    },
    "یک‌شنبه": {
     "f": "fa/rec-0cf3563b2a9b395b.mp3",
