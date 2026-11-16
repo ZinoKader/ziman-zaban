@@ -19,6 +19,7 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - Progress: new cards show which modules you used, which weekdays and hours you practise, the words you have met and learned over time, and your personal records.
 - Progress: a new "Memory" card shows how many of your learned words are sticking right now, which are fading, and how long they last before they need a review. It also shows how often you were right on reviews in the last 30 days.
 - Progress: the page has a new order. Your course, your memory and the reviews coming up are at the top, and the history is below. In "Day by day", a session stays closed until you open it.
+- App: after "Continue", the next question starts at the top of the screen. Before, the page stopped a little way down.
 - App: the top bar no longer runs past the edge of laptop screens. Picture recognition is in it only on very wide screens.
 
 ## 2026-11-14

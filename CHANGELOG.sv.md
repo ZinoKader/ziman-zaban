@@ -19,6 +19,7 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Framsteg: nya kort visar vilka moduler du har använt, vilka veckodagar och timmar du övar, orden du har mött och lärt dig över tid, och dina rekord.
 - Framsteg: ett nytt kort, "Minne", visar hur många av dina inlärda ord som sitter just nu, vilka som börjar blekna och hur länge de håller innan de behöver repeteras. Det visar också hur ofta du svarade rätt vid repetition de senaste 30 dagarna.
 - Framsteg: sidan har en ny ordning. Kursen, minnet och kommande repetitioner ligger överst och historiken under. I "Dag för dag" är ett pass stängt tills du öppnar det.
+- Appen: efter "Fortsätt" börjar nästa fråga högst upp på skärmen. Förut stannade sidan en bit ner.
 - Appen: fältet högst upp går inte längre utanför kanten på bärbara datorer. Bildigenkänning finns där bara på mycket breda skärmar.
 
 ## 2026-11-14
