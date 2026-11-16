@@ -4,6 +4,7 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 
 ## 2026-11-16
 
+- Appen: ny logotyp. Den är bokstaven ز, som både ziman och zabân börjar med, med pricken i orange. Samma prick står mitt i namnet.
 - Appen: nya färger, hämtade från en matsal i rökt ek med linne och ett ljust ekgolv. Mörkt läge har samma bruna toner.
 - Appen: startsidan har mindre på sig. Kurskortet visar hur många ord du kan, dagens repetitioner och en knapp. Varje steg visar hur många ord som ska repeteras och hur många som är nya, och en stor bokstav ur stegets namn på persiska eller sorani. Staplarna för varje modul finns på sidan Framsteg.
 - Modulsidor: siffrorna står inte längre i rutor, och "Därför fungerar det" öppnas när du trycker på det.

@@ -4,6 +4,7 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 
 ## 2026-11-16
 
+- App: a new logo. It is the letter ز, which starts both ziman and zabân, with its dot in orange. The same dot sits in the middle of the name.
 - App: new colours, taken from a dining room in smoked oak with linen and a pale oak floor. Dark mode uses the same browns.
 - App: the home page has less on it. The course card shows how many words you know, today's reviews and one button. Each step of the path shows how many words are due and new, and a large letter from its name in Persian or Sorani. The bars for each module are on the Progress page.
 - Module pages: the numbers are no longer in boxes, and "Why this works" opens when you tap it.

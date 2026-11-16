@@ -22,6 +22,7 @@ import { progressStrings } from '@/features/progress/strings'
 import { hasUnseen } from '@/features/whats-new/changelog'
 import { whatsNewStrings } from '@/features/whats-new/strings'
 import { useSettings } from '@/store/settings'
+import { LogoMark, Wordmark } from '@/components/logo'
 
 function useTheme() {
   const theme = useSettings((s) => s.theme)
@@ -185,10 +186,8 @@ export function AppLayout() {
           <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
             <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-4 2xl:max-w-7xl">
               <NavLink to="/" className="flex items-center gap-2 font-semibold">
-                <span className="grid size-8 place-items-center rounded-lg bg-primary pt-1 font-poster text-xl text-primary-foreground" aria-hidden>
-                  ز
-                </span>
-                <span className="hidden sm:inline lg:hidden xl:inline">{s.appName}</span>
+                <LogoMark />
+                <Wordmark name={s.appName} className="hidden sm:inline lg:hidden xl:inline" />
               </NavLink>
               <nav className="ms-2 hidden items-center gap-1 lg:flex xl:ms-4">
                 {ALL_MODULES.map((m) => (
