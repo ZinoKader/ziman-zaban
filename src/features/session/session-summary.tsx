@@ -2,6 +2,7 @@ import { ArrowRight, CircleCheck, LoaderCircle, Medal, PartyPopper, RotateCcw, S
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router'
 import { Button } from '@/components/ui/button'
+import { CountUp } from '@/components/count-up'
 import { Card, CardContent } from '@/components/ui/card'
 import type { Skill } from '@/content/types'
 import { common } from '@/i18n/common'
@@ -162,20 +163,25 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
   }
   const accuracy = stats.reviewed ? Math.round((stats.correctFirstTry / stats.reviewed) * 100) : 0
   const tiles = [
-    { label: s.session.accuracy, value: `${accuracy}%` },
-    { label: s.session.reviewed, value: stats.reviewed },
-    { label: s.session.newLearned, value: stats.newItems },
+    { label: s.session.accuracy, value: <CountUp value={accuracy} format={(n) => `${n}%`} delay={0.45} /> },
+    { label: s.session.reviewed, value: <CountUp value={stats.reviewed} delay={0.5} /> },
+    { label: s.session.newLearned, value: <CountUp value={stats.newItems} delay={0.55} /> },
     { label: s.session.time, value: formatDuration(stats.ms) },
   ]
+  // The summary comes in top to bottom, one block after another.
+  const step = (i: number) => ({ animationDelay: `${i * 70}ms` })
   const { course, module } = gain
   const learnedNow = gain.newlyLearned.length
   const nextMedal = nextMilestone(course.after.learned, course.after.total, (earned ?? []).map((e) => e.words))
   return (
-    <div className="mx-auto flex max-w-lg flex-col items-center gap-6 px-4 py-10 text-center animate-pop-in sm:py-12">
-      <div className="rounded-full bg-primary/10 p-5 text-primary">
-        <PartyPopper className="size-12" />
+    <div className="mx-auto flex max-w-lg flex-col items-center gap-6 px-4 py-10 text-center sm:py-12">
+      <div className="relative animate-pop-in">
+        <span aria-hidden className="absolute inset-0 animate-ring-out rounded-full border-2 border-primary/50" />
+        <div className="rounded-full bg-primary/10 p-5 text-primary">
+          <PartyPopper className="size-12" />
+        </div>
       </div>
-      <div className="flex flex-col items-center gap-3">
+      <div style={step(1)} className="flex animate-rise-in flex-col items-center gap-3">
         <div>
           <h2 className="text-3xl font-semibold">{s.session.finished}</h2>
           <p className="mt-1 text-muted-foreground">{s.modules[skill].title}</p>
@@ -183,7 +189,7 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
         <SavedBadge />
       </div>
 
-      <Card className="w-full py-5 text-start">
+      <Card style={step(2)} className="w-full animate-rise-in py-5 text-start">
         <CardContent className="space-y-5 px-5">
           <div className="space-y-2">
             <div className="flex items-baseline justify-between gap-2">
@@ -242,8 +248,8 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
       </Card>
 
       <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-4">
-        {tiles.map((t) => (
-          <Card key={t.label} className="py-4">
+        {tiles.map((t, i) => (
+          <Card key={t.label} style={step(3 + i * 0.5)} className="animate-rise-in py-4">
             <CardContent className="px-3">
               <div className="text-2xl font-semibold tabular-nums">{t.value}</div>
               <div className="text-xs text-muted-foreground">{t.label}</div>
@@ -251,8 +257,10 @@ export function SessionSummary({ skill, stats, empty, units, onRestart, onExit }
           </Card>
         ))}
       </div>
-      <AccountPrompt />
-      <NextStepsPanel skill={skill} units={units} onRestart={onRestart} onExit={onExit} />
+      <div style={step(5)} className="w-full animate-rise-in space-y-6">
+        <AccountPrompt />
+        <NextStepsPanel skill={skill} units={units} onRestart={onRestart} onExit={onExit} />
+      </div>
       {celebration && (
         <Celebration
           lang={lang}

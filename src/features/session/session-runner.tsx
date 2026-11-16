@@ -135,7 +135,9 @@ export function SessionRunner({ skill, lang, queue, Exercise, onExit, onHome, on
         </span>
         <ScriptToggle />
       </div>
-      <Exercise key={`${turn.item.key}#${index}`} item={turn.item} lang={lang} attempt={turn.attempt} onDone={handleDone} />
+      <div key={`${turn.item.key}#${index}`} className={cn(index > 0 && 'animate-slide-in')}>
+        <Exercise item={turn.item} lang={lang} attempt={turn.attempt} onDone={handleDone} />
+      </div>
     </div>
   )
 }

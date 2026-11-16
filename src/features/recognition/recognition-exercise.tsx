@@ -1,7 +1,8 @@
-import { Mic, Volume2 } from 'lucide-react'
+import { Mic, Sparkles, Volume2 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnswerInput } from '@/components/answer-input'
 import { useCanSpeak } from '@/components/audio-button'
+import { ChoiceButton } from '@/components/choice-button'
 import { FeedbackPanel } from '@/components/feedback-panel'
 import { TargetText } from '@/components/target-text'
 import { Button } from '@/components/ui/button'
@@ -130,8 +131,10 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
 
   if (phase === 'intro') {
     return (
-      <div className="flex flex-col gap-6 animate-pop-in">
-        <p className="text-center text-xs font-semibold uppercase tracking-wider text-mod-recognition">{s.newWord}</p>
+      <div className="flex flex-col gap-6">
+        <p className="flex items-center justify-center gap-1.5 text-center text-sm font-medium text-muted-foreground">
+          <Sparkles className="size-4 text-mod-recognition" /> {s.newWord}
+        </p>
         <WordCard concept={concept} lang={lang} autoPlay />
         {hasWordExtras(concept, lang, compare) && (
           <Disclosure label={c.feedback.more.word} className="mx-auto w-full max-w-md">
@@ -212,24 +215,16 @@ function RecognitionInner({ concept, item, lang, attempt, onDone }: ExerciseProp
             const state =
               phase === 'feedback' ? (isAnswer ? 'right' : o.id === chosen ? 'wrong' : 'dim') : 'idle'
             return (
-              <button
+              <ChoiceButton
                 key={o.id}
-                type="button"
+                index={i + 1}
+                state={state}
                 disabled={phase !== 'question'}
-                onClick={() => answerMc(o.id)}
-                className={cn(
-                  'group flex min-h-16 items-center gap-3 rounded-2xl border-2 bg-card px-4 py-3 text-start text-lg font-medium shadow-xs transition',
-                  state === 'idle' && 'hover:-translate-y-0.5 hover:border-primary/60 hover:shadow-md active:translate-y-0',
-                  state === 'right' && 'border-success bg-success/10',
-                  state === 'wrong' && 'animate-shake border-destructive bg-destructive/10',
-                  state === 'dim' && 'opacity-50',
-                )}
+                onChoose={() => answerMc(o.id)}
+                className="text-lg font-medium"
               >
-                <kbd className="hidden size-6 shrink-0 items-center justify-center rounded-md border bg-muted text-xs text-muted-foreground sm:flex">
-                  {i + 1}
-                </kbd>
-                <span>{l(o.gloss)}</span>
-              </button>
+                <span className="flex-1">{l(o.gloss)}</span>
+              </ChoiceButton>
             )
           })}
         </div>

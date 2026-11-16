@@ -1,6 +1,7 @@
 import '@testing-library/jest-dom/vitest'
 import { cleanup } from '@testing-library/react'
 import { notifyManager } from '@tanstack/react-query'
+import { MotionGlobalConfig } from 'motion/react'
 import { afterEach, beforeEach, vi } from 'vitest'
 import { queryClient } from '@/data/query-client'
 import { NO_SAVES, useServerSaves } from '@/data/server-saves'
@@ -30,6 +31,8 @@ vi.mock('@/data/session', () => {
 })
 
 notifyManager.setScheduler((run) => run())
+
+MotionGlobalConfig.skipAnimations = true
 
 if (!('ResizeObserver' in globalThis)) {
   globalThis.ResizeObserver = class {

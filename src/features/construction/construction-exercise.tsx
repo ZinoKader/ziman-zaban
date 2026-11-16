@@ -1,4 +1,4 @@
-import { Eye, EyeOff, RotateCcw } from 'lucide-react'
+import { Eye, EyeOff, RotateCcw, Sparkles } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnswerInput } from '@/components/answer-input'
 import { AudioButton } from '@/components/audio-button'
@@ -172,8 +172,10 @@ function ConstructionInner({ sentence, item, lang, attempt, onDone }: ExercisePr
 
   if (phase === 'intro') {
     return (
-      <div className="flex flex-col gap-5 animate-pop-in">
-        <p className="text-center text-xs font-semibold uppercase tracking-wider text-mod-construction">{s.newSentence}</p>
+      <div className="flex flex-col gap-5">
+        <p className="flex items-center justify-center gap-1.5 text-center text-sm font-medium text-muted-foreground">
+          <Sparkles className="size-4 text-mod-construction" /> {s.newSentence}
+        </p>
         <div className="space-y-5 rounded-3xl border bg-card px-4 py-6 shadow-sm sm:px-6">
           <p className="text-center text-xl font-semibold text-balance">{l(sentence.translation)}</p>
           <div className="space-y-2">

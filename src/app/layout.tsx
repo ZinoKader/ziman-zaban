@@ -1,5 +1,6 @@
 import { BookA, ChartNoAxesColumn, GraduationCap, Home, Info, Languages, Menu, Mic, Settings as SettingsIcon, ShieldCheck, Sparkles, SpellCheck } from 'lucide-react'
-import { useEffect } from 'react'
+import { LayoutGroup, motion } from 'motion/react'
+import { useEffect, useId, useLayoutEffect, useRef } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router'
 import { Button } from '@/components/ui/button'
 import {
@@ -34,6 +35,23 @@ function useTheme() {
   }, [theme])
 }
 
+const GLIDE = { type: 'spring', bounce: 0.15, duration: 0.45 } as const
+
+/** Pages come in with a short fade and rise. Moves within one page (a word, a grammar point) don't. */
+function usePageEntrance(main: React.RefObject<HTMLElement | null>, pathname: string) {
+  const section = pathname.split('/').slice(0, pathname.startsWith('/learn/') ? 4 : 2).join('/')
+  const last = useRef(section)
+  useLayoutEffect(() => {
+    if (last.current === section) return
+    last.current = section
+    const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+    main.current?.animate?.(
+      still ? [{ opacity: 0.4 }, { opacity: 1 }] : [{ opacity: 0, transform: 'translateY(8px)' }, { opacity: 1, transform: 'none' }],
+      { duration: still ? 160 : 360, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' },
+    )
+  }, [main, section])
+}
+
 function useDocumentLang() {
   const baseLang = useSettings((s) => s.baseLang)
   useEffect(() => {
@@ -46,23 +64,26 @@ export function LanguageSwitch({ className }: { className?: string }) {
   const targetLang = useSettings((st) => st.targetLang)
   const set = useSettings((st) => st.set)
   return (
-    <div role="radiogroup" aria-label="Target language" className={cn('flex rounded-full border bg-muted p-0.5', className)}>
-      {(['ckb', 'fa'] as TargetLang[]).map((l) => (
-        <button
-          key={l}
-          role="radio"
-          aria-checked={targetLang === l}
-          onClick={() => set({ targetLang: l })}
-          className={cn(
-            'rounded-full px-3 py-1 text-sm font-medium transition',
-            targetLang === l ? 'bg-card text-foreground shadow-sm' : 'text-muted-foreground hover:text-foreground',
-          )}
-        >
-          <span lang={l} className="font-script me-1.5">{l === 'ckb' ? 'کوردی' : 'فارسی'}</span>
-          <span className="hidden sm:inline lg:hidden">{s.languagesShort[l]}</span>
-        </button>
-      ))}
-    </div>
+    <LayoutGroup id={useId()}>
+      <div role="radiogroup" aria-label="Target language" className={cn('flex rounded-full border bg-muted p-0.5', className)}>
+        {(['ckb', 'fa'] as TargetLang[]).map((l) => (
+          <button
+            key={l}
+            role="radio"
+            aria-checked={targetLang === l}
+            onClick={() => set({ targetLang: l })}
+            className={cn(
+              'relative isolate rounded-full px-3 py-1 text-sm font-medium transition-colors',
+              targetLang === l ? 'text-foreground' : 'text-muted-foreground hover:text-foreground',
+            )}
+          >
+            {targetLang === l && <motion.span layoutId="thumb" transition={GLIDE} className="absolute inset-0 -z-10 rounded-full bg-card shadow-sm" />}
+            <span lang={l} className="font-script me-1.5">{l === 'ckb' ? 'کوردی' : 'فارسی'}</span>
+            <span className="hidden sm:inline lg:hidden">{s.languagesShort[l]}</span>
+          </button>
+        ))}
+      </div>
+    </LayoutGroup>
   )
 }
 
@@ -79,6 +100,58 @@ function BaseLangSwitch() {
     >
       <Languages /> {baseLang === 'en' ? 'SV' : 'EN'}
     </Button>
+  )
+}
+
+function TopLink({ to, className, children }: { to: string; className?: string; children: React.ReactNode }) {
+  return (
+    <NavLink
+      to={to}
+      className={({ isActive }) =>
+        cn(
+          'relative isolate flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground xl:px-3',
+          'before:absolute before:inset-0 before:-z-20 before:rounded-lg before:transition-colors hover:before:bg-muted/60',
+          isActive && 'text-foreground',
+          className,
+        )
+      }
+    >
+      {({ isActive }) => (
+        <>
+          {isActive && <motion.span layoutId="top-nav" transition={GLIDE} className="absolute inset-0 -z-10 rounded-lg bg-muted" />}
+          {children}
+        </>
+      )}
+    </NavLink>
+  )
+}
+
+interface TabLinkProps {
+  to: string
+  end?: boolean
+  icon: React.ReactNode | ((active: boolean) => React.ReactNode)
+  label: string
+}
+
+function TabLink({ to, end, icon, label }: TabLinkProps) {
+  return (
+    <NavLink
+      to={to}
+      end={end}
+      className={({ isActive }) =>
+        cn('flex flex-col items-center gap-0.5 py-1.5 text-[0.7rem] text-muted-foreground transition-colors active:scale-95', isActive && 'font-medium text-foreground')
+      }
+    >
+      {({ isActive }) => (
+        <>
+          <span className="relative isolate grid h-7 w-12 place-items-center">
+            {isActive && <motion.span layoutId="tab-pill" transition={GLIDE} className="absolute inset-0 -z-10 rounded-full bg-muted" />}
+            {typeof icon === 'function' ? icon(isActive) : icon}
+          </span>
+          <span className="max-w-full truncate px-0.5">{label}</span>
+        </>
+      )}
+    </NavLink>
   )
 }
 
@@ -102,6 +175,8 @@ export function AppLayout() {
   const unseen = hasUnseen(useSettings((st) => st.changelogSeen))
   const location = useLocation()
   const inSession = /\/session/.test(location.pathname)
+  const main = useRef<HTMLElement>(null)
+  usePageEntrance(main, location.pathname)
 
   return (
     <TooltipProvider delayDuration={300}>
@@ -117,33 +192,15 @@ export function AppLayout() {
               </NavLink>
               <nav className="ms-2 hidden items-center gap-1 lg:flex xl:ms-4">
                 {ALL_MODULES.map((m) => (
-                  <NavLink
-                    key={m.slug}
-                    to={`/learn/${m.slug}`}
-                    className={({ isActive }) =>
-                      cn(
-                        'flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground xl:px-3',
-                        !m.step && 'hidden 2xl:flex',
-                        isActive && 'bg-muted text-foreground',
-                      )
-                    }
-                  >
+                  <TopLink key={m.slug} to={`/learn/${m.slug}`} className={cn(!m.step && 'hidden 2xl:flex')}>
                     <m.icon className={cn('size-4', m.text)} />
                     {s.nav[m.skill]}
-                  </NavLink>
+                  </TopLink>
                 ))}
-                <NavLink
-                  to="/progress"
-                  className={({ isActive }) =>
-                    cn(
-                      'flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground xl:px-3',
-                      isActive && 'bg-muted text-foreground',
-                    )
-                  }
-                >
+                <TopLink to="/progress">
                   <ChartNoAxesColumn className="size-4" />
                   {p.nav}
-                </NavLink>
+                </TopLink>
               </nav>
               <div className="ms-auto flex items-center gap-1 sm:gap-1.5">
                 <SaveIndicator />
@@ -193,38 +250,21 @@ export function AppLayout() {
           </header>
         )}
 
-        <main className={cn('flex-1', !inSession && 'pb-24 lg:pb-8')}>
+        <main ref={main} className={cn('flex-1', !inSession && 'pb-24 lg:pb-8')}>
           <Outlet />
         </main>
 
         {!inSession && (
           <nav className="pb-safe fixed inset-x-0 bottom-0 z-40 border-t bg-background/95 backdrop-blur lg:hidden">
             <div className="mx-auto grid max-w-lg grid-cols-5">
-              <NavLink
-                to="/"
-                end
-                className={({ isActive }) =>
-                  cn('flex flex-col items-center gap-0.5 py-2 text-[0.7rem] text-muted-foreground', isActive && 'text-foreground')
-                }
-              >
-                <Home className="size-5" />
-                {s.nav.home}
-              </NavLink>
+              <TabLink to="/" end icon={<Home className="size-5" />} label={s.nav.home} />
               {MODULES.map((m) => (
-                <NavLink
+                <TabLink
                   key={m.slug}
                   to={`/learn/${m.slug}`}
-                  className={({ isActive }) =>
-                    cn('flex flex-col items-center gap-0.5 py-2 text-[0.7rem] text-muted-foreground', isActive && 'text-foreground')
-                  }
-                >
-                  {({ isActive }) => (
-                    <>
-                      <m.icon className={cn('size-5', isActive && m.text)} />
-                      <span className="max-w-full truncate px-0.5">{s.nav[m.skill]}</span>
-                    </>
-                  )}
-                </NavLink>
+                  icon={(active) => <m.icon className={cn('size-5', active && m.text)} />}
+                  label={s.nav[m.skill]}
+                />
               ))}
             </div>
           </nav>

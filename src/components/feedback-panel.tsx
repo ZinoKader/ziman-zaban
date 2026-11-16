@@ -1,4 +1,3 @@
-import { CheckCircle2, CircleAlert, XCircle } from 'lucide-react'
 import { useEffect, useRef, type ReactNode } from 'react'
 import { createPortal } from 'react-dom'
 import { Button } from '@/components/ui/button'
@@ -7,6 +6,7 @@ import type { MatchGrade } from '@/lib/script/match'
 import { cn } from '@/lib/utils'
 import { Disclosure } from './disclosure'
 import { PHONE_QUERY, useMediaQuery } from './use-media-query'
+import { VerdictIcon, type Verdict } from './verdict-icon'
 
 interface FeedbackPanelProps {
   grade: MatchGrade
@@ -21,11 +21,11 @@ interface FeedbackPanelProps {
   dock?: boolean
 }
 
-const STYLE: Record<MatchGrade, { icon: typeof CheckCircle2; tone: string; title: string }> = {
-  exact: { icon: CheckCircle2, tone: 'border-success/30 bg-success/8', title: 'text-success' },
-  close: { icon: CheckCircle2, tone: 'border-success/30 bg-success/8', title: 'text-success' },
-  typo: { icon: CircleAlert, tone: 'border-warning/40 bg-warning/10', title: 'text-amber-700 dark:text-warning' },
-  wrong: { icon: XCircle, tone: 'border-destructive/30 bg-destructive/6', title: 'text-destructive' },
+const STYLE: Record<MatchGrade, { verdict: Verdict; tone: string; title: string }> = {
+  exact: { verdict: 'right', tone: 'border-success/30 bg-success/8', title: 'text-success' },
+  close: { verdict: 'right', tone: 'border-success/30 bg-success/8', title: 'text-success' },
+  typo: { verdict: 'close', tone: 'border-warning/40 bg-warning/10', title: 'text-amber-700 dark:text-warning' },
+  wrong: { verdict: 'wrong', tone: 'border-destructive/30 bg-destructive/6', title: 'text-destructive' },
 }
 
 /**
@@ -34,7 +34,7 @@ const STYLE: Record<MatchGrade, { icon: typeof CheckCircle2; tone: string; title
  */
 export function FeedbackPanel({ grade, children, details, detailsLabel, onContinue, continueLabel, dock = true }: FeedbackPanelProps) {
   const s = common.use()
-  const { icon: Icon, tone, title: titleTone } = STYLE[grade]
+  const { verdict, tone, title: titleTone } = STYLE[grade]
   const phone = useMediaQuery(PHONE_QUERY)
   const docked = dock && phone
   const panel = useRef<HTMLDivElement>(null)
@@ -64,9 +64,9 @@ export function FeedbackPanel({ grade, children, details, detailsLabel, onContin
 
   return (
     <>
-      <div ref={panel} className={cn('animate-pop-in scroll-mt-4 rounded-2xl border p-4 sm:p-5', tone)} role="status" aria-live="polite">
+      <div ref={panel} className={cn('animate-panel-in scroll-mt-4 rounded-2xl border p-4 sm:p-5', tone)} role="status" aria-live="polite">
         <p className={cn('flex items-center gap-2 text-lg font-semibold', titleTone)}>
-          <Icon className="size-6 shrink-0" />
+          <VerdictIcon verdict={verdict} />
           {title}
         </p>
         {children && <div className="mt-4 space-y-3 text-foreground">{children}</div>}
@@ -81,7 +81,7 @@ export function FeedbackPanel({ grade, children, details, detailsLabel, onContin
         <>
           <div aria-hidden className="h-20 shrink-0" />
           {createPortal(
-            <div className="fixed inset-x-0 bottom-0 z-30 border-t bg-background/95 px-4 pt-3 pb-[max(env(safe-area-inset-bottom),0.75rem)] backdrop-blur">
+            <div className="fixed inset-x-0 bottom-0 z-30 animate-dock-in border-t bg-background/95 px-4 pt-3 pb-[max(env(safe-area-inset-bottom),0.75rem)] backdrop-blur">
               <div className="mx-auto max-w-2xl">{continueButton}</div>
             </div>,
             document.body,

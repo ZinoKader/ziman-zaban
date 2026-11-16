@@ -1,5 +1,6 @@
 import { Keyboard, Lightbulb, ListChecks, Mic, Square } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { ChoiceButton } from '@/components/choice-button'
 import { AnswerInput, type AnswerInputHandle } from '@/components/answer-input'
 import { Disclosure } from '@/components/disclosure'
 import { FeedbackPanel } from '@/components/feedback-panel'
@@ -247,25 +248,16 @@ function RecallInner({ concept, item, lang, attempt, onDone }: ExerciseProps & {
             const state =
               phase === 'feedback' ? (o.id === concept.id ? 'right' : o.id === chosenId ? 'wrong' : 'dim') : 'idle'
             return (
-              <button
+              <ChoiceButton
                 key={o.id}
-                type="button"
+                index={i + 1}
+                state={state}
                 disabled={phase !== 'question'}
-                onClick={() => answerChoice(o.id)}
-                className={cn(
-                  'group flex min-h-16 animate-pop-in items-center gap-3 rounded-2xl border-2 bg-card px-4 py-3 shadow-xs transition',
-                  state === 'idle' && 'hover:-translate-y-0.5 hover:border-primary/60 hover:shadow-md active:translate-y-0 motion-reduce:hover:translate-y-0',
-                  state === 'right' && 'border-success bg-success/10',
-                  state === 'wrong' && 'animate-shake border-destructive bg-destructive/10',
-                  state === 'dim' && 'opacity-50',
-                )}
-                style={{ animationDelay: `${i * 40}ms` }}
+                onChoose={() => answerChoice(o.id)}
+                accent="hover:border-mod-recall/70"
               >
-                <kbd className="hidden size-6 shrink-0 items-center justify-center rounded-md border bg-muted text-xs text-muted-foreground sm:flex">
-                  {i + 1}
-                </kbd>
                 <AnswerLine lang={lang} text={form.script} latin={form.latin} showLatin={romanization !== 'never'} className="flex-1" />
-              </button>
+              </ChoiceButton>
             )
           })}
         </div>

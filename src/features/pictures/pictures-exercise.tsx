@@ -1,5 +1,6 @@
-import { ImageOff } from 'lucide-react'
+import { ImageOff, Sparkles } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { ChoiceButton } from '@/components/choice-button'
 import { FeedbackPanel } from '@/components/feedback-panel'
 import { TargetText } from '@/components/target-text'
 import { Button } from '@/components/ui/button'
@@ -119,8 +120,10 @@ function PicturesInner({ picture, word, item, lang, attempt, onDone }: ExerciseP
 
   if (phase === 'intro') {
     return (
-      <div className="flex flex-col gap-5 animate-pop-in">
-        <p className="text-center text-xs font-semibold uppercase tracking-wider text-mod-pictures">{s.newWord}</p>
+      <div className="flex flex-col gap-5">
+        <p className="flex items-center justify-center gap-1.5 text-center text-sm font-medium text-muted-foreground">
+          <Sparkles className="size-4 text-mod-pictures" /> {s.newWord}
+        </p>
         <PictureFrame picture={picture} />
         <div className="flex flex-col items-center gap-2">
           <TargetText lang={lang} text={entry.primary.script} latin={entry.primary.latin} size="xl" audio audioUrl={audioUrl} autoPlay />
@@ -144,24 +147,16 @@ function PicturesInner({ picture, word, item, lang, attempt, onDone }: ExerciseP
           const isAnswer = o.id === picture.id
           const state = phase === 'feedback' ? (isAnswer ? 'right' : o.id === chosen ? 'wrong' : 'dim') : 'idle'
           return (
-            <button
+            <ChoiceButton
               key={o.id}
-              type="button"
+              index={i + 1}
+              state={state}
               disabled={phase !== 'question'}
-              onClick={() => answer(o.id)}
-              className={cn(
-                'group flex min-h-16 items-center gap-3 rounded-2xl border-2 bg-card px-4 py-3 shadow-xs transition',
-                state === 'idle' && 'hover:-translate-y-0.5 hover:border-mod-pictures/60 hover:shadow-md active:translate-y-0',
-                state === 'right' && 'border-success bg-success/10',
-                state === 'wrong' && 'animate-shake border-destructive bg-destructive/10',
-                state === 'dim' && 'opacity-50',
-              )}
+              onChoose={() => answer(o.id)}
+              accent="hover:border-mod-pictures/60"
             >
-              <kbd className="hidden size-6 shrink-0 items-center justify-center rounded-md border bg-muted text-xs text-muted-foreground sm:flex">
-                {i + 1}
-              </kbd>
               <TargetText lang={lang} text={o.entry.primary.script} latin={o.entry.primary.latin} size="md" className="flex-1" />
-            </button>
+            </ChoiceButton>
           )
         })}
       </div>

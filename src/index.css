@@ -56,6 +56,8 @@
     --radius-2xl: calc(var(--radius) * 1.8);
     --radius-3xl: calc(var(--radius) * 2.2);
     --radius-4xl: calc(var(--radius) * 2.6);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 :root {
@@ -156,7 +158,24 @@
     }
   html {
     @apply font-sans;
+    scrollbar-color: color-mix(in oklch, var(--muted-foreground) 35%, transparent) transparent;
+    accent-color: var(--primary);
+    caret-color: var(--primary);
+    -webkit-tap-highlight-color: transparent;
     }
+  ::selection {
+    background: color-mix(in oklch, var(--primary) 22%, transparent);
+    color: var(--foreground);
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  p, li, dd {
+    text-wrap: pretty;
+  }
+  a {
+    text-underline-offset: 0.2em;
+  }
 }
 
 @layer base {
@@ -177,16 +196,49 @@
 }
 
 @keyframes pop-in {
-  0% { transform: scale(0.96); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+  0% { transform: scale(0.97) translateY(4px); opacity: 0; }
+  100% { transform: none; opacity: 1; }
+}
+@keyframes rise-in {
+  0% { transform: translateY(10px); opacity: 0; }
+  100% { transform: none; opacity: 1; }
+}
+/* The verdict comes into focus rather than just appearing. */
+@keyframes panel-in {
+  0% { transform: translateY(14px); opacity: 0; filter: blur(6px); }
+  60% { filter: blur(0); }
+  100% { transform: none; opacity: 1; filter: none; }
+}
+@keyframes slide-in {
+  0% { transform: translateX(28px); opacity: 0; }
+  100% { transform: none; opacity: 1; }
+}
+@keyframes dock-in {
+  0% { transform: translateY(100%); }
+  100% { transform: none; }
+}
+/* An answer's colour spreads out from the point that was tapped (--fx, --fy). */
+@keyframes flood {
+  0% { clip-path: circle(0% at var(--fx, 50%) var(--fy, 50%)); }
+  100% { clip-path: circle(150% at var(--fx, 50%) var(--fy, 50%)); }
 }
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   20%, 60% { transform: translateX(-6px); }
   40%, 80% { transform: translateX(6px); }
 }
-.animate-pop-in { animation: pop-in 220ms cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
+@keyframes ring-out {
+  0% { transform: scale(0.8); opacity: 0.55; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+.animate-pop-in { animation: pop-in 260ms var(--ease-out-expo) both; }
+.animate-rise-in { animation: rise-in 420ms var(--ease-out-expo) both; }
+.animate-panel-in { animation: panel-in 440ms var(--ease-out-expo) both; }
+.animate-slide-in { animation: slide-in 380ms var(--ease-out-expo) both; }
+.animate-dock-in { animation: dock-in 360ms var(--ease-out-expo) both; }
+.animate-flood { animation: flood 520ms var(--ease-out-expo) both; }
 .animate-shake { animation: shake 360ms ease-in-out; }
+.animate-ring-out { animation: ring-out 1100ms var(--ease-out-quart) 200ms both; }
 @keyframes medal-in {
   0% { transform: scale(0.2) rotate(-200deg); opacity: 0; }
   60% { transform: scale(1.15) rotate(12deg); opacity: 1; }
@@ -209,7 +261,13 @@
 .animate-medal-shine { animation: medal-shine 2.4s ease-in-out infinite; }
 .animate-medal-sway { animation: medal-sway 3s ease-in-out 900ms infinite; transform-origin: 50% 0; }
 .animate-confetti { animation: confetti-fall var(--fall, 3s) cubic-bezier(0.3, 0.6, 0.6, 1) var(--delay, 0s) both; }
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* Movement goes; the fades that show something changed stay. */
 @media (prefers-reduced-motion: reduce) {
-  .animate-pop-in, .animate-shake, .animate-medal-in, .animate-medal-shine, .animate-medal-sway { animation: none; }
+  .animate-pop-in, .animate-rise-in, .animate-slide-in, .animate-panel-in, .animate-flood { animation: fade-in 160ms ease-out both; }
+  .animate-shake, .animate-dock-in, .animate-ring-out, .animate-medal-in, .animate-medal-shine, .animate-medal-sway { animation: none; }
   .animate-confetti { display: none; }
 }

@@ -1,5 +1,6 @@
 import { AudioLines, Eye, Keyboard, Languages, Mic, Square, Volume2 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { ChoiceButton } from '@/components/choice-button'
 import { AnswerInput } from '@/components/answer-input'
 import { useCanSpeak } from '@/components/audio-button'
 import { Disclosure } from '@/components/disclosure'
@@ -285,18 +286,9 @@ function ResponseInner({ qa, form, item, lang, attempt, onDone }: ExerciseProps 
           {mode === 'choose' && (
             <div className="grid grid-cols-1 gap-2.5" role="group" aria-label={prompt}>
               {options.map((o, i) => (
-                <button
-                  key={o.id}
-                  type="button"
-                  onClick={() => answerChoice(o.id)}
-                  className="group flex min-h-16 animate-pop-in items-center gap-3 rounded-2xl border-2 bg-card px-4 py-3 shadow-xs transition hover:-translate-y-0.5 hover:border-primary/60 hover:shadow-md focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/20 active:translate-y-0 motion-reduce:hover:translate-y-0"
-                  style={{ animationDelay: `${i * 40}ms` }}
-                >
-                  <kbd className="hidden size-6 shrink-0 items-center justify-center rounded-md border bg-muted text-xs text-muted-foreground sm:flex">
-                    {i + 1}
-                  </kbd>
+                <ChoiceButton key={o.id} index={i + 1} state="idle" onChoose={() => answerChoice(o.id)} accent="hover:border-mod-response/60">
                   <AnswerLine lang={lang} text={o.text} latin={o.latin} showLatin={romanization === 'always'} className="flex-1" />
-                </button>
+                </ChoiceButton>
               ))}
             </div>
           )}

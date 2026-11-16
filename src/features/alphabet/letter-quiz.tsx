@@ -1,5 +1,6 @@
 import { Check, Flame, RotateCcw, Sparkles, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
+import { ChoiceButton } from '@/components/choice-button'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import type { TargetLang } from '@/content/types'
@@ -144,25 +145,18 @@ export function LetterQuiz({ lang, random = Math.random }: { lang: TargetLang; r
           const isAnswer = o.char === q.letter.char
           const state = !answer ? 'idle' : isAnswer ? 'right' : o.char === answer.chosen ? 'wrong' : 'dim'
           return (
-            <button
+            <ChoiceButton
               key={o.char}
-              type="button"
+              index={i + 1}
+              state={state}
               disabled={!!answer}
-              onClick={() => choose(o.char)}
-              className={cn(
-                'relative flex min-h-16 flex-col items-center justify-center rounded-2xl border-2 bg-background px-3 py-2 shadow-xs transition',
-                state === 'idle' && 'hover:-translate-y-0.5 hover:border-primary/60 hover:shadow-md active:translate-y-0',
-                state === 'right' && 'border-success bg-success/10',
-                state === 'wrong' && 'animate-shake border-destructive bg-destructive/10',
-                state === 'dim' && 'opacity-50',
-              )}
+              onChoose={() => choose(o.char)}
+              stacked
+              className="bg-background"
             >
-              <kbd className="absolute start-2 top-2 hidden size-5 items-center justify-center rounded border bg-muted text-[0.65rem] text-muted-foreground sm:flex">
-                {i + 1}
-              </kbd>
               <span lang={`${lang}-Latn`} className="text-xl font-semibold">{soundLabel(o)}</span>
               <span className="font-mono text-xs text-muted-foreground">[{o.ipa.join(', ')}]</span>
-            </button>
+            </ChoiceButton>
           )
         })}
       </div>
