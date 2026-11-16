@@ -34,13 +34,30 @@ export function parseChangelog(md: string): Release[] {
 
 export const changelog: Record<BaseLang, Release[]> = { en: parseChangelog(en), sv: parseChangelog(sv) }
 
-export const latestRelease: string | null = changelog.en[0]?.date ?? null
-
-export function hasUnseen(seen: string | null): boolean {
-  return latestRelease !== null && (seen === null || seen < latestRelease)
+/**
+ * What the learner has seen, as `YYYY-MM-DD#n`: the newest date and how many of its changes it had.
+ * A day can get more changes after it went live, and new ones go at the top of that day's list.
+ * Older settings hold only the date, which counts as none of that day's changes seen.
+ */
+export function releaseMark(releases: Release[] = changelog.en): string | null {
+  const latest = releases[0]
+  return latest ? `${latest.date}#${latest.changes.length}` : null
 }
 
-/** Number of changes in releases newer than `seen`. */
+export const latestRelease = releaseMark()
+
+/** Number of changes newer than `seen`. */
 export function unseenCount(seen: string | null, releases: Release[] = changelog.en): number {
-  return releases.filter((r) => seen === null || r.date > seen).reduce((n, r) => n + r.changes.length, 0)
+  if (seen === null) return releases.reduce((n, r) => n + r.changes.length, 0)
+  const [date, count] = seen.split('#')
+  const seenOnDate = Number(count) || 0
+  return releases.reduce((n, r) => {
+    if (r.date > date) return n + r.changes.length
+    if (r.date === date) return n + Math.max(0, r.changes.length - seenOnDate)
+    return n
+  }, 0)
+}
+
+export function hasUnseen(seen: string | null, releases: Release[] = changelog.en): boolean {
+  return unseenCount(seen, releases) > 0
 }

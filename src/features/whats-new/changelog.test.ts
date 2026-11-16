@@ -16,8 +16,15 @@ describe('unseen changes', () => {
   it('counts changes newer than the last one seen', () => {
     const releases = parseChangelog('## 2026-11-02\n- A: x\n- B: y\n## 2026-10-30\n- C: z\n')
     expect(unseenCount(null, releases)).toBe(3)
-    expect(unseenCount('2026-10-30', releases)).toBe(2)
-    expect(unseenCount('2026-11-02', releases)).toBe(0)
+    expect(unseenCount('2026-10-30#1', releases)).toBe(2)
+    expect(unseenCount('2026-11-02#2', releases)).toBe(0)
+  })
+
+  it('counts changes added to a day after it was seen', () => {
+    const releases = parseChangelog('## 2026-11-02\n- A: new\n- B: x\n- C: y\n## 2026-10-30\n- D: z\n')
+    expect(unseenCount('2026-11-02#2', releases)).toBe(1)
+    expect(hasUnseen('2026-11-02#2', releases)).toBe(true)
+    expect(unseenCount('2026-11-02', releases)).toBe(3)
   })
 
   it('flags the newest entry until it has been seen', () => {
