@@ -11,7 +11,17 @@ import { Meter } from './meter'
 import { courseProgress, moduleProgress, pct, type Bar, type ModuleProgress } from './progress-data'
 import { progressStrings } from './strings'
 
-export function CourseSummary({ lang, course, size = 'lg' }: { lang: TargetLang; course: Bar; size?: 'md' | 'lg' }) {
+const EMPTY = { learned: 0, learning: 0 }
+
+interface CourseSummaryProps {
+  lang: TargetLang
+  course: Bar
+  size?: 'md' | 'lg'
+  /** Fill the meter from empty when it first shows. */
+  grow?: boolean
+}
+
+export function CourseSummary({ lang, course, size = 'lg', grow }: CourseSummaryProps) {
   const s = progressStrings.use()
   const c = common.use()
   const started = course.learned + course.learning > 0
@@ -36,6 +46,7 @@ export function CourseSummary({ lang, course, size = 'lg' }: { lang: TargetLang;
         total={course.total}
         size={size === 'lg' ? 'lg' : 'md'}
         label={s.know(course.learned, course.total)}
+        from={grow ? EMPTY : undefined}
       />
       {course.learning > 0 && (
         <div className="flex gap-4 text-xs text-muted-foreground">
@@ -51,11 +62,18 @@ export function CourseSummary({ lang, course, size = 'lg' }: { lang: TargetLang;
   )
 }
 
-export function ModuleBars({ modules, linked = true }: { modules: ModuleProgress[]; linked?: boolean }) {
+interface ModuleBarsProps {
+  modules: ModuleProgress[]
+  linked?: boolean
+  grow?: boolean
+  className?: string
+}
+
+export function ModuleBars({ modules, linked = true, grow, className }: ModuleBarsProps) {
   const s = progressStrings.use()
   const c = common.use()
   return (
-    <ul className="grid gap-x-6 gap-y-3 @md:grid-cols-2">
+    <ul className={cn('grid gap-x-6 gap-y-3 @md:grid-cols-2', className)}>
       {modules.map(({ skill, status }) => {
         const meta = moduleBySkill.get(skill)!
         const Icon = meta.icon
@@ -77,6 +95,7 @@ export function ModuleBars({ modules, linked = true }: { modules: ModuleProgress
               tone={skill}
               size="xs"
               label={s.moduleLabel(c.nav[skill], status.learned, status.total)}
+              from={grow ? EMPTY : undefined}
             />
           </>
         )
@@ -116,11 +135,14 @@ export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
   const currentStreak = streak(days, now)
 
   return (
-    <section aria-labelledby="course-title" className="@container animate-pop-in space-y-5 rounded-3xl border bg-card p-5 shadow-xs sm:p-7">
-      <div className="flex items-start justify-between gap-3">
+    <section
+      aria-labelledby="course-title"
+      className="@container grid animate-pop-in gap-5 rounded-3xl border bg-card p-5 shadow-xs sm:p-7 @4xl:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] @4xl:gap-x-10"
+    >
+      <div className="flex items-start justify-between gap-3 @4xl:col-span-2">
         <div>
           {greeting && (
-            <p lang={lang} dir="rtl" className="font-script text-3xl leading-tight text-primary">
+            <p lang={lang} dir="rtl" className="w-fit font-script text-3xl leading-tight text-primary">
               {greeting}
             </p>
           )}
@@ -130,15 +152,15 @@ export function ProgressCard({ lang, greeting, action }: ProgressCardProps) {
         </div>
         <Link
           to="/progress"
-          className="flex shrink-0 items-center gap-1 rounded-full px-2 py-1 text-sm font-medium text-primary hover:bg-primary/10"
+          className="flex shrink-0 items-center gap-1 rounded-full px-2 py-1 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
         >
           <ChartNoAxesColumn className="size-4" /> {s.seeAll}
         </Link>
       </div>
 
-      <CourseSummary lang={lang} course={course} />
+      <CourseSummary lang={lang} course={course} grow />
 
-      <ModuleBars modules={modules} />
+      <ModuleBars modules={modules} grow className="@4xl:row-span-3 @4xl:grid-cols-1 @4xl:content-start @4xl:border-s @4xl:ps-10" />
 
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t pt-4 text-sm">
         <span className="flex items-center gap-1.5">

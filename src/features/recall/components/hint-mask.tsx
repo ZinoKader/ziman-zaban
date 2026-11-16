@@ -30,9 +30,9 @@ export function HintMask({ form, lang, script, level }: HintMaskProps) {
             <span
               key={i}
               className={cn(
-                'flex h-10 w-8 items-center justify-center rounded-lg border-b-2 transition',
+                'flex h-10 w-8 items-center justify-center rounded-lg ring-1 ring-inset transition-colors duration-300',
                 arabic ? 'font-script text-2xl' : 'text-lg font-semibold',
-                slot.revealed ? 'border-mod-recall bg-mod-recall/15 text-foreground' : 'border-muted-foreground/40 bg-muted/60',
+                slot.revealed ? 'animate-pop-in bg-mod-recall/18 text-foreground ring-mod-recall/60' : 'bg-muted/70 ring-border',
               )}
             >
               {slot.revealed ? slot.text : ''}

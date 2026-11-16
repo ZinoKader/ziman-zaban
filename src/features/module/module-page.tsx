@@ -185,7 +185,7 @@ export function ModulePage() {
         <div className="min-w-0 flex-1 space-y-3">
           <div>
             <h2 className="font-medium">{s.reviews}</h2>
-            <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{s.reviewsBody}</p>
+            <p className="mt-1 max-w-[56ch] text-sm leading-relaxed text-muted-foreground">{s.reviewsBody}</p>
           </div>
           {status.started > 0 && (
             <div>
@@ -207,7 +207,7 @@ export function ModulePage() {
               </dl>
             </div>
           )}
-          <p className="text-sm leading-relaxed text-muted-foreground">{s.afterAll[meta.skill](status.total)}</p>
+          <p className="max-w-[56ch] text-sm leading-relaxed text-muted-foreground">{s.afterAll[meta.skill](status.total)}</p>
         </div>
       </section>
 
@@ -215,7 +215,7 @@ export function ModulePage() {
         <Lightbulb className={cn('mt-0.5 size-5 shrink-0', meta.text)} />
         <div>
           <h2 className="font-medium">{s.why}</h2>
-          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{why[meta.skill]}</p>
+          <p className="mt-1 max-w-[56ch] text-sm leading-relaxed text-muted-foreground">{why[meta.skill]}</p>
         </div>
       </section>
 

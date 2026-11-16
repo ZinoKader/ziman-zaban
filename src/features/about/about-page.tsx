@@ -148,10 +148,12 @@ function Path() {
               <m.icon className="size-6" />
             </span>
             <div className={cn('flex-1 space-y-2 rounded-3xl border bg-card p-4 shadow-xs ring-1 lg:min-h-full', m.ring)}>
-              <p className={cn('text-xs font-semibold tracking-wide uppercase', m.text)}>
-                {s.step(m.step)} · {s.stepVerb[m.skill]}
-              </p>
-              <h3 className="text-lg font-semibold">{c.modules[m.skill].title}</h3>
+              <div>
+                <h3 className="text-lg font-semibold">{c.modules[m.skill].title}</h3>
+                <p className="text-sm text-muted-foreground">
+                  {s.step(m.step)} · {s.stepVerb[m.skill]}
+                </p>
+              </div>
               <p className="text-sm font-medium">{c.modules[m.skill].description}</p>
               <p className="text-sm leading-relaxed text-muted-foreground">{why[m.skill]}</p>
             </div>

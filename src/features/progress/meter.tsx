@@ -40,7 +40,7 @@ export function Meter({ learned, learning = 0, total, tone = 'primary', size = '
   }, [grown])
   const shown = grown || !from ? { learned, learning } : from
   const [solid, soft] = TONES[tone]
-  const segment = 'h-full transition-[width] duration-1000 ease-out motion-reduce:transition-none'
+  const segment = 'h-full transition-[width] duration-1000 ease-out-expo motion-reduce:transition-none'
   return (
     <div
       role="progressbar"

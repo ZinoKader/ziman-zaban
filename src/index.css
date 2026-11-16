@@ -68,7 +68,7 @@
     --card-foreground: oklch(0.22 0.02 260);
     --popover: oklch(1 0 0);
     --popover-foreground: oklch(0.22 0.02 260);
-    --primary: oklch(0.52 0.11 195);
+    --primary: oklch(0.5 0.105 195);
     --primary-foreground: oklch(0.99 0.005 195);
     --secondary: oklch(0.955 0.02 85);
     --secondary-foreground: oklch(0.28 0.03 260);
@@ -89,14 +89,14 @@
     --chart-4: oklch(0.55 0.14 280);
     --chart-5: oklch(0.6 0.14 155);
     --radius: 0.875rem;
-    --mod-recognition: oklch(0.56 0.11 195);
+    --mod-recognition: oklch(0.52 0.105 195);
     --mod-recall: oklch(0.7 0.15 65);
     --mod-construction: oklch(0.58 0.18 15);
     --mod-response: oklch(0.52 0.15 280);
     --mod-pictures: oklch(0.56 0.14 145);
     --sidebar: oklch(0.975 0.01 85);
     --sidebar-foreground: oklch(0.22 0.02 260);
-    --sidebar-primary: oklch(0.52 0.11 195);
+    --sidebar-primary: oklch(0.5 0.105 195);
     --sidebar-primary-foreground: oklch(0.99 0 0);
     --sidebar-accent: oklch(0.94 0.03 195);
     --sidebar-accent-foreground: oklch(0.3 0.06 200);
@@ -231,10 +231,10 @@
   0% { transform: scale(0.8); opacity: 0.55; }
   100% { transform: scale(1.9); opacity: 0; }
 }
-.animate-pop-in { animation: pop-in 260ms var(--ease-out-expo) both; }
-.animate-rise-in { animation: rise-in 420ms var(--ease-out-expo) both; }
-.animate-panel-in { animation: panel-in 440ms var(--ease-out-expo) both; }
-.animate-slide-in { animation: slide-in 380ms var(--ease-out-expo) both; }
+.animate-pop-in { animation: pop-in 260ms var(--ease-out-expo) backwards; }
+.animate-rise-in { animation: rise-in 420ms var(--ease-out-expo) backwards; }
+.animate-panel-in { animation: panel-in 440ms var(--ease-out-expo) backwards; }
+.animate-slide-in { animation: slide-in 380ms var(--ease-out-expo) backwards; }
 .animate-dock-in { animation: dock-in 360ms var(--ease-out-expo) both; }
 .animate-flood { animation: flood 520ms var(--ease-out-expo) both; }
 .animate-shake { animation: shake 360ms ease-in-out; }
@@ -267,7 +267,7 @@
 }
 /* Movement goes; the fades that show something changed stay. */
 @media (prefers-reduced-motion: reduce) {
-  .animate-pop-in, .animate-rise-in, .animate-slide-in, .animate-panel-in, .animate-flood { animation: fade-in 160ms ease-out both; }
+  .animate-pop-in, .animate-rise-in, .animate-slide-in, .animate-panel-in, .animate-flood { animation: fade-in 160ms ease-out backwards; }
   .animate-shake, .animate-dock-in, .animate-ring-out, .animate-medal-in, .animate-medal-shine, .animate-medal-sway { animation: none; }
   .animate-confetti { display: none; }
 }

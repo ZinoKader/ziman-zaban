@@ -17,37 +17,55 @@ import { useSettings } from '@/store/settings'
 import { Onboarding } from './onboarding'
 import { homeStrings } from './strings'
 
-function ModuleStep({ meta, status }: { meta: PathModule; status: ModuleStatus }) {
+const CARD_HOVER =
+  'transition-[translate,box-shadow,border-color] duration-200 ease-out-quart hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 motion-reduce:hover:translate-y-0'
+
+/** The line from one step to the next: solid once the next step is open, dashed while it's locked. */
+function Connector({ open, tone }: { open: boolean; tone: string }) {
+  return (
+    <span
+      aria-hidden
+      className={cn(
+        'absolute start-[2.3125rem] top-full h-3 sm:hidden lg:start-full lg:top-[2.5625rem] lg:block lg:w-6',
+        open ? cn(tone, 'w-0.5 lg:h-0.5') : 'w-0 border-dashed border-muted-foreground/40 max-lg:border-s-2 lg:h-0 lg:border-t-2',
+      )}
+    />
+  )
+}
+
+function ModuleStep({ meta, status, next }: { meta: PathModule; status: ModuleStatus; next?: ModuleStatus }) {
   const c = common.use()
   const s = homeStrings.use()
   const locked = status.unlocked === 0
   const Icon = meta.icon
   return (
-    <Link
-      to={`/learn/${meta.slug}`}
-      className={cn(
-        'group relative flex gap-4 rounded-3xl border bg-card p-4 shadow-xs transition hover:-translate-y-0.5 hover:shadow-md sm:flex-col sm:gap-3 sm:p-5',
-        locked && 'opacity-75',
-      )}
-    >
-      <span className={cn('grid size-11 shrink-0 place-items-center rounded-2xl text-white', meta.bg)}>
-        <Icon className="size-6" />
-      </span>
-      <div className="min-w-0 flex-1 space-y-1">
-        <span className="text-xs font-medium text-muted-foreground">{s.step(meta.step)}</span>
-        <h3 className="font-semibold">{c.modules[meta.skill].title}</h3>
-        <p className="text-sm text-muted-foreground">{c.modules[meta.skill].short}</p>
-        <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
-          {locked ? (
-            <span className="flex items-center gap-1 text-muted-foreground">
-              <Lock className="size-3.5" /> {s.locked}
-            </span>
-          ) : (
-            <StatusBadges status={status} bg={meta.bg} />
-          )}
+    <li className="relative flex">
+      <Link
+        to={`/learn/${meta.slug}`}
+        className={cn('group flex flex-1 gap-4 rounded-3xl border bg-card p-4 shadow-xs sm:flex-col sm:gap-3 sm:p-5', CARD_HOVER, locked && 'opacity-75')}
+      >
+        <span className={cn('grid size-11 shrink-0 place-items-center rounded-2xl text-white transition-transform duration-300 ease-out-expo group-hover:scale-105', meta.bg)}>
+          <Icon className="size-6" />
+        </span>
+        <div className="min-w-0 flex-1 space-y-1">
+          <h3 className="font-semibold">
+            <span className="sr-only">{s.step(meta.step)}: </span>
+            {c.modules[meta.skill].title}
+          </h3>
+          <p className="text-sm text-muted-foreground">{c.modules[meta.skill].short}</p>
+          <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
+            {locked ? (
+              <span className="flex items-center gap-1 text-muted-foreground">
+                <Lock className="size-3.5" /> {s.locked}
+              </span>
+            ) : (
+              <StatusBadges status={status} bg={meta.bg} />
+            )}
+          </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+      {next && <Connector open={next.unlocked > 0} tone={meta.bg} />}
+    </li>
   )
 }
 
@@ -74,7 +92,7 @@ function PicturesCard({ status }: { status: ModuleStatus }) {
   return (
     <Link
       to={`/learn/${meta.slug}`}
-      className="group flex flex-col gap-4 rounded-3xl border bg-card p-4 shadow-xs transition hover:-translate-y-0.5 hover:shadow-md sm:flex-row sm:items-center sm:p-5"
+      className={cn('group flex flex-col gap-4 rounded-3xl border bg-card p-4 shadow-xs sm:flex-row sm:items-center sm:p-5', CARD_HOVER)}
     >
       <div className="flex min-w-0 flex-1 gap-4">
         <span className={cn('grid size-11 shrink-0 place-items-center rounded-2xl text-white', meta.bg)}>
@@ -137,7 +155,7 @@ export function HomePage() {
     <div className="mx-auto max-w-6xl space-y-8 px-4 py-6 sm:py-10">
       {!onboarded && <Onboarding />}
 
-      <div className="mx-auto max-w-3xl space-y-3">
+      <div className="space-y-3">
         {onboarded && <WhatsNewBanner />}
         <ProgressCard lang={lang} greeting={s.hello[lang]} action={action} />
       </div>
@@ -147,11 +165,11 @@ export function HomePage() {
           <h2 className="text-lg font-semibold">{s.path}</h2>
           <p className="text-sm text-muted-foreground">{s.pathHint}</p>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <ol className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {MODULES.map((m, i) => (
-            <ModuleStep key={m.skill} meta={m} status={statuses[i]} />
+            <ModuleStep key={m.skill} meta={m} status={statuses[i]} next={statuses[i + 1]} />
           ))}
-        </div>
+        </ol>
       </section>
 
       <section className="space-y-3">

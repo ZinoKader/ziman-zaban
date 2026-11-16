@@ -31,8 +31,8 @@ function TileButton({ tile, lang, showLatin, onClick, disabled, label, className
       disabled={disabled}
       aria-label={label}
       className={cn(
-        'flex min-h-12 flex-col items-center justify-center rounded-xl border-2 border-b-4 bg-card px-3 py-1.5 shadow-xs transition',
-        'enabled:hover:-translate-y-0.5 enabled:hover:border-primary/60 enabled:active:translate-y-0 enabled:active:border-b-2',
+        'flex min-h-12 flex-col items-center justify-center rounded-xl border-2 bg-card px-3 py-1.5 shadow-sm transition-[translate,scale,border-color,box-shadow] duration-200 ease-out-quart',
+        'enabled:hover:-translate-y-0.5 enabled:hover:border-primary/60 enabled:hover:shadow-md enabled:active:translate-y-0 enabled:active:scale-95 enabled:active:shadow-xs',
         'focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/20',
         className,
       )}
