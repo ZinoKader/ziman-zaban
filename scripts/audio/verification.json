@@ -975,13 +975,6 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
-"ckb/1d3f3a7403b69ffb.mp3": {
-"cer": 0.0,
-"hyp": "لە سلێمانی کار دەکەم",
-"by": {
-"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
-}
-},
 "ckb/1d40cc2218f6cc9d.mp3": {
 "cer": 0.0,
 "hyp": "پیس",
@@ -3954,13 +3947,6 @@
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
 }
 },
-"ckb/774d21074a4334b8.mp3": {
-"cer": 0.0,
-"hyp": "یەکدانە تکایە",
-"by": {
-"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
-}
-},
 "ckb/776de0d999fbef27.mp3": {
 "cer": 0.286,
 "hyp": "سەعەد سێ",
@@ -4960,13 +4946,6 @@
 "hyp": "سێو",
 "by": {
 "ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.0
-}
-},
-"ckb/9a51e20bf46cbffd.mp3": {
-"cer": 0.071,
-"hyp": "یەک هێلکم دەوێت",
-"by": {
-"ct2-fa:rzgar/whisper-large-v3-sorani-kurdish-ckb-v2": 0.071
 }
 },
 "ckb/9aa3e1a3caa5c253.mp3": {
@@ -9295,13 +9274,6 @@
 "fw:medium": 0.0
 }
 },
-"fa/1f3434e60634e319.mp3": {
-"cer": 0.0,
-"hyp": "خانه",
-"by": {
-"fw:medium": 0.0
-}
-},
 "fa/1f9f3829ec16d2e9.mp3": {
 "cer": 0.2,
 "hyp": "کردی خندم",
@@ -10532,13 +10504,6 @@
 "hyp": "چهار نفرم",
 "by": {
 "fw:medium": 0.111
-}
-},
-"fa/3d48362a079e0d7c.mp3": {
-"cer": 0.0,
-"hyp": "انگلیسی و انگلیسی صحبت می کنم",
-"by": {
-"fw:medium": 0.0
 }
 },
 "fa/3d87e527ae3a0243.mp3": {
@@ -12326,13 +12291,6 @@
 "fw:medium": 0.0
 }
 },
-"fa/704bc9ce08adc8dc.mp3": {
-"cer": 0.062,
-"hyp": "انگلیسی صحبات میکنم",
-"by": {
-"fw:medium": 0.062
-}
-},
 "fa/70ae95196cc96ddc.mp3": {
 "cer": 0.286,
 "hyp": "فروشکا",
@@ -12583,13 +12541,6 @@
 "hyp": "اهل تهرانم",
 "by": {
 "fw:medium": 0.0
-}
-},
-"fa/76fe031e5806bed8.mp3": {
-"cer": 0.143,
-"hyp": "فر در خانه هستم",
-"by": {
-"fw:medium": 0.143
 }
 },
 "fa/770cc583fd09e9b7.mp3": {
@@ -12854,13 +12805,6 @@
 "fa/7ff135f153d69203.mp3": {
 "cer": 0.2,
 "hyp": "ترزو",
-"by": {
-"fw:medium": 0.2
-}
-},
-"fa/800122b89734456b.mp3": {
-"cer": 0.2,
-"hyp": "انجریسی هرف میزنم",
 "by": {
 "fw:medium": 0.2
 }
@@ -15763,13 +15707,6 @@
 "fw:medium": 0.375
 }
 },
-"fa/c937e3e5789425e9.mp3": {
-"cer": 0.176,
-"hyp": "درسته کلم کار میکنم",
-"by": {
-"fw:medium": 0.176
-}
-},
 "fa/c955be381137479d.mp3": {
 "cer": 0.143,
 "hyp": "نا، ممنون",
@@ -17119,13 +17056,6 @@
 "hyp": "پا دیمی",
 "by": {
 "fw:medium": 0.4
-}
-},
-"fa/f020bcfcc67c5839.mp3": {
-"cer": 0.083,
-"hyp": "فردو خانه هستم",
-"by": {
-"fw:medium": 0.083
 }
 },
 "fa/f03234f4d1c3fc32.mp3": {
