@@ -7,6 +7,9 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 - App: new colours, taken from a dining room in smoked oak with linen and a pale oak floor. Dark mode uses the same browns.
 - App: the home page has less on it. The course card shows how many words you know, today's reviews and one button. Each step of the path shows how many words are due and new, and a large letter from its name in Persian or Sorani. The bars for each module are on the Progress page.
 - Module pages: the numbers are no longer in boxes, and "Why this works" opens when you tap it.
+- App: words, units and picture areas show line icons instead of emojis. Words without a fitting icon, like most numbers, family members and animals, show none.
+- App: green, yellow and red are softer and closer to the browns, and so are the medals and the confetti.
+- App: cards have the same corners and spacing everywhere. On phones, the filters on the Words page fade at the edge to show that they scroll.
 - Words: ten new units add about 300 words to each language: "Body & health", "Clothes & shopping", "Weather & seasons", "Nature & animals", "Cooking & eating out", "Around the house", "Travel & the town", "Work & study", "People & feelings" and "Time & plans". They come after "Keeping a conversation going" and are a step up in level.
 - Progress: new medals at 300, 400 and 500 learned words.
 - Picture recognition: nine photos from the market and the pantry, like the tomato and the honey, now use the word and notes from the new units.

@@ -7,6 +7,9 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 - Appen: nya färger, hämtade från en matsal i rökt ek med linne och ett ljust ekgolv. Mörkt läge har samma bruna toner.
 - Appen: startsidan har mindre på sig. Kurskortet visar hur många ord du kan, dagens repetitioner och en knapp. Varje steg visar hur många ord som ska repeteras och hur många som är nya, och en stor bokstav ur stegets namn på persiska eller sorani. Staplarna för varje modul finns på sidan Framsteg.
 - Modulsidor: siffrorna står inte längre i rutor, och "Därför fungerar det" öppnas när du trycker på det.
+- Appen: ord, enheter och bildområden har enkla ikoner i stället för emojier. Ord som saknar en passande ikon, som de flesta siffror, släktingar och djur, har ingen.
+- Appen: grönt, gult och rött är mjukare och passar bättre till de bruna tonerna, och det gäller även medaljerna och konfettin.
+- Appen: korten har samma hörn och avstånd överallt. På mobilen tonas filtren på sidan Ord ut vid kanten så att det syns att de går att rulla.
 - Ord: tio nya enheter ger runt 300 nya ord i varje språk: "Kroppen & hälsan", "Kläder & shopping", "Väder & årstider", "Naturen & djuren", "Matlagning & restaurang", "Hemma", "Resor & staden", "Jobb & studier", "Människor & känslor" och "Tid & planer". De kommer efter "Hålla igång ett samtal" och är ett steg svårare.
 - Framsteg: nya medaljer vid 300, 400 och 500 inlärda ord.
 - Bildigenkänning: nio foton från marknaden och skafferiet, som tomaten och honungen, använder nu ordet och anteckningarna från de nya enheterna.
