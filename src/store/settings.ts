@@ -25,6 +25,8 @@ export type Settings = {
   sessionSize: number
   autoplayAudio: boolean
   theme: 'light' | 'dark' | 'system'
+  /** Colour scheme. Oak is the current design; turquoise is the earlier palette. */
+  palette: 'oak' | 'turquoise'
   onboarded: boolean
   /** Date (YYYY-MM-DD) of the newest changelog entry the learner has seen. */
   changelogSeen: string | null
@@ -47,6 +49,7 @@ export const DEFAULT_SETTINGS: Settings = {
   sessionSize: 15,
   autoplayAudio: true,
   theme: 'system',
+  palette: 'oak',
   onboarded: false,
   changelogSeen: null,
   accountPromptHiddenAt: null,

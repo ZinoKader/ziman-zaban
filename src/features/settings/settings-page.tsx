@@ -150,6 +150,9 @@ export function SettingsPage() {
           <Row label={s.theme}>
             <Choice k="theme" options={s.themeOptions} />
           </Row>
+          <Row label={s.palette}>
+            <Choice k="palette" options={s.paletteOptions} />
+          </Row>
         </CardContent>
       </Card>
 

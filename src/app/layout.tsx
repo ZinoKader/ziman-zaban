@@ -36,6 +36,13 @@ function useTheme() {
   }, [theme])
 }
 
+function usePalette() {
+  const palette = useSettings((s) => s.palette)
+  useEffect(() => {
+    document.documentElement.dataset.palette = palette
+  }, [palette])
+}
+
 const GLIDE = { type: 'spring', bounce: 0.15, duration: 0.45 } as const
 
 /** Pages come in with a short fade and rise. Moves within one page (a word, a grammar point) don't. */
@@ -169,6 +176,7 @@ const MORE = [
 
 export function AppLayout() {
   useTheme()
+  usePalette()
   useDocumentLang()
   const s = common.use()
   const p = progressStrings.use()

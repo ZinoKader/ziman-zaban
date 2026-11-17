@@ -6,10 +6,12 @@ import { router } from './app/routes'
 import { queryClient } from './data/query-client'
 import { trackServerSaves } from './data/server-saves'
 import { PROGRESS_KEY } from './store/progress'
+import { useSettings } from './store/settings'
 import { startTabSync } from './store/tab-sync'
 import './index.css'
 
 document.documentElement.classList.toggle('dark', window.matchMedia('(prefers-color-scheme: dark)').matches)
+document.documentElement.dataset.palette = useSettings.getState().palette
 queryClient.mount()
 trackServerSaves(queryClient, PROGRESS_KEY)
 startTabSync()
