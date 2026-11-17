@@ -4,6 +4,7 @@ Nytt i Ziman·Zabân, senaste först. Samma ändringar på engelska finns i [CHA
 
 ## 2026-11-17
 
+- Ljud: alla persiska ord, meningar, frågor och svar är nu inspelade av Essi. 446 nya klipp ersätter de sista datorrösterna.
 - Ord: alla ord har nu en ikon. Tal visar sina siffror, färger en droppe färg och familjeord små figurer, till exempel en mamma med sitt barn.
 
 ## 2026-11-16

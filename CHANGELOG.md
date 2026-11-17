@@ -4,6 +4,7 @@ What's new in Ziman·Zabân, newest first. To add an entry, follow [the changelo
 
 ## 2026-11-17
 
+- Audio: every Persian word, sentence, question and answer is now recorded by Essi. 446 new clips replace the last computer voices.
 - Words: every word now has an icon. Numbers show their digits, colours a drop of paint, and family words small figures, like a mother with her child.
 
 ## 2026-11-16
